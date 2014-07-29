@@ -1,2 +1,3 @@
-#! /bin/sh
+#! /bin/sh -x
+
 apt-get clean

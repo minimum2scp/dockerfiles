@@ -1,3 +1,4 @@
-#! /bin/sh
+#! /bin/sh -x
+
 pip install sphinxjp.themecore sphinxjp.themes.sphinxjp sphinx_rtd_theme
 
