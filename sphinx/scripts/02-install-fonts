@@ -1,0 +1,5 @@
+#! /bin/sh
+apt-get install --no-install-recommends -y fonts-ipafont-gothic fonts-ipafont-mincho
+mkdir /usr/share/fonts/ipa-gothic
+ln -s /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf /usr/share/fonts/ipa-gothic/ipag.ttf
+

@@ -1,0 +1,4 @@
+#! /bin/sh
+apt-get install --no-install-recommends -y libfreetype6 libjpeg8 python-pip python-pil
+apt-get install --no-install-recommends -y python-sphinx python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag
+
