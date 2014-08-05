@@ -1,0 +1,2 @@
+#! /bin/sh -x
+cp -a /build/src/sources.list /etc/apt/sources.list
