@@ -1,0 +1,4 @@
+#! /bin/sh -x
+
+apt-get install --no-install-recommends -y apt-cacher-ng
+
