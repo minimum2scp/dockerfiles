@@ -15,5 +15,5 @@ fi
 debootstrap_options="--arch=amd64 --variant=minbase --include=iproute2,inetutils-ping"
 debootstrap_options="$debootstrap_options sid http://ftp.jp.debian.org/debian"
 
-sudo TMPDIR=${tmpdir} ${tmpdir}/docker/contrib/mkimage.sh ${tag_option} debootstrap ${debootstrap_options}
+sudo ${http_proxy+http_proxy=$http_proxy} TMPDIR=${tmpdir} ${tmpdir}/docker/contrib/mkimage.sh ${tag_option} debootstrap ${debootstrap_options}
 
