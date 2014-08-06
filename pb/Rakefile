@@ -12,10 +12,8 @@ task :default => :"docker-build"
 
 desc 'build docker image'
 task :"docker-build" => relpath[pbsetup_script] do
-  tag = ENV['TAG']
-  sh "docker build %s ." % [
-    (tag ? "-t #{tag} " : "")
-  ]
+  tag_option = ENV['TAG'] ? "-t #{ENV['TAG']}" : ""
+  sh "docker build #{tag_option} ."
 end
 
 desc "create build/tmp"
