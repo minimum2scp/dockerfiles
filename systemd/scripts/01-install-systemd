@@ -1,0 +1,4 @@
+#! /bin/sh -x
+
+apt-get install --no-install-recommends -y systemd systemd-sysv dbus
+
