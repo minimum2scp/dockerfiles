@@ -2,6 +2,8 @@
 
 apt-get install -y --no-install-recommends sysvinit-core
 
-## disable tty2, ..., tty7
-sed -i -e '/^[2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7]$/d' /etc/inittab
+## disable tty1, ..., tty7
+sed -i -e '/^1:2345:respawn:\/sbin\/getty 38400 tty1/d' \
+       -e '/^[2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7]$/d' \
+       /etc/inittab
 
