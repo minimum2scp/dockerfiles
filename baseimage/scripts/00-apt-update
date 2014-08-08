@@ -1,0 +1,4 @@
+#! /bin/sh -x
+apt-get update
+apt-get dist-upgrade -y --fix-missing --fix-broken
+

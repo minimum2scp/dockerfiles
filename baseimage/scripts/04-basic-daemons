@@ -1,0 +1,4 @@
+#! /bin/sh -x
+
+apt-get install -y --no-install-recommends openssh-server rsyslog cron
+
