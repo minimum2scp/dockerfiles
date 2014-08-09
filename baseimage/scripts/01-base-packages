@@ -1,4 +1,0 @@
-#! /bin/sh -x
-
-apt-get install -y --no-install-recommends \
-  sudo adduser locales vim curl ca-certificates

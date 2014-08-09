@@ -1,0 +1,79 @@
+#! /bin/sh
+
+set -x
+set -e
+
+##
+## install basic packages
+##
+apt-get install -y --no-install-recommends \
+  sudo adduser locales curl ca-certificates perl openssl \
+  git lv vim man
+
+##
+## install and configure locales
+##
+apt-get install -y --no-install-recommends locales
+
+if [ -f /etc/default/locale ]; then
+  echo "LANG=C"              >> /etc/default/locale
+fi
+if [ -f /etc/locale.gen ]; then
+  perl -pi -e 's@^#\s*(ja_JP.UTF-8\s+UTF-8)@\$1@'   /etc/locale.gen
+  locale-gen
+else
+  echo "ja_JP.UTF-8 UTF-8"    > /etc/locale.gen
+  locale-gen
+fi
+
+##
+## install and configure timezone
+##
+apt-get install -y --no-install-recommends tzdata
+
+echo "Asia/Tokyo" > /etc/timezone
+cp -a -L /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+
+##
+## install sysvinit
+##
+apt-get install -y --no-install-recommends sysvinit-core
+
+##
+## install sshd, syslog, cron daemons
+##
+apt-get install -y --no-install-recommends openssh-server rsyslog cron
+
+##
+## disable tty
+##
+#perl -pi -e 's/^(1:2345:respawn:\/sbin\/getty 38400 tty1)/#$1/'         /etc/inittab
+#perl -pi -e 's/^([2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7])$/#$1/g' /etc/inittab
+
+##
+## disable hwclock
+##
+perl -pi -e 's/^#HWCLOCKACCESS=yes$/HWCLOCKACCESS=no/' /etc/default/hwclock
+
+##
+## sudo configuration
+##
+cat <<EOS >>/etc/sudoers.d/local
+%sudo ALL=NOPASSWD: ALL
+EOS
+
+##
+## setup user
+##
+adduser --disabled-password --quiet --gecos '' --shell /bin/bash debian
+adduser debian sudo
+adduser debian adm
+
+##
+## setup user password
+##
+# NOTE: use chpasswd -e option and
+#       "echo 'plainpassword' | openssl passwd -1 -stdin
+#       to encrypt password.
+echo 'debian:debian' | chpasswd
+

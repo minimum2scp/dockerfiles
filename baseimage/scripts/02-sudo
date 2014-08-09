@@ -1,5 +1,0 @@
-#! /bin/sh -x
-
-cat <<EOS >>/etc/sudoers.d/local
-%sudo ALL=NOPASSWD: ALL
-EOS
