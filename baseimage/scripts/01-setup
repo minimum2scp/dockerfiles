@@ -19,7 +19,7 @@ if [ -f /etc/default/locale ]; then
   echo "LANG=C"              >> /etc/default/locale
 fi
 if [ -f /etc/locale.gen ]; then
-  perl -pi -e 's@^#\s*(ja_JP.UTF-8\s+UTF-8)@\$1@'   /etc/locale.gen
+  perl -pi -e 's@^#\s*(ja_JP.UTF-8\s+UTF-8)@$1@'   /etc/locale.gen
   locale-gen
 else
   echo "ja_JP.UTF-8 UTF-8"    > /etc/locale.gen
