@@ -1,5 +1,7 @@
 #! /bin/sh -x
 
+export DEBIAN_FRONTEND=noninteractive
+
 cat <<EOS > /etc/apt/sources.list
 ##
 ## stable

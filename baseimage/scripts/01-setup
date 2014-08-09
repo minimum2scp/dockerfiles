@@ -3,12 +3,14 @@
 set -x
 set -e
 
+export DEBIAN_FRONTEND=noninteractive
+
 ##
 ## install basic packages
 ##
 apt-get install -y --no-install-recommends \
   sudo adduser locales curl ca-certificates perl openssl \
-  git lv vim man
+  git lv vim man whiptail zsh apt-utils
 
 ##
 ## install and configure locales
@@ -45,10 +47,15 @@ apt-get install -y --no-install-recommends sysvinit-core
 apt-get install -y --no-install-recommends openssh-server rsyslog cron
 
 ##
+## do not run rc.S
+##
+perl -pi -e 's/^(si::sysinit:\/etc\/init.d\/rcS)$/#$1/' /etc/inittab
+
+##
 ## disable tty
 ##
-#perl -pi -e 's/^(1:2345:respawn:\/sbin\/getty 38400 tty1)/#$1/'         /etc/inittab
-#perl -pi -e 's/^([2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7])$/#$1/g' /etc/inittab
+perl -pi -e 's/^(1:2345:respawn:\/sbin\/getty 38400 tty1)/#$1/'         /etc/inittab
+perl -pi -e 's/^([2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7])$/#$1/g' /etc/inittab
 
 ##
 ## disable hwclock
