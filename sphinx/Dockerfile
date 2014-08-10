@@ -1,4 +1,4 @@
-FROM minimum2scp/debian:latest
+FROM minimum2scp/baseimage:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
 ADD scripts /build/scripts
