@@ -16,21 +16,18 @@ gem install -N tdiary
 ##
 ## create new diary
 ##
-sudo -u debian sh -c "cd /home/debian; tdiary new --skip-bundle diary"
-cat <<EOS | sudo -u debian sh -c "cd /home/debian/diary; cat > Gemfile.local"
-gem 'tdiary'
-gem 'tdiary-contrib'
-gem 'tdiary-style-gfm'
-EOS
 
-sudo -u debian sh -c "cd /home/debian/diary; mkdir -p vendor/bundle"
-sudo -u debian sh -c "cd /home/debian/diary; bundle install --path vendor/bundle --without development test"
-cat <<EOS | sudo -u debian sh -c "cd /home/debian/diary; bundle exec tdiary htpasswd"
-debian
-debian
-debian
-EOS
-sudo -u debian sh -c "cd /home/debian/diary; cp -a tdiary.conf tdiary.conf.orig"
+sudo -u debian /build/scripts/user-scripts/create-new-diary.sh
 install -m 644 -o debian -g debian -p /build/scripts/conf/tdiary.conf /home/debian/diary/tdiary.conf
+install -m 755 -o debian -g debian -p /build/scripts/conf/start.sh    /home/debian/diary/start.sh
 
+##
+## install supervisor
+##
+apt-get install -y --no-install-recommends supervisor
+
+##
+## add tdiary to supervisor
+##
+install -m 644 -o root -g root -p /build/scripts/conf/supervisor-tdiary.conf /etc/supervisor/conf.d/tdiary.conf
 
