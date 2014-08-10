@@ -1,0 +1,24 @@
+#! /bin/sh -x
+
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install sphinx
+##
+apt-get install --no-install-recommends -y \
+  python-sphinx python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag \
+  python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag \
+  python-pip python-pil make
+
+##
+## install font
+##
+apt-get install --no-install-recommends -y fonts-ipafont-gothic fonts-ipafont-mincho
+mkdir /usr/share/fonts/ipa-gothic
+ln -s /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf /usr/share/fonts/ipa-gothic/ipag.ttf
+
+##
+## install sphinx theme
+##
+pip install sphinxjp.themecore sphinxjp.themes.sphinxjp sphinx_rtd_theme
+
