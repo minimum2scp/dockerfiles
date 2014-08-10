@@ -1,0 +1,15 @@
+#! /bin/sh -x
+
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install squid3
+##
+apt-get install --no-install-recommends -y squid3
+
+##
+## configure squid3
+##
+cp -a /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
+cp -a /build/scripts/conf/squid.conf /etc/squid3/squid.conf
+
