@@ -1,0 +1,36 @@
+#! /bin/sh -x
+
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install ruby and build tool
+##
+apt-get install --no-install-recommends -y \
+  ruby ruby-dev bundler build-essential
+
+##
+## install tdiary gem
+##
+gem install -N tdiary
+
+##
+## create new diary
+##
+sudo -u debian sh -c "cd /home/debian; tdiary new --skip-bundle diary"
+cat <<EOS | sudo -u debian sh -c "cd /home/debian/diary; cat > Gemfile.local"
+gem 'tdiary'
+gem 'tdiary-contrib'
+gem 'tdiary-style-gfm'
+EOS
+
+sudo -u debian sh -c "cd /home/debian/diary; mkdir -p vendor/bundle"
+sudo -u debian sh -c "cd /home/debian/diary; bundle install --path vendor/bundle --without development test"
+cat <<EOS | sudo -u debian sh -c "cd /home/debian/diary; bundle exec tdiary htpasswd"
+debian
+debian
+debian
+EOS
+sudo -u debian sh -c "cd /home/debian/diary; cp -a tdiary.conf tdiary.conf.orig"
+install -m 644 -o debian -g debian -p /build/scripts/conf/tdiary.conf /home/debian/diary/tdiary.conf
+
+
