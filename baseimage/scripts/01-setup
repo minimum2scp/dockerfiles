@@ -72,7 +72,8 @@ EOS
 ##
 ## setup user
 ##
-adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash debian
+addgroup --gid 2000 debian
+adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash --uid 2000 --ingroup debian debian
 adduser debian sudo
 adduser debian adm
 
