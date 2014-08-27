@@ -1,0 +1,24 @@
+#! /bin/sh -x
+
+export DEBIAN_FRONTEND=noninteractive
+
+## install ruby2.1
+apt-get install --no-install-recommends -y ruby ruby-dev bundler rake
+
+## install build-dependencies
+apt-get install --no-install-recommends -y build-essential ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev libcurl4-openssl-dev
+
+## install fluentd-ui dependencies
+apt-get install --no-install-recommends -y ruby-bcrypt ruby-addressable ruby-font-awesome-rails ruby-sass-rails ruby-jquery-rails ruby-jbuilder ruby-httpclient ruby-settingslogic ruby-thor ruby-kramdown ruby-zip
+apt-get install --no-install-recommends -y ruby-rack ruby-erubis ruby-tilt ruby-sprockets ruby-sprockets-rails ruby-timers ruby-celluloid ruby-yajl ruby-http-parser.rb ruby-msgpack ruby-i18n ruby-tzinfo ruby-minitest ruby-mime-types ruby-polyglot ruby-treetop ruby-hike ruby-multi-json
+
+## install fluentd-ui
+sudo -u debian bash -l -c "gem install -N --user fluentd-ui"
+
+## install supervisor
+apt-get install --no-install-recommends -y supervisor
+
+## install supervisor config for fluentd-ui
+install -m 644 -o root -g root -p /build/scripts/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
+
+
