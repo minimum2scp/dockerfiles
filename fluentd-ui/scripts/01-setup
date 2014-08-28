@@ -6,19 +6,20 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install --no-install-recommends -y ruby ruby-dev bundler rake
 
 ## install build-dependencies
-apt-get install --no-install-recommends -y build-essential ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev libcurl4-openssl-dev
-
-## install fluentd-ui dependencies
-apt-get install --no-install-recommends -y ruby-bcrypt ruby-addressable ruby-font-awesome-rails ruby-sass-rails ruby-jquery-rails ruby-jbuilder ruby-httpclient ruby-settingslogic ruby-thor ruby-kramdown ruby-zip
-apt-get install --no-install-recommends -y ruby-rack ruby-erubis ruby-tilt ruby-sprockets ruby-sprockets-rails ruby-timers ruby-celluloid ruby-yajl ruby-http-parser.rb ruby-msgpack ruby-i18n ruby-tzinfo ruby-minitest ruby-mime-types ruby-polyglot ruby-treetop ruby-hike ruby-multi-json
+apt-get install --no-install-recommends -y build-essential ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev libcurl4-openssl-dev zip unzip
 
 ## install fluentd-ui
-sudo -u debian bash -l -c "gem install -N --user fluentd-ui"
+sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.1.4 /home/debian/fluentd-ui
+sudo -u debian mkdir -p /home/debian/fluentd-ui/vendor/bundle
+sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path vendor/bundle --binstubs --without development test"
 
 ## install supervisor
 apt-get install --no-install-recommends -y supervisor
 
 ## install supervisor config for fluentd-ui
 install -m 644 -o root -g root -p /build/scripts/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
+
+## install startup script for fluentd-ui
+install -m 755 -o debian -g debian -p /build/scripts/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
 
 
