@@ -1,5 +1,7 @@
-#! /bin/sh -x
+#! /bin/sh
 
+set -e
+set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ## install ruby2.1
@@ -17,9 +19,9 @@ sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path vendor
 apt-get install --no-install-recommends -y supervisor
 
 ## install supervisor config for fluentd-ui
-install -m 644 -o root -g root -p /build/scripts/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
+install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
 
 ## install startup script for fluentd-ui
-install -m 755 -o debian -g debian -p /build/scripts/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
+install -m 755 -o debian -g debian -p /build/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
 
 
