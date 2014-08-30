@@ -21,5 +21,10 @@ namespace :minimum2scp do
     env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
     sh "cd pb && rake clean docker-build #{tag} #{env}"
   end
+
+  desc "create deps.svg from deps.dot (visualize dependencies)"
+  file "deps.svg" => "deps.dot" do
+    sh "dot -T svg -o deps.svg deps.dot"
+  end
 end
 

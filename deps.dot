@@ -1,0 +1,20 @@
+digraph deps {
+  graph        [rankdir = "LR"];
+  ratio = auto;
+
+  acng         [label = "apt-cacher-ng"];
+  baseimage    [label = "baseimage"];
+  debian       [label = "debian"];
+  es_kibana    [label = "es-kibana"];
+  fluentd_ui   [label = "fluentd-ui"];
+  pb           [label = "pb"];
+  ruby         [label = "ruby"];
+  sphinx       [label = "sphinx"];
+  squid        [label = "squid"];
+  systemd      [label = "systemd"];
+  tdiary       [label = "tdiary"];
+
+  debian    -> baseimage;
+  baseimage -> {acng, es_kibana, pb, ruby, sphinx, squid, systemd};
+  ruby      -> {fluentd_ui, tdiary};
+}
