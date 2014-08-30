@@ -1,0 +1,23 @@
+#! /bin/bash
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## enable rbenv
+. /etc/profile.d/rbenv.sh
+
+## install subversion to build ruby 1.8.7-p375 (requires svn commands)
+apt-get install --no-install-recommends -y subversion
+
+## build rubies
+rbenv install 1.8.7-p375
+rbenv install 1.9.3-p547
+rbenv install 2.0.0-p481
+rbenv install 2.1.2
+set +e
+rbenv install 2.2.0-dev
+rbenv install mruby-1.0.0
+rbenv install mruby-dev
+set -e
+
