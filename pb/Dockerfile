@@ -1,7 +1,7 @@
-FROM minimum2scp/systemd:latest
+FROM minimum2scp/baseimage:latest
 MAINTAINER YAMADA Tsuyoshi tyamada@minimum2scp.org
 
-ADD build /build
+COPY build /build
 RUN run-parts --report /build/scripts && rm -rf /build
 
 CMD ["/sbin/init"]

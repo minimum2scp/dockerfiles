@@ -1,4 +1,8 @@
-#! /bin/sh -x
+#! /bin/sh
 
+set -e
+set -x
 export DEBIAN_FRONTEND=noninteractive
+
+## private script
 /build/tmp/pbsetup.sh
