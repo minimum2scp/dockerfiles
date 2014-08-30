@@ -5,11 +5,6 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## install ruby and build tool
-##
-apt-get install --no-install-recommends -y ruby ruby-dev bundler build-essential
-
-##
 ## install tdiary gem
 ##
 gem install -N tdiary
