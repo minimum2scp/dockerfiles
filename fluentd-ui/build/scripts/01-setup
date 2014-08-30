@@ -4,11 +4,8 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## install ruby2.1
-apt-get install --no-install-recommends -y ruby ruby-dev bundler rake
-
 ## install build-dependencies
-apt-get install --no-install-recommends -y build-essential ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev libcurl4-openssl-dev zip unzip
+apt-get install --no-install-recommends -y libcurl4-openssl-dev zip unzip
 
 ## install fluentd-ui
 sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.1.4 /home/debian/fluentd-ui

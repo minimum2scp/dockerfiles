@@ -1,4 +1,4 @@
-FROM minimum2scp/baseimage:latest
+FROM minimum2scp/ruby:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
 ADD build /build
