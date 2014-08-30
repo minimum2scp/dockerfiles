@@ -2,7 +2,6 @@
 
 set -e
 set -x
-
 export DEBIAN_FRONTEND=noninteractive
 
 apt-get install --no-install-recommends -y systemd systemd-sysv dbus
