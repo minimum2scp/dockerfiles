@@ -1,5 +1,8 @@
-#! /bin/sh -x
+#! /bin/sh
 
+set -e
+set -x
 export DEBIAN_FRONTEND=noninteractive
+
 apt-get install --no-install-recommends -y apt-cacher-ng
 
