@@ -1,16 +1,13 @@
 #! /bin/sh
 
-set -x
 set -e
-
+set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
 ## install basic packages
 ##
-apt-get install -y --no-install-recommends \
-  sudo adduser locales curl ca-certificates perl openssl \
-  git lv vim man whiptail zsh apt-utils
+apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates perl openssl git lv vim man whiptail zsh apt-utils
 
 ##
 ## install and configure locales

@@ -1,8 +1,3 @@
-#! /bin/sh -x
-
-export DEBIAN_FRONTEND=noninteractive
-
-cat <<EOS > /etc/apt/sources.list
 ##
 ## stable
 ##
@@ -36,8 +31,4 @@ deb     http://ftp.jp.debian.org/debian/ sid main non-free contrib
 
 #deb     http://ftp.jp.debian.org/debian/ experimental main non-free contrib
 #deb-src http://ftp.jp.debian.org/debian/ experimental main non-free contrib
-EOS
-
-apt-get update
-apt-get dist-upgrade -y --fix-missing --fix-broken
 
