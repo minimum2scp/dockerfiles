@@ -1,0 +1,33 @@
+#! /bin/bash
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## install rbenv into /opt/rbenv, with git
+git clone https://github.com/sstephenson/rbenv.git -b v0.4.0 /opt/rbenv
+install -m 755 -o root -g root -p /build/etc/profile.d/rbenv.sh /etc/profile.d/rbenv.sh
+
+## install ruby-build
+git clone https://github.com/sstephenson/ruby-build.git         /opt/rbenv/plugins/ruby-build
+
+## install rbenv-default-gems
+git clone https://github.com/sstephenson/rbenv-default-gems.git /opt/rbenv/plugins/rbenv-default-gems
+install -m 644 -o root -g root -p /build/opt/rbenv/default-gems /opt/rbenv/default-gems
+
+## install rbenv-gem-rehash
+git clone https://github.com/sstephenson/rbenv-gem-rehash.git   /opt/rbenv/plugins/rbenv-gem-rehash
+
+## install rbenv-aliases
+git clone https://github.com/tpope/rbenv-aliases.git            /opt/rbenv/plugins/rbenv-aliases
+
+## enable rbenv
+. /etc/profile.d/rbenv.sh
+
+## build rubies
+rbenv install 1.8.7-p375
+rbenv install 1.9.3-p547
+rbenv install 2.0.0-p481
+rbenv install 2.1.2
+rbenv install 2.2.0-dev
+
