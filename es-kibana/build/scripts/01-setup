@@ -1,5 +1,7 @@
-#! /bin/sh -x
+#! /bin/sh
 
+set -e
+set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ## install dependency for elasticsearch
@@ -7,21 +9,21 @@ apt-get install --no-install-recommends -y default-jre-headless
 
 ## install elasticsearch
 curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
-echo "deb http://packages.elasticsearch.org/elasticsearch/1.3/debian stable main" > /etc/apt/sources.list.d/elasticsearch.list
+install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/elasticsearch.list /etc/apt/sources.list.d/elasticsearch.list
 apt-get update
 apt-get install --no-install-recommends -y elasticsearch
 insserv elasticsearch
 
 ## download kibana, and extract to /var/www/html
 cd /tmp
-curl -LO https://download.elasticsearch.org/kibana/kibana/kibana-3.1.0.tar.gz
+curl -LO http://download.elasticsearch.org/kibana/kibana/kibana-latest.tar.gz
 mkdir -p /var/www/html
-tar xf /tmp/kibana-3.1.0.tar.gz -C /var/www/html --strip-components=1
-rm /tmp/kibana-3.1.0.tar.gz
+tar xf /tmp/kibana-latest.tar.gz -C /var/www/html --strip-components=1
+rm /tmp/kibana-latest.tar.gz
 
 ## install and configure nginx
 apt-get install --no-install-recommends -y nginx-full
-install -m 644 -o root -g root -p /build/scripts/etc/nginx/sites-available/kibana /etc/nginx/sites-available/kibana
+install -m 644 -o root -g root -p /build/etc/nginx/sites-available/kibana /etc/nginx/sites-available/kibana
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
 
