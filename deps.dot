@@ -9,6 +9,7 @@ digraph deps {
   fluentd_ui   [label = "fluentd-ui"];
   pb           [label = "pb"];
   ruby         [label = "ruby"];
+  ruby_full    [label = "ruby-full"];
   sphinx       [label = "sphinx"];
   squid        [label = "squid"];
   systemd      [label = "systemd"];
@@ -16,5 +17,5 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, pb, ruby, sphinx, squid, systemd};
-  ruby      -> {fluentd_ui, tdiary};
+  ruby      -> {fluentd_ui, ruby_full, tdiary};
 }
