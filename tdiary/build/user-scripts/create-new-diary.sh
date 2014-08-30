@@ -1,4 +1,7 @@
-#! /bin/sh -x
+#! /bin/sh
+
+set -e
+set -x
 
 cd /home/debian
 tdiary new --skip-bundle diary
