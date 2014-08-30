@@ -25,7 +25,7 @@ git clone https://github.com/tpope/rbenv-aliases.git             /opt/rbenv/plug
 . /etc/profile.d/rbenv.sh
 
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
-apt-get install --no-install-recommends subversion
+apt-get install --no-install-recommends -y subversion
 
 ## build rubies
 rbenv install 1.8.7-p375
