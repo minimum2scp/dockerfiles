@@ -1,14 +1,18 @@
-#! /bin/sh -x
+#! /bin/sh
 
+set -e
+set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
 ## install sphinx
 ##
-apt-get install --no-install-recommends -y \
-  python-sphinx python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag \
-  python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag \
-  python-pip python-pil make
+sphinx_packages="python-sphinx"
+sphinx_packages="$sphinx_packages python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag"
+sphinx_packages="$sphinx_packages python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag"
+sphinx_packages="$sphinx_packages python-pip python-pil"
+sphinx_packages="$sphinx_packages make"
+apt-get install --no-install-recommends -y ${sphinx_packages}
 
 ##
 ## install font
