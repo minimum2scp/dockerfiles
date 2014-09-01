@@ -7,10 +7,12 @@ export DEBIAN_FRONTEND=noninteractive
 ## install build-dependencies
 apt-get install --no-install-recommends -y libcurl4-openssl-dev zip unzip
 
+## put .gemrc
+install -m 644 -o debian -g debian -p /build/home/debian/.gemrc /home/debian/.gemrc
+
 ## install fluentd-ui
 sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.1.4 /home/debian/fluentd-ui
-sudo -u debian mkdir -p /home/debian/fluentd-ui/vendor/bundle
-sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path vendor/bundle --binstubs --without development test"
+sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --binstubs --without development test"
 
 ## install supervisor
 apt-get install --no-install-recommends -y supervisor
