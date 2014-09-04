@@ -1,0 +1,5 @@
+gem "tdiary", :path => "."
+gem "tdiary-contrib", :path => "../tdiary-contrib"
+#gem "tdiary-style-rd", :path => "../tdiary-style-rd"
+gem "tdiary-style-gfm", :path => "../tdiary-style-gfm"
+

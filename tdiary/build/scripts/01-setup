@@ -5,17 +5,9 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## install tdiary gem
+## setup tdiary
 ##
-gem install -N tdiary
-
-##
-## create new diary
-##
-
-sudo -u debian /build/user-scripts/create-new-diary.sh
-install -m 644 -o debian -g debian -p /build/home/debian/diary/tdiary.conf /home/debian/diary/tdiary.conf
-install -m 755 -o debian -g debian -p /build/home/debian/diary/start.sh    /home/debian/diary/start.sh
+sudo -H -u debian /build/user-scripts/setup-tdiary.rb
 
 ##
 ## install supervisor
@@ -26,4 +18,5 @@ apt-get install -y --no-install-recommends supervisor
 ## add tdiary to supervisor
 ##
 install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/tdiary.conf /etc/supervisor/conf.d/tdiary.conf
+
 
