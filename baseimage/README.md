@@ -1,6 +1,6 @@
 ## start container:
 
-run /sbin/init and init invokes sshd, rsyslog, cron daemons.
+run /sbin/init and init invokes sshd, rsyslog, cron, monit daemons.
 
 ```
 docker run -d -p 2222:22 minimum2scp/baseimage:latest
@@ -12,3 +12,4 @@ docker run -d -p 2222:22 minimum2scp/baseimage:latest
 ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 2222 debian@localhost
 ```
 (password is "debian")
+

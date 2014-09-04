@@ -10,6 +10,15 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates perl openssl git lv vim man whiptail zsh apt-utils
 
 ##
+## install etckeeper
+##
+git config --global user.email "root@`hostname`"
+git config --global user.name "root"
+apt-get install -y --no-install-recommends etckeeper
+perl -pi -e 's/^GIT_COMMIT_OPTIONS=""$/GIT_COMMIT_OPTIONS="-v"/' /etc/etckeeper/etckeeper.conf
+etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
+
+##
 ## install and configure locales
 ##
 apt-get install -y --no-install-recommends locales
@@ -24,6 +33,7 @@ else
   echo "ja_JP.UTF-8 UTF-8"    > /etc/locale.gen
   locale-gen
 fi
+etckeeper commit "set locale"
 
 ##
 ## install and configure timezone
@@ -32,6 +42,7 @@ apt-get install -y --no-install-recommends tzdata
 
 echo "Asia/Tokyo" > /etc/timezone
 cp -a -L /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+etckeeper commit "set timezone"
 
 ##
 ## install sysvinit
@@ -47,17 +58,20 @@ apt-get install -y --no-install-recommends openssh-server rsyslog cron
 ## do not run rc.S
 ##
 perl -pi -e 's/^(si::sysinit:\/etc\/init.d\/rcS)$/#$1/' /etc/inittab
+etckeeper commit "inittab: disabled rcS"
 
 ##
 ## disable tty
 ##
 perl -pi -e 's/^(1:2345:respawn:\/sbin\/getty 38400 tty1)/#$1/'         /etc/inittab
 perl -pi -e 's/^([2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7])$/#$1/g' /etc/inittab
+etckeeper commit "inittab: disabled tty1-7"
 
 ##
 ## disable hwclock
 ##
 perl -pi -e 's/^#HWCLOCKACCESS=yes$/HWCLOCKACCESS=no/' /etc/default/hwclock
+etckeeper commit "hwclock: disabled"
 
 ##
 ## sudo configuration
@@ -65,20 +79,26 @@ perl -pi -e 's/^#HWCLOCKACCESS=yes$/HWCLOCKACCESS=no/' /etc/default/hwclock
 cat <<EOS >>/etc/sudoers.d/local
 %sudo ALL=NOPASSWD: ALL
 EOS
+etckeeper commit "sudo: allow sudo group without asking password"
 
 ##
-## setup user
+## install and configure monit
+##
+apt-get install monit
+insserv -r monit
+etckeeper commit "monit: disabled auto start"
+install -m 600 -o root -g root -p /build/etc/monit/conf.d/monit_httpd.conf /etc/monit/conf.d/monit_httpd.conf
+etckeeper commit "monit: enabled web interface"
+
+##
+## setup user (username: debian, password: debian)
 ##
 addgroup --gid 2000 debian
 adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash --uid 2000 --ingroup debian debian
 adduser debian sudo
 adduser debian adm
-
-##
-## setup user password
-##
-# NOTE: use chpasswd -e option and
-#       "echo 'plainpassword' | openssl passwd -1 -stdin
-#       to encrypt password.
+## NOTE: To encrypt password, use chpasswd -e option.
+##   openssl passwd command creates encpryted password: "echo 'plainpassword' | openssl passwd -1 -stdin
 echo 'debian:debian' | chpasswd
+etckeeper commit "adduser debian"
 
