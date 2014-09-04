@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## git clone tdiary-xxx into /home/debian/tdiary/tdiary-xxx
 ##
-mkdir $HOME/tdiary
+mkdir -p $HOME/tdiary/data
 git clone https://github.com/tdiary/tdiary-core.git       $HOME/tdiary/tdiary-core
 git clone https://github.com/tdiary/tdiary-contrib.git    $HOME/tdiary/tdiary-contrib
 git clone https://github.com/tdiary/tdiary-style-gfm.git  $HOME/tdiary/tdiary-style-gfm
