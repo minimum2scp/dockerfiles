@@ -10,9 +10,10 @@ export DEBIAN_FRONTEND=noninteractive
 sudo -H -u debian /build/user-scripts/setup-tdiary.rb
 
 ##
-## install supervisor
+## autostart supervisor
+## (supervisor is already installed in baseimage)
 ##
-apt-get install -y --no-install-recommends supervisor
+insserv supervisor
 
 ##
 ## add tdiary to supervisor
