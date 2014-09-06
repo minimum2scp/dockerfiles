@@ -7,6 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ## install rbenv into /opt/rbenv, with git
 git clone https://github.com/sstephenson/rbenv.git -b v0.4.0     /opt/rbenv
 install -m 755 -o root -g root -p /build/etc/profile.d/rbenv.sh  /etc/profile.d/rbenv.sh
+etckeeper commit "add /etc/profile.d/rbenv.sh to use /opt/rbenv"
 
 ## install ruby-build
 git clone https://github.com/sstephenson/ruby-build.git          /opt/rbenv/plugins/ruby-build
