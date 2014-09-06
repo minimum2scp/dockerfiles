@@ -10,9 +10,11 @@ apt-get install --no-install-recommends -y default-jre-headless
 ## install elasticsearch
 curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
 install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/elasticsearch.list /etc/apt/sources.list.d/elasticsearch.list
+etckeeper commit "apt: add elasticsearch apt-line"
 apt-get update
 apt-get install --no-install-recommends -y elasticsearch
 insserv elasticsearch
+etckeeper commit "enabled autostart eelasticsearch"
 
 ## download kibana, and extract to /var/www/html
 cd /tmp
@@ -26,4 +28,5 @@ apt-get install --no-install-recommends -y nginx-light
 install -m 644 -o root -g root -p /build/etc/nginx/sites-available/kibana /etc/nginx/sites-available/kibana
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
+etckeeper commit "nginx: disabled default site, enabled kibana site"
 
