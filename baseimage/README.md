@@ -1,6 +1,6 @@
 ## start container:
 
-run /sbin/init and init invokes sshd, rsyslog, cron, monit daemons.
+run /sbin/init and init invokes sshd, rsyslog, cron daemons.
 
 ```
 docker run -d -p 2222:22 minimum2scp/baseimage:latest

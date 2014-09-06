@@ -82,15 +82,6 @@ EOS
 etckeeper commit "sudo: allow sudo group without asking password"
 
 ##
-## install and configure monit
-##
-apt-get install monit
-insserv -r monit
-etckeeper commit "monit: disabled auto start"
-install -m 600 -o root -g root -p /build/etc/monit/conf.d/monit_httpd.conf /etc/monit/conf.d/monit_httpd.conf
-etckeeper commit "monit: enabled web interface"
-
-##
 ## setup user (username: debian, password: debian)
 ##
 addgroup --gid 2000 debian
