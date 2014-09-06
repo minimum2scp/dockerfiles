@@ -12,6 +12,6 @@ apt-get install --no-install-recommends -y squid3
 ##
 ## configure squid3
 ##
-cp -a /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
 install -m 644 -o root -g root -p /build/etc/squid3/squid.conf /etc/squid3/squid.conf
+etckeeper commit "squid: allow from localnet (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, fe80::/10)"
 
