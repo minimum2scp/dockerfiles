@@ -102,3 +102,12 @@ etckeeper commit "supervisor: set socket as root:adm 775, and enabled inet_http_
 insserv -r supervisor
 etckeeper commit "supervisor: disabled autostart"
 
+##
+## install nginx-light, but do not run
+##
+apt-get install -y --no-install-recommends nginx-light
+install -m 644 -o root -g root -p /build/etc/nginx/conf.d/misc.conf /etc/nginx/conf.d/misc.conf
+etckeeper commit "nginx: add conf.d/misc.conf"
+insserv -r nginx
+etckeeper commit "nginx: disabled autostart"
+
