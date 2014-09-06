@@ -1,0 +1,19 @@
+upstream tdiary {
+        server localhost:19292;
+}
+
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server ipv6only=on;
+
+        server_name localhost;
+
+        root /var/www/html;
+        index index.html index.htm;
+
+        location / {
+                proxy_pass http://tdiary;
+                break;
+        }
+}
+

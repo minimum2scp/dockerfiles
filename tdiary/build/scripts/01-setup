@@ -14,10 +14,22 @@ sudo -H -u debian /build/user-scripts/setup-tdiary.rb
 ## (supervisor is already installed in baseimage)
 ##
 insserv supervisor
+etckeeper commit "autostart supervisor"
 
 ##
 ## add tdiary to supervisor
 ##
 install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/tdiary.conf /etc/supervisor/conf.d/tdiary.conf
+etckeeper commit "supervisor: add tdiary"
 
+##
+## autostart and configure nginx
+## (nginx-light is already installed in baseimage)
+##
+insserv nginx
+etckeeper commit "autostart nginx"
+install -m 644 -o root -g root -p /build/etc/nginx/sites-available/tdiary /etc/nginx/sites-available/tdiary
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/tdiary /etc/nginx/sites-enabled/tdiary
+etckeeper commit "nginx: disabled default site, enabled tdiary site"
 

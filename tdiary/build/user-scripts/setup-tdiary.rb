@@ -11,7 +11,7 @@ mkdir -p $HOME/tdiary/data
 git clone https://github.com/tdiary/tdiary-core.git       $HOME/tdiary/tdiary-core
 git clone https://github.com/tdiary/tdiary-contrib.git    $HOME/tdiary/tdiary-contrib
 git clone https://github.com/tdiary/tdiary-style-gfm.git  $HOME/tdiary/tdiary-style-gfm
-#git clone https://github.com/tdiary/tdiary-style-rd.git   $HOME/tdiary/tdiary-style-rd
+git clone https://github.com/tdiary/tdiary-style-rd.git   $HOME/tdiary/tdiary-style-rd
 
 ##
 ## add Gemfile.local
@@ -26,9 +26,9 @@ cd $HOME/tdiary/tdiary-core
 bundle install --path vendor/bundle --without test development
 
 ##
-## create .htpasswd (user: debian, password: debian)
+## add .htpasswd (user: debian, password: debian)
 ##
-(echo "debian"; echo "debian"; echo "debian" ) | bundle exec tdiary htpasswd
+install -m 600 -p /build/home/debian/tdiary/tdiary-core/.htpasswd /home/debian/tdiary/tdiary-core/.htpasswd
 
 ##
 ## create tdiary.conf
