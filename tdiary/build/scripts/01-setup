@@ -5,6 +5,11 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
+## tdiary test dependencies
+##
+apt-get install -y --no-install-recommends libsqlite3-dev
+
+##
 ## setup tdiary
 ##
 sudo -H -u debian /build/user-scripts/setup-tdiary.rb

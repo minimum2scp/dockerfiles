@@ -23,7 +23,7 @@ install -m 644 -p /build/home/debian/tdiary/tdiary-core/Gemfile.local /home/debi
 ##
 mkdir -p $HOME/tdiary/tdiary-core/vendor/bundle
 cd $HOME/tdiary/tdiary-core
-bundle install --path vendor/bundle --without test development
+bundle install --path vendor/bundle
 
 ##
 ## add .htpasswd (user: debian, password: debian)
