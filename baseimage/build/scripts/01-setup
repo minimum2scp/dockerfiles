@@ -98,7 +98,7 @@ etckeeper commit "adduser debian"
 ##
 apt-get install -y --no-install-recommends supervisor
 install -m 644 -o root -g root -p /build/etc/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
-etckeeper commit "supervisor: set socket as root:adm 775, and enabled inet_http_server with 0.0.0.0:9001"
+etckeeper commit "supervisor: set socket as root:adm 770, and enabled inet_http_server with 0.0.0.0:9001"
 insserv -r supervisor
 etckeeper commit "supervisor: disabled autostart"
 
