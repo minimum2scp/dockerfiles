@@ -48,16 +48,21 @@ debian     134    83  0 02:38 pts/0    R+     0:00              \_ ps -ef fww
 | port         | process              | comment                                       |
 |:-------------|:------------------   |:------------------------------------------    |
 | TCP/22       | sshd                 | invoked by init                               |
-| TCP/80       | nginx                | enabled, serves kibana                        |
+| TCP/80       | nginx                | disabled autostart                            |
 | TCP/9001     | supervisord          | disabled autostart                            |
 
 ## about rbenv
 
 rbenv is installed in /opt/rbenv.
 
-### default ruby
+### rbenv versions, and default ruby
 
-rbenv gloabl (/opt/rbenv/version) is not defined.
+rbenv gloabl (/opt/rbenv/version) is not defined, and no rubies are built.
+
+```
+$ rbenv versions
+* system (set by /opt/rbenv/version)
+```
 
 ### plugins
 
