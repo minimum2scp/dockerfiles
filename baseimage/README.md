@@ -1,11 +1,12 @@
 # about minimum2scp/baseimage image
 
- * Runs /sbin/init by default. /sbin/init is replaced by sysvinit-core package.
- * /sbin/init invokes sshd, rsyslogd, cron daemons.
+ * based on [minimum2scp/debian](https://github.com/minimum2scp/dockerfiles/tree/master/debian) image
+ * Runs /sbin/init by default. /sbin/init is replaced by sysvinit-core package
+ * /sbin/init invokes sshd, rsyslogd, cron daemons
  * ja_JP.UTF-8 locale supported. (default locale is C)
- * timezone is Asia/Tokyo.
- * etckeeper installed.
- * nginx-light, supervisor is installed, but disabled.
+ * timezone is Asia/Tokyo
+ * etckeeper installed
+ * nginx-light, supervisor is installed, but disabled
 
 ## start container
 
