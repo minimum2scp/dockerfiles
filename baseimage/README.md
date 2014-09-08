@@ -49,10 +49,5 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 
 ## ports
 
-| port         | process           | comment                                   |
-|:-------------|:------------------|:------------------------------------------|
-| TCP/22       | sshd              | invoked by init                           |
-| TCP/80       | nginx             | disabled autostart                        |
-| TCP/9001     | supervisord       | disabled autostart                        |
-
+ * TCP/22: sshd
 
