@@ -4,36 +4,40 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-##
-## git clone tdiary-xxx into /home/debian/tdiary/tdiary-xxx
-##
-mkdir -p $HOME/tdiary/data
-git clone https://github.com/tdiary/tdiary-core.git       $HOME/tdiary/tdiary-core
-git clone https://github.com/tdiary/tdiary-contrib.git    $HOME/tdiary/tdiary-contrib
-git clone https://github.com/tdiary/tdiary-style-gfm.git  $HOME/tdiary/tdiary-style-gfm
-git clone https://github.com/tdiary/tdiary-style-rd.git   $HOME/tdiary/tdiary-style-rd
+GHQ_ROOT=$HOME/go/src
+DATA_ROOT=$HOME/tdiary
 
 ##
+## git clone tdiary-xxx
+##
+mkdir -p $GHQ_ROOT/github.com/tdiary/
+git clone https://github.com/tdiary/tdiary-core.git       $GHQ_ROOT/github.com/tdiary/tdiary-core
+git clone https://github.com/tdiary/tdiary-contrib.git    $GHQ_ROOT/github.com/tdiary/tdiary-contrib
+git clone https://github.com/tdiary/tdiary-style-gfm.git  $GHQ_ROOT/github.com/tdiary/tdiary-style-gfm
+git clone https://github.com/tdiary/tdiary-style-rd.git   $GHQ_ROOT/github.com/tdiary/tdiary-style-rd
+
 ## add Gemfile.local
-##
-install -m 644 -p /build/home/debian/tdiary/tdiary-core/Gemfile.local /home/debian/tdiary/tdiary-core/Gemfile.local
+install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
 
-##
 ## run bundle install
-##
-mkdir -p $HOME/tdiary/tdiary-core/vendor/bundle
-cd $HOME/tdiary/tdiary-core
+cd $GHQ_ROOT/github.com/tdiary/tdiary-core
+mkdir -p vendor/bundle
 bundle install --path vendor/bundle
 
-##
-## add .htpasswd (user: debian, password: debian)
-##
-install -m 600 -p /build/home/debian/tdiary/tdiary-core/.htpasswd /home/debian/tdiary/tdiary-core/.htpasswd
 
 ##
-## create tdiary.conf
+## tdiary data
 ##
-install -m 644 -p /build/home/debian/tdiary/tdiary-core/tdiary.conf /home/debian/tdiary/tdiary-core/tdiary.conf
-install -m 755 -p /build/home/debian/tdiary/tdiary-core/start.sh    /home/debian/tdiary/tdiary-core/start.sh
+mkdir -p $DATA_ROOT/data
 
+## add .htpasswd (user=debian, password=debian)
+install -m 600 -p /build/$DATA_ROOT/.htpasswd    $DATA_ROOT/.htpasswd
+
+## add tdiary.conf, start.sh
+install -m 644 -p /build/$DATA_ROOT/tdiary.conf  $DATA_ROOT/tdiary.conf
+install -m 755 -p /build/$DATA_ROOT/start.sh     $DATA_ROOT/start.sh
+
+## symlink .htpasswd, tdiary.conf into tdiary-core
+cd $GHQ_ROOT/github.com/tdiary/tdiary-core
+ln -s $DATA_ROOT/.htpasswd $DATA_ROOT/tdiary.conf .
 

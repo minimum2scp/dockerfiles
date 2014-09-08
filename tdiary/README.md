@@ -38,22 +38,22 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 03:42 ?        Ss     0:00 init [2]
-root        37     1  0 03:42 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root        62     1  0 03:42 ?        Ss     0:00 /usr/sbin/cron
-root        73     1  0 03:42 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
-www-data    74    73  0 03:42 ?        S      0:00  \_ nginx: worker process
-www-data    75    73  0 03:42 ?        S      0:00  \_ nginx: worker process
-www-data    76    73  0 03:42 ?        S      0:00  \_ nginx: worker process
-www-data    78    73  0 03:42 ?        S      0:00  \_ nginx: worker process
-root        88     1  0 03:42 ?        Ss     0:00 /usr/sbin/sshd
-root       124    88  0 03:42 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     126   124  0 03:42 ?        S      0:00      \_ sshd: debian@pts/0
-debian     127   126  0 03:42 pts/0    Ss     0:00          \_ -bash
-debian     178   127  0 03:42 pts/0    R+     0:00              \_ ps -ef fww
-root        94     1  0 03:42 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
-debian     101    94  0 03:42 ?        S      0:00  \_ /bin/sh /home/debian/tdiary/tdiary-core/start.sh
-debian     117   101 33 03:42 ?        Sl     0:01      \_ ruby2.1 /home/debian/tdiary/tdiary-core/vendor/bundle/ruby/2.1.0/bin/tdiary server
+root         1     0  0 00:05 ?        Ss     0:00 init [2]
+root        38     1  0 00:05 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root        63     1  0 00:05 ?        Ss     0:00 /usr/sbin/cron
+root        74     1  0 00:05 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
+www-data    75    74  0 00:05 ?        S      0:00  \_ nginx: worker process
+www-data    76    74  0 00:05 ?        S      0:00  \_ nginx: worker process
+www-data    77    74  0 00:05 ?        S      0:00  \_ nginx: worker process
+www-data    79    74  0 00:05 ?        S      0:00  \_ nginx: worker process
+root        89     1  0 00:05 ?        Ss     0:00 /usr/sbin/sshd
+root       125    89  1 00:05 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     127   125  0 00:05 ?        S      0:00      \_ sshd: debian@pts/0
+debian     128   127  0 00:05 pts/0    Ss     0:00          \_ -bash
+debian     179   128  0 00:05 pts/0    R+     0:00              \_ ps -ef fww
+root        95     1  0 00:05 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+debian      98    95  0 00:05 ?        S      0:00  \_ /bin/sh /home/debian/tdiary/start.sh
+debian     118    98 24 00:05 ?        Sl     0:01      \_ ruby2.1 /home/debian/go/src/github.com/tdiary/tdiary-core/vendor/bundle/ruby/2.1.0/bin/tdiary server
 ```
 
 ## ports
@@ -63,7 +63,7 @@ debian     117   101 33 03:42 ?        Sl     0:01      \_ ruby2.1 /home/debian/
 | TCP/22       | sshd                    | invoked by init                               |
 | TCP/80       | nginx                   |                                               |
 | TCP/9001     | supervisord             | invokes tdiary server process                 |
-| TCP/9292     | ruby2.1 (tdiary server) | tdiary server process                         |
+| TCP/19292    | ruby2.1 (tdiary server) | tdiary server process                         |
 
 ## about tDiary
 
@@ -73,39 +73,46 @@ all components are installed by git-clone (with master branch)
 ### directory layout
 
 ```
-$ tree -L 1 tdiary
-tdiary
+debian@ab3925f8d6a7:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
+/home/debian/tdiary
 |-- data
+|-- start.sh
+`-- tdiary.conf
+/home/debian/go/src/github.com/tdiary
 |-- tdiary-contrib
 |-- tdiary-core
 |-- tdiary-style-gfm
 `-- tdiary-style-rd
 
-5 directories, 0 files
+5 directories, 2 files
 ```
 
- * data: data directory
- * tdiary-contrib: https://github.com/tdiary/tdiary-contrib
- * tdiary-core: https://github.com/tdiary/tdiary-core
- * tdiary-style-gfm: https://github.com/tdiary/tdiary-style-gfm
- * tdiary-style-rd: https://github.com/tdiary/tdiary-style-rd
+ * ~/tdiary
+   * data: data directory
+   * .htpasswd: username and password for Basic Authentication
+   * start.sh: runs tdiary server
+ * ~/go/src/github.com/tdiary
+   * tdiary-contrib: https://github.com/tdiary/tdiary-contrib
+   * tdiary-core: https://github.com/tdiary/tdiary-core
+   * tdiary-style-gfm: https://github.com/tdiary/tdiary-style-gfm
+   * tdiary-style-rd: https://github.com/tdiary/tdiary-style-rd
 
 ### configuration
 
-~/tdiary/tdiary-core/.htpasswd:
+~/tdiary/.htpasswd:
 
  * user is "debian", and password is "debian"
 
-~/tdiary/tdiary-core/tdiary.conf:
+~/tdiary/tdiary.conf:
 
  * `@data_path`: points ~/tdiary/data directory
  * `@style`: changed to 'GFM'
 
-~/tdiary/tdiary-core/Gemfile.local:
+~/go/src/github.com/tdiary/tdiary-core/Gemfile.local:
 
  * add git cloned directories (~/tdiary/tdiary-xxx)
 
-~/tdiary/tdiary-core/start.sh:
+~/tdiary/start.sh:
 
  * setenv and run tdiary server from supervisor (/etc/supervisor/conf.d/tdiary.conf)
 
