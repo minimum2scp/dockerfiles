@@ -55,11 +55,8 @@ debian     176   171  0 02:18 pts/0    R+     0:00              \_ ps -ef fww
 
 ## ports
 
-| port         | process              | comment                                       |
-|:-------------|:------------------   |:------------------------------------------    |
-| TCP/22       | sshd                 | invoked by init                               |
-| TCP/80       | nginx                | enabled, serves kibana                        |
-| TCP/9001     | supervisord          | disabled autostart                            |
-| TCP/9200     | java (elasticsearch) | elasticsearch http port                       |
-| TCP/9300     | java (elasticsearch) | elasticsearch node to node communication port |
+ * TCP/22: sshd
+ * TCP/80: nginx
+ * TCP/9200: elasticsearch (http port)
+ * TCP/9300: elasticsearch (node to node communication port)
 
