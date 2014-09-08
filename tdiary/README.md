@@ -13,7 +13,7 @@ docker run -d -p 18080:80 minimum2scp/tdiary
 
 and then open http://localhost:18080/ or http://<container ip address>/ by browser.
 
-The default account is username: "admin", password: "debian".
+The default account is username: "debian", password: "debian".
 
 ## ssh login to container
 
@@ -58,12 +58,10 @@ debian     118    98 24 00:05 ?        Sl     0:01      \_ ruby2.1 /home/debian/
 
 ## ports
 
-| port         | process                 | comment                                       |
-|:-------------|:------------------      |:------------------------------------------    |
-| TCP/22       | sshd                    | invoked by init                               |
-| TCP/80       | nginx                   |                                               |
-| TCP/9001     | supervisord             | invokes tdiary server process                 |
-| TCP/19292    | ruby2.1 (tdiary server) | tdiary server process                         |
+ * TCP/22: sshd
+ * TCP/80: nginx
+ * TCP/9001: supervisor
+ * TCP/19292: tdiary server (thin)
 
 ## about tDiary
 
@@ -110,7 +108,7 @@ debian@ab3925f8d6a7:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
 
 ~/go/src/github.com/tdiary/tdiary-core/Gemfile.local:
 
- * add git cloned directories (~/tdiary/tdiary-xxx)
+ * add git cloned directories (~/go/src/github.com/tdiary/tdiary-xxx)
 
 ~/tdiary/start.sh:
 
