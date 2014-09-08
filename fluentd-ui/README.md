@@ -57,12 +57,10 @@ debian      98    94 20 03:03 ?        Sl     0:01  \_ ruby2.1 /home/debian/.gem
 
 ## ports
 
-| port         | process                | comment                                       |
-|:-------------|:------------------     |:------------------------------------------    |
-| TCP/22       | sshd                   | invoked by init                               |
-| TCP/80       | nginx                  |                                               |
-| TCP/9001     | supervisord            | invokes fluentd-ui process                    |
-| TCP/9292     | ruby2.1 (rails s Puma) | fluentd-ui process                            |
+ * TCP/22: sshd
+ * TCP/80: nginx
+ * TCP/9001: supervisor
+ * TCP/9292: fluentd-ui (rails s Puma)
 
 ## fluentd-ui
 
