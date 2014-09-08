@@ -51,13 +51,10 @@ debian      82    79 31 03:31 ?        Sl     0:28  \_ /usr/bin/java -Djdk.home=
 
 ## ports
 
-| port         | process              | comment                                       |
-|:-------------|:------------------   |:------------------------------------------    |
-| TCP/22       | sshd                 | invoked by init                               |
-| TCP/80       | nginx                | disabled autostart                            |
-| TCP/9001     | supervisord          |                                               |
-| TCP/26571    | java (norikra)       | Norikra RPC port                              |
-| TCP/26578    | java (norikra)       | Norikra Web UI port                           |
+ * TCP/22: sshd
+ * TCP/9001: supervisor
+ * TCP/26571: norikra (rpc port)
+ * TCP/26578: norikra (web ui port)
 
 ## about rbenv
 
