@@ -13,7 +13,7 @@ install -m 644 -o debian -g debian -p /build/home/debian/.gemrc /home/debian/.ge
 ## install fluentd-ui
 sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.2.0 /home/debian/fluentd-ui
 sudo -u debian mkdir -p /home/debian/.gem/ruby/2.1.0
-sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --binstubs --path /home/debian/.gem --without development test"
+sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path /home/debian/.gem --without development test"
 
 ## autostart supervisor
 ## (supervisor is already installed in baseimage)
