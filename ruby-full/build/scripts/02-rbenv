@@ -16,7 +16,7 @@ export DEBIAN_FRONTEND=noninteractive
 rbenv install 2.0.0-p481
 rbenv install 2.1.2
 set +e
-rbenv install 2.2.0-dev
+rbenv install 2.2.0-preview1
 #rbenv install mruby-1.0.0
 #rbenv install mruby-dev
 set -e
