@@ -57,11 +57,11 @@ $ rbenv versions
   2.2.0-preview1
 $ ls -l /opt/rbenv/versions
 total 8
-lrwxrwxrwx 1 root root 10 Sep 19 23:01 2.0.0 -> 2.0.0-p481
-drwxr-xr-x 1 root root 36 Sep 19 23:01 2.0.0-p576
-drwxr-xr-x 1 root root 36 Sep 19 23:01 2.1.3
-lrwxrwxrwx 1 root root  9 Sep 19 23:01 2.2.0 -> 2.2.0-preview1
-drwxr-xr-x 1 root root 36 Sep 19 23:01 2.2.0-dev
+lrwxrwxrwx 1 root root 10 Sep 20 02:01 2.0.0 -> 2.0.0-p481
+drwxr-xr-x 1 root root 36 Sep 20 02:01 2.0.0-p576
+drwxr-xr-x 1 root root 36 Sep 20 02:01 2.1.3
+lrwxrwxrwx 1 root root  9 Sep 20 02:01 2.2.0 -> 2.2.0-preview1
+drwxr-xr-x 1 root root 36 Sep 20 02:01 2.2.0-preview1
 ```
 
 

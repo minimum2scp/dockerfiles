@@ -10,14 +10,16 @@ export DEBIAN_FRONTEND=noninteractive
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
 
+## build ruby 2.2.0-preview1 with jemalloc
+apt-get install libjemalloc1 libjemalloc-dev
+
 ## build rubies
 #rbenv install 1.8.7-p375
 #rbenv install 1.9.3-p547
 rbenv install 2.0.0-p576
 rbenv install 2.1.3
-set +e
-rbenv install 2.2.0-preview1
+## NOTE: ruby-build does not set --with-jemalloc
+RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview1
 #rbenv install mruby-1.0.0
 #rbenv install mruby-dev
-set -e
 
