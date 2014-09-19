@@ -2,7 +2,7 @@
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * mruby package installed
- * ruby 2.0.0-p481, ruby 2.1.2, ruby 2.2.0-preview1 is installed by rbenv
+ * ruby 2.0.0-p576, ruby 2.1.3, ruby 2.2.0-preview1 is installed by rbenv
 
 ## ssh login to container
 
@@ -51,17 +51,17 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
 $ rbenv versions
 * system (set by /opt/rbenv/version)
   2.0.0
-  2.0.0-p481
-  2.1.2
+  2.0.0-p576
+  2.1.3
   2.2.0
   2.2.0-preview1
 $ ls -l /opt/rbenv/versions
 total 8
-lrwxrwxrwx 1 root root 10 Sep 18 22:01 2.0.0 -> 2.0.0-p481
-drwxr-xr-x 1 root root 36 Sep 18 22:01 2.0.0-p481
-drwxr-xr-x 1 root root 36 Sep 18 22:01 2.1.2
-lrwxrwxrwx 1 root root  9 Sep 18 22:01 2.2.0 -> 2.2.0-preview1
-drwxr-xr-x 1 root root 36 Sep 18 22:01 2.2.0-dev
+lrwxrwxrwx 1 root root 10 Sep 19 23:01 2.0.0 -> 2.0.0-p481
+drwxr-xr-x 1 root root 36 Sep 19 23:01 2.0.0-p576
+drwxr-xr-x 1 root root 36 Sep 19 23:01 2.1.3
+lrwxrwxrwx 1 root root  9 Sep 19 23:01 2.2.0 -> 2.2.0-preview1
+drwxr-xr-x 1 root root 36 Sep 19 23:01 2.2.0-dev
 ```
 
 
