@@ -22,6 +22,9 @@ git clone https://github.com/sstephenson/rbenv-gem-rehash.git    /opt/rbenv/plug
 ## install rbenv-aliases
 git clone https://github.com/tpope/rbenv-aliases.git             /opt/rbenv/plugins/rbenv-aliases
 
+## install rbenv-update
+git clone https://github.com/rkh/rbenv-update.git                /opt/rbenv/plugins/rbenv-update
+
 ## enable rbenv (creates shims, versions)
  . /etc/profile.d/rbenv.sh
 rbenv rehash

@@ -68,6 +68,7 @@ rbenv is installed in /opt/rbenv, and some plugins are installed.
  * rbenv-default-gem
  * rbenv-gem-rehash
  * rbenv-alias
+ * rbenv-update
 
 rbenv-default-gem installs some gems for each rubies:
 
