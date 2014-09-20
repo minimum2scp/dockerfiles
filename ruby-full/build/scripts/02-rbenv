@@ -7,6 +7,9 @@ export DEBIAN_FRONTEND=noninteractive
 ## enable rbenv
 . /etc/profile.d/rbenv.sh
 
+## run rbenv-update
+rbenv update
+
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
 
