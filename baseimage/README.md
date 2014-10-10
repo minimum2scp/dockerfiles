@@ -56,17 +56,18 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141010-978-79bhx9.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141010-978-1hrdlxi.out
-% diff -u /tmp/docker-diff.20141010-978-79bhx9.out /tmp/docker-diff.20141010-978-1hrdlxi.out
---- /tmp/docker-diff.20141010-978-79bhx9.out  2014-10-10 02:26:39.322133744 +0900
-+++ /tmp/docker-diff.20141010-978-1hrdlxi.out 2014-10-10 02:26:39.826126639 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141010-20527-w7u537.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141010-20527-kheflu.out
+% diff -u /tmp/docker-diff.20141010-20527-w7u537.out /tmp/docker-diff.20141010-20527-kheflu.out
+--- /tmp/docker-diff.20141010-20527-w7u537.out  2014-10-10 17:12:03.239745197 +0900
++++ /tmp/docker-diff.20141010-20527-kheflu.out  2014-10-10 17:12:03.899740954 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      1.0.9.2           amd64             commandline package manager
+-ii  base-files               7.5               amd64             Debian base system miscellaneous files
 +ii  apt-utils                1.0.9.2           amd64             package management related utility programs
- ii  base-files               7.5               amd64             Debian base system miscellaneous files
++ii  base-files               7.6               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
  ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.5             amd64             collection of more utilities from FreeBSD
@@ -205,9 +206,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  netbase                  5.2               all               Basic TCP/IP networking system
 +ii  nginx-common             1.6.2-2           all               small, powerful, scalable web/proxy server - common f
 +ii  nginx-light              1.6.2-2           amd64             nginx web/proxy server (basic version)
-+ii  openssh-client           1:6.6p1-8         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.6p1-8         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.6p1-8         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.7p1-1         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-1         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-1         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1i-2          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-2+b1        amd64             change and administer password and group data
 +ii  perl                     5.20.1-1          amd64             Larry Wall's Practical Extraction and Report Language
