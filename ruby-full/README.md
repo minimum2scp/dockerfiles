@@ -1,7 +1,6 @@
 # about minimum2scp/ruby-full image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
- * mruby package installed
  * ruby 2.0.0-p576, ruby 2.1.3, ruby 2.2.0-preview1 is installed by rbenv
 
 ## ssh login to container

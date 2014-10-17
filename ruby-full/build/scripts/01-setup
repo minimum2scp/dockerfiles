@@ -4,5 +4,3 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## install mruby
-apt-get install --no-install-recommends -y mruby
