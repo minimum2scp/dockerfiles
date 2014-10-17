@@ -1,8 +1,11 @@
-# about minimum2scp/template image
+# about minimum2scp/rails4 image
 
- * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * latest rails 4.x gem is installed
- * RDBMS client, headers is installed (sqlite3, libsqlite3-dev, mysql-client, libmysqlclient-dev, postgresql-client, libpq-dev packages)
+ * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
+ * Ruby on Rails 4.x (debian package) is installed
+ * RDBMS client, headers packages are installed
+   * SQLite3: sqlite3, libsqlite3-dev
+   * MySQL: mysql-client, libmysqlclient-dev
+   * PostgreSQL: postgresql-client, libpq-dev
 
 ## start container
 
