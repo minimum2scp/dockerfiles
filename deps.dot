@@ -9,6 +9,7 @@ digraph deps {
   fluentd_ui   [label = "fluentd-ui"];
   norikra      [label = "norikra"];
   pb           [label = "pb"];
+  rails4       [label = "rails4"];
   ruby         [label = "ruby"];
   ruby_full    [label = "ruby-full"];
   sphinx       [label = "sphinx"];
@@ -18,5 +19,5 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, pb, ruby, sphinx, squid, systemd};
-  ruby      -> {fluentd_ui, norikra, ruby_full, tdiary};
+  ruby      -> {fluentd_ui, norikra, rails4, ruby_full, tdiary};
 }

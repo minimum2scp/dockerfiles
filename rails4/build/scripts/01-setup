@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## install RDBMS client and headers
+apt-get install --no-install-recommends -y sqlite3 mysql-client postgresql-client libsqlite3-dev libmysqlclient-dev libpq-dev
+
+## install latest rails 4.x
+gem install -N rails --version '~> 4.0'
+
