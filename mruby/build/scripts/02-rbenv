@@ -1,0 +1,19 @@
+#! /bin/bash
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## enable rbenv
+. /etc/profile.d/rbenv.sh
+
+## run rbenv-update
+rbenv update
+
+## disable rbenv-default-gems plugin
+rm /opt/rbenv/default-gems
+
+## build rubies
+rbenv install mruby-1.0.0
+rbenv install mruby-dev
+
