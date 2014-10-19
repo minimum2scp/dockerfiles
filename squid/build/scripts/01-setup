@@ -13,8 +13,13 @@ apt-get install --no-install-recommends -y squid3
 ## configure squid3
 ##
 cp -a /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
-install -m 644 -o root -g root -p /build/etc/squid3/squid.conf /etc/squid3/squid.conf
-etckeeper commit "squid: allow from localnet (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, fe80::/10)"
+( echo "include /etc/squid3/squid.acl.conf";
+  cat /etc/squid3/squid.conf;
+  echo "include /etc/squid3/squid.local.conf"
+) | tee /etc/squid3/squid.conf > /dev/null
+install -m 644 -o root -g root -p /build/etc/squid3/squid.acl.conf /etc/squid3/squid.acl.conf
+install -m 644 -o root -g root -p /build/etc/squid3/squid.local.conf /etc/squid3/squid.local.conf
+etckeeper commit "squid: allow from localnet, shorten shutdown_lifetime"
 
 ##
 ## workaround for squid3 init script: "/etc/init.d/squid3 stop" fails
@@ -22,3 +27,10 @@ etckeeper commit "squid: allow from localnet (10.0.0.0/8, 172.16.0.0/12, 192.168
 cp -a /etc/init.d/squid3 /etc/init.d/squid3.orig
 install -m 755 -o root -g root -p /build/etc/init.d/squid3 /etc/init.d/squid3
 etckeeper commit "squid: workaround for init script"
+
+##
+## add user to proxy group
+##
+adduser debian proxy
+etckeeper commit "add debian user to proxy group"
+
