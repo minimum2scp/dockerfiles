@@ -57,4 +57,5 @@ debian     100    95  0 02:53 pts/0    R+     0:00              \_ ps -ef fww
 
  * TCP/22: sshd
  * TCP/3128: squid3
+ * TCP/3129: squid3 (transparent)
 
