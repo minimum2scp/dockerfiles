@@ -15,8 +15,10 @@ apt-get install --no-install-recommends -y squid3
 cp -a /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
 ( echo "include /etc/squid3/squid.acl.conf";
   cat /etc/squid3/squid.conf;
-  echo "include /etc/squid3/squid.local.conf"
-) | tee /etc/squid3/squid.conf > /dev/null
+  echo "";
+  echo "include /etc/squid3/squid.local.conf";
+) > /etc/squid3/squid.conf.new
+mv /etc/squid3/squid.conf.new /etc/squid3/squid.conf
 install -m 644 -o root -g root -p /build/etc/squid3/squid.acl.conf /etc/squid3/squid.acl.conf
 install -m 644 -o root -g root -p /build/etc/squid3/squid.local.conf /etc/squid3/squid.local.conf
 etckeeper commit "squid: allow from localnet, shorten shutdown_lifetime"
