@@ -56,17 +56,17 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141022-1481-1nqgh6f.out
-% docker run --rm minimum2scp/baseimage:next bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141022-1481-1kcekvz.out
-% diff -u /tmp/docker-diff.20141022-1481-1nqgh6f.out /tmp/docker-diff.20141022-1481-1kcekvz.out
---- /tmp/docker-diff.20141022-1481-1nqgh6f.out  2014-10-22 12:49:59.368698084 +0900
-+++ /tmp/docker-diff.20141022-1481-1kcekvz.out  2014-10-22 12:49:59.976693523 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141024-18744-taiotf.out
+% docker run --rm minimum2scp/baseimage:next bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141024-18744-1q6yu3y.out
+% diff -u /tmp/docker-diff.20141024-18744-taiotf.out /tmp/docker-diff.20141024-18744-1q6yu3y.out
+--- /tmp/docker-diff.20141024-18744-taiotf.out  2014-10-24 11:28:17.483368055 +0900
++++ /tmp/docker-diff.20141024-18744-1q6yu3y.out 2014-10-24 11:28:18.119352775 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      1.0.9.3           amd64             commandline package manager
 +ii  apt-utils                1.0.9.3           amd64             package management related utility programs
- ii  base-files               7.7               amd64             Debian base system miscellaneous files
+ ii  base-files               7.8               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
  ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
@@ -79,7 +79,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  debconf                  1.5.53            all               Debian configuration management system
  ii  debconf-i18n             1.5.53            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
- ii  dpkg                     1.17.19           amd64             Debian package management system
+ ii  dpkg                     1.17.20           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.15              all               store /etc in git, mercurial, bzr or darcs
@@ -110,12 +110,12 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libblkid1:amd64          2.25.1-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7           amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-11           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-11           amd64             GNU C Library: Shared libraries
+ ii  libc-bin                 2.19-12           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-12           amd64             GNU C Library: Shared libraries
 @@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
- ii  libcryptsetup4:amd64     2:1.6.6-2         amd64             disk encryption support - shared library
+ ii  libcryptsetup4:amd64     2:1.6.6-3         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-2          amd64             easy-to-use client-side URL transfer library (OpenSSL
 +ii  libcurl3-gnutls:amd64    7.38.0-2          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-6          amd64             Berkeley v5.3 Database Libraries [runtime]
@@ -142,7 +142,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libkmod2:amd64           18-3              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.12.1+dfsg-11    amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.12.1+dfsg-11    amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.40-1          amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.40-2          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.4-1           amd64             easy to use and lightweight logging library
 +ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
@@ -184,12 +184,12 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
-@@ -84,27 +133,55 @@
+@@ -84,27 +133,56 @@
  ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
  ii  libustr-1.0-1:amd64      1.0.4-3           amd64             Micro string library: shared library
  ii  libuuid1:amd64           2.25.1-5          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
-+ii  locales                  2.19-11           all               GNU C Library: National Language (locale) data [suppo
++ii  locales                  2.19-12           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-2+b1        amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
@@ -197,9 +197,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.57              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.1-5          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-11           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-12           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
++ii  net-tools                1.60-26           amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
 +ii  nginx-common             1.6.2-4           all               small, powerful, scalable web/proxy server - common f
 +ii  nginx-light              1.6.2-4           amd64             nginx web/proxy server (basic version)
@@ -231,12 +232,12 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-53.4      amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-53.4      amd64             System-V-like utilities
  ii  tar                      1.27.1-2          amd64             GNU version of the tar archiving utility
- ii  tzdata                   2014h-2           all               time zone and daylight-saving time data
+ ii  tzdata                   2014i-1           all               time zone and daylight-saving time data
  ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.1-5          amd64             Miscellaneous system utilities
-+ii  vim                      2:7.4.481-1       amd64             Vi IMproved - enhanced vi editor
-+ii  vim-common               2:7.4.481-1       amd64             Vi IMproved - Common files
-+ii  vim-runtime              2:7.4.481-1       all               Vi IMproved - Runtime files
++ii  vim                      2:7.4.488-1       amd64             Vi IMproved - enhanced vi editor
++ii  vim-common               2:7.4.488-1       amd64             Vi IMproved - Common files
++ii  vim-runtime              2:7.4.488-1       all               Vi IMproved - Runtime files
 +ii  whiptail                 0.52.17-1         amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2    amd64             compression library - runtime
 +ii  zsh                      5.0.7-3           amd64             shell with lots of features

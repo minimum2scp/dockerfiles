@@ -33,7 +33,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.9.3           amd64             commandline package manager
-ii  base-files               7.7               amd64             Debian base system miscellaneous files
+ii  base-files               7.8               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
 ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.1-5        amd64             basic utilities from 4.4BSD-Lite
@@ -45,7 +45,7 @@ ii  debian-archive-keyring   2014.1            all               GnuPG archive k
 ii  debianutils              4.4               amd64             Miscellaneous utilities specific to Debian
 ii  diffutils                1:3.3-1           amd64             File comparison utilities
 ii  dmsetup                  2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
-ii  dpkg                     1.17.19           amd64             Debian package management system
+ii  dpkg                     1.17.20           amd64             Debian package management system
 ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9           amd64             utilities for finding files--find, xargs
@@ -69,12 +69,12 @@ ii  libaudit-common          1:2.4-1           all               Dynamic library
 ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.25.1-5          amd64             block device id library
 ii  libbz2-1.0:amd64         1.0.6-7           amd64             high-quality block-sorting file compressor library - 
-ii  libc-bin                 2.19-11           amd64             GNU C Library: Binaries
-ii  libc6:amd64              2.19-11           amd64             GNU C Library: Shared libraries
+ii  libc-bin                 2.19-12           amd64             GNU C Library: Binaries
+ii  libc6:amd64              2.19-12           amd64             GNU C Library: Shared libraries
 ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e capabilities (library)
 ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
 ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
-ii  libcryptsetup4:amd64     2:1.6.6-2         amd64             disk encryption support - shared library
+ii  libcryptsetup4:amd64     2:1.6.6-3         amd64             disk encryption support - shared library
 ii  libdb5.3:amd64           5.3.28-6          amd64             Berkeley v5.3 Database Libraries [runtime]
 ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
@@ -115,7 +115,7 @@ ii  login                    1:4.2-2+b1        amd64             system login to
 ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 ii  mount                    2.25.1-5          amd64             Tools for mounting and manipulating filesystems
-ii  multiarch-support        2.19-11           amd64             Transitional package to ensure multiarch compatibilit
+ii  multiarch-support        2.19-12           amd64             Transitional package to ensure multiarch compatibilit
 ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
 ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
@@ -131,7 +131,7 @@ ii  systemd-sysv             215-5+b1          amd64             system and serv
 ii  sysv-rc                  2.88dsf-53.4      all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-53.4      amd64             System-V-like utilities
 ii  tar                      1.27.1-2          amd64             GNU version of the tar archiving utility
-ii  tzdata                   2014h-2           all               time zone and daylight-saving time data
+ii  tzdata                   2014i-1           all               time zone and daylight-saving time data
 ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.25.1-5          amd64             Miscellaneous system utilities
 ii  zlib1g:amd64             1:1.2.8.dfsg-2    amd64             compression library - runtime
