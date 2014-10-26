@@ -6,8 +6,11 @@
 ##
 #
 require 'tmpdir'
+require 'rake/clean'
 
-task :default => [:mkimage]
+CLOBBER.include 'debian-packages.txt', 'README.md'
+
+task :default => [:mkimage, 'README.md']
 
 desc "run mkimage.sh"
 task :mkimage  do
@@ -20,3 +23,16 @@ task :mkimage  do
   sh "sudo #{env} /usr/share/docker.io/contrib/mkimage.sh #{tag_option} debootstrap #{debootstrap_options}"
 end
 
+desc 'update debian-packages.txt'
+file 'debian-packages.txt' do |t|
+  tag = ENV['TAG'] || 'minimum2scp/debian:latest'
+  sh %Q[docker run --rm #{tag} bash -c "LANG=C COLUMNS=120 dpkg -l" > #{t.name}]
+end
+
+desc 'update README.md'
+file 'README.md' => ['README.md.erb', 'debian-packages.txt'] do |t|
+  require 'erb'
+  File.open(t.name, 'w'){|fh|
+    fh << ERB.new(File.read(t.prerequisites.first)).result
+  }
+end
