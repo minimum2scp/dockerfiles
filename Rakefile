@@ -10,7 +10,7 @@ namespace :minimum2scp do
       env ? (!env.empty? ? "TAG=#{env}" : "") : "TAG=#{default}"
     }[ENV['TAG_DEBIAN'], 'minimum2scp/debian:latest']
     env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
-    sh "cd debian && rake mkimage #{tag} #{env}"
+    sh "cd debian && rake clobber mkimage README.md #{tag} #{env}"
   end
 
   desc 'build minimum2scp/pb image'
