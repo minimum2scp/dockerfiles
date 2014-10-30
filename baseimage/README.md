@@ -56,24 +56,24 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141026-7286-1x28eg9.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141026-7286-ib6ljs.out
-% diff -u /tmp/docker-diff.20141026-7286-1x28eg9.out /tmp/docker-diff.20141026-7286-ib6ljs.out
---- /tmp/docker-diff.20141026-7286-1x28eg9.out	2014-10-26 15:43:30.361766704 +0900
-+++ /tmp/docker-diff.20141026-7286-ib6ljs.out	2014-10-26 15:43:30.965762265 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141030-19447-1tnhh1e.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141030-19447-k36o8.out
+% diff -u /tmp/docker-diff.20141030-19447-1tnhh1e.out /tmp/docker-diff.20141030-19447-k36o8.out
+--- /tmp/docker-diff.20141030-19447-1tnhh1e.out	2014-10-30 19:39:59.897700953 +0900
++++ /tmp/docker-diff.20141030-19447-k36o8.out	2014-10-30 19:40:00.541695971 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      1.0.9.3           amd64             commandline package manager
 +ii  apt-utils                1.0.9.3           amd64             package management related utility programs
- ii  base-files               7.8               amd64             Debian base system miscellaneous files
+ ii  base-files               7.10              amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
  ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20141019          all               Common CA certificates
- ii  coreutils                8.23-2            amd64             GNU core utilities
-+ii  cron                     3.0pl1-126        amd64             process scheduling daemon
+ ii  coreutils                8.23-3            amd64             GNU core utilities
++ii  cron                     3.0pl1-127        amd64             process scheduling daemon
 +ii  curl                     7.38.0-2          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4           amd64             POSIX-compliant shell
  ii  debconf                  1.5.53            all               Debian configuration management system
@@ -95,7 +95,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  groff-base               1.22.2-8          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
- ii  inetutils-ping           2:1.9.2-1         amd64             ICMP echo tool
+ ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
 @@ -37,11 +46,13 @@
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
@@ -156,7 +156,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
  ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
  ii  libpcre3:amd64           1:8.35-3.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
-+ii  libpipeline1:amd64       1.3.1-1           amd64             pipeline manipulation library
++ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 +ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
@@ -226,9 +226,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
  ii  systemd                  215-5+b1          amd64             system and service manager
 -ii  systemd-sysv             215-5+b1          amd64             system and service manager - SysV links
- ii  sysv-rc                  2.88dsf-53.4      all               System-V-like runlevel change mechanism
-+ii  sysvinit-core            2.88dsf-53.4      amd64             System-V-like init utilities
- ii  sysvinit-utils           2.88dsf-53.4      amd64             System-V-like utilities
+ ii  sysv-rc                  2.88dsf-57        all               System-V-like runlevel change mechanism
++ii  sysvinit-core            2.88dsf-57        amd64             System-V-like init utilities
+ ii  sysvinit-utils           2.88dsf-57        amd64             System-V-like utilities
  ii  tar                      1.27.1-2          amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014i-1           all               time zone and daylight-saving time data
  ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
