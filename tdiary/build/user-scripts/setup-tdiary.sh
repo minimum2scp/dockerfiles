@@ -11,10 +11,22 @@ DATA_ROOT=$HOME/tdiary
 ## git clone tdiary-xxx
 ##
 mkdir -p $GHQ_ROOT/github.com/tdiary/
-git clone https://github.com/tdiary/tdiary-core.git       $GHQ_ROOT/github.com/tdiary/tdiary-core
-git clone https://github.com/tdiary/tdiary-contrib.git    $GHQ_ROOT/github.com/tdiary/tdiary-contrib
-git clone https://github.com/tdiary/tdiary-style-gfm.git  $GHQ_ROOT/github.com/tdiary/tdiary-style-gfm
-git clone https://github.com/tdiary/tdiary-style-rd.git   $GHQ_ROOT/github.com/tdiary/tdiary-style-rd
+for repo in tdiary-core \
+            tdiary-contrib \
+            tdiary-blogkit \
+            tdiary-cache-redis \
+            tdiary-cache-memcached \
+            tdiary-io-mongodb \
+            tdiary-io-rdb \
+            tdiary-theme \
+            tdiary-theme-nonfree \
+            tdiary-style-emptdiary \
+            tdiary-style-etdiary \
+            tdiary-style-gfm \
+            tdiary-style-rd \
+; do
+  git clone https://github.com/tdiary/${repo}.git $GHQ_ROOT/github.com/tdiary/${repo}
+done
 
 ## add Gemfile.local
 install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
