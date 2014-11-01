@@ -54,9 +54,7 @@ root        82     1  0 02:59 ?        Ss     0:00 /sbin/agetty --noclear tty1
 
 ## ports
 
-| port         | process           | comment                                   |
-|:-------------|:------------------|:------------------------------------------|
-| TCP/22       | sshd              |                                           |
-| TCP/80       | nginx             |                                           |
-| TCP/9001     | supervisord       |                                           |
+ * TCP/22: sshd
+ * TCP/80: nginx
+ * TCP/9001: supervisord
 
