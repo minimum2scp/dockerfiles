@@ -71,18 +71,27 @@ all components are installed by git-clone (with master branch)
 ### directory layout
 
 ```
-debian@ab3925f8d6a7:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
+debian@f3612393eea3:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
 /home/debian/tdiary
 |-- data
 |-- start.sh
 `-- tdiary.conf
 /home/debian/go/src/github.com/tdiary
+|-- tdiary-blogkit
+|-- tdiary-cache-memcached
+|-- tdiary-cache-redis
 |-- tdiary-contrib
 |-- tdiary-core
+|-- tdiary-io-mongodb
+|-- tdiary-io-rdb
+|-- tdiary-style-emptdiary
+|-- tdiary-style-etdiary
 |-- tdiary-style-gfm
-`-- tdiary-style-rd
+|-- tdiary-style-rd
+|-- tdiary-theme
+`-- tdiary-theme-nonfree
 
-5 directories, 2 files
+14 directories, 2 files
 ```
 
  * ~/tdiary
@@ -90,10 +99,19 @@ debian@ab3925f8d6a7:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
    * .htpasswd: username and password for Basic Authentication
    * start.sh: runs tdiary server
  * ~/go/src/github.com/tdiary
-   * tdiary-contrib: https://github.com/tdiary/tdiary-contrib
-   * tdiary-core: https://github.com/tdiary/tdiary-core
-   * tdiary-style-gfm: https://github.com/tdiary/tdiary-style-gfm
-   * tdiary-style-rd: https://github.com/tdiary/tdiary-style-rd
+   * tdiary-core: https://github.com/tdiary/tdiary-core.git
+   * tdiary-contrib: https://github.com/tdiary/tdiary-contrib.git
+   * tdiary-blogkit: https://github.com/tdiary/tdiary-blogkit.git
+   * tdiary-cache-redis: https://github.com/tdiary/tdiary-cache-redis.git
+   * tdiary-cache-memcached: https://github.com/tdiary/tdiary-cache-memcached.git
+   * tdiary-io-mongodb: https://github.com/tdiary/tdiary-io-mongodb.git
+   * tdiary-io-rdb: https://github.com/tdiary/tdiary-io-rdb.git
+   * tdiary-theme: https://github.com/tdiary/tdiary-theme.git
+   * tdiary-theme-nonfree: https://github.com/tdiary/tdiary-theme-nonfree.git
+   * tdiary-style-emptdiary: https://github.com/tdiary/tdiary-style-emptdiary.git
+   * tdiary-style-etdiary: https://github.com/tdiary/tdiary-style-etdiary.git
+   * tdiary-style-gfm: https://github.com/tdiary/tdiary-style-gfm.git
+   * tdiary-style-rd: https://github.com/tdiary/tdiary-style-rd.git
 
 ### configuration
 
