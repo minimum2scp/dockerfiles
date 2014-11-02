@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141030-19447-1tnhh1e.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141030-19447-k36o8.out
-% diff -u /tmp/docker-diff.20141030-19447-1tnhh1e.out /tmp/docker-diff.20141030-19447-k36o8.out
---- /tmp/docker-diff.20141030-19447-1tnhh1e.out	2014-10-30 19:39:59.897700953 +0900
-+++ /tmp/docker-diff.20141030-19447-k36o8.out	2014-10-30 19:40:00.541695971 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141102-29324-1d2ay9k.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141102-29324-33dt9q.out
+% diff -u /tmp/docker-diff.20141102-29324-1d2ay9k.out /tmp/docker-diff.20141102-29324-33dt9q.out
+--- /tmp/docker-diff.20141102-29324-1d2ay9k.out	2014-11-02 21:48:42.344898972 +0900
++++ /tmp/docker-diff.20141102-29324-33dt9q.out	2014-11-02 21:48:42.932897414 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -222,7 +222,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sed                      4.2.2-4           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
-+ii  sudo                     1.8.11p1-2        amd64             Provide limited super user privileges to specific use
++ii  sudo                     1.8.11p2-1        amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
  ii  systemd                  215-5+b1          amd64             system and service manager
 -ii  systemd-sysv             215-5+b1          amd64             system and service manager - SysV links
