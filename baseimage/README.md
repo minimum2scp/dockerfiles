@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141102-29324-1d2ay9k.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141102-29324-33dt9q.out
-% diff -u /tmp/docker-diff.20141102-29324-1d2ay9k.out /tmp/docker-diff.20141102-29324-33dt9q.out
---- /tmp/docker-diff.20141102-29324-1d2ay9k.out	2014-11-02 21:48:42.344898972 +0900
-+++ /tmp/docker-diff.20141102-29324-33dt9q.out	2014-11-02 21:48:42.932897414 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141104-13132-12gn4ty.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141104-13132-7fvqvf.out
+% diff -u /tmp/docker-diff.20141104-13132-12gn4ty.out /tmp/docker-diff.20141104-13132-7fvqvf.out
+--- /tmp/docker-diff.20141104-13132-12gn4ty.out	2014-11-04 22:03:17.666657928 +0900
++++ /tmp/docker-diff.20141104-13132-7fvqvf.out	2014-11-04 22:03:18.302652536 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -191,7 +191,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  login                    1:4.2-2+b1        amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.0.2-2         amd64             on-line manual pager
++ii  man-db                   2.7.0.2-3         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.57              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-2          amd64             Tools for mounting and manipulating filesystems
@@ -202,9 +202,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  netbase                  5.3               all               Basic TCP/IP networking system
 +ii  nginx-common             1.6.2-4           all               small, powerful, scalable web/proxy server - common f
 +ii  nginx-light              1.6.2-4           amd64             nginx web/proxy server (basic version)
-+ii  openssh-client           1:6.7p1-2         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-2         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-2         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.7p1-3         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-3         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1j-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-2+b1        amd64             change and administer password and group data
  ii  perl                     5.20.1-2          amd64             Larry Wall's Practical Extraction and Report Language
