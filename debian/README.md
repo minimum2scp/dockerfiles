@@ -34,7 +34,7 @@ ii  acl                      2.2.52-2          amd64             Access control 
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.9.3           amd64             commandline package manager
 ii  base-files               7.10              amd64             Debian base system miscellaneous files
-ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
+ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
 ii  coreutils                8.23-3            amd64             GNU core utilities
