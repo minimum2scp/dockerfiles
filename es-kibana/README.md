@@ -9,7 +9,7 @@
 ## start container
 
 ```
-docker run -d -p 8080:80 -p 9200:9200 minimum2scp/apt-cacher-ng
+docker run -d -p 8080:80 -p 9200:9200 minimum2scp/es-kibana
 ```
 
 and then open http://localhost:8080/ by browser
