@@ -56,18 +56,18 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141107-13152-gd00vp.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141107-13152-mxe3ah.out
-% diff -u /tmp/docker-diff.20141107-13152-gd00vp.out /tmp/docker-diff.20141107-13152-mxe3ah.out
---- /tmp/docker-diff.20141107-13152-gd00vp.out	2014-11-07 13:53:19.389221593 +0900
-+++ /tmp/docker-diff.20141107-13152-mxe3ah.out	2014-11-07 13:53:20.001217670 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141108-28365-h9dhdo.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141108-28365-skcs7e.out
+% diff -u /tmp/docker-diff.20141108-28365-h9dhdo.out /tmp/docker-diff.20141108-28365-skcs7e.out
+--- /tmp/docker-diff.20141108-28365-h9dhdo.out	2014-11-08 19:59:13.261054333 +0900
++++ /tmp/docker-diff.20141108-28365-skcs7e.out	2014-11-08 19:59:13.885049453 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      1.0.9.3           amd64             commandline package manager
 +ii  apt-utils                1.0.9.3           amd64             package management related utility programs
  ii  base-files               7.10              amd64             Debian base system miscellaneous files
- ii  base-passwd              3.5.36            amd64             Debian base system master password and group files
+ ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
@@ -82,7 +82,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  dpkg                     1.17.21           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
-+ii  etckeeper                1.15              all               store /etc in git, mercurial, bzr or darcs
++ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9           amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.3-13          amd64             GCC, the GNU Compiler Collection (base package)
@@ -131,15 +131,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgnutls-deb0-28:amd64  3.3.8-3           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
 +ii  libgpm2:amd64            1.20.4-6.1        amd64             General Purpose Mouse - shared library
-+ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-13    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
++ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-3           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.29-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
-+ii  libk5crypto3:amd64       1.12.1+dfsg-13    amd64             MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64       1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5           amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           18-3              amd64             libkmod shared library
-+ii  libkrb5-3:amd64          1.12.1+dfsg-13    amd64             MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64    1.12.1+dfsg-13    amd64             MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64          1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64    1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40-2          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.4-1           amd64             easy to use and lightweight logging library
