@@ -4,6 +4,20 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+##
+## reset user.email for etckeeper
+##
+git config --global user.email "root@`hostname`"
+
+##
+## regenerate ssh host keys
+##
+rm -v /etc/ssh/ssh_host_*_key /etc/ssh/ssh_host_*_key.pub
+dpkg-reconfigure openssh-server
+
+##
+## upgrade installed packages
+##
 apt-get update
 apt-get dist-upgrade --no-install-recommends -y
 

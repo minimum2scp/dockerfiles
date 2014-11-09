@@ -5,3 +5,9 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 apt-get clean
+
+##
+## unset user.email (etckeeper)
+##
+git config --global --unset user.email
+
