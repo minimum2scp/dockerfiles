@@ -17,6 +17,12 @@ dpkg-reconfigure openssh-server
 etckeeper commit "openssh-server: regenerate ssh host keys"
 
 ##
+## change apt-line to http.debian.net
+##
+sed -i -e 's/ftp\.jp\.debian\.org/http.debian.net/' /etc/apt/sources.list
+etckeeper commit "apt: use http.debian.net instead of ftp.jp.debian.org"
+
+##
 ## upgrade installed packages
 ##
 apt-get update

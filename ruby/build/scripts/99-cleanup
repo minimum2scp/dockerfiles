@@ -7,6 +7,12 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get clean
 
 ##
+## change apt-line to ftp.jp.debian.org
+##
+sed -i -e 's/http\.debian\.net/ftp.jp.debian.org/' /etc/apt/sources.list
+etckeeper commit "apt: use ftp.jp.debian.org instead of http.debian.net"
+
+##
 ## unset user.email (etckeeper)
 ##
 git config --global --unset user.email
