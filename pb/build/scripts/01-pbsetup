@@ -6,3 +6,5 @@ export DEBIAN_FRONTEND=noninteractive
 
 ## private script
 /build/tmp/pbsetup.sh
+rm -v /etc/debian_chroot
+etckeeper commit "delete debian_chroot"
