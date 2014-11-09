@@ -38,17 +38,17 @@ ii  base-passwd              3.5.37            amd64             Debian base sys
 ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
 ii  coreutils                8.23-3            amd64             GNU core utilities
-ii  dash                     0.5.7-4           amd64             POSIX-compliant shell
+ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
 ii  debconf                  1.5.53            all               Debian configuration management system
 ii  debconf-i18n             1.5.53            all               full internationalization support for debconf
 ii  debian-archive-keyring   2014.1            all               GnuPG archive keys of the Debian archive
-ii  debianutils              4.4               amd64             Miscellaneous utilities specific to Debian
-ii  diffutils                1:3.3-1           amd64             File comparison utilities
+ii  debianutils              4.4+b1            amd64             Miscellaneous utilities specific to Debian
+ii  diffutils                1:3.3-1+b1        amd64             File comparison utilities
 ii  dmsetup                  2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 ii  dpkg                     1.17.21           amd64             Debian package management system
 ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
-ii  findutils                4.4.2-9           amd64             utilities for finding files--find, xargs
+ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.8-base:amd64       4.8.3-13          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-1           amd64             GCC, the GNU Compiler Collection (base package)
@@ -69,7 +69,7 @@ ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attrib
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.25.2-2          amd64             block device id library
-ii  libbz2-1.0:amd64         1.0.6-7           amd64             high-quality block-sorting file compressor library - 
+ii  libbz2-1.0:amd64         1.0.6-7+b1        amd64             high-quality block-sorting file compressor library - 
 ii  libc-bin                 2.19-13           amd64             GNU C Library: Binaries
 ii  libc6:amd64              2.19-13           amd64             GNU C Library: Shared libraries
 ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e capabilities (library)
@@ -81,7 +81,7 @@ ii  libdebconfclient0:amd64  0.192             amd64             Debian Configur
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
 ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
-ii  libgdbm3:amd64           1.8.3-13          amd64             GNU dbm database routines (runtime version)
+ii  libgdbm3:amd64           1.8.3-13+b1       amd64             GNU dbm database routines (runtime version)
 ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
 ii  libkmod2:amd64           18-3              amd64             libkmod shared library
 ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
@@ -95,7 +95,7 @@ ii  libpam-runtime           1.1.8-3.1         all               Runtime support
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
 ii  libpcre3:amd64           1:8.35-3.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
-ii  libreadline6:amd64       6.3-8             amd64             GNU readline and history libraries, run-time librarie
+ii  libreadline6:amd64       6.3-8+b1          amd64             GNU readline and history libraries, run-time librarie
 ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
 ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 ii  libsemanage1:amd64       2.3-1             amd64             SELinux policy management library
@@ -113,7 +113,7 @@ ii  libudev1:amd64           215-5+b1          amd64             libudev shared 
 ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
 ii  libustr-1.0-1:amd64      1.0.4-3           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.25.2-2          amd64             Universally Unique ID library
-ii  login                    1:4.2-2+b1        amd64             system login tools
+ii  login                    1:4.2-2+b2        amd64             system login tools
 ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 ii  mount                    2.25.2-2          amd64             Tools for mounting and manipulating filesystems
@@ -121,20 +121,20 @@ ii  multiarch-support        2.19-13           amd64             Transitional pa
 ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
 ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
-ii  passwd                   1:4.2-2+b1        amd64             change and administer password and group data
+ii  passwd                   1:4.2-2+b2        amd64             change and administer password and group data
 ii  perl                     5.20.1-2          amd64             Larry Wall's Practical Extraction and Report Language
 ii  perl-base                5.20.1-2          amd64             minimal Perl system
 ii  perl-modules             5.20.1-2          all               Core Perl modules
 ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
-ii  sed                      4.2.2-4           amd64             The GNU sed stream editor
+ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
 ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 ii  systemd                  215-5+b1          amd64             system and service manager
 ii  systemd-sysv             215-5+b1          amd64             system and service manager - SysV links
 ii  sysv-rc                  2.88dsf-57        all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-57        amd64             System-V-like utilities
-ii  tar                      1.27.1-2          amd64             GNU version of the tar archiving utility
+ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
 ii  tzdata                   2014i-1           all               time zone and daylight-saving time data
 ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.25.2-2          amd64             Miscellaneous system utilities

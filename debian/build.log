@@ -31,16 +31,16 @@ I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
 I: Retrieving bash 4.3-11
 I: Validating bash 4.3-11
-I: Retrieving libbz2-1.0 1.0.6-7
-I: Validating libbz2-1.0 1.0.6-7
+I: Retrieving libbz2-1.0 1.0.6-7+b1
+I: Validating libbz2-1.0 1.0.6-7+b1
 I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
 I: Retrieving coreutils 8.23-3
 I: Validating coreutils 8.23-3
 I: Retrieving libcryptsetup4 2:1.6.6-3
 I: Validating libcryptsetup4 2:1.6.6-3
-I: Retrieving dash 0.5.7-4
-I: Validating dash 0.5.7-4
+I: Retrieving dash 0.5.7-4+b1
+I: Validating dash 0.5.7-4+b1
 I: Retrieving libdb5.3 5.3.28-6
 I: Validating libdb5.3 5.3.28-6
 I: Retrieving debconf 1.5.53
@@ -49,10 +49,10 @@ I: Retrieving debconf-i18n 1.5.53
 I: Validating debconf-i18n 1.5.53
 I: Retrieving debian-archive-keyring 2014.1
 I: Validating debian-archive-keyring 2014.1
-I: Retrieving debianutils 4.4
-I: Validating debianutils 4.4
-I: Retrieving diffutils 1:3.3-1
-I: Validating diffutils 1:3.3-1
+I: Retrieving debianutils 4.4+b1
+I: Validating debianutils 4.4+b1
+I: Retrieving diffutils 1:3.3-1+b1
+I: Validating diffutils 1:3.3-1+b1
 I: Retrieving dpkg 1.17.21
 I: Validating dpkg 1.17.21
 I: Retrieving e2fslibs 1.42.12-1
@@ -63,8 +63,8 @@ I: Retrieving libcomerr2 1.42.12-1
 I: Validating libcomerr2 1.42.12-1
 I: Retrieving libss2 1.42.12-1
 I: Validating libss2 1.42.12-1
-I: Retrieving findutils 4.4.2-9
-I: Validating findutils 4.4.2-9
+I: Retrieving findutils 4.4.2-9+b1
+I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
 I: Retrieving gcc-4.8-base 4.8.3-13
@@ -75,8 +75,8 @@ I: Retrieving libgcc1 1:4.9.2-1
 I: Validating libgcc1 1:4.9.2-1
 I: Retrieving libstdc++6 4.9.2-1
 I: Validating libstdc++6 4.9.2-1
-I: Retrieving libgdbm3 1.8.3-13
-I: Validating libgdbm3 1.8.3-13
+I: Retrieving libgdbm3 1.8.3-13+b1
+I: Validating libgdbm3 1.8.3-13+b1
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
@@ -171,18 +171,18 @@ I: Retrieving libprocps3 2:3.3.9-8
 I: Validating libprocps3 2:3.3.9-8
 I: Retrieving procps 2:3.3.9-8
 I: Validating procps 2:3.3.9-8
-I: Retrieving libreadline6 6.3-8
-I: Validating libreadline6 6.3-8
+I: Retrieving libreadline6 6.3-8+b1
+I: Validating libreadline6 6.3-8+b1
 I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
-I: Retrieving sed 4.2.2-4
-I: Validating sed 4.2.2-4
+I: Retrieving sed 4.2.2-4+b1
+I: Validating sed 4.2.2-4+b1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.2-2+b1
-I: Validating login 1:4.2-2+b1
-I: Retrieving passwd 1:4.2-2+b1
-I: Validating passwd 1:4.2-2+b1
+I: Retrieving login 1:4.2-2+b2
+I: Validating login 1:4.2-2+b2
+I: Retrieving passwd 1:4.2-2+b2
+I: Validating passwd 1:4.2-2+b2
 I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
@@ -203,8 +203,8 @@ I: Retrieving sysv-rc 2.88dsf-57
 I: Validating sysv-rc 2.88dsf-57
 I: Retrieving sysvinit-utils 2.88dsf-57
 I: Validating sysvinit-utils 2.88dsf-57
-I: Retrieving tar 1.27.1-2
-I: Validating tar 1.27.1-2
+I: Retrieving tar 1.27.1-2+b1
+I: Validating tar 1.27.1-2+b1
 I: Retrieving tzdata 2014i-1
 I: Validating tzdata 2014i-1
 I: Retrieving libustr-1.0-1 1.0.4-3
@@ -223,8 +223,8 @@ I: Retrieving mount 2.25.2-2
 I: Validating mount 2.25.2-2
 I: Retrieving util-linux 2.25.2-2
 I: Validating util-linux 2.25.2-2
-I: Retrieving liblzma5 5.1.1alpha+20120614-2
-I: Validating liblzma5 5.1.1alpha+20120614-2
+I: Retrieving liblzma5 5.1.1alpha+20120614-2+b1
+I: Validating liblzma5 5.1.1alpha+20120614-2+b1
 I: Retrieving zlib1g 1:1.2.8.dfsg-2
 I: Validating zlib1g 1:1.2.8.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -553,8 +553,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9460 kB]
-Fetched 9702 kB in 24s (394 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9461 kB]
+Fetched 9703 kB in 4s (2089 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -562,10 +562,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 8e4408b185d5
-Removing intermediate container f36b652401ab
+ ---> ef946242e77e
+Removing intermediate container 943c814990c4
 Step 2 : CMD /bin/bash
- ---> Running in 6a8e9e202927
- ---> 33700063a664
-Removing intermediate container 6a8e9e202927
-Successfully built 33700063a664
+ ---> Running in d89a72b44f25
+ ---> f35034cd0bf8
+Removing intermediate container d89a72b44f25
+Successfully built f35034cd0bf8
