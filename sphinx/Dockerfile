@@ -5,5 +5,6 @@ COPY build /build
 RUN run-parts --report /build/scripts && rm -rf /build
 EXPOSE 22
 
+USER debian
 CMD ["/bin/bash"]
 
