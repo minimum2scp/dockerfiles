@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141109-20067-1aaxqo8.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141109-20067-n6xzse.out
-% diff -u /tmp/docker-diff.20141109-20067-1aaxqo8.out /tmp/docker-diff.20141109-20067-n6xzse.out
---- /tmp/docker-diff.20141109-20067-1aaxqo8.out	2014-11-09 22:42:15.119502236 +0900
-+++ /tmp/docker-diff.20141109-20067-n6xzse.out	2014-11-09 22:42:15.767496835 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141112-24186-t3ua8m.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141112-24186-1gpo33x.out
+% diff -u /tmp/docker-diff.20141112-24186-t3ua8m.out /tmp/docker-diff.20141112-24186-1gpo33x.out
+--- /tmp/docker-diff.20141112-24186-t3ua8m.out	2014-11-12 10:14:19.762877981 +0900
++++ /tmp/docker-diff.20141112-24186-1gpo33x.out	2014-11-12 10:14:20.354877188 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -64,7 +64,7 @@
 +ii  libedit2:amd64           3.1-20140620-2    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
-+ii  libexpat1:amd64          2.1.0-6+b1        amd64             XML parsing C library - runtime library
++ii  libexpat1:amd64          2.1.0-6+b2        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2             amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
@@ -168,9 +168,9 @@
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
  ii  systemd                  215-5+b1          amd64             system and service manager
 -ii  systemd-sysv             215-5+b1          amd64             system and service manager - SysV links
- ii  sysv-rc                  2.88dsf-57        all               System-V-like runlevel change mechanism
-+ii  sysvinit-core            2.88dsf-57        amd64             System-V-like init utilities
- ii  sysvinit-utils           2.88dsf-57        amd64             System-V-like utilities
+ ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
++ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
+ ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014i-1           all               time zone and daylight-saving time data
  ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
