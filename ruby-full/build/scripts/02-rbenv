@@ -18,9 +18,9 @@ apt-get install libjemalloc1 libjemalloc-dev
 
 ## build rubies
 #rbenv install 1.8.7-p375
-#rbenv install 1.9.3-p550
-rbenv install 2.0.0-p594
-rbenv install 2.1.4
+#rbenv install 1.9.3-p551
+rbenv install 2.0.0-p598
+rbenv install 2.1.5
 ## NOTE: ruby-build does not set --with-jemalloc
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview1
 
