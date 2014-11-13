@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141112-24186-t3ua8m.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141112-24186-1gpo33x.out
-% diff -u /tmp/docker-diff.20141112-24186-t3ua8m.out /tmp/docker-diff.20141112-24186-1gpo33x.out
---- /tmp/docker-diff.20141112-24186-t3ua8m.out	2014-11-12 10:14:19.762877981 +0900
-+++ /tmp/docker-diff.20141112-24186-1gpo33x.out	2014-11-12 10:14:20.354877188 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141113-10199-10ze0me.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141113-10199-1c1zs2w.out
+% diff -u /tmp/docker-diff.20141113-10199-10ze0me.out /tmp/docker-diff.20141113-10199-1c1zs2w.out
+--- /tmp/docker-diff.20141113-10199-10ze0me.out	2014-11-13 17:54:19.586911531 +0900
++++ /tmp/docker-diff.20141113-10199-1c1zs2w.out	2014-11-13 17:54:20.158906976 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -68,7 +68,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  apt-utils                1.0.9.3           amd64             package management related utility programs
  ii  base-files               7.10              amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
- ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
+ ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20141019          all               Common CA certificates
@@ -122,13 +122,13 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libedit2:amd64           3.1-20140620-2    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
-+ii  libexpat1:amd64          2.1.0-6+b2        amd64             XML parsing C library - runtime library
++ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2             amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
  ii  libgdbm3:amd64           1.8.3-13+b1       amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-3           amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.8-4           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
 +ii  libgpm2:amd64            1.20.4-6.1        amd64             General Purpose Mouse - shared library
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
@@ -155,7 +155,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
  ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
- ii  libpcre3:amd64           1:8.35-3.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
+ ii  libpcre3:amd64           1:8.35-3.2        amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
@@ -238,6 +238,6 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  vim-runtime              2:7.4.488-1       all               Vi IMproved - Runtime files
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2    amd64             compression library - runtime
-+ii  zsh                      5.0.7-3           amd64             shell with lots of features
-+ii  zsh-common               5.0.7-3           all               architecture independent files for Zsh
++ii  zsh                      5.0.7-4           amd64             shell with lots of features
++ii  zsh-common               5.0.7-4           all               architecture independent files for Zsh
 ```
