@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## install basic packages
 ##
-apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates perl openssl git lv vim man whiptail zsh=5.0.7-3 apt-utils net-tools
+apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates perl openssl git lv vim man whiptail zsh apt-utils net-tools
 
 ##
 ## install etckeeper

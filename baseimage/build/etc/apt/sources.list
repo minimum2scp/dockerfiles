@@ -15,7 +15,7 @@
 ## testing
 ##
 
-deb     http://http.debian.net/debian/ testing main non-free contrib
+#deb     http://http.debian.net/debian/ testing main non-free contrib
 #deb-src http://http.debian.net/debian/ testing main non-free contrib
 
 ##
