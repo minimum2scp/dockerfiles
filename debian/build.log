@@ -29,8 +29,8 @@ I: Retrieving base-files 7.10
 I: Validating base-files 7.10
 I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
-I: Retrieving bash 4.3-11
-I: Validating bash 4.3-11
+I: Retrieving bash 4.3-11+b1
+I: Validating bash 4.3-11+b1
 I: Retrieving libbz2-1.0 1.0.6-7+b1
 I: Validating libbz2-1.0 1.0.6-7+b1
 I: Retrieving libdebconfclient0 0.192
@@ -159,8 +159,8 @@ I: Retrieving libpam-runtime 1.1.8-3.1
 I: Validating libpam-runtime 1.1.8-3.1
 I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
-I: Retrieving libpcre3 1:8.35-3.1
-I: Validating libpcre3 1:8.35-3.1
+I: Retrieving libpcre3 1:8.35-3.2
+I: Validating libpcre3 1:8.35-3.2
 I: Retrieving perl 5.20.1-2
 I: Validating perl 5.20.1-2
 I: Retrieving perl-base 5.20.1-2
@@ -553,8 +553,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9461 kB]
-Fetched 9703 kB in 2s (4015 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9463 kB]
+Fetched 9705 kB in 8s (1161 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -562,10 +562,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> f35696425e16
-Removing intermediate container 10bc884726ab
+ ---> 323602f55156
+Removing intermediate container 7bce5d7afbd2
 Step 2 : CMD /bin/bash
- ---> Running in 1ea925b46cf2
- ---> 54c7e3b01b04
-Removing intermediate container 1ea925b46cf2
-Successfully built 54c7e3b01b04
+ ---> Running in e424a83f5b4d
+ ---> 6b56d7056ede
+Removing intermediate container e424a83f5b4d
+Successfully built 6b56d7056ede

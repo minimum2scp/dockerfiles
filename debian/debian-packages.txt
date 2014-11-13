@@ -8,7 +8,7 @@ ii  adduser                  3.113+nmu3        all               add and remove 
 ii  apt                      1.0.9.3           amd64             commandline package manager
 ii  base-files               7.10              amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
-ii  bash                     4.3-11            amd64             GNU Bourne Again SHell
+ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.2-2        amd64             basic utilities from 4.4BSD-Lite
 ii  coreutils                8.23-3            amd64             GNU core utilities
 ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
@@ -66,7 +66,7 @@ ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authe
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
-ii  libpcre3:amd64           1:8.35-3.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
+ii  libpcre3:amd64           1:8.35-3.2        amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b1          amd64             GNU readline and history libraries, run-time librarie
 ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
