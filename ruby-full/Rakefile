@@ -1,0 +1,36 @@
+task :default => :tarball
+
+desc "extract rbenv and ruby archives from container"
+task :tarball do
+  image = 'minimum2scp/ruby-full:latest'
+  cname = 'ruby-full-tmp'
+  dest = '/tmp'
+
+  ## run ruby-full image
+  sh "docker run -d --name #{cname} #{image}"
+
+  ## install pixz
+  sh "docker exec #{cname} bash -c 'apt-get update; apt-get install pixz -y --no-install-recommends'"
+
+  ## archive /opt/rbenv (without /opt/rbenv/versions/*)
+  tarball = "/tmp/opt-rbenv.tar.xz"
+  sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt rbenv --exclude 'versions/*'"
+  sh "docker cp #{cname}:#{tarball} #{dest}"
+
+  ## get installed versions (/opt/rbenv/versions/*)
+  versions = `docker exec #{cname} find /opt/rbenv/versions -mindepth 1 -maxdepth 1 -type d`.split("\n").map{|line|
+    line.chomp.sub('/opt/rbenv/versions/', '')
+  }
+
+  ## archive /opt/rbenv/versions/*
+  versions.each do |v|
+    tarball = "/tmp/opt-rbenv-ruby-#{v}.tar.xz"
+    sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt/rbenv/versions #{v}"
+    sh "docker cp #{cname}:#{tarball} #{dest}"
+  end
+
+  ## cleanup
+  sh "docker kill #{cname}"
+  sh "docker rm #{cname}"
+end
+
