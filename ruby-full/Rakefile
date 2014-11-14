@@ -34,3 +34,30 @@ task :tarball do
   sh "docker rm #{cname}"
 end
 
+desc "build ruby archive"
+task :build, [:version] do |t,args|
+  version = args[:version]
+
+  image = 'minimum2scp/ruby-full:latest'
+  cname = 'ruby-full-tmp'
+  dest = '/tmp'
+
+  ## run ruby-full image
+  sh "docker run -d --name #{cname} #{image}"
+
+  ## install pixz
+  sh "docker exec #{cname} bash -c 'apt-get update; apt-get install pixz -y --no-install-recommends'"
+
+  ## run rbenv install
+  sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
+
+  ## archive
+  tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.xz"
+  sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt/rbenv/versions #{version}"
+  sh "docker cp #{cname}:#{tarball} #{dest}"
+
+  ## cleanup
+  sh "docker kill #{cname}"
+  sh "docker rm #{cname}"
+end
+
