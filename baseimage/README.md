@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141115-27126-1n60ttf.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141115-27126-rc0696.out
-% diff -u /tmp/docker-diff.20141115-27126-1n60ttf.out /tmp/docker-diff.20141115-27126-rc0696.out
---- /tmp/docker-diff.20141115-27126-1n60ttf.out	2014-11-15 15:15:43.244909715 +0900
-+++ /tmp/docker-diff.20141115-27126-rc0696.out	2014-11-15 15:15:43.844904012 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141116-2406-147yhjw.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141116-2406-141z9zr.out
+% diff -u /tmp/docker-diff.20141116-2406-147yhjw.out /tmp/docker-diff.20141116-2406-141z9zr.out
+--- /tmp/docker-diff.20141116-2406-147yhjw.out	2014-11-16 00:27:11.388519984 +0900
++++ /tmp/docker-diff.20141116-2406-141z9zr.out	2014-11-16 00:27:11.956514222 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -233,9 +233,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
  ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-2          amd64             Miscellaneous system utilities
-+ii  vim                      2:7.4.488-1       amd64             Vi IMproved - enhanced vi editor
-+ii  vim-common               2:7.4.488-1       amd64             Vi IMproved - Common files
-+ii  vim-runtime              2:7.4.488-1       all               Vi IMproved - Runtime files
++ii  vim                      2:7.4.488-2       amd64             Vi IMproved - enhanced vi editor
++ii  vim-common               2:7.4.488-2       amd64             Vi IMproved - Common files
++ii  vim-runtime              2:7.4.488-2       all               Vi IMproved - Runtime files
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2    amd64             compression library - runtime
 +ii  zsh                      5.0.7-4           amd64             shell with lots of features
