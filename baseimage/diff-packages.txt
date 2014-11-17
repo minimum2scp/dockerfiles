@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141116-2406-147yhjw.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141116-2406-141z9zr.out
-% diff -u /tmp/docker-diff.20141116-2406-147yhjw.out /tmp/docker-diff.20141116-2406-141z9zr.out
---- /tmp/docker-diff.20141116-2406-147yhjw.out	2014-11-16 00:27:11.388519984 +0900
-+++ /tmp/docker-diff.20141116-2406-141z9zr.out	2014-11-16 00:27:11.956514222 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141117-20750-yhnfcu.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141117-20750-17pp707.out
+% diff -u /tmp/docker-diff.20141117-20750-yhnfcu.out /tmp/docker-diff.20141117-20750-17pp707.out
+--- /tmp/docker-diff.20141117-20750-yhnfcu.out	2014-11-17 14:00:46.159563676 +0900
++++ /tmp/docker-diff.20141117-20750-17pp707.out	2014-11-17 14:00:46.779559125 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -68,7 +68,7 @@
 +ii  libffi6:amd64            3.1-2             amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
- ii  libgdbm3:amd64           1.8.3-13+b1       amd64             GNU dbm database routines (runtime version)
+ ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.8-4           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
@@ -149,9 +149,9 @@
 +ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1j-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-2+b2        amd64             change and administer password and group data
- ii  perl                     5.20.1-2          amd64             Larry Wall's Practical Extraction and Report Language
- ii  perl-base                5.20.1-2          amd64             minimal Perl system
- ii  perl-modules             5.20.1-2          all               Core Perl modules
+ ii  perl                     5.20.1-3          amd64             Larry Wall's Practical Extraction and Report Language
+ ii  perl-base                5.20.1-3          amd64             minimal Perl system
+ ii  perl-modules             5.20.1-3          all               Core Perl modules
  ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
 +ii  python                   2.7.8-2           amd64             interactive high-level object-oriented language (defa
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
