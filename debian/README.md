@@ -81,7 +81,7 @@ ii  libdebconfclient0:amd64  0.192             amd64             Debian Configur
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
 ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
-ii  libgdbm3:amd64           1.8.3-13+b1       amd64             GNU dbm database routines (runtime version)
+ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
 ii  libkmod2:amd64           18-3              amd64             libkmod shared library
 ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
@@ -122,9 +122,9 @@ ii  ncurses-base             5.9+20140913-1    all               basic terminal 
 ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-2+b2        amd64             change and administer password and group data
-ii  perl                     5.20.1-2          amd64             Larry Wall's Practical Extraction and Report Language
-ii  perl-base                5.20.1-2          amd64             minimal Perl system
-ii  perl-modules             5.20.1-2          all               Core Perl modules
+ii  perl                     5.20.1-3          amd64             Larry Wall's Practical Extraction and Report Language
+ii  perl-base                5.20.1-3          amd64             minimal Perl system
+ii  perl-modules             5.20.1-3          all               Core Perl modules
 ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
