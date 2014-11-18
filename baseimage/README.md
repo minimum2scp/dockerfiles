@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141118-2022-1qikh30.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141118-2022-faxfth.out
-% diff -u /tmp/docker-diff.20141118-2022-1qikh30.out /tmp/docker-diff.20141118-2022-faxfth.out
---- /tmp/docker-diff.20141118-2022-1qikh30.out	2014-11-18 10:28:59.501512848 +0900
-+++ /tmp/docker-diff.20141118-2022-faxfth.out	2014-11-18 10:29:00.089533465 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-26116-139t9ku.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-26116-18vql0d.out
+% diff -u /tmp/docker-diff.20141119-26116-139t9ku.out /tmp/docker-diff.20141119-26116-18vql0d.out
+--- /tmp/docker-diff.20141119-26116-139t9ku.out	2014-11-19 01:00:53.005230965 +0900
++++ /tmp/docker-diff.20141119-26116-18vql0d.out	2014-11-19 01:00:53.609224839 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -86,7 +86,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.3-13          amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-1           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.2-2           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-4          amd64             GNU privacy guard - a free PGP replacement
@@ -126,7 +126,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2             amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:4.9.2-1         amd64             GCC support library
+ ii  libgcc1:amd64            1:4.9.2-2         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
@@ -178,8 +178,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64             1.42.12-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         4.9.2-1           amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-5+b1          amd64             systemd utility library
+ ii  libstdc++6:amd64         4.9.2-2           amd64             GNU Standard C++ Library v3
+ ii  libsystemd0:amd64        215-6             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -226,14 +226,14 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 +ii  sudo                     1.8.11p2-1        amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
- ii  systemd                  215-5+b1          amd64             system and service manager
--ii  systemd-sysv             215-5+b1          amd64             system and service manager - SysV links
+ ii  systemd                  215-6             amd64             system and service manager
+-ii  systemd-sysv             215-6             amd64             system and service manager - SysV links
  ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
- ii  udev                     215-5+b1          amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-6             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-3          amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-2       amd64             Vi IMproved - enhanced vi editor
 +ii  vim-common               2:7.4.488-2       amd64             Vi IMproved - Common files
