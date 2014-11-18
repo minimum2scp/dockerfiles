@@ -24,3 +24,4 @@ rbenv install 2.1.5
 ## NOTE: ruby-build does not set --with-jemalloc
 RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview1
 
+rbenv rehash
