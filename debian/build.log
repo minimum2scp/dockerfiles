@@ -93,8 +93,8 @@ I: Retrieving hostname 3.15
 I: Validating hostname 3.15
 I: Retrieving inetutils-ping 2:1.9.2.39.3a460-3
 I: Validating inetutils-ping 2:1.9.2.39.3a460-3
-I: Retrieving init 1.21
-I: Validating init 1.21
+I: Retrieving init 1.22
+I: Validating init 1.22
 I: Retrieving insserv 1.14.0-5
 I: Validating insserv 1.14.0-5
 I: Retrieving iproute2 3.16.0-2
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9466 kB]
-Fetched 9708 kB in 13s (743 kB/s)
+Fetched 9708 kB in 15s (619 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 57c884e5681a
-Removing intermediate container 7735ddd6cd09
+ ---> dcc54b3a518b
+Removing intermediate container 7ebadf52ea38
 Step 2 : CMD /bin/bash
- ---> Running in ceb8e0df3092
- ---> 0c008af2c0dd
-Removing intermediate container ceb8e0df3092
-Successfully built 0c008af2c0dd
+ ---> Running in f041691c8474
+ ---> b52f449318a7
+Removing intermediate container f041691c8474
+Successfully built b52f449318a7
