@@ -1,0 +1,19 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## install dependencies for locustio, pyzmq
+apt-get install -y --no-install-recommends build-essential file python-pip python-dev libzmq3-dev libssl-dev zlib1g-dev
+
+## install pyzmq, and locustio dependencies
+apt-get install -y --no-install-recommends python-zmq python-gevent python-flask python-requests python-msgpack
+
+## NOTE: workaround for "python-gevent: SSL support broken with current Python in Jessie (2.7.8)"
+## https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=766867
+sed -i -e 's/PROTOCOL_SSLv3/PROTOCOL_TLSv1/' /usr/lib/python2.7/dist-packages/gevent/ssl.py
+python -m py_compile /usr/lib/python2.7/dist-packages/gevent/ssl.py
+
+## install locustio
+pip install locustio
