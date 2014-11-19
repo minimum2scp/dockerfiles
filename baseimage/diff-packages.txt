@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-26116-139t9ku.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-26116-18vql0d.out
-% diff -u /tmp/docker-diff.20141119-26116-139t9ku.out /tmp/docker-diff.20141119-26116-18vql0d.out
---- /tmp/docker-diff.20141119-26116-139t9ku.out	2014-11-19 01:00:53.005230965 +0900
-+++ /tmp/docker-diff.20141119-26116-18vql0d.out	2014-11-19 01:00:53.609224839 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-4119-rymxkv.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-4119-4hvfu9.out
+% diff -u /tmp/docker-diff.20141119-4119-rymxkv.out /tmp/docker-diff.20141119-4119-4hvfu9.out
+--- /tmp/docker-diff.20141119-4119-rymxkv.out	2014-11-19 21:58:20.885974707 +0900
++++ /tmp/docker-diff.20141119-4119-4hvfu9.out	2014-11-19 21:58:21.497951705 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -38,8 +38,8 @@
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
  ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
- ii  init                     1.21              amd64             System-V-like init utilities - metapackage
-+ii  init-system-helpers      1.21              all               helper tools for all init systems
+ ii  init                     1.22              amd64             System-V-like init utilities - metapackage
++ii  init-system-helpers      1.22              all               helper tools for all init systems
  ii  initscripts              2.88dsf-58        amd64             scripts for initializing and shutting down the system
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
@@ -104,8 +104,8 @@
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 +ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
-+ii  libpython2.7-minimal:amd 2.7.8-11          amd64             Minimal subset of the Python language (version 2.7)
-+ii  libpython2.7-stdlib:amd6 2.7.8-11          amd64             Interactive high-level object-oriented language (stan
++ii  libpython2.7-minimal:amd 2.7.8-12          amd64             Minimal subset of the Python language (version 2.7)
++ii  libpython2.7-stdlib:amd6 2.7.8-12          amd64             Interactive high-level object-oriented language (stan
  ii  libreadline6:amd64       6.3-8+b1          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20131018.git7 amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-12   amd64             Cyrus SASL - authentication abstraction library
@@ -159,8 +159,8 @@
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
 +ii  python-minimal           2.7.8-2           amd64             minimal subset of the Python language (default versio
 +ii  python-pkg-resources     5.5.1-1           all               Package Discovery and Resource Access using pkg_resou
-+ii  python2.7                2.7.8-11          amd64             Interactive high-level object-oriented language (vers
-+ii  python2.7-minimal        2.7.8-11          amd64             Minimal subset of the Python language (version 2.7)
++ii  python2.7                2.7.8-12          amd64             Interactive high-level object-oriented language (vers
++ii  python2.7-minimal        2.7.8-12          amd64             Minimal subset of the Python language (version 2.7)
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
