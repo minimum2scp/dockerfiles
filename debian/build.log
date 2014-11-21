@@ -171,10 +171,10 @@ I: Retrieving sed 4.2.2-4+b1
 I: Validating sed 4.2.2-4+b1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.2-2+b2
-I: Validating login 1:4.2-2+b2
-I: Retrieving passwd 1:4.2-2+b2
-I: Validating passwd 1:4.2-2+b2
+I: Retrieving login 1:4.2-3
+I: Validating login 1:4.2-3
+I: Retrieving passwd 1:4.2-3
+I: Validating passwd 1:4.2-3
 I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9466 kB]
-Fetched 9708 kB in 15s (619 kB/s)
+Fetched 9708 kB in 17s (571 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> dcc54b3a518b
-Removing intermediate container 7ebadf52ea38
+ ---> c447b9aeabec
+Removing intermediate container b82797dc4690
 Step 2 : CMD /bin/bash
- ---> Running in f041691c8474
- ---> b52f449318a7
-Removing intermediate container f041691c8474
-Successfully built b52f449318a7
+ ---> Running in 6ce68e4e589a
+ ---> dc9e784bb2f5
+Removing intermediate container 6ce68e4e589a
+Successfully built dc9e784bb2f5
