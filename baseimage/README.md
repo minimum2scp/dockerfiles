@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-4119-rymxkv.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141119-4119-4hvfu9.out
-% diff -u /tmp/docker-diff.20141119-4119-rymxkv.out /tmp/docker-diff.20141119-4119-4hvfu9.out
---- /tmp/docker-diff.20141119-4119-rymxkv.out	2014-11-19 21:58:20.885974707 +0900
-+++ /tmp/docker-diff.20141119-4119-4hvfu9.out	2014-11-19 21:58:21.497951705 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141122-20317-tsj07f.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141122-20317-1el686x.out
+% diff -u /tmp/docker-diff.20141122-20317-tsj07f.out /tmp/docker-diff.20141122-20317-1el686x.out
+--- /tmp/docker-diff.20141122-20317-tsj07f.out	2014-11-22 00:08:14.519112541 +0900
++++ /tmp/docker-diff.20141122-20317-1el686x.out	2014-11-22 00:08:15.163140934 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -190,7 +190,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libuuid1:amd64           2.25.2-3          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  locales                  2.19-13           all               GNU C Library: National Language (locale) data [suppo
- ii  login                    1:4.2-2+b2        amd64             system login tools
+ ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-3         amd64             on-line manual pager
@@ -208,7 +208,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  openssh-server           1:6.7p1-3         amd64             secure shell (SSH) server, for secure access from rem
 +ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1j-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
- ii  passwd                   1:4.2-2+b2        amd64             change and administer password and group data
+ ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.1-3          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.1-3          amd64             minimal Perl system
 +ii  perl-modules             5.20.1-3          all               Core Perl modules
