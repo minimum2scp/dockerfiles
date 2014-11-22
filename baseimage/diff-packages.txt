@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141122-20317-tsj07f.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141122-20317-1el686x.out
-% diff -u /tmp/docker-diff.20141122-20317-tsj07f.out /tmp/docker-diff.20141122-20317-1el686x.out
---- /tmp/docker-diff.20141122-20317-tsj07f.out	2014-11-22 00:08:14.519112541 +0900
-+++ /tmp/docker-diff.20141122-20317-1el686x.out	2014-11-22 00:08:15.163140934 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141123-6196-1wv4ase.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141123-6196-12mir68.out
+% diff -u /tmp/docker-diff.20141123-6196-1wv4ase.out /tmp/docker-diff.20141123-6196-12mir68.out
+--- /tmp/docker-diff.20141123-6196-1wv4ase.out	2014-11-23 02:11:36.161585586 +0900
++++ /tmp/docker-diff.20141123-6196-12mir68.out	2014-11-23 02:11:36.661533416 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -72,18 +72,18 @@
  ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-4           amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.8-5           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-2            amd64             library for common error values and messages in GnuPG
 +ii  libgpm2:amd64            1.20.4-6.1        amd64             General Purpose Mouse - shared library
-+ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
++ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-3           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.29-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
-+ii  libk5crypto3:amd64       1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64       1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5           amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           18-3              amd64             libkmod shared library
-+ii  libkrb5-3:amd64          1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64    1.12.1+dfsg-14    amd64             MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64          1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64    1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40-2          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.4-1           amd64             easy to use and lightweight logging library
