@@ -1,8 +1,8 @@
 task :default => "tdiary:core:spec"
 
 def with_container(image: "minimum2scp/tdiary:latest")
-  cname = "tdiary-tmp"
-  sh "docker run -d --name #{cname} #{image}"
+  cid = `docker run -d #{image}`.strip
+  cname = `docker inspect -f '{{ .Name }}' #{cid}`.strip.sub(/\A\//, '')
   sleep 5
   ret = yield cname
 ensure
