@@ -1,0 +1,53 @@
+task :default => "tdiary:core:spec"
+
+def with_container(image: "minimum2scp/tdiary:latest")
+  cname = "tdiary-tmp"
+  sh "docker run -d --name #{cname} #{image}"
+  sleep 5
+  ret = yield cname
+ensure
+  sh "docker kill #{cname}"
+  sh "docker rm #{cname}"
+  ret
+end
+
+namespace :tdiary do
+  namespace :core do
+    desc "run rake spec in tdiary-core"
+    task :spec do
+      with_container do |cname|
+        sh "docker exec #{cname} supervisorctl stop all"
+        sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle\""
+        sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle exec rake spec SPEC_OPTS='-f d -c'\""
+      end
+    end
+  end
+
+  { 'contrib'          => nil,
+    'cache-redis'      => ->(cname){
+      sh "docker exec #{cname} bash -c \"apt-get install -y --no-install-recommends redis-server; /etc/init.d/redis-server start\""
+    },
+    'cache-memcached'  => ->(cname){
+      sh "docker exec #{cname} bash -c \"apt-get install -y --no-install-recommends memcached; /etc/init.d/memcached start\""
+    },
+    'io-mongodb'       => nil,
+    'io-rdb'           => nil,
+    'style-emptdiary'  => nil,
+    'style-etdiary'    => nil,
+    'style-gfm'        => nil,
+    'style-rd'         => nil
+  }.each do |component, prereq|
+    namespace component do
+      desc "run rake spec in tdiary-#{component}"
+      task :spec do
+        with_container do |cname|
+          prereq.call(cname) if prereq
+          sh "docker exec #{cname} supervisorctl stop all"
+          sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-#{component}; bundle install --path vendor/bundle\""
+          sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-#{component}; bundle exec rake spec SPEC_OPTS='-f d -c'\""
+        end
+      end
+    end
+  end
+end
+
