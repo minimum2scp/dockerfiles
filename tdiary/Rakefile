@@ -1,4 +1,4 @@
-task :default => "tdiary:core:spec"
+task :default => "tdiary:core:spec-core"
 
 def with_container(image: "minimum2scp/tdiary:latest")
   cid = `docker run -d #{image}`.strip
@@ -14,11 +14,20 @@ end
 namespace :tdiary do
   namespace :core do
     desc "run rake spec in tdiary-core"
-    task :spec do
+    task "spec" do
       with_container do |cname|
         sh "docker exec #{cname} supervisorctl stop all"
         sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle\""
         sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle exec rake spec SPEC_OPTS='-f d -c'\""
+      end
+    end
+
+    desc "run rake spec:core in tdiary-core"
+    task "spec-core" do
+      with_container do |cname|
+        sh "docker exec #{cname} supervisorctl stop all"
+        sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle\""
+        sh "docker exec #{cname} sudo -u debian -H bash -l -c \"cd ~/go/src/github.com/tdiary/tdiary-core; bundle exec rake spec:core SPEC_OPTS='-f d -c'\""
       end
     end
   end
