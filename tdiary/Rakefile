@@ -1,8 +1,29 @@
+require 'tempfile'
+
 task :default => "tdiary:core:spec-core"
 
+## colorize: see lib/rake/file_utils_ext.rb
+def Rake.rake_output_message(message)
+  $stderr.puts "\e[32;1m#{message}\e[0m"
+end
+
+## coloreize: see fileutils.rb
+module FileUtils
+  alias fu_output_message_orig fu_output_message
+
+  def fu_output_message(msg)
+    fu_output_message_orig("\e[32;1m#{msg}\e[0m")
+  end
+  private_module_function :fu_output_message
+end
+
 def with_container(image: "minimum2scp/tdiary:latest")
-  cid = `docker run -d #{image}`.strip
-  cname = `docker inspect -f '{{ .Name }}' #{cid}`.strip.sub(/\A\//, '')
+  t = Tempfile.new(['tdiary-container', '.txt'])
+  t.close
+  sh "docker run -d #{image} | tee #{t.path}"
+  cid = File.read(t.path).strip
+  sh "docker inspect -f '{{.Name}}' #{cid} | tee #{t.path}"
+  cname = File.read(t.path).strip.sub(/\A\//, '')
   sleep 5
   ret = yield cname
 ensure
