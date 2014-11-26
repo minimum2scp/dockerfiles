@@ -43,10 +43,10 @@ I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
 I: Retrieving libdb5.3 5.3.28-6
 I: Validating libdb5.3 5.3.28-6
-I: Retrieving debconf 1.5.53
-I: Validating debconf 1.5.53
-I: Retrieving debconf-i18n 1.5.53
-I: Validating debconf-i18n 1.5.53
+I: Retrieving debconf 1.5.54
+I: Validating debconf 1.5.54
+I: Retrieving debconf-i18n 1.5.54
+I: Validating debconf-i18n 1.5.54
 I: Retrieving debian-archive-keyring 2014.1
 I: Validating debian-archive-keyring 2014.1
 I: Retrieving debianutils 4.4+b1
@@ -69,12 +69,12 @@ I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
 I: Retrieving gcc-4.8-base 4.8.3-13
 I: Validating gcc-4.8-base 4.8.3-13
-I: Retrieving gcc-4.9-base 4.9.2-2
-I: Validating gcc-4.9-base 4.9.2-2
-I: Retrieving libgcc1 1:4.9.2-2
-I: Validating libgcc1 1:4.9.2-2
-I: Retrieving libstdc++6 4.9.2-2
-I: Validating libstdc++6 4.9.2-2
+I: Retrieving gcc-4.9-base 4.9.2-3
+I: Validating gcc-4.9-base 4.9.2-3
+I: Retrieving libgcc1 1:4.9.2-3
+I: Validating libgcc1 1:4.9.2-3
+I: Retrieving libstdc++6 4.9.2-3
+I: Validating libstdc++6 4.9.2-3
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
@@ -155,8 +155,8 @@ I: Retrieving libpam-runtime 1.1.8-3.1
 I: Validating libpam-runtime 1.1.8-3.1
 I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
-I: Retrieving libpcre3 1:8.35-3.2
-I: Validating libpcre3 1:8.35-3.2
+I: Retrieving libpcre3 1:8.36-1
+I: Validating libpcre3 1:8.36-1
 I: Retrieving perl-base 5.20.1-3
 I: Validating perl-base 5.20.1-3
 I: Retrieving libprocps3 2:3.3.9-8
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9466 kB]
-Fetched 9708 kB in 17s (571 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9467 kB]
+Fetched 9708 kB in 5s (1742 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> c447b9aeabec
-Removing intermediate container b82797dc4690
+ ---> 28ab1db9a6fe
+Removing intermediate container 5009bd9e2a95
 Step 2 : CMD /bin/bash
- ---> Running in 6ce68e4e589a
- ---> dc9e784bb2f5
-Removing intermediate container 6ce68e4e589a
-Successfully built dc9e784bb2f5
+ ---> Running in 4dba31ccd2f2
+ ---> cdef1b041228
+Removing intermediate container 4dba31ccd2f2
+Successfully built cdef1b041228
