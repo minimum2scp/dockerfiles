@@ -48,6 +48,9 @@ task :build, [:version] do |t,args|
   ## install pixz
   sh "docker exec #{cname} bash -c 'apt-get update; apt-get install pixz -y --no-install-recommends'"
 
+  ## run rbenv update
+  sh "docker exec #{cname} bash -l -c 'rbenv update'"
+
   ## run rbenv install
   sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
 
