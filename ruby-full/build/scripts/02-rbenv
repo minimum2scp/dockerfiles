@@ -13,7 +13,7 @@ rbenv update
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
 
-## build ruby 2.2.0-preview1 with jemalloc
+## build ruby 2.2.0-preview2 with jemalloc
 apt-get install libjemalloc1 libjemalloc-dev
 
 ## build rubies
@@ -22,6 +22,6 @@ apt-get install libjemalloc1 libjemalloc-dev
 rbenv install 2.0.0-p598
 rbenv install 2.1.5
 ## NOTE: ruby-build does not set --with-jemalloc
-RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview1
+RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview2
 
 rbenv rehash
