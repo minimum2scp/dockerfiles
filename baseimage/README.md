@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141127-22857-15dreg5.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141127-22857-z8yq47.out
-% diff -u /tmp/docker-diff.20141127-22857-15dreg5.out /tmp/docker-diff.20141127-22857-z8yq47.out
---- /tmp/docker-diff.20141127-22857-15dreg5.out	2014-11-27 02:37:13.502717316 +0900
-+++ /tmp/docker-diff.20141127-22857-z8yq47.out	2014-11-27 02:37:14.074712364 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141129-32677-11sq9b5.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141129-32677-1xt1q39.out
+% diff -u /tmp/docker-diff.20141129-32677-11sq9b5.out /tmp/docker-diff.20141129-32677-1xt1q39.out
+--- /tmp/docker-diff.20141129-32677-11sq9b5.out	2014-11-29 01:03:06.240637277 +0900
++++ /tmp/docker-diff.20141129-32677-1xt1q39.out	2014-11-29 01:03:06.844673299 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -79,7 +79,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  debconf                  1.5.54            all               Debian configuration management system
  ii  debconf-i18n             1.5.54            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
- ii  dpkg                     1.17.21           amd64             Debian package management system
+ ii  dpkg                     1.17.22           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
@@ -135,10 +135,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgpm2:amd64            1.20.4-6.1        amd64             General Purpose Mouse - shared library
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-3           amd64             low level cryptographic library (public-key cryptos)
-+ii  libidn11:amd64           1.29-1            amd64             GNU Libidn library, implementation of IETF IDN specif
++ii  libidn11:amd64           1.29-1+b1         amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - Crypto Library
-+ii  libkeyutils1:amd64       1.5.9-5           amd64             Linux Key Management Utilities (library)
++ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           18-3              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.12.1+dfsg-15    amd64             MIT Kerberos runtime libraries - Support library
@@ -162,8 +162,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 +ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
-+ii  libpython2.7-minimal:amd 2.7.8-12          amd64             Minimal subset of the Python language (version 2.7)
-+ii  libpython2.7-stdlib:amd6 2.7.8-12          amd64             Interactive high-level object-oriented language (stan
++ii  libpython2.7-minimal:amd 2.7.9~rc1-1       amd64             Minimal subset of the Python language (version 2.7)
++ii  libpython2.7-stdlib:amd6 2.7.9~rc1-1       amd64             Interactive high-level object-oriented language (stan
  ii  libreadline6:amd64       6.3-8+b1          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20131018.git7 amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-12   amd64             Cyrus SASL - authentication abstraction library
@@ -179,7 +179,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-3           amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-6             amd64             systemd utility library
+ ii  libsystemd0:amd64        215-7             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -217,8 +217,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
 +ii  python-minimal           2.7.8-2           amd64             minimal subset of the Python language (default versio
 +ii  python-pkg-resources     5.5.1-1           all               Package Discovery and Resource Access using pkg_resou
-+ii  python2.7                2.7.8-12          amd64             Interactive high-level object-oriented language (vers
-+ii  python2.7-minimal        2.7.8-12          amd64             Minimal subset of the Python language (version 2.7)
++ii  python2.7                2.7.9~rc1-1       amd64             Interactive high-level object-oriented language (vers
++ii  python2.7-minimal        2.7.9~rc1-1       amd64             Minimal subset of the Python language (version 2.7)
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
@@ -226,20 +226,20 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 +ii  sudo                     1.8.11p2-1        amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
- ii  systemd                  215-6             amd64             system and service manager
--ii  systemd-sysv             215-6             amd64             system and service manager - SysV links
+ ii  systemd                  215-7             amd64             system and service manager
+-ii  systemd-sysv             215-7             amd64             system and service manager - SysV links
  ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
- ii  udev                     215-6             amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-7             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-3          amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-2       amd64             Vi IMproved - enhanced vi editor
 +ii  vim-common               2:7.4.488-2       amd64             Vi IMproved - Common files
 +ii  vim-runtime              2:7.4.488-2       all               Vi IMproved - Runtime files
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
- ii  zlib1g:amd64             1:1.2.8.dfsg-2    amd64             compression library - runtime
+ ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-5           amd64             shell with lots of features
 +ii  zsh-common               5.0.7-5           all               architecture independent files for Zsh
 ```
