@@ -53,8 +53,8 @@ I: Retrieving debianutils 4.4+b1
 I: Validating debianutils 4.4+b1
 I: Retrieving diffutils 1:3.3-1+b1
 I: Validating diffutils 1:3.3-1+b1
-I: Retrieving dpkg 1.17.21
-I: Validating dpkg 1.17.21
+I: Retrieving dpkg 1.17.22
+I: Validating dpkg 1.17.22
 I: Retrieving e2fslibs 1.42.12-1
 I: Validating e2fslibs 1.42.12-1
 I: Retrieving e2fsprogs 1.42.12-1
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-6
-I: Validating libsystemd0 215-6
-I: Retrieving libudev1 215-6
-I: Validating libudev1 215-6
-I: Retrieving systemd 215-6
-I: Validating systemd 215-6
-I: Retrieving systemd-sysv 215-6
-I: Validating systemd-sysv 215-6
-I: Retrieving udev 215-6
-I: Validating udev 215-6
+I: Retrieving libsystemd0 215-7
+I: Validating libsystemd0 215-7
+I: Retrieving libudev1 215-7
+I: Validating libudev1 215-7
+I: Retrieving systemd 215-7
+I: Validating systemd 215-7
+I: Retrieving systemd-sysv 215-7
+I: Validating systemd-sysv 215-7
+I: Retrieving udev 215-7
+I: Validating udev 215-7
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -215,10 +215,10 @@ I: Retrieving mount 2.25.2-3
 I: Validating mount 2.25.2-3
 I: Retrieving util-linux 2.25.2-3
 I: Validating util-linux 2.25.2-3
-I: Retrieving liblzma5 5.1.1alpha+20120614-2+b1
-I: Validating liblzma5 5.1.1alpha+20120614-2+b1
-I: Retrieving zlib1g 1:1.2.8.dfsg-2
-I: Validating zlib1g 1:1.2.8.dfsg-2
+I: Retrieving liblzma5 5.1.1alpha+20120614-2+b2
+I: Validating liblzma5 5.1.1alpha+20120614-2+b2
+I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
+I: Validating zlib1g 1:1.2.8.dfsg-2+b1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting acl...
 I: Extracting libacl1...
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9467 kB]
-Fetched 9708 kB in 5s (1742 kB/s)
+Fetched 9709 kB in 6s (1552 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 28ab1db9a6fe
-Removing intermediate container 5009bd9e2a95
+ ---> 9d639d04c895
+Removing intermediate container 70473ff5e77e
 Step 2 : CMD /bin/bash
- ---> Running in 4dba31ccd2f2
- ---> cdef1b041228
-Removing intermediate container 4dba31ccd2f2
-Successfully built cdef1b041228
+ ---> Running in 7da4fbc62063
+ ---> f1fdf75d21ea
+Removing intermediate container 7da4fbc62063
+Successfully built f1fdf75d21ea
