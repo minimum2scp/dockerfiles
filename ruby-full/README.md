@@ -49,14 +49,9 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
 ```
 % docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "rbenv versions"
 * system (set by /opt/rbenv/version)
-  2.0.0
   2.0.0-p598
   2.1.5
-  2.2.0
   2.2.0-preview1
-% docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "rbenv alias --list"
-2.0.0 => 2.0.0-p598
-2.2.0 => 2.2.0-preview1
 ```
 
 
