@@ -67,14 +67,14 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-13
-I: Validating gcc-4.8-base 4.8.3-13
-I: Retrieving gcc-4.9-base 4.9.2-3
-I: Validating gcc-4.9-base 4.9.2-3
-I: Retrieving libgcc1 1:4.9.2-3
-I: Validating libgcc1 1:4.9.2-3
-I: Retrieving libstdc++6 4.9.2-3
-I: Validating libstdc++6 4.9.2-3
+I: Retrieving gcc-4.8-base 4.8.3-14
+I: Validating gcc-4.8-base 4.8.3-14
+I: Retrieving gcc-4.9-base 4.9.2-4
+I: Validating gcc-4.9-base 4.9.2-4
+I: Retrieving libgcc1 1:4.9.2-4
+I: Validating libgcc1 1:4.9.2-4
+I: Retrieving libstdc++6 4.9.2-4
+I: Validating libstdc++6 4.9.2-4
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9467 kB]
-Fetched 9709 kB in 6s (1552 kB/s)
+Fetched 9709 kB in 19s (486 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 9d639d04c895
-Removing intermediate container 70473ff5e77e
+ ---> c9f797db2f0e
+Removing intermediate container c515fbf310cc
 Step 2 : CMD /bin/bash
- ---> Running in 7da4fbc62063
- ---> f1fdf75d21ea
-Removing intermediate container 7da4fbc62063
-Successfully built f1fdf75d21ea
+ ---> Running in 73488270b3a3
+ ---> d88ce5d8f85b
+Removing intermediate container 73488270b3a3
+Successfully built d88ce5d8f85b
