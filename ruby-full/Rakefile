@@ -9,12 +9,12 @@ task :tarball do
   ## run ruby-full image
   sh "docker run -d --name #{cname} #{image}"
 
-  ## install pixz
-  sh "docker exec #{cname} bash -c 'apt-get update; apt-get install pixz -y --no-install-recommends'"
+  ## install pigz
+  sh "docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'"
 
   ## archive /opt/rbenv (without /opt/rbenv/versions/*)
-  tarball = "/tmp/opt-rbenv.tar.xz"
-  sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt rbenv --exclude 'versions/*'"
+  tarball = "/tmp/opt-rbenv.tar.gz"
+  sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt rbenv --exclude 'versions/*'"
   sh "docker cp #{cname}:#{tarball} #{dest}"
 
   ## get installed versions (/opt/rbenv/versions/*)
@@ -24,8 +24,8 @@ task :tarball do
 
   ## archive /opt/rbenv/versions/*
   versions.each do |v|
-    tarball = "/tmp/opt-rbenv-ruby-#{v}.tar.xz"
-    sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt/rbenv/versions #{v}"
+    tarball = "/tmp/opt-rbenv-ruby-#{v}.tar.gz"
+    sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{v}"
     sh "docker cp #{cname}:#{tarball} #{dest}"
   end
 
@@ -45,8 +45,8 @@ task :build, [:version] do |t,args|
   ## run ruby-full image
   sh "docker run -d --name #{cname} #{image}"
 
-  ## install pixz
-  sh "docker exec #{cname} bash -c 'apt-get update; apt-get install pixz -y --no-install-recommends'"
+  ## install pigz
+  sh "docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'"
 
   ## run rbenv update
   sh "docker exec #{cname} bash -l -c 'rbenv update'"
@@ -55,8 +55,8 @@ task :build, [:version] do |t,args|
   sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
 
   ## archive
-  tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.xz"
-  sh "docker exec #{cname} tar -Ipixz -cf #{tarball} -C /opt/rbenv/versions #{version}"
+  tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.gz"
+  sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{version}"
   sh "docker cp #{cname}:#{tarball} #{dest}"
 
   ## cleanup
