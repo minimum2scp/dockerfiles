@@ -1,0 +1,66 @@
+task :default => :tarball
+
+desc "extract rbenv and ruby archives from container"
+task :tarball do
+  image = 'minimum2scp/mruby:latest'
+  cname = 'ruby-mruby-tmp'
+  dest = '/tmp'
+
+  ## run ruby-mruby image
+  sh "docker run -d --name #{cname} #{image}"
+
+  ## install pigz
+  sh "docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'"
+
+  ### archive /opt/rbenv (without /opt/rbenv/versions/*)
+  #tarball = "/tmp/opt-rbenv.tar.gz"
+  #sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt rbenv --exclude 'versions/*'"
+  #sh "docker cp #{cname}:#{tarball} #{dest}"
+
+  ## get installed versions (/opt/rbenv/versions/*)
+  versions = `docker exec #{cname} find /opt/rbenv/versions -mindepth 1 -maxdepth 1 -type d`.split("\n").map{|line|
+    line.chomp.sub('/opt/rbenv/versions/', '')
+  }
+
+  ## archive /opt/rbenv/versions/*
+  versions.each do |v|
+    tarball = "/tmp/opt-rbenv-ruby-#{v}.tar.gz"
+    sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{v}"
+    sh "docker cp #{cname}:#{tarball} #{dest}"
+  end
+
+  ## cleanup
+  sh "docker kill #{cname}"
+  sh "docker rm #{cname}"
+end
+
+desc "build ruby archive"
+task :build, [:version] do |t,args|
+  version = args[:version]
+
+  image = 'minimum2scp/ruby-mruby:latest'
+  cname = 'ruby-mruby-tmp'
+  dest = '/tmp'
+
+  ## run ruby-mruby image
+  sh "docker run -d --name #{cname} #{image}"
+
+  ## install pigz
+  sh "docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'"
+
+  ## run rbenv update
+  sh "docker exec #{cname} bash -l -c 'rbenv update'"
+
+  ## run rbenv install
+  sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
+
+  ## archive
+  tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.gz"
+  sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{version}"
+  sh "docker cp #{cname}:#{tarball} #{dest}"
+
+  ## cleanup
+  sh "docker kill #{cname}"
+  sh "docker rm #{cname}"
+end
+
