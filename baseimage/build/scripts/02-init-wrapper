@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install custom init scripts
+##
+mkdir -p /opt/init-wrapper/sbin /opt/init-wrapper/scripts
+install -m 755 -o root -g root -p /build/opt/init-wrapper/sbin/init  /opt/init-wrapper/sbin/init
+install -m 755 -o root -g root -p /build/opt/init-wrapper/scripts/*  /opt/init-wrapper/scripts/
+

@@ -1,0 +1,17 @@
+#! /bin/sh
+
+##
+## save environment variables to /etc/profile.d/docker-env.sh
+##
+env | sort | sed \
+  -e '/^HOME=/d' \
+  -e '/^HOSTNAME=/d' \
+  -e '/^PATH=/d' \
+  -e '/^PWD=/d' \
+  -e '/^TERM=/d' \
+  -e 's/^/export /' \
+> /etc/profile.d/docker-env.sh
+
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  etckeeper commit "add /etc/profile.d/docker-env.sh" 1>/dev/null 2>/dev/null
+fi

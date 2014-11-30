@@ -1,0 +1,4 @@
+#! /bin/sh
+
+run-parts --exit-on-error /opt/init-wrapper/scripts
+exec /sbin/init
