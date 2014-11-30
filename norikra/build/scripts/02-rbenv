@@ -1,17 +1,16 @@
-#! /bin/bash
+#! /bin/sh
 
 set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ## install jruby by rbenv
-. /etc/profile.d/rbenv.sh
-rbenv install jruby-1.7.14
+bash -l -c "rbenv install jruby-1.7.14"
 
 ## install norikra with JRuby
-RBENV_VERSION=jruby-1.7.14 gem install norikra
+bash -l -c "RBENV_VERSION=jruby-1.7.14 gem install norikra"
 
 ## install norikura-client with CRuby
-RBENV_VERSION=system gem install norikra-client
+bash -l -c "RBENV_VERSION=system gem install norikra-client"
 
 
