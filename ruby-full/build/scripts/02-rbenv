@@ -1,14 +1,11 @@
-#! /bin/bash
+#! /bin/sh
 
 set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## enable rbenv
-. /etc/profile.d/rbenv.sh
-
 ## run rbenv-update
-rbenv update
+bash -l -c "rbenv update"
 
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
@@ -17,11 +14,11 @@ rbenv update
 apt-get install libjemalloc1 libjemalloc-dev
 
 ## build rubies
-#rbenv install 1.8.7-p375
-#rbenv install 1.9.3-p551
-rbenv install 2.0.0-p598
-rbenv install 2.1.5
+#bash -l -c "rbenv install 1.8.7-p375"
+#bash -l -c "rbenv install 1.9.3-p551"
+bash -l -c "rbenv install 2.0.0-p598"
+bash -l -c "rbenv install 2.1.5"
 ## NOTE: ruby-build does not set --with-jemalloc
-RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview2
+bash -l -c "RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 2.2.0-preview2"
 
-rbenv rehash
+bash -l -c "rbenv rehash"
