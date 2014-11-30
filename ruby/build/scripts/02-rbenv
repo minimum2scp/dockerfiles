@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 set -e
 set -x
@@ -26,6 +26,5 @@ install -m 644 -o root -g root -p /build/opt/rbenv/default-gems  /opt/rbenv/defa
 git clone https://github.com/rkh/rbenv-update.git                /opt/rbenv/plugins/rbenv-update
 
 ## enable rbenv (creates shims, versions)
- . /etc/profile.d/rbenv.sh
-rbenv rehash
+bash -l -c "rbenv rehash"
 
