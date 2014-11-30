@@ -5,5 +5,5 @@ ADD build /build
 RUN run-parts --report --exit-on-error /build/scripts && rm -rf /build
 EXPOSE 22 80 9001
 
-CMD ["/sbin/init"]
+CMD ["/opt/init-wrapper/sbin/init"]
 

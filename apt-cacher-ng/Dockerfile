@@ -5,5 +5,5 @@ COPY build /build
 RUN run-parts --report --exit-on-error /build/scripts && rm -rf /build
 EXPOSE 3142
 
-CMD ["/sbin/init"]
+CMD ["/opt/init-wrapper/sbin/init"]
 
