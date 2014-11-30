@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141130-16684-bm9hwm.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141130-16684-1nnucb5.out
-% diff -u /tmp/docker-diff.20141130-16684-bm9hwm.out /tmp/docker-diff.20141130-16684-1nnucb5.out
---- /tmp/docker-diff.20141130-16684-bm9hwm.out	2014-11-30 00:23:42.497839559 +0900
-+++ /tmp/docker-diff.20141130-16684-1nnucb5.out	2014-11-30 00:23:43.125833869 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-21566-h2ko5q.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-21566-7fasii.out
+% diff -u /tmp/docker-diff.20141201-21566-h2ko5q.out /tmp/docker-diff.20141201-21566-7fasii.out
+--- /tmp/docker-diff.20141201-21566-h2ko5q.out	2014-12-01 00:27:49.038229246 +0900
++++ /tmp/docker-diff.20141201-21566-7fasii.out	2014-12-01 00:27:50.590221868 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -85,7 +85,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.8-base:amd64       4.8.3-14          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.8-base:amd64       4.8.3-15          amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-4           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
