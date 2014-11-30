@@ -56,17 +56,17 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-21566-h2ko5q.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-21566-7fasii.out
-% diff -u /tmp/docker-diff.20141201-21566-h2ko5q.out /tmp/docker-diff.20141201-21566-7fasii.out
---- /tmp/docker-diff.20141201-21566-h2ko5q.out	2014-12-01 00:27:49.038229246 +0900
-+++ /tmp/docker-diff.20141201-21566-7fasii.out	2014-12-01 00:27:50.590221868 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-6450-1i8ujr4.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141201-6450-qul8aw.out
+% diff -u /tmp/docker-diff.20141201-6450-1i8ujr4.out /tmp/docker-diff.20141201-6450-qul8aw.out
+--- /tmp/docker-diff.20141201-6450-1i8ujr4.out	2014-12-01 04:52:30.744829246 +0900
++++ /tmp/docker-diff.20141201-6450-qul8aw.out	2014-12-01 04:52:31.344823580 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      1.0.9.3           amd64             commandline package manager
 +ii  apt-utils                1.0.9.3           amd64             package management related utility programs
- ii  base-files               7.10              amd64             Debian base system miscellaneous files
+ ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
