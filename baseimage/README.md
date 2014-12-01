@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-400-1gxd84v.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-400-l4k2o6.out
-% diff -u /tmp/docker-diff.20141202-400-1gxd84v.out /tmp/docker-diff.20141202-400-l4k2o6.out
---- /tmp/docker-diff.20141202-400-1gxd84v.out	2014-12-02 00:20:21.498411522 +0900
-+++ /tmp/docker-diff.20141202-400-l4k2o6.out	2014-12-02 00:20:22.146391637 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-6696-y3hq5r.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-6696-5c48wz.out
+% diff -u /tmp/docker-diff.20141202-6696-y3hq5r.out /tmp/docker-diff.20141202-6696-5c48wz.out
+--- /tmp/docker-diff.20141202-6696-y3hq5r.out	2014-12-02 02:22:46.926566396 +0900
++++ /tmp/docker-diff.20141202-6696-5c48wz.out	2014-12-02 02:22:47.514560566 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -202,8 +202,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  nginx-common             1.6.2-4           all               small, powerful, scalable web/proxy server - common f
-+ii  nginx-light              1.6.2-4           amd64             nginx web/proxy server (basic version)
++ii  nginx-common             1.6.2-5           all               small, powerful, scalable web/proxy server - common f
++ii  nginx-light              1.6.2-5           amd64             nginx web/proxy server (basic version)
 +ii  openssh-client           1:6.7p1-3         amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.7p1-3         amd64             secure shell (SSH) server, for secure access from rem
 +ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
