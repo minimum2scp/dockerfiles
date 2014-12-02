@@ -4,10 +4,14 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+##
 ## install dependency for elasticsearch
+##
 apt-get install --no-install-recommends -y default-jre-headless
 
-## install elasticsearch
+##
+## install elasticsearch and autostart elasticsearch
+##
 curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
 install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/elasticsearch.list /etc/apt/sources.list.d/elasticsearch.list
 etckeeper commit "apt: add elasticsearch apt-line"
@@ -16,18 +20,34 @@ apt-get install --no-install-recommends -y elasticsearch
 insserv elasticsearch
 etckeeper commit "enabled autostart eelasticsearch"
 
-## download kibana, and extract to /var/www/html
+##
+## download kibana (4.0.0 beta2), and extract to /opt/kibana
+##
 cd /tmp
-curl -LO http://download.elasticsearch.org/kibana/kibana/kibana-latest.tar.gz
-mkdir -p /var/www/html
-tar xf /tmp/kibana-latest.tar.gz -C /var/www/html --strip-components=1
-rm /tmp/kibana-latest.tar.gz
+curl -LO https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-BETA2.tar.gz
+mkdir -p /opt/kibana
+tar xf /tmp/kibana-4.0.0-BETA2.tar.gz -C /opt/kibana --strip-components=1
+rm /tmp/kibana-4.0.0-BETA2.tar.gz
 
-## configure nginx (nginx-light is already installed in baseimage)
-insserv nginx
-etckeeper commit "autostart nginx"
-install -m 644 -o root -g root -p /build/etc/nginx/sites-available/kibana /etc/nginx/sites-available/kibana
-rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
-etckeeper commit "nginx: disabled default site, enabled kibana site"
+##
+## add system user "kibana" to run kibana process
+##
+addgroup --system kibana
+adduser --system --home /opt/kibana --shell /bin/false --no-create-home \
+  --gecos 'kibana' --ingroup kibana --disabled-password \
+  kibana
+chown -R kibana:kibana /opt/kibana
+
+##
+## autostart supervisor
+## (supervisor is already installed in baseimage)
+##
+insserv supervisor
+etckeeper commit "autostart supervisor"
+
+##
+## add kibana to supervisor
+##
+install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/kibana.conf /etc/supervisor/conf.d/kibana.conf
+etckeeper commit "supervisor: add kibana"
 
