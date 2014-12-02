@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-6696-y3hq5r.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141202-6696-5c48wz.out
-% diff -u /tmp/docker-diff.20141202-6696-y3hq5r.out /tmp/docker-diff.20141202-6696-5c48wz.out
---- /tmp/docker-diff.20141202-6696-y3hq5r.out	2014-12-02 02:22:46.926566396 +0900
-+++ /tmp/docker-diff.20141202-6696-5c48wz.out	2014-12-02 02:22:47.514560566 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141203-29117-wv16dc.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141203-29117-1ynjeoe.out
+% diff -u /tmp/docker-diff.20141203-29117-wv16dc.out /tmp/docker-diff.20141203-29117-1ynjeoe.out
+--- /tmp/docker-diff.20141203-29117-wv16dc.out	2014-12-03 02:30:16.511349717 +0900
++++ /tmp/docker-diff.20141203-29117-1ynjeoe.out	2014-12-03 02:30:17.083345530 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -127,7 +127,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2             amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:4.9.2-4         amd64             GCC support library
- ii  libgcrypt20:amd64        1.6.2-4           amd64             LGPL Crypto library - runtime library
+ ii  libgcrypt20:amd64        1.6.2-4+b1        amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.8-5           amd64             GNU TLS library - main runtime library
