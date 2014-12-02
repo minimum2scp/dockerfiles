@@ -105,8 +105,8 @@ I: Retrieving libcap2 1:2.24-6
 I: Validating libcap2 1:2.24-6
 I: Retrieving libcap2-bin 1:2.24-6
 I: Validating libcap2-bin 1:2.24-6
-I: Retrieving libgcrypt20 1.6.2-4
-I: Validating libgcrypt20 1.6.2-4
+I: Retrieving libgcrypt20 1.6.2-4+b1
+I: Validating libgcrypt20 1.6.2-4+b1
 I: Retrieving libgpg-error0 1.17-2
 I: Validating libgpg-error0 1.17-2
 I: Retrieving liblocale-gettext-perl 1.05-8+b1
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9472 kB]
-Fetched 9713 kB in 14s (656 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9471 kB]
+Fetched 9713 kB in 4s (2201 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 48da5ff6a33f
-Removing intermediate container caeadc9eb90a
+ ---> f75b5aa58c42
+Removing intermediate container 323f29086dbd
 Step 2 : CMD /bin/bash
- ---> Running in 09ef53612b97
- ---> 39af242d9f73
-Removing intermediate container 09ef53612b97
-Successfully built 39af242d9f73
+ ---> Running in ca7147fb4a93
+ ---> 6dc133b488fb
+Removing intermediate container ca7147fb4a93
+Successfully built 6dc133b488fb
