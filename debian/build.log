@@ -15,10 +15,10 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.3
-I: Validating apt 1.0.9.3
-I: Retrieving libapt-pkg4.12 1.0.9.3
-I: Validating libapt-pkg4.12 1.0.9.3
+I: Retrieving apt 1.0.9.4
+I: Validating apt 1.0.9.4
+I: Retrieving libapt-pkg4.12 1.0.9.4
+I: Validating libapt-pkg4.12 1.0.9.4
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4-1
@@ -41,8 +41,8 @@ I: Retrieving libcryptsetup4 2:1.6.6-3
 I: Validating libcryptsetup4 2:1.6.6-3
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
-I: Retrieving libdb5.3 5.3.28-6
-I: Validating libdb5.3 5.3.28-6
+I: Retrieving libdb5.3 5.3.28-7
+I: Validating libdb5.3 5.3.28-7
 I: Retrieving debconf 1.5.54
 I: Validating debconf 1.5.54
 I: Retrieving debconf-i18n 1.5.54
@@ -67,8 +67,8 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-15
-I: Validating gcc-4.8-base 4.8.3-15
+I: Retrieving gcc-4.8-base 4.8.3-16
+I: Validating gcc-4.8-base 4.8.3-16
 I: Retrieving gcc-4.9-base 4.9.2-5
 I: Validating gcc-4.9-base 4.9.2-5
 I: Retrieving libgcc1 1:4.9.2-5
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9471 kB]
-Fetched 9712 kB in 28s (343 kB/s)
+Fetched 9713 kB in 4s (1969 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 5fd30fd8c5c9
-Removing intermediate container 64a251df6d7e
+ ---> c40c318f8dee
+Removing intermediate container 0f87b15b1876
 Step 2 : CMD /bin/bash
- ---> Running in d1d3248452f9
- ---> 6f2be8724561
-Removing intermediate container d1d3248452f9
-Successfully built 6f2be8724561
+ ---> Running in 9c21852331b1
+ ---> 9ea80e7ec711
+Removing intermediate container 9c21852331b1
+Successfully built 9ea80e7ec711

@@ -32,7 +32,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-========================-=================-=================-=====================================================
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
-ii  apt                      1.0.9.3           amd64             commandline package manager
+ii  apt                      1.0.9.4           amd64             commandline package manager
 ii  base-files               8                 amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
@@ -50,7 +50,7 @@ ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 
 ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.8-base:amd64       4.8.3-15          amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.8-base:amd64       4.8.3-16          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-5           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.18-4          amd64             GNU privacy guard - a free PGP replacement
 ii  gpgv                     1.4.18-4          amd64             GNU privacy guard - signature verification tool
@@ -63,7 +63,7 @@ ii  initscripts              2.88dsf-58        amd64             scripts for ini
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
 ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-ii  libapt-pkg4.12:amd64     1.0.9.3           amd64             package management runtime library
+ii  libapt-pkg4.12:amd64     1.0.9.4           amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
@@ -75,7 +75,7 @@ ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e c
 ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
 ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
 ii  libcryptsetup4:amd64     2:1.6.6-3         amd64             disk encryption support - shared library
-ii  libdb5.3:amd64           5.3.28-6          amd64             Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64           5.3.28-7          amd64             Berkeley v5.3 Database Libraries [runtime]
 ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 ii  libgcc1:amd64            1:4.9.2-5         amd64             GCC support library
