@@ -56,16 +56,16 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141204-30419-1i404u9.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141204-30419-11sikji.out
-% diff -u /tmp/docker-diff.20141204-30419-1i404u9.out /tmp/docker-diff.20141204-30419-11sikji.out
---- /tmp/docker-diff.20141204-30419-1i404u9.out	2014-12-04 00:56:54.057210261 +0900
-+++ /tmp/docker-diff.20141204-30419-11sikji.out	2014-12-04 00:56:54.653171403 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141205-23067-eakn4z.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141205-23067-103sze.out
+% diff -u /tmp/docker-diff.20141205-23067-eakn4z.out /tmp/docker-diff.20141205-23067-103sze.out
+--- /tmp/docker-diff.20141205-23067-eakn4z.out	2014-12-05 01:50:56.717041535 +0900
++++ /tmp/docker-diff.20141205-23067-103sze.out	2014-12-05 01:50:57.289038366 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
- ii  apt                      1.0.9.3           amd64             commandline package manager
-+ii  apt-utils                1.0.9.3           amd64             package management related utility programs
+ ii  apt                      1.0.9.4           amd64             commandline package manager
++ii  apt-utils                1.0.9.4           amd64             package management related utility programs
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
@@ -85,7 +85,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.8-base:amd64       4.8.3-15          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.8-base:amd64       4.8.3-16          amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-5           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
@@ -102,8 +102,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
  ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-+ii  libapt-inst1.5:amd64     1.0.9.3           amd64             deb package format runtime library
- ii  libapt-pkg4.12:amd64     1.0.9.3           amd64             package management runtime library
++ii  libapt-inst1.5:amd64     1.0.9.4           amd64             deb package format runtime library
+ ii  libapt-pkg4.12:amd64     1.0.9.4           amd64             package management runtime library
  ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
  ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
  ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
@@ -118,7 +118,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libcryptsetup4:amd64     2:1.6.6-3         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-3          amd64             easy-to-use client-side URL transfer library (OpenSSL
 +ii  libcurl3-gnutls:amd64    7.38.0-3          amd64             easy-to-use client-side URL transfer library (GnuTLS 
- ii  libdb5.3:amd64           5.3.28-6          amd64             Berkeley v5.3 Database Libraries [runtime]
+ ii  libdb5.3:amd64           5.3.28-7          amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20140620-2    amd64             BSD editline and history libraries
