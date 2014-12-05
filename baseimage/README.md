@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141205-23067-eakn4z.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141205-23067-103sze.out
-% diff -u /tmp/docker-diff.20141205-23067-eakn4z.out /tmp/docker-diff.20141205-23067-103sze.out
---- /tmp/docker-diff.20141205-23067-eakn4z.out	2014-12-05 01:50:56.717041535 +0900
-+++ /tmp/docker-diff.20141205-23067-103sze.out	2014-12-05 01:50:57.289038366 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141206-25336-x6xi5d.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141206-25336-1gsllda.out
+% diff -u /tmp/docker-diff.20141206-25336-x6xi5d.out /tmp/docker-diff.20141206-25336-1gsllda.out
+--- /tmp/docker-diff.20141206-25336-x6xi5d.out	2014-12-06 00:29:43.790465368 +0900
++++ /tmp/docker-diff.20141206-25336-1gsllda.out	2014-12-06 00:29:44.422459874 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -89,8 +89,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.9-base:amd64       4.9.2-5           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
- ii  gnupg                    1.4.18-4          amd64             GNU privacy guard - a free PGP replacement
- ii  gpgv                     1.4.18-4          amd64             GNU privacy guard - signature verification tool
+ ii  gnupg                    1.4.18-6          amd64             GNU privacy guard - a free PGP replacement
+ ii  gpgv                     1.4.18-6          amd64             GNU privacy guard - signature verification tool
  ii  grep                     2.20-4            amd64             GNU grep, egrep and fgrep
 +ii  groff-base               1.22.3-1          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
