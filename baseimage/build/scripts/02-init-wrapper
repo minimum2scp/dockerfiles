@@ -7,10 +7,22 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## install custom init scripts
 ##
-mkdir -p /opt/init-wrapper/sbin /opt/init-wrapper/pre-init.d /opt/init-wrapper/post-init.d
-install -m 755 -o root -g root -p /build/opt/init-wrapper/sbin/init      /opt/init-wrapper/sbin/init
-install -m 755 -o root -g root -p /build/opt/init-wrapper/pre-init.d/*   /opt/init-wrapper/pre-init.d/
-install -m 755 -o root -g root -p /build/opt/init-wrapper/post-init.d/*  /opt/init-wrapper/post-init.d/
-install -m 755 -o root -g root -p /build/etc/rc.local                    /etc/rc.local
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -executable \
+| while read f; do
+  install -m 755 -o root -g root -p -D ${f} ${f#/build}
+done
+
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -not -executable \
+| while read f; do
+  install -m 644 -o root -g root -p -D ${f} ${f#/build}
+done
+
+install -m 755 -o root -g root -p /build/etc/rc.local /etc/rc.local
 etckeeper commit 'rc.local: run /opt/init-wrapper/post-init.d/*'
 
