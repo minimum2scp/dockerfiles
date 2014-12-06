@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-7
-I: Validating libsystemd0 215-7
-I: Retrieving libudev1 215-7
-I: Validating libudev1 215-7
-I: Retrieving systemd 215-7
-I: Validating systemd 215-7
-I: Retrieving systemd-sysv 215-7
-I: Validating systemd-sysv 215-7
-I: Retrieving udev 215-7
-I: Validating udev 215-7
+I: Retrieving libsystemd0 215-8
+I: Validating libsystemd0 215-8
+I: Retrieving libudev1 215-8
+I: Validating libudev1 215-8
+I: Retrieving systemd 215-8
+I: Validating systemd 215-8
+I: Retrieving systemd-sysv 215-8
+I: Validating systemd-sysv 215-8
+I: Retrieving udev 215-8
+I: Validating udev 215-8
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9471 kB]
-Fetched 9713 kB in 4s (2055 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9472 kB]
+Fetched 9714 kB in 5s (1826 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 2dc96559ad0c
-Removing intermediate container 97feced1ad86
+ ---> 227d2bdf6759
+Removing intermediate container e9ac697792eb
 Step 2 : CMD /bin/bash
- ---> Running in 67003f1b1e6c
- ---> f38c8b586747
-Removing intermediate container 67003f1b1e6c
-Successfully built f38c8b586747
+ ---> Running in e2be30e32cc2
+ ---> 1e5f997e6b52
+Removing intermediate container e2be30e32cc2
+Successfully built 1e5f997e6b52
