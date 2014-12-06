@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141206-25336-x6xi5d.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141206-25336-1gsllda.out
-% diff -u /tmp/docker-diff.20141206-25336-x6xi5d.out /tmp/docker-diff.20141206-25336-1gsllda.out
---- /tmp/docker-diff.20141206-25336-x6xi5d.out	2014-12-06 00:29:43.790465368 +0900
-+++ /tmp/docker-diff.20141206-25336-1gsllda.out	2014-12-06 00:29:44.422459874 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141207-1928-xv56di.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141207-1928-xfkys4.out
+% diff -u /tmp/docker-diff.20141207-1928-xv56di.out /tmp/docker-diff.20141207-1928-xfkys4.out
+--- /tmp/docker-diff.20141207-1928-xv56di.out	2014-12-07 00:12:33.447916106 +0900
++++ /tmp/docker-diff.20141207-1928-xfkys4.out	2014-12-07 00:12:34.075911104 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -179,7 +179,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-5           amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-7             amd64             systemd utility library
+ ii  libsystemd0:amd64        215-8             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -193,7 +193,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.0.2-3         amd64             on-line manual pager
++ii  man-db                   2.7.0.2-4         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.57              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-3          amd64             Tools for mounting and manipulating filesystems
@@ -226,14 +226,14 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 +ii  sudo                     1.8.11p2-1        amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
- ii  systemd                  215-7             amd64             system and service manager
--ii  systemd-sysv             215-7             amd64             system and service manager - SysV links
+ ii  systemd                  215-8             amd64             system and service manager
+-ii  systemd-sysv             215-8             amd64             system and service manager - SysV links
  ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
- ii  udev                     215-7             amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-8             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-3          amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-3       amd64             Vi IMproved - enhanced vi editor
 +ii  vim-common               2:7.4.488-3       amd64             Vi IMproved - Common files
