@@ -91,7 +91,7 @@ ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authe
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
-ii  libpcre3:amd64           1:8.36-1          amd64             Perl 5 Compatible Regular Expression Library - runtim
+ii  libpcre3:amd64           2:8.35-3.3        amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b1          amd64             GNU readline and history libraries, run-time librarie
 ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
