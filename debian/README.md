@@ -66,7 +66,7 @@ ii  libacl1:amd64            2.2.52-2          amd64             Access control 
 ii  libapt-pkg4.12:amd64     1.0.9.4           amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
-ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
+ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.25.2-3          amd64             block device id library
 ii  libbz2-1.0:amd64         1.0.6-7+b1        amd64             high-quality block-sorting file compressor library - 
 ii  libc-bin                 2.19-13           amd64             GNU C Library: Binaries
@@ -85,8 +85,8 @@ ii  libkmod2:amd64           18-3              amd64             libkmod shared 
 ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
 ii  libmount1:amd64          2.25.2-3          amd64             device mounting library
-ii  libncurses5:amd64        5.9+20140913-1    amd64             shared libraries for terminal handling
-ii  libncursesw5:amd64       5.9+20140913-1    amd64             shared libraries for terminal handling (wide characte
+ii  libncurses5:amd64        5.9+20140913-1+b1 amd64             shared libraries for terminal handling
+ii  libncursesw5:amd64       5.9+20140913-1+b1 amd64             shared libraries for terminal handling (wide characte
 ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
@@ -106,10 +106,10 @@ ii  libsystemd0:amd64        215-8             amd64             systemd utility
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
 ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
-ii  libtinfo5:amd64          5.9+20140913-1    amd64             shared low-level terminfo library for terminal handli
+ii  libtinfo5:amd64          5.9+20140913-1+b1 amd64             shared low-level terminfo library for terminal handli
 ii  libudev1:amd64           215-8             amd64             libudev shared library
 ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
-ii  libustr-1.0-1:amd64      1.0.4-3           amd64             Micro string library: shared library
+ii  libustr-1.0-1:amd64      1.0.4-3+b1        amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.25.2-3          amd64             Universally Unique ID library
 ii  login                    1:4.2-3           amd64             system login tools
 ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
@@ -117,7 +117,7 @@ ii  mawk                     1.3.3-17          amd64             a pattern scann
 ii  mount                    2.25.2-3          amd64             Tools for mounting and manipulating filesystems
 ii  multiarch-support        2.19-13           amd64             Transitional package to ensure multiarch compatibilit
 ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
-ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
+ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 ii  perl-base                5.20.1-3          amd64             minimal Perl system
