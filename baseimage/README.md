@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141207-8612-1vbc46e.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141207-8612-15xaeeb.out
-% diff -u /tmp/docker-diff.20141207-8612-1vbc46e.out /tmp/docker-diff.20141207-8612-15xaeeb.out
---- /tmp/docker-diff.20141207-8612-1vbc46e.out	2014-12-07 19:54:06.443609106 +0900
-+++ /tmp/docker-diff.20141207-8612-15xaeeb.out	2014-12-07 19:54:07.007604989 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141209-25792-1gytcsw.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141209-25792-1k83stt.out
+% diff -u /tmp/docker-diff.20141209-25792-1gytcsw.out /tmp/docker-diff.20141209-25792-1k83stt.out
+--- /tmp/docker-diff.20141209-25792-1gytcsw.out	2014-12-09 21:54:39.805651336 +0900
++++ /tmp/docker-diff.20141209-25792-1k83stt.out	2014-12-09 21:54:40.401647379 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -106,7 +106,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libapt-pkg4.12:amd64     1.0.9.4           amd64             package management runtime library
  ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
  ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
- ii  libaudit1:amd64          1:2.4-1           amd64             Dynamic library for security auditing
+ ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
  ii  libblkid1:amd64          2.25.2-3          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b1        amd64             high-quality block-sorting file compressor library - 
@@ -148,8 +148,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
  ii  libmount1:amd64          2.25.2-3          amd64             device mounting library
- ii  libncurses5:amd64        5.9+20140913-1    amd64             shared libraries for terminal handling
- ii  libncursesw5:amd64       5.9+20140913-1    amd64             shared libraries for terminal handling (wide characte
+ ii  libncurses5:amd64        5.9+20140913-1+b1 amd64             shared libraries for terminal handling
+ ii  libncursesw5:amd64       5.9+20140913-1+b1 amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle4:amd64         2.7.1-3           amd64             low level cryptographic library (symmetric and one-wa
 +ii  libnewt0.52:amd64        0.52.17-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
 +ii  libp11-kit0:amd64        0.20.7-1          amd64             Library for loading and coordinating access to PKCS#1
@@ -186,7 +186,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
 @@ -84,27 +133,56 @@
  ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
- ii  libustr-1.0-1:amd64      1.0.4-3           amd64             Micro string library: shared library
+ ii  libustr-1.0-1:amd64      1.0.4-3+b1        amd64             Micro string library: shared library
  ii  libuuid1:amd64           2.25.2-3          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  locales                  2.19-13           all               GNU C Library: National Language (locale) data [suppo
@@ -199,7 +199,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  mount                    2.25.2-3          amd64             Tools for mounting and manipulating filesystems
  ii  multiarch-support        2.19-13           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
- ii  ncurses-bin              5.9+20140913-1    amd64             terminal-related programs and man pages
+ ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
 +ii  nginx-common             1.6.2-5           all               small, powerful, scalable web/proxy server - common f
