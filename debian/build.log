@@ -31,8 +31,8 @@ I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
 I: Retrieving bash 4.3-11+b1
 I: Validating bash 4.3-11+b1
-I: Retrieving libbz2-1.0 1.0.6-7+b1
-I: Validating libbz2-1.0 1.0.6-7+b1
+I: Retrieving libbz2-1.0 1.0.6-7+b2
+I: Validating libbz2-1.0 1.0.6-7+b2
 I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
 I: Retrieving coreutils 8.23-3
@@ -67,14 +67,14 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-16
-I: Validating gcc-4.8-base 4.8.3-16
-I: Retrieving gcc-4.9-base 4.9.2-5
-I: Validating gcc-4.9-base 4.9.2-5
-I: Retrieving libgcc1 1:4.9.2-5
-I: Validating libgcc1 1:4.9.2-5
-I: Retrieving libstdc++6 4.9.2-5
-I: Validating libstdc++6 4.9.2-5
+I: Retrieving gcc-4.8-base 4.8.3-17
+I: Validating gcc-4.8-base 4.8.3-17
+I: Retrieving gcc-4.9-base 4.9.2-6
+I: Validating gcc-4.9-base 4.9.2-6
+I: Retrieving libgcc1 1:4.9.2-6
+I: Validating libgcc1 1:4.9.2-6
+I: Retrieving libstdc++6 4.9.2-6
+I: Validating libstdc++6 4.9.2-6
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
@@ -163,8 +163,8 @@ I: Retrieving libprocps3 2:3.3.9-8
 I: Validating libprocps3 2:3.3.9-8
 I: Retrieving procps 2:3.3.9-8
 I: Validating procps 2:3.3.9-8
-I: Retrieving libreadline6 6.3-8+b1
-I: Validating libreadline6 6.3-8+b1
+I: Retrieving libreadline6 6.3-8+b2
+I: Validating libreadline6 6.3-8+b2
 I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
 I: Retrieving sed 4.2.2-4+b1
@@ -199,8 +199,8 @@ I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
 I: Retrieving tzdata 2014j-1
 I: Validating tzdata 2014j-1
-I: Retrieving libustr-1.0-1 1.0.4-3+b1
-I: Validating libustr-1.0-1 1.0.4-3+b1
+I: Retrieving libustr-1.0-1 1.0.4-3+b2
+I: Validating libustr-1.0-1 1.0.4-3+b2
 I: Retrieving bsdutils 1:2.25.2-3
 I: Validating bsdutils 1:2.25.2-3
 I: Retrieving libblkid1 2.25.2-3
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9473 kB]
-Fetched 9715 kB in 6s (1543 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9474 kB]
+Fetched 9715 kB in 2s (3582 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> b671ab0bf801
-Removing intermediate container 9c6e7c588ff8
+ ---> e56c4123e686
+Removing intermediate container e3b212afb400
 Step 2 : CMD /bin/bash
- ---> Running in e7d2fe9bbab0
- ---> feba29ead20c
-Removing intermediate container e7d2fe9bbab0
-Successfully built feba29ead20c
+ ---> Running in f6ed9e5e6c16
+ ---> 375c3e546fd5
+Removing intermediate container f6ed9e5e6c16
+Successfully built 375c3e546fd5
