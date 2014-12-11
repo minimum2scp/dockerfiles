@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141210-5691-8ccr4o.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141210-5691-o8y6i8.out
-% diff -u /tmp/docker-diff.20141210-5691-8ccr4o.out /tmp/docker-diff.20141210-5691-o8y6i8.out
---- /tmp/docker-diff.20141210-5691-8ccr4o.out	2014-12-10 23:01:17.109668421 +0900
-+++ /tmp/docker-diff.20141210-5691-o8y6i8.out	2014-12-10 23:01:17.717663809 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141211-30019-13fqom3.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141211-30019-ch8tam.out
+% diff -u /tmp/docker-diff.20141211-30019-13fqom3.out /tmp/docker-diff.20141211-30019-ch8tam.out
+--- /tmp/docker-diff.20141211-30019-13fqom3.out	2014-12-11 22:04:24.006001915 +0900
++++ /tmp/docker-diff.20141211-30019-ch8tam.out	2014-12-11 22:04:24.621996969 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -85,8 +85,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.8-base:amd64       4.8.3-17          amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-6           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.8-base:amd64       4.8.3-18          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.2-7           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-6          amd64             GNU privacy guard - a free PGP replacement
@@ -126,7 +126,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:4.9.2-6         amd64             GCC support library
+ ii  libgcc1:amd64            1:4.9.2-7         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4+b1        amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
@@ -162,15 +162,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
 +ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
-+ii  libpython2.7-minimal:amd 2.7.9~rc1-1       amd64             Minimal subset of the Python language (version 2.7)
-+ii  libpython2.7-stdlib:amd6 2.7.9~rc1-1       amd64             Interactive high-level object-oriented language (stan
++ii  libpython2.7-minimal:amd 2.7.9~rc1-2       amd64             Minimal subset of the Python language (version 2.7)
++ii  libpython2.7-stdlib:amd6 2.7.9~rc1-2       amd64             Interactive high-level object-oriented language (stan
  ii  libreadline6:amd64       6.3-8+b2          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20131018.git7 amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-12   amd64             Cyrus SASL - authentication abstraction library
 +ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-12   amd64             Cyrus SASL - pluggable authentication modules (DB)
  ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
- ii  libsemanage1:amd64       2.3-1             amd64             SELinux policy management library
+ ii  libsemanage1:amd64       2.3-1+b1          amd64             SELinux policy management library
  ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
  ii  libsmartcols1:amd64      2.25.2-3          amd64             smart column output alignment library
@@ -178,7 +178,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64             1.42.12-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         4.9.2-6           amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         4.9.2-7           amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-8             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
@@ -217,8 +217,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
 +ii  python-minimal           2.7.8-2           amd64             minimal subset of the Python language (default versio
 +ii  python-pkg-resources     5.5.1-1           all               Package Discovery and Resource Access using pkg_resou
-+ii  python2.7                2.7.9~rc1-1       amd64             Interactive high-level object-oriented language (vers
-+ii  python2.7-minimal        2.7.9~rc1-1       amd64             Minimal subset of the Python language (version 2.7)
++ii  python2.7                2.7.9~rc1-2       amd64             Interactive high-level object-oriented language (vers
++ii  python2.7-minimal        2.7.9~rc1-2       amd64             Minimal subset of the Python language (version 2.7)
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
