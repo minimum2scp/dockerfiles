@@ -67,14 +67,14 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-17
-I: Validating gcc-4.8-base 4.8.3-17
-I: Retrieving gcc-4.9-base 4.9.2-6
-I: Validating gcc-4.9-base 4.9.2-6
-I: Retrieving libgcc1 1:4.9.2-6
-I: Validating libgcc1 1:4.9.2-6
-I: Retrieving libstdc++6 4.9.2-6
-I: Validating libstdc++6 4.9.2-6
+I: Retrieving gcc-4.8-base 4.8.3-18
+I: Validating gcc-4.8-base 4.8.3-18
+I: Retrieving gcc-4.9-base 4.9.2-7
+I: Validating gcc-4.9-base 4.9.2-7
+I: Retrieving libgcc1 1:4.9.2-7
+I: Validating libgcc1 1:4.9.2-7
+I: Retrieving libstdc++6 4.9.2-7
+I: Validating libstdc++6 4.9.2-7
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
@@ -115,8 +115,8 @@ I: Retrieving libselinux1 2.3-2
 I: Validating libselinux1 2.3-2
 I: Retrieving libsemanage-common 2.3-1
 I: Validating libsemanage-common 2.3-1
-I: Retrieving libsemanage1 2.3-1
-I: Validating libsemanage1 2.3-1
+I: Retrieving libsemanage1 2.3-1+b1
+I: Validating libsemanage1 2.3-1+b1
 I: Retrieving libsepol1 2.3-2
 I: Validating libsepol1 2.3-2
 I: Retrieving libtext-charwidth-perl 0.04-7+b3
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9474 kB]
-Fetched 9715 kB in 2s (3582 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9477 kB]
+Fetched 9718 kB in 3s (2815 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> e56c4123e686
-Removing intermediate container e3b212afb400
+ ---> 3bc234cece5d
+Removing intermediate container 0794b442e096
 Step 2 : CMD /bin/bash
- ---> Running in f6ed9e5e6c16
- ---> 375c3e546fd5
-Removing intermediate container f6ed9e5e6c16
-Successfully built 375c3e546fd5
+ ---> Running in a07183a56c53
+ ---> ff2dda0a7d93
+Removing intermediate container a07183a56c53
+Successfully built ff2dda0a7d93
