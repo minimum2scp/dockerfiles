@@ -1,0 +1,21 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## install jruby and maven by apt
+apt-get install -y --no-install-recommends default-jre-headless jruby maven
+
+## update rbenv, ruby-build
+bash -l -c "rbenv update"
+
+## install latest jruby
+## (and insall bundler, pry by defualt-gems plugin)
+bash -l -c "rbenv install jruby-1.7.16.1"
+
+## install jbundler gem
+bash -l -c "RBENV_VERSION=jruby-1.7.16.1 gem install jbundler"
+
+## rehash
+bash -l -c "rbenv rehash"
