@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141214-14436-19pe368.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141214-14436-1181zb4.out
-% diff -u /tmp/docker-diff.20141214-14436-19pe368.out /tmp/docker-diff.20141214-14436-1181zb4.out
---- /tmp/docker-diff.20141214-14436-19pe368.out	2014-12-14 00:04:32.486761568 +0900
-+++ /tmp/docker-diff.20141214-14436-1181zb4.out	2014-12-14 00:04:33.090757583 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141216-32088-579xon.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141216-32088-wva5zh.out
+% diff -u /tmp/docker-diff.20141216-32088-579xon.out /tmp/docker-diff.20141216-32088-wva5zh.out
+--- /tmp/docker-diff.20141216-32088-579xon.out	2014-12-16 03:26:45.960586972 +0900
++++ /tmp/docker-diff.20141216-32088-wva5zh.out	2014-12-16 03:26:46.564575824 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -18,8 +18,8 @@
 +ii  cron                     3.0pl1-127        amd64             process scheduling daemon
 +ii  curl                     7.38.0-3          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
- ii  debconf                  1.5.54            all               Debian configuration management system
- ii  debconf-i18n             1.5.54            all               full internationalization support for debconf
+ ii  debconf                  1.5.55            all               Debian configuration management system
+ ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
  ii  dpkg                     1.17.22           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
@@ -27,8 +27,8 @@
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.8-base:amd64       4.8.3-18          amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-7           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.8-base:amd64       4.8.3-19          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.2-8           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.3-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.3-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-6          amd64             GNU privacy guard - a free PGP replacement
@@ -68,7 +68,7 @@
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:4.9.2-7         amd64             GCC support library
+ ii  libgcc1:amd64            1:4.9.2-8         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.2-4+b1        amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
@@ -120,7 +120,7 @@
  ii  libss2:amd64             1.42.12-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         4.9.2-7           amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         4.9.2-8           amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-8             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
