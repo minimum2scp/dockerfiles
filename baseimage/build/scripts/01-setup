@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## install basic packages
 ##
-apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates perl openssl git lv vim man whiptail zsh apt-utils net-tools
+apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates openssl git lv vim man whiptail zsh apt-utils net-tools
 
 ##
 ## install etckeeper
@@ -15,7 +15,7 @@ apt-get install -y --no-install-recommends sudo adduser locales curl ca-certific
 git config --global user.email "root@`hostname`"
 git config --global user.name "root"
 apt-get install -y --no-install-recommends etckeeper
-perl -pi -e 's/^GIT_COMMIT_OPTIONS=""$/GIT_COMMIT_OPTIONS="-v"/' /etc/etckeeper/etckeeper.conf
+sed -i -e 's@^GIT_COMMIT_OPTIONS=""$@GIT_COMMIT_OPTIONS="-v"@' /etc/etckeeper/etckeeper.conf
 etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
 
 ##
@@ -27,7 +27,7 @@ if [ -f /etc/default/locale ]; then
   echo "LANG=C"              >> /etc/default/locale
 fi
 if [ -f /etc/locale.gen ]; then
-  perl -pi -e 's@^#\s*(ja_JP.UTF-8\s+UTF-8)@$1@'   /etc/locale.gen
+  sed -i -e 's@^# \(ja_JP.UTF-8 UTF-8\)@\1@' /etc/locale.gen
   locale-gen
 else
   echo "ja_JP.UTF-8 UTF-8"    > /etc/locale.gen
@@ -57,20 +57,20 @@ apt-get install -y --no-install-recommends openssh-server rsyslog cron
 ##
 ## do not run rc.S
 ##
-perl -pi -e 's/^(si::sysinit:\/etc\/init.d\/rcS)$/#$1/' /etc/inittab
+sed -i -e 's@^\(si::sysinit:/etc/init.d/rcS\)@#\1@' /etc/inittab
 etckeeper commit "inittab: disabled rcS"
 
 ##
 ## disable tty
 ##
-perl -pi -e 's/^(1:2345:respawn:\/sbin\/getty 38400 tty1)/#$1/'         /etc/inittab
-perl -pi -e 's/^([2-7]:23:respawn:\/sbin\/getty 38400 tty[2-7])$/#$1/g' /etc/inittab
+sed -i -e 's@^\(1:2345:respawn:/sbin/getty 38400 tty1\)@#\1@'         /etc/inittab
+sed -i -e 's@^\([2-7]:23:respawn:/sbin/getty 38400 tty[2-7]\)$@#\1@'  /etc/inittab
 etckeeper commit "inittab: disabled tty1-7"
 
 ##
 ## disable hwclock
 ##
-perl -pi -e 's/^#HWCLOCKACCESS=yes$/HWCLOCKACCESS=no/' /etc/default/hwclock
+sed -i -e 's@^#HWCLOCKACCESS=yes$@HWCLOCKACCESS=no@' /etc/default/hwclock
 etckeeper commit "hwclock: disabled"
 
 ##
