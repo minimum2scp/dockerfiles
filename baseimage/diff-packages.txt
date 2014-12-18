@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141218-16146-m4dp29.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141218-16146-plsxf7.out
-% diff -u /tmp/docker-diff.20141218-16146-m4dp29.out /tmp/docker-diff.20141218-16146-plsxf7.out
---- /tmp/docker-diff.20141218-16146-m4dp29.out	2014-12-18 00:55:58.641582346 +0900
-+++ /tmp/docker-diff.20141218-16146-plsxf7.out	2014-12-18 00:55:59.257585138 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141219-27397-jkjb0u.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141219-27397-1pkiz6.out
+% diff -u /tmp/docker-diff.20141219-27397-jkjb0u.out /tmp/docker-diff.20141219-27397-1pkiz6.out
+--- /tmp/docker-diff.20141219-27397-jkjb0u.out	2014-12-19 00:52:14.980739805 +0900
++++ /tmp/docker-diff.20141219-27397-1pkiz6.out	2014-12-19 00:52:15.584732548 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -57,7 +57,7 @@
 @@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
- ii  libcryptsetup4:amd64     2:1.6.6-3         amd64             disk encryption support - shared library
+ ii  libcryptsetup4:amd64     2:1.6.6-4         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-3          amd64             easy-to-use client-side URL transfer library (OpenSSL
 +ii  libcurl3-gnutls:amd64    7.38.0-3          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-7+b1       amd64             Berkeley v5.3 Database Libraries [runtime]
