@@ -37,8 +37,8 @@ I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
 I: Retrieving coreutils 8.23-3
 I: Validating coreutils 8.23-3
-I: Retrieving libcryptsetup4 2:1.6.6-3
-I: Validating libcryptsetup4 2:1.6.6-3
+I: Retrieving libcryptsetup4 2:1.6.6-4
+I: Validating libcryptsetup4 2:1.6.6-4
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
 I: Retrieving libdb5.3 5.3.28-7+b1
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9485 kB]
-Fetched 9727 kB in 6s (1530 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9481 kB]
+Fetched 9722 kB in 5s (1757 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> f3b013f9b2ee
-Removing intermediate container b7b4b941d83b
+ ---> 81e7ccc7c914
+Removing intermediate container 5e80f480680d
 Step 2 : CMD /bin/bash
- ---> Running in 01cac64cc5f2
- ---> 7510b0980d10
-Removing intermediate container 01cac64cc5f2
-Successfully built 7510b0980d10
+ ---> Running in 1aacbdc6e5d3
+ ---> 72c26337460b
+Removing intermediate container 1aacbdc6e5d3
+Successfully built 72c26337460b
