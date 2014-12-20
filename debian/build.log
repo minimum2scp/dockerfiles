@@ -67,8 +67,8 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-19
-I: Validating gcc-4.8-base 4.8.3-19
+I: Retrieving gcc-4.8-base 4.8.4-1
+I: Validating gcc-4.8-base 4.8.4-1
 I: Retrieving gcc-4.9-base 4.9.2-8
 I: Validating gcc-4.9-base 4.9.2-8
 I: Retrieving libgcc1 1:4.9.2-8
@@ -533,19 +533,41 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9481 kB]
-Fetched 9722 kB in 5s (1757 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9480 kB]
+Fetched 9722 kB in 4s (2198 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  gcc-4.9-base libgcc1 libstdc++6
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 472 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian/ sid/main gcc-4.9-base amd64 4.9.2-9 [160 kB]
+Get:2 http://ftp.jp.debian.org/debian/ sid/main libstdc++6 amd64 4.9.2-9 [273 kB]
+Get:3 http://ftp.jp.debian.org/debian/ sid/main libgcc1 amd64 1:4.9.2-9 [39.5 kB]
+Fetched 472 kB in 0s (619 kB/s)
+(Reading database ... 7526 files and directories currently installed.)
+Preparing to unpack .../gcc-4.9-base_4.9.2-9_amd64.deb ...
+Unpacking gcc-4.9-base:amd64 (4.9.2-9) over (4.9.2-8) ...
+Setting up gcc-4.9-base:amd64 (4.9.2-9) ...
+(Reading database ... 7526 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_4.9.2-9_amd64.deb ...
+Unpacking libstdc++6:amd64 (4.9.2-9) over (4.9.2-8) ...
+Setting up libstdc++6:amd64 (4.9.2-9) ...
+Processing triggers for libc-bin (2.19-13) ...
+(Reading database ... 7526 files and directories currently installed.)
+Preparing to unpack .../libgcc1_1%3a4.9.2-9_amd64.deb ...
+Unpacking libgcc1:amd64 (1:4.9.2-9) over (1:4.9.2-8) ...
+Setting up libgcc1:amd64 (1:4.9.2-9) ...
+Processing triggers for libc-bin (2.19-13) ...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 81e7ccc7c914
-Removing intermediate container 5e80f480680d
+ ---> 8fc07fe27e1c
+Removing intermediate container 697fa2fc9d8b
 Step 2 : CMD /bin/bash
- ---> Running in 1aacbdc6e5d3
- ---> 72c26337460b
-Removing intermediate container 1aacbdc6e5d3
-Successfully built 72c26337460b
+ ---> Running in c6c716f7f07a
+ ---> 9330e2b9106f
+Removing intermediate container c6c716f7f07a
+Successfully built 9330e2b9106f
