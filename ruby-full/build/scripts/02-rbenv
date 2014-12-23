@@ -15,6 +15,6 @@ bash -l -c "rbenv update"
 #bash -l -c "rbenv install 1.9.3-p551"
 bash -l -c "rbenv install 2.0.0-p598"
 bash -l -c "rbenv install 2.1.5"
-bash -l -c "rbenv install 2.2.0-preview2"
+bash -l -c "rbenv install 2.2.0-rc1"
 
 bash -l -c "rbenv rehash"
