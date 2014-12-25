@@ -56,16 +56,16 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141223-23878-hyvknq.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141223-23878-1mtzobq.out
-% diff -u /tmp/docker-diff.20141223-23878-hyvknq.out /tmp/docker-diff.20141223-23878-1mtzobq.out
---- /tmp/docker-diff.20141223-23878-hyvknq.out	2014-12-23 13:33:13.905950457 +0900
-+++ /tmp/docker-diff.20141223-23878-1mtzobq.out	2014-12-23 13:33:14.477945350 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141225-17918-1gajctn.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141225-17918-kkodde.out
+% diff -u /tmp/docker-diff.20141225-17918-1gajctn.out /tmp/docker-diff.20141225-17918-kkodde.out
+--- /tmp/docker-diff.20141225-17918-1gajctn.out	2014-12-25 10:08:52.553319617 +0900
++++ /tmp/docker-diff.20141225-17918-kkodde.out	2014-12-25 10:08:53.145315772 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
- ii  apt                      1.0.9.4           amd64             commandline package manager
-+ii  apt-utils                1.0.9.4           amd64             package management related utility programs
+ ii  apt                      1.0.9.5           amd64             commandline package manager
++ii  apt-utils                1.0.9.5           amd64             package management related utility programs
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
@@ -102,8 +102,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
  ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-+ii  libapt-inst1.5:amd64     1.0.9.4           amd64             deb package format runtime library
- ii  libapt-pkg4.12:amd64     1.0.9.4           amd64             package management runtime library
++ii  libapt-inst1.5:amd64     1.0.9.5           amd64             deb package format runtime library
+ ii  libapt-pkg4.12:amd64     1.0.9.5           amd64             package management runtime library
  ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
  ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
  ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
