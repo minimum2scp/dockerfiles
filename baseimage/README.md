@@ -56,11 +56,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141227-11847-1gp5jsy.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141227-11847-16lu86d.out
-% diff -u /tmp/docker-diff.20141227-11847-1gp5jsy.out /tmp/docker-diff.20141227-11847-16lu86d.out
---- /tmp/docker-diff.20141227-11847-1gp5jsy.out	2014-12-27 15:26:37.738833464 +0900
-+++ /tmp/docker-diff.20141227-11847-16lu86d.out	2014-12-27 15:26:38.350828709 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141228-24954-utg7iu.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141228-24954-19mgwgh.out
+% diff -u /tmp/docker-diff.20141228-24954-utg7iu.out /tmp/docker-diff.20141228-24954-19mgwgh.out
+--- /tmp/docker-diff.20141228-24954-utg7iu.out	2014-12-28 22:04:24.866383408 +0900
++++ /tmp/docker-diff.20141228-24954-19mgwgh.out	2014-12-28 22:04:25.490378707 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -79,7 +79,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  debconf                  1.5.55            all               Debian configuration management system
  ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
- ii  dpkg                     1.17.22           amd64             Debian package management system
+ ii  dpkg                     1.17.23           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
