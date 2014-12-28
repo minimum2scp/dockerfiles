@@ -21,5 +21,6 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, pb, ruby, sphinx, squid, systemd};
-  ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, ruby_full, tdiary};
+  ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, ruby_full};
+  ruby_full -> {tdiary};
 }

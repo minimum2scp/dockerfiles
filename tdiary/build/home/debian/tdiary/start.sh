@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash -l
 
 export HOME=/home/debian
 export LANG=ja_JP.UTF-8
@@ -10,5 +10,5 @@ echo ""
 bundle exec gem env
 echo ""
 
-bundle exec tdiary server
+exec bundle exec tdiary server
 
