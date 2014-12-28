@@ -1,4 +1,4 @@
-FROM minimum2scp/ruby:latest
+FROM minimum2scp/ruby-full:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
 COPY build /build
