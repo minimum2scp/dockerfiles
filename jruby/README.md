@@ -3,7 +3,7 @@
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * jruby is installed
    * /usr/bin/jruby (installed by apt)
-   * /opt/rbenv/versions/jruby-1.7.17/bin/jruby (installed by ruby-build)
+   * /opt/rbenv/versions/jruby-1.7.18/bin/jruby (installed by ruby-build)
 
 ## start container
 
