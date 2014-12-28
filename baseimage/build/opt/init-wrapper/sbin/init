@@ -1,4 +1,4 @@
 #! /bin/sh
 
-run-parts --exit-on-error /opt/init-wrapper/scripts
+run-parts --exit-on-error /opt/init-wrapper/pre-init.d
 exec /sbin/init

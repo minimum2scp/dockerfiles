@@ -15,46 +15,46 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.3
-I: Validating apt 1.0.9.3
-I: Retrieving libapt-pkg4.12 1.0.9.3
-I: Validating libapt-pkg4.12 1.0.9.3
+I: Retrieving apt 1.0.9.5
+I: Validating apt 1.0.9.5
+I: Retrieving libapt-pkg4.12 1.0.9.5
+I: Validating libapt-pkg4.12 1.0.9.5
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4-1
 I: Validating libaudit-common 1:2.4-1
-I: Retrieving libaudit1 1:2.4-1
-I: Validating libaudit1 1:2.4-1
+I: Retrieving libaudit1 1:2.4-1+b1
+I: Validating libaudit1 1:2.4-1+b1
 I: Retrieving base-files 8
 I: Validating base-files 8
 I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
 I: Retrieving bash 4.3-11+b1
 I: Validating bash 4.3-11+b1
-I: Retrieving libbz2-1.0 1.0.6-7+b1
-I: Validating libbz2-1.0 1.0.6-7+b1
+I: Retrieving libbz2-1.0 1.0.6-7+b2
+I: Validating libbz2-1.0 1.0.6-7+b2
 I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
 I: Retrieving coreutils 8.23-3
 I: Validating coreutils 8.23-3
-I: Retrieving libcryptsetup4 2:1.6.6-3
-I: Validating libcryptsetup4 2:1.6.6-3
+I: Retrieving libcryptsetup4 2:1.6.6-4
+I: Validating libcryptsetup4 2:1.6.6-4
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
-I: Retrieving libdb5.3 5.3.28-6
-I: Validating libdb5.3 5.3.28-6
-I: Retrieving debconf 1.5.54
-I: Validating debconf 1.5.54
-I: Retrieving debconf-i18n 1.5.54
-I: Validating debconf-i18n 1.5.54
+I: Retrieving libdb5.3 5.3.28-7+b1
+I: Validating libdb5.3 5.3.28-7+b1
+I: Retrieving debconf 1.5.55
+I: Validating debconf 1.5.55
+I: Retrieving debconf-i18n 1.5.55
+I: Validating debconf-i18n 1.5.55
 I: Retrieving debian-archive-keyring 2014.3
 I: Validating debian-archive-keyring 2014.3
 I: Retrieving debianutils 4.4+b1
 I: Validating debianutils 4.4+b1
 I: Retrieving diffutils 1:3.3-1+b1
 I: Validating diffutils 1:3.3-1+b1
-I: Retrieving dpkg 1.17.22
-I: Validating dpkg 1.17.22
+I: Retrieving dpkg 1.17.23
+I: Validating dpkg 1.17.23
 I: Retrieving e2fslibs 1.42.12-1
 I: Validating e2fslibs 1.42.12-1
 I: Retrieving e2fsprogs 1.42.12-1
@@ -67,24 +67,24 @@ I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
 I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
-I: Retrieving gcc-4.8-base 4.8.3-15
-I: Validating gcc-4.8-base 4.8.3-15
-I: Retrieving gcc-4.9-base 4.9.2-4
-I: Validating gcc-4.9-base 4.9.2-4
-I: Retrieving libgcc1 1:4.9.2-4
-I: Validating libgcc1 1:4.9.2-4
-I: Retrieving libstdc++6 4.9.2-4
-I: Validating libstdc++6 4.9.2-4
+I: Retrieving gcc-4.8-base 4.8.4-1
+I: Validating gcc-4.8-base 4.8.4-1
+I: Retrieving gcc-4.9-base 4.9.2-10
+I: Validating gcc-4.9-base 4.9.2-10
+I: Retrieving libgcc1 1:4.9.2-10
+I: Validating libgcc1 1:4.9.2-10
+I: Retrieving libstdc++6 4.9.2-10
+I: Validating libstdc++6 4.9.2-10
 I: Retrieving libc-bin 2.19-13
 I: Validating libc-bin 2.19-13
 I: Retrieving libc6 2.19-13
 I: Validating libc6 2.19-13
 I: Retrieving multiarch-support 2.19-13
 I: Validating multiarch-support 2.19-13
-I: Retrieving gnupg 1.4.18-4
-I: Validating gnupg 1.4.18-4
-I: Retrieving gpgv 1.4.18-4
-I: Validating gpgv 1.4.18-4
+I: Retrieving gnupg 1.4.18-6
+I: Validating gnupg 1.4.18-6
+I: Retrieving gpgv 1.4.18-6
+I: Validating gpgv 1.4.18-6
 I: Retrieving grep 2.20-4
 I: Validating grep 2.20-4
 I: Retrieving gzip 1.6-4
@@ -105,18 +105,18 @@ I: Retrieving libcap2 1:2.24-6
 I: Validating libcap2 1:2.24-6
 I: Retrieving libcap2-bin 1:2.24-6
 I: Validating libcap2-bin 1:2.24-6
-I: Retrieving libgcrypt20 1.6.2-4
-I: Validating libgcrypt20 1.6.2-4
-I: Retrieving libgpg-error0 1.17-2
-I: Validating libgpg-error0 1.17-2
+I: Retrieving libgcrypt20 1.6.2-4+b1
+I: Validating libgcrypt20 1.6.2-4+b1
+I: Retrieving libgpg-error0 1.17-3
+I: Validating libgpg-error0 1.17-3
 I: Retrieving liblocale-gettext-perl 1.05-8+b1
 I: Validating liblocale-gettext-perl 1.05-8+b1
 I: Retrieving libselinux1 2.3-2
 I: Validating libselinux1 2.3-2
 I: Retrieving libsemanage-common 2.3-1
 I: Validating libsemanage-common 2.3-1
-I: Retrieving libsemanage1 2.3-1
-I: Validating libsemanage1 2.3-1
+I: Retrieving libsemanage1 2.3-1+b1
+I: Validating libsemanage1 2.3-1+b1
 I: Retrieving libsepol1 2.3-2
 I: Validating libsepol1 2.3-2
 I: Retrieving libtext-charwidth-perl 0.04-7+b3
@@ -135,16 +135,16 @@ I: Retrieving libdevmapper1.02.1 2:1.02.90-2
 I: Validating libdevmapper1.02.1 2:1.02.90-2
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
-I: Retrieving libncurses5 5.9+20140913-1
-I: Validating libncurses5 5.9+20140913-1
-I: Retrieving libncursesw5 5.9+20140913-1
-I: Validating libncursesw5 5.9+20140913-1
-I: Retrieving libtinfo5 5.9+20140913-1
-I: Validating libtinfo5 5.9+20140913-1
+I: Retrieving libncurses5 5.9+20140913-1+b1
+I: Validating libncurses5 5.9+20140913-1+b1
+I: Retrieving libncursesw5 5.9+20140913-1+b1
+I: Validating libncursesw5 5.9+20140913-1+b1
+I: Retrieving libtinfo5 5.9+20140913-1+b1
+I: Validating libtinfo5 5.9+20140913-1+b1
 I: Retrieving ncurses-base 5.9+20140913-1
 I: Validating ncurses-base 5.9+20140913-1
-I: Retrieving ncurses-bin 5.9+20140913-1
-I: Validating ncurses-bin 5.9+20140913-1
+I: Retrieving ncurses-bin 5.9+20140913-1+b1
+I: Validating ncurses-bin 5.9+20140913-1+b1
 I: Retrieving netbase 5.3
 I: Validating netbase 5.3
 I: Retrieving libpam-modules 1.1.8-3.1
@@ -155,16 +155,16 @@ I: Retrieving libpam-runtime 1.1.8-3.1
 I: Validating libpam-runtime 1.1.8-3.1
 I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
-I: Retrieving libpcre3 1:8.36-1
-I: Validating libpcre3 1:8.36-1
-I: Retrieving perl-base 5.20.1-3
-I: Validating perl-base 5.20.1-3
+I: Retrieving libpcre3 2:8.35-3.3
+I: Validating libpcre3 2:8.35-3.3
+I: Retrieving perl-base 5.20.1-4
+I: Validating perl-base 5.20.1-4
 I: Retrieving libprocps3 2:3.3.9-8
 I: Validating libprocps3 2:3.3.9-8
 I: Retrieving procps 2:3.3.9-8
 I: Validating procps 2:3.3.9-8
-I: Retrieving libreadline6 6.3-8+b1
-I: Validating libreadline6 6.3-8+b1
+I: Retrieving libreadline6 6.3-8+b2
+I: Validating libreadline6 6.3-8+b2
 I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
 I: Retrieving sed 4.2.2-4+b1
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-7
-I: Validating libsystemd0 215-7
-I: Retrieving libudev1 215-7
-I: Validating libudev1 215-7
-I: Retrieving systemd 215-7
-I: Validating systemd 215-7
-I: Retrieving systemd-sysv 215-7
-I: Validating systemd-sysv 215-7
-I: Retrieving udev 215-7
-I: Validating udev 215-7
+I: Retrieving libsystemd0 215-8
+I: Validating libsystemd0 215-8
+I: Retrieving libudev1 215-8
+I: Validating libudev1 215-8
+I: Retrieving systemd 215-8
+I: Validating systemd 215-8
+I: Retrieving systemd-sysv 215-8
+I: Validating systemd-sysv 215-8
+I: Retrieving udev 215-8
+I: Validating udev 215-8
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -199,24 +199,24 @@ I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
 I: Retrieving tzdata 2014j-1
 I: Validating tzdata 2014j-1
-I: Retrieving libustr-1.0-1 1.0.4-3
-I: Validating libustr-1.0-1 1.0.4-3
-I: Retrieving bsdutils 1:2.25.2-3
-I: Validating bsdutils 1:2.25.2-3
-I: Retrieving libblkid1 2.25.2-3
-I: Validating libblkid1 2.25.2-3
-I: Retrieving libmount1 2.25.2-3
-I: Validating libmount1 2.25.2-3
-I: Retrieving libsmartcols1 2.25.2-3
-I: Validating libsmartcols1 2.25.2-3
-I: Retrieving libuuid1 2.25.2-3
-I: Validating libuuid1 2.25.2-3
-I: Retrieving mount 2.25.2-3
-I: Validating mount 2.25.2-3
-I: Retrieving util-linux 2.25.2-3
-I: Validating util-linux 2.25.2-3
-I: Retrieving liblzma5 5.1.1alpha+20120614-2+b2
-I: Validating liblzma5 5.1.1alpha+20120614-2+b2
+I: Retrieving libustr-1.0-1 1.0.4-3+b2
+I: Validating libustr-1.0-1 1.0.4-3+b2
+I: Retrieving bsdutils 1:2.25.2-4
+I: Validating bsdutils 1:2.25.2-4
+I: Retrieving libblkid1 2.25.2-4
+I: Validating libblkid1 2.25.2-4
+I: Retrieving libmount1 2.25.2-4
+I: Validating libmount1 2.25.2-4
+I: Retrieving libsmartcols1 2.25.2-4
+I: Validating libsmartcols1 2.25.2-4
+I: Retrieving libuuid1 2.25.2-4
+I: Validating libuuid1 2.25.2-4
+I: Retrieving mount 2.25.2-4
+I: Validating mount 2.25.2-4
+I: Retrieving util-linux 2.25.2-4
+I: Validating util-linux 2.25.2-4
+I: Retrieving liblzma5 5.1.1alpha+20120614-2+b3
+I: Validating liblzma5 5.1.1alpha+20120614-2+b3
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
 I: Validating zlib1g 1:1.2.8.dfsg-2+b1
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -450,25 +450,20 @@ I: Configuring base-passwd...
 I: Configuring e2fslibs:amd64...
 I: Configuring libgcrypt20:amd64...
 I: Configuring libncursesw5:amd64...
-I: Configuring libuuid1:amd64...
 I: Configuring libdb5.3:amd64...
 I: Configuring zlib1g:amd64...
 I: Configuring libcap2:amd64...
 I: Configuring libsystemd0:amd64...
 I: Configuring libdevmapper1.02.1:amd64...
-I: Configuring libblkid1:amd64...
 I: Configuring libc-bin...
 I: Configuring libsemanage1:amd64...
 I: Configuring sysvinit-utils...
-I: Configuring libmount1:amd64...
 I: Configuring libacl1:amd64...
 I: Configuring ncurses-bin...
 I: Configuring acl...
-I: Configuring libcryptsetup4:amd64...
 I: Configuring libncurses5:amd64...
 I: Configuring libcap2-bin...
 I: Configuring bsdutils...
-I: Configuring mount...
 I: Configuring coreutils...
 I: Configuring tar...
 I: Configuring dpkg...
@@ -484,22 +479,27 @@ I: Configuring sysv-rc...
 I: Configuring liblocale-gettext-perl...
 I: Configuring libtext-charwidth-perl...
 I: Configuring libpam0g:amd64...
-I: Configuring initscripts...
-I: Configuring util-linux...
 I: Configuring libpam-modules-bin...
 I: Configuring bash...
-I: Configuring e2fsprogs...
-I: Configuring procps...
 I: Configuring libtext-wrapi18n-perl...
-I: Configuring dmsetup...
 I: Configuring libpam-modules:amd64...
 I: Configuring libpam-runtime...
 I: Configuring debconf-i18n...
 I: Configuring passwd...
 I: Configuring login...
 I: Configuring adduser...
+I: Configuring libuuid1:amd64...
+I: Configuring libblkid1:amd64...
+I: Configuring libmount1:amd64...
+I: Configuring libcryptsetup4:amd64...
+I: Configuring mount...
+I: Configuring initscripts...
+I: Configuring util-linux...
+I: Configuring e2fsprogs...
+I: Configuring procps...
 I: Configuring udev...
 I: Configuring systemd...
+I: Configuring dmsetup...
 I: Configuring systemd-sysv...
 I: Configuring init...
 I: Configuring libc-bin...
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9472 kB]
-Fetched 9713 kB in 14s (656 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9478 kB]
+Fetched 9720 kB in 5s (1791 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 48da5ff6a33f
-Removing intermediate container caeadc9eb90a
+ ---> c97ff732fd19
+Removing intermediate container 7efb8e1c3a61
 Step 2 : CMD /bin/bash
- ---> Running in 09ef53612b97
- ---> 39af242d9f73
-Removing intermediate container 09ef53612b97
-Successfully built 39af242d9f73
+ ---> Running in f234bc1fdae0
+ ---> 2b1d61988b3d
+Removing intermediate container f234bc1fdae0
+Successfully built 2b1d61988b3d

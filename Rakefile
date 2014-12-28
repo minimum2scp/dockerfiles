@@ -29,8 +29,8 @@ namespace :minimum2scp do
 
   desc "trigger dockerhub automated build"
   task :trigger, [:image] do |t,args|
-    trigger_token = ENV["#{args['image']}_TRIGGER_TOKEN"]
-    sh "curl -d build=true -X POST https://registry.hub.docker.com/u/minimum2scp/#{args['image']}/trigger/#{trigger_token}/"
+    trigger_token = ENV["#{args['image'].gsub('-','_')}_TRIGGER_TOKEN"]
+    sh "curl -i -d build=true -X POST https://registry.hub.docker.com/u/minimum2scp/#{args['image']}/trigger/#{trigger_token}/"
   end
 end
 
