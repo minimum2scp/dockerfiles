@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141228-24954-utg7iu.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141228-24954-19mgwgh.out
-% diff -u /tmp/docker-diff.20141228-24954-utg7iu.out /tmp/docker-diff.20141228-24954-19mgwgh.out
---- /tmp/docker-diff.20141228-24954-utg7iu.out	2014-12-28 22:04:24.866383408 +0900
-+++ /tmp/docker-diff.20141228-24954-19mgwgh.out	2014-12-28 22:04:25.490378707 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141230-22337-1lx7dxp.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20141230-22337-1kjomc3.out
+% diff -u /tmp/docker-diff.20141230-22337-1lx7dxp.out /tmp/docker-diff.20141230-22337-1kjomc3.out
+--- /tmp/docker-diff.20141230-22337-1lx7dxp.out	2014-12-30 00:45:12.311525159 +0900
++++ /tmp/docker-diff.20141230-22337-1kjomc3.out	2014-12-30 00:45:12.927523376 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -116,7 +116,7 @@
  ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
  ii  libsmartcols1:amd64      2.25.2-4          amd64             smart column output alignment library
-+ii  libsqlite3-0:amd64       3.8.7.2-1         amd64             SQLite 3 shared library
++ii  libsqlite3-0:amd64       3.8.7.4-1         amd64             SQLite 3 shared library
  ii  libss2:amd64             1.42.12-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1j-1          amd64             Secure Sockets Layer toolkit - shared libraries
