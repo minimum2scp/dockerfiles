@@ -1,7 +1,7 @@
 # about minimum2scp/debian image
 
  * Almost same as semi official debian image (https://registry.hub.docker.com/_/debian/)
- * This image follows updates of debian sid, almost every week.
+ * This image follows updates of debian sid, almost every day.
 
 ## build minimum2scp/debian image
 
@@ -75,7 +75,7 @@ ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e c
 ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
 ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
 ii  libcryptsetup4:amd64     2:1.6.6-4         amd64             disk encryption support - shared library
-ii  libdb5.3:amd64           5.3.28-7+b1       amd64             Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
 ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2       amd64             Linux Kernel Device Mapper userspace library
 ii  libgcc1:amd64            1:4.9.2-10        amd64             GCC support library
