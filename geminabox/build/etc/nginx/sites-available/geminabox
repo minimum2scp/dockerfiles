@@ -9,11 +9,15 @@ server {
         server_name localhost;
 
         root /var/www/html;
-        index index.html index.htm;
+        #index index.html index.htm;
 
         location / {
+                alias /home/debian/geminabox/public;
+                try_files $uri $uri/index.html @geminabox;
+        }
+
+        location @geminabox {
                 proxy_pass http://geminabox;
-                break;
         }
 }
 
