@@ -1,7 +1,7 @@
 # about minimum2scp/debian image
 
  * Almost same as semi official debian image (https://registry.hub.docker.com/_/debian/)
- * This image follows updates of debian sid, almost every week.
+ * This image follows updates of debian sid, almost every day.
 
 ## build minimum2scp/debian image
 
