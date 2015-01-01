@@ -9,11 +9,15 @@ server {
         server_name localhost;
 
         root /var/www/html;
-        index index.html index.htm;
+        #index index.html index.htm;
 
         location / {
+                alias /home/debian/go/src/github.com/tdiary/tdiary-core/public;
+                try_files $uri $uri/index.html @tdiary;
+        }
+
+        location @tdiary {
                 proxy_pass http://tdiary;
-                break;
         }
 }
 

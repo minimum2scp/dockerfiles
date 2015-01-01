@@ -9,11 +9,15 @@ server {
         server_name localhost;
 
         root /var/www/html;
-        index index.html index.htm;
+        #index index.html index.htm;
 
         location / {
+                alias /home/debian/fluentd-ui/public;
+                try_files $uri $uri/index.html @fluentd-ui;
+        }
+
+        location @fluentd-ui {
                 proxy_pass http://fluentd-ui;
-                break;
         }
 }
 
