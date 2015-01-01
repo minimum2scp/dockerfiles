@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150101-13844-pk0iyc.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150101-13844-ty1e5s.out
-% diff -u /tmp/docker-diff.20150101-13844-pk0iyc.out /tmp/docker-diff.20150101-13844-ty1e5s.out
---- /tmp/docker-diff.20150101-13844-pk0iyc.out	2015-01-01 01:07:59.783249117 +0900
-+++ /tmp/docker-diff.20150101-13844-ty1e5s.out	2015-01-01 01:08:00.411249283 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150102-32397-133dflh.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150102-32397-vqhsmv.out
+% diff -u /tmp/docker-diff.20150102-32397-133dflh.out /tmp/docker-diff.20150102-32397-vqhsmv.out
+--- /tmp/docker-diff.20150102-32397-133dflh.out	2015-01-02 00:34:00.300002484 +0900
++++ /tmp/docker-diff.20150102-32397-vqhsmv.out	2015-01-02 00:34:00.900036671 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -135,7 +135,7 @@
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.0.2-4         amd64             on-line manual pager
++ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.58              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-4          amd64             Tools for mounting and manipulating filesystems
