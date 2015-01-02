@@ -1,8 +1,11 @@
 # about minimum2scp/baseimage image
 
  * based on [minimum2scp/debian](https://github.com/minimum2scp/dockerfiles/tree/master/debian) image
- * Runs /sbin/init by default. /sbin/init is replaced by sysvinit-core package
- * /sbin/init invokes sshd, rsyslogd, cron daemons
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage/build/opt/init-wrapper/sbin/init) by default
+   * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
+   * /sbin/init is replaced by sysvinit-core package
+   * /sbin/init invokes sshd, rsyslogd, cron daemons
+   * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
  * ja_JP.UTF-8 locale supported. (default locale is C)
  * timezone is Asia/Tokyo
  * etckeeper installed
@@ -56,11 +59,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150101-13844-pk0iyc.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150101-13844-ty1e5s.out
-% diff -u /tmp/docker-diff.20150101-13844-pk0iyc.out /tmp/docker-diff.20150101-13844-ty1e5s.out
---- /tmp/docker-diff.20150101-13844-pk0iyc.out	2015-01-01 01:07:59.783249117 +0900
-+++ /tmp/docker-diff.20150101-13844-ty1e5s.out	2015-01-01 01:08:00.411249283 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150102-32397-133dflh.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150102-32397-vqhsmv.out
+% diff -u /tmp/docker-diff.20150102-32397-133dflh.out /tmp/docker-diff.20150102-32397-vqhsmv.out
+--- /tmp/docker-diff.20150102-32397-133dflh.out	2015-01-02 00:34:00.300002484 +0900
++++ /tmp/docker-diff.20150102-32397-vqhsmv.out	2015-01-02 00:34:00.900036671 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -193,7 +196,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.0.2-4         amd64             on-line manual pager
++ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.58              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-4          amd64             Tools for mounting and manipulating filesystems
