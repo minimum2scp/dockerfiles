@@ -4,11 +4,14 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## install RDBMS client and headers
-apt-get install --no-install-recommends -y sqlite3 mysql-client postgresql-client libsqlite3-dev libmysqlclient-dev libpq-dev
+## RDBMS client and headers, and rails
+packages="sqlite3 libsqlite3-dev"
+packages="$packages mysql-client libmysqlclient-dev"
+packages="$packages postgresql-client libpq-dev"
+packages="$packages ruby-rails"
 
-## install rails (by apt)
-apt-get install --install-recommends -y ruby-rails
+## install packages
+apt-get install --install-recommends -y ${packages}
 
 ## install rails (by gem)
 #gem install -N rails --version '~> 4.0'
