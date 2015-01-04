@@ -5,19 +5,23 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## install sphinx
+## packages: sphinx related packages
 ##
-sphinx_packages="python-sphinx"
-sphinx_packages="$sphinx_packages python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag"
-sphinx_packages="$sphinx_packages python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag"
-sphinx_packages="$sphinx_packages python-pip python-pil"
-sphinx_packages="$sphinx_packages make"
-apt-get install --no-install-recommends -y ${sphinx_packages}
+packages="python-sphinx"
+packages="$packages python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag"
+packages="$packages python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag"
+packages="$packages python-pip python-pil"
+packages="$packages make"
+packages="$packages fonts-ipafont-gothic fonts-ipafont-mincho"
 
 ##
-## install font
+## install packages
 ##
-apt-get install --no-install-recommends -y fonts-ipafont-gothic fonts-ipafont-mincho
+apt-get install --no-install-recommends -y ${packages}
+
+##
+## configure fonts for sphinx
+##
 mkdir /usr/share/fonts/ipa-gothic
 ln -s /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf /usr/share/fonts/ipa-gothic/ipag.ttf
 

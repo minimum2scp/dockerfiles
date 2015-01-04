@@ -4,19 +4,14 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-##
-## install dependency for elasticsearch
-##
-apt-get install --no-install-recommends -y default-jre-headless
-
-##
-## install elasticsearch and autostart elasticsearch
-##
+## configure apt-line for elasticsearch
 curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
 install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/elasticsearch.list /etc/apt/sources.list.d/elasticsearch.list
 etckeeper commit "apt: add elasticsearch apt-line"
 apt-get update
-apt-get install --no-install-recommends -y elasticsearch
+
+## install java and elasticsearch
+apt-get install --no-install-recommends -y default-jre-headless elasticsearch
 insserv elasticsearch
 etckeeper commit "enabled autostart eelasticsearch"
 
