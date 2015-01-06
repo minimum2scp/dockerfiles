@@ -14,5 +14,5 @@ etckeeper commit "apt: add apt-line for minimum2scp.org (provides bundler 1.7.11
 
 ## install custom build bundler (1.7.11)
 apt-get update
-apt-get install bundler=1.7.11-0custom1
+apt-get install -y --no-install-recommends bundler=1.7.11-0custom1
 
