@@ -1,0 +1,18 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## add gpg key for minimum2scp.org
+apt-key add /build/tmp/3184B100.pubkey
+etckeeper commit "apt: apt-key add 3184B100 (tyamada@minimum2scp.org), to use minimum2scp.org apt-line"
+
+## add apt line
+install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/minimum2scp.list /etc/apt/sources.list.d/minimum2scp.list
+etckeeper commit "apt: add apt-line for minimum2scp.org (provides bundler 1.7.11 custom build package)"
+
+## install custom build bundler (1.7.11)
+apt-get update
+apt-get install bundler=1.7.11-0custom1
+
