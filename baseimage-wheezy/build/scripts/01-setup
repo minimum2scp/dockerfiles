@@ -5,24 +5,30 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## install basic packages
+## packages
 ##
-apt-get install -y --no-install-recommends sudo adduser locales curl ca-certificates openssl git lv vim man whiptail zsh apt-utils net-tools
+packages="sudo adduser curl ca-certificates openssl git lv vim man whiptail zsh apt-utils net-tools"
+packages="$packages etckeeper"
+packages="$packages locales tzdata"
+packages="$packages sysvinit openssh-server rsyslog cron"
+packages="$packages supervisor"
 
 ##
-## install etckeeper
+## install packages
+##
+apt-get install -y --no-install-recommends ${packages}
+
+##
+## configure etckeeper
 ##
 git config --global user.email "root@`hostname`"
 git config --global user.name "root"
-apt-get install -y --no-install-recommends etckeeper
 sed -i -e 's@^GIT_COMMIT_OPTIONS=""$@GIT_COMMIT_OPTIONS="-v"@' /etc/etckeeper/etckeeper.conf
 etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
 
 ##
-## install and configure locales
+## configure locales
 ##
-apt-get install -y --no-install-recommends locales
-
 if [ -f /etc/default/locale ]; then
   echo "LANG=C"              >> /etc/default/locale
 fi
@@ -36,23 +42,11 @@ fi
 etckeeper commit "set locale"
 
 ##
-## install and configure timezone
+## configure timezone
 ##
-apt-get install -y --no-install-recommends tzdata
-
 echo "Asia/Tokyo" > /etc/timezone
 cp -a -L /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 etckeeper commit "set timezone"
-
-##
-## install sysvinit
-##
-apt-get install -y --no-install-recommends sysvinit
-
-##
-## install sshd, syslog, cron daemons
-##
-apt-get install -y --no-install-recommends openssh-server rsyslog cron
 
 ##
 ## do not run rc.S
@@ -95,16 +89,15 @@ echo 'debian:debian' | chpasswd
 etckeeper commit "adduser debian"
 
 ##
-## install supervisor, but do not run
+## configure supervisor, and disable
 ##
-apt-get install -y --no-install-recommends supervisor
 install -m 644 -o root -g root -p /build/etc/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
 etckeeper commit "supervisor: set socket as root:adm 770, and enabled inet_http_server with 0.0.0.0:9001"
 insserv -r supervisor
 etckeeper commit "supervisor: disabled autostart"
 
 ##
-## install nginx-light, but do not run
+## install nginx-light from wheezy-backports, but do not run
 ##
 apt-get install -y --no-install-recommends nginx-light -t wheezy-backports
 install -m 644 -o root -g root -p /build/etc/nginx/conf.d/misc.conf /etc/nginx/conf.d/misc.conf
