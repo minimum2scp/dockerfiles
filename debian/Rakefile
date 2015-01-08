@@ -34,8 +34,5 @@ end
 
 desc 'update README.md'
 file 'README.md' => ['README.md.erb', 'debian-packages.txt'] do |t|
-  require 'erb'
-  File.open(t.name, 'w'){|fh|
-    fh << ERB.new(File.read(t.prerequisites.first)).result
-  }
+  sh "erb #{t.prerequisites.first} > #{t.name}"
 end
