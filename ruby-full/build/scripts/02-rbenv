@@ -10,11 +10,12 @@ bash -l -c "rbenv update"
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
 
-## build rubies
-#bash -l -c "rbenv install 1.8.7-p375"
-#bash -l -c "rbenv install 1.9.3-p551"
-bash -l -c "rbenv install 2.0.0-p598"
-bash -l -c "rbenv install 2.1.5"
-bash -l -c "rbenv install 2.2.0"
+## install pre-build binary
+## binary is built by `cd ../ruby; rake build[version]`
+for v in 2.0.0-p598 2.1.5 2.2.0; do
+  curl -o /tmp/opt-rbenv-ruby-${v}.tar.gz https://minimum2scp.org/ruby/rbenv/versions/opt-rbenv-ruby-${v}.tar.gz
+  tar xf /tmp/opt-rbenv-ruby-${v}.tar.gz -C /opt/rbenv/versions
+  rm /tmp/opt-rbenv-ruby-${v}.tar.gz
+done
 
 bash -l -c "rbenv rehash"

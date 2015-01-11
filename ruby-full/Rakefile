@@ -1,3 +1,18 @@
+## colorize: see lib/rake/file_utils_ext.rb
+def Rake.rake_output_message(message)
+  $stderr.puts "\e[32;1m#{message}\e[0m"
+end
+
+## coloreize: see fileutils.rb
+module FileUtils
+  alias fu_output_message_orig fu_output_message
+
+  def fu_output_message(msg)
+    fu_output_message_orig("\e[32;1m#{msg}\e[0m")
+  end
+  private_module_function :fu_output_message
+end
+
 task :default => :tarball
 
 desc "extract rbenv and ruby archives from container"
@@ -34,7 +49,7 @@ task :tarball do
   sh "docker rm #{cname}"
 end
 
-desc "build ruby archive"
+desc "build ruby archive by ruby-build (RBENV_ROOT=/opt/rbenv)"
 task :build, [:version] do |t,args|
   version = args[:version]
 
