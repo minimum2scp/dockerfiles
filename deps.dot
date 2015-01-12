@@ -2,8 +2,11 @@ digraph deps {
   graph        [rankdir = "LR"];
   ratio = auto;
 
+  wheezy            [label = "debian:wheezy"];
+
   acng              [label = "minimum2scp/apt-cacher-ng"];
   baseimage         [label = "minimum2scp/baseimage"];
+  baseimage_wheezy  [label = "minimum2scp/baseimage-wheezy"];
   debian            [label = "minimum2scp/debian"];
   es_kibana         [label = "minimum2scp/es-kibana"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
@@ -24,4 +27,6 @@ digraph deps {
   baseimage -> {acng, es_kibana, pb, ruby, sphinx, squid, systemd};
   ruby      -> {fluentd_ui, geminabox, jruby, mruby, norikra, rails4, ruby_full};
   ruby_full -> {tdiary};
+
+  wheezy    -> baseimage_wheezy;
 }
