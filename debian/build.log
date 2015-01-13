@@ -163,8 +163,8 @@ I: Retrieving libprocps3 2:3.3.9-8
 I: Validating libprocps3 2:3.3.9-8
 I: Retrieving procps 2:3.3.9-8
 I: Validating procps 2:3.3.9-8
-I: Retrieving libreadline6 6.3-8+b2
-I: Validating libreadline6 6.3-8+b2
+I: Retrieving libreadline6 6.3-8+b3
+I: Validating libreadline6 6.3-8+b3
 I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
 I: Retrieving sed 4.2.2-4+b1
@@ -532,9 +532,9 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org sid InRelease [242 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9483 kB]
-Fetched 9725 kB in 5s (1931 kB/s)
+Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9480 kB]
+Fetched 9730 kB in 4s (2325 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> acca636563c2
-Removing intermediate container 55772cb7b02a
+ ---> bbe4a842bd13
+Removing intermediate container c2f9d983f93d
 Step 2 : CMD /bin/bash
- ---> Running in 10457af0d579
- ---> e24c9b09d534
-Removing intermediate container 10457af0d579
-Successfully built e24c9b09d534
+ ---> Running in 34893fa99f35
+ ---> 679eb4da5888
+Removing intermediate container 34893fa99f35
+Successfully built 679eb4da5888
