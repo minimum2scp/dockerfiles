@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150113-23644-15pi9sf.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150113-23644-fu28my.out
-% diff -u /tmp/docker-diff.20150113-23644-15pi9sf.out /tmp/docker-diff.20150113-23644-fu28my.out
---- /tmp/docker-diff.20150113-23644-15pi9sf.out	2015-01-13 01:27:25.239412045 +0900
-+++ /tmp/docker-diff.20150113-23644-fu28my.out	2015-01-13 01:27:25.823411974 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150114-23246-pnjx7c.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150114-23246-tk8h65.out
+% diff -u /tmp/docker-diff.20150114-23246-pnjx7c.out /tmp/docker-diff.20150114-23246-tk8h65.out
+--- /tmp/docker-diff.20150114-23246-pnjx7c.out	2015-01-14 00:21:33.788964469 +0900
++++ /tmp/docker-diff.20150114-23246-tk8h65.out	2015-01-14 00:21:34.404959697 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -106,7 +106,7 @@
 +ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
 +ii  libpython2.7-minimal:amd 2.7.9-1           amd64             Minimal subset of the Python language (version 2.7)
 +ii  libpython2.7-stdlib:amd6 2.7.9-1           amd64             Interactive high-level object-oriented language (stan
- ii  libreadline6:amd64       6.3-8+b2          amd64             GNU readline and history libraries, run-time librarie
+ ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20131018.git7 amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-12   amd64             Cyrus SASL - authentication abstraction library
 +ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-12   amd64             Cyrus SASL - pluggable authentication modules (DB)
