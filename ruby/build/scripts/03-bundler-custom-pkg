@@ -10,9 +10,9 @@ etckeeper commit "apt: apt-key add 3184B100 (tyamada@minimum2scp.org), to use mi
 
 ## add apt line
 install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/minimum2scp.list /etc/apt/sources.list.d/minimum2scp.list
-etckeeper commit "apt: add apt-line for minimum2scp.org (provides bundler 1.7.11 custom build package)"
+etckeeper commit "apt: add apt-line for minimum2scp.org (provides bundler 1.7.12 custom build package)"
 
-## install custom build bundler (1.7.11)
+## install custom build bundler (1.7.12)
 apt-get update
-apt-get install -y --no-install-recommends bundler=1.7.11-0custom1
+apt-get install -y --no-install-recommends bundler=1.7.12-0custom1
 
