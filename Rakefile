@@ -1,3 +1,7 @@
+require 'bundler/setup'
+require 'rake'
+require 'rspec/core/rake_task'
+
 task :default => "minimum2scp:all"
 
 namespace :minimum2scp do
@@ -31,6 +35,25 @@ namespace :minimum2scp do
   task :trigger, [:image] do |t,args|
     trigger_token = ENV["#{args['image'].gsub('-','_')}_TRIGGER_TOKEN"]
     sh "curl -i -d build=true -X POST https://registry.hub.docker.com/u/minimum2scp/#{args['image']}/trigger/#{trigger_token}/"
+  end
+end
+
+namespace :spec do
+  targets = []
+  Dir.glob('./spec/*').each do |dir|
+    next unless File.directory?(dir)
+    targets << File.basename(dir)
+  end
+
+  task :all     => targets
+  task :default => :all
+
+  targets.each do |target|
+    desc "Run serverspec tests to #{target}"
+    RSpec::Core::RakeTask.new(target.to_sym) do |t|
+      ENV['TARGET_HOST'] = target
+      t.pattern = "spec/#{target}/*_spec.rb"
+    end
   end
 end
 
