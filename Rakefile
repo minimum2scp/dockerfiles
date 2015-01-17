@@ -51,7 +51,6 @@ namespace :spec do
   targets.each do |target|
     desc "Run serverspec tests to #{target}"
     RSpec::Core::RakeTask.new(target.to_sym) do |t|
-      #ENV['TARGET_HOST'] = target
       ENV['DOCKER_IMAGE'] = "minimum2scp/#{target}:latest"
       t.pattern = "spec/#{target}/*_spec.rb"
     end
