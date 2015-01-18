@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## packages
 ##
-packages="sudo adduser curl ca-certificates openssl git lv vim man whiptail zsh apt-utils net-tools"
+packages="sudo adduser curl ca-certificates openssl git lv vim man-db whiptail zsh apt-utils net-tools"
 packages="$packages etckeeper"
 packages="$packages locales tzdata"
 packages="$packages sysvinit-core openssh-server rsyslog cron"
