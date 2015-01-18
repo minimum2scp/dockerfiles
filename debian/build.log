@@ -201,20 +201,20 @@ I: Retrieving tzdata 2014j-1
 I: Validating tzdata 2014j-1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
-I: Retrieving bsdutils 1:2.25.2-4
-I: Validating bsdutils 1:2.25.2-4
-I: Retrieving libblkid1 2.25.2-4
-I: Validating libblkid1 2.25.2-4
-I: Retrieving libmount1 2.25.2-4
-I: Validating libmount1 2.25.2-4
-I: Retrieving libsmartcols1 2.25.2-4
-I: Validating libsmartcols1 2.25.2-4
-I: Retrieving libuuid1 2.25.2-4
-I: Validating libuuid1 2.25.2-4
-I: Retrieving mount 2.25.2-4
-I: Validating mount 2.25.2-4
-I: Retrieving util-linux 2.25.2-4
-I: Validating util-linux 2.25.2-4
+I: Retrieving bsdutils 1:2.25.2-4.1
+I: Validating bsdutils 1:2.25.2-4.1
+I: Retrieving libblkid1 2.25.2-4.1
+I: Validating libblkid1 2.25.2-4.1
+I: Retrieving libmount1 2.25.2-4.1
+I: Validating libmount1 2.25.2-4.1
+I: Retrieving libsmartcols1 2.25.2-4.1
+I: Validating libsmartcols1 2.25.2-4.1
+I: Retrieving libuuid1 2.25.2-4.1
+I: Validating libuuid1 2.25.2-4.1
+I: Retrieving mount 2.25.2-4.1
+I: Validating mount 2.25.2-4.1
+I: Retrieving util-linux 2.25.2-4.1
+I: Validating util-linux 2.25.2-4.1
 I: Retrieving liblzma5 5.1.1alpha+20120614-2+b3
 I: Validating liblzma5 5.1.1alpha+20120614-2+b3
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9481 kB]
-Fetched 9730 kB in 4s (2081 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9480 kB]
+Fetched 9730 kB in 4s (2117 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> bb61796f92be
-Removing intermediate container 98b571610176
+ ---> b9dac8a168a9
+Removing intermediate container 116877058a59
 Step 2 : CMD /bin/bash
- ---> Running in 51e20a1da682
- ---> e7f987a7daba
-Removing intermediate container 51e20a1da682
-Successfully built e7f987a7daba
+ ---> Running in 9fd22e84e082
+ ---> e1451f987580
+Removing intermediate container 9fd22e84e082
+Successfully built e1451f987580
