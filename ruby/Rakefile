@@ -54,6 +54,10 @@ namespace :build_package do
     sh %Q[docker exec #{cname} sudo -u debian -H bash -l -c 'cd ~/tmp/bundler-#{new_ver}; sed -i -e 1,6d debian/changelog']
     sh %Q[docker exec #{cname} sudo -u debian -H bash -l -c 'cd ~/tmp/bundler-#{new_ver}; debchange -v #{new_ver}-0custom1 -D unstable "New upstream release"']
 
+    ## modify debian/rules (to generate /usr/lib/ruby/vendor_ruby/bundler/man/* files)
+    sh %Q[docker exec -ti #{cname} sudo -u debian -H bash -l -c 'cd ~/tmp/bundler-#{new_ver}; sed -i -e "s/^\\tdh_auto_build\\$/\\tdh_auto_build \\&\\& rake man:build/" debian/rules']
+    sh %Q[docker exec -ti #{cname} sudo -u debian -H bash -l -c 'cd ~/tmp/bundler-#{new_ver}; sed -i -e "s/^\\tdh_auto_clean\\$/\\tdh_auto_clean \\&\\& rake man:clean/" debian/rules']
+
     ## build and sign package
     sh %Q[docker exec -ti #{cname} sudo -u debian -H bash -l -c 'cd ~/tmp/bundler-#{new_ver}; debuild -rfakeroot -sa -j3']
 
