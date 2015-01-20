@@ -1,3 +1,5 @@
+.bundle
 .envrc
 .snippets
 deps.svg
+vendor/bundle
