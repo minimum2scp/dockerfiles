@@ -4,6 +4,11 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+## load GPG key
+gpg_home=/build/tmp/gnupg
+mkdir -m 700 $gpg_home
+gpg --homedir $gpg_home --import < /build/tmp/3184B100.pubkey
+
 ## run rbenv-update
 bash -l -c "rbenv update"
 
@@ -13,9 +18,17 @@ bash -l -c "rbenv update"
 ## install pre-build binary
 ## binary is built by `cd ../ruby; rake build[version]`
 for v in 2.0.0-p598 2.1.5 2.2.0; do
-  curl -o /tmp/opt-rbenv-ruby-${v}.tar.gz https://minimum2scp.org/ruby/rbenv/versions/opt-rbenv-ruby-${v}.tar.gz
-  tar xf /tmp/opt-rbenv-ruby-${v}.tar.gz -C /opt/rbenv/versions
-  rm /tmp/opt-rbenv-ruby-${v}.tar.gz
+  file=/build/tmp/opt-rbenv-ruby-${v}.tar.gz
+  sign=/build/tmp/opt-rbenv-ruby-${v}.tar.gz.asc
+  curl -o $file https://minimum2scp.org/ruby/rbenv/versions/${file##*/}
+  curl -o $sign https://minimum2scp.org/ruby/rbenv/versions/${sign##*/}
+  ## verify by GPG
+  if gpg --homedir $gpg_home --verify $sign $file; then
+    tar xf $file -C /opt/rbenv/versions
+  else
+    echo "verify failed, abort."
+    exit 1
+  fi
 done
 
 bash -l -c "rbenv rehash"
