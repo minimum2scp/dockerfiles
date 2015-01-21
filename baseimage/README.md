@@ -59,11 +59,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150119-22101-1xp6opa.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150119-22101-1wjzez5.out
-% diff -u /tmp/docker-diff.20150119-22101-1xp6opa.out /tmp/docker-diff.20150119-22101-1wjzez5.out
---- /tmp/docker-diff.20150119-22101-1xp6opa.out	2015-01-19 02:36:06.319124512 +0900
-+++ /tmp/docker-diff.20150119-22101-1wjzez5.out	2015-01-19 02:36:07.139116064 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150122-13797-orrqt4.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150122-13797-1g36otl.out
+% diff -u /tmp/docker-diff.20150122-13797-orrqt4.out /tmp/docker-diff.20150122-13797-1g36otl.out
+--- /tmp/docker-diff.20150122-13797-orrqt4.out	2015-01-22 00:59:34.321979608 +0900
++++ /tmp/docker-diff.20150122-13797-1g36otl.out	2015-01-22 00:59:34.945973246 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -182,7 +182,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-9             amd64             systemd utility library
+ ii  libsystemd0:amd64        215-10            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -229,14 +229,14 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 +ii  sudo                     1.8.11p2-1.1      amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
- ii  systemd                  215-9             amd64             system and service manager
--ii  systemd-sysv             215-9             amd64             system and service manager - SysV links
+ ii  systemd                  215-10            amd64             system and service manager
+-ii  systemd-sysv             215-10            amd64             system and service manager - SysV links
  ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
- ii  udev                     215-9             amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-10            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-4.1        amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-4       amd64             Vi IMproved - enhanced vi editor
 +ii  vim-common               2:7.4.488-4       amd64             Vi IMproved - Common files
