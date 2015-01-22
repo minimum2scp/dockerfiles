@@ -56,6 +56,7 @@ task :build, [:version] do |t,args|
   image = 'minimum2scp/ruby-full:latest'
   cname = 'ruby-full-tmp'
   dest = '/tmp'
+  sign_key = '3184B100' # tyamada@minimum2scp.org
 
   ## run ruby-full image
   sh "docker run -d --name #{cname} #{image}"
@@ -73,6 +74,9 @@ task :build, [:version] do |t,args|
   tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.gz"
   sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{version}"
   sh "docker cp #{cname}:#{tarball} #{dest}"
+
+  ## sign archive
+  sh "if gpg --list-secret-keys #{sign_key} 1>/dev/null 2>/dev/null; then gpg -b -a --default-key #{sign_key} #{dest}/#{File.basename(tarball)}; fi"
 
   ## cleanup
   sh "docker kill #{cname}"
