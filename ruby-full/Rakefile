@@ -49,33 +49,51 @@ task :tarball do
   sh "docker rm #{cname}"
 end
 
-desc "build ruby archive by ruby-build (RBENV_ROOT=/opt/rbenv)"
-task :build, [:version] do |t,args|
-  version = args[:version]
-
+namespace :build do
+  cname = 'ruby-build-container'
   image = 'minimum2scp/ruby-full:latest'
-  cname = 'ruby-full-tmp'
+  versions = %w[2.0.0-p598 2.1.5 2.2.0]
   dest = '/tmp'
+  sign_key = '3184B100' # tyamada@minimum2scp.org
 
-  ## run ruby-full image
-  sh "docker run -d --name #{cname} #{image}"
+  desc "build all binaries"
+  task :all do
+    Rake::Task['build:prepare']
+    versions.each do |v|
+      Rake::Task['build:ruby'].invoke(v)
+      Rake::Task['build:ruby'].reenable
+    end
+    Rake::Task['build:teardown'].invoke
+  end
 
-  ## install pigz
-  sh "docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'"
+  desc "prepare build container"
+  task :prepare do
+    sh <<-EOS
+        if docker inspect #{cname} 1>/dev/null 2>/dev/null; then
+          :
+        else
+          docker run -d --name #{cname} #{image}
+          docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'
+          docker exec #{cname} bash -l -c 'rbenv update'
+        fi
+          EOS
+  end
 
-  ## run rbenv update
-  sh "docker exec #{cname} bash -l -c 'rbenv update'"
+  desc "rm build container"
+  task :teardown do
+    sh "if docker inspect #{cname} 1>/dev/null 2>/dev/null; then docker rm -f #{cname}; fi"
+  end
 
-  ## run rbenv install
-  sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
-
-  ## archive
-  tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.gz"
-  sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{version}"
-  sh "docker cp #{cname}:#{tarball} #{dest}"
-
-  ## cleanup
-  sh "docker kill #{cname}"
-  sh "docker rm #{cname}"
+  desc "build ruby archive by ruby-build (RBENV_ROOT=/opt/rbenv)"
+  task :ruby, [:version] => ['build:prepare'] do |t,args|
+    version = args[:version]
+    ## run rbenv install
+    sh "docker exec #{cname} bash -l -c 'rbenv install #{version}'"
+    ## archive
+    tarball = "/tmp/opt-rbenv-ruby-#{version}.tar.gz"
+    sh "docker exec #{cname} tar -Ipigz -cf #{tarball} -C /opt/rbenv/versions #{version}"
+    sh "docker cp #{cname}:#{tarball} #{dest}"
+    ## sign archive
+    sh "if gpg --list-secret-keys #{sign_key} 1>/dev/null 2>/dev/null; then gpg -b -a --default-key #{sign_key} #{dest}/#{File.basename(tarball)}; fi"
+  end
 end
-
