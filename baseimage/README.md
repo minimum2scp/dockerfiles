@@ -59,11 +59,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150122-13797-orrqt4.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150122-13797-1g36otl.out
-% diff -u /tmp/docker-diff.20150122-13797-orrqt4.out /tmp/docker-diff.20150122-13797-1g36otl.out
---- /tmp/docker-diff.20150122-13797-orrqt4.out	2015-01-22 00:59:34.321979608 +0900
-+++ /tmp/docker-diff.20150122-13797-1g36otl.out	2015-01-22 00:59:34.945973246 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150125-4913-113rjvs.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150125-4913-1jw8bsb.out
+% diff -u /tmp/docker-diff.20150125-4913-113rjvs.out /tmp/docker-diff.20150125-4913-1jw8bsb.out
+--- /tmp/docker-diff.20150125-4913-113rjvs.out	2015-01-25 02:49:10.952093806 +0900
++++ /tmp/docker-diff.20150125-4913-1jw8bsb.out	2015-01-25 02:49:11.516089116 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -118,7 +118,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 @@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
- ii  libcryptsetup4:amd64     2:1.6.6-4         amd64             disk encryption support - shared library
+ ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-4          amd64             easy-to-use client-side URL transfer library (OpenSSL
 +ii  libcurl3-gnutls:amd64    7.38.0-4          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
