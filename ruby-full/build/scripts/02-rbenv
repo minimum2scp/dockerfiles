@@ -20,8 +20,8 @@ bash -l -c "rbenv update"
 for v in 2.0.0-p598 2.1.5 2.2.0; do
   file=/build/tmp/opt-rbenv-ruby-${v}.tar.gz
   sign=/build/tmp/opt-rbenv-ruby-${v}.tar.gz.asc
-  curl -o $file https://minimum2scp.org/ruby/rbenv/versions/${file##*/}
-  curl -o $sign https://minimum2scp.org/ruby/rbenv/versions/${sign##*/}
+  curl -s -o $file https://minimum2scp.org/ruby/rbenv/versions/${file##*/}
+  curl -s -o $sign https://minimum2scp.org/ruby/rbenv/versions/${sign##*/}
   ## verify by GPG
   if gpg --homedir $gpg_home --verify $sign $file; then
     tar xf $file -C /opt/rbenv/versions
