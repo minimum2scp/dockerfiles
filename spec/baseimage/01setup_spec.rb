@@ -21,10 +21,13 @@ describe file("/etc/locale.gen") do
   its(:content){ should include 'ja_JP.UTF-8 UTF-8' }
 end
 
-## TODO: time zone should be Asia/Tokyo
-#describe file("/etc/localtime") do
-#
-#end
+describe file("/etc/timezone") do
+  its(:content){ should include 'Asia/Tokyo' }
+end
+
+describe file("/etc/localtime") do
+  its(:md5sum){ should eq '9e165b3822e5923e4905ee1653a2f358' }
+end
 
 describe file("/etc/inittab") do
   its(:content) { should match %r!^#si::sysinit:/etc/init.d/rcS! }

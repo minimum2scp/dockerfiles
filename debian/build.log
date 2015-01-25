@@ -37,8 +37,8 @@ I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
 I: Retrieving coreutils 8.23-3
 I: Validating coreutils 8.23-3
-I: Retrieving libcryptsetup4 2:1.6.6-4
-I: Validating libcryptsetup4 2:1.6.6-4
+I: Retrieving libcryptsetup4 2:1.6.6-5
+I: Validating libcryptsetup4 2:1.6.6-5
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
 I: Retrieving libdb5.3 5.3.28-9
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-9
-I: Validating libsystemd0 215-9
-I: Retrieving libudev1 215-9
-I: Validating libudev1 215-9
-I: Retrieving systemd 215-9
-I: Validating systemd 215-9
-I: Retrieving systemd-sysv 215-9
-I: Validating systemd-sysv 215-9
-I: Retrieving udev 215-9
-I: Validating udev 215-9
+I: Retrieving libsystemd0 215-10
+I: Validating libsystemd0 215-10
+I: Retrieving libudev1 215-10
+I: Validating libudev1 215-10
+I: Retrieving systemd 215-10
+I: Validating systemd 215-10
+I: Retrieving systemd-sysv 215-10
+I: Validating systemd-sysv 215-10
+I: Retrieving udev 215-10
+I: Validating udev 215-10
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9480 kB]
-Fetched 9730 kB in 4s (2117 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9486 kB]
+Fetched 9736 kB in 21s (452 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> b9dac8a168a9
-Removing intermediate container 116877058a59
+ ---> 503cbb633c75
+Removing intermediate container e4f3e62d795b
 Step 2 : CMD /bin/bash
- ---> Running in 9fd22e84e082
- ---> e1451f987580
-Removing intermediate container 9fd22e84e082
-Successfully built e1451f987580
+ ---> Running in b33ec529b65b
+ ---> 7fc88a7bb310
+Removing intermediate container b33ec529b65b
+Successfully built 7fc88a7bb310
