@@ -1,0 +1,37 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install hubot
+##
+bash -l -c "npm install -g yo generator-hubot"
+bash -l -c "ndenv rehash"
+
+##
+## install / configure hubot
+##
+bot_dir=/home/debian/bot
+sudo -u debian mkdir -p ${bot_dir}
+cd ${bot_dir}
+
+## configure shell environment variable
+install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
+
+## configure git
+sudo -u debian -H bash -l -c "git config --global user.email debian@`hostname`"
+
+## create bot
+sudo -u debian -H bash -l -c "yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
+sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
+
+## remove hubot-heroku-keepalive
+sudo -u debian -H bash -l -c "npm uninstall hubot-heroku-keepalive --save"
+sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
+sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
+
+
+## reset git config
+sudo -u debian -H bash -l -c "git config --global --unset user.email"
