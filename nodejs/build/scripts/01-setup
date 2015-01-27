@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## packages: build tools
+#packages=""
+
+## install packages
+#apt-get install --no-install-recommends -y ${packages}
+
