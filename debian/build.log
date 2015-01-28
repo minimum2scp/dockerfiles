@@ -157,8 +157,8 @@ I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
 I: Retrieving libpcre3 2:8.35-3.3
 I: Validating libpcre3 2:8.35-3.3
-I: Retrieving perl-base 5.20.1-4
-I: Validating perl-base 5.20.1-4
+I: Retrieving perl-base 5.20.1-5
+I: Validating perl-base 5.20.1-5
 I: Retrieving libprocps3 2:3.3.9-8
 I: Validating libprocps3 2:3.3.9-8
 I: Retrieving procps 2:3.3.9-8
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9486 kB]
-Fetched 9736 kB in 21s (452 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9487 kB]
+Fetched 9736 kB in 4s (2226 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 503cbb633c75
-Removing intermediate container e4f3e62d795b
+ ---> aba79f1f1217
+Removing intermediate container 3b63ed2f59ae
 Step 2 : CMD /bin/bash
- ---> Running in b33ec529b65b
- ---> 7fc88a7bb310
-Removing intermediate container b33ec529b65b
-Successfully built 7fc88a7bb310
+ ---> Running in ab2116004793
+ ---> 51f4aae5ae03
+Removing intermediate container ab2116004793
+Successfully built 51f4aae5ae03

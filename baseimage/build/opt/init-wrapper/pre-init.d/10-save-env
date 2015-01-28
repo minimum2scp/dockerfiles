@@ -10,8 +10,8 @@ env | sort | sed \
   -e '/^PWD=/d' \
   -e '/^TERM=/d' \
   -e 's/^/export /' \
-> /etc/profile.d/docker-env.sh
+> /etc/profile.d/00docker-env.sh
 
 if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
-  etckeeper commit "add /etc/profile.d/docker-env.sh" 1>/dev/null 2>/dev/null
+  etckeeper commit "add /etc/profile.d/00docker-env.sh" 1>/dev/null 2>/dev/null
 fi
