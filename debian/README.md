@@ -120,7 +120,7 @@ ii  ncurses-base             5.9+20140913-1    all               basic terminal 
 ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-ii  perl-base                5.20.1-4          amd64             minimal Perl system
+ii  perl-base                5.20.1-5          amd64             minimal Perl system
 ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
