@@ -1,0 +1,6 @@
+hubot:
+  image: minimum2scp/hubot:latest
+  links:
+    - redis
+redis:
+  image: redis:latest
