@@ -2,5 +2,7 @@ hubot:
   image: minimum2scp/hubot:latest
   links:
     - redis
+  #environment:
+  #  HUBOT_SLACK_TOKEN: ******
 redis:
   image: redis:latest

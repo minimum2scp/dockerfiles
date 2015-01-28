@@ -13,7 +13,7 @@ bash -l -c "ndenv rehash"
 ##
 ## install / configure hubot
 ##
-bot_dir=/home/debian/bot
+bot_dir=/home/debian/hubot
 sudo -u debian mkdir -p ${bot_dir}
 cd ${bot_dir}
 
@@ -32,6 +32,24 @@ sudo -u debian -H bash -l -c "npm uninstall hubot-heroku-keepalive --save"
 sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
 sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
 
-
 ## reset git config
 sudo -u debian -H bash -l -c "git config --global --unset user.email"
+
+##
+## autostart supervisor
+## (supervisor is already installed in baseimage)
+##
+insserv supervisor
+etckeeper commit "autostart supervisor"
+
+##
+## add hubot to supervisor
+##
+install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/hubot.conf /etc/supervisor/conf.d/hubot.conf
+etckeeper commit "supervisor: add hubot"
+
+##
+## add hubot start script
+##
+install -m 755 -o debian -g debian -p /build/home/debian/hubot/start.sh /home/debian/hubot/start.sh
+
