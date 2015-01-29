@@ -65,6 +65,8 @@ docker run -d --name hubot --link redis:redis -u debian -w /home/debian/bot -e H
 ### use fig
 
 ```
+cp -a fig.yml.example fig.yml
+vi fig.yml
 fig up -d
 ```
 
