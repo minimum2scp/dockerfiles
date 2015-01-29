@@ -59,11 +59,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150127-30834-kj3hvf.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150127-30834-rsm3jx.out
-% diff -u /tmp/docker-diff.20150127-30834-kj3hvf.out /tmp/docker-diff.20150127-30834-rsm3jx.out
---- /tmp/docker-diff.20150127-30834-kj3hvf.out	2015-01-27 00:53:09.388748981 +0900
-+++ /tmp/docker-diff.20150127-30834-rsm3jx.out	2015-01-27 00:53:10.016742581 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150130-1471-5se6oe.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150130-1471-m4ji6p.out
+% diff -u /tmp/docker-diff.20150130-1471-5se6oe.out /tmp/docker-diff.20150130-1471-m4ji6p.out
+--- /tmp/docker-diff.20150130-1471-5se6oe.out	2015-01-30 00:17:23.073513479 +0900
++++ /tmp/docker-diff.20150130-1471-m4ji6p.out	2015-01-30 00:17:23.729510977 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -71,7 +71,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  apt-utils                1.0.9.6           amd64             package management related utility programs
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
- ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
+ ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.25.2-4.1      amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20141019          all               Common CA certificates
@@ -147,7 +147,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libkrb5support0:amd64    1.12.1+dfsg-16    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40-3          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
-+ii  liblogging-stdlog0:amd64 1.0.4-1           amd64             easy to use and lightweight logging library
++ii  liblogging-stdlog0:amd64 1.0.5-1           amd64             easy to use and lightweight logging library
 +ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
  ii  libmount1:amd64          2.25.2-4.1        amd64             device mounting library
