@@ -14,6 +14,14 @@ env | sort | sed \
   -e '/^USER_SSH_KEY_URI=/d' \
   -e '/^ROOT_PASSWORD=/d' \
   -e '/^ROOT_SSH_KEY_URI=/d' \
+  -e '/^CUSTOM_GROUP=/d' \
+  -e '/^CUSTOM_GROUP_GID=/d' \
+  -e '/^CUSTOM_USER=/d' \
+  -e '/^CUSTOM_USER_UID=/d' \
+  -e '/^CUSTOM_USER_GECOS=/d' \
+  -e '/^CUSTOM_USER_SHELL=/d' \
+  -e '/^CUSTOM_USER_PASSWORD=/d' \
+  -e '/^CUSTOM_USER_SSH_KEY_URI=/d' \
 > /etc/profile.d/00docker-env.sh
 
 if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then

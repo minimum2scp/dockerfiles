@@ -1,0 +1,63 @@
+#! /bin/sh
+
+## environment variables
+##
+##   - CUSTOM_GROUP            :  group name
+##   - CUSTOM_GROUP_GID        :  group id
+##   - CUSTOM_USER             :  user name
+##   - CUSTOM_USER_UID         :  user id
+##   - CUSTOM_USER_GECOS       :  gecos field for user
+##   - CUSTOM_USER_SHELL       :  login shell for user
+##   - CUSTOM_USER_PASSWORD    :  password for user
+##   - CUSTOM_USER_SSH_KEY_URI :  ssh public key uri (or github account)
+##
+
+if [ -n "${CUSTOM_USER}" ]; then
+  ## create group
+  if [ -n "${CUSTOM_GROUP}" ]; then
+    group=${CUSTOM_GROUP}
+  else
+    group=${CUSTOM_USER}
+  fi
+  addgroup ${CUSTOM_GROUP_GID+--gid ${CUSTOM_GROUP_GID}} ${group}
+  etckeeper "addgroup ${group}"
+
+  ## create user (without password, without sudo priv)
+  adduser \
+    --disabled-password \
+    --quiet \
+    --gecos "${CUSTOM_USER_GECOS}" \
+    --shell ${CUSTOM_USER_SHELL-/bin/bash} \
+    ${CUSTOM_USER_UID+--uid ${CUSTOM_USER_UID}} \
+    --ingroup ${group} \
+    ${CUSTOM_USER}
+  etckeeper "adduser ${CUSTOM_USER}"
+
+  ## add sudo priv
+  adduser ${CUSTOM_USER} sudo
+  adduser ${CUSTOM_USER} adm
+  etckeeper "add ${CUSTOM_USER} into sudo, adm group"
+
+  if [ -n "${CUSTOM_USER_PASSWORD}" ]; then
+    ## change password
+    echo "${CUSTOM_USER}:${CUSTOM_USER_PASSWORD}" | chpass
+    etckeeper "changed ${CUSTOM_USER} password"
+  fi
+
+  if [ -n "${CUSTOM_USER_SSH_KEY_URI}" ]; then
+    ## add ssh public key
+    sudo -u ${CUSTOM_USER} mkdir -m 0700 /home/${CUSTOM_USER}/.ssh
+    sudo -u ${CUSTOM_USER} bash -c "umask 066 && touch /home/${CUSTOM_USER}/.ssh/authorized_keys"
+    case "${CUSTOM_USER_SSH_KEY_URI}" in
+      https?://*)
+        curl -s -L -o - "${CUSTOM_USER_SSH_KEY_URI}" | sudo -u ${CUSTOM_USER} bash -c "cat >> /home/${CUSTOM_USER}/.ssh/authorized_keys"
+        ;;
+      *)
+        if echo "${CUSTOM_USER_SSH_KEY_URI}" | grep -E '^[0-9a-zA-Z-]+$'; then
+          curl -s -L -o - "https://github.com/${CUSTOM_USER_SSH_KEY_URI}.keys" | sudo -u ${CUSTOM_USER} bash -c "cat >> /home/${CUSTOM_USER}/.ssh/authorized_keys"
+        fi
+        ;;
+    esac
+  fi
+fi
+
