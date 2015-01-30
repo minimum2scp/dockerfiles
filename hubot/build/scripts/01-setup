@@ -27,20 +27,20 @@ sudo -u debian -H bash -l -c "git config --global user.email debian@`hostname`"
 sudo -u debian -H bash -l -c "yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
 sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
 
+## rm old .node-version file
+sudo -u debian -H bash -l -c "rm ./node_modules/hubot/.node-version ./node_modules/hubot-scripts/.node-version"
+
 ## remove hubot-heroku-keepalive
 sudo -u debian -H bash -l -c "npm uninstall hubot-heroku-keepalive --save"
 sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
 sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
 
+## add hubot start script for supervisor
+install -m 755 -o debian -g debian -p /build/home/debian/hubot/start.sh /home/debian/hubot/start.sh
+sudo -u debian -H bash -l -c "git add start.sh && git commit -m 'add start.sh for supervisor'"
+
 ## reset git config
 sudo -u debian -H bash -l -c "git config --global --unset user.email"
-
-##
-## autostart supervisor
-## (supervisor is already installed in baseimage)
-##
-insserv supervisor
-etckeeper commit "autostart supervisor"
 
 ##
 ## add hubot to supervisor
@@ -49,7 +49,9 @@ install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/hubot.conf /etc/s
 etckeeper commit "supervisor: add hubot"
 
 ##
-## add hubot start script
+## autostart supervisor
+## (supervisor is already installed in baseimage)
 ##
-install -m 755 -o debian -g debian -p /build/home/debian/hubot/start.sh /home/debian/hubot/start.sh
+insserv supervisor
+etckeeper commit "autostart supervisor"
 
