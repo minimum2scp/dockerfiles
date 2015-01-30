@@ -4,6 +4,10 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+## intall packages
+packages="build-essential"
+apt-get install -y --no-install-recommends ${packages}
+
 ##
 ## install hubot
 ##
