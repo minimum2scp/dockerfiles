@@ -10,6 +10,10 @@ env | sort | sed \
   -e '/^PWD=/d' \
   -e '/^TERM=/d' \
   -e 's/^/export /' \
+  -e '/^USER_PASSWORD=/d' \
+  -e '/^USER_SSH_KEY_URI=/d' \
+  -e '/^ROOT_PASSWORD=/d' \
+  -e '/^ROOT_SSH_KEY_URI=/d' \
 > /etc/profile.d/00docker-env.sh
 
 if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then

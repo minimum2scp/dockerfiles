@@ -1,0 +1,71 @@
+#! /bin/sh
+
+## environment variables
+##
+##  - USER_PASSWORD     : debian user password
+##  - USER_SSH_KEY_URI  : ssh public key uri (or github account) for debian user
+##  - ROOT_PASSWORD     : root password
+##  - ROOT_SSH_KEY_URI  : ssh public key uri (or github account) for root
+##
+
+##
+## change password for debian user
+##
+if [ -n "${USER_PASSWORD}" ]; then
+  echo "debian:${USER_PASSWORD}" | chpasswd
+  etckeeper commit "changed user password"
+fi
+
+##
+## add ssh public key for debian user
+##
+if [ -n "${USER_SSH_KEY_URI}" ]; then
+  if [ ! -d /home/debian/.ssh ]; then
+    sudo -u debian mkdir -m 0700 /home/debian/.ssh
+  fi
+  if [ ! -f /home/debian/.ssh/authorized_keys ]; then
+    sudo -u debian bash -c 'umask 066 && touch /home/debian/.ssh/authorzied_keys'
+  fi
+  case "${USER_SSH_KEY_URI}" in
+    https?://*)
+      curl -s -L -o - "${USER_SSH_KEY_URI}" | sudo -u debian bash -c "cat >> /home/debian/.ssh/authorized_keys"
+      ;;
+    *)
+      if echo "${USER_SSH_KEY_URI}" | grep -E '^[0-9a-zA-Z-]+$'; then
+        curl -s -L -o - "https://github.com/${USER_SSH_KEY_URI}.keys" | sudo -u debian bash -c "cat >> /home/debian/.ssh/authorized_keys"
+      fi
+      ;;
+  esac
+fi
+
+##
+## change password for root
+##
+if [ -n "${ROOT_PASSWORD}" ]; then
+  echo "root:${ROOT_PASSWORD}" | chpasswd
+  etckeeper commit "changed root password"
+fi
+
+##
+## add ssh public key for root
+##
+if [ -n "${ROOT_SSH_KEY_URI}" ]; then
+  if [ ! -d /root/.ssh ]; then
+    mkdir -m 0700 /root/.ssh
+  fi
+  if [ ! -f /root/.ssh/authorized_keys ]; then
+    bash -c 'umask 066 && touch /root/.ssh/authorzied_keys'
+  fi
+  case "${USER_SSH_KEY_URI}" in
+    https?://*)
+      curl -s -L -o - "${USER_SSH_KEY_URI}" >> /root/.ssh/authorized_keys
+      ;;
+    *)
+      if echo "${USER_SSH_KEY_URI}" | grep -E '^[0-9a-zA-Z-]+$'; then
+        curl -s -L -o - "https://github.com/${USER_SSH_KEY_URI}.keys" >> /root/.ssh/authorized_keys
+      fi
+      ;;
+  esac
+fi
+
+
