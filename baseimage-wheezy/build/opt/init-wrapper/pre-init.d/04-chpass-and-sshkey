@@ -38,6 +38,9 @@ add_ssh_key (){
     if [ ! -f $home/.ssh/authorized_keys ]; then
       $sudo bash -c "umask 066 && touch $home/.ssh/authorzied_keys"
     fi
+
+    $sudo bash -c "echo \"\" >> $home/.ssh/authorized_keys"
+    $sudo bash -c "echo \"## ${ssh_key_uri}\" >> $home/.ssh/authorized_keys"
     case "${ssh_key_uri}" in
       https?://*)
         curl -s -L -o - "${ssh_key_uri}" | $sudo bash -c "cat >> $home/.ssh/authorized_keys"
@@ -48,6 +51,7 @@ add_ssh_key (){
         fi
         ;;
     esac
+    $sudo bash -c "echo \"\" >> $home/.ssh/authorized_keys"
   fi
   unset user ssh_key_uri home sudo
 }
