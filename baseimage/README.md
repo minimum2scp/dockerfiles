@@ -59,11 +59,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150131-25236-pl84x5.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150131-25236-1a6n6d.out
-% diff -u /tmp/docker-diff.20150131-25236-pl84x5.out /tmp/docker-diff.20150131-25236-1a6n6d.out
---- /tmp/docker-diff.20150131-25236-pl84x5.out	2015-01-31 01:31:26.098518911 +0900
-+++ /tmp/docker-diff.20150131-25236-1a6n6d.out	2015-01-31 01:31:26.722469605 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150201-2386-hdyu3m.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150201-2386-1bymvbt.out
+% diff -u /tmp/docker-diff.20150201-2386-hdyu3m.out /tmp/docker-diff.20150201-2386-1bymvbt.out
+--- /tmp/docker-diff.20150201-2386-hdyu3m.out	2015-02-01 00:09:07.081533480 +0900
++++ /tmp/docker-diff.20150201-2386-1bymvbt.out	2015-02-01 00:09:07.729528700 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -235,7 +235,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2014j-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015a-1           all               time zone and daylight-saving time data
  ii  udev                     215-11            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-4.1        amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-4       amd64             Vi IMproved - enhanced vi editor
