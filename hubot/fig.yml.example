@@ -3,6 +3,9 @@ hubot:
   links:
     - redis
   #environment:
-  #  HUBOT_SLACK_TOKEN: ******
+  #  USER_SSH_KEY_URI: your-github-account-or-http://your-site/path/to/ssh-pubkey
+  #  HUBOT_SLACK_TOKEN: *******
 redis:
   image: redis:latest
+  volumes:
+    - hubot-data:/data
