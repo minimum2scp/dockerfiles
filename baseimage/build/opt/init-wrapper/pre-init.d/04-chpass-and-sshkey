@@ -24,7 +24,7 @@ change_password (){
 add_ssh_key (){
   user=$1
   ssh_key_uri=$2
-  if [ $user = "root" ]; then
+  if [ "$user" = "root" ]; then
     home=/root
     sudo=
   else
