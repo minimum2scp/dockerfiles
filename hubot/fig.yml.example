@@ -7,5 +7,6 @@ hubot:
   #  HUBOT_SLACK_TOKEN: *******
 redis:
   image: redis:latest
+  command: redis-server --appendonly yes --auto-aof-rewrite-min-size 32mb --auto-aof-rewrite-percentage 50
   volumes:
     - hubot-data:/data
