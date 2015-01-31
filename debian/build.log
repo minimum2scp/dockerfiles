@@ -29,8 +29,8 @@ I: Retrieving base-files 8
 I: Validating base-files 8
 I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
-I: Retrieving bash 4.3-11+b1
-I: Validating bash 4.3-11+b1
+I: Retrieving bash 4.3-12
+I: Validating bash 4.3-12
 I: Retrieving libbz2-1.0 1.0.6-7+b2
 I: Validating libbz2-1.0 1.0.6-7+b2
 I: Retrieving libdebconfclient0 0.192
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-10
-I: Validating libsystemd0 215-10
-I: Retrieving libudev1 215-10
-I: Validating libudev1 215-10
-I: Retrieving systemd 215-10
-I: Validating systemd 215-10
-I: Retrieving systemd-sysv 215-10
-I: Validating systemd-sysv 215-10
-I: Retrieving udev 215-10
-I: Validating udev 215-10
+I: Retrieving libsystemd0 215-11
+I: Validating libsystemd0 215-11
+I: Retrieving libudev1 215-11
+I: Validating libudev1 215-11
+I: Retrieving systemd 215-11
+I: Validating systemd 215-11
+I: Retrieving systemd-sysv 215-11
+I: Validating systemd-sysv 215-11
+I: Retrieving udev 215-11
+I: Validating udev 215-11
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9487 kB]
-Fetched 9736 kB in 4s (2226 kB/s)
+Fetched 9736 kB in 6s (1503 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> aba79f1f1217
-Removing intermediate container 3b63ed2f59ae
+ ---> 3bf41b68a86d
+Removing intermediate container a60453994491
 Step 2 : CMD /bin/bash
- ---> Running in ab2116004793
- ---> 51f4aae5ae03
-Removing intermediate container ab2116004793
-Successfully built 51f4aae5ae03
+ ---> Running in aefbd1c348ed
+ ---> 311a359e768d
+Removing intermediate container aefbd1c348ed
+Successfully built 311a359e768d
