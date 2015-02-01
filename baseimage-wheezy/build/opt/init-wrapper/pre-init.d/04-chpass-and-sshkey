@@ -36,7 +36,7 @@ add_ssh_key (){
         $sudo mkdir -m 0700 $home/.ssh
     fi
     if [ ! -f $home/.ssh/authorized_keys ]; then
-      $sudo bash -c "umask 066 && touch $home/.ssh/authorzied_keys"
+      $sudo bash -c "umask 066 && touch $home/.ssh/authorized_keys"
     fi
 
     $sudo bash -c "echo \"\" >> $home/.ssh/authorized_keys"
