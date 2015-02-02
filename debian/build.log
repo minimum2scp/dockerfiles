@@ -75,12 +75,12 @@ I: Retrieving libgcc1 1:4.9.2-10
 I: Validating libgcc1 1:4.9.2-10
 I: Retrieving libstdc++6 4.9.2-10
 I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-13
-I: Validating libc-bin 2.19-13
-I: Retrieving libc6 2.19-13
-I: Validating libc6 2.19-13
-I: Retrieving multiarch-support 2.19-13
-I: Validating multiarch-support 2.19-13
+I: Retrieving libc-bin 2.19-14
+I: Validating libc-bin 2.19-14
+I: Retrieving libc6 2.19-14
+I: Validating libc6 2.19-14
+I: Retrieving multiarch-support 2.19-14
+I: Validating multiarch-support 2.19-14
 I: Retrieving gnupg 1.4.18-6
 I: Validating gnupg 1.4.18-6
 I: Retrieving gpgv 1.4.18-6
@@ -197,24 +197,24 @@ I: Retrieving sysvinit-utils 2.88dsf-58
 I: Validating sysvinit-utils 2.88dsf-58
 I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
-I: Retrieving tzdata 2014j-1
-I: Validating tzdata 2014j-1
+I: Retrieving tzdata 2015a-1
+I: Validating tzdata 2015a-1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
-I: Retrieving bsdutils 1:2.25.2-4.1
-I: Validating bsdutils 1:2.25.2-4.1
-I: Retrieving libblkid1 2.25.2-4.1
-I: Validating libblkid1 2.25.2-4.1
-I: Retrieving libmount1 2.25.2-4.1
-I: Validating libmount1 2.25.2-4.1
-I: Retrieving libsmartcols1 2.25.2-4.1
-I: Validating libsmartcols1 2.25.2-4.1
-I: Retrieving libuuid1 2.25.2-4.1
-I: Validating libuuid1 2.25.2-4.1
-I: Retrieving mount 2.25.2-4.1
-I: Validating mount 2.25.2-4.1
-I: Retrieving util-linux 2.25.2-4.1
-I: Validating util-linux 2.25.2-4.1
+I: Retrieving bsdutils 1:2.25.2-4.2
+I: Validating bsdutils 1:2.25.2-4.2
+I: Retrieving libblkid1 2.25.2-4.2
+I: Validating libblkid1 2.25.2-4.2
+I: Retrieving libmount1 2.25.2-4.2
+I: Validating libmount1 2.25.2-4.2
+I: Retrieving libsmartcols1 2.25.2-4.2
+I: Validating libsmartcols1 2.25.2-4.2
+I: Retrieving libuuid1 2.25.2-4.2
+I: Validating libuuid1 2.25.2-4.2
+I: Retrieving mount 2.25.2-4.2
+I: Validating mount 2.25.2-4.2
+I: Retrieving util-linux 2.25.2-4.2
+I: Validating util-linux 2.25.2-4.2
 I: Retrieving liblzma5 5.1.1alpha+20120614-2+b3
 I: Validating liblzma5 5.1.1alpha+20120614-2+b3
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9487 kB]
-Fetched 9736 kB in 6s (1503 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9489 kB]
+Fetched 9739 kB in 5s (1799 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 3bf41b68a86d
-Removing intermediate container a60453994491
+ ---> 5d8a275c6970
+Removing intermediate container 108efa65b1b7
 Step 2 : CMD /bin/bash
- ---> Running in aefbd1c348ed
- ---> 311a359e768d
-Removing intermediate container aefbd1c348ed
-Successfully built 311a359e768d
+ ---> Running in c3191ffeb151
+ ---> eecc0f25878c
+Removing intermediate container c3191ffeb151
+Successfully built eecc0f25878c
