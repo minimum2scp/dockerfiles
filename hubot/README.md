@@ -45,6 +45,7 @@ debian     178   127  0 03:42 pts/0    R+     0:00              \_ ps -ef fww
 ## ports
 
  * TCP/22: sshd
+ * TCP/8080: hubot
 
 ## running hubot
 
@@ -59,7 +60,7 @@ docker run -d --name redis redis:latest
 and launch hubot:
 
 ```
-docker run -d --name hubot --link redis:redis -u debian -w /home/debian/bot -e HUBOT_SLACK_TOKEN=********** minimum2scp/hubot:latest bash -l -c "bin/hubot -a slack -n botname"
+docker run -d --name hubot --link redis:redis -p 8080:8080 -e HUBOT_SLACK_TOKEN=********** minimum2scp/hubot:latest
 ```
 
 ### use fig
