@@ -61,11 +61,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150202-10644-1jsp2dt.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150202-10644-t281a0.out
-% diff -u /tmp/docker-diff.20150202-10644-1jsp2dt.out /tmp/docker-diff.20150202-10644-t281a0.out
---- /tmp/docker-diff.20150202-10644-1jsp2dt.out	2015-02-02 01:16:21.516109013 +0900
-+++ /tmp/docker-diff.20150202-10644-t281a0.out	2015-02-02 01:16:22.128104940 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150204-15826-6nmtql.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150204-15826-1g7ymds.out
+% diff -u /tmp/docker-diff.20150204-15826-6nmtql.out /tmp/docker-diff.20150204-15826-1g7ymds.out
+--- /tmp/docker-diff.20150204-15826-6nmtql.out	2015-02-04 00:11:50.056604039 +0900
++++ /tmp/docker-diff.20150204-15826-1g7ymds.out	2015-02-04 00:11:50.744597544 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -92,8 +92,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-10          amd64             GCC, the GNU Compiler Collection (base package)
-+ii  git                      1:2.1.4-2         amd64             fast, scalable, distributed revision control system
-+ii  git-man                  1:2.1.4-2         all               fast, scalable, distributed revision control system (
++ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
++ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-6          amd64             GNU privacy guard - a free PGP replacement
  ii  gpgv                     1.4.18-6          amd64             GNU privacy guard - signature verification tool
  ii  grep                     2.20-4            amd64             GNU grep, egrep and fgrep
@@ -166,7 +166,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
-+ii  libpython-stdlib:amd64   2.7.8-2           amd64             interactive high-level object-oriented language (defa
++ii  libpython-stdlib:amd64   2.7.8-3           amd64             interactive high-level object-oriented language (defa
 +ii  libpython2.7-minimal:amd 2.7.9-1           amd64             Minimal subset of the Python language (version 2.7)
 +ii  libpython2.7-stdlib:amd6 2.7.9-1           amd64             Interactive high-level object-oriented language (stan
  ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
@@ -218,9 +218,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  perl-base                5.20.1-5          amd64             minimal Perl system
 +ii  perl-modules             5.20.1-5          all               Core Perl modules
  ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
-+ii  python                   2.7.8-2           amd64             interactive high-level object-oriented language (defa
++ii  python                   2.7.8-3           amd64             interactive high-level object-oriented language (defa
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
-+ii  python-minimal           2.7.8-2           amd64             minimal subset of the Python language (default versio
++ii  python-minimal           2.7.8-3           amd64             minimal subset of the Python language (default versio
 +ii  python-pkg-resources     5.5.1-1           all               Package Discovery and Resource Access using pkg_resou
 +ii  python2.7                2.7.9-1           amd64             Interactive high-level object-oriented language (vers
 +ii  python2.7-minimal        2.7.9-1           amd64             Minimal subset of the Python language (version 2.7)
