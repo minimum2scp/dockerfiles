@@ -1,0 +1,17 @@
+machine:
+  ruby:
+    version: 2.2.0
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - docker pull minimum2scp/debian:latest
+    - cd baseimage; docker build -t minimum2scp/baseimage:latest .; cd ..
+    - bundle install
+
+test:
+  override:
+    - bundle exec rake spec:baseimage
+
