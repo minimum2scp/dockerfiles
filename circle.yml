@@ -8,10 +8,14 @@ dependencies:
   override:
     - docker info
     - docker pull minimum2scp/debian:latest
-    - cd baseimage; docker build -t minimum2scp/baseimage:latest .; cd ..
+    - cd baseimage; docker build -t minimum2scp/baseimage:latest . ; cd ..
+    - cd ruby;      docker build -t minimum2scp/ruby:latest .      ; cd ..
+    - cd ruby-full; docker build -t minimum2scp/ruby-full:latest . ; cd ..
     - bundle install
 
 test:
   override:
     - bundle exec rake spec:baseimage
+    - bundle exec rake spec:ruby
+    - bundle exec rake spec:ruby-full
 
