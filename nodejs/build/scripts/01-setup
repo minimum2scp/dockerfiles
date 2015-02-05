@@ -5,8 +5,8 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ## packages: build tools
-#packages=""
+packages="build-essential"
 
 ## install packages
-#apt-get install --no-install-recommends -y ${packages}
+apt-get install --no-install-recommends -y ${packages}
 
