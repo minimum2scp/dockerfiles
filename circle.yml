@@ -5,12 +5,14 @@ machine:
     - docker
 
 dependencies:
+  cache_directories:
+    - "~/.cache/docker"
   override:
     - docker info
-    - docker pull minimum2scp/debian:latest
-    - cd baseimage; docker build -t minimum2scp/baseimage:latest . ; cd ..
-    - cd ruby;      docker build -t minimum2scp/ruby:latest .      ; cd ..
-    - cd ruby-full; docker build -t minimum2scp/ruby-full:latest . ; cd ..
+    - ./ci_util.sh pull  minimum2scp/debian:latest
+    - ./ci_util.sh build minimum2scp/baseimage:latest
+    - ./ci_util.sh build minimum2scp/ruby:latest
+    - ./ci_util.sh build minimum2scp/ruby-full:latest
     - bundle install
 
 test:
