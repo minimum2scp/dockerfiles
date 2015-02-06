@@ -1,0 +1,23 @@
+machine:
+  ruby:
+    version: 2.1.5
+  services:
+    - docker
+
+dependencies:
+  cache_directories:
+    - "~/.cache/docker"
+  override:
+    - docker info
+    - ./ci_util.sh pull  minimum2scp/debian:latest
+    - ./ci_util.sh build minimum2scp/baseimage:latest
+    - ./ci_util.sh build minimum2scp/ruby:latest
+    - ./ci_util.sh build minimum2scp/ruby-full:latest
+    - bundle install
+
+test:
+  override:
+    - bundle exec rake spec:baseimage
+    - bundle exec rake spec:ruby
+    - bundle exec rake spec:ruby-full
+
