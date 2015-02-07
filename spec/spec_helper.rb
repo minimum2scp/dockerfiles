@@ -5,7 +5,7 @@ require 'docker'
 ## docker rm (removing btrfs snapshot) fails on Circle CI
 if ENV['CIRCLECI']
   class Docker::Container
-    def remove
+    def remove(options={})
       # do not delete container
     end
     alias_method :delete, :remove
