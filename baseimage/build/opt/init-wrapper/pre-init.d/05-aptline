@@ -1,0 +1,38 @@
+#! /bin/sh
+
+## environment variables
+##
+##   - APT_LINE : "keep", "jp", "http://foobar.example.org/debian/"
+##
+
+set -e
+
+change_apt_line (){
+  uri=$1
+  sed -i -e "s@http://http\.debian\.net/debian/@${uri}@" /etc/apt/sources.list
+  etckeeper commit "apt: use ${uri} (changed by /opt/init-wrapper/pre-init.d/05-aptline)"
+}
+
+write_post_init (){
+  echo "#! /bin/sh"     >  /opt/init-wrapper/post-init.d/05-apt-update
+  echo "apt-get update" >> /opt/init-wrapper/post-init.d/05-apt-update
+  chmod +x /opt/init-wrapper/post-init.d/05-apt-update
+}
+
+if [ -n "${APT_LINE}" ]; then
+  case "${APT_LINE}" in
+  keep)
+    # do nothing (use http.debian.net)
+    :
+    ;;
+  jp)
+    change_apt_line http://ftp.jp.debian.org/debian/
+    write_post_init
+    ;;
+  *)
+    change_apt_line "${APT_LINE}"
+    write_post_init
+    ;;
+  esac
+fi
+
