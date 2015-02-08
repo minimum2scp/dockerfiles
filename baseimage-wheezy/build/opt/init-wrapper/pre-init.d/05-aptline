@@ -14,13 +14,14 @@ fi
 change_apt_line (){
   uri=$1
   sed -i -e "s@http://http\.debian\.net/debian/@${uri}@" /etc/apt/sources.list
-  etckeeper commit "apt: use ${uri} (changed by /opt/init-wrapper/pre-init.d/05-aptline)"
+  etckeeper commit "apt: use ${uri} (changed by $0)"
 }
 
 write_post_init (){
-  echo "#! /bin/sh"     >  /opt/init-wrapper/post-init.d/05-apt-update
-  echo "apt-get update" >> /opt/init-wrapper/post-init.d/05-apt-update
-  chmod +x /opt/init-wrapper/post-init.d/05-apt-update
+  post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
+  echo "#! /bin/sh"     >  ${post_init_script}
+  echo "apt-get update" >> ${post_init_script}
+  chmod +x ${post_init_script}
 }
 
 if [ -n "${APT_LINE}" ]; then
