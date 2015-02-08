@@ -7,6 +7,10 @@
 
 set -e
 
+if [ -z "${APT_LINE}" ]; then
+  APT_LINE=jp
+fi
+
 change_apt_line (){
   uri=$1
   sed -i -e "s@http://http\.debian\.net/debian/@${uri}@" /etc/apt/sources.list
