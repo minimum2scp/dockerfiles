@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150205-27531-c6gvja.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150205-27531-1tg0tnw.out
-% diff -u /tmp/docker-diff.20150205-27531-c6gvja.out /tmp/docker-diff.20150205-27531-1tg0tnw.out
---- /tmp/docker-diff.20150205-27531-c6gvja.out	2015-02-05 00:16:26.482893474 +0900
-+++ /tmp/docker-diff.20150205-27531-1tg0tnw.out	2015-02-05 00:16:27.114888579 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150210-31732-cyejxe.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150210-31732-1x05rsj.out
+% diff -u /tmp/docker-diff.20150210-31732-cyejxe.out /tmp/docker-diff.20150210-31732-1x05rsj.out
+--- /tmp/docker-diff.20150210-31732-cyejxe.out	2015-02-10 01:57:23.374475361 +0900
++++ /tmp/docker-diff.20150210-31732-1x05rsj.out	2015-02-10 01:57:23.986470167 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -52,8 +52,8 @@
  ii  libblkid1:amd64          2.25.2-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b2        amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-14           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-14           amd64             GNU C Library: Shared libraries
+ ii  libc-bin                 2.19-15           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
 @@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
@@ -131,7 +131,7 @@
  ii  libustr-1.0-1:amd64      1.0.4-3+b2        amd64             Micro string library: shared library
  ii  libuuid1:amd64           2.25.2-5          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
-+ii  locales                  2.19-14           all               GNU C Library: National Language (locale) data [suppo
++ii  locales                  2.19-15           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
@@ -139,7 +139,7 @@
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.58              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-5          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-14           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-15           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
