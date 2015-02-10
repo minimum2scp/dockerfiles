@@ -66,12 +66,14 @@ end
 %w[ssh cron rsyslog].each do |svc|
   describe service(svc) do
     it { should be_enabled }
+    it { should be_running }
   end
 end
 
 %w[nginx supervisor].each do |svc|
   describe service(svc) do
     it { should_not be_enabled }
+    it { should_not be_running }
   end
 end
 
