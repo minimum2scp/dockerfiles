@@ -9,6 +9,7 @@ digraph deps {
   baseimage_wheezy  [label = "minimum2scp/baseimage-wheezy"];
   debian            [label = "minimum2scp/debian"];
   es_kibana         [label = "minimum2scp/es-kibana"];
+  etcd              [label = "minimum2scp/etcd"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
   geminabox         [label = "minimum2scp/geminabox"];
   mruby             [label = "minimum2scp/mruby"];
@@ -24,7 +25,7 @@ digraph deps {
   tdiary            [label = "minimum2scp/tdiary"];
 
   debian    -> baseimage;
-  baseimage -> {acng, es_kibana, nodejs, pb, ruby, sphinx, squid, systemd};
+  baseimage -> {acng, es_kibana, etcd, nodejs, pb, ruby, sphinx, squid, systemd};
   ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, ruby_full};
   ruby_full -> {tdiary};
 
