@@ -9,11 +9,11 @@ dependencies:
     - "~/.cache/docker"
   override:
     - docker info
-    - ./ci_util.sh pull  minimum2scp/debian:latest
-    - ./ci_util.sh build minimum2scp/baseimage:latest
-    - ./ci_util.sh build minimum2scp/ruby:latest
-    - ./ci_util.sh build minimum2scp/ruby-full:latest
     - bundle install
+    - ./ci_util.rb pull  minimum2scp/debian:latest
+    - ./ci_util.rb build minimum2scp/baseimage:latest
+    - ./ci_util.rb build minimum2scp/ruby:latest
+    - ./ci_util.rb build minimum2scp/ruby-full:latest
 
 test:
   override:

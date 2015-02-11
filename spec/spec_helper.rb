@@ -14,7 +14,11 @@ end
 
 ## start container before run spec
 raise "environment variable DOCKER_IMAGE required" unless ENV['DOCKER_IMAGE']
-container = ::Docker::Container.create('Image' => ENV['DOCKER_IMAGE'])
+opts = {
+  'Image' => ENV['DOCKER_IMAGE'],
+  'Env'   => [ 'APT_LINE=keep' ]
+}
+container = ::Docker::Container.create(opts)
 container.start
 
 ## stop and delete container after spec

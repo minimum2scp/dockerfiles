@@ -36,6 +36,10 @@ describe file('/opt/init-wrapper/pre-init.d/04-chpass-and-sshkey') do
   it { should be_executable }
 end
 
+describe file('/opt/init-wrapper/pre-init.d/05-aptline') do
+  it { should be_executable }
+end
+
 describe file('/opt/init-wrapper/pre-init.d/10-save-env') do
   it { should be_executable }
 end
