@@ -103,7 +103,8 @@ namespace :build do
         if docker inspect #{cname} 1>/dev/null 2>/dev/null; then
           :
         else
-          docker run -d --name #{cname} #{image}
+          docker run -d -e APT_LINE=keep --name #{cname} #{image}
+          docker exec #{cname} sed -i -e 's@http://http.debian.net/debian@http://ftp.jp.debian.org/debian@' /etc/apt/sources.list
           docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'
           docker exec #{cname} bash -l -c 'rbenv update'
         fi
