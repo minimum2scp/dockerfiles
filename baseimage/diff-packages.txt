@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150210-31732-cyejxe.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150210-31732-1x05rsj.out
-% diff -u /tmp/docker-diff.20150210-31732-cyejxe.out /tmp/docker-diff.20150210-31732-1x05rsj.out
---- /tmp/docker-diff.20150210-31732-cyejxe.out	2015-02-10 01:57:23.374475361 +0900
-+++ /tmp/docker-diff.20150210-31732-1x05rsj.out	2015-02-10 01:57:23.986470167 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150213-9133-1b3vbbw.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150213-9133-1tqe8cf.out
+% diff -u /tmp/docker-diff.20150213-9133-1b3vbbw.out /tmp/docker-diff.20150213-9133-1tqe8cf.out
+--- /tmp/docker-diff.20150213-9133-1b3vbbw.out	2015-02-13 00:19:04.535977030 +0900
++++ /tmp/docker-diff.20150213-9133-1tqe8cf.out	2015-02-13 00:19:05.111970597 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -20,7 +20,7 @@
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
  ii  debconf                  1.5.55            all               Debian configuration management system
  ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
-@@ -21,26 +26,33 @@
+@@ -21,61 +26,105 @@
  ii  dpkg                     1.17.23           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
@@ -52,9 +52,11 @@
  ii  libblkid1:amd64          2.25.2-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b2        amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-15           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
-@@ -48,34 +60,71 @@
+-ii  libc-bin                 2.19-14           amd64             GNU C Library: Binaries
+-ii  libc6:amd64              2.19-14           amd64             GNU C Library: Shared libraries
++ii  libc-bin                 2.19-15           amd64             GNU C Library: Binaries
++ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
+ ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e capabilities (library)
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
@@ -84,7 +86,7 @@
  ii  libkmod2:amd64           18-3              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.12.1+dfsg-17    amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.12.1+dfsg-17    amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.40-3          amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.40-4          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-1           amd64             easy to use and lightweight logging library
 +ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
@@ -139,7 +141,8 @@
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.58              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-5          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-15           amd64             Transitional package to ensure multiarch compatibilit
+-ii  multiarch-support        2.19-14           amd64             Transitional package to ensure multiarch compatibilit
++ii  multiarch-support        2.19-15           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
@@ -177,9 +180,9 @@
  ii  tzdata                   2015a-1           all               time zone and daylight-saving time data
  ii  udev                     215-11            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-5          amd64             Miscellaneous system utilities
-+ii  vim                      2:7.4.488-4       amd64             Vi IMproved - enhanced vi editor
-+ii  vim-common               2:7.4.488-4       amd64             Vi IMproved - Common files
-+ii  vim-runtime              2:7.4.488-4       all               Vi IMproved - Runtime files
++ii  vim                      2:7.4.488-5       amd64             Vi IMproved - enhanced vi editor
++ii  vim-common               2:7.4.488-5       amd64             Vi IMproved - Common files
++ii  vim-runtime              2:7.4.488-5       all               Vi IMproved - Runtime files
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-5           amd64             shell with lots of features
