@@ -25,9 +25,10 @@ namespace :build_package do
     debfullname = 'YAMADA Tsuyoshi'
 
     ## run container
-    sh "docker run -d --name #{cname} #{image}"
+    sh "docker run -d -e APT_LINE=keep --name #{cname} #{image}"
 
     ## enable deb-src lines
+    sh "docker exec #{cname} sed -i -e 's@http://http.debian.net/debian@http://ftp.jp.debian.org/debian@' /etc/apt/sources.list"
     sh "docker exec #{cname} sed -i -e 's@^#\\(deb-src http://ftp.jp.debian.org/debian/ sid main\\)@\\1@' /etc/apt/sources.list"
     sh "docker exec #{cname} apt-get update"
 
