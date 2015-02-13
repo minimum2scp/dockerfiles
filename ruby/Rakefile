@@ -17,7 +17,7 @@ namespace :build_package do
   desc "build bundler custom deb package in container minimum2scp/baseimage:latest and put result files into /tmp"
   task :bundler do
     old_ver = '1.7.4'
-    new_ver = '1.7.12'
+    new_ver = '1.7.13'
     image = 'minimum2scp/baseimage:latest'
     cname = 'custom-deb-builder'
     dest = '/tmp'
@@ -25,9 +25,10 @@ namespace :build_package do
     debfullname = 'YAMADA Tsuyoshi'
 
     ## run container
-    sh "docker run -d --name #{cname} #{image}"
+    sh "docker run -d -e APT_LINE=keep --name #{cname} #{image}"
 
     ## enable deb-src lines
+    sh "docker exec #{cname} sed -i -e 's@http://http.debian.net/debian@http://ftp.jp.debian.org/debian@' /etc/apt/sources.list"
     sh "docker exec #{cname} sed -i -e 's@^#\\(deb-src http://ftp.jp.debian.org/debian/ sid main\\)@\\1@' /etc/apt/sources.list"
     sh "docker exec #{cname} apt-get update"
 
@@ -102,7 +103,8 @@ namespace :build do
         if docker inspect #{cname} 1>/dev/null 2>/dev/null; then
           :
         else
-          docker run -d --name #{cname} #{image}
+          docker run -d -e APT_LINE=keep --name #{cname} #{image}
+          docker exec #{cname} sed -i -e 's@http://http.debian.net/debian@http://ftp.jp.debian.org/debian@' /etc/apt/sources.list
           docker exec #{cname} bash -c 'apt-get update && apt-get install pigz -y --no-install-recommends'
           docker exec #{cname} bash -l -c 'rbenv update'
         fi
