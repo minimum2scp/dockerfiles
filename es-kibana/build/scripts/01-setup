@@ -18,11 +18,13 @@ etckeeper commit "enabled autostart eelasticsearch"
 ##
 ## download kibana (4.0.0 beta3), and extract to /opt/kibana
 ##
+kibana_version=4.0.0-rc1
+kibana_archive=kibana-${kibana_version}-linux-x64.tar.gz
 cd /tmp
-curl -LO https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-beta3.tar.gz
+curl -LO https://download.elasticsearch.org/kibana/kibana/${kibana_archive}
 mkdir -p /opt/kibana
-tar xf /tmp/kibana-4.0.0-beta3.tar.gz -C /opt/kibana --strip-components=1
-rm /tmp/kibana-4.0.0-beta3.tar.gz
+tar xf /tmp/${kibana_archive} -C /opt/kibana --strip-components=1
+rm /tmp/${kibana_archive}
 
 ##
 ## add system user "kibana" to run kibana process
