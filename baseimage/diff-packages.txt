@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150213-9133-1b3vbbw.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150213-9133-1tqe8cf.out
-% diff -u /tmp/docker-diff.20150213-9133-1b3vbbw.out /tmp/docker-diff.20150213-9133-1tqe8cf.out
---- /tmp/docker-diff.20150213-9133-1b3vbbw.out	2015-02-13 00:19:04.535977030 +0900
-+++ /tmp/docker-diff.20150213-9133-1tqe8cf.out	2015-02-13 00:19:05.111970597 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150214-26769-8yy47z.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150214-26769-1i0ay0s.out
+% diff -u /tmp/docker-diff.20150214-26769-8yy47z.out /tmp/docker-diff.20150214-26769-1i0ay0s.out
+--- /tmp/docker-diff.20150214-26769-8yy47z.out	2015-02-14 01:32:52.143052715 +0900
++++ /tmp/docker-diff.20150214-26769-1i0ay0s.out	2015-02-14 01:32:52.727050330 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -20,7 +20,7 @@
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
  ii  debconf                  1.5.55            all               Debian configuration management system
  ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
-@@ -21,61 +26,105 @@
+@@ -21,26 +26,33 @@
  ii  dpkg                     1.17.23           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
@@ -52,11 +52,9 @@
  ii  libblkid1:amd64          2.25.2-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b2        amd64             high-quality block-sorting file compressor library - 
--ii  libc-bin                 2.19-14           amd64             GNU C Library: Binaries
--ii  libc6:amd64              2.19-14           amd64             GNU C Library: Shared libraries
-+ii  libc-bin                 2.19-15           amd64             GNU C Library: Binaries
-+ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
- ii  libcap2:amd64            1:2.24-6          amd64             POSIX 1003.1e capabilities (library)
+ ii  libc-bin                 2.19-15           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
+@@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
@@ -123,7 +121,7 @@
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-11            amd64             systemd utility library
+ ii  libsystemd0:amd64        215-12            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -141,8 +139,7 @@
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 +ii  mime-support             3.58              all               MIME files 'mime.types' & 'mailcap', and support prog
  ii  mount                    2.25.2-5          amd64             Tools for mounting and manipulating filesystems
--ii  multiarch-support        2.19-14           amd64             Transitional package to ensure multiarch compatibilit
-+ii  multiarch-support        2.19-15           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-15           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
@@ -171,14 +168,14 @@
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 +ii  sudo                     1.8.11p2-1.1      amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
- ii  systemd                  215-11            amd64             system and service manager
--ii  systemd-sysv             215-11            amd64             system and service manager - SysV links
+ ii  systemd                  215-12            amd64             system and service manager
+-ii  systemd-sysv             215-12            amd64             system and service manager - SysV links
  ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015a-1           all               time zone and daylight-saving time data
- ii  udev                     215-11            amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-12            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-5          amd64             Miscellaneous system utilities
 +ii  vim                      2:7.4.488-5       amd64             Vi IMproved - enhanced vi editor
 +ii  vim-common               2:7.4.488-5       amd64             Vi IMproved - Common files
