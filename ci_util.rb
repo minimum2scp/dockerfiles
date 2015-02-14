@@ -47,9 +47,11 @@ module CiUtil
     def gc(expire_seconds=3*24*60*60)
       fields = ::CiUtil::ImageCache.show_fields
       ::CiUtil::ImageCache.all do |cache|
-        if Time.now - cache.last_used_at > expire_seconds.to_i
+        tarball = Pathname("#{::CACHE_DIR}/#{cache.tarball}")
+        expired_flg = !!(Time.now - cache.last_used_at > expire_seconds.to_i)
+        vanished_flg = !tarball.exist?
+        if expired_flg || vanished_flg
           puts "DELETE OLD CACHE: " + fields.map{ |k,v| "#{v}=#{cache.send(k)}" }.join(', ')
-          tarball = Pathname("#{::CACHE_DIR}/#{cache.tarball}")
           tarball.unlink if tarball.exist?
           cache.delete
         end
