@@ -96,7 +96,7 @@ module CiUtil
       end
 
       def image_id(image_name)
-        ::Docker::Image.all.find{|img| img.info['RepoTags'].include?(image_name) }.id[0,10]
+        ::Docker::Image.all.find{|img| img.info['RepoTags'].include?(image_name) }.id[0,12]
       end
     end
   end
