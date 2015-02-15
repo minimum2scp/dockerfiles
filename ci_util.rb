@@ -51,7 +51,7 @@ module CiUtil
         expired_flg = !!(Time.now - cache.last_used_at > expire_seconds.to_i)
         vanished_flg = !tarball.exist?
         if expired_flg || vanished_flg
-          puts "DELETE OLD CACHE: " + fields.map{ |k,v| "#{v}=#{cache.send(k)}" }.join(', ')
+          puts "DELETE OLD CACHE: " + Hash[fields.values.zip(cache.show)].inspect
           tarball.unlink if tarball.exist?
           cache.delete
         end
@@ -62,7 +62,7 @@ module CiUtil
     def list
       image_caches = ::CiUtil::ImageCache.all
       fields = ::CiUtil::ImageCache.show_fields
-      puts [ fields.values, *image_caches.map{|cache| fields.keys.map{|f| cache.send(f)}} ].to_table(first_row_is_head: true).to_s
+      puts [ fields.values, *image_caches.map{|cache| cache.show} ].to_table(first_row_is_head: true).to_s
       puts ""
       puts "(#{image_caches.size} caches)"
     end
@@ -96,29 +96,33 @@ module CiUtil
       end
 
       def image_id(image_name)
-        ::Docker::Image.all.find{|img| img.info['RepoTags'].include?(image_name) }.id[0,12]
+        ::Docker::Image.all.find{|img| img.info['RepoTags'].include?(image_name) }.id
       end
     end
   end
 
   class ImageCache < Sequel::Model
+    def short_dependency_digest
+      self.dependency_digest[0,12]
+    end
+
     def tarball
-      "#{self.image_source_dir}-#{self.image_id}.tar.gz"
+      "#{self.image_source_dir}-#{self.image_id[0,12]}.tar.gz"
     end
 
     def show
-      Hash[self.class.show_fields.values.map{|f| [f, self.send(f)] }]
+      self.class.show_fields.keys.map{|f| self.send(f) }
     end
 
     class << self
       def show_fields
         {
-          tarball:            'cached tarball',
-          image_name:         'image name',
-          image_source_dir:   'source dir',
-          dependency_digest:  'dependency digest',
-          created_at:         'created at',
-          last_used_at:       'last used at'
+          tarball:                  'cached tarball',
+          image_name:               'image name',
+          image_source_dir:         'source dir',
+          short_dependency_digest:  'deps digest',
+          created_at:               'created at',
+          last_used_at:             'last used at'
         }
       end
     end
