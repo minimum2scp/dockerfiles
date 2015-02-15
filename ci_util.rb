@@ -118,8 +118,6 @@ module CiUtil
       def show_fields
         {
           tarball:                  'cached tarball',
-          image_name:               'image name',
-          image_source_dir:         'source dir',
           short_dependency_digest:  'deps digest',
           created_at:               'created at',
           last_used_at:             'last used at'
