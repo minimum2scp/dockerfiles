@@ -10,6 +10,9 @@ dependencies:
   override:
     - docker info
     - bundle install
+    - if [ -d ~/.cache/docker ]; then ls -lahR ~/.cache/docker; fi
+    - ./ci_util.rb list
+    - ./ci_util.rb gc 172800
     - ./ci_util.rb pull  minimum2scp/debian:latest
     - ./ci_util.rb build minimum2scp/baseimage:latest
     - ./ci_util.rb build minimum2scp/ruby:latest
