@@ -42,7 +42,7 @@ GEM
       rspec-its
       specinfra (~> 2.12)
     slop (3.6.0)
-    specinfra (2.13.1)
+    specinfra (2.14.1)
       net-scp
       net-ssh
     sqlite3 (1.3.10)
