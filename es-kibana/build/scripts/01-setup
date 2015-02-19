@@ -16,9 +16,9 @@ insserv elasticsearch
 etckeeper commit "enabled autostart eelasticsearch"
 
 ##
-## download kibana (4.0.0 beta3), and extract to /opt/kibana
+## download kibana, and extract to /opt/kibana
 ##
-kibana_version=4.0.0-rc1
+kibana_version=4.0.0
 kibana_archive=kibana-${kibana_version}-linux-x64.tar.gz
 cd /tmp
 curl -LO https://download.elasticsearch.org/kibana/kibana/${kibana_archive}
