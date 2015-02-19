@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9498 kB]
-Fetched 9747 kB in 4s (2094 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9507 kB]
+Fetched 9757 kB in 7s (1383 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> b6254c7a5fe9
-Removing intermediate container ea8b30183dfa
+ ---> 3cbfd1ef7fec
+Removing intermediate container 7b20f284c99d
 Step 2 : CMD /bin/bash
- ---> Running in 0f6af8dd400e
- ---> 6c71d255f44b
-Removing intermediate container 0f6af8dd400e
-Successfully built 6c71d255f44b
+ ---> Running in ff565681516b
+ ---> 7747331a392a
+Removing intermediate container ff565681516b
+Successfully built 7747331a392a
