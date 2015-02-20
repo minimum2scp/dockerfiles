@@ -46,6 +46,7 @@ module CiUtil
     desc "gc", "gc old caches"
     def gc(expire_seconds=3*24*60*60)
       fields = ::CiUtil::ImageCache.show_fields
+      known_files = [ "#{::CACHE_DIR}/index.db" ]
       ::CiUtil::ImageCache.all do |cache|
         tarball = Pathname("#{::CACHE_DIR}/#{cache.tarball}")
         expired_flg = !!(Time.now - cache.last_used_at > expire_seconds.to_i)
@@ -54,7 +55,14 @@ module CiUtil
           puts "DELETE OLD CACHE: " + Hash[fields.values.zip(cache.show)].inspect
           tarball.unlink if tarball.exist?
           cache.delete
+        else
+          known_files << cache.tarball
         end
+      end
+      unknown_files = Dir["#{::CACHE_DIR}/**/*"].select{|f| File.file?(f)} - known_files
+      unknown_files.each do |f|
+        puts "DELETE UNKNOWN FILE IN CACHE_DIR: #{f}"
+        File.unlink(f)
       end
     end
 
