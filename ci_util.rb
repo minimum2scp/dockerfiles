@@ -56,7 +56,7 @@ module CiUtil
           tarball.unlink if tarball.exist?
           cache.delete
         else
-          known_files << cache.tarball
+          known_files << "#{::CACHE_DIR}/#{cache.tarball}"
         end
       end
       unknown_files = Dir["#{::CACHE_DIR}/**/*"].select{|f| File.file?(f)} - known_files
