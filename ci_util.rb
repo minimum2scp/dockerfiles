@@ -73,7 +73,7 @@ module CiUtil
         cache = ::CiUtil::ImageCache.where(image_name:image, image_source_dir:image_source_dir(image).to_s, dependency_digest:deps.digest).first
         if cache && Pathname("#{::CACHE_DIR}/#{cache.tarball}").readable?
           puts "loading image cache from #{::CACHE_DIR}/#{cache.tarball}"
-          system("pigz -c -d #{::CACHE_DIR}/#{cache.tarball} | docker load")
+          system("docker load < #{::CACHE_DIR}/#{cache.tarball}")
           cache.update(last_used_at: Time.now)
         else
           yield
@@ -87,7 +87,7 @@ module CiUtil
             last_used_at: Time.now
           )
           puts "saving image cache to #{::CACHE_DIR}/#{cache.tarball}"
-          system("docker save #{image} | pigz -c - > #{::CACHE_DIR}/#{cache.tarball}")
+          system("docker save #{image} > #{::CACHE_DIR}/#{cache.tarball}")
         end
       end
 
@@ -107,7 +107,7 @@ module CiUtil
     end
 
     def tarball
-      "#{self.image_source_dir}-#{self.image_id[0,12]}.tar.gz"
+      "#{self.image_source_dir}-#{self.image_id[0,12]}.tar"
     end
 
     def show
