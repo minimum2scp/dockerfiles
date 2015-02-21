@@ -2,7 +2,8 @@
 
 ## environment variables
 ##
-##   - APT_LINE : "keep", "jp", "http://foobar.example.org/debian/"
+##   - APT_LINE    : "keep", "jp", "http://foobar.example.org/debian/"
+##   - APT_UPDATE  : "yes", "true", 1 -> run apt-get update after init
 ##
 
 set -e
@@ -32,12 +33,17 @@ if [ -n "${APT_LINE}" ]; then
     ;;
   jp)
     change_apt_line http://ftp.jp.debian.org/debian/
-    write_post_init
     ;;
   *)
     change_apt_line "${APT_LINE}"
-    write_post_init
     ;;
+  esac
+fi
+
+if [ -n "${APT_UPDATE}" ]; then
+  case "${APT_UPDATE}" in
+  yes|true|1)
+    write_post_init;;
   esac
 fi
 
