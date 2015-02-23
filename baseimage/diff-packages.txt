@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150220-25825-y35x69.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150220-25825-ufgrlk.out
-% diff -u /tmp/docker-diff.20150220-25825-y35x69.out /tmp/docker-diff.20150220-25825-ufgrlk.out
---- /tmp/docker-diff.20150220-25825-y35x69.out	2015-02-20 00:19:48.612590038 +0900
-+++ /tmp/docker-diff.20150220-25825-ufgrlk.out	2015-02-20 00:19:49.212559330 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150224-23844-1h9re9l.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150224-23844-12yeffm.out
+% diff -u /tmp/docker-diff.20150224-23844-1h9re9l.out /tmp/docker-diff.20150224-23844-12yeffm.out
+--- /tmp/docker-diff.20150224-23844-1h9re9l.out	2015-02-24 00:22:27.862275553 +0900
++++ /tmp/docker-diff.20150224-23844-12yeffm.out	2015-02-24 00:22:28.482271237 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -21,7 +21,7 @@
  ii  debconf                  1.5.55            all               Debian configuration management system
  ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
- ii  dpkg                     1.17.23           amd64             Debian package management system
+ ii  dpkg                     1.17.24           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
@@ -33,8 +33,7 @@
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-6          amd64             GNU privacy guard - a free PGP replacement
  ii  gpgv                     1.4.18-6          amd64             GNU privacy guard - signature verification tool
--ii  grep                     2.20-4            amd64             GNU grep, egrep and fgrep
-+ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
+ ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
 +ii  groff-base               1.22.3-1          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
