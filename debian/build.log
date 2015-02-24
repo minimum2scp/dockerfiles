@@ -15,10 +15,10 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.6
-I: Validating apt 1.0.9.6
-I: Retrieving libapt-pkg4.12 1.0.9.6
-I: Validating libapt-pkg4.12 1.0.9.6
+I: Retrieving apt 1.0.9.7
+I: Validating apt 1.0.9.7
+I: Retrieving libapt-pkg4.12 1.0.9.7
+I: Validating libapt-pkg4.12 1.0.9.7
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4-1
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9509 kB]
-Fetched 9758 kB in 4s (2223 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9511 kB]
+Fetched 9760 kB in 20s (483 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> b449a995487d
-Removing intermediate container 9d679a7e114d
+ ---> a657bd6e4e9d
+Removing intermediate container 6efa7c4afb2c
 Step 2 : CMD /bin/bash
- ---> Running in e4ef1dc9cb54
- ---> f96520be0d57
-Removing intermediate container e4ef1dc9cb54
-Successfully built f96520be0d57
+ ---> Running in 87eb4814d3bb
+ ---> 40875795aadb
+Removing intermediate container 87eb4814d3bb
+Successfully built 40875795aadb

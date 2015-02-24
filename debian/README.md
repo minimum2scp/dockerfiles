@@ -32,7 +32,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-========================-=================-=================-=====================================================
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
-ii  apt                      1.0.9.6           amd64             commandline package manager
+ii  apt                      1.0.9.7           amd64             commandline package manager
 ii  base-files               8                 amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
@@ -63,7 +63,7 @@ ii  initscripts              2.88dsf-58        amd64             scripts for ini
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
 ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-ii  libapt-pkg4.12:amd64     1.0.9.6           amd64             package management runtime library
+ii  libapt-pkg4.12:amd64     1.0.9.7           amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
