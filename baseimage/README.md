@@ -61,16 +61,16 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150224-23844-1h9re9l.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150224-23844-12yeffm.out
-% diff -u /tmp/docker-diff.20150224-23844-1h9re9l.out /tmp/docker-diff.20150224-23844-12yeffm.out
---- /tmp/docker-diff.20150224-23844-1h9re9l.out	2015-02-24 00:22:27.862275553 +0900
-+++ /tmp/docker-diff.20150224-23844-12yeffm.out	2015-02-24 00:22:28.482271237 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150225-29010-27w5u5.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150225-29010-urksu3.out
+% diff -u /tmp/docker-diff.20150225-29010-27w5u5.out /tmp/docker-diff.20150225-29010-urksu3.out
+--- /tmp/docker-diff.20150225-29010-27w5u5.out	2015-02-25 00:25:23.812284936 +0900
++++ /tmp/docker-diff.20150225-29010-urksu3.out	2015-02-25 00:25:24.424280855 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
- ii  apt                      1.0.9.6           amd64             commandline package manager
-+ii  apt-utils                1.0.9.6           amd64             package management related utility programs
+ ii  apt                      1.0.9.7           amd64             commandline package manager
++ii  apt-utils                1.0.9.7           amd64             package management related utility programs
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
@@ -107,8 +107,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
  ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-+ii  libapt-inst1.5:amd64     1.0.9.6           amd64             deb package format runtime library
- ii  libapt-pkg4.12:amd64     1.0.9.6           amd64             package management runtime library
++ii  libapt-inst1.5:amd64     1.0.9.7           amd64             deb package format runtime library
+ ii  libapt-pkg4.12:amd64     1.0.9.7           amd64             package management runtime library
  ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
  ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
  ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
@@ -229,7 +229,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
-+ii  sudo                     1.8.11p2-1.1      amd64             Provide limited super user privileges to specific use
++ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
 +ii  supervisor               3.0r1-1           all               A system for controlling process state
  ii  systemd                  215-12            amd64             system and service manager
 -ii  systemd-sysv             215-12            amd64             system and service manager - SysV links
