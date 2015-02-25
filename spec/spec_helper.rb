@@ -1,6 +1,13 @@
 require 'serverspec'
 require 'docker'
 
+## show debug log
+if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
+  require 'logger'
+  Docker.logger = Logger.new(STDERR)
+  Docker.logger.level = Logger::DEBUG
+end
+
 ## workaround for Circle CI
 ## docker rm (removing btrfs snapshot) fails on Circle CI
 if ENV['CIRCLECI']
