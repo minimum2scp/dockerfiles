@@ -61,11 +61,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150225-29010-27w5u5.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150225-29010-urksu3.out
-% diff -u /tmp/docker-diff.20150225-29010-27w5u5.out /tmp/docker-diff.20150225-29010-urksu3.out
---- /tmp/docker-diff.20150225-29010-27w5u5.out	2015-02-25 00:25:23.812284936 +0900
-+++ /tmp/docker-diff.20150225-29010-urksu3.out	2015-02-25 00:25:24.424280855 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150226-30224-1pwhgqo.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150226-30224-1nscibg.out
+% diff -u /tmp/docker-diff.20150226-30224-1pwhgqo.out /tmp/docker-diff.20150226-30224-1nscibg.out
+--- /tmp/docker-diff.20150226-30224-1pwhgqo.out	2015-02-26 00:38:22.054226102 +0900
++++ /tmp/docker-diff.20150226-30224-1nscibg.out	2015-02-26 00:38:22.622221301 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -85,8 +85,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
 @@ -21,26 +26,33 @@
  ii  dpkg                     1.17.24           amd64             Debian package management system
- ii  e2fslibs:amd64           1.42.12-1         amd64             ext2/ext3/ext4 file system libraries
- ii  e2fsprogs                1.42.12-1         amd64             ext2/ext3/ext4 file system utilities
+ ii  e2fslibs:amd64           1.42.12-1.1       amd64             ext2/ext3/ext4 file system libraries
+ ii  e2fsprogs                1.42.12-1.1       amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
@@ -119,7 +119,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libc6:amd64              2.19-15           amd64             GNU C Library: Shared libraries
 @@ -48,34 +60,71 @@
  ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
- ii  libcomerr2:amd64         1.42.12-1         amd64             common error description library
+ ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-4          amd64             easy-to-use client-side URL transfer library (OpenSSL
 +ii  libcurl3-gnutls:amd64    7.38.0-4          amd64             easy-to-use client-side URL transfer library (GnuTLS 
@@ -180,7 +180,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
  ii  libsmartcols1:amd64      2.25.2-5          amd64             smart column output alignment library
 +ii  libsqlite3-0:amd64       3.8.7.4-1         amd64             SQLite 3 shared library
- ii  libss2:amd64             1.42.12-1         amd64             command-line interface parsing library
+ ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4           amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
