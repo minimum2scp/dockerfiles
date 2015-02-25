@@ -22,6 +22,7 @@ env | sort | sed \
   -e '/^CUSTOM_USER_PASSWORD=/d' \
   -e '/^CUSTOM_USER_SSH_KEY_URI=/d' \
   -e '/^APT_LINE=/d' \
+  -e '/^APT_UPDATE=/d' \
   -e 's/^/export /' \
 > /etc/profile.d/00docker-env.sh
 
