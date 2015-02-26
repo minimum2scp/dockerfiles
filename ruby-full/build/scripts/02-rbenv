@@ -17,7 +17,7 @@ bash -l -c "rbenv update"
 
 ## install pre-build binary
 ## binary is built by `cd ../ruby; rake build[version]`
-for v in 2.0.0-p598 2.1.5 2.2.0; do
+for v in 2.0.0-p643 2.1.5 2.2.0; do
   file=/build/tmp/opt-rbenv-ruby-${v}.tar.gz
   sign=/build/tmp/opt-rbenv-ruby-${v}.tar.gz.asc
   curl -s -o $file https://minimum2scp.org/ruby/rbenv/versions/${file##*/}
