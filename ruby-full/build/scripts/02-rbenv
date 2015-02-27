@@ -4,31 +4,18 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## load GPG key
-gpg_home=/build/tmp/gnupg
-mkdir -m 700 $gpg_home
-gpg --homedir $gpg_home --import < /build/tmp/3184B100.pubkey
-
 ## run rbenv-update
 bash -l -c "rbenv update"
 
 ## install subversion to build ruby 1.8.7-p375 (requires svn commands)
 #apt-get install --no-install-recommends -y subversion
 
-## install pre-build binary
-## binary is built by `cd ../ruby; rake build[version]`
+## install pre-build binary (see https://github.com/minimum2scp/ruby-binary)
+ruby_binary_release=v0.0.1
 for v in 2.0.0-p643 2.1.5 2.2.0; do
   file=/build/tmp/opt-rbenv-ruby-${v}.tar.gz
-  sign=/build/tmp/opt-rbenv-ruby-${v}.tar.gz.asc
-  curl -s -o $file https://minimum2scp.org/ruby/rbenv/versions/${file##*/}
-  curl -s -o $sign https://minimum2scp.org/ruby/rbenv/versions/${sign##*/}
-  ## verify by GPG
-  if gpg --homedir $gpg_home --verify $sign $file; then
-    tar xf $file -C /opt/rbenv/versions
-  else
-    echo "verify failed, abort."
-    exit 1
-  fi
+  curl -L -s -o $file https://github.com/minimum2scp/ruby-binary/releases/download/${ruby_binary_release}/${file##*/}
+  tar xf $file -C /opt/rbenv/versions
 done
 
 bash -l -c "rbenv rehash"
