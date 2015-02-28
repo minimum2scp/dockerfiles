@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150226-30224-1pwhgqo.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150226-30224-1nscibg.out
-% diff -u /tmp/docker-diff.20150226-30224-1pwhgqo.out /tmp/docker-diff.20150226-30224-1nscibg.out
---- /tmp/docker-diff.20150226-30224-1pwhgqo.out	2015-02-26 00:38:22.054226102 +0900
-+++ /tmp/docker-diff.20150226-30224-1nscibg.out	2015-02-26 00:38:22.622221301 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150301-4486-ods65u.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150301-4486-q511mz.out
+% diff -u /tmp/docker-diff.20150301-4486-ods65u.out /tmp/docker-diff.20150301-4486-q511mz.out
+--- /tmp/docker-diff.20150301-4486-ods65u.out	2015-03-01 01:31:08.834886745 +0900
++++ /tmp/docker-diff.20150301-4486-q511mz.out	2015-03-01 01:31:09.450882934 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -151,9 +151,9 @@
 +ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-+ii  perl                     5.20.1-5          amd64             Larry Wall's Practical Extraction and Report Language
- ii  perl-base                5.20.1-5          amd64             minimal Perl system
-+ii  perl-modules             5.20.1-5          all               Core Perl modules
++ii  perl                     5.20.2-1          amd64             Larry Wall's Practical Extraction and Report Language
+ ii  perl-base                5.20.2-1          amd64             minimal Perl system
++ii  perl-modules             5.20.2-1          all               Core Perl modules
  ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
 +ii  python                   2.7.8-3           amd64             interactive high-level object-oriented language (defa
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
