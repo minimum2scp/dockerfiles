@@ -3,7 +3,7 @@
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
  * default-jre-headless package installed
  * elasticsearch package installed from http://www.elasticsearch.org/overview/elkdownloads/
- * kibana 4.0.0-beta3 installed from http://www.elasticsearch.org/overview/kibana/installation/
+ * kibana 4.0.0 installed from http://www.elasticsearch.org/overview/kibana/installation/
 
 ## start container
 
