@@ -4,27 +4,8 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## install rbenv into /opt/rbenv, with git
-git clone https://github.com/sstephenson/rbenv.git -b v0.4.0     /opt/rbenv
-install -m 755 -o root -g root -p /build/etc/profile.d/rbenv.sh  /etc/profile.d/rbenv.sh
-etckeeper commit "add /etc/profile.d/rbenv.sh to use /opt/rbenv"
-
-## install ruby-build
-git clone https://github.com/sstephenson/ruby-build.git          /opt/rbenv/plugins/ruby-build
-
-## install rbenv-default-gems
-git clone https://github.com/sstephenson/rbenv-default-gems.git  /opt/rbenv/plugins/rbenv-default-gems
-install -m 644 -o root -g root -p /build/opt/rbenv/default-gems  /opt/rbenv/default-gems
-
-## install rbenv-gem-rehash
-#git clone https://github.com/sstephenson/rbenv-gem-rehash.git    /opt/rbenv/plugins/rbenv-gem-rehash
-
-## install rbenv-aliases
-#git clone https://github.com/tpope/rbenv-aliases.git             /opt/rbenv/plugins/rbenv-aliases
-
-## install rbenv-update
-git clone https://github.com/rkh/rbenv-update.git                /opt/rbenv/plugins/rbenv-update
-
-## enable rbenv (creates shims, versions)
-bash -l -c "rbenv rehash"
+## download and run install-rbenv.sh in minimum2scp/ruby-binary repository
+curl -o /build/tmp/install-rbenv.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install-rbenv.sh
+chmod +x /build/tmp/install-rbenv.sh
+/build/tmp/install-rbenv.sh
 
