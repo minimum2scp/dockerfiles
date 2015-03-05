@@ -3,27 +3,26 @@
 ##
 ## save environment variables to /etc/profile.d/docker-env.sh
 ##
-env | sort | sed \
-  -e '/^HOME=/d' \
-  -e '/^HOSTNAME=/d' \
-  -e '/^PATH=/d' \
-  -e '/^PWD=/d' \
-  -e '/^TERM=/d' \
-  -e '/^USER_PASSWORD=/d' \
-  -e '/^USER_SSH_KEY_URI=/d' \
-  -e '/^ROOT_PASSWORD=/d' \
-  -e '/^ROOT_SSH_KEY_URI=/d' \
-  -e '/^CUSTOM_GROUP=/d' \
-  -e '/^CUSTOM_GROUP_GID=/d' \
-  -e '/^CUSTOM_USER=/d' \
-  -e '/^CUSTOM_USER_UID=/d' \
-  -e '/^CUSTOM_USER_GECOS=/d' \
-  -e '/^CUSTOM_USER_SHELL=/d' \
-  -e '/^CUSTOM_USER_PASSWORD=/d' \
-  -e '/^CUSTOM_USER_SSH_KEY_URI=/d' \
-  -e '/^APT_LINE=/d' \
-  -e '/^APT_UPDATE=/d' \
-  -e 's/^/export /' \
+export -p | sed \
+  -e '/^export HOME=/d' \
+  -e '/^export HOSTNAME=/d' \
+  -e '/^export PATH=/d' \
+  -e '/^export PWD=/d' \
+  -e '/^export TERM=/d' \
+  -e '/^export USER_PASSWORD=/d' \
+  -e '/^export USER_SSH_KEY_URI=/d' \
+  -e '/^export ROOT_PASSWORD=/d' \
+  -e '/^export ROOT_SSH_KEY_URI=/d' \
+  -e '/^export CUSTOM_GROUP=/d' \
+  -e '/^export CUSTOM_GROUP_GID=/d' \
+  -e '/^export CUSTOM_USER=/d' \
+  -e '/^export CUSTOM_USER_UID=/d' \
+  -e '/^export CUSTOM_USER_GECOS=/d' \
+  -e '/^export CUSTOM_USER_SHELL=/d' \
+  -e '/^export CUSTOM_USER_PASSWORD=/d' \
+  -e '/^export CUSTOM_USER_SSH_KEY_URI=/d' \
+  -e '/^export APT_LINE=/d' \
+  -e '/^export APT_UPDATE=/d' \
 > /etc/profile.d/00docker-env.sh
 
 if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
