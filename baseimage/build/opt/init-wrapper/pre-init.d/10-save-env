@@ -1,7 +1,7 @@
 #! /bin/sh
 
 ##
-## save environment variables to /etc/profile.d/docker-env.sh
+## save environment variables to /etc/profile.d/00docker-env.sh
 ##
 export -p | sed \
   -e '/^export HOME=/d' \
