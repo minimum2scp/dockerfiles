@@ -61,11 +61,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150305-11073-1ulymwk.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150305-11073-bd30dw.out
-% diff -u /tmp/docker-diff.20150305-11073-1ulymwk.out /tmp/docker-diff.20150305-11073-bd30dw.out
---- /tmp/docker-diff.20150305-11073-1ulymwk.out	2015-03-05 00:26:41.576395068 +0900
-+++ /tmp/docker-diff.20150305-11073-bd30dw.out	2015-03-05 00:26:42.192391074 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150308-5865-1imkqfj.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150308-5865-8wj3km.out
+% diff -u /tmp/docker-diff.20150308-5865-1imkqfj.out /tmp/docker-diff.20150308-5865-8wj3km.out
+--- /tmp/docker-diff.20150308-5865-1imkqfj.out	2015-03-08 01:22:16.331196623 +0900
++++ /tmp/docker-diff.20150308-5865-8wj3km.out	2015-03-08 01:22:16.939179816 +0900
 @@ -6,11 +6,16 @@
  ii  acl                      2.2.52-2          amd64             Access control list utilities
  ii  adduser                  3.113+nmu3        all               add and remove users and groups
@@ -165,7 +165,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpcre3:amd64           2:8.35-3.3        amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
- ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
+ ii  libprocps3:amd64         2:3.3.9-9         amd64             library for accessing process information from /proc
 +ii  libpython-stdlib:amd64   2.7.8-4           amd64             interactive high-level object-oriented language (defa
 +ii  libpython2.7-minimal:amd 2.7.9-2           amd64             Minimal subset of the Python language (version 2.7)
 +ii  libpython2.7-stdlib:amd6 2.7.9-2           amd64             Interactive high-level object-oriented language (stan
@@ -217,7 +217,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl                     5.20.2-2          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-2          amd64             minimal Perl system
 +ii  perl-modules             5.20.2-2          all               Core Perl modules
- ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
+ ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
 +ii  python                   2.7.8-4           amd64             interactive high-level object-oriented language (defa
 +ii  python-meld3             1.0.0-1           amd64             HTML/XML templating system for Python
 +ii  python-minimal           2.7.8-4           amd64             minimal subset of the Python language (default versio
