@@ -92,7 +92,7 @@ ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authe
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
 ii  libpcre3:amd64           2:8.35-3.3        amd64             Perl 5 Compatible Regular Expression Library - runtim
-ii  libprocps3:amd64         2:3.3.9-8         amd64             library for accessing process information from /proc
+ii  libprocps3:amd64         2:3.3.9-9         amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
 ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
@@ -121,7 +121,7 @@ ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-relate
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 ii  perl-base                5.20.2-2          amd64             minimal Perl system
-ii  procps                   2:3.3.9-8         amd64             /proc file system utilities
+ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
