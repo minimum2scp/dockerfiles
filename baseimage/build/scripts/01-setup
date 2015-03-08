@@ -7,16 +7,17 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## packages
 ##
-packages="sudo adduser curl ca-certificates openssl git lv vim man-db whiptail zsh apt-utils net-tools"
+packages="sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools"
 packages="$packages etckeeper"
 packages="$packages locales tzdata"
-packages="$packages sysvinit-core openssh-server rsyslog cron"
-packages="$packages supervisor nginx-light"
+packages="$packages localepurge"
+packages="$packages sysvinit-core systemd-sysv- systemd-"
+packages="$packages openssh-server rsyslog cron"
 
 ##
 ## install packages
 ##
-apt-get install -y --no-install-recommends ${packages}
+apt-get install -y --no-install-recommends --auto-remove --purge ${packages}
 
 ##
 ## configure etckeeper
@@ -40,6 +41,15 @@ else
   locale-gen
 fi
 etckeeper commit "set locale"
+
+##
+## configure localepurge and remove locales
+##
+install -m 644 -o root -g root -p /build/etc/locale.nopurge /etc/locale.nopurge
+sed -i -e 's/^USE_DPKG/# USE_DPKG/' /etc/locale.nopurge
+localepurge
+sed -i -e 's/^# USE_DPKG/USE_DPKG/' /etc/locale.nopurge
+etckeeper commit "localepurge: purge locales other than en and ja"
 
 ##
 ## configure timezone
@@ -87,20 +97,4 @@ adduser debian adm
 ##   openssl passwd command creates encpryted password: "echo 'plainpassword' | openssl passwd -1 -stdin
 echo 'debian:debian' | chpasswd
 etckeeper commit "adduser debian"
-
-##
-## configure supervisor, and disable
-##
-install -m 644 -o root -g root -p /build/etc/supervisor/supervisord.conf /etc/supervisor/supervisord.conf
-etckeeper commit "supervisor: set socket as root:adm 770, and enabled inet_http_server with 0.0.0.0:9001"
-insserv -r supervisor
-etckeeper commit "supervisor: disabled autostart"
-
-##
-## configure nginx, and disable
-##
-install -m 644 -o root -g root -p /build/etc/nginx/conf.d/misc.conf /etc/nginx/conf.d/misc.conf
-etckeeper commit "nginx: add conf.d/misc.conf"
-insserv -r nginx
-etckeeper commit "nginx: disabled autostart"
 
