@@ -36,11 +36,10 @@ adduser --system --home /opt/kibana --shell /bin/false --no-create-home \
 chown -R kibana:kibana /opt/kibana
 
 ##
-## autostart supervisor
-## (supervisor is already installed in baseimage)
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
 ##
-insserv supervisor
-etckeeper commit "autostart supervisor"
+/opt/custom-installers/supervisor/install.sh
 
 ##
 ## add kibana to supervisor
