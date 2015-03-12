@@ -53,9 +53,8 @@ install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/hubot.conf /etc/s
 etckeeper commit "supervisor: add hubot"
 
 ##
-## autostart supervisor
-## (supervisor is already installed in baseimage)
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
 ##
-insserv supervisor
-etckeeper commit "autostart supervisor"
+/opt/custom-installers/supervisor/install.sh
 
