@@ -10,11 +10,10 @@ export DEBIAN_FRONTEND=noninteractive
 sudo -H -u debian /build/user-scripts/setup-geminabox.sh
 
 ##
-## autostart supervisor
-## (supervisor is already installed in baseimage)
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
 ##
-insserv supervisor
-etckeeper commit "autostart supervisor"
+/opt/custom-installers/supervisor/install.sh
 
 ##
 ## add geminabox to supervisor
