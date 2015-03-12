@@ -1,16 +1,20 @@
 require 'spec_helper'
 
 %w[
-  sudo adduser curl ca-certificates openssl git lv vim man-db whiptail zsh apt-utils net-tools
-  etckeeper locales tzdata sysvinit-core openssh-server rsyslog cron supervisor nginx-light
+  sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools
+  etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
 ].each do |pkg|
   describe package(pkg) do
     it { should be_installed }
   end
 end
 
-describe package("systemd-sysv") do
-  it { should_not be_installed }
+%w[
+  systemd systemd-sysv
+].each do |pkg|
+  describe package(pkg) do
+    it { should_not be_installed }
+  end
 end
 
 describe file("/etc/default/locale") do
@@ -27,6 +31,16 @@ end
 
 describe file("/etc/localtime") do
   its(:md5sum){ should eq '9e165b3822e5923e4905ee1653a2f358' }
+end
+
+describe file("/etc/locale.nopurge") do
+  its(:content){
+    should match /^en$/
+    should match /^en_US$/
+    should match /^en_US\.UTF-8$/
+    should match /^ja$/
+    should match /^ja_JP\.UTF-8$/
+  }
 end
 
 describe file("/etc/inittab") do
@@ -59,22 +73,10 @@ describe user('debian') do
   it { should have_login_shell '/bin/bash' }
 end
 
-describe file('/etc/nginx/conf.d/misc.conf') do
-  it { should be_file }
-end
-
 %w[ssh cron rsyslog].each do |svc|
   describe service(svc) do
     it { should be_enabled }
     it { should be_running }
   end
 end
-
-%w[nginx supervisor].each do |svc|
-  describe service(svc) do
-    it { should_not be_enabled }
-    it { should_not be_running }
-  end
-end
-
 

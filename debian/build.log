@@ -99,8 +99,8 @@ I: Retrieving insserv 1.14.0-5
 I: Validating insserv 1.14.0-5
 I: Retrieving iproute2 3.16.0-2
 I: Validating iproute2 3.16.0-2
-I: Retrieving libkmod2 18-3
-I: Validating libkmod2 18-3
+I: Retrieving libkmod2 20-1
+I: Validating libkmod2 20-1
 I: Retrieving libcap2 1:2.24-6
 I: Validating libcap2 1:2.24-6
 I: Retrieving libcap2-bin 1:2.24-6
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9527 kB]
-Fetched 9776 kB in 5s (1726 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9528 kB]
+Fetched 9777 kB in 5s (1798 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 32a0b8166046
-Removing intermediate container f12597f7e7e2
+ ---> 4a38e8f10c1f
+Removing intermediate container e3871625f29d
 Step 2 : CMD /bin/bash
- ---> Running in a47fc15e5763
- ---> 00aabb975926
-Removing intermediate container a47fc15e5763
-Successfully built 00aabb975926
+ ---> Running in 34f8676a637a
+ ---> 9c2316a502c8
+Removing intermediate container 34f8676a637a
+Successfully built 9c2316a502c8
