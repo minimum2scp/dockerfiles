@@ -75,12 +75,12 @@ I: Retrieving libgcc1 1:4.9.2-10
 I: Validating libgcc1 1:4.9.2-10
 I: Retrieving libstdc++6 4.9.2-10
 I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-15
-I: Validating libc-bin 2.19-15
-I: Retrieving libc6 2.19-15
-I: Validating libc6 2.19-15
-I: Retrieving multiarch-support 2.19-15
-I: Validating multiarch-support 2.19-15
+I: Retrieving libc-bin 2.19-16
+I: Validating libc-bin 2.19-16
+I: Retrieving libc6 2.19-16
+I: Validating libc6 2.19-16
+I: Retrieving multiarch-support 2.19-16
+I: Validating multiarch-support 2.19-16
 I: Retrieving gnupg 1.4.18-7
 I: Validating gnupg 1.4.18-7
 I: Retrieving gpgv 1.4.18-7
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9528 kB]
-Fetched 9777 kB in 5s (1798 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9533 kB]
+Fetched 9782 kB in 26s (365 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> 4a38e8f10c1f
-Removing intermediate container e3871625f29d
+ ---> d346efdeffd2
+Removing intermediate container 37515019a3ee
 Step 2 : CMD /bin/bash
- ---> Running in 34f8676a637a
- ---> 9c2316a502c8
-Removing intermediate container 34f8676a637a
-Successfully built 9c2316a502c8
+ ---> Running in a774f28b00d1
+ ---> d5e6f77afb5c
+Removing intermediate container a774f28b00d1
+Successfully built d5e6f77afb5c
