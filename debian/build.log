@@ -75,12 +75,12 @@ I: Retrieving libgcc1 1:4.9.2-10
 I: Validating libgcc1 1:4.9.2-10
 I: Retrieving libstdc++6 4.9.2-10
 I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-16
-I: Validating libc-bin 2.19-16
-I: Retrieving libc6 2.19-16
-I: Validating libc6 2.19-16
-I: Retrieving multiarch-support 2.19-16
-I: Validating multiarch-support 2.19-16
+I: Retrieving libc-bin 2.19-17
+I: Validating libc-bin 2.19-17
+I: Retrieving libc6 2.19-17
+I: Validating libc6 2.19-17
+I: Retrieving multiarch-support 2.19-17
+I: Validating multiarch-support 2.19-17
 I: Retrieving gnupg 1.4.18-7
 I: Validating gnupg 1.4.18-7
 I: Retrieving gpgv 1.4.18-7
@@ -101,10 +101,10 @@ I: Retrieving iproute2 3.16.0-2
 I: Validating iproute2 3.16.0-2
 I: Retrieving libkmod2 20-1
 I: Validating libkmod2 20-1
-I: Retrieving libcap2 1:2.24-6
-I: Validating libcap2 1:2.24-6
-I: Retrieving libcap2-bin 1:2.24-6
-I: Validating libcap2-bin 1:2.24-6
+I: Retrieving libcap2 1:2.24-7
+I: Validating libcap2 1:2.24-7
+I: Retrieving libcap2-bin 1:2.24-7
+I: Validating libcap2-bin 1:2.24-7
 I: Retrieving libgcrypt20 1.6.3-2
 I: Validating libgcrypt20 1.6.3-2
 I: Retrieving libgpg-error0 1.17-3
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9533 kB]
-Fetched 9782 kB in 26s (365 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9531 kB]
+Fetched 9780 kB in 1min 15s (130 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> d346efdeffd2
-Removing intermediate container 37515019a3ee
+ ---> ca164a8a892c
+Removing intermediate container d341b26da5c8
 Step 2 : CMD /bin/bash
- ---> Running in a774f28b00d1
- ---> d5e6f77afb5c
-Removing intermediate container a774f28b00d1
-Successfully built d5e6f77afb5c
+ ---> Running in e642598dfd3e
+ ---> 216c8ba5cca2
+Removing intermediate container e642598dfd3e
+Successfully built 216c8ba5cca2
