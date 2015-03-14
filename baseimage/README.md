@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150314-17898-1rbbtw3.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150314-17898-p18zz0.out
-% diff -u /tmp/docker-diff.20150314-17898-1rbbtw3.out /tmp/docker-diff.20150314-17898-p18zz0.out
---- /tmp/docker-diff.20150314-17898-1rbbtw3.out	2015-03-14 07:02:49.441940086 +0900
-+++ /tmp/docker-diff.20150314-17898-p18zz0.out	2015-03-14 07:02:50.017936878 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150315-2881-8znb9x.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150315-2881-9u3roy.out
+% diff -u /tmp/docker-diff.20150315-2881-8znb9x.out /tmp/docker-diff.20150315-2881-9u3roy.out
+--- /tmp/docker-diff.20150315-2881-8znb9x.out	2015-03-15 02:51:06.249355002 +0900
++++ /tmp/docker-diff.20150315-2881-9u3roy.out	2015-03-15 02:51:06.885352791 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -107,10 +107,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libblkid1:amd64          2.25.2-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b2        amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-16           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-16           amd64             GNU C Library: Shared libraries
+ ii  libc-bin                 2.19-17           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-17           amd64             GNU C Library: Shared libraries
 @@ -48,25 +58,54 @@
- ii  libcap2-bin              1:2.24-6          amd64             POSIX 1003.1e capabilities (utilities)
+ ii  libcap2-bin              1:2.24-7          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3:amd64           7.38.0-4          amd64             easy-to-use client-side URL transfer library (OpenSSL
@@ -182,14 +182,14 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libuuid1:amd64           2.25.2-5          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
-+ii  locales                  2.19-16           all               GNU C Library: National Language (locale) data [suppo
++ii  locales                  2.19-17           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.25.2-5          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-16           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-17           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
