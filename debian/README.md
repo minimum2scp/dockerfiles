@@ -37,7 +37,7 @@ ii  base-files               8                 amd64             Debian base sys
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.2-5        amd64             basic utilities from 4.4BSD-Lite
-ii  coreutils                8.23-3            amd64             GNU core utilities
+ii  coreutils                8.23-4            amd64             GNU core utilities
 ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
 ii  debconf                  1.5.55            all               Debian configuration management system
 ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
