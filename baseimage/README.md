@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150315-2881-8znb9x.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150315-2881-9u3roy.out
-% diff -u /tmp/docker-diff.20150315-2881-8znb9x.out /tmp/docker-diff.20150315-2881-9u3roy.out
---- /tmp/docker-diff.20150315-2881-8znb9x.out	2015-03-15 02:51:06.249355002 +0900
-+++ /tmp/docker-diff.20150315-2881-9u3roy.out	2015-03-15 02:51:06.885352791 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-2392-sc3r4h.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-2392-18oicrz.out
+% diff -u /tmp/docker-diff.20150316-2392-sc3r4h.out /tmp/docker-diff.20150316-2392-18oicrz.out
+--- /tmp/docker-diff.20150316-2392-sc3r4h.out	2015-03-16 00:24:23.032920824 +0900
++++ /tmp/docker-diff.20150316-2392-18oicrz.out	2015-03-16 00:24:23.672928083 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -72,7 +72,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.25.2-5        amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20141019          all               Common CA certificates
- ii  coreutils                8.23-3            amd64             GNU core utilities
+ ii  coreutils                8.23-4            amd64             GNU core utilities
 +ii  cron                     3.0pl1-127        amd64             process scheduling daemon
 +ii  curl                     7.38.0-4          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
