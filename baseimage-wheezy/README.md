@@ -1,12 +1,14 @@
 # about minimum2scp/wheezy-baseimage image
 
  * based on debian:wheezy image
- * Runs /sbin/init by default. /sbin/init is replaced by sysvinit-core package
- * /sbin/init invokes sshd, rsyslogd, cron daemons
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-wheezy/build/opt/init-wrapper/sbin/init) by default
+   * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
+   * /sbin/init is replaced by sysvinit-core package
+   * /sbin/init invokes sshd, rsyslogd, cron daemons
+   * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
  * ja_JP.UTF-8 locale supported. (default locale is C)
  * timezone is Asia/Tokyo
  * etckeeper installed
- * nginx-light, supervisor is installed, but disabled
 
 ## start container
 
