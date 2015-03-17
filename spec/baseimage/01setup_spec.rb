@@ -53,6 +53,11 @@ describe file("/etc/default/hwclock") do
   its(:content) { should match /^HWCLOCKACCESS=no$/ }
 end
 
+describe file("/etc/sudoers") do
+  it { should be_mode 440 }
+  its(:content) { should match /^#%sudo\s+/ }
+end
+
 describe file("/etc/sudoers.d/local") do
   it { should be_mode 440 }
   its(:content) { should include '%sudo ALL=(ALL:ALL) NOPASSWD: ALL' }
