@@ -79,8 +79,9 @@ etckeeper commit "hwclock: disabled"
 ##
 ## sudo configuration
 ##
+sed -i -e 's/^%sudo /#%sudo /' /etc/sudoers
 cat <<EOS >>/etc/sudoers.d/local
-%sudo ALL=NOPASSWD: ALL
+%sudo ALL=(ALL:ALL) NOPASSWD: ALL
 EOS
 chmod 440 /etc/sudoers.d/local
 etckeeper commit "sudo: allow sudo group without asking password"
