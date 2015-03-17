@@ -55,7 +55,7 @@ end
 
 describe file("/etc/sudoers.d/local") do
   it { should be_mode 440 }
-  its(:content) { should include '%sudo ALL=NOPASSWD: ALL' }
+  its(:content) { should include '%sudo ALL=(ALL:ALL) NOPASSWD: ALL' }
 end
 
 describe group('debian') do
