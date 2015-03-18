@@ -1,12 +1,14 @@
 # about minimum2scp/wheezy-baseimage image
 
  * based on debian:wheezy image
- * Runs /sbin/init by default. /sbin/init is replaced by sysvinit-core package
- * /sbin/init invokes sshd, rsyslogd, cron daemons
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-wheezy/build/opt/init-wrapper/sbin/init) by default
+   * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
+   * /sbin/init is replaced by sysvinit-core package
+   * /sbin/init invokes sshd, rsyslogd, cron daemons
+   * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
  * ja_JP.UTF-8 locale supported. (default locale is C)
  * timezone is Asia/Tokyo
  * etckeeper installed
- * nginx-light, supervisor is installed, but disabled
 
 ## start container
 
@@ -58,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150309-23055-rn9pry.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150309-23055-h2x88a.out
-% diff -u /tmp/docker-diff.20150309-23055-rn9pry.out /tmp/docker-diff.20150309-23055-h2x88a.out
---- /tmp/docker-diff.20150309-23055-rn9pry.out	2015-03-09 01:17:20.084263997 +0900
-+++ /tmp/docker-diff.20150309-23055-h2x88a.out	2015-03-09 01:17:20.700258774 +0900
+% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-14656-1kpj71f.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-14656-63qhtr.out
+% diff -u /tmp/docker-diff.20150316-14656-1kpj71f.out /tmp/docker-diff.20150316-14656-63qhtr.out
+--- /tmp/docker-diff.20150316-14656-1kpj71f.out	2015-03-16 23:56:35.596114901 +0900
++++ /tmp/docker-diff.20150316-14656-63qhtr.out	2015-03-16 23:56:36.220110374 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -89,10 +91,12 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  etckeeper                0.63              all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-4           amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.2-5           amd64             GCC, the GNU Compiler Collection (base package)
+-ii  gnupg                    1.4.12-7+deb7u6   amd64             GNU privacy guard - a free PGP replacement
+-ii  gpgv                     1.4.12-7+deb7u6   amd64             GNU privacy guard - signature verification tool
 +ii  git                      1:1.7.10.4-1+whee amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:1.7.10.4-1+whee all               fast, scalable, distributed revision control system (
- ii  gnupg                    1.4.12-7+deb7u6   amd64             GNU privacy guard - a free PGP replacement
- ii  gpgv                     1.4.12-7+deb7u6   amd64             GNU privacy guard - signature verification tool
++ii  gnupg                    1.4.12-7+deb7u7   amd64             GNU privacy guard - a free PGP replacement
++ii  gpgv                     1.4.12-7+deb7u7   amd64             GNU privacy guard - signature verification tool
  ii  grep                     2.12-2            amd64             GNU grep, egrep and fgrep
 +ii  groff-base               1.21-9            amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.5-1.1           amd64             GNU compression utilities
@@ -120,9 +124,9 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  liberror-perl            0.17-1            all               Perl module for error/exception handling in an OO-ish
 +ii  libexpat1:amd64          2.1.0-1+deb7u1    amd64             XML parsing C library - runtime library
  ii  libgcc1:amd64            1:4.7.2-5         amd64             GCC support library
-+ii  libgcrypt11:amd64        1.5.0-5+deb7u2    amd64             LGPL Crypto library - runtime library
++ii  libgcrypt11:amd64        1.5.0-5+deb7u3    amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-11          amd64             GNU dbm database routines (runtime version)
-+ii  libgnutls26:amd64        2.12.20-8+deb7u2  amd64             GNU TLS library - runtime library
++ii  libgnutls26:amd64        2.12.20-8+deb7u3  amd64             GNU TLS library - runtime library
 +ii  libgpg-error0:amd64      1.10-3.1          amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.10.1+dfsg-5+deb amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libidn11:amd64           1.25-2            amd64             GNU Libidn library, implementation of IETF IDN specif
@@ -154,7 +158,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  libsepol1:amd64          2.1.4-3           amd64             SELinux library for manipulating binary security poli
  ii  libslang2:amd64          2.2.4-15          amd64             S-Lang programming library - runtime version
  ii  libss2:amd64             1.42.5-1.1+deb7u1 amd64             command-line interface parsing library
-+ii  libssh2-1:amd64          1.4.2-1.1         amd64             SSH2 client-side library
++ii  libssh2-1:amd64          1.4.2-1.1+deb7u1  amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1e-2+deb7u14  amd64             SSL shared libraries
  ii  libstdc++6:amd64         4.7.2-5           amd64             GNU Standard C++ Library v3
 +ii  libswitch-perl           2.16-2            all               switch statement for Perl
