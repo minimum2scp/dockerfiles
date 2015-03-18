@@ -22,7 +22,10 @@ describe file("/etc/default/locale") do
 end
 
 describe file("/etc/locale.gen") do
-  its(:content){ should include 'ja_JP.UTF-8 UTF-8' }
+  its(:content){
+    should include 'en_US.UTF-8 UTF-8'
+    should include 'ja_JP.UTF-8 UTF-8'
+  }
 end
 
 describe file("/etc/timezone") do
