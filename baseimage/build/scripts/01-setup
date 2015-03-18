@@ -80,7 +80,7 @@ etckeeper commit "hwclock: disabled"
 ##
 ## sudo configuration
 ##
-sed -i -e 's/^%sudo /#%sudo /' /etc/sudoers
+sed -i -e 's/^%sudo/#%sudo/' /etc/sudoers
 cat <<EOS >>/etc/sudoers.d/local
 %sudo ALL=(ALL:ALL) NOPASSWD: ALL
 EOS
