@@ -22,8 +22,8 @@ describe file("/etc/default/locale") do
 end
 
 describe file("/etc/locale.gen") do
-  its(:content){ should include 'en_US.UTF-8 UTF-8' }
-  its(:content){ should include 'ja_JP.UTF-8 UTF-8' }
+  its(:content){ should match /^en_US\.UTF-8\s+UTF-8\s*/ }
+  its(:content){ should match /^ja_JP\.UTF-8\s+UTF-8\s*/ }
 end
 
 describe file("/etc/timezone") do
