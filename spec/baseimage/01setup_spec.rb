@@ -22,7 +22,8 @@ describe file("/etc/default/locale") do
 end
 
 describe file("/etc/locale.gen") do
-  its(:content){ should include 'ja_JP.UTF-8 UTF-8' }
+  its(:content){ should match /^en_US\.UTF-8\s+UTF-8\s*/ }
+  its(:content){ should match /^ja_JP\.UTF-8\s+UTF-8\s*/ }
 end
 
 describe file("/etc/timezone") do
@@ -34,13 +35,11 @@ describe file("/etc/localtime") do
 end
 
 describe file("/etc/locale.nopurge") do
-  its(:content){
-    should match /^en$/
-    should match /^en_US$/
-    should match /^en_US\.UTF-8$/
-    should match /^ja$/
-    should match /^ja_JP\.UTF-8$/
-  }
+  its(:content){ should match /^en$/ }
+  its(:content){ should match /^en_US$/ }
+  its(:content){ should match /^en_US\.UTF-8$/ }
+  its(:content){ should match /^ja$/ }
+  its(:content){ should match /^ja_JP\.UTF-8$/ }
 end
 
 describe file("/etc/inittab") do
