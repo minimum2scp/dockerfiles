@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-14656-1kpj71f.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-14656-63qhtr.out
-% diff -u /tmp/docker-diff.20150316-14656-1kpj71f.out /tmp/docker-diff.20150316-14656-63qhtr.out
---- /tmp/docker-diff.20150316-14656-1kpj71f.out	2015-03-16 23:56:35.596114901 +0900
-+++ /tmp/docker-diff.20150316-14656-63qhtr.out	2015-03-16 23:56:36.220110374 +0900
+% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-20104-z1rtbq.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-20104-ma4c1i.out
+% diff -u /tmp/docker-diff.20150321-20104-z1rtbq.out /tmp/docker-diff.20150321-20104-ma4c1i.out
+--- /tmp/docker-diff.20150321-20104-z1rtbq.out	2015-03-21 00:23:30.513675759 +0900
++++ /tmp/docker-diff.20150321-20104-ma4c1i.out	2015-03-21 00:23:31.169675879 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -159,7 +159,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  libslang2:amd64          2.2.4-15          amd64             S-Lang programming library - runtime version
  ii  libss2:amd64             1.42.5-1.1+deb7u1 amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.2-1.1+deb7u1  amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1e-2+deb7u14  amd64             SSL shared libraries
++ii  libssl1.0.0:amd64        1.0.1e-2+deb7u15  amd64             SSL shared libraries
  ii  libstdc++6:amd64         4.7.2-5           amd64             GNU Standard C++ Library v3
 +ii  libswitch-perl           2.16-2            all               switch statement for Perl
 +ii  libtasn1-3:amd64         2.13-2+deb7u1     amd64             Manage ASN.1 structures (runtime)
@@ -186,7 +186,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  netbase                  5.0               all               Basic TCP/IP networking system
 +ii  openssh-client           1:6.0p1-4+deb7u2  amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.0p1-4+deb7u2  amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssl                  1.0.1e-2+deb7u14  amd64             Secure Socket Layer (SSL) binary and related cryptogr
++ii  openssl                  1.0.1e-2+deb7u15  amd64             Secure Socket Layer (SSL) binary and related cryptogr
  ii  passwd                   1:4.1.5.1-1       amd64             change and administer password and group data
 +ii  perl                     5.14.2-21+deb7u2  amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.14.2-21+deb7u2  amd64             minimal Perl system
