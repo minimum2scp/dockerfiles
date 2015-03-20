@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-2392-sc3r4h.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150316-2392-18oicrz.out
-% diff -u /tmp/docker-diff.20150316-2392-sc3r4h.out /tmp/docker-diff.20150316-2392-18oicrz.out
---- /tmp/docker-diff.20150316-2392-sc3r4h.out	2015-03-16 00:24:23.032920824 +0900
-+++ /tmp/docker-diff.20150316-2392-18oicrz.out	2015-03-16 00:24:23.672928083 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-749-smn8c6.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-749-ifymu5.out
+% diff -u /tmp/docker-diff.20150321-749-smn8c6.out /tmp/docker-diff.20150321-749-ifymu5.out
+--- /tmp/docker-diff.20150321-749-smn8c6.out	2015-03-21 00:19:49.693717580 +0900
++++ /tmp/docker-diff.20150321-749-ifymu5.out	2015-03-21 00:19:50.269717253 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -76,8 +76,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  cron                     3.0pl1-127        amd64             process scheduling daemon
 +ii  curl                     7.38.0-4          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
- ii  debconf                  1.5.55            all               Debian configuration management system
- ii  debconf-i18n             1.5.55            all               full internationalization support for debconf
+ ii  debconf                  1.5.56            all               Debian configuration management system
+ ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
 @@ -21,17 +25,22 @@
  ii  dpkg                     1.17.24           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1.1       amd64             ext2/ext3/ext4 file system libraries
@@ -194,9 +194,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.7p1-3         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-3         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-3         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.7p1-4         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-4         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-4         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-2          amd64             Larry Wall's Practical Extraction and Report Language
