@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150322-13273-d1p6ax.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150322-13273-u8rzes.out
-% diff -u /tmp/docker-diff.20150322-13273-d1p6ax.out /tmp/docker-diff.20150322-13273-u8rzes.out
---- /tmp/docker-diff.20150322-13273-d1p6ax.out	2015-03-22 04:59:50.339803602 +0900
-+++ /tmp/docker-diff.20150322-13273-u8rzes.out	2015-03-22 04:59:50.923797873 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150324-3213-1vldbn3.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150324-3213-1t4yajv.out
+% diff -u /tmp/docker-diff.20150324-3213-1vldbn3.out /tmp/docker-diff.20150324-3213-1t4yajv.out
+--- /tmp/docker-diff.20150324-3213-1vldbn3.out	2015-03-24 00:15:03.986317166 +0900
++++ /tmp/docker-diff.20150324-3213-1t4yajv.out	2015-03-24 00:15:04.610312194 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -20,7 +20,7 @@
  ii  dpkg                     1.17.24           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1.1       amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1.1       amd64             ext2/ext3/ext4 file system utilities
-+ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
++ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-1           amd64             GCC, the GNU Compiler Collection (base package)
@@ -132,9 +132,9 @@
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.7p1-4         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-4         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-4         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.7p1-5         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-5         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-2          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-2          amd64             Larry Wall's Practical Extraction and Report Language
@@ -153,12 +153,12 @@
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015a-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-12            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-5          amd64             Miscellaneous system utilities
-+ii  vim-common               2:7.4.488-5       amd64             Vi IMproved - Common files
-+ii  vim-tiny                 2:7.4.488-5       amd64             Vi IMproved - enhanced vi editor - compact version
++ii  vim-common               2:7.4.488-6       amd64             Vi IMproved - Common files
++ii  vim-tiny                 2:7.4.488-6       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-5           amd64             shell with lots of features
