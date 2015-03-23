@@ -197,8 +197,8 @@ I: Retrieving sysvinit-utils 2.88dsf-58
 I: Validating sysvinit-utils 2.88dsf-58
 I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
-I: Retrieving tzdata 2015a-1
-I: Validating tzdata 2015a-1
+I: Retrieving tzdata 2015b-1
+I: Validating tzdata 2015b-1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
 I: Retrieving bsdutils 1:2.25.2-5
@@ -534,7 +534,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [249 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9532 kB]
-Fetched 9781 kB in 11s (835 kB/s)
+Fetched 9781 kB in 4s (2159 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Building dependency tree...
 Step 0 : FROM scratch
  ---> 511136ea3c5a
 Step 1 : ADD rootfs.tar.xz /
- ---> bbad414b298c
-Removing intermediate container 920ea29bb277
+ ---> e7b6aad66adc
+Removing intermediate container deda846ddfd3
 Step 2 : CMD /bin/bash
- ---> Running in 8fc7877b8a91
- ---> 29608f5bc330
-Removing intermediate container 8fc7877b8a91
-Successfully built 29608f5bc330
+ ---> Running in c0bf3ecf25b6
+ ---> 1f80d74cc340
+Removing intermediate container c0bf3ecf25b6
+Successfully built 1f80d74cc340
