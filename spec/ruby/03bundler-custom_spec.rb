@@ -6,6 +6,6 @@ describe file('/etc/apt/sources.list.d/minimum2scp.list') do
 end
 
 describe package('bundler') do
-  it { should be_installed.with_version('1.7.13-0custom1') }
+  it { should be_installed.with_version('1.8.5-0custom1') }
 end
 
