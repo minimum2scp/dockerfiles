@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150324-3213-1vldbn3.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150324-3213-1t4yajv.out
-% diff -u /tmp/docker-diff.20150324-3213-1vldbn3.out /tmp/docker-diff.20150324-3213-1t4yajv.out
---- /tmp/docker-diff.20150324-3213-1vldbn3.out	2015-03-24 00:15:03.986317166 +0900
-+++ /tmp/docker-diff.20150324-3213-1t4yajv.out	2015-03-24 00:15:04.610312194 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-24749-wg4t41.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-24749-1t77inh.out
+% diff -u /tmp/docker-diff.20150326-24749-wg4t41.out /tmp/docker-diff.20150326-24749-1t77inh.out
+--- /tmp/docker-diff.20150326-24749-wg4t41.out	2015-03-26 01:02:23.413508988 +0900
++++ /tmp/docker-diff.20150326-24749-1t77inh.out	2015-03-26 01:02:23.993503668 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -107,7 +107,7 @@
  ii  libsmartcols1:amd64      2.25.2-5          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4.1         amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1k-2          amd64             Secure Sockets Layer toolkit - shared libraries
++ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-12            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
@@ -135,7 +135,7 @@
 +ii  openssh-client           1:6.7p1-5         amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.7p1-5         amd64             secure shell (SSH) server, for secure access from rem
 +ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
-+ii  openssl                  1.0.1k-2          amd64             Secure Sockets Layer toolkit - cryptographic utility
++ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-2          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-2          amd64             minimal Perl system
