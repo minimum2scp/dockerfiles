@@ -1,0 +1,12 @@
+#! /bin/sh
+
+files=
+files="${files} /usr/sbin/policy-rc.d"
+files="${files} /sbin/initctl"
+
+for f in $files; do
+  if [ -f $f ]; then
+    rm $f
+  fi
+done
+
