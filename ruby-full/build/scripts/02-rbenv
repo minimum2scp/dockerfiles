@@ -14,5 +14,5 @@ bash -l -c "rbenv update"
 mkdir /build/tmp/ruby-binary
 curl -L -o /build/tmp/ruby-binary/install.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install.sh
 chmod +x /build/tmp/ruby-binary/install.sh
-/build/tmp/ruby-binary/install.sh v0.1.0
+/build/tmp/ruby-binary/install.sh v0.1.1
 

@@ -22,11 +22,15 @@ install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/geminabox.conf /e
 etckeeper commit "supervisor: add geminabox"
 
 ##
+## install nginx
+## (see baseimage/build/opt/custom-installers)
+##
+/opt/custom-installers/nginx/install.sh
+
+##
 ## autostart and configure nginx
 ## (nginx-light is already installed in baseimage)
 ##
-insserv nginx
-etckeeper commit "autostart nginx"
 install -m 644 -o root -g root -p /build/etc/nginx/sites-available/geminabox /etc/nginx/sites-available/geminabox
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/geminabox /etc/nginx/sites-enabled/geminabox
