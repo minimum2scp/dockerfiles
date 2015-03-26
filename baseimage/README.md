@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-749-smn8c6.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150321-749-ifymu5.out
-% diff -u /tmp/docker-diff.20150321-749-smn8c6.out /tmp/docker-diff.20150321-749-ifymu5.out
---- /tmp/docker-diff.20150321-749-smn8c6.out	2015-03-21 00:19:49.693717580 +0900
-+++ /tmp/docker-diff.20150321-749-ifymu5.out	2015-03-21 00:19:50.269717253 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-24749-wg4t41.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-24749-1t77inh.out
+% diff -u /tmp/docker-diff.20150326-24749-wg4t41.out /tmp/docker-diff.20150326-24749-1t77inh.out
+--- /tmp/docker-diff.20150326-24749-wg4t41.out	2015-03-26 01:02:23.413508988 +0900
++++ /tmp/docker-diff.20150326-24749-1t77inh.out	2015-03-26 01:02:23.993503668 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -82,7 +82,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  dpkg                     1.17.24           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.12-1.1       amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.12-1.1       amd64             ext2/ext3/ext4 file system utilities
-+ii  etckeeper                1.16              all               store /etc in git, mercurial, bzr or darcs
++ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-1           amd64             GCC, the GNU Compiler Collection (base package)
@@ -129,15 +129,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.8-6           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
-+ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-18    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
++ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.29-1+b2         amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
-+ii  libk5crypto3:amd64       1.12.1+dfsg-18    amd64             MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64       1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           20-1              amd64             libkmod shared library
-+ii  libkrb5-3:amd64          1.12.1+dfsg-18    amd64             MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64    1.12.1+dfsg-18    amd64             MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64          1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64    1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40-4          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-1           amd64             easy to use and lightweight logging library
@@ -169,7 +169,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libsmartcols1:amd64      2.25.2-5          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4.1         amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1k-1          amd64             Secure Sockets Layer toolkit - shared libraries
++ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-12            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
@@ -194,10 +194,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.7p1-4         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-4         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-4         amd64             secure shell (SSH) sftp server module, for SFTP acces
-+ii  openssl                  1.0.1k-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
++ii  openssh-client           1:6.7p1-5         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-5         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-2          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-2          amd64             minimal Perl system
@@ -215,12 +215,12 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015a-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-12            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-5          amd64             Miscellaneous system utilities
-+ii  vim-common               2:7.4.488-5       amd64             Vi IMproved - Common files
-+ii  vim-tiny                 2:7.4.488-5       amd64             Vi IMproved - enhanced vi editor - compact version
++ii  vim-common               2:7.4.488-6       amd64             Vi IMproved - Common files
++ii  vim-tiny                 2:7.4.488-6       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-5           amd64             shell with lots of features
