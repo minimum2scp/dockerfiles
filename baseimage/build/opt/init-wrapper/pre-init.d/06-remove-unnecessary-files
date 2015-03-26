@@ -1,5 +1,11 @@
 #! /bin/sh
 
+##
+## see contrib/mkimage/debootstrap
+##
+
+dpkg-divert --remove /sbin/initctl
+
 files=
 files="${files} /usr/sbin/policy-rc.d"
 files="${files} /sbin/initctl"
