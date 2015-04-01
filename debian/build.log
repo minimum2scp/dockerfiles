@@ -101,10 +101,10 @@ I: Retrieving iproute2 3.16.0-2
 I: Validating iproute2 3.16.0-2
 I: Retrieving libkmod2 20-1
 I: Validating libkmod2 20-1
-I: Retrieving libcap2 1:2.24-7
-I: Validating libcap2 1:2.24-7
-I: Retrieving libcap2-bin 1:2.24-7
-I: Validating libcap2-bin 1:2.24-7
+I: Retrieving libcap2 1:2.24-8
+I: Validating libcap2 1:2.24-8
+I: Retrieving libcap2-bin 1:2.24-8
+I: Validating libcap2-bin 1:2.24-8
 I: Retrieving libgcrypt20 1.6.3-2
 I: Validating libgcrypt20 1.6.3-2
 I: Retrieving libgpg-error0 1.17-3
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-13
-I: Validating libsystemd0 215-13
-I: Retrieving libudev1 215-13
-I: Validating libudev1 215-13
-I: Retrieving systemd 215-13
-I: Validating systemd 215-13
-I: Retrieving systemd-sysv 215-13
-I: Validating systemd-sysv 215-13
-I: Retrieving udev 215-13
-I: Validating udev 215-13
+I: Retrieving libsystemd0 215-14
+I: Validating libsystemd0 215-14
+I: Retrieving libudev1 215-14
+I: Validating libudev1 215-14
+I: Retrieving systemd 215-14
+I: Validating systemd 215-14
+I: Retrieving systemd-sysv 215-14
+I: Validating systemd-sysv 215-14
+I: Retrieving udev 215-14
+I: Validating udev 215-14
 I: Retrieving initscripts 2.88dsf-58
 I: Validating initscripts 2.88dsf-58
 I: Retrieving sysv-rc 2.88dsf-58
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [257 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9538 kB]
-Fetched 9795 kB in 4s (2105 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9539 kB]
+Fetched 9796 kB in 9s (1022 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -544,10 +544,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> f600049b7420
-Removing intermediate container bad96805df49
+ ---> d7dd4a3a4f41
+Removing intermediate container 541a75b6e78c
 Step 2 : CMD /bin/bash
- ---> Running in 8a2498a6ecd5
- ---> eae3c51358e1
-Removing intermediate container 8a2498a6ecd5
-Successfully built eae3c51358e1
+ ---> Running in 25dfbf7585d6
+ ---> 5876af1a37bf
+Removing intermediate container 25dfbf7585d6
+Successfully built 5876af1a37bf
