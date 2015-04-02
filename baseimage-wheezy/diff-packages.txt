@@ -1,8 +1,8 @@
-% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-5378-10eopdt.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150326-5378-lsp2wi.out
-% diff -u /tmp/docker-diff.20150326-5378-10eopdt.out /tmp/docker-diff.20150326-5378-lsp2wi.out
---- /tmp/docker-diff.20150326-5378-10eopdt.out	2015-03-26 01:05:18.255900860 +0900
-+++ /tmp/docker-diff.20150326-5378-lsp2wi.out	2015-03-26 01:05:18.887895031 +0900
+% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150403-11626-ejx7bg.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150403-11626-1q91uwm.out
+% diff -u /tmp/docker-diff.20150403-11626-ejx7bg.out /tmp/docker-diff.20150403-11626-1q91uwm.out
+--- /tmp/docker-diff.20150403-11626-ejx7bg.out	2015-04-03 00:07:08.039883632 +0900
++++ /tmp/docker-diff.20150403-11626-1q91uwm.out	2015-04-03 00:07:08.691878415 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -70,7 +70,7 @@
 +ii  libkeyutils1:amd64       1.5.5-3+deb7u1    amd64             Linux Key Management Utilities (library)
 +ii  libkrb5-3:amd64          1.10.1+dfsg-5+deb amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.10.1+dfsg-5+deb amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.31-1+nmu2     amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.31-2          amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-7+b1         amd64             module using libc functions for internationalization 
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
  ii  libmount1                2.20.1-5.3        amd64             block device id library
