@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150402-27914-1fctu1g.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150402-27914-13826nb.out
-% diff -u /tmp/docker-diff.20150402-27914-1fctu1g.out /tmp/docker-diff.20150402-27914-13826nb.out
---- /tmp/docker-diff.20150402-27914-1fctu1g.out	2015-04-02 00:28:24.692308963 +0900
-+++ /tmp/docker-diff.20150402-27914-13826nb.out	2015-04-02 00:28:25.304304886 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150404-447-yut9cn.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150404-447-5p2mqp.out
+% diff -u /tmp/docker-diff.20150404-447-yut9cn.out /tmp/docker-diff.20150404-447-5p2mqp.out
+--- /tmp/docker-diff.20150404-447-yut9cn.out	2015-04-04 00:01:45.494962550 +0900
++++ /tmp/docker-diff.20150404-447-5p2mqp.out	2015-04-04 00:01:46.026957729 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -168,7 +168,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
  ii  libsmartcols1:amd64      2.25.2-6          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
-+ii  libssh2-1:amd64          1.5.0-2           amd64             SSH2 client-side library
++ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-14            amd64             systemd utility library
