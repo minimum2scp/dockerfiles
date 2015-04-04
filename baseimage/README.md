@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150404-447-yut9cn.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150404-447-5p2mqp.out
-% diff -u /tmp/docker-diff.20150404-447-yut9cn.out /tmp/docker-diff.20150404-447-5p2mqp.out
---- /tmp/docker-diff.20150404-447-yut9cn.out	2015-04-04 00:01:45.494962550 +0900
-+++ /tmp/docker-diff.20150404-447-5p2mqp.out	2015-04-04 00:01:46.026957729 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150405-29268-1y92rau.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150405-29268-127gdp.out
+% diff -u /tmp/docker-diff.20150405-29268-1y92rau.out /tmp/docker-diff.20150405-29268-127gdp.out
+--- /tmp/docker-diff.20150405-29268-1y92rau.out	2015-04-05 00:02:54.219644246 +0900
++++ /tmp/docker-diff.20150405-29268-127gdp.out	2015-04-05 00:02:54.807635659 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -172,7 +172,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-14            amd64             systemd utility library
-+ii  libtasn1-6:amd64         4.2-2             amd64             Manage ASN.1 structures (runtime)
++ii  libtasn1-6:amd64         4.2-3             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
