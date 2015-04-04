@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM minimum2scp/debian-wheezy:latest
 MAINTAINER YAMADA Tsuyoshi tyamada@minimum2scp.org
 
 COPY build /build
