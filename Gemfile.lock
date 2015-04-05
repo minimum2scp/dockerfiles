@@ -34,7 +34,7 @@ GEM
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
     sequel (4.20.0)
-    serverspec (2.13.0)
+    serverspec (2.14.0)
       multi_json
       rspec (~> 3.0)
       rspec-its
