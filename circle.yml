@@ -17,10 +17,15 @@ dependencies:
     - ./ci_util.rb build minimum2scp/baseimage:latest
     - ./ci_util.rb build minimum2scp/ruby:latest
     - ./ci_util.rb build minimum2scp/ruby-full:latest
+    - ./ci_util.rb pull  debian:wheezy
+    - ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
+    - ./ci_util.rb build minimum2scp/ruby-wheezy:latest
 
 test:
   override:
     - bundle exec rake spec:baseimage
     - bundle exec rake spec:ruby
     - bundle exec rake spec:ruby-full
+    - bundle exec rake spec:baseimage-wheezy
+    - bundle exec rake spec:ruby-wheezy
 
