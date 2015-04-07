@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150405-29268-1y92rau.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150405-29268-127gdp.out
-% diff -u /tmp/docker-diff.20150405-29268-1y92rau.out /tmp/docker-diff.20150405-29268-127gdp.out
---- /tmp/docker-diff.20150405-29268-1y92rau.out	2015-04-05 00:02:54.219644246 +0900
-+++ /tmp/docker-diff.20150405-29268-127gdp.out	2015-04-05 00:02:54.807635659 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150408-25093-if6cee.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150408-25093-b4k47s.out
+% diff -u /tmp/docker-diff.20150408-25093-if6cee.out /tmp/docker-diff.20150408-25093-b4k47s.out
+--- /tmp/docker-diff.20150408-25093-if6cee.out	2015-04-08 01:07:38.764311926 +0900
++++ /tmp/docker-diff.20150408-25093-b4k47s.out	2015-04-08 01:07:39.376314161 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -98,7 +98,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
  ii  init                     1.22              amd64             System-V-like init utilities - metapackage
 +ii  init-system-helpers      1.22              all               helper tools for all init systems
- ii  initscripts              2.88dsf-58        amd64             scripts for initializing and shutting down the system
+ ii  initscripts              2.88dsf-59        amd64             scripts for initializing and shutting down the system
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 @@ -41,6 +50,7 @@
@@ -211,9 +211,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 -ii  systemd                  215-14            amd64             system and service manager
 -ii  systemd-sysv             215-14            amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
- ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
-+ii  sysvinit-core            2.88dsf-58        amd64             System-V-like init utilities
- ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
+ ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
++ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
+ ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
