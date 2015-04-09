@@ -1,0 +1,19 @@
+#! /bin/sh
+
+set -e
+
+## environment variables
+##
+## - DEFAULT_LANG
+## - DEFAULT_TZ
+
+if [ -n "${DEFAULT_LANG}" ]; then
+  sed -i -e "s/LANG=C/LANG=${DEFAULT_LANG}/" /etc/default/locale
+  etckeeper commit "set default LANG to ${DEFAULT_LANG}"
+fi
+
+if [ -n "${DEFAULT_TZ}" ]; then
+  sed -i -e "s@Asia/Tokyo@${DEFAULT_TZ}@" /etc/timezone
+  cp -a -L /usr/share/zoneinfo/${DEFAULT_TZ} /etc/localtime
+  etckeeper commit "set timezone to ${DEFAULT_TZ}"
+fi
