@@ -52,7 +52,7 @@ ii  gzip                     1.6-4             amd64             GNU compression
 ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
 ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
 ii  init                     1.22              amd64             System-V-like init utilities - metapackage
-ii  initscripts              2.88dsf-58        amd64             scripts for initializing and shutting down the system
+ii  initscripts              2.88dsf-59        amd64             scripts for initializing and shutting down the system
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
 ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
@@ -121,8 +121,8 @@ ii  sensible-utils           0.0.9             all               Utilities for s
 ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 ii  systemd                  215-14            amd64             system and service manager
 ii  systemd-sysv             215-14            amd64             system and service manager - SysV links
-ii  sysv-rc                  2.88dsf-58        all               System-V-like runlevel change mechanism
-ii  sysvinit-utils           2.88dsf-58        amd64             System-V-like utilities
+ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
+ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
 ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
 ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
 ii  udev                     215-14            amd64             /dev/ and hotplug management daemon
