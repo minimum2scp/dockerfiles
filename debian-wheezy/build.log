@@ -406,15 +406,15 @@ I: Configuring apt...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit http://ftp.jp.debian.org wheezy Release.gpg
-Get:1 http://security.debian.org wheezy/updates Release.gpg [836 B]
-Get:2 http://ftp.jp.debian.org wheezy-updates Release.gpg [836 B]
-Get:3 http://security.debian.org wheezy/updates Release [102 kB]
+Get:1 http://ftp.jp.debian.org wheezy-updates Release.gpg [836 B]
 Hit http://ftp.jp.debian.org wheezy Release
-Get:4 http://ftp.jp.debian.org wheezy-updates Release [124 kB]
-Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [372 kB]
-Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7625 kB]
+Get:2 http://ftp.jp.debian.org wheezy-updates Release [124 kB]
+Get:3 http://security.debian.org wheezy/updates Release.gpg [836 B]
+Get:4 http://ftp.jp.debian.org wheezy/main amd64 Packages [7625 kB]
+Get:5 http://security.debian.org wheezy/updates Release [102 kB]
+Get:6 http://security.debian.org wheezy/updates/main amd64 Packages [374 kB]
 Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [4437 B]
-Fetched 8229 kB in 3s (2292 kB/s)
+Fetched 8231 kB in 4s (1830 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -424,8 +424,8 @@ The following packages will be upgraded:
 10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 9666 kB of archives.
 After this operation, 121 kB disk space will be freed.
-Get:1 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u8 [1274 kB]
-Get:2 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015b-0wheezy1 [427 kB]
+Get:1 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015b-0wheezy1 [427 kB]
+Get:2 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u8 [1274 kB]
 Get:3 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u8 [4335 kB]
 Get:4 http://security.debian.org/ wheezy/updates/main e2fslibs amd64 1.42.5-1.1+deb7u1 [197 kB]
 Get:5 http://security.debian.org/ wheezy/updates/main e2fsprogs amd64 1.42.5-1.1+deb7u1 [979 kB]
@@ -434,7 +434,7 @@ Get:7 http://security.debian.org/ wheezy/updates/main libss2 amd64 1.42.5-1.1+de
 Get:8 http://security.debian.org/ wheezy/updates/main gpgv amd64 1.4.12-7+deb7u7 [228 kB]
 Get:9 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u7 [1956 kB]
 Get:10 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u8 [151 kB]
-Fetched 9666 kB in 4s (2121 kB/s)
+Fetched 9666 kB in 39s (242 kB/s)
 (Reading database ... 6714 files and directories currently installed.)
 Preparing to replace libc-bin 2.13-38+deb7u6 (using .../libc-bin_2.13-38+deb7u8_amd64.deb) ...
 Unpacking replacement libc-bin ...
@@ -480,10 +480,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> f91107fdb0c9
-Removing intermediate container 1f6fd26d3e6d
+ ---> 82da5cf79711
+Removing intermediate container 76fe809c1470
 Step 2 : CMD /bin/bash
- ---> Running in 0d436f166811
- ---> a785f7bd0c57
-Removing intermediate container 0d436f166811
-Successfully built a785f7bd0c57
+ ---> Running in 8611408d3434
+ ---> cfafd7638986
+Removing intermediate container 8611408d3434
+Successfully built cfafd7638986
