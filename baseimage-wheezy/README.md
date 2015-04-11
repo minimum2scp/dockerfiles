@@ -1,6 +1,6 @@
 # about minimum2scp/wheezy-baseimage image
 
- * based on debian:wheezy image
+ * based on minimum2scp/debian-wheezy image
  * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-wheezy/build/opt/init-wrapper/sbin/init) by default
    * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
    * /sbin/init is replaced by sysvinit-core package
@@ -60,12 +60,12 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150403-11626-ejx7bg.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150403-11626-1q91uwm.out
-% diff -u /tmp/docker-diff.20150403-11626-ejx7bg.out /tmp/docker-diff.20150403-11626-1q91uwm.out
---- /tmp/docker-diff.20150403-11626-ejx7bg.out	2015-04-03 00:07:08.039883632 +0900
-+++ /tmp/docker-diff.20150403-11626-1q91uwm.out	2015-04-03 00:07:08.691878415 +0900
-@@ -3,12 +3,18 @@
+% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-32668-gqxs99.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-32668-1fgewxm.out
+% diff -u /tmp/docker-diff.20150412-32668-gqxs99.out /tmp/docker-diff.20150412-32668-1fgewxm.out
+--- /tmp/docker-diff.20150412-32668-gqxs99.out	2015-04-12 00:08:00.885850750 +0900
++++ /tmp/docker-diff.20150412-32668-1fgewxm.out	2015-04-12 00:08:01.465845394 +0900
+@@ -3,26 +3,36 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
  +++-========================-=================-=================-=====================================================
@@ -84,8 +84,11 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  dash                     0.5.7-3           amd64             POSIX-compliant shell
  ii  debconf                  1.5.49            all               Debian configuration management system
  ii  debconf-i18n             1.5.49            all               full internationalization support for debconf
-@@ -18,11 +24,15 @@
- ii  dpkg                     1.16.15           amd64             Debian package management system
+ ii  debian-archive-keyring   2014.3~deb7u1     all               GnuPG archive keys of the Debian archive
+ ii  debianutils              4.3.2             amd64             Miscellaneous utilities specific to Debian
+ ii  diffutils                1:3.2-6           amd64             File comparison utilities
+-ii  dpkg                     1.16.15           amd64             Debian package management system
++ii  dpkg                     1.16.16           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.5-1.1+deb7u1 amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.5-1.1+deb7u1 amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                0.63              all               store /etc in git, mercurial, bzr or darcs
@@ -199,8 +202,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
  ii  tar                      1.26+dfsg-0.1     amd64             GNU version of the tar archiving utility
--ii  tzdata                   2015a-0wheezy1    all               time zone and daylight-saving time data
-+ii  tzdata                   2015b-0wheezy1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015b-0wheezy1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0025+nmu3       all               Update Configuration File: preserve user changes to c
  ii  util-linux               2.20.1-5.3        amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.3.547-7       amd64             Vi IMproved - Common files
