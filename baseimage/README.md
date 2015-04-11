@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150411-3061-1mh056u.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150411-3061-1j5ch8w.out
-% diff -u /tmp/docker-diff.20150411-3061-1mh056u.out /tmp/docker-diff.20150411-3061-1j5ch8w.out
---- /tmp/docker-diff.20150411-3061-1mh056u.out	2015-04-11 01:36:07.280445719 +0900
-+++ /tmp/docker-diff.20150411-3061-1j5ch8w.out	2015-04-11 01:36:07.940442745 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-7706-1cr1958.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-7706-16ngqjz.out
+% diff -u /tmp/docker-diff.20150412-7706-1cr1958.out /tmp/docker-diff.20150412-7706-16ngqjz.out
+--- /tmp/docker-diff.20150412-7706-1cr1958.out	2015-04-12 00:20:03.700095923 +0900
++++ /tmp/docker-diff.20150412-7706-16ngqjz.out	2015-04-12 00:20:04.328091581 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -117,7 +117,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libcurl3-gnutls:amd64    7.38.0-4          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
- ii  libdevmapper1.02.1:amd64 2:1.02.90-2.1     amd64             Linux Kernel Device Mapper userspace library
+ ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20140620-2    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
