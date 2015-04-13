@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-7706-1cr1958.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-7706-16ngqjz.out
-% diff -u /tmp/docker-diff.20150412-7706-1cr1958.out /tmp/docker-diff.20150412-7706-16ngqjz.out
---- /tmp/docker-diff.20150412-7706-1cr1958.out	2015-04-12 00:20:03.700095923 +0900
-+++ /tmp/docker-diff.20150412-7706-16ngqjz.out	2015-04-12 00:20:04.328091581 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150414-5852-mfyljn.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150414-5852-u7luyz.out
+% diff -u /tmp/docker-diff.20150414-5852-mfyljn.out /tmp/docker-diff.20150414-5852-u7luyz.out
+--- /tmp/docker-diff.20150414-5852-mfyljn.out	2015-04-14 01:41:22.446948576 +0900
++++ /tmp/docker-diff.20150414-5852-u7luyz.out	2015-04-14 01:41:23.026943750 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -76,7 +76,7 @@
  ii  libkmod2:amd64           20-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.40-4          amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.40+dfsg-1     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-1           amd64             easy to use and lightweight logging library
 +ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
