@@ -15,10 +15,10 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.7
-I: Validating apt 1.0.9.7
-I: Retrieving libapt-pkg4.12 1.0.9.7
-I: Validating libapt-pkg4.12 1.0.9.7
+I: Retrieving apt 1.0.9.8
+I: Validating apt 1.0.9.8
+I: Retrieving libapt-pkg4.12 1.0.9.8
+I: Validating libapt-pkg4.12 1.0.9.8
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4-1
@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-15
-I: Validating libsystemd0 215-15
-I: Retrieving libudev1 215-15
-I: Validating libudev1 215-15
-I: Retrieving systemd 215-15
-I: Validating systemd 215-15
-I: Retrieving systemd-sysv 215-15
-I: Validating systemd-sysv 215-15
-I: Retrieving udev 215-15
-I: Validating udev 215-15
+I: Retrieving libsystemd0 215-16
+I: Validating libsystemd0 215-16
+I: Retrieving libudev1 215-16
+I: Validating libudev1 215-16
+I: Retrieving systemd 215-16
+I: Validating systemd 215-16
+I: Retrieving systemd-sysv 215-16
+I: Validating systemd-sysv 215-16
+I: Retrieving udev 215-16
+I: Validating udev 215-16
 I: Retrieving initscripts 2.88dsf-59
 I: Validating initscripts 2.88dsf-59
 I: Retrieving sysv-rc 2.88dsf-59
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [257 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9544 kB]
-Fetched 9801 kB in 5s (1904 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9542 kB]
+Fetched 9799 kB in 5s (1920 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -544,10 +544,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 776b8976a308
-Removing intermediate container 066fe3b7867f
+ ---> 8c6217867ef7
+Removing intermediate container 623e058ddcbc
 Step 2 : CMD /bin/bash
- ---> Running in 989ef4193953
- ---> 032e272d40f2
-Removing intermediate container 989ef4193953
-Successfully built 032e272d40f2
+ ---> Running in 32fbe0b4b3c3
+ ---> eb6c95680718
+Removing intermediate container 32fbe0b4b3c3
+Successfully built eb6c95680718
