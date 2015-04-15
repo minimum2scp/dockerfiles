@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150415-15410-zgv4jj.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150415-15410-1nvgzzg.out
-% diff -u /tmp/docker-diff.20150415-15410-zgv4jj.out /tmp/docker-diff.20150415-15410-1nvgzzg.out
---- /tmp/docker-diff.20150415-15410-zgv4jj.out	2015-04-15 00:06:52.298464117 +0900
-+++ /tmp/docker-diff.20150415-15410-1nvgzzg.out	2015-04-15 00:06:52.922458739 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-vnml9l.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-orxudk.out
+% diff -u /tmp/docker-diff.20150416-25967-vnml9l.out /tmp/docker-diff.20150416-25967-orxudk.out
+--- /tmp/docker-diff.20150416-25967-vnml9l.out	2015-04-16 00:03:15.362905414 +0900
++++ /tmp/docker-diff.20150416-25967-orxudk.out	2015-04-16 00:03:15.974897634 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -107,8 +107,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libblkid1:amd64          2.25.2-6          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b3        amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-17           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-17           amd64             GNU C Library: Shared libraries
+ ii  libc-bin                 2.19-18           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
 @@ -48,25 +58,54 @@
  ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
@@ -182,14 +182,14 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libuuid1:amd64           2.25.2-6          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
-+ii  locales                  2.19-17           all               GNU C Library: National Language (locale) data [suppo
++ii  locales                  2.19-18           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.25.2-6          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-17           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-18           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
@@ -215,7 +215,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-16            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
