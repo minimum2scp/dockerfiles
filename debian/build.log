@@ -75,12 +75,12 @@ I: Retrieving libgcc1 1:4.9.2-10
 I: Validating libgcc1 1:4.9.2-10
 I: Retrieving libstdc++6 4.9.2-10
 I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-17
-I: Validating libc-bin 2.19-17
-I: Retrieving libc6 2.19-17
-I: Validating libc6 2.19-17
-I: Retrieving multiarch-support 2.19-17
-I: Validating multiarch-support 2.19-17
+I: Retrieving libc-bin 2.19-18
+I: Validating libc-bin 2.19-18
+I: Retrieving libc6 2.19-18
+I: Validating libc6 2.19-18
+I: Retrieving multiarch-support 2.19-18
+I: Validating multiarch-support 2.19-18
 I: Retrieving gnupg 1.4.18-7
 I: Validating gnupg 1.4.18-7
 I: Retrieving gpgv 1.4.18-7
@@ -197,8 +197,8 @@ I: Retrieving sysvinit-utils 2.88dsf-59
 I: Validating sysvinit-utils 2.88dsf-59
 I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
-I: Retrieving tzdata 2015b-1
-I: Validating tzdata 2015b-1
+I: Retrieving tzdata 2015c-1
+I: Validating tzdata 2015c-1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
 I: Retrieving bsdutils 1:2.25.2-6
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [257 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9542 kB]
-Fetched 9799 kB in 5s (1920 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9543 kB]
+Fetched 9800 kB in 4s (2057 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -544,10 +544,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 8c6217867ef7
-Removing intermediate container 623e058ddcbc
+ ---> e0ad669797f5
+Removing intermediate container f160b6031621
 Step 2 : CMD /bin/bash
- ---> Running in 32fbe0b4b3c3
- ---> eb6c95680718
-Removing intermediate container 32fbe0b4b3c3
-Successfully built eb6c95680718
+ ---> Running in b03f54e3c8f8
+ ---> d04d0399c4c3
+Removing intermediate container b03f54e3c8f8
+Successfully built d04d0399c4c3

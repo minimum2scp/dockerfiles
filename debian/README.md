@@ -62,8 +62,8 @@ ii  libaudit-common          1:2.4-1           all               Dynamic library
 ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.25.2-6          amd64             block device id library
 ii  libbz2-1.0:amd64         1.0.6-7+b3        amd64             high-quality block-sorting file compressor library - 
-ii  libc-bin                 2.19-17           amd64             GNU C Library: Binaries
-ii  libc6:amd64              2.19-17           amd64             GNU C Library: Shared libraries
+ii  libc-bin                 2.19-18           amd64             GNU C Library: Binaries
+ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
 ii  libcap2:amd64            1:2.24-8          amd64             POSIX 1003.1e capabilities (library)
 ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
 ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
@@ -108,7 +108,7 @@ ii  login                    1:4.2-3           amd64             system login to
 ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 ii  mount                    2.25.2-6          amd64             Tools for mounting and manipulating filesystems
-ii  multiarch-support        2.19-17           amd64             Transitional package to ensure multiarch compatibilit
+ii  multiarch-support        2.19-18           amd64             Transitional package to ensure multiarch compatibilit
 ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
 ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
@@ -124,7 +124,7 @@ ii  systemd-sysv             215-16            amd64             system and serv
 ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
 ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
-ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
+ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
 ii  udev                     215-16            amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
 ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
