@@ -1,6 +1,6 @@
 # about minimum2scp/tdiary image
 
- * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
+ * based on minimum2scp/ruby-full (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby-full)
  * tdiary (http://www.tdiary.org/) is installed
  * supervisor invokes tdiary server
  * use nginx-light as web server
@@ -38,22 +38,21 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 00:05 ?        Ss     0:00 init [2]
-root        38     1  0 00:05 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root        63     1  0 00:05 ?        Ss     0:00 /usr/sbin/cron
-root        74     1  0 00:05 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
-www-data    75    74  0 00:05 ?        S      0:00  \_ nginx: worker process
-www-data    76    74  0 00:05 ?        S      0:00  \_ nginx: worker process
-www-data    77    74  0 00:05 ?        S      0:00  \_ nginx: worker process
-www-data    79    74  0 00:05 ?        S      0:00  \_ nginx: worker process
-root        89     1  0 00:05 ?        Ss     0:00 /usr/sbin/sshd
-root       125    89  1 00:05 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     127   125  0 00:05 ?        S      0:00      \_ sshd: debian@pts/0
-debian     128   127  0 00:05 pts/0    Ss     0:00          \_ -bash
-debian     179   128  0 00:05 pts/0    R+     0:00              \_ ps -ef fww
-root        95     1  0 00:05 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
-debian      98    95  0 00:05 ?        S      0:00  \_ /bin/sh /home/debian/tdiary/start.sh
-debian     118    98 24 00:05 ?        Sl     0:01      \_ ruby2.1 /home/debian/go/src/github.com/tdiary/tdiary-core/vendor/bundle/ruby/2.1.0/bin/tdiary server
+root         1     0  0 01:52 ?        Ss     0:00 init [2]
+root       334     1  0 01:52 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       359     1  0 01:52 ?        Ss     0:00 /usr/sbin/cron
+root       370     1  0 01:52 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
+www-data   371   370  0 01:52 ?        S      0:00  \_ nginx: worker process
+www-data   372   370  0 01:52 ?        S      0:00  \_ nginx: worker process
+www-data   373   370  0 01:52 ?        S      0:00  \_ nginx: worker process
+www-data   375   370  0 01:52 ?        S      0:00  \_ nginx: worker process
+root       383     1  0 01:52 ?        Ss     0:00 /usr/sbin/sshd
+root       520   383  0 01:52 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     522   520  0 01:52 ?        S      0:00      \_ sshd: debian@pts/0
+debian     523   522  0 01:52 pts/0    Ss     0:00          \_ -bash
+debian     685   523  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
+root       389     1  0 01:52 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+debian     567   389 17 01:52 ?        Sl     0:01  \_ ruby /home/debian/go/src/github.com/tdiary/tdiary-core/vendor/bundle/ruby/2.2.0/bin/tdiary server
 ```
 
 ## ports
