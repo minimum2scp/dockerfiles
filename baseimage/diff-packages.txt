@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150414-5852-mfyljn.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150414-5852-u7luyz.out
-% diff -u /tmp/docker-diff.20150414-5852-mfyljn.out /tmp/docker-diff.20150414-5852-u7luyz.out
---- /tmp/docker-diff.20150414-5852-mfyljn.out	2015-04-14 01:41:22.446948576 +0900
-+++ /tmp/docker-diff.20150414-5852-u7luyz.out	2015-04-14 01:41:23.026943750 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-vnml9l.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-orxudk.out
+% diff -u /tmp/docker-diff.20150416-25967-vnml9l.out /tmp/docker-diff.20150416-25967-orxudk.out
+--- /tmp/docker-diff.20150416-25967-vnml9l.out	2015-04-16 00:03:15.362905414 +0900
++++ /tmp/docker-diff.20150416-25967-orxudk.out	2015-04-16 00:03:15.974897634 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -45,8 +45,8 @@
  ii  libblkid1:amd64          2.25.2-6          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-7+b3        amd64             high-quality block-sorting file compressor library - 
- ii  libc-bin                 2.19-17           amd64             GNU C Library: Binaries
- ii  libc6:amd64              2.19-17           amd64             GNU C Library: Shared libraries
+ ii  libc-bin                 2.19-18           amd64             GNU C Library: Binaries
+ ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
 @@ -48,25 +58,54 @@
  ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
@@ -109,7 +109,7 @@
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-15            amd64             systemd utility library
+ ii  libsystemd0:amd64        215-16            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-3             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -120,14 +120,14 @@
  ii  libuuid1:amd64           2.25.2-6          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
-+ii  locales                  2.19-17           all               GNU C Library: National Language (locale) data [suppo
++ii  locales                  2.19-18           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.25.2-6          amd64             Tools for mounting and manipulating filesystems
- ii  multiarch-support        2.19-17           amd64             Transitional package to ensure multiarch compatibilit
+ ii  multiarch-support        2.19-18           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             5.9+20140913-1    all               basic terminal type definitions
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
@@ -146,16 +146,16 @@
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  215-15            amd64             system and service manager
--ii  systemd-sysv             215-15            amd64             system and service manager - SysV links
+-ii  systemd                  215-16            amd64             system and service manager
+-ii  systemd-sysv             215-16            amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015b-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     215-15            amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-16            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.488-7       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.488-7       amd64             Vi IMproved - enhanced vi editor - compact version
