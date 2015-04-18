@@ -1,5 +1,6 @@
 require 'serverspec'
 require 'docker'
+#require 'pry'
 
 ## show debug log
 if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
@@ -19,23 +20,8 @@ if ENV['CIRCLECI']
   end
 end
 
-## start container before run spec
-raise "environment variable DOCKER_IMAGE required" unless ENV['DOCKER_IMAGE']
-opts = {
-  'Image' => ENV['DOCKER_IMAGE'],
-  'Env'   => [ 'APT_LINE=keep' ]
-}
-container = ::Docker::Container.create(opts)
-container.start
-
-## stop and delete container after spec
-at_exit {
-  container.delete(force: true)
-}
-
 ## configure ssh
 set :backend, :ssh
-set :host, container.json['NetworkSettings']['IPAddress']
 set :ssh_options, {
   :user     => 'debian',
   :password => 'debian',
@@ -47,6 +33,30 @@ set :ssh_options, {
 ##     specinfra-2.12.3/lib/specinfra/helper/detect_os/debian.rb
 set :os, :family => 'debian', :arch => 'x86_64', :release => '8.0'
 
-## wait for sshd in container start
-sleep 3
+RSpec.configure do |c|
+  c.before(:suite) do
+    ## start container before run suite
+    opts = {
+      'Image' => Specinfra.configuration.docker_image,
+      'Env'   => Specinfra.configuration.docker_envs,
+    }
+    container = ::Docker::Container.create(opts)
+    container.start
+    ## save container object to Specinfra.configuration
+    ## (to stop and delete container after suite)
+    set :docker_container_obj, container
+
+    ## configure ssh
+    set :host, container.json['NetworkSettings']['IPAddress']
+
+    ## wait for sshd in container start
+    sleep 3
+  end
+
+  c.after(:suite) do
+    ## stop and delete container after suite
+    container = Specinfra.configuration.docker_container_obj
+    container.delete(force: true)
+  end
+end
 
