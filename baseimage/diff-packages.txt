@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-vnml9l.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150416-25967-orxudk.out
-% diff -u /tmp/docker-diff.20150416-25967-vnml9l.out /tmp/docker-diff.20150416-25967-orxudk.out
---- /tmp/docker-diff.20150416-25967-vnml9l.out	2015-04-16 00:03:15.362905414 +0900
-+++ /tmp/docker-diff.20150416-25967-orxudk.out	2015-04-16 00:03:15.974897634 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150419-22385-1qsb6pf.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150419-22385-ksrniu.out
+% diff -u /tmp/docker-diff.20150419-22385-1qsb6pf.out /tmp/docker-diff.20150419-22385-ksrniu.out
+--- /tmp/docker-diff.20150419-22385-1qsb6pf.out	2015-04-19 00:06:19.318051200 +0900
++++ /tmp/docker-diff.20150419-22385-ksrniu.out	2015-04-19 00:06:19.874047774 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -109,7 +109,7 @@
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-16            amd64             systemd utility library
+ ii  libsystemd0:amd64        215-17            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-3             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -146,8 +146,8 @@
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  215-16            amd64             system and service manager
--ii  systemd-sysv             215-16            amd64             system and service manager - SysV links
+-ii  systemd                  215-17            amd64             system and service manager
+-ii  systemd-sysv             215-17            amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
@@ -155,7 +155,7 @@
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     215-16            amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.488-7       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.488-7       amd64             Vi IMproved - enhanced vi editor - compact version
