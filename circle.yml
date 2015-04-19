@@ -7,9 +7,8 @@ machine:
 dependencies:
   cache_directories:
     - "~/.cache/docker"
-  override:
+  post:
     - docker info
-    - bundle install
     - if [ -d ~/.cache/docker ]; then ls -lahR ~/.cache/docker; fi
     - ./ci_util.rb list
     - ./ci_util.rb gc 86400
