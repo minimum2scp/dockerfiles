@@ -33,30 +33,30 @@ set :ssh_options, {
 ##     specinfra-2.12.3/lib/specinfra/helper/detect_os/debian.rb
 set :os, :family => 'debian', :arch => 'x86_64', :release => '8.0'
 
-RSpec.configure do |c|
-  c.before(:suite) do
-    ## start container before run suite
-    opts = {
-      'Image' => Specinfra.configuration.docker_image,
-      'Env'   => Specinfra.configuration.docker_envs,
-    }
-    container = ::Docker::Container.create(opts)
-    container.start
-    ## save container object to Specinfra.configuration
-    ## (to stop and delete container after suite)
-    set :docker_container_obj, container
+def start_container(opts)
+  ## start container before run test
+  container = ::Docker::Container.create(opts)
+  container.start
 
-    ## configure ssh
-    set :host, container.json['NetworkSettings']['IPAddress']
+  ## save container object to Specinfra.configuration
+  ## (to stop and delete container after suite)
+  set :docker_container_obj, container
 
-    ## wait for sshd in container start
-    sleep 3
-  end
+  ## configure ssh
+  set :host, container.json['NetworkSettings']['IPAddress']
 
-  c.after(:suite) do
-    ## stop and delete container after suite
-    container = Specinfra.configuration.docker_container_obj
-    container.delete(force: true)
+  ## wait for sshd in container start
+  sleep 3
+end
+
+def stop_container
+  ## stop and delete container after test
+  container = Specinfra.configuration.docker_container_obj
+  container.delete(force: true)
+
+  ## reset Net::SSH object for next test
+  Specinfra::Backend::Ssh.instance.instance_eval do
+    @config[:ssh] = nil
   end
 end
 
