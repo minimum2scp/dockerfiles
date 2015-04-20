@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150419-22385-1qsb6pf.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150419-22385-ksrniu.out
-% diff -u /tmp/docker-diff.20150419-22385-1qsb6pf.out /tmp/docker-diff.20150419-22385-ksrniu.out
---- /tmp/docker-diff.20150419-22385-1qsb6pf.out	2015-04-19 00:06:19.318051200 +0900
-+++ /tmp/docker-diff.20150419-22385-ksrniu.out	2015-04-19 00:06:19.874047774 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150421-23241-1rmizir.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150421-23241-2se3vt.out
+% diff -u /tmp/docker-diff.20150421-23241-1rmizir.out /tmp/docker-diff.20150421-23241-2se3vt.out
+--- /tmp/docker-diff.20150421-23241-1rmizir.out	2015-04-21 00:06:52.432437307 +0900
++++ /tmp/docker-diff.20150421-23241-2se3vt.out	2015-04-21 00:06:53.136434206 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -127,7 +127,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-6           amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.8-7           amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
@@ -194,9 +194,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.7p1-5         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-5         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.7p1-6         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.7p1-6         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.7p1-6         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-3          amd64             Larry Wall's Practical Extraction and Report Language
