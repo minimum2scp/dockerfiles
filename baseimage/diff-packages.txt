@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150421-23241-1rmizir.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150421-23241-2se3vt.out
-% diff -u /tmp/docker-diff.20150421-23241-1rmizir.out /tmp/docker-diff.20150421-23241-2se3vt.out
---- /tmp/docker-diff.20150421-23241-1rmizir.out	2015-04-21 00:06:52.432437307 +0900
-+++ /tmp/docker-diff.20150421-23241-2se3vt.out	2015-04-21 00:06:53.136434206 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150423-14842-n9hfug.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150423-14842-1eoigh3.out
+% diff -u /tmp/docker-diff.20150423-14842-n9hfug.out /tmp/docker-diff.20150423-14842-1eoigh3.out
+--- /tmp/docker-diff.20150423-14842-n9hfug.out	2015-04-23 00:15:58.381868425 +0900
++++ /tmp/docker-diff.20150423-14842-1eoigh3.out	2015-04-23 00:15:59.017862338 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -69,7 +69,7 @@
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
-+ii  libidn11:amd64           1.29-1+b2         amd64             GNU Libidn library, implementation of IETF IDN specif
++ii  libidn11:amd64           1.30-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
