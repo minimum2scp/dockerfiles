@@ -405,16 +405,16 @@ I: Configuring gnupg...
 I: Configuring apt...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
+Get:1 http://security.debian.org wheezy/updates Release.gpg [836 B]
 Hit http://ftp.jp.debian.org wheezy Release.gpg
-Get:1 http://ftp.jp.debian.org wheezy-updates Release.gpg [836 B]
+Get:2 http://security.debian.org wheezy/updates Release [102 kB]
+Get:3 http://ftp.jp.debian.org wheezy-updates Release.gpg [836 B]
 Hit http://ftp.jp.debian.org wheezy Release
-Get:2 http://ftp.jp.debian.org wheezy-updates Release [124 kB]
-Get:3 http://security.debian.org wheezy/updates Release.gpg [836 B]
-Get:4 http://ftp.jp.debian.org wheezy/main amd64 Packages [7625 kB]
-Get:5 http://security.debian.org wheezy/updates Release [102 kB]
-Get:6 http://security.debian.org wheezy/updates/main amd64 Packages [378 kB]
-Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [4437 B]
-Fetched 8236 kB in 5s (1616 kB/s)
+Get:4 http://ftp.jp.debian.org wheezy-updates Release [124 kB]
+Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [382 kB]
+Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7625 kB]
+Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [4369 B]
+Fetched 8240 kB in 5s (1531 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -423,9 +423,9 @@ The following packages will be upgraded:
   multiarch-support tzdata
 11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 12.3 MB of archives.
-After this operation, 108 kB disk space will be freed.
-Get:1 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015b-0wheezy1 [427 kB]
-Get:2 http://security.debian.org/ wheezy/updates/main dpkg amd64 1.16.16 [2662 kB]
+After this operation, 117 kB disk space will be freed.
+Get:1 http://security.debian.org/ wheezy/updates/main dpkg amd64 1.16.16 [2662 kB]
+Get:2 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015c-0+deb7u1 [429 kB]
 Get:3 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u8 [1274 kB]
 Get:4 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u8 [4335 kB]
 Get:5 http://security.debian.org/ wheezy/updates/main e2fslibs amd64 1.42.5-1.1+deb7u1 [197 kB]
@@ -435,7 +435,7 @@ Get:8 http://security.debian.org/ wheezy/updates/main libss2 amd64 1.42.5-1.1+de
 Get:9 http://security.debian.org/ wheezy/updates/main gpgv amd64 1.4.12-7+deb7u7 [228 kB]
 Get:10 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u7 [1956 kB]
 Get:11 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u8 [151 kB]
-Fetched 12.3 MB in 33s (369 kB/s)
+Fetched 12.3 MB in 6s (1924 kB/s)
 (Reading database ... 6714 files and directories currently installed.)
 Preparing to replace dpkg 1.16.15 (using .../dpkg_1.16.16_amd64.deb) ...
 Unpacking replacement dpkg ...
@@ -473,9 +473,9 @@ Preparing to replace gnupg 1.4.12-7+deb7u6 (using .../gnupg_1.4.12-7+deb7u7_amd6
 Unpacking replacement gnupg ...
 Setting up gnupg (1.4.12-7+deb7u7) ...
 (Reading database ... 6714 files and directories currently installed.)
-Preparing to replace tzdata 2014j-0wheezy1 (using .../tzdata_2015b-0wheezy1_all.deb) ...
+Preparing to replace tzdata 2014j-0wheezy1 (using .../tzdata_2015c-0+deb7u1_all.deb) ...
 Unpacking replacement tzdata ...
-Setting up tzdata (2015b-0wheezy1) ...
+Setting up tzdata (2015c-0+deb7u1) ...
 (Reading database ... 6714 files and directories currently installed.)
 Preparing to replace multiarch-support 2.13-38+deb7u6 (using .../multiarch-support_2.13-38+deb7u8_amd64.deb) ...
 Unpacking replacement multiarch-support ...
@@ -485,10 +485,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> e030c468d336
-Removing intermediate container e419e4443026
+ ---> 8a6c337be82d
+Removing intermediate container 45b379ac0297
 Step 2 : CMD /bin/bash
- ---> Running in 2c5a86e66b87
- ---> dd8314a4d64a
-Removing intermediate container 2c5a86e66b87
-Successfully built dd8314a4d64a
+ ---> Running in d56453d8ceb7
+ ---> 5ca4f07dbf03
+Removing intermediate container d56453d8ceb7
+Successfully built 5ca4f07dbf03
