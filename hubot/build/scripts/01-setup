@@ -47,14 +47,15 @@ sudo -u debian -H bash -l -c "git add start.sh && git commit -m 'add start.sh fo
 sudo -u debian -H bash -l -c "git config --global --unset user.email"
 
 ##
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
+##
+/opt/custom-installers/supervisor/install.sh
+
+##
 ## add hubot to supervisor
 ##
 install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/hubot.conf /etc/supervisor/conf.d/hubot.conf
 etckeeper commit "supervisor: add hubot"
 
-##
-## install supervisor
-## (see baseimage/build/opt/custom-installers)
-##
-/opt/custom-installers/supervisor/install.sh
 
