@@ -1,7 +1,7 @@
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v0.10.36 is installed with [ndenv](https://github.com/riywo/ndenv) (NDENV_ROOT=/opt/ndenv, see /etc/profile.d/ndenv.sh)
+ * node.js v0.10.36 is installed with [nvm](https://github.com/creationix/nvm)
 
 ## start container
 
