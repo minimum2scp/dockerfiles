@@ -51,7 +51,7 @@ debian     178   127  0 03:42 pts/0    R+     0:00              \_ ps -ef fww
 
 nvm is installed in `/opt/nvm`, and enabled by `/etc/profile.d/nvm.sh`.
 
-If you need root previlege, use `sudo bash -lc "..."`.
+If you need root privilege, use `sudo bash -lc "..."`.
 For example, install stable version of nodejs:
 
 ```
