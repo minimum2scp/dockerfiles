@@ -7,7 +7,7 @@ task :default => ['README.md']
 desc 'diff installed packages between debian:wheezy and minimum2scp/baseimage-wheezy'
 file 'diff-packages.txt' do |t|
   require 'tempfile'
-  image1, image2 = ENV.has_key?('IMAGES') ? ENV['IMAGES'].split(/,/,2) : ['debian:wheezy', 'minimum2scp/baseimage-wheezy:latest']
+  image1, image2 = ENV.has_key?('IMAGES') ? ENV['IMAGES'].split(/,/,2) : ['minimum2scp/debian-wheezy:latest', 'minimum2scp/baseimage-wheezy:latest']
   File.open(t.name, 'w'){|fh|
     cmd = "bash -c 'export LANG=C; export COLUMNS=120; dpkg -l'"
     tempfile1, tempfile2 = [image1, image2].map do |img|

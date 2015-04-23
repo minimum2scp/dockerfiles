@@ -60,12 +60,12 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm debian:wheezy bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-32668-gqxs99.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150412-32668-1fgewxm.out
-% diff -u /tmp/docker-diff.20150412-32668-gqxs99.out /tmp/docker-diff.20150412-32668-1fgewxm.out
---- /tmp/docker-diff.20150412-32668-gqxs99.out	2015-04-12 00:08:00.885850750 +0900
-+++ /tmp/docker-diff.20150412-32668-1fgewxm.out	2015-04-12 00:08:01.465845394 +0900
-@@ -3,26 +3,36 @@
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-29150-13cygny.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-29150-1s1hjnf.out
+% diff -u /tmp/docker-diff.20150424-29150-13cygny.out /tmp/docker-diff.20150424-29150-1s1hjnf.out
+--- /tmp/docker-diff.20150424-29150-13cygny.out	2015-04-24 00:13:48.322100369 +0900
++++ /tmp/docker-diff.20150424-29150-1s1hjnf.out	2015-04-24 00:13:48.938093192 +0900
+@@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
  +++-========================-=================-=================-=====================================================
@@ -80,15 +80,12 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  ca-certificates          20130119+deb7u1   all               Common CA certificates
  ii  coreutils                8.13-3.5          amd64             GNU core utilities
 +ii  cron                     3.0pl1-124        amd64             process scheduling daemon
-+ii  curl                     7.26.0-1+wheezy12 amd64             command line tool for transferring data with URL synt
++ii  curl                     7.26.0-1+wheezy13 amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-3           amd64             POSIX-compliant shell
  ii  debconf                  1.5.49            all               Debian configuration management system
  ii  debconf-i18n             1.5.49            all               full internationalization support for debconf
- ii  debian-archive-keyring   2014.3~deb7u1     all               GnuPG archive keys of the Debian archive
- ii  debianutils              4.3.2             amd64             Miscellaneous utilities specific to Debian
- ii  diffutils                1:3.2-6           amd64             File comparison utilities
--ii  dpkg                     1.16.15           amd64             Debian package management system
-+ii  dpkg                     1.16.16           amd64             Debian package management system
+@@ -18,11 +24,15 @@
+ ii  dpkg                     1.16.16           amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.5-1.1+deb7u1 amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.5-1.1+deb7u1 amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                0.63              all               store /etc in git, mercurial, bzr or darcs
@@ -118,8 +115,8 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  libcap2:amd64            1:2.22-1.2        amd64             support for getting/setting POSIX.1e capabilities
 +ii  libclass-isa-perl        0.36-3            all               report the search path for a class's ISA tree
  ii  libcomerr2:amd64         1.42.5-1.1+deb7u1 amd64             common error description library
-+ii  libcurl3:amd64           7.26.0-1+wheezy12 amd64             easy-to-use client-side URL transfer library (OpenSSL
-+ii  libcurl3-gnutls:amd64    7.26.0-1+wheezy12 amd64             easy-to-use client-side URL transfer library (GnuTLS 
++ii  libcurl3:amd64           7.26.0-1+wheezy13 amd64             easy-to-use client-side URL transfer library (OpenSSL
++ii  libcurl3-gnutls:amd64    7.26.0-1+wheezy13 amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.1:amd64           5.1.29-5          amd64             Berkeley v5.1 Database Libraries [runtime]
 +ii  libedit2:amd64           2.11-20080614-5   amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1            all               Perl module for error/exception handling in an OO-ish
@@ -163,7 +160,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  libssl1.0.0:amd64        1.0.1e-2+deb7u16  amd64             SSL shared libraries
  ii  libstdc++6:amd64         4.7.2-5           amd64             GNU Standard C++ Library v3
 +ii  libswitch-perl           2.16-2            all               switch statement for Perl
-+ii  libtasn1-3:amd64         2.13-2+deb7u1     amd64             Manage ASN.1 structures (runtime)
++ii  libtasn1-3:amd64         2.13-2+deb7u2     amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b1         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5             amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
@@ -202,7 +199,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
  ii  tar                      1.26+dfsg-0.1     amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015b-0wheezy1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015c-0+deb7u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0025+nmu3       all               Update Configuration File: preserve user changes to c
  ii  util-linux               2.20.1-5.3        amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.3.547-7       amd64             Vi IMproved - Common files
