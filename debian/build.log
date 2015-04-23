@@ -179,16 +179,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-16
-I: Validating libsystemd0 215-16
-I: Retrieving libudev1 215-16
-I: Validating libudev1 215-16
-I: Retrieving systemd 215-16
-I: Validating systemd 215-16
-I: Retrieving systemd-sysv 215-16
-I: Validating systemd-sysv 215-16
-I: Retrieving udev 215-16
-I: Validating udev 215-16
+I: Retrieving libsystemd0 215-17
+I: Validating libsystemd0 215-17
+I: Retrieving libudev1 215-17
+I: Validating libudev1 215-17
+I: Retrieving systemd 215-17
+I: Validating systemd 215-17
+I: Retrieving systemd-sysv 215-17
+I: Validating systemd-sysv 215-17
+I: Retrieving udev 215-17
+I: Validating udev 215-17
 I: Retrieving initscripts 2.88dsf-59
 I: Validating initscripts 2.88dsf-59
 I: Retrieving sysv-rc 2.88dsf-59
@@ -533,8 +533,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [257 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9543 kB]
-Fetched 9800 kB in 4s (2057 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9547 kB]
+Fetched 9804 kB in 5s (1739 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -544,10 +544,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> e0ad669797f5
-Removing intermediate container f160b6031621
+ ---> 3940f982ce85
+Removing intermediate container 363208593ce4
 Step 2 : CMD /bin/bash
- ---> Running in b03f54e3c8f8
- ---> d04d0399c4c3
-Removing intermediate container b03f54e3c8f8
-Successfully built d04d0399c4c3
+ ---> Running in 7fbad9df140d
+ ---> 557929ce070a
+Removing intermediate container 7fbad9df140d
+Successfully built 557929ce070a
