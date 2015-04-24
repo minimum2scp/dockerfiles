@@ -7,6 +7,7 @@ digraph deps {
   baseimage         [label = "minimum2scp/baseimage"];
   baseimage_wheezy  [label = "minimum2scp/baseimage-wheezy"];
   debian            [label = "minimum2scp/debian"];
+  debian_jessie     [label = "minimum2scp/debian-jessie"];
   debian_wheezy     [label = "minimum2scp/debian-wheezy"];
   es_kibana         [label = "minimum2scp/es-kibana"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];

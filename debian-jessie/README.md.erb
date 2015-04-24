@@ -1,0 +1,22 @@
+# about minimum2scp/debian-jessie image
+
+ * Debian jessie (8.x) amd64
+ * Almost same as debian:jessie image ([semi official debian image](https://registry.hub.docker.com/_/debian/))
+
+## build minimum2scp/debian-jessie image
+
+Run following commands on your Debian (requires debootstrap)
+
+```
+$ git clone https://github.com/minimum2scp/dockerfiles.git
+$ cd dockerfiles/debian-jessie
+$ rake mkimage TAG=minimum2scp/debian-jessie:latest
+```
+
+## packages
+
+installed packages (`docker run --rm minimum2scp/debian-jessie:latest bash -c "LANG=C COLUMNS=120 dpkg -l"`)
+
+```
+<%= File.read("debian-packages.txt").strip %>
+```
