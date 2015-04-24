@@ -8,11 +8,13 @@ export DEBIAN_FRONTEND=noninteractive
 packages="direnv redis-tools"
 apt-get install -y --no-install-recommends ${packages}
 
+## nvm nodejs version
+nodejs_version=0.10.36
+
 ##
 ## install hubot
 ##
-bash -l -c "npm install -g yo generator-hubot"
-bash -l -c "ndenv rehash"
+bash -l -c "nvm exec ${nodejs_version} npm install -g yo generator-hubot"
 
 ##
 ## install / configure hubot
@@ -28,14 +30,11 @@ install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubo
 sudo -u debian -H bash -l -c "git config --global user.email debian@`hostname`"
 
 ## create bot
-sudo -u debian -H bash -l -c "yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
+sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
 sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
 
-## rm old .node-version file
-sudo -u debian -H bash -l -c "rm ./node_modules/hubot/.node-version ./node_modules/hubot-scripts/.node-version"
-
 ## remove hubot-heroku-keepalive
-sudo -u debian -H bash -l -c "npm uninstall hubot-heroku-keepalive --save"
+sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} npm uninstall hubot-heroku-keepalive --save"
 sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
 sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
 

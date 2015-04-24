@@ -4,4 +4,4 @@ export HOME=/home/debian
 export LANG=ja_JP.UTF-8
 
 cd $HOME/hubot
-./bin/hubot -a slack -n hubot
+nvm exec 0.10.36 ./bin/hubot -a slack -n hubot
