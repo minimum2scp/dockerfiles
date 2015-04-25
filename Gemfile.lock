@@ -3,7 +3,7 @@ GEM
   specs:
     coderay (1.1.0)
     diff-lcs (1.2.5)
-    docker-api (1.21.1)
+    docker-api (1.21.2)
       excon (>= 0.38.0)
       json
     excon (0.45.3)
