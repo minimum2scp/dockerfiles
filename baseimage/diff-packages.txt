@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-9059-1r164tb.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-9059-qe44j9.out
-% diff -u /tmp/docker-diff.20150424-9059-1r164tb.out /tmp/docker-diff.20150424-9059-qe44j9.out
---- /tmp/docker-diff.20150424-9059-1r164tb.out	2015-04-24 00:00:18.738314755 +0900
-+++ /tmp/docker-diff.20150424-9059-qe44j9.out	2015-04-24 00:00:19.346317000 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150428-8163-1frj018.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150428-8163-xehrwz.out
+% diff -u /tmp/docker-diff.20150428-8163-1frj018.out /tmp/docker-diff.20150428-8163-xehrwz.out
+--- /tmp/docker-diff.20150428-8163-1frj018.out	2015-04-28 01:11:13.407789396 +0900
++++ /tmp/docker-diff.20150428-8163-xehrwz.out	2015-04-28 01:11:14.027788262 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -65,7 +65,7 @@
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-7           amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.14-2          amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
@@ -86,7 +86,7 @@
  ii  libncursesw5:amd64       5.9+20140913-1+b1 amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle4:amd64         2.7.1-5           amd64             low level cryptographic library (symmetric and one-wa
 +ii  libnewt0.52:amd64        0.52.17-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
-+ii  libp11-kit0:amd64        0.20.7-1          amd64             Library for loading and coordinating access to PKCS#1
++ii  libp11-kit0:amd64        0.23.1-2          amd64             Library for loading and coordinating access to PKCS#1
  ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
@@ -110,7 +110,7 @@
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17            amd64             systemd utility library
-+ii  libtasn1-6:amd64         4.2-3             amd64             Manage ASN.1 structures (runtime)
++ii  libtasn1-6:amd64         4.4-3             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
@@ -123,7 +123,7 @@
 +ii  locales                  2.19-18           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
-+ii  lv                       4.51-2.2          amd64             Powerful Multilingual File Viewer
++ii  lv                       4.51-2.3          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.25.2-6          amd64             Tools for mounting and manipulating filesystems
@@ -137,13 +137,13 @@
 +ii  openssh-sftp-server      1:6.7p1-6         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-+ii  perl                     5.20.2-3          amd64             Larry Wall's Practical Extraction and Report Language
- ii  perl-base                5.20.2-3          amd64             minimal Perl system
-+ii  perl-modules             5.20.2-3          all               Core Perl modules
++ii  perl                     5.20.2-4          amd64             Larry Wall's Practical Extraction and Report Language
+ ii  perl-base                5.20.2-4          amd64             minimal Perl system
++ii  perl-modules             5.20.2-4          all               Core Perl modules
  ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
- ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
+ ii  sed                      4.2.2-5           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 -ii  systemd                  215-17            amd64             system and service manager
@@ -153,12 +153,12 @@
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015d-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
-+ii  vim-common               2:7.4.488-7       amd64             Vi IMproved - Common files
-+ii  vim-tiny                 2:7.4.488-7       amd64             Vi IMproved - enhanced vi editor - compact version
++ii  vim-common               2:7.4.712-1       amd64             Vi IMproved - Common files
++ii  vim-tiny                 2:7.4.712-1       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-5           amd64             shell with lots of features
