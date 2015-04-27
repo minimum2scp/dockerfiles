@@ -35,7 +35,7 @@ ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant
 ii  debconf                  1.5.56            all               Debian configuration management system
 ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
 ii  debian-archive-keyring   2014.3            all               GnuPG archive keys of the Debian archive
-ii  debianutils              4.4+b1            amd64             Miscellaneous utilities specific to Debian
+ii  debianutils              4.5               amd64             Miscellaneous utilities specific to Debian
 ii  diffutils                1:3.3-1+b1        amd64             File comparison utilities
 ii  dmsetup                  2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
 ii  dpkg                     1.17.25           amd64             Debian package management system
@@ -113,10 +113,10 @@ ii  ncurses-base             5.9+20140913-1    all               basic terminal 
 ii  ncurses-bin              5.9+20140913-1+b1 amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-ii  perl-base                5.20.2-3          amd64             minimal Perl system
+ii  perl-base                5.20.2-4          amd64             minimal Perl system
 ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
-ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
+ii  sed                      4.2.2-5           amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
 ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 ii  systemd                  215-17            amd64             system and service manager
@@ -124,7 +124,7 @@ ii  systemd-sysv             215-17            amd64             system and serv
 ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
 ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
-ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
+ii  tzdata                   2015d-1           all               time zone and daylight-saving time data
 ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
 ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
