@@ -1,0 +1,9 @@
+#! /bin/sh
+
+##
+## reset user.email for etckeeper
+##
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  git config --global user.email "root@$HOSTNAME" 1>/dev/null 2>/dev/null
+fi
+
