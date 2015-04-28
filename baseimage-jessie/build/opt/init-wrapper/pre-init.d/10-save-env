@@ -1,0 +1,30 @@
+#! /bin/sh
+
+##
+## save environment variables to /etc/profile.d/00docker-env.sh
+##
+export -p | sed \
+  -e '/^export HOME=/d' \
+  -e '/^export HOSTNAME=/d' \
+  -e '/^export PATH=/d' \
+  -e '/^export PWD=/d' \
+  -e '/^export TERM=/d' \
+  -e '/^export USER_PASSWORD=/d' \
+  -e '/^export USER_SSH_KEY_URI=/d' \
+  -e '/^export ROOT_PASSWORD=/d' \
+  -e '/^export ROOT_SSH_KEY_URI=/d' \
+  -e '/^export CUSTOM_GROUP=/d' \
+  -e '/^export CUSTOM_GROUP_GID=/d' \
+  -e '/^export CUSTOM_USER=/d' \
+  -e '/^export CUSTOM_USER_UID=/d' \
+  -e '/^export CUSTOM_USER_GECOS=/d' \
+  -e '/^export CUSTOM_USER_SHELL=/d' \
+  -e '/^export CUSTOM_USER_PASSWORD=/d' \
+  -e '/^export CUSTOM_USER_SSH_KEY_URI=/d' \
+  -e '/^export APT_LINE=/d' \
+  -e '/^export APT_UPDATE=/d' \
+> /etc/profile.d/00docker-env.sh
+
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  etckeeper commit "add /etc/profile.d/00docker-env.sh" 1>/dev/null 2>/dev/null
+fi
