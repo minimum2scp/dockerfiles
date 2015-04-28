@@ -17,6 +17,15 @@ namespace :minimum2scp do
     sh "cd debian && rake clobber mkimage README.md #{tag} #{env}"
   end
 
+  desc 'build minimum2scp/debian-jessie image'
+  task :debian_jessie do
+    tag = ->(env, default){
+      env ? (!env.empty? ? "TAG=#{env}" : "") : "TAG=#{default}"
+    }[ENV['TAG_DEBIAN_JESSIE'], 'minimum2scp/debian-jessie:latest']
+    env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
+    sh "cd debian-jessie && rake clobber mkimage README.md #{tag} #{env}"
+  end
+
   desc 'build minimum2scp/debian-wheezy image'
   task :debian_wheezy do
     tag = ->(env, default){

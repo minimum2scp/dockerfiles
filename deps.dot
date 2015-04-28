@@ -5,8 +5,10 @@ digraph deps {
 
   acng              [label = "minimum2scp/apt-cacher-ng"];
   baseimage         [label = "minimum2scp/baseimage"];
+  baseimage_jessie  [label = "minimum2scp/baseimage-jessie"];
   baseimage_wheezy  [label = "minimum2scp/baseimage-wheezy"];
   debian            [label = "minimum2scp/debian"];
+  debian_jessie     [label = "minimum2scp/debian-jessie"];
   debian_wheezy     [label = "minimum2scp/debian-wheezy"];
   es_kibana         [label = "minimum2scp/es-kibana"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
@@ -18,6 +20,7 @@ digraph deps {
   rails4            [label = "minimum2scp/rails4"];
   ruby              [label = "minimum2scp/ruby"];
   ruby_full         [label = "minimum2scp/ruby-full"];
+  ruby_jessie       [label = "minimum2scp/ruby-jessie"];
   ruby_wheezy       [label = "minimum2scp/ruby-wheezy"];
   sphinx            [label = "minimum2scp/sphinx"];
   squid             [label = "minimum2scp/squid"];
@@ -28,6 +31,9 @@ digraph deps {
   baseimage -> {acng, es_kibana, nodejs, pb, ruby, sphinx, squid, systemd};
   ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, ruby_full};
   ruby_full -> {tdiary};
+
+  debian_jessie    -> baseimage_jessie;
+  baseimage_jessie -> ruby_jessie;
 
   debian_wheezy    -> baseimage_wheezy;
   baseimage_wheezy -> ruby_wheezy;
