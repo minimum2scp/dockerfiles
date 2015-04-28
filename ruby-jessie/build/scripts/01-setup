@@ -1,0 +1,18 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## packages: ruby2.1, and build tools
+packages="ruby ruby-dev rake"
+packages="$packages build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev"
+packages="$packages gem2deb"
+
+## install packages
+apt-get install --no-install-recommends -y ${packages}
+
+## install bundler, pry by gem command
+gem install bundler --version 1.8.5
+gem install pry
+

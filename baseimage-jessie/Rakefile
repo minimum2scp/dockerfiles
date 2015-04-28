@@ -1,0 +1,34 @@
+require 'rake/clean'
+
+CLOBBER.include 'README.md', 'diff-packages.txt'
+
+task :default => ['README.md']
+
+desc 'diff installed packages between minimum2scp/debian-jessie and minimum2scp/baseimage-jessie'
+file 'diff-packages.txt' do |t|
+  require 'tempfile'
+  image1, image2 = ENV.has_key?('IMAGES') ? ENV['IMAGES'].split(/,/,2) : ['minimum2scp/debian-jessie:latest', 'minimum2scp/baseimage-jessie:latest']
+  File.open(t.name, 'w'){|fh|
+    cmd = "bash -c 'export LANG=C; export COLUMNS=120; dpkg -l'"
+    tempfile1, tempfile2 = [image1, image2].map do |img|
+      t = Tempfile.new(["docker-diff.", ".out"])
+      t.close
+      run_cmd = "docker run --rm #{img} #{cmd} > #{t.path}"
+      fh << "% #{run_cmd}\n"
+      IO.popen(run_cmd){ |run_fh|
+        fh << run_fh.read
+      }
+      t
+    end
+    diff_cmd = "diff -u #{tempfile1.path} #{tempfile2.path}"
+    fh << "% #{diff_cmd}\n"
+    IO.popen(diff_cmd){|diff_fh|
+      fh << diff_fh.read
+    }
+  }
+end
+
+desc 'update README.md'
+file 'README.md' => ['README.md.erb', 'diff-packages.txt'] do |t|
+  sh "erb #{t.prerequisites.first} > #{t.name}"
+end
