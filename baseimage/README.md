@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150429-4191-17sebix.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150429-4191-1w81tap.out
-% diff -u /tmp/docker-diff.20150429-4191-17sebix.out /tmp/docker-diff.20150429-4191-1w81tap.out
---- /tmp/docker-diff.20150429-4191-17sebix.out	2015-04-29 01:18:03.335882303 +0900
-+++ /tmp/docker-diff.20150429-4191-1w81tap.out	2015-04-29 01:18:03.975877645 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150430-9595-oh9qcc.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150430-9595-1uhq2ts.out
+% diff -u /tmp/docker-diff.20150430-9595-oh9qcc.out /tmp/docker-diff.20150430-9595-1uhq2ts.out
+--- /tmp/docker-diff.20150430-9595-oh9qcc.out	2015-04-30 00:29:06.916671262 +0900
++++ /tmp/docker-diff.20150430-9595-1uhq2ts.out	2015-04-30 00:29:07.520667457 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -87,7 +87,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-13          amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64         5.1.1-1           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64         5.1.1-2           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.18-7          amd64             GNU privacy guard - a free PGP replacement
@@ -97,8 +97,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
  ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
--ii  init                     1.22              amd64             System-V-like init utilities - metapackage
-+ii  init                     1.23              amd64             System-V-like init utilities - metapackage
+ ii  init                     1.23              amd64             System-V-like init utilities - metapackage
 +ii  init-system-helpers      1.23              all               helper tools for all init systems
  ii  initscripts              2.88dsf-59        amd64             scripts for initializing and shutting down the system
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
@@ -125,7 +124,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:5.1.1-1         amd64             GCC support library
+ ii  libgcc1:amd64            1:5.1.1-2         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
@@ -172,7 +171,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         5.1.1-1           amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         5.1.1-2           amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.4-3             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
@@ -225,6 +224,6 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  vim-tiny                 2:7.4.712-1       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
-+ii  zsh                      5.0.7-5           amd64             shell with lots of features
-+ii  zsh-common               5.0.7-5           all               architecture independent files for Zsh
++ii  zsh                      5.0.7-6           amd64             shell with lots of features
++ii  zsh-common               5.0.7-6           all               architecture independent files for Zsh
 ```
