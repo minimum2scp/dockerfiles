@@ -8,6 +8,9 @@ export DEBIAN_FRONTEND=noninteractive
 packages="direnv redis-tools"
 apt-get install -y --no-install-recommends ${packages}
 
+## configure shell environment variable
+install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
+
 ## nvm nodejs version
 nodejs_version=0.10.36
 
@@ -17,44 +20,22 @@ nodejs_version=0.10.36
 bash -l -c "nvm exec ${nodejs_version} npm install -g yo generator-hubot"
 
 ##
-## install / configure hubot
+## install custom init scripts
 ##
-bot_dir=/home/debian/hubot
-sudo -u debian mkdir -p ${bot_dir}
-cd ${bot_dir}
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -executable \
+| while read f; do
+  install -m 755 -o root -g root -p -D ${f} ${f#/build}
+done
 
-## configure shell environment variable
-install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
-
-## configure git
-sudo -u debian -H bash -l -c "git config --global user.email debian@`hostname`"
-
-## create bot
-sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
-sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
-
-## remove hubot-heroku-keepalive
-sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} npm uninstall hubot-heroku-keepalive --save"
-sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
-sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
-
-## add hubot start script for supervisor
-install -m 755 -o debian -g debian -p /build/home/debian/hubot/start.sh /home/debian/hubot/start.sh
-sudo -u debian -H bash -l -c "git add start.sh && git commit -m 'add start.sh for supervisor'"
-
-## reset git config
-sudo -u debian -H bash -l -c "git config --global --unset user.email"
-
-##
-## install supervisor
-## (see baseimage/build/opt/custom-installers)
-##
-/opt/custom-installers/supervisor/install.sh
-
-##
-## add hubot to supervisor
-##
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/hubot.conf /etc/supervisor/conf.d/hubot.conf
-etckeeper commit "supervisor: add hubot"
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -not -executable \
+| while read f; do
+  install -m 644 -o root -g root -p -D ${f} ${f#/build}
+done
 
 

@@ -7,6 +7,7 @@ hubot:
   #environment:
   #  USER_SSH_KEY_URI: your-github-account-or-http://your-site/path/to/ssh-pubkey
   #  HUBOT_SLACK_TOKEN: *******
+  #  HUBOT_REPO_URI: https://github.com/yourname/your-hubot
 redis:
   image: redis:latest
   command: redis-server --appendonly yes --auto-aof-rewrite-min-size 32mb --auto-aof-rewrite-percentage 50

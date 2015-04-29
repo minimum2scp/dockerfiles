@@ -22,3 +22,4 @@ etckeeper commit "openssh-server: regenerate ssh host keys"
 apt-get update
 apt-get dist-upgrade --no-install-recommends -y
 
+
