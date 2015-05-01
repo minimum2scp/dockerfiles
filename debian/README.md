@@ -26,7 +26,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.9.9           amd64             commandline package manager
-ii  base-files               8                 amd64             Debian base system miscellaneous files
+ii  base-files               9                 amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.25.2-6        amd64             basic utilities from 4.4BSD-Lite
@@ -44,7 +44,7 @@ ii  e2fsprogs                1.42.12-1.1       amd64             ext2/ext3/ext4 
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.9-base:amd64       4.9.2-13          amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.9-base:amd64       4.9.2-15          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.1.1-2           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.18-7          amd64             GNU privacy guard - a free PGP replacement
 ii  gpgv                     1.4.18-7          amd64             GNU privacy guard - signature verification tool
