@@ -6,5 +6,6 @@ RUN run-parts --report --exit-on-error /build/scripts && rm -rf /build
 EXPOSE 22
 
 USER debian
+ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]
 CMD ["/bin/bash"]
 
