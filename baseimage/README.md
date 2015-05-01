@@ -60,13 +60,13 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150501-25438-x00v76.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150501-25438-ut34w1.out
-% diff -u /tmp/docker-diff.20150501-25438-x00v76.out /tmp/docker-diff.20150501-25438-ut34w1.out
---- /tmp/docker-diff.20150501-25438-x00v76.out	2015-05-01 00:49:54.927585080 +0900
-+++ /tmp/docker-diff.20150501-25438-ut34w1.out	2015-05-01 00:49:55.283583729 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-25230-irmjzt.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-25230-15infjn.out
+% diff -u /tmp/docker-diff.20150502-25230-irmjzt.out /tmp/docker-diff.20150502-25230-15infjn.out
+--- /tmp/docker-diff.20150502-25230-irmjzt.out	2015-05-02 00:33:36.077562786 +0900
++++ /tmp/docker-diff.20150502-25230-15infjn.out	2015-05-02 00:33:36.665562822 +0900
 @@ -9,8 +9,12 @@
- ii  base-files               8                 amd64             Debian base system miscellaneous files
+ ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
@@ -170,7 +170,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libsmartcols1:amd64      2.25.2-6          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
++ii  libssl1.0.0:amd64        1.0.2a-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.1.1-2           amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.4-3             amd64             Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  openssh-client           1:6.7p1-6         amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.7p1-6         amd64             secure shell (SSH) server, for secure access from rem
 +ii  openssh-sftp-server      1:6.7p1-6         amd64             secure shell (SSH) sftp server module, for SFTP acces
-+ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
++ii  openssl                  1.0.2a-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-4          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-4          amd64             minimal Perl system
@@ -220,8 +220,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
-+ii  vim-common               2:7.4.712-1       amd64             Vi IMproved - Common files
-+ii  vim-tiny                 2:7.4.712-1       amd64             Vi IMproved - enhanced vi editor - compact version
++ii  vim-common               2:7.4.712-2       amd64             Vi IMproved - Common files
++ii  vim-tiny                 2:7.4.712-2       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.7-6           amd64             shell with lots of features
