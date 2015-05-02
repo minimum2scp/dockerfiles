@@ -13,6 +13,8 @@ setup_new_hubot (){
   ## create bot
   sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
   sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
+  sudo -u debian -H bash -l -c "echo ${nodejs_version} > .nvmrc"
+  sudo -u debian -H bash -l -c "git add .nvmrc && git commit -m 'use nodejs ${nodejs_version}'"
 
   ## remove hubot-heroku-keepalive
   sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} npm uninstall hubot-heroku-keepalive --save"
@@ -27,7 +29,7 @@ setup_new_hubot (){
 		export LANG=ja_JP.UTF-8
 		
 		cd ${bot_dir}
-		nvm exec ${nodejs_version} ./bin/hubot -a slack -n hubot
+		exec ./bin/hubot -a slack -n hubot
 	EOF
   sudo install -m 755 -o debian -g debian -p /tmp/start.sh ${bot_dir}/start.sh
   sudo -u debian -H bash -l -c "git add start.sh && git commit -m 'add start.sh for supervisor'"
