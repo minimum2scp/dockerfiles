@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-29150-13cygny.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150424-29150-1s1hjnf.out
-% diff -u /tmp/docker-diff.20150424-29150-13cygny.out /tmp/docker-diff.20150424-29150-1s1hjnf.out
---- /tmp/docker-diff.20150424-29150-13cygny.out	2015-04-24 00:13:48.322100369 +0900
-+++ /tmp/docker-diff.20150424-29150-1s1hjnf.out	2015-04-24 00:13:48.938093192 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-13072-1ex0gqm.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-13072-eji8v7.out
+% diff -u /tmp/docker-diff.20150502-13072-1ex0gqm.out /tmp/docker-diff.20150502-13072-eji8v7.out
+--- /tmp/docker-diff.20150502-13072-1ex0gqm.out	2015-05-02 22:47:31.213650666 +0900
++++ /tmp/docker-diff.20150502-13072-eji8v7.out	2015-05-02 22:47:31.737653224 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -199,7 +199,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
  ii  tar                      1.26+dfsg-0.1     amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015c-0+deb7u1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015d-0+deb7u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0025+nmu3       all               Update Configuration File: preserve user changes to c
  ii  util-linux               2.20.1-5.3        amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.3.547-7       amd64             Vi IMproved - Common files
