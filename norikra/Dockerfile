@@ -5,5 +5,6 @@ COPY build /build
 RUN run-parts --report --exit-on-error /build/scripts && rm -rf /build
 EXPOSE 22 9001 26571 26578
 
-CMD ["/opt/init-wrapper/sbin/init"]
+ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]
+CMD ["/sbin/init"]
 
