@@ -126,7 +126,7 @@ describe 'minimum2scp/baseimage' do
     it { should be_directory }
   end
 
-  describe file('/opt/init-wrapper/sbin/init') do
+  describe file('/opt/init-wrapper/sbin/entrypoint.sh') do
     it { should be_executable }
   end
 
