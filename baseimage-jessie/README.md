@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150425-10269-2n48uc.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150425-10269-1u21mwv.out
-% diff -u /tmp/docker-diff.20150425-10269-2n48uc.out /tmp/docker-diff.20150425-10269-1u21mwv.out
---- /tmp/docker-diff.20150425-10269-2n48uc.out	2015-04-25 02:12:37.261752629 +0900
-+++ /tmp/docker-diff.20150425-10269-1u21mwv.out	2015-04-25 02:12:37.909748436 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-24849-1d1rcbf.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-24849-1yix7a.out
+% diff -u /tmp/docker-diff.20150502-24849-1d1rcbf.out /tmp/docker-diff.20150502-24849-1yix7a.out
+--- /tmp/docker-diff.20150502-24849-1d1rcbf.out	2015-05-02 22:31:40.817417766 +0900
++++ /tmp/docker-diff.20150502-24849-1yix7a.out	2015-05-02 22:31:41.457404889 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -74,7 +74,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  ca-certificates          20141019          all               Common CA certificates
  ii  coreutils                8.23-4            amd64             GNU core utilities
 +ii  cron                     3.0pl1-127        amd64             process scheduling daemon
-+ii  curl                     7.38.0-4+deb8u1   amd64             command line tool for transferring data with URL synt
++ii  curl                     7.38.0-4+deb8u2   amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
  ii  debconf                  1.5.56            all               Debian configuration management system
  ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
@@ -112,8 +112,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
-+ii  libcurl3:amd64           7.38.0-4+deb8u1   amd64             easy-to-use client-side URL transfer library (OpenSSL
-+ii  libcurl3-gnutls:amd64    7.38.0-4+deb8u1   amd64             easy-to-use client-side URL transfer library (GnuTLS 
++ii  libcurl3:amd64           7.38.0-4+deb8u2   amd64             easy-to-use client-side URL transfer library (OpenSSL
++ii  libcurl3-gnutls:amd64    7.38.0-4+deb8u2   amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
@@ -214,7 +214,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015c-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015d-0+deb8u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
