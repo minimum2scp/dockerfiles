@@ -8,6 +8,10 @@ export DEBIAN_FRONTEND=noninteractive
 packages="direnv redis-tools"
 apt-get install -y --no-install-recommends ${packages}
 
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
+/opt/custom-installers/supervisor/install.sh
+
 ## configure shell environment variable
 install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
 
