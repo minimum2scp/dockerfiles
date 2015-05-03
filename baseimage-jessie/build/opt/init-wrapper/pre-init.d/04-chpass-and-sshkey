@@ -15,8 +15,8 @@ change_password (){
   user=$1
   password=$2
   if [ -n "${user}" -a -n "${password}" ]; then
-    echo "${user}:${password}" | chpasswd
-    etckeeper commit "changed ${user} password"
+    echo "${user}:${password}" | chpasswd 1>/dev/null 2>/dev/null
+    etckeeper commit "changed ${user} password" 1>/dev/null 2>/dev/null
   fi
   unset user password
 }
@@ -39,19 +39,19 @@ add_ssh_key (){
       $sudo bash -c "umask 066 && touch $home/.ssh/authorized_keys"
     fi
 
-    $sudo bash -c "echo \"\" >> $home/.ssh/authorized_keys"
-    $sudo bash -c "echo \"## ${ssh_key_uri}\" >> $home/.ssh/authorized_keys"
+    $sudo bash -c "echo '' >> $home/.ssh/authorized_keys"
+    $sudo bash -c "echo '## ${ssh_key_uri}' >> $home/.ssh/authorized_keys"
     case "${ssh_key_uri}" in
       https?://*)
         curl -s -L -o - "${ssh_key_uri}" | $sudo bash -c "cat >> $home/.ssh/authorized_keys"
         ;;
       *)
-        if echo "${ssh_key_uri}" | grep -E '^[0-9a-zA-Z-]+$'; then
+        if echo "${ssh_key_uri}" | grep -E '^[0-9a-zA-Z-]+$' 1>/dev/null 2>/dev/null; then
           curl -s -L -o - "https://github.com/${ssh_key_uri}.keys" | $sudo bash -c "cat >> $home/.ssh/authorized_keys"
         fi
         ;;
     esac
-    $sudo bash -c "echo \"\" >> $home/.ssh/authorized_keys"
+    $sudo bash -c "echo '' >> $home/.ssh/authorized_keys"
   fi
   unset user ssh_key_uri home sudo
 }
