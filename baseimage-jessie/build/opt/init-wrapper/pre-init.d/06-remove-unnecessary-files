@@ -4,7 +4,7 @@
 ## see contrib/mkimage/debootstrap
 ##
 
-dpkg-divert --remove /sbin/initctl
+dpkg-divert --remove /sbin/initctl 1>/dev/null 2>/dev/null
 
 files=
 files="${files} /usr/sbin/policy-rc.d"

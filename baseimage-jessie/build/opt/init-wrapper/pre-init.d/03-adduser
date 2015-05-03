@@ -17,8 +17,8 @@ if [ -n "${CUSTOM_USER}" ]; then
   else
     group=${CUSTOM_USER}
   fi
-  addgroup ${CUSTOM_GROUP_GID+--gid ${CUSTOM_GROUP_GID}} ${group}
-  etckeeper commit "addgroup ${group}"
+  addgroup ${CUSTOM_GROUP_GID+--gid ${CUSTOM_GROUP_GID}} ${group} 1>/dev/null 2>/dev/null
+  etckeeper commit "addgroup ${group}" 1>/dev/null 2>/dev/null
 
   ## create user (without password, without sudo priv)
   adduser \
@@ -28,12 +28,12 @@ if [ -n "${CUSTOM_USER}" ]; then
     --shell ${CUSTOM_USER_SHELL-/bin/bash} \
     ${CUSTOM_USER_UID+--uid ${CUSTOM_USER_UID}} \
     --ingroup ${group} \
-    ${CUSTOM_USER}
-  etckeeper commit "adduser ${CUSTOM_USER}"
+    ${CUSTOM_USER} 1>/dev/null 2>/dev/null
+  etckeeper commit "adduser ${CUSTOM_USER}" 1>/dev/null 2>/dev/null
 
   ## add sudo priv
-  adduser ${CUSTOM_USER} sudo
-  adduser ${CUSTOM_USER} adm
-  etckeeper commit "add ${CUSTOM_USER} into sudo, adm group"
+  adduser ${CUSTOM_USER} sudo 1>/dev/null 2>/dev/null
+  adduser ${CUSTOM_USER} adm 1>/dev/null 2>/dev/null
+  etckeeper commit "add ${CUSTOM_USER} into sudo, adm group" 1>/dev/null 2>/dev/null
 fi
 

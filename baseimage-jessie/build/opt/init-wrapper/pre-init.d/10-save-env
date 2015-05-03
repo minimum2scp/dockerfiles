@@ -9,6 +9,8 @@ export -p | sed \
   -e '/^export PATH=/d' \
   -e '/^export PWD=/d' \
   -e '/^export TERM=/d' \
+  -e '/^export DEFAULT_LANG=/d' \
+  -e '/^export DEFAULT_TZ=/d' \
   -e '/^export USER_PASSWORD=/d' \
   -e '/^export USER_SSH_KEY_URI=/d' \
   -e '/^export ROOT_PASSWORD=/d' \
