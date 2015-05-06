@@ -46,8 +46,8 @@ ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Co
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-16          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.1.1-4           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gnupg                    1.4.18-7          amd64             GNU privacy guard - a free PGP replacement
-ii  gpgv                     1.4.18-7          amd64             GNU privacy guard - signature verification tool
+ii  gnupg                    1.4.19-2          amd64             GNU privacy guard - a free PGP replacement
+ii  gpgv                     1.4.19-2          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
 ii  gzip                     1.6-4             amd64             GNU compression utilities
 ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
