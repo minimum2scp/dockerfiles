@@ -104,7 +104,7 @@ ii  libtext-wrapi18n-perl    0.06-7            all               internationaliz
 ii  libtinfo5:amd64          5.9+20140913-1+b1 amd64             shared low-level terminfo library for terminal handli
 ii  libudev1:amd64           215-17            amd64             libudev shared library
 ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
-ii  libustr-1.0-1:amd64      1.0.4-3+b2        amd64             Micro string library: shared library
+ii  libustr-1.0-1:amd64      1.0.4-4           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.26.2-2          amd64             Universally Unique ID library
 ii  login                    1:4.2-3           amd64             system login tools
 ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
