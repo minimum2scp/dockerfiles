@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150508-24435-tdreud.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150508-24435-r3qmoh.out
-% diff -u /tmp/docker-diff.20150508-24435-tdreud.out /tmp/docker-diff.20150508-24435-r3qmoh.out
---- /tmp/docker-diff.20150508-24435-tdreud.out	2015-05-08 00:34:57.597256208 +0900
-+++ /tmp/docker-diff.20150508-24435-r3qmoh.out	2015-05-08 00:34:59.121199841 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150509-23457-h29kux.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150509-23457-xlm30e.out
+% diff -u /tmp/docker-diff.20150509-23457-h29kux.out /tmp/docker-diff.20150509-23457-xlm30e.out
+--- /tmp/docker-diff.20150509-23457-h29kux.out	2015-05-09 01:06:01.556845845 +0900
++++ /tmp/docker-diff.20150509-23457-xlm30e.out	2015-05-09 01:06:03.020793338 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -179,7 +179,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
 @@ -86,27 +127,46 @@
  ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
- ii  libustr-1.0-1:amd64      1.0.4-3+b2        amd64             Micro string library: shared library
+ ii  libustr-1.0-1:amd64      1.0.4-4           amd64             Micro string library: shared library
  ii  libuuid1:amd64           2.26.2-2          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
