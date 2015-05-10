@@ -1,9 +1,8 @@
 # about minimum2scp/baseimage image
 
  * based on [minimum2scp/debian](https://github.com/minimum2scp/dockerfiles/tree/master/debian) image
- * Runs `/opt/init-wrapper/sbin/entrypoint.sh /sbin/init` by default
-   * ENTRYPOINT is [/opt/init-wrapper/sbin/entrypoint.sh](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage/build/opt/init-wrapper/sbin/entrypoint.sh), and CMD is /sbin/init
-   * /opt/init-wrapper/sbin/entrypoint.sh invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage/build/opt/init-wrapper/sbin/init) by default
+   * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
    * /sbin/init is replaced by sysvinit-core package
    * /sbin/init invokes sshd, rsyslogd, cron daemons
    * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
@@ -61,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150509-23457-h29kux.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150509-23457-xlm30e.out
-% diff -u /tmp/docker-diff.20150509-23457-h29kux.out /tmp/docker-diff.20150509-23457-xlm30e.out
---- /tmp/docker-diff.20150509-23457-h29kux.out	2015-05-09 01:06:01.556845845 +0900
-+++ /tmp/docker-diff.20150509-23457-xlm30e.out	2015-05-09 01:06:03.020793338 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150511-29215-15qjb4u.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150511-29215-13j00z6.out
+% diff -u /tmp/docker-diff.20150511-29215-15qjb4u.out /tmp/docker-diff.20150511-29215-13j00z6.out
+--- /tmp/docker-diff.20150511-29215-15qjb4u.out	2015-05-11 00:28:34.417842125 +0900
++++ /tmp/docker-diff.20150511-29215-13j00z6.out	2015-05-11 00:28:35.753856116 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -88,7 +87,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-16          amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64         5.1.1-4           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64         5.1.1-5           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-2          amd64             GNU privacy guard - a free PGP replacement
@@ -125,7 +124,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.26.2-2          amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:5.1.1-4         amd64             GCC support library
+ ii  libgcc1:amd64            1:5.1.1-5         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
@@ -172,7 +171,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2a-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         5.1.1-4           amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         5.1.1-5           amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
