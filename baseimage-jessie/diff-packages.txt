@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-24849-1d1rcbf.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-24849-1yix7a.out
-% diff -u /tmp/docker-diff.20150502-24849-1d1rcbf.out /tmp/docker-diff.20150502-24849-1yix7a.out
---- /tmp/docker-diff.20150502-24849-1d1rcbf.out	2015-05-02 22:31:40.817417766 +0900
-+++ /tmp/docker-diff.20150502-24849-1yix7a.out	2015-05-02 22:31:41.457404889 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150512-24309-wueuqp.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150512-24309-bzjvoy.out
+% diff -u /tmp/docker-diff.20150512-24309-wueuqp.out /tmp/docker-diff.20150512-24309-bzjvoy.out
+--- /tmp/docker-diff.20150512-24309-wueuqp.out	2015-05-12 00:28:00.975220097 +0900
++++ /tmp/docker-diff.20150512-24309-bzjvoy.out	2015-05-12 00:28:02.619213382 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -109,7 +109,7 @@
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17            amd64             systemd utility library
-+ii  libtasn1-6:amd64         4.2-3             amd64             Manage ASN.1 structures (runtime)
++ii  libtasn1-6:amd64         4.2-3+deb8u1      amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
