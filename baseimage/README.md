@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150511-29215-15qjb4u.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150511-29215-13j00z6.out
-% diff -u /tmp/docker-diff.20150511-29215-15qjb4u.out /tmp/docker-diff.20150511-29215-13j00z6.out
---- /tmp/docker-diff.20150511-29215-15qjb4u.out	2015-05-11 00:28:34.417842125 +0900
-+++ /tmp/docker-diff.20150511-29215-13j00z6.out	2015-05-11 00:28:35.753856116 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150513-16766-1fqyg6b.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150513-16766-2r3cvw.out
+% diff -u /tmp/docker-diff.20150513-16766-1fqyg6b.out /tmp/docker-diff.20150513-16766-2r3cvw.out
+--- /tmp/docker-diff.20150513-16766-1fqyg6b.out	2015-05-13 00:12:32.545832297 +0900
++++ /tmp/docker-diff.20150513-16766-2r3cvw.out	2015-05-13 00:12:33.937631168 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -142,7 +142,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libldap-2.4-2:amd64      2.4.40+dfsg-1     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
-+ii  liblognorm1:amd64        1.0.1-3           amd64             Log normalizing library
++ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
  ii  libmount1:amd64          2.26.2-2          amd64             device mounting library
  ii  libncurses5:amd64        5.9+20140913-1+b1 amd64             shared libraries for terminal handling
@@ -205,7 +205,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl-modules             5.20.2-4          all               Core Perl modules
  ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
-+ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
++ii  rsyslog                  8.9.0-3           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-5           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
