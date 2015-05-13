@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150513-16766-1fqyg6b.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150513-16766-2r3cvw.out
-% diff -u /tmp/docker-diff.20150513-16766-1fqyg6b.out /tmp/docker-diff.20150513-16766-2r3cvw.out
---- /tmp/docker-diff.20150513-16766-1fqyg6b.out	2015-05-13 00:12:32.545832297 +0900
-+++ /tmp/docker-diff.20150513-16766-2r3cvw.out	2015-05-13 00:12:33.937631168 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150514-31060-bs9a68.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150514-31060-47zs0f.out
+% diff -u /tmp/docker-diff.20150514-31060-bs9a68.out /tmp/docker-diff.20150514-31060-47zs0f.out
+--- /tmp/docker-diff.20150514-31060-bs9a68.out	2015-05-14 00:38:22.722065939 +0900
++++ /tmp/docker-diff.20150514-31060-47zs0f.out	2015-05-14 00:38:24.054066464 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -96,7 +96,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  groff-base               1.22.3-1          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
- ii  inetutils-ping           2:1.9.2.39.3a460- amd64             ICMP echo tool
+ ii  inetutils-ping           2:1.9.3-1         amd64             ICMP echo tool
  ii  init                     1.23              amd64             System-V-like init utilities - metapackage
 +ii  init-system-helpers      1.23              all               helper tools for all init systems
  ii  initscripts              2.88dsf-59        amd64             scripts for initializing and shutting down the system
@@ -116,7 +116,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.42.1-2          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
- ii  libdebconfclient0:amd64  0.192             amd64             Debian Configuration Management System (C-implementat
+ ii  libdebconfclient0:amd64  0.193             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
