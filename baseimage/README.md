@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150514-31060-bs9a68.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150514-31060-47zs0f.out
-% diff -u /tmp/docker-diff.20150514-31060-bs9a68.out /tmp/docker-diff.20150514-31060-47zs0f.out
---- /tmp/docker-diff.20150514-31060-bs9a68.out	2015-05-14 00:38:22.722065939 +0900
-+++ /tmp/docker-diff.20150514-31060-47zs0f.out	2015-05-14 00:38:24.054066464 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150515-17574-1e2svnv.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150515-17574-10181y5.out
+% diff -u /tmp/docker-diff.20150515-17574-1e2svnv.out /tmp/docker-diff.20150515-17574-10181y5.out
+--- /tmp/docker-diff.20150515-17574-1e2svnv.out	2015-05-15 01:16:38.431423273 +0900
++++ /tmp/docker-diff.20150515-17574-10181y5.out	2015-05-15 01:16:39.963413310 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9                 amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -130,15 +130,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.15-2          amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
-+ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
++ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.30-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
-+ii  libk5crypto3:amd64       1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64       1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           20-1              amd64             libkmod shared library
-+ii  libkrb5-3:amd64          1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64    1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64          1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64    1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40+dfsg-1     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
