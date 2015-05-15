@@ -56,7 +56,7 @@ etckeeper commit "localepurge: purge locales other than en and ja"
 ## configure timezone
 ##
 echo "Asia/Tokyo" > /etc/timezone
-cp -a -L /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata
 etckeeper commit "set timezone"
 
 ##
