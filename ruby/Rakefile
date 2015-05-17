@@ -17,7 +17,7 @@ namespace :build_package do
   desc "build bundler custom deb package in container minimum2scp/baseimage:latest and put result files into /tmp"
   task :bundler do
     old_ver = '1.7.4'
-    new_ver = '1.8.5'
+    new_ver = '1.8.9'
     image = 'minimum2scp/baseimage:latest'
     cname = 'custom-deb-builder'
     dest = '/tmp'
