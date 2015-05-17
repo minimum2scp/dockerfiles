@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150517-7612-1igxa6u.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150517-7612-50cyig.out
-% diff -u /tmp/docker-diff.20150517-7612-1igxa6u.out /tmp/docker-diff.20150517-7612-50cyig.out
---- /tmp/docker-diff.20150517-7612-1igxa6u.out	2015-05-17 00:17:51.630445173 +0900
-+++ /tmp/docker-diff.20150517-7612-50cyig.out	2015-05-17 00:17:53.070435930 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150518-2824-lyzhzk.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150518-2824-10nzdd5.out
+% diff -u /tmp/docker-diff.20150518-2824-lyzhzk.out /tmp/docker-diff.20150518-2824-10nzdd5.out
+--- /tmp/docker-diff.20150518-2824-lyzhzk.out	2015-05-18 00:45:14.254487533 +0900
++++ /tmp/docker-diff.20150518-2824-10nzdd5.out	2015-05-18 00:45:15.622492633 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9.1               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -24,7 +24,7 @@
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-16          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.2-17          amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-5           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
@@ -138,9 +138,9 @@
 +ii  openssh-sftp-server      1:6.7p1-6         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.2a-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-+ii  perl                     5.20.2-4          amd64             Larry Wall's Practical Extraction and Report Language
- ii  perl-base                5.20.2-4          amd64             minimal Perl system
-+ii  perl-modules             5.20.2-4          all               Core Perl modules
++ii  perl                     5.20.2-6          amd64             Larry Wall's Practical Extraction and Report Language
+ ii  perl-base                5.20.2-6          amd64             minimal Perl system
++ii  perl-modules             5.20.2-6          all               Core Perl modules
  ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.9.0-3           amd64             reliable system and kernel logging daemon
