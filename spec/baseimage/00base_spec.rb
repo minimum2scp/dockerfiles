@@ -154,7 +154,7 @@ describe 'minimum2scp/baseimage' do
     it { should be_executable }
   end
 
-  describe file('/opt/init-wrapper/pre-init.d/05-aptline') do
+  describe file('/opt/init-wrapper/pre-init.d/05-apt') do
     it { should be_executable }
   end
 
