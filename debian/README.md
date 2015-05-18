@@ -26,7 +26,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.9.9           amd64             commandline package manager
-ii  base-files               9.1               amd64             Debian base system miscellaneous files
+ii  base-files               9.2               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.26.2-3        amd64             basic utilities from 4.4BSD-Lite
@@ -39,8 +39,8 @@ ii  debianutils              4.5               amd64             Miscellaneous u
 ii  diffutils                1:3.3-1+b1        amd64             File comparison utilities
 ii  dmsetup                  2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
 ii  dpkg                     1.17.25           amd64             Debian package management system
-ii  e2fslibs:amd64           1.42.12-1.1       amd64             ext2/ext3/ext4 file system libraries
-ii  e2fsprogs                1.42.12-1.1       amd64             ext2/ext3/ext4 file system utilities
+ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
+ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
@@ -67,7 +67,7 @@ ii  libc-bin                 2.19-18           amd64             GNU C Library: 
 ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
 ii  libcap2:amd64            1:2.24-8          amd64             POSIX 1003.1e capabilities (library)
 ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
-ii  libcomerr2:amd64         1.42.12-1.1       amd64             common error description library
+ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
 ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
 ii  libdebconfclient0:amd64  0.193             amd64             Debian Configuration Management System (C-implementat
@@ -95,7 +95,7 @@ ii  libsemanage1:amd64       2.3-1+b1          amd64             SELinux policy 
 ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
 ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
 ii  libsmartcols1:amd64      2.26.2-3          amd64             smart column output alignment library
-ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
+ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 ii  libstdc++6:amd64         5.1.1-5           amd64             GNU Standard C++ Library v3
 ii  libsystemd0:amd64        215-17            amd64             systemd utility library
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
