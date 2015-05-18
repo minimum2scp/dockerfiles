@@ -66,6 +66,7 @@ install_supervisor (){
 		redirect_stderr = true
 		stopasgroup = true
 		killasgroup = true
+		environment = USER="debian",HOME="/home/debian"
 	EOF
   install -m 644 -o root -g root -p /tmp/supervisor-hubot.conf /etc/supervisor/conf.d/hubot.conf
   etckeeper commit "supervisor: add hubot"
