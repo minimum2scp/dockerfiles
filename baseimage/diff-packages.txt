@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150519-26604-1h6r4cj.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150519-26604-c2lqgn.out
-% diff -u /tmp/docker-diff.20150519-26604-1h6r4cj.out /tmp/docker-diff.20150519-26604-c2lqgn.out
---- /tmp/docker-diff.20150519-26604-1h6r4cj.out	2015-05-19 01:33:38.333341603 +0900
-+++ /tmp/docker-diff.20150519-26604-c2lqgn.out	2015-05-19 01:33:39.669358288 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150520-22470-u2bzmg.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150520-22470-1oxex9h.out
+% diff -u /tmp/docker-diff.20150520-22470-u2bzmg.out /tmp/docker-diff.20150520-22470-1oxex9h.out
+--- /tmp/docker-diff.20150520-22470-u2bzmg.out	2015-05-20 00:13:05.549241657 +0900
++++ /tmp/docker-diff.20150520-22470-1oxex9h.out	2015-05-20 00:13:06.977030558 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -17,14 +17,14 @@
  ii  debconf                  1.5.56            all               Debian configuration management system
  ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
 @@ -21,18 +25,23 @@
- ii  dpkg                     1.17.25           amd64             Debian package management system
+ ii  dpkg                     1.18.0            amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-17          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.2-18          amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-5           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
