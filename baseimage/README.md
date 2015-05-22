@@ -60,18 +60,17 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150522-22061-6bsaby.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150522-22061-1m1b54n.out
-% diff -u /tmp/docker-diff.20150522-22061-6bsaby.out /tmp/docker-diff.20150522-22061-1m1b54n.out
---- /tmp/docker-diff.20150522-22061-6bsaby.out	2015-05-22 01:07:49.441533098 +0900
-+++ /tmp/docker-diff.20150522-22061-1m1b54n.out	2015-05-22 01:07:50.865566895 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150523-28520-kgn29c.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150523-28520-1dihvzn.out
+% diff -u /tmp/docker-diff.20150523-28520-kgn29c.out /tmp/docker-diff.20150523-28520-1dihvzn.out
+--- /tmp/docker-diff.20150523-28520-kgn29c.out	2015-05-23 01:35:12.287721435 +0900
++++ /tmp/docker-diff.20150523-28520-1dihvzn.out	2015-05-23 01:35:13.703762513 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
--ii  bsdutils                 1:2.26.2-3        amd64             basic utilities from 4.4BSD-Lite
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
-+ii  bsdutils                 1:2.26.2-4        amd64             basic utilities from 4.4BSD-Lite
+ ii  bsdutils                 1:2.26.2-5        amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20141019          all               Common CA certificates
  ii  coreutils                8.23-4            amd64             GNU core utilities
 +ii  cron                     3.0pl1-128        amd64             process scheduling daemon
@@ -79,7 +78,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
  ii  debconf                  1.5.56            all               Debian configuration management system
  ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
-@@ -21,19 +25,24 @@
+@@ -21,18 +25,23 @@
  ii  dpkg                     1.18.0            amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
@@ -99,23 +98,19 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
  ii  inetutils-ping           2:1.9.3-1         amd64             ICMP echo tool
  ii  init                     1.23              amd64             System-V-like init utilities - metapackage
--ii  initscripts              2.88dsf-59.1      amd64             scripts for initializing and shutting down the system
 +ii  init-system-helpers      1.23              all               helper tools for all init systems
-+ii  initscripts              2.88dsf-59.2      amd64             scripts for initializing and shutting down the system
+ ii  initscripts              2.88dsf-59.2      amd64             scripts for initializing and shutting down the system
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
- ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-@@ -41,7 +50,8 @@
- ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
+@@ -42,6 +51,7 @@
  ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
  ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
--ii  libblkid1:amd64          2.26.2-3          amd64             block device id library
-+ii  libblkid1:amd64          2.26.2-4          amd64             block device id library
+ ii  libblkid1:amd64          2.26.2-5          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-8           amd64             high-quality block-sorting file compressor library - 
  ii  libc-bin                 2.19-18           amd64             GNU C Library: Binaries
  ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
-@@ -49,35 +59,66 @@
+@@ -49,26 +59,54 @@
  ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
@@ -123,12 +118,11 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.193             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
--ii  libfdisk1:amd64          2.26.2-3          amd64             fdisk partitioning library
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.10-1          amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
-+ii  libfdisk1:amd64          2.26.2-4          amd64             fdisk partitioning library
+ ii  libfdisk1:amd64          2.26.2-5          amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:5.1.1-6         amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
@@ -150,10 +144,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
 +ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
--ii  libmount1:amd64          2.26.2-3          amd64             device mounting library
-+ii  libmount1:amd64          2.26.2-4          amd64             device mounting library
- ii  libncurses5:amd64        5.9+20150516-1    amd64             shared libraries for terminal handling
- ii  libncursesw5:amd64       5.9+20150516-1    amd64             shared libraries for terminal handling (wide characte
+ ii  libmount1:amd64          2.26.2-5          amd64             device mounting library
+ ii  libncurses5:amd64        5.9+20150516-2    amd64             shared libraries for terminal handling
+ ii  libncursesw5:amd64       5.9+20150516-2    amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle4:amd64         2.7.1-5           amd64             low level cryptographic library (symmetric and one-wa
 +ii  libnewt0.52:amd64        0.52.17-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
 +ii  libp11-kit0:amd64        0.23.1-2          amd64             Library for loading and coordinating access to PKCS#1
@@ -172,25 +165,22 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
  ii  libsemanage1:amd64       2.3-1+b1          amd64             SELinux policy management library
- ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
+@@ -76,8 +114,11 @@
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
--ii  libsmartcols1:amd64      2.26.2-3          amd64             smart column output alignment library
-+ii  libsmartcols1:amd64      2.26.2-4          amd64             smart column output alignment library
+ ii  libsmartcols1:amd64      2.26.2-5          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2a-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.1.1-6           amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-17            amd64             systemd utility library
+ ii  libsystemd0:amd64        215-18            amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
-@@ -85,28 +126,47 @@
- ii  libudev1:amd64           215-17            amd64             libudev shared library
+@@ -86,27 +127,46 @@
  ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
  ii  libustr-1.0-1:amd64      1.0.4-4           amd64             Micro string library: shared library
--ii  libuuid1:amd64           2.26.2-3          amd64             Universally Unique ID library
-+ii  libuuid1:amd64           2.26.2-4          amd64             Universally Unique ID library
+ ii  libuuid1:amd64           2.26.2-5          amd64             Universally Unique ID library
 +ii  libwrap0:amd64           7.6.q-25          amd64             Wietse Venema's TCP wrappers library
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
 +ii  locales                  2.19-18           all               GNU C Library: National Language (locale) data [suppo
@@ -199,11 +189,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  lv                       4.51-2.3          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.0.2-5         amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
--ii  mount                    2.26.2-3          amd64             Tools for mounting and manipulating filesystems
-+ii  mount                    2.26.2-4          amd64             Tools for mounting and manipulating filesystems
+ ii  mount                    2.26.2-5          amd64             Tools for mounting and manipulating filesystems
  ii  multiarch-support        2.19-18           amd64             Transitional package to ensure multiarch compatibilit
- ii  ncurses-base             5.9+20150516-1    all               basic terminal type definitions
- ii  ncurses-bin              5.9+20150516-1    amd64             terminal-related programs and man pages
+ ii  ncurses-base             5.9+20150516-2    all               basic terminal type definitions
+ ii  ncurses-bin              5.9+20150516-2    amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
 +ii  openssh-client           1:6.7p1-6         amd64             secure shell (SSH) client, for secure access to remot
@@ -220,20 +209,17 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sed                      4.2.2-5           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  215-17            amd64             system and service manager
--ii  systemd-sysv             215-17            amd64             system and service manager - SysV links
--ii  sysv-rc                  2.88dsf-59.1      all               System-V-like runlevel change mechanism
--ii  sysvinit-utils           2.88dsf-59.1      amd64             System-V-like utilities
+-ii  systemd                  215-18            amd64             system and service manager
+-ii  systemd-sysv             215-18            amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
-+ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
+ ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
-+ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
+ ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015d-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
--ii  util-linux               2.26.2-3          amd64             Miscellaneous system utilities
-+ii  util-linux               2.26.2-4          amd64             Miscellaneous system utilities
+ ii  udev                     215-18            amd64             /dev/ and hotplug management daemon
+ ii  util-linux               2.26.2-5          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.712-2       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.712-2       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
