@@ -44,6 +44,10 @@ describe file('/opt/init-wrapper/pre-init.d/06-remove-unnecessary-files') do
   it { should be_executable }
 end
 
+describe file('/opt/init-wrapper/pre-init.d/06-google-fluentd') do
+  it { should be_executable }
+end
+
 describe file('/opt/init-wrapper/pre-init.d/10-save-env') do
   it { should be_executable }
 end
