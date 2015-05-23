@@ -155,6 +155,10 @@ describe 'minimum2scp/baseimage-wheezy' do
     it { should be_executable }
   end
 
+  describe file('/opt/init-wrapper/pre-init.d/07-google-fluentd') do
+    it { should be_executable }
+  end
+
   describe file('/opt/init-wrapper/pre-init.d/10-save-env') do
     it { should be_executable }
   end
