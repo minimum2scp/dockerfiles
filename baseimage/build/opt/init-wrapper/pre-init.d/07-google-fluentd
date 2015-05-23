@@ -1,0 +1,18 @@
+#! /bin/bash
+
+create_post_init (){
+  script=/opt/init-wrapper/post-init.d/${0##*/}
+
+  echo "#! /bin/bash" > ${script}
+  sh -c "export -p" | grep -E '^export GOOGLE_FLUENTD_' >> ${script}
+  echo "exec /opt/custom-installers/google-fluentd/install.sh" >> ${script}
+
+  chmod 755 ${script}
+}
+
+case "${USE_GOOGLE_FLUENTD}" in
+  1|true|yes)
+    create_post_init
+    ;;
+esac
+
