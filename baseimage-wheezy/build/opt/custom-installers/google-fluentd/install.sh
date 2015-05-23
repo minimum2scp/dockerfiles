@@ -9,7 +9,6 @@
 ##   https://storage.googleapis.com/signals-agents/logging/google-fluentd-install.sh
 ##
 
-set -x
 set -e
 
 etckeeper_commit (){

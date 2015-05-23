@@ -1,7 +1,5 @@
 #! /bin/bash
 
-set -x
-
 create_post_init (){
   script=/opt/init-wrapper/post-init.d/${0##*/}
 
