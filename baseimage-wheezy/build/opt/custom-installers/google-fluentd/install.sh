@@ -14,7 +14,9 @@ set -e
 
 etckeeper_commit (){
   if dpkg-query -W etckeeper 1>/dev/null 2>/dev/null; then
-    etckeeper commit "$1" 1>/dev/null 2>/dev/null
+    if etckeeper unclean; then
+      etckeeper commit "$1" 1>/dev/null 2>/dev/null
+    fi
   fi
 }
 
@@ -94,7 +96,7 @@ set_param (){
   local param=$1
   local var=$2
   if [ -n "${var}" ]; then
-     sed -i -e 's@# ${param} xxx@${param} ${var}@' ${tmp_conf}
+     sed -i -e "s!# ${param} xxx!${param} ${var}!" ${tmp_conf}
   fi
 }
 
