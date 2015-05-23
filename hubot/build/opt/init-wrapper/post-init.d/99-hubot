@@ -61,8 +61,8 @@ install_supervisor (){
 		startsecs = 3
 		startretries = 5
 		user = debian
-		stdout_logfile = /var/log/supervisor/hubot.log
-		stderr_logfile = /var/log/supervisor/hubot.log
+		stdout_logfile = syslog
+		stderr_logfile = syslog
 		redirect_stderr = true
 		stopasgroup = true
 		killasgroup = true
