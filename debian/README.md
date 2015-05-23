@@ -25,7 +25,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-========================-=================-=================-=====================================================
 ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
-ii  apt                      1.0.9.9           amd64             commandline package manager
+ii  apt                      1.0.9.10          amd64             commandline package manager
 ii  base-files               9.2               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
 ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
@@ -45,7 +45,7 @@ ii  findutils                4.4.2-9+b1        amd64             utilities for f
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-18          amd64             GCC, the GNU Compiler Collection (base package)
-ii  gcc-5-base:amd64         5.1.1-6           amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-5-base:amd64         5.1.1-7           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.19-2          amd64             GNU privacy guard - a free PGP replacement
 ii  gpgv                     1.4.19-2          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
@@ -57,7 +57,7 @@ ii  initscripts              2.88dsf-59.2      amd64             scripts for ini
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
 ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
-ii  libapt-pkg4.12:amd64     1.0.9.9           amd64             package management runtime library
+ii  libapt-pkg4.12:amd64     1.0.9.10          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4-1+b1        amd64             Dynamic library for security auditing
@@ -73,7 +73,7 @@ ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 D
 ii  libdebconfclient0:amd64  0.193             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
 ii  libfdisk1:amd64          2.26.2-5          amd64             fdisk partitioning library
-ii  libgcc1:amd64            1:5.1.1-6         amd64             GCC support library
+ii  libgcc1:amd64            1:5.1.1-7         amd64             GCC support library
 ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 ii  libkmod2:amd64           20-1              amd64             libkmod shared library
@@ -96,7 +96,7 @@ ii  libsepol1:amd64          2.3-2             amd64             SELinux library
 ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
 ii  libsmartcols1:amd64      2.26.2-5          amd64             smart column output alignment library
 ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
-ii  libstdc++6:amd64         5.1.1-6           amd64             GNU Standard C++ Library v3
+ii  libstdc++6:amd64         5.1.1-7           amd64             GNU Standard C++ Library v3
 ii  libsystemd0:amd64        215-18            amd64             systemd utility library
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
