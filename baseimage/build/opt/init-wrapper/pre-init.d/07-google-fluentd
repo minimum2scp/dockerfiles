@@ -9,7 +9,7 @@
 ## - GOOGLE_FLUENTD_PRIVATE_KEY_PATH                   : config param "private_key_path" for fluent-plugin-google-cloud
 ## - GOOGLE_FLUENTD_PRIVATE_KEY_PASSPHRASE             : config param "private_key_passphrase" for fluent-plugin-google-cloud
 ## - GOOGLE_FLUENTD_PRIVATE_KEY_CONTENT_BASE64         : p12 file content with base64 encoded value
-## - GOOGLE_FLUENTD_USE_METADATA                       : config param "use_metadata_service" for fluent-plugin-google-cloud
+## - GOOGLE_FLUENTD_USE_METADATA_SERVICE               : config param "use_metadata_service" for fluent-plugin-google-cloud
 ## - GOOGLE_FLUENTD_PROJECT_ID                         : config param "project_id" for fluent-plugin-google-cloud
 ## - GOOGLE_FLUENTD_ZONE                               : config param "zone" for fluent-plugin-google-cloud
 ## - GOOGLE_FLUENTD_VM_ID                              : config param "vm_id" for fluent-plugin-google-cloud
