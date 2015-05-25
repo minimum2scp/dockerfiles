@@ -26,19 +26,25 @@ write_post_init (){
   echo "#! /bin/sh"     >  ${post_init_script}
 
   case "${APT_UPDATE}" in
-    1|true|yes|on) echo "apt-get update";;
-    *)             echo "#apt-get update";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      echo "apt-get update";;
+    *)
+      echo "#apt-get update";;
   esac \
   >> ${post_init_script}
 
   options=
   case "${APT_INSTALL_RECOMMENDS}" in
-    1|true|yes|on) options="$options --install-recommends";;
-    *)             options="$options --no-install-recommends";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-recommends";;
+    *)
+      options="$options --no-install-recommends";;
   esac
   case "${APT_INSTALL_SUGGESTS}" in
-    1|true|yes|on) options="$options --install-suggests";;
-    *)             options="$options --no-install-suggests";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-suggests";;
+    *)
+      options="$options --no-install-suggests";;
   esac
   if [ -n "${APT_INSTALL_PACKAGES}" ]; then
     echo "apt-get install -y ${options} ${APT_INSTALL_PACKAGES}"

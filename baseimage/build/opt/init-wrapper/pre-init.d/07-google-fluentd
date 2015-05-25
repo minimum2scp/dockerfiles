@@ -11,7 +11,7 @@ create_post_init (){
 }
 
 case "${USE_GOOGLE_FLUENTD}" in
-  1|true|yes|on)
+  1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
     create_post_init
     ;;
 esac
