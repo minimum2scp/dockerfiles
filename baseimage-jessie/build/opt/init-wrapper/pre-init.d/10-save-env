@@ -34,7 +34,7 @@ export -p | sed \
   -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_PATH=/d' \
   -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_PASSPHRASE=/d' \
   -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_CONTENT_BASE64=/d' \
-  -e '/^export GOOGLE_FLUENTD_USE_METADATA=/d' \
+  -e '/^export GOOGLE_FLUENTD_USE_METADATA_SERVICE=/d' \
   -e '/^export GOOGLE_FLUENTD_PROJECT_ID=/d' \
   -e '/^export GOOGLE_FLUENTD_ZONE=/d' \
   -e '/^export GOOGLE_FLUENTD_VM_ID=/d'
