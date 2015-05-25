@@ -15,6 +15,6 @@ install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/minimum2scp.list
 etckeeper commit "apt: add apt-line for minimum2scp.org (provides bundler ${bundler_version} custom build package)"
 
 ## install custom build bundler
-apt-get update
+apt-get update -o APT::Acquire::Retries=5
 apt-get install -y --no-install-recommends bundler=${bundler_version}-0custom1
 

@@ -8,7 +8,7 @@ export DEBIAN_FRONTEND=noninteractive
 curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
 install -m 644 -o root -g root -p /build/etc/apt/sources.list.d/elasticsearch.list /etc/apt/sources.list.d/elasticsearch.list
 etckeeper commit "apt: add elasticsearch apt-line"
-apt-get update
+apt-get update -o APT::Acquire::Retries=5
 
 ## install java and elasticsearch
 apt-get install --no-install-recommends -y default-jre-headless elasticsearch
