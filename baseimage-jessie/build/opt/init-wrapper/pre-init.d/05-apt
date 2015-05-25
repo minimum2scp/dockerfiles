@@ -3,10 +3,10 @@
 ## environment variables
 ##
 ##   - APT_LINE                : "keep", "jp", "http://foobar.example.org/debian/"
-##   - APT_UPDATE              : "yes", "true", 1 -> run apt-get update after init
+##   - APT_UPDATE              : "yes", "true", "on", 1 -> run apt-get update after init
 ##   - APT_INSTALL_PACKAGES    : "pkg1 pkg2=1.2-3 pkg3- ..."
-##   - APT_INSTALL_RECOMMENDS  : "yes", "true", 1
-##   - APT_INSTALL_SUGGESTS    : "yes", "true", 1
+##   - APT_INSTALL_RECOMMENDS  : "yes", "true", "on", 1
+##   - APT_INSTALL_SUGGESTS    : "yes", "true", "on", 1
 ##
 
 set -e
