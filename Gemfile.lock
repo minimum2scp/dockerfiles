@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/minimum2scp/specinfra.git
-  revision: a606d77b79e76eb72137c9100d1cf82c04c480b2
+  revision: 063085ed771a9799600d48aa8f4b8135e690028d
   branch: fix/debian-v8-with-sysvinit
   specs:
-    specinfra (2.33.1)
+    specinfra (2.34.4)
       net-scp
       net-ssh
 
