@@ -28,6 +28,16 @@ export -p | sed \
   -e '/^export APT_INSTALL_PACKAGES=/d' \
   -e '/^export APT_INSTALL_RECOMMENDS=/d' \
   -e '/^export APT_INSTALL_SUGGESTS=/d' \
+  -e '/^export USE_GOOGLE_FLUENTD=/d' \
+  -e '/^export GOOGLE_FLUENTD_AUTH_METHOD=/d' \
+  -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_EMAIL=/d' \
+  -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_PATH=/d' \
+  -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_PASSPHRASE=/d' \
+  -e '/^export GOOGLE_FLUENTD_PRIVATE_KEY_CONTENT_BASE64=/d' \
+  -e '/^export GOOGLE_FLUENTD_USE_METADATA_SERVICE=/d' \
+  -e '/^export GOOGLE_FLUENTD_PROJECT_ID=/d' \
+  -e '/^export GOOGLE_FLUENTD_ZONE=/d' \
+  -e '/^export GOOGLE_FLUENTD_VM_ID=/d'
 > /etc/profile.d/00docker-env.sh
 
 if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
