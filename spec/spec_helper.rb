@@ -1,5 +1,7 @@
 require 'serverspec'
 require 'docker'
+require 'timeout'
+require 'socket'
 
 ## show debug log
 if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
@@ -48,5 +50,13 @@ set :ssh_options, {
 set :os, :family => 'debian', :arch => 'x86_64', :release => '8.0'
 
 ## wait for sshd in container start
-sleep 3
+Timeout.timeout(60) do
+  begin
+    s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 22)
+    s.close
+  rescue Errno::ECONNREFUSED
+    sleep 1
+    retry
+  end
+end
 
