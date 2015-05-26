@@ -14,6 +14,7 @@ digraph deps {
   etcd              [label = "minimum2scp/etcd"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
   geminabox         [label = "minimum2scp/geminabox"];
+  hubot             [label = "minimum2scp/hubot"];
   mruby             [label = "minimum2scp/mruby"];
   nodejs            [label = "minimum2scp/nodejs"];
   norikra           [label = "minimum2scp/norikra"];
@@ -32,6 +33,7 @@ digraph deps {
   baseimage -> {acng, es_kibana, etcd, nodejs, pb, ruby, sphinx, squid, systemd};
   ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, ruby_full};
   ruby_full -> {tdiary};
+  nodejs    -> {hubot};
 
   debian_jessie    -> baseimage_jessie;
   baseimage_jessie -> ruby_jessie;
