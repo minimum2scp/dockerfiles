@@ -3,10 +3,10 @@
 ## environment variables
 ##
 ##   - APT_LINE                : "keep", "jp", "http://foobar.example.org/debian/"
-##   - APT_UPDATE              : "yes", "true", 1 -> run apt-get update after init
+##   - APT_UPDATE              : "yes", "true", "on", 1 -> run apt-get update after init
 ##   - APT_INSTALL_PACKAGES    : "pkg1 pkg2=1.2-3 pkg3- ..."
-##   - APT_INSTALL_RECOMMENDS  : "yes", "true", 1
-##   - APT_INSTALL_SUGGESTS    : "yes", "true", 1
+##   - APT_INSTALL_RECOMMENDS  : "yes", "true", "on", 1
+##   - APT_INSTALL_SUGGESTS    : "yes", "true", "on", 1
 ##
 
 set -e
@@ -26,19 +26,25 @@ write_post_init (){
   echo "#! /bin/sh"     >  ${post_init_script}
 
   case "${APT_UPDATE}" in
-    1|true|yes) echo "apt-get update";;
-    *)          echo "#apt-get update";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      echo "apt-get update";;
+    *)
+      echo "#apt-get update";;
   esac \
   >> ${post_init_script}
 
   options=
   case "${APT_INSTALL_RECOMMENDS}" in
-    1|true|yes) options="$options --install-recommends";;
-    *)          options="$options --no-install-recommends";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-recommends";;
+    *)
+      options="$options --no-install-recommends";;
   esac
   case "${APT_INSTALL_SUGGESTS}" in
-    1|true|yes) options="$options --install-suggests";;
-    *)          options="$options --no-install-suggests";;
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-suggests";;
+    *)
+      options="$options --no-install-suggests";;
   esac
   if [ -n "${APT_INSTALL_PACKAGES}" ]; then
     echo "apt-get install -y ${options} ${APT_INSTALL_PACKAGES}"

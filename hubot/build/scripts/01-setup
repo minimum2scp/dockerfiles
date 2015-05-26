@@ -1,0 +1,45 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## intall packages
+packages="direnv redis-tools"
+apt-get install -y --no-install-recommends ${packages}
+
+## install supervisor
+## (see baseimage/build/opt/custom-installers)
+/opt/custom-installers/supervisor/install.sh
+
+## configure shell environment variable
+install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
+
+## nvm nodejs version
+nodejs_version=0.10.36
+
+##
+## install hubot
+##
+bash -l -c "nvm exec ${nodejs_version} npm install -g yo generator-hubot"
+
+##
+## install custom init scripts
+##
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -executable \
+| while read f; do
+  install -m 755 -o root -g root -p -D ${f} ${f#/build}
+done
+
+find /build/opt/init-wrapper/sbin \
+     /build/opt/init-wrapper/pre-init.d \
+     /build/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -not -executable \
+| while read f; do
+  install -m 644 -o root -g root -p -D ${f} ${f#/build}
+done
+
+

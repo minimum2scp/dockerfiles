@@ -1,0 +1,22 @@
+hubot:
+  image: minimum2scp/hubot:latest
+  links:
+    - redis
+  ports:
+    - 8080:8080
+  # environment:
+  #   - USER_SSH_KEY_URI=your-github-account-or-http://your-site/path/to/ssh-pubkey
+  #   - HUBOT_SLACK_TOKEN=*******
+  #   - HUBOT_REPO_URI-https://github.com/yourname/your-hubot
+  #   - USE_GOOGLE_FLUENTD=yes
+  #   - GOOGLE_FLUENTD_AUTH_METHOD=private_key
+  #   - GOOGLE_FLUENTD_PRIVATE_KEY_EMAIL=xxxxxx@developer.gserviceaccount.com
+  #   - GOOGLE_FLUENTD_PRIVATE_KEY_CONTENT_BASE64=xxxxxxxxx # base64 -w0 your-service-account.p12
+  #   - GOOGLE_FLUENTD_USE_METADATA_SERVICE=false
+  #   - GOOGLE_FLUENTD_PROJECT_ID=xxx-xxx-123
+  #   - GOOGLE_FLUENTD_ZONE=asia-east1-a
+redis:
+  image: redis:latest
+  command: redis-server --appendonly yes --auto-aof-rewrite-min-size 32mb --auto-aof-rewrite-percentage 50
+  volumes:
+    - hubot-data:/data

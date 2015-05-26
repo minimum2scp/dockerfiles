@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150524-24465-1h5lu6c.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150524-24465-pm5hje.out
-% diff -u /tmp/docker-diff.20150524-24465-1h5lu6c.out /tmp/docker-diff.20150524-24465-pm5hje.out
---- /tmp/docker-diff.20150524-24465-1h5lu6c.out	2015-05-24 00:34:31.280434285 +0900
-+++ /tmp/docker-diff.20150524-24465-pm5hje.out	2015-05-24 00:34:32.700392854 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150527-29890-17kgpn6.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150527-29890-vqowj3.out
+% diff -u /tmp/docker-diff.20150527-29890-17kgpn6.out /tmp/docker-diff.20150527-29890-vqowj3.out
+--- /tmp/docker-diff.20150527-29890-17kgpn6.out	2015-05-27 00:06:38.132962645 +0900
++++ /tmp/docker-diff.20150527-29890-vqowj3.out	2015-05-27 00:06:39.468967337 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -144,7 +144,7 @@
  ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.9.0-3           amd64             reliable system and kernel logging daemon
- ii  sed                      4.2.2-5           amd64             The GNU sed stream editor
+ ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
 -ii  systemd                  215-18            amd64             system and service manager
