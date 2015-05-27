@@ -93,8 +93,8 @@ I: Retrieving gzip 1.6-4
 I: Validating gzip 1.6-4
 I: Retrieving hostname 3.15
 I: Validating hostname 3.15
-I: Retrieving inetutils-ping 2:1.9.3-1
-I: Validating inetutils-ping 2:1.9.3-1
+I: Retrieving inetutils-ping 2:1.9.3-2
+I: Validating inetutils-ping 2:1.9.3-2
 I: Retrieving init 1.23
 I: Validating init 1.23
 I: Retrieving insserv 1.14.0-5
@@ -157,8 +157,8 @@ I: Retrieving libpam-runtime 1.1.8-3.1
 I: Validating libpam-runtime 1.1.8-3.1
 I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
-I: Retrieving libpcre3 2:8.35-3.3
-I: Validating libpcre3 2:8.35-3.3
+I: Retrieving libpcre3 2:8.35-5
+I: Validating libpcre3 2:8.35-5
 I: Retrieving perl-base 5.20.2-6
 I: Validating perl-base 5.20.2-6
 I: Retrieving libprocps3 2:3.3.9-9
@@ -543,8 +543,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9665 kB]
-Fetched 9869 kB in 2s (3374 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9675 kB]
+Fetched 9879 kB in 60s (165 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -554,10 +554,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> e9384ddf48b4
-Removing intermediate container 38d747be1031
+ ---> f128102fe5da
+Removing intermediate container 63cd871eee6f
 Step 2 : CMD /bin/bash
- ---> Running in 5df7902782ed
- ---> 2c40ab29480d
-Removing intermediate container 5df7902782ed
-Successfully built 2c40ab29480d
+ ---> Running in b4609b0c9c34
+ ---> b9d718af5937
+Removing intermediate container b4609b0c9c34
+Successfully built b9d718af5937
