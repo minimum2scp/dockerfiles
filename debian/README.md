@@ -46,12 +46,12 @@ ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Co
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-18          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.1.1-7           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gnupg                    1.4.19-2          amd64             GNU privacy guard - a free PGP replacement
-ii  gpgv                     1.4.19-2          amd64             GNU privacy guard - signature verification tool
+ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
+ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
 ii  gzip                     1.6-4             amd64             GNU compression utilities
 ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
-ii  inetutils-ping           2:1.9.3-1         amd64             ICMP echo tool
+ii  inetutils-ping           2:1.9.3-2         amd64             ICMP echo tool
 ii  init                     1.23              amd64             System-V-like init utilities - metapackage
 ii  initscripts              2.88dsf-59.2      amd64             scripts for initializing and shutting down the system
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
@@ -86,7 +86,7 @@ ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authe
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
-ii  libpcre3:amd64           2:8.35-3.3        amd64             Perl 5 Compatible Regular Expression Library - runtim
+ii  libpcre3:amd64           2:8.35-5          amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps3:amd64         2:3.3.9-9         amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
