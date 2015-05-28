@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150528-23907-15hld7f.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150528-23907-17k07bt.out
-% diff -u /tmp/docker-diff.20150528-23907-15hld7f.out /tmp/docker-diff.20150528-23907-17k07bt.out
---- /tmp/docker-diff.20150528-23907-15hld7f.out	2015-05-28 00:17:08.545053518 +0900
-+++ /tmp/docker-diff.20150528-23907-17k07bt.out	2015-05-28 00:17:09.873062250 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150529-23108-1pnwqsj.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150529-23108-vdy0ld.out
+% diff -u /tmp/docker-diff.20150529-23108-1pnwqsj.out /tmp/docker-diff.20150529-23108-vdy0ld.out
+--- /tmp/docker-diff.20150529-23108-1pnwqsj.out	2015-05-29 00:48:30.945963917 +0900
++++ /tmp/docker-diff.20150529-23108-vdy0ld.out	2015-05-29 00:48:32.230007727 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -90,8 +90,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-5-base:amd64         5.1.1-7           amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
- ii  gnupg                    1.4.19-2          amd64             GNU privacy guard - a free PGP replacement
- ii  gpgv                     1.4.19-2          amd64             GNU privacy guard - signature verification tool
+ ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
+ ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
  ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
 +ii  groff-base               1.22.3-1          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
