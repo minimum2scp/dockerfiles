@@ -23,7 +23,6 @@ Desired=Unknown/Install/Remove/Purge/Hold
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
 ||/ Name                     Version           Architecture      Description
 +++-========================-=================-=================-=====================================================
-ii  acl                      2.2.52-2          amd64             Access control list utilities
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.9.10          amd64             commandline package manager
 ii  base-files               9.2               amd64             Debian base system miscellaneous files
@@ -38,13 +37,13 @@ ii  debian-archive-keyring   2014.3            all               GnuPG archive k
 ii  debianutils              4.5.1             amd64             Miscellaneous utilities specific to Debian
 ii  diffutils                1:3.3-1+b1        amd64             File comparison utilities
 ii  dmsetup                  2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
-ii  dpkg                     1.18.0            amd64             Debian package management system
+ii  dpkg                     1.18.1            amd64             Debian package management system
 ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.7-base:amd64       4.7.4-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.8-base:amd64       4.8.4-2           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.9-base:amd64       4.9.2-18          amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.9-base:amd64       4.9.2-19          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.1.1-8           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
 ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
@@ -57,6 +56,7 @@ ii  initscripts              2.88dsf-59.2      amd64             scripts for ini
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
 ii  iproute2                 3.16.0-2          amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
+ii  libapparmor1:amd64       2.9.2-3           amd64             changehat AppArmor library
 ii  libapt-pkg4.12:amd64     1.0.9.10          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4-1           all               Dynamic library for security auditing - common files
@@ -97,12 +97,12 @@ ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programm
 ii  libsmartcols1:amd64      2.26.2-5          amd64             smart column output alignment library
 ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 ii  libstdc++6:amd64         5.1.1-8           amd64             GNU Standard C++ Library v3
-ii  libsystemd0:amd64        215-18            amd64             systemd utility library
+ii  libsystemd0:amd64        220-2             amd64             systemd utility library
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
 ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
 ii  libtinfo5:amd64          5.9+20150516-2    amd64             shared low-level terminfo library for terminal handli
-ii  libudev1:amd64           215-18            amd64             libudev shared library
+ii  libudev1:amd64           220-2             amd64             libudev shared library
 ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
 ii  libustr-1.0-1:amd64      1.0.4-4           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.26.2-5          amd64             Universally Unique ID library
@@ -121,13 +121,13 @@ ii  readline-common          6.3-8             all               GNU readline an
 ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
 ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
-ii  systemd                  215-18            amd64             system and service manager
-ii  systemd-sysv             215-18            amd64             system and service manager - SysV links
+ii  systemd                  220-2             amd64             system and service manager
+ii  systemd-sysv             220-2             amd64             system and service manager - SysV links
 ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
 ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
 ii  tzdata                   2015d-1           all               time zone and daylight-saving time data
-ii  udev                     215-18            amd64             /dev/ and hotplug management daemon
+ii  udev                     220-2             amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.26.2-5          amd64             Miscellaneous system utilities
 ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 ```
