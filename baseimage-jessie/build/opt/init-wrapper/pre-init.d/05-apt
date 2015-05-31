@@ -17,7 +17,7 @@ fi
 
 change_apt_line (){
   uri=$1
-  sed -i -e "s@http://http\.debian\.net/debian/@${uri}@" /etc/apt/sources.list
+  sed -i -e "s@http://httpredir.debian.org/debian/@${uri}@" /etc/apt/sources.list
   etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
 }
 
@@ -62,7 +62,7 @@ write_post_init (){
 if [ -n "${APT_LINE}" ]; then
   case "${APT_LINE}" in
   keep)
-    # do nothing (use http.debian.net)
+    # do nothing (use httpredir.debian.org)
     :
     ;;
   jp)
