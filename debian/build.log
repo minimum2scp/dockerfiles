@@ -6,15 +6,15 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies: acl adduser dmsetup insserv libaudit-common libaudit1 libbz2-1.0 libcap2 libcap2-bin libcryptsetup4 libdb5.3 libdebconfclient0 libdevmapper1.02.1 libgcrypt20 libgpg-error0 libkmod2 libncursesw5 libprocps3 libsemanage-common libsemanage1 libslang2 libsystemd0 libudev1 libustr-1.0-1 procps systemd systemd-sysv udev 
+I: Found additional required dependencies: adduser dmsetup insserv libapparmor1 libaudit-common libaudit1 libbz2-1.0 libcap2 libcap2-bin libcryptsetup4 libdb5.3 libdebconfclient0 libdevmapper1.02.1 libgcrypt20 libgpg-error0 libkmod2 libncursesw5 libprocps3 libsemanage-common libsemanage1 libslang2 libsystemd0 libudev1 libustr-1.0-1 procps systemd systemd-sysv udev 
 I: Found additional base dependencies: debian-archive-keyring gnupg gpgv libapt-pkg4.12 libreadline6 libstdc++6 libusb-0.1-4 netbase readline-common 
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving acl 2.2.52-2
-I: Validating acl 2.2.52-2
 I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
+I: Retrieving libapparmor1 2.9.2-3
+I: Validating libapparmor1 2.9.2-3
 I: Retrieving apt 1.0.9.10
 I: Validating apt 1.0.9.10
 I: Retrieving libapt-pkg4.12 1.0.9.10
@@ -53,8 +53,8 @@ I: Retrieving debianutils 4.5.1
 I: Validating debianutils 4.5.1
 I: Retrieving diffutils 1:3.3-1+b1
 I: Validating diffutils 1:3.3-1+b1
-I: Retrieving dpkg 1.18.0
-I: Validating dpkg 1.18.0
+I: Retrieving dpkg 1.18.1
+I: Validating dpkg 1.18.1
 I: Retrieving e2fslibs 1.42.13-1
 I: Validating e2fslibs 1.42.13-1
 I: Retrieving e2fsprogs 1.42.13-1
@@ -69,14 +69,14 @@ I: Retrieving gcc-4.7-base 4.7.4-3
 I: Validating gcc-4.7-base 4.7.4-3
 I: Retrieving gcc-4.8-base 4.8.4-2
 I: Validating gcc-4.8-base 4.8.4-2
-I: Retrieving gcc-4.9-base 4.9.2-18
-I: Validating gcc-4.9-base 4.9.2-18
-I: Retrieving gcc-5-base 5.1.1-7
-I: Validating gcc-5-base 5.1.1-7
-I: Retrieving libgcc1 1:5.1.1-7
-I: Validating libgcc1 1:5.1.1-7
-I: Retrieving libstdc++6 5.1.1-7
-I: Validating libstdc++6 5.1.1-7
+I: Retrieving gcc-4.9-base 4.9.2-19
+I: Validating gcc-4.9-base 4.9.2-19
+I: Retrieving gcc-5-base 5.1.1-8
+I: Validating gcc-5-base 5.1.1-8
+I: Retrieving libgcc1 1:5.1.1-8
+I: Validating libgcc1 1:5.1.1-8
+I: Retrieving libstdc++6 5.1.1-8
+I: Validating libstdc++6 5.1.1-8
 I: Retrieving libc-bin 2.19-18
 I: Validating libc-bin 2.19-18
 I: Retrieving libc6 2.19-18
@@ -181,16 +181,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-18
-I: Validating libsystemd0 215-18
-I: Retrieving libudev1 215-18
-I: Validating libudev1 215-18
-I: Retrieving systemd 215-18
-I: Validating systemd 215-18
-I: Retrieving systemd-sysv 215-18
-I: Validating systemd-sysv 215-18
-I: Retrieving udev 215-18
-I: Validating udev 215-18
+I: Retrieving libsystemd0 220-2
+I: Validating libsystemd0 220-2
+I: Retrieving libudev1 220-2
+I: Validating libudev1 220-2
+I: Retrieving systemd 220-2
+I: Validating systemd 220-2
+I: Retrieving systemd-sysv 220-2
+I: Validating systemd-sysv 220-2
+I: Retrieving udev 220-2
+I: Validating udev 220-2
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -224,9 +224,9 @@ I: Validating liblzma5 5.1.1alpha+20120614-2+b3
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
 I: Validating zlib1g 1:1.2.8.dfsg-2+b1
 I: Chosen extractor for .deb packages: dpkg-deb
-I: Extracting acl...
 I: Extracting libacl1...
 I: Extracting adduser...
+I: Extracting libapparmor1...
 I: Extracting libattr1...
 I: Extracting libaudit-common...
 I: Extracting libaudit1...
@@ -321,9 +321,9 @@ I: Extracting liblzma5...
 I: Extracting zlib1g...
 I: Installing core packages...
 I: Unpacking required packages...
-I: Unpacking acl...
 I: Unpacking libacl1:amd64...
 I: Unpacking adduser...
+I: Unpacking libapparmor1:amd64...
 I: Unpacking libattr1:amd64...
 I: Unpacking libaudit-common...
 I: Unpacking libaudit1:amd64...
@@ -429,6 +429,7 @@ I: Configuring gcc-5-base:amd64...
 I: Configuring libc6:amd64...
 I: Configuring startpar...
 I: Configuring libbz2-1.0:amd64...
+I: Configuring libapparmor1:amd64...
 I: Configuring sysvinit-utils...
 I: Configuring libdebconfclient0:amd64...
 I: Configuring diffutils...
@@ -438,7 +439,6 @@ I: Configuring findutils...
 I: Configuring libustr-1.0-1:amd64...
 I: Configuring libsmartcols1:amd64...
 I: Configuring libtinfo5:amd64...
-I: Configuring libudev1:amd64...
 I: Configuring libss2:amd64...
 I: Configuring base-passwd...
 I: Configuring e2fslibs:amd64...
@@ -466,13 +466,13 @@ I: Configuring libdb5.3:amd64...
 I: Configuring zlib1g:amd64...
 I: Configuring libcap2:amd64...
 I: Configuring libsystemd0:amd64...
-I: Configuring libdevmapper1.02.1:amd64...
 I: Configuring libc-bin...
 I: Configuring libsemanage1:amd64...
 I: Configuring libacl1:amd64...
-I: Configuring acl...
+I: Configuring libudev1:amd64...
 I: Configuring libcap2-bin...
 I: Configuring bsdutils...
+I: Configuring libdevmapper1.02.1:amd64...
 I: Configuring coreutils...
 I: Configuring tar...
 I: Configuring dpkg...
@@ -543,21 +543,21 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9674 kB]
-Fetched 9877 kB in 10s (960 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9675 kB]
+Fetched 9879 kB in 3s (2582 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.08 MBSending build context to Docker daemon 30.16 MB
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.08 MBSending build context to Docker daemon 30.64 MBSending build context to Docker daemon  31.2 MBSending build context to Docker daemon 31.71 MB
 Sending build context to Docker daemon 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 841ae2ae8b2e
-Removing intermediate container 22b738333f57
+ ---> c8f9bb93f0e1
+Removing intermediate container cfecf92445fa
 Step 2 : CMD /bin/bash
- ---> Running in 99da8eb48a1c
- ---> c982131b7c5b
-Removing intermediate container 99da8eb48a1c
-Successfully built c982131b7c5b
+ ---> Running in 5cc0f8c6b49b
+ ---> fed068146b84
+Removing intermediate container 5cc0f8c6b49b
+Successfully built fed068146b84
