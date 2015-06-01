@@ -26,3 +26,16 @@ end
   end
 end
 
+describe file('/usr/bin/ruby') do
+  it { should be_symlink }
+  it { should be_linked_to('/etc/alternatives/ruby') }
+end
+
+describe file('/etc/alternatives/ruby') do
+  it { should be_symlink }
+  it { should be_linked_to('/usr/bin/ruby1.9.1') }
+end
+
+describe command('ruby -v') do
+  its(:sdtout) { should include 'ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]' }
+end
