@@ -37,5 +37,5 @@ describe file('/etc/alternatives/ruby') do
 end
 
 describe command('ruby -v') do
-  its(:sdtout) { should include 'ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]' }
+  its(:stdout) { should include 'ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]' }
 end
