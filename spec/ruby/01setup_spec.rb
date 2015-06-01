@@ -12,7 +12,7 @@ end
 
 describe file('/usr/bin/ruby') do
   it { should be_symlink }
-  it { should be_linked_to('/usr/bin/ruby2.1') }
+  it { should be_linked_to('ruby2.1') }
 end
 
 describe command('ruby2.1') do
