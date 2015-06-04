@@ -52,13 +52,7 @@ describe 'minimum2scp/ruby' do
   end
 
   describe file('/opt/rbenv/plugins/rbenv-default-gems') do
-    it { should be_directory }
-  end
-
-  describe file('/opt/rbenv/default-gems') do
-    it { should be_file }
-    its(:content){ should include 'bundler' }
-    its(:content){ should include 'pry' }
+    it { should_not be_directory }
   end
 
   describe file('/opt/rbenv/plugins/rbenv-gem-rehash') do
@@ -73,13 +67,7 @@ describe 'minimum2scp/ruby' do
     it { should be_directory }
   end
 
-
-  describe file('/etc/apt/sources.list.d/minimum2scp.list') do
-    it { should be_file }
-    its(:content) { should include 'deb     http://minimum2scp.org/repos/apt/debian sid main contrib non-free' }
-  end
-
   describe package('bundler') do
-    it { should be_installed.with_version('1.8.9-0custom1') }
+    it { should be_installed.with_version('1.9.9-1') }
   end
 end
