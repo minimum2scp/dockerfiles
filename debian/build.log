@@ -71,12 +71,12 @@ I: Retrieving gcc-4.8-base 4.8.4-2
 I: Validating gcc-4.8-base 4.8.4-2
 I: Retrieving gcc-4.9-base 4.9.2-20
 I: Validating gcc-4.9-base 4.9.2-20
-I: Retrieving gcc-5-base 5.1.1-8
-I: Validating gcc-5-base 5.1.1-8
-I: Retrieving libgcc1 1:5.1.1-8
-I: Validating libgcc1 1:5.1.1-8
-I: Retrieving libstdc++6 5.1.1-8
-I: Validating libstdc++6 5.1.1-8
+I: Retrieving gcc-5-base 5.1.1-9
+I: Validating gcc-5-base 5.1.1-9
+I: Retrieving libgcc1 1:5.1.1-9
+I: Validating libgcc1 1:5.1.1-9
+I: Retrieving libstdc++6 5.1.1-9
+I: Validating libstdc++6 5.1.1-9
 I: Retrieving libc-bin 2.19-18
 I: Validating libc-bin 2.19-18
 I: Retrieving libc6 2.19-18
@@ -181,16 +181,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 220-2
-I: Validating libsystemd0 220-2
-I: Retrieving libudev1 220-2
-I: Validating libudev1 220-2
-I: Retrieving systemd 220-2
-I: Validating systemd 220-2
-I: Retrieving systemd-sysv 220-2
-I: Validating systemd-sysv 220-2
-I: Retrieving udev 220-2
-I: Validating udev 220-2
+I: Retrieving libsystemd0 220-4
+I: Validating libsystemd0 220-4
+I: Retrieving libudev1 220-4
+I: Validating libudev1 220-4
+I: Retrieving systemd 220-4
+I: Validating systemd 220-4
+I: Retrieving systemd-sysv 220-4
+I: Validating systemd-sysv 220-4
+I: Retrieving udev 220-4
+I: Validating udev 220-4
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -543,8 +543,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9675 kB]
-Fetched 9879 kB in 3s (2936 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9686 kB]
+Fetched 9890 kB in 3s (2948 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -554,10 +554,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 958fb48922fe
-Removing intermediate container bfecfe19a5dc
+ ---> c7d01be72836
+Removing intermediate container 7a2fff2c05ec
 Step 2 : CMD /bin/bash
- ---> Running in 3f08c1f4f41f
- ---> 859afe519b17
-Removing intermediate container 3f08c1f4f41f
-Successfully built 859afe519b17
+ ---> Running in 69cab1568e2d
+ ---> 8677534ae9fd
+Removing intermediate container 69cab1568e2d
+Successfully built 8677534ae9fd

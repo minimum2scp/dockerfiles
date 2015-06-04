@@ -26,13 +26,7 @@ describe file('/opt/rbenv/plugins/ruby-build') do
 end
 
 describe file('/opt/rbenv/plugins/rbenv-default-gems') do
-  it { should be_directory }
-end
-
-describe file('/opt/rbenv/default-gems') do
-  it { should be_file }
-  its(:content){ should include 'bundler' }
-  its(:content){ should include 'pry' }
+  it { should_not be_directory }
 end
 
 describe file('/opt/rbenv/plugins/rbenv-gem-rehash') do
