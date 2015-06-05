@@ -106,5 +106,7 @@ EOS
 install -m 644 -o root -g root -p $tmpfile /etc/supervisor/conf.d/consul.conf
 rm $tmpfile
 
-supervisorctl update
+if [ -S /var/run/supervisor.sock -o -S /run/supervisor.sock ]; then
+  supervisorctl update
+fi
 
