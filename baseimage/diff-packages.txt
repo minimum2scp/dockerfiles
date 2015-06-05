@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150605-23789-iboyke.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150605-23789-bnwcni.out
-% diff -u /tmp/docker-diff.20150605-23789-iboyke.out /tmp/docker-diff.20150605-23789-bnwcni.out
---- /tmp/docker-diff.20150605-23789-iboyke.out	2015-06-05 00:37:12.815705538 +0900
-+++ /tmp/docker-diff.20150605-23789-bnwcni.out	2015-06-05 00:37:14.379708179 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150606-23990-rxtm0k.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150606-23990-1i6vzt.out
+% diff -u /tmp/docker-diff.20150606-23990-rxtm0k.out /tmp/docker-diff.20150606-23990-1i6vzt.out
+--- /tmp/docker-diff.20150606-23990-rxtm0k.out	2015-06-06 00:19:26.779166391 +0900
++++ /tmp/docker-diff.20150606-23990-1i6vzt.out	2015-06-06 00:19:28.103182331 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -67,7 +67,7 @@
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.15-5          amd64             GNU TLS library - main runtime library
- ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
+ ii  libgpg-error0:amd64      1.19-2            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed4:amd64        3.1.1-3           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.30-1            amd64             GNU Libidn library, implementation of IETF IDN specif
