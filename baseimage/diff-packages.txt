@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150606-23990-rxtm0k.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150606-23990-1i6vzt.out
-% diff -u /tmp/docker-diff.20150606-23990-rxtm0k.out /tmp/docker-diff.20150606-23990-1i6vzt.out
---- /tmp/docker-diff.20150606-23990-rxtm0k.out	2015-06-06 00:19:26.779166391 +0900
-+++ /tmp/docker-diff.20150606-23990-1i6vzt.out	2015-06-06 00:19:28.103182331 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150607-25532-uriou0.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150607-25532-ecmb50.out
+% diff -u /tmp/docker-diff.20150607-25532-uriou0.out /tmp/docker-diff.20150607-25532-ecmb50.out
+--- /tmp/docker-diff.20150607-25532-uriou0.out	2015-06-07 01:54:23.122684078 +0900
++++ /tmp/docker-diff.20150607-25532-ecmb50.out	2015-06-07 01:54:24.466670710 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -78,7 +78,7 @@
 +ii  libkrb5-3:amd64          1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40+dfsg-1+b2  amd64             OpenLDAP libraries
- ii  liblocale-gettext-perl   1.05-8+b1         amd64             module using libc functions for internationalization 
+ ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
 +ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
