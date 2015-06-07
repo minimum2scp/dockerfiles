@@ -7,9 +7,8 @@ machine:
 dependencies:
   cache_directories:
     - "~/.cache/docker"
-  override:
+  post:
     - docker info
-    - bundle install
     - if [ -d ~/.cache/docker ]; then ls -lahR ~/.cache/docker; fi
     - ./ci_util.rb list
     - ./ci_util.rb gc 86400
@@ -20,12 +19,4 @@ dependencies:
     - ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
     - ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
     - ./ci_util.rb build minimum2scp/ruby-wheezy:latest
-
-test:
-  override:
-    - bundle exec rake spec:baseimage
-    - bundle exec rake spec:ruby
-    - bundle exec rake spec:ruby-full
-    - bundle exec rake spec:baseimage-wheezy
-    - bundle exec rake spec:ruby-wheezy
 

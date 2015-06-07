@@ -1,5 +1,6 @@
 require 'serverspec'
 require 'docker'
+#require 'pry'
 require 'timeout'
 require 'socket'
 
@@ -21,23 +22,8 @@ if ENV['CIRCLECI']
   end
 end
 
-## start container before run spec
-raise "environment variable DOCKER_IMAGE required" unless ENV['DOCKER_IMAGE']
-opts = {
-  'Image' => ENV['DOCKER_IMAGE'],
-  'Env'   => [ 'APT_LINE=keep' ]
-}
-container = ::Docker::Container.create(opts)
-container.start
-
-## stop and delete container after spec
-at_exit {
-  container.delete(force: true)
-}
-
 ## configure ssh
 set :backend, :ssh
-set :host, container.json['NetworkSettings']['IPAddress']
 set :ssh_options, {
   :user     => 'debian',
   :password => 'debian',
@@ -49,14 +35,37 @@ set :ssh_options, {
 ##     specinfra-2.12.3/lib/specinfra/helper/detect_os/debian.rb
 set :os, :family => 'debian', :arch => 'x86_64', :release => '8.0'
 
-## wait for sshd in container start
-Timeout.timeout(60) do
-  begin
-    s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 22)
-    s.close
-  rescue Errno::ECONNREFUSED
-    sleep 1
-    retry
+def start_container(opts)
+  ## start container before run test
+  container = ::Docker::Container.create(opts)
+  container.start
+
+  ## save container object to Specinfra.configuration
+  ## (to stop and delete container after suite)
+  set :docker_container_obj, container
+
+  ## configure ssh
+  set :host, container.json['NetworkSettings']['IPAddress']
+
+  ## wait for sshd in container start
+  Timeout.timeout(60) do
+    begin
+      s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 22)
+      s.close
+    rescue Errno::ECONNREFUSED
+      sleep 1
+      retry
+    end
   end
 end
 
+def stop_container
+  ## stop and delete container after test
+  container = Specinfra.configuration.docker_container_obj
+  container.delete(force: true)
+
+  ## reset Net::SSH object for next test
+  Specinfra::Backend::Ssh.instance.instance_eval do
+    @config[:ssh] = nil
+  end
+end
