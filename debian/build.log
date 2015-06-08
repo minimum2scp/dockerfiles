@@ -21,10 +21,10 @@ I: Retrieving libapt-pkg4.12 1.0.9.10
 I: Validating libapt-pkg4.12 1.0.9.10
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
-I: Retrieving libaudit-common 1:2.4-1
-I: Validating libaudit-common 1:2.4-1
-I: Retrieving libaudit1 1:2.4-1+b1
-I: Validating libaudit1 1:2.4-1+b1
+I: Retrieving libaudit-common 1:2.4.2-1
+I: Validating libaudit-common 1:2.4.2-1
+I: Retrieving libaudit1 1:2.4.2-1
+I: Validating libaudit1 1:2.4.2-1
 I: Retrieving base-files 9.2
 I: Validating base-files 9.2
 I: Retrieving base-passwd 3.5.37
@@ -181,16 +181,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 220-4
-I: Validating libsystemd0 220-4
-I: Retrieving libudev1 220-4
-I: Validating libudev1 220-4
-I: Retrieving systemd 220-4
-I: Validating systemd 220-4
-I: Retrieving systemd-sysv 220-4
-I: Validating systemd-sysv 220-4
-I: Retrieving udev 220-4
-I: Validating udev 220-4
+I: Retrieving libsystemd0 220-5
+I: Validating libsystemd0 220-5
+I: Retrieving libudev1 220-5
+I: Validating libudev1 220-5
+I: Retrieving systemd 220-5
+I: Validating systemd 220-5
+I: Retrieving systemd-sysv 220-5
+I: Validating systemd-sysv 220-5
+I: Retrieving udev 220-5
+I: Validating udev 220-5
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -439,6 +439,7 @@ I: Configuring libcomerr2:amd64...
 I: Configuring findutils...
 I: Configuring libustr-1.0-1:amd64...
 I: Configuring libsmartcols1:amd64...
+I: Configuring libaudit1:amd64...
 I: Configuring libtinfo5:amd64...
 I: Configuring libss2:amd64...
 I: Configuring base-passwd...
@@ -458,7 +459,6 @@ I: Configuring libslang2:amd64...
 I: Configuring libsepol1:amd64...
 I: Configuring libgcc1:amd64...
 I: Configuring libncurses5:amd64...
-I: Configuring libaudit1:amd64...
 I: Configuring libattr1:amd64...
 I: Configuring liblzma5:amd64...
 I: Configuring libgcrypt20:amd64...
@@ -544,7 +544,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9698 kB]
-Fetched 9902 kB in 1min 7s (146 kB/s)
+Fetched 9901 kB in 3s (2724 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -554,10 +554,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 99588fd61bbc
-Removing intermediate container 93bc945f3be7
+ ---> e9a6ee256a88
+Removing intermediate container 83571b21caea
 Step 2 : CMD /bin/bash
- ---> Running in 927a0bc5904a
- ---> 8fcf9a326f39
-Removing intermediate container 927a0bc5904a
-Successfully built 8fcf9a326f39
+ ---> Running in 033347da00d9
+ ---> 8457ae04b50a
+Removing intermediate container 033347da00d9
+Successfully built 8457ae04b50a
