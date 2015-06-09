@@ -103,10 +103,10 @@ I: Retrieving iproute2 3.16.0-2
 I: Validating iproute2 3.16.0-2
 I: Retrieving libkmod2 20-1
 I: Validating libkmod2 20-1
-I: Retrieving libcap2 1:2.24-8
-I: Validating libcap2 1:2.24-8
-I: Retrieving libcap2-bin 1:2.24-8
-I: Validating libcap2-bin 1:2.24-8
+I: Retrieving libcap2 1:2.24-9
+I: Validating libcap2 1:2.24-9
+I: Retrieving libcap2-bin 1:2.24-9
+I: Validating libcap2-bin 1:2.24-9
 I: Retrieving libgcrypt20 1.6.3-2
 I: Validating libgcrypt20 1.6.3-2
 I: Retrieving libgpg-error0 1.19-2
@@ -543,8 +543,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9698 kB]
-Fetched 9901 kB in 3s (2724 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9700 kB]
+Fetched 9903 kB in 1min 5s (152 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -554,10 +554,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> e9a6ee256a88
-Removing intermediate container 83571b21caea
+ ---> a6f62c7102cd
+Removing intermediate container 6d08709aaddf
 Step 2 : CMD /bin/bash
- ---> Running in 033347da00d9
- ---> 8457ae04b50a
-Removing intermediate container 033347da00d9
-Successfully built 8457ae04b50a
+ ---> Running in b8661264b673
+ ---> cb7d1f6c2e5c
+Removing intermediate container b8661264b673
+Successfully built cb7d1f6c2e5c
