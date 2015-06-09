@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150609-21705-brqz0z.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150609-21705-18gn63u.out
-% diff -u /tmp/docker-diff.20150609-21705-brqz0z.out /tmp/docker-diff.20150609-21705-18gn63u.out
---- /tmp/docker-diff.20150609-21705-brqz0z.out	2015-06-09 00:07:23.880088423 +0900
-+++ /tmp/docker-diff.20150609-21705-18gn63u.out	2015-06-09 00:07:25.216186368 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150610-23742-1gvjs0t.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150610-23742-18ds80l.out
+% diff -u /tmp/docker-diff.20150610-23742-1gvjs0t.out /tmp/docker-diff.20150610-23742-18ds80l.out
+--- /tmp/docker-diff.20150610-23742-1gvjs0t.out	2015-06-10 00:17:23.262088251 +0900
++++ /tmp/docker-diff.20150610-23742-18ds80l.out	2015-06-10 00:17:24.650044686 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -49,7 +49,7 @@
  ii  libc-bin                 2.19-18           amd64             GNU C Library: Binaries
  ii  libc6:amd64              2.19-18           amd64             GNU C Library: Shared libraries
 @@ -49,26 +59,54 @@
- ii  libcap2-bin              1:2.24-8          amd64             POSIX 1003.1e capabilities (utilities)
+ ii  libcap2-bin              1:2.24-9          amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.42.1-3          amd64             easy-to-use client-side URL transfer library (GnuTLS 
