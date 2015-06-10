@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150610-23742-1gvjs0t.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150610-23742-18ds80l.out
-% diff -u /tmp/docker-diff.20150610-23742-1gvjs0t.out /tmp/docker-diff.20150610-23742-18ds80l.out
---- /tmp/docker-diff.20150610-23742-1gvjs0t.out	2015-06-10 00:17:23.262088251 +0900
-+++ /tmp/docker-diff.20150610-23742-18ds80l.out	2015-06-10 00:17:24.650044686 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-24382-1malvcp.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-24382-p2e14j.out
+% diff -u /tmp/docker-diff.20150611-24382-1malvcp.out /tmp/docker-diff.20150611-24382-p2e14j.out
+--- /tmp/docker-diff.20150611-24382-1malvcp.out	2015-06-11 04:55:55.604979544 +0900
++++ /tmp/docker-diff.20150611-24382-p2e14j.out	2015-06-11 04:55:56.996961970 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
