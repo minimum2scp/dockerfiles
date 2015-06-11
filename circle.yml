@@ -16,6 +16,9 @@ dependencies:
     - ./ci_util.rb build minimum2scp/baseimage:latest
     - ./ci_util.rb build minimum2scp/ruby:latest
     - ./ci_util.rb build minimum2scp/ruby-full:latest
+    - ./ci_util.rb pull  minimum2scp/debian-jessie:latest
+    - ./ci_util.rb build minimum2scp/baseimage-jessie:latest
+    - ./ci_util.rb build minimum2scp/ruby-jessie:latest
     - ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
     - ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
     - ./ci_util.rb build minimum2scp/ruby-wheezy:latest
