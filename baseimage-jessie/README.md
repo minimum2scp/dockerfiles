@@ -60,13 +60,13 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150512-24309-wueuqp.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150512-24309-bzjvoy.out
-% diff -u /tmp/docker-diff.20150512-24309-wueuqp.out /tmp/docker-diff.20150512-24309-bzjvoy.out
---- /tmp/docker-diff.20150512-24309-wueuqp.out	2015-05-12 00:28:00.975220097 +0900
-+++ /tmp/docker-diff.20150512-24309-bzjvoy.out	2015-05-12 00:28:02.619213382 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-6419-1srvu24.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-6419-1gvqsxa.out
+% diff -u /tmp/docker-diff.20150611-6419-1srvu24.out /tmp/docker-diff.20150611-6419-1gvqsxa.out
+--- /tmp/docker-diff.20150611-6419-1srvu24.out	2015-06-11 05:05:29.416557348 +0900
++++ /tmp/docker-diff.20150611-6419-1gvqsxa.out	2015-06-11 05:05:30.856534162 +0900
 @@ -9,8 +9,12 @@
- ii  base-files               8                 amd64             Debian base system miscellaneous files
+ ii  base-files               8+deb8u1          amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
  ii  bash                     4.3-11+b1         amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
@@ -126,7 +126,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-6           amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.8-6+deb8u1    amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
@@ -170,7 +170,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.4.3-4.1         amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        215-17            amd64             systemd utility library
+ ii  libsystemd0:amd64        215-17+deb8u1     amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-3+deb8u1      amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -198,17 +198,17 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
-+ii  perl                     5.20.2-3          amd64             Larry Wall's Practical Extraction and Report Language
- ii  perl-base                5.20.2-3          amd64             minimal Perl system
-+ii  perl-modules             5.20.2-3          all               Core Perl modules
++ii  perl                     5.20.2-3+deb8u1   amd64             Larry Wall's Practical Extraction and Report Language
+ ii  perl-base                5.20.2-3+deb8u1   amd64             minimal Perl system
++ii  perl-modules             5.20.2-3+deb8u1   all               Core Perl modules
  ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.4.2-1           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-4+b1        amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  215-17            amd64             system and service manager
--ii  systemd-sysv             215-17            amd64             system and service manager - SysV links
+-ii  systemd                  215-17+deb8u1     amd64             system and service manager
+-ii  systemd-sysv             215-17+deb8u1     amd64             system and service manager - SysV links
 +ii  sudo                     1.8.10p3-1+deb8u2 amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59        all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
@@ -216,7 +216,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015d-0+deb8u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     215-17            amd64             /dev/ and hotplug management daemon
+ ii  udev                     215-17+deb8u1     amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.488-7       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.488-7       amd64             Vi IMproved - enhanced vi editor - compact version
