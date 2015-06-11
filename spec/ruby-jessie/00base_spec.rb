@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'minimum2scp/ruby' do
+describe 'minimum2scp/ruby-jessie' do
   before(:all) do
     start_container({
       'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
@@ -12,17 +12,26 @@ describe 'minimum2scp/ruby' do
     stop_container
   end
 
-  #Dir["#{__dir__}/../baseimage/*_spec.rb"].sort.each do |spec|
+
+  #Dir["#{__dir__}/../baseimage-jessie/*_spec.rb"].sort.each do |spec|
   #  load spec
   #end
 
   %w[
-    ruby ruby-dev bundler rake pry
+    ruby ruby-dev rake
     build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev
     gem2deb
   ].each do |pkg|
     describe package(pkg) do
       it { should be_installed }
+    end
+  end
+
+  %w[
+    bundler pry
+  ].each do |pkg|
+    describe package(pkg) do
+      it { should be_installed.by('gem') }
     end
   end
 
@@ -74,9 +83,5 @@ describe 'minimum2scp/ruby' do
 
   describe file('/opt/rbenv/plugins/rbenv-update') do
     it { should be_directory }
-  end
-
-  describe package('bundler') do
-    it { should be_installed.with_version('1.9.9-1') }
   end
 end
