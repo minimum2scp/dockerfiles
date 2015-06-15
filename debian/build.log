@@ -71,12 +71,12 @@ I: Retrieving gcc-4.8-base 4.8.4-2
 I: Validating gcc-4.8-base 4.8.4-2
 I: Retrieving gcc-4.9-base 4.9.2-21
 I: Validating gcc-4.9-base 4.9.2-21
-I: Retrieving gcc-5-base 5.1.1-9
-I: Validating gcc-5-base 5.1.1-9
-I: Retrieving libgcc1 1:5.1.1-9
-I: Validating libgcc1 1:5.1.1-9
-I: Retrieving libstdc++6 5.1.1-9
-I: Validating libstdc++6 5.1.1-9
+I: Retrieving gcc-5-base 5.1.1-10
+I: Validating gcc-5-base 5.1.1-10
+I: Retrieving libgcc1 1:5.1.1-10
+I: Validating libgcc1 1:5.1.1-10
+I: Retrieving libstdc++6 5.1.1-10
+I: Validating libstdc++6 5.1.1-10
 I: Retrieving libc-bin 2.19-18
 I: Validating libc-bin 2.19-18
 I: Retrieving libc6 2.19-18
@@ -548,8 +548,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9718 kB]
-Fetched 9922 kB in 10s (965 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9723 kB]
+Fetched 9927 kB in 12s (768 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -559,10 +559,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> b936775329db
-Removing intermediate container 00fd600a05cd
+ ---> 0b735a0a5311
+Removing intermediate container 1d0aa2cb945b
 Step 2 : CMD /bin/bash
- ---> Running in 3c73c5a9a313
- ---> 064644837fef
-Removing intermediate container 3c73c5a9a313
-Successfully built 064644837fef
+ ---> Running in 7ce7a763d266
+ ---> b0c09d862036
+Removing intermediate container 7ce7a763d266
+Successfully built b0c09d862036
