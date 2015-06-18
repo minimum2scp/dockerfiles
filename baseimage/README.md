@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150618-24239-115s4tf.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150618-24239-5s5qgk.out
-% diff -u /tmp/docker-diff.20150618-24239-115s4tf.out /tmp/docker-diff.20150618-24239-5s5qgk.out
---- /tmp/docker-diff.20150618-24239-115s4tf.out	2015-06-18 01:13:54.934549476 +0900
-+++ /tmp/docker-diff.20150618-24239-5s5qgk.out	2015-06-18 01:13:56.434373849 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150619-23296-1t79pwx.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150619-23296-1fmd64c.out
+% diff -u /tmp/docker-diff.20150619-23296-1t79pwx.out /tmp/docker-diff.20150619-23296-1fmd64c.out
+--- /tmp/docker-diff.20150619-23296-1t79pwx.out	2015-06-19 00:09:25.535216595 +0900
++++ /tmp/docker-diff.20150619-23296-1fmd64c.out	2015-06-19 00:09:26.895223872 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -163,7 +163,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-13   amd64             Cyrus SASL - authentication abstraction library
 +ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-13   amd64             Cyrus SASL - pluggable authentication modules (DB)
  ii  libseccomp2:amd64        2.2.1-2           amd64             high level interface to Linux seccomp filter
- ii  libselinux1:amd64        2.3-2             amd64             SELinux runtime shared libraries
+ ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 @@ -77,8 +115,11 @@
  ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
@@ -172,7 +172,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2c-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.1.1-11          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        220-6             amd64             systemd utility library
+ ii  libsystemd0:amd64        220-7             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -209,8 +209,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  220-6             amd64             system and service manager
--ii  systemd-sysv             220-6             amd64             system and service manager - SysV links
+-ii  systemd                  220-7             amd64             system and service manager
+-ii  systemd-sysv             220-7             amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
@@ -218,7 +218,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015e-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     220-6             amd64             /dev/ and hotplug management daemon
+ ii  udev                     220-7             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.26.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.712-3       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.712-3       amd64             Vi IMproved - enhanced vi editor - compact version
