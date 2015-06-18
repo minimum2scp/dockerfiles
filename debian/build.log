@@ -115,12 +115,12 @@ I: Retrieving liblocale-gettext-perl 1.05-9
 I: Validating liblocale-gettext-perl 1.05-9
 I: Retrieving libseccomp2 2.2.1-2
 I: Validating libseccomp2 2.2.1-2
-I: Retrieving libselinux1 2.3-2
-I: Validating libselinux1 2.3-2
+I: Retrieving libselinux1 2.3-2+b1
+I: Validating libselinux1 2.3-2+b1
 I: Retrieving libsemanage-common 2.3-1
 I: Validating libsemanage-common 2.3-1
-I: Retrieving libsemanage1 2.3-1+b1
-I: Validating libsemanage1 2.3-1+b1
+I: Retrieving libsemanage1 2.3-1+b2
+I: Validating libsemanage1 2.3-1+b2
 I: Retrieving libsepol1 2.3-2
 I: Validating libsepol1 2.3-2
 I: Retrieving libtext-charwidth-perl 0.04-7+b3
@@ -183,16 +183,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 220-6
-I: Validating libsystemd0 220-6
-I: Retrieving libudev1 220-6
-I: Validating libudev1 220-6
-I: Retrieving systemd 220-6
-I: Validating systemd 220-6
-I: Retrieving systemd-sysv 220-6
-I: Validating systemd-sysv 220-6
-I: Retrieving udev 220-6
-I: Validating udev 220-6
+I: Retrieving libsystemd0 220-7
+I: Validating libsystemd0 220-7
+I: Retrieving libudev1 220-7
+I: Validating libudev1 220-7
+I: Retrieving systemd 220-7
+I: Validating systemd 220-7
+I: Retrieving systemd-sysv 220-7
+I: Validating systemd-sysv 220-7
+I: Retrieving udev 220-7
+I: Validating udev 220-7
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -548,8 +548,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9741 kB]
-Fetched 9944 kB in 1min 8s (144 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9740 kB]
+Fetched 9944 kB in 6s (1533 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -559,10 +559,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> f0717d30abfc
-Removing intermediate container f572dab0ffb0
+ ---> bf665288e076
+Removing intermediate container 062eef42b5f6
 Step 2 : CMD /bin/bash
- ---> Running in 45aa526ebb4d
- ---> 364bcbc9e443
-Removing intermediate container 45aa526ebb4d
-Successfully built 364bcbc9e443
+ ---> Running in 119c1cc66342
+ ---> 17d22eaa07f2
+Removing intermediate container 119c1cc66342
+Successfully built 17d22eaa07f2
