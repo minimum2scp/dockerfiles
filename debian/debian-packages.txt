@@ -74,7 +74,7 @@ ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime
 ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 ii  libsemanage1:amd64       2.3-1+b2          amd64             SELinux policy management library
 ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
-ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
+ii  libslang2:amd64          2.3.0-2+b1        amd64             S-Lang programming library - runtime version
 ii  libsmartcols1:amd64      2.26.2-6          amd64             smart column output alignment library
 ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 ii  libstdc++6:amd64         5.1.1-11          amd64             GNU Standard C++ Library v3
