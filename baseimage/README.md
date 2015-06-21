@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150621-25732-sszwsy.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150621-25732-1qu0jza.out
-% diff -u /tmp/docker-diff.20150621-25732-sszwsy.out /tmp/docker-diff.20150621-25732-1qu0jza.out
---- /tmp/docker-diff.20150621-25732-sszwsy.out	2015-06-21 00:33:25.558874003 +0900
-+++ /tmp/docker-diff.20150621-25732-1qu0jza.out	2015-06-21 00:33:26.938883627 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-28123-15b09k2.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-28123-kdf7dn.out
+% diff -u /tmp/docker-diff.20150622-28123-15b09k2.out /tmp/docker-diff.20150622-28123-kdf7dn.out
+--- /tmp/docker-diff.20150622-28123-15b09k2.out	2015-06-22 01:08:40.080620799 +0900
++++ /tmp/docker-diff.20150622-28123-kdf7dn.out	2015-06-22 01:08:41.492622611 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -166,7 +166,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 @@ -77,8 +115,11 @@
- ii  libslang2:amd64          2.3.0-2           amd64             S-Lang programming library - runtime version
+ ii  libslang2:amd64          2.3.0-2+b1        amd64             S-Lang programming library - runtime version
  ii  libsmartcols1:amd64      2.26.2-6          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
