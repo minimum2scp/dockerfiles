@@ -41,7 +41,7 @@ ii  dpkg                     1.18.1            amd64             Debian package 
 ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
-ii  gcc-4.8-base:amd64       4.8.4-4           amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.2-22          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.1.1-12          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
@@ -85,8 +85,8 @@ ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authe
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
 ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
-ii  libpcre3:amd64           2:8.35-6          amd64             Perl 5 Compatible Regular Expression Library - runtim
-ii  libprocps3:amd64         2:3.3.9-9         amd64             library for accessing process information from /proc
+ii  libpcre3:amd64           2:8.35-7          amd64             Perl 5 Compatible Regular Expression Library - runtim
+ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 ii  libseccomp2:amd64        2.2.1-2           amd64             high level interface to Linux seccomp filter
 ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
@@ -116,7 +116,7 @@ ii  ncurses-bin              5.9+20150516-2    amd64             terminal-relate
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 ii  perl-base                5.20.2-6          amd64             minimal Perl system
-ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
+ii  procps                   2:3.3.10-2        amd64             /proc file system utilities
 ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
