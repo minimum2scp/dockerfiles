@@ -65,3 +65,6 @@ DEPENDENCIES
   sqlite3
   text-table
   thor
+
+BUNDLED WITH
+   1.10.3

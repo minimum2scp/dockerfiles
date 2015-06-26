@@ -1,9 +1,8 @@
 # about minimum2scp/wheezy-baseimage image
 
  * based on minimum2scp/debian-wheezy image
- * Runs `/opt/init-wrapper/sbin/entrypoint.sh /sbin/init` by default
-   * ENTRYPOINT is [/opt/init-wrapper/sbin/entrypoint.sh](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-wheezy/build/opt/init-wrapper/sbin/entrypoint.sh), and CMD is /sbin/init
-   * /opt/init-wrapper/sbin/entrypoint.sh invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-wheezy/build/opt/init-wrapper/sbin/init) by default
+   * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
    * /sbin/init is replaced by sysvinit-core package
    * /sbin/init invokes sshd, rsyslogd, cron daemons
    * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
@@ -61,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-13072-1ex0gqm.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150502-13072-eji8v7.out
-% diff -u /tmp/docker-diff.20150502-13072-1ex0gqm.out /tmp/docker-diff.20150502-13072-eji8v7.out
---- /tmp/docker-diff.20150502-13072-1ex0gqm.out	2015-05-02 22:47:31.213650666 +0900
-+++ /tmp/docker-diff.20150502-13072-eji8v7.out	2015-05-02 22:47:31.737653224 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-22289-m9skpl.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-22289-1tbyahj.out
+% diff -u /tmp/docker-diff.20150622-22289-m9skpl.out /tmp/docker-diff.20150622-22289-1tbyahj.out
+--- /tmp/docker-diff.20150622-22289-m9skpl.out	2015-06-22 23:58:49.641144304 +0900
++++ /tmp/docker-diff.20150622-22289-1tbyahj.out	2015-06-22 23:58:50.785159717 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -158,7 +157,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  libslang2:amd64          2.2.4-15          amd64             S-Lang programming library - runtime version
  ii  libss2:amd64             1.42.5-1.1+deb7u1 amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.2-1.1+deb7u1  amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1e-2+deb7u16  amd64             SSL shared libraries
++ii  libssl1.0.0:amd64        1.0.1e-2+deb7u17  amd64             SSL shared libraries
  ii  libstdc++6:amd64         4.7.2-5           amd64             GNU Standard C++ Library v3
 +ii  libswitch-perl           2.16-2            all               switch statement for Perl
 +ii  libtasn1-3:amd64         2.13-2+deb7u2     amd64             Manage ASN.1 structures (runtime)
@@ -185,7 +184,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  netbase                  5.0               all               Basic TCP/IP networking system
 +ii  openssh-client           1:6.0p1-4+deb7u2  amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.0p1-4+deb7u2  amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssl                  1.0.1e-2+deb7u16  amd64             Secure Socket Layer (SSL) binary and related cryptogr
++ii  openssl                  1.0.1e-2+deb7u17  amd64             Secure Socket Layer (SSL) binary and related cryptogr
  ii  passwd                   1:4.1.5.1-1       amd64             change and administer password and group data
 +ii  perl                     5.14.2-21+deb7u2  amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.14.2-21+deb7u2  amd64             minimal Perl system
@@ -200,7 +199,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
  ii  tar                      1.26+dfsg-0.1     amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015d-0+deb7u1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015e-0+deb7u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0025+nmu3       all               Update Configuration File: preserve user changes to c
  ii  util-linux               2.20.1-5.3        amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.3.547-7       amd64             Vi IMproved - Common files

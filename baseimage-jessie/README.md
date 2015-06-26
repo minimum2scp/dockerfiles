@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-6419-1srvu24.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150611-6419-1gvqsxa.out
-% diff -u /tmp/docker-diff.20150611-6419-1srvu24.out /tmp/docker-diff.20150611-6419-1gvqsxa.out
---- /tmp/docker-diff.20150611-6419-1srvu24.out	2015-06-11 05:05:29.416557348 +0900
-+++ /tmp/docker-diff.20150611-6419-1gvqsxa.out	2015-06-11 05:05:30.856534162 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150620-27429-1vaymga.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150620-27429-1oyz5qi.out
+% diff -u /tmp/docker-diff.20150620-27429-1vaymga.out /tmp/docker-diff.20150620-27429-1oyz5qi.out
+--- /tmp/docker-diff.20150620-27429-1vaymga.out	2015-06-20 00:27:52.641984720 +0900
++++ /tmp/docker-diff.20150620-27429-1oyz5qi.out	2015-06-20 00:27:53.785976935 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8+deb8u1          amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -168,7 +168,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libsmartcols1:amd64      2.25.2-6          amd64             smart column output alignment library
  ii  libss2:amd64             1.42.12-1.1       amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.4.3-4.1         amd64             SSH2 client-side library
-+ii  libssl1.0.0:amd64        1.0.1k-3          amd64             Secure Sockets Layer toolkit - shared libraries
++ii  libssl1.0.0:amd64        1.0.1k-3+deb8u1   amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         4.9.2-10          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        215-17+deb8u1     amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.2-3+deb8u1      amd64             Manage ASN.1 structures (runtime)
@@ -196,7 +196,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  openssh-client           1:6.7p1-5         amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.7p1-5         amd64             secure shell (SSH) server, for secure access from rem
 +ii  openssh-sftp-server      1:6.7p1-5         amd64             secure shell (SSH) sftp server module, for SFTP acces
-+ii  openssl                  1.0.1k-3          amd64             Secure Sockets Layer toolkit - cryptographic utility
++ii  openssl                  1.0.1k-3+deb8u1   amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-3+deb8u1   amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-3+deb8u1   amd64             minimal Perl system
@@ -214,7 +214,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015d-0+deb8u1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015e-0+deb8u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-17+deb8u1     amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
