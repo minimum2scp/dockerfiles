@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150625-26636-189hurz.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150625-26636-maqwvm.out
-% diff -u /tmp/docker-diff.20150625-26636-189hurz.out /tmp/docker-diff.20150625-26636-maqwvm.out
---- /tmp/docker-diff.20150625-26636-189hurz.out	2015-06-25 01:19:27.109850372 +0900
-+++ /tmp/docker-diff.20150625-26636-maqwvm.out	2015-06-25 01:19:28.641879668 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150627-11804-12cjgqt.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150627-11804-1k0f2j6.out
+% diff -u /tmp/docker-diff.20150627-11804-12cjgqt.out /tmp/docker-diff.20150627-11804-1k0f2j6.out
+--- /tmp/docker-diff.20150627-11804-12cjgqt.out	2015-06-27 08:20:07.065034920 +0900
++++ /tmp/docker-diff.20150627-11804-1k0f2j6.out	2015-06-27 08:20:08.561041590 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -84,7 +84,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
- ii  gcc-4.8-base:amd64       4.8.4-4           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.2-22          amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-12          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
@@ -129,15 +129,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64  3.3.15-7          amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.19-2            amd64             library for common error values and messages in GnuPG
-+ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
++ii  libgssapi-krb5-2:amd64   1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed4:amd64        3.1.1-3           amd64             low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64           1.30-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
-+ii  libk5crypto3:amd64       1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           20-1              amd64             libkmod shared library
-+ii  libkrb5-3:amd64          1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64    1.12.1+dfsg-20    amd64             MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40+dfsg-1+b2  amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
@@ -153,10 +153,10 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
  ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
- ii  libpcre3:amd64           2:8.35-6          amd64             Perl 5 Compatible Regular Expression Library - runtim
+ ii  libpcre3:amd64           2:8.35-7          amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
- ii  libprocps3:amd64         2:3.3.9-9         amd64             library for accessing process information from /proc
+ ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
  ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20150115.gita amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-13   amd64             Cyrus SASL - authentication abstraction library
@@ -202,7 +202,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl                     5.20.2-6          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-6          amd64             minimal Perl system
 +ii  perl-modules             5.20.2-6          all               Core Perl modules
- ii  procps                   2:3.3.9-9         amd64             /proc file system utilities
+ ii  procps                   2:3.3.10-2        amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.9.0-3           amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
