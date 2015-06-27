@@ -10,6 +10,7 @@
 ##
 
 set -e
+post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
 
 if [ -z "${APT_LINE}" ]; then
   APT_LINE=jp
@@ -18,11 +19,18 @@ fi
 change_apt_line (){
   uri=$1
   sed -i -e "s@http://httpredir\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
-  etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
+  if etckeeper unclean; then
+    etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
+  fi
+}
+
+clear_post_init (){
+  if [ -f ${post_init_script} ]; then
+    : > ${post_init_script}
+  fi
 }
 
 write_post_init (){
-  post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
   echo "#! /bin/sh"     >  ${post_init_script}
 
   case "${APT_UPDATE}" in
@@ -74,5 +82,6 @@ if [ -n "${APT_LINE}" ]; then
   esac
 fi
 
+clear_post_init
 write_post_init
 
