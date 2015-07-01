@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-17339-yfqwk6.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-17339-wzbmg9.out
-% diff -u /tmp/docker-diff.20150702-17339-yfqwk6.out /tmp/docker-diff.20150702-17339-wzbmg9.out
---- /tmp/docker-diff.20150702-17339-yfqwk6.out	2015-07-02 00:21:36.186307238 +0900
-+++ /tmp/docker-diff.20150702-17339-wzbmg9.out	2015-07-02 00:21:37.370307563 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-5937-zbb85p.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-5937-dxjer8.out
+% diff -u /tmp/docker-diff.20150702-5937-zbb85p.out /tmp/docker-diff.20150702-5937-dxjer8.out
+--- /tmp/docker-diff.20150702-5937-zbb85p.out	2015-07-02 02:37:07.995913260 +0900
++++ /tmp/docker-diff.20150702-5937-dxjer8.out	2015-07-02 02:37:09.631928744 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -23,7 +23,7 @@
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.2-22          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.3-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-12          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
