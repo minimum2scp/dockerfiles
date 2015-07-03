@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-5937-zbb85p.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150702-5937-dxjer8.out
-% diff -u /tmp/docker-diff.20150702-5937-zbb85p.out /tmp/docker-diff.20150702-5937-dxjer8.out
---- /tmp/docker-diff.20150702-5937-zbb85p.out	2015-07-02 02:37:07.995913260 +0900
-+++ /tmp/docker-diff.20150702-5937-dxjer8.out	2015-07-02 02:37:09.631928744 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150704-23233-1gba1hr.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150704-23233-no7ra.out
+% diff -u /tmp/docker-diff.20150704-23233-1gba1hr.out /tmp/docker-diff.20150704-23233-no7ra.out
+--- /tmp/docker-diff.20150704-23233-1gba1hr.out	2015-07-04 00:09:30.018046762 +0900
++++ /tmp/docker-diff.20150704-23233-no7ra.out	2015-07-04 00:09:31.210044830 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -91,7 +91,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
  ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
- ii  grep                     2.20-4.1          amd64             GNU grep, egrep and fgrep
+ ii  grep                     2.21-2            amd64             GNU grep, egrep and fgrep
 +ii  groff-base               1.22.3-1          amd64             GNU troff text-formatting system (base system compone
  ii  gzip                     1.6-4             amd64             GNU compression utilities
  ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
