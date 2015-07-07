@@ -15,16 +15,23 @@
 ## - GOOGLE_FLUENTD_VM_ID                              : config param "vm_id" for fluent-plugin-google-cloud
 ##
 
-create_post_init (){
-  script=/opt/init-wrapper/post-init.d/${0##*/}
+post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
 
-  echo "#! /bin/bash" > ${script}
-  sh -c "export -p" | grep -E '^export GOOGLE_FLUENTD_' >> ${script}
-  echo "exec /opt/custom-installers/google-fluentd/install.sh" >> ${script}
-
-  chmod 755 ${script}
+clear_post_init (){
+  if [ -f ${post_init_script} ]; then
+    : > ${post_init_script}
+  fi
 }
 
+create_post_init (){
+  echo "#! /bin/bash" > ${post_init_script}
+  sh -c "export -p" | grep -E '^export GOOGLE_FLUENTD_' >> ${post_init_script}
+  echo "exec /opt/custom-installers/google-fluentd/install.sh" >> ${post_init_script}
+
+  chmod 755 ${post_init_script}
+}
+
+clear_post_init
 case "${USE_GOOGLE_FLUENTD}" in
   1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
     create_post_init
