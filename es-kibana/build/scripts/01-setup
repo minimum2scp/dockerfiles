@@ -12,8 +12,6 @@ apt-get update
 
 ## install java and elasticsearch
 apt-get install --no-install-recommends -y default-jre-headless elasticsearch
-insserv elasticsearch
-etckeeper commit "enabled autostart eelasticsearch"
 
 ##
 ## download kibana, and extract to /opt/kibana
