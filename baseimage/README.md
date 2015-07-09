@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150709-29777-dzenm9.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150709-29777-1fhexai.out
-% diff -u /tmp/docker-diff.20150709-29777-dzenm9.out /tmp/docker-diff.20150709-29777-1fhexai.out
---- /tmp/docker-diff.20150709-29777-dzenm9.out	2015-07-09 00:32:04.597262339 +0900
-+++ /tmp/docker-diff.20150709-29777-1fhexai.out	2015-07-09 00:32:06.129266412 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150710-11583-1hd9p67.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150710-11583-1lb2nec.out
+% diff -u /tmp/docker-diff.20150710-11583-1hd9p67.out /tmp/docker-diff.20150710-11583-1lb2nec.out
+--- /tmp/docker-diff.20150710-11583-1hd9p67.out	2015-07-10 00:29:14.109076589 +0900
++++ /tmp/docker-diff.20150710-11583-1lb2nec.out	2015-07-10 00:29:15.341152185 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -116,13 +116,13 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libcurl3-gnutls:amd64    7.43.0-1          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.194             amd64             Debian Configuration Management System (C-implementat
- ii  libdevmapper1.02.1:amd64 2:1.02.90-2.2     amd64             Linux Kernel Device Mapper userspace library
+ ii  libdevmapper1.02.1:amd64 2:1.02.99-1       amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.10-1          amd64             Helper functions for handling strings (lib)
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.26.2-6          amd64             fdisk partitioning library
-+ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
++ii  libffi6:amd64            3.2.1-3           amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:5.1.1-13        amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
@@ -171,7 +171,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2c-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.1.1-13          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        221-1             amd64             systemd utility library
+ ii  libsystemd0:amd64        222-1             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -208,8 +208,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  221-1             amd64             system and service manager
--ii  systemd-sysv             221-1             amd64             system and service manager - SysV links
+-ii  systemd                  222-1             amd64             system and service manager
+-ii  systemd-sysv             222-1             amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
@@ -217,7 +217,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015e-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     221-1             amd64             /dev/ and hotplug management daemon
+ ii  udev                     222-1             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.26.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.712-3       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.712-3       amd64             Vi IMproved - enhanced vi editor - compact version
