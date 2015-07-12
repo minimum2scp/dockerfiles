@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150711-32503-170vgbq.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150711-32503-ry52yi.out
-% diff -u /tmp/docker-diff.20150711-32503-170vgbq.out /tmp/docker-diff.20150711-32503-ry52yi.out
---- /tmp/docker-diff.20150711-32503-170vgbq.out	2015-07-11 00:07:13.629643928 +0900
-+++ /tmp/docker-diff.20150711-32503-ry52yi.out	2015-07-11 00:07:15.001638882 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150713-24490-su8eof.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150713-24490-1xpesi0.out
+% diff -u /tmp/docker-diff.20150713-24490-su8eof.out /tmp/docker-diff.20150713-24490-1xpesi0.out
+--- /tmp/docker-diff.20150713-24490-su8eof.out	2015-07-13 00:32:52.839732757 +0900
++++ /tmp/docker-diff.20150713-24490-1xpesi0.out	2015-07-13 00:32:54.355736880 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -24,7 +24,7 @@
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.3-1           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64         5.1.1-13          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64         5.1.1-14          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
@@ -61,7 +61,7 @@
 +ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.26.2-6          amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.2.1-3           amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:5.1.1-13        amd64             GCC support library
+ ii  libgcc1:amd64            1:5.1.1-14        amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-7    amd64             Multiprecision arithmetic library
@@ -69,7 +69,7 @@
  ii  libgpg-error0:amd64      1.19-2            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed4:amd64        3.1.1-3           amd64             low level cryptographic library (public-key cryptos)
-+ii  libidn11:amd64           1.30-1            amd64             GNU Libidn library, implementation of IETF IDN specif
++ii  libidn11:amd64           1.31-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
@@ -86,7 +86,7 @@
  ii  libncursesw5:amd64       5.9+20150516-2    amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle6:amd64         3.1.1-3           amd64             low level cryptographic library (symmetric and one-wa
 +ii  libnewt0.52:amd64        0.52.17-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
-+ii  libp11-kit0:amd64        0.23.1-2          amd64             Library for loading and coordinating access to PKCS#1
++ii  libp11-kit0:amd64        0.23.1-3          amd64             Library for loading and coordinating access to PKCS#1
  ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
@@ -108,7 +108,7 @@
  ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         5.1.1-13          amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         5.1.1-14          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        222-1             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
