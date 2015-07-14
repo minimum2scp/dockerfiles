@@ -39,9 +39,26 @@ etckeeper_commit "apt: add google-fluentd repository and GPG key"
 apt-get -qq update
 
 ##
+## do not auto-start google-fluentd
+##
+tmp_policy_script=`mktemp`
+cat <<SCRIPT > $tmp_policy_script
+#!/bin/sh
+
+# This script prevents starting daemons during installation of package.
+# see https://people.debian.org/~hmh/invokerc.d-policyrc.d-specification.txt
+
+exit 101
+SCRIPT
+install -m 755 -o root -g root -p $tmp_policy_script /usr/sbin/policy-rc.d
+rm $tmp_policy_script
+
+##
 ## install packages
 ##
 apt-get install --no-install-recommends -y google-fluentd google-fluentd-catch-all-config
+
+rm /usr/sbin/policy-rc.d
 
 ##
 ## configure
