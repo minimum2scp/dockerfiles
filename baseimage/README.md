@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150714-18233-1mijhni.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150714-18233-d0bxly.out
-% diff -u /tmp/docker-diff.20150714-18233-1mijhni.out /tmp/docker-diff.20150714-18233-d0bxly.out
---- /tmp/docker-diff.20150714-18233-1mijhni.out	2015-07-14 01:08:41.769121415 +0900
-+++ /tmp/docker-diff.20150714-18233-d0bxly.out	2015-07-14 01:08:43.373136002 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150716-23074-1bhj2wv.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150716-23074-17y58v9.out
+% diff -u /tmp/docker-diff.20150716-23074-1bhj2wv.out /tmp/docker-diff.20150716-23074-17y58v9.out
+--- /tmp/docker-diff.20150716-23074-1bhj2wv.out	2015-07-16 00:14:40.145455693 +0900
++++ /tmp/docker-diff.20150716-23074-17y58v9.out	2015-07-16 00:14:41.709426085 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -85,7 +85,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.3-1           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.3-2           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-14          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.1.4-2.1       amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.1.4-2.1       all               fast, scalable, distributed revision control system (
@@ -204,7 +204,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl-modules             5.20.2-6          all               Core Perl modules
  ii  procps                   2:3.3.10-2        amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
-+ii  rsyslog                  8.11.0-1          amd64             reliable system and kernel logging daemon
++ii  rsyslog                  8.11.0-2          amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-6           amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
