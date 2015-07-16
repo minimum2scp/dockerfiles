@@ -131,10 +131,10 @@ I: Retrieving libusb-0.1-4 2:0.1.12-25
 I: Validating libusb-0.1-4 2:0.1.12-25
 I: Retrieving lsb-base 4.1+Debian13+nmu1
 I: Validating lsb-base 4.1+Debian13+nmu1
-I: Retrieving dmsetup 2:1.02.99-1
-I: Validating dmsetup 2:1.02.99-1
-I: Retrieving libdevmapper1.02.1 2:1.02.99-1
-I: Validating libdevmapper1.02.1 2:1.02.99-1
+I: Retrieving dmsetup 2:1.02.99-2
+I: Validating dmsetup 2:1.02.99-2
+I: Retrieving libdevmapper1.02.1 2:1.02.99-2
+I: Validating libdevmapper1.02.1 2:1.02.99-2
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
 I: Retrieving libncurses5 5.9+20150516-2
@@ -169,8 +169,8 @@ I: Retrieving libreadline6 6.3-8+b3
 I: Validating libreadline6 6.3-8+b3
 I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
-I: Retrieving sed 4.2.2-6
-I: Validating sed 4.2.2-6
+I: Retrieving sed 4.2.2-6.1
+I: Validating sed 4.2.2-6.1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
 I: Retrieving login 1:4.2-3
@@ -181,16 +181,16 @@ I: Retrieving libslang2 2.3.0-2+b1
 I: Validating libslang2 2.3.0-2+b1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 222-1
-I: Validating libsystemd0 222-1
-I: Retrieving libudev1 222-1
-I: Validating libudev1 222-1
-I: Retrieving systemd 222-1
-I: Validating systemd 222-1
-I: Retrieving systemd-sysv 222-1
-I: Validating systemd-sysv 222-1
-I: Retrieving udev 222-1
-I: Validating udev 222-1
+I: Retrieving libsystemd0 222-2
+I: Validating libsystemd0 222-2
+I: Retrieving libudev1 222-2
+I: Validating libudev1 222-2
+I: Retrieving systemd 222-2
+I: Validating systemd 222-2
+I: Retrieving systemd-sysv 222-2
+I: Validating systemd-sysv 222-2
+I: Retrieving udev 222-2
+I: Validating udev 222-2
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -543,8 +543,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [204 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9917 kB]
-Fetched 10.1 MB in 7s (1271 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9919 kB]
+Fetched 10.1 MB in 6s (1502 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -554,10 +554,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> f566a38a6979
-Removing intermediate container 98dcd4d0bc6a
+ ---> 584828da3dbc
+Removing intermediate container 0e2e3cef6803
 Step 2 : CMD /bin/bash
- ---> Running in 91a49ee080dd
- ---> c05de376e075
-Removing intermediate container 91a49ee080dd
-Successfully built c05de376e075
+ ---> Running in c94f562c4414
+ ---> bc460bf08700
+Removing intermediate container c94f562c4414
+Successfully built bc460bf08700
