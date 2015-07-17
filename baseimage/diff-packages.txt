@@ -1,11 +1,11 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150717-23161-znmvny.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150717-23161-kn4zfq.out
-% diff -u /tmp/docker-diff.20150717-23161-znmvny.out /tmp/docker-diff.20150717-23161-kn4zfq.out
---- /tmp/docker-diff.20150717-23161-znmvny.out	2015-07-17 01:12:28.332696463 +0900
-+++ /tmp/docker-diff.20150717-23161-kn4zfq.out	2015-07-17 01:12:29.968700890 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150718-23852-1k1u21r.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150718-23852-10ix0fo.out
+% diff -u /tmp/docker-diff.20150718-23852-1k1u21r.out /tmp/docker-diff.20150718-23852-10ix0fo.out
+--- /tmp/docker-diff.20150718-23852-1k1u21r.out	2015-07-18 04:13:51.188451068 +0900
++++ /tmp/docker-diff.20150718-23852-10ix0fo.out	2015-07-18 04:13:52.720505814 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
- ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
+ ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
  ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.26.2-6        amd64             basic utilities from 4.4BSD-Lite
@@ -14,8 +14,8 @@
 +ii  cron                     3.0pl1-128        amd64             process scheduling daemon
 +ii  curl                     7.43.0-1          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
- ii  debconf                  1.5.56            all               Debian configuration management system
- ii  debconf-i18n             1.5.56            all               full internationalization support for debconf
+ ii  debconf                  1.5.57            all               Debian configuration management system
+ ii  debconf-i18n             1.5.57            all               full internationalization support for debconf
 @@ -20,17 +24,22 @@
  ii  dpkg                     1.18.1            amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
