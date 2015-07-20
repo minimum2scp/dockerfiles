@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150718-23852-1k1u21r.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150718-23852-10ix0fo.out
-% diff -u /tmp/docker-diff.20150718-23852-1k1u21r.out /tmp/docker-diff.20150718-23852-10ix0fo.out
---- /tmp/docker-diff.20150718-23852-1k1u21r.out	2015-07-18 04:13:51.188451068 +0900
-+++ /tmp/docker-diff.20150718-23852-10ix0fo.out	2015-07-18 04:13:52.720505814 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150721-25810-1bmc5z9.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150721-25810-1sylt0c.out
+% diff -u /tmp/docker-diff.20150721-25810-1bmc5z9.out /tmp/docker-diff.20150721-25810-1sylt0c.out
+--- /tmp/docker-diff.20150721-25810-1bmc5z9.out	2015-07-21 01:07:58.843520608 +0900
++++ /tmp/docker-diff.20150721-25810-1sylt0c.out	2015-07-21 01:08:00.447533627 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -135,7 +135,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
- ii  libkmod2:amd64           20-1              amd64             libkmod shared library
+ ii  libkmod2:amd64           21-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.40+dfsg-2     amd64             OpenLDAP libraries
