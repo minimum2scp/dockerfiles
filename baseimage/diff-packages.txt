@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150721-25810-1bmc5z9.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150721-25810-1sylt0c.out
-% diff -u /tmp/docker-diff.20150721-25810-1bmc5z9.out /tmp/docker-diff.20150721-25810-1sylt0c.out
---- /tmp/docker-diff.20150721-25810-1bmc5z9.out	2015-07-21 01:07:58.843520608 +0900
-+++ /tmp/docker-diff.20150721-25810-1sylt0c.out	2015-07-21 01:08:00.447533627 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150722-20539-as8fgk.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150722-20539-sr753o.out
+% diff -u /tmp/docker-diff.20150722-20539-as8fgk.out /tmp/docker-diff.20150722-20539-sr753o.out
+--- /tmp/docker-diff.20150722-20539-as8fgk.out	2015-07-22 00:28:00.804780579 +0900
++++ /tmp/docker-diff.20150722-20539-sr753o.out	2015-07-22 00:28:02.276686597 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -161,5 +161,5 @@
 +ii  vim-tiny                 2:7.4.712-3       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
-+ii  zsh                      5.0.8-2           amd64             shell with lots of features
-+ii  zsh-common               5.0.8-2           all               architecture independent files for Zsh
++ii  zsh                      5.0.8-3           amd64             shell with lots of features
++ii  zsh-common               5.0.8-3           all               architecture independent files for Zsh
