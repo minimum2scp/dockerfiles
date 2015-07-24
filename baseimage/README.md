@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150724-19668-bnccmu.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150724-19668-1gojrep.out
-% diff -u /tmp/docker-diff.20150724-19668-bnccmu.out /tmp/docker-diff.20150724-19668-1gojrep.out
---- /tmp/docker-diff.20150724-19668-bnccmu.out	2015-07-24 02:39:04.525856352 +0900
-+++ /tmp/docker-diff.20150724-19668-1gojrep.out	2015-07-24 02:39:06.149869250 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150725-23427-1j0c7ul.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150725-23427-qvzsru.out
+% diff -u /tmp/docker-diff.20150725-23427-1j0c7ul.out /tmp/docker-diff.20150725-23427-qvzsru.out
+--- /tmp/docker-diff.20150725-23427-1j0c7ul.out	2015-07-25 01:42:03.666321310 +0900
++++ /tmp/docker-diff.20150725-23427-qvzsru.out	2015-07-25 01:42:05.366324277 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -85,7 +85,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64       4.9.3-2           amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64       4.9.3-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-14          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.4.6-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.4.6-1         all               fast, scalable, distributed revision control system (
@@ -115,7 +115,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.43.0-1          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
- ii  libdebconfclient0:amd64  0.194             amd64             Debian Configuration Management System (C-implementat
+ ii  libdebconfclient0:amd64  0.195             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.99-2       amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
