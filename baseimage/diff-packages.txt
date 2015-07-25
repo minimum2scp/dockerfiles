@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150725-23427-1j0c7ul.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150725-23427-qvzsru.out
-% diff -u /tmp/docker-diff.20150725-23427-1j0c7ul.out /tmp/docker-diff.20150725-23427-qvzsru.out
---- /tmp/docker-diff.20150725-23427-1j0c7ul.out	2015-07-25 01:42:03.666321310 +0900
-+++ /tmp/docker-diff.20150725-23427-qvzsru.out	2015-07-25 01:42:05.366324277 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150726-22068-hduzmo.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150726-22068-1nv8egd.out
+% diff -u /tmp/docker-diff.20150726-22068-hduzmo.out /tmp/docker-diff.20150726-22068-1nv8egd.out
+--- /tmp/docker-diff.20150726-22068-hduzmo.out	2015-07-26 00:28:50.986825136 +0900
++++ /tmp/docker-diff.20150726-22068-1nv8egd.out	2015-07-26 00:28:52.126822435 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -58,7 +58,7 @@
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.10-1          amd64             Helper functions for handling strings (lib)
-+ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
++ii  libexpat1:amd64          2.1.0-7           amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.26.2-6          amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.2.1-3           amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:5.1.1-14        amd64             GCC support library
