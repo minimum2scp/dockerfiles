@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150726-22068-hduzmo.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150726-22068-1nv8egd.out
-% diff -u /tmp/docker-diff.20150726-22068-hduzmo.out /tmp/docker-diff.20150726-22068-1nv8egd.out
---- /tmp/docker-diff.20150726-22068-hduzmo.out	2015-07-26 00:28:50.986825136 +0900
-+++ /tmp/docker-diff.20150726-22068-1nv8egd.out	2015-07-26 00:28:52.126822435 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150727-19657-riflqx.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150727-19657-5vkgc8.out
+% diff -u /tmp/docker-diff.20150727-19657-riflqx.out /tmp/docker-diff.20150727-19657-5vkgc8.out
+--- /tmp/docker-diff.20150727-19657-riflqx.out	2015-07-27 01:52:44.494089237 +0900
++++ /tmp/docker-diff.20150727-19657-5vkgc8.out	2015-07-27 01:52:45.946086011 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -147,7 +147,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libncurses5:amd64        5.9+20150516-2    amd64             shared libraries for terminal handling
  ii  libncursesw5:amd64       5.9+20150516-2    amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle6:amd64         3.1.1-3           amd64             low level cryptographic library (symmetric and one-wa
-+ii  libnewt0.52:amd64        0.52.17-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
++ii  libnewt0.52:amd64        0.52.18-1         amd64             Not Erik's Windowing Toolkit - text mode windowing wi
 +ii  libp11-kit0:amd64        0.23.1-3          amd64             Library for loading and coordinating access to PKCS#1
  ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
@@ -221,7 +221,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  util-linux               2.26.2-6          amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.712-3       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.712-3       amd64             Vi IMproved - enhanced vi editor - compact version
-+ii  whiptail                 0.52.17-1+b1      amd64             Displays user-friendly dialog boxes from shell script
++ii  whiptail                 0.52.18-1         amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.0.8-3           amd64             shell with lots of features
 +ii  zsh-common               5.0.8-3           all               architecture independent files for Zsh
