@@ -1,12 +1,12 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150727-19657-riflqx.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150727-19657-5vkgc8.out
-% diff -u /tmp/docker-diff.20150727-19657-riflqx.out /tmp/docker-diff.20150727-19657-5vkgc8.out
---- /tmp/docker-diff.20150727-19657-riflqx.out	2015-07-27 01:52:44.494089237 +0900
-+++ /tmp/docker-diff.20150727-19657-5vkgc8.out	2015-07-27 01:52:45.946086011 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150728-23058-b6cu1u.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150728-23058-1sdb8o9.out
+% diff -u /tmp/docker-diff.20150728-23058-b6cu1u.out /tmp/docker-diff.20150728-23058-1sdb8o9.out
+--- /tmp/docker-diff.20150728-23058-b6cu1u.out	2015-07-28 01:45:53.077032995 +0900
++++ /tmp/docker-diff.20150728-23058-1sdb8o9.out	2015-07-28 01:45:54.681047586 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
- ii  bash                     4.3-12            amd64             GNU Bourne Again SHell
+ ii  bash                     4.3-13            amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.6             amd64             collection of more utilities from FreeBSD
  ii  bsdutils                 1:2.26.2-6        amd64             basic utilities from 4.4BSD-Lite
 +ii  ca-certificates          20150426          all               Common CA certificates
