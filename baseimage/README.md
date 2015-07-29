@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150728-23058-b6cu1u.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150728-23058-1sdb8o9.out
-% diff -u /tmp/docker-diff.20150728-23058-b6cu1u.out /tmp/docker-diff.20150728-23058-1sdb8o9.out
---- /tmp/docker-diff.20150728-23058-b6cu1u.out	2015-07-28 01:45:53.077032995 +0900
-+++ /tmp/docker-diff.20150728-23058-1sdb8o9.out	2015-07-28 01:45:54.681047586 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150730-20864-1dcqubp.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150730-20864-c2tybk.out
+% diff -u /tmp/docker-diff.20150730-20864-1dcqubp.out /tmp/docker-diff.20150730-20864-c2tybk.out
+--- /tmp/docker-diff.20150730-20864-1dcqubp.out	2015-07-30 00:21:17.009660128 +0900
++++ /tmp/docker-diff.20150730-20864-c2tybk.out	2015-07-30 00:21:18.149658256 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -87,8 +87,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.3-3           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64         5.1.1-14          amd64             GCC, the GNU Compiler Collection (base package)
-+ii  git                      1:2.4.6-1         amd64             fast, scalable, distributed revision control system
-+ii  git-man                  1:2.4.6-1         all               fast, scalable, distributed revision control system (
++ii  git                      1:2.5.0-1         amd64             fast, scalable, distributed revision control system
++ii  git-man                  1:2.5.0-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
  ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
  ii  grep                     2.21-2            amd64             GNU grep, egrep and fgrep
@@ -223,6 +223,6 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  vim-tiny                 2:7.4.712-3       amd64             Vi IMproved - enhanced vi editor - compact version
 +ii  whiptail                 0.52.18-1         amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
-+ii  zsh                      5.0.8-3           amd64             shell with lots of features
-+ii  zsh-common               5.0.8-3           all               architecture independent files for Zsh
++ii  zsh                      5.0.8-4           amd64             shell with lots of features
++ii  zsh-common               5.0.8-4           all               architecture independent files for Zsh
 ```
