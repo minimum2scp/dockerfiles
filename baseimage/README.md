@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150802-23591-18hx7yp.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150802-23591-566tlk.out
-% diff -u /tmp/docker-diff.20150802-23591-18hx7yp.out /tmp/docker-diff.20150802-23591-566tlk.out
---- /tmp/docker-diff.20150802-23591-18hx7yp.out	2015-08-02 00:58:56.473382632 +0900
-+++ /tmp/docker-diff.20150802-23591-566tlk.out	2015-08-02 00:58:57.765384547 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150803-16680-6rb4je.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150803-16680-74wtay.out
+% diff -u /tmp/docker-diff.20150803-16680-6rb4je.out /tmp/docker-diff.20150803-16680-74wtay.out
+--- /tmp/docker-diff.20150803-16680-6rb4je.out	2015-08-03 00:52:14.352050780 +0900
++++ /tmp/docker-diff.20150803-16680-74wtay.out	2015-08-03 00:52:15.752048547 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -127,11 +127,11 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-7    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.16-1          amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.16-2          amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.19-2            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed4:amd64        3.1.1-3           amd64             low level cryptographic library (public-key cryptos)
-+ii  libidn11:amd64           1.31-1            amd64             GNU Libidn library, implementation of IETF IDN specif
++ii  libidn11:amd64           1.32-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
