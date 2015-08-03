@@ -131,10 +131,10 @@ I: Retrieving libusb-0.1-4 2:0.1.12-25
 I: Validating libusb-0.1-4 2:0.1.12-25
 I: Retrieving lsb-base 4.1+Debian13+nmu1
 I: Validating lsb-base 4.1+Debian13+nmu1
-I: Retrieving dmsetup 2:1.02.103-1
-I: Validating dmsetup 2:1.02.103-1
-I: Retrieving libdevmapper1.02.1 2:1.02.103-1
-I: Validating libdevmapper1.02.1 2:1.02.103-1
+I: Retrieving dmsetup 2:1.02.103-2
+I: Validating dmsetup 2:1.02.103-2
+I: Retrieving libdevmapper1.02.1 2:1.02.103-2
+I: Validating libdevmapper1.02.1 2:1.02.103-2
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
 I: Retrieving libncurses5 5.9+20150516-2
@@ -179,16 +179,16 @@ I: Retrieving passwd 1:4.2-3
 I: Validating passwd 1:4.2-3
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 223-2
-I: Validating libsystemd0 223-2
-I: Retrieving libudev1 223-2
-I: Validating libudev1 223-2
-I: Retrieving systemd 223-2
-I: Validating systemd 223-2
-I: Retrieving systemd-sysv 223-2
-I: Validating systemd-sysv 223-2
-I: Retrieving udev 223-2
-I: Validating udev 223-2
+I: Retrieving libsystemd0 224-1
+I: Validating libsystemd0 224-1
+I: Retrieving libudev1 224-1
+I: Validating libudev1 224-1
+I: Retrieving systemd 224-1
+I: Validating systemd 224-1
+I: Retrieving systemd-sysv 224-1
+I: Validating systemd-sysv 224-1
+I: Retrieving udev 224-1
+I: Validating udev 224-1
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -538,8 +538,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [200 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9952 kB]
-Fetched 10.2 MB in 5s (1929 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9964 kB]
+Fetched 10.2 MB in 5s (1800 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -549,10 +549,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 4f535dd0b678
-Removing intermediate container 79d70dc7a226
+ ---> b591a1a05e94
+Removing intermediate container ced95365b333
 Step 2 : CMD /bin/bash
- ---> Running in 4b59ec6bd97c
- ---> 05802c33d333
-Removing intermediate container 4b59ec6bd97c
-Successfully built 05802c33d333
+ ---> Running in c4979b39e89b
+ ---> 6def358e8509
+Removing intermediate container c4979b39e89b
+Successfully built 6def358e8509
