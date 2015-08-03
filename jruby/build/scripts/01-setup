@@ -11,11 +11,10 @@ apt-get install -y --no-install-recommends default-jre-headless jruby maven
 bash -l -c "rbenv update"
 
 ## install latest jruby
-## (and insall bundler, pry by defualt-gems plugin)
-bash -l -c "rbenv install jruby-1.7.19"
+bash -l -c "rbenv install jruby-9.0.0.0"
 
 ## install jbundler gem
-bash -l -c "RBENV_VERSION=jruby-1.7.19 gem install jbundler"
+bash -l -c "RBENV_VERSION=jruby-9.0.0.0 gem install jbundler"
 
 ## rehash
 bash -l -c "rbenv rehash"
