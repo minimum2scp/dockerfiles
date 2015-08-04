@@ -24,7 +24,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ||/ Name                     Version           Architecture      Description
 +++-========================-=================-=================-=====================================================
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
-ii  apt                      1.0.9.10          amd64             commandline package manager
+ii  apt                      1.0.10.1          amd64             commandline package manager
 ii  base-files               9.2               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
 ii  bash                     4.3-13            amd64             GNU Bourne Again SHell
@@ -56,7 +56,7 @@ ii  insserv                  1.14.0-5          amd64             boot sequence o
 ii  iproute2                 4.0.0-1           amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
 ii  libapparmor1:amd64       2.9.2-3           amd64             changehat AppArmor library
-ii  libapt-pkg4.12:amd64     1.0.9.10          amd64             package management runtime library
+ii  libapt-pkg4.16:amd64     1.0.10.1          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4.2-1         all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4.2-1         amd64             Dynamic library for security auditing
@@ -88,7 +88,7 @@ ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authe
 ii  libpcre3:amd64           2:8.35-7          amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
-ii  libseccomp2:amd64        2.2.1-2           amd64             high level interface to Linux seccomp filter
+ii  libseccomp2:amd64        2.2.3-1           amd64             high level interface to Linux seccomp filter
 ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
 ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 ii  libsemanage1:amd64       2.3-1+b2          amd64             SELinux policy management library
@@ -102,7 +102,7 @@ ii  libtext-iconv-perl       1.7-5+b2          amd64             converts betwee
 ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
 ii  libtinfo5:amd64          5.9+20150516-2    amd64             shared low-level terminfo library for terminal handli
 ii  libudev1:amd64           224-1             amd64             libudev shared library
-ii  libusb-0.1-4:amd64       2:0.1.12-25       amd64             userspace USB programming library
+ii  libusb-0.1-4:amd64       2:0.1.12-27       amd64             userspace USB programming library
 ii  libustr-1.0-1:amd64      1.0.4-5           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.26.2-9          amd64             Universally Unique ID library
 ii  login                    1:4.2-3           amd64             system login tools
