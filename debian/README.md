@@ -37,7 +37,7 @@ ii  debian-archive-keyring   2014.3            all               GnuPG archive k
 ii  debianutils              4.5.1             amd64             Miscellaneous utilities specific to Debian
 ii  diffutils                1:3.3-1+b1        amd64             File comparison utilities
 ii  dmsetup                  2:1.02.103-2      amd64             Linux Kernel Device Mapper userspace library
-ii  dpkg                     1.18.1            amd64             Debian package management system
+ii  dpkg                     1.18.2            amd64             Debian package management system
 ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
@@ -68,7 +68,7 @@ ii  libcap2:amd64            1:2.24-9          amd64             POSIX 1003.1e c
 ii  libcap2-bin              1:2.24-9          amd64             POSIX 1003.1e capabilities (utilities)
 ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
 ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
-ii  libdb5.3:amd64           5.3.28-9          amd64             Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64           5.3.28-9+b1       amd64             Berkeley v5.3 Database Libraries [runtime]
 ii  libdebconfclient0:amd64  0.195             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.103-2      amd64             Linux Kernel Device Mapper userspace library
 ii  libfdisk1:amd64          2.26.2-9          amd64             fdisk partitioning library
