@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'serverspec'
-gem 'specinfra', '< 2.30.4'
+gem 'specinfra', :github => 'minimum2scp/specinfra', :branch => 'fix/debian-v8-with-sysvinit'
 gem 'docker-api'
 gem 'pry'
 gem 'thor'
