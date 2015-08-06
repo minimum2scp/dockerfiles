@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150806-22899-lw90i3.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150806-22899-1bmhqdb.out
-% diff -u /tmp/docker-diff.20150806-22899-lw90i3.out /tmp/docker-diff.20150806-22899-1bmhqdb.out
---- /tmp/docker-diff.20150806-22899-lw90i3.out	2015-08-06 02:43:36.332027039 +0900
-+++ /tmp/docker-diff.20150806-22899-1bmhqdb.out	2015-08-06 02:43:37.836027423 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150807-24390-ejtoi0.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150807-24390-rz2ci.out
+% diff -u /tmp/docker-diff.20150807-24390-ejtoi0.out /tmp/docker-diff.20150807-24390-rz2ci.out
+--- /tmp/docker-diff.20150807-24390-ejtoi0.out	2015-08-07 00:51:30.782414216 +0900
++++ /tmp/docker-diff.20150807-24390-rz2ci.out	2015-08-07 00:51:31.946409209 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.2               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -153,7 +153,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
  ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
- ii  libpcre3:amd64           2:8.35-7          amd64             Perl 5 Compatible Regular Expression Library - runtim
+ ii  libpcre3:amd64           2:8.35-7.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.0-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
