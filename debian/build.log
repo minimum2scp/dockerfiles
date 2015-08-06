@@ -157,8 +157,8 @@ I: Retrieving libpam-runtime 1.1.8-3.1
 I: Validating libpam-runtime 1.1.8-3.1
 I: Retrieving libpam0g 1.1.8-3.1
 I: Validating libpam0g 1.1.8-3.1
-I: Retrieving libpcre3 2:8.35-7
-I: Validating libpcre3 2:8.35-7
+I: Retrieving libpcre3 2:8.35-7.1
+I: Validating libpcre3 2:8.35-7.1
 I: Retrieving perl-base 5.20.2-6
 I: Validating perl-base 5.20.2-6
 I: Retrieving libprocps4 2:3.3.10-2
@@ -538,8 +538,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [200 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9992 kB]
-Fetched 10.2 MB in 10s (944 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [9997 kB]
+Fetched 10.2 MB in 48s (212 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -549,10 +549,10 @@ Sending build context to Docker daemon
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 3bf4940624ce
-Removing intermediate container 45da83b8f1a3
+ ---> ccc3cfc24381
+Removing intermediate container ec03f9b840e2
 Step 2 : CMD /bin/bash
- ---> Running in 48236bd28954
- ---> 2490bbb78e3e
-Removing intermediate container 48236bd28954
-Successfully built 2490bbb78e3e
+ ---> Running in eae977505bc2
+ ---> ef07f0dbf29b
+Removing intermediate container eae977505bc2
+Successfully built ef07f0dbf29b
