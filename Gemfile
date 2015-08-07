@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'serverspec'
-gem 'specinfra', '< 2.30.4'
+gem 'specinfra'
 gem 'docker-api'
 gem 'pry'
 gem 'thor'
