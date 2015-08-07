@@ -33,7 +33,10 @@ set :ssh_options, {
 ## skip OS detection
 ## see specinfra-2.12.3/lib/specinfra/helper/os.rb
 ##     specinfra-2.12.3/lib/specinfra/helper/detect_os/debian.rb
-set :os, :family => 'debian', :arch => 'x86_64', :release => '8.0'
+##
+## set `:release => nil` to use `specinfra-x.x.x/lib/specinfra/command/debian/base/`,
+## not to use `specinfra-x.x.x/lib/specinfra/command/debian/v8` (systemd)
+set :os, :family => 'debian', :arch => 'x86_64', :release => nil
 
 def start_container(opts)
   ## start container before run test
