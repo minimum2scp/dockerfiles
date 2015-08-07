@@ -189,4 +189,59 @@ describe 'minimum2scp/baseimage-wheezy' do
       its(:md5sum){ should eq 'c79354b8dbee09e62bbc3fb544853283' }
     end
   end
+
+  context 'with env [APT_LINE=keep, CUSTOM_USER=testuser]' do
+    before(:all) do
+      start_container({
+        'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
+        'Env' => [ 'APT_LINE=keep', 'CUSTOM_USER=testuser' ]
+      })
+    end
+
+    after(:all) do
+      stop_container
+    end
+
+    describe group('testuser') do
+      it { should exist }
+    end
+
+    describe user('testuser') do
+      it { should exist }
+      it { should belong_to_group('testuser') }
+      it { should have_login_shell '/bin/bash' }
+    end
+  end
+
+  context 'with env [APT_LINE=keep, CUSTOM_USER=testuser, CUSTOM_USER_UID=1999, CUSTOM_USER_SHELL=/bin/false, CUSTOM_GROUP=testgrp, CUSTOM_GROUP_GID=1999]' do
+    before(:all) do
+      start_container({
+        'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
+        'Env' => [
+          'APT_LINE=keep',
+          'CUSTOM_USER=testuser',
+          'CUSTOM_USER_UID=1999',
+          'CUSTOM_USER_SHELL=/bin/false',
+          'CUSTOM_GROUP=testgrp',
+          'CUSTOM_GROUP_GID=1999',
+        ]
+      })
+    end
+
+    after(:all) do
+      stop_container
+    end
+
+    describe group('testgrp') do
+      it { should exist }
+      it { should have_gid 1999 }
+    end
+
+    describe user('testuser') do
+      it { should exist }
+      it { should belong_to_group('testgrp') }
+      it { should have_login_shell '/bin/false' }
+      it { should have_uid 1999 }
+    end
+  end
 end
