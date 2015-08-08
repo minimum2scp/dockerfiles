@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150620-27429-1vaymga.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150620-27429-1oyz5qi.out
-% diff -u /tmp/docker-diff.20150620-27429-1vaymga.out /tmp/docker-diff.20150620-27429-1oyz5qi.out
---- /tmp/docker-diff.20150620-27429-1vaymga.out	2015-06-20 00:27:52.641984720 +0900
-+++ /tmp/docker-diff.20150620-27429-1oyz5qi.out	2015-06-20 00:27:53.785976935 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150809-23887-7wmpv.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150809-23887-1w09oho.out
+% diff -u /tmp/docker-diff.20150809-23887-7wmpv.out /tmp/docker-diff.20150809-23887-1w09oho.out
+--- /tmp/docker-diff.20150809-23887-7wmpv.out	2015-08-09 01:32:22.606071491 +0900
++++ /tmp/docker-diff.20150809-23887-1w09oho.out	2015-08-09 01:32:24.098077000 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8+deb8u1          amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -120,7 +120,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libedit2:amd64           3.1-20140620-2    amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1.1          all               Perl module for error/exception handling in an OO-ish
 +ii  libestr0                 0.1.9-1.1         amd64             Helper functions for handling strings (lib)
-+ii  libexpat1:amd64          2.1.0-6+b3        amd64             XML parsing C library - runtime library
++ii  libexpat1:amd64          2.1.0-6+deb8u1    amd64             XML parsing C library - runtime library
 +ii  libffi6:amd64            3.1-2+b2          amd64             Foreign Function Interface library runtime
  ii  libgcc1:amd64            1:4.9.2-10        amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
