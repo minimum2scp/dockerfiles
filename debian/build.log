@@ -129,8 +129,8 @@ I: Retrieving libtext-wrapi18n-perl 0.06-7
 I: Validating libtext-wrapi18n-perl 0.06-7
 I: Retrieving libusb-0.1-4 2:0.1.12-27
 I: Validating libusb-0.1-4 2:0.1.12-27
-I: Retrieving lsb-base 4.1+Debian13+nmu1
-I: Validating lsb-base 4.1+Debian13+nmu1
+I: Retrieving lsb-base 4.1+Debian14
+I: Validating lsb-base 4.1+Debian14
 I: Retrieving dmsetup 2:1.02.103-3
 I: Validating dmsetup 2:1.02.103-3
 I: Retrieving libdevmapper1.02.1 2:1.02.103-3
@@ -539,7 +539,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [200 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.0 MB]
-Fetched 10.2 MB in 4s (2249 kB/s)
+Fetched 10.2 MB in 7s (1299 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> b696c1448f88
-Removing intermediate container d1d6d60452d7
+ ---> fcd9764fbba0
+Removing intermediate container 4b2f3d1a1bbd
 Step 2 : CMD /bin/bash
- ---> Running in 379f17e017bd
- ---> f850a2d37b4c
-Removing intermediate container 379f17e017bd
-Successfully built f850a2d37b4c
+ ---> Running in 4174f7d81eaa
+ ---> 59376093d1f4
+Removing intermediate container 4174f7d81eaa
+Successfully built 59376093d1f4

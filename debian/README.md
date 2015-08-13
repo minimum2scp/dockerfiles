@@ -106,7 +106,7 @@ ii  libusb-0.1-4:amd64       2:0.1.12-27       amd64             userspace USB p
 ii  libustr-1.0-1:amd64      1.0.4-5           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.26.2-9          amd64             Universally Unique ID library
 ii  login                    1:4.2-3           amd64             system login tools
-ii  lsb-base                 4.1+Debian13+nmu1 all               Linux Standard Base 4.1 init script functionality
+ii  lsb-base                 4.1+Debian14      all               Linux Standard Base 4.1 init script functionality
 ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 ii  mount                    2.26.2-9          amd64             Tools for mounting and manipulating filesystems
 ii  multiarch-support        2.19-19           amd64             Transitional package to ensure multiarch compatibilit
