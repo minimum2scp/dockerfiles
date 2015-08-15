@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150809-23887-7wmpv.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150809-23887-1w09oho.out
-% diff -u /tmp/docker-diff.20150809-23887-7wmpv.out /tmp/docker-diff.20150809-23887-1w09oho.out
---- /tmp/docker-diff.20150809-23887-7wmpv.out	2015-08-09 01:32:22.606071491 +0900
-+++ /tmp/docker-diff.20150809-23887-1w09oho.out	2015-08-09 01:32:24.098077000 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150816-27958-11plrlq.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150816-27958-7ue0gk.out
+% diff -u /tmp/docker-diff.20150816-27958-11plrlq.out /tmp/docker-diff.20150816-27958-7ue0gk.out
+--- /tmp/docker-diff.20150816-27958-11plrlq.out	2015-08-16 01:16:35.249416650 +0900
++++ /tmp/docker-diff.20150816-27958-7ue0gk.out	2015-08-16 01:16:36.669336623 +0900
 @@ -9,8 +9,12 @@
  ii  base-files               8+deb8u1          amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.37            amd64             Debian base system master password and group files
@@ -126,7 +126,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-6    amd64             Multiprecision arithmetic library
-+ii  libgnutls-deb0-28:amd64  3.3.8-6+deb8u1    amd64             GNU TLS library - main runtime library
++ii  libgnutls-deb0-28:amd64  3.3.8-6+deb8u2    amd64             GNU TLS library - main runtime library
  ii  libgpg-error0:amd64      1.17-3            amd64             library for common error values and messages in GnuPG
 +ii  libgssapi-krb5-2:amd64   1.12.1+dfsg-19    amd64             MIT Kerberos runtime libraries - krb5 GSS-API Mechani
 +ii  libhogweed2:amd64        2.7.1-5           amd64             low level cryptographic library (public-key cryptos)
@@ -214,7 +214,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  sysvinit-core            2.88dsf-59        amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59        amd64             System-V-like utilities
  ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015e-0+deb8u1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015f-0+deb8u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     215-17+deb8u1     amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.25.2-6          amd64             Miscellaneous system utilities
