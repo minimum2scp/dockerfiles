@@ -25,7 +25,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-========================-=================-=================-=====================================================
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
 ii  apt                      1.0.10.1          amd64             commandline package manager
-ii  base-files               9.2               amd64             Debian base system miscellaneous files
+ii  base-files               9.4               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
 ii  bash                     4.3-13            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.26.2-9        amd64             basic utilities from 4.4BSD-Lite
@@ -44,8 +44,8 @@ ii  findutils                4.4.2-9+b1        amd64             utilities for f
 ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.3-3           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64         5.2.1-15          amd64             GCC, the GNU Compiler Collection (base package)
-ii  gnupg                    1.4.19-3          amd64             GNU privacy guard - a free PGP replacement
-ii  gpgv                     1.4.19-3          amd64             GNU privacy guard - signature verification tool
+ii  gnupg                    1.4.19-5          amd64             GNU privacy guard - a free PGP replacement
+ii  gpgv                     1.4.19-5          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.21-2            amd64             GNU grep, egrep and fgrep
 ii  gzip                     1.6-4             amd64             GNU compression utilities
 ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
@@ -53,7 +53,7 @@ ii  inetutils-ping           2:1.9.4-1         amd64             ICMP echo tool
 ii  init                     1.23              amd64             System-V-like init utilities - metapackage
 ii  initscripts              2.88dsf-59.2      amd64             scripts for initializing and shutting down the system
 ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
-ii  iproute2                 4.0.0-1           amd64             networking and traffic control tools
+ii  iproute2                 4.1.1-1           amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
 ii  libapparmor1:amd64       2.9.2-3           amd64             changehat AppArmor library
 ii  libapt-pkg4.16:amd64     1.0.10.1          amd64             package management runtime library
@@ -79,8 +79,8 @@ ii  libkmod2:amd64           21-1              amd64             libkmod shared 
 ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
 ii  libmount1:amd64          2.26.2-9          amd64             device mounting library
-ii  libncurses5:amd64        5.9+20150516-2    amd64             shared libraries for terminal handling
-ii  libncursesw5:amd64       5.9+20150516-2    amd64             shared libraries for terminal handling (wide characte
+ii  libncurses5:amd64        6.0+20150810-1    amd64             shared libraries for terminal handling
+ii  libncursesw5:amd64       6.0+20150810-1    amd64             shared libraries for terminal handling (wide characte
 ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
 ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
@@ -100,7 +100,7 @@ ii  libsystemd0:amd64        224-1             amd64             systemd utility
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
 ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
-ii  libtinfo5:amd64          5.9+20150516-2    amd64             shared low-level terminfo library for terminal handli
+ii  libtinfo5:amd64          6.0+20150810-1    amd64             shared low-level terminfo library for terminal handli
 ii  libudev1:amd64           224-1             amd64             libudev shared library
 ii  libusb-0.1-4:amd64       2:0.1.12-27       amd64             userspace USB programming library
 ii  libustr-1.0-1:amd64      1.0.4-5           amd64             Micro string library: shared library
@@ -110,8 +110,8 @@ ii  lsb-base                 4.1+Debian14      all               Linux Standard 
 ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
 ii  mount                    2.26.2-9          amd64             Tools for mounting and manipulating filesystems
 ii  multiarch-support        2.19-19           amd64             Transitional package to ensure multiarch compatibilit
-ii  ncurses-base             5.9+20150516-2    all               basic terminal type definitions
-ii  ncurses-bin              5.9+20150516-2    amd64             terminal-related programs and man pages
+ii  ncurses-base             6.0+20150810-1    all               basic terminal type definitions
+ii  ncurses-bin              6.0+20150810-1    amd64             terminal-related programs and man pages
 ii  netbase                  5.3               all               Basic TCP/IP networking system
 ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 ii  perl-base                5.20.2-6          amd64             minimal Perl system
