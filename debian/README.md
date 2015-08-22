@@ -24,7 +24,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ||/ Name                     Version           Architecture      Description
 +++-========================-=================-=================-=====================================================
 ii  adduser                  3.113+nmu3        all               add and remove users and groups
-ii  apt                      1.0.10.1          amd64             commandline package manager
+ii  apt                      1.0.10.2          amd64             commandline package manager
 ii  base-files               9.4               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
 ii  bash                     4.3-13            amd64             GNU Bourne Again SHell
@@ -56,7 +56,7 @@ ii  insserv                  1.14.0-5          amd64             boot sequence o
 ii  iproute2                 4.1.1-1           amd64             networking and traffic control tools
 ii  libacl1:amd64            2.2.52-2          amd64             Access control list shared library
 ii  libapparmor1:amd64       2.9.2-3           amd64             changehat AppArmor library
-ii  libapt-pkg4.16:amd64     1.0.10.1          amd64             package management runtime library
+ii  libapt-pkg4.16:amd64     1.0.10.2          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
 ii  libaudit-common          1:2.4.2-1         all               Dynamic library for security auditing - common files
 ii  libaudit1:amd64          1:2.4.2-1         amd64             Dynamic library for security auditing

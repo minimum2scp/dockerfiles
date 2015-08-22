@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150820-24234-1i956y2.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150820-24234-1y5pbc7.out
-% diff -u /tmp/docker-diff.20150820-24234-1i956y2.out /tmp/docker-diff.20150820-24234-1y5pbc7.out
---- /tmp/docker-diff.20150820-24234-1i956y2.out	2015-08-20 00:25:41.533586212 +0900
-+++ /tmp/docker-diff.20150820-24234-1y5pbc7.out	2015-08-20 00:25:42.985595573 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150823-24834-1twg31z.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150823-24834-18zz568.out
+% diff -u /tmp/docker-diff.20150823-24834-1twg31z.out /tmp/docker-diff.20150823-24834-18zz568.out
+--- /tmp/docker-diff.20150823-24834-1twg31z.out	2015-08-23 02:25:06.015972930 +0900
++++ /tmp/docker-diff.20150823-24834-18zz568.out	2015-08-23 02:25:07.491970401 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -195,9 +195,9 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  ncurses-bin              6.0+20150810-1    amd64             terminal-related programs and man pages
 +ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.7p1-6         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.7p1-6         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.7p1-6         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.9p1-1         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.9p1-1         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.9p1-1         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.2d-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-6          amd64             Larry Wall's Practical Extraction and Report Language
