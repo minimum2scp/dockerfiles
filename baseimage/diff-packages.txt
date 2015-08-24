@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150823-24834-1twg31z.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150823-24834-18zz568.out
-% diff -u /tmp/docker-diff.20150823-24834-1twg31z.out /tmp/docker-diff.20150823-24834-18zz568.out
---- /tmp/docker-diff.20150823-24834-1twg31z.out	2015-08-23 02:25:06.015972930 +0900
-+++ /tmp/docker-diff.20150823-24834-18zz568.out	2015-08-23 02:25:07.491970401 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150825-8477-1wlmq8r.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150825-8477-1liu85m.out
+% diff -u /tmp/docker-diff.20150825-8477-1wlmq8r.out /tmp/docker-diff.20150825-8477-1liu85m.out
+--- /tmp/docker-diff.20150825-8477-1wlmq8r.out	2015-08-25 00:53:19.242976330 +0900
++++ /tmp/docker-diff.20150825-8477-1liu85m.out	2015-08-25 00:53:20.518988353 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -48,7 +48,7 @@
  ii  libc-bin                 2.19-19           amd64             GNU C Library: Binaries
  ii  libc6:amd64              2.19-19           amd64             GNU C Library: Shared libraries
 @@ -48,35 +58,67 @@
- ii  libcap2-bin              1:2.24-9          amd64             POSIX 1003.1e capabilities (utilities)
+ ii  libcap2-bin              1:2.24-10         amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.44.0-1          amd64             easy-to-use client-side URL transfer library (GnuTLS 
@@ -76,7 +76,7 @@
  ii  libkmod2:amd64           21-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.41+dfsg-1     amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.42+dfsg-1     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
 +ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
