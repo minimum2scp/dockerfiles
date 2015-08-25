@@ -58,8 +58,8 @@ ii  libacl1:amd64            2.2.52-2          amd64             Access control 
 ii  libapparmor1:amd64       2.9.2-3           amd64             changehat AppArmor library
 ii  libapt-pkg4.16:amd64     1.0.10.2          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
-ii  libaudit-common          1:2.4.2-1         all               Dynamic library for security auditing - common files
-ii  libaudit1:amd64          1:2.4.2-1         amd64             Dynamic library for security auditing
+ii  libaudit-common          1:2.4.4-1         all               Dynamic library for security auditing - common files
+ii  libaudit1:amd64          1:2.4.4-1         amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.26.2-9          amd64             block device id library
 ii  libbz2-1.0:amd64         1.0.6-8           amd64             high-quality block-sorting file compressor library - 
 ii  libc-bin                 2.19-19           amd64             GNU C Library: Binaries
@@ -124,7 +124,7 @@ ii  systemd                  224-1             amd64             system and serv
 ii  systemd-sysv             224-1             amd64             system and service manager - SysV links
 ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
-ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
+ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
 ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 ii  udev                     224-1             amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.26.2-9          amd64             Miscellaneous system utilities
