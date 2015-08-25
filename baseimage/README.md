@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150825-8477-1wlmq8r.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150825-8477-1liu85m.out
-% diff -u /tmp/docker-diff.20150825-8477-1wlmq8r.out /tmp/docker-diff.20150825-8477-1liu85m.out
---- /tmp/docker-diff.20150825-8477-1wlmq8r.out	2015-08-25 00:53:19.242976330 +0900
-+++ /tmp/docker-diff.20150825-8477-1liu85m.out	2015-08-25 00:53:20.518988353 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150826-25282-fxkssa.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150826-25282-cdoq6e.out
+% diff -u /tmp/docker-diff.20150826-25282-fxkssa.out /tmp/docker-diff.20150826-25282-cdoq6e.out
+--- /tmp/docker-diff.20150826-25282-fxkssa.out	2015-08-26 00:14:15.367544231 +0900
++++ /tmp/docker-diff.20150826-25282-cdoq6e.out	2015-08-26 00:14:17.071562068 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -102,8 +102,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  insserv                  1.14.0-5          amd64             boot sequence organizer using LSB init.d script depen
  ii  iproute2                 4.1.1-1           amd64             networking and traffic control tools
 @@ -41,6 +50,7 @@
- ii  libaudit-common          1:2.4.2-1         all               Dynamic library for security auditing - common files
- ii  libaudit1:amd64          1:2.4.2-1         amd64             Dynamic library for security auditing
+ ii  libaudit-common          1:2.4.4-1         all               Dynamic library for security auditing - common files
+ ii  libaudit1:amd64          1:2.4.4-1         amd64             Dynamic library for security auditing
  ii  libblkid1:amd64          2.26.2-9          amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-8           amd64             high-quality block-sorting file compressor library - 
@@ -215,7 +215,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
- ii  tar                      1.27.1-2+b1       amd64             GNU version of the tar archiving utility
+ ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     224-1             amd64             /dev/ and hotplug management daemon
