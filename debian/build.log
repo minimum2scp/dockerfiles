@@ -41,8 +41,8 @@ I: Retrieving libcryptsetup4 2:1.6.6-5
 I: Validating libcryptsetup4 2:1.6.6-5
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
-I: Retrieving libdb5.3 5.3.28-9+b1
-I: Validating libdb5.3 5.3.28-9+b1
+I: Retrieving libdb5.3 5.3.28-11
+I: Validating libdb5.3 5.3.28-11
 I: Retrieving debconf 1.5.57
 I: Validating debconf 1.5.57
 I: Retrieving debconf-i18n 1.5.57
@@ -101,10 +101,10 @@ I: Retrieving iproute2 4.1.1-1
 I: Validating iproute2 4.1.1-1
 I: Retrieving libkmod2 21-1
 I: Validating libkmod2 21-1
-I: Retrieving libcap2 1:2.24-10
-I: Validating libcap2 1:2.24-10
-I: Retrieving libcap2-bin 1:2.24-10
-I: Validating libcap2-bin 1:2.24-10
+I: Retrieving libcap2 1:2.24-11
+I: Validating libcap2 1:2.24-11
+I: Retrieving libcap2-bin 1:2.24-11
+I: Validating libcap2-bin 1:2.24-11
 I: Retrieving libgcrypt20 1.6.3-2
 I: Validating libgcrypt20 1.6.3-2
 I: Retrieving libgpg-error0 1.19-2
@@ -537,9 +537,9 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org sid InRelease [215 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.0 MB]
-Fetched 10.3 MB in 5s (1983 kB/s)
+Get:1 http://ftp.jp.debian.org sid InRelease [216 kB]
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
+Fetched 10.3 MB in 4s (2545 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 26882e015392
-Removing intermediate container 6c84bce8c16d
+ ---> 56d49ebf5188
+Removing intermediate container 65286bb3d493
 Step 2 : CMD /bin/bash
- ---> Running in aff62baa56a4
- ---> 687c654c9d51
-Removing intermediate container aff62baa56a4
-Successfully built 687c654c9d51
+ ---> Running in f1a6368caf74
+ ---> 769d0121d6f5
+Removing intermediate container f1a6368caf74
+Successfully built 769d0121d6f5
