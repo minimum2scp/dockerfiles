@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150826-25282-fxkssa.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150826-25282-cdoq6e.out
-% diff -u /tmp/docker-diff.20150826-25282-fxkssa.out /tmp/docker-diff.20150826-25282-cdoq6e.out
---- /tmp/docker-diff.20150826-25282-fxkssa.out	2015-08-26 00:14:15.367544231 +0900
-+++ /tmp/docker-diff.20150826-25282-cdoq6e.out	2015-08-26 00:14:17.071562068 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150827-26820-twyz4k.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150827-26820-nf76vq.out
+% diff -u /tmp/docker-diff.20150827-26820-twyz4k.out /tmp/docker-diff.20150827-26820-nf76vq.out
+--- /tmp/docker-diff.20150827-26820-twyz4k.out	2015-08-27 00:03:46.222290135 +0900
++++ /tmp/docker-diff.20150827-26820-nf76vq.out	2015-08-27 00:03:47.750277514 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -48,11 +48,11 @@
  ii  libc-bin                 2.19-19           amd64             GNU C Library: Binaries
  ii  libc6:amd64              2.19-19           amd64             GNU C Library: Shared libraries
 @@ -48,35 +58,67 @@
- ii  libcap2-bin              1:2.24-10         amd64             POSIX 1003.1e capabilities (utilities)
+ ii  libcap2-bin              1:2.24-11         amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.44.0-1          amd64             easy-to-use client-side URL transfer library (GnuTLS 
- ii  libdb5.3:amd64           5.3.28-9+b1       amd64             Berkeley v5.3 Database Libraries [runtime]
+ ii  libdb5.3:amd64           5.3.28-11         amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.195             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.104-1      amd64             Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64           3.1-20150325-1    amd64             BSD editline and history libraries
