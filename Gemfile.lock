@@ -3,7 +3,7 @@ GEM
   specs:
     coderay (1.1.0)
     diff-lcs (1.2.5)
-    docker-api (1.22.2)
+    docker-api (1.22.3)
       excon (>= 0.38.0)
       json
     excon (0.45.4)
@@ -35,14 +35,14 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     sequel (4.25.0)
-    serverspec (2.21.0)
+    serverspec (2.23.0)
       multi_json
       rspec (~> 3.0)
       rspec-its
-      specinfra (~> 2.38)
+      specinfra (~> 2.43)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.40.2)
+    specinfra (2.43.0)
       net-scp
       net-ssh (~> 2.7)
       net-telnet
@@ -65,4 +65,4 @@ DEPENDENCIES
   thor
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
