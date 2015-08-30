@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-22289-m9skpl.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150622-22289-1tbyahj.out
-% diff -u /tmp/docker-diff.20150622-22289-m9skpl.out /tmp/docker-diff.20150622-22289-1tbyahj.out
---- /tmp/docker-diff.20150622-22289-m9skpl.out	2015-06-22 23:58:49.641144304 +0900
-+++ /tmp/docker-diff.20150622-22289-1tbyahj.out	2015-06-22 23:58:50.785159717 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150829-22470-10qjnqn.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150829-22470-1nqzhdw.out
+% diff -u /tmp/docker-diff.20150829-22470-10qjnqn.out /tmp/docker-diff.20150829-22470-1nqzhdw.out
+--- /tmp/docker-diff.20150829-22470-10qjnqn.out	2015-08-29 00:17:07.384564162 +0900
++++ /tmp/docker-diff.20150829-22470-1nqzhdw.out	2015-08-29 00:17:08.400553087 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -58,7 +58,7 @@
  ii  libdb5.1:amd64           5.1.29-5          amd64             Berkeley v5.1 Database Libraries [runtime]
 +ii  libedit2:amd64           2.11-20080614-5   amd64             BSD editline and history libraries
 +ii  liberror-perl            0.17-1            all               Perl module for error/exception handling in an OO-ish
-+ii  libexpat1:amd64          2.1.0-1+deb7u1    amd64             XML parsing C library - runtime library
++ii  libexpat1:amd64          2.1.0-1+deb7u2    amd64             XML parsing C library - runtime library
  ii  libgcc1:amd64            1:4.7.2-5         amd64             GCC support library
 +ii  libgcrypt11:amd64        1.5.0-5+deb7u3    amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-11          amd64             GNU dbm database routines (runtime version)
@@ -137,7 +137,7 @@
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
  ii  tar                      1.26+dfsg-0.1     amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015e-0+deb7u1    all               time zone and daylight-saving time data
+ ii  tzdata                   2015f-0+deb7u1    all               time zone and daylight-saving time data
 +ii  ucf                      3.0025+nmu3       all               Update Configuration File: preserve user changes to c
  ii  util-linux               2.20.1-5.3        amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.3.547-7       amd64             Vi IMproved - Common files
