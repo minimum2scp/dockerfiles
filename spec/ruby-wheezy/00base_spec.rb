@@ -19,8 +19,8 @@ describe 'minimum2scp/ruby-wheezy' do
     #end
 
     %w[
-  ruby ruby-dev rake
-  build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev
+      ruby ruby-dev rake
+      build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
@@ -28,8 +28,8 @@ describe 'minimum2scp/ruby-wheezy' do
     end
 
     %w[
-  bundler pry
-  gem2deb
+      bundler pry
+      gem2deb
     ].each do |pkg|
       describe package(pkg) do
         it { should_not be_installed }
@@ -37,7 +37,7 @@ describe 'minimum2scp/ruby-wheezy' do
     end
 
     %w[
-  bundler pry
+      bundler pry
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed.by('gem') }

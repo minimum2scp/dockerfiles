@@ -36,8 +36,8 @@ describe 'minimum2scp/baseimage' do
     end
 
     %w[
-    sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools
-    etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
+      sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools
+      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
@@ -45,7 +45,7 @@ describe 'minimum2scp/baseimage' do
     end
 
     %w[
-    systemd systemd-sysv
+      systemd systemd-sysv
     ].each do |pkg|
       describe package(pkg) do
         it { should_not be_installed }

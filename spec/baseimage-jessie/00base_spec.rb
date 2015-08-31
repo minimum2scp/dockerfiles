@@ -37,8 +37,8 @@ describe 'minimum2scp/baseimage-jessie' do
 
 
     %w[
-  sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools
-  etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
+      sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools
+      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
