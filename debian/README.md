@@ -27,7 +27,7 @@ ii  adduser                  3.113+nmu3        all               add and remove 
 ii  apt                      1.0.10.2          amd64             commandline package manager
 ii  base-files               9.4               amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
-ii  bash                     4.3-13            amd64             GNU Bourne Again SHell
+ii  bash                     4.3-14            amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.26.2-9        amd64             basic utilities from 4.4BSD-Lite
 ii  coreutils                8.23-4            amd64             GNU core utilities
 ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
@@ -48,7 +48,7 @@ ii  gnupg                    1.4.19-5          amd64             GNU privacy gua
 ii  gpgv                     1.4.19-5          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.21-2            amd64             GNU grep, egrep and fgrep
 ii  gzip                     1.6-4             amd64             GNU compression utilities
-ii  hostname                 3.15              amd64             utility to set/show the host name or domain name
+ii  hostname                 3.16              amd64             utility to set/show the host name or domain name
 ii  inetutils-ping           2:1.9.4-1         amd64             ICMP echo tool
 ii  init                     1.23              amd64             System-V-like init utilities - metapackage
 ii  initscripts              2.88dsf-59.2      amd64             scripts for initializing and shutting down the system
@@ -96,12 +96,12 @@ ii  libsepol1:amd64          2.3-2             amd64             SELinux library
 ii  libsmartcols1:amd64      2.26.2-9          amd64             smart column output alignment library
 ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 ii  libstdc++6:amd64         5.2.1-15          amd64             GNU Standard C++ Library v3
-ii  libsystemd0:amd64        224-2             amd64             systemd utility library
+ii  libsystemd0:amd64        225-1             amd64             systemd utility library
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
-ii  libtext-wrapi18n-perl    0.06-7            all               internationalized substitute of Text::Wrap
+ii  libtext-wrapi18n-perl    0.06-7.1          all               internationalized substitute of Text::Wrap
 ii  libtinfo5:amd64          6.0+20150810-1    amd64             shared low-level terminfo library for terminal handli
-ii  libudev1:amd64           224-2             amd64             libudev shared library
+ii  libudev1:amd64           225-1             amd64             libudev shared library
 ii  libusb-0.1-4:amd64       2:0.1.12-27       amd64             userspace USB programming library
 ii  libustr-1.0-1:amd64      1.0.4-5           amd64             Micro string library: shared library
 ii  libuuid1:amd64           2.26.2-9          amd64             Universally Unique ID library
@@ -120,13 +120,13 @@ ii  readline-common          6.3-8             all               GNU readline an
 ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
 ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
 ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
-ii  systemd                  224-2             amd64             system and service manager
-ii  systemd-sysv             224-2             amd64             system and service manager - SysV links
+ii  systemd                  225-1             amd64             system and service manager
+ii  systemd-sysv             225-1             amd64             system and service manager - SysV links
 ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
 ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
 ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
-ii  udev                     224-2             amd64             /dev/ and hotplug management daemon
+ii  udev                     225-1             amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.26.2-9          amd64             Miscellaneous system utilities
 ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 ```
