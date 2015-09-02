@@ -1,0 +1,6 @@
+[client]
+default-character-set = utf8
+
+[mysqld]
+character-set-server = utf8
+skip-character-set-client-handshak

@@ -1,0 +1,24 @@
+tdiary:
+  image: minimum2scp/magellan-tdiary:0.1.0
+  links:
+    - db
+  command: bundle exec puma --port 80
+  environment:
+    - MYSQL_USER=tdiary
+    - MYSQL_PASSWORD=tdiary
+    - MYSQL_DATABASE=tdiary
+    - TDIARY_BASIC_AUTH_USERNAME=tdiary
+    - TDIARY_BASIC_AUTH_PASSWORD=tdiary
+
+db:
+  image: mysql:5.5
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_USER=tdiary
+    - MYSQL_PASSWORD=tdiary
+    - MYSQL_DATABASE=tdiary
+  volumes:
+    - ./volumes/mysql-data:/var/lib/mysql:rw
+    - ./volumes/mysql-conf/charset.cnf:/etc/mysql/conf.d/charset.cnf:ro
+
+

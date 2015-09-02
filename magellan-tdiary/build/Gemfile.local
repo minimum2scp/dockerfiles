@@ -1,0 +1,15 @@
+gem "puma"
+gem "mysql2"
+
+gem "tdiary",                  path: "."
+gem "tdiary-contrib",          github: "tdiary/tdiary-contrib"
+#gem "tdiary-cache-memcached",  github: "tdiary/tdiary-cache-memcached"
+#gem "tdiary-cache-redis",      github: "tdiary/tdiary-cache-redis"
+#gem "tdiary-io-mongodb",       github: "tdiary/tdiary-io-mongodb"
+gem "tdiary-io-rdb",           github: "tdiary/tdiary-io-rdb"
+#gem "tdiary-style-emptdiary",  github: "tdiary/tdiary-style-emptdiary"
+#gem "tdiary-style-etdiary",    github: "tdiary/tdiary-style-etdiary"
+#gem "tdiary-style-rd",         github: "tdiary/tdiary-style-rd"
+gem "tdiary-style-gfm",        github: "tdiary/tdiary-style-gfm"
+
+
