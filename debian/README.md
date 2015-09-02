@@ -88,7 +88,7 @@ ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authe
 ii  libpcre3:amd64           2:8.35-7.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
 ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
 ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
-ii  libseccomp2:amd64        2.2.3-1           amd64             high level interface to Linux seccomp filter
+ii  libseccomp2:amd64        2.2.3-2           amd64             high level interface to Linux seccomp filter
 ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
 ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
 ii  libsemanage1:amd64       2.3-1+b2          amd64             SELinux policy management library
