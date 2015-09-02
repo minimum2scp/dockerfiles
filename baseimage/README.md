@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150902-22863-4jz1ej.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150902-22863-1gc2ej5.out
-% diff -u /tmp/docker-diff.20150902-22863-4jz1ej.out /tmp/docker-diff.20150902-22863-1gc2ej5.out
---- /tmp/docker-diff.20150902-22863-4jz1ej.out	2015-09-02 01:15:34.247420733 +0900
-+++ /tmp/docker-diff.20150902-22863-1gc2ej5.out	2015-09-02 01:15:35.731433624 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150903-29450-zew2dv.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150903-29450-15uat3q.out
+% diff -u /tmp/docker-diff.20150903-29450-zew2dv.out /tmp/docker-diff.20150903-29450-15uat3q.out
+--- /tmp/docker-diff.20150903-29450-zew2dv.out	2015-09-03 00:13:59.919434265 +0900
++++ /tmp/docker-diff.20150903-29450-15uat3q.out	2015-09-03 00:14:01.227427818 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -161,7 +161,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  librtmp1:amd64           2.4+20150115.gita amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-13   amd64             Cyrus SASL - authentication abstraction library
 +ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-13   amd64             Cyrus SASL - pluggable authentication modules (DB)
- ii  libseccomp2:amd64        2.2.3-1           amd64             high level interface to Linux seccomp filter
+ ii  libseccomp2:amd64        2.2.3-2           amd64             high level interface to Linux seccomp filter
  ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
  ii  libsemanage1:amd64       2.3-1+b2          amd64             SELinux policy management library
