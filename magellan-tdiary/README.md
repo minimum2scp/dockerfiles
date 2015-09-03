@@ -4,14 +4,16 @@ tDiary on MAGELLAN
 
 https://hub.docker.com/r/minimum2scp/magellan-tdiary/
 
-## Basic Authentication
+## Environment Variables
 
-magellan-tdiary creates .htpasswd by environment variable (in entry point script):
+### Basic Authentication
+
+magellan-tdiary creates .htpasswd by environment variables:
 
  * `TDIARY_BASIC_AUTH_USERNAME`
  * `TDIARY_BASIC_AUTH_PASSWORD`
 
-## Database
+### Database
 
 magellan-tdiary stores data into MySQL database, using tdiary-io-rdb gem.
 MySQL database connection is configured by environment variables:
