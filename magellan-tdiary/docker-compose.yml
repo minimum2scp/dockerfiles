@@ -4,7 +4,7 @@ tdiary:
     - db
   command: bundle exec puma --port 80
   environment:
-    - MYSQL_USER=tdiary
+    - MYSQL_USERNAME=tdiary
     - MYSQL_PASSWORD=tdiary
     - MYSQL_DATABASE=tdiary
     - TDIARY_BASIC_AUTH_USERNAME=tdiary
