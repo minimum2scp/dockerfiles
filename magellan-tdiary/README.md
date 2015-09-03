@@ -1,8 +1,12 @@
 # magellan-tdiary
 
-tDiary on MAGELLAN
+[tDiary](http://www.tdiary.org/) on [MAGELLAN](http://www.magellanic-clouds.com/)
 
 https://hub.docker.com/r/minimum2scp/magellan-tdiary/
+
+## Deploy magellan-tdiary on MAGELLAN
+
+(TODO)
 
 ## Environment Variables
 
@@ -24,7 +28,7 @@ MySQL database connection is configured by environment variables:
  * `MYSQL_USERNAME`
  * `MYSQL_PASSWORD`
 
-## local test with docker-compose
+## Local test with docker-compose
 
 You can try tDiary with docker-compose:
 
