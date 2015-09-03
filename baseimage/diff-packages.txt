@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150903-29450-zew2dv.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150903-29450-15uat3q.out
-% diff -u /tmp/docker-diff.20150903-29450-zew2dv.out /tmp/docker-diff.20150903-29450-15uat3q.out
---- /tmp/docker-diff.20150903-29450-zew2dv.out	2015-09-03 00:13:59.919434265 +0900
-+++ /tmp/docker-diff.20150903-29450-15uat3q.out	2015-09-03 00:14:01.227427818 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150904-19274-1rmw2s6.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150904-19274-ebtsb3.out
+% diff -u /tmp/docker-diff.20150904-19274-1rmw2s6.out /tmp/docker-diff.20150904-19274-ebtsb3.out
+--- /tmp/docker-diff.20150904-19274-1rmw2s6.out	2015-09-04 00:14:08.996226204 +0900
++++ /tmp/docker-diff.20150904-19274-ebtsb3.out	2015-09-04 00:14:10.112253193 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -72,7 +72,7 @@
 +ii  libidn11:amd64           1.32-1            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
-+ii  libkeyutils1:amd64       1.5.9-5+b1        amd64             Linux Key Management Utilities (library)
++ii  libkeyutils1:amd64       1.5.9-7           amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           21-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
