@@ -1,5 +1,5 @@
 tdiary:
-  image: minimum2scp/magellan-tdiary:0.1.0
+  image: minimum2scp/magellan-tdiary:0.1.1
   links:
     - db
   command: bundle exec puma --port 80
