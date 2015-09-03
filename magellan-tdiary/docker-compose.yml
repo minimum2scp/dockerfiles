@@ -7,8 +7,8 @@ tdiary:
     - MYSQL_USERNAME=tdiary
     - MYSQL_PASSWORD=tdiary
     - MYSQL_DATABASE=tdiary
-    - TDIARY_BASIC_AUTH_USERNAME=tdiary
-    - TDIARY_BASIC_AUTH_PASSWORD=tdiary
+    #- TDIARY_BASIC_AUTH_USERNAME=tdiary
+    #- TDIARY_BASIC_AUTH_PASSWORD=tdiary
 
 db:
   image: mysql:5.5
