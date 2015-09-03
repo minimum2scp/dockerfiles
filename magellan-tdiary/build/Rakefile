@@ -1,9 +1,22 @@
+require 'tmpdir'
 require 'logger'
+require 'webrick/httpauth/htpasswd'
 require 'bundler/setup'
 require 'sequel'
-require 'webrick/httpauth/htpasswd'
 
 logger = Logger.new($stdout)
+
+namespace :"magellan-proxy" do
+  desc "install magellan-proxy"
+  task :install do
+    Dir.mktmpdir do |dir|
+      cd dir, verbose: true
+      sh "curl -LO https://github.com/groovenauts/magellan-proxy/releases/download/v0.0.2.pre/magellan-proxy-0.0.2.pre-linux_amd64.zip"
+      sh "unzip -x magellan-proxy-0.0.2.pre-linux_amd64.zip"
+      sh "install -m 755 -o root -g root -p magellan-proxy /usr/local/bin/magellan-proxy"
+    end
+  end
+end
 
 namespace :db do
   desc "create database by environment variable DATABASE_URL"
