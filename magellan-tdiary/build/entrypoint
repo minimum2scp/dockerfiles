@@ -1,10 +1,9 @@
 #! /usr/bin/env ruby
 
 if ENV['TDIARY_BASIC_AUTH_USERNAME'] && ENV['TDIARY_BASIC_AUTH_PASSWORD']
-  require 'webrick/httpauth/htpasswd'
-  htpasswd = WEBrick::HTTPAuth::Htpasswd.new('/usr/src/app/.htpasswd')
-  htpasswd.set_passwd(nil, ENV['TDIARY_BASIC_AUTH_USERNAME'], ENV['TDIARY_BASIC_AUTH_PASSWORD'])
-  htpasswd.flush
+  system('rake -f /opt/magellan-tdiary/Rakefile htpasswd:create')
+  ENV.delete('TDIARY_BASIC_AUTH_USERNAME')
+  ENV.delete('TDIARY_BASIC_AUTH_PASSWORD')
 end
 
 if !ENV['MYSQL_HOST'] && ENV['DB_PORT_3306_TCP_ADDR']
@@ -13,6 +12,14 @@ end
 
 if !ENV['MYSQL_PORT'] && ENV['DB_PORT_3306_TCP_PORT']
   ENV['MYSQL_PORT'] = ENV['DB_PORT_3306_TCP_PORT']
+end
+
+if !ENV['DATABASE_URL'] && ENV['MYSQL_USER'] && ENV['MYSQL_PASSWORD'] && ENV['MYSQL_HOST'] && ENV['MYSQL_PORT'] && ENV['MYSQL_DATABASE']
+  ENV['DATABASE_URL'] = "mysql2://#{ENV['MYSQL_USERNAME']}:#{ENV['MYSQL_PASSWORD']}@#{ENV['MYSQL_HOST']}:#{ENV['MYSQL_PORT']}/#{ENV['MYSQL_DATABASE']}"
+end
+
+if ENV['DATABASE_URL']
+  system('rake -f /opt/magellan-tdiary/Rakefile db:create')
 end
 
 program = ARGV.shift
