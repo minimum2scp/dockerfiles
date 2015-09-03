@@ -10,8 +10,8 @@ https://hub.docker.com/r/minimum2scp/magellan-tdiary/
 
 magellan-tdiary creates .htpasswd by environment variables:
 
- * `TDIARY_BASIC_AUTH_USERNAME`
- * `TDIARY_BASIC_AUTH_PASSWORD`
+ * `TDIARY_BASIC_AUTH_USERNAME` (default: tdiary)
+ * `TDIARY_BASIC_AUTH_PASSWORD` (default: tdiary)
 
 ### Database
 
