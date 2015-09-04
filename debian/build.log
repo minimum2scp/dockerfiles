@@ -69,12 +69,12 @@ I: Retrieving gcc-4.8-base 4.8.5-1
 I: Validating gcc-4.8-base 4.8.5-1
 I: Retrieving gcc-4.9-base 4.9.3-4
 I: Validating gcc-4.9-base 4.9.3-4
-I: Retrieving gcc-5-base 5.2.1-15
-I: Validating gcc-5-base 5.2.1-15
-I: Retrieving libgcc1 1:5.2.1-15
-I: Validating libgcc1 1:5.2.1-15
-I: Retrieving libstdc++6 5.2.1-15
-I: Validating libstdc++6 5.2.1-15
+I: Retrieving gcc-5-base 5.2.1-16
+I: Validating gcc-5-base 5.2.1-16
+I: Retrieving libgcc1 1:5.2.1-16
+I: Validating libgcc1 1:5.2.1-16
+I: Retrieving libstdc++6 5.2.1-16
+I: Validating libstdc++6 5.2.1-16
 I: Retrieving libc-bin 2.19-19
 I: Validating libc-bin 2.19-19
 I: Retrieving libc6 2.19-19
@@ -161,10 +161,10 @@ I: Retrieving libpcre3 2:8.35-7.1
 I: Validating libpcre3 2:8.35-7.1
 I: Retrieving perl-base 5.20.2-6
 I: Validating perl-base 5.20.2-6
-I: Retrieving libprocps4 2:3.3.10-2
-I: Validating libprocps4 2:3.3.10-2
-I: Retrieving procps 2:3.3.10-2
-I: Validating procps 2:3.3.10-2
+I: Retrieving libprocps4 2:3.3.10-3
+I: Validating libprocps4 2:3.3.10-3
+I: Retrieving procps 2:3.3.10-3
+I: Validating procps 2:3.3.10-3
 I: Retrieving libreadline6 6.3-8+b3
 I: Validating libreadline6 6.3-8+b3
 I: Retrieving readline-common 6.3-8
@@ -539,7 +539,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [239 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.3 MB in 3s (3010 kB/s)
+Fetched 10.3 MB in 3s (3022 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 0f7fb9607790
-Removing intermediate container 93184aff7452
+ ---> 844eaf4cdaa4
+Removing intermediate container 78ddd7088ba2
 Step 2 : CMD /bin/bash
- ---> Running in f8de6fe1ca4f
- ---> 900dd6c87277
-Removing intermediate container f8de6fe1ca4f
-Successfully built 900dd6c87277
+ ---> Running in 6db1ebff6bea
+ ---> 4bf69c63c86f
+Removing intermediate container 6db1ebff6bea
+Successfully built 4bf69c63c86f
