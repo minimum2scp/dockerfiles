@@ -29,8 +29,6 @@ ENV TDIARY_BASIC_AUTH_PASSWORD tdiary
 
 WORKDIR /usr/src/app
 
-VOLUME /usr/src/app/data
-
 ENTRYPOINT ["/opt/magellan-tdiary/entrypoint"]
 CMD ["/usr/local/bin/magellan-proxy", "bundle", "exec", "puma", "-p", "80", "-e", "production"]
 
