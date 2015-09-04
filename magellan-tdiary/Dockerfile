@@ -1,11 +1,6 @@
 FROM ruby:2.2.3
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-## install packages
-RUN apt-get update && \
-    apt-get install unzip -y --no-install-recommends && \
-    apt-get clean
-
 ## install tdiary-core to /usr/src/app
 RUN git clone https://github.com/tdiary/tdiary-core.git /usr/src/app
 RUN cd /usr/src/app && bundle install --jobs=4 --without=development:test
@@ -22,7 +17,8 @@ RUN install -m 755 -o root -g root -p -D /build/entrypoint /opt/magellan-tdiary/
 RUN install -m 644 -o root -g root -p -D /build/Rakefile   /opt/magellan-tdiary/Rakefile
 
 ## install magellan-proxy
-RUN rake -f /opt/magellan-tdiary/Rakefile magellan-proxy:install
+ADD https://github.com/groovenauts/magellan-proxy/releases/download/v0.0.2.pre/magellan-proxy-0.0.2.pre_linux-amd64 /usr/local/bin/magellan-proxy
+RUN chmod +x /usr/local/bin/magellan-proxy
 
 ## cleanup
 RUN rm -rf /build
