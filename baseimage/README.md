@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150904-19274-1rmw2s6.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150904-19274-ebtsb3.out
-% diff -u /tmp/docker-diff.20150904-19274-1rmw2s6.out /tmp/docker-diff.20150904-19274-ebtsb3.out
---- /tmp/docker-diff.20150904-19274-1rmw2s6.out	2015-09-04 00:14:08.996226204 +0900
-+++ /tmp/docker-diff.20150904-19274-ebtsb3.out	2015-09-04 00:14:10.112253193 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150905-22536-6euish.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150905-22536-1v6z57k.out
+% diff -u /tmp/docker-diff.20150905-22536-6euish.out /tmp/docker-diff.20150905-22536-1v6z57k.out
+--- /tmp/docker-diff.20150905-22536-6euish.out	2015-09-05 00:39:28.969412173 +0900
++++ /tmp/docker-diff.20150905-22536-1v6z57k.out	2015-09-05 00:39:30.465410450 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -86,7 +86,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.3-4           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64         5.2.1-15          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64         5.2.1-16          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.5.1-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.5.1-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-5          amd64             GNU privacy guard - a free PGP replacement
@@ -123,7 +123,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libexpat1:amd64          2.1.0-7           amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.26.2-9          amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.2.1-3           amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:5.2.1-15        amd64             GCC support library
+ ii  libgcc1:amd64            1:5.2.1-16        amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-7    amd64             Multiprecision arithmetic library
@@ -156,7 +156,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libpcre3:amd64           2:8.35-7.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.1-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
- ii  libprocps4:amd64         2:3.3.10-2        amd64             library for accessing process information from /proc
+ ii  libprocps4:amd64         2:3.3.10-3        amd64             library for accessing process information from /proc
  ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20150115.gita amd64             toolkit for RTMP streams (shared library)
 +ii  libsasl2-2:amd64         2.1.26.dfsg1-13   amd64             Cyrus SASL - authentication abstraction library
@@ -171,7 +171,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         5.2.1-15          amd64             GNU Standard C++ Library v3
+ ii  libstdc++6:amd64         5.2.1-16          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        225-1             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
@@ -203,7 +203,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl                     5.20.2-6          amd64             Larry Wall's Practical Extraction and Report Language
  ii  perl-base                5.20.2-6          amd64             minimal Perl system
 +ii  perl-modules             5.20.2-6          all               Core Perl modules
- ii  procps                   2:3.3.10-2        amd64             /proc file system utilities
+ ii  procps                   2:3.3.10-3        amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
 +ii  rsyslog                  8.12.0-1          amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
