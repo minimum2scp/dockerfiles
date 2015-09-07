@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150907-31513-1bxpw6m.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150907-31513-1wtscux.out
-% diff -u /tmp/docker-diff.20150907-31513-1bxpw6m.out /tmp/docker-diff.20150907-31513-1wtscux.out
---- /tmp/docker-diff.20150907-31513-1bxpw6m.out	2015-09-07 00:06:22.073132189 +0900
-+++ /tmp/docker-diff.20150907-31513-1wtscux.out	2015-09-07 00:06:23.681121770 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150908-29009-47f52w.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150908-29009-1o1vs5.out
+% diff -u /tmp/docker-diff.20150908-29009-47f52w.out /tmp/docker-diff.20150908-29009-1o1vs5.out
+--- /tmp/docker-diff.20150908-29009-47f52w.out	2015-09-08 00:43:20.817554739 +0900
++++ /tmp/docker-diff.20150908-29009-1o1vs5.out	2015-09-08 00:43:22.165563417 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -193,7 +193,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  multiarch-support        2.19-19           amd64             Transitional package to ensure multiarch compatibilit
  ii  ncurses-base             6.0+20150810-1    all               basic terminal type definitions
  ii  ncurses-bin              6.0+20150810-1    amd64             terminal-related programs and man pages
-+ii  net-tools                1.60-26+b1        amd64             NET-3 networking toolkit
++ii  net-tools                1.60+git20150829. amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
 +ii  openssh-client           1:6.9p1-1         amd64             secure shell (SSH) client, for secure access to remot
 +ii  openssh-server           1:6.9p1-1         amd64             secure shell (SSH) server, for secure access from rem
