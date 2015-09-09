@@ -4,7 +4,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ||/ Name                     Version           Architecture      Description
 +++-========================-=================-=================-=====================================================
 ii  apt                      0.9.7.9+deb7u7    amd64             commandline package manager
-ii  base-files               7.1wheezy8        amd64             Debian base system miscellaneous files
+ii  base-files               7.1wheezy9        amd64             Debian base system miscellaneous files
 ii  base-passwd              3.5.26            amd64             Debian base system master password and group files
 ii  bash                     4.2+dfsg-0.1+deb7 amd64             GNU Bourne Again SHell
 ii  bsdutils                 1:2.20.1-5.3      amd64             Basic utilities from 4.4BSD-Lite
