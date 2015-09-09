@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150829-22470-10qjnqn.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150829-22470-1nqzhdw.out
-% diff -u /tmp/docker-diff.20150829-22470-10qjnqn.out /tmp/docker-diff.20150829-22470-1nqzhdw.out
---- /tmp/docker-diff.20150829-22470-10qjnqn.out	2015-08-29 00:17:07.384564162 +0900
-+++ /tmp/docker-diff.20150829-22470-1nqzhdw.out	2015-08-29 00:17:08.400553087 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150910-1994-t4hmly.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150910-1994-15qy4fy.out
+% diff -u /tmp/docker-diff.20150910-1994-t4hmly.out /tmp/docker-diff.20150910-1994-15qy4fy.out
+--- /tmp/docker-diff.20150910-1994-t4hmly.out	2015-09-10 00:13:15.969498484 +0900
++++ /tmp/docker-diff.20150910-1994-15qy4fy.out	2015-09-10 00:13:17.125523996 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                     Version           Architecture      Description
@@ -72,7 +72,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  adduser                  3.113+nmu3        all               add and remove users and groups
  ii  apt                      0.9.7.9+deb7u7    amd64             commandline package manager
 +ii  apt-utils                0.9.7.9+deb7u7    amd64             package managment related utility programs
- ii  base-files               7.1wheezy8        amd64             Debian base system miscellaneous files
+ ii  base-files               7.1wheezy9        amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.26            amd64             Debian base system master password and group files
  ii  bash                     4.2+dfsg-0.1+deb7 amd64             GNU Bourne Again SHell
 +ii  bsdmainutils             9.0.3             amd64             collection of more utilities from FreeBSD
@@ -194,7 +194,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  rsyslog                  5.8.11-3+deb7u2   amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.1-10          amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.7             all               Utilities for sensible alternative selection
-+ii  sudo                     1.8.5p2-1+nmu2    amd64             Provide limited super user privileges to specific use
++ii  sudo                     1.8.5p2-1+nmu3    amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-41+deb7u1 all               System-V-like runlevel change mechanism
  ii  sysvinit                 2.88dsf-41+deb7u1 amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-41+deb7u1 amd64             System-V-like utilities
