@@ -28,17 +28,29 @@ MySQL database connection is configured by environment variables:
  * `MYSQL_USERNAME`
  * `MYSQL_PASSWORD`
 
+### Cache with redis
+
+magellan-tdiary stores cache into Redis, using tdiary-cache-redis gem.
+Redis connection is configured by environment variables:
+
+ * `REDIS_HOST`
+ * `REDIS_PORT` (optional)
+ * `REDIS_DATABASE` (optional)
+ * `REDIS_PASSWORD` (optional)
+
 ## Local test with docker-compose
 
 You can try tDiary with docker-compose:
 
 ```
 % docker-compose up -d
-Creating magellantdiary_db_1...
-Creating magellantdiary_tdiary_1...
+magellantdiary_db_1 is up-to-date
+magellantdiary_cache_1 is up-to-date
+Starting magellantdiary_tdiary_1...
 % docker-compose ps
          Name                        Command               State    Ports
 ---------------------------------------------------------------------------
+magellantdiary_cache_1    /entrypoint.sh redis-server      Up      6379/tcp
 magellantdiary_db_1       /entrypoint.sh mysqld            Up      3306/tcp
 magellantdiary_tdiary_1   /opt/magellan-tdiary/entry ...   Up
 ```

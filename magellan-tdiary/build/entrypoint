@@ -22,5 +22,21 @@ if ENV['DATABASE_URL']
   system('rake -f /opt/magellan-tdiary/Rakefile db:create')
 end
 
+if !ENV['REDIS_HOST'] && ENV['CACHE_PORT_6379_TCP_ADDR']
+  ENV['REDIS_HOST'] = ENV['CACHE_PORT_6379_TCP_ADDR']
+end
+
+if !ENV['REDIS_PORT'] && ENV['CACHE_PORT_6379_TCP_PORT']
+  ENV['REDIS_PORT'] = ENV['CACHE_PORT_6379_TCP_PORT']
+end
+
+if !ENV['REDIS_URL'] && ENV['REDIS_HOST']
+  require 'uri'
+  ENV['REDIS_URL'] = URI::Generic.build(scheme: "redis", host: ENV['REDIS_HOST'], port: (ENV['REDIS_PORT'] || 6379).to_i).tap{|o|
+    o.user = ":#{ENV['REDIS_PASSWORD']}" if ENV['REDIS_PASSWORD']
+    o.path = "/#{ENV['REDIS_DATABASE']}" if ENV['REDIS_DATABASE']
+  }.to_s
+end
+
 program = ARGV.shift
 exec(program, *ARGV)

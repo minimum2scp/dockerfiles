@@ -1,7 +1,8 @@
 tdiary:
-  image: minimum2scp/magellan-tdiary:0.1.1
+  image: minimum2scp/magellan-tdiary:0.1.2
   links:
     - db
+    - cache
   command: bundle exec puma --port 80
   environment:
     - MYSQL_USERNAME=tdiary
@@ -21,4 +22,6 @@ db:
     #- ./volumes/mysql-data:/var/lib/mysql:rw
     - ./volumes/mysql-conf/charset.cnf:/etc/mysql/conf.d/charset.cnf:ro
 
+cache:
+  image: redis:3.0
 
