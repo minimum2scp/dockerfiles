@@ -1,9 +1,6 @@
-require 'logger'
 require 'webrick/httpauth/htpasswd'
 require 'bundler/setup'
 require 'sequel'
-
-logger = Logger.new($stdout)
 
 namespace :db do
   desc "create database by environment variable DATABASE_URL"
@@ -11,8 +8,7 @@ namespace :db do
     opts = Sequel.connect(ENV['DATABASE_URL']).opts
     opts.delete(:uri)
     dbname = opts.delete(:database)
-    logger.info "Connect to #{opts.inspect}"
-    Sequel.connect(opts, loggers: [logger])["CREATE DATABASE IF NOT EXISTS #{dbname}"].all
+    Sequel.connect(opts)["CREATE DATABASE IF NOT EXISTS #{dbname}"].all
   end
 end
 
@@ -22,7 +18,6 @@ namespace :htpasswd do
     htpasswd = WEBrick::HTTPAuth::Htpasswd.new('.htpasswd')
     htpasswd.set_passwd(nil, ENV['TDIARY_BASIC_AUTH_USERNAME'], ENV['TDIARY_BASIC_AUTH_PASSWORD'])
     htpasswd.flush
-    logger.info "created .htaccess"
   end
 end
 
