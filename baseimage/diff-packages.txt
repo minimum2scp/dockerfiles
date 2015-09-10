@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150909-23390-125vvnw.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150909-23390-1omhe9l.out
-% diff -u /tmp/docker-diff.20150909-23390-125vvnw.out /tmp/docker-diff.20150909-23390-1omhe9l.out
---- /tmp/docker-diff.20150909-23390-125vvnw.out	2015-09-09 00:11:51.845834184 +0900
-+++ /tmp/docker-diff.20150909-23390-1omhe9l.out	2015-09-09 00:11:53.573836857 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150911-29255-26r7om.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150911-29255-16bmkcw.out
+% diff -u /tmp/docker-diff.20150911-29255-26r7om.out /tmp/docker-diff.20150911-29255-16bmkcw.out
+--- /tmp/docker-diff.20150911-29255-26r7om.out	2015-09-11 00:47:36.060163436 +0900
++++ /tmp/docker-diff.20150911-29255-16bmkcw.out	2015-09-11 00:47:37.596171759 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -125,7 +125,7 @@
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 4.1+Debian14      all               Linux Standard Base 4.1 init script functionality
 +ii  lv                       4.51-2.3          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.2-1           amd64             on-line manual pager
++ii  man-db                   2.7.3-1           amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.27-1            amd64             Tools for mounting and manipulating filesystems
  ii  multiarch-support        2.19-19           amd64             Transitional package to ensure multiarch compatibilit
@@ -133,9 +133,9 @@
  ii  ncurses-bin              6.0+20150810-1    amd64             terminal-related programs and man pages
 +ii  net-tools                1.60+git20150829. amd64             NET-3 networking toolkit
  ii  netbase                  5.3               all               Basic TCP/IP networking system
-+ii  openssh-client           1:6.9p1-1         amd64             secure shell (SSH) client, for secure access to remot
-+ii  openssh-server           1:6.9p1-1         amd64             secure shell (SSH) server, for secure access from rem
-+ii  openssh-sftp-server      1:6.9p1-1         amd64             secure shell (SSH) sftp server module, for SFTP acces
++ii  openssh-client           1:6.9p1-2         amd64             secure shell (SSH) client, for secure access to remot
++ii  openssh-server           1:6.9p1-2         amd64             secure shell (SSH) server, for secure access from rem
++ii  openssh-sftp-server      1:6.9p1-2         amd64             secure shell (SSH) sftp server module, for SFTP acces
 +ii  openssl                  1.0.2d-1          amd64             Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                   1:4.2-3           amd64             change and administer password and group data
 +ii  perl                     5.20.2-6          amd64             Larry Wall's Practical Extraction and Report Language
