@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150911-29255-26r7om.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150911-29255-16bmkcw.out
-% diff -u /tmp/docker-diff.20150911-29255-26r7om.out /tmp/docker-diff.20150911-29255-16bmkcw.out
---- /tmp/docker-diff.20150911-29255-26r7om.out	2015-09-11 00:47:36.060163436 +0900
-+++ /tmp/docker-diff.20150911-29255-16bmkcw.out	2015-09-11 00:47:37.596171759 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150912-32571-1arvih7.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150912-32571-1m8qbb3.out
+% diff -u /tmp/docker-diff.20150912-32571-1arvih7.out /tmp/docker-diff.20150912-32571-1m8qbb3.out
+--- /tmp/docker-diff.20150912-32571-1arvih7.out	2015-09-12 08:01:05.415217236 +0900
++++ /tmp/docker-diff.20150912-32571-1m8qbb3.out	2015-09-12 08:01:06.735224753 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -76,7 +76,7 @@
  ii  libkmod2:amd64           21-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64      2.4.42+dfsg-1     amd64             OpenLDAP libraries
++ii  libldap-2.4-2:amd64      2.4.42+dfsg-2     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
 +ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
@@ -91,7 +91,7 @@
  ii  libpam-modules-bin       1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM - helper bin
  ii  libpam-runtime           1.1.8-3.1         all               Runtime support for the PAM library
  ii  libpam0g:amd64           1.1.8-3.1         amd64             Pluggable Authentication Modules library
- ii  libpcre3:amd64           2:8.35-7.1        amd64             Perl 5 Compatible Regular Expression Library - runtim
+ ii  libpcre3:amd64           2:8.35-7.2        amd64             Perl 5 Compatible Regular Expression Library - runtim
 +ii  libpipeline1:amd64       1.4.1-1           amd64             pipeline manipulation library
 +ii  libpopt0:amd64           1.16-10           amd64             lib for parsing cmdline parameters
  ii  libprocps4:amd64         2:3.3.10-4        amd64             library for accessing process information from /proc
@@ -110,7 +110,7 @@
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.2.1-16          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        225-1             amd64             systemd utility library
+ ii  libsystemd0:amd64        226-1             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -123,7 +123,7 @@
 +ii  localepurge              0.7.3.4           all               reclaim disk space by removing unneeded localizations
 +ii  locales                  2.19-19           all               GNU C Library: National Language (locale) data [suppo
  ii  login                    1:4.2-3           amd64             system login tools
- ii  lsb-base                 4.1+Debian14      all               Linux Standard Base 4.1 init script functionality
+ ii  lsb-base                 9.20150826        all               Linux Standard Base init script functionality
 +ii  lv                       4.51-2.3          amd64             Powerful Multilingual File Viewer
 +ii  man-db                   2.7.3-1           amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
@@ -147,8 +147,8 @@
  ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  225-1             amd64             system and service manager
--ii  systemd-sysv             225-1             amd64             system and service manager - SysV links
+-ii  systemd                  226-1             amd64             system and service manager
+-ii  systemd-sysv             226-1             amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
@@ -156,7 +156,7 @@
  ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     225-1             amd64             /dev/ and hotplug management daemon
+ ii  udev                     226-1             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.27-1            amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.826-1       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.826-1       amd64             Vi IMproved - enhanced vi editor - compact version
