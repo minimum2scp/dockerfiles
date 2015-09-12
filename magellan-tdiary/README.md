@@ -33,10 +33,16 @@ MySQL database connection is configured by environment variables:
 magellan-tdiary stores cache into Redis, using tdiary-cache-redis gem.
 Redis connection is configured by environment variables:
 
- * `REDIS_HOST`
+ * `REDIS_HOST` (optional)
  * `REDIS_PORT` (optional)
  * `REDIS_DATABASE` (optional)
  * `REDIS_PASSWORD` (optional)
+
+When `REDIS_HOST` is not set, magellan-tdiary stores cache into local disk.
+That means:
+
+ * The cache will be inconsistent when 2 or more magellan-tdiary containers are running
+ * The cache will be lost when magellan-tdiary containers stop
 
 ## Local test with docker-compose
 
