@@ -1,5 +1,7 @@
 gem "puma"
 gem "mysql2"
+gem "hiredis"
+gem "redis", require: ["redis", "redis/connection/hiredis"]
 
 gem "tdiary",                  path: "."
 gem "tdiary-contrib",          github: "tdiary/tdiary-contrib"
