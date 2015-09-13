@@ -17,6 +17,16 @@ magellan-tdiary creates .htpasswd by environment variables:
  * `TDIARY_BASIC_AUTH_USERNAME` (default: tdiary)
  * `TDIARY_BASIC_AUTH_PASSWORD` (default: tdiary)
 
+### CSRF Protection
+
+magellan-tdiary CSRF protection is configured by environment variables:
+
+ * `TDIARY_CSRF_PROTECTION_METHOD` (default: 2)
+ * `TDIARY_CSRF_PROTECTION_KEY` (default: `FAKE_CSRF_PROTECTION_KEY`)
+ * `TDIARY_CSRF_PROTECTION_ALLOWED_REFERER_REGEXP_FOR_UPDATE` (default: ``)
+
+see tdiary.conf.sample, tdiary.conf.samle-en in https://github.com/tdiary/tdiary-core for details.
+
 ### Database
 
 magellan-tdiary stores data into MySQL database, using tdiary-io-rdb gem.

@@ -12,6 +12,7 @@ tdiary:
     - MYSQL_DATABASE=tdiary
     #- TDIARY_BASIC_AUTH_USERNAME=tdiary
     #- TDIARY_BASIC_AUTH_PASSWORD=tdiary
+    - TDIARY_CSRF_PROTECTION_KEY=FAKE_LOCALTEST_KEY
 
 db:
   image: mysql:5.5
