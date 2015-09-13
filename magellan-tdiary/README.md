@@ -59,16 +59,22 @@ That means:
 You can try tDiary with docker-compose:
 
 ```
-% docker-compose up -d
-magellantdiary_db_1 is up-to-date
-magellantdiary_cache_1 is up-to-date
-Starting magellantdiary_tdiary_1...
-% docker-compose ps
-         Name                        Command               State    Ports
----------------------------------------------------------------------------
+% docker-compose scale db=1 cache=1 tdiary=3 nginx=1
+Creating and starting 1... done
+Creating and starting 1... done
+Creating and starting 1... done
+Creating and starting 2... done
+Creating and starting 3... done
+Creating and starting 1... done
+% docker-compose ps 
+Name                        Command               State        Ports
+----------------------------------------------------------------------------------
 magellantdiary_cache_1    /entrypoint.sh redis-server      Up      6379/tcp
 magellantdiary_db_1       /entrypoint.sh mysqld            Up      3306/tcp
-magellantdiary_tdiary_1   /opt/magellan-tdiary/entry ...   Up
+magellantdiary_nginx_1    /opt/entrypoint nginx -g d ...   Up      443/tcp, 80/tcp
+magellantdiary_tdiary_1   /opt/magellan-tdiary/entry ...   Up      80/tcp
+magellantdiary_tdiary_2   /opt/magellan-tdiary/entry ...   Up      80/tcp
+magellantdiary_tdiary_3   /opt/magellan-tdiary/entry ...   Up      80/tcp
 ```
 
 See docker-compose.yml for details.

@@ -1,5 +1,17 @@
+nginx:
+  image: nginx:1.9
+  links:
+    - tdiary
+  volumes:
+    - ./volumes/nginx-conf/front.conf:/etc/nginx/conf.d/front.conf:ro
+    - ./volumes/nginx-conf/entrypoint:/opt/entrypoint:ro
+  entrypoint: /opt/entrypoint
+  command: ["nginx", "-g", "daemon off;"]
+
 tdiary:
   image: minimum2scp/magellan-tdiary:0.1.2
+  expose:
+    - 80
   links:
     - db
     - cache
