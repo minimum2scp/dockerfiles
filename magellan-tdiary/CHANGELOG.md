@@ -2,6 +2,7 @@
 
  * Update magellan-proxy to 0.0.2
  * Redis cache support (tdiary-cache-redis)
+ * Enabled `theme_online` plugin by default
 
 ## 0.1.1 (2015-09-10)
 
