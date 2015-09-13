@@ -12,6 +12,9 @@ RUN cp -a /build/Gemfile.local /usr/src/app/ && \
     bundle install
 RUN cp -a /build/tdiary.conf /usr/src/app/
 
+## copy js, theme to public/assets
+RUN cd /usr/src/app && rake assets:copy
+
 ## install entrypoint script, and utility
 RUN install -m 755 -o root -g root -p -D /build/entrypoint /opt/magellan-tdiary/entrypoint
 RUN install -m 644 -o root -g root -p -D /build/Rakefile   /opt/magellan-tdiary/Rakefile
