@@ -1,10 +1,11 @@
 nginx:
-  image: nginx:1.9
+  build: ./nginx-custom/
   links:
     - tdiary
   volumes:
-    - ./volumes/nginx-conf/front.conf:/etc/nginx/conf.d/front.conf:ro
-    - ./volumes/nginx-conf/entrypoint:/opt/entrypoint:ro
+    - ./nginx-custom/frontend.conf:/etc/nginx/conf.d/frontend.conf:ro
+    - ./nginx-custom/entrypoint:/opt/entrypoint:ro
+    - /var/run/docker.sock:/var/run/docker.sock
   entrypoint: /opt/entrypoint
   command: ["nginx", "-g", "daemon off;"]
 
