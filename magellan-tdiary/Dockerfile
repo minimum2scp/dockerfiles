@@ -15,6 +15,9 @@ RUN cp -a /build/tdiary.conf /usr/src/app/
 ## copy js, theme to public/assets
 RUN cd /usr/src/app && rake assets:copy
 
+## download Phusion Passenger agent binary
+RUN passenger start --runtime-check-only
+
 ## install entrypoint script, and utility
 RUN install -m 755 -o root -g root -p -D /build/entrypoint /opt/magellan-tdiary/entrypoint
 RUN install -m 644 -o root -g root -p -D /build/Rakefile   /opt/magellan-tdiary/Rakefile
@@ -33,5 +36,6 @@ ENV TDIARY_BASIC_AUTH_PASSWORD tdiary
 WORKDIR /usr/src/app
 
 ENTRYPOINT ["/opt/magellan-tdiary/entrypoint"]
-CMD ["/usr/local/bin/magellan-proxy", "bundle", "exec", "puma", "-p", "80", "-e", "production"]
+CMD [ "magellan-proxy", "bundle", "exec", "passenger", "start", "-p", "80", "-e", "production", \
+      "--pid-file", "tmp/passenger.pid", "--load-shell-envvars", "--static-files-dir", "public" ]
 

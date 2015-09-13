@@ -4,6 +4,7 @@
  * Redis cache support (tdiary-cache-redis)
  * Enabled `theme_online` plugin by default
  * Copy js, theme into public/assets by `rake assets:copy`
+ * Use passenger instead of puma
 
 ## 0.1.1 (2015-09-10)
 

@@ -3,7 +3,9 @@ tdiary:
   links:
     - db
     - cache
-  command: bundle exec puma --port 80
+  command: >
+    bundle exec passenger start -e production -p 80
+    --pid-file tmp/passenger.pid --load-shell-envvars --static-files-dir public
   environment:
     - MYSQL_USERNAME=tdiary
     - MYSQL_PASSWORD=tdiary
