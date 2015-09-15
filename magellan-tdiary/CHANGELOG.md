@@ -1,4 +1,4 @@
-## 0.1.3 (2015-09-xx)
+## 0.1.3 (2015-09-16)
 
  * Install `newrelic_rpm` gem for monitoring
  * Install `rack-mini-profiler`, `flamegraph` gem for profiling
