@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150915-24402-z46km4.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150915-24402-8mzgq.out
-% diff -u /tmp/docker-diff.20150915-24402-z46km4.out /tmp/docker-diff.20150915-24402-8mzgq.out
---- /tmp/docker-diff.20150915-24402-z46km4.out	2015-09-15 00:27:30.228430629 +0900
-+++ /tmp/docker-diff.20150915-24402-8mzgq.out	2015-09-15 00:27:31.404435585 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150916-24396-ytvqp7.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150916-24396-1wim108.out
+% diff -u /tmp/docker-diff.20150916-24396-ytvqp7.out /tmp/docker-diff.20150916-24396-1wim108.out
+--- /tmp/docker-diff.20150916-24396-ytvqp7.out	2015-09-16 00:05:25.130870317 +0900
++++ /tmp/docker-diff.20150916-24396-1wim108.out	2015-09-16 00:05:26.640314467 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
