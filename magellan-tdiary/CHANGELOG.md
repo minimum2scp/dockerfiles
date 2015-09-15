@@ -2,6 +2,7 @@
 
  * Install `newrelic_rpm` gem for monitoring
  * Install `rack-mini-profiler`, `flamegraph` gem for profiling
+ * Set magellan-proxy -n (--num) option to 5, changed passenger --max-pool-size to 3
 
 ## 0.1.2 (2015-09-13)
 

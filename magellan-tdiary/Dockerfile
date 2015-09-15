@@ -35,6 +35,7 @@ ENV TDIARY_BASIC_AUTH_PASSWORD tdiary
 WORKDIR /usr/src/app
 
 ENTRYPOINT ["/opt/magellan-tdiary/entrypoint"]
-CMD [ "magellan-proxy", "bundle", "exec", "passenger", "start", "-p", "80", "-e", "production", \
+CMD [ "magellan-proxy", "-n", "5", \
+      "bundle", "exec", "passenger", "start", "-p", "80", "-e", "production", "--max-pool-size", "3", \
       "--pid-file", "tmp/passenger.pid", "--load-shell-envvars", "--static-files-dir", "public" ]
 

@@ -17,7 +17,7 @@ tdiary:
     - db
     - cache
   command: >
-    bundle exec passenger start -e production -p 80
+    bundle exec passenger start -e production -p 80 --max-pool-size 3
     --pid-file tmp/passenger.pid --load-shell-envvars --static-files-dir public
   environment:
     - MYSQL_USERNAME=tdiary
