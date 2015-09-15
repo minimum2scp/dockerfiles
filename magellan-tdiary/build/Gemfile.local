@@ -14,4 +14,7 @@ gem "tdiary-io-rdb",           github: "tdiary/tdiary-io-rdb"
 #gem "tdiary-style-rd",         github: "tdiary/tdiary-style-rd"
 gem "tdiary-style-gfm",        github: "tdiary/tdiary-style-gfm"
 
+gem "newrelic_rpm"
+gem "flamegraph"
+gem "rack-mini-profiler", require: false
 

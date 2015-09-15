@@ -54,6 +54,28 @@ That means:
  * The cache will be inconsistent when 2 or more magellan-tdiary containers are running
  * The cache will be lost when magellan-tdiary containers stop
 
+### New Relic
+
+magellan-tdiary includes newrelic_rpm gem for application monitoring.
+
+You can provide config options by environment variables
+with the prefix `NEW_RELIC_`, for example:
+
+ * `NEW_RELIC_LICENSE_KEY` (optional)
+ * `NEW_RELIC_AGENT_ENABLED` (optional)
+ * `NEW_RELIC_APP_NAME` (optional)
+
+see https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/ruby-agent-configuration#Options for details.
+
+### rack-mini-profiler
+
+magellan-tdiary includes rack-mini-profiler, flamegraph gem for profiling.
+You can configure rack-mini-profiler by environment vaiables:
+
+ * `RACK_MINI_PROFILER_ENABLED` (default is `true`. set `false` to disable rack-mini-profiler)
+
+magellan-tdiary requires Basic Authentication to view rack-mini-profiler.
+
 ## Local test with docker-compose
 
 You can try tDiary with docker-compose:

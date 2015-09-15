@@ -1,3 +1,8 @@
+## 0.1.3 (2015-09-xx)
+
+ * Install `newrelic_rpm` gem for monitoring
+ * Install `rack-mini-profiler`, `flamegraph` gem for profiling
+
 ## 0.1.2 (2015-09-13)
 
  * Update magellan-proxy to 0.0.2

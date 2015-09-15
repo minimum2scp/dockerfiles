@@ -10,7 +10,7 @@ nginx:
   command: ["nginx", "-g", "daemon off;"]
 
 tdiary:
-  image: minimum2scp/magellan-tdiary:0.1.2
+  image: minimum2scp/magellan-tdiary:0.1.3dev
   expose:
     - 80
   links:
@@ -26,6 +26,9 @@ tdiary:
     #- TDIARY_BASIC_AUTH_USERNAME=tdiary
     #- TDIARY_BASIC_AUTH_PASSWORD=tdiary
     - TDIARY_CSRF_PROTECTION_KEY=FAKE_LOCALTEST_KEY
+    - NEW_RELIC_LICENSE_KEY=DUMMY_LICENSE_KEY
+    - NEW_RELIC_APP_NAME=magellan-tdiary-local-dev
+    #- RACK_MINI_PROFILE_ENABLED=false
 
 db:
   image: mysql:5.5
