@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150917-4758-1yt059v.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150917-4758-8io9x2.out
-% diff -u /tmp/docker-diff.20150917-4758-1yt059v.out /tmp/docker-diff.20150917-4758-8io9x2.out
---- /tmp/docker-diff.20150917-4758-1yt059v.out	2015-09-17 02:06:43.191152083 +0900
-+++ /tmp/docker-diff.20150917-4758-8io9x2.out	2015-09-17 02:06:44.479157798 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150918-16350-10kndu8.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150918-16350-15poox9.out
+% diff -u /tmp/docker-diff.20150918-16350-10kndu8.out /tmp/docker-diff.20150918-16350-15poox9.out
+--- /tmp/docker-diff.20150918-16350-10kndu8.out	2015-09-18 00:11:24.426063515 +0900
++++ /tmp/docker-diff.20150918-16350-15poox9.out	2015-09-18 00:11:25.786061122 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -206,7 +206,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl-modules             5.20.2-6          all               Core Perl modules
  ii  procps                   2:3.3.10-4        amd64             /proc file system utilities
  ii  readline-common          6.3-8             all               GNU readline and history libraries, common files
-+ii  rsyslog                  8.12.0-2          amd64             reliable system and kernel logging daemon
++ii  rsyslog                  8.12.0-3          amd64             reliable system and kernel logging daemon
  ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
