@@ -39,7 +39,6 @@ db:
     - MYSQL_PASSWORD=tdiary
     - MYSQL_DATABASE=tdiary
   volumes:
-    #- ./volumes/mysql-data:/var/lib/mysql:rw
     - ./volumes/mysql-conf/charset.cnf:/etc/mysql/conf.d/charset.cnf:ro
 
 cache:
