@@ -1,9 +1,10 @@
-## 0.1.4 (2015-09-xx))
+## 0.1.4 (2015-09-xx)
 
  * Fixed DB connection problem
    (exception `Sequel::DatabaseError: Mysql2::Error: Table 'conf' already exists` after MySQL connection lost)
  * Fixed Redis connection problem
    (excepption `Redis::CommandError ERR max number of clients reached` after processed several requests)
+ * Enabled Ruby garbage collection instrumentation (`GC::Profiler.enable`) by default
 
 ## 0.1.3 (2015-09-16)
 

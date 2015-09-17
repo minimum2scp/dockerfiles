@@ -29,6 +29,7 @@ RUN chmod +x /usr/local/bin/magellan-proxy
 RUN rm -rf /build
 
 ENV RACK_MINI_PROFILER_ENABLED true
+ENV RUBY_GC_PROFILER_ENABLED true
 ENV TDIARY_BASIC_AUTH_USERNAME tdiary
 ENV TDIARY_BASIC_AUTH_PASSWORD tdiary
 

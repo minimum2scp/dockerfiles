@@ -76,6 +76,13 @@ You can configure rack-mini-profiler by environment vaiables:
 
 magellan-tdiary requires Basic Authentication to view rack-mini-profiler.
 
+### Ruby GC::Profiler
+
+magellan-tdiary enables Ruby garbage collection instrumentation by
+environment variable:
+
+ * `RUBY_GC_PROFILER_ENABLED` (optional, default: `true`)
+
 ## Local test with docker-compose
 
 You can try tDiary with docker-compose:

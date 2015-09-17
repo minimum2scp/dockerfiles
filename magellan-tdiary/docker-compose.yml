@@ -29,6 +29,7 @@ tdiary:
     - NEW_RELIC_LICENSE_KEY=DUMMY_LICENSE_KEY
     - NEW_RELIC_APP_NAME=magellan-tdiary-local-dev
     #- RACK_MINI_PROFILE_ENABLED=false
+    #- RUBY_GC_PROFILER_ENABLED=false
 
 db:
   image: mysql:5.5

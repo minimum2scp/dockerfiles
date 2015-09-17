@@ -1,3 +1,7 @@
+if ENV['RUBY_GC_PROFILER_ENABLED'] =~ /\A(true|yes|on|1)\z/
+  GC::Profiler.enable
+end
+
 if ENV['RACK_MINI_PROFILER_ENABLED'] =~ /\A(true|yes|on|1)\z/
   require 'rack-mini-profiler'
   use ::Rack::MiniProfiler
