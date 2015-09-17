@@ -10,7 +10,7 @@ nginx:
   command: ["nginx", "-g", "daemon off;"]
 
 tdiary:
-  image: minimum2scp/magellan-tdiary:0.1.4-b1
+  image: minimum2scp/magellan-tdiary:0.1.4
   expose:
     - 80
   links:

@@ -1,4 +1,4 @@
-## 0.1.4 (2015-09-xx)
+## 0.1.4 (2015-09-18)
 
  * Fixed DB connection problem
    (exception `Sequel::DatabaseError: Mysql2::Error: Table 'conf' already exists` after MySQL connection lost)
