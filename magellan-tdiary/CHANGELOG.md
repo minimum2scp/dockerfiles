@@ -5,6 +5,7 @@
  * Fixed Redis connection problem
    (excepption `Redis::CommandError ERR max number of clients reached` after processed several requests)
  * Enabled Ruby garbage collection instrumentation (`GC::Profiler.enable`) by default
+ * Store data into local file when `MYSQL_*` environment variables are not set
 
 ## 0.1.3 (2015-09-16)
 

@@ -29,14 +29,20 @@ see tdiary.conf.sample, tdiary.conf.samle-en in https://github.com/tdiary/tdiary
 
 ### Database
 
-magellan-tdiary stores data into MySQL database, using tdiary-io-rdb gem.
-MySQL database connection is configured by environment variables:
+magellan-tdiary stores data into MySQL database using [tdiary-io-rdb](https://github.com/tdiary/tdiary-io-rdb) gem.
+MySQL connection is configured by environment variables:
 
- * `MYSQL_HOST`
- * `MYSQL_PORT`
- * `MYSQL_DATABASE`
- * `MYSQL_USERNAME`
- * `MYSQL_PASSWORD`
+ * `MYSQL_HOST` (optional)
+ * `MYSQL_PORT` (optional)
+ * `MYSQL_DATABASE` (optional)
+ * `MYSQL_USERNAME` (optional)
+ * `MYSQL_PASSWORD` (optional)
+
+When `MYSQL_*` are not set, magellan-tdiary stores data into local file in `/usr/src/app/data/` directory.
+That means:
+
+ * The data will be inconsistent when 2 ore more magellan-tdiary containers are running
+ * The data will be lost when magellan-tdiary containers stop
 
 ### Cache with redis
 
