@@ -2,7 +2,7 @@
 
 [tDiary](http://www.tdiary.org/) on [MAGELLAN](http://www.magellanic-clouds.com/)
 
-https://hub.docker.com/r/minimum2scp/magellan-tdiary/
+[minimum2scp/magellan-tdiary image on Docker Hub](https://hub.docker.com/r/minimum2scp/magellan-tdiary/)
 
 ## Deploy magellan-tdiary on MAGELLAN
 
@@ -14,16 +14,16 @@ https://hub.docker.com/r/minimum2scp/magellan-tdiary/
 
 magellan-tdiary creates .htpasswd by environment variables:
 
- * `TDIARY_BASIC_AUTH_USERNAME` (default: tdiary)
- * `TDIARY_BASIC_AUTH_PASSWORD` (default: tdiary)
+ * `TDIARY_BASIC_AUTH_USERNAME` (default: `tdiary`)
+ * `TDIARY_BASIC_AUTH_PASSWORD` (default: `tdiary`)
 
 ### CSRF Protection
 
 magellan-tdiary CSRF protection is configured by environment variables:
 
- * `TDIARY_CSRF_PROTECTION_METHOD` (default: 2)
+ * `TDIARY_CSRF_PROTECTION_METHOD` (default: `2`)
  * `TDIARY_CSRF_PROTECTION_KEY` (default: `FAKE_CSRF_PROTECTION_KEY`)
- * `TDIARY_CSRF_PROTECTION_ALLOWED_REFERER_REGEXP_FOR_UPDATE` (default: ``)
+ * `TDIARY_CSRF_PROTECTION_ALLOWED_REFERER_REGEXP_FOR_UPDATE` (default is empty)
 
 see tdiary.conf.sample, tdiary.conf.samle-en in https://github.com/tdiary/tdiary-core for details.
 
@@ -41,7 +41,7 @@ MySQL connection is configured by environment variables:
 When `MYSQL_*` are not set, magellan-tdiary stores data into local file in `/usr/src/app/data/` directory.
 That means:
 
- * The data will be inconsistent when 2 ore more magellan-tdiary containers are running
+ * The data will be inconsistent when 2 or more magellan-tdiary containers are running
  * The data will be lost when magellan-tdiary containers stop
 
 ### Cache with redis
@@ -78,7 +78,7 @@ see https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/
 magellan-tdiary includes rack-mini-profiler, flamegraph gem for profiling.
 You can configure rack-mini-profiler by environment vaiables:
 
- * `RACK_MINI_PROFILER_ENABLED` (default is `true`. set `false` to disable rack-mini-profiler)
+ * `RACK_MINI_PROFILER_ENABLED` (default: `true`)
 
 magellan-tdiary requires Basic Authentication to view rack-mini-profiler.
 
@@ -87,7 +87,7 @@ magellan-tdiary requires Basic Authentication to view rack-mini-profiler.
 magellan-tdiary enables Ruby garbage collection instrumentation by
 environment variable:
 
- * `RUBY_GC_PROFILER_ENABLED` (optional, default: `true`)
+ * `RUBY_GC_PROFILER_ENABLED` (default: `true`)
 
 ## Local test with docker-compose
 
