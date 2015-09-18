@@ -5,29 +5,29 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## install squid3
+## install squid
 ##
-apt-get install --no-install-recommends -y squid3
+apt-get install --no-install-recommends -y squid
 
 ##
-## configure squid3
+## configure squid
 ##
-cp -a /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
-( echo "include /etc/squid3/squid.acl.conf";
-  cat /etc/squid3/squid.conf;
+cp -a /etc/squid/squid.conf /etc/squid/squid.conf.orig
+( echo "include /etc/squid/squid.acl.conf";
+  cat /etc/squid/squid.conf;
   echo "";
-  echo "include /etc/squid3/squid.local.conf";
-) > /etc/squid3/squid.conf.new
-mv /etc/squid3/squid.conf.new /etc/squid3/squid.conf
-install -m 644 -o root -g root -p /build/etc/squid3/squid.acl.conf /etc/squid3/squid.acl.conf
-install -m 644 -o root -g root -p /build/etc/squid3/squid.local.conf /etc/squid3/squid.local.conf
+  echo "include /etc/squid/squid.local.conf";
+) > /etc/squid/squid.conf.new
+mv /etc/squid/squid.conf.new /etc/squid/squid.conf
+install -m 644 -o root -g root -p /build/etc/squid/squid.acl.conf /etc/squid/squid.acl.conf
+install -m 644 -o root -g root -p /build/etc/squid/squid.local.conf /etc/squid/squid.local.conf
 etckeeper commit "squid: allow from localnet, shorten shutdown_lifetime"
 
 ##
-## workaround for squid3 init script: "/etc/init.d/squid3 stop" fails
+## workaround for squid init script: "/etc/init.d/squid3 stop" fails
 ##
-cp -a /etc/init.d/squid3 /etc/init.d/squid3.orig
-install -m 755 -o root -g root -p /build/etc/init.d/squid3 /etc/init.d/squid3
+cp -a /etc/init.d/squid /etc/init.d/squid.orig
+install -m 755 -o root -g root -p /build/etc/init.d/squid /etc/init.d/squid
 etckeeper commit "squid: workaround for init script"
 
 ##
