@@ -102,7 +102,8 @@ start () {
 
 stop () {
 	PID=`cat $PIDFILE 2>/dev/null`
-	start-stop-daemon --stop --quiet --pidfile $PIDFILE --exec $DAEMON
+	#start-stop-daemon --stop --quiet --pidfile $PIDFILE --exec $DAEMON
+	start-stop-daemon --stop --quiet --pidfile $PIDFILE --name `basename $DAEMON`
 	#
 	#	Now we have to wait until squid has _really_ stopped.
 	#
