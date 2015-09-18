@@ -21,10 +21,10 @@ I: Retrieving libapt-pkg4.16 1.0.10.2
 I: Validating libapt-pkg4.16 1.0.10.2
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
-I: Retrieving libaudit-common 1:2.4.4-2
-I: Validating libaudit-common 1:2.4.4-2
-I: Retrieving libaudit1 1:2.4.4-2
-I: Validating libaudit1 1:2.4.4-2
+I: Retrieving libaudit-common 1:2.4.4-3
+I: Validating libaudit-common 1:2.4.4-3
+I: Retrieving libaudit1 1:2.4.4-3
+I: Validating libaudit1 1:2.4.4-3
 I: Retrieving base-files 9.4
 I: Validating base-files 9.4
 I: Retrieving base-passwd 3.5.38
@@ -129,8 +129,8 @@ I: Retrieving libtext-wrapi18n-perl 0.06-7.1
 I: Validating libtext-wrapi18n-perl 0.06-7.1
 I: Retrieving libusb-0.1-4 2:0.1.12-27
 I: Validating libusb-0.1-4 2:0.1.12-27
-I: Retrieving lsb-base 9.20150826
-I: Validating lsb-base 9.20150826
+I: Retrieving lsb-base 9.20150917
+I: Validating lsb-base 9.20150917
 I: Retrieving dmsetup 2:1.02.104-1
 I: Validating dmsetup 2:1.02.104-1
 I: Retrieving libdevmapper1.02.1 2:1.02.104-1
@@ -201,22 +201,22 @@ I: Retrieving tzdata 2015f-1
 I: Validating tzdata 2015f-1
 I: Retrieving libustr-1.0-1 1.0.4-5
 I: Validating libustr-1.0-1 1.0.4-5
-I: Retrieving bsdutils 1:2.27-1
-I: Validating bsdutils 1:2.27-1
-I: Retrieving libblkid1 2.27-1
-I: Validating libblkid1 2.27-1
-I: Retrieving libfdisk1 2.27-1
-I: Validating libfdisk1 2.27-1
-I: Retrieving libmount1 2.27-1
-I: Validating libmount1 2.27-1
-I: Retrieving libsmartcols1 2.27-1
-I: Validating libsmartcols1 2.27-1
-I: Retrieving libuuid1 2.27-1
-I: Validating libuuid1 2.27-1
-I: Retrieving mount 2.27-1
-I: Validating mount 2.27-1
-I: Retrieving util-linux 2.27-1
-I: Validating util-linux 2.27-1
+I: Retrieving bsdutils 1:2.27-3
+I: Validating bsdutils 1:2.27-3
+I: Retrieving libblkid1 2.27-3
+I: Validating libblkid1 2.27-3
+I: Retrieving libfdisk1 2.27-3
+I: Validating libfdisk1 2.27-3
+I: Retrieving libmount1 2.27-3
+I: Validating libmount1 2.27-3
+I: Retrieving libsmartcols1 2.27-3
+I: Validating libsmartcols1 2.27-3
+I: Retrieving libuuid1 2.27-3
+I: Validating libuuid1 2.27-3
+I: Retrieving mount 2.27-3
+I: Validating mount 2.27-3
+I: Retrieving util-linux 2.27-3
+I: Validating util-linux 2.27-3
 I: Retrieving liblzma5 5.1.1alpha+20120614-2.1
 I: Validating liblzma5 5.1.1alpha+20120614-2.1
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
@@ -538,8 +538,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [253 kB]
-Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.3 MB in 37s (272 kB/s)
+Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.0 MB]
+Fetched 10.3 MB in 8s (1276 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> b866e1919403
-Removing intermediate container 6186a3750087
+ ---> 0678eb5877aa
+Removing intermediate container 5782b9c06f94
 Step 2 : CMD /bin/bash
- ---> Running in e986c0ed9e61
- ---> 831458a69dee
-Removing intermediate container e986c0ed9e61
-Successfully built 831458a69dee
+ ---> Running in 5a6460cc026c
+ ---> 40ed580db4e3
+Removing intermediate container 5a6460cc026c
+Successfully built 40ed580db4e3
