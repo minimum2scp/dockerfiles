@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150921-22875-uuessm.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150921-22875-vnul2.out
-% diff -u /tmp/docker-diff.20150921-22875-uuessm.out /tmp/docker-diff.20150921-22875-vnul2.out
---- /tmp/docker-diff.20150921-22875-uuessm.out	2015-09-21 00:07:40.813346523 +0900
-+++ /tmp/docker-diff.20150921-22875-vnul2.out	2015-09-21 00:07:41.993352359 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150922-22124-tr3ihi.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150922-22124-1w4jjus.out
+% diff -u /tmp/docker-diff.20150922-22124-tr3ihi.out /tmp/docker-diff.20150922-22124-1w4jjus.out
+--- /tmp/docker-diff.20150922-22124-tr3ihi.out	2015-09-22 00:04:13.098446659 +0900
++++ /tmp/docker-diff.20150922-22124-1w4jjus.out	2015-09-22 00:04:14.378416341 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -79,7 +79,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  debconf                  1.5.57            all               Debian configuration management system
  ii  debconf-i18n             1.5.57            all               full internationalization support for debconf
 @@ -20,17 +24,22 @@
- ii  dpkg                     1.18.2            amd64             Debian package management system
+ ii  dpkg                     1.18.3            amd64             Debian package management system
  ii  e2fslibs:amd64           1.42.13-1         amd64             ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 file system utilities
 +ii  etckeeper                1.18.1            all               store /etc in git, mercurial, bzr or darcs
