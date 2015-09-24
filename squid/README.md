@@ -39,23 +39,23 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 02:51 ?        Ss     0:00 init [2]
-root        37     1  0 02:51 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root        62     1  0 02:51 ?        Ss     0:00 /usr/sbin/cron
-root        70     1  0 02:51 ?        Ss     0:00 /usr/sbin/squid -YC -f /etc/squid/squid.conf
-proxy       72    70  0 02:51 ?        S      0:00  \_ (squid-1) -YC -f /etc/squid/squid.conf
-proxy       77    72  0 02:51 ?        S      0:00      \_ (logfile-daemon) /var/log/squid/access.log
-proxy       91    72  0 02:51 ?        S      0:00      \_ (pinger)
-root        84     1  0 02:51 ?        Ss     0:00 /usr/sbin/sshd
-root        92    84  1 02:52 ?        Ss     0:00  \_ sshd: debian [priv]
-debian      94    92  0 02:52 ?        S      0:00      \_ sshd: debian@pts/0
-debian      95    94  0 02:52 pts/0    Ss     0:00          \_ -bash
-debian     100    95  0 02:53 pts/0    R+     0:00              \_ ps -ef fww
+root         1     0  0 23:50 ?        Ss     0:00 init [2]
+root       412     1  0 23:50 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       437     1  0 23:50 ?        Ss     0:00 /usr/sbin/cron
+root       471     1  0 23:50 ?        Ss     0:00 /usr/sbin/squid -YC -f /etc/squid/squid.conf
+proxy      473   471  0 23:50 ?        S      0:00  \_ (squid-1) -YC -f /etc/squid/squid.conf
+proxy      486   473  0 23:50 ?        S      0:00      \_ (logfile-daemon) /var/log/squid/access.log
+proxy      492   473  0 23:50 ?        S      0:00      \_ (pinger)
+root       482     1  0 23:50 ?        Ss     0:00 /usr/sbin/sshd
+root       493   482  0 23:50 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     495   493  0 23:50 ?        S      0:00      \_ sshd: debian@pts/0
+debian     496   495  0 23:50 pts/0    Ss     0:00          \_ -bash
+debian     501   496  0 23:50 pts/0    R+     0:00              \_ ps -ef fw
 ```
 
 ## ports
 
  * TCP/22: sshd
- * TCP/3128: squid3
- * TCP/3129: squid3 (transparent)
+ * TCP/3128: squid
+ * TCP/3129: squid (transparent)
 
