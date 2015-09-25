@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150924-16983-wlwyg0.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150924-16983-1t76esk.out
-% diff -u /tmp/docker-diff.20150924-16983-wlwyg0.out /tmp/docker-diff.20150924-16983-1t76esk.out
---- /tmp/docker-diff.20150924-16983-wlwyg0.out	2015-09-24 00:18:55.607802642 +0900
-+++ /tmp/docker-diff.20150924-16983-1t76esk.out	2015-09-24 00:18:56.875806867 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150926-16222-1alg218.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150926-16222-zpx42b.out
+% diff -u /tmp/docker-diff.20150926-16222-1alg218.out /tmp/docker-diff.20150926-16222-zpx42b.out
+--- /tmp/docker-diff.20150926-16222-1alg218.out	2015-09-26 00:07:54.218549664 +0900
++++ /tmp/docker-diff.20150926-16222-zpx42b.out	2015-09-26 00:07:55.738560098 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -160,8 +160,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libprocps4:amd64         2:3.3.10-4        amd64             library for accessing process information from /proc
  ii  libreadline6:amd64       6.3-8+b3          amd64             GNU readline and history libraries, run-time librarie
 +ii  librtmp1:amd64           2.4+20150115.gita amd64             toolkit for RTMP streams (shared library)
-+ii  libsasl2-2:amd64         2.1.26.dfsg1-13   amd64             Cyrus SASL - authentication abstraction library
-+ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-13   amd64             Cyrus SASL - pluggable authentication modules (DB)
++ii  libsasl2-2:amd64         2.1.26.dfsg1-14   amd64             Cyrus SASL - authentication abstraction library
++ii  libsasl2-modules-db:amd6 2.1.26.dfsg1-14   amd64             Cyrus SASL - pluggable authentication modules (DB)
  ii  libseccomp2:amd64        2.2.3-2           amd64             high level interface to Linux seccomp filter
  ii  libselinux1:amd64        2.3-2+b1          amd64             SELinux runtime shared libraries
  ii  libsemanage-common       2.3-1             all               Common files for SELinux policy management libraries
