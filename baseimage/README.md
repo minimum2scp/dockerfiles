@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150926-16222-1alg218.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150926-16222-zpx42b.out
-% diff -u /tmp/docker-diff.20150926-16222-1alg218.out /tmp/docker-diff.20150926-16222-zpx42b.out
---- /tmp/docker-diff.20150926-16222-1alg218.out	2015-09-26 00:07:54.218549664 +0900
-+++ /tmp/docker-diff.20150926-16222-zpx42b.out	2015-09-26 00:07:55.738560098 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150928-29734-1lq5qel.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150928-29734-gco7y9.out
+% diff -u /tmp/docker-diff.20150928-29734-1lq5qel.out /tmp/docker-diff.20150928-29734-gco7y9.out
+--- /tmp/docker-diff.20150928-29734-1lq5qel.out	2015-09-28 00:29:23.496423634 +0900
++++ /tmp/docker-diff.20150928-29734-gco7y9.out	2015-09-28 00:29:24.912442786 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -103,7 +103,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  iproute2                 4.1.1-1           amd64             networking and traffic control tools
 @@ -41,6 +50,7 @@
  ii  libaudit-common          1:2.4.4-3         all               Dynamic library for security auditing - common files
- ii  libaudit1:amd64          1:2.4.4-3         amd64             Dynamic library for security auditing
+ ii  libaudit1:amd64          1:2.4.4-3+b1      amd64             Dynamic library for security auditing
  ii  libblkid1:amd64          2.27-3            amd64             block device id library
 +ii  libbsd0:amd64            0.7.0-2           amd64             utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64         1.0.6-8           amd64             high-quality block-sorting file compressor library - 
@@ -141,13 +141,13 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libldap-2.4-2:amd64      2.4.42+dfsg-2     amd64             OpenLDAP libraries
  ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
-+ii  liblognorm2:amd64        1.1.1-1           amd64             Log normalizing library
++ii  liblognorm2:amd64        1.1.2-1           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
  ii  libmount1:amd64          2.27-3            amd64             device mounting library
  ii  libncurses5:amd64        6.0+20150810-1    amd64             shared libraries for terminal handling
  ii  libncursesw5:amd64       6.0+20150810-1    amd64             shared libraries for terminal handling (wide characte
 +ii  libnettle6:amd64         3.1.1-4           amd64             low level cryptographic library (symmetric and one-wa
-+ii  libnewt0.52:amd64        0.52.18-1         amd64             Not Erik's Windowing Toolkit - text mode windowing wi
++ii  libnewt0.52:amd64        0.52.18-1+b1      amd64             Not Erik's Windowing Toolkit - text mode windowing wi
 +ii  libnghttp2-14:amd64      1.3.2-0.1         amd64             library implementing HTTP/2 protocol (shared library)
 +ii  libp11-kit0:amd64        0.23.1-3          amd64             Library for loading and coordinating access to PKCS#1
  ii  libpam-modules:amd64     1.1.8-3.1         amd64             Pluggable Authentication Modules for PAM
@@ -223,7 +223,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  util-linux               2.27-3            amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.826-1       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.826-1       amd64             Vi IMproved - enhanced vi editor - compact version
-+ii  whiptail                 0.52.18-1         amd64             Displays user-friendly dialog boxes from shell script
++ii  whiptail                 0.52.18-1+b1      amd64             Displays user-friendly dialog boxes from shell script
  ii  zlib1g:amd64             1:1.2.8.dfsg-2+b1 amd64             compression library - runtime
 +ii  zsh                      5.1.1-1           amd64             shell with lots of features
 +ii  zsh-common               5.1.1-1           all               architecture independent files for Zsh
