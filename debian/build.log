@@ -13,8 +13,8 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving libapparmor1 2.10-2
-I: Validating libapparmor1 2.10-2
+I: Retrieving libapparmor1 2.10-2+b1
+I: Validating libapparmor1 2.10-2+b1
 I: Retrieving apt 1.0.10.2
 I: Validating apt 1.0.10.2
 I: Retrieving libapt-pkg4.16 1.0.10.2
@@ -23,8 +23,8 @@ I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4.4-3
 I: Validating libaudit-common 1:2.4.4-3
-I: Retrieving libaudit1 1:2.4.4-3
-I: Validating libaudit1 1:2.4.4-3
+I: Retrieving libaudit1 1:2.4.4-3+b1
+I: Validating libaudit1 1:2.4.4-3+b1
 I: Retrieving base-files 9.4
 I: Validating base-files 9.4
 I: Retrieving base-passwd 3.5.38
@@ -537,9 +537,9 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org sid InRelease [253 kB]
+Get:1 http://ftp.jp.debian.org sid InRelease [236 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.3 MB in 48s (215 kB/s)
+Fetched 10.3 MB in 8s (1189 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 732a66e54351
-Removing intermediate container 3be33539f391
+ ---> 4a3e63c7f7f7
+Removing intermediate container c7c1388c81da
 Step 2 : CMD /bin/bash
- ---> Running in 514764bbbee2
- ---> 6ffe66739638
-Removing intermediate container 514764bbbee2
-Successfully built 6ffe66739638
+ ---> Running in b3e9755c19cb
+ ---> 363db4ac7310
+Removing intermediate container b3e9755c19cb
+Successfully built 363db4ac7310
