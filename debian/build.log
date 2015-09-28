@@ -51,8 +51,8 @@ I: Retrieving debian-archive-keyring 2014.3
 I: Validating debian-archive-keyring 2014.3
 I: Retrieving debianutils 4.5.1
 I: Validating debianutils 4.5.1
-I: Retrieving diffutils 1:3.3-1+b1
-I: Validating diffutils 1:3.3-1+b1
+I: Retrieving diffutils 1:3.3-2
+I: Validating diffutils 1:3.3-2
 I: Retrieving dpkg 1.18.3
 I: Validating dpkg 1.18.3
 I: Retrieving e2fslibs 1.42.13-1
@@ -537,9 +537,9 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org sid InRelease [236 kB]
+Get:1 http://ftp.jp.debian.org sid InRelease [238 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.3 MB in 8s (1189 kB/s)
+Fetched 10.3 MB in 9s (1122 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 4a3e63c7f7f7
-Removing intermediate container c7c1388c81da
+ ---> a7003d12f847
+Removing intermediate container b2be25f59954
 Step 2 : CMD /bin/bash
- ---> Running in b3e9755c19cb
- ---> 363db4ac7310
-Removing intermediate container b3e9755c19cb
-Successfully built 363db4ac7310
+ ---> Running in 2df68e27a391
+ ---> a9f06f53b334
+Removing intermediate container 2df68e27a391
+Successfully built a9f06f53b334
