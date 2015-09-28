@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150928-29734-1lq5qel.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150928-29734-gco7y9.out
-% diff -u /tmp/docker-diff.20150928-29734-1lq5qel.out /tmp/docker-diff.20150928-29734-gco7y9.out
---- /tmp/docker-diff.20150928-29734-1lq5qel.out	2015-09-28 00:29:23.496423634 +0900
-+++ /tmp/docker-diff.20150928-29734-gco7y9.out	2015-09-28 00:29:24.912442786 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150929-22112-6mmaaj.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150929-22112-1n1pcjl.out
+% diff -u /tmp/docker-diff.20150929-22112-6mmaaj.out /tmp/docker-diff.20150929-22112-1n1pcjl.out
+--- /tmp/docker-diff.20150929-22112-6mmaaj.out	2015-09-29 00:54:20.496035696 +0900
++++ /tmp/docker-diff.20150929-22112-1n1pcjl.out	2015-09-29 00:54:21.608039506 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -112,7 +112,7 @@
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.2.1-17          amd64             GNU Standard C++ Library v3
  ii  libsystemd0:amd64        226-3             amd64             systemd utility library
-+ii  libtasn1-6:amd64         4.5-2             amd64             Manage ASN.1 structures (runtime)
++ii  libtasn1-6:amd64         4.7-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
  ii  libtext-wrapi18n-perl    0.06-7.1          all               internationalized substitute of Text::Wrap
