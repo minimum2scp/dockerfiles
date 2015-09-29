@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150929-22112-6mmaaj.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150929-22112-1n1pcjl.out
-% diff -u /tmp/docker-diff.20150929-22112-6mmaaj.out /tmp/docker-diff.20150929-22112-1n1pcjl.out
---- /tmp/docker-diff.20150929-22112-6mmaaj.out	2015-09-29 00:54:20.496035696 +0900
-+++ /tmp/docker-diff.20150929-22112-1n1pcjl.out	2015-09-29 00:54:21.608039506 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150930-23051-11ig5c8.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20150930-23051-1c7a7i3.out
+% diff -u /tmp/docker-diff.20150930-23051-11ig5c8.out /tmp/docker-diff.20150930-23051-1c7a7i3.out
+--- /tmp/docker-diff.20150930-23051-11ig5c8.out	2015-09-30 00:23:28.284655454 +0900
++++ /tmp/docker-diff.20150930-23051-1c7a7i3.out	2015-09-30 00:23:29.600481242 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -77,7 +77,7 @@
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64      2.4.42+dfsg-2     amd64             OpenLDAP libraries
- ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
+ ii  liblocale-gettext-perl   1.07-1            amd64             module using libc functions for internationalization 
 +ii  liblogging-stdlog0:amd64 1.0.5-2           amd64             easy to use and lightweight logging library
 +ii  liblognorm2:amd64        1.1.2-1           amd64             Log normalizing library
  ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
@@ -154,7 +154,7 @@
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
- ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
+ ii  tar                      1.28-2            amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     226-3             amd64             /dev/ and hotplug management daemon
