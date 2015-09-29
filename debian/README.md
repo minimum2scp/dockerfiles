@@ -76,7 +76,7 @@ ii  libgcc1:amd64            1:5.2.1-17        amd64             GCC support lib
 ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 ii  libgpg-error0:amd64      1.20-1            amd64             library for common error values and messages in GnuPG
 ii  libkmod2:amd64           21-1              amd64             libkmod shared library
-ii  liblocale-gettext-perl   1.05-9            amd64             module using libc functions for internationalization 
+ii  liblocale-gettext-perl   1.07-1            amd64             module using libc functions for internationalization 
 ii  liblzma5:amd64           5.1.1alpha+201206 amd64             XZ-format compression library
 ii  libmount1:amd64          2.27-3            amd64             device mounting library
 ii  libncurses5:amd64        6.0+20150810-1    amd64             shared libraries for terminal handling
@@ -124,7 +124,7 @@ ii  systemd                  226-3             amd64             system and serv
 ii  systemd-sysv             226-3             amd64             system and service manager - SysV links
 ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
-ii  tar                      1.28-1            amd64             GNU version of the tar archiving utility
+ii  tar                      1.28-2            amd64             GNU version of the tar archiving utility
 ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 ii  udev                     226-3             amd64             /dev/ and hotplug management daemon
 ii  util-linux               2.27-3            amd64             Miscellaneous system utilities

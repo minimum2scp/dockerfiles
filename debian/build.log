@@ -109,8 +109,8 @@ I: Retrieving libgcrypt20 1.6.3-2
 I: Validating libgcrypt20 1.6.3-2
 I: Retrieving libgpg-error0 1.20-1
 I: Validating libgpg-error0 1.20-1
-I: Retrieving liblocale-gettext-perl 1.05-9
-I: Validating liblocale-gettext-perl 1.05-9
+I: Retrieving liblocale-gettext-perl 1.07-1
+I: Validating liblocale-gettext-perl 1.07-1
 I: Retrieving libseccomp2 2.2.3-2
 I: Validating libseccomp2 2.2.3-2
 I: Retrieving libselinux1 2.3-2+b1
@@ -195,8 +195,8 @@ I: Retrieving sysv-rc 2.88dsf-59.2
 I: Validating sysv-rc 2.88dsf-59.2
 I: Retrieving sysvinit-utils 2.88dsf-59.2
 I: Validating sysvinit-utils 2.88dsf-59.2
-I: Retrieving tar 1.28-1
-I: Validating tar 1.28-1
+I: Retrieving tar 1.28-2
+I: Validating tar 1.28-2
 I: Retrieving tzdata 2015f-1
 I: Validating tzdata 2015f-1
 I: Retrieving libustr-1.0-1 1.0.4-5
@@ -537,9 +537,9 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org sid InRelease [238 kB]
+Get:1 http://ftp.jp.debian.org sid InRelease [245 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.3 MB in 9s (1122 kB/s)
+Fetched 10.3 MB in 9s (1093 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> a7003d12f847
-Removing intermediate container b2be25f59954
+ ---> da2d185acbff
+Removing intermediate container 061adda65b98
 Step 2 : CMD /bin/bash
- ---> Running in 2df68e27a391
- ---> a9f06f53b334
-Removing intermediate container 2df68e27a391
-Successfully built a9f06f53b334
+ ---> Running in 5500b915ca37
+ ---> f4450a6a6a42
+Removing intermediate container 5500b915ca37
+Successfully built f4450a6a6a42
