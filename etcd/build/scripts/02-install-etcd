@@ -1,0 +1,39 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## variables
+
+version=v2.0.0
+dest=/opt/etcd
+data_dir=/var/lib/etcd
+user=etcd
+group=etcd
+
+## create destination directory
+mkdir -p ${dest}
+
+## download and extract etcd
+curl -s -L https://github.com/coreos/etcd/releases/download/${version}/etcd-${version}-linux-amd64.tar.gz -o /tmp/etcd-${version}-linux-amd64.tar.gz
+tar xf /tmp/etcd-${version}-linux-amd64.tar.gz -C ${dest} --strip-components=1
+rm /tmp/etcd-${version}-linux-amd64.tar.gz
+
+## create etcd user, group
+addgroup --system ${group}
+adduser --system --home ${data_dir} --shell /bin/false --no-create-home --ingroup ${group} --disabled-password --gecos '' ${user}
+
+## create data directory
+mkdir -p ${data_dir}
+chown -R ${user}:${user} ${data_dir}
+
+## set PATH for interactive shell
+install -m 755 -o root -g root -p /build/etc/profile.d/etcd.sh /etc/profile.d/etcd.sh
+
+## start supervisor daemon
+insserv supervisor
+
+## add supervisor config file, and run etcd
+install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/etcd.conf /etc/supervisor/conf.d/etcd.conf
+
