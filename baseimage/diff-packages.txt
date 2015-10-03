@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151003-24328-b5cnr4.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151003-24328-g6nhmu.out
-% diff -u /tmp/docker-diff.20151003-24328-b5cnr4.out /tmp/docker-diff.20151003-24328-g6nhmu.out
---- /tmp/docker-diff.20151003-24328-b5cnr4.out	2015-10-03 00:15:50.116608346 +0900
-+++ /tmp/docker-diff.20151003-24328-g6nhmu.out	2015-10-03 00:15:51.424660935 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151004-23222-1gk95ew.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151004-23222-fspol2.out
+% diff -u /tmp/docker-diff.20151004-23222-1gk95ew.out /tmp/docker-diff.20151004-23222-fspol2.out
+--- /tmp/docker-diff.20151004-23222-1gk95ew.out	2015-10-04 01:50:12.763979877 +0900
++++ /tmp/docker-diff.20151004-23222-fspol2.out	2015-10-04 01:50:13.955985466 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -24,7 +24,7 @@
  ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64       4.9.3-4           amd64             GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64         5.2.1-19          amd64             GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64         5.2.1-20          amd64             GCC, the GNU Compiler Collection (base package)
 +ii  git                      1:2.6.0-1         amd64             fast, scalable, distributed revision control system
 +ii  git-man                  1:2.6.0-1         all               fast, scalable, distributed revision control system (
  ii  gnupg                    1.4.19-5          amd64             GNU privacy guard - a free PGP replacement
@@ -48,7 +48,7 @@
  ii  libc-bin                 2.19-22           amd64             GNU C Library: Binaries
  ii  libc6:amd64              2.19-22           amd64             GNU C Library: Shared libraries
 @@ -48,35 +58,68 @@
- ii  libcap2-bin              1:2.24-11         amd64             POSIX 1003.1e capabilities (utilities)
+ ii  libcap2-bin              1:2.24-12         amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64    7.44.0-2          amd64             easy-to-use client-side URL transfer library (GnuTLS 
@@ -61,7 +61,7 @@
 +ii  libexpat1:amd64          2.1.0-7           amd64             XML parsing C library - runtime library
  ii  libfdisk1:amd64          2.27-3            amd64             fdisk partitioning library
 +ii  libffi6:amd64            3.2.1-3           amd64             Foreign Function Interface library runtime
- ii  libgcc1:amd64            1:5.2.1-19        amd64             GCC support library
+ ii  libgcc1:amd64            1:5.2.1-20        amd64             GCC support library
  ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64           1.8.3-13.1        amd64             GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64           2:6.0.0+dfsg-7    amd64             Multiprecision arithmetic library
@@ -110,8 +110,8 @@
  ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64         5.2.1-19          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        226-3             amd64             systemd utility library
+ ii  libstdc++6:amd64         5.2.1-20          amd64             GNU Standard C++ Library v3
+ ii  libsystemd0:amd64        226-4             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.7-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -148,8 +148,8 @@
  ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  226-3             amd64             system and service manager
--ii  systemd-sysv             226-3             amd64             system and service manager - SysV links
+-ii  systemd                  226-4             amd64             system and service manager
+-ii  systemd-sysv             226-4             amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
@@ -157,7 +157,7 @@
  ii  tar                      1.28-2            amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     226-3             amd64             /dev/ and hotplug management daemon
+ ii  udev                     226-4             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.27-3            amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.826-1       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.826-1       amd64             Vi IMproved - enhanced vi editor - compact version
