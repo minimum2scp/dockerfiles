@@ -43,7 +43,7 @@ ii  e2fsprogs                1.42.13-1         amd64             ext2/ext3/ext4 
 ii  findutils                4.4.2-9+b1        amd64             utilities for finding files--find, xargs
 ii  gcc-4.8-base:amd64       4.8.5-1           amd64             GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64       4.9.3-4           amd64             GCC, the GNU Compiler Collection (base package)
-ii  gcc-5-base:amd64         5.2.1-20          amd64             GCC, the GNU Compiler Collection (base package)
+ii  gcc-5-base:amd64         5.2.1-21          amd64             GCC, the GNU Compiler Collection (base package)
 ii  gnupg                    1.4.19-5          amd64             GNU privacy guard - a free PGP replacement
 ii  gpgv                     1.4.19-5          amd64             GNU privacy guard - signature verification tool
 ii  grep                     2.21-2            amd64             GNU grep, egrep and fgrep
@@ -72,7 +72,7 @@ ii  libdb5.3:amd64           5.3.28-11         amd64             Berkeley v5.3 D
 ii  libdebconfclient0:amd64  0.195             amd64             Debian Configuration Management System (C-implementat
 ii  libdevmapper1.02.1:amd64 2:1.02.104-1      amd64             Linux Kernel Device Mapper userspace library
 ii  libfdisk1:amd64          2.27-3            amd64             fdisk partitioning library
-ii  libgcc1:amd64            1:5.2.1-20        amd64             GCC support library
+ii  libgcc1:amd64            1:5.2.1-21        amd64             GCC support library
 ii  libgcrypt20:amd64        1.6.3-2           amd64             LGPL Crypto library - runtime library
 ii  libgpg-error0:amd64      1.20-1            amd64             library for common error values and messages in GnuPG
 ii  libkmod2:amd64           21-1              amd64             libkmod shared library
@@ -95,7 +95,7 @@ ii  libsemanage1:amd64       2.3-1+b2          amd64             SELinux policy 
 ii  libsepol1:amd64          2.3-2             amd64             SELinux library for manipulating binary security poli
 ii  libsmartcols1:amd64      2.27-3            amd64             smart column output alignment library
 ii  libss2:amd64             1.42.13-1         amd64             command-line interface parsing library
-ii  libstdc++6:amd64         5.2.1-20          amd64             GNU Standard C++ Library v3
+ii  libstdc++6:amd64         5.2.1-21          amd64             GNU Standard C++ Library v3
 ii  libsystemd0:amd64        226-4             amd64             systemd utility library
 ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
 ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
