@@ -21,10 +21,10 @@ I: Retrieving libapt-pkg4.16 1.0.10.2
 I: Validating libapt-pkg4.16 1.0.10.2
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
-I: Retrieving libaudit-common 1:2.4.4-3
-I: Validating libaudit-common 1:2.4.4-3
-I: Retrieving libaudit1 1:2.4.4-3+b1
-I: Validating libaudit1 1:2.4.4-3+b1
+I: Retrieving libaudit-common 1:2.4.4-4
+I: Validating libaudit-common 1:2.4.4-4
+I: Retrieving libaudit1 1:2.4.4-4
+I: Validating libaudit1 1:2.4.4-4
 I: Retrieving base-files 9.4
 I: Validating base-files 9.4
 I: Retrieving base-passwd 3.5.38
@@ -539,7 +539,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [250 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.1 MB]
-Fetched 10.4 MB in 8s (1172 kB/s)
+Fetched 10.4 MB in 6s (1542 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 1a09d01cda35
-Removing intermediate container a6a6299362c7
+ ---> 0ddefa2ac158
+Removing intermediate container 3acda404b4fa
 Step 2 : CMD /bin/bash
- ---> Running in 2ab121843d30
- ---> b91cfaba83c2
-Removing intermediate container 2ab121843d30
-Successfully built b91cfaba83c2
+ ---> Running in 9c1253438582
+ ---> 4d87ac5571a3
+Removing intermediate container 9c1253438582
+Successfully built 4d87ac5571a3

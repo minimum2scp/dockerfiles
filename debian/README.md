@@ -58,8 +58,8 @@ ii  libacl1:amd64            2.2.52-2          amd64             Access control 
 ii  libapparmor1:amd64       2.10-2+b1         amd64             changehat AppArmor library
 ii  libapt-pkg4.16:amd64     1.0.10.2          amd64             package management runtime library
 ii  libattr1:amd64           1:2.4.47-2        amd64             Extended attribute shared library
-ii  libaudit-common          1:2.4.4-3         all               Dynamic library for security auditing - common files
-ii  libaudit1:amd64          1:2.4.4-3+b1      amd64             Dynamic library for security auditing
+ii  libaudit-common          1:2.4.4-4         all               Dynamic library for security auditing - common files
+ii  libaudit1:amd64          1:2.4.4-4         amd64             Dynamic library for security auditing
 ii  libblkid1:amd64          2.27-3            amd64             block device id library
 ii  libbz2-1.0:amd64         1.0.6-8           amd64             high-quality block-sorting file compressor library - 
 ii  libc-bin                 2.19-22           amd64             GNU C Library: Binaries
