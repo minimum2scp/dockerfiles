@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151007-23871-13fn4i.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151007-23871-1t3xs8l.out
-% diff -u /tmp/docker-diff.20151007-23871-13fn4i.out /tmp/docker-diff.20151007-23871-1t3xs8l.out
---- /tmp/docker-diff.20151007-23871-13fn4i.out	2015-10-07 00:13:54.929876027 +0900
-+++ /tmp/docker-diff.20151007-23871-1t3xs8l.out	2015-10-07 00:13:56.485866425 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151009-26027-3roiub.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151009-26027-dvka2k.out
+% diff -u /tmp/docker-diff.20151009-26027-3roiub.out /tmp/docker-diff.20151009-26027-dvka2k.out
+--- /tmp/docker-diff.20151009-26027-3roiub.out	2015-10-09 00:09:36.763666603 +0900
++++ /tmp/docker-diff.20151009-26027-dvka2k.out	2015-10-09 00:09:38.263674986 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -12,7 +12,7 @@
 +ii  ca-certificates          20150426          all               Common CA certificates
  ii  coreutils                8.23-4            amd64             GNU core utilities
 +ii  cron                     3.0pl1-128        amd64             process scheduling daemon
-+ii  curl                     7.44.0-2          amd64             command line tool for transferring data with URL synt
++ii  curl                     7.45.0-1          amd64             command line tool for transferring data with URL synt
  ii  dash                     0.5.7-4+b1        amd64             POSIX-compliant shell
  ii  debconf                  1.5.57            all               Debian configuration management system
  ii  debconf-i18n             1.5.57            all               full internationalization support for debconf
@@ -51,7 +51,7 @@
  ii  libcap2-bin              1:2.24-12         amd64             POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64         1.42.13-1         amd64             common error description library
  ii  libcryptsetup4:amd64     2:1.6.6-5         amd64             disk encryption support - shared library
-+ii  libcurl3-gnutls:amd64    7.44.0-2          amd64             easy-to-use client-side URL transfer library (GnuTLS 
++ii  libcurl3-gnutls:amd64    7.45.0-1          amd64             easy-to-use client-side URL transfer library (GnuTLS 
  ii  libdb5.3:amd64           5.3.28-11         amd64             Berkeley v5.3 Database Libraries [runtime]
  ii  libdebconfclient0:amd64  0.195             amd64             Debian Configuration Management System (C-implementat
  ii  libdevmapper1.02.1:amd64 2:1.02.104-1      amd64             Linux Kernel Device Mapper userspace library
@@ -72,7 +72,7 @@
 +ii  libidn11:amd64           1.32-3            amd64             GNU Libidn library, implementation of IETF IDN specif
 +ii  libjson-c2:amd64         0.11-4            amd64             JSON manipulation library - shared library
 +ii  libk5crypto3:amd64       1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Crypto Library
-+ii  libkeyutils1:amd64       1.5.9-7           amd64             Linux Key Management Utilities (library)
++ii  libkeyutils1:amd64       1.5.9-8           amd64             Linux Key Management Utilities (library)
  ii  libkmod2:amd64           21-1              amd64             libkmod shared library
 +ii  libkrb5-3:amd64          1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64    1.13.2+dfsg-2     amd64             MIT Kerberos runtime libraries - Support library
@@ -126,7 +126,7 @@
  ii  login                    1:4.2-3           amd64             system login tools
  ii  lsb-base                 9.20150917        all               Linux Standard Base init script functionality
 +ii  lv                       4.51-2.3          amd64             Powerful Multilingual File Viewer
-+ii  man-db                   2.7.3-1           amd64             on-line manual pager
++ii  man-db                   2.7.4-1           amd64             on-line manual pager
  ii  mawk                     1.3.3-17          amd64             a pattern scanning and text processing language
  ii  mount                    2.27-3            amd64             Tools for mounting and manipulating filesystems
  ii  multiarch-support        2.19-22           amd64             Transitional package to ensure multiarch compatibilit
@@ -155,7 +155,7 @@
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
  ii  sysvinit-utils           2.88dsf-59.2      amd64             System-V-like utilities
  ii  tar                      1.28-2            amd64             GNU version of the tar archiving utility
- ii  tzdata                   2015f-1           all               time zone and daylight-saving time data
+ ii  tzdata                   2015g-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
  ii  udev                     226-4             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.27-3            amd64             Miscellaneous system utilities
