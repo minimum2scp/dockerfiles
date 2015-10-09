@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151009-26027-3roiub.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151009-26027-dvka2k.out
-% diff -u /tmp/docker-diff.20151009-26027-3roiub.out /tmp/docker-diff.20151009-26027-dvka2k.out
---- /tmp/docker-diff.20151009-26027-3roiub.out	2015-10-09 00:09:36.763666603 +0900
-+++ /tmp/docker-diff.20151009-26027-dvka2k.out	2015-10-09 00:09:38.263674986 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151010-21864-p9xm8x.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=120; dpkg -l' > /tmp/docker-diff.20151010-21864-5o3qjh.out
+% diff -u /tmp/docker-diff.20151010-21864-p9xm8x.out /tmp/docker-diff.20151010-21864-5o3qjh.out
+--- /tmp/docker-diff.20151010-21864-p9xm8x.out	2015-10-10 00:56:06.872016958 +0900
++++ /tmp/docker-diff.20151010-21864-5o3qjh.out	2015-10-10 00:56:08.072031386 +0900
 @@ -8,8 +8,12 @@
  ii  base-files               9.4               amd64             Debian base system miscellaneous files
  ii  base-passwd              3.5.38            amd64             Debian base system master password and group files
@@ -111,7 +111,7 @@
 +ii  libssh2-1:amd64          1.5.0-2+b1        amd64             SSH2 client-side library
 +ii  libssl1.0.0:amd64        1.0.2d-1          amd64             Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64         5.2.1-21          amd64             GNU Standard C++ Library v3
- ii  libsystemd0:amd64        226-4             amd64             systemd utility library
+ ii  libsystemd0:amd64        227-1             amd64             systemd utility library
 +ii  libtasn1-6:amd64         4.7-2             amd64             Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl   0.04-7+b3         amd64             get display widths of characters on the terminal
  ii  libtext-iconv-perl       1.7-5+b2          amd64             converts between character sets in Perl
@@ -148,8 +148,8 @@
  ii  sed                      4.2.2-6.1         amd64             The GNU sed stream editor
  ii  sensible-utils           0.0.9             all               Utilities for sensible alternative selection
  ii  startpar                 0.59-3            amd64             run processes in parallel and multiplex their output
--ii  systemd                  226-4             amd64             system and service manager
--ii  systemd-sysv             226-4             amd64             system and service manager - SysV links
+-ii  systemd                  227-1             amd64             system and service manager
+-ii  systemd-sysv             227-1             amd64             system and service manager - SysV links
 +ii  sudo                     1.8.12-1          amd64             Provide limited super user privileges to specific use
  ii  sysv-rc                  2.88dsf-59.2      all               System-V-like runlevel change mechanism
 +ii  sysvinit-core            2.88dsf-59.2      amd64             System-V-like init utilities
@@ -157,7 +157,7 @@
  ii  tar                      1.28-2            amd64             GNU version of the tar archiving utility
  ii  tzdata                   2015g-1           all               time zone and daylight-saving time data
 +ii  ucf                      3.0030            all               Update Configuration File(s): preserve user changes t
- ii  udev                     226-4             amd64             /dev/ and hotplug management daemon
+ ii  udev                     227-1             amd64             /dev/ and hotplug management daemon
  ii  util-linux               2.27-3            amd64             Miscellaneous system utilities
 +ii  vim-common               2:7.4.826-1       amd64             Vi IMproved - Common files
 +ii  vim-tiny                 2:7.4.826-1       amd64             Vi IMproved - enhanced vi editor - compact version
