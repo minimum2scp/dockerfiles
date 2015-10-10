@@ -29,7 +29,7 @@ end
 desc 'update debian-packages.txt'
 file 'debian-packages.txt' => ['build.log'] do |t|
   tag = ENV['TAG'] || 'minimum2scp/debian-wheezy:latest'
-  sh %Q[docker run --rm #{tag} bash -c "LANG=C COLUMNS=120 dpkg -l" > #{t.name}]
+  sh %Q[docker run --rm #{tag} bash -c "LANG=C COLUMNS=150 dpkg -l" > #{t.name}]
 end
 
 desc 'update README.md'
