@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151011-5188-1cm17a.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151011-5188-122wy7g.out
-% diff -u /tmp/docker-diff.20151011-5188-1cm17a.out /tmp/docker-diff.20151011-5188-122wy7g.out
---- /tmp/docker-diff.20151011-5188-1cm17a.out	2015-10-11 00:30:38.874834094 +0900
-+++ /tmp/docker-diff.20151011-5188-122wy7g.out	2015-10-11 00:30:39.874836075 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151016-23212-zyad6k.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151016-23212-wf4px0.out
+% diff -u /tmp/docker-diff.20151016-23212-zyad6k.out /tmp/docker-diff.20151016-23212-wf4px0.out
+--- /tmp/docker-diff.20151016-23212-zyad6k.out	2015-10-16 00:21:15.416134419 +0900
++++ /tmp/docker-diff.20151016-23212-wf4px0.out	2015-10-16 00:21:16.544130147 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                            Version              Architecture         Description
@@ -132,7 +132,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 +ii  libkeyutils1:amd64              1.5.5-3+deb7u1       amd64                Linux Key Management Utilities (library)
 +ii  libkrb5-3:amd64                 1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries
 +ii  libkrb5support0:amd64           1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries - Support library
-+ii  libldap-2.4-2:amd64             2.4.31-2             amd64                OpenLDAP libraries
++ii  libldap-2.4-2:amd64             2.4.31-2+deb7u1      amd64                OpenLDAP libraries
  ii  liblocale-gettext-perl          1.05-7+b1            amd64                module using libc functions for internationalization in Perl
  ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
  ii  libmount1                       2.20.1-5.3           amd64                block device id library
