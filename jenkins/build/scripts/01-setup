@@ -1,0 +1,30 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install jenkins
+##
+curl -sS http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+echo "deb http://pkg.jenkins-ci.org/debian binary/" > /etc/apt/sources.list.d/jenkins.list
+etckeeper commit "add apt-key, apt-line for jenkins"
+
+apt-get update
+apt-get install -y --no-install-recommends jenkins
+
+##
+## install nginx
+## (see baseimage/build/opt/custom-installers)
+##
+/opt/custom-installers/nginx/install.sh
+
+##
+## configure nginx
+##
+install -m 644 -o root -g root -p /build/etc/nginx/sites-available/jenkins /etc/nginx/sites-available/jenkins
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/jenkins
+etckeeper commit "nginx: disabled default site, enabled jenkins site"
+
