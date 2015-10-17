@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151015-23630-114u5tc.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151015-23630-vxjbpo.out
-% diff -u /tmp/docker-diff.20151015-23630-114u5tc.out /tmp/docker-diff.20151015-23630-vxjbpo.out
---- /tmp/docker-diff.20151015-23630-114u5tc.out	2015-10-15 00:08:38.732714981 +0900
-+++ /tmp/docker-diff.20151015-23630-vxjbpo.out	2015-10-15 00:08:39.848730214 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151018-25028-1tc9u0k.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151018-25028-1m8345p.out
+% diff -u /tmp/docker-diff.20151018-25028-1tc9u0k.out /tmp/docker-diff.20151018-25028-1m8345p.out
+--- /tmp/docker-diff.20151018-25028-1tc9u0k.out	2015-10-18 03:58:54.418420055 +0900
++++ /tmp/docker-diff.20151018-25028-1m8345p.out	2015-10-18 03:58:55.750418640 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.4                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -23,7 +23,7 @@
 +ii  etckeeper                       1.18.1               all                  store /etc in git, mercurial, bzr or darcs
  ii  findutils                       4.4.2-9+b1           amd64                utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64              4.8.5-1              amd64                GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64              4.9.3-4              amd64                GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64                5.2.1-22             amd64                GCC, the GNU Compiler Collection (base package)
 +ii  git                             1:2.6.1-1            amd64                fast, scalable, distributed revision control system
 +ii  git-man                         1:2.6.1-1            all                  fast, scalable, distributed revision control system (manual pages)
@@ -86,7 +86,7 @@
  ii  libncursesw5:amd64              6.0+20150810-1       amd64                shared libraries for terminal handling (wide character support)
 +ii  libnettle6:amd64                3.1.1-4              amd64                low level cryptographic library (symmetric and one-way cryptos)
 +ii  libnewt0.52:amd64               0.52.18-1+b1         amd64                Not Erik's Windowing Toolkit - text mode windowing with slang
-+ii  libnghttp2-14:amd64             1.3.2-0.1            amd64                library implementing HTTP/2 protocol (shared library)
++ii  libnghttp2-14:amd64             1.3.4-1              amd64                library implementing HTTP/2 protocol (shared library)
 +ii  libp11-kit0:amd64               0.23.1-3             amd64                Library for loading and coordinating access to PKCS#11 modules - run
  ii  libpam-modules:amd64            1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin              1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM - helper binaries
