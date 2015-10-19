@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151018-25028-1tc9u0k.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151018-25028-1m8345p.out
-% diff -u /tmp/docker-diff.20151018-25028-1tc9u0k.out /tmp/docker-diff.20151018-25028-1m8345p.out
---- /tmp/docker-diff.20151018-25028-1tc9u0k.out	2015-10-18 03:58:54.418420055 +0900
-+++ /tmp/docker-diff.20151018-25028-1m8345p.out	2015-10-18 03:58:55.750418640 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151020-32368-97wotb.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151020-32368-1epsa37.out
+% diff -u /tmp/docker-diff.20151020-32368-97wotb.out /tmp/docker-diff.20151020-32368-1epsa37.out
+--- /tmp/docker-diff.20151020-32368-97wotb.out	2015-10-20 00:26:01.583636139 +0900
++++ /tmp/docker-diff.20151020-32368-1epsa37.out	2015-10-20 00:26:02.847641831 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.4                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -62,7 +62,7 @@
  ii  libfdisk1:amd64                 2.27-3               amd64                fdisk partitioning library
 +ii  libffi6:amd64                   3.2.1-3              amd64                Foreign Function Interface library runtime
  ii  libgcc1:amd64                   1:5.2.1-22           amd64                GCC support library
- ii  libgcrypt20:amd64               1.6.3-2              amd64                LGPL Crypto library - runtime library
+ ii  libgcrypt20:amd64               1.6.4-3              amd64                LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64                  1.8.3-13.1           amd64                GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64                  2:6.0.0+dfsg-7       amd64                Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64         3.3.18-1             amd64                GNU TLS library - main runtime library
