@@ -70,7 +70,7 @@ install -m 644 -o debian -g debian -p /build/tmp/jenkins-cli.jar /home/debian/je
 java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ version
 java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin git
 java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin github
-java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin ghprb
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin ghprb
 java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin slack
 
 ##
