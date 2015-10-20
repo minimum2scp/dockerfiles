@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151011-3646-4inib9.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151011-3646-16674qa.out
-% diff -u /tmp/docker-diff.20151011-3646-4inib9.out /tmp/docker-diff.20151011-3646-16674qa.out
---- /tmp/docker-diff.20151011-3646-4inib9.out	2015-10-11 00:29:55.382745771 +0900
-+++ /tmp/docker-diff.20151011-3646-16674qa.out	2015-10-11 00:29:56.622748349 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151021-25426-n1l53l.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151021-25426-1p1cp2r.out
+% diff -u /tmp/docker-diff.20151021-25426-n1l53l.out /tmp/docker-diff.20151021-25426-1p1cp2r.out
+--- /tmp/docker-diff.20151021-25426-n1l53l.out	2015-10-21 00:39:17.276492736 +0900
++++ /tmp/docker-diff.20151021-25426-1p1cp2r.out	2015-10-21 00:39:18.656482708 +0900
 @@ -9,8 +9,12 @@
  ii  base-files                      8+deb8u2             amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.37               amd64                Debian base system master password and group files
@@ -152,7 +152,7 @@
 +ii  sysvinit-core                   2.88dsf-59           amd64                System-V-like init utilities
  ii  sysvinit-utils                  2.88dsf-59           amd64                System-V-like utilities
  ii  tar                             1.27.1-2+b1          amd64                GNU version of the tar archiving utility
- ii  tzdata                          2015f-0+deb8u1       all                  time zone and daylight-saving time data
+ ii  tzdata                          2015g-0+deb8u1       all                  time zone and daylight-saving time data
 +ii  ucf                             3.0030               all                  Update Configuration File(s): preserve user changes to config files
  ii  udev                            215-17+deb8u2        amd64                /dev/ and hotplug management daemon
  ii  util-linux                      2.25.2-6             amd64                Miscellaneous system utilities
