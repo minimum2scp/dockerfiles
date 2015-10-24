@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151024-23460-h4lcgi.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151024-23460-peuqqm.out
-% diff -u /tmp/docker-diff.20151024-23460-h4lcgi.out /tmp/docker-diff.20151024-23460-peuqqm.out
---- /tmp/docker-diff.20151024-23460-h4lcgi.out	2015-10-24 00:17:29.773930253 +0900
-+++ /tmp/docker-diff.20151024-23460-peuqqm.out	2015-10-24 00:17:31.161942008 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151025-24162-43xsyl.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151025-24162-1mexhe2.out
+% diff -u /tmp/docker-diff.20151025-24162-43xsyl.out /tmp/docker-diff.20151025-24162-1mexhe2.out
+--- /tmp/docker-diff.20151025-24162-43xsyl.out	2015-10-25 00:29:11.945622389 +0900
++++ /tmp/docker-diff.20151025-24162-1mexhe2.out	2015-10-25 00:29:13.245604644 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.4                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -87,8 +87,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gcc-4.8-base:amd64              4.8.5-1              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64                5.2.1-22             amd64                GCC, the GNU Compiler Collection (base package)
-+ii  git                             1:2.6.1-1            amd64                fast, scalable, distributed revision control system
-+ii  git-man                         1:2.6.1-1            all                  fast, scalable, distributed revision control system (manual pages)
++ii  git                             1:2.6.2-1            amd64                fast, scalable, distributed revision control system
++ii  git-man                         1:2.6.2-1            all                  fast, scalable, distributed revision control system (manual pages)
  ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
  ii  gpgv                            1.4.19-6             amd64                GNU privacy guard - signature verification tool
  ii  grep                            2.21-2               amd64                GNU grep, egrep and fgrep
@@ -144,8 +144,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  liblognorm2:amd64               1.1.2-1              amd64                Log normalizing library
  ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
  ii  libmount1:amd64                 2.27-3               amd64                device mounting library
- ii  libncurses5:amd64               6.0+20150810-1       amd64                shared libraries for terminal handling
- ii  libncursesw5:amd64              6.0+20150810-1       amd64                shared libraries for terminal handling (wide character support)
+ ii  libncurses5:amd64               6.0+20151017-1       amd64                shared libraries for terminal handling
+ ii  libncursesw5:amd64              6.0+20151017-1       amd64                shared libraries for terminal handling (wide character support)
 +ii  libnettle6:amd64                3.1.1-4              amd64                low level cryptographic library (symmetric and one-way cryptos)
 +ii  libnewt0.52:amd64               0.52.18-1+b1         amd64                Not Erik's Windowing Toolkit - text mode windowing with slang
 +ii  libnghttp2-14:amd64             1.3.4-1              amd64                library implementing HTTP/2 protocol (shared library)
@@ -192,8 +192,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  mawk                            1.3.3-17             amd64                a pattern scanning and text processing language
  ii  mount                           2.27-3               amd64                Tools for mounting and manipulating filesystems
  ii  multiarch-support               2.19-22              amd64                Transitional package to ensure multiarch compatibility
- ii  ncurses-base                    6.0+20150810-1       all                  basic terminal type definitions
- ii  ncurses-bin                     6.0+20150810-1       amd64                terminal-related programs and man pages
+ ii  ncurses-base                    6.0+20151017-1       all                  basic terminal type definitions
+ ii  ncurses-bin                     6.0+20151017-1       amd64                terminal-related programs and man pages
 +ii  net-tools                       1.60+git20150829.73c amd64                NET-3 networking toolkit
  ii  netbase                         5.3                  all                  Basic TCP/IP networking system
 +ii  openssh-client                  1:6.9p1-2            amd64                secure shell (SSH) client, for secure access to remote machines
