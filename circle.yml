@@ -1,6 +1,6 @@
 machine:
   ruby:
-    version: 2.2.2
+    version: 2.2.3
   services:
     - docker
 
@@ -9,6 +9,7 @@ dependencies:
     - "~/.cache/docker"
   post:
     - docker info
+    - docker version
     - if [ -d ~/.cache/docker ]; then ls -lahR ~/.cache/docker; fi
     - ./ci_util.rb list
     - ./ci_util.rb gc 86400
