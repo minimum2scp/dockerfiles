@@ -1,3 +1,7 @@
+## 0.1.7 (2015-10-25)
+
+ * Update magellan-proxy to 0.1.1
+
 ## 0.1.6 (2015-10-08)
 
  * Update magellan-proxy to 0.1.0

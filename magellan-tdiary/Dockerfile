@@ -22,7 +22,7 @@ RUN install -m 755 -o root -g root -p -D /build/entrypoint /opt/magellan-tdiary/
 RUN install -m 644 -o root -g root -p -D /build/Rakefile   /opt/magellan-tdiary/Rakefile
 
 ## install magellan-proxy
-ADD https://github.com/groovenauts/magellan-proxy/releases/download/v0.1.0/magellan-proxy-0.1.0_linux-amd64 /usr/local/bin/magellan-proxy
+ADD https://github.com/groovenauts/magellan-proxy/releases/download/v0.1.1/magellan-proxy-0.1.1_linux-amd64 /usr/local/bin/magellan-proxy
 RUN chmod +x /usr/local/bin/magellan-proxy
 
 ## cleanup
