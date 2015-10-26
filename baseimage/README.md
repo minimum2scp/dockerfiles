@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151025-24162-43xsyl.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151025-24162-1mexhe2.out
-% diff -u /tmp/docker-diff.20151025-24162-43xsyl.out /tmp/docker-diff.20151025-24162-1mexhe2.out
---- /tmp/docker-diff.20151025-24162-43xsyl.out	2015-10-25 00:29:11.945622389 +0900
-+++ /tmp/docker-diff.20151025-24162-1mexhe2.out	2015-10-25 00:29:13.245604644 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151027-25637-1sedu0o.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151027-25637-1su1q6g.out
+% diff -u /tmp/docker-diff.20151027-25637-1sedu0o.out /tmp/docker-diff.20151027-25637-1su1q6g.out
+--- /tmp/docker-diff.20151027-25637-1sedu0o.out	2015-10-27 00:28:11.664141696 +0900
++++ /tmp/docker-diff.20151027-25637-1su1q6g.out	2015-10-27 00:28:12.876153999 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.4                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -144,11 +144,11 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  liblognorm2:amd64               1.1.2-1              amd64                Log normalizing library
  ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
  ii  libmount1:amd64                 2.27-3               amd64                device mounting library
- ii  libncurses5:amd64               6.0+20151017-1       amd64                shared libraries for terminal handling
- ii  libncursesw5:amd64              6.0+20151017-1       amd64                shared libraries for terminal handling (wide character support)
+ ii  libncurses5:amd64               6.0+20151024-1       amd64                shared libraries for terminal handling
+ ii  libncursesw5:amd64              6.0+20151024-1       amd64                shared libraries for terminal handling (wide character support)
 +ii  libnettle6:amd64                3.1.1-4              amd64                low level cryptographic library (symmetric and one-way cryptos)
 +ii  libnewt0.52:amd64               0.52.18-1+b1         amd64                Not Erik's Windowing Toolkit - text mode windowing with slang
-+ii  libnghttp2-14:amd64             1.3.4-1              amd64                library implementing HTTP/2 protocol (shared library)
++ii  libnghttp2-14:amd64             1.3.4-2              amd64                library implementing HTTP/2 protocol (shared library)
 +ii  libp11-kit0:amd64               0.23.1-3             amd64                Library for loading and coordinating access to PKCS#11 modules - run
  ii  libpam-modules:amd64            1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin              1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM - helper binaries
@@ -192,8 +192,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  mawk                            1.3.3-17             amd64                a pattern scanning and text processing language
  ii  mount                           2.27-3               amd64                Tools for mounting and manipulating filesystems
  ii  multiarch-support               2.19-22              amd64                Transitional package to ensure multiarch compatibility
- ii  ncurses-base                    6.0+20151017-1       all                  basic terminal type definitions
- ii  ncurses-bin                     6.0+20151017-1       amd64                terminal-related programs and man pages
+ ii  ncurses-base                    6.0+20151024-1       all                  basic terminal type definitions
+ ii  ncurses-bin                     6.0+20151024-1       amd64                terminal-related programs and man pages
 +ii  net-tools                       1.60+git20150829.73c amd64                NET-3 networking toolkit
  ii  netbase                         5.3                  all                  Basic TCP/IP networking system
 +ii  openssh-client                  1:6.9p1-2            amd64                secure shell (SSH) client, for secure access to remote machines
@@ -206,7 +206,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  perl-modules                    5.20.2-6             all                  Core Perl modules
  ii  procps                          2:3.3.10-4           amd64                /proc file system utilities
  ii  readline-common                 6.3-8                all                  GNU readline and history libraries, common files
-+ii  rsyslog                         8.12.0-3             amd64                reliable system and kernel logging daemon
++ii  rsyslog                         8.13.0-1             amd64                reliable system and kernel logging daemon
  ii  sed                             4.2.2-6.1            amd64                The GNU sed stream editor
  ii  sensible-utils                  0.0.9                all                  Utilities for sensible alternative selection
  ii  startpar                        0.59-3               amd64                run processes in parallel and multiplex their output
