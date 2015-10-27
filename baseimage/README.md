@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151027-25637-1sedu0o.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151027-25637-1su1q6g.out
-% diff -u /tmp/docker-diff.20151027-25637-1sedu0o.out /tmp/docker-diff.20151027-25637-1su1q6g.out
---- /tmp/docker-diff.20151027-25637-1sedu0o.out	2015-10-27 00:28:11.664141696 +0900
-+++ /tmp/docker-diff.20151027-25637-1su1q6g.out	2015-10-27 00:28:12.876153999 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151028-23432-az5axa.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151028-23432-7i1vca.out
+% diff -u /tmp/docker-diff.20151028-23432-az5axa.out /tmp/docker-diff.20151028-23432-7i1vca.out
+--- /tmp/docker-diff.20151028-23432-az5axa.out	2015-10-28 01:24:59.587206260 +0900
++++ /tmp/docker-diff.20151028-23432-7i1vca.out	2015-10-28 01:25:00.847214342 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.4                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -129,15 +129,15 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libgmp10:amd64                  2:6.0.0+dfsg-7       amd64                Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64         3.3.18-1             amd64                GNU TLS library - main runtime library
  ii  libgpg-error0:amd64             1.20-1               amd64                library for common error values and messages in GnuPG components
-+ii  libgssapi-krb5-2:amd64          1.13.2+dfsg-2        amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
++ii  libgssapi-krb5-2:amd64          1.13.2+dfsg-3        amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 +ii  libhogweed4:amd64               3.1.1-4              amd64                low level cryptographic library (public-key cryptos)
 +ii  libidn11:amd64                  1.32-3               amd64                GNU Libidn library, implementation of IETF IDN specifications
 +ii  libjson-c2:amd64                0.11-4               amd64                JSON manipulation library - shared library
-+ii  libk5crypto3:amd64              1.13.2+dfsg-2        amd64                MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64              1.13.2+dfsg-3        amd64                MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64              1.5.9-8              amd64                Linux Key Management Utilities (library)
  ii  libkmod2:amd64                  21-1                 amd64                libkmod shared library
-+ii  libkrb5-3:amd64                 1.13.2+dfsg-2        amd64                MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64           1.13.2+dfsg-2        amd64                MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64                 1.13.2+dfsg-3        amd64                MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64           1.13.2+dfsg-3        amd64                MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64             2.4.42+dfsg-2        amd64                OpenLDAP libraries
  ii  liblocale-gettext-perl          1.07-1               amd64                module using libc functions for internationalization in Perl
 +ii  liblogging-stdlog0:amd64        1.0.5-2              amd64                easy to use and lightweight logging library
@@ -178,7 +178,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
  ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
  ii  libtext-wrapi18n-perl           0.06-7.1             all                  internationalized substitute of Text::Wrap
-@@ -85,27 +128,46 @@
+@@ -85,27 +128,47 @@
  ii  libusb-0.1-4:amd64              2:0.1.12-27          amd64                userspace USB programming library
  ii  libustr-1.0-1:amd64             1.0.4-5              amd64                Micro string library: shared library
  ii  libuuid1:amd64                  2.27-3               amd64                Universally Unique ID library
@@ -220,6 +220,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tzdata                          2015g-1              all                  time zone and daylight-saving time data
 +ii  ucf                             3.0030               all                  Update Configuration File(s): preserve user changes to config files
  ii  udev                            227-2                amd64                /dev/ and hotplug management daemon
++ii  unzip                           6.0-19               amd64                De-archiver for .zip files
  ii  util-linux                      2.27-3               amd64                Miscellaneous system utilities
 +ii  vim-common                      2:7.4.826-1          amd64                Vi IMproved - Common files
 +ii  vim-tiny                        2:7.4.826-1          amd64                Vi IMproved - enhanced vi editor - compact version
