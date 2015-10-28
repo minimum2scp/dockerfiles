@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151021-25426-n1l53l.out
-% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151021-25426-1p1cp2r.out
-% diff -u /tmp/docker-diff.20151021-25426-n1l53l.out /tmp/docker-diff.20151021-25426-1p1cp2r.out
---- /tmp/docker-diff.20151021-25426-n1l53l.out	2015-10-21 00:39:17.276492736 +0900
-+++ /tmp/docker-diff.20151021-25426-1p1cp2r.out	2015-10-21 00:39:18.656482708 +0900
+% docker run --rm minimum2scp/debian-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151029-25880-ptb1z4.out
+% docker run --rm minimum2scp/baseimage-jessie:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151029-25880-1j76yxf.out
+% diff -u /tmp/docker-diff.20151029-25880-ptb1z4.out /tmp/docker-diff.20151029-25880-1j76yxf.out
+--- /tmp/docker-diff.20151029-25880-ptb1z4.out	2015-10-29 01:40:38.143856748 +0900
++++ /tmp/docker-diff.20151029-25880-1j76yxf.out	2015-10-29 01:40:39.347861414 +0900
 @@ -9,8 +9,12 @@
  ii  base-files                      8+deb8u2             amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.37               amd64                Debian base system master password and group files
@@ -175,7 +175,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
  ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
  ii  libtext-wrapi18n-perl           0.06-7               all                  internationalized substitute of Text::Wrap
-@@ -83,27 +125,46 @@
+@@ -83,27 +125,47 @@
  ii  libusb-0.1-4:amd64              2:0.1.12-25          amd64                userspace USB programming library
  ii  libustr-1.0-1:amd64             1.0.4-3+b2           amd64                Micro string library: shared library
  ii  libuuid1:amd64                  2.25.2-6             amd64                Universally Unique ID library
@@ -217,6 +217,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  tzdata                          2015g-0+deb8u1       all                  time zone and daylight-saving time data
 +ii  ucf                             3.0030               all                  Update Configuration File(s): preserve user changes to config files
  ii  udev                            215-17+deb8u2        amd64                /dev/ and hotplug management daemon
++ii  unzip                           6.0-16               amd64                De-archiver for .zip files
  ii  util-linux                      2.25.2-6             amd64                Miscellaneous system utilities
 +ii  vim-common                      2:7.4.488-7          amd64                Vi IMproved - Common files
 +ii  vim-tiny                        2:7.4.488-7          amd64                Vi IMproved - enhanced vi editor - compact version
