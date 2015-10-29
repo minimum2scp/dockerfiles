@@ -25,8 +25,8 @@ I: Retrieving libaudit-common 1:2.4.4-4
 I: Validating libaudit-common 1:2.4.4-4
 I: Retrieving libaudit1 1:2.4.4-4
 I: Validating libaudit1 1:2.4.4-4
-I: Retrieving base-files 9.4
-I: Validating base-files 9.4
+I: Retrieving base-files 9.5
+I: Validating base-files 9.5
 I: Retrieving base-passwd 3.5.38
 I: Validating base-passwd 3.5.38
 I: Retrieving bash 4.3-14
@@ -69,12 +69,12 @@ I: Retrieving gcc-4.8-base 4.8.5-1
 I: Validating gcc-4.8-base 4.8.5-1
 I: Retrieving gcc-4.9-base 4.9.3-5
 I: Validating gcc-4.9-base 4.9.3-5
-I: Retrieving gcc-5-base 5.2.1-22
-I: Validating gcc-5-base 5.2.1-22
-I: Retrieving libgcc1 1:5.2.1-22
-I: Validating libgcc1 1:5.2.1-22
-I: Retrieving libstdc++6 5.2.1-22
-I: Validating libstdc++6 5.2.1-22
+I: Retrieving gcc-5-base 5.2.1-23
+I: Validating gcc-5-base 5.2.1-23
+I: Retrieving libgcc1 1:5.2.1-23
+I: Validating libgcc1 1:5.2.1-23
+I: Retrieving libstdc++6 5.2.1-23
+I: Validating libstdc++6 5.2.1-23
 I: Retrieving libc-bin 2.19-22
 I: Validating libc-bin 2.19-22
 I: Retrieving libc6 2.19-22
@@ -539,7 +539,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [256 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.3 MB]
-Fetched 10.5 MB in 5s (2058 kB/s)
+Fetched 10.6 MB in 8s (1220 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -548,10 +548,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 0 : FROM scratch
  ---> 
 Step 1 : ADD rootfs.tar.xz /
- ---> 069691533b6a
-Removing intermediate container 89256894d988
+ ---> 347c996666e0
+Removing intermediate container cdd9ee899efd
 Step 2 : CMD /bin/bash
- ---> Running in 4e4b9d704b99
- ---> 2a594af81b57
-Removing intermediate container 4e4b9d704b99
-Successfully built 2a594af81b57
+ ---> Running in 850e7ae5612a
+ ---> 3a674e7301d6
+Removing intermediate container 850e7ae5612a
+Successfully built 3a674e7301d6
