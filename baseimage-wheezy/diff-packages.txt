@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151029-7011-1jahn06.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151029-7011-8x5ugb.out
-% diff -u /tmp/docker-diff.20151029-7011-1jahn06.out /tmp/docker-diff.20151029-7011-8x5ugb.out
---- /tmp/docker-diff.20151029-7011-1jahn06.out	2015-10-29 01:50:11.182094202 +0900
-+++ /tmp/docker-diff.20151029-7011-8x5ugb.out	2015-10-29 01:50:12.142097959 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151102-17019-19xd1rm.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151102-17019-pckx3c.out
+% diff -u /tmp/docker-diff.20151102-17019-19xd1rm.out /tmp/docker-diff.20151102-17019-pckx3c.out
+--- /tmp/docker-diff.20151102-17019-19xd1rm.out	2015-11-02 00:12:05.476413423 +0900
++++ /tmp/docker-diff.20151102-17019-pckx3c.out	2015-11-02 00:12:06.468417853 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                            Version              Architecture         Description
@@ -139,7 +139,7 @@
  ii  tar                             1.26+dfsg-0.1        amd64                GNU version of the tar archiving utility
  ii  tzdata                          2015g-0+deb7u1       all                  time zone and daylight-saving time data
 +ii  ucf                             3.0025+nmu3          all                  Update Configuration File: preserve user changes to config files.
-+ii  unzip                           6.0-8+deb7u3         amd64                De-archiver for .zip files
++ii  unzip                           6.0-8+deb7u4         amd64                De-archiver for .zip files
  ii  util-linux                      2.20.1-5.3           amd64                Miscellaneous system utilities
 +ii  vim-common                      2:7.3.547-7          amd64                Vi IMproved - Common files
 +ii  vim-tiny                        2:7.3.547-7          amd64                Vi IMproved - enhanced vi editor - compact version
