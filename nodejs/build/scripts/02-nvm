@@ -15,6 +15,6 @@ bash -l -c "nvm ls"
 set -e
 
 ## install nodejs
-node_version=v0.10.36
+node_version=v5.0.0
 bash -l -c "nvm install ${node_version}"
 
