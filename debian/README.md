@@ -79,8 +79,8 @@ ii  libkmod2:amd64                  21-1                 amd64                li
 ii  liblocale-gettext-perl          1.07-1               amd64                module using libc functions for internationalization in Perl
 ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
 ii  libmount1:amd64                 2.27.1-1             amd64                device mounting library
-ii  libncurses5:amd64               6.0+20151024-1       amd64                shared libraries for terminal handling
-ii  libncursesw5:amd64              6.0+20151024-1       amd64                shared libraries for terminal handling (wide character support)
+ii  libncurses5:amd64               6.0+20151024-2       amd64                shared libraries for terminal handling
+ii  libncursesw5:amd64              6.0+20151024-2       amd64                shared libraries for terminal handling (wide character support)
 ii  libpam-modules:amd64            1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin              1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                  1.1.8-3.1            all                  Runtime support for the PAM library
@@ -100,7 +100,7 @@ ii  libsystemd0:amd64               227-2                amd64                sy
 ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
 ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
 ii  libtext-wrapi18n-perl           0.06-7.1             all                  internationalized substitute of Text::Wrap
-ii  libtinfo5:amd64                 6.0+20151024-1       amd64                shared low-level terminfo library for terminal handling
+ii  libtinfo5:amd64                 6.0+20151024-2       amd64                shared low-level terminfo library for terminal handling
 ii  libudev1:amd64                  227-2                amd64                libudev shared library
 ii  libusb-0.1-4:amd64              2:0.1.12-27          amd64                userspace USB programming library
 ii  libustr-1.0-1:amd64             1.0.4-5              amd64                Micro string library: shared library
@@ -110,8 +110,8 @@ ii  lsb-base                        9.20150917           all                  Li
 ii  mawk                            1.3.3-17             amd64                a pattern scanning and text processing language
 ii  mount                           2.27.1-1             amd64                Tools for mounting and manipulating filesystems
 ii  multiarch-support               2.19-22              amd64                Transitional package to ensure multiarch compatibility
-ii  ncurses-base                    6.0+20151024-1       all                  basic terminal type definitions
-ii  ncurses-bin                     6.0+20151024-1       amd64                terminal-related programs and man pages
+ii  ncurses-base                    6.0+20151024-2       all                  basic terminal type definitions
+ii  ncurses-bin                     6.0+20151024-2       amd64                terminal-related programs and man pages
 ii  netbase                         5.3                  all                  Basic TCP/IP networking system
 ii  passwd                          1:4.2-3              amd64                change and administer password and group data
 ii  perl-base                       5.20.2-6             amd64                minimal Perl system
