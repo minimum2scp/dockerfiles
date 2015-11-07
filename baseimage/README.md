@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151107-22840-i8neyc.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151107-22840-10fux1h.out
-% diff -u /tmp/docker-diff.20151107-22840-i8neyc.out /tmp/docker-diff.20151107-22840-10fux1h.out
---- /tmp/docker-diff.20151107-22840-i8neyc.out	2015-11-07 00:24:06.384245512 +0900
-+++ /tmp/docker-diff.20151107-22840-10fux1h.out	2015-11-07 00:24:08.156269262 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151108-22403-1wyls3l.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151108-22403-bqvs71.out
+% diff -u /tmp/docker-diff.20151108-22403-1wyls3l.out /tmp/docker-diff.20151108-22403-bqvs71.out
+--- /tmp/docker-diff.20151108-22403-1wyls3l.out	2015-11-08 02:33:21.068714290 +0900
++++ /tmp/docker-diff.20151108-22403-bqvs71.out	2015-11-08 02:33:22.728716394 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -83,7 +83,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  e2fslibs:amd64                  1.42.13-1            amd64                ext2/ext3/ext4 file system libraries
  ii  e2fsprogs                       1.42.13-1            amd64                ext2/ext3/ext4 file system utilities
 +ii  etckeeper                       1.18.1               all                  store /etc in git, mercurial, bzr or darcs
- ii  findutils                       4.4.2-9+b1           amd64                utilities for finding files--find, xargs
+ ii  findutils                       4.4.2-10             amd64                utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64              4.8.5-1              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64                5.2.1-23             amd64                GCC, the GNU Compiler Collection (base package)
@@ -92,7 +92,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
  ii  gpgv                            1.4.19-6             amd64                GNU privacy guard - signature verification tool
  ii  grep                            2.21-2               amd64                GNU grep, egrep and fgrep
-+ii  groff-base                      1.22.3-2             amd64                GNU troff text-formatting system (base system components)
++ii  groff-base                      1.22.3-3             amd64                GNU troff text-formatting system (base system components)
  ii  gzip                            1.6-4                amd64                GNU compression utilities
  ii  hostname                        3.16                 amd64                utility to set/show the host name or domain name
  ii  inetutils-ping                  2:1.9.4-1            amd64                ICMP echo tool
@@ -188,7 +188,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  login                           1:4.2-3              amd64                system login tools
  ii  lsb-base                        9.20150917           all                  Linux Standard Base init script functionality
 +ii  lv                              4.51-2.3             amd64                Powerful Multilingual File Viewer
-+ii  man-db                          2.7.4-1              amd64                on-line manual pager
++ii  man-db                          2.7.5-1              amd64                on-line manual pager
  ii  mawk                            1.3.3-17             amd64                a pattern scanning and text processing language
  ii  mount                           2.27.1-1             amd64                Tools for mounting and manipulating filesystems
  ii  multiarch-support               2.19-22              amd64                Transitional package to ensure multiarch compatibility
