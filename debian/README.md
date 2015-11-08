@@ -31,8 +31,8 @@ ii  bash                            4.3-14               amd64                GN
 ii  bsdutils                        1:2.27.1-1           amd64                basic utilities from 4.4BSD-Lite
 ii  coreutils                       8.23-4               amd64                GNU core utilities
 ii  dash                            0.5.7-4+b1           amd64                POSIX-compliant shell
-ii  debconf                         1.5.57               all                  Debian configuration management system
-ii  debconf-i18n                    1.5.57               all                  full internationalization support for debconf
+ii  debconf                         1.5.58               all                  Debian configuration management system
+ii  debconf-i18n                    1.5.58               all                  full internationalization support for debconf
 ii  debian-archive-keyring          2014.3               all                  GnuPG archive keys of the Debian archive
 ii  debianutils                     4.5.1                amd64                Miscellaneous utilities specific to Debian
 ii  diffutils                       1:3.3-2              amd64                File comparison utilities
