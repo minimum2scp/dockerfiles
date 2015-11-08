@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151108-22403-1wyls3l.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151108-22403-bqvs71.out
-% diff -u /tmp/docker-diff.20151108-22403-1wyls3l.out /tmp/docker-diff.20151108-22403-bqvs71.out
---- /tmp/docker-diff.20151108-22403-1wyls3l.out	2015-11-08 02:33:21.068714290 +0900
-+++ /tmp/docker-diff.20151108-22403-bqvs71.out	2015-11-08 02:33:22.728716394 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151109-23726-1hs3izo.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151109-23726-hnnqhw.out
+% diff -u /tmp/docker-diff.20151109-23726-1hs3izo.out /tmp/docker-diff.20151109-23726-hnnqhw.out
+--- /tmp/docker-diff.20151109-23726-1hs3izo.out	2015-11-09 01:32:49.623892304 +0900
++++ /tmp/docker-diff.20151109-23726-hnnqhw.out	2015-11-09 01:32:51.211824564 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -76,8 +76,8 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  cron                            3.0pl1-128           amd64                process scheduling daemon
 +ii  curl                            7.45.0-1+b1          amd64                command line tool for transferring data with URL syntax
  ii  dash                            0.5.7-4+b1           amd64                POSIX-compliant shell
- ii  debconf                         1.5.57               all                  Debian configuration management system
- ii  debconf-i18n                    1.5.57               all                  full internationalization support for debconf
+ ii  debconf                         1.5.58               all                  Debian configuration management system
+ ii  debconf-i18n                    1.5.58               all                  full internationalization support for debconf
 @@ -20,17 +24,22 @@
  ii  dpkg                            1.18.3               amd64                Debian package management system
  ii  e2fslibs:amd64                  1.42.13-1            amd64                ext2/ext3/ext4 file system libraries
@@ -148,7 +148,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libncursesw5:amd64              6.0+20151024-2       amd64                shared libraries for terminal handling (wide character support)
 +ii  libnettle6:amd64                3.1.1-4              amd64                low level cryptographic library (symmetric and one-way cryptos)
 +ii  libnewt0.52:amd64               0.52.18-1+b1         amd64                Not Erik's Windowing Toolkit - text mode windowing with slang
-+ii  libnghttp2-14:amd64             1.4.0-1+b1           amd64                library implementing HTTP/2 protocol (shared library)
++ii  libnghttp2-14:amd64             1.4.0-2              amd64                library implementing HTTP/2 protocol (shared library)
 +ii  libp11-kit0:amd64               0.23.1-3             amd64                Library for loading and coordinating access to PKCS#11 modules - run
  ii  libpam-modules:amd64            1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM
  ii  libpam-modules-bin              1.1.8-3.1            amd64                Pluggable Authentication Modules for PAM - helper binaries
