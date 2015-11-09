@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151102-17019-19xd1rm.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151102-17019-pckx3c.out
-% diff -u /tmp/docker-diff.20151102-17019-19xd1rm.out /tmp/docker-diff.20151102-17019-pckx3c.out
---- /tmp/docker-diff.20151102-17019-19xd1rm.out	2015-11-02 00:12:05.476413423 +0900
-+++ /tmp/docker-diff.20151102-17019-pckx3c.out	2015-11-02 00:12:06.468417853 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151110-18539-1ghoexk.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151110-18539-1bi0e6f.out
+% diff -u /tmp/docker-diff.20151110-18539-1ghoexk.out /tmp/docker-diff.20151110-18539-1bi0e6f.out
+--- /tmp/docker-diff.20151110-18539-1ghoexk.out	2015-11-10 00:15:32.690279159 +0900
++++ /tmp/docker-diff.20151110-18539-1bi0e6f.out	2015-11-10 00:15:34.154286926 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                            Version              Architecture         Description
@@ -64,12 +64,12 @@
 +ii  libgdbm3:amd64                  1.8.3-11             amd64                GNU dbm database routines (runtime version)
 +ii  libgnutls26:amd64               2.12.20-8+deb7u3     amd64                GNU TLS library - runtime library
 +ii  libgpg-error0:amd64             1.10-3.1             amd64                library for common error values and messages in GnuPG components
-+ii  libgssapi-krb5-2:amd64          1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
++ii  libgssapi-krb5-2:amd64          1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 +ii  libidn11:amd64                  1.25-2               amd64                GNU Libidn library, implementation of IETF IDN specifications
-+ii  libk5crypto3:amd64              1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64              1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64              1.5.5-3+deb7u1       amd64                Linux Key Management Utilities (library)
-+ii  libkrb5-3:amd64                 1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64           1.10.1+dfsg-5+deb7u3 amd64                MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64                 1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64           1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64             2.4.31-2+deb7u1      amd64                OpenLDAP libraries
  ii  liblocale-gettext-perl          1.05-7+b1            amd64                module using libc functions for internationalization in Perl
  ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
