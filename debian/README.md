@@ -46,7 +46,7 @@ ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GC
 ii  gcc-5-base:amd64                5.2.1-23             amd64                GCC, the GNU Compiler Collection (base package)
 ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
 ii  gpgv                            1.4.19-6             amd64                GNU privacy guard - signature verification tool
-ii  grep                            2.21-2               amd64                GNU grep, egrep and fgrep
+ii  grep                            2.22-1               amd64                GNU grep, egrep and fgrep
 ii  gzip                            1.6-4                amd64                GNU compression utilities
 ii  hostname                        3.16                 amd64                utility to set/show the host name or domain name
 ii  inetutils-ping                  2:1.9.4-1            amd64                ICMP echo tool
@@ -124,7 +124,7 @@ ii  systemd                         227-2                amd64                sy
 ii  systemd-sysv                    227-2                amd64                system and service manager - SysV links
 ii  sysv-rc                         2.88dsf-59.2         all                  System-V-like runlevel change mechanism
 ii  sysvinit-utils                  2.88dsf-59.2         amd64                System-V-like utilities
-ii  tar                             1.28-2               amd64                GNU version of the tar archiving utility
+ii  tar                             1.28-2.1             amd64                GNU version of the tar archiving utility
 ii  tzdata                          2015g-1              all                  time zone and daylight-saving time data
 ii  udev                            227-2                amd64                /dev/ and hotplug management daemon
 ii  util-linux                      2.27.1-1             amd64                Miscellaneous system utilities
