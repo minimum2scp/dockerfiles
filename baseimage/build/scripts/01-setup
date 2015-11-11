@@ -101,3 +101,13 @@ adduser debian adm
 echo 'debian:debian' | chpasswd
 etckeeper commit "adduser debian"
 
+##
+## install libssl1.0.0 from stable (jessie)
+##
+libssl100_package_version=1.0.1k-3+deb8u1
+curl -L -o /build/tmp/libssl1.0.0_${libssl100_package_version}_amd64.deb http://httpredir.debian.org/debian/pool/main/o/openssl/libssl1.0.0_${libssl100_package_version}_amd64.deb
+dpkg -i /build/tmp/libssl1.0.0_${libssl100_package_version}_amd64.deb
+apt-get install -y --no-install-recommends -f
+if etckeeper unclean; then
+  etckeeper commit "installed libssl1.0.0 from stable (jessie)"
+fi
