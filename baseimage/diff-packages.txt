@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151111-29932-fzc2je.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151111-29932-1farjee.out
-% diff -u /tmp/docker-diff.20151111-29932-fzc2je.out /tmp/docker-diff.20151111-29932-1farjee.out
---- /tmp/docker-diff.20151111-29932-fzc2je.out	2015-11-11 00:09:50.358412964 +0900
-+++ /tmp/docker-diff.20151111-29932-1farjee.out	2015-11-11 00:09:52.042392984 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151112-7004-p6zt7b.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151112-7004-spnks8.out
+% diff -u /tmp/docker-diff.20151112-7004-p6zt7b.out /tmp/docker-diff.20151112-7004-spnks8.out
+--- /tmp/docker-diff.20151112-7004-p6zt7b.out	2015-11-12 03:54:37.767592062 +0900
++++ /tmp/docker-diff.20151112-7004-spnks8.out	2015-11-12 03:54:39.463580567 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -47,7 +47,7 @@
  ii  libbz2-1.0:amd64                1.0.6-8              amd64                high-quality block-sorting file compressor library - runtime
  ii  libc-bin                        2.19-22              amd64                GNU C Library: Binaries
  ii  libc6:amd64                     2.19-22              amd64                GNU C Library: Shared libraries
-@@ -48,35 +58,68 @@
+@@ -48,35 +58,69 @@
  ii  libcap2-bin                     1:2.24-12            amd64                POSIX 1003.1e capabilities (utilities)
  ii  libcomerr2:amd64                1.42.13-1            amd64                common error description library
  ii  libcryptsetup4:amd64            2:1.6.6-5            amd64                disk encryption support - shared library
@@ -109,6 +109,7 @@
  ii  libsmartcols1:amd64             2.27.1-1             amd64                smart column output alignment library
  ii  libss2:amd64                    1.42.13-1            amd64                command-line interface parsing library
 +ii  libssh2-1:amd64                 1.5.0-2+b1           amd64                SSH2 client-side library
++ii  libssl1.0.0:amd64               1.0.1k-3+deb8u1      amd64                Secure Sockets Layer toolkit - shared libraries
 +ii  libssl1.0.2:amd64               1.0.2d-3             amd64                Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64                5.2.1-23             amd64                GNU Standard C++ Library v3
  ii  libsystemd0:amd64               227-2                amd64                systemd utility library
@@ -116,7 +117,7 @@
  ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
  ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
  ii  libtext-wrapi18n-perl           0.06-7.1             all                  internationalized substitute of Text::Wrap
-@@ -85,27 +128,47 @@
+@@ -85,27 +129,47 @@
  ii  libusb-0.1-4:amd64              2:0.1.12-27          amd64                userspace USB programming library
  ii  libustr-1.0-1:amd64             1.0.4-5              amd64                Micro string library: shared library
  ii  libuuid1:amd64                  2.27.1-1             amd64                Universally Unique ID library
