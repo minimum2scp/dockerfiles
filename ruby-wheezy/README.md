@@ -66,13 +66,7 @@ $ rbenv versions
 rbenv is installed in /opt/rbenv, and some plugins are installed.
 
  * ruby-build
- * rbenv-default-gem
  * rbenv-update
-
-rbenv-default-gem installs some gems for each rubies:
-
- * bundler
- * pry
 
 ### shell settings
 
