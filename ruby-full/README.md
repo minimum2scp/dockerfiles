@@ -2,7 +2,7 @@
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * ruby 2.0.0-p647, ruby 2.1.7, ruby 2.2.3, ruby 2.3.0-preview1 is installed by rbenv
- * ruby 2.1.5, 2.2.3 is installed by debian package
+ * ruby 2.2.3 is installed by debian package
 
 ## ssh login to container
 
@@ -55,8 +55,6 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
   2.2.3
   2.3.0-preview1
 % ruby -v
-ruby 2.1.5p273 (2014-11-13) [x86_64-linux-gnu]
-% ruby2.2 -v
 ruby 2.2.3p173 (2015-08-18) [x86_64-linux-gnu]
 ```
 
