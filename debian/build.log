@@ -169,10 +169,10 @@ I: Retrieving sed 4.2.2-6.1
 I: Validating sed 4.2.2-6.1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.2-3
-I: Validating login 1:4.2-3
-I: Retrieving passwd 1:4.2-3
-I: Validating passwd 1:4.2-3
+I: Retrieving login 1:4.2-3.1
+I: Validating login 1:4.2-3.1
+I: Retrieving passwd 1:4.2-3.1
+I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
 I: Retrieving libsystemd0 227-3
@@ -524,7 +524,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org sid InRelease [256 kB]
 Get:2 http://ftp.jp.debian.org sid/main amd64 Packages [10.4 MB]
-Fetched 10.6 MB in 3s (2658 kB/s)
+Fetched 10.6 MB in 6s (1661 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -533,10 +533,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 0245a002a588
-Removing intermediate container 79a5e81586ee
+ ---> 9caa4dbf865a
+Removing intermediate container 4900f0002d1a
 Step 3 : CMD /bin/bash
- ---> Running in 2cf40f20b7bb
- ---> 0f3b780ea346
-Removing intermediate container 2cf40f20b7bb
-Successfully built 0f3b780ea346
+ ---> Running in f024fdae0f86
+ ---> bdcf1fff9cce
+Removing intermediate container f024fdae0f86
+Successfully built bdcf1fff9cce
