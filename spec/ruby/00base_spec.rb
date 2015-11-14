@@ -17,6 +17,10 @@ describe 'minimum2scp/ruby' do
     #  load spec
     #end
 
+    describe file('/build') do
+      it { should_not be_directory }
+    end
+
     %w[
       ruby ruby-dev bundler rake pry
       build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline6-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev

@@ -163,6 +163,10 @@ describe 'minimum2scp/baseimage-jessie' do
     describe file('/opt/init-wrapper/pre-init.d/10-save-env') do
       it { should be_executable }
     end
+
+    describe file('/build') do
+      it { should_not be_directory }
+    end
   end
 
   context 'with env [APT_LINE=keep, DEFAULT_LANG=en_US.UTF-8, DEFAULT_TZ=UTC]' do
