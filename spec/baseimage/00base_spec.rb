@@ -171,6 +171,9 @@ describe 'minimum2scp/baseimage' do
       it { should be_executable }
     end
 
+    describe file('/build') do
+      it { should_not be_directory }
+    end
   end
 
 

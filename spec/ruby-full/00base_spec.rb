@@ -17,6 +17,10 @@ describe 'minimum2scp/ruby-full' do
     #  load spec
     #end
 
+    describe file('/build') do
+      it { should_not be_directory }
+    end
+
     [
       [ '2.3.0-preview1', 'ruby 2.3.0preview1 (2015-11-11 trunk 52539) [x86_64-linux]'],
       [ '2.2.3',          'ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]' ],
