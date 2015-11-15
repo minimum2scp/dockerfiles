@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151114-24722-1nbhfnh.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151114-24722-11lq0vr.out
-% diff -u /tmp/docker-diff.20151114-24722-1nbhfnh.out /tmp/docker-diff.20151114-24722-11lq0vr.out
---- /tmp/docker-diff.20151114-24722-1nbhfnh.out	2015-11-14 01:19:15.474156480 +0900
-+++ /tmp/docker-diff.20151114-24722-11lq0vr.out	2015-11-14 01:19:17.150159404 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151116-19779-42srl7.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151116-19779-139lo47.out
+% diff -u /tmp/docker-diff.20151116-19779-42srl7.out /tmp/docker-diff.20151116-19779-139lo47.out
+--- /tmp/docker-diff.20151116-19779-42srl7.out	2015-11-16 00:20:19.073686584 +0900
++++ /tmp/docker-diff.20151116-19779-139lo47.out	2015-11-16 00:20:20.685688747 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -218,7 +218,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  sysvinit-utils                  2.88dsf-59.2         amd64                System-V-like utilities
  ii  tar                             1.28-2.1             amd64                GNU version of the tar archiving utility
  ii  tzdata                          2015g-1              all                  time zone and daylight-saving time data
-+ii  ucf                             3.0030               all                  Update Configuration File(s): preserve user changes to config files
++ii  ucf                             3.0031               all                  Update Configuration File(s): preserve user changes to config files
 +ii  unzip                           6.0-20               amd64                De-archiver for .zip files
  ii  util-linux                      2.27.1-1             amd64                Miscellaneous system utilities
 +ii  vim-common                      2:7.4.826-1+b1       amd64                Vi IMproved - Common files
