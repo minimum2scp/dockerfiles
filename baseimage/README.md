@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151116-19779-42srl7.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151116-19779-139lo47.out
-% diff -u /tmp/docker-diff.20151116-19779-42srl7.out /tmp/docker-diff.20151116-19779-139lo47.out
---- /tmp/docker-diff.20151116-19779-42srl7.out	2015-11-16 00:20:19.073686584 +0900
-+++ /tmp/docker-diff.20151116-19779-139lo47.out	2015-11-16 00:20:20.685688747 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151118-24535-1qmpeck.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151118-24535-1lc9mww.out
+% diff -u /tmp/docker-diff.20151118-24535-1qmpeck.out /tmp/docker-diff.20151118-24535-1lc9mww.out
+--- /tmp/docker-diff.20151118-24535-1qmpeck.out	2015-11-18 00:16:00.924636284 +0900
++++ /tmp/docker-diff.20151118-24535-1lc9mww.out	2015-11-18 00:16:02.568620325 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -115,7 +115,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libcryptsetup4:amd64            2:1.6.6-5            amd64                disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64           7.45.0-1+b1          amd64                easy-to-use client-side URL transfer library (GnuTLS flavour)
  ii  libdb5.3:amd64                  5.3.28-11            amd64                Berkeley v5.3 Database Libraries [runtime]
- ii  libdebconfclient0:amd64         0.195                amd64                Debian Configuration Management System (C-implementation library)
+ ii  libdebconfclient0:amd64         0.196                amd64                Debian Configuration Management System (C-implementation library)
  ii  libdevmapper1.02.1:amd64        2:1.02.110-1         amd64                Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64                  3.1-20150325-1       amd64                BSD editline and history libraries
 +ii  liberror-perl                   0.17-1.2             all                  Perl module for error/exception handling in an OO-ish way
@@ -126,7 +126,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libgcc1:amd64                   1:5.2.1-23           amd64                GCC support library
  ii  libgcrypt20:amd64               1.6.4-3              amd64                LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64                  1.8.3-13.1           amd64                GNU dbm database routines (runtime version)
-+ii  libgmp10:amd64                  2:6.0.0+dfsg-7       amd64                Multiprecision arithmetic library
++ii  libgmp10:amd64                  2:6.1.0+dfsg-1       amd64                Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64         3.3.18-1             amd64                GNU TLS library - main runtime library
  ii  libgpg-error0:amd64             1.20-1               amd64                library for common error values and messages in GnuPG components
 +ii  libgssapi-krb5-2:amd64          1.13.2+dfsg-4        amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
