@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151118-24535-1qmpeck.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151118-24535-1lc9mww.out
-% diff -u /tmp/docker-diff.20151118-24535-1qmpeck.out /tmp/docker-diff.20151118-24535-1lc9mww.out
---- /tmp/docker-diff.20151118-24535-1qmpeck.out	2015-11-18 00:16:00.924636284 +0900
-+++ /tmp/docker-diff.20151118-24535-1lc9mww.out	2015-11-18 00:16:02.568620325 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151119-19385-uig5eo.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151119-19385-1iufmyt.out
+% diff -u /tmp/docker-diff.20151119-19385-uig5eo.out /tmp/docker-diff.20151119-19385-1iufmyt.out
+--- /tmp/docker-diff.20151119-19385-uig5eo.out	2015-11-19 00:04:59.460866148 +0900
++++ /tmp/docker-diff.20151119-19385-1iufmyt.out	2015-11-19 00:05:01.036891319 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -30,7 +30,7 @@
  ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
  ii  gpgv                            1.4.19-6             amd64                GNU privacy guard - signature verification tool
  ii  grep                            2.22-1               amd64                GNU grep, egrep and fgrep
-+ii  groff-base                      1.22.3-3             amd64                GNU troff text-formatting system (base system components)
++ii  groff-base                      1.22.3-4             amd64                GNU troff text-formatting system (base system components)
  ii  gzip                            1.6-4                amd64                GNU compression utilities
  ii  hostname                        3.16                 amd64                utility to set/show the host name or domain name
  ii  inetutils-ping                  2:1.9.4-1            amd64                ICMP echo tool
@@ -64,7 +64,7 @@
  ii  libgcc1:amd64                   1:5.2.1-23           amd64                GCC support library
  ii  libgcrypt20:amd64               1.6.4-3              amd64                LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64                  1.8.3-13.1           amd64                GNU dbm database routines (runtime version)
-+ii  libgmp10:amd64                  2:6.1.0+dfsg-1       amd64                Multiprecision arithmetic library
++ii  libgmp10:amd64                  2:6.1.0+dfsg-2       amd64                Multiprecision arithmetic library
 +ii  libgnutls-deb0-28:amd64         3.3.18-1             amd64                GNU TLS library - main runtime library
  ii  libgpg-error0:amd64             1.20-1               amd64                library for common error values and messages in GnuPG components
 +ii  libgssapi-krb5-2:amd64          1.13.2+dfsg-4        amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
