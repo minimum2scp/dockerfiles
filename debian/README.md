@@ -41,7 +41,7 @@ ii  dpkg                            1.18.3               amd64                De
 ii  e2fslibs:amd64                  1.42.13-1            amd64                ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                       1.42.13-1            amd64                ext2/ext3/ext4 file system utilities
 ii  findutils                       4.4.2-10             amd64                utilities for finding files--find, xargs
-ii  gcc-4.8-base:amd64              4.8.5-1              amd64                GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.8-base:amd64              4.8.5-2              amd64                GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GCC, the GNU Compiler Collection (base package)
 ii  gcc-5-base:amd64                5.2.1-23             amd64                GCC, the GNU Compiler Collection (base package)
 ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
@@ -88,19 +88,19 @@ ii  libpam0g:amd64                  1.1.8-3.1            amd64                Pl
 ii  libpcre3:amd64                  2:8.35-7.4           amd64                Perl 5 Compatible Regular Expression Library - runtime files
 ii  libreadline6:amd64              6.3-8+b3             amd64                GNU readline and history libraries, run-time libraries
 ii  libseccomp2:amd64               2.2.3-2              amd64                high level interface to Linux seccomp filter
-ii  libselinux1:amd64               2.3-2+b1             amd64                SELinux runtime shared libraries
-ii  libsemanage-common              2.3-1                all                  Common files for SELinux policy management libraries
-ii  libsemanage1:amd64              2.3-1+b2             amd64                SELinux policy management library
-ii  libsepol1:amd64                 2.3-2                amd64                SELinux library for manipulating binary security policies
+ii  libselinux1:amd64               2.4-3                amd64                SELinux runtime shared libraries
+ii  libsemanage-common              2.4-3                all                  Common files for SELinux policy management libraries
+ii  libsemanage1:amd64              2.4-3                amd64                SELinux policy management library
+ii  libsepol1:amd64                 2.4-2                amd64                SELinux library for manipulating binary security policies
 ii  libsmartcols1:amd64             2.27.1-1             amd64                smart column output alignment library
 ii  libss2:amd64                    1.42.13-1            amd64                command-line interface parsing library
 ii  libstdc++6:amd64                5.2.1-23             amd64                GNU Standard C++ Library v3
-ii  libsystemd0:amd64               227-3                amd64                systemd utility library
+ii  libsystemd0:amd64               228-1                amd64                systemd utility library
 ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
 ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
 ii  libtext-wrapi18n-perl           0.06-7.1             all                  internationalized substitute of Text::Wrap
 ii  libtinfo5:amd64                 6.0+20151024-2       amd64                shared low-level terminfo library for terminal handling
-ii  libudev1:amd64                  227-3                amd64                libudev shared library
+ii  libudev1:amd64                  228-1                amd64                libudev shared library
 ii  libusb-0.1-4:amd64              2:0.1.12-27          amd64                userspace USB programming library
 ii  libustr-1.0-1:amd64             1.0.4-5              amd64                Micro string library: shared library
 ii  libuuid1:amd64                  2.27.1-1             amd64                Universally Unique ID library
@@ -118,8 +118,8 @@ ii  readline-common                 6.3-8                all                  GN
 ii  sed                             4.2.2-6.1            amd64                The GNU sed stream editor
 ii  sensible-utils                  0.0.9                all                  Utilities for sensible alternative selection
 ii  startpar                        0.59-3               amd64                run processes in parallel and multiplex their output
-ii  systemd                         227-3                amd64                system and service manager
-ii  systemd-sysv                    227-3                amd64                system and service manager - SysV links
+ii  systemd                         228-1                amd64                system and service manager
+ii  systemd-sysv                    228-1                amd64                system and service manager - SysV links
 ii  sysv-rc                         2.88dsf-59.2         all                  System-V-like runlevel change mechanism
 ii  sysvinit-utils                  2.88dsf-59.2         amd64                System-V-like utilities
 ii  tar                             1.28-2.1             amd64                GNU version of the tar archiving utility
