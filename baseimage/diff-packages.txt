@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151120-25433-11pq1ag.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151120-25433-67wkoa.out
-% diff -u /tmp/docker-diff.20151120-25433-11pq1ag.out /tmp/docker-diff.20151120-25433-67wkoa.out
---- /tmp/docker-diff.20151120-25433-11pq1ag.out	2015-11-20 00:11:31.013305437 +0900
-+++ /tmp/docker-diff.20151120-25433-67wkoa.out	2015-11-20 00:11:32.721327755 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151121-25135-2z8k9v.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151121-25135-hnn3i2.out
+% diff -u /tmp/docker-diff.20151121-25135-2z8k9v.out /tmp/docker-diff.20151121-25135-hnn3i2.out
+--- /tmp/docker-diff.20151121-25135-2z8k9v.out	2015-11-21 00:42:34.459981044 +0900
++++ /tmp/docker-diff.20151121-25135-hnn3i2.out	2015-11-21 00:42:36.079961766 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -23,7 +23,7 @@
 +ii  etckeeper                       1.18.1               all                  store /etc in git, mercurial, bzr or darcs
  ii  findutils                       4.4.2-10             amd64                utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64              4.8.5-2              amd64                GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64              4.9.3-5              amd64                GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64              4.9.3-7              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64                5.2.1-23             amd64                GCC, the GNU Compiler Collection (base package)
 +ii  git                             1:2.6.2-1            amd64                fast, scalable, distributed revision control system
 +ii  git-man                         1:2.6.2-1            all                  fast, scalable, distributed revision control system (manual pages)
@@ -53,7 +53,7 @@
  ii  libcryptsetup4:amd64            2:1.6.6-5            amd64                disk encryption support - shared library
 +ii  libcurl3-gnutls:amd64           7.45.0-1+b1          amd64                easy-to-use client-side URL transfer library (GnuTLS flavour)
  ii  libdb5.3:amd64                  5.3.28-11            amd64                Berkeley v5.3 Database Libraries [runtime]
- ii  libdebconfclient0:amd64         0.196                amd64                Debian Configuration Management System (C-implementation library)
+ ii  libdebconfclient0:amd64         0.197                amd64                Debian Configuration Management System (C-implementation library)
  ii  libdevmapper1.02.1:amd64        2:1.02.110-1         amd64                Linux Kernel Device Mapper userspace library
 +ii  libedit2:amd64                  3.1-20150325-1       amd64                BSD editline and history libraries
 +ii  liberror-perl                   0.17-1.2             all                  Perl module for error/exception handling in an OO-ish way
@@ -111,7 +111,7 @@
 +ii  libssh2-1:amd64                 1.5.0-2+b1           amd64                SSH2 client-side library
 +ii  libssl1.0.2:amd64               1.0.2d-3             amd64                Secure Sockets Layer toolkit - shared libraries
  ii  libstdc++6:amd64                5.2.1-23             amd64                GNU Standard C++ Library v3
- ii  libsystemd0:amd64               228-1                amd64                systemd utility library
+ ii  libsystemd0:amd64               228-2                amd64                systemd utility library
 +ii  libtasn1-6:amd64                4.7-2                amd64                Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
  ii  libtext-iconv-perl              1.7-5+b2             amd64                converts between character sets in Perl
@@ -148,8 +148,8 @@
  ii  sed                             4.2.2-6.1            amd64                The GNU sed stream editor
  ii  sensible-utils                  0.0.9                all                  Utilities for sensible alternative selection
  ii  startpar                        0.59-3               amd64                run processes in parallel and multiplex their output
--ii  systemd                         228-1                amd64                system and service manager
--ii  systemd-sysv                    228-1                amd64                system and service manager - SysV links
+-ii  systemd                         228-2                amd64                system and service manager
+-ii  systemd-sysv                    228-2                amd64                system and service manager - SysV links
 +ii  sudo                            1.8.12-1             amd64                Provide limited super user privileges to specific users
  ii  sysv-rc                         2.88dsf-59.2         all                  System-V-like runlevel change mechanism
 +ii  sysvinit-core                   2.88dsf-59.2         amd64                System-V-like init utilities
