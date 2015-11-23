@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151110-18539-1ghoexk.out
-% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151110-18539-1bi0e6f.out
-% diff -u /tmp/docker-diff.20151110-18539-1ghoexk.out /tmp/docker-diff.20151110-18539-1bi0e6f.out
---- /tmp/docker-diff.20151110-18539-1ghoexk.out	2015-11-10 00:15:32.690279159 +0900
-+++ /tmp/docker-diff.20151110-18539-1bi0e6f.out	2015-11-10 00:15:34.154286926 +0900
+% docker run --rm minimum2scp/debian-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151124-18508-ffi3h0.out
+% docker run --rm minimum2scp/baseimage-wheezy:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151124-18508-f2m94.out
+% diff -u /tmp/docker-diff.20151124-18508-ffi3h0.out /tmp/docker-diff.20151124-18508-f2m94.out
+--- /tmp/docker-diff.20151124-18508-ffi3h0.out	2015-11-24 00:20:14.122616525 +0900
++++ /tmp/docker-diff.20151124-18508-f2m94.out	2015-11-24 00:20:15.538616269 +0900
 @@ -3,12 +3,18 @@
  |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
  ||/ Name                            Version              Architecture         Description
@@ -64,12 +64,12 @@
 +ii  libgdbm3:amd64                  1.8.3-11             amd64                GNU dbm database routines (runtime version)
 +ii  libgnutls26:amd64               2.12.20-8+deb7u3     amd64                GNU TLS library - runtime library
 +ii  libgpg-error0:amd64             1.10-3.1             amd64                library for common error values and messages in GnuPG components
-+ii  libgssapi-krb5-2:amd64          1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
++ii  libgssapi-krb5-2:amd64          1.10.1+dfsg-5+deb7u6 amd64                MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 +ii  libidn11:amd64                  1.25-2               amd64                GNU Libidn library, implementation of IETF IDN specifications
-+ii  libk5crypto3:amd64              1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - Crypto Library
++ii  libk5crypto3:amd64              1.10.1+dfsg-5+deb7u6 amd64                MIT Kerberos runtime libraries - Crypto Library
 +ii  libkeyutils1:amd64              1.5.5-3+deb7u1       amd64                Linux Key Management Utilities (library)
-+ii  libkrb5-3:amd64                 1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries
-+ii  libkrb5support0:amd64           1.10.1+dfsg-5+deb7u4 amd64                MIT Kerberos runtime libraries - Support library
++ii  libkrb5-3:amd64                 1.10.1+dfsg-5+deb7u6 amd64                MIT Kerberos runtime libraries
++ii  libkrb5support0:amd64           1.10.1+dfsg-5+deb7u6 amd64                MIT Kerberos runtime libraries - Support library
 +ii  libldap-2.4-2:amd64             2.4.31-2+deb7u1      amd64                OpenLDAP libraries
  ii  liblocale-gettext-perl          1.05-7+b1            amd64                module using libc functions for internationalization in Perl
  ii  liblzma5:amd64                  5.1.1alpha+20120614- amd64                XZ-format compression library
@@ -139,7 +139,7 @@
  ii  tar                             1.26+dfsg-0.1        amd64                GNU version of the tar archiving utility
  ii  tzdata                          2015g-0+deb7u1       all                  time zone and daylight-saving time data
 +ii  ucf                             3.0025+nmu3          all                  Update Configuration File: preserve user changes to config files.
-+ii  unzip                           6.0-8+deb7u4         amd64                De-archiver for .zip files
++ii  unzip                           6.0-8+deb7u5         amd64                De-archiver for .zip files
  ii  util-linux                      2.20.1-5.3           amd64                Miscellaneous system utilities
 +ii  vim-common                      2:7.3.547-7          amd64                Vi IMproved - Common files
 +ii  vim-tiny                        2:7.3.547-7          amd64                Vi IMproved - enhanced vi editor - compact version
