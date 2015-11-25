@@ -1,8 +1,8 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151125-25802-167sm9x.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151125-25802-8szwtn.out
-% diff -u /tmp/docker-diff.20151125-25802-167sm9x.out /tmp/docker-diff.20151125-25802-8szwtn.out
---- /tmp/docker-diff.20151125-25802-167sm9x.out	2015-11-25 00:09:48.698813106 +0900
-+++ /tmp/docker-diff.20151125-25802-8szwtn.out	2015-11-25 00:09:50.342827979 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151126-19434-1rk5qb6.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151126-19434-vrndnj.out
+% diff -u /tmp/docker-diff.20151126-19434-1rk5qb6.out /tmp/docker-diff.20151126-19434-vrndnj.out
+--- /tmp/docker-diff.20151126-19434-1rk5qb6.out	2015-11-26 01:15:20.831046244 +0900
++++ /tmp/docker-diff.20151126-19434-vrndnj.out	2015-11-26 01:15:22.675052739 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -134,9 +134,9 @@
  ii  ncurses-bin                     6.0+20151024-2       amd64                terminal-related programs and man pages
 +ii  net-tools                       1.60+git20150829.73c amd64                NET-3 networking toolkit
  ii  netbase                         5.3                  all                  Basic TCP/IP networking system
-+ii  openssh-client                  1:6.9p1-2+b1         amd64                secure shell (SSH) client, for secure access to remote machines
-+ii  openssh-server                  1:6.9p1-2+b1         amd64                secure shell (SSH) server, for secure access from remote machines
-+ii  openssh-sftp-server             1:6.9p1-2+b1         amd64                secure shell (SSH) sftp server module, for SFTP access from remote m
++ii  openssh-client                  1:6.9p1-3            amd64                secure shell (SSH) client, for secure access to remote machines
++ii  openssh-server                  1:6.9p1-3            amd64                secure shell (SSH) server, for secure access from remote machines
++ii  openssh-sftp-server             1:6.9p1-3            amd64                secure shell (SSH) sftp server module, for SFTP access from remote m
 +ii  openssl                         1.0.2d-3             amd64                Secure Sockets Layer toolkit - cryptographic utility
  ii  passwd                          1:4.2-3.1            amd64                change and administer password and group data
 +ii  perl                            5.20.2-6             amd64                Larry Wall's Practical Extraction and Report Language
