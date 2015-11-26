@@ -28,15 +28,23 @@ for repo in tdiary-core \
   git clone https://github.com/tdiary/${repo}.git $GHQ_ROOT/github.com/tdiary/${repo}
 done
 
-## add Gemfile.local
-install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
-
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
 bash -l -c "cd ~; rbenv local 2.2.3"
 bash -l -c "bundle install --path vendor/bundle --jobs=4"
 
+## add Gemfile.local
+install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
+
+## run bundle install again
+if bash -l -c "bundle install"; then
+  :
+else
+  ## workaround (https://github.com/tdiary/tdiary-contrib/issues/122)
+  bash -l -c "bundle update rest-client"
+fi
+bash -l -c "bundle clean"
 
 ##
 ## tdiary data
