@@ -1,13 +1,13 @@
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151128-19149-w9jsis.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151128-19149-q38dvb.out
-% diff -u /tmp/docker-diff.20151128-19149-w9jsis.out /tmp/docker-diff.20151128-19149-q38dvb.out
---- /tmp/docker-diff.20151128-19149-w9jsis.out	2015-11-28 00:25:01.320326573 +0900
-+++ /tmp/docker-diff.20151128-19149-q38dvb.out	2015-11-28 00:25:02.976312023 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151129-31413-1cz24ma.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151129-31413-1ipv7ck.out
+% diff -u /tmp/docker-diff.20151129-31413-1cz24ma.out /tmp/docker-diff.20151129-31413-1ipv7ck.out
+--- /tmp/docker-diff.20151129-31413-1cz24ma.out	2015-11-29 00:29:02.943310754 +0900
++++ /tmp/docker-diff.20151129-31413-1ipv7ck.out	2015-11-29 00:29:04.599323741 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
  ii  bash                            4.3-14               amd64                GNU Bourne Again SHell
-+ii  bsdmainutils                    9.0.6                amd64                collection of more utilities from FreeBSD
++ii  bsdmainutils                    9.0.6+b1             amd64                collection of more utilities from FreeBSD
  ii  bsdutils                        1:2.27.1-1           amd64                basic utilities from 4.4BSD-Lite
 +ii  ca-certificates                 20150426             all                  Common CA certificates
  ii  coreutils                       8.23-4               amd64                GNU core utilities
@@ -23,7 +23,7 @@
 +ii  etckeeper                       1.18.1               all                  store /etc in git, mercurial, bzr or darcs
  ii  findutils                       4.4.2-10             amd64                utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64              4.8.5-2              amd64                GCC, the GNU Compiler Collection (base package)
- ii  gcc-4.9-base:amd64              4.9.3-7              amd64                GCC, the GNU Compiler Collection (base package)
+ ii  gcc-4.9-base:amd64              4.9.3-8              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-5-base:amd64                5.2.1-26             amd64                GCC, the GNU Compiler Collection (base package)
 +ii  git                             1:2.6.2-1            amd64                fast, scalable, distributed revision control system
 +ii  git-man                         1:2.6.2-1            all                  fast, scalable, distributed revision control system (manual pages)
