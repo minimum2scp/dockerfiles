@@ -60,11 +60,11 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151129-31413-1cz24ma.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151129-31413-1ipv7ck.out
-% diff -u /tmp/docker-diff.20151129-31413-1cz24ma.out /tmp/docker-diff.20151129-31413-1ipv7ck.out
---- /tmp/docker-diff.20151129-31413-1cz24ma.out	2015-11-29 00:29:02.943310754 +0900
-+++ /tmp/docker-diff.20151129-31413-1ipv7ck.out	2015-11-29 00:29:04.599323741 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151201-23139-1f8ss91.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151201-23139-hsb1nw.out
+% diff -u /tmp/docker-diff.20151201-23139-1f8ss91.out /tmp/docker-diff.20151201-23139-hsb1nw.out
+--- /tmp/docker-diff.20151201-23139-1f8ss91.out	2015-12-01 00:50:49.676862471 +0900
++++ /tmp/docker-diff.20151201-23139-hsb1nw.out	2015-12-01 00:50:51.360863453 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
@@ -86,7 +86,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  findutils                       4.4.2-10             amd64                utilities for finding files--find, xargs
  ii  gcc-4.8-base:amd64              4.8.5-2              amd64                GCC, the GNU Compiler Collection (base package)
  ii  gcc-4.9-base:amd64              4.9.3-8              amd64                GCC, the GNU Compiler Collection (base package)
- ii  gcc-5-base:amd64                5.2.1-26             amd64                GCC, the GNU Compiler Collection (base package)
+ ii  gcc-5-base:amd64                5.2.1-27             amd64                GCC, the GNU Compiler Collection (base package)
 +ii  git                             1:2.6.2-1            amd64                fast, scalable, distributed revision control system
 +ii  git-man                         1:2.6.2-1            all                  fast, scalable, distributed revision control system (manual pages)
  ii  gnupg                           1.4.19-6             amd64                GNU privacy guard - a free PGP replacement
@@ -123,7 +123,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 +ii  libexpat1:amd64                 2.1.0-7              amd64                XML parsing C library - runtime library
  ii  libfdisk1:amd64                 2.27.1-1             amd64                fdisk partitioning library
 +ii  libffi6:amd64                   3.2.1-3              amd64                Foreign Function Interface library runtime
- ii  libgcc1:amd64                   1:5.2.1-26           amd64                GCC support library
+ ii  libgcc1:amd64                   1:5.2.1-27           amd64                GCC support library
  ii  libgcrypt20:amd64               1.6.4-3              amd64                LGPL Crypto library - runtime library
 +ii  libgdbm3:amd64                  1.8.3-13.1           amd64                GNU dbm database routines (runtime version)
 +ii  libgmp10:amd64                  2:6.1.0+dfsg-2       amd64                Multiprecision arithmetic library
@@ -172,7 +172,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libss2:amd64                    1.42.13-1            amd64                command-line interface parsing library
 +ii  libssh2-1:amd64                 1.5.0-2+b1           amd64                SSH2 client-side library
 +ii  libssl1.0.2:amd64               1.0.2d-3             amd64                Secure Sockets Layer toolkit - shared libraries
- ii  libstdc++6:amd64                5.2.1-26             amd64                GNU Standard C++ Library v3
+ ii  libstdc++6:amd64                5.2.1-27             amd64                GNU Standard C++ Library v3
  ii  libsystemd0:amd64               228-2                amd64                systemd utility library
 +ii  libtasn1-6:amd64                4.7-2                amd64                Manage ASN.1 structures (runtime)
  ii  libtext-charwidth-perl          0.04-7+b3            amd64                get display widths of characters on the terminal
