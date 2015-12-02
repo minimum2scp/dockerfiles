@@ -60,15 +60,15 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
 
 ```
-% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151202-32563-16595b.out
-% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151202-32563-1d9gxlk.out
-% diff -u /tmp/docker-diff.20151202-32563-16595b.out /tmp/docker-diff.20151202-32563-1d9gxlk.out
---- /tmp/docker-diff.20151202-32563-16595b.out	2015-12-02 01:17:42.635148958 +0900
-+++ /tmp/docker-diff.20151202-32563-1d9gxlk.out	2015-12-02 01:17:44.391157968 +0900
+% docker run --rm minimum2scp/debian:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151203-28127-16ev9co.out
+% docker run --rm minimum2scp/baseimage:latest bash -c 'export LANG=C; export COLUMNS=150; dpkg -l' > /tmp/docker-diff.20151203-28127-1c00b9x.out
+% diff -u /tmp/docker-diff.20151203-28127-16ev9co.out /tmp/docker-diff.20151203-28127-1c00b9x.out
+--- /tmp/docker-diff.20151203-28127-16ev9co.out	2015-12-03 02:19:07.683675098 +0900
++++ /tmp/docker-diff.20151203-28127-1c00b9x.out	2015-12-03 02:19:09.231638449 +0900
 @@ -8,8 +8,12 @@
  ii  base-files                      9.5                  amd64                Debian base system miscellaneous files
  ii  base-passwd                     3.5.38               amd64                Debian base system master password and group files
- ii  bash                            4.3-14               amd64                GNU Bourne Again SHell
+ ii  bash                            4.3-14+b1            amd64                GNU Bourne Again SHell
 +ii  bsdmainutils                    9.0.6+b1             amd64                collection of more utilities from FreeBSD
  ii  bsdutils                        1:2.27.1-1           amd64                basic utilities from 4.4BSD-Lite
 +ii  ca-certificates                 20150426             all                  Common CA certificates
@@ -105,7 +105,7 @@ difference between minimum2scp/debian:latest and minimum2scp/baseimage:latest
  ii  libaudit-common                 1:2.4.4-4            all                  Dynamic library for security auditing - common files
  ii  libaudit1:amd64                 1:2.4.4-4            amd64                Dynamic library for security auditing
  ii  libblkid1:amd64                 2.27.1-1             amd64                block device id library
-+ii  libbsd0:amd64                   0.7.0-2              amd64                utility functions from BSD systems - shared library
++ii  libbsd0:amd64                   0.8.0-2              amd64                utility functions from BSD systems - shared library
  ii  libbz2-1.0:amd64                1.0.6-8              amd64                high-quality block-sorting file compressor library - runtime
  ii  libc-bin                        2.21-1               amd64                GNU C Library: Binaries
 +ii  libc-l10n                       2.21-1               all                  GNU C Library: localization files
