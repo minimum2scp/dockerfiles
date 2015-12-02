@@ -29,8 +29,8 @@ I: Retrieving base-files 9.5
 I: Validating base-files 9.5
 I: Retrieving base-passwd 3.5.38
 I: Validating base-passwd 3.5.38
-I: Retrieving bash 4.3-14
-I: Validating bash 4.3-14
+I: Retrieving bash 4.3-14+b1
+I: Validating bash 4.3-14+b1
 I: Retrieving libbz2-1.0 1.0.6-8
 I: Validating libbz2-1.0 1.0.6-8
 I: Retrieving libdebconfclient0 0.199
@@ -523,7 +523,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [257 kB]
-Fetched 257 kB in 1s (256 kB/s)
+Fetched 257 kB in 1s (212 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -533,10 +533,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 80040b62f572
-Removing intermediate container ed61a9a6ed3c
+ ---> 98f5a3453f34
+Removing intermediate container 4861a8f20b8e
 Step 3 : CMD /bin/bash
- ---> Running in 4f2ac198f41b
- ---> be3d5f8f987f
-Removing intermediate container 4f2ac198f41b
-Successfully built be3d5f8f987f
+ ---> Running in 578b480303db
+ ---> 0561243debc3
+Removing intermediate container 578b480303db
+Successfully built 0561243debc3
