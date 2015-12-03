@@ -38,12 +38,7 @@ bash -l -c "bundle install --path vendor/bundle --jobs=4"
 install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
 
 ## run bundle install again
-if bash -l -c "bundle install"; then
-  :
-else
-  ## workaround (https://github.com/tdiary/tdiary-contrib/issues/122)
-  bash -l -c "bundle update rest-client"
-fi
+bash -l -c "bundle install"
 bash -l -c "bundle clean"
 
 ##
