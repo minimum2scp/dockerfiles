@@ -22,7 +22,7 @@ describe 'minimum2scp/ruby-full' do
     end
 
     [
-      [ '2.3.0-preview1', 'ruby 2.3.0preview1 (2015-11-11 trunk 52539) [x86_64-linux]'],
+      [ '2.3.0-preview2', 'ruby 2.3.0preview2 (2015-12-11 trunk 53028) [x86_64-linux]'],
       [ '2.2.3',          'ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]' ],
       [ '2.1.7',          'ruby 2.1.7p400 (2015-08-18 revision 51632) [x86_64-linux]' ],
       [ '2.0.0-p647',     'ruby 2.0.0p647 (2015-08-18 revision 51631) [x86_64-linux]' ]
