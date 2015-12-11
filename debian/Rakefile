@@ -4,16 +4,21 @@
 ##
 ##   rake mkimage TAG=minimum2scp/debian:latest
 ##
-#
-require 'tmpdir'
-require 'rake/clean'
 
-CLOBBER.include 'build.log', 'debian-packages.txt', 'README.md'
+require 'csv'
+require 'erb'
+require 'json'
+require 'rake/clean'
+require 'tmpdir'
+
+CLOBBER.include 'build.log', 'debian-packages.json', 'README.md'
 
 task :default => ['README.md']
 
 desc 'create mkimage.sh log file'
-file 'build.log' => [:mkimage]
+file 'build.log' do
+  Rake::Task[:mkimage].invoke
+end
 
 desc 'run mkimage.sh'
 task :mkimage  do
@@ -26,13 +31,30 @@ task :mkimage  do
   sh "sudo #{env} /usr/share/docker.io/contrib/mkimage.sh #{tag_option} debootstrap #{debootstrap_options} | tee build.log"
 end
 
-desc 'update debian-packages.txt'
-file 'debian-packages.txt' => ['build.log'] do |t|
+desc 'update debian-packages.json'
+file 'debian-packages.json' => ['build.log'] do |t|
   tag = ENV['TAG'] || 'minimum2scp/debian:latest'
-  sh %Q[docker run --rm #{tag} bash -c "LANG=C COLUMNS=150 dpkg -l" > #{t.name}]
+  tsv_file = File.basename(t.name, ".json") + ".tsv"
+  fields = %w[
+    Architecture Conflicts Breaks Depends Enhances Essential Installed-Size Origin Package
+    Pre-Depends Priority Provides Recommends Replace Section Status Suggests Version
+    binary:Package binary:Summary db:Status-Abbrev db:Status-Want db:Status-Status db:Status-Eflag
+    source:Package source:Version
+  ]
+  field_fmt = fields.map{|f| "${#{f}}"}.join("\\t") + "\\n"
+  sh %Q[docker run --rm #{tag} dpkg-query -f '#{field_fmt}' -W > #{tsv_file}], :verbose => false
+  packages = CSV.read(tsv_file, :col_sep => "\t").map{ |row| Hash[fields.zip(row)] }
+  rm tsv_file, :verbose => false
+  File.open(t.name, "w") do |fh|
+    fh << JSON.pretty_generate(packages)
+  end
 end
 
 desc 'update README.md'
-file 'README.md' => ['README.md.erb', 'debian-packages.txt'] do |t|
-  sh "erb #{t.prerequisites.first} > #{t.name}"
+file 'README.md' => ['README.md.erb', 'debian-packages.json'] do |t|
+  packages = JSON.parse(File.read('debian-packages.json'))
+  File.open(t.name, "w") do |fh|
+    fh << ERB.new(File.read('README.md.erb'), nil, '-').result(binding)
+  end
 end
+
