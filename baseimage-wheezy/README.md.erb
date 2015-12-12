@@ -60,5 +60,9 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:latest
 
 ```
-<%= File.read("diff-packages.txt").strip %>
+<% fields = %w[db:Status-Abbrev Package Version Architecture binary:Summary] -%>
+<% width = Hash[fields.map{|k| [k, packages.map{|pkg| pkg[k].size}.max] }] -%>
+<% packages.each do |package| -%>
+<%= fields.map{|k| "%<#{k}>-#{width[k]}s" }.join(" " * 2) % Hash[fields.map{|k| [k.to_sym, package[k]] }] %>
+<% end -%>
 ```
