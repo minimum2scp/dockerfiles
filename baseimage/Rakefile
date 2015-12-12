@@ -1,34 +1,36 @@
+require 'csv'
+require 'erb'
+require 'json'
 require 'rake/clean'
 
-CLOBBER.include 'README.md', 'diff-packages.txt'
+CLOBBER.include 'README.md', 'debian-packages.json'
 
 task :default => ['README.md']
 
-desc 'diff installed packages between minimum2scp/debian and minimum2scp/baseimage'
-file 'diff-packages.txt' do |t|
-  require 'tempfile'
-  image1, image2 = ENV.has_key?('IMAGES') ? ENV['IMAGES'].split(/,/,2) : ['minimum2scp/debian:latest', 'minimum2scp/baseimage:latest']
-  File.open(t.name, 'w'){|fh|
-    cmd = "bash -c 'export LANG=C; export COLUMNS=150; dpkg -l'"
-    tempfile1, tempfile2 = [image1, image2].map do |img|
-      t = Tempfile.new(["docker-diff.", ".out"])
-      t.close
-      run_cmd = "docker run --rm #{img} #{cmd} > #{t.path}"
-      fh << "% #{run_cmd}\n"
-      IO.popen(run_cmd){ |run_fh|
-        fh << run_fh.read
-      }
-      t
-    end
-    diff_cmd = "diff -u #{tempfile1.path} #{tempfile2.path}"
-    fh << "% #{diff_cmd}\n"
-    IO.popen(diff_cmd){|diff_fh|
-      fh << diff_fh.read
-    }
-  }
+desc 'update debian-packages.json'
+file 'debian-packages.json' do |t|
+  tag = ENV['TAG'] || 'minimum2scp/baseimage:latest'
+  tsv_file = File.basename(t.name, ".json") + ".tsv"
+  fields = %w[
+    Architecture Conflicts Breaks Depends Enhances Essential Installed-Size Origin Package
+    Pre-Depends Priority Provides Recommends Replace Section Status Suggests Version
+    binary:Package binary:Summary db:Status-Abbrev db:Status-Want db:Status-Status db:Status-Eflag
+    source:Package source:Version
+  ]
+  field_fmt = fields.map{|f| "${#{f}}"}.join("\\t") + "\\n"
+  sh %Q[docker run --rm #{tag} dpkg-query -f '#{field_fmt}' -W > #{tsv_file}], :verbose => false
+  packages = CSV.read(tsv_file, :col_sep => "\t").map{ |row| Hash[fields.zip(row)] }
+  rm tsv_file, :verbose => false
+  File.open(t.name, "w") do |fh|
+    fh << JSON.pretty_generate(packages)
+  end
 end
 
 desc 'update README.md'
-file 'README.md' => ['README.md.erb', 'diff-packages.txt'] do |t|
-  sh "erb #{t.prerequisites.first} > #{t.name}"
+file 'README.md' => ['README.md.erb', 'debian-packages.json'] do |t|
+  packages = JSON.parse(File.read('debian-packages.json'))
+  File.open(t.name, "w") do |fh|
+    fh << ERB.new(File.read('README.md.erb'), nil, '-').result(binding)
+  end
 end
+
