@@ -79,7 +79,7 @@ ii   debian-archive-keyring  2014.3                     all    GnuPG archive key
 ii   debianutils             4.4+b1                     amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-1+b1                 amd64  File comparison utilities                                                  
 ii   dmsetup                 2:1.02.90-2.2              amd64  Linux Kernel Device Mapper userspace library                               
-ii   dpkg                    1.17.25                    amd64  Debian package management system                                           
+ii   dpkg                    1.17.26                    amd64  Debian package management system                                           
 ii   e2fslibs                1.42.12-1.1                amd64  ext2/ext3/ext4 file system libraries                                       
 ii   e2fsprogs               1.42.12-1.1                amd64  ext2/ext3/ext4 file system utilities                                       
 ii   etckeeper               1.15                       all    store /etc in git, mercurial, bzr or darcs                                 
@@ -170,7 +170,7 @@ ii   libslang2               2.3.0-2                    amd64  S-Lang programmin
 ii   libsmartcols1           2.25.2-6                   amd64  smart column output alignment library                                      
 ii   libss2                  1.42.12-1.1                amd64  command-line interface parsing library                                     
 ii   libssh2-1               1.4.3-4.1                  amd64  SSH2 client-side library                                                   
-ii   libssl1.0.0             1.0.1k-3+deb8u1            amd64  Secure Sockets Layer toolkit - shared libraries                            
+ii   libssl1.0.0             1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              4.9.2-10                   amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             215-17+deb8u2              amd64  systemd utility library                                                    
 ii   libtasn1-6              4.2-3+deb8u1               amd64  Manage ASN.1 structures (runtime)                                          
@@ -199,7 +199,7 @@ ii   netbase                 5.3                        all    Basic TCP/IP netw
 ii   openssh-client          1:6.7p1-5                  amd64  secure shell (SSH) client, for secure access to remote machines            
 ii   openssh-server          1:6.7p1-5                  amd64  secure shell (SSH) server, for secure access from remote machines          
 ii   openssh-sftp-server     1:6.7p1-5                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.0.1k-3+deb8u1            amd64  Secure Sockets Layer toolkit - cryptographic utility                       
+ii   openssl                 1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3                    amd64  change and administer password and group data                              
 ii   perl                    5.20.2-3+deb8u1            amd64  Larry Wall's Practical Extraction and Report Language                      
 ii   perl-base               5.20.2-3+deb8u1            amd64  minimal Perl system                                                        

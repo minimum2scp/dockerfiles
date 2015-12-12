@@ -538,7 +538,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "7195",
+    "Installed-Size": "7197",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.17.25",
+    "Version": "1.17.26",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.17.25"
+    "source:Version": "1.17.26"
   },
   {
     "Architecture": "amd64",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.0.1k-3+deb8u1",
+    "Version": "1.0.1k-3+deb8u2",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.1k-3+deb8u1"
+    "source:Version": "1.0.1k-3+deb8u2"
   },
   {
     "Architecture": "amd64",
@@ -3909,7 +3909,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1k-3+deb8u1",
+    "Version": "1.0.1k-3+deb8u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.1k-3+deb8u1"
+    "source:Version": "1.0.1k-3+deb8u2"
   },
   {
     "Architecture": "amd64",
