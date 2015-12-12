@@ -1,3 +1,6 @@
+require 'csv'
+require 'erb'
+require 'json'
 require 'rake/clean'
 
 CLOBBER.include 'README.md', 'debian-packages.json'
