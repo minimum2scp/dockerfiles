@@ -15,8 +15,12 @@ $ rake mkimage TAG=minimum2scp/debian-wheezy:latest
 
 ## packages
 
-installed packages (`docker run --rm minimum2scp/debian-wheezy:latest bash -c "LANG=C COLUMNS=120 dpkg -l"`)
+installed packages:
 
 ```
-<%= File.read("debian-packages.txt").strip %>
+<% fields = %w[db:Status-Abbrev Package Version Architecture binary:Summary] -%>
+<% width = Hash[fields.map{|k| [k, packages.map{|pkg| pkg[k].size}.max] }] -%>
+<% packages.each do |package| -%>
+<%= fields.map{|k| "%<#{k}>-#{width[k]}s" }.join(" " * 2) % Hash[fields.map{|k| [k.to_sym, package[k]] }] %>
+<% end -%>
 ```
