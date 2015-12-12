@@ -33,7 +33,7 @@ ii   debian-archive-keyring  2014.3                    all    GnuPG archive keys
 ii   debianutils             4.4+b1                    amd64  Miscellaneous utilities specific to Debian                            
 ii   diffutils               1:3.3-1+b1                amd64  File comparison utilities                                             
 ii   dmsetup                 2:1.02.90-2.2             amd64  Linux Kernel Device Mapper userspace library                          
-ii   dpkg                    1.17.25                   amd64  Debian package management system                                      
+ii   dpkg                    1.17.26                   amd64  Debian package management system                                      
 ii   e2fslibs                1.42.12-1.1               amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.42.12-1.1               amd64  ext2/ext3/ext4 file system utilities                                  
 ii   findutils               4.4.2-9+b1                amd64  utilities for finding files--find, xargs                              
