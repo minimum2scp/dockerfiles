@@ -510,7 +510,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "6558",
+    "Installed-Size": "6560",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.11), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.16.16",
+    "Version": "1.16.17",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "dpkg",
-    "source:Version": "1.16.16"
+    "source:Version": "1.16.17"
   },
   {
     "Architecture": "amd64",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.12.20-8+deb7u3",
+    "Version": "2.12.20-8+deb7u4",
     "binary:Package": "libgnutls26:amd64",
     "binary:Summary": "GNU TLS library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "gnutls26",
-    "source:Version": "2.12.20-8+deb7u3"
+    "source:Version": "2.12.20-8+deb7u4"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.0.1e-2+deb7u17",
+    "Version": "1.0.1e-2+deb7u18",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "SSL shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u17"
+    "source:Version": "1.0.1e-2+deb7u18"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1e-2+deb7u17",
+    "Version": "1.0.1e-2+deb7u18",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Socket Layer (SSL) binary and related cryptographic tools",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u17"
+    "source:Version": "1.0.1e-2+deb7u18"
   },
   {
     "Architecture": "amd64",
