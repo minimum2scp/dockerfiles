@@ -342,7 +342,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "6558",
+    "Installed-Size": "6560",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.11), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.16.16",
+    "Version": "1.16.17",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "dpkg",
-    "source:Version": "1.16.16"
+    "source:Version": "1.16.17"
   },
   {
     "Architecture": "amd64",
