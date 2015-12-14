@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.110-1",
+    "Version": "2:1.02.110-2",
     "binary:Package": "dmsetup",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.133-1"
+    "source:Version": "2.02.133-2"
   },
   {
     "Architecture": "amd64",
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "4.8.5-2",
+    "Version": "4.8.5-3",
     "binary:Package": "gcc-4.8-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.8",
-    "source:Version": "4.8.5-2"
+    "source:Version": "4.8.5-3"
   },
   {
     "Architecture": "amd64",
@@ -1322,7 +1322,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "163",
+    "Installed-Size": "162",
     "Origin": null,
     "Package": "libbsd0",
     "Pre-Depends": null,
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.8.0-2",
+    "Version": "0.8.1-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.0-2"
+    "source:Version": "0.8.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.199",
+    "Version": "0.200",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1649,13 +1649,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.199"
+    "source:Version": "0.200"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02",
     "Breaks": "liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)",
-    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.110-1)",
+    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.110-2)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "424",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.110-1",
+    "Version": "2:1.02.110-2",
     "binary:Package": "libdevmapper1.02.1:amd64",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.133-1"
+    "source:Version": "2.02.133-2"
   },
   {
     "Architecture": "amd64",

@@ -77,13 +77,13 @@ ii   debconf-i18n            1.5.58                        all    full internati
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                   
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
-ii   dmsetup                 2:1.02.110-1                  amd64  Linux Kernel Device Mapper userspace library                               
+ii   dmsetup                 2:1.02.110-2                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   dpkg                    1.18.3                        amd64  Debian package management system                                           
 ii   e2fslibs                1.42.13-1                     amd64  ext2/ext3/ext4 file system libraries                                       
 ii   e2fsprogs               1.42.13-1                     amd64  ext2/ext3/ext4 file system utilities                                       
 ii   etckeeper               1.18.1                        all    store /etc in git, mercurial, bzr or darcs                                 
 ii   findutils               4.4.2-10                      amd64  utilities for finding files--find, xargs                                   
-ii   gcc-4.8-base            4.8.5-2                       amd64  GCC, the GNU Compiler Collection (base package)                            
+ii   gcc-4.8-base            4.8.5-3                       amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   gcc-4.9-base            4.9.3-10                      amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   gcc-5-base              5.3.1-3                       amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   git                     1:2.6.4-1                     amd64  fast, scalable, distributed revision control system                        
@@ -107,7 +107,7 @@ ii   libattr1                1:2.4.47-2                    amd64  Extended attri
 ii   libaudit-common         1:2.4.4-4                     all    Dynamic library for security auditing - common files                       
 ii   libaudit1               1:2.4.4-4                     amd64  Dynamic library for security auditing                                      
 ii   libblkid1               2.27.1-1                      amd64  block device id library                                                    
-ii   libbsd0                 0.8.0-2                       amd64  utility functions from BSD systems - shared library                        
+ii   libbsd0                 0.8.1-1                       amd64  utility functions from BSD systems - shared library                        
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime               
 ii   libc-bin                2.21-4                        amd64  GNU C Library: Binaries                                                    
 ii   libc-l10n               2.21-4                        all    GNU C Library: localization files                                          
@@ -118,8 +118,8 @@ ii   libcomerr2              1.42.13-1                     amd64  common error d
 ii   libcryptsetup4          2:1.6.6-5                     amd64  disk encryption support - shared library                                   
 ii   libcurl3-gnutls         7.45.0-1+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
-ii   libdebconfclient0       0.199                         amd64  Debian Configuration Management System (C-implementation library)          
-ii   libdevmapper1.02.1      2:1.02.110-1                  amd64  Linux Kernel Device Mapper userspace library                               
+ii   libdebconfclient0       0.200                         amd64  Debian Configuration Management System (C-implementation library)          
+ii   libdevmapper1.02.1      2:1.02.110-2                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                         
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                  
 ii   libestr0                0.1.10-1                      amd64  Helper functions for handling strings (lib)                                
