@@ -22,10 +22,10 @@ describe 'minimum2scp/ruby-full' do
     end
 
     [
-      [ '2.3.0-preview2', 'ruby 2.3.0preview2 (2015-12-11 trunk 53028) [x86_64-linux]'],
-      [ '2.2.3',          'ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]' ],
-      [ '2.1.7',          'ruby 2.1.7p400 (2015-08-18 revision 51632) [x86_64-linux]' ],
-      [ '2.0.0-p647',     'ruby 2.0.0p647 (2015-08-18 revision 51631) [x86_64-linux]' ]
+      [ '2.3.0-preview2', 'ruby 2.3.0preview2 (2015-12-11 trunk 53028) [x86_64-linux]' ],
+      [ '2.2.4',          'ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]' ],
+      [ '2.1.8',          'ruby 2.1.8p440 (2015-12-16 revision 53160) [x86_64-linux]' ],
+      [ '2.0.0-p648',     'ruby 2.0.0p648 (2015-12-16 revision 53162) [x86_64-linux]' ],
     ].each do |dir, version|
       describe file("/opt/rbenv/versions/#{dir}") do
         it { should be_directory }
