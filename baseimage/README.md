@@ -73,7 +73,6 @@ ii   cron                    3.0pl1-128                    amd64  process schedu
 ii   curl                    7.45.0-1+b1                   amd64  command line tool for transferring data with URL syntax                    
 ii   dash                    0.5.7-4+b1                    amd64  POSIX-compliant shell                                                      
 ii   debconf                 1.5.58                        all    Debian configuration management system                                     
-ii   debconf-i18n            1.5.58                        all    full internationalization support for debconf                              
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                   
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
@@ -131,7 +130,7 @@ ii   libgcrypt20             1.6.4-3                       amd64  LGPL Crypto li
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                          
 ii   libgnutls-deb0-28       3.3.18-1                      amd64  GNU TLS library - main runtime library                                     
-ii   libgpg-error0           1.20-1                        amd64  library for common error values and messages in GnuPG components           
+ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components           
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                    
 ii   libhogweed4             3.1.1-4                       amd64  low level cryptographic library (public-key cryptos)                       
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications              
@@ -142,7 +141,6 @@ ii   libkmod2                21-1                          amd64  libkmod shared
 ii   libkrb5-3               1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries                                             
 ii   libkrb5support0         1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Support library                           
 ii   libldap-2.4-2           2.4.42+dfsg-2                 amd64  OpenLDAP libraries                                                         
-ii   liblocale-gettext-perl  1.07-1                        amd64  module using libc functions for internationalization in Perl               
 ii   liblogging-stdlog0      1.0.5-2                       amd64  easy to use and lightweight logging library                                
 ii   liblognorm2             1.1.2-1.1                     amd64  Log normalizing library                                                    
 ii   liblzma5                5.1.1alpha+20120614-2.1       amd64  XZ-format compression library                                              
@@ -151,13 +149,14 @@ ii   libncurses5             6.0+20151024-2                amd64  shared librari
 ii   libncursesw5            6.0+20151024-2                amd64  shared libraries for terminal handling (wide character support)            
 ii   libnettle6              3.1.1-4                       amd64  low level cryptographic library (symmetric and one-way cryptos)            
 ii   libnewt0.52             0.52.18-1+b1                  amd64  Not Erik's Windowing Toolkit - text mode windowing with slang              
-ii   libnghttp2-14           1.5.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                      
+ii   libnghttp2-14           1.5.0-2                       amd64  library implementing HTTP/2 protocol (shared library)                      
 ii   libp11-kit0             0.23.1-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
 ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM                                   
 ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
 ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
 ii   libpam0g                1.1.8-3.1                     amd64  Pluggable Authentication Modules library                                   
 ii   libpcre3                2:8.35-8                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
+ii   libperl5.22             5.22.1-1                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-1                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
 ii   libprocps4              2:3.3.10-4+b1                 amd64  library for accessing process information from /proc                       
@@ -178,9 +177,6 @@ ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets
 ii   libstdc++6              5.3.1-3                       amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             228-2                         amd64  systemd utility library                                                    
 ii   libtasn1-6              4.7-2                         amd64  Manage ASN.1 structures (runtime)                                          
-ii   libtext-charwidth-perl  0.04-7+b3                     amd64  get display widths of characters on the terminal                           
-ii   libtext-iconv-perl      1.7-5+b2                      amd64  converts between character sets in Perl                                    
-ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
 ii   libudev1                228-2                         amd64  libudev shared library                                                     
 ii   libusb-0.1-4            2:0.1.12-27                   amd64  userspace USB programming library                                          
@@ -200,14 +196,14 @@ ii   ncurses-base            6.0+20151024-2                all    basic terminal
 ii   ncurses-bin             6.0+20151024-2                amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                   
 ii   netbase                 5.3                           all    Basic TCP/IP networking system                                             
-ii   openssh-client          1:7.1p1-3                     amd64  secure shell (SSH) client, for secure access to remote machines            
-ii   openssh-server          1:7.1p1-3                     amd64  secure shell (SSH) server, for secure access from remote machines          
-ii   openssh-sftp-server     1:7.1p1-3                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.1p1-4                     amd64  secure shell (SSH) client, for secure access to remote machines            
+ii   openssh-server          1:7.1p1-4                     amd64  secure shell (SSH) server, for secure access from remote machines          
+ii   openssh-sftp-server     1:7.1p1-4                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2e-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                              
-ii   perl                    5.20.2-6                      amd64  Larry Wall's Practical Extraction and Report Language                      
-ii   perl-base               5.20.2-6                      amd64  minimal Perl system                                                        
-ii   perl-modules            5.20.2-6                      all    Core Perl modules                                                          
+ii   perl                    5.22.1-1                      amd64  Larry Wall's Practical Extraction and Report Language                      
+ii   perl-base               5.22.1-1                      amd64  minimal Perl system                                                        
+ii   perl-modules-5.22       5.22.1-1                      all    Core Perl modules                                                          
 ii   procps                  2:3.3.10-4+b1                 amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.14.0-2                      amd64  reliable system and kernel logging daemon                                  
