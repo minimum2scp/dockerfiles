@@ -73,6 +73,7 @@ ii   cron                    3.0pl1-128                    amd64  process schedu
 ii   curl                    7.45.0-1+b1                   amd64  command line tool for transferring data with URL syntax                    
 ii   dash                    0.5.7-4+b1                    amd64  POSIX-compliant shell                                                      
 ii   debconf                 1.5.58                        all    Debian configuration management system                                     
+ii   debconf-i18n            1.5.58                        all    full internationalization support for debconf                              
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                   
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
@@ -100,7 +101,7 @@ ii   initscripts             2.88dsf-59.2                  amd64  scripts for in
 ii   insserv                 1.14.0-5                      amd64  boot sequence organizer using LSB init.d script dependency information     
 ii   iproute2                4.3.0-1                       amd64  networking and traffic control tools                                       
 ii   libacl1                 2.2.52-2                      amd64  Access control list shared library                                         
-ii   libapparmor1            2.10-2+b1                     amd64  changehat AppArmor library                                                 
+ii   libapparmor1            2.10-2+b2                     amd64  changehat AppArmor library                                                 
 ii   libapt-pkg5.0           1.1.5                         amd64  package management runtime library                                         
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                          
 ii   libaudit-common         1:2.4.4-4                     all    Dynamic library for security auditing - common files                       
@@ -140,7 +141,8 @@ ii   libkeyutils1            1.5.9-8                       amd64  Linux Key Mana
 ii   libkmod2                21-1                          amd64  libkmod shared library                                                     
 ii   libkrb5-3               1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries                                             
 ii   libkrb5support0         1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Support library                           
-ii   libldap-2.4-2           2.4.42+dfsg-2                 amd64  OpenLDAP libraries                                                         
+ii   libldap-2.4-2           2.4.42+dfsg-2+b1              amd64  OpenLDAP libraries                                                         
+ii   liblocale-gettext-perl  1.07-1+b1                     amd64  module using libc functions for internationalization in Perl               
 ii   liblogging-stdlog0      1.0.5-2                       amd64  easy to use and lightweight logging library                                
 ii   liblognorm2             1.1.2-1.1                     amd64  Log normalizing library                                                    
 ii   liblzma5                5.1.1alpha+20120614-2.1       amd64  XZ-format compression library                                              
@@ -177,6 +179,9 @@ ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets
 ii   libstdc++6              5.3.1-3                       amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             228-2                         amd64  systemd utility library                                                    
 ii   libtasn1-6              4.7-2                         amd64  Manage ASN.1 structures (runtime)                                          
+ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                           
+ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                    
+ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
 ii   libudev1                228-2                         amd64  libudev shared library                                                     
 ii   libusb-0.1-4            2:0.1.12-27                   amd64  userspace USB programming library                                          
@@ -219,8 +224,8 @@ ii   tzdata                  2015g-1                       all    time zone and 
 ii   ucf                     3.0031                        all    Update Configuration File(s): preserve user changes to config files        
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                 
 ii   util-linux              2.27.1-1                      amd64  Miscellaneous system utilities                                             
-ii   vim-common              2:7.4.963-1                   amd64  Vi IMproved - Common files                                                 
-ii   vim-tiny                2:7.4.963-1                   amd64  Vi IMproved - enhanced vi editor - compact version                         
+ii   vim-common              2:7.4.963-1+b1                amd64  Vi IMproved - Common files                                                 
+ii   vim-tiny                2:7.4.963-1+b1                amd64  Vi IMproved - enhanced vi editor - compact version                         
 ii   whiptail                0.52.18-1+b1                  amd64  Displays user-friendly dialog boxes from shell scripts                     
 ii   zlib1g                  1:1.2.8.dfsg-2+b1             amd64  compression library - runtime                                              
 ii   zsh                     5.2-2                         amd64  shell with lots of features                                                
