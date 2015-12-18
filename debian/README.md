@@ -50,7 +50,7 @@ ii   initscripts             2.88dsf-59.2             amd64  scripts for initial
 ii   insserv                 1.14.0-5                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-2                 amd64  Access control list shared library                                    
-ii   libapparmor1            2.10-2+b1                amd64  changehat AppArmor library                                            
+ii   libapparmor1            2.10-2+b2                amd64  changehat AppArmor library                                            
 ii   libapt-pkg5.0           1.1.5                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.4-4                all    Dynamic library for security auditing - common files                  
@@ -69,9 +69,9 @@ ii   libdevmapper1.02.1      2:1.02.110-2             amd64  Linux Kernel Device
 ii   libfdisk1               2.27.1-1                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-3                amd64  GCC support library                                                   
 ii   libgcrypt20             1.6.4-3                  amd64  LGPL Crypto library - runtime library                                 
-ii   libgpg-error0           1.20-1                   amd64  library for common error values and messages in GnuPG components      
+ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                21-1                     amd64  libkmod shared library                                                
-ii   liblocale-gettext-perl  1.07-1                   amd64  module using libc functions for internationalization in Perl          
+ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.27.1-1                 amd64  device mounting library                                               
 ii   libncurses5             6.0+20151024-2           amd64  shared libraries for terminal handling                                
@@ -91,8 +91,8 @@ ii   libsmartcols1           2.27.1-1                 amd64  smart column output
 ii   libss2                  1.42.13-1                amd64  command-line interface parsing library                                
 ii   libstdc++6              5.3.1-3                  amd64  GNU Standard C++ Library v3                                           
 ii   libsystemd0             228-2                    amd64  systemd utility library                                               
-ii   libtext-charwidth-perl  0.04-7+b3                amd64  get display widths of characters on the terminal                      
-ii   libtext-iconv-perl      1.7-5+b2                 amd64  converts between character sets in Perl                               
+ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
+ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               6.0+20151024-2           amd64  shared low-level terminfo library for terminal handling               
 ii   libudev1                228-2                    amd64  libudev shared library                                                
@@ -108,7 +108,7 @@ ii   ncurses-base            6.0+20151024-2           all    basic terminal type
 ii   ncurses-bin             6.0+20151024-2           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
-ii   perl-base               5.20.2-6                 amd64  minimal Perl system                                                   
+ii   perl-base               5.22.1-1                 amd64  minimal Perl system                                                   
 ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.2-6.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
