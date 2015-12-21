@@ -67,7 +67,7 @@ ii   base-passwd             3.5.38                        amd64  Debian base sy
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                     
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                  
 ii   bsdutils                1:2.27.1-1                    amd64  basic utilities from 4.4BSD-Lite                                           
-ii   ca-certificates         20150426                      all    Common CA certificates                                                     
+ii   ca-certificates         20151214                      all    Common CA certificates                                                     
 ii   coreutils               8.23-4                        amd64  GNU core utilities                                                         
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                  
 ii   curl                    7.45.0-1+b1                   amd64  command line tool for transferring data with URL syntax                    
@@ -138,7 +138,7 @@ ii   libidn11                1.32-3                        amd64  GNU Libidn lib
 ii   libjson-c2              0.11-4                        amd64  JSON manipulation library - shared library                                 
 ii   libk5crypto3            1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Crypto Library                            
 ii   libkeyutils1            1.5.9-8                       amd64  Linux Key Management Utilities (library)                                   
-ii   libkmod2                21-1                          amd64  libkmod shared library                                                     
+ii   libkmod2                22-1                          amd64  libkmod shared library                                                     
 ii   libkrb5-3               1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries                                             
 ii   libkrb5support0         1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Support library                           
 ii   libldap-2.4-2           2.4.42+dfsg-2+b1              amd64  OpenLDAP libraries                                                         
@@ -152,7 +152,7 @@ ii   libncursesw5            6.0+20151024-2                amd64  shared librari
 ii   libnettle6              3.1.1-4                       amd64  low level cryptographic library (symmetric and one-way cryptos)            
 ii   libnewt0.52             0.52.18-1+b1                  amd64  Not Erik's Windowing Toolkit - text mode windowing with slang              
 ii   libnghttp2-14           1.5.0-2                       amd64  library implementing HTTP/2 protocol (shared library)                      
-ii   libp11-kit0             0.23.1-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
+ii   libp11-kit0             0.23.2-2                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
 ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM                                   
 ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
 ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
@@ -177,13 +177,13 @@ ii   libss2                  1.42.13-1                     amd64  command-line i
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                   
 ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              5.3.1-4                       amd64  GNU Standard C++ Library v3                                                
-ii   libsystemd0             228-2                         amd64  systemd utility library                                                    
+ii   libsystemd0             228-2+b1                      amd64  systemd utility library                                                    
 ii   libtasn1-6              4.7-2                         amd64  Manage ASN.1 structures (runtime)                                          
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                           
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                    
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
-ii   libudev1                228-2                         amd64  libudev shared library                                                     
+ii   libudev1                228-2+b1                      amd64  libudev shared library                                                     
 ii   libusb-0.1-4            2:0.1.12-27                   amd64  userspace USB programming library                                          
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                       
 ii   libuuid1                2.27.1-1                      amd64  Universally Unique ID library                                              
@@ -211,7 +211,7 @@ ii   perl-base               5.22.1-2                      amd64  minimal Perl s
 ii   perl-modules-5.22       5.22.1-2                      all    Core Perl modules                                                          
 ii   procps                  2:3.3.10-4+b1                 amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                           
-ii   rsyslog                 8.14.0-2                      amd64  reliable system and kernel logging daemon                                  
+ii   rsyslog                 8.15.0-1                      amd64  reliable system and kernel logging daemon                                  
 ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                  
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                               
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                       
