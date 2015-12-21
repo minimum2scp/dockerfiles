@@ -70,7 +70,7 @@ ii   libfdisk1               2.27.1-1                 amd64  fdisk partitioning 
 ii   libgcc1                 1:5.3.1-4                amd64  GCC support library                                                   
 ii   libgcrypt20             1.6.4-3                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
-ii   libkmod2                21-1                     amd64  libkmod shared library                                                
+ii   libkmod2                22-1                     amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.27.1-1                 amd64  device mounting library                                               

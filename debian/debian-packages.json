@@ -1462,7 +1462,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "117",
+    "Installed-Size": "116",
     "Origin": null,
     "Package": "libkmod2",
     "Pre-Depends": null,
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "21-1",
+    "Version": "22-1",
     "binary:Package": "libkmod2:amd64",
     "binary:Summary": "libkmod shared library",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "kmod",
-    "source:Version": "21-1"
+    "source:Version": "22-1"
   },
   {
     "Architecture": "amd64",
