@@ -39,8 +39,8 @@ ii   findutils               4.4.2-10                 amd64  utilities for findi
 ii   gcc-4.8-base            4.8.5-3                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.3-10                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-5-base              5.3.1-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gnupg                   1.4.19-6                 amd64  GNU privacy guard - a free PGP replacement                            
-ii   gpgv                    1.4.19-6                 amd64  GNU privacy guard - signature verification tool                       
+ii   gnupg                   1.4.20-1                 amd64  GNU privacy guard - a free PGP replacement                            
+ii   gpgv                    1.4.20-1                 amd64  GNU privacy guard - signature verification tool                       
 ii   grep                    2.22-1                   amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-4                    amd64  GNU compression utilities                                             
 ii   hostname                3.16                     amd64  utility to set/show the host name or domain name                      
@@ -90,12 +90,12 @@ ii   libsepol1               2.4-2                    amd64  SELinux library for
 ii   libsmartcols1           2.27.1-1                 amd64  smart column output alignment library                                 
 ii   libss2                  1.42.13-1                amd64  command-line interface parsing library                                
 ii   libstdc++6              5.3.1-4                  amd64  GNU Standard C++ Library v3                                           
-ii   libsystemd0             228-2                    amd64  systemd utility library                                               
+ii   libsystemd0             228-2+b1                 amd64  systemd utility library                                               
 ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               6.0+20151024-2           amd64  shared low-level terminfo library for terminal handling               
-ii   libudev1                228-2                    amd64  libudev shared library                                                
+ii   libudev1                228-2+b1                 amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-27              amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library                                  
 ii   libuuid1                2.27.1-1                 amd64  Universally Unique ID library                                         
@@ -113,8 +113,8 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-6.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 228-2                    amd64  system and service manager                                            
-ii   systemd-sysv            228-2                    amd64  system and service manager - SysV links                               
+ii   systemd                 228-2+b1                 amd64  system and service manager                                            
+ii   systemd-sysv            228-2+b1                 amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.2             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.2             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              

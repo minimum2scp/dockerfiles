@@ -81,10 +81,10 @@ I: Retrieving libc6 2.21-4
 I: Validating libc6 2.21-4
 I: Retrieving multiarch-support 2.21-4
 I: Validating multiarch-support 2.21-4
-I: Retrieving gnupg 1.4.19-6
-I: Validating gnupg 1.4.19-6
-I: Retrieving gpgv 1.4.19-6
-I: Validating gpgv 1.4.19-6
+I: Retrieving gnupg 1.4.20-1
+I: Validating gnupg 1.4.20-1
+I: Retrieving gpgv 1.4.20-1
+I: Validating gpgv 1.4.20-1
 I: Retrieving grep 2.22-1
 I: Validating grep 2.22-1
 I: Retrieving gzip 1.6-4
@@ -175,14 +175,14 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 228-2
-I: Validating libsystemd0 228-2
-I: Retrieving libudev1 228-2
-I: Validating libudev1 228-2
-I: Retrieving systemd 228-2
-I: Validating systemd 228-2
-I: Retrieving systemd-sysv 228-2
-I: Validating systemd-sysv 228-2
+I: Retrieving libsystemd0 228-2+b1
+I: Validating libsystemd0 228-2+b1
+I: Retrieving libudev1 228-2+b1
+I: Validating libudev1 228-2+b1
+I: Retrieving systemd 228-2+b1
+I: Validating systemd 228-2+b1
+I: Retrieving systemd-sysv 228-2+b1
+I: Validating systemd-sysv 228-2+b1
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -523,7 +523,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [265 kB]
-Fetched 265 kB in 1s (184 kB/s)
+Fetched 265 kB in 0s (427 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -533,10 +533,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 62af97de2d68
-Removing intermediate container 42e0ed00dfc7
+ ---> 1cfe4f9cdcbd
+Removing intermediate container 1c12409e8352
 Step 3 : CMD /bin/bash
- ---> Running in 877be123c6c1
- ---> db73c54c5a65
-Removing intermediate container 877be123c6c1
-Successfully built db73c54c5a65
+ ---> Running in d4f7c69d90e0
+ ---> 1672ff8c8eae
+Removing intermediate container d4f7c69d90e0
+Successfully built 1672ff8c8eae
