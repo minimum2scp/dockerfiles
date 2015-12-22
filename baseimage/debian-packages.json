@@ -790,7 +790,7 @@
     "Depends": "gpgv, libbz2-1.0, libc6 (>= 2.15), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "5011",
+    "Installed-Size": "5050",
     "Origin": null,
     "Package": "gnupg",
     "Pre-Depends": null,
@@ -801,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.19-6",
+    "Version": "1.4.20-1",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.19-6"
+    "source:Version": "1.4.20-1"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.19-6",
+    "Version": "1.4.20-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.19-6"
+    "source:Version": "1.4.20-1"
   },
   {
     "Architecture": "amd64",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, libpam-ssh, keychain, monkeysphere",
-    "Version": "1:7.1p1-4",
+    "Version": "1:7.1p1-5",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3973,13 +3973,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.1p1-4"
+    "source:Version": "1:7.1p1-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": null,
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.12.1+dfsg-2), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), openssh-client (= 1:7.1p1-4), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 4.1+Debian3), procps, openssh-sftp-server",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.12.1+dfsg-2), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), openssh-client (= 1:7.1p1-5), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 4.1+Debian3), procps, openssh-sftp-server",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "881",
@@ -3993,7 +3993,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, rssh, molly-guard, ufw, monkeysphere",
-    "Version": "1:7.1p1-4",
+    "Version": "1:7.1p1-5",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4001,16 +4001,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.1p1-4"
+    "source:Version": "1:7.1p1-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "libc6 (>= 2.17), openssh-client (= 1:7.1p1-4)",
+    "Depends": "libc6 (>= 2.17), openssh-client (= 1:7.1p1-5)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
-    "Installed-Size": "105",
+    "Installed-Size": "106",
     "Origin": null,
     "Package": "openssh-sftp-server",
     "Pre-Depends": null,
@@ -4021,7 +4021,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:7.1p1-4",
+    "Version": "1:7.1p1-5",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.1p1-4"
+    "source:Version": "1:7.1p1-5"
   },
   {
     "Architecture": "amd64",

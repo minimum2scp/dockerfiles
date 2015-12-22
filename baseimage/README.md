@@ -88,8 +88,8 @@ ii   gcc-4.9-base            4.9.3-10                      amd64  GCC, the GNU C
 ii   gcc-5-base              5.3.1-4                       amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   git                     1:2.6.4-1                     amd64  fast, scalable, distributed revision control system                        
 ii   git-man                 1:2.6.4-1                     all    fast, scalable, distributed revision control system (manual pages)         
-ii   gnupg                   1.4.19-6                      amd64  GNU privacy guard - a free PGP replacement                                 
-ii   gpgv                    1.4.19-6                      amd64  GNU privacy guard - signature verification tool                            
+ii   gnupg                   1.4.20-1                      amd64  GNU privacy guard - a free PGP replacement                                 
+ii   gpgv                    1.4.20-1                      amd64  GNU privacy guard - signature verification tool                            
 ii   grep                    2.22-1                        amd64  GNU grep, egrep and fgrep                                                  
 ii   groff-base              1.22.3-4                      amd64  GNU troff text-formatting system (base system components)                  
 ii   gzip                    1.6-4                         amd64  GNU compression utilities                                                  
@@ -201,9 +201,9 @@ ii   ncurses-base            6.0+20151024-2                all    basic terminal
 ii   ncurses-bin             6.0+20151024-2                amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                   
 ii   netbase                 5.3                           all    Basic TCP/IP networking system                                             
-ii   openssh-client          1:7.1p1-4                     amd64  secure shell (SSH) client, for secure access to remote machines            
-ii   openssh-server          1:7.1p1-4                     amd64  secure shell (SSH) server, for secure access from remote machines          
-ii   openssh-sftp-server     1:7.1p1-4                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.1p1-5                     amd64  secure shell (SSH) client, for secure access to remote machines            
+ii   openssh-server          1:7.1p1-5                     amd64  secure shell (SSH) server, for secure access from remote machines          
+ii   openssh-sftp-server     1:7.1p1-5                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2e-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                              
 ii   perl                    5.22.1-2                      amd64  Larry Wall's Practical Extraction and Report Language                      
