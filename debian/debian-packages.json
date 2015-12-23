@@ -370,7 +370,7 @@
     "Depends": "libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.107), util-linux (>> 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "214",
+    "Installed-Size": "216",
     "Origin": null,
     "Package": "dmsetup",
     "Pre-Depends": null,
@@ -381,7 +381,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.110-2",
+    "Version": "2:1.02.114-1",
     "binary:Package": "dmsetup",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.133-2"
+    "source:Version": "2.02.138-1"
   },
   {
     "Architecture": "amd64",
@@ -1319,10 +1319,10 @@
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02",
     "Breaks": "liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)",
-    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.110-2)",
+    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.114-1)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "424",
+    "Installed-Size": "429",
     "Origin": null,
     "Package": "libdevmapper1.02.1",
     "Pre-Depends": null,
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.110-2",
+    "Version": "2:1.02.114-1",
     "binary:Package": "libdevmapper1.02.1:amd64",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.133-2"
+    "source:Version": "2.02.138-1"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "635",
+    "Installed-Size": "653",
     "Origin": null,
     "Package": "libpcre3",
     "Pre-Depends": "multiarch-support",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:8.35-8",
+    "Version": "2:8.38-1",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.35-8"
+    "source:Version": "2:8.38-1"
   },
   {
     "Architecture": "amd64",
