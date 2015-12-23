@@ -77,7 +77,7 @@ ii   debconf-i18n            1.5.58                        all    full internati
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                   
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
-ii   dmsetup                 2:1.02.110-2                  amd64  Linux Kernel Device Mapper userspace library                               
+ii   dmsetup                 2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   dpkg                    1.18.3                        amd64  Debian package management system                                           
 ii   e2fslibs                1.42.13-1                     amd64  ext2/ext3/ext4 file system libraries                                       
 ii   e2fsprogs               1.42.13-1                     amd64  ext2/ext3/ext4 file system utilities                                       
@@ -119,7 +119,7 @@ ii   libcryptsetup4          2:1.6.6-5                     amd64  disk encryptio
 ii   libcurl3-gnutls         7.45.0-1+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
 ii   libdebconfclient0       0.200                         amd64  Debian Configuration Management System (C-implementation library)          
-ii   libdevmapper1.02.1      2:1.02.110-2                  amd64  Linux Kernel Device Mapper userspace library                               
+ii   libdevmapper1.02.1      2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                         
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                  
 ii   libestr0                0.1.10-1                      amd64  Helper functions for handling strings (lib)                                
@@ -157,7 +157,7 @@ ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Auth
 ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
 ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
 ii   libpam0g                1.1.8-3.1                     amd64  Pluggable Authentication Modules library                                   
-ii   libpcre3                2:8.35-8                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
+ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
 ii   libperl5.22             5.22.1-2                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-1                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
