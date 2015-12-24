@@ -109,16 +109,16 @@ ii   libaudit1               1:2.4.4-4                     amd64  Dynamic librar
 ii   libblkid1               2.27.1-1                      amd64  block device id library                                                    
 ii   libbsd0                 0.8.1-1                       amd64  utility functions from BSD systems - shared library                        
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime               
-ii   libc-bin                2.21-4                        amd64  GNU C Library: Binaries                                                    
-ii   libc-l10n               2.21-4                        all    GNU C Library: localization files                                          
-ii   libc6                   2.21-4                        amd64  GNU C Library: Shared libraries                                            
+ii   libc-bin                2.21-5                        amd64  GNU C Library: Binaries                                                    
+ii   libc-l10n               2.21-5                        all    GNU C Library: localization files                                          
+ii   libc6                   2.21-5                        amd64  GNU C Library: Shared libraries                                            
 ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e capabilities (library)                                       
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                     
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                           
 ii   libcryptsetup4          2:1.6.6-5                     amd64  disk encryption support - shared library                                   
 ii   libcurl3-gnutls         7.45.0-1+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
-ii   libdebconfclient0       0.200                         amd64  Debian Configuration Management System (C-implementation library)          
+ii   libdebconfclient0       0.201                         amd64  Debian Configuration Management System (C-implementation library)          
 ii   libdevmapper1.02.1      2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                         
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                  
@@ -189,14 +189,14 @@ ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string l
 ii   libuuid1                2.27.1-1                      amd64  Universally Unique ID library                                              
 ii   libwrap0                7.6.q-25                      amd64  Wietse Venema's TCP wrappers library                                       
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations                      
-ii   locales                 2.21-4                        all    GNU C Library: National Language (locale) data [support]                   
+ii   locales                 2.21-5                        all    GNU C Library: National Language (locale) data [support]                   
 ii   login                   1:4.2-3.1                     amd64  system login tools                                                         
 ii   lsb-base                9.20150917                    all    Linux Standard Base init script functionality                              
 ii   lv                      4.51-2.3+b1                   amd64  Powerful Multilingual File Viewer                                          
 ii   man-db                  2.7.5-1                       amd64  on-line manual pager                                                       
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language                            
 ii   mount                   2.27.1-1                      amd64  Tools for mounting and manipulating filesystems                            
-ii   multiarch-support       2.21-4                        amd64  Transitional package to ensure multiarch compatibility                     
+ii   multiarch-support       2.21-5                        amd64  Transitional package to ensure multiarch compatibility                     
 ii   ncurses-base            6.0+20151024-2                all    basic terminal type definitions                                            
 ii   ncurses-bin             6.0+20151024-2                amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                   
@@ -215,7 +215,7 @@ ii   rsyslog                 8.15.0-1                      amd64  reliable syste
 ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                  
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                               
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                       
-ii   sudo                    1.8.12-1                      amd64  Provide limited super user privileges to specific users                    
+ii   sudo                    1.8.15-1                      amd64  Provide limited super user privileges to specific users                    
 ii   sysv-rc                 2.88dsf-59.2                  all    System-V-like runlevel change mechanism                                    
 ii   sysvinit-core           2.88dsf-59.2                  amd64  System-V-like init utilities                                               
 ii   sysvinit-utils          2.88dsf-59.2                  amd64  System-V-like utilities                                                    
