@@ -57,14 +57,14 @@ ii   libaudit-common         1:2.4.4-4                all    Dynamic library for
 ii   libaudit1               1:2.4.4-4                amd64  Dynamic library for security auditing                                 
 ii   libblkid1               2.27.1-1                 amd64  block device id library                                               
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
-ii   libc-bin                2.21-4                   amd64  GNU C Library: Binaries                                               
-ii   libc6                   2.21-4                   amd64  GNU C Library: Shared libraries                                       
+ii   libc-bin                2.21-5                   amd64  GNU C Library: Binaries                                               
+ii   libc6                   2.21-5                   amd64  GNU C Library: Shared libraries                                       
 ii   libcap2                 1:2.24-12                amd64  POSIX 1003.1e capabilities (library)                                  
 ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.42.13-1                amd64  common error description library                                      
 ii   libcryptsetup4          2:1.6.6-5                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
-ii   libdebconfclient0       0.200                    amd64  Debian Configuration Management System (C-implementation library)     
+ii   libdebconfclient0       0.201                    amd64  Debian Configuration Management System (C-implementation library)     
 ii   libdevmapper1.02.1      2:1.02.114-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-1                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-4                amd64  GCC support library                                                   
@@ -103,7 +103,7 @@ ii   login                   1:4.2-3.1                amd64  system login tools
 ii   lsb-base                9.20150917               all    Linux Standard Base init script functionality                         
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language                       
 ii   mount                   2.27.1-1                 amd64  Tools for mounting and manipulating filesystems                       
-ii   multiarch-support       2.21-4                   amd64  Transitional package to ensure multiarch compatibility                
+ii   multiarch-support       2.21-5                   amd64  Transitional package to ensure multiarch compatibility                
 ii   ncurses-base            6.0+20151024-2           all    basic terminal type definitions                                       
 ii   ncurses-bin             6.0+20151024-2           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        

@@ -1098,7 +1098,7 @@
     "Depends": "libc6 (>> 2.21), libc6 (<< 2.22)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3305",
+    "Installed-Size": "3306",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-4",
+    "Version": "2.21-5",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-4"
+    "source:Version": "2.21-5"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.21-4",
+    "Version": "2.21-5",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-4"
+    "source:Version": "2.21-5"
   },
   {
     "Architecture": "amd64",
@@ -1294,7 +1294,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "65",
+    "Installed-Size": "66",
     "Origin": null,
     "Package": "libdebconfclient0",
     "Pre-Depends": null,
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.200",
+    "Version": "0.201",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.200"
+    "source:Version": "0.201"
   },
   {
     "Architecture": "amd64",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-4",
+    "Version": "2.21-5",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-4"
+    "source:Version": "2.21-5"
   },
   {
     "Architecture": "all",
