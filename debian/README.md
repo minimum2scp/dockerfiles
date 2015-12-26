@@ -32,7 +32,7 @@ ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys 
 ii   debianutils             4.5.1                    amd64  Miscellaneous utilities specific to Debian                            
 ii   diffutils               1:3.3-2                  amd64  File comparison utilities                                             
 ii   dmsetup                 2:1.02.114-1             amd64  Linux Kernel Device Mapper userspace library                          
-ii   dpkg                    1.18.3                   amd64  Debian package management system                                      
+ii   dpkg                    1.18.4                   amd64  Debian package management system                                      
 ii   e2fslibs                1.42.13-1                amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.42.13-1                amd64  ext2/ext3/ext4 file system utilities                                  
 ii   findutils               4.4.2-10                 amd64  utilities for finding files--find, xargs                              
@@ -68,7 +68,7 @@ ii   libdebconfclient0       0.201                    amd64  Debian Configuratio
 ii   libdevmapper1.02.1      2:1.02.114-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-1                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-4                amd64  GCC support library                                                   
-ii   libgcrypt20             1.6.4-3                  amd64  LGPL Crypto library - runtime library                                 
+ii   libgcrypt20             1.6.4-4                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1                     amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
