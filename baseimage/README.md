@@ -78,7 +78,7 @@ ii   debian-archive-keyring  2014.3                        all    GnuPG archive 
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
 ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
 ii   dmsetup                 2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
-ii   dpkg                    1.18.3                        amd64  Debian package management system                                           
+ii   dpkg                    1.18.4                        amd64  Debian package management system                                           
 ii   e2fslibs                1.42.13-1                     amd64  ext2/ext3/ext4 file system libraries                                       
 ii   e2fsprogs               1.42.13-1                     amd64  ext2/ext3/ext4 file system utilities                                       
 ii   etckeeper               1.18.1                        all    store /etc in git, mercurial, bzr or darcs                                 
@@ -127,7 +127,7 @@ ii   libexpat1               2.1.0-7                       amd64  XML parsing C 
 ii   libfdisk1               2.27.1-1                      amd64  fdisk partitioning library                                                 
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                 
 ii   libgcc1                 1:5.3.1-4                     amd64  GCC support library                                                        
-ii   libgcrypt20             1.6.4-3                       amd64  LGPL Crypto library - runtime library                                      
+ii   libgcrypt20             1.6.4-4                       amd64  LGPL Crypto library - runtime library                                      
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                          
 ii   libgnutls-deb0-28       3.3.18-1                      amd64  GNU TLS library - main runtime library                                     
@@ -178,7 +178,7 @@ ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-si
 ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              5.3.1-4                       amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             228-2+b1                      amd64  systemd utility library                                                    
-ii   libtasn1-6              4.7-2                         amd64  Manage ASN.1 structures (runtime)                                          
+ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                          
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                           
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                    
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
