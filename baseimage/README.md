@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                            
-ii   apt                     1.1.6                         amd64  commandline package manager                                                
+ii   apt                     1.1.8                         amd64  commandline package manager                                                
 ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                     
 ii   base-passwd             3.5.38                        amd64  Debian base system master password and group files                         
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                     
@@ -76,7 +76,7 @@ ii   debconf                 1.5.58                        all    Debian configu
 ii   debconf-i18n            1.5.58                        all    full internationalization support for debconf                              
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                   
 ii   debianutils             4.5.1                         amd64  Miscellaneous utilities specific to Debian                                 
-ii   diffutils               1:3.3-2                       amd64  File comparison utilities                                                  
+ii   diffutils               1:3.3-3                       amd64  File comparison utilities                                                  
 ii   dmsetup                 2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
 ii   dpkg                    1.18.4                        amd64  Debian package management system                                           
 ii   e2fslibs                1.42.13-1                     amd64  ext2/ext3/ext4 file system libraries                                       
@@ -102,10 +102,10 @@ ii   insserv                 1.14.0-5                      amd64  boot sequence 
 ii   iproute2                4.3.0-1                       amd64  networking and traffic control tools                                       
 ii   libacl1                 2.2.52-2                      amd64  Access control list shared library                                         
 ii   libapparmor1            2.10-2+b2                     amd64  changehat AppArmor library                                                 
-ii   libapt-pkg5.0           1.1.6                         amd64  package management runtime library                                         
+ii   libapt-pkg5.0           1.1.8                         amd64  package management runtime library                                         
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                          
-ii   libaudit-common         1:2.4.4-4                     all    Dynamic library for security auditing - common files                       
-ii   libaudit1               1:2.4.4-4                     amd64  Dynamic library for security auditing                                      
+ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                       
+ii   libaudit1               1:2.4.5-1                     amd64  Dynamic library for security auditing                                      
 ii   libblkid1               2.27.1-1                      amd64  block device id library                                                    
 ii   libbsd0                 0.8.1-1                       amd64  utility functions from BSD systems - shared library                        
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime               
@@ -151,14 +151,14 @@ ii   libncurses5             6.0+20151024-2                amd64  shared librari
 ii   libncursesw5            6.0+20151024-2                amd64  shared libraries for terminal handling (wide character support)            
 ii   libnettle6              3.1.1-4                       amd64  low level cryptographic library (symmetric and one-way cryptos)            
 ii   libnewt0.52             0.52.18-1+b1                  amd64  Not Erik's Windowing Toolkit - text mode windowing with slang              
-ii   libnghttp2-14           1.5.0-2                       amd64  library implementing HTTP/2 protocol (shared library)                      
+ii   libnghttp2-14           1.6.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                      
 ii   libp11-kit0             0.23.2-2                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
 ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM                                   
 ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
 ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
 ii   libpam0g                1.1.8-3.1                     amd64  Pluggable Authentication Modules library                                   
 ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
-ii   libperl5.22             5.22.1-2                      amd64  shared Perl library                                                        
+ii   libperl5.22             5.22.1-3                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-1                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
 ii   libprocps4              2:3.3.10-4+b1                 amd64  library for accessing process information from /proc                       
@@ -206,9 +206,9 @@ ii   openssh-server          1:7.1p1-5                     amd64  secure shell (
 ii   openssh-sftp-server     1:7.1p1-5                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2e-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                              
-ii   perl                    5.22.1-2                      amd64  Larry Wall's Practical Extraction and Report Language                      
-ii   perl-base               5.22.1-2                      amd64  minimal Perl system                                                        
-ii   perl-modules-5.22       5.22.1-2                      all    Core Perl modules                                                          
+ii   perl                    5.22.1-3                      amd64  Larry Wall's Practical Extraction and Report Language                      
+ii   perl-base               5.22.1-3                      amd64  minimal Perl system                                                        
+ii   perl-modules-5.22       5.22.1-3                      all    Core Perl modules                                                          
 ii   procps                  2:3.3.10-4+b1                 amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.15.0-1                      amd64  reliable system and kernel logging daemon                                  
