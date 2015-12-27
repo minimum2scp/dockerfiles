@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3               all    add and remove users and groups                                       
-ii   apt                     1.1.6                    amd64  commandline package manager                                           
+ii   apt                     1.1.8                    amd64  commandline package manager                                           
 ii   base-files              9.5                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.38                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
@@ -30,7 +30,7 @@ ii   debconf                 1.5.58                   all    Debian configuratio
 ii   debconf-i18n            1.5.58                   all    full internationalization support for debconf                         
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive                              
 ii   debianutils             4.5.1                    amd64  Miscellaneous utilities specific to Debian                            
-ii   diffutils               1:3.3-2                  amd64  File comparison utilities                                             
+ii   diffutils               1:3.3-3                  amd64  File comparison utilities                                             
 ii   dmsetup                 2:1.02.114-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   dpkg                    1.18.4                   amd64  Debian package management system                                      
 ii   e2fslibs                1.42.13-1                amd64  ext2/ext3/ext4 file system libraries                                  
@@ -51,10 +51,10 @@ ii   insserv                 1.14.0-5                 amd64  boot sequence organ
 ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-2                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-2+b2                amd64  changehat AppArmor library                                            
-ii   libapt-pkg5.0           1.1.6                    amd64  package management runtime library                                    
+ii   libapt-pkg5.0           1.1.8                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
-ii   libaudit-common         1:2.4.4-4                all    Dynamic library for security auditing - common files                  
-ii   libaudit1               1:2.4.4-4                amd64  Dynamic library for security auditing                                 
+ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
+ii   libaudit1               1:2.4.5-1                amd64  Dynamic library for security auditing                                 
 ii   libblkid1               2.27.1-1                 amd64  block device id library                                               
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
 ii   libc-bin                2.21-6                   amd64  GNU C Library: Binaries                                               
@@ -108,7 +108,7 @@ ii   ncurses-base            6.0+20151024-2           all    basic terminal type
 ii   ncurses-bin             6.0+20151024-2           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
-ii   perl-base               5.22.1-2                 amd64  minimal Perl system                                                   
+ii   perl-base               5.22.1-3                 amd64  minimal Perl system                                                   
 ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.2-6.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
