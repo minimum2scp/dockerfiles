@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                            
-ii   apt                     1.1.8                         amd64  commandline package manager                                                
+ii   apt                     1.1.9                         amd64  commandline package manager                                                
 ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                     
 ii   base-passwd             3.5.38                        amd64  Debian base system master password and group files                         
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                     
@@ -70,7 +70,7 @@ ii   bsdutils                1:2.27.1-1                    amd64  basic utilitie
 ii   ca-certificates         20151214                      all    Common CA certificates                                                     
 ii   coreutils               8.23-4                        amd64  GNU core utilities                                                         
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                  
-ii   curl                    7.45.0-1+b1                   amd64  command line tool for transferring data with URL syntax                    
+ii   curl                    7.46.0-1                      amd64  command line tool for transferring data with URL syntax                    
 ii   dash                    0.5.7-4+b1                    amd64  POSIX-compliant shell                                                      
 ii   debconf                 1.5.58                        all    Debian configuration management system                                     
 ii   debconf-i18n            1.5.58                        all    full internationalization support for debconf                              
@@ -102,7 +102,7 @@ ii   insserv                 1.14.0-5                      amd64  boot sequence 
 ii   iproute2                4.3.0-1                       amd64  networking and traffic control tools                                       
 ii   libacl1                 2.2.52-2                      amd64  Access control list shared library                                         
 ii   libapparmor1            2.10-2+b2                     amd64  changehat AppArmor library                                                 
-ii   libapt-pkg5.0           1.1.8                         amd64  package management runtime library                                         
+ii   libapt-pkg5.0           1.1.9                         amd64  package management runtime library                                         
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                          
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                       
 ii   libaudit1               1:2.4.5-1                     amd64  Dynamic library for security auditing                                      
@@ -116,7 +116,7 @@ ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e 
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                     
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                           
 ii   libcryptsetup4          2:1.6.6-5                     amd64  disk encryption support - shared library                                   
-ii   libcurl3-gnutls         7.45.0-1+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
+ii   libcurl3-gnutls         7.46.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
 ii   libdebconfclient0       0.201                         amd64  Debian Configuration Management System (C-implementation library)          
 ii   libdevmapper1.02.1      2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                               
@@ -152,7 +152,7 @@ ii   libncursesw5            6.0+20151024-2                amd64  shared librari
 ii   libnettle6              3.1.1-4                       amd64  low level cryptographic library (symmetric and one-way cryptos)            
 ii   libnewt0.52             0.52.18-1+b1                  amd64  Not Erik's Windowing Toolkit - text mode windowing with slang              
 ii   libnghttp2-14           1.6.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                      
-ii   libp11-kit0             0.23.2-2                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
+ii   libp11-kit0             0.23.2-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
 ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM                                   
 ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
 ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
@@ -228,6 +228,6 @@ ii   vim-common              2:7.4.963-1+b1                amd64  Vi IMproved - 
 ii   vim-tiny                2:7.4.963-1+b1                amd64  Vi IMproved - enhanced vi editor - compact version                         
 ii   whiptail                0.52.18-1+b1                  amd64  Displays user-friendly dialog boxes from shell scripts                     
 ii   zlib1g                  1:1.2.8.dfsg-2+b1             amd64  compression library - runtime                                              
-ii   zsh                     5.2-2                         amd64  shell with lots of features                                                
-ii   zsh-common              5.2-2                         all    architecture independent files for Zsh                                     
+ii   zsh                     5.2-3                         amd64  shell with lots of features                                                
+ii   zsh-common              5.2-3                         all    architecture independent files for Zsh                                     
 ```
