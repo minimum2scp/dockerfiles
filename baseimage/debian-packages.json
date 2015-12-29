@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.3.18-1",
+    "Version": "3.3.19-1",
     "binary:Package": "libgnutls-deb0-28:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.3.18-1"
+    "source:Version": "3.3.19-1"
   },
   {
     "Architecture": "amd64",

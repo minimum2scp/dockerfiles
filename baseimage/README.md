@@ -130,7 +130,7 @@ ii   libgcc1                 1:5.3.1-4                     amd64  GCC support li
 ii   libgcrypt20             1.6.4-4                       amd64  LGPL Crypto library - runtime library                                      
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                          
-ii   libgnutls-deb0-28       3.3.18-1                      amd64  GNU TLS library - main runtime library                                     
+ii   libgnutls-deb0-28       3.3.19-1                      amd64  GNU TLS library - main runtime library                                     
 ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components           
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                    
 ii   libhogweed4             3.1.1-4                       amd64  low level cryptographic library (public-key cryptos)                       
