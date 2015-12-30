@@ -1,3 +1,8 @@
+## 0.1.8 (2015-12-31)
+
+ * Update ruby to 2.3.0
+ * Update tdiary-core, tdiary-contirb to 4.2.1
+
 ## 0.1.7 (2015-10-25)
 
  * Update magellan-proxy to 0.1.1
