@@ -15,10 +15,10 @@ I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
 I: Retrieving libapparmor1 2.10-2+b2
 I: Validating libapparmor1 2.10-2+b2
-I: Retrieving apt 1.1.9
-I: Validating apt 1.1.9
-I: Retrieving libapt-pkg5.0 1.1.9
-I: Validating libapt-pkg5.0 1.1.9
+I: Retrieving apt 1.1.10
+I: Validating apt 1.1.10
+I: Retrieving libapt-pkg5.0 1.1.10
+I: Validating libapt-pkg5.0 1.1.10
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4.5-1
@@ -523,7 +523,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [265 kB]
-Fetched 265 kB in 0s (394 kB/s)
+Fetched 265 kB in 0s (305 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -533,10 +533,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> b17d0e579bd5
-Removing intermediate container c07836a43a89
+ ---> 91db99176c90
+Removing intermediate container f75680b5cc8a
 Step 3 : CMD /bin/bash
- ---> Running in 6c68eb16d62a
- ---> 27136ab3d5ed
-Removing intermediate container 6c68eb16d62a
-Successfully built 27136ab3d5ed
+ ---> Running in 72b739f156da
+ ---> 72e1e4c498a5
+Removing intermediate container 72b739f156da
+Successfully built 72e1e4c498a5
