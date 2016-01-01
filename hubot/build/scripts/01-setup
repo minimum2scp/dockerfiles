@@ -16,7 +16,7 @@ apt-get install -y --no-install-recommends ${packages}
 install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
 
 ## nvm nodejs version
-nodejs_version=v5.0.0
+nodejs_version=v5.3.0
 
 ##
 ## install hubot

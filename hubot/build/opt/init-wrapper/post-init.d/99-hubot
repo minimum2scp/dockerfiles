@@ -1,6 +1,6 @@
 #! /bin/bash
 
-nodejs_version=v5.0.0
+nodejs_version=v5.3.0
 bot_dir=/home/debian/hubot
 
 setup_new_hubot (){
