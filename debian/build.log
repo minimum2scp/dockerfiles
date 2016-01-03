@@ -27,8 +27,8 @@ I: Retrieving libaudit1 1:2.4.5-1
 I: Validating libaudit1 1:2.4.5-1
 I: Retrieving base-files 9.5
 I: Validating base-files 9.5
-I: Retrieving base-passwd 3.5.38
-I: Validating base-passwd 3.5.38
+I: Retrieving base-passwd 3.5.39
+I: Validating base-passwd 3.5.39
 I: Retrieving bash 4.3-14+b1
 I: Validating bash 4.3-14+b1
 I: Retrieving libbz2-1.0 1.0.6-8
@@ -175,14 +175,14 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 228-2+b1
-I: Validating libsystemd0 228-2+b1
-I: Retrieving libudev1 228-2+b1
-I: Validating libudev1 228-2+b1
-I: Retrieving systemd 228-2+b1
-I: Validating systemd 228-2+b1
-I: Retrieving systemd-sysv 228-2+b1
-I: Validating systemd-sysv 228-2+b1
+I: Retrieving libsystemd0 228-3
+I: Validating libsystemd0 228-3
+I: Retrieving libudev1 228-3
+I: Validating libudev1 228-3
+I: Retrieving systemd 228-3
+I: Validating systemd 228-3
+I: Retrieving systemd-sysv 228-3
+I: Validating systemd-sysv 228-3
 I: Retrieving initscripts 2.88dsf-59.2
 I: Validating initscripts 2.88dsf-59.2
 I: Retrieving sysv-rc 2.88dsf-59.2
@@ -523,7 +523,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [271 kB]
-Fetched 271 kB in 0s (285 kB/s)
+Fetched 271 kB in 0s (462 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -533,10 +533,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 659dca3f57e3
-Removing intermediate container b6975d062845
+ ---> c77ff17ee86e
+Removing intermediate container e0746a1b5b9d
 Step 3 : CMD /bin/bash
- ---> Running in a4d1898a0d56
- ---> b9561dea4d71
-Removing intermediate container a4d1898a0d56
-Successfully built b9561dea4d71
+ ---> Running in e29341180636
+ ---> 233dff21b424
+Removing intermediate container e29341180636
+Successfully built 233dff21b424
