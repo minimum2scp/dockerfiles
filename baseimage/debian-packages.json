@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "3.5.38",
+    "Version": "3.5.39",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.38"
+    "source:Version": "3.5.39"
   },
   {
     "Architecture": "amd64",
@@ -871,10 +871,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "groff (<< 1.17-1), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
-    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)",
+    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "3254",
+    "Installed-Size": "3253",
     "Origin": null,
     "Package": "groff-base",
     "Pre-Depends": null,
@@ -885,7 +885,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.3-4",
+    "Version": "1.22.3-5",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.3-4"
+    "source:Version": "1.22.3-5"
   },
   {
     "Architecture": "amd64",
@@ -2834,9 +2834,9 @@
     "Depends": "libc6 (>= 2.14), libsystemd0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "120",
+    "Installed-Size": "115",
     "Origin": null,
-    "Package": "libprocps4",
+    "Package": "libprocps5",
     "Pre-Depends": null,
     "Priority": "important",
     "Provides": null,
@@ -2845,15 +2845,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:3.3.10-4+b1",
-    "binary:Package": "libprocps4:amd64",
+    "Version": "2:3.3.11-3",
+    "binary:Package": "libprocps5:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.10-4"
+    "source:Version": "2:3.3.11-3"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-2+b1",
+    "Version": "228-3",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-2"
+    "source:Version": "228-3"
   },
   {
     "Architecture": "amd64",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-2+b1",
+    "Version": "228-3",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-2"
+    "source:Version": "228-3"
   },
   {
     "Architecture": "amd64",
@@ -4174,11 +4174,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "pgrep (<< 3.3-5), w-bassman (<< 1.0-3)",
-    "Breaks": "guymager (<= 0.5.9-1), open-vm-tools (<= 2011.12.20-562307-1), xmem (<= 1.20-27.1)",
-    "Depends": "libc6 (>= 2.15), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps4, libtinfo5 (>= 6), lsb-base (>= 3.0-10), initscripts",
+    "Breaks": "guymager (<= 0.5.9-1), open-vm-tools (<= 2011.12.20-562307-1)",
+    "Depends": "libc6 (>= 2.15), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps5, libtinfo5 (>= 6), lsb-base (>= 3.0-10), initscripts",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "656",
+    "Installed-Size": "691",
     "Origin": null,
     "Package": "procps",
     "Pre-Depends": null,
@@ -4189,7 +4189,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:3.3.10-4+b1",
+    "Version": "2:3.3.11-3",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.10-4"
+    "source:Version": "2:3.3.11-3"
   },
   {
     "Architecture": "all",

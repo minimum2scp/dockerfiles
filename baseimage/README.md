@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                            
 ii   apt                     1.1.10                        amd64  commandline package manager                                                
 ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                     
-ii   base-passwd             3.5.38                        amd64  Debian base system master password and group files                         
+ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                         
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                     
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                  
 ii   bsdutils                1:2.27.1-1                    amd64  basic utilities from 4.4BSD-Lite                                           
@@ -91,7 +91,7 @@ ii   git-man                 1:2.6.4-1                     all    fast, scalable
 ii   gnupg                   1.4.20-1                      amd64  GNU privacy guard - a free PGP replacement                                 
 ii   gpgv                    1.4.20-1                      amd64  GNU privacy guard - signature verification tool                            
 ii   grep                    2.22-1                        amd64  GNU grep, egrep and fgrep                                                  
-ii   groff-base              1.22.3-4                      amd64  GNU troff text-formatting system (base system components)                  
+ii   groff-base              1.22.3-5                      amd64  GNU troff text-formatting system (base system components)                  
 ii   gzip                    1.6-4                         amd64  GNU compression utilities                                                  
 ii   hostname                3.16                          amd64  utility to set/show the host name or domain name                           
 ii   inetutils-ping          2:1.9.4-1+b1                  amd64  ICMP echo tool                                                             
@@ -161,7 +161,7 @@ ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compati
 ii   libperl5.22             5.22.1-3                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-1                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
-ii   libprocps4              2:3.3.10-4+b1                 amd64  library for accessing process information from /proc                       
+ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                       
 ii   libreadline6            6.3-8+b4                      amd64  GNU readline and history libraries, run-time libraries                     
 ii   librtmp1                2.4+20150115.gita107cef-1+b2  amd64  toolkit for RTMP streams (shared library)                                  
 ii   libsasl2-2              2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - authentication abstraction library                            
@@ -177,13 +177,13 @@ ii   libss2                  1.42.13-1                     amd64  command-line i
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                   
 ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              5.3.1-5                       amd64  GNU Standard C++ Library v3                                                
-ii   libsystemd0             228-2+b1                      amd64  systemd utility library                                                    
+ii   libsystemd0             228-3                         amd64  systemd utility library                                                    
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                          
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                           
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                    
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
-ii   libudev1                228-2+b1                      amd64  libudev shared library                                                     
+ii   libudev1                228-3                         amd64  libudev shared library                                                     
 ii   libusb-0.1-4            2:0.1.12-27                   amd64  userspace USB programming library                                          
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                       
 ii   libuuid1                2.27.1-1                      amd64  Universally Unique ID library                                              
@@ -209,7 +209,7 @@ ii   passwd                  1:4.2-3.1                     amd64  change and adm
 ii   perl                    5.22.1-3                      amd64  Larry Wall's Practical Extraction and Report Language                      
 ii   perl-base               5.22.1-3                      amd64  minimal Perl system                                                        
 ii   perl-modules-5.22       5.22.1-3                      all    Core Perl modules                                                          
-ii   procps                  2:3.3.10-4+b1                 amd64  /proc file system utilities                                                
+ii   procps                  2:3.3.11-3                    amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.15.0-1                      amd64  reliable system and kernel logging daemon                                  
 ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                  
