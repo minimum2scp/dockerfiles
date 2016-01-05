@@ -67,7 +67,7 @@ ii   base-passwd             3.5.39                        amd64  Debian base sy
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                     
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                  
 ii   bsdutils                1:2.27.1-1                    amd64  basic utilities from 4.4BSD-Lite                                           
-ii   ca-certificates         20151214                      all    Common CA certificates                                                     
+ii   ca-certificates         20160104                      all    Common CA certificates                                                     
 ii   coreutils               8.23-4                        amd64  GNU core utilities                                                         
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                  
 ii   curl                    7.46.0-1                      amd64  command line tool for transferring data with URL syntax                    
@@ -86,8 +86,8 @@ ii   findutils               4.4.2-10                      amd64  utilities for 
 ii   gcc-4.8-base            4.8.5-3                       amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   gcc-4.9-base            4.9.3-10                      amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   gcc-5-base              5.3.1-5                       amd64  GCC, the GNU Compiler Collection (base package)                            
-ii   git                     1:2.6.4-1                     amd64  fast, scalable, distributed revision control system                        
-ii   git-man                 1:2.6.4-1                     all    fast, scalable, distributed revision control system (manual pages)         
+ii   git                     1:2.7.0~rc3-1                 amd64  fast, scalable, distributed revision control system                        
+ii   git-man                 1:2.7.0~rc3-1                 all    fast, scalable, distributed revision control system (manual pages)         
 ii   gnupg                   1.4.20-1                      amd64  GNU privacy guard - a free PGP replacement                                 
 ii   gpgv                    1.4.20-1                      amd64  GNU privacy guard - signature verification tool                            
 ii   grep                    2.22-1                        amd64  GNU grep, egrep and fgrep                                                  
@@ -159,7 +159,7 @@ ii   libpam-runtime          1.1.8-3.1                     all    Runtime suppor
 ii   libpam0g                1.1.8-3.1                     amd64  Pluggable Authentication Modules library                                   
 ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
 ii   libperl5.22             5.22.1-3                      amd64  shared Perl library                                                        
-ii   libpipeline1            1.4.1-1                       amd64  pipeline manipulation library                                              
+ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
 ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                       
 ii   libreadline6            6.3-8+b4                      amd64  GNU readline and history libraries, run-time libraries                     
@@ -201,9 +201,9 @@ ii   ncurses-base            6.0+20151024-2                all    basic terminal
 ii   ncurses-bin             6.0+20151024-2                amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                   
 ii   netbase                 5.3                           all    Basic TCP/IP networking system                                             
-ii   openssh-client          1:7.1p1-5                     amd64  secure shell (SSH) client, for secure access to remote machines            
-ii   openssh-server          1:7.1p1-5                     amd64  secure shell (SSH) server, for secure access from remote machines          
-ii   openssh-sftp-server     1:7.1p1-5                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.1p1-6                     amd64  secure shell (SSH) client, for secure access to remote machines            
+ii   openssh-server          1:7.1p1-6                     amd64  secure shell (SSH) server, for secure access from remote machines          
+ii   openssh-sftp-server     1:7.1p1-6                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2e-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                              
 ii   perl                    5.22.1-3                      amd64  Larry Wall's Practical Extraction and Report Language                      
@@ -215,7 +215,7 @@ ii   rsyslog                 8.15.0-1                      amd64  reliable syste
 ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                  
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                               
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                       
-ii   sudo                    1.8.15-1                      amd64  Provide limited super user privileges to specific users                    
+ii   sudo                    1.8.15-1.1                    amd64  Provide limited super user privileges to specific users                    
 ii   sysv-rc                 2.88dsf-59.2                  all    System-V-like runlevel change mechanism                                    
 ii   sysvinit-core           2.88dsf-59.2                  amd64  System-V-like init utilities                                               
 ii   sysvinit-utils          2.88dsf-59.2                  amd64  System-V-like utilities                                                    
