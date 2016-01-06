@@ -34,7 +34,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
-    sequel (4.29.0)
+    sequel (4.30.0)
     serverspec (2.27.0)
       multi_json
       rspec (~> 3.0)
