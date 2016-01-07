@@ -44,22 +44,6 @@ That means:
  * The data will be inconsistent when 2 or more magellan-tdiary containers are running
  * The data will be lost when magellan-tdiary containers stop
 
-### Cache with redis
-
-magellan-tdiary stores cache into Redis, using tdiary-cache-redis gem.
-Redis connection is configured by environment variables:
-
- * `REDIS_HOST` (optional)
- * `REDIS_PORT` (optional)
- * `REDIS_DATABASE` (optional)
- * `REDIS_PASSWORD` (optional)
-
-When `REDIS_HOST` is not set, magellan-tdiary stores cache into local disk.
-That means:
-
- * The cache will be inconsistent when 2 or more magellan-tdiary containers are running
- * The cache will be lost when magellan-tdiary containers stop
-
 ### New Relic
 
 magellan-tdiary includes newrelic_rpm gem for application monitoring.
@@ -96,13 +80,11 @@ You can try tDiary with docker-compose:
 ```
 % docker-compose up -d 
 Creating magellantdiary_db_1...
-Creating magellantdiary_cache_1...
 Creating magellantdiary_tdiary_1...
 Creating magellantdiary_nginx_1...
 % docker-compose ps
 Name                        Command               State        Ports      
 ----------------------------------------------------------------------------------
-magellantdiary_cache_1    /entrypoint.sh redis-server      Up      6379/tcp        
 magellantdiary_db_1       /entrypoint.sh mysqld            Up      3306/tcp        
 magellantdiary_nginx_1    /opt/entrypoint nginx -g d ...   Up      443/tcp, 80/tcp 
 magellantdiary_tdiary_1   /opt/magellan-tdiary/entry ...   Up      80/tcp          
@@ -114,7 +96,6 @@ Restarting magellantdiary_nginx_1...
 % docker-compose ps
 Name                        Command               State        Ports      
 ----------------------------------------------------------------------------------
-magellantdiary_cache_1    /entrypoint.sh redis-server      Up      6379/tcp        
 magellantdiary_db_1       /entrypoint.sh mysqld            Up      3306/tcp        
 magellantdiary_nginx_1    /opt/entrypoint nginx -g d ...   Up      443/tcp, 80/tcp 
 magellantdiary_tdiary_1   /opt/magellan-tdiary/entry ...   Up      80/tcp          

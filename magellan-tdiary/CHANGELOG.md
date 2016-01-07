@@ -1,3 +1,7 @@
+## 0.1.9 (2016-01-xx)
+
+ * Drop tdiary-cache-redis, and use tdiary-cache-null
+
 ## 0.1.8 (2015-12-31)
 
  * Update ruby to 2.3.0

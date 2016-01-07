@@ -10,12 +10,11 @@ nginx:
   command: ["nginx", "-g", "daemon off;"]
 
 tdiary:
-  image: minimum2scp/magellan-tdiary:0.1.8
+  image: minimum2scp/magellan-tdiary:0.1.9
   expose:
     - 80
   links:
     - db
-    - cache
   command: >
     bundle exec passenger start -e production -p 80 --max-pool-size 3
     --pid-file tmp/passenger.pid --load-shell-envvars --static-files-dir public
@@ -41,6 +40,4 @@ db:
   volumes:
     - ./volumes/mysql-conf/charset.cnf:/etc/mysql/conf.d/charset.cnf:ro
 
-cache:
-  image: redis:3.0
 
