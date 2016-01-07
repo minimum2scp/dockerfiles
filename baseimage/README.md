@@ -115,7 +115,7 @@ ii   libc6                   2.21-6                        amd64  GNU C Library:
 ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e capabilities (library)                                       
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                     
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                           
-ii   libcryptsetup4          2:1.6.6-5                     amd64  disk encryption support - shared library                                   
+ii   libcryptsetup4          2:1.7.0-1                     amd64  disk encryption support - shared library                                   
 ii   libcurl3-gnutls         7.46.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
 ii   libdebconfclient0       0.201                         amd64  Debian Configuration Management System (C-implementation library)          
@@ -153,10 +153,10 @@ ii   libnettle6              3.1.1-4                       amd64  low level cryp
 ii   libnewt0.52             0.52.18-2                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang              
 ii   libnghttp2-14           1.6.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                      
 ii   libp11-kit0             0.23.2-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime   
-ii   libpam-modules          1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM                                   
-ii   libpam-modules-bin      1.1.8-3.1                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
-ii   libpam-runtime          1.1.8-3.1                     all    Runtime support for the PAM library                                        
-ii   libpam0g                1.1.8-3.1                     amd64  Pluggable Authentication Modules library                                   
+ii   libpam-modules          1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM                                   
+ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM - helper binaries                 
+ii   libpam-runtime          1.1.8-3.2                     all    Runtime support for the PAM library                                        
+ii   libpam0g                1.1.8-3.2                     amd64  Pluggable Authentication Modules library                                   
 ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
 ii   libperl5.22             5.22.1-3                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                              

@@ -1543,10 +1543,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.90), libgcrypt20 (>= 1.6.1), libuuid1 (>= 2.16), libgpg-error0 (>= 1.10-0.1)",
+    "Depends": "libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.97), libgcrypt20 (>= 1.6.1), libuuid1 (>= 2.16), libgpg-error0 (>= 1.10-0.1)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "227",
+    "Installed-Size": "213",
     "Origin": null,
     "Package": "libcryptsetup4",
     "Pre-Depends": null,
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.6.6-5",
+    "Version": "2:1.7.0-1",
     "binary:Package": "libcryptsetup4:amd64",
     "binary:Summary": "disk encryption support - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cryptsetup",
-    "source:Version": "2:1.6.6-5"
+    "source:Version": "2:1.7.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2610,10 +2610,10 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "852",
+    "Installed-Size": "869",
     "Origin": null,
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.1)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.2)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": null,
@@ -2621,7 +2621,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.1",
+    "Version": "1.1.8-3.2",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.1"
+    "source:Version": "1.1.8-3.2"
   },
   {
     "Architecture": "amd64",
@@ -2638,7 +2638,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "248",
+    "Installed-Size": "219",
     "Origin": null,
     "Package": "libpam-modules-bin",
     "Pre-Depends": null,
@@ -2649,7 +2649,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.1",
+    "Version": "1.1.8-3.2",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.1"
+    "source:Version": "1.1.8-3.2"
   },
   {
     "Architecture": "all",
@@ -2666,7 +2666,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1447",
+    "Installed-Size": "1013",
     "Origin": null,
     "Package": "libpam-runtime",
     "Pre-Depends": null,
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.1",
+    "Version": "1.1.8-3.2",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.1"
+    "source:Version": "1.1.8-3.2"
   },
   {
     "Architecture": "amd64",
@@ -2694,10 +2694,10 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "248",
+    "Installed-Size": "231",
     "Origin": null,
     "Package": "libpam0g",
-    "Pre-Depends": "multiarch-support",
+    "Pre-Depends": null,
     "Priority": "required",
     "Provides": null,
     "Recommends": null,
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.1.8-3.1",
+    "Version": "1.1.8-3.2",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.1"
+    "source:Version": "1.1.8-3.2"
   },
   {
     "Architecture": "amd64",
