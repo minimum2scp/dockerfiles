@@ -184,7 +184,7 @@ ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts betwe
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
 ii   libudev1                228-3                         amd64  libudev shared library                                                     
-ii   libusb-0.1-4            2:0.1.12-27                   amd64  userspace USB programming library                                          
+ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                          
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                       
 ii   libuuid1                2.27.1-1                      amd64  Universally Unique ID library                                              
 ii   libwrap0                7.6.q-25                      amd64  Wietse Venema's TCP wrappers library                                       

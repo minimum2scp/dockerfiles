@@ -3478,7 +3478,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "61",
+    "Installed-Size": "57",
     "Origin": null,
     "Package": "libusb-0.1-4",
     "Pre-Depends": null,
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:0.1.12-27",
+    "Version": "2:0.1.12-28",
     "binary:Package": "libusb-0.1-4:amd64",
     "binary:Summary": "userspace USB programming library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libusb",
-    "source:Version": "2:0.1.12-27"
+    "source:Version": "2:0.1.12-28"
   },
   {
     "Architecture": "amd64",
