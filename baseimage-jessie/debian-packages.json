@@ -734,7 +734,7 @@
     "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3 (>= 1:8.35), zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:2.1.4), git-man (<< 1:2.1.4-.)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "21362",
+    "Installed-Size": "21658",
     "Origin": null,
     "Package": "git",
     "Pre-Depends": null,
@@ -745,7 +745,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.1.4-2.1",
+    "Version": "1:2.1.4-2.1+deb8u1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.1.4-2.1"
+    "source:Version": "1:2.1.4-2.1+deb8u1"
   },
   {
     "Architecture": "all",
@@ -762,7 +762,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1259",
+    "Installed-Size": "1256",
     "Origin": null,
     "Package": "git-man",
     "Pre-Depends": null,
@@ -773,7 +773,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.1.4-2.1",
+    "Version": "1:2.1.4-2.1+deb8u1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.1.4-2.1"
+    "source:Version": "1:2.1.4-2.1+deb8u1"
   },
   {
     "Architecture": "amd64",
