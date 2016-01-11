@@ -37,8 +37,8 @@ I: Retrieving libdebconfclient0 0.201
 I: Validating libdebconfclient0 0.201
 I: Retrieving coreutils 8.23-4
 I: Validating coreutils 8.23-4
-I: Retrieving libcryptsetup4 2:1.7.0-1
-I: Validating libcryptsetup4 2:1.7.0-1
+I: Retrieving libcryptsetup4 2:1.7.0-2
+I: Validating libcryptsetup4 2:1.7.0-2
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
 I: Retrieving libdb5.3 5.3.28-11
@@ -129,8 +129,8 @@ I: Retrieving libtext-wrapi18n-perl 0.06-7.1
 I: Validating libtext-wrapi18n-perl 0.06-7.1
 I: Retrieving libusb-0.1-4 2:0.1.12-28
 I: Validating libusb-0.1-4 2:0.1.12-28
-I: Retrieving lsb-base 9.20150917
-I: Validating lsb-base 9.20150917
+I: Retrieving lsb-base 9.20160110
+I: Validating lsb-base 9.20160110
 I: Retrieving dmsetup 2:1.02.114-1
 I: Validating dmsetup 2:1.02.114-1
 I: Retrieving libdevmapper1.02.1 2:1.02.114-1
@@ -523,20 +523,54 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [277 kB]
-Fetched 277 kB in 0s (555 kB/s)
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2016-01-11-0845.06.pdiff [37.3 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2016-01-11-0845.06.pdiff [37.3 kB]
+Ign:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2016-01-11-0845.06.pdiff
+Get:4 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.6 MB]
+Fetched 11.0 MB in 5s (1872 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  libsystemd0 libudev1 systemd systemd-sysv
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3947 kB of archives.
+After this operation, 4096 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian sid/main amd64 libsystemd0 amd64 228-4 [247 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 systemd amd64 228-4 [3543 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 systemd-sysv amd64 228-4 [57.9 kB]
+Get:4 http://ftp.jp.debian.org/debian sid/main amd64 libudev1 amd64 228-4 [99.4 kB]
+Fetched 3947 kB in 1s (2839 kB/s)
+(Reading database ... 7431 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_228-4_amd64.deb ...
+Unpacking libsystemd0:amd64 (228-4) over (228-3) ...
+Processing triggers for libc-bin (2.21-6) ...
+Setting up libsystemd0:amd64 (228-4) ...
+Processing triggers for libc-bin (2.21-6) ...
+(Reading database ... 7431 files and directories currently installed.)
+Preparing to unpack .../systemd_228-4_amd64.deb ...
+Unpacking systemd (228-4) over (228-3) ...
+Setting up systemd (228-4) ...
+(Reading database ... 7431 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_228-4_amd64.deb ...
+Unpacking systemd-sysv (228-4) over (228-3) ...
+Setting up systemd-sysv (228-4) ...
+(Reading database ... 7431 files and directories currently installed.)
+Preparing to unpack .../libudev1_228-4_amd64.deb ...
+Unpacking libudev1:amd64 (228-4) over (228-3) ...
+Processing triggers for libc-bin (2.21-6) ...
+Setting up libudev1:amd64 (228-4) ...
+Processing triggers for libc-bin (2.21-6) ...
 Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.08 MBSending build context to Docker daemon 30.28 MBSending build context to Docker daemon 30.28 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> c6b6b3020894
-Removing intermediate container 3cc1eb737005
+ ---> 305ac2c41408
+Removing intermediate container 23d5b81773a6
 Step 3 : CMD /bin/bash
- ---> Running in 4c4defb041c5
- ---> 0b6b07783a15
-Removing intermediate container 4c4defb041c5
-Successfully built 0b6b07783a15
+ ---> Running in ccac89d12642
+ ---> d01f3033f26c
+Removing intermediate container ccac89d12642
+Successfully built d01f3033f26c

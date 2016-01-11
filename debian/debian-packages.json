@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.7.0-1",
+    "Version": "2:1.7.0-2",
     "binary:Package": "libcryptsetup4:amd64",
     "binary:Summary": "disk encryption support - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cryptsetup",
-    "source:Version": "2:1.7.0-1"
+    "source:Version": "2:1.7.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2022,7 +2022,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "600",
+    "Installed-Size": "601",
     "Origin": null,
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "amd64",
@@ -2162,7 +2162,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "194",
+    "Installed-Size": "195",
     "Origin": null,
     "Package": "libudev1",
     "Pre-Depends": null,
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "amd64",
@@ -2298,11 +2298,11 @@
   {
     "Architecture": "all",
     "Conflicts": null,
-    "Breaks": null,
+    "Breaks": "upstart (<< 1.12.1-0ubuntu8)",
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "48",
+    "Installed-Size": "50",
     "Origin": null,
     "Package": "lsb-base",
     "Pre-Depends": null,
@@ -2313,7 +2313,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "9.20150917",
+    "Version": "9.20160110",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "9.20150917"
+    "source:Version": "9.20160110"
   },
   {
     "Architecture": "amd64",
@@ -2663,10 +2663,10 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "apparmor (<< 2.9.2-1), ifupdown (<< 0.8.5~), lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2)",
-    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 228-3), util-linux (>= 2.27.1), mount (>= 2.26), sysv-rc, adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 228-4), util-linux (>= 2.27.1), mount (>= 2.26), sysv-rc, adduser, libcap2-bin",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "17642",
+    "Installed-Size": "17643",
     "Origin": null,
     "Package": "systemd",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui, systemd-container",
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "amd64",
@@ -2694,7 +2694,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "83",
+    "Installed-Size": "84",
     "Origin": null,
     "Package": "systemd-sysv",
     "Pre-Depends": "systemd",
@@ -2705,7 +2705,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "all",
