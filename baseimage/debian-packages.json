@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.7.0-1",
+    "Version": "2:1.7.0-2",
     "binary:Package": "libcryptsetup4:amd64",
     "binary:Summary": "disk encryption support - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cryptsetup",
-    "source:Version": "2:1.7.0-1"
+    "source:Version": "2:1.7.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libnettle6, libp11-kit0 (>= 0.20.7), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1886",
+    "Installed-Size": "1888",
     "Origin": null,
     "Package": "libgnutls-deb0-28",
     "Pre-Depends": null,
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.3.19-1",
+    "Version": "3.3.20-1",
     "binary:Package": "libgnutls-deb0-28:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.3.19-1"
+    "source:Version": "3.3.20-1"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "600",
+    "Installed-Size": "601",
     "Origin": null,
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "amd64",
@@ -3450,7 +3450,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "194",
+    "Installed-Size": "195",
     "Origin": null,
     "Package": "libudev1",
     "Pre-Depends": null,
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-3",
+    "Version": "228-4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-3"
+    "source:Version": "228-4"
   },
   {
     "Architecture": "amd64",
@@ -3670,11 +3670,11 @@
   {
     "Architecture": "all",
     "Conflicts": null,
-    "Breaks": null,
+    "Breaks": "upstart (<< 1.12.1-0ubuntu8)",
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "48",
+    "Installed-Size": "50",
     "Origin": null,
     "Package": "lsb-base",
     "Pre-Depends": null,
@@ -3685,7 +3685,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "9.20150917",
+    "Version": "9.20160110",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "9.20150917"
+    "source:Version": "9.20160110"
   },
   {
     "Architecture": "amd64",

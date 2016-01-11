@@ -115,7 +115,7 @@ ii   libc6                   2.21-6                        amd64  GNU C Library:
 ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e capabilities (library)                                       
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                     
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                           
-ii   libcryptsetup4          2:1.7.0-1                     amd64  disk encryption support - shared library                                   
+ii   libcryptsetup4          2:1.7.0-2                     amd64  disk encryption support - shared library                                   
 ii   libcurl3-gnutls         7.46.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)              
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                 
 ii   libdebconfclient0       0.201                         amd64  Debian Configuration Management System (C-implementation library)          
@@ -130,7 +130,7 @@ ii   libgcc1                 1:5.3.1-5                     amd64  GCC support li
 ii   libgcrypt20             1.6.4-4                       amd64  LGPL Crypto library - runtime library                                      
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                          
-ii   libgnutls-deb0-28       3.3.19-1                      amd64  GNU TLS library - main runtime library                                     
+ii   libgnutls-deb0-28       3.3.20-1                      amd64  GNU TLS library - main runtime library                                     
 ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components           
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                    
 ii   libhogweed4             3.1.1-4                       amd64  low level cryptographic library (public-key cryptos)                       
@@ -177,13 +177,13 @@ ii   libss2                  1.42.13-1                     amd64  command-line i
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                   
 ii   libssl1.0.2             1.0.2e-1                      amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              5.3.1-5                       amd64  GNU Standard C++ Library v3                                                
-ii   libsystemd0             228-3                         amd64  systemd utility library                                                    
+ii   libsystemd0             228-4                         amd64  systemd utility library                                                    
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                          
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                           
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                    
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                 
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                    
-ii   libudev1                228-3                         amd64  libudev shared library                                                     
+ii   libudev1                228-4                         amd64  libudev shared library                                                     
 ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                          
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                       
 ii   libuuid1                2.27.1-1                      amd64  Universally Unique ID library                                              
@@ -191,7 +191,7 @@ ii   libwrap0                7.6.q-25                      amd64  Wietse Venema'
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations                      
 ii   locales                 2.21-6                        all    GNU C Library: National Language (locale) data [support]                   
 ii   login                   1:4.2-3.1                     amd64  system login tools                                                         
-ii   lsb-base                9.20150917                    all    Linux Standard Base init script functionality                              
+ii   lsb-base                9.20160110                    all    Linux Standard Base init script functionality                              
 ii   lv                      4.51-2.3+b1                   amd64  Powerful Multilingual File Viewer                                          
 ii   man-db                  2.7.5-1                       amd64  on-line manual pager                                                       
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language                            
