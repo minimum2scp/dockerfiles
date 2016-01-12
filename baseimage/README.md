@@ -158,7 +158,7 @@ ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Auth
 ii   libpam-runtime          1.1.8-3.2                     all    Runtime support for the PAM library                                        
 ii   libpam0g                1.1.8-3.2                     amd64  Pluggable Authentication Modules library                                   
 ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files               
-ii   libperl5.22             5.22.1-3                      amd64  shared Perl library                                                        
+ii   libperl5.22             5.22.1-4                      amd64  shared Perl library                                                        
 ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                              
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                         
 ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                       
@@ -206,9 +206,9 @@ ii   openssh-server          1:7.1p1-6                     amd64  secure shell (
 ii   openssh-sftp-server     1:7.1p1-6                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2e-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                              
-ii   perl                    5.22.1-3                      amd64  Larry Wall's Practical Extraction and Report Language                      
-ii   perl-base               5.22.1-3                      amd64  minimal Perl system                                                        
-ii   perl-modules-5.22       5.22.1-3                      all    Core Perl modules                                                          
+ii   perl                    5.22.1-4                      amd64  Larry Wall's Practical Extraction and Report Language                      
+ii   perl-base               5.22.1-4                      amd64  minimal Perl system                                                        
+ii   perl-modules-5.22       5.22.1-4                      all    Core Perl modules                                                          
 ii   procps                  2:3.3.11-3                    amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.15.0-1                      amd64  reliable system and kernel logging daemon                                  
