@@ -84,8 +84,8 @@ ii   e2fsprogs               1.42.5-1.1+deb7u1          amd64  ext2/ext3/ext4 fi
 ii   etckeeper               0.63                       all    store /etc in git, mercurial, bzr or darcs                              
 ii   findutils               4.4.2-4                    amd64  utilities for finding files--find, xargs                                
 ii   gcc-4.7-base            4.7.2-5                    amd64  GCC, the GNU Compiler Collection (base package)                         
-ii   git                     1:1.7.10.4-1+wheezy1       amd64  fast, scalable, distributed revision control system                     
-ii   git-man                 1:1.7.10.4-1+wheezy1       all    fast, scalable, distributed revision control system (manual pages)      
+ii   git                     1:1.7.10.4-1+wheezy2       amd64  fast, scalable, distributed revision control system                     
+ii   git-man                 1:1.7.10.4-1+wheezy2       all    fast, scalable, distributed revision control system (manual pages)      
 ii   gnupg                   1.4.12-7+deb7u7            amd64  GNU privacy guard - a free PGP replacement                              
 ii   gpgv                    1.4.12-7+deb7u7            amd64  GNU privacy guard - signature verification tool                         
 ii   grep                    2.12-2                     amd64  GNU grep, egrep and fgrep                                               
@@ -117,7 +117,7 @@ ii   libexpat1               2.1.0-1+deb7u2             amd64  XML parsing C lib
 ii   libgcc1                 1:4.7.2-5                  amd64  GCC support library                                                     
 ii   libgcrypt11             1.5.0-5+deb7u3             amd64  LGPL Crypto library - runtime library                                   
 ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database routines (runtime version)                             
-ii   libgnutls26             2.12.20-8+deb7u4           amd64  GNU TLS library - runtime library                                       
+ii   libgnutls26             2.12.20-8+deb7u5           amd64  GNU TLS library - runtime library                                       
 ii   libgpg-error0           1.10-3.1                   amd64  library for common error values and messages in GnuPG components        
 ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u6       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                 
 ii   libidn11                1.25-2                     amd64  GNU Libidn library, implementation of IETF IDN specifications           
@@ -150,7 +150,7 @@ ii   libsepol1               2.1.4-3                    amd64  SELinux library f
 ii   libslang2               2.2.4-15                   amd64  S-Lang programming library - runtime version                            
 ii   libss2                  1.42.5-1.1+deb7u1          amd64  command-line interface parsing library                                  
 ii   libssh2-1               1.4.2-1.1+deb7u1           amd64  SSH2 client-side library                                                
-ii   libssl1.0.0             1.0.1e-2+deb7u18           amd64  SSL shared libraries                                                    
+ii   libssl1.0.0             1.0.1e-2+deb7u19           amd64  SSL shared libraries                                                    
 ii   libstdc++6              4.7.2-5                    amd64  GNU Standard C++ Library v3                                             
 ii   libswitch-perl          2.16-2                     all    switch statement for Perl                                               
 ii   libtasn1-3              2.13-2+deb7u2              amd64  Manage ASN.1 structures (runtime)                                       
@@ -177,7 +177,7 @@ ii   net-tools               1.60-24.2                  amd64  The NET-3 network
 ii   netbase                 5.0                        all    Basic TCP/IP networking system                                          
 ii   openssh-client          1:6.0p1-4+deb7u2           amd64  secure shell (SSH) client, for secure access to remote machines         
 ii   openssh-server          1:6.0p1-4+deb7u2           amd64  secure shell (SSH) server, for secure access from remote machines       
-ii   openssl                 1.0.1e-2+deb7u18           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools        
+ii   openssl                 1.0.1e-2+deb7u19           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools        
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data                           
 ii   perl                    5.14.2-21+deb7u2           amd64  Larry Wall's Practical Extraction and Report Language                   
 ii   perl-base               5.14.2-21+deb7u2           amd64  minimal Perl system                                                     
@@ -187,7 +187,7 @@ ii   readline-common         6.2+dfsg-0.1               all    GNU readline and 
 ii   rsyslog                 5.8.11-3+deb7u2            amd64  reliable system and kernel logging daemon                               
 ii   sed                     4.2.1-10                   amd64  The GNU sed stream editor                                               
 ii   sensible-utils          0.0.7                      all    Utilities for sensible alternative selection                            
-ii   sudo                    1.8.5p2-1+nmu3             amd64  Provide limited super user privileges to specific users                 
+ii   sudo                    1.8.5p2-1+nmu3+deb7u1      amd64  Provide limited super user privileges to specific users                 
 ii   sysv-rc                 2.88dsf-41+deb7u1          all    System-V-like runlevel change mechanism                                 
 ii   sysvinit                2.88dsf-41+deb7u1          amd64  System-V-like init utilities                                            
 ii   sysvinit-utils          2.88dsf-41+deb7u1          amd64  System-V-like utilities                                                 

@@ -678,7 +678,7 @@
     "Depends": "libc6 (>= 2.9), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:1.7.10.4), git-man (<< 1:1.7.10.4-.)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "13144",
+    "Installed-Size": "12910",
     "Origin": null,
     "Package": "git",
     "Pre-Depends": null,
@@ -689,7 +689,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-arch, git-cvs, git-svn, git-email, git-gui, gitk, gitweb",
-    "Version": "1:1.7.10.4-1+wheezy1",
+    "Version": "1:1.7.10.4-1+wheezy2",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy1"
+    "source:Version": "1:1.7.10.4-1+wheezy2"
   },
   {
     "Architecture": "all",
@@ -706,7 +706,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1105",
+    "Installed-Size": "1070",
     "Origin": null,
     "Package": "git-man",
     "Pre-Depends": null,
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:1.7.10.4-1+wheezy1",
+    "Version": "1:1.7.10.4-1+wheezy2",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy1"
+    "source:Version": "1:1.7.10.4-1+wheezy2"
   },
   {
     "Architecture": "amd64",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.12.20-8+deb7u4",
+    "Version": "2.12.20-8+deb7u5",
     "binary:Package": "libgnutls26:amd64",
     "binary:Summary": "GNU TLS library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "gnutls26",
-    "source:Version": "2.12.20-8+deb7u4"
+    "source:Version": "2.12.20-8+deb7u5"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.0.1e-2+deb7u18",
+    "Version": "1.0.1e-2+deb7u19",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "SSL shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u18"
+    "source:Version": "1.0.1e-2+deb7u19"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1e-2+deb7u18",
+    "Version": "1.0.1e-2+deb7u19",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Socket Layer (SSL) binary and related cryptographic tools",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u18"
+    "source:Version": "1.0.1e-2+deb7u19"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.11), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1841",
+    "Installed-Size": "1587",
     "Origin": null,
     "Package": "sudo",
     "Pre-Depends": null,
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.8.5p2-1+nmu3",
+    "Version": "1.8.5p2-1+nmu3+deb7u1",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "sudo",
-    "source:Version": "1.8.5p2-1+nmu3"
+    "source:Version": "1.8.5p2-1+nmu3+deb7u1"
   },
   {
     "Architecture": "all",
