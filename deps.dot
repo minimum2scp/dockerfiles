@@ -41,7 +41,7 @@ digraph deps {
   baseimage_wheezy -> ruby_wheezy;
 
 
-  ruby_223         [label = "ruby:2.2.3"];
+  ruby_230         [label = "ruby:2.3.0"];
   magellan_tdiary  [label = "minimum2scp/magellan-tdiary"];
-  ruby_223 -> magellan_tdiary;
+  ruby_230 -> magellan_tdiary;
 }
