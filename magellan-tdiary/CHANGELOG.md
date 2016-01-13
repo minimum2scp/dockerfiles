@@ -1,4 +1,4 @@
-## 0.1.9 (2016-01-xx)
+## 0.1.9 (2016-01-14)
 
  * Drop tdiary-cache-redis, and use tdiary-cache-null
 
