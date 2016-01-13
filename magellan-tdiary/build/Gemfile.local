@@ -3,9 +3,12 @@ gem "mysql2"
 
 gem "tdiary",                  path: "."
 gem "tdiary-contrib",          github: "tdiary/tdiary-contrib"
-gem "tdiary-cache-null",       github: "minimum2scp/tdiary-cache-null", branch: "fix/impl-missing-methods"
+
+gem "tdiary-cache-null",       github: "minimum2scp/tdiary-cache-null"
+
 #gem "tdiary-io-mongodb",       github: "tdiary/tdiary-io-mongodb"
 gem "tdiary-io-rdb",           github: "tdiary/tdiary-io-rdb", require: (ENV["DATABASE_URL"] && 'tdiary/io/rdb')
+
 #gem "tdiary-style-emptdiary",  github: "tdiary/tdiary-style-emptdiary"
 #gem "tdiary-style-etdiary",    github: "tdiary/tdiary-style-etdiary"
 #gem "tdiary-style-rd",         github: "tdiary/tdiary-style-rd"
