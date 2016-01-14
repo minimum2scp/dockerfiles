@@ -30,12 +30,12 @@ GEM
     rspec-its (1.2.0)
       rspec-core (>= 3.0.0)
       rspec-expectations (>= 3.0.0)
-    rspec-mocks (3.4.0)
+    rspec-mocks (3.4.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
     sequel (4.30.0)
-    serverspec (2.28.0)
+    serverspec (2.29.0)
       multi_json
       rspec (~> 3.0)
       rspec-its
