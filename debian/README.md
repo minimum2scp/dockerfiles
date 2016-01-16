@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3               all    add and remove users and groups                                       
-ii   apt                     1.1.10                   amd64  commandline package manager                                           
+ii   apt                     1.2                      amd64  commandline package manager                                           
 ii   base-files              9.5                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
@@ -51,7 +51,7 @@ ii   insserv                 1.14.0-5                 amd64  boot sequence organ
 ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-2                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-2+b2                amd64  changehat AppArmor library                                            
-ii   libapt-pkg5.0           1.1.10                   amd64  package management runtime library                                    
+ii   libapt-pkg5.0           1.2                      amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
 ii   libaudit1               1:2.4.5-1                amd64  Dynamic library for security auditing                                 
@@ -72,6 +72,7 @@ ii   libgcrypt20             1.6.4-4                  amd64  LGPL Crypto library
 ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1                     amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
+ii   liblz4-1                0.0~r131-1               amd64  Fast LZ compression algorithm library - runtime                       
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.27.1-1                 amd64  device mounting library                                               
 ii   libncurses5             6.0+20151024-2           amd64  shared libraries for terminal handling                                
