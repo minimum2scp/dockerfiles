@@ -82,7 +82,7 @@ ii   dpkg                    1.18.4                        amd64  Debian package
 ii   e2fslibs                1.42.13-1                     amd64  ext2/ext3/ext4 file system libraries                                           
 ii   e2fsprogs               1.42.13-1                     amd64  ext2/ext3/ext4 file system utilities                                           
 ii   etckeeper               1.18.2-1                      all    store /etc in git, mercurial, bzr or darcs                                     
-ii   findutils               4.4.2-10                      amd64  utilities for finding files--find, xargs                                       
+ii   findutils               4.6.0-2                       amd64  utilities for finding files--find, xargs                                       
 ii   gcc-4.8-base            4.8.5-3                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-4.9-base            4.9.3-10                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-5-base              5.3.1-6                       amd64  GCC, the GNU Compiler Collection (base package)                                
