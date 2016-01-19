@@ -24,7 +24,7 @@ ii   base-files              9.5                      amd64  Debian base system 
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
 ii   bsdutils                1:2.27.1-1               amd64  basic utilities from 4.4BSD-Lite                                      
-ii   coreutils               8.23-4                   amd64  GNU core utilities                                                    
+ii   coreutils               8.24-1                   amd64  GNU core utilities                                                    
 ii   dash                    0.5.7-4+b1               amd64  POSIX-compliant shell                                                 
 ii   debconf                 1.5.58                   all    Debian configuration management system                                
 ii   debconf-i18n            1.5.58                   all    full internationalization support for debconf                         
@@ -36,8 +36,8 @@ ii   dpkg                    1.18.4                   amd64  Debian package mana
 ii   e2fslibs                1.42.13-1                amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.42.13-1                amd64  ext2/ext3/ext4 file system utilities                                  
 ii   findutils               4.6.0-2                  amd64  utilities for finding files--find, xargs                              
-ii   gcc-4.8-base            4.8.5-3                  amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gcc-4.9-base            4.9.3-10                 amd64  GCC, the GNU Compiler Collection (base package)                       
+ii   gcc-4.8-base            4.8.5-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
+ii   gcc-4.9-base            4.9.3-11                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-5-base              5.3.1-6                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gnupg                   1.4.20-1                 amd64  GNU privacy guard - a free PGP replacement                            
 ii   gpgv                    1.4.20-1                 amd64  GNU privacy guard - signature verification tool                       
@@ -45,8 +45,9 @@ ii   grep                    2.22-1                   amd64  GNU grep, egrep and
 ii   gzip                    1.6-4                    amd64  GNU compression utilities                                             
 ii   hostname                3.16                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
-ii   init                    1.24                     amd64  System-V-like init utilities - metapackage                            
-ii   initscripts             2.88dsf-59.2             amd64  scripts for initializing and shutting down the system                 
+ii   init                    1.25                     amd64  System-V-like init utilities - metapackage                            
+ii   init-system-helpers     1.25                     all    helper tools for all init systems                                     
+ii   initscripts             2.88dsf-59.3             amd64  scripts for initializing and shutting down the system                 
 ii   insserv                 1.14.0-5                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-2                 amd64  Access control list shared library                                    
@@ -116,8 +117,8 @@ ii   sensible-utils          0.0.9                    all    Utilities for sensi
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
 ii   systemd                 228-4                    amd64  system and service manager                                            
 ii   systemd-sysv            228-4                    amd64  system and service manager - SysV links                               
-ii   sysv-rc                 2.88dsf-59.2             all    System-V-like runlevel change mechanism                               
-ii   sysvinit-utils          2.88dsf-59.2             amd64  System-V-like utilities                                               
+ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
+ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
 ii   tzdata                  2015g-1                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.27.1-1                 amd64  Miscellaneous system utilities                                        
