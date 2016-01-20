@@ -196,21 +196,21 @@ ii   ncurses-base            5.9+20140913-1             all    basic terminal ty
 ii   ncurses-bin             5.9+20140913-1+b1          amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60-26+b1                 amd64  NET-3 networking toolkit                                                   
 ii   netbase                 5.3                        all    Basic TCP/IP networking system                                             
-ii   openssh-client          1:6.7p1-5                  amd64  secure shell (SSH) client, for secure access to remote machines            
-ii   openssh-server          1:6.7p1-5                  amd64  secure shell (SSH) server, for secure access from remote machines          
-ii   openssh-sftp-server     1:6.7p1-5                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:6.7p1-5+deb8u1           amd64  secure shell (SSH) client, for secure access to remote machines            
+ii   openssh-server          1:6.7p1-5+deb8u1           amd64  secure shell (SSH) server, for secure access from remote machines          
+ii   openssh-sftp-server     1:6.7p1-5+deb8u1           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3                    amd64  change and administer password and group data                              
-ii   perl                    5.20.2-3+deb8u1            amd64  Larry Wall's Practical Extraction and Report Language                      
-ii   perl-base               5.20.2-3+deb8u1            amd64  minimal Perl system                                                        
-ii   perl-modules            5.20.2-3+deb8u1            all    Core Perl modules                                                          
+ii   perl                    5.20.2-3+deb8u2            amd64  Larry Wall's Practical Extraction and Report Language                      
+ii   perl-base               5.20.2-3+deb8u2            amd64  minimal Perl system                                                        
+ii   perl-modules            5.20.2-3+deb8u2            all    Core Perl modules                                                          
 ii   procps                  2:3.3.9-9                  amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                      all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.4.2-1+deb8u1             amd64  reliable system and kernel logging daemon                                  
 ii   sed                     4.2.2-4+b1                 amd64  The GNU sed stream editor                                                  
 ii   sensible-utils          0.0.9                      all    Utilities for sensible alternative selection                               
 ii   startpar                0.59-3                     amd64  run processes in parallel and multiplex their output                       
-ii   sudo                    1.8.10p3-1+deb8u2          amd64  Provide limited super user privileges to specific users                    
+ii   sudo                    1.8.10p3-1+deb8u3          amd64  Provide limited super user privileges to specific users                    
 ii   sysv-rc                 2.88dsf-59                 all    System-V-like runlevel change mechanism                                    
 ii   sysvinit-core           2.88dsf-59                 amd64  System-V-like init utilities                                               
 ii   sysvinit-utils          2.88dsf-59                 amd64  System-V-like utilities                                                    
