@@ -530,27 +530,32 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:1 http://ftp.jp.debian.org jessie-updates InRelease [136 kB]
 Get:2 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [207 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [3619 B]
+Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [3619 B]
 Hit http://ftp.jp.debian.org jessie Release
-Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9035 kB]
-Fetched 9445 kB in 4s (2078 kB/s)
+Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9035 kB]
+Get:5 http://security.debian.org jessie/updates/main amd64 Packages [241 kB]
+Fetched 9479 kB in 10s (926 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  dpkg tzdata
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 3175 kB of archives.
-After this operation, 27.6 kB disk space will be freed.
-Get:1 http://security.debian.org/ jessie/updates/main dpkg amd64 1.17.26 [2991 kB]
-Get:2 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2015g-0+deb8u1 [184 kB]
-Fetched 3175 kB in 0s (3779 kB/s)
+  dpkg perl-base tzdata
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4398 kB of archives.
+After this operation, 427 kB of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2015g-0+deb8u1 [184 kB]
+Get:2 http://security.debian.org/ jessie/updates/main dpkg amd64 1.17.26 [2991 kB]
+Get:3 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u2 [1224 kB]
+Fetched 4398 kB in 32s (134 kB/s)
 (Reading database ... 7528 files and directories currently installed.)
 Preparing to unpack .../dpkg_1.17.26_amd64.deb ...
 Unpacking dpkg (1.17.26) over (1.17.25) ...
 Setting up dpkg (1.17.26) ...
+(Reading database ... 7528 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.20.2-3+deb8u2_amd64.deb ...
+Unpacking perl-base (5.20.2-3+deb8u2) over (5.20.2-3+deb8u1) ...
+Setting up perl-base (5.20.2-3+deb8u2) ...
 (Reading database ... 7528 files and directories currently installed.)
 Preparing to unpack .../tzdata_2015g-0+deb8u1_all.deb ...
 Unpacking tzdata (2015g-0+deb8u1) over (2015f-0+deb8u1) ...
@@ -559,10 +564,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> e8820de4bcc8
-Removing intermediate container 2d29aefd7bd5
+ ---> b4f4ca68bf72
+Removing intermediate container 10f65e281150
 Step 3 : CMD /bin/bash
- ---> Running in 6c80978ee1eb
- ---> 51391f121700
-Removing intermediate container 6c80978ee1eb
-Successfully built 51391f121700
+ ---> Running in af2fa2b730f3
+ ---> 00bca6871819
+Removing intermediate container af2fa2b730f3
+Successfully built 00bca6871819
