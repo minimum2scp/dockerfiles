@@ -86,8 +86,8 @@ ii   findutils               4.6.0-2                     amd64  utilities for fi
 ii   gcc-4.8-base            4.8.5-4                     amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-4.9-base            4.9.3-11                    amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-5-base              5.3.1-6                     amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   git                     1:2.7.0~rc3-1               amd64  fast, scalable, distributed revision control system                            
-ii   git-man                 1:2.7.0~rc3-1               all    fast, scalable, distributed revision control system (manual pages)             
+ii   git                     1:2.7.0-1                   amd64  fast, scalable, distributed revision control system                            
+ii   git-man                 1:2.7.0-1                   all    fast, scalable, distributed revision control system (manual pages)             
 ii   gnupg                   1.4.20-1                    amd64  GNU privacy guard - a free PGP replacement                                     
 ii   gpgv                    1.4.20-1                    amd64  GNU privacy guard - signature verification tool                                
 ii   grep                    2.22-1                      amd64  GNU grep, egrep and fgrep                                                      
@@ -177,7 +177,7 @@ ii   libsemanage1            2.4-3                       amd64  SELinux policy m
 ii   libsepol1               2.4-2                       amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2+b1                  amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.27.1-1                    amd64  smart column output alignment library                                          
-ii   libsqlite3-0            3.10.1-1                    amd64  SQLite 3 shared library                                                        
+ii   libsqlite3-0            3.10.2-1                    amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                   amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2+b1                  amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2e-1                    amd64  Secure Sockets Layer toolkit - shared libraries                                
