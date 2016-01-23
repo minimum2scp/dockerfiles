@@ -93,10 +93,10 @@ I: Retrieving hostname 3.16
 I: Validating hostname 3.16
 I: Retrieving inetutils-ping 2:1.9.4-1+b1
 I: Validating inetutils-ping 2:1.9.4-1+b1
-I: Retrieving init 1.25
-I: Validating init 1.25
-I: Retrieving init-system-helpers 1.25
-I: Validating init-system-helpers 1.25
+I: Retrieving init 1.26
+I: Validating init 1.26
+I: Retrieving init-system-helpers 1.26
+I: Validating init-system-helpers 1.26
 I: Retrieving insserv 1.14.0-5
 I: Validating insserv 1.14.0-5
 I: Retrieving iproute2 4.3.0-1
@@ -179,14 +179,14 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 228-4
-I: Validating libsystemd0 228-4
-I: Retrieving libudev1 228-4
-I: Validating libudev1 228-4
-I: Retrieving systemd 228-4
-I: Validating systemd 228-4
-I: Retrieving systemd-sysv 228-4
-I: Validating systemd-sysv 228-4
+I: Retrieving libsystemd0 228-4+b1
+I: Validating libsystemd0 228-4+b1
+I: Retrieving libudev1 228-4+b1
+I: Validating libudev1 228-4+b1
+I: Retrieving systemd 228-4+b1
+I: Validating systemd 228-4+b1
+I: Retrieving systemd-sysv 228-4+b1
+I: Validating systemd-sysv 228-4+b1
 I: Retrieving initscripts 2.88dsf-59.3
 I: Validating initscripts 2.88dsf-59.3
 I: Retrieving sysv-rc 2.88dsf-59.3
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [277 kB]
-Fetched 277 kB in 0s (343 kB/s)
+Fetched 277 kB in 2s (114 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 87f46c97e69c
-Removing intermediate container 1b29c9e43d7f
+ ---> 77cce4f87b91
+Removing intermediate container e2b7dd3d8c25
 Step 3 : CMD /bin/bash
- ---> Running in 16f15eab5d1c
- ---> a3ef2275cadf
-Removing intermediate container 16f15eab5d1c
-Successfully built a3ef2275cadf
+ ---> Running in 7537380e6436
+ ---> 195397400e8c
+Removing intermediate container 7537380e6436
+Successfully built 195397400e8c
