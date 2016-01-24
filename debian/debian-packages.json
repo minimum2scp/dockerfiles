@@ -1126,7 +1126,7 @@
     "Depends": "libc6 (>> 2.21), libc6 (<< 2.22)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3306",
+    "Installed-Size": "3307",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-6",
+    "Version": "2.21-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-6"
+    "source:Version": "2.21-7"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libgcc1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "10502",
+    "Installed-Size": "10504",
     "Origin": null,
     "Package": "libc6",
     "Pre-Depends": null,
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.21-6",
+    "Version": "2.21-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-6"
+    "source:Version": "2.21-7"
   },
   {
     "Architecture": "amd64",
@@ -2442,7 +2442,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "207",
     "Origin": null,
     "Package": "multiarch-support",
     "Pre-Depends": null,
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-6",
+    "Version": "2.21-7",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-6"
+    "source:Version": "2.21-7"
   },
   {
     "Architecture": "all",
