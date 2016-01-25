@@ -107,8 +107,8 @@ I: Retrieving libcap2 1:2.24-12
 I: Validating libcap2 1:2.24-12
 I: Retrieving libcap2-bin 1:2.24-12
 I: Validating libcap2-bin 1:2.24-12
-I: Retrieving libgcrypt20 1.6.4-4
-I: Validating libgcrypt20 1.6.4-4
+I: Retrieving libgcrypt20 1.6.4-5
+I: Validating libgcrypt20 1.6.4-5
 I: Retrieving libgpg-error0 1.21-1
 I: Validating libgpg-error0 1.21-1
 I: Retrieving liblocale-gettext-perl 1.07-1+b1
@@ -532,7 +532,8 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [277 kB]
-Fetched 277 kB in 0s (408 kB/s)
+Ign:1 http://ftp.jp.debian.org/debian sid InRelease
+Fetched 277 kB in 1s (171 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +543,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 7f0fb3e77007
-Removing intermediate container 40ffd160d98f
+ ---> 07a7b39f2145
+Removing intermediate container be09e94b0d29
 Step 3 : CMD /bin/bash
- ---> Running in e23c440fd5f4
- ---> a29a3b45c0df
-Removing intermediate container e23c440fd5f4
-Successfully built a29a3b45c0df
+ ---> Running in fb1d09777f52
+ ---> 901811f5fa05
+Removing intermediate container fb1d09777f52
+Successfully built 901811f5fa05
