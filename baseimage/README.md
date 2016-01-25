@@ -127,7 +127,7 @@ ii   libexpat1               2.1.0-7                       amd64  XML parsing C 
 ii   libfdisk1               2.27.1-1                      amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                     
 ii   libgcc1                 1:5.3.1-7                     amd64  GCC support library                                                            
-ii   libgcrypt20             1.6.4-4                       amd64  LGPL Crypto library - runtime library                                          
+ii   libgcrypt20             1.6.4-5                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls-deb0-28       3.3.20-1                      amd64  GNU TLS library - main runtime library                                         
