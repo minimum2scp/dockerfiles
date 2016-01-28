@@ -70,7 +70,7 @@ ii   bsdutils                1:2.27.1-3                    amd64  basic utilitie
 ii   ca-certificates         20160104                      all    Common CA certificates                                                         
 ii   coreutils               8.24-1                        amd64  GNU core utilities                                                             
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                      
-ii   curl                    7.46.0-1+b1                   amd64  command line tool for transferring data with URL syntax                        
+ii   curl                    7.47.0-1                      amd64  command line tool for transferring data with URL syntax                        
 ii   dash                    0.5.8-2.1                     amd64  POSIX-compliant shell                                                          
 ii   debconf                 1.5.58                        all    Debian configuration management system                                         
 ii   debconf-i18n            1.5.58                        all    full internationalization support for debconf                                  
@@ -91,7 +91,7 @@ ii   git-man                 1:2.7.0-1                     all    fast, scalable
 ii   gnupg                   1.4.20-1                      amd64  GNU privacy guard - a free PGP replacement                                     
 ii   gpgv                    1.4.20-1                      amd64  GNU privacy guard - signature verification tool                                
 ii   grep                    2.22-1                        amd64  GNU grep, egrep and fgrep                                                      
-ii   groff-base              1.22.3-5                      amd64  GNU troff text-formatting system (base system components)                      
+ii   groff-base              1.22.3-6                      amd64  GNU troff text-formatting system (base system components)                      
 ii   gzip                    1.6-4                         amd64  GNU compression utilities                                                      
 ii   hostname                3.16                          amd64  utility to set/show the host name or domain name                               
 ii   inetutils-ping          2:1.9.4-1+b1                  amd64  ICMP echo tool                                                                 
@@ -107,7 +107,7 @@ ii   libattr1                1:2.4.47-2                    amd64  Extended attri
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1                     amd64  Dynamic library for security auditing                                          
 ii   libblkid1               2.27.1-3                      amd64  block device ID library                                                        
-ii   libbsd0                 0.8.1-1                       amd64  utility functions from BSD systems - shared library                            
+ii   libbsd0                 0.8.2-1                       amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime                   
 ii   libc-bin                2.21-7                        amd64  GNU C Library: Binaries                                                        
 ii   libc-l10n               2.21-7                        all    GNU C Library: localization files                                              
@@ -116,7 +116,7 @@ ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e 
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                               
 ii   libcryptsetup4          2:1.7.0-2                     amd64  disk encryption support - shared library                                       
-ii   libcurl3-gnutls         7.46.0-1+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
+ii   libcurl3-gnutls         7.47.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                     
 ii   libdebconfclient0       0.201                         amd64  Debian Configuration Management System (C-implementation library)              
 ii   libdevmapper1.02.1      2:1.02.114-1                  amd64  Linux Kernel Device Mapper userspace library                                   
@@ -130,7 +130,6 @@ ii   libgcc1                 1:5.3.1-7                     amd64  GCC support li
 ii   libgcrypt20             1.6.4-5                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
-ii   libgnutls-deb0-28       3.3.20-1                      amd64  GNU TLS library - main runtime library                                         
 ii   libgnutls30             3.4.8-2                       amd64  GNU TLS library - main runtime library                                         
 ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
@@ -153,7 +152,7 @@ ii   libncurses5             6.0+20151024-2                amd64  shared librari
 ii   libncursesw5            6.0+20151024-2                amd64  shared libraries for terminal handling (wide character support)                
 ii   libnettle6              3.1.1-4                       amd64  low level cryptographic library (symmetric and one-way cryptos)                
 ii   libnewt0.52             0.52.18-2                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang                  
-ii   libnghttp2-14           1.6.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                          
+ii   libnghttp2-14           1.7.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                          
 ii   libp11-kit0             0.23.2-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime       
 ii   libpam-modules          1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM                                       
 ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM - helper binaries                     
@@ -222,7 +221,7 @@ ii   python-minimal          2.7.11-1                      amd64  minimal subset
 ii   python2.7               2.7.11-3                      amd64  Interactive high-level object-oriented language (version 2.7)                  
 ii   python2.7-minimal       2.7.11-3                      amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                               
-ii   rsyslog                 8.15.0-1+b1                   amd64  reliable system and kernel logging daemon                                      
+ii   rsyslog                 8.16.0-1                      amd64  reliable system and kernel logging daemon                                      
 ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                      
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                                   
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                           
