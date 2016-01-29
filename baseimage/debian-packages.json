@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.114-1",
+    "Version": "2:1.02.115-1",
     "binary:Package": "dmsetup",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.138-1"
+    "source:Version": "2.02.141-1"
   },
   {
     "Architecture": "amd64",
@@ -885,7 +885,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.3-6",
+    "Version": "1.22.3-7",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.3-6"
+    "source:Version": "1.22.3-7"
   },
   {
     "Architecture": "amd64",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.201",
+    "Version": "0.203",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1649,13 +1649,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.201"
+    "source:Version": "0.203"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02",
     "Breaks": "liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)",
-    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.114-1)",
+    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.115-1)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "429",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.114-1",
+    "Version": "2:1.02.115-1",
     "binary:Package": "libdevmapper1.02.1:amd64",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.138-1"
+    "source:Version": "2.02.141-1"
   },
   {
     "Architecture": "amd64",
@@ -3366,7 +3366,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "3513",
+    "Installed-Size": "3514",
     "Origin": null,
     "Package": "libssl1.0.2",
     "Pre-Depends": null,
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.0.2e-1",
+    "Version": "1.0.2f-2",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.2e-1"
+    "source:Version": "1.0.2f-2"
   },
   {
     "Architecture": "amd64",
@@ -4206,7 +4206,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.0.2 (>= 1.0.2d)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1111",
+    "Installed-Size": "1112",
     "Origin": null,
     "Package": "openssl",
     "Pre-Depends": null,
@@ -4217,7 +4217,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.2e-1",
+    "Version": "1.0.2f-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.2e-1"
+    "source:Version": "1.0.2f-2"
   },
   {
     "Architecture": "amd64",
