@@ -66,7 +66,7 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe file("/etc/localtime") do
-      its(:md5sum){ should eq '9e165b3822e5923e4905ee1653a2f358' }
+      it { should be_linked_to '/usr/share/zoneinfo/Asia/Tokyo' }
     end
 
     describe file("/etc/locale.nopurge") do
@@ -194,11 +194,11 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe file("/etc/timezone") do
-      its(:content){ should include 'UTC' }
+      its(:content){ should include 'Etc/UTC' }
     end
 
     describe file("/etc/localtime") do
-      its(:md5sum){ should eq 'c79354b8dbee09e62bbc3fb544853283' }
+      it { should be_linked_to '/usr/share/zoneinfo/Etc/UTC' }
     end
   end
 
