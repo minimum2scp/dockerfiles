@@ -9,7 +9,7 @@ packages="direnv redis-tools"
 apt-get install -y --no-install-recommends ${packages}
 
 ## install supervisor
-## (see baseimage/tmp/build/hubot/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 /opt/custom-installers/supervisor/install.sh
 
 ## configure shell environment variable

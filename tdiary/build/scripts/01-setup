@@ -16,7 +16,7 @@ sudo -H -u debian /tmp/build/tdiary/user-scripts/setup-tdiary.sh
 
 ##
 ## install supervisor
-## (see baseimage/tmp/build/tdiary/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 ##
 /opt/custom-installers/supervisor/install.sh
 
@@ -28,7 +28,7 @@ etckeeper commit "supervisor: add tdiary"
 
 ##
 ## install nginx
-## (see baseimage/tmp/build/tdiary/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 ##
 /opt/custom-installers/nginx/install.sh
 

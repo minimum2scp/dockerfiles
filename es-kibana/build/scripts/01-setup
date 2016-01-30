@@ -29,7 +29,7 @@ chown -R kibana:kibana /opt/kibana
 
 ##
 ## install supervisor
-## (see baseimage/tmp/build/es-kibana/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 ##
 /opt/custom-installers/supervisor/install.sh
 

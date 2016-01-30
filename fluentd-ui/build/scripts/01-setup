@@ -16,7 +16,7 @@ sudo -u debian mkdir -p /home/debian/.gem/ruby/2.1.0
 sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path /home/debian/.gem --without development test"
 
 ## install supervisor
-## (see baseimage/tmp/build/fluentd-ui/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 /opt/custom-installers/supervisor/install.sh
 
 ## install supervisor config for fluentd-ui
@@ -27,7 +27,7 @@ etckeeper commit "supervisor: add fluentd-ui"
 install -m 755 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
 
 ## install nginx
-## (see baseimage/tmp/build/fluentd-ui/opt/custom-installers)
+## (see baseimage/build/opt/custom-installers)
 /opt/custom-installers/nginx/install.sh
 
 ## configure nginx
