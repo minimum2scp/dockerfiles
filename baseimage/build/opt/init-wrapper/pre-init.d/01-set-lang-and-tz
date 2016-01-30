@@ -14,6 +14,8 @@ fi
 
 if [ -n "${DEFAULT_TZ}" ]; then
   echo "${DEFAULT_TZ}" > /etc/timezone
+  # workaround: see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=813226
+  [ -L /etc/localtime ] && rm /etc/localtime
   dpkg-reconfigure -f noninteractive tzdata 1>/dev/null 2>/dev/null
   etckeeper commit "set timezone to ${DEFAULT_TZ}" 1>/dev/null 2>/dev/null
 fi

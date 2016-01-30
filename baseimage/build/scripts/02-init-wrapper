@@ -7,19 +7,19 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## install custom init scripts
 ##
-find /build/opt/init-wrapper/sbin \
-     /build/opt/init-wrapper/pre-init.d \
-     /build/opt/init-wrapper/post-init.d \
+find /tmp/build/baseimage/opt/init-wrapper/sbin \
+     /tmp/build/baseimage/opt/init-wrapper/pre-init.d \
+     /tmp/build/baseimage/opt/init-wrapper/post-init.d \
      -maxdepth 1 -mindepth 1 -type f -a -executable \
 | while read f; do
-  install -m 755 -o root -g root -p -D ${f} ${f#/build}
+  install -m 755 -o root -g root -p -D ${f} ${f#/tmp/build/baseimage}
 done
 
-find /build/opt/init-wrapper/sbin \
-     /build/opt/init-wrapper/pre-init.d \
-     /build/opt/init-wrapper/post-init.d \
+find /tmp/build/baseimage/opt/init-wrapper/sbin \
+     /tmp/build/baseimage/opt/init-wrapper/pre-init.d \
+     /tmp/build/baseimage/opt/init-wrapper/post-init.d \
      -maxdepth 1 -mindepth 1 -type f -a -not -executable \
 | while read f; do
-  install -m 644 -o root -g root -p -D ${f} ${f#/build}
+  install -m 644 -o root -g root -p -D ${f} ${f#/tmp/build/baseimage}
 done
 

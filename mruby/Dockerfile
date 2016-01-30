@@ -1,8 +1,8 @@
 FROM minimum2scp/ruby:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-COPY build /build
-RUN run-parts --report --exit-on-error /build/scripts && rm -rfv /build
+COPY build /tmp/build/mruby
+RUN run-parts --report --exit-on-error /tmp/build/mruby/scripts && rm -rfv /tmp/build
 EXPOSE 22
 
 ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]

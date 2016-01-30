@@ -47,7 +47,7 @@ etckeeper commit "set locale"
 ##
 ## configure localepurge and remove locales
 ##
-install -m 644 -o root -g root -p /build/etc/locale.nopurge /etc/locale.nopurge
+install -m 644 -o root -g root -p /tmp/build/baseimage/etc/locale.nopurge /etc/locale.nopurge
 sed -i -e 's/^USE_DPKG/# USE_DPKG/' /etc/locale.nopurge
 localepurge
 sed -i -e 's/^# USE_DPKG/USE_DPKG/' /etc/locale.nopurge
@@ -57,6 +57,8 @@ etckeeper commit "localepurge: purge locales other than en and ja"
 ## configure timezone
 ##
 echo "Asia/Tokyo" > /etc/timezone
+# workaround: see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=813226
+[ -L /etc/localtime ] && rm /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 etckeeper commit "set timezone"
 

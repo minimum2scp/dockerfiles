@@ -9,7 +9,7 @@ export DEBIAN_FRONTEND=noninteractive
 /opt/custom-installers/supervisor/install.sh
 
 ## run norikra server by supervisor
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/norikra.conf /etc/supervisor/conf.d/norikra.conf
+install -m 644 -o root -g root -p /tmp/build/norikra/etc/supervisor/conf.d/norikra.conf /etc/supervisor/conf.d/norikra.conf
 etckeeper commit "supervisor: add norikra"
 
 sudo -u debian mkdir -p /home/debian/norikra/data

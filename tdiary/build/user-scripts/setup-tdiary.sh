@@ -35,7 +35,7 @@ bash -l -c "cd ~; rbenv local 2.3.0"
 bash -l -c "bundle install --path vendor/bundle --jobs=4"
 
 ## add Gemfile.local
-install -m 644 -p /build/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
+install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
 
 ## run bundle install again
 bash -l -c "bundle install"
@@ -47,11 +47,11 @@ bash -l -c "bundle clean"
 mkdir -p $DATA_ROOT/data
 
 ## add .htpasswd (user=debian, password=debian)
-install -m 600 -p /build/$DATA_ROOT/.htpasswd    $DATA_ROOT/.htpasswd
+install -m 600 -p /tmp/build/tdiary/$DATA_ROOT/.htpasswd    $DATA_ROOT/.htpasswd
 
 ## add tdiary.conf, start.sh
-install -m 644 -p /build/$DATA_ROOT/tdiary.conf  $DATA_ROOT/tdiary.conf
-install -m 755 -p /build/$DATA_ROOT/start.sh     $DATA_ROOT/start.sh
+install -m 644 -p /tmp/build/tdiary/$DATA_ROOT/tdiary.conf  $DATA_ROOT/tdiary.conf
+install -m 755 -p /tmp/build/tdiary/$DATA_ROOT/start.sh     $DATA_ROOT/start.sh
 
 ## symlink .htpasswd, tdiary.conf into tdiary-core
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core

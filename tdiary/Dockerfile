@@ -1,8 +1,8 @@
 FROM minimum2scp/ruby-full:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-COPY build /build
-RUN run-parts --report --exit-on-error /build/scripts && rm -rfv /build
+COPY build /tmp/build/tdiary
+RUN run-parts --report --exit-on-error /tmp/build/tdiary/scripts && rm -rfv /tmp/build
 EXPOSE 22 80 9001
 
 ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]

@@ -19,15 +19,15 @@ cp -a /etc/squid/squid.conf /etc/squid/squid.conf.orig
   echo "include /etc/squid/squid.local.conf";
 ) > /etc/squid/squid.conf.new
 mv /etc/squid/squid.conf.new /etc/squid/squid.conf
-install -m 644 -o root -g root -p /build/etc/squid/squid.acl.conf /etc/squid/squid.acl.conf
-install -m 644 -o root -g root -p /build/etc/squid/squid.local.conf /etc/squid/squid.local.conf
+install -m 644 -o root -g root -p /tmp/build/squid/etc/squid/squid.acl.conf /etc/squid/squid.acl.conf
+install -m 644 -o root -g root -p /tmp/build/squid/etc/squid/squid.local.conf /etc/squid/squid.local.conf
 etckeeper commit "squid: allow from localnet, shorten shutdown_lifetime"
 
 ##
 ## workaround for squid init script: "/etc/init.d/squid3 stop" fails
 ##
 cp -a /etc/init.d/squid /etc/init.d/squid.orig
-install -m 755 -o root -g root -p /build/etc/init.d/squid /etc/init.d/squid
+install -m 755 -o root -g root -p /tmp/build/squid/etc/init.d/squid /etc/init.d/squid
 etckeeper commit "squid: workaround for init script"
 
 ##

@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## setup geminabox
 ##
-sudo -H -u debian /build/user-scripts/setup-geminabox.sh
+sudo -H -u debian /tmp/build/geminabox/user-scripts/setup-geminabox.sh
 
 ##
 ## install supervisor
@@ -18,7 +18,7 @@ sudo -H -u debian /build/user-scripts/setup-geminabox.sh
 ##
 ## add geminabox to supervisor
 ##
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/geminabox.conf /etc/supervisor/conf.d/geminabox.conf
+install -m 644 -o root -g root -p /tmp/build/geminabox/etc/supervisor/conf.d/geminabox.conf /etc/supervisor/conf.d/geminabox.conf
 etckeeper commit "supervisor: add geminabox"
 
 ##
@@ -31,7 +31,7 @@ etckeeper commit "supervisor: add geminabox"
 ## autostart and configure nginx
 ## (nginx-light is already installed in baseimage)
 ##
-install -m 644 -o root -g root -p /build/etc/nginx/sites-available/geminabox /etc/nginx/sites-available/geminabox
+install -m 644 -o root -g root -p /tmp/build/geminabox/etc/nginx/sites-available/geminabox /etc/nginx/sites-available/geminabox
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/geminabox /etc/nginx/sites-enabled/geminabox
 etckeeper commit "nginx: disabled default site, enabled geminabox site"

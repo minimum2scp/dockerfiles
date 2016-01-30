@@ -164,7 +164,7 @@ describe 'minimum2scp/baseimage-wheezy' do
       it { should be_executable }
     end
 
-    describe file('/build') do
+    describe file('/tmp/build') do
       it { should_not be_directory }
     end
   end

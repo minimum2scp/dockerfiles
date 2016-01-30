@@ -18,7 +18,7 @@ describe 'minimum2scp/ruby-wheezy' do
     #  load spec
     #end
 
-    describe file('/build') do
+    describe file('/tmp/build') do
       it { should_not be_directory }
     end
 

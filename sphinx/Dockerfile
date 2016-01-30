@@ -1,8 +1,8 @@
 FROM minimum2scp/baseimage:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-COPY build /build
-RUN run-parts --report --exit-on-error /build/scripts && rm -rfv /build
+COPY build /tmp/build/sphinx
+RUN run-parts --report --exit-on-error /tmp/build/sphinx/scripts && rm -rfv /tmp/build
 EXPOSE 22
 
 USER debian

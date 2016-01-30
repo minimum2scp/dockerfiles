@@ -12,7 +12,7 @@ apt-get install -y --no-install-recommends libsqlite3-dev
 ##
 ## setup tdiary
 ##
-sudo -H -u debian /build/user-scripts/setup-tdiary.sh
+sudo -H -u debian /tmp/build/tdiary/user-scripts/setup-tdiary.sh
 
 ##
 ## install supervisor
@@ -23,7 +23,7 @@ sudo -H -u debian /build/user-scripts/setup-tdiary.sh
 ##
 ## add tdiary to supervisor
 ##
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/tdiary.conf /etc/supervisor/conf.d/tdiary.conf
+install -m 644 -o root -g root -p /tmp/build/tdiary/etc/supervisor/conf.d/tdiary.conf /etc/supervisor/conf.d/tdiary.conf
 etckeeper commit "supervisor: add tdiary"
 
 ##
@@ -35,7 +35,7 @@ etckeeper commit "supervisor: add tdiary"
 ##
 ## configure nginx
 ##
-install -m 644 -o root -g root -p /build/etc/nginx/sites-available/tdiary /etc/nginx/sites-available/tdiary
+install -m 644 -o root -g root -p /tmp/build/tdiary/etc/nginx/sites-available/tdiary /etc/nginx/sites-available/tdiary
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/tdiary /etc/nginx/sites-enabled/tdiary
 etckeeper commit "nginx: disabled default site, enabled tdiary site"

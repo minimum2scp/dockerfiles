@@ -8,7 +8,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install --no-install-recommends -y libcurl4-openssl-dev zip unzip
 
 ## put .gemrc
-install -m 644 -o debian -g debian -p /build/home/debian/.gemrc /home/debian/.gemrc
+install -m 644 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/.gemrc /home/debian/.gemrc
 
 ## install fluentd-ui
 sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.2.0 /home/debian/fluentd-ui
@@ -20,18 +20,18 @@ sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path /home/
 /opt/custom-installers/supervisor/install.sh
 
 ## install supervisor config for fluentd-ui
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
+install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/supervisor/conf.d/fluentd-ui.conf /etc/supervisor/conf.d/fluentd-ui.conf
 etckeeper commit "supervisor: add fluentd-ui"
 
 ## install startup script for fluentd-ui
-install -m 755 -o debian -g debian -p /build/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
+install -m 755 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
 
 ## install nginx
 ## (see baseimage/build/opt/custom-installers)
 /opt/custom-installers/nginx/install.sh
 
 ## configure nginx
-install -m 644 -o root -g root -p /build/etc/nginx/sites-available/fluentd-ui /etc/nginx/sites-available/fluentd-ui
+install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/nginx/sites-available/fluentd-ui /etc/nginx/sites-available/fluentd-ui
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/fluentd-ui /etc/nginx/sites-enabled/fluentd-ui
 etckeeper commit "nginx: disabled default site, enabled fluentd-ui site"
