@@ -1,7 +1,7 @@
 # about minimum2scp/baseimage-jessie image
 
  * based on [minimum2scp/debian-jessie](https://github.com/minimum2scp/dockerfiles/tree/master/debian-jessie) image
- * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-jessie/tmp/build/baseimage-jessie/opt/init-wrapper/sbin/init) by default
+ * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage-jessie/build/opt/init-wrapper/sbin/init) by default
    * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
    * /sbin/init is replaced by sysvinit-core package
    * /sbin/init invokes sshd, rsyslogd, cron daemons
