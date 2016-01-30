@@ -14,6 +14,7 @@ fi
 
 if [ -n "${DEFAULT_TZ}" ]; then
   echo "${DEFAULT_TZ}" > /etc/timezone
+  [ -L /etc/localtime ] && rm /etc/localtime
   dpkg-reconfigure -f noninteractive tzdata 1>/dev/null 2>/dev/null
   etckeeper commit "set timezone to ${DEFAULT_TZ}" 1>/dev/null 2>/dev/null
 fi
