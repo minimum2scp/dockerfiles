@@ -10,7 +10,7 @@ export DEBIAN_FRONTEND=noninteractive
 packages="python-sphinx"
 packages="$packages python-sphinxcontrib.blockdiag python-sphinxcontrib.actdiag"
 packages="$packages python-sphinxcontrib.seqdiag python-sphinxcontrib.nwdiag"
-packages="$packages python-pip python-pil"
+packages="$packages python-setuptools python-pip python-pil"
 packages="$packages make"
 packages="$packages fonts-ipafont-gothic fonts-ipafont-mincho"
 
