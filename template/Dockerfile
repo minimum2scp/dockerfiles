@@ -1,8 +1,8 @@
 FROM minimum2scp/baseimage:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-COPY build /build
-RUN run-parts --report --exit-on-error /build/scripts && rm -rfv /build
+COPY build /tmp/build/template
+RUN run-parts --report --exit-on-error /tmp/build/template/scripts && rm -rfv /tmp/build/template
 EXPOSE 22
 
 ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]

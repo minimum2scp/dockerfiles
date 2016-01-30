@@ -6,7 +6,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 ## install ndenv into /opt/ndenv, with git
 git clone https://github.com/creationix/nvm.git                /opt/nvm
-install -m 755 -o root -g root -p /build/etc/profile.d/nvm.sh  /etc/profile.d/nvm.sh
+install -m 755 -o root -g root -p /tmp/build/nodejs/etc/profile.d/nvm.sh  /etc/profile.d/nvm.sh
 etckeeper commit "add /etc/profile.d/nvm.sh to use /opt/nvm"
 
 ## create /opt/nvm/alias

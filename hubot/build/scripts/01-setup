@@ -9,11 +9,11 @@ packages="direnv redis-tools"
 apt-get install -y --no-install-recommends ${packages}
 
 ## install supervisor
-## (see baseimage/build/opt/custom-installers)
+## (see baseimage/tmp/build/hubot/opt/custom-installers)
 /opt/custom-installers/supervisor/install.sh
 
 ## configure shell environment variable
-install -m 644 -o root -g root /build/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
+install -m 644 -o root -g root /tmp/build/hubot/etc/profile.d/hubot.sh /etc/profile.d/hubot.sh
 
 ## nvm nodejs version
 nodejs_version=v5.3.0
@@ -26,20 +26,20 @@ bash -l -c "nvm exec ${nodejs_version} npm install -g yo generator-hubot"
 ##
 ## install custom init scripts
 ##
-find /build/opt/init-wrapper/sbin \
-     /build/opt/init-wrapper/pre-init.d \
-     /build/opt/init-wrapper/post-init.d \
+find /tmp/build/hubot/opt/init-wrapper/sbin \
+     /tmp/build/hubot/opt/init-wrapper/pre-init.d \
+     /tmp/build/hubot/opt/init-wrapper/post-init.d \
      -maxdepth 1 -mindepth 1 -type f -a -executable \
 | while read f; do
-  install -m 755 -o root -g root -p -D ${f} ${f#/build}
+  install -m 755 -o root -g root -p -D ${f} ${f#/tmp/build/hubot}
 done
 
-find /build/opt/init-wrapper/sbin \
-     /build/opt/init-wrapper/pre-init.d \
-     /build/opt/init-wrapper/post-init.d \
+find /tmp/build/hubot/opt/init-wrapper/sbin \
+     /tmp/build/hubot/opt/init-wrapper/pre-init.d \
+     /tmp/build/hubot/opt/init-wrapper/post-init.d \
      -maxdepth 1 -mindepth 1 -type f -a -not -executable \
 | while read f; do
-  install -m 644 -o root -g root -p -D ${f} ${f#/build}
+  install -m 644 -o root -g root -p -D ${f} ${f#/tmp/build/hubot}
 done
 
 

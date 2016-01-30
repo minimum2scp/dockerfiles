@@ -1,8 +1,8 @@
 FROM minimum2scp/ruby:latest
 MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
 
-ADD build /build
-RUN run-parts --report --exit-on-error /build/scripts && rm -rfv /build
+ADD build /tmp/build/fluentd-ui
+RUN run-parts --report --exit-on-error /tmp/build/fluentd-ui/scripts && rm -rfv /tmp/build/fluentd-ui
 EXPOSE 22 80 9001
 
 ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]

@@ -29,13 +29,13 @@ chown -R kibana:kibana /opt/kibana
 
 ##
 ## install supervisor
-## (see baseimage/build/opt/custom-installers)
+## (see baseimage/tmp/build/es-kibana/opt/custom-installers)
 ##
 /opt/custom-installers/supervisor/install.sh
 
 ##
 ## add kibana to supervisor
 ##
-install -m 644 -o root -g root -p /build/etc/supervisor/conf.d/kibana.conf /etc/supervisor/conf.d/kibana.conf
+install -m 644 -o root -g root -p /tmp/build/es-kibana/etc/supervisor/conf.d/kibana.conf /etc/supervisor/conf.d/kibana.conf
 etckeeper commit "supervisor: add kibana"
 

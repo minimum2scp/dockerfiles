@@ -4,5 +4,5 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-cp -a /build/opt/custom-installers /opt/custom-installers
+cp -a /tmp/build/baseimage-wheezy/opt/custom-installers /opt/custom-installers
 
