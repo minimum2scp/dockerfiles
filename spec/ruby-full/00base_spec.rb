@@ -48,7 +48,7 @@ describe 'minimum2scp/ruby-full' do
     end
 
     describe command('ruby2.2 -v') do
-      its(:stdout) { should include 'ruby 2.2.3p173 (2015-08-18) [x86_64-linux-gnu]'}
+      its(:stdout) { should include 'ruby 2.2.4p230 (2015-12-16) [x86_64-linux-gnu]' }
     end
   end
 end
