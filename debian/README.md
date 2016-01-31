@@ -24,7 +24,7 @@ ii   base-files              9.5                      amd64  Debian base system 
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
 ii   bsdutils                1:2.27.1-3               amd64  basic utilities from 4.4BSD-Lite                                      
-ii   coreutils               8.24-1                   amd64  GNU core utilities                                                    
+ii   coreutils               8.25-1                   amd64  GNU core utilities                                                    
 ii   dash                    0.5.8-2.1                amd64  POSIX-compliant shell                                                 
 ii   debconf                 1.5.58                   all    Debian configuration management system                                
 ii   debconf-i18n            1.5.58                   all    full internationalization support for debconf                         
@@ -110,7 +110,7 @@ ii   ncurses-base            6.0+20151024-2           all    basic terminal type
 ii   ncurses-bin             6.0+20151024-2           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
-ii   perl-base               5.22.1-4                 amd64  minimal Perl system                                                   
+ii   perl-base               5.22.1-5                 amd64  minimal Perl system                                                   
 ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.2-6.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
@@ -120,7 +120,7 @@ ii   systemd-sysv            228-4+b1                 amd64  system and service 
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2015g-1                  all    time zone and daylight-saving time data                               
+ii   tzdata                  2016a-1                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.27.1-3                 amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
 ```
