@@ -68,7 +68,7 @@ ii   bash                    4.3-14+b1                     amd64  GNU Bourne Aga
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                      
 ii   bsdutils                1:2.27.1-3                    amd64  basic utilities from 4.4BSD-Lite                                               
 ii   ca-certificates         20160104                      all    Common CA certificates                                                         
-ii   coreutils               8.24-1                        amd64  GNU core utilities                                                             
+ii   coreutils               8.25-1                        amd64  GNU core utilities                                                             
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                      
 ii   curl                    7.47.0-1                      amd64  command line tool for transferring data with URL syntax                        
 ii   dash                    0.5.8-2.1                     amd64  POSIX-compliant shell                                                          
@@ -159,7 +159,7 @@ ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Auth
 ii   libpam-runtime          1.1.8-3.2                     all    Runtime support for the PAM library                                            
 ii   libpam0g                1.1.8-3.2                     amd64  Pluggable Authentication Modules library                                       
 ii   libpcre3                2:8.38-1                      amd64  Perl 5 Compatible Regular Expression Library - runtime files                   
-ii   libperl5.22             5.22.1-4                      amd64  shared Perl library                                                            
+ii   libperl5.22             5.22.1-5                      amd64  shared Perl library                                                            
 ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                                  
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                             
 ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                           
@@ -212,9 +212,9 @@ ii   openssh-server          1:7.1p2-2                     amd64  secure shell (
 ii   openssh-sftp-server     1:7.1p2-2                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines    
 ii   openssl                 1.0.2f-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility                           
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                                  
-ii   perl                    5.22.1-4                      amd64  Larry Wall's Practical Extraction and Report Language                          
-ii   perl-base               5.22.1-4                      amd64  minimal Perl system                                                            
-ii   perl-modules-5.22       5.22.1-4                      all    Core Perl modules                                                              
+ii   perl                    5.22.1-5                      amd64  Larry Wall's Practical Extraction and Report Language                          
+ii   perl-base               5.22.1-5                      amd64  minimal Perl system                                                            
+ii   perl-modules-5.22       5.22.1-5                      all    Core Perl modules                                                              
 ii   procps                  2:3.3.11-3                    amd64  /proc file system utilities                                                    
 ii   python                  2.7.11-1                      amd64  interactive high-level object-oriented language (default version)              
 ii   python-minimal          2.7.11-1                      amd64  minimal subset of the Python language (default version)                        
@@ -230,7 +230,7 @@ ii   sysv-rc                 2.88dsf-59.3                  all    System-V-like 
 ii   sysvinit-core           2.88dsf-59.3                  amd64  System-V-like init utilities                                                   
 ii   sysvinit-utils          2.88dsf-59.3                  amd64  System-V-like utilities                                                        
 ii   tar                     1.28-2.1                      amd64  GNU version of the tar archiving utility                                       
-ii   tzdata                  2015g-1                       all    time zone and daylight-saving time data                                        
+ii   tzdata                  2016a-1                       all    time zone and daylight-saving time data                                        
 ii   ucf                     3.0033                        all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                     
 ii   util-linux              2.27.1-3                      amd64  miscellaneous system utilities                                                 
