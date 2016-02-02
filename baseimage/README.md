@@ -118,7 +118,7 @@ ii   libcomerr2              1.42.13-1                     amd64  common error d
 ii   libcryptsetup4          2:1.7.0-2                     amd64  disk encryption support - shared library                                       
 ii   libcurl3-gnutls         7.47.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                     
-ii   libdebconfclient0       0.203                         amd64  Debian Configuration Management System (C-implementation library)              
+ii   libdebconfclient0       0.204                         amd64  Debian Configuration Management System (C-implementation library)              
 ii   libdevmapper1.02.1      2:1.02.115-1                  amd64  Linux Kernel Device Mapper userspace library                                   
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                      
@@ -130,7 +130,7 @@ ii   libgcc1                 1:5.3.1-7                     amd64  GCC support li
 ii   libgcrypt20             1.6.4-5                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
-ii   libgnutls30             3.4.8-2                       amd64  GNU TLS library - main runtime library                                         
+ii   libgnutls30             3.4.8-3                       amd64  GNU TLS library - main runtime library                                         
 ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.1.1-4                       amd64  low level cryptographic library (public-key cryptos)                           
