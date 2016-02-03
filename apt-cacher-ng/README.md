@@ -12,8 +12,27 @@ docker run -d -p 3142:3142 -e ACNG_BACKENDS_DEBIAN=http://ftp.jp.debian.org/debi
 and then use from localhost:
 
 ```
-sudo apt-get -o Acquire::http::Proxy=http://localhost:3142 -o Acquire::https::Proxy=DIRECT update
-sudo apt-get -o Acquire::http::Proxy=http://localhost:3142 -o Acquire::https::Proxy=DIRECT upgrade
+sudo apt-get -o Acquire::http::Proxy=http://localhost:3142/ -o Acquire::https::Proxy=DIRECT update
+sudo apt-get -o Acquire::http::Proxy=http://localhost:3142/ -o Acquire::https::Proxy=DIRECT upgrade
+```
+
+or
+
+```
+sudo http_proxy=http://localhost:3142 https_proxy= apt-get update
+sudo http_proxy=http://localhost:3142 https_proxy= apt-get upgrade
+```
+
+use with docker build:
+
+```
+docker build --build-arg http_proxy=http://<container IP address>:3142/ --build-arg https_proxy= -t some-image .
+```
+
+use with docker run minimum2scp/baseimage:latest:
+
+```
+docker run -d -e APT_HTTP_PROXY=http://<container IP address>:3142/ minimum2scp/baseimage:latest
 ```
 
 ## ssh login to container
