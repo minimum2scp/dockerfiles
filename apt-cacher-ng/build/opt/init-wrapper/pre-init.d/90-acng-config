@@ -3,17 +3,17 @@
 ##
 ## Environment variables
 ##
-##  - ACNG_DEBIAN_MIRROR: "http://ftp.jp.debian.org/debian/"
+##  - ACNG_BACKENDS_DEBIAN: "http://ftp.jp.debian.org/debian/"
 ##
 
-if [ -n "${ACNG_DEBIAN_MIRROR}" ]; then
-  echo "${ACNG_DEBIAN_MIRROR}" > /etc/apt-cacher-ng/backends_debian
+if [ -n "${ACNG_BACKENDS_DEBIAN}" ]; then
+  echo "${ACNG_BACKENDS_DEBIAN}" > /etc/apt-cacher-ng/backends_debian
   if etckeeper unclean; then
-    etckeeper commit "apt-cacher-ng: changed backends_debian to ${ACNG_DEBIAN_MIRROR}" 1>/dev/null 2>/dev/null
+    etckeeper commit "apt-cacher-ng: changed backends_debian to ${ACNG_BACKENDS_DEBIAN}" 1>/dev/null 2>/dev/null
   fi
 
-  sed -i -e 's/^export ACNG_DEBIAN_MIRROR=/#export ACNG_DEBIAN_MIRROR=/' /etc/profile.d/00docker-env.sh
+  sed -i -e 's/^export ACNG_BACKENDS_DEBIAN=/#export ACNG_BACKENDS_DEBIAN=/' /etc/profile.d/00docker-env.sh
   if etckeeper unclean; then
-    etckeeper commit "profile.d/00docker-env.sh: comment out ACNG_DEBIAN_MIRROR" 1>/dev/null 2>/dev/null
+    etckeeper commit "profile.d/00docker-env.sh: comment out ACNG_BACKENDS_DEBIAN" 1>/dev/null 2>/dev/null
   fi
 fi
