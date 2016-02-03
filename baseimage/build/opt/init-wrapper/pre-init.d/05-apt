@@ -84,7 +84,7 @@ if [ -n "${APT_LINE}" ]; then
 fi
 
 if [ -n "${APT_HTTP_PROXY}" ]; then
-  echo "Acquire::http::proxy \"${APT_HTTP_PROXY}\"" > /etc/apt/apt.conf.d/proxy.conf
+  echo "Acquire::http::proxy \"${APT_HTTP_PROXY}\";" > /etc/apt/apt.conf.d/proxy.conf
   if etckeeper unclean; then
     etckeeper commit "apt: use ${APT_HTTP_PROXY} as http proxy (changed by $0)" 1>/dev/null 2>/dev/null
   fi
