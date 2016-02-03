@@ -7,7 +7,8 @@ export DEBIAN_FRONTEND=noninteractive
 install -m 644 -o root -g root -p /tmp/build/baseimage-jessie/etc/apt/sources.list /etc/apt/sources.list
 
 if [ "${http_proxy}" ]; then
-  echo "Acquire::http::proxy \"${http_proxy}\";" > /etc/apt/apt.conf.d/proxy.conf
+  echo "Acquire::http::proxy \"${http_proxy}\";"  >  /etc/apt/apt.conf.d/proxy.conf
+  echo "Acquire::https::proxy \"DIRECT\";"        >> /etc/apt/apt.conf.d/proxy.conf
   if [ -x /usr/bin/etckeeper ]; then
     if etckeeper unclean; then
       etckeeper commit "Enabled http_proxy for apt"
