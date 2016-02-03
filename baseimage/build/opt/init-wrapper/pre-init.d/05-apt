@@ -7,6 +7,7 @@
 ##   - APT_INSTALL_PACKAGES    : "pkg1 pkg2=1.2-3 pkg3- ..."
 ##   - APT_INSTALL_RECOMMENDS  : "yes", "true", "on", 1
 ##   - APT_INSTALL_SUGGESTS    : "yes", "true", "on", 1
+##   - APT_HTTP_PROXY          : "http://x.x.x.x:3142/"
 ##
 
 set -e
@@ -80,6 +81,13 @@ if [ -n "${APT_LINE}" ]; then
     change_apt_line "${APT_LINE}"
     ;;
   esac
+fi
+
+if [ -n "${APT_HTTP_PROXY}" ]; then
+  echo "Acquire::http::proxy \"${APT_HTTP_PROXY}\";" > /etc/apt/apt.conf.d/proxy.conf
+  if etckeeper unclean; then
+    etckeeper commit "apt: use ${APT_HTTP_PROXY} as http proxy (changed by $0)" 1>/dev/null 2>/dev/null
+  fi
 fi
 
 clear_post_init
