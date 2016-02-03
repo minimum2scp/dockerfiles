@@ -22,13 +22,6 @@ if [ "${http_proxy}" ]; then
 fi
 
 ##
-## regenerate ssh host keys
-##
-rm -v /etc/ssh/ssh_host_*_key /etc/ssh/ssh_host_*_key.pub
-dpkg-reconfigure openssh-server
-etckeeper commit "openssh-server: regenerate ssh host keys"
-
-##
 ## upgrade installed packages
 ##
 apt-get update
