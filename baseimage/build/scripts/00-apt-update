@@ -6,6 +6,15 @@ export DEBIAN_FRONTEND=noninteractive
 
 install -m 644 -o root -g root -p /tmp/build/baseimage/etc/apt/sources.list /etc/apt/sources.list
 
+if [ "${http_proxy}" ]; then
+  echo "Acquire::http::proxy \"${http_proxy}\";" > /etc/apt/apt.conf.d/proxy.conf
+  if [ -x /usr/bin/etckeeper ]; then
+    if etckeeper unclean; then
+      etckeeper commit "Enabled http_proxy for apt"
+    fi
+  fi
+fi
+
 apt-get update
 apt-get dist-upgrade -y --fix-missing --fix-broken
 

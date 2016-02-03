@@ -10,6 +10,18 @@ export DEBIAN_FRONTEND=noninteractive
 git config --global user.email "root@`hostname`"
 
 ##
+## configure http_proxy for apt
+##
+if [ "${http_proxy}" ]; then
+  echo "Acquire::http::proxy \"${http_proxy}\";" > /etc/apt/apt.conf.d/proxy.conf
+  if [ -x /usr/bin/etckeeper ]; then
+    if etckeeper unclean; then
+      etckeeper commit "Enabled http_proxy for apt"
+    fi
+  fi
+fi
+
+##
 ## regenerate ssh host keys
 ##
 rm -v /etc/ssh/ssh_host_*_key /etc/ssh/ssh_host_*_key.pub
