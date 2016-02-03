@@ -196,6 +196,7 @@ describe 'minimum2scp/baseimage' do
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
       it { should be_exist }
       its(:content){ should include 'Acquire::http::proxy "http://x.x.x.x:3142/";' }
+      its(:content){ should include 'Acquire::https::proxy "DIRECT";' }
     end
 
     describe file("/etc/default/locale") do
