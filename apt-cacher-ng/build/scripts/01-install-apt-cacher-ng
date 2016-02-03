@@ -7,7 +7,8 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install --no-install-recommends -y apt-cacher-ng
 
 sed -i \
-  -e 's@^# UnbufferLogs: 0@UnbufferLogs: 0@'  \
-  -e 's@^# VerboseLog: 1@UnbufferLogs: 1@'    \
+  -e 's@^# \(UnbufferLogs: 0\)@\1@'  \
+  -e 's@^# \(VerboseLog: 1\)@\1@'    \
+  -e 's@^# \(PrecacheFor: .*\)@\1@'  \
   /etc/apt-cacher-ng/acng.conf
 
