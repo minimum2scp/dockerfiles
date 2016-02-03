@@ -12,3 +12,7 @@ sed -i \
   -e 's@^# \(PrecacheFor: .*\)@\1@'  \
   /etc/apt-cacher-ng/acng.conf
 
+if etckeeper unclean; then
+  etckeeper commit "apt-cacher-ng: configured UnbufferLogs, VerboseLog, PrecacheFor"
+fi
+
