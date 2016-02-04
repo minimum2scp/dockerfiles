@@ -5,18 +5,6 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
-## unset http_proxy
-##
-if [ -f /etc/apt/apt.conf.d/proxy.conf ]; then
-  rm /etc/apt/apt.conf.d/proxy.conf
-  if [ -x /usr/bin/etckeeper ]; then
-    if etckeeper unclean; then
-      etckeeper commit "Disabled http_proxy for apt"
-    fi
-  fi
-fi
-
-##
 ## unset user.email (etckeeper)
 ##
 git config --global --unset user.email
