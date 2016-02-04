@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-1+b1                  amd64  ICMP echo tool
 ii   init                    1.27                          amd64  System-V-like init utilities - metapackage                                     
 ii   init-system-helpers     1.27                          all    helper tools for all init systems                                              
 ii   initscripts             2.88dsf-59.3                  amd64  scripts for initializing and shutting down the system                          
-ii   insserv                 1.14.0-5.1                    amd64  boot sequence organizer using LSB init.d script dependency information         
+ii   insserv                 1.14.0-5.2                    amd64  boot sequence organizer using LSB init.d script dependency information         
 ii   iproute2                4.3.0-1                       amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-2                      amd64  Access control list shared library                                             
 ii   libapparmor1            2.10-3                        amd64  changehat AppArmor library                                                     
@@ -182,13 +182,13 @@ ii   libss2                  1.42.13-1                     amd64  command-line i
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2f-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              5.3.1-7                       amd64  GNU Standard C++ Library v3                                                    
-ii   libsystemd0             228-4+b1                      amd64  systemd utility library                                                        
+ii   libsystemd0             228-5                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                               
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                        
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                        
-ii   libudev1                228-4+b1                      amd64  libudev shared library                                                         
+ii   libudev1                228-5                         amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                              
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                           
 ii   libuuid1                2.27.1-3                      amd64  Universally Unique ID library                                                  

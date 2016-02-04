@@ -1081,7 +1081,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.14.0-5.1",
+    "Version": "1.14.0-5.2",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.14.0-5.1"
+    "source:Version": "1.14.0-5.2"
   },
   {
     "Architecture": "amd64",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-4+b1",
+    "Version": "228-5",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-4"
+    "source:Version": "228-5"
   },
   {
     "Architecture": "amd64",
@@ -3601,7 +3601,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-4+b1",
+    "Version": "228-5",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-4"
+    "source:Version": "228-5"
   },
   {
     "Architecture": "amd64",
