@@ -6,3 +6,13 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt-get install --no-install-recommends -y apt-cacher-ng
 
+sed -i \
+  -e 's@^# \(UnbufferLogs:\) .*@\1 1@'      \
+  -e 's@^# \(VerboseLog:\) .*@\1 1@'        \
+  -e 's@^# \(PrecacheFor:\) \(.*\)@\1 \2@'  \
+  /etc/apt-cacher-ng/acng.conf
+
+if etckeeper unclean; then
+  etckeeper commit "apt-cacher-ng: configured UnbufferLogs, VerboseLog, PrecacheFor"
+fi
+
