@@ -1655,7 +1655,7 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "libgssglue1 (<< 0.2-2)",
-    "Depends": "libc6 (>= 2.7), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u6), libkrb5support0 (>= 1.7dfsg~beta2)",
+    "Depends": "libc6 (>= 2.7), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u7), libkrb5support0 (>= 1.7dfsg~beta2)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "341",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.10.1+dfsg-5+deb7u6",
+    "Version": "1.10.1+dfsg-5+deb7u7",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "krb5",
-    "source:Version": "1.10.1+dfsg-5+deb7u6"
+    "source:Version": "1.10.1+dfsg-5+deb7u7"
   },
   {
     "Architecture": "amd64",
@@ -1714,7 +1714,7 @@
     "Depends": "libc6 (>= 2.4), libkeyutils1, libkrb5support0 (>= 1.7dfsg~beta2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "241",
+    "Installed-Size": "242",
     "Origin": null,
     "Package": "libk5crypto3",
     "Pre-Depends": "multiarch-support",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.10.1+dfsg-5+deb7u6",
+    "Version": "1.10.1+dfsg-5+deb7u7",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "krb5",
-    "source:Version": "1.10.1+dfsg-5+deb7u6"
+    "source:Version": "1.10.1+dfsg-5+deb7u7"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "libkrb53",
     "Breaks": "libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.9), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1, libkrb5support0 (= 1.10.1+dfsg-5+deb7u6)",
+    "Depends": "libc6 (>= 2.9), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1, libkrb5support0 (= 1.10.1+dfsg-5+deb7u7)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "984",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.10.1+dfsg-5+deb7u6",
+    "Version": "1.10.1+dfsg-5+deb7u7",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "krb5",
-    "source:Version": "1.10.1+dfsg-5+deb7u6"
+    "source:Version": "1.10.1+dfsg-5+deb7u7"
   },
   {
     "Architecture": "amd64",
@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.3.4), libkeyutils1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "115",
+    "Installed-Size": "116",
     "Origin": null,
     "Package": "libkrb5support0",
     "Pre-Depends": "multiarch-support",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.10.1+dfsg-5+deb7u6",
+    "Version": "1.10.1+dfsg-5+deb7u7",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "krb5",
-    "source:Version": "1.10.1+dfsg-5+deb7u6"
+    "source:Version": "1.10.1+dfsg-5+deb7u7"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, libpam-ssh, keychain, monkeysphere",
-    "Version": "1:6.0p1-4+deb7u2",
+    "Version": "1:6.0p1-4+deb7u3",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3245,13 +3245,13 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssh",
-    "source:Version": "1:6.0p1-4+deb7u2"
+    "source:Version": "1:6.0p1-4+deb7u3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2",
     "Breaks": null,
-    "Depends": "libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u2), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps",
+    "Depends": "libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u3), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "709",
@@ -3265,7 +3265,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, rssh, molly-guard, ufw, monkeysphere",
-    "Version": "1:6.0p1-4+deb7u2",
+    "Version": "1:6.0p1-4+deb7u3",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssh",
-    "source:Version": "1:6.0p1-4+deb7u2"
+    "source:Version": "1:6.0p1-4+deb7u3"
   },
   {
     "Architecture": "amd64",
