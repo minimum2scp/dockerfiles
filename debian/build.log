@@ -163,8 +163,8 @@ I: Retrieving libpam0g 1.1.8-3.2
 I: Validating libpam0g 1.1.8-3.2
 I: Retrieving libpcre3 2:8.38-1
 I: Validating libpcre3 2:8.38-1
-I: Retrieving perl-base 5.22.1-5
-I: Validating perl-base 5.22.1-5
+I: Retrieving perl-base 5.22.1-7
+I: Validating perl-base 5.22.1-7
 I: Retrieving libreadline6 6.3-8+b4
 I: Validating libreadline6 6.3-8+b4
 I: Retrieving readline-common 6.3-8
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [287 kB]
-Fetched 287 kB in 0s (1238 kB/s)
+Fetched 287 kB in 0s (1270 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 2ea8612c6076
-Removing intermediate container c1519742fb07
+ ---> 48f31b68cf55
+Removing intermediate container 348cc2136f5f
 Step 3 : CMD /bin/bash
- ---> Running in ba9c621cb903
- ---> f11d5f7a46ce
-Removing intermediate container ba9c621cb903
-Successfully built f11d5f7a46ce
+ ---> Running in 19342a7e87b9
+ ---> 03dcc8fab650
+Removing intermediate container 19342a7e87b9
+Successfully built 03dcc8fab650

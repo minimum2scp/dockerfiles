@@ -2582,7 +2582,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "7091",
+    "Installed-Size": "7101",
     "Origin": null,
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.14), dpkg (>= 1.17.17)",
@@ -2593,7 +2593,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.22.1-5",
+    "Version": "5.22.1-7",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.1-5"
+    "source:Version": "5.22.1-7"
   },
   {
     "Architecture": "all",
