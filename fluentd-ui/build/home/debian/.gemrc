@@ -1,3 +1,0 @@
-install: --user-install -N
-update: --user-install -N
-

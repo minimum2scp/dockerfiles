@@ -12,7 +12,7 @@ server {
         #index index.html index.htm;
 
         location / {
-                alias /home/debian/fluentd-ui/public;
+                alias /opt/fluentd-ui/public;
                 try_files $uri $uri/index.html @fluentd-ui;
         }
 

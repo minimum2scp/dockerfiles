@@ -7,13 +7,33 @@ export DEBIAN_FRONTEND=noninteractive
 ## install build-dependencies
 apt-get install --no-install-recommends -y libcurl4-openssl-dev
 
-## put .gemrc
-install -m 644 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/.gemrc /home/debian/.gemrc
+## install td-agent
+curl -L https://td-toolbelt.herokuapp.com/sh/install-debian-jessie-td-agent2.sh | sh
+if etckeeper unclean; then etckeeper commit "Installed td-agent"; fi
 
-## install fluentd-ui
-sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.4.2 /home/debian/fluentd-ui
-sudo -u debian mkdir -p /home/debian/.gem/ruby/2.2.0
-sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path /home/debian/.gem --without development test"
+## make home directory of td-agent user
+td_agent_home=$(getent  passwd td-agent | awk -F: '{print $6}')
+if [ ! -d ${td_agent_home} ]; then
+  mkdir ${td_agent_home}
+  chown -R td-agent:td-agent ${td_agent_home}
+fi
+
+## change group of /etc/td-agent to td-agent and group-writable
+chgrp -R td-agent /etc/td-agent
+chmod -R g+w /etc/td-agent
+if etckeeper unclean; then
+  etckeeper commit "td-agent: change group to td-agent, and group-writable for fluentd-ui"
+fi
+
+## put gemrc
+install -m 644 -o debian -g debian -p /tmp/build/fluentd-ui/etc/gemrc /etc/gemrc
+etckeeper commit "gemrc: do not install document on gem install, gem update"
+
+## install fluentd-ui in /opt/fluentd-ui
+git clone https://github.com/fluent/fluentd-ui.git -b v0.4.2 /opt/fluentd-ui
+chown -R td-agent:td-agent /opt/fluentd-ui
+sudo -u td-agent mkdir -p /opt/fluentd-ui/vendor/bundle
+sudo -u td-agent sh -c "cd /opt/fluentd-ui; bundle install --path vendor/bundle --jobs 4 --without development test"
 
 ## install supervisor
 ## (see baseimage/build/opt/custom-installers)
@@ -24,7 +44,7 @@ install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/supervisor/conf.d/fl
 etckeeper commit "supervisor: add fluentd-ui"
 
 ## install startup script for fluentd-ui
-install -m 755 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/fluentd-ui/start_server.sh /home/debian/fluentd-ui/start_server.sh
+install -m 755 -o debian -g debian -p /tmp/build/fluentd-ui/opt/fluentd-ui/start_server.sh /opt/fluentd-ui/start_server.sh
 
 ## install nginx
 ## (see baseimage/build/opt/custom-installers)
