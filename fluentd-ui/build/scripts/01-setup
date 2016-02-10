@@ -26,7 +26,7 @@ if etckeeper unclean; then
 fi
 
 ## put gemrc
-install -m 644 -o debian -g debian -p /tmp/build/fluentd-ui/etc/gemrc /etc/gemrc
+install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/gemrc /etc/gemrc
 etckeeper commit "gemrc: do not install document on gem install, gem update"
 
 ## install fluentd-ui in /opt/fluentd-ui
@@ -44,7 +44,7 @@ install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/supervisor/conf.d/fl
 etckeeper commit "supervisor: add fluentd-ui"
 
 ## install startup script for fluentd-ui
-install -m 755 -o debian -g debian -p /tmp/build/fluentd-ui/opt/fluentd-ui/start_server.sh /opt/fluentd-ui/start_server.sh
+install -m 755 -o td-agent -g td-agent -p /tmp/build/fluentd-ui/opt/fluentd-ui/start_server.sh /opt/fluentd-ui/start_server.sh
 
 ## install nginx
 ## (see baseimage/build/opt/custom-installers)
