@@ -11,8 +11,8 @@ apt-get install --no-install-recommends -y libcurl4-openssl-dev
 install -m 644 -o debian -g debian -p /tmp/build/fluentd-ui/home/debian/.gemrc /home/debian/.gemrc
 
 ## install fluentd-ui
-sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.2.0 /home/debian/fluentd-ui
-sudo -u debian mkdir -p /home/debian/.gem/ruby/2.1.0
+sudo -u debian git clone https://github.com/fluent/fluentd-ui.git -b v0.4.2 /home/debian/fluentd-ui
+sudo -u debian mkdir -p /home/debian/.gem/ruby/2.2.0
 sudo -u debian bash -c "cd /home/debian/fluentd-ui; bundle install --path /home/debian/.gem --without development test"
 
 ## install supervisor
