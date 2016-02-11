@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                                
-ii   apt                     1.2.2                         amd64  commandline package manager                                                    
+ii   apt                     1.2.3                         amd64  commandline package manager                                                    
 ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
@@ -102,7 +102,7 @@ ii   insserv                 1.14.0-5.2                    amd64  boot sequence 
 ii   iproute2                4.3.0-1                       amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library                                             
 ii   libapparmor1            2.10-3                        amd64  changehat AppArmor library                                                     
-ii   libapt-pkg5.0           1.2.2                         amd64  package management runtime library                                             
+ii   libapt-pkg5.0           1.2.3                         amd64  package management runtime library                                             
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                              
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1                     amd64  Dynamic library for security auditing                                          
@@ -127,7 +127,7 @@ ii   libexpat1               2.1.0-7                       amd64  XML parsing C 
 ii   libfdisk1               2.27.1-3                      amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                     
 ii   libgcc1                 1:5.3.1-8                     amd64  GCC support library                                                            
-ii   libgcrypt20             1.6.4-5                       amd64  LGPL Crypto library - runtime library                                          
+ii   libgcrypt20             1.6.5-2                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls30             3.4.9-2                       amd64  GNU TLS library - main runtime library                                         
@@ -170,7 +170,7 @@ ii   libreadline6            6.3-8+b4                      amd64  GNU readline a
 ii   librtmp1                2.4+20151223.gitfa8646d-1+b1  amd64  toolkit for RTMP streams (shared library)                                      
 ii   libsasl2-2              2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - authentication abstraction library                                
 ii   libsasl2-modules-db     2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - pluggable authentication modules (DB)                             
-ii   libseccomp2             2.2.3-2                       amd64  high level interface to Linux seccomp filter                                   
+ii   libseccomp2             2.2.3-3                       amd64  high level interface to Linux seccomp filter                                   
 ii   libselinux1             2.4-3                         amd64  SELinux runtime shared libraries                                               
 ii   libsemanage-common      2.4-3                         all    Common files for SELinux policy management libraries                           
 ii   libsemanage1            2.4-3                         amd64  SELinux policy management library                                              
