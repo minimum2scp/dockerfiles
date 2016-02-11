@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3               all    add and remove users and groups                                       
-ii   apt                     1.2.2                    amd64  commandline package manager                                           
+ii   apt                     1.2.3                    amd64  commandline package manager                                           
 ii   base-files              9.5                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
@@ -52,7 +52,7 @@ ii   insserv                 1.14.0-5.2               amd64  boot sequence organ
 ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-3                   amd64  changehat AppArmor library                                            
-ii   libapt-pkg5.0           1.2.2                    amd64  package management runtime library                                    
+ii   libapt-pkg5.0           1.2.3                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
 ii   libaudit1               1:2.4.5-1                amd64  Dynamic library for security auditing                                 
@@ -69,7 +69,7 @@ ii   libdebconfclient0       0.204                    amd64  Debian Configuratio
 ii   libdevmapper1.02.1      2:1.02.115-2             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-3                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-8                amd64  GCC support library                                                   
-ii   libgcrypt20             1.6.4-5                  amd64  LGPL Crypto library - runtime library                                 
+ii   libgcrypt20             1.6.5-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1                     amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
@@ -84,7 +84,7 @@ ii   libpam-runtime          1.1.8-3.2                all    Runtime support for
 ii   libpam0g                1.1.8-3.2                amd64  Pluggable Authentication Modules library                              
 ii   libpcre3                2:8.38-1                 amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries                
-ii   libseccomp2             2.2.3-2                  amd64  high level interface to Linux seccomp filter                          
+ii   libseccomp2             2.2.3-3                  amd64  high level interface to Linux seccomp filter                          
 ii   libselinux1             2.4-3                    amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.4-3                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.4-3                    amd64  SELinux policy management library                                     

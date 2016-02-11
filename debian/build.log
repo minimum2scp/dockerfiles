@@ -15,10 +15,10 @@ I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
 I: Retrieving libapparmor1 2.10-3
 I: Validating libapparmor1 2.10-3
-I: Retrieving apt 1.2.2
-I: Validating apt 1.2.2
-I: Retrieving libapt-pkg5.0 1.2.2
-I: Validating libapt-pkg5.0 1.2.2
+I: Retrieving apt 1.2.3
+I: Validating apt 1.2.3
+I: Retrieving libapt-pkg5.0 1.2.3
+I: Validating libapt-pkg5.0 1.2.3
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4.5-1
@@ -107,14 +107,14 @@ I: Retrieving libcap2 1:2.24-12
 I: Validating libcap2 1:2.24-12
 I: Retrieving libcap2-bin 1:2.24-12
 I: Validating libcap2-bin 1:2.24-12
-I: Retrieving libgcrypt20 1.6.4-5
-I: Validating libgcrypt20 1.6.4-5
+I: Retrieving libgcrypt20 1.6.5-2
+I: Validating libgcrypt20 1.6.5-2
 I: Retrieving libgpg-error0 1.21-1
 I: Validating libgpg-error0 1.21-1
 I: Retrieving liblocale-gettext-perl 1.07-1+b1
 I: Validating liblocale-gettext-perl 1.07-1+b1
-I: Retrieving libseccomp2 2.2.3-2
-I: Validating libseccomp2 2.2.3-2
+I: Retrieving libseccomp2 2.2.3-3
+I: Validating libseccomp2 2.2.3-3
 I: Retrieving libselinux1 2.4-3
 I: Validating libselinux1 2.4-3
 I: Retrieving libsemanage-common 2.4-3
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [287 kB]
-Fetched 287 kB in 0s (1270 kB/s)
+Fetched 287 kB in 0s (726 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 48f31b68cf55
-Removing intermediate container 348cc2136f5f
+ ---> 48189c5b9189
+Removing intermediate container 3646251ae782
 Step 3 : CMD /bin/bash
- ---> Running in 19342a7e87b9
- ---> 03dcc8fab650
-Removing intermediate container 19342a7e87b9
-Successfully built 03dcc8fab650
+ ---> Running in fface7858560
+ ---> 4ecae42770d4
+Removing intermediate container fface7858560
+Successfully built 4ecae42770d4
