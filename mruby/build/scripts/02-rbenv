@@ -8,6 +8,6 @@ export DEBIAN_FRONTEND=noninteractive
 bash -l -c "rbenv update"
 
 ## build rubies
-bash -l -c "rbenv install mruby-1.0.0"
+bash -l -c "rbenv install mruby-1.2.0"
 bash -l -c "rbenv install mruby-dev"
 
