@@ -182,13 +182,13 @@ ii   libss2                  1.42.13-1                     amd64  command-line i
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2f-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              5.3.1-8                       amd64  GNU Standard C++ Library v3                                                    
-ii   libsystemd0             228-6                         amd64  systemd utility library                                                        
+ii   libsystemd0             229-1                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                               
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                        
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20151024-2                amd64  shared low-level terminfo library for terminal handling                        
-ii   libudev1                228-6                         amd64  libudev shared library                                                         
+ii   libudev1                229-1                         amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                              
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                           
 ii   libuuid1                2.27.1-3                      amd64  Universally Unique ID library                                                  
@@ -222,7 +222,7 @@ ii   python2.7               2.7.11-3                      amd64  Interactive hi
 ii   python2.7-minimal       2.7.11-3                      amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                               
 ii   rsyslog                 8.16.0-1                      amd64  reliable system and kernel logging daemon                                      
-ii   sed                     4.2.2-6.1                     amd64  The GNU sed stream editor                                                      
+ii   sed                     4.2.2-7                       amd64  The GNU sed stream editor                                                      
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                                   
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                           
 ii   sudo                    1.8.15-1.1                    amd64  Provide limited super user privileges to specific users                        

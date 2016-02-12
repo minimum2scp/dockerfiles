@@ -3422,7 +3422,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "603",
+    "Installed-Size": "616",
     "Origin": null,
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-6",
+    "Version": "229-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-6"
+    "source:Version": "229-1"
   },
   {
     "Architecture": "amd64",
@@ -3590,7 +3590,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "197",
+    "Installed-Size": "198",
     "Origin": null,
     "Package": "libudev1",
     "Pre-Depends": null,
@@ -3601,7 +3601,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "228-6",
+    "Version": "229-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "228-6"
+    "source:Version": "229-1"
   },
   {
     "Architecture": "amd64",
@@ -4553,7 +4553,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "4.2.2-6.1",
+    "Version": "4.2.2-7",
     "binary:Package": "sed",
     "binary:Summary": "The GNU sed stream editor",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sed",
-    "source:Version": "4.2.2-6.1"
+    "source:Version": "4.2.2-7"
   },
   {
     "Architecture": "all",
