@@ -125,7 +125,7 @@ ii   libestr0                0.1.9-1.1                  amd64  Helper functions 
 ii   libexpat1               2.1.0-6+deb8u1             amd64  XML parsing C library - runtime library                                    
 ii   libffi6                 3.1-2+b2                   amd64  Foreign Function Interface library runtime                                 
 ii   libgcc1                 1:4.9.2-10                 amd64  GCC support library                                                        
-ii   libgcrypt20             1.6.3-2                    amd64  LGPL Crypto library - runtime library                                      
+ii   libgcrypt20             1.6.3-2+deb8u1             amd64  LGPL Crypto library - runtime library                                      
 ii   libgdbm3                1.8.3-13.1                 amd64  GNU dbm database routines (runtime version)                                
 ii   libgmp10                2:6.0.0+dfsg-6             amd64  Multiprecision arithmetic library                                          
 ii   libgnutls-deb0-28       3.3.8-6+deb8u3             amd64  GNU TLS library - main runtime library                                     
