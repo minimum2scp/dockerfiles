@@ -529,25 +529,36 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:2 http://security.debian.org jessie/updates/main amd64 Packages [253 kB]
-Get:3 http://ftp.jp.debian.org jessie-updates InRelease [136 kB]
+Get:2 http://ftp.jp.debian.org jessie-updates InRelease [136 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [256 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [3619 B]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9034 kB]
-Fetched 9490 kB in 1s (5662 kB/s)
+Fetched 9493 kB in 1s (5565 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.07 MBSending build context to Docker daemon 30.07 MB
+The following packages will be upgraded:
+  libgcrypt20
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 391 kB of archives.
+After this operation, 31.7 kB disk space will be freed.
+Get:1 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u1 [391 kB]
+Fetched 391 kB in 0s (807 kB/s)
+(Reading database ... 7531 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u1_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u1) over (1.6.3-2) ...
+Setting up libgcrypt20:amd64 (1.6.3-2+deb8u1) ...
+Processing triggers for libc-bin (2.19-18+deb8u2) ...
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.06 MBSending build context to Docker daemon 30.06 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 023e15f5d094
-Removing intermediate container 7fbe56630500
+ ---> 958d0d8f431e
+Removing intermediate container ae51288bb4c7
 Step 3 : CMD /bin/bash
- ---> Running in a149e3f050a9
- ---> f650529729c0
-Removing intermediate container a149e3f050a9
-Successfully built f650529729c0
+ ---> Running in 84412c1edd3e
+ ---> b3217e406cd3
+Removing intermediate container 84412c1edd3e
+Successfully built b3217e406cd3
