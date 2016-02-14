@@ -152,7 +152,7 @@ ii   libncurses5             6.0+20151024-2                amd64  shared librari
 ii   libncursesw5            6.0+20151024-2                amd64  shared libraries for terminal handling (wide character support)                
 ii   libnettle6              3.2-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)                
 ii   libnewt0.52             0.52.18-2                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang                  
-ii   libnghttp2-14           1.7.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                          
+ii   libnghttp2-14           1.7.1-1                       amd64  library implementing HTTP/2 protocol (shared library)                          
 ii   libp11-kit0             0.23.2-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime       
 ii   libpam-modules          1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM                                       
 ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM - helper binaries                     
@@ -231,7 +231,7 @@ ii   sysvinit-core           2.88dsf-59.3                  amd64  System-V-like 
 ii   sysvinit-utils          2.88dsf-59.3                  amd64  System-V-like utilities                                                        
 ii   tar                     1.28-2.1                      amd64  GNU version of the tar archiving utility                                       
 ii   tzdata                  2016a-1                       all    time zone and daylight-saving time data                                        
-ii   ucf                     3.0033                        all    Update Configuration File(s): preserve user changes to config files            
+ii   ucf                     3.0034                        all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                     
 ii   util-linux              2.27.1-3                      amd64  miscellaneous system utilities                                                 
 ii   vim-common              2:7.4.963-1+b1                amd64  Vi IMproved - Common files                                                     
