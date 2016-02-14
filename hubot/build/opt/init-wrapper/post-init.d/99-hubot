@@ -58,15 +58,15 @@ install_supervisor (){
 		umask = 022
 		autostart = true
 		autorestart = true
-		startsecs = 3
-		startretries = 5
+		startsecs = 5
+		startretries = 10
 		user = debian
 		stdout_logfile = syslog
 		stderr_logfile = syslog
 		redirect_stderr = true
 		stopasgroup = true
 		killasgroup = true
-		environment = USER="debian",HOME="/home/debian"
+		environment = USER="debian",HOME="/home/debian",HUBOT_SLACK_EXIT_ON_DISCONNECT="1"
 	EOF
   install -m 644 -o root -g root -p /tmp/supervisor-hubot.conf /etc/supervisor/conf.d/hubot.conf
   etckeeper commit "supervisor: add hubot"
