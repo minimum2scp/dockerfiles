@@ -1,3 +1,7 @@
+## 0.1.10 (2016-02-15)
+
+ * Update magellan-proxy to 0.1.3
+
 ## 0.1.9 (2016-01-14)
 
  * Drop tdiary-cache-redis, and use tdiary-cache-null
