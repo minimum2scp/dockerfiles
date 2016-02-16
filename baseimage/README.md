@@ -84,7 +84,7 @@ ii   e2fsprogs               1.42.13-1                     amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.2-1                      all    store /etc in git, mercurial, bzr or darcs                                     
 ii   findutils               4.6.0+git+20160126-2          amd64  utilities for finding files--find, xargs                                       
 ii   gcc-4.8-base            4.8.5-4                       amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   gcc-4.9-base            4.9.3-11                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-4.9-base            4.9.3-12                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-5-base              5.3.1-8                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.7.0-1                     amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.7.0-1                     all    fast, scalable, distributed revision control system (manual pages)             
@@ -118,7 +118,7 @@ ii   libcomerr2              1.42.13-1                     amd64  common error d
 ii   libcryptsetup4          2:1.7.0-2                     amd64  disk encryption support - shared library                                       
 ii   libcurl3-gnutls         7.47.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                     
-ii   libdebconfclient0       0.204                         amd64  Debian Configuration Management System (C-implementation library)              
+ii   libdebconfclient0       0.205                         amd64  Debian Configuration Management System (C-implementation library)              
 ii   libdevmapper1.02.1      2:1.02.115-2                  amd64  Linux Kernel Device Mapper userspace library                                   
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                      
