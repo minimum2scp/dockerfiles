@@ -549,7 +549,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "4.9.3-11",
+    "Version": "4.9.3-12",
     "binary:Package": "gcc-4.9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.9",
-    "source:Version": "4.9.3-11"
+    "source:Version": "4.9.3-12"
   },
   {
     "Architecture": "amd64",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.204",
+    "Version": "0.205",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.204"
+    "source:Version": "0.205"
   },
   {
     "Architecture": "amd64",
