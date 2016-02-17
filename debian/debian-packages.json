@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "8.25-1",
+    "Version": "8.25-2",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.25-1"
+    "source:Version": "8.25-2"
   },
   {
     "Architecture": "amd64",
@@ -605,7 +605,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.20-3",
+    "Version": "1.4.20-4",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.20-3"
+    "source:Version": "1.4.20-4"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.20-3",
+    "Version": "1.4.20-4",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.20-3"
+    "source:Version": "1.4.20-4"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "1071",
+    "Installed-Size": "1102",
     "Origin": null,
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.14), libpcre3 (>= 1:8.35)",
@@ -661,7 +661,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-1",
+    "Version": "2.23-1",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.22-1"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-7",
+    "Version": "2.21-8",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-7"
+    "source:Version": "2.21-8"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.21-7",
+    "Version": "2.21-8",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-7"
+    "source:Version": "2.21-8"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.21-1",
+    "Version": "1.21-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.21-1"
+    "source:Version": "1.21-2"
   },
   {
     "Architecture": "amd64",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.21-7",
+    "Version": "2.21-8",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.21-7"
+    "source:Version": "2.21-8"
   },
   {
     "Architecture": "all",

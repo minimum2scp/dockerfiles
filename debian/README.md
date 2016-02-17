@@ -24,7 +24,7 @@ ii   base-files              9.5                      amd64  Debian base system 
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
 ii   bsdutils                1:2.27.1-3               amd64  basic utilities from 4.4BSD-Lite                                      
-ii   coreutils               8.25-1                   amd64  GNU core utilities                                                    
+ii   coreutils               8.25-2                   amd64  GNU core utilities                                                    
 ii   dash                    0.5.8-2.1                amd64  POSIX-compliant shell                                                 
 ii   debconf                 1.5.58                   all    Debian configuration management system                                
 ii   debconf-i18n            1.5.58                   all    full internationalization support for debconf                         
@@ -39,9 +39,9 @@ ii   findutils               4.6.0+git+20160126-2     amd64  utilities for findi
 ii   gcc-4.8-base            4.8.5-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.3-12                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-5-base              5.3.1-8                  amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gnupg                   1.4.20-3                 amd64  GNU privacy guard - a free PGP replacement                            
-ii   gpgv                    1.4.20-3                 amd64  GNU privacy guard - signature verification tool                       
-ii   grep                    2.22-1                   amd64  GNU grep, egrep and fgrep                                             
+ii   gnupg                   1.4.20-4                 amd64  GNU privacy guard - a free PGP replacement                            
+ii   gpgv                    1.4.20-4                 amd64  GNU privacy guard - signature verification tool                       
+ii   grep                    2.23-1                   amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-4                    amd64  GNU compression utilities                                             
 ii   hostname                3.16                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
@@ -58,8 +58,8 @@ ii   libaudit-common         1:2.4.5-1                all    Dynamic library for
 ii   libaudit1               1:2.4.5-1                amd64  Dynamic library for security auditing                                 
 ii   libblkid1               2.27.1-3                 amd64  block device ID library                                               
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
-ii   libc-bin                2.21-7                   amd64  GNU C Library: Binaries                                               
-ii   libc6                   2.21-7                   amd64  GNU C Library: Shared libraries                                       
+ii   libc-bin                2.21-8                   amd64  GNU C Library: Binaries                                               
+ii   libc6                   2.21-8                   amd64  GNU C Library: Shared libraries                                       
 ii   libcap2                 1:2.24-12                amd64  POSIX 1003.1e capabilities (library)                                  
 ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.42.13-1                amd64  common error description library                                      
@@ -70,7 +70,7 @@ ii   libdevmapper1.02.1      2:1.02.115-2             amd64  Linux Kernel Device
 ii   libfdisk1               2.27.1-3                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-8                amd64  GCC support library                                                   
 ii   libgcrypt20             1.6.5-2                  amd64  LGPL Crypto library - runtime library                                 
-ii   libgpg-error0           1.21-1                   amd64  library for common error values and messages in GnuPG components      
+ii   libgpg-error0           1.21-2                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1                     amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblz4-1                0.0~r131-1               amd64  Fast LZ compression algorithm library - runtime                       
@@ -105,7 +105,7 @@ ii   login                   1:4.2-3.1                amd64  system login tools
 ii   lsb-base                9.20160110               all    Linux Standard Base init script functionality                         
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language                       
 ii   mount                   2.27.1-3                 amd64  tools for mounting and manipulating filesystems                       
-ii   multiarch-support       2.21-7                   amd64  Transitional package to ensure multiarch compatibility                
+ii   multiarch-support       2.21-8                   amd64  Transitional package to ensure multiarch compatibility                
 ii   ncurses-base            6.0+20151024-2           all    basic terminal type definitions                                       
 ii   ncurses-bin             6.0+20151024-2           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
