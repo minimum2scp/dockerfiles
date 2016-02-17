@@ -411,37 +411,52 @@ Get:2 http://security.debian.org wheezy/updates Release.gpg [1554 B]
 Hit http://ftp.jp.debian.org wheezy Release
 Get:3 http://security.debian.org wheezy/updates Release [102 kB]
 Get:4 http://ftp.jp.debian.org wheezy-updates Release [143 kB]
-Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [407 kB]
+Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [426 kB]
 Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7637 kB]
 Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [5788 B]
-Fetched 8299 kB in 3s (2732 kB/s)
+Fetched 8318 kB in 1s (5354 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  dpkg tzdata
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 3067 kB of archives.
-After this operation, 37.9 kB disk space will be freed.
-Get:1 http://security.debian.org/ wheezy/updates/main dpkg amd64 1.16.17 [2663 kB]
-Get:2 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015g-0+deb7u1 [404 kB]
-Fetched 3067 kB in 1s (2697 kB/s)
+  dpkg libc-bin libc6 multiarch-support tzdata
+5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8719 kB of archives.
+After this operation, 214 kB disk space will be freed.
+Get:1 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2015g-0+deb7u1 [404 kB]
+Get:2 http://security.debian.org/ wheezy/updates/main dpkg amd64 1.16.17 [2663 kB]
+Get:3 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u10 [1274 kB]
+Get:4 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u10 [4226 kB]
+Get:5 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u10 [152 kB]
+Fetched 8719 kB in 11s (784 kB/s)
 (Reading database ... 6714 files and directories currently installed.)
 Preparing to replace dpkg 1.16.16 (using .../dpkg_1.16.17_amd64.deb) ...
 Unpacking replacement dpkg ...
 Setting up dpkg (1.16.17) ...
 (Reading database ... 6714 files and directories currently installed.)
+Preparing to replace libc-bin 2.13-38+deb7u8 (using .../libc-bin_2.13-38+deb7u10_amd64.deb) ...
+Unpacking replacement libc-bin ...
+Setting up libc-bin (2.13-38+deb7u10) ...
+(Reading database ... 6714 files and directories currently installed.)
+Preparing to replace libc6:amd64 2.13-38+deb7u8 (using .../libc6_2.13-38+deb7u10_amd64.deb) ...
+Unpacking replacement libc6:amd64 ...
+Setting up libc6:amd64 (2.13-38+deb7u10) ...
+(Reading database ... 6714 files and directories currently installed.)
 Preparing to replace tzdata 2015f-0+deb7u1 (using .../tzdata_2015g-0+deb7u1_all.deb) ...
 Unpacking replacement tzdata ...
 Setting up tzdata (2015g-0+deb7u1) ...
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon  21.6 MBSending build context to Docker daemon  21.6 MB
+(Reading database ... 6717 files and directories currently installed.)
+Preparing to replace multiarch-support 2.13-38+deb7u8 (using .../multiarch-support_2.13-38+deb7u10_amd64.deb) ...
+Unpacking replacement multiarch-support ...
+Setting up multiarch-support (2.13-38+deb7u10) ...
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon  21.6 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 9ddb2be10bf0
-Removing intermediate container 37de2d0c0d7b
+ ---> 102348b4b5ad
+Removing intermediate container 45b2478f5bf8
 Step 3 : CMD /bin/bash
- ---> Running in 3cbff57d140c
- ---> b008661b6d9a
-Removing intermediate container 3cbff57d140c
-Successfully built b008661b6d9a
+ ---> Running in 3b8db18c3628
+ ---> f92994d873a4
+Removing intermediate container 3b8db18c3628
+Successfully built f92994d873a4
