@@ -68,7 +68,7 @@ ii   bash                    4.3-14+b1                     amd64  GNU Bourne Aga
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                      
 ii   bsdutils                1:2.27.1-3                    amd64  basic utilities from 4.4BSD-Lite                                               
 ii   ca-certificates         20160104                      all    Common CA certificates                                                         
-ii   coreutils               8.25-1                        amd64  GNU core utilities                                                             
+ii   coreutils               8.25-2                        amd64  GNU core utilities                                                             
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                      
 ii   curl                    7.47.0-1                      amd64  command line tool for transferring data with URL syntax                        
 ii   dash                    0.5.8-2.1                     amd64  POSIX-compliant shell                                                          
@@ -88,9 +88,9 @@ ii   gcc-4.9-base            4.9.3-12                      amd64  GCC, the GNU C
 ii   gcc-5-base              5.3.1-8                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.7.0-1                     amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.7.0-1                     all    fast, scalable, distributed revision control system (manual pages)             
-ii   gnupg                   1.4.20-3                      amd64  GNU privacy guard - a free PGP replacement                                     
-ii   gpgv                    1.4.20-3                      amd64  GNU privacy guard - signature verification tool                                
-ii   grep                    2.22-1                        amd64  GNU grep, egrep and fgrep                                                      
+ii   gnupg                   1.4.20-4                      amd64  GNU privacy guard - a free PGP replacement                                     
+ii   gpgv                    1.4.20-4                      amd64  GNU privacy guard - signature verification tool                                
+ii   grep                    2.23-1                        amd64  GNU grep, egrep and fgrep                                                      
 ii   groff-base              1.22.3-7                      amd64  GNU troff text-formatting system (base system components)                      
 ii   gzip                    1.6-4                         amd64  GNU compression utilities                                                      
 ii   hostname                3.16                          amd64  utility to set/show the host name or domain name                               
@@ -109,9 +109,9 @@ ii   libaudit1               1:2.4.5-1                     amd64  Dynamic librar
 ii   libblkid1               2.27.1-3                      amd64  block device ID library                                                        
 ii   libbsd0                 0.8.2-1                       amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime                   
-ii   libc-bin                2.21-7                        amd64  GNU C Library: Binaries                                                        
-ii   libc-l10n               2.21-7                        all    GNU C Library: localization files                                              
-ii   libc6                   2.21-7                        amd64  GNU C Library: Shared libraries                                                
+ii   libc-bin                2.21-8                        amd64  GNU C Library: Binaries                                                        
+ii   libc-l10n               2.21-8                        all    GNU C Library: localization files                                              
+ii   libc6                   2.21-8                        amd64  GNU C Library: Shared libraries                                                
 ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e capabilities (library)                                           
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.42.13-1                     amd64  common error description library                                               
@@ -131,7 +131,7 @@ ii   libgcrypt20             1.6.5-2                       amd64  LGPL Crypto li
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls30             3.4.9-2                       amd64  GNU TLS library - main runtime library                                         
-ii   libgpg-error0           1.21-1                        amd64  library for common error values and messages in GnuPG components               
+ii   libgpg-error0           1.21-2                        amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                         amd64  low level cryptographic library (public-key cryptos)                           
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications                  
@@ -194,7 +194,7 @@ ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string l
 ii   libuuid1                2.27.1-3                      amd64  Universally Unique ID library                                                  
 ii   libwrap0                7.6.q-25                      amd64  Wietse Venema's TCP wrappers library                                           
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations                          
-ii   locales                 2.21-7                        all    GNU C Library: National Language (locale) data [support]                       
+ii   locales                 2.21-8                        all    GNU C Library: National Language (locale) data [support]                       
 ii   login                   1:4.2-3.1                     amd64  system login tools                                                             
 ii   lsb-base                9.20160110                    all    Linux Standard Base init script functionality                                  
 ii   lv                      4.51-2.3+b1                   amd64  Powerful Multilingual File Viewer                                              
@@ -202,7 +202,7 @@ ii   man-db                  2.7.5-1                       amd64  on-line manual
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language                                
 ii   mime-support            3.59                          all    MIME files 'mime.types' & 'mailcap', and support programs                      
 ii   mount                   2.27.1-3                      amd64  tools for mounting and manipulating filesystems                                
-ii   multiarch-support       2.21-7                        amd64  Transitional package to ensure multiarch compatibility                         
+ii   multiarch-support       2.21-8                        amd64  Transitional package to ensure multiarch compatibility                         
 ii   ncurses-base            6.0+20151024-2                all    basic terminal type definitions                                                
 ii   ncurses-bin             6.0+20151024-2                amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                       
