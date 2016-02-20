@@ -717,7 +717,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "3.16",
+    "Version": "3.17",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.16"
+    "source:Version": "3.17"
   },
   {
     "Architecture": "amd64",
