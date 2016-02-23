@@ -49,7 +49,7 @@ ii   init                    1.28                     amd64  System-V-like init 
 ii   init-system-helpers     1.28                     all    helper tools for all init systems                                     
 ii   initscripts             2.88dsf-59.3             amd64  scripts for initializing and shutting down the system                 
 ii   insserv                 1.14.0-5.2               amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.3.0-1                  amd64  networking and traffic control tools                                  
+ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-3                   amd64  changehat AppArmor library                                            
 ii   libapt-pkg5.0           1.2.3                    amd64  package management runtime library                                    
@@ -65,7 +65,7 @@ ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capab
 ii   libcomerr2              1.42.13-1                amd64  common error description library                                      
 ii   libcryptsetup4          2:1.7.0-2                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
-ii   libdebconfclient0       0.205                    amd64  Debian Configuration Management System (C-implementation library)     
+ii   libdebconfclient0       0.206                    amd64  Debian Configuration Management System (C-implementation library)     
 ii   libdevmapper1.02.1      2:1.02.116-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-3                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-9                amd64  GCC support library                                                   
