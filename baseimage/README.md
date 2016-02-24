@@ -132,15 +132,15 @@ ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm databa
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls30             3.4.9-2                       amd64  GNU TLS library - main runtime library                                         
 ii   libgpg-error0           1.21-2                        amd64  library for common error values and messages in GnuPG components               
-ii   libgssapi-krb5-2        1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
+ii   libgssapi-krb5-2        1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                         amd64  low level cryptographic library (public-key cryptos)                           
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications                  
 ii   libjson-c2              0.11-4                        amd64  JSON manipulation library - shared library                                     
-ii   libk5crypto3            1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Crypto Library                                
+ii   libk5crypto3            1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - Crypto Library                                
 ii   libkeyutils1            1.5.9-8                       amd64  Linux Key Management Utilities (library)                                       
 ii   libkmod2                22-1                          amd64  libkmod shared library                                                         
-ii   libkrb5-3               1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries                                                 
-ii   libkrb5support0         1.13.2+dfsg-4                 amd64  MIT Kerberos runtime libraries - Support library                               
+ii   libkrb5-3               1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries                                                 
+ii   libkrb5support0         1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - Support library                               
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2              amd64  OpenLDAP libraries                                                             
 ii   liblocale-gettext-perl  1.07-1+b1                     amd64  module using libc functions for internationalization in Perl                   
 ii   liblogging-stdlog0      1.0.5-2                       amd64  easy to use and lightweight logging library                                    
@@ -177,7 +177,7 @@ ii   libsemanage1            2.4-3                         amd64  SELinux policy
 ii   libsepol1               2.4-2                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2+b1                    amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.27.1-3                      amd64  smart column output alignment library                                          
-ii   libsqlite3-0            3.11.0-1                      amd64  SQLite 3 shared library                                                        
+ii   libsqlite3-0            3.11.0-2                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                     amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2f-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
