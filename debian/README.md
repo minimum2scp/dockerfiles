@@ -38,7 +38,7 @@ ii   e2fsprogs               1.42.13-1                amd64  ext2/ext3/ext4 file
 ii   findutils               4.6.0+git+20160126-2     amd64  utilities for finding files--find, xargs                              
 ii   gcc-4.8-base            4.8.5-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.3-12                 amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gcc-5-base              5.3.1-9                  amd64  GCC, the GNU Compiler Collection (base package)                       
+ii   gcc-5-base              5.3.1-10                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gnupg                   1.4.20-4                 amd64  GNU privacy guard - a free PGP replacement                            
 ii   gpgv                    1.4.20-4                 amd64  GNU privacy guard - signature verification tool                       
 ii   grep                    2.23-1                   amd64  GNU grep, egrep and fgrep                                             
@@ -68,7 +68,7 @@ ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Datab
 ii   libdebconfclient0       0.206                    amd64  Debian Configuration Management System (C-implementation library)     
 ii   libdevmapper1.02.1      2:1.02.116-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-3                 amd64  fdisk partitioning library                                            
-ii   libgcc1                 1:5.3.1-9                amd64  GCC support library                                                   
+ii   libgcc1                 1:5.3.1-10               amd64  GCC support library                                                   
 ii   libgcrypt20             1.6.5-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-2                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1                     amd64  libkmod shared library                                                
@@ -91,7 +91,7 @@ ii   libsemanage1            2.4-3                    amd64  SELinux policy mana
 ii   libsepol1               2.4-2                    amd64  SELinux library for manipulating binary security policies             
 ii   libsmartcols1           2.27.1-3                 amd64  smart column output alignment library                                 
 ii   libss2                  1.42.13-1                amd64  command-line interface parsing library                                
-ii   libstdc++6              5.3.1-9                  amd64  GNU Standard C++ Library v3                                           
+ii   libstdc++6              5.3.1-10                 amd64  GNU Standard C++ Library v3                                           
 ii   libsystemd0             229-1                    amd64  systemd utility library                                               
 ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
