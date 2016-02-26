@@ -169,7 +169,7 @@ ii   libsepol1               2.3-2                      amd64  SELinux library f
 ii   libslang2               2.3.0-2                    amd64  S-Lang programming library - runtime version                               
 ii   libsmartcols1           2.25.2-6                   amd64  smart column output alignment library                                      
 ii   libss2                  1.42.12-1.1                amd64  command-line interface parsing library                                     
-ii   libssh2-1               1.4.3-4.1                  amd64  SSH2 client-side library                                                   
+ii   libssh2-1               1.4.3-4.1+deb8u1           amd64  SSH2 client-side library                                                   
 ii   libssl1.0.0             1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              4.9.2-10                   amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             215-17+deb8u3              amd64  systemd utility library                                                    

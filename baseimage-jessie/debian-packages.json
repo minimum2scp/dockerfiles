@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.4.3-4.1",
+    "Version": "1.4.3-4.1+deb8u1",
     "binary:Package": "libssh2-1:amd64",
     "binary:Summary": "SSH2 client-side library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libssh2",
-    "source:Version": "1.4.3-4.1"
+    "source:Version": "1.4.3-4.1+deb8u1"
   },
   {
     "Architecture": "amd64",
