@@ -149,7 +149,7 @@ ii   libsemanage1            2.1.6-6                    amd64  SELinux policy ma
 ii   libsepol1               2.1.4-3                    amd64  SELinux library for manipulating binary security policies               
 ii   libslang2               2.2.4-15                   amd64  S-Lang programming library - runtime version                            
 ii   libss2                  1.42.5-1.1+deb7u1          amd64  command-line interface parsing library                                  
-ii   libssh2-1               1.4.2-1.1+deb7u1           amd64  SSH2 client-side library                                                
+ii   libssh2-1               1.4.2-1.1+deb7u2           amd64  SSH2 client-side library                                                
 ii   libssl1.0.0             1.0.1e-2+deb7u19           amd64  SSL shared libraries                                                    
 ii   libstdc++6              4.7.2-5                    amd64  GNU Standard C++ Library v3                                             
 ii   libswitch-perl          2.16-2                     all    switch statement for Perl                                               
