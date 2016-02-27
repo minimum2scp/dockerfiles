@@ -103,8 +103,8 @@ ii   libattr1                1:2.4.46-8                 amd64  Extended attribut
 ii   libblkid1               2.20.1-5.3                 amd64  block device id library                                                 
 ii   libbsd0                 0.4.2-1                    amd64  utility functions from BSD systems - shared library                     
 ii   libbz2-1.0              1.0.6-4                    amd64  high-quality block-sorting file compressor library - runtime            
-ii   libc-bin                2.13-38+deb7u8             amd64  Embedded GNU C Library: Binaries                                        
-ii   libc6                   2.13-38+deb7u8             amd64  Embedded GNU C Library: Shared libraries                                
+ii   libc-bin                2.13-38+deb7u10            amd64  Embedded GNU C Library: Binaries                                        
+ii   libc6                   2.13-38+deb7u10            amd64  Embedded GNU C Library: Shared libraries                                
 ii   libcap2                 1:2.22-1.2                 amd64  support for getting/setting POSIX.1e capabilities                       
 ii   libclass-isa-perl       0.36-3                     all    report the search path for a class's ISA tree                           
 ii   libcomerr2              1.42.5-1.1+deb7u1          amd64  common error description library                                        
@@ -115,7 +115,7 @@ ii   libedit2                2.11-20080614-5            amd64  BSD editline and 
 ii   liberror-perl           0.17-1                     all    Perl module for error/exception handling in an OO-ish way               
 ii   libexpat1               2.1.0-1+deb7u2             amd64  XML parsing C library - runtime library                                 
 ii   libgcc1                 1:4.7.2-5                  amd64  GCC support library                                                     
-ii   libgcrypt11             1.5.0-5+deb7u3             amd64  LGPL Crypto library - runtime library                                   
+ii   libgcrypt11             1.5.0-5+deb7u4             amd64  LGPL Crypto library - runtime library                                   
 ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database routines (runtime version)                             
 ii   libgnutls26             2.12.20-8+deb7u5           amd64  GNU TLS library - runtime library                                       
 ii   libgpg-error0           1.10-3.1                   amd64  library for common error values and messages in GnuPG components        
@@ -149,7 +149,7 @@ ii   libsemanage1            2.1.6-6                    amd64  SELinux policy ma
 ii   libsepol1               2.1.4-3                    amd64  SELinux library for manipulating binary security policies               
 ii   libslang2               2.2.4-15                   amd64  S-Lang programming library - runtime version                            
 ii   libss2                  1.42.5-1.1+deb7u1          amd64  command-line interface parsing library                                  
-ii   libssh2-1               1.4.2-1.1+deb7u1           amd64  SSH2 client-side library                                                
+ii   libssh2-1               1.4.2-1.1+deb7u2           amd64  SSH2 client-side library                                                
 ii   libssl1.0.0             1.0.1e-2+deb7u19           amd64  SSL shared libraries                                                    
 ii   libstdc++6              4.7.2-5                    amd64  GNU Standard C++ Library v3                                             
 ii   libswitch-perl          2.16-2                     all    switch statement for Perl                                               
@@ -163,14 +163,14 @@ ii   libustr-1.0-1           1.0.4-3                    amd64  Micro string libr
 ii   libuuid1                2.20.1-5.3                 amd64  Universally Unique ID library                                           
 ii   libwrap0                7.6.q-24                   amd64  Wietse Venema's TCP wrappers library                                    
 ii   localepurge             0.6.3+deb7u1               all    Reclaim disk space removing unneeded localizations                      
-ii   locales                 2.13-38+deb7u8             all    Embedded GNU C Library: National Language (locale) data [support]       
+ii   locales                 2.13-38+deb7u10            all    Embedded GNU C Library: National Language (locale) data [support]       
 ii   login                   1:4.1.5.1-1                amd64  system login tools                                                      
 ii   lsb-base                4.1+Debian8+deb7u1         all    Linux Standard Base 4.1 init script functionality                       
 ii   lv                      4.51-2                     amd64  Powerful Multilingual File Viewer                                       
 ii   man-db                  2.6.2-1                    amd64  on-line manual pager                                                    
 ii   mawk                    1.3.3-17                   amd64  a pattern scanning and text processing language                         
 ii   mount                   2.20.1-5.3                 amd64  Tools for mounting and manipulating filesystems                         
-ii   multiarch-support       2.13-38+deb7u8             amd64  Transitional package to ensure multiarch compatibility                  
+ii   multiarch-support       2.13-38+deb7u10            amd64  Transitional package to ensure multiarch compatibility                  
 ii   ncurses-base            5.9-10                     all    basic terminal type definitions                                         
 ii   ncurses-bin             5.9-10                     amd64  terminal-related programs and man pages                                 
 ii   net-tools               1.60-24.2                  amd64  The NET-3 networking toolkit                                            

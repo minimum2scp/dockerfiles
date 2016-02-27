@@ -1210,7 +1210,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3305",
+    "Installed-Size": "3216",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.13-38+deb7u8",
+    "Version": "2.13-38+deb7u10",
     "binary:Package": "libc-bin",
     "binary:Summary": "Embedded GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,16 +1229,16 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u8"
+    "source:Version": "2.13-38+deb7u10"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "prelink (<= 0.0.20090311-1), tzdata (<< 2007k-1), tzdata-etch",
     "Breaks": "locales (<< 2.13), locales-all (<< 2.13), lsb-core (<= 3.2-27), nscd (<< 2.13)",
-    "Depends": "libc-bin (= 2.13-38+deb7u8), libgcc1",
+    "Depends": "libc-bin (= 2.13-38+deb7u10), libgcc1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "9525",
+    "Installed-Size": "9465",
     "Origin": null,
     "Package": "libc6",
     "Pre-Depends": null,
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, locales",
-    "Version": "2.13-38+deb7u8",
+    "Version": "2.13-38+deb7u10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "Embedded GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u8"
+    "source:Version": "2.13-38+deb7u10"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.4), libgpg-error0 (>= 1.10)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "590",
+    "Installed-Size": "591",
     "Origin": null,
     "Package": "libgcrypt11",
     "Pre-Depends": "multiarch-support",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.5.0-5+deb7u3",
+    "Version": "1.5.0-5+deb7u4",
     "binary:Package": "libgcrypt11:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "libgcrypt11",
-    "source:Version": "1.5.0-5+deb7u3"
+    "source:Version": "1.5.0-5+deb7u4"
   },
   {
     "Architecture": "amd64",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.4.2-1.1+deb7u1",
+    "Version": "1.4.2-1.1+deb7u2",
     "binary:Package": "libssh2-1:amd64",
     "binary:Summary": "SSH2 client-side library",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "libssh2",
-    "source:Version": "1.4.2-1.1+deb7u1"
+    "source:Version": "1.4.2-1.1+deb7u2"
   },
   {
     "Architecture": "amd64",
@@ -2890,7 +2890,7 @@
     "Depends": "glibc-2.13-1, debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "15120",
+    "Installed-Size": "15121",
     "Origin": null,
     "Package": "locales",
     "Pre-Depends": null,
@@ -2901,7 +2901,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.13-38+deb7u8",
+    "Version": "2.13-38+deb7u10",
     "binary:Package": "locales",
     "binary:Summary": "Embedded GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u8"
+    "source:Version": "2.13-38+deb7u10"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "181",
+    "Installed-Size": "158",
     "Origin": null,
     "Package": "multiarch-support",
     "Pre-Depends": null,
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.13-38+deb7u8",
+    "Version": "2.13-38+deb7u10",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u8"
+    "source:Version": "2.13-38+deb7u10"
   },
   {
     "Architecture": "all",

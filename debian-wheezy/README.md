@@ -49,8 +49,8 @@ ii   libapt-pkg4.12          0.9.7.9+deb7u7         amd64  package managment run
 ii   libattr1                1:2.4.46-8             amd64  Extended attribute shared library                                     
 ii   libblkid1               2.20.1-5.3             amd64  block device id library                                               
 ii   libbz2-1.0              1.0.6-4                amd64  high-quality block-sorting file compressor library - runtime          
-ii   libc-bin                2.13-38+deb7u8         amd64  Embedded GNU C Library: Binaries                                      
-ii   libc6                   2.13-38+deb7u8         amd64  Embedded GNU C Library: Shared libraries                              
+ii   libc-bin                2.13-38+deb7u10        amd64  Embedded GNU C Library: Binaries                                      
+ii   libc6                   2.13-38+deb7u10        amd64  Embedded GNU C Library: Shared libraries                              
 ii   libcomerr2              1.42.5-1.1+deb7u1      amd64  common error description library                                      
 ii   libdb5.1                5.1.29-5               amd64  Berkeley v5.1 Database Libraries [runtime]                            
 ii   libgcc1                 1:4.7.2-5              amd64  GCC support library                                                   
@@ -81,7 +81,7 @@ ii   login                   1:4.1.5.1-1            amd64  system login tools
 ii   lsb-base                4.1+Debian8+deb7u1     all    Linux Standard Base 4.1 init script functionality                     
 ii   mawk                    1.3.3-17               amd64  a pattern scanning and text processing language                       
 ii   mount                   2.20.1-5.3             amd64  Tools for mounting and manipulating filesystems                       
-ii   multiarch-support       2.13-38+deb7u8         amd64  Transitional package to ensure multiarch compatibility                
+ii   multiarch-support       2.13-38+deb7u10        amd64  Transitional package to ensure multiarch compatibility                
 ii   ncurses-base            5.9-10                 all    basic terminal type definitions                                       
 ii   ncurses-bin             5.9-10                 amd64  terminal-related programs and man pages                               
 ii   netbase                 5.0                    all    Basic TCP/IP networking system                                        

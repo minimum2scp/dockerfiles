@@ -108,8 +108,8 @@ ii   libaudit1               1:2.4-1+b1                 amd64  Dynamic library f
 ii   libblkid1               2.25.2-6                   amd64  block device id library                                                    
 ii   libbsd0                 0.7.0-2                    amd64  utility functions from BSD systems - shared library                        
 ii   libbz2-1.0              1.0.6-7+b3                 amd64  high-quality block-sorting file compressor library - runtime               
-ii   libc-bin                2.19-18+deb8u2             amd64  GNU C Library: Binaries                                                    
-ii   libc6                   2.19-18+deb8u2             amd64  GNU C Library: Shared libraries                                            
+ii   libc-bin                2.19-18+deb8u3             amd64  GNU C Library: Binaries                                                    
+ii   libc6                   2.19-18+deb8u3             amd64  GNU C Library: Shared libraries                                            
 ii   libcap2                 1:2.24-8                   amd64  POSIX 1003.1e capabilities (library)                                       
 ii   libcap2-bin             1:2.24-8                   amd64  POSIX 1003.1e capabilities (utilities)                                     
 ii   libcomerr2              1.42.12-1.1                amd64  common error description library                                           
@@ -169,7 +169,7 @@ ii   libsepol1               2.3-2                      amd64  SELinux library f
 ii   libslang2               2.3.0-2                    amd64  S-Lang programming library - runtime version                               
 ii   libsmartcols1           2.25.2-6                   amd64  smart column output alignment library                                      
 ii   libss2                  1.42.12-1.1                amd64  command-line interface parsing library                                     
-ii   libssh2-1               1.4.3-4.1                  amd64  SSH2 client-side library                                                   
+ii   libssh2-1               1.4.3-4.1+deb8u1           amd64  SSH2 client-side library                                                   
 ii   libssl1.0.0             1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              4.9.2-10                   amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             215-17+deb8u3              amd64  systemd utility library                                                    
@@ -184,14 +184,14 @@ ii   libustr-1.0-1           1.0.4-3+b2                 amd64  Micro string libr
 ii   libuuid1                2.25.2-6                   amd64  Universally Unique ID library                                              
 ii   libwrap0                7.6.q-25                   amd64  Wietse Venema's TCP wrappers library                                       
 ii   localepurge             0.7.3.4                    all    reclaim disk space by removing unneeded localizations                      
-ii   locales                 2.19-18+deb8u2             all    GNU C Library: National Language (locale) data [support]                   
+ii   locales                 2.19-18+deb8u3             all    GNU C Library: National Language (locale) data [support]                   
 ii   login                   1:4.2-3+deb8u1             amd64  system login tools                                                         
 ii   lsb-base                4.1+Debian13+nmu1          all    Linux Standard Base 4.1 init script functionality                          
 ii   lv                      4.51-2.2                   amd64  Powerful Multilingual File Viewer                                          
 ii   man-db                  2.7.0.2-5                  amd64  on-line manual pager                                                       
 ii   mawk                    1.3.3-17                   amd64  a pattern scanning and text processing language                            
 ii   mount                   2.25.2-6                   amd64  Tools for mounting and manipulating filesystems                            
-ii   multiarch-support       2.19-18+deb8u2             amd64  Transitional package to ensure multiarch compatibility                     
+ii   multiarch-support       2.19-18+deb8u3             amd64  Transitional package to ensure multiarch compatibility                     
 ii   ncurses-base            5.9+20140913-1             all    basic terminal type definitions                                            
 ii   ncurses-bin             5.9+20140913-1+b1          amd64  terminal-related programs and man pages                                    
 ii   net-tools               1.60-26+b1                 amd64  NET-3 networking toolkit                                                   

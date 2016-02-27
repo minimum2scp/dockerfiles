@@ -527,38 +527,54 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
+Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [136 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [256 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [261 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [3619 B]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9034 kB]
-Fetched 9493 kB in 1s (5565 kB/s)
+Fetched 9498 kB in 1s (5727 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  libgcrypt20
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 391 kB of archives.
+  libc-bin libc6 libgcrypt20 multiarch-support
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6521 kB of archives.
 After this operation, 31.7 kB disk space will be freed.
-Get:1 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u1 [391 kB]
-Fetched 391 kB in 0s (807 kB/s)
+Get:1 http://security.debian.org/ jessie/updates/main libc-bin amd64 2.19-18+deb8u3 [1285 kB]
+Get:2 http://security.debian.org/ jessie/updates/main libc6 amd64 2.19-18+deb8u3 [4666 kB]
+Get:3 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u1 [391 kB]
+Get:4 http://security.debian.org/ jessie/updates/main multiarch-support amd64 2.19-18+deb8u3 [179 kB]
+Fetched 6521 kB in 2s (2739 kB/s)
+(Reading database ... 7531 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.19-18+deb8u3_amd64.deb ...
+Unpacking libc-bin (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
+Setting up libc-bin (2.19-18+deb8u3) ...
+(Reading database ... 7531 files and directories currently installed.)
+Preparing to unpack .../libc6_2.19-18+deb8u3_amd64.deb ...
+Unpacking libc6:amd64 (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
+Setting up libc6:amd64 (2.19-18+deb8u3) ...
+Processing triggers for libc-bin (2.19-18+deb8u3) ...
 (Reading database ... 7531 files and directories currently installed.)
 Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u1_amd64.deb ...
 Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u1) over (1.6.3-2) ...
 Setting up libgcrypt20:amd64 (1.6.3-2+deb8u1) ...
-Processing triggers for libc-bin (2.19-18+deb8u2) ...
+Processing triggers for libc-bin (2.19-18+deb8u3) ...
+(Reading database ... 7531 files and directories currently installed.)
+Preparing to unpack .../multiarch-support_2.19-18+deb8u3_amd64.deb ...
+Unpacking multiarch-support (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
+Setting up multiarch-support (2.19-18+deb8u3) ...
 Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.06 MBSending build context to Docker daemon 30.06 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 958d0d8f431e
-Removing intermediate container ae51288bb4c7
+ ---> 81905041e16e
+Removing intermediate container 0c64fbd075d5
 Step 3 : CMD /bin/bash
- ---> Running in 84412c1edd3e
- ---> b3217e406cd3
-Removing intermediate container 84412c1edd3e
-Successfully built b3217e406cd3
+ ---> Running in c5c1c9a497f6
+ ---> cdc0b86e2e4c
+Removing intermediate container c5c1c9a497f6
+Successfully built cdc0b86e2e4c
