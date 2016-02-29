@@ -158,7 +158,7 @@ ii   libpam-modules          1.1.8-3.2                     amd64  Pluggable Auth
 ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM - helper binaries                     
 ii   libpam-runtime          1.1.8-3.2                     all    Runtime support for the PAM library                                            
 ii   libpam0g                1.1.8-3.2                     amd64  Pluggable Authentication Modules library                                       
-ii   libpcre3                2:8.38-2                      amd64  Perl 5 Compatible Regular Expression Library - runtime files                   
+ii   libpcre3                2:8.38-3                      amd64  Perl 5 Compatible Regular Expression Library - runtime files                   
 ii   libperl5.22             5.22.1-7                      amd64  shared Perl library                                                            
 ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                                  
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                             
@@ -179,16 +179,16 @@ ii   libslang2               2.3.0-2+b1                    amd64  S-Lang program
 ii   libsmartcols1           2.27.1-3                      amd64  smart column output alignment library                                          
 ii   libsqlite3-0            3.11.0-2                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                     amd64  command-line interface parsing library                                         
-ii   libssh2-1               1.5.0-2+b1                    amd64  SSH2 client-side library                                                       
+ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2f-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              5.3.1-10                      amd64  GNU Standard C++ Library v3                                                    
-ii   libsystemd0             229-1                         amd64  systemd utility library                                                        
+ii   libsystemd0             229-2                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                               
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                        
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20160213-1                amd64  shared low-level terminfo library for terminal handling                        
-ii   libudev1                229-1                         amd64  libudev shared library                                                         
+ii   libudev1                229-2                         amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                              
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                           
 ii   libuuid1                2.27.1-3                      amd64  Universally Unique ID library                                                  
