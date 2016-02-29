@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "653",
+    "Installed-Size": "655",
     "Origin": null,
     "Package": "libpcre3",
     "Pre-Depends": "multiarch-support",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:8.38-2",
+    "Version": "2:8.38-3",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.38-2"
+    "source:Version": "2:8.38-3"
   },
   {
     "Architecture": "amd64",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-1",
+    "Version": "229-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-1"
+    "source:Version": "229-2"
   },
   {
     "Architecture": "amd64",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-1",
+    "Version": "229-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-1"
+    "source:Version": "229-2"
   },
   {
     "Architecture": "amd64",
@@ -2719,10 +2719,10 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "apparmor (<< 2.9.2-1), ifupdown (<< 0.8.5~), lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2), udev (<< 228-5)",
-    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 229-1), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 229-2), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "18038",
+    "Installed-Size": "18031",
     "Origin": null,
     "Package": "systemd",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2733,7 +2733,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui, systemd-container",
-    "Version": "229-1",
+    "Version": "229-2",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-1"
+    "source:Version": "229-2"
   },
   {
     "Architecture": "amd64",
@@ -2761,7 +2761,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-1",
+    "Version": "229-2",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-1"
+    "source:Version": "229-2"
   },
   {
     "Architecture": "all",
