@@ -45,8 +45,8 @@ ii   grep                    2.23-1                   amd64  GNU grep, egrep and
 ii   gzip                    1.6-4                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
-ii   init                    1.28                     amd64  System-V-like init utilities - metapackage                            
-ii   init-system-helpers     1.28                     all    helper tools for all init systems                                     
+ii   init                    1.29                     amd64  System-V-like init utilities - metapackage                            
+ii   init-system-helpers     1.29                     all    helper tools for all init systems                                     
 ii   initscripts             2.88dsf-59.3             amd64  scripts for initializing and shutting down the system                 
 ii   insserv                 1.14.0-5.2               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
