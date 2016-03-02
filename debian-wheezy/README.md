@@ -86,7 +86,7 @@ ii   ncurses-base            5.9-10                 all    basic terminal type d
 ii   ncurses-bin             5.9-10                 amd64  terminal-related programs and man pages                               
 ii   netbase                 5.0                    all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.1.5.1-1            amd64  change and administer password and group data                         
-ii   perl-base               5.14.2-21+deb7u2       amd64  minimal Perl system                                                   
+ii   perl-base               5.14.2-21+deb7u3       amd64  minimal Perl system                                                   
 ii   readline-common         6.2+dfsg-0.1           all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.1-10               amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.7                  all    Utilities for sensible alternative selection                          
