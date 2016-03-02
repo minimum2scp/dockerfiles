@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                                
-ii   apt                     1.2.3                         amd64  commandline package manager                                                    
+ii   apt                     1.2.4                         amd64  commandline package manager                                                    
 ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
@@ -102,7 +102,7 @@ ii   insserv                 1.14.0-5.2                    amd64  boot sequence 
 ii   iproute2                4.3.0-1+b1                    amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library                                             
 ii   libapparmor1            2.10-3                        amd64  changehat AppArmor library                                                     
-ii   libapt-pkg5.0           1.2.3                         amd64  package management runtime library                                             
+ii   libapt-pkg5.0           1.2.4                         amd64  package management runtime library                                             
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                              
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1                     amd64  Dynamic library for security auditing                                          
@@ -159,7 +159,7 @@ ii   libpam-modules-bin      1.1.8-3.2                     amd64  Pluggable Auth
 ii   libpam-runtime          1.1.8-3.2                     all    Runtime support for the PAM library                                            
 ii   libpam0g                1.1.8-3.2                     amd64  Pluggable Authentication Modules library                                       
 ii   libpcre3                2:8.38-3                      amd64  Perl 5 Compatible Regular Expression Library - runtime files                   
-ii   libperl5.22             5.22.1-7                      amd64  shared Perl library                                                            
+ii   libperl5.22             5.22.1-8                      amd64  shared Perl library                                                            
 ii   libpipeline1            1.4.1-2                       amd64  pipeline manipulation library                                                  
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                             
 ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                           
@@ -180,7 +180,7 @@ ii   libsmartcols1           2.27.1-3                      amd64  smart column o
 ii   libsqlite3-0            3.11.0-2                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                     amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
-ii   libssl1.0.2             1.0.2f-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
+ii   libssl1.0.2             1.0.2g-1                      amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              5.3.1-10                      amd64  GNU Standard C++ Library v3                                                    
 ii   libsystemd0             229-2                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                              
@@ -210,11 +210,11 @@ ii   netbase                 5.3                           all    Basic TCP/IP n
 ii   openssh-client          1:7.1p2-2                     amd64  secure shell (SSH) client, for secure access to remote machines                
 ii   openssh-server          1:7.1p2-2                     amd64  secure shell (SSH) server, for secure access from remote machines              
 ii   openssh-sftp-server     1:7.1p2-2                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines    
-ii   openssl                 1.0.2f-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility                           
+ii   openssl                 1.0.2g-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                           
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                                  
-ii   perl                    5.22.1-7                      amd64  Larry Wall's Practical Extraction and Report Language                          
-ii   perl-base               5.22.1-7                      amd64  minimal Perl system                                                            
-ii   perl-modules-5.22       5.22.1-7                      all    Core Perl modules                                                              
+ii   perl                    5.22.1-8                      amd64  Larry Wall's Practical Extraction and Report Language                          
+ii   perl-base               5.22.1-8                      amd64  minimal Perl system                                                            
+ii   perl-modules-5.22       5.22.1-8                      all    Core Perl modules                                                              
 ii   procps                  2:3.3.11-3                    amd64  /proc file system utilities                                                    
 ii   python                  2.7.11-1                      amd64  interactive high-level object-oriented language (default version)              
 ii   python-minimal          2.7.11-1                      amd64  minimal subset of the Python language (default version)                        
