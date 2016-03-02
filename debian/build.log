@@ -15,10 +15,10 @@ I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
 I: Retrieving libapparmor1 2.10-3
 I: Validating libapparmor1 2.10-3
-I: Retrieving apt 1.2.3
-I: Validating apt 1.2.3
-I: Retrieving libapt-pkg5.0 1.2.3
-I: Validating libapt-pkg5.0 1.2.3
+I: Retrieving apt 1.2.4
+I: Validating apt 1.2.4
+I: Retrieving libapt-pkg5.0 1.2.4
+I: Validating libapt-pkg5.0 1.2.4
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4.5-1
@@ -163,8 +163,8 @@ I: Retrieving libpam0g 1.1.8-3.2
 I: Validating libpam0g 1.1.8-3.2
 I: Retrieving libpcre3 2:8.38-3
 I: Validating libpcre3 2:8.38-3
-I: Retrieving perl-base 5.22.1-7
-I: Validating perl-base 5.22.1-7
+I: Retrieving perl-base 5.22.1-8
+I: Validating perl-base 5.22.1-8
 I: Retrieving libreadline6 6.3-8+b4
 I: Validating libreadline6 6.3-8+b4
 I: Retrieving readline-common 6.3-8
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [287 kB]
-Fetched 287 kB in 0s (1266 kB/s)
+Fetched 287 kB in 0s (1041 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> f72cc24ffcf8
-Removing intermediate container 51fda1033f59
+ ---> 93ef12f3563f
+Removing intermediate container 7ae49ad56fb6
 Step 3 : CMD /bin/bash
- ---> Running in a0e8eda2f004
- ---> 7d068cd639c9
-Removing intermediate container a0e8eda2f004
-Successfully built 7d068cd639c9
+ ---> Running in 81d88f2bf2e6
+ ---> fde3f85e96b9
+Removing intermediate container 81d88f2bf2e6
+Successfully built fde3f85e96b9

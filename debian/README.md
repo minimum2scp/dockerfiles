@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.113+nmu3               all    add and remove users and groups                                       
-ii   apt                     1.2.3                    amd64  commandline package manager                                           
+ii   apt                     1.2.4                    amd64  commandline package manager                                           
 ii   base-files              9.5                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
@@ -52,7 +52,7 @@ ii   insserv                 1.14.0-5.2               amd64  boot sequence organ
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-3                   amd64  changehat AppArmor library                                            
-ii   libapt-pkg5.0           1.2.3                    amd64  package management runtime library                                    
+ii   libapt-pkg5.0           1.2.4                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
 ii   libaudit1               1:2.4.5-1                amd64  Dynamic library for security auditing                                 
@@ -110,7 +110,7 @@ ii   ncurses-base            6.0+20160213-1           all    basic terminal type
 ii   ncurses-bin             6.0+20160213-1           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
-ii   perl-base               5.22.1-7                 amd64  minimal Perl system                                                   
+ii   perl-base               5.22.1-8                 amd64  minimal Perl system                                                   
 ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.2-7                  amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
