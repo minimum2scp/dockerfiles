@@ -170,7 +170,7 @@ ii   libslang2               2.3.0-2                    amd64  S-Lang programmin
 ii   libsmartcols1           2.25.2-6                   amd64  smart column output alignment library                                      
 ii   libss2                  1.42.12-1.1                amd64  command-line interface parsing library                                     
 ii   libssh2-1               1.4.3-4.1+deb8u1           amd64  SSH2 client-side library                                                   
-ii   libssl1.0.0             1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - shared libraries                            
+ii   libssl1.0.0             1.0.1k-3+deb8u4            amd64  Secure Sockets Layer toolkit - shared libraries                            
 ii   libstdc++6              4.9.2-10                   amd64  GNU Standard C++ Library v3                                                
 ii   libsystemd0             215-17+deb8u3              amd64  systemd utility library                                                    
 ii   libtasn1-6              4.2-3+deb8u1               amd64  Manage ASN.1 structures (runtime)                                          
@@ -199,11 +199,11 @@ ii   netbase                 5.3                        all    Basic TCP/IP netw
 ii   openssh-client          1:6.7p1-5+deb8u1           amd64  secure shell (SSH) client, for secure access to remote machines            
 ii   openssh-server          1:6.7p1-5+deb8u1           amd64  secure shell (SSH) server, for secure access from remote machines          
 ii   openssh-sftp-server     1:6.7p1-5+deb8u1           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.0.1k-3+deb8u2            amd64  Secure Sockets Layer toolkit - cryptographic utility                       
+ii   openssl                 1.0.1k-3+deb8u4            amd64  Secure Sockets Layer toolkit - cryptographic utility                       
 ii   passwd                  1:4.2-3+deb8u1             amd64  change and administer password and group data                              
-ii   perl                    5.20.2-3+deb8u3            amd64  Larry Wall's Practical Extraction and Report Language                      
-ii   perl-base               5.20.2-3+deb8u3            amd64  minimal Perl system                                                        
-ii   perl-modules            5.20.2-3+deb8u3            all    Core Perl modules                                                          
+ii   perl                    5.20.2-3+deb8u4            amd64  Larry Wall's Practical Extraction and Report Language                      
+ii   perl-base               5.20.2-3+deb8u4            amd64  minimal Perl system                                                        
+ii   perl-modules            5.20.2-3+deb8u4            all    Core Perl modules                                                          
 ii   procps                  2:3.3.9-9                  amd64  /proc file system utilities                                                
 ii   readline-common         6.3-8                      all    GNU readline and history libraries, common files                           
 ii   rsyslog                 8.4.2-1+deb8u2             amd64  reliable system and kernel logging daemon                                  
