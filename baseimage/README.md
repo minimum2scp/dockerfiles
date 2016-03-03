@@ -101,7 +101,7 @@ ii   initscripts             2.88dsf-59.3                  amd64  scripts for in
 ii   insserv                 1.14.0-5.2                    amd64  boot sequence organizer using LSB init.d script dependency information         
 ii   iproute2                4.3.0-1+b1                    amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library                                             
-ii   libapparmor1            2.10-3                        amd64  changehat AppArmor library                                                     
+ii   libapparmor1            2.10-3+b1                     amd64  changehat AppArmor library                                                     
 ii   libapt-pkg5.0           1.2.4                         amd64  package management runtime library                                             
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                              
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
@@ -151,7 +151,7 @@ ii   libmount1               2.27.1-3                      amd64  device mountin
 ii   libncurses5             6.0+20160213-1                amd64  shared libraries for terminal handling                                         
 ii   libncursesw5            6.0+20160213-1                amd64  shared libraries for terminal handling (wide character support)                
 ii   libnettle6              3.2-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)                
-ii   libnewt0.52             0.52.18-2                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang                  
+ii   libnewt0.52             0.52.18-3                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang                  
 ii   libnghttp2-14           1.8.0-1                       amd64  library implementing HTTP/2 protocol (shared library)                          
 ii   libp11-kit0             0.23.2-3                      amd64  Library for loading and coordinating access to PKCS#11 modules - runtime       
 ii   libpam-modules          1.1.8-3.2                     amd64  Pluggable Authentication Modules for PAM                                       
@@ -171,13 +171,13 @@ ii   librtmp1                2.4+20151223.gitfa8646d-1+b1  amd64  toolkit for RT
 ii   libsasl2-2              2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - authentication abstraction library                                
 ii   libsasl2-modules-db     2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - pluggable authentication modules (DB)                             
 ii   libseccomp2             2.2.3-3                       amd64  high level interface to Linux seccomp filter                                   
-ii   libselinux1             2.4-3                         amd64  SELinux runtime shared libraries                                               
+ii   libselinux1             2.4-3+b1                      amd64  SELinux runtime shared libraries                                               
 ii   libsemanage-common      2.4-3                         all    Common files for SELinux policy management libraries                           
 ii   libsemanage1            2.4-3                         amd64  SELinux policy management library                                              
 ii   libsepol1               2.4-2                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2+b1                    amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.27.1-3                      amd64  smart column output alignment library                                          
-ii   libsqlite3-0            3.11.0-2                      amd64  SQLite 3 shared library                                                        
+ii   libsqlite3-0            3.11.0-3                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                     amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2g-1                      amd64  Secure Sockets Layer toolkit - shared libraries                                
@@ -236,7 +236,7 @@ ii   unzip                   6.0-20                        amd64  De-archiver fo
 ii   util-linux              2.27.1-3                      amd64  miscellaneous system utilities                                                 
 ii   vim-common              2:7.4.963-1+b1                amd64  Vi IMproved - Common files                                                     
 ii   vim-tiny                2:7.4.963-1+b1                amd64  Vi IMproved - enhanced vi editor - compact version                             
-ii   whiptail                0.52.18-2                     amd64  Displays user-friendly dialog boxes from shell scripts                         
+ii   whiptail                0.52.18-3                     amd64  Displays user-friendly dialog boxes from shell scripts                         
 ii   zlib1g                  1:1.2.8.dfsg-2+b1             amd64  compression library - runtime                                                  
 ii   zsh                     5.2-3                         amd64  shell with lots of features                                                    
 ii   zsh-common              5.2-3                         all    architecture independent files for Zsh                                         

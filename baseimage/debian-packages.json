@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "126",
+    "Installed-Size": "127",
     "Origin": null,
     "Package": "libapparmor1",
     "Pre-Depends": null,
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.10-3",
+    "Version": "2.10-3+b1",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -2565,7 +2565,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.52.18-2",
+    "Version": "0.52.18-3",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.18-2"
+    "source:Version": "0.52.18-3"
   },
   {
     "Architecture": "amd64",
@@ -3111,10 +3111,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc6 (>= 2.14), libpcre3 (>= 1:8.35)",
+    "Depends": "libc6 (>= 2.14), libpcre3",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "182",
+    "Installed-Size": "183",
     "Origin": null,
     "Package": "libselinux1",
     "Pre-Depends": null,
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.4-3",
+    "Version": "2.4-3+b1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3282,7 +3282,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "955",
+    "Installed-Size": "1087",
     "Origin": null,
     "Package": "libsqlite3-0",
     "Pre-Depends": null,
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "3.11.0-2",
+    "Version": "3.11.0-3",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.11.0-2"
+    "source:Version": "3.11.0-3"
   },
   {
     "Architecture": "amd64",
@@ -4945,7 +4945,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.52.18-2",
+    "Version": "0.52.18-3",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4953,7 +4953,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.18-2"
+    "source:Version": "0.52.18-3"
   },
   {
     "Architecture": "amd64",
