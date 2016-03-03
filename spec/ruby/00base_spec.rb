@@ -33,11 +33,11 @@ describe 'minimum2scp/ruby' do
 
     describe file('/usr/bin/ruby') do
       it { should be_symlink }
-      it { should be_linked_to('ruby2.2') }
+      it { should be_linked_to('ruby2.3') }
     end
 
-    describe command('ruby2.2 -v') do
-      its(:stdout) { should include 'ruby 2.2.4p230 (2015-12-16) [x86_64-linux-gnu]' }
+    describe command('ruby2.3 -v') do
+      its(:stdout) { should include 'ruby 2.3.0p0 (2015-12-25) [x86_64-linux-gnu]' }
     end
 
     describe file('/opt/rbenv') do
@@ -82,7 +82,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('1.10.6-2') }
+      it { should be_installed.with_version('1.11.2-1') }
     end
   end
 end
