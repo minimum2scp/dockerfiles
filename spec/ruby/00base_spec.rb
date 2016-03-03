@@ -82,7 +82,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('1.10.6-2') }
+      it { should be_installed.with_version('1.11.2-1') }
     end
   end
 end
