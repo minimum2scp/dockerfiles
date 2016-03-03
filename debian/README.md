@@ -51,7 +51,7 @@ ii   initscripts             2.88dsf-59.3             amd64  scripts for initial
 ii   insserv                 1.14.0-5.2               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
-ii   libapparmor1            2.10-3                   amd64  changehat AppArmor library                                            
+ii   libapparmor1            2.10-3+b1                amd64  changehat AppArmor library                                            
 ii   libapt-pkg5.0           1.2.4                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
@@ -85,7 +85,7 @@ ii   libpam0g                1.1.8-3.2                amd64  Pluggable Authentic
 ii   libpcre3                2:8.38-3                 amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries                
 ii   libseccomp2             2.2.3-3                  amd64  high level interface to Linux seccomp filter                          
-ii   libselinux1             2.4-3                    amd64  SELinux runtime shared libraries                                      
+ii   libselinux1             2.4-3+b1                 amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.4-3                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.4-3                    amd64  SELinux policy management library                                     
 ii   libsepol1               2.4-2                    amd64  SELinux library for manipulating binary security policies             
