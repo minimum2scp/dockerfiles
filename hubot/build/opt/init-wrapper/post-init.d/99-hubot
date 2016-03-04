@@ -1,6 +1,5 @@
 #! /bin/bash
 
-nodejs_version=v5.3.0
 bot_dir=/home/debian/hubot
 
 setup_new_hubot (){
@@ -11,13 +10,11 @@ setup_new_hubot (){
   sudo -u debian -H bash -l -c "git config --global user.email debian@`hostname`"
 
   ## create bot
-  sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
+  sudo -u debian -H bash -l -c "yo hubot --owner='minimum2scp <tyamada@minimum2scp.org>' --name='hubot' --adapter='slack' --description='test'"
   sudo -u debian -H bash -l -c "git init . && git add . && git commit -m 'Initial commit'"
-  sudo -u debian -H bash -l -c "echo ${nodejs_version} > .nvmrc"
-  sudo -u debian -H bash -l -c "git add .nvmrc && git commit -m 'use nodejs ${nodejs_version}'"
 
   ## remove hubot-heroku-keepalive
-  sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} npm uninstall hubot-heroku-keepalive --save"
+  sudo -u debian -H bash -l -c "npm uninstall hubot-heroku-keepalive --save"
   sudo -u debian -H bash -l -c "sed -i -s '/hubot-heroku-keepalive/d' external-scripts.json"
   sudo -u debian -H bash -l -c "git commit -a -m 'remove hubot-heroku-keepalive'"
 
@@ -45,7 +42,7 @@ setup_hubot_from_repo (){
   sudo -u debian mkdir -p ${bot_dir}
   sudo -u debian git clone ${HUBOT_REPO_URI} ${bot_dir}
   cd ${bot_dir}
-  sudo -u debian -H bash -l -c "nvm exec ${nodejs_version} npm install"
+  sudo -u debian -H bash -l -c "npm install"
 }
 
 install_supervisor (){
