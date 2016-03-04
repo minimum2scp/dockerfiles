@@ -1,0 +1,10 @@
+FROM minimum2scp/baseimage:next
+
+MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
+
+RUN apt-get update && \
+    git config --global user.email "root@`hostname`" && \
+    /opt/custom-installers/consul/install.sh
+ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]
+CMD ["/sbin/init"]
+
