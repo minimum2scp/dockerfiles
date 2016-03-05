@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.113+nmu3               all    add and remove users and groups                                       
 ii   apt                     1.2.4                    amd64  commandline package manager                                           
-ii   base-files              9.5                      amd64  Debian base system miscellaneous files                                
+ii   base-files              9.6                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
 ii   bsdutils                1:2.27.1-4               amd64  basic utilities from 4.4BSD-Lite                                      
