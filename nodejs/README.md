@@ -1,8 +1,8 @@
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v5.3.0 is installed with [nvm](https://github.com/creationix/nvm)
- * nvm is installed in /opt/nvm
+ * node.js v5.7.1 is installed with [nodenv](https://github.com/nodenv/nodenv)
+ * nodenv is installed in /opt/nodenv
 
 ## start container
 
@@ -47,15 +47,15 @@ debian     178   127  0 03:42 pts/0    R+     0:00              \_ ps -ef fww
 
  * TCP/22: sshd
 
-## nvm
+## nodenv
 
-nvm is installed in `/opt/nvm`, and enabled by `/etc/profile.d/nvm.sh`.
+nvm is installed in `/opt/nodenv`, and enabled by `/etc/profile.d/nodenv.sh`.
 
 If you need root privilege, use `sudo bash -lc "..."`.
-For example, install stable version of nodejs:
+For example, install LTS version of nodejs:
 
 ```
-sudo bash -lc "nvm install stable"
+sudo bash -lc "nodenv install 4.3.2"
 ```
 
 
