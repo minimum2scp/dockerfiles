@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.113+nmu3                    all    add and remove users and groups                                                
 ii   apt                     1.2.4                         amd64  commandline package manager                                                    
-ii   base-files              9.5                           amd64  Debian base system miscellaneous files                                         
+ii   base-files              9.6                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
 ii   bsdmainutils            9.0.6+b1                      amd64  collection of more utilities from FreeBSD                                      
@@ -177,7 +177,7 @@ ii   libsemanage1            2.4-3+b1                      amd64  SELinux policy
 ii   libsepol1               2.4-2                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2+b1                    amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.27.1-4                      amd64  smart column output alignment library                                          
-ii   libsqlite3-0            3.11.0-3                      amd64  SQLite 3 shared library                                                        
+ii   libsqlite3-0            3.11.1-1                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.42.13-1                     amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2g-1                      amd64  Secure Sockets Layer toolkit - shared libraries                                

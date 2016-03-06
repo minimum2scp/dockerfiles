@@ -62,7 +62,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "291",
+    "Installed-Size": "289",
     "Origin": null,
     "Package": "base-files",
     "Pre-Depends": "awk",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "9.5",
+    "Version": "9.6",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "9.5"
+    "source:Version": "9.6"
   },
   {
     "Architecture": "amd64",
