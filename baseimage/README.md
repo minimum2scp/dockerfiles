@@ -118,7 +118,7 @@ ii   libcomerr2              1.42.13-1                     amd64  common error d
 ii   libcryptsetup4          2:1.7.0-2                     amd64  disk encryption support - shared library                                       
 ii   libcurl3-gnutls         7.47.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
 ii   libdb5.3                5.3.28-11                     amd64  Berkeley v5.3 Database Libraries [runtime]                                     
-ii   libdebconfclient0       0.206                         amd64  Debian Configuration Management System (C-implementation library)              
+ii   libdebconfclient0       0.207                         amd64  Debian Configuration Management System (C-implementation library)              
 ii   libdevmapper1.02.1      2:1.02.116-1+b1               amd64  Linux Kernel Device Mapper userspace library                                   
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                      
@@ -207,9 +207,9 @@ ii   ncurses-base            6.0+20160213-1                all    basic terminal
 ii   ncurses-bin             6.0+20160213-1                amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                       
 ii   netbase                 5.3                           all    Basic TCP/IP networking system                                                 
-ii   openssh-client          1:7.1p2-2                     amd64  secure shell (SSH) client, for secure access to remote machines                
-ii   openssh-server          1:7.1p2-2                     amd64  secure shell (SSH) server, for secure access from remote machines              
-ii   openssh-sftp-server     1:7.1p2-2                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines    
+ii   openssh-client          1:7.2p1-1                     amd64  secure shell (SSH) client, for secure access to remote machines                
+ii   openssh-server          1:7.2p1-1                     amd64  secure shell (SSH) server, for secure access from remote machines              
+ii   openssh-sftp-server     1:7.2p1-1                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines    
 ii   openssl                 1.0.2g-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility                           
 ii   passwd                  1:4.2-3.1                     amd64  change and administer password and group data                                  
 ii   perl                    5.22.1-8                      amd64  Larry Wall's Practical Extraction and Report Language                          
