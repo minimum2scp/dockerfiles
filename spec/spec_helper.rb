@@ -40,6 +40,7 @@ set :os, :family => 'debian', :arch => 'x86_64', :release => nil
 
 def start_container(opts)
   ## start container before run test
+  opts['Env'] << "CIRCLECI=#{ENV['CIRCLECI']}" if ENV["CIRCLECI"]
   container = ::Docker::Container.create(opts)
   container.start
 
