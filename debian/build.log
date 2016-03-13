@@ -75,12 +75,12 @@ I: Retrieving libgcc1 1:5.3.1-11
 I: Validating libgcc1 1:5.3.1-11
 I: Retrieving libstdc++6 5.3.1-11
 I: Validating libstdc++6 5.3.1-11
-I: Retrieving libc-bin 2.22-2
-I: Validating libc-bin 2.22-2
-I: Retrieving libc6 2.22-2
-I: Validating libc6 2.22-2
-I: Retrieving multiarch-support 2.22-2
-I: Validating multiarch-support 2.22-2
+I: Retrieving libc-bin 2.22-3
+I: Validating libc-bin 2.22-3
+I: Retrieving libc6 2.22-3
+I: Validating libc6 2.22-3
+I: Retrieving multiarch-support 2.22-3
+I: Validating multiarch-support 2.22-3
 I: Retrieving gnupg 1.4.20-4
 I: Validating gnupg 1.4.20-4
 I: Retrieving gpgv 1.4.20-4
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [287 kB]
-Fetched 287 kB in 0s (447 kB/s)
+Fetched 287 kB in 0s (1238 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> d75ce4a70849
-Removing intermediate container b175aa4c855d
+ ---> 4d95af747073
+Removing intermediate container 94cf3b800061
 Step 3 : CMD /bin/bash
- ---> Running in ebde384f7f50
- ---> 1d1778f386af
-Removing intermediate container ebde384f7f50
-Successfully built 1d1778f386af
+ ---> Running in 8a17fa2ea1ef
+ ---> 229e06e2ca98
+Removing intermediate container 8a17fa2ea1ef
+Successfully built 229e06e2ca98
