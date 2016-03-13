@@ -69,7 +69,5 @@ def stop_container
   container.delete(force: true)
 
   ## reset Net::SSH object for next test
-  Specinfra::Backend::Ssh.instance.instance_eval do
-    @config[:ssh] = nil
-  end
+  Specinfra.backend.set_config(:ssh, nil)
 end
