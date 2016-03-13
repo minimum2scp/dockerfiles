@@ -1,0 +1,15 @@
+#! /bin/sh
+
+##
+## Environment Variables
+##
+## - CIRCLECI
+##
+
+if [ -n "${CIRCLECI}" ]; then
+  sed -i -e 's/^\(session\s*required\s*pam_loginuid.so\)/#\1/' /etc/pam.d/sshd
+  if etckeeper unclean; then
+    etckeeper commit "Disabled pam_loginuid.so for sshd"
+  fi
+fi
+

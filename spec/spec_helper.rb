@@ -40,6 +40,7 @@ set :os, :family => 'debian', :arch => 'x86_64', :release => nil
 
 def start_container(opts)
   ## start container before run test
+  opts['Env'] << "CIRCLECI=#{ENV['CIRCLECI']}" if ENV["CIRCLECI"]
   container = ::Docker::Container.create(opts)
   container.start
 
@@ -68,7 +69,5 @@ def stop_container
   container.delete(force: true)
 
   ## reset Net::SSH object for next test
-  Specinfra::Backend::Ssh.instance.instance_eval do
-    @config[:ssh] = nil
-  end
+  Specinfra.backend.set_config(:ssh, nil)
 end
