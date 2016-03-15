@@ -42,7 +42,7 @@ ii   gcc-5-base              5.3.1-11                 amd64  GCC, the GNU Compil
 ii   gnupg                   1.4.20-4                 amd64  GNU privacy guard - a free PGP replacement                            
 ii   gpgv                    1.4.20-4                 amd64  GNU privacy guard - signature verification tool                       
 ii   grep                    2.23-1                   amd64  GNU grep, egrep and fgrep                                             
-ii   gzip                    1.6-4                    amd64  GNU compression utilities                                             
+ii   gzip                    1.6-5                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
 ii   init                    1.29                     amd64  System-V-like init utilities - metapackage                            
@@ -120,7 +120,7 @@ ii   systemd-sysv            229-2                    amd64  system and service 
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2016a-1                  all    time zone and daylight-saving time data                               
+ii   tzdata                  2016b-1                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.27.1-6                 amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
 ```

@@ -678,7 +678,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "239",
+    "Installed-Size": "225",
     "Origin": null,
     "Package": "gzip",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -689,7 +689,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.6-4",
+    "Version": "1.6-5",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.6-4"
+    "source:Version": "1.6-5"
   },
   {
     "Architecture": "amd64",
@@ -2862,7 +2862,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2752",
+    "Installed-Size": "2760",
     "Origin": null,
     "Package": "tzdata",
     "Pre-Depends": null,
@@ -2873,7 +2873,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2016a-1",
+    "Version": "2016b-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2016a-1"
+    "source:Version": "2016b-1"
   },
   {
     "Architecture": "amd64",
