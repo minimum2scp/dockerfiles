@@ -92,7 +92,7 @@ ii   gnupg                   1.4.20-4                      amd64  GNU privacy gu
 ii   gpgv                    1.4.20-4                      amd64  GNU privacy guard - signature verification tool                                
 ii   grep                    2.23-1                        amd64  GNU grep, egrep and fgrep                                                      
 ii   groff-base              1.22.3-7                      amd64  GNU troff text-formatting system (base system components)                      
-ii   gzip                    1.6-4                         amd64  GNU compression utilities                                                      
+ii   gzip                    1.6-5                         amd64  GNU compression utilities                                                      
 ii   hostname                3.17                          amd64  utility to set/show the host name or domain name                               
 ii   inetutils-ping          2:1.9.4-1+b1                  amd64  ICMP echo tool                                                                 
 ii   init                    1.29                          amd64  System-V-like init utilities - metapackage                                     
@@ -221,7 +221,7 @@ ii   python-minimal          2.7.11-1                      amd64  minimal subset
 ii   python2.7               2.7.11-4                      amd64  Interactive high-level object-oriented language (version 2.7)                  
 ii   python2.7-minimal       2.7.11-4                      amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                               
-ii   rsyslog                 8.16.0-1                      amd64  reliable system and kernel logging daemon                                      
+ii   rsyslog                 8.16.0-1+b1                   amd64  reliable system and kernel logging daemon                                      
 ii   sed                     4.2.2-7.1                     amd64  The GNU sed stream editor                                                      
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                                   
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                           
@@ -230,7 +230,7 @@ ii   sysv-rc                 2.88dsf-59.3                  all    System-V-like 
 ii   sysvinit-core           2.88dsf-59.3                  amd64  System-V-like init utilities                                                   
 ii   sysvinit-utils          2.88dsf-59.3                  amd64  System-V-like utilities                                                        
 ii   tar                     1.28-2.1                      amd64  GNU version of the tar archiving utility                                       
-ii   tzdata                  2016a-1                       all    time zone and daylight-saving time data                                        
+ii   tzdata                  2016b-1                       all    time zone and daylight-saving time data                                        
 ii   ucf                     3.0035                        all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                     
 ii   util-linux              2.27.1-6                      amd64  miscellaneous system utilities                                                 
