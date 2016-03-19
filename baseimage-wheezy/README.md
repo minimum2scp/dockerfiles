@@ -84,8 +84,8 @@ ii   e2fsprogs               1.42.5-1.1+deb7u1          amd64  ext2/ext3/ext4 fi
 ii   etckeeper               0.63                       all    store /etc in git, mercurial, bzr or darcs                              
 ii   findutils               4.4.2-4                    amd64  utilities for finding files--find, xargs                                
 ii   gcc-4.7-base            4.7.2-5                    amd64  GCC, the GNU Compiler Collection (base package)                         
-ii   git                     1:1.7.10.4-1+wheezy2       amd64  fast, scalable, distributed revision control system                     
-ii   git-man                 1:1.7.10.4-1+wheezy2       all    fast, scalable, distributed revision control system (manual pages)      
+ii   git                     1:1.7.10.4-1+wheezy3       amd64  fast, scalable, distributed revision control system                     
+ii   git-man                 1:1.7.10.4-1+wheezy3       all    fast, scalable, distributed revision control system (manual pages)      
 ii   gnupg                   1.4.12-7+deb7u7            amd64  GNU privacy guard - a free PGP replacement                              
 ii   gpgv                    1.4.12-7+deb7u7            amd64  GNU privacy guard - signature verification tool                         
 ii   grep                    2.12-2                     amd64  GNU grep, egrep and fgrep                                               
