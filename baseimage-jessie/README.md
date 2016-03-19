@@ -86,8 +86,8 @@ ii   etckeeper               1.15                       all    store /etc in git
 ii   findutils               4.4.2-9+b1                 amd64  utilities for finding files--find, xargs                                   
 ii   gcc-4.8-base            4.8.4-1                    amd64  GCC, the GNU Compiler Collection (base package)                            
 ii   gcc-4.9-base            4.9.2-10                   amd64  GCC, the GNU Compiler Collection (base package)                            
-ii   git                     1:2.1.4-2.1+deb8u1         amd64  fast, scalable, distributed revision control system                        
-ii   git-man                 1:2.1.4-2.1+deb8u1         all    fast, scalable, distributed revision control system (manual pages)         
+ii   git                     1:2.1.4-2.1+deb8u2         amd64  fast, scalable, distributed revision control system                        
+ii   git-man                 1:2.1.4-2.1+deb8u2         all    fast, scalable, distributed revision control system (manual pages)         
 ii   gnupg                   1.4.18-7                   amd64  GNU privacy guard - a free PGP replacement                                 
 ii   gpgv                    1.4.18-7                   amd64  GNU privacy guard - signature verification tool                            
 ii   grep                    2.20-4.1                   amd64  GNU grep, egrep and fgrep                                                  
