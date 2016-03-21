@@ -65,7 +65,7 @@ ii   apt                     1.2.7                         amd64  commandline pa
 ii   base-files              9.6                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
-ii   bsdmainutils            9.0.8                         amd64  collection of more utilities from FreeBSD                                      
+ii   bsdmainutils            9.0.9                         amd64  collection of more utilities from FreeBSD                                      
 ii   bsdutils                1:2.27.1-6                    amd64  basic utilities from 4.4BSD-Lite                                               
 ii   ca-certificates         20160104                      all    Common CA certificates                                                         
 ii   coreutils               8.25-2                        amd64  GNU core utilities                                                             
@@ -164,8 +164,8 @@ ii   libpipeline1            1.4.1-2                       amd64  pipeline manip
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters                                             
 ii   libprocps5              2:3.3.11-3                    amd64  library for accessing process information from /proc                           
 ii   libpython-stdlib        2.7.11-1                      amd64  interactive high-level object-oriented language (default python version)       
-ii   libpython2.7-minimal    2.7.11-4                      amd64  Minimal subset of the Python language (version 2.7)                            
-ii   libpython2.7-stdlib     2.7.11-4                      amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.11-5                      amd64  Minimal subset of the Python language (version 2.7)                            
+ii   libpython2.7-stdlib     2.7.11-5                      amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline6            6.3-8+b4                      amd64  GNU readline and history libraries, run-time libraries                         
 ii   librtmp1                2.4+20151223.gitfa8646d-1+b1  amd64  toolkit for RTMP streams (shared library)                                      
 ii   libsasl2-2              2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - authentication abstraction library                                
@@ -218,8 +218,8 @@ ii   perl-modules-5.22       5.22.1-9                      all    Core Perl modu
 ii   procps                  2:3.3.11-3                    amd64  /proc file system utilities                                                    
 ii   python                  2.7.11-1                      amd64  interactive high-level object-oriented language (default version)              
 ii   python-minimal          2.7.11-1                      amd64  minimal subset of the Python language (default version)                        
-ii   python2.7               2.7.11-4                      amd64  Interactive high-level object-oriented language (version 2.7)                  
-ii   python2.7-minimal       2.7.11-4                      amd64  Minimal subset of the Python language (version 2.7)                            
+ii   python2.7               2.7.11-5                      amd64  Interactive high-level object-oriented language (version 2.7)                  
+ii   python2.7-minimal       2.7.11-5                      amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                               
 ii   rsyslog                 8.16.0-1+b1                   amd64  reliable system and kernel logging daemon                                      
 ii   sed                     4.2.2-7.1                     amd64  The GNU sed stream editor                                                      
