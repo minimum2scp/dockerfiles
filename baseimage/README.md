@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.114                         all    add and remove users and groups                                                
-ii   apt                     1.2.7                         amd64  commandline package manager                                                    
+ii   apt                     1.2.8                         amd64  commandline package manager                                                    
 ii   base-files              9.6                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
@@ -85,7 +85,7 @@ ii   etckeeper               1.18.2-1                      all    store /etc in 
 ii   findutils               4.6.0+git+20160126-2          amd64  utilities for finding files--find, xargs                                       
 ii   gcc-4.8-base            4.8.5-4                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-4.9-base            4.9.3-12                      amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   gcc-5-base              5.3.1-12                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-5-base              5.3.1-13                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.8.0~rc3-1                 amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.8.0~rc3-1                 all    fast, scalable, distributed revision control system (manual pages)             
 ii   gnupg                   1.4.20-4                      amd64  GNU privacy guard - a free PGP replacement                                     
@@ -102,7 +102,7 @@ ii   insserv                 1.14.0-5.3                    amd64  boot sequence 
 ii   iproute2                4.3.0-1+b1                    amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library                                             
 ii   libapparmor1            2.10-3+b1                     amd64  changehat AppArmor library                                                     
-ii   libapt-pkg5.0           1.2.7                         amd64  package management runtime library                                             
+ii   libapt-pkg5.0           1.2.8                         amd64  package management runtime library                                             
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                              
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1+b1                  amd64  Dynamic library for security auditing                                          
@@ -126,7 +126,7 @@ ii   libestr0                0.1.10-1                      amd64  Helper functio
 ii   libexpat1               2.1.1-1                       amd64  XML parsing C library - runtime library                                        
 ii   libfdisk1               2.27.1-6                      amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                     
-ii   libgcc1                 1:5.3.1-12                    amd64  GCC support library                                                            
+ii   libgcc1                 1:5.3.1-13                    amd64  GCC support library                                                            
 ii   libgcrypt20             1.6.5-2                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
@@ -168,8 +168,8 @@ ii   libpython2.7-minimal    2.7.11-6                      amd64  Minimal subset
 ii   libpython2.7-stdlib     2.7.11-6                      amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline6            6.3-8+b4                      amd64  GNU readline and history libraries, run-time libraries                         
 ii   librtmp1                2.4+20151223.gitfa8646d-1+b1  amd64  toolkit for RTMP streams (shared library)                                      
-ii   libsasl2-2              2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - authentication abstraction library                                
-ii   libsasl2-modules-db     2.1.26.dfsg1-14+b1            amd64  Cyrus SASL - pluggable authentication modules (DB)                             
+ii   libsasl2-2              2.1.26.dfsg1-15               amd64  Cyrus SASL - authentication abstraction library                                
+ii   libsasl2-modules-db     2.1.26.dfsg1-15               amd64  Cyrus SASL - pluggable authentication modules (DB)                             
 ii   libseccomp2             2.2.3-3                       amd64  high level interface to Linux seccomp filter                                   
 ii   libselinux1             2.4-3+b1                      amd64  SELinux runtime shared libraries                                               
 ii   libsemanage-common      2.4-3                         all    Common files for SELinux policy management libraries                           
@@ -181,7 +181,7 @@ ii   libsqlite3-0            3.11.1-1                      amd64  SQLite 3 share
 ii   libss2                  1.43~WIP.2016.03.15-2         amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2g-1                      amd64  Secure Sockets Layer toolkit - shared libraries                                
-ii   libstdc++6              5.3.1-12                      amd64  GNU Standard C++ Library v3                                                    
+ii   libstdc++6              5.3.1-13                      amd64  GNU Standard C++ Library v3                                                    
 ii   libsystemd0             229-3                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.7-3                         amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                               
