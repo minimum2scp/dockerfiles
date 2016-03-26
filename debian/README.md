@@ -76,8 +76,8 @@ ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc f
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime                       
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.27.1-6                 amd64  device mounting library                                               
-ii   libncurses5             6.0+20160213-1           amd64  shared libraries for terminal handling                                
-ii   libncursesw5            6.0+20160213-1           amd64  shared libraries for terminal handling (wide character support)       
+ii   libncurses5             6.0+20160319-1           amd64  shared libraries for terminal handling                                
+ii   libncursesw5            6.0+20160319-1           amd64  shared libraries for terminal handling (wide character support)       
 ii   libpam-modules          1.1.8-3.2                amd64  Pluggable Authentication Modules for PAM                              
 ii   libpam-modules-bin      1.1.8-3.2                amd64  Pluggable Authentication Modules for PAM - helper binaries            
 ii   libpam-runtime          1.1.8-3.2                all    Runtime support for the PAM library                                   
@@ -96,7 +96,7 @@ ii   libsystemd0             229-3                    amd64  systemd utility lib
 ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
-ii   libtinfo5               6.0+20160213-1           amd64  shared low-level terminfo library for terminal handling               
+ii   libtinfo5               6.0+20160319-1           amd64  shared low-level terminfo library for terminal handling               
 ii   libudev1                229-3                    amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-28              amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library                                  
@@ -106,8 +106,8 @@ ii   lsb-base                9.20160110               all    Linux Standard Base
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language                       
 ii   mount                   2.27.1-6                 amd64  tools for mounting and manipulating filesystems                       
 ii   multiarch-support       2.22-4                   amd64  Transitional package to ensure multiarch compatibility                
-ii   ncurses-base            6.0+20160213-1           all    basic terminal type definitions                                       
-ii   ncurses-bin             6.0+20160213-1           amd64  terminal-related programs and man pages                               
+ii   ncurses-base            6.0+20160319-1           all    basic terminal type definitions                                       
+ii   ncurses-bin             6.0+20160319-1           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
 ii   perl-base               5.22.1-9                 amd64  minimal Perl system                                                   
@@ -120,7 +120,7 @@ ii   systemd-sysv            229-3                    amd64  system and service 
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2016b-1                  all    time zone and daylight-saving time data                               
+ii   tzdata                  2016c-1                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.27.1-6                 amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
 ```
