@@ -71,7 +71,7 @@ ii   ca-certificates         20160104                      all    Common CA cert
 ii   coreutils               8.25-2                        amd64  GNU core utilities                                                             
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon                                                      
 ii   curl                    7.47.0-1                      amd64  command line tool for transferring data with URL syntax                        
-ii   dash                    0.5.8-2.1                     amd64  POSIX-compliant shell                                                          
+ii   dash                    0.5.8-2.2                     amd64  POSIX-compliant shell                                                          
 ii   debconf                 1.5.59                        all    Debian configuration management system                                         
 ii   debconf-i18n            1.5.59                        all    full internationalization support for debconf                                  
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive                                       
