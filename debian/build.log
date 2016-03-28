@@ -39,8 +39,8 @@ I: Retrieving coreutils 8.25-2
 I: Validating coreutils 8.25-2
 I: Retrieving libcryptsetup4 2:1.7.0-2
 I: Validating libcryptsetup4 2:1.7.0-2
-I: Retrieving dash 0.5.8-2.1
-I: Validating dash 0.5.8-2.1
+I: Retrieving dash 0.5.8-2.2
+I: Validating dash 0.5.8-2.2
 I: Retrieving libdb5.3 5.3.28-11
 I: Validating libdb5.3 5.3.28-11
 I: Retrieving debconf 1.5.59
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (776 kB/s)
+Fetched 196 kB in 0s (869 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 11ab7768a81a
-Removing intermediate container df72c05fd087
+ ---> 56f51dc4584f
+Removing intermediate container 6349e2b13c25
 Step 3 : CMD /bin/bash
- ---> Running in 85424d223386
- ---> f3f7d8b95d91
-Removing intermediate container 85424d223386
-Successfully built f3f7d8b95d91
+ ---> Running in 47dd4ab471fb
+ ---> 7a83ce5dcb97
+Removing intermediate container 47dd4ab471fb
+Successfully built 7a83ce5dcb97
