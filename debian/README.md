@@ -51,7 +51,7 @@ ii   initscripts             2.88dsf-59.3             amd64  scripts for initial
 ii   insserv                 1.14.0-5.3               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
-ii   libapparmor1            2.10-3+b1                amd64  changehat AppArmor library                                            
+ii   libapparmor1            2.10-4                   amd64  changehat AppArmor library                                            
 ii   libapt-pkg5.0           1.2.9                    amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  

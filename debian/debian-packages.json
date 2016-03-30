@@ -930,7 +930,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "127",
+    "Installed-Size": "126",
     "Origin": null,
     "Package": "libapparmor1",
     "Pre-Depends": null,
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.10-3+b1",
+    "Version": "2.10-4",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "2.10-3"
+    "source:Version": "2.10-4"
   },
   {
     "Architecture": "amd64",
