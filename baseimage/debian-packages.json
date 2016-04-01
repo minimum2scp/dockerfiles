@@ -146,7 +146,7 @@
     "Depends": "libbsd0 (>= 0.2.0), libc6 (>= 2.14), libncurses5 (>= 6), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "570",
+    "Installed-Size": "566",
     "Origin": null,
     "Package": "bsdmainutils",
     "Pre-Depends": null,
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "cpp, wamerican | wordlist, whois, vacation",
-    "Version": "9.0.9",
+    "Version": "9.0.10",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "9.0.9"
+    "source:Version": "9.0.10"
   },
   {
     "Architecture": "amd64",
@@ -2929,7 +2929,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.7.11-6",
+    "Version": "2.7.11-7",
     "binary:Package": "libpython2.7-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2937,16 +2937,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-6"
+    "source:Version": "2.7.11-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "python-urllib3 (<< 1.9.1-3)",
-    "Depends": "libpython2.7-minimal (= 2.7.11-6), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.2 (>= 1.0.2d), libtinfo5 (>= 6)",
+    "Depends": "libpython2.7-minimal (= 2.7.11-7), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.2 (>= 1.0.2d), libtinfo5 (>= 6)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "8481",
+    "Installed-Size": "8482",
     "Origin": null,
     "Package": "libpython2.7-stdlib",
     "Pre-Depends": null,
@@ -2957,7 +2957,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.7.11-6",
+    "Version": "2.7.11-7",
     "binary:Package": "libpython2.7-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-6"
+    "source:Version": "2.7.11-7"
   },
   {
     "Architecture": "amd64",
@@ -4427,7 +4427,7 @@
     "Architecture": "amd64",
     "Conflicts": "python-profiler (<= 2.7.1-2)",
     "Breaks": "python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)",
-    "Depends": "python2.7-minimal (= 2.7.11-6), libpython2.7-stdlib (= 2.7.11-6), mime-support",
+    "Depends": "python2.7-minimal (= 2.7.11-7), libpython2.7-stdlib (= 2.7.11-7), mime-support",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "336",
@@ -4441,7 +4441,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python2.7-doc, binutils",
-    "Version": "2.7.11-6",
+    "Version": "2.7.11-7",
     "binary:Package": "python2.7",
     "binary:Summary": "Interactive high-level object-oriented language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4449,13 +4449,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-6"
+    "source:Version": "2.7.11-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": null,
-    "Depends": "libpython2.7-minimal (= 2.7.11-6), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython2.7-minimal (= 2.7.11-7), zlib1g (>= 1:1.2.0)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "3565",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "2.7.11-6",
+    "Version": "2.7.11-7",
     "binary:Package": "python2.7-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-6"
+    "source:Version": "2.7.11-7"
   },
   {
     "Architecture": "all",
