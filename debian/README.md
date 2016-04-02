@@ -39,8 +39,8 @@ ii   findutils               4.6.0+git+20160126-2     amd64  utilities for findi
 ii   gcc-4.8-base            4.8.5-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.3-12                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-5-base              5.3.1-13                 amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gnupg                   1.4.20-4                 amd64  GNU privacy guard - a free PGP replacement                            
-ii   gpgv                    1.4.20-4                 amd64  GNU privacy guard - signature verification tool                       
+ii   gnupg                   1.4.20-5                 amd64  GNU privacy guard - a free PGP replacement                            
+ii   gpgv                    1.4.20-5                 amd64  GNU privacy guard - signature verification tool                       
 ii   grep                    2.23-1                   amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-5                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
