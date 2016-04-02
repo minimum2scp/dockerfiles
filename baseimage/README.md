@@ -88,8 +88,8 @@ ii   gcc-4.9-base            4.9.3-12                      amd64  GCC, the GNU C
 ii   gcc-5-base              5.3.1-13                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.8.0~rc3-1                 amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.8.0~rc3-1                 all    fast, scalable, distributed revision control system (manual pages)             
-ii   gnupg                   1.4.20-4                      amd64  GNU privacy guard - a free PGP replacement                                     
-ii   gpgv                    1.4.20-4                      amd64  GNU privacy guard - signature verification tool                                
+ii   gnupg                   1.4.20-5                      amd64  GNU privacy guard - a free PGP replacement                                     
+ii   gpgv                    1.4.20-5                      amd64  GNU privacy guard - signature verification tool                                
 ii   grep                    2.23-1                        amd64  GNU grep, egrep and fgrep                                                      
 ii   groff-base              1.22.3-7                      amd64  GNU troff text-formatting system (base system components)                      
 ii   gzip                    1.6-5                         amd64  GNU compression utilities                                                      
@@ -177,7 +177,7 @@ ii   libsemanage1            2.4-3+b1                      amd64  SELinux policy
 ii   libsepol1               2.4-2                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2+b1                    amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.27.1-6                      amd64  smart column output alignment library                                          
-ii   libsqlite3-0            3.11.1-1                      amd64  SQLite 3 shared library                                                        
+ii   libsqlite3-0            3.12.0-1                      amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.43~WIP.2016.03.15-2         amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2g-1                      amd64  Secure Sockets Layer toolkit - shared libraries                                
@@ -234,8 +234,8 @@ ii   tzdata                  2016c-1                       all    time zone and 
 ii   ucf                     3.0036                        all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                     
 ii   util-linux              2.27.1-6                      amd64  miscellaneous system utilities                                                 
-ii   vim-common              2:7.4.963-1+b2                amd64  Vi IMproved - Common files                                                     
-ii   vim-tiny                2:7.4.963-1+b2                amd64  Vi IMproved - enhanced vi editor - compact version                             
+ii   vim-common              2:7.4.1689-1                  amd64  Vi IMproved - Common files                                                     
+ii   vim-tiny                2:7.4.1689-1                  amd64  Vi IMproved - enhanced vi editor - compact version                             
 ii   whiptail                0.52.18-3                     amd64  Displays user-friendly dialog boxes from shell scripts                         
 ii   zlib1g                  1:1.2.8.dfsg-2+b1             amd64  compression library - runtime                                                  
 ii   zsh                     5.2-3                         amd64  shell with lots of features                                                    
