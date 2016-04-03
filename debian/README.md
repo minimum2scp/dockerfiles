@@ -65,7 +65,7 @@ ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capab
 ii   libcomerr2              1.43~WIP.2016.03.15-2    amd64  common error description library                                      
 ii   libcryptsetup4          2:1.7.0-2                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
-ii   libdebconfclient0       0.207                    amd64  Debian Configuration Management System (C-implementation library)     
+ii   libdebconfclient0       0.208                    amd64  Debian Configuration Management System (C-implementation library)     
 ii   libdevmapper1.02.1      2:1.02.120-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.27.1-6                 amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-13               amd64  GCC support library                                                   
