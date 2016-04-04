@@ -15,18 +15,18 @@ I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
 I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.8.2
-I: Validating apt 1.0.9.8.2
-I: Retrieving libapt-pkg4.12 1.0.9.8.2
-I: Validating libapt-pkg4.12 1.0.9.8.2
+I: Retrieving apt 1.0.9.8.3
+I: Validating apt 1.0.9.8.3
+I: Retrieving libapt-pkg4.12 1.0.9.8.3
+I: Validating libapt-pkg4.12 1.0.9.8.3
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.4-1
 I: Validating libaudit-common 1:2.4-1
 I: Retrieving libaudit1 1:2.4-1+b1
 I: Validating libaudit1 1:2.4-1+b1
-I: Retrieving base-files 8+deb8u3
-I: Validating base-files 8+deb8u3
+I: Retrieving base-files 8+deb8u4
+I: Validating base-files 8+deb8u4
 I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
 I: Retrieving bash 4.3-11+b1
@@ -73,16 +73,16 @@ I: Retrieving libgcc1 1:4.9.2-10
 I: Validating libgcc1 1:4.9.2-10
 I: Retrieving libstdc++6 4.9.2-10
 I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-18+deb8u2
-I: Validating libc-bin 2.19-18+deb8u2
-I: Retrieving libc6 2.19-18+deb8u2
-I: Validating libc6 2.19-18+deb8u2
-I: Retrieving multiarch-support 2.19-18+deb8u2
-I: Validating multiarch-support 2.19-18+deb8u2
-I: Retrieving gnupg 1.4.18-7
-I: Validating gnupg 1.4.18-7
-I: Retrieving gpgv 1.4.18-7
-I: Validating gpgv 1.4.18-7
+I: Retrieving libc-bin 2.19-18+deb8u4
+I: Validating libc-bin 2.19-18+deb8u4
+I: Retrieving libc6 2.19-18+deb8u4
+I: Validating libc6 2.19-18+deb8u4
+I: Retrieving multiarch-support 2.19-18+deb8u4
+I: Validating multiarch-support 2.19-18+deb8u4
+I: Retrieving gnupg 1.4.18-7+deb8u1
+I: Validating gnupg 1.4.18-7+deb8u1
+I: Retrieving gpgv 1.4.18-7+deb8u1
+I: Validating gpgv 1.4.18-7+deb8u1
 I: Retrieving grep 2.20-4.1
 I: Validating grep 2.20-4.1
 I: Retrieving gzip 1.6-4
@@ -103,8 +103,8 @@ I: Retrieving libcap2 1:2.24-8
 I: Validating libcap2 1:2.24-8
 I: Retrieving libcap2-bin 1:2.24-8
 I: Validating libcap2-bin 1:2.24-8
-I: Retrieving libgcrypt20 1.6.3-2
-I: Validating libgcrypt20 1.6.3-2
+I: Retrieving libgcrypt20 1.6.3-2+deb8u1
+I: Validating libgcrypt20 1.6.3-2+deb8u1
 I: Retrieving libgpg-error0 1.17-3
 I: Validating libgpg-error0 1.17-3
 I: Retrieving liblocale-gettext-perl 1.05-8+b1
@@ -145,18 +145,18 @@ I: Retrieving ncurses-bin 5.9+20140913-1+b1
 I: Validating ncurses-bin 5.9+20140913-1+b1
 I: Retrieving netbase 5.3
 I: Validating netbase 5.3
-I: Retrieving libpam-modules 1.1.8-3.1+deb8u1
-I: Validating libpam-modules 1.1.8-3.1+deb8u1
-I: Retrieving libpam-modules-bin 1.1.8-3.1+deb8u1
-I: Validating libpam-modules-bin 1.1.8-3.1+deb8u1
+I: Retrieving libpam-modules 1.1.8-3.1+deb8u1+b1
+I: Validating libpam-modules 1.1.8-3.1+deb8u1+b1
+I: Retrieving libpam-modules-bin 1.1.8-3.1+deb8u1+b1
+I: Validating libpam-modules-bin 1.1.8-3.1+deb8u1+b1
 I: Retrieving libpam-runtime 1.1.8-3.1+deb8u1
 I: Validating libpam-runtime 1.1.8-3.1+deb8u1
-I: Retrieving libpam0g 1.1.8-3.1+deb8u1
-I: Validating libpam0g 1.1.8-3.1+deb8u1
-I: Retrieving libpcre3 2:8.35-3.3+deb8u2
-I: Validating libpcre3 2:8.35-3.3+deb8u2
-I: Retrieving perl-base 5.20.2-3+deb8u3
-I: Validating perl-base 5.20.2-3+deb8u3
+I: Retrieving libpam0g 1.1.8-3.1+deb8u1+b1
+I: Validating libpam0g 1.1.8-3.1+deb8u1+b1
+I: Retrieving libpcre3 2:8.35-3.3+deb8u4
+I: Validating libpcre3 2:8.35-3.3+deb8u4
+I: Retrieving perl-base 5.20.2-3+deb8u4
+I: Validating perl-base 5.20.2-3+deb8u4
 I: Retrieving libprocps3 2:3.3.9-9
 I: Validating libprocps3 2:3.3.9-9
 I: Retrieving procps 2:3.3.9-9
@@ -177,16 +177,16 @@ I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-17+deb8u3
-I: Validating libsystemd0 215-17+deb8u3
-I: Retrieving libudev1 215-17+deb8u3
-I: Validating libudev1 215-17+deb8u3
-I: Retrieving systemd 215-17+deb8u3
-I: Validating systemd 215-17+deb8u3
-I: Retrieving systemd-sysv 215-17+deb8u3
-I: Validating systemd-sysv 215-17+deb8u3
-I: Retrieving udev 215-17+deb8u3
-I: Validating udev 215-17+deb8u3
+I: Retrieving libsystemd0 215-17+deb8u4
+I: Validating libsystemd0 215-17+deb8u4
+I: Retrieving libudev1 215-17+deb8u4
+I: Validating libudev1 215-17+deb8u4
+I: Retrieving systemd 215-17+deb8u4
+I: Validating systemd 215-17+deb8u4
+I: Retrieving systemd-sysv 215-17+deb8u4
+I: Validating systemd-sysv 215-17+deb8u4
+I: Retrieving udev 215-17+deb8u4
+I: Validating udev 215-17+deb8u4
 I: Retrieving initscripts 2.88dsf-59
 I: Validating initscripts 2.88dsf-59
 I: Retrieving sysv-rc 2.88dsf-59
@@ -195,8 +195,8 @@ I: Retrieving sysvinit-utils 2.88dsf-59
 I: Validating sysvinit-utils 2.88dsf-59
 I: Retrieving tar 1.27.1-2+b1
 I: Validating tar 1.27.1-2+b1
-I: Retrieving tzdata 2015g-0+deb8u1
-I: Validating tzdata 2015g-0+deb8u1
+I: Retrieving tzdata 2016c-0+deb8u1
+I: Validating tzdata 2016c-0+deb8u1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
 I: Retrieving bsdutils 1:2.25.2-6
@@ -414,6 +414,7 @@ I: Configuring gcc-4.9-base:amd64...
 I: Configuring libaudit-common...
 I: Configuring libc6:amd64...
 I: Configuring startpar...
+I: Configuring libc-bin...
 I: Configuring diffutils...
 I: Configuring insserv...
 I: Configuring findutils...
@@ -450,7 +451,6 @@ I: Configuring zlib1g:amd64...
 I: Configuring libcap2:amd64...
 I: Configuring libsystemd0:amd64...
 I: Configuring libdevmapper1.02.1:amd64...
-I: Configuring libc-bin...
 I: Configuring libsemanage1:amd64...
 I: Configuring sysvinit-utils...
 I: Configuring libacl1:amd64...
@@ -528,58 +528,26 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://ftp.jp.debian.org jessie-updates InRelease [136 kB]
+Get:1 http://ftp.jp.debian.org jessie-updates InRelease [142 kB]
 Get:2 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [288 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [3619 B]
-Get:4 http://security.debian.org jessie/updates/main amd64 Packages [269 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [4982 B]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9034 kB]
-Fetched 9506 kB in 1s (5423 kB/s)
+Fetched 9532 kB in 1s (4902 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-The following packages will be upgraded:
-  libc-bin libc6 libgcrypt20 multiarch-support perl-base
-5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 7745 kB of archives.
-After this operation, 30.7 kB disk space will be freed.
-Get:1 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u4 [1224 kB]
-Get:2 http://security.debian.org/ jessie/updates/main libc-bin amd64 2.19-18+deb8u3 [1285 kB]
-Get:3 http://security.debian.org/ jessie/updates/main libc6 amd64 2.19-18+deb8u3 [4666 kB]
-Get:4 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u1 [391 kB]
-Get:5 http://security.debian.org/ jessie/updates/main multiarch-support amd64 2.19-18+deb8u3 [179 kB]
-Fetched 7745 kB in 9s (784 kB/s)
-(Reading database ... 7531 files and directories currently installed.)
-Preparing to unpack .../perl-base_5.20.2-3+deb8u4_amd64.deb ...
-Unpacking perl-base (5.20.2-3+deb8u4) over (5.20.2-3+deb8u3) ...
-Setting up perl-base (5.20.2-3+deb8u4) ...
-(Reading database ... 7531 files and directories currently installed.)
-Preparing to unpack .../libc-bin_2.19-18+deb8u3_amd64.deb ...
-Unpacking libc-bin (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
-Setting up libc-bin (2.19-18+deb8u3) ...
-(Reading database ... 7531 files and directories currently installed.)
-Preparing to unpack .../libc6_2.19-18+deb8u3_amd64.deb ...
-Unpacking libc6:amd64 (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
-Setting up libc6:amd64 (2.19-18+deb8u3) ...
-Processing triggers for libc-bin (2.19-18+deb8u3) ...
-(Reading database ... 7531 files and directories currently installed.)
-Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u1_amd64.deb ...
-Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u1) over (1.6.3-2) ...
-Setting up libgcrypt20:amd64 (1.6.3-2+deb8u1) ...
-Processing triggers for libc-bin (2.19-18+deb8u3) ...
-(Reading database ... 7531 files and directories currently installed.)
-Preparing to unpack .../multiarch-support_2.19-18+deb8u3_amd64.deb ...
-Unpacking multiarch-support (2.19-18+deb8u3) over (2.19-18+deb8u2) ...
-Setting up multiarch-support (2.19-18+deb8u3) ...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.07 MBSending build context to Docker daemon 30.07 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> be76e9eadb3e
-Removing intermediate container fa97389a327a
+ ---> bb8d33ee244a
+Removing intermediate container 79c70aa3fe1b
 Step 3 : CMD /bin/bash
- ---> Running in 158b7eb62467
- ---> 54c23f2eaf04
-Removing intermediate container 158b7eb62467
-Successfully built 54c23f2eaf04
+ ---> Running in 9e4eb1e0a4c4
+ ---> c308d321d9da
+Removing intermediate container 9e4eb1e0a4c4
+Successfully built c308d321d9da

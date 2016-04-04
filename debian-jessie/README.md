@@ -20,8 +20,8 @@ installed packages:
 ```
 ii   acl                     2.2.52-2                  amd64  Access control list utilities                                         
 ii   adduser                 3.113+nmu3                all    add and remove users and groups                                       
-ii   apt                     1.0.9.8.2                 amd64  commandline package manager                                           
-ii   base-files              8+deb8u3                  amd64  Debian base system miscellaneous files                                
+ii   apt                     1.0.9.8.3                 amd64  commandline package manager                                           
+ii   base-files              8+deb8u4                  amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.37                    amd64  Debian base system master password and group files                    
 ii   bash                    4.3-11+b1                 amd64  GNU Bourne Again SHell                                                
 ii   bsdutils                1:2.25.2-6                amd64  basic utilities from 4.4BSD-Lite                                      
@@ -39,8 +39,8 @@ ii   e2fsprogs               1.42.12-1.1               amd64  ext2/ext3/ext4 fil
 ii   findutils               4.4.2-9+b1                amd64  utilities for finding files--find, xargs                              
 ii   gcc-4.8-base            4.8.4-1                   amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.2-10                  amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gnupg                   1.4.18-7                  amd64  GNU privacy guard - a free PGP replacement                            
-ii   gpgv                    1.4.18-7                  amd64  GNU privacy guard - signature verification tool                       
+ii   gnupg                   1.4.18-7+deb8u1           amd64  GNU privacy guard - a free PGP replacement                            
+ii   gpgv                    1.4.18-7+deb8u1           amd64  GNU privacy guard - signature verification tool                       
 ii   grep                    2.20-4.1                  amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-4                     amd64  GNU compression utilities                                             
 ii   hostname                3.15                      amd64  utility to set/show the host name or domain name                      
@@ -50,14 +50,14 @@ ii   initscripts             2.88dsf-59                amd64  scripts for initia
 ii   insserv                 1.14.0-5                  amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                3.16.0-2                  amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-2                  amd64  Access control list shared library                                    
-ii   libapt-pkg4.12          1.0.9.8.2                 amd64  package management runtime library                                    
+ii   libapt-pkg4.12          1.0.9.8.3                 amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2                amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4-1                   all    Dynamic library for security auditing - common files                  
 ii   libaudit1               1:2.4-1+b1                amd64  Dynamic library for security auditing                                 
 ii   libblkid1               2.25.2-6                  amd64  block device id library                                               
 ii   libbz2-1.0              1.0.6-7+b3                amd64  high-quality block-sorting file compressor library - runtime          
-ii   libc-bin                2.19-18+deb8u3            amd64  GNU C Library: Binaries                                               
-ii   libc6                   2.19-18+deb8u3            amd64  GNU C Library: Shared libraries                                       
+ii   libc-bin                2.19-18+deb8u4            amd64  GNU C Library: Binaries                                               
+ii   libc6                   2.19-18+deb8u4            amd64  GNU C Library: Shared libraries                                       
 ii   libcap2                 1:2.24-8                  amd64  POSIX 1003.1e capabilities (library)                                  
 ii   libcap2-bin             1:2.24-8                  amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.42.12-1.1               amd64  common error description library                                      
@@ -74,11 +74,11 @@ ii   liblzma5                5.1.1alpha+20120614-2+b3  amd64  XZ-format compress
 ii   libmount1               2.25.2-6                  amd64  device mounting library                                               
 ii   libncurses5             5.9+20140913-1+b1         amd64  shared libraries for terminal handling                                
 ii   libncursesw5            5.9+20140913-1+b1         amd64  shared libraries for terminal handling (wide character support)       
-ii   libpam-modules          1.1.8-3.1+deb8u1          amd64  Pluggable Authentication Modules for PAM                              
-ii   libpam-modules-bin      1.1.8-3.1+deb8u1          amd64  Pluggable Authentication Modules for PAM - helper binaries            
+ii   libpam-modules          1.1.8-3.1+deb8u1+b1       amd64  Pluggable Authentication Modules for PAM                              
+ii   libpam-modules-bin      1.1.8-3.1+deb8u1+b1       amd64  Pluggable Authentication Modules for PAM - helper binaries            
 ii   libpam-runtime          1.1.8-3.1+deb8u1          all    Runtime support for the PAM library                                   
-ii   libpam0g                1.1.8-3.1+deb8u1          amd64  Pluggable Authentication Modules library                              
-ii   libpcre3                2:8.35-3.3+deb8u2         amd64  Perl 5 Compatible Regular Expression Library - runtime files          
+ii   libpam0g                1.1.8-3.1+deb8u1+b1       amd64  Pluggable Authentication Modules library                              
+ii   libpcre3                2:8.35-3.3+deb8u4         amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libprocps3              2:3.3.9-9                 amd64  library for accessing process information from /proc                  
 ii   libreadline6            6.3-8+b3                  amd64  GNU readline and history libraries, run-time libraries                
 ii   libselinux1             2.3-2                     amd64  SELinux runtime shared libraries                                      
@@ -89,12 +89,12 @@ ii   libslang2               2.3.0-2                   amd64  S-Lang programming
 ii   libsmartcols1           2.25.2-6                  amd64  smart column output alignment library                                 
 ii   libss2                  1.42.12-1.1               amd64  command-line interface parsing library                                
 ii   libstdc++6              4.9.2-10                  amd64  GNU Standard C++ Library v3                                           
-ii   libsystemd0             215-17+deb8u3             amd64  systemd utility library                                               
+ii   libsystemd0             215-17+deb8u4             amd64  systemd utility library                                               
 ii   libtext-charwidth-perl  0.04-7+b3                 amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b2                  amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7                    all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               5.9+20140913-1+b1         amd64  shared low-level terminfo library for terminal handling               
-ii   libudev1                215-17+deb8u3             amd64  libudev shared library                                                
+ii   libudev1                215-17+deb8u4             amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-25               amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-3+b2                amd64  Micro string library: shared library                                  
 ii   libuuid1                2.25.2-6                  amd64  Universally Unique ID library                                         
@@ -102,7 +102,7 @@ ii   login                   1:4.2-3+deb8u1            amd64  system login tools
 ii   lsb-base                4.1+Debian13+nmu1         all    Linux Standard Base 4.1 init script functionality                     
 ii   mawk                    1.3.3-17                  amd64  a pattern scanning and text processing language                       
 ii   mount                   2.25.2-6                  amd64  Tools for mounting and manipulating filesystems                       
-ii   multiarch-support       2.19-18+deb8u3            amd64  Transitional package to ensure multiarch compatibility                
+ii   multiarch-support       2.19-18+deb8u4            amd64  Transitional package to ensure multiarch compatibility                
 ii   ncurses-base            5.9+20140913-1            all    basic terminal type definitions                                       
 ii   ncurses-bin             5.9+20140913-1+b1         amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                       all    Basic TCP/IP networking system                                        
@@ -113,13 +113,13 @@ ii   readline-common         6.3-8                     all    GNU readline and h
 ii   sed                     4.2.2-4+b1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                     all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                    amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 215-17+deb8u3             amd64  system and service manager                                            
-ii   systemd-sysv            215-17+deb8u3             amd64  system and service manager - SysV links                               
+ii   systemd                 215-17+deb8u4             amd64  system and service manager                                            
+ii   systemd-sysv            215-17+deb8u4             amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59                all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59                amd64  System-V-like utilities                                               
 ii   tar                     1.27.1-2+b1               amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2015g-0+deb8u1            all    time zone and daylight-saving time data                               
-ii   udev                    215-17+deb8u3             amd64  /dev/ and hotplug management daemon                                   
+ii   tzdata                  2016c-0+deb8u1            all    time zone and daylight-saving time data                               
+ii   udev                    215-17+deb8u4             amd64  /dev/ and hotplug management daemon                                   
 ii   util-linux              2.25.2-6                  amd64  Miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1         amd64  compression library - runtime                                         
 ```
