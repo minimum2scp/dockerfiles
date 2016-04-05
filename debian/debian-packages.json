@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "22-1",
+    "Version": "22-1.1",
     "binary:Package": "libkmod2:amd64",
     "binary:Summary": "libkmod shared library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "kmod",
-    "source:Version": "22-1"
+    "source:Version": "22-1.1"
   },
   {
     "Architecture": "amd64",
@@ -1851,10 +1851,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc6 (>= 2.4)",
+    "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "265",
+    "Installed-Size": "273",
     "Origin": null,
     "Package": "libseccomp2",
     "Pre-Depends": null,
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.2.3-3",
+    "Version": "2.3.0-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.2.3-3"
+    "source:Version": "2.3.0-1"
   },
   {
     "Architecture": "amd64",

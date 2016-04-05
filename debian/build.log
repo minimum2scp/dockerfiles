@@ -101,8 +101,8 @@ I: Retrieving insserv 1.14.0-5.3
 I: Validating insserv 1.14.0-5.3
 I: Retrieving iproute2 4.3.0-1+b1
 I: Validating iproute2 4.3.0-1+b1
-I: Retrieving libkmod2 22-1
-I: Validating libkmod2 22-1
+I: Retrieving libkmod2 22-1.1
+I: Validating libkmod2 22-1.1
 I: Retrieving libcap2 1:2.24-12
 I: Validating libcap2 1:2.24-12
 I: Retrieving libcap2-bin 1:2.24-12
@@ -113,8 +113,8 @@ I: Retrieving libgpg-error0 1.21-2
 I: Validating libgpg-error0 1.21-2
 I: Retrieving liblocale-gettext-perl 1.07-1+b1
 I: Validating liblocale-gettext-perl 1.07-1+b1
-I: Retrieving libseccomp2 2.2.3-3
-I: Validating libseccomp2 2.2.3-3
+I: Retrieving libseccomp2 2.3.0-1
+I: Validating libseccomp2 2.3.0-1
 I: Retrieving libselinux1 2.4-3+b1
 I: Validating libselinux1 2.4-3+b1
 I: Retrieving libsemanage-common 2.4-3
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (595 kB/s)
+Fetched 196 kB in 0s (1011 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> e8d58e0ec228
-Removing intermediate container 26c5d4bb8446
+ ---> 07ac8e5bb369
+Removing intermediate container 79ba16f13e79
 Step 3 : CMD /bin/bash
- ---> Running in 586921c74fc9
- ---> f3f30812ac9f
-Removing intermediate container 586921c74fc9
-Successfully built f3f30812ac9f
+ ---> Running in 0ea346cef6f0
+ ---> 400a7acb5749
+Removing intermediate container 0ea346cef6f0
+Successfully built 400a7acb5749
