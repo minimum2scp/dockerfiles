@@ -179,14 +179,14 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 229-3
-I: Validating libsystemd0 229-3
-I: Retrieving libudev1 229-3
-I: Validating libudev1 229-3
-I: Retrieving systemd 229-3
-I: Validating systemd 229-3
-I: Retrieving systemd-sysv 229-3
-I: Validating systemd-sysv 229-3
+I: Retrieving libsystemd0 229-4
+I: Validating libsystemd0 229-4
+I: Retrieving libudev1 229-4
+I: Validating libudev1 229-4
+I: Retrieving systemd 229-4
+I: Validating systemd 229-4
+I: Retrieving systemd-sysv 229-4
+I: Validating systemd-sysv 229-4
 I: Retrieving initscripts 2.88dsf-59.3
 I: Validating initscripts 2.88dsf-59.3
 I: Retrieving sysv-rc 2.88dsf-59.3
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (953 kB/s)
+Fetched 196 kB in 0s (921 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> fcfc0555128e
-Removing intermediate container 3a69e8c5e809
+ ---> 6782b34cbe54
+Removing intermediate container f91c9c7dfc75
 Step 3 : CMD /bin/bash
- ---> Running in 0913844f3979
- ---> 30042a3fd00e
-Removing intermediate container 0913844f3979
-Successfully built 30042a3fd00e
+ ---> Running in 4849ee16ca93
+ ---> 2d182da971a5
+Removing intermediate container 4849ee16ca93
+Successfully built 2d182da971a5
