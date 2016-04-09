@@ -19,8 +19,7 @@ etckeeper_commit (){
   fi
 }
 
-REPO_HOST=repo.stackdriver.com
-APP_HOST=app.stackdriver.com
+REPO_HOST='packages.cloud.google.com'
 
 ##
 ## add apt-line, GPG key, and apt-get update
@@ -28,13 +27,16 @@ APP_HOST=app.stackdriver.com
 debian_release=`cat /etc/debian_version`
 case ${debian_release} in
   8.*|stretch/sid)
-    curl -s -S -f -o /etc/apt/sources.list.d/stackdriver.list "https://${REPO_HOST}/jessie.list"
+    REPO_NAME="google-cloud-logging-wheezy"
     ;;
   7.*)
-    curl -s -S -f -o /etc/apt/sources.list.d/stackdriver.list "https://${REPO_HOST}/wheezy.list"
+    REPO_NAME="google-cloud-logging-wheezy"
     ;;
 esac
-curl -s -f https://${APP_HOST}/RPM-GPG-KEY-stackdriver | apt-key add -
+cat > /etc/apt/sources.list.d/google-cloud-logging.list <<EOM
+deb http://${REPO_HOST}/apt ${REPO_NAME} main
+EOM
+curl -s -f https://${REPO_HOST}/apt/doc/apt-key.gpg | apt-key add -
 etckeeper_commit "apt: add google-fluentd repository and GPG key"
 apt-get -qq update
 
@@ -82,8 +84,8 @@ cat <<CONF > $tmp_conf
 <match **>
   type google_cloud
   # Set the chunk limit conservatively to avoid exceeding the limit
-  # of 2MB per write request.
-  buffer_chunk_limit 512K
+  # of 10MB per write request.
+  buffer_chunk_limit 2M
   flush_interval 5s
   # Never wait longer than 5 minutes between retries.
   max_retry_wait 300
