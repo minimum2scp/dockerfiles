@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.114                    all    add and remove users and groups                                       
-ii   apt                     1.2.9                    amd64  commandline package manager                                           
+ii   apt                     1.2.10                   amd64  commandline package manager                                           
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files                                
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files                    
 ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell                                                
@@ -52,7 +52,7 @@ ii   insserv                 1.14.0-5.3               amd64  boot sequence organ
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
 ii   libapparmor1            2.10-4                   amd64  changehat AppArmor library                                            
-ii   libapt-pkg5.0           1.2.9                    amd64  package management runtime library                                    
+ii   libapt-pkg5.0           1.2.10                   amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.4.5-1                all    Dynamic library for security auditing - common files                  
 ii   libaudit1               1:2.4.5-1+b1             amd64  Dynamic library for security auditing                                 
@@ -71,7 +71,7 @@ ii   libfdisk1               2.27.1-6                 amd64  fdisk partitioning 
 ii   libgcc1                 1:5.3.1-13               amd64  GCC support library                                                   
 ii   libgcrypt20             1.6.5-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-2                   amd64  library for common error values and messages in GnuPG components      
-ii   libkmod2                22-1                     amd64  libkmod shared library                                                
+ii   libkmod2                22-1.1                   amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime                       
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
@@ -84,7 +84,7 @@ ii   libpam-runtime          1.1.8-3.2                all    Runtime support for
 ii   libpam0g                1.1.8-3.2                amd64  Pluggable Authentication Modules library                              
 ii   libpcre3                2:8.38-3.1               amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries                
-ii   libseccomp2             2.2.3-3                  amd64  high level interface to Linux seccomp filter                          
+ii   libseccomp2             2.3.0-1                  amd64  high level interface to Linux seccomp filter                          
 ii   libselinux1             2.4-3+b1                 amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.4-3                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.4-3+b1                 amd64  SELinux policy management library                                     
@@ -92,12 +92,12 @@ ii   libsepol1               2.4-2                    amd64  SELinux library for
 ii   libsmartcols1           2.27.1-6                 amd64  smart column output alignment library                                 
 ii   libss2                  1.43~WIP.2016.03.15-2    amd64  command-line interface parsing library                                
 ii   libstdc++6              5.3.1-13                 amd64  GNU Standard C++ Library v3                                           
-ii   libsystemd0             229-3                    amd64  systemd utility library                                               
+ii   libsystemd0             229-4                    amd64  systemd utility library                                               
 ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               6.0+20160319-1           amd64  shared low-level terminfo library for terminal handling               
-ii   libudev1                229-3                    amd64  libudev shared library                                                
+ii   libudev1                229-4                    amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-28              amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library                                  
 ii   libuuid1                2.27.1-6                 amd64  Universally Unique ID library                                         
@@ -115,8 +115,8 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 229-3                    amd64  system and service manager                                            
-ii   systemd-sysv            229-3                    amd64  system and service manager - SysV links                               
+ii   systemd                 229-4                    amd64  system and service manager                                            
+ii   systemd-sysv            229-4                    amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              

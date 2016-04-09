@@ -63,7 +63,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 ii   adduser                 3.113+nmu3                 all    add and remove users and groups                                         
 ii   apt                     0.9.7.9+deb7u7             amd64  commandline package manager                                             
 ii   apt-utils               0.9.7.9+deb7u7             amd64  package managment related utility programs                              
-ii   base-files              7.1wheezy9                 amd64  Debian base system miscellaneous files                                  
+ii   base-files              7.1wheezy10                amd64  Debian base system miscellaneous files                                  
 ii   base-passwd             3.5.26                     amd64  Debian base system master password and group files                      
 ii   bash                    4.2+dfsg-0.1+deb7u3        amd64  GNU Bourne Again SHell                                                  
 ii   bsdmainutils            9.0.3                      amd64  collection of more utilities from FreeBSD                               
@@ -192,7 +192,7 @@ ii   sysv-rc                 2.88dsf-41+deb7u1          all    System-V-like run
 ii   sysvinit                2.88dsf-41+deb7u1          amd64  System-V-like init utilities                                            
 ii   sysvinit-utils          2.88dsf-41+deb7u1          amd64  System-V-like utilities                                                 
 ii   tar                     1.26+dfsg-0.1              amd64  GNU version of the tar archiving utility                                
-ii   tzdata                  2015g-0+deb7u1             all    time zone and daylight-saving time data                                 
+ii   tzdata                  2016c-0+deb7u1             all    time zone and daylight-saving time data                                 
 ii   ucf                     3.0025+nmu3                all    Update Configuration File: preserve user changes to config files.       
 ii   unzip                   6.0-8+deb7u5               amd64  De-archiver for .zip files                                              
 ii   util-linux              2.20.1-5.3                 amd64  Miscellaneous system utilities                                          
