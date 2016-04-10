@@ -69,18 +69,18 @@ I: Retrieving gcc-4.8-base 4.8.5-4
 I: Validating gcc-4.8-base 4.8.5-4
 I: Retrieving gcc-4.9-base 4.9.3-12
 I: Validating gcc-4.9-base 4.9.3-12
-I: Retrieving gcc-5-base 5.3.1-13
-I: Validating gcc-5-base 5.3.1-13
-I: Retrieving libgcc1 1:5.3.1-13
-I: Validating libgcc1 1:5.3.1-13
-I: Retrieving libstdc++6 5.3.1-13
-I: Validating libstdc++6 5.3.1-13
-I: Retrieving libc-bin 2.22-5
-I: Validating libc-bin 2.22-5
-I: Retrieving libc6 2.22-5
-I: Validating libc6 2.22-5
-I: Retrieving multiarch-support 2.22-5
-I: Validating multiarch-support 2.22-5
+I: Retrieving gcc-5-base 5.3.1-14
+I: Validating gcc-5-base 5.3.1-14
+I: Retrieving libgcc1 1:5.3.1-14
+I: Validating libgcc1 1:5.3.1-14
+I: Retrieving libstdc++6 5.3.1-14
+I: Validating libstdc++6 5.3.1-14
+I: Retrieving libc-bin 2.22-6
+I: Validating libc-bin 2.22-6
+I: Retrieving libc6 2.22-6
+I: Validating libc6 2.22-6
+I: Retrieving multiarch-support 2.22-6
+I: Validating multiarch-support 2.22-6
 I: Retrieving gnupg 1.4.20-5
 I: Validating gnupg 1.4.20-5
 I: Retrieving gpgv 1.4.20-5
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (921 kB/s)
+Fetched 196 kB in 0s (1014 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 6782b34cbe54
-Removing intermediate container f91c9c7dfc75
+ ---> 442892109f9e
+Removing intermediate container ebda6a9a2c15
 Step 3 : CMD /bin/bash
- ---> Running in 4849ee16ca93
- ---> 2d182da971a5
-Removing intermediate container 4849ee16ca93
-Successfully built 2d182da971a5
+ ---> Running in 2c6536c2a3c5
+ ---> 1f255d5d831c
+Removing intermediate container 2c6536c2a3c5
+Successfully built 1f255d5d831c
