@@ -28,7 +28,14 @@ task :mkimage  do
     wheezy http://ftp.jp.debian.org/debian
   ].join(' ')
   env = ENV.select{|k,v| ['TMPDIR', 'http_proxy'].include?(k) }.map{|k,v| "#{k}=#{v}"}.join(' ')
-  sh "sudo #{env} /usr/share/docker.io/contrib/mkimage.sh #{tag_option} debootstrap #{debootstrap_options} | tee build.log"
+  mkimage_sh = %W[
+    /usr/share/docker-engine/contrib/mkimage.sh
+    /usr/share/docker.io/contrib/mkimage.sh
+  ].find{|f| File.executable?(f) }
+  unless mkimage_sh
+    raise "mkimage.sh not found"
+  end
+  sh "sudo #{env} #{mkimage_sh} #{tag_option} debootstrap #{debootstrap_options} | tee build.log"
 end
 
 desc 'update debian-packages.json'
