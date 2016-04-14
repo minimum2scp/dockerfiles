@@ -549,7 +549,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "4.9.3-12",
+    "Version": "4.9.3-14",
     "binary:Package": "gcc-4.9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.9",
-    "source:Version": "4.9.3-12"
+    "source:Version": "4.9.3-14"
   },
   {
     "Architecture": "amd64",
