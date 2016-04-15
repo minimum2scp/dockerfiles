@@ -60,6 +60,7 @@ namespace :tdiary do
     'cache-memcached'  => ->(cname){
       sh "docker exec #{cname} bash -c \"apt-get install -y --no-install-recommends memcached; /etc/init.d/memcached start\""
     },
+    'cache-null'       => nil,
     'io-mongodb'       => nil,
     'io-rdb'           => nil,
     'style-emptdiary'  => nil,

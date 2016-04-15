@@ -16,6 +16,7 @@ for repo in tdiary-core \
             tdiary-blogkit \
             tdiary-cache-redis \
             tdiary-cache-memcached \
+            tdiary-cache-null \
             tdiary-io-mongodb \
             tdiary-io-rdb \
             tdiary-theme \
