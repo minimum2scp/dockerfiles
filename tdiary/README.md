@@ -78,6 +78,7 @@ debian@f3612393eea3:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
 /home/debian/go/src/github.com/tdiary
 |-- tdiary-blogkit
 |-- tdiary-cache-memcached
+|-- tdiary-cache-null
 |-- tdiary-cache-redis
 |-- tdiary-contrib
 |-- tdiary-core
@@ -103,6 +104,7 @@ debian@f3612393eea3:~$ tree -L 1 ~/tdiary ~/go/src/github.com/tdiary
    * tdiary-blogkit: https://github.com/tdiary/tdiary-blogkit.git
    * tdiary-cache-redis: https://github.com/tdiary/tdiary-cache-redis.git
    * tdiary-cache-memcached: https://github.com/tdiary/tdiary-cache-memcached.git
+   * tdiary-cache-null: https://github.com/tdiary/tdiary-cache-null.git
    * tdiary-io-mongodb: https://github.com/tdiary/tdiary-io-mongodb.git
    * tdiary-io-rdb: https://github.com/tdiary/tdiary-io-rdb.git
    * tdiary-theme: https://github.com/tdiary/tdiary-theme.git
