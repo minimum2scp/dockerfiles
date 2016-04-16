@@ -4,8 +4,3 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-##
-## install Ruby 2.2 by deb package
-##
-apt-get install -y --no-install-recommends ruby2.2 ruby2.2-dev
-
