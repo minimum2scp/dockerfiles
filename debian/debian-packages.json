@@ -1434,7 +1434,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1015",
+    "Installed-Size": "1219",
     "Origin": null,
     "Package": "libgcrypt20",
     "Pre-Depends": null,
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.6.5-2",
+    "Version": "1.7.0-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.6.5-2"
+    "source:Version": "1.7.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2593,7 +2593,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.22.1-9",
+    "Version": "5.22.1-10",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.1-9"
+    "source:Version": "5.22.1-10"
   },
   {
     "Architecture": "all",

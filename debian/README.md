@@ -69,7 +69,7 @@ ii   libdebconfclient0       0.208                    amd64  Debian Configuratio
 ii   libdevmapper1.02.1      2:1.02.120-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.28-1                   amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-14               amd64  GCC support library                                                   
-ii   libgcrypt20             1.6.5-2                  amd64  LGPL Crypto library - runtime library                                 
+ii   libgcrypt20             1.7.0-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.21-2                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1.1                   amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
@@ -110,7 +110,7 @@ ii   ncurses-base            6.0+20160319-1           all    basic terminal type
 ii   ncurses-bin             6.0+20160319-1           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data                         
-ii   perl-base               5.22.1-9                 amd64  minimal Perl system                                                   
+ii   perl-base               5.22.1-10                amd64  minimal Perl system                                                   
 ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files                      
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
