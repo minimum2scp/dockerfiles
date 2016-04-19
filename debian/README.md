@@ -36,12 +36,11 @@ ii   dpkg                    1.18.4                   amd64  Debian package mana
 ii   e2fslibs                1.43~WIP.2016.03.15-2    amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.43~WIP.2016.03.15-2    amd64  ext2/ext3/ext4 file system utilities                                  
 ii   findutils               4.6.0+git+20160126-2     amd64  utilities for finding files--find, xargs                              
-ii   gcc-4.8-base            4.8.5-4                  amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-4.9-base            4.9.3-14                 amd64  GCC, the GNU Compiler Collection (base package)                       
 ii   gcc-5-base              5.3.1-14                 amd64  GCC, the GNU Compiler Collection (base package)                       
-ii   gnupg                   1.4.20-5                 amd64  GNU privacy guard - a free PGP replacement                            
-ii   gpgv                    1.4.20-5                 amd64  GNU privacy guard - signature verification tool                       
-ii   grep                    2.23-1                   amd64  GNU grep, egrep and fgrep                                             
+ii   gnupg                   1.4.20-6                 amd64  GNU privacy guard - a free PGP replacement                            
+ii   gpgv                    1.4.20-6                 amd64  GNU privacy guard - signature verification tool                       
+ii   grep                    2.24-1                   amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-5                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
