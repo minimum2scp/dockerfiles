@@ -83,14 +83,13 @@ ii   e2fslibs                1.43~WIP.2016.03.15-2         amd64  ext2/ext3/ext4
 ii   e2fsprogs               1.43~WIP.2016.03.15-2         amd64  ext2/ext3/ext4 file system utilities                                           
 ii   etckeeper               1.18.2-1                      all    store /etc in git, mercurial, bzr or darcs                                     
 ii   findutils               4.6.0+git+20160126-2          amd64  utilities for finding files--find, xargs                                       
-ii   gcc-4.8-base            4.8.5-4                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-4.9-base            4.9.3-14                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   gcc-5-base              5.3.1-14                      amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   git                     1:2.8.0~rc3-1                 amd64  fast, scalable, distributed revision control system                            
-ii   git-man                 1:2.8.0~rc3-1                 all    fast, scalable, distributed revision control system (manual pages)             
-ii   gnupg                   1.4.20-5                      amd64  GNU privacy guard - a free PGP replacement                                     
-ii   gpgv                    1.4.20-5                      amd64  GNU privacy guard - signature verification tool                                
-ii   grep                    2.23-1                        amd64  GNU grep, egrep and fgrep                                                      
+ii   git                     1:2.8.1-1                     amd64  fast, scalable, distributed revision control system                            
+ii   git-man                 1:2.8.1-1                     all    fast, scalable, distributed revision control system (manual pages)             
+ii   gnupg                   1.4.20-6                      amd64  GNU privacy guard - a free PGP replacement                                     
+ii   gpgv                    1.4.20-6                      amd64  GNU privacy guard - signature verification tool                                
+ii   grep                    2.24-1                        amd64  GNU grep, egrep and fgrep                                                      
 ii   groff-base              1.22.3-7                      amd64  GNU troff text-formatting system (base system components)                      
 ii   gzip                    1.6-5                         amd64  GNU compression utilities                                                      
 ii   hostname                3.17                          amd64  utility to set/show the host name or domain name                               
@@ -122,7 +121,7 @@ ii   libdebconfclient0       0.208                         amd64  Debian Configu
 ii   libdevmapper1.02.1      2:1.02.120-1                  amd64  Linux Kernel Device Mapper userspace library                                   
 ii   libedit2                3.1-20150325-1+b1             amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                      all    Perl module for error/exception handling in an OO-ish way                      
-ii   libestr0                0.1.10-1                      amd64  Helper functions for handling strings (lib)                                    
+ii   libestr0                0.1.10-2                      amd64  Helper functions for handling strings (lib)                                    
 ii   libexpat1               2.1.1-1                       amd64  XML parsing C library - runtime library                                        
 ii   libfdisk1               2.28-1                        amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                     

@@ -646,34 +646,6 @@
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "dehydra (<= 0.9.hg20110609-2), gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)",
-    "Depends": null,
-    "Enhances": null,
-    "Essential": "no",
-    "Installed-Size": "186",
-    "Origin": null,
-    "Package": "gcc-4.8-base",
-    "Pre-Depends": null,
-    "Priority": "required",
-    "Provides": null,
-    "Recommends": null,
-    "Replace": null,
-    "Section": "libs",
-    "Status": "install ok installed",
-    "Suggests": null,
-    "Version": "4.8.5-4",
-    "binary:Package": "gcc-4.8-base:amd64",
-    "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "gcc-4.8",
-    "source:Version": "4.8.5-4"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": null,
     "Breaks": "dehydra (<= 0.9.hg20110609-2), gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6-base (<< 4.6.4)",
     "Depends": null,
     "Enhances": null,
@@ -731,10 +703,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3, zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:2.8.0~rc3), git-man (<< 1:2.8.0~rc3-.)",
+    "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3, zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:2.8.1), git-man (<< 1:2.8.1-.)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "25373",
+    "Installed-Size": "25488",
     "Origin": null,
     "Package": "git",
     "Pre-Depends": null,
@@ -745,7 +717,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.8.0~rc3-1",
+    "Version": "1:2.8.1-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.8.0~rc3-1"
+    "source:Version": "1:2.8.1-1"
   },
   {
     "Architecture": "all",
@@ -762,7 +734,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1434",
+    "Installed-Size": "1433",
     "Origin": null,
     "Package": "git-man",
     "Pre-Depends": null,
@@ -773,7 +745,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.8.0~rc3-1",
+    "Version": "1:2.8.1-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.8.0~rc3-1"
+    "source:Version": "1:2.8.1-1"
   },
   {
     "Architecture": "amd64",
@@ -801,7 +773,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.20-5",
+    "Version": "1.4.20-6",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.20-5"
+    "source:Version": "1.4.20-6"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.20-5",
+    "Version": "1.4.20-6",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.20-5"
+    "source:Version": "1.4.20-6"
   },
   {
     "Architecture": "amd64",
@@ -846,18 +818,18 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "1102",
+    "Installed-Size": "1105",
     "Origin": null,
     "Package": "grep",
-    "Pre-Depends": "libc6 (>= 2.14), libpcre3 (>= 1:8.35)",
+    "Pre-Depends": "libc6 (>= 2.14), libpcre3",
     "Priority": "required",
     "Provides": "rgrep",
     "Recommends": null,
     "Replace": null,
     "Section": "utils",
     "Status": "install ok installed",
-    "Suggests": null,
-    "Version": "2.23-1",
+    "Suggests": "libpcre3 (>= 7.7)",
+    "Version": "2.24-1",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.23-1"
+    "source:Version": "2.24-1"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1714,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "50",
+    "Installed-Size": "32",
     "Origin": null,
     "Package": "libestr0",
     "Pre-Depends": "multiarch-support",
@@ -1753,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.1.10-1",
+    "Version": "0.1.10-2",
     "binary:Package": "libestr0",
     "binary:Summary": "Helper functions for handling strings (lib)",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libestr",
-    "source:Version": "0.1.10-1"
+    "source:Version": "0.1.10-2"
   },
   {
     "Architecture": "amd64",
