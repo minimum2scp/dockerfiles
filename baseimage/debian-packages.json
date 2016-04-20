@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-6",
+    "Version": "2.22-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-6"
+    "source:Version": "2.22-7"
   },
   {
     "Architecture": "all",
@@ -1389,7 +1389,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-6",
+    "Version": "2.22-7",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-6"
+    "source:Version": "2.22-7"
   },
   {
     "Architecture": "amd64",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.22-6",
+    "Version": "2.22-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-6"
+    "source:Version": "2.22-7"
   },
   {
     "Architecture": "amd64",
@@ -2078,10 +2078,10 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "88",
+    "Installed-Size": "69",
     "Origin": null,
-    "Package": "libjson-c2",
-    "Pre-Depends": "multiarch-support",
+    "Package": "libjson-c3",
+    "Pre-Depends": null,
     "Priority": "extra",
     "Provides": null,
     "Recommends": null,
@@ -2089,15 +2089,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.11-4",
-    "binary:Package": "libjson-c2:amd64",
+    "Version": "0.12-3",
+    "binary:Package": "libjson-c3:amd64",
     "binary:Summary": "JSON manipulation library - shared library",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "json-c",
-    "source:Version": "0.11-4"
+    "source:Version": "0.12-3"
   },
   {
     "Architecture": "amd64",
@@ -2327,10 +2327,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "liblognorm0, liblognorm1",
-    "Depends": "libc6 (>= 2.14), libestr0 (>= 0.1.0), libjson-c2 (>= 0.10)",
+    "Depends": "libc6 (>= 2.14), libestr0 (>= 0.1.0), libjson-c3 (>= 0.10)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "107",
+    "Installed-Size": "108",
     "Origin": null,
     "Package": "liblognorm2",
     "Pre-Depends": null,
@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.2-1.1",
+    "Version": "1.1.2-1.1+b2",
     "binary:Package": "liblognorm2:amd64",
     "binary:Summary": "Log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -3741,7 +3741,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-6",
+    "Version": "2.22-7",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-6"
+    "source:Version": "2.22-7"
   },
   {
     "Architecture": "amd64",
@@ -3965,7 +3965,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-6",
+    "Version": "2.22-7",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-6"
+    "source:Version": "2.22-7"
   },
   {
     "Architecture": "all",
@@ -4483,7 +4483,7 @@
     "Architecture": "amd64",
     "Conflicts": "linux-kernel-log-daemon, system-log-daemon",
     "Breaks": null,
-    "Depends": "libc6 (>= 2.17), libestr0 (>= 0.1.4), libjson-c2 (>= 0.10), liblogging-stdlog0 (>= 1.0.2), liblognorm2 (>= 1.1.2), libsystemd0, libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.18~), lsb-base (>= 3.2-14)",
+    "Depends": "libc6 (>= 2.17), libestr0 (>= 0.1.4), libjson-c3 (>= 0.10), liblogging-stdlog0 (>= 1.0.2), liblognorm2 (>= 1.1.2), libsystemd0, libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.18~), lsb-base (>= 3.2-14)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "1462",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.16.0-1+b1",
+    "Version": "8.16.0-1+b3",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",

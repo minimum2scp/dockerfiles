@@ -108,9 +108,9 @@ ii   libaudit1               1:2.4.5-1+b1                  amd64  Dynamic librar
 ii   libblkid1               2.28-1                        amd64  block device ID library                                                        
 ii   libbsd0                 0.8.2-1                       amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime                   
-ii   libc-bin                2.22-6                        amd64  GNU C Library: Binaries                                                        
-ii   libc-l10n               2.22-6                        all    GNU C Library: localization files                                              
-ii   libc6                   2.22-6                        amd64  GNU C Library: Shared libraries                                                
+ii   libc-bin                2.22-7                        amd64  GNU C Library: Binaries                                                        
+ii   libc-l10n               2.22-7                        all    GNU C Library: localization files                                              
+ii   libc6                   2.22-7                        amd64  GNU C Library: Shared libraries                                                
 ii   libcap2                 1:2.24-12                     amd64  POSIX 1003.1e capabilities (library)                                           
 ii   libcap2-bin             1:2.24-12                     amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.43~WIP.2016.03.15-2         amd64  common error description library                                               
@@ -134,7 +134,7 @@ ii   libgpg-error0           1.21-2                        amd64  library for co
 ii   libgssapi-krb5-2        1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                         amd64  low level cryptographic library (public-key cryptos)                           
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications                  
-ii   libjson-c2              0.11-4                        amd64  JSON manipulation library - shared library                                     
+ii   libjson-c3              0.12-3                        amd64  JSON manipulation library - shared library                                     
 ii   libk5crypto3            1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - Crypto Library                                
 ii   libkeyutils1            1.5.9-8                       amd64  Linux Key Management Utilities (library)                                       
 ii   libkmod2                22-1.1                        amd64  libkmod shared library                                                         
@@ -143,7 +143,7 @@ ii   libkrb5support0         1.13.2+dfsg-5                 amd64  MIT Kerberos r
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2              amd64  OpenLDAP libraries                                                             
 ii   liblocale-gettext-perl  1.07-1+b1                     amd64  module using libc functions for internationalization in Perl                   
 ii   liblogging-stdlog0      1.0.5-2                       amd64  easy to use and lightweight logging library                                    
-ii   liblognorm2             1.1.2-1.1                     amd64  Log normalizing library                                                        
+ii   liblognorm2             1.1.2-1.1+b2                  amd64  Log normalizing library                                                        
 ii   liblz4-1                0.0~r131-2                    amd64  Fast LZ compression algorithm library - runtime                                
 ii   liblzma5                5.1.1alpha+20120614-2.1       amd64  XZ-format compression library                                                  
 ii   libmount1               2.28-1                        amd64  device mounting library                                                        
@@ -193,7 +193,7 @@ ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string l
 ii   libuuid1                2.28-1                        amd64  Universally Unique ID library                                                  
 ii   libwrap0                7.6.q-25                      amd64  Wietse Venema's TCP wrappers library                                           
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations                          
-ii   locales                 2.22-6                        all    GNU C Library: National Language (locale) data [support]                       
+ii   locales                 2.22-7                        all    GNU C Library: National Language (locale) data [support]                       
 ii   login                   1:4.2-3.1                     amd64  system login tools                                                             
 ii   lsb-base                9.20160110                    all    Linux Standard Base init script functionality                                  
 ii   lv                      4.51-2.3+b1                   amd64  Powerful Multilingual File Viewer                                              
@@ -201,7 +201,7 @@ ii   man-db                  2.7.5-1                       amd64  on-line manual
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language                                
 ii   mime-support            3.59                          all    MIME files 'mime.types' & 'mailcap', and support programs                      
 ii   mount                   2.28-1                        amd64  tools for mounting and manipulating filesystems                                
-ii   multiarch-support       2.22-6                        amd64  Transitional package to ensure multiarch compatibility                         
+ii   multiarch-support       2.22-7                        amd64  Transitional package to ensure multiarch compatibility                         
 ii   ncurses-base            6.0+20160319-1                all    basic terminal type definitions                                                
 ii   ncurses-bin             6.0+20160319-1                amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2    amd64  NET-3 networking toolkit                                                       
@@ -220,7 +220,7 @@ ii   python-minimal          2.7.11-1                      amd64  minimal subset
 ii   python2.7               2.7.11-8                      amd64  Interactive high-level object-oriented language (version 2.7)                  
 ii   python2.7-minimal       2.7.11-8                      amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                         all    GNU readline and history libraries, common files                               
-ii   rsyslog                 8.16.0-1+b1                   amd64  reliable system and kernel logging daemon                                      
+ii   rsyslog                 8.16.0-1+b3                   amd64  reliable system and kernel logging daemon                                      
 ii   sed                     4.2.2-7.1                     amd64  The GNU sed stream editor                                                      
 ii   sensible-utils          0.0.9                         all    Utilities for sensible alternative selection                                   
 ii   startpar                0.59-3                        amd64  run processes in parallel and multiplex their output                           
