@@ -119,7 +119,7 @@ ii   systemd-sysv            229-4                    amd64  system and service 
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2016c-1                  all    time zone and daylight-saving time data                               
+ii   tzdata                  2016d-1                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.28-1                   amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
 ```
