@@ -130,7 +130,7 @@ ii   libgcrypt20             1.7.0-2                       amd64  LGPL Crypto li
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls30             3.4.10-4                      amd64  GNU TLS library - main runtime library                                         
-ii   libgpg-error0           1.21-2                        amd64  library for common error values and messages in GnuPG components               
+ii   libgpg-error0           1.21-3                        amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                         amd64  low level cryptographic library (public-key cryptos)                           
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications                  
@@ -229,7 +229,7 @@ ii   sysv-rc                 2.88dsf-59.3                  all    System-V-like 
 ii   sysvinit-core           2.88dsf-59.3                  amd64  System-V-like init utilities                                                   
 ii   sysvinit-utils          2.88dsf-59.3                  amd64  System-V-like utilities                                                        
 ii   tar                     1.28-2.1                      amd64  GNU version of the tar archiving utility                                       
-ii   tzdata                  2016d-1                       all    time zone and daylight-saving time data                                        
+ii   tzdata                  2016d-2                       all    time zone and daylight-saving time data                                        
 ii   ucf                     3.0036                        all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                        amd64  De-archiver for .zip files                                                     
 ii   util-linux              2.28-1                        amd64  miscellaneous system utilities                                                 
