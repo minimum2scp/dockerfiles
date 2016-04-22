@@ -69,7 +69,7 @@ ii   libdevmapper1.02.1      2:1.02.120-1             amd64  Linux Kernel Device
 ii   libfdisk1               2.28-1                   amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:5.3.1-14               amd64  GCC support library                                                   
 ii   libgcrypt20             1.7.0-2                  amd64  LGPL Crypto library - runtime library                                 
-ii   libgpg-error0           1.21-2                   amd64  library for common error values and messages in GnuPG components      
+ii   libgpg-error0           1.21-3                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1.1                   amd64  libkmod shared library                                                
 ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime                       
@@ -119,7 +119,7 @@ ii   systemd-sysv            229-4                    amd64  system and service 
 ii   sysv-rc                 2.88dsf-59.3             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.3             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.1                 amd64  GNU version of the tar archiving utility                              
-ii   tzdata                  2016d-1                  all    time zone and daylight-saving time data                               
+ii   tzdata                  2016d-2                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.28-1                   amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
 ```
