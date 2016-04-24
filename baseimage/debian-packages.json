@@ -1602,7 +1602,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "66",
+    "Installed-Size": "67",
     "Origin": null,
     "Package": "libdebconfclient0",
     "Pre-Depends": null,
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.208",
+    "Version": "0.209",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.208"
+    "source:Version": "0.209"
   },
   {
     "Architecture": "amd64",
@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libidn11 (>= 1.13), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2025",
+    "Installed-Size": "2027",
     "Origin": null,
     "Package": "libgnutls30",
     "Pre-Depends": null,
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.4.10-4",
+    "Version": "3.4.11-3",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.4.10-4"
+    "source:Version": "3.4.11-3"
   },
   {
     "Architecture": "amd64",
