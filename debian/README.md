@@ -87,7 +87,7 @@ ii   libseccomp2             2.3.0-1                  amd64  high level interfac
 ii   libselinux1             2.4-3+b1                 amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.4-3                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.4-3+b1                 amd64  SELinux policy management library                                     
-ii   libsepol1               2.4-2                    amd64  SELinux library for manipulating binary security policies             
+ii   libsepol1               2.5-1                    amd64  SELinux library for manipulating binary security policies             
 ii   libsmartcols1           2.28-1                   amd64  smart column output alignment library                                 
 ii   libss2                  1.43~WIP.2016.03.15-2    amd64  command-line interface parsing library                                
 ii   libstdc++6              5.3.1-15                 amd64  GNU Standard C++ Library v3                                           
