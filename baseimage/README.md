@@ -106,7 +106,7 @@ ii   libattr1                1:2.4.47-2                    amd64  Extended attri
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1+b1                  amd64  Dynamic library for security auditing                                          
 ii   libblkid1               2.28-1                        amd64  block device ID library                                                        
-ii   libbsd0                 0.8.2-1                       amd64  utility functions from BSD systems - shared library                            
+ii   libbsd0                 0.8.3-1                       amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                       amd64  high-quality block-sorting file compressor library - runtime                   
 ii   libc-bin                2.22-7                        amd64  GNU C Library: Binaries                                                        
 ii   libc-l10n               2.22-7                        all    GNU C Library: localization files                                              
@@ -173,7 +173,7 @@ ii   libseccomp2             2.3.0-1                       amd64  high level int
 ii   libselinux1             2.4-3+b1                      amd64  SELinux runtime shared libraries                                               
 ii   libsemanage-common      2.4-3                         all    Common files for SELinux policy management libraries                           
 ii   libsemanage1            2.4-3+b1                      amd64  SELinux policy management library                                              
-ii   libsepol1               2.4-2                         amd64  SELinux library for manipulating binary security policies                      
+ii   libsepol1               2.5-1                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2.3                     amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.28-1                        amd64  smart column output alignment library                                          
 ii   libsqlite3-0            3.12.2-1                      amd64  SQLite 3 shared library                                                        

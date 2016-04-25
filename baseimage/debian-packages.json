@@ -1291,7 +1291,7 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "163",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.8.2-1",
+    "Version": "0.8.3-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.2-1"
+    "source:Version": "0.8.3-1"
   },
   {
     "Architecture": "amd64",
@@ -3170,7 +3170,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "564",
+    "Installed-Size": "644",
     "Origin": null,
     "Package": "libsepol1",
     "Pre-Depends": null,
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.4-2",
+    "Version": "2.5-1",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "2.4-2"
+    "source:Version": "2.5-1"
   },
   {
     "Architecture": "amd64",
