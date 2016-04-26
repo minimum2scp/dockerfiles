@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.114                         all    add and remove users and groups                                                
-ii   apt                     1.2.10                        amd64  commandline package manager                                                    
+ii   apt                     1.2.11                        amd64  commandline package manager                                                    
 ii   base-files              9.6                           amd64  Debian base system miscellaneous files                                         
 ii   base-passwd             3.5.39                        amd64  Debian base system master password and group files                             
 ii   bash                    4.3-14+b1                     amd64  GNU Bourne Again SHell                                                         
@@ -84,7 +84,8 @@ ii   e2fsprogs               1.43~WIP.2016.03.15-2         amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.2-1                      all    store /etc in git, mercurial, bzr or darcs                                     
 ii   findutils               4.6.0+git+20160126-2          amd64  utilities for finding files--find, xargs                                       
 ii   gcc-4.9-base            4.9.3-14                      amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   gcc-5-base              5.3.1-15                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-5-base              5.3.1-16                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-6-base              6.0.1-2                       amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.8.1-1                     amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.8.1-1                     all    fast, scalable, distributed revision control system (manual pages)             
 ii   gnupg                   1.4.20-6                      amd64  GNU privacy guard - a free PGP replacement                                     
@@ -101,7 +102,7 @@ ii   insserv                 1.14.0-5.3                    amd64  boot sequence 
 ii   iproute2                4.3.0-1+b1                    amd64  networking and traffic control tools                                           
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library                                             
 ii   libapparmor1            2.10-4                        amd64  changehat AppArmor library                                                     
-ii   libapt-pkg5.0           1.2.10                        amd64  package management runtime library                                             
+ii   libapt-pkg5.0           1.2.11                        amd64  package management runtime library                                             
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library                                              
 ii   libaudit-common         1:2.4.5-1                     all    Dynamic library for security auditing - common files                           
 ii   libaudit1               1:2.4.5-1+b1                  amd64  Dynamic library for security auditing                                          
@@ -125,12 +126,12 @@ ii   libestr0                0.1.10-2                      amd64  Helper functio
 ii   libexpat1               2.1.1-1                       amd64  XML parsing C library - runtime library                                        
 ii   libfdisk1               2.28-1                        amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                       amd64  Foreign Function Interface library runtime                                     
-ii   libgcc1                 1:5.3.1-15                    amd64  GCC support library                                                            
+ii   libgcc1                 1:6.0.1-2                     amd64  GCC support library                                                            
 ii   libgcrypt20             1.7.0-2                       amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                    amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2                amd64  Multiprecision arithmetic library                                              
 ii   libgnutls30             3.4.11-3                      amd64  GNU TLS library - main runtime library                                         
-ii   libgpg-error0           1.21-3                        amd64  library for common error values and messages in GnuPG components               
+ii   libgpg-error0           1.22-1                        amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.13.2+dfsg-5                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                         amd64  low level cryptographic library (public-key cryptos)                           
 ii   libidn11                1.32-3                        amd64  GNU Libidn library, implementation of IETF IDN specifications                  
@@ -170,9 +171,9 @@ ii   librtmp1                2.4+20151223.gitfa8646d-1+b1  amd64  toolkit for RT
 ii   libsasl2-2              2.1.26.dfsg1-15               amd64  Cyrus SASL - authentication abstraction library                                
 ii   libsasl2-modules-db     2.1.26.dfsg1-15               amd64  Cyrus SASL - pluggable authentication modules (DB)                             
 ii   libseccomp2             2.3.0-1                       amd64  high level interface to Linux seccomp filter                                   
-ii   libselinux1             2.4-3+b1                      amd64  SELinux runtime shared libraries                                               
-ii   libsemanage-common      2.4-3                         all    Common files for SELinux policy management libraries                           
-ii   libsemanage1            2.4-3+b1                      amd64  SELinux policy management library                                              
+ii   libselinux1             2.5-1                         amd64  SELinux runtime shared libraries                                               
+ii   libsemanage-common      2.5-1                         all    Common files for SELinux policy management libraries                           
+ii   libsemanage1            2.5-1                         amd64  SELinux policy management library                                              
 ii   libsepol1               2.5-1                         amd64  SELinux library for manipulating binary security policies                      
 ii   libslang2               2.3.0-2.3                     amd64  S-Lang programming library - runtime version                                   
 ii   libsmartcols1           2.28-1                        amd64  smart column output alignment library                                          
@@ -180,14 +181,14 @@ ii   libsqlite3-0            3.12.2-1                      amd64  SQLite 3 share
 ii   libss2                  1.43~WIP.2016.03.15-2         amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                     amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2g-2                      amd64  Secure Sockets Layer toolkit - shared libraries                                
-ii   libstdc++6              5.3.1-15                      amd64  GNU Standard C++ Library v3                                                    
-ii   libsystemd0             229-4                         amd64  systemd utility library                                                        
+ii   libstdc++6              6.0.1-2                       amd64  GNU Standard C++ Library v3                                                    
+ii   libsystemd0             229-5                         amd64  systemd utility library                                                        
 ii   libtasn1-6              4.8-1                         amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                     amd64  get display widths of characters on the terminal                               
 ii   libtext-iconv-perl      1.7-5+b3                      amd64  converts between character sets in Perl                                        
 ii   libtext-wrapi18n-perl   0.06-7.1                      all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20160319-1                amd64  shared low-level terminfo library for terminal handling                        
-ii   libudev1                229-4                         amd64  libudev shared library                                                         
+ii   libudev1                229-5                         amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-28                   amd64  userspace USB programming library                                              
 ii   libustr-1.0-1           1.0.4-5                       amd64  Micro string library: shared library                                           
 ii   libuuid1                2.28-1                        amd64  Universally Unique ID library                                                  
