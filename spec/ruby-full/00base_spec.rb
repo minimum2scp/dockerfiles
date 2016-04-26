@@ -22,8 +22,8 @@ describe 'minimum2scp/ruby-full' do
     end
 
     [
-      [ '2.3.0',          'ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]' ],
-      [ '2.2.4',          'ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]' ],
+      [ '2.3.1',          'ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]' ],
+      [ '2.2.5',          'ruby 2.2.5p319 (2016-04-26 revision 54774) [x86_64-linux]' ],
       [ '2.1.10',         'ruby 2.1.10p492 (2016-04-01 revision 54464) [x86_64-linux]' ],
     ].each do |dir, version|
       describe file("/opt/rbenv/versions/#{dir}") do
