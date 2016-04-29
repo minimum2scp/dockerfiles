@@ -381,7 +381,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.122-1",
+    "Version": "2:1.02.123-1",
     "binary:Package": "dmsetup",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.150-1"
+    "source:Version": "2.02.151-1"
   },
   {
     "Architecture": "amd64",
@@ -1347,7 +1347,7 @@
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02",
     "Breaks": "liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)",
-    "Depends": "libc6 (>= 2.22), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.122-1)",
+    "Depends": "libc6 (>= 2.22), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.123-1)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "434",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.122-1",
+    "Version": "2:1.02.123-1",
     "binary:Package": "libdevmapper1.02.1:amd64",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.150-1"
+    "source:Version": "2.02.151-1"
   },
   {
     "Architecture": "amd64",

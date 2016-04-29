@@ -31,7 +31,7 @@ ii   debconf-i18n            1.5.59                   all    full internationali
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive                              
 ii   debianutils             4.7                      amd64  Miscellaneous utilities specific to Debian                            
 ii   diffutils               1:3.3-3                  amd64  File comparison utilities                                             
-ii   dmsetup                 2:1.02.122-1             amd64  Linux Kernel Device Mapper userspace library                          
+ii   dmsetup                 2:1.02.123-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   dpkg                    1.18.4                   amd64  Debian package management system                                      
 ii   e2fslibs                1.43~WIP.2016.03.15-2    amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.43~WIP.2016.03.15-2    amd64  ext2/ext3/ext4 file system utilities                                  
@@ -66,7 +66,7 @@ ii   libcomerr2              1.43~WIP.2016.03.15-2    amd64  common error descri
 ii   libcryptsetup4          2:1.7.0-2                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
 ii   libdebconfclient0       0.209                    amd64  Debian Configuration Management System (C-implementation library)     
-ii   libdevmapper1.02.1      2:1.02.122-1             amd64  Linux Kernel Device Mapper userspace library                          
+ii   libdevmapper1.02.1      2:1.02.123-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.28-1                   amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:6.0.1-2                amd64  GCC support library                                                   
 ii   libgcrypt20             1.7.0-2                  amd64  LGPL Crypto library - runtime library                                 
