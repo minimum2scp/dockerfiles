@@ -37,7 +37,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe command('ruby2.3 -v') do
-      its(:stdout) { should include 'ruby 2.3.0p0 (2015-12-25) [x86_64-linux-gnu]' }
+      its(:stdout) { should include 'ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]' }
     end
 
     describe file('/opt/rbenv') do
