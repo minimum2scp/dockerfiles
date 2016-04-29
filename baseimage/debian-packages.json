@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.122-1",
+    "Version": "2:1.02.123-1",
     "binary:Package": "dmsetup",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.150-1"
+    "source:Version": "2.02.151-1"
   },
   {
     "Architecture": "amd64",
@@ -1655,7 +1655,7 @@
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02",
     "Breaks": "liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)",
-    "Depends": "libc6 (>= 2.22), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.122-1)",
+    "Depends": "libc6 (>= 2.22), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.123-1)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "434",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:1.02.122-1",
+    "Version": "2:1.02.123-1",
     "binary:Package": "libdevmapper1.02.1:amd64",
     "binary:Summary": "Linux Kernel Device Mapper userspace library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lvm2",
-    "source:Version": "2.02.150-1"
+    "source:Version": "2.02.151-1"
   },
   {
     "Architecture": "amd64",
@@ -3002,7 +3002,7 @@
     "Depends": "libc6 (>= 2.14), libgmp10, libgnutls30 (>= 3.4.2), libhogweed4, libnettle6, zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "142",
+    "Installed-Size": "141",
     "Origin": null,
     "Package": "librtmp1",
     "Pre-Depends": null,
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.4+20151223.gitfa8646d-1+b1",
+    "Version": "2.4+20151223.gitfa8646d.1-1",
     "binary:Package": "librtmp1:amd64",
     "binary:Summary": "toolkit for RTMP streams (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rtmpdump",
-    "source:Version": "2.4+20151223.gitfa8646d-1"
+    "source:Version": "2.4+20151223.gitfa8646d.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4122,7 +4122,7 @@
     "Depends": "libc6 (>= 2.17), libedit2 (>= 2.11-20080614), libgssapi-krb5-2 (>= 1.12.1+dfsg-2), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4), adduser (>= 3.10), dpkg (>= 1.7.0), passwd",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "3763",
+    "Installed-Size": "3764",
     "Origin": null,
     "Package": "openssh-client",
     "Pre-Depends": null,
@@ -4133,7 +4133,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, libpam-ssh, keychain, monkeysphere",
-    "Version": "1:7.2p2-4",
+    "Version": "1:7.2p2-5",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4141,13 +4141,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.2p2-4"
+    "source:Version": "1:7.2p2-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": null,
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.12.1+dfsg-2), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), openssh-client (= 1:7.2p2-4), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 4.1+Debian3), procps, openssh-sftp-server",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.12.1+dfsg-2), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), openssh-client (= 1:7.2p2-5), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 4.1+Debian3), procps, openssh-sftp-server",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "887",
@@ -4161,7 +4161,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, rssh, molly-guard, ufw, monkeysphere",
-    "Version": "1:7.2p2-4",
+    "Version": "1:7.2p2-5",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4169,13 +4169,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.2p2-4"
+    "source:Version": "1:7.2p2-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "libc6 (>= 2.17), openssh-client (= 1:7.2p2-4)",
+    "Depends": "libc6 (>= 2.17), openssh-client (= 1:7.2p2-5)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "106",
@@ -4189,7 +4189,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:7.2p2-4",
+    "Version": "1:7.2p2-5",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.2p2-4"
+    "source:Version": "1:7.2p2-5"
   },
   {
     "Architecture": "amd64",
