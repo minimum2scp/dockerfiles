@@ -175,8 +175,8 @@ ii   ncurses-base            5.9-10                     all    basic terminal ty
 ii   ncurses-bin             5.9-10                     amd64  terminal-related programs and man pages                                 
 ii   net-tools               1.60-24.2                  amd64  The NET-3 networking toolkit                                            
 ii   netbase                 5.0                        all    Basic TCP/IP networking system                                          
-ii   openssh-client          1:6.0p1-4+deb7u3           amd64  secure shell (SSH) client, for secure access to remote machines         
-ii   openssh-server          1:6.0p1-4+deb7u3           amd64  secure shell (SSH) server, for secure access from remote machines       
+ii   openssh-client          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) client, for secure access to remote machines         
+ii   openssh-server          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) server, for secure access from remote machines       
 ii   openssl                 1.0.1e-2+deb7u20           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools        
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data                           
 ii   perl                    5.14.2-21+deb7u3           amd64  Larry Wall's Practical Extraction and Report Language                   
@@ -192,7 +192,7 @@ ii   sysv-rc                 2.88dsf-41+deb7u1          all    System-V-like run
 ii   sysvinit                2.88dsf-41+deb7u1          amd64  System-V-like init utilities                                            
 ii   sysvinit-utils          2.88dsf-41+deb7u1          amd64  System-V-like utilities                                                 
 ii   tar                     1.26+dfsg-0.1              amd64  GNU version of the tar archiving utility                                
-ii   tzdata                  2016c-0+deb7u1             all    time zone and daylight-saving time data                                 
+ii   tzdata                  2016d-0+deb7u1             all    time zone and daylight-saving time data                                 
 ii   ucf                     3.0025+nmu3                all    Update Configuration File: preserve user changes to config files.       
 ii   unzip                   6.0-8+deb7u5               amd64  De-archiver for .zip files                                              
 ii   util-linux              2.20.1-5.3                 amd64  Miscellaneous system utilities                                          

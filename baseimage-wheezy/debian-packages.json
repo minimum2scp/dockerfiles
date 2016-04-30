@@ -3226,7 +3226,7 @@
     "Depends": "libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libgssapi-krb5-2 (>= 1.10+dfsg~), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, adduser (>= 3.10), dpkg (>= 1.7.0), passwd",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2266",
+    "Installed-Size": "2332",
     "Origin": null,
     "Package": "openssh-client",
     "Pre-Depends": null,
@@ -3237,7 +3237,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, libpam-ssh, keychain, monkeysphere",
-    "Version": "1:6.0p1-4+deb7u3",
+    "Version": "1:6.0p1-4+deb7u4",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3245,16 +3245,16 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssh",
-    "source:Version": "1:6.0p1-4+deb7u3"
+    "source:Version": "1:6.0p1-4+deb7u4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "rsh-client (<< 0.16.1-1), sftp, ssh (<< 1:3.8.1p1-9), ssh-krb5 (<< 1:4.3p2-7), ssh-nonfree (<< 2), ssh-socks, ssh2",
     "Breaks": null,
-    "Depends": "libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u3), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps",
+    "Depends": "libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.1), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), debconf (>= 1.2.0) | debconf-2.0, openssh-client (= 1:6.0p1-4+deb7u4), libpam-runtime (>= 0.76-14), libpam-modules (>= 0.72-9), adduser (>= 3.9), dpkg (>= 1.9.0), lsb-base (>= 3.2-13), procps",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "709",
+    "Installed-Size": "800",
     "Origin": null,
     "Package": "openssh-server",
     "Pre-Depends": null,
@@ -3265,7 +3265,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "ssh-askpass, rssh, molly-guard, ufw, monkeysphere",
-    "Version": "1:6.0p1-4+deb7u3",
+    "Version": "1:6.0p1-4+deb7u4",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "openssh",
-    "source:Version": "1:6.0p1-4+deb7u3"
+    "source:Version": "1:6.0p1-4+deb7u4"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3702,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1612",
+    "Installed-Size": "1625",
     "Origin": null,
     "Package": "tzdata",
     "Pre-Depends": null,
@@ -3710,10 +3710,10 @@
     "Provides": "tzdata-wheezy",
     "Recommends": null,
     "Replace": null,
-    "Section": "localization",
+    "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2016c-0+deb7u1",
+    "Version": "2016d-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "tzdata",
-    "source:Version": "2016c-0+deb7u1"
+    "source:Version": "2016d-0+deb7u1"
   },
   {
     "Architecture": "all",
