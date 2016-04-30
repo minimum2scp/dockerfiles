@@ -2134,7 +2134,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1612",
+    "Installed-Size": "1625",
     "Origin": null,
     "Package": "tzdata",
     "Pre-Depends": null,
@@ -2142,10 +2142,10 @@
     "Provides": "tzdata-wheezy",
     "Recommends": null,
     "Replace": null,
-    "Section": "localization",
+    "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2016c-0+deb7u1",
+    "Version": "2016d-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "tzdata",
-    "source:Version": "2016c-0+deb7u1"
+    "source:Version": "2016d-0+deb7u1"
   },
   {
     "Architecture": "amd64",
