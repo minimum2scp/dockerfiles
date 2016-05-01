@@ -527,27 +527,37 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
+Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Get:2 http://security.debian.org jessie/updates/main amd64 Packages [295 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://ftp.jp.debian.org jessie-updates InRelease [142 kB]
-Get:2 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [288 kB]
+Get:3 http://ftp.jp.debian.org jessie-updates InRelease [142 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [4982 B]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [9283 B]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9034 kB]
-Fetched 9532 kB in 1s (4902 kB/s)
+Fetched 9543 kB in 1s (6104 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 185 kB of archives.
+After this operation, 14.3 kB of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2016d-0+deb8u1 [185 kB]
+Fetched 185 kB in 0s (815 kB/s)
+(Reading database ... 7542 files and directories currently installed.)
+Preparing to unpack .../tzdata_2016d-0+deb8u1_all.deb ...
+Unpacking tzdata (2016d-0+deb8u1) over (2016c-0+deb8u1) ...
+Setting up tzdata (2016d-0+deb8u1) ...
 Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.74 MBSending build context to Docker daemon  27.3 MBSending build context to Docker daemon 27.85 MBSending build context to Docker daemon 28.41 MBSending build context to Docker daemon 28.97 MBSending build context to Docker daemon 29.52 MBSending build context to Docker daemon 30.07 MBSending build context to Docker daemon 30.07 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> bb8d33ee244a
-Removing intermediate container 79c70aa3fe1b
+ ---> d7c9e5430c02
+Removing intermediate container 79bb67617206
 Step 3 : CMD /bin/bash
- ---> Running in 9e4eb1e0a4c4
- ---> c308d321d9da
-Removing intermediate container 9e4eb1e0a4c4
-Successfully built c308d321d9da
+ ---> Running in 419c2757688b
+ ---> e8783b8028c1
+Removing intermediate container 419c2757688b
+Successfully built e8783b8028c1
