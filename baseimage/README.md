@@ -78,7 +78,7 @@ ii   debian-archive-keyring  2014.3                       all    GnuPG archive k
 ii   debianutils             4.7                          amd64  Miscellaneous utilities specific to Debian                                     
 ii   diffutils               1:3.3-3                      amd64  File comparison utilities                                                      
 ii   dmsetup                 2:1.02.123-1                 amd64  Linux Kernel Device Mapper userspace library                                   
-ii   dpkg                    1.18.5                       amd64  Debian package management system                                               
+ii   dpkg                    1.18.6                       amd64  Debian package management system                                               
 ii   e2fslibs                1.43~WIP.2016.03.15-2        amd64  ext2/ext3/ext4 file system libraries                                           
 ii   e2fsprogs               1.43~WIP.2016.03.15-2        amd64  ext2/ext3/ext4 file system utilities                                           
 ii   etckeeper               1.18.2-1                     all    store /etc in git, mercurial, bzr or darcs                                     
@@ -118,7 +118,7 @@ ii   libcomerr2              1.43~WIP.2016.03.15-2        amd64  common error de
 ii   libcryptsetup4          2:1.7.0-2                    amd64  disk encryption support - shared library                                       
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
 ii   libdb5.3                5.3.28-11                    amd64  Berkeley v5.3 Database Libraries [runtime]                                     
-ii   libdebconfclient0       0.209                        amd64  Debian Configuration Management System (C-implementation library)              
+ii   libdebconfclient0       0.210                        amd64  Debian Configuration Management System (C-implementation library)              
 ii   libdevmapper1.02.1      2:1.02.123-1                 amd64  Linux Kernel Device Mapper userspace library                                   
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                     all    Perl module for error/exception handling in an OO-ish way                      
@@ -180,7 +180,7 @@ ii   libsmartcols1           2.28-1                       amd64  smart column ou
 ii   libsqlite3-0            3.12.2-1                     amd64  SQLite 3 shared library                                                        
 ii   libss2                  1.43~WIP.2016.03.15-2        amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library                                                       
-ii   libssl1.0.2             1.0.2g-2                     amd64  Secure Sockets Layer toolkit - shared libraries                                
+ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              6.1.1-1                      amd64  GNU Standard C++ Library v3                                                    
 ii   libsystemd0             229-5                        amd64  systemd utility library                                                        
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)                                              
@@ -210,7 +210,7 @@ ii   netbase                 5.3                          all    Basic TCP/IP ne
 ii   openssh-client          1:7.2p2-5                    amd64  secure shell (SSH) client, for secure access to remote machines                
 ii   openssh-server          1:7.2p2-5                    amd64  secure shell (SSH) server, for secure access from remote machines              
 ii   openssh-sftp-server     1:7.2p2-5                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines    
-ii   openssl                 1.0.2g-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility                           
+ii   openssl                 1.0.2h-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility                           
 ii   passwd                  1:4.2-3.1                    amd64  change and administer password and group data                                  
 ii   perl                    5.22.2-1                     amd64  Larry Wall's Practical Extraction and Report Language                          
 ii   perl-base               5.22.2-1                     amd64  minimal Perl system                                                            
