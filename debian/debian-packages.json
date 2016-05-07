@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.28-1",
+    "Version": "1:2.28-3",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -773,15 +773,15 @@
     "Section": "metapackages",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.31",
+    "Version": "1.33",
     "binary:Package": "init",
-    "binary:Summary": "System-V-like init utilities - metapackage",
+    "binary:Summary": "init metapackage",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.31"
+    "source:Version": "1.33"
   },
   {
     "Architecture": "all",
@@ -801,7 +801,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.31",
+    "Version": "1.33",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.31"
+    "source:Version": "1.33"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.88dsf-59.3",
+    "Version": "2.88dsf-59.4",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.3"
+    "source:Version": "2.88dsf-59.4"
   },
   {
     "Architecture": "amd64",
@@ -1014,7 +1014,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "26",
+    "Installed-Size": "27",
     "Origin": null,
     "Package": "libaudit-common",
     "Pre-Depends": null,
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.4.5-1",
+    "Version": "1:2.5.2-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1033,16 +1033,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.4.5-1"
+    "source:Version": "1:2.5.2-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libaudit-common (>= 1:2.4.5-1), libc6 (>= 2.14)",
+    "Depends": "libaudit-common (>= 1:2.5.2-1), libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "144",
+    "Installed-Size": "148",
     "Origin": null,
     "Package": "libaudit1",
     "Pre-Depends": null,
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.4.5-1+b1",
+    "Version": "1:2.5.2-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.4.5-1"
+    "source:Version": "1:2.5.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "libfdisk1:amd64",
     "binary:Summary": "fdisk partitioning library",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:0.1.12-29",
+    "Version": "2:0.1.12-30",
     "binary:Package": "libusb-0.1-4:amd64",
     "binary:Summary": "userspace USB programming library",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libusb",
-    "source:Version": "2:0.1.12-29"
+    "source:Version": "2:0.1.12-30"
   },
   {
     "Architecture": "amd64",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
@@ -2789,7 +2789,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bum",
-    "Version": "2.88dsf-59.3",
+    "Version": "2.88dsf-59.4",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -2797,13 +2797,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.3"
+    "source:Version": "2.88dsf-59.4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "chkconfig (<< 11.0-79.1-2), last, startpar (<< 0.58-2), sysvconfig",
-    "Breaks": "systemd (<< 215), upstart (<< 1.5-0ubuntu5), util-linux (<< 2.26.2-3)",
-    "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), startpar",
+    "Breaks": "systemd (<< 215), upstart (<< 1.5-0ubuntu5)",
+    "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), startpar, util-linux (>> 2.28-2~)",
     "Enhances": null,
     "Essential": "yes",
     "Installed-Size": "103",
@@ -2817,7 +2817,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd, sash",
-    "Version": "2.88dsf-59.3",
+    "Version": "2.88dsf-59.4",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.3"
+    "source:Version": "2.88dsf-59.4"
   },
   {
     "Architecture": "amd64",
@@ -2886,11 +2886,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "bash-completion (<< 1:2.1-4.1~), cloud-utils (<< 0.27-1~), grml-debootstrap (<< 0.68), mount (= 2.26.2-3), mount (= 2.26.2-3ubuntu1)",
-    "Depends": "sysvinit-utils (>= 2.88dsf-59.1~)",
+    "Breaks": "bash-completion (<< 1:2.1-4.1~), cloud-utils (<< 0.27-1~), grml-debootstrap (<< 0.68), mount (= 2.26.2-3), mount (= 2.26.2-3ubuntu1), sysvinit-utils (<< 2.88dsf-59.4~)",
+    "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3325",
+    "Installed-Size": "3326",
     "Origin": null,
     "Package": "util-linux",
     "Pre-Depends": "libblkid1 (>= 2.25), libc6 (>= 2.15), libfdisk1 (>= 2.28~rc1), libmount1 (>= 2.25), libncursesw5 (>= 6), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsmartcols1 (>= 2.28~rc1), libsystemd0, libtinfo5 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -2901,7 +2901,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.28-1",
+    "Version": "2.28-3",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-3"
   },
   {
     "Architecture": "amd64",
