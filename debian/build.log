@@ -199,22 +199,22 @@ I: Retrieving tzdata 2016d-2
 I: Validating tzdata 2016d-2
 I: Retrieving libustr-1.0-1 1.0.4-5
 I: Validating libustr-1.0-1 1.0.4-5
-I: Retrieving bsdutils 1:2.28-3
-I: Validating bsdutils 1:2.28-3
-I: Retrieving libblkid1 2.28-3
-I: Validating libblkid1 2.28-3
-I: Retrieving libfdisk1 2.28-3
-I: Validating libfdisk1 2.28-3
-I: Retrieving libmount1 2.28-3
-I: Validating libmount1 2.28-3
-I: Retrieving libsmartcols1 2.28-3
-I: Validating libsmartcols1 2.28-3
-I: Retrieving libuuid1 2.28-3
-I: Validating libuuid1 2.28-3
-I: Retrieving mount 2.28-3
-I: Validating mount 2.28-3
-I: Retrieving util-linux 2.28-3
-I: Validating util-linux 2.28-3
+I: Retrieving bsdutils 1:2.28-4
+I: Validating bsdutils 1:2.28-4
+I: Retrieving libblkid1 2.28-4
+I: Validating libblkid1 2.28-4
+I: Retrieving libfdisk1 2.28-4
+I: Validating libfdisk1 2.28-4
+I: Retrieving libmount1 2.28-4
+I: Validating libmount1 2.28-4
+I: Retrieving libsmartcols1 2.28-4
+I: Validating libsmartcols1 2.28-4
+I: Retrieving libuuid1 2.28-4
+I: Validating libuuid1 2.28-4
+I: Retrieving mount 2.28-4
+I: Validating mount 2.28-4
+I: Retrieving util-linux 2.28-4
+I: Validating util-linux 2.28-4
 I: Retrieving liblzma5 5.1.1alpha+20120614-2.1
 I: Validating liblzma5 5.1.1alpha+20120614-2.1
 I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (206 kB/s)
+Fetched 196 kB in 0s (759 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> ec798b2a2c4e
-Removing intermediate container 4da07e245766
+ ---> 69bb3dcda307
+Removing intermediate container f0f22d349c74
 Step 3 : CMD /bin/bash
- ---> Running in 4e5c6d84e6e4
- ---> 198e553e2c9e
-Removing intermediate container 4e5c6d84e6e4
-Successfully built 198e553e2c9e
+ ---> Running in f1efbc685e10
+ ---> f59b58368785
+Removing intermediate container f1efbc685e10
+Successfully built f59b58368785
