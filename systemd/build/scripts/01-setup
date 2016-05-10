@@ -20,3 +20,7 @@ etckeeper commit "profile, sudoers: use less for systemd pager"
 systemctl mask getty@tty1.service
 etckeeper commit "systemd: masked getty@tty1.service"
 
+## disable systemd-timesyncd
+systemctl mask systemd-timesyncd.service
+etckeeper commit "systemd: masked systemd-timesyncd.service"
+
