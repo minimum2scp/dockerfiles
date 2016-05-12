@@ -15,10 +15,10 @@ I: Retrieving adduser 3.114
 I: Validating adduser 3.114
 I: Retrieving libapparmor1 2.10-4
 I: Validating libapparmor1 2.10-4
-I: Retrieving apt 1.2.11
-I: Validating apt 1.2.11
-I: Retrieving libapt-pkg5.0 1.2.11
-I: Validating libapt-pkg5.0 1.2.11
+I: Retrieving apt 1.2.12
+I: Validating apt 1.2.12
+I: Retrieving libapt-pkg5.0 1.2.12
+I: Validating libapt-pkg5.0 1.2.12
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.5.2-1
@@ -69,18 +69,18 @@ I: Retrieving gcc-4.9-base 4.9.3-14
 I: Validating gcc-4.9-base 4.9.3-14
 I: Retrieving gcc-5-base 5.3.1-19
 I: Validating gcc-5-base 5.3.1-19
-I: Retrieving gcc-6-base 6.1.1-2
-I: Validating gcc-6-base 6.1.1-2
-I: Retrieving libgcc1 1:6.1.1-2
-I: Validating libgcc1 1:6.1.1-2
-I: Retrieving libstdc++6 6.1.1-2
-I: Validating libstdc++6 6.1.1-2
-I: Retrieving libc-bin 2.22-7
-I: Validating libc-bin 2.22-7
-I: Retrieving libc6 2.22-7
-I: Validating libc6 2.22-7
-I: Retrieving multiarch-support 2.22-7
-I: Validating multiarch-support 2.22-7
+I: Retrieving gcc-6-base 6.1.1-3
+I: Validating gcc-6-base 6.1.1-3
+I: Retrieving libgcc1 1:6.1.1-3
+I: Validating libgcc1 1:6.1.1-3
+I: Retrieving libstdc++6 6.1.1-3
+I: Validating libstdc++6 6.1.1-3
+I: Retrieving libc-bin 2.22-8
+I: Validating libc-bin 2.22-8
+I: Retrieving libc6 2.22-8
+I: Validating libc6 2.22-8
+I: Retrieving multiarch-support 2.22-8
+I: Validating multiarch-support 2.22-8
 I: Retrieving gnupg 1.4.20-6
 I: Validating gnupg 1.4.20-6
 I: Retrieving gpgv 1.4.20-6
@@ -532,7 +532,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [196 kB]
-Fetched 196 kB in 0s (390 kB/s)
+Fetched 196 kB in 0s (891 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -542,10 +542,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> a2a71a58a86a
-Removing intermediate container 6c2b346fdd93
+ ---> 0f8814f804cb
+Removing intermediate container fe4909427898
 Step 3 : CMD /bin/bash
- ---> Running in 2cacbb63dab1
- ---> c4c2e16f5c89
-Removing intermediate container 2cacbb63dab1
-Successfully built c4c2e16f5c89
+ ---> Running in e08c77481c0a
+ ---> 269c79b95525
+Removing intermediate container e08c77481c0a
+Successfully built 269c79b95525
