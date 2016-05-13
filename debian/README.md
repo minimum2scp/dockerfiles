@@ -58,8 +58,8 @@ ii   libaudit-common         1:2.5.2-1                all    Dynamic library for
 ii   libaudit1               1:2.5.2-1                amd64  Dynamic library for security auditing                                 
 ii   libblkid1               2.28-5                   amd64  block device ID library                                               
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
-ii   libc-bin                2.22-8                   amd64  GNU C Library: Binaries                                               
-ii   libc6                   2.22-8                   amd64  GNU C Library: Shared libraries                                       
+ii   libc-bin                2.22-9                   amd64  GNU C Library: Binaries                                               
+ii   libc6                   2.22-9                   amd64  GNU C Library: Shared libraries                                       
 ii   libcap2                 1:2.24-12                amd64  POSIX 1003.1e capabilities (library)                                  
 ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.43~WIP.2016.03.15-2    amd64  common error description library                                      
@@ -92,12 +92,12 @@ ii   libsepol1               2.5-1                    amd64  SELinux library for
 ii   libsmartcols1           2.28-5                   amd64  smart column output alignment library                                 
 ii   libss2                  1.43~WIP.2016.03.15-2    amd64  command-line interface parsing library                                
 ii   libstdc++6              6.1.1-3                  amd64  GNU Standard C++ Library v3                                           
-ii   libsystemd0             229-5                    amd64  systemd utility library                                               
+ii   libsystemd0             229-6                    amd64  systemd utility library                                               
 ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
 ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
 ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               6.0+20160319-1           amd64  shared low-level terminfo library for terminal handling               
-ii   libudev1                229-5                    amd64  libudev shared library                                                
+ii   libudev1                229-6                    amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-30              amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library                                  
 ii   libuuid1                2.28-5                   amd64  Universally Unique ID library                                         
@@ -105,7 +105,7 @@ ii   login                   1:4.2-3.1                amd64  system login tools
 ii   lsb-base                9.20160110               all    Linux Standard Base init script functionality                         
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language                       
 ii   mount                   2.28-5                   amd64  tools for mounting and manipulating filesystems                       
-ii   multiarch-support       2.22-8                   amd64  Transitional package to ensure multiarch compatibility                
+ii   multiarch-support       2.22-9                   amd64  Transitional package to ensure multiarch compatibility                
 ii   ncurses-base            6.0+20160319-1           all    basic terminal type definitions                                       
 ii   ncurses-bin             6.0+20160319-1           amd64  terminal-related programs and man pages                               
 ii   netbase                 5.3                      all    Basic TCP/IP networking system                                        
@@ -115,8 +115,8 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 229-5                    amd64  system and service manager                                            
-ii   systemd-sysv            229-5                    amd64  system and service manager - SysV links                               
+ii   systemd                 229-6                    amd64  system and service manager                                            
+ii   systemd-sysv            229-6                    amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.4             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.4             amd64  System-V-like utilities                                               
 ii   tar                     1.28-2.2                 amd64  GNU version of the tar archiving utility                              
