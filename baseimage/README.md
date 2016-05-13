@@ -109,9 +109,9 @@ ii   libaudit1               1:2.5.2-1                    amd64  Dynamic library
 ii   libblkid1               2.28-5                       amd64  block device ID library                                                        
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime                   
-ii   libc-bin                2.22-8                       amd64  GNU C Library: Binaries                                                        
-ii   libc-l10n               2.22-8                       all    GNU C Library: localization files                                              
-ii   libc6                   2.22-8                       amd64  GNU C Library: Shared libraries                                                
+ii   libc-bin                2.22-9                       amd64  GNU C Library: Binaries                                                        
+ii   libc-l10n               2.22-9                       all    GNU C Library: localization files                                              
+ii   libc6                   2.22-9                       amd64  GNU C Library: Shared libraries                                                
 ii   libcap2                 1:2.24-12                    amd64  POSIX 1003.1e capabilities (library)                                           
 ii   libcap2-bin             1:2.24-12                    amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.43~WIP.2016.03.15-2        amd64  common error description library                                               
@@ -182,19 +182,19 @@ ii   libss2                  1.43~WIP.2016.03.15-2        amd64  command-line in
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries                                
 ii   libstdc++6              6.1.1-3                      amd64  GNU Standard C++ Library v3                                                    
-ii   libsystemd0             229-5                        amd64  systemd utility library                                                        
+ii   libsystemd0             229-6                        amd64  systemd utility library                                                        
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtext-charwidth-perl  0.04-7+b4                    amd64  get display widths of characters on the terminal                               
 ii   libtext-iconv-perl      1.7-5+b3                     amd64  converts between character sets in Perl                                        
 ii   libtext-wrapi18n-perl   0.06-7.1                     all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20160319-1               amd64  shared low-level terminfo library for terminal handling                        
-ii   libudev1                229-5                        amd64  libudev shared library                                                         
+ii   libudev1                229-6                        amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-30                  amd64  userspace USB programming library                                              
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library                                           
 ii   libuuid1                2.28-5                       amd64  Universally Unique ID library                                                  
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library                                           
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations                          
-ii   locales                 2.22-8                       all    GNU C Library: National Language (locale) data [support]                       
+ii   locales                 2.22-9                       all    GNU C Library: National Language (locale) data [support]                       
 ii   login                   1:4.2-3.1                    amd64  system login tools                                                             
 ii   lsb-base                9.20160110                   all    Linux Standard Base init script functionality                                  
 ii   lv                      4.51-2.3+b1                  amd64  Powerful Multilingual File Viewer                                              
@@ -202,7 +202,7 @@ ii   man-db                  2.7.5-1                      amd64  on-line manual 
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language                                
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs                      
 ii   mount                   2.28-5                       amd64  tools for mounting and manipulating filesystems                                
-ii   multiarch-support       2.22-8                       amd64  Transitional package to ensure multiarch compatibility                         
+ii   multiarch-support       2.22-9                       amd64  Transitional package to ensure multiarch compatibility                         
 ii   ncurses-base            6.0+20160319-1               all    basic terminal type definitions                                                
 ii   ncurses-bin             6.0+20160319-1               amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit                                                       
