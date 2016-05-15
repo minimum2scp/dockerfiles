@@ -150,7 +150,7 @@ ii   libsepol1               2.1.4-3                    amd64  SELinux library f
 ii   libslang2               2.2.4-15                   amd64  S-Lang programming library - runtime version                            
 ii   libss2                  1.42.5-1.1+deb7u1          amd64  command-line interface parsing library                                  
 ii   libssh2-1               1.4.2-1.1+deb7u2           amd64  SSH2 client-side library                                                
-ii   libssl1.0.0             1.0.1e-2+deb7u20           amd64  SSL shared libraries                                                    
+ii   libssl1.0.0             1.0.1e-2+deb7u21           amd64  SSL shared libraries                                                    
 ii   libstdc++6              4.7.2-5                    amd64  GNU Standard C++ Library v3                                             
 ii   libswitch-perl          2.16-2                     all    switch statement for Perl                                               
 ii   libtasn1-3              2.13-2+deb7u2              amd64  Manage ASN.1 structures (runtime)                                       
@@ -177,7 +177,7 @@ ii   net-tools               1.60-24.2                  amd64  The NET-3 network
 ii   netbase                 5.0                        all    Basic TCP/IP networking system                                          
 ii   openssh-client          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) client, for secure access to remote machines         
 ii   openssh-server          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) server, for secure access from remote machines       
-ii   openssl                 1.0.1e-2+deb7u20           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools        
+ii   openssl                 1.0.1e-2+deb7u21           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools        
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data                           
 ii   perl                    5.14.2-21+deb7u3           amd64  Larry Wall's Practical Extraction and Report Language                   
 ii   perl-base               5.14.2-21+deb7u3           amd64  minimal Perl system                                                     
