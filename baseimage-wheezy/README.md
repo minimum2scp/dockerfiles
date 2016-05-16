@@ -120,7 +120,7 @@ ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database 
 ii   libgnutls26             2.12.20-8+deb7u5           amd64  GNU TLS library - runtime library                                       
 ii   libgpg-error0           1.10-3.1                   amd64  library for common error values and messages in GnuPG components        
 ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                 
-ii   libidn11                1.25-2                     amd64  GNU Libidn library, implementation of IETF IDN specifications           
+ii   libidn11                1.25-2+deb7u1              amd64  GNU Libidn library, implementation of IETF IDN specifications           
 ii   libk5crypto3            1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries - Crypto Library                         
 ii   libkeyutils1            1.5.5-3+deb7u1             amd64  Linux Key Management Utilities (library)                                
 ii   libkrb5-3               1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries                                          

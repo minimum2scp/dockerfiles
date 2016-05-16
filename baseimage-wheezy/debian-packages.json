@@ -1686,7 +1686,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "366",
+    "Installed-Size": "334",
     "Origin": null,
     "Package": "libidn11",
     "Pre-Depends": "multiarch-support",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.25-2",
+    "Version": "1.25-2+deb7u1",
     "binary:Package": "libidn11:amd64",
     "binary:Summary": "GNU Libidn library, implementation of IETF IDN specifications",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "libidn",
-    "source:Version": "1.25-2"
+    "source:Version": "1.25-2+deb7u1"
   },
   {
     "Architecture": "amd64",
