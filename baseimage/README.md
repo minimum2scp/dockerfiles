@@ -171,7 +171,7 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTM
 ii   libsasl2-2              2.1.26.dfsg1-15              amd64  Cyrus SASL - authentication abstraction library                                
 ii   libsasl2-modules-db     2.1.26.dfsg1-15              amd64  Cyrus SASL - pluggable authentication modules (DB)                             
 ii   libseccomp2             2.3.1-1                      amd64  high level interface to Linux seccomp filter                                   
-ii   libselinux1             2.5-2                        amd64  SELinux runtime shared libraries                                               
+ii   libselinux1             2.5-3                        amd64  SELinux runtime shared libraries                                               
 ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries                           
 ii   libsemanage1            2.5-1                        amd64  SELinux policy management library                                              
 ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies                      
@@ -229,7 +229,7 @@ ii   sudo                    1.8.15-1.1                   amd64  Provide limited
 ii   sysv-rc                 2.88dsf-59.4                 all    System-V-like runlevel change mechanism                                        
 ii   sysvinit-core           2.88dsf-59.4                 amd64  System-V-like init utilities                                                   
 ii   sysvinit-utils          2.88dsf-59.4                 amd64  System-V-like utilities                                                        
-ii   tar                     1.28-2.2                     amd64  GNU version of the tar archiving utility                                       
+ii   tar                     1.29-1                       amd64  GNU version of the tar archiving utility                                       
 ii   tzdata                  2016d-2                      all    time zone and daylight-saving time data                                        
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files            
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files                                                     
