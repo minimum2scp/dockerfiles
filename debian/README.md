@@ -85,7 +85,7 @@ ii   libpam0g                1.1.8-3.2                amd64  Pluggable Authentic
 ii   libpcre3                2:8.38-3.1               amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries                
 ii   libseccomp2             2.3.1-1                  amd64  high level interface to Linux seccomp filter                          
-ii   libselinux1             2.5-2                    amd64  SELinux runtime shared libraries                                      
+ii   libselinux1             2.5-3                    amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.5-1                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.5-1                    amd64  SELinux policy management library                                     
 ii   libsepol1               2.5-1                    amd64  SELinux library for manipulating binary security policies             
@@ -119,7 +119,7 @@ ii   systemd                 229-6                    amd64  system and service 
 ii   systemd-sysv            229-6                    amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.4             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.4             amd64  System-V-like utilities                                               
-ii   tar                     1.28-2.2                 amd64  GNU version of the tar archiving utility                              
+ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility                              
 ii   tzdata                  2016d-2                  all    time zone and daylight-saving time data                               
 ii   util-linux              2.28-5                   amd64  miscellaneous system utilities                                        
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime                                         
