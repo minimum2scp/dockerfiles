@@ -60,8 +60,8 @@ ii   libblkid1               2.28-5                   amd64  block device ID lib
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
 ii   libc-bin                2.22-9                   amd64  GNU C Library: Binaries                                               
 ii   libc6                   2.22-9                   amd64  GNU C Library: Shared libraries                                       
-ii   libcap2                 1:2.24-12                amd64  POSIX 1003.1e capabilities (library)                                  
-ii   libcap2-bin             1:2.24-12                amd64  POSIX 1003.1e capabilities (utilities)                                
+ii   libcap2                 1:2.25-1                 amd64  POSIX 1003.1e capabilities (library)                                  
+ii   libcap2-bin             1:2.25-1                 amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.43~WIP.2016.03.15-2    amd64  common error description library                                      
 ii   libcryptsetup4          2:1.7.0-2                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
