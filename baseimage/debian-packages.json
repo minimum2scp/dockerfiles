@@ -1459,10 +1459,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libattr1 (>= 1:2.4.46-8), libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "48",
+    "Installed-Size": "47",
     "Origin": null,
     "Package": "libcap2",
     "Pre-Depends": null,
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.24-12",
+    "Version": "1:2.25-1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.24-12"
+    "source:Version": "1:2.25-1"
   },
   {
     "Architecture": "amd64",
@@ -1490,7 +1490,7 @@
     "Depends": "libc6 (>= 2.14), libcap2 (>= 1:2.10)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "86",
+    "Installed-Size": "85",
     "Origin": null,
     "Package": "libcap2-bin",
     "Pre-Depends": null,
@@ -1501,7 +1501,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.24-12",
+    "Version": "1:2.25-1",
     "binary:Package": "libcap2-bin",
     "binary:Summary": "POSIX 1003.1e capabilities (utilities)",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.24-12"
+    "source:Version": "1:2.25-1"
   },
   {
     "Architecture": "amd64",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.1.1-1",
+    "Version": "2.1.1-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.1.1-1"
+    "source:Version": "2.1.1-2"
   },
   {
     "Architecture": "amd64",

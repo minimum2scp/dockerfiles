@@ -112,8 +112,8 @@ ii   libbz2-1.0              1.0.6-8                      amd64  high-quality bl
 ii   libc-bin                2.22-9                       amd64  GNU C Library: Binaries                                                        
 ii   libc-l10n               2.22-9                       all    GNU C Library: localization files                                              
 ii   libc6                   2.22-9                       amd64  GNU C Library: Shared libraries                                                
-ii   libcap2                 1:2.24-12                    amd64  POSIX 1003.1e capabilities (library)                                           
-ii   libcap2-bin             1:2.24-12                    amd64  POSIX 1003.1e capabilities (utilities)                                         
+ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)                                           
+ii   libcap2-bin             1:2.25-1                     amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.43~WIP.2016.03.15-2        amd64  common error description library                                               
 ii   libcryptsetup4          2:1.7.0-2                    amd64  disk encryption support - shared library                                       
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
@@ -123,7 +123,7 @@ ii   libdevmapper1.02.1      2:1.02.124-1                 amd64  Linux Kernel De
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                     all    Perl module for error/exception handling in an OO-ish way                      
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)                                    
-ii   libexpat1               2.1.1-1                      amd64  XML parsing C library - runtime library                                        
+ii   libexpat1               2.1.1-2                      amd64  XML parsing C library - runtime library                                        
 ii   libfdisk1               2.28-5                       amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime                                     
 ii   libgcc1                 1:6.1.1-3                    amd64  GCC support library                                                            
