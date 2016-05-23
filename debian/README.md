@@ -27,7 +27,6 @@ ii   bsdutils                1:2.28-5                 amd64  basic utilities fro
 ii   coreutils               8.25-2                   amd64  GNU core utilities                                                    
 ii   dash                    0.5.8-2.2                amd64  POSIX-compliant shell                                                 
 ii   debconf                 1.5.59                   all    Debian configuration management system                                
-ii   debconf-i18n            1.5.59                   all    full internationalization support for debconf                         
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive                              
 ii   debianutils             4.7                      amd64  Miscellaneous utilities specific to Debian                            
 ii   diffutils               1:3.3-3                  amd64  File comparison utilities                                             
@@ -73,7 +72,6 @@ ii   libgcc1                 1:6.1.1-4                amd64  GCC support library
 ii   libgcrypt20             1.7.0-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.22-2                   amd64  library for common error values and messages in GnuPG components      
 ii   libkmod2                22-1.1                   amd64  libkmod shared library                                                
-ii   liblocale-gettext-perl  1.07-1+b1                amd64  module using libc functions for internationalization in Perl          
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime                       
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.28-5                   amd64  device mounting library                                               
@@ -94,9 +92,6 @@ ii   libsmartcols1           2.28-5                   amd64  smart column output
 ii   libss2                  1.43-2                   amd64  command-line interface parsing library                                
 ii   libstdc++6              6.1.1-4                  amd64  GNU Standard C++ Library v3                                           
 ii   libsystemd0             229-6                    amd64  systemd utility library                                               
-ii   libtext-charwidth-perl  0.04-7+b4                amd64  get display widths of characters on the terminal                      
-ii   libtext-iconv-perl      1.7-5+b3                 amd64  converts between character sets in Perl                               
-ii   libtext-wrapi18n-perl   0.06-7.1                 all    internationalized substitute of Text::Wrap                            
 ii   libtinfo5               6.0+20160319-1           amd64  shared low-level terminfo library for terminal handling               
 ii   libudev1                229-6                    amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-30              amd64  userspace USB programming library                                     
