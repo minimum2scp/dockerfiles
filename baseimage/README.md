@@ -73,7 +73,6 @@ ii   cron                    3.0pl1-128                   amd64  process schedul
 ii   curl                    7.47.0-1                     amd64  command line tool for transferring data with URL syntax                        
 ii   dash                    0.5.8-2.2                    amd64  POSIX-compliant shell                                                          
 ii   debconf                 1.5.59                       all    Debian configuration management system                                         
-ii   debconf-i18n            1.5.59                       all    full internationalization support for debconf                                  
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive                                       
 ii   debianutils             4.7                          amd64  Miscellaneous utilities specific to Debian                                     
 ii   diffutils               1:3.3-3                      amd64  File comparison utilities                                                      
@@ -143,7 +142,6 @@ ii   libkmod2                22-1.1                       amd64  libkmod shared 
 ii   libkrb5-3               1.13.2+dfsg-5                amd64  MIT Kerberos runtime libraries                                                 
 ii   libkrb5support0         1.13.2+dfsg-5                amd64  MIT Kerberos runtime libraries - Support library                               
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2             amd64  OpenLDAP libraries                                                             
-ii   liblocale-gettext-perl  1.07-1+b1                    amd64  module using libc functions for internationalization in Perl                   
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library                                    
 ii   liblognorm2             1.1.2-1.1+b2                 amd64  Log normalizing library                                                        
 ii   liblz4-1                0.0~r131-2                   amd64  Fast LZ compression algorithm library - runtime                                
@@ -185,9 +183,6 @@ ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets 
 ii   libstdc++6              6.1.1-4                      amd64  GNU Standard C++ Library v3                                                    
 ii   libsystemd0             229-6                        amd64  systemd utility library                                                        
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)                                              
-ii   libtext-charwidth-perl  0.04-7+b4                    amd64  get display widths of characters on the terminal                               
-ii   libtext-iconv-perl      1.7-5+b3                     amd64  converts between character sets in Perl                                        
-ii   libtext-wrapi18n-perl   0.06-7.1                     all    internationalized substitute of Text::Wrap                                     
 ii   libtinfo5               6.0+20160319-1               amd64  shared low-level terminfo library for terminal handling                        
 ii   libudev1                229-6                        amd64  libudev shared library                                                         
 ii   libusb-0.1-4            2:0.1.12-30                  amd64  userspace USB programming library                                              
