@@ -2050,7 +2050,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "619",
+    "Installed-Size": "630",
     "Origin": null,
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-6",
+    "Version": "230-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-6"
+    "source:Version": "230-1"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "201",
+    "Installed-Size": "202",
     "Origin": null,
     "Package": "libudev1",
     "Pre-Depends": null,
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-6",
+    "Version": "230-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-6"
+    "source:Version": "230-1"
   },
   {
     "Architecture": "amd64",
@@ -2607,10 +2607,10 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "apparmor (<< 2.9.2-1), ifupdown (<< 0.8.5~), laptop-mode-tools (<< 1.68~), lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2), udev (<< 228-5)",
-    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 229-6), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 230-1), util-linux (>= 2.27.1), mount (>= 2.26), adduser, libcap2-bin",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "18042",
+    "Installed-Size": "17640",
     "Origin": null,
     "Package": "systemd",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2621,7 +2621,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui, systemd-container",
-    "Version": "229-6",
+    "Version": "230-1",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-6"
+    "source:Version": "230-1"
   },
   {
     "Architecture": "amd64",
@@ -2638,7 +2638,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "90",
+    "Installed-Size": "91",
     "Origin": null,
     "Package": "systemd-sysv",
     "Pre-Depends": "systemd",
@@ -2649,7 +2649,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "229-6",
+    "Version": "230-1",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "229-6"
+    "source:Version": "230-1"
   },
   {
     "Architecture": "all",
