@@ -122,7 +122,7 @@ ii   libdevmapper1.02.1      2:1.02.90-2.2              amd64  Linux Kernel Devi
 ii   libedit2                3.1-20140620-2             amd64  BSD editline and history libraries                                         
 ii   liberror-perl           0.17-1.1                   all    Perl module for error/exception handling in an OO-ish way                  
 ii   libestr0                0.1.9-1.1                  amd64  Helper functions for handling strings (lib)                                
-ii   libexpat1               2.1.0-6+deb8u1             amd64  XML parsing C library - runtime library                                    
+ii   libexpat1               2.1.0-6+deb8u2             amd64  XML parsing C library - runtime library                                    
 ii   libffi6                 3.1-2+b2                   amd64  Foreign Function Interface library runtime                                 
 ii   libgcc1                 1:4.9.2-10                 amd64  GCC support library                                                        
 ii   libgcrypt20             1.6.3-2+deb8u1             amd64  LGPL Crypto library - runtime library                                      

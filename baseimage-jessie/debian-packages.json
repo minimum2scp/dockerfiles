@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.1.0-6+deb8u1",
+    "Version": "2.1.0-6+deb8u2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.1.0-6+deb8u1"
+    "source:Version": "2.1.0-6+deb8u2"
   },
   {
     "Architecture": "amd64",
