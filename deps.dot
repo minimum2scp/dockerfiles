@@ -25,6 +25,7 @@ digraph deps {
   sphinx            [label = "minimum2scp/sphinx"];
   squid             [label = "minimum2scp/squid"];
   systemd           [label = "minimum2scp/systemd"];
+  systemd_jessie    [label = "minimum2scp/systemd-jessie"];
   tdiary            [label = "minimum2scp/tdiary"];
 
   debian    -> baseimage;
@@ -34,7 +35,7 @@ digraph deps {
   nodejs    -> {hubot};
 
   debian_jessie    -> baseimage_jessie;
-  baseimage_jessie -> ruby_jessie;
+  baseimage_jessie -> {systemd_jessie, ruby_jessie};
 
   debian_wheezy    -> baseimage_wheezy;
   baseimage_wheezy -> ruby_wheezy;
