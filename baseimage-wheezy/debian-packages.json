@@ -1490,7 +1490,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "350",
+    "Installed-Size": "390",
     "Origin": null,
     "Package": "libexpat1",
     "Pre-Depends": "multiarch-support",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.1.0-1+deb7u2",
+    "Version": "2.1.0-1+deb7u3",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "expat",
-    "source:Version": "2.1.0-1+deb7u2"
+    "source:Version": "2.1.0-1+deb7u3"
   },
   {
     "Architecture": "amd64",
