@@ -44,8 +44,8 @@ ii   grep                    2.25-1                   amd64  GNU grep, egrep and
 ii   gzip                    1.6-5                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
 ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
-ii   init                    1.33                     amd64  init metapackage                                                      
-ii   init-system-helpers     1.33                     all    helper tools for all init systems                                     
+ii   init                    1.34                     amd64  init metapackage                                                      
+ii   init-system-helpers     1.34                     all    helper tools for all init systems                                     
 ii   initscripts             2.88dsf-59.4             amd64  scripts for initializing and shutting down the system                 
 ii   insserv                 1.14.0-5.3               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
@@ -90,9 +90,9 @@ ii   libsepol1               2.5-1                    amd64  SELinux library for
 ii   libsmartcols1           2.28-5                   amd64  smart column output alignment library                                 
 ii   libss2                  1.43-3                   amd64  command-line interface parsing library                                
 ii   libstdc++6              6.1.1-4                  amd64  GNU Standard C++ Library v3                                           
-ii   libsystemd0             230-1                    amd64  systemd utility library                                               
+ii   libsystemd0             230-2                    amd64  systemd utility library                                               
 ii   libtinfo5               6.0+20160319-1           amd64  shared low-level terminfo library for terminal handling               
-ii   libudev1                230-1                    amd64  libudev shared library                                                
+ii   libudev1                230-2                    amd64  libudev shared library                                                
 ii   libusb-0.1-4            2:0.1.12-30              amd64  userspace USB programming library                                     
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library                                  
 ii   libuuid1                2.28-5                   amd64  Universally Unique ID library                                         
@@ -110,8 +110,8 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 230-1                    amd64  system and service manager                                            
-ii   systemd-sysv            230-1                    amd64  system and service manager - SysV links                               
+ii   systemd                 230-2                    amd64  system and service manager                                            
+ii   systemd-sysv            230-2                    amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.4             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.4             amd64  System-V-like utilities                                               
 ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility                              

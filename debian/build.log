@@ -91,10 +91,10 @@ I: Retrieving hostname 3.17
 I: Validating hostname 3.17
 I: Retrieving inetutils-ping 2:1.9.4-1+b1
 I: Validating inetutils-ping 2:1.9.4-1+b1
-I: Retrieving init 1.33
-I: Validating init 1.33
-I: Retrieving init-system-helpers 1.33
-I: Validating init-system-helpers 1.33
+I: Retrieving init 1.34
+I: Validating init 1.34
+I: Retrieving init-system-helpers 1.34
+I: Validating init-system-helpers 1.34
 I: Retrieving insserv 1.14.0-5.3
 I: Validating insserv 1.14.0-5.3
 I: Retrieving iproute2 4.3.0-1+b1
@@ -169,14 +169,14 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 230-1
-I: Validating libsystemd0 230-1
-I: Retrieving libudev1 230-1
-I: Validating libudev1 230-1
-I: Retrieving systemd 230-1
-I: Validating systemd 230-1
-I: Retrieving systemd-sysv 230-1
-I: Validating systemd-sysv 230-1
+I: Retrieving libsystemd0 230-2
+I: Validating libsystemd0 230-2
+I: Retrieving libudev1 230-2
+I: Validating libudev1 230-2
+I: Retrieving systemd 230-2
+I: Validating systemd 230-2
+I: Retrieving systemd-sysv 230-2
+I: Validating systemd-sysv 230-2
 I: Retrieving initscripts 2.88dsf-59.4
 I: Validating initscripts 2.88dsf-59.4
 I: Retrieving sysv-rc 2.88dsf-59.4
@@ -507,7 +507,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [205 kB]
-Fetched 205 kB in 0s (853 kB/s)
+Fetched 205 kB in 0s (279 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -517,10 +517,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 7078a1b783bf
-Removing intermediate container 614e93baf5d2
+ ---> 514fe159ff37
+Removing intermediate container 5c8c03d7ace4
 Step 3 : CMD /bin/bash
- ---> Running in c5df958af802
- ---> 6e293525b623
-Removing intermediate container c5df958af802
-Successfully built 6e293525b623
+ ---> Running in a23fc9841814
+ ---> be4c8d952bcc
+Removing intermediate container a23fc9841814
+Successfully built be4c8d952bcc
