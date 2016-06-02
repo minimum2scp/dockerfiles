@@ -108,9 +108,9 @@ ii   libaudit1               1:2.5.2-1                    amd64  Dynamic library
 ii   libblkid1               2.28-5                       amd64  block device ID library                                                        
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime                   
-ii   libc-bin                2.22-9                       amd64  GNU C Library: Binaries                                                        
-ii   libc-l10n               2.22-9                       all    GNU C Library: localization files                                              
-ii   libc6                   2.22-9                       amd64  GNU C Library: Shared libraries                                                
+ii   libc-bin                2.22-10                      amd64  GNU C Library: Binaries                                                        
+ii   libc-l10n               2.22-10                      all    GNU C Library: localization files                                              
+ii   libc6                   2.22-10                      amd64  GNU C Library: Shared libraries                                                
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)                                           
 ii   libcap2-bin             1:2.25-1                     amd64  POSIX 1003.1e capabilities (utilities)                                         
 ii   libcomerr2              1.43-3                       amd64  common error description library                                               
@@ -152,10 +152,10 @@ ii   libnettle6              3.2-1                        amd64  low level crypt
 ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang                  
 ii   libnghttp2-14           1.11.1-1                     amd64  library implementing HTTP/2 protocol (shared library)                          
 ii   libp11-kit0             0.23.2-3                     amd64  Library for loading and coordinating access to PKCS#11 modules - runtime       
-ii   libpam-modules          1.1.8-3.2                    amd64  Pluggable Authentication Modules for PAM                                       
-ii   libpam-modules-bin      1.1.8-3.2                    amd64  Pluggable Authentication Modules for PAM - helper binaries                     
-ii   libpam-runtime          1.1.8-3.2                    all    Runtime support for the PAM library                                            
-ii   libpam0g                1.1.8-3.2                    amd64  Pluggable Authentication Modules library                                       
+ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM                                       
+ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries                     
+ii   libpam-runtime          1.1.8-3.3                    all    Runtime support for the PAM library                                            
+ii   libpam0g                1.1.8-3.3                    amd64  Pluggable Authentication Modules library                                       
 ii   libpcre3                2:8.38-3.1                   amd64  Perl 5 Compatible Regular Expression Library - runtime files                   
 ii   libperl5.22             5.22.2-1                     amd64  shared Perl library                                                            
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library                                                  
@@ -189,15 +189,15 @@ ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string li
 ii   libuuid1                2.28-5                       amd64  Universally Unique ID library                                                  
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library                                           
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations                          
-ii   locales                 2.22-9                       all    GNU C Library: National Language (locale) data [support]                       
+ii   locales                 2.22-10                      all    GNU C Library: National Language (locale) data [support]                       
 ii   login                   1:4.2-3.1                    amd64  system login tools                                                             
-ii   lsb-base                9.20160110                   all    Linux Standard Base init script functionality                                  
+ii   lsb-base                9.20160601                   all    Linux Standard Base init script functionality                                  
 ii   lv                      4.51-2.3+b1                  amd64  Powerful Multilingual File Viewer                                              
 ii   man-db                  2.7.5-1                      amd64  on-line manual pager                                                           
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language                                
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs                      
 ii   mount                   2.28-5                       amd64  tools for mounting and manipulating filesystems                                
-ii   multiarch-support       2.22-9                       amd64  Transitional package to ensure multiarch compatibility                         
+ii   multiarch-support       2.22-10                      amd64  Transitional package to ensure multiarch compatibility                         
 ii   ncurses-base            6.0+20160319-1               all    basic terminal type definitions                                                
 ii   ncurses-bin             6.0+20160319-1               amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit                                                       
