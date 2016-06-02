@@ -1098,7 +1098,7 @@
     "Depends": "libc6 (>> 2.22), libc6 (<< 2.23)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3314",
+    "Installed-Size": "3315",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-9",
+    "Version": "2.22-10",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-9"
+    "source:Version": "2.22-10"
   },
   {
     "Architecture": "amd64",
@@ -1126,7 +1126,7 @@
     "Depends": "libgcc1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "10638",
+    "Installed-Size": "10639",
     "Origin": null,
     "Package": "libc6",
     "Pre-Depends": null,
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.22-9",
+    "Version": "2.22-10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-9"
+    "source:Version": "2.22-10"
   },
   {
     "Architecture": "amd64",
@@ -1630,10 +1630,10 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "869",
+    "Installed-Size": "870",
     "Origin": null,
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.2)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.3)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": null,
@@ -1641,7 +1641,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.2",
+    "Version": "1.1.8-3.3",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.2"
+    "source:Version": "1.1.8-3.3"
   },
   {
     "Architecture": "amd64",
@@ -1658,7 +1658,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "219",
+    "Installed-Size": "220",
     "Origin": null,
     "Package": "libpam-modules-bin",
     "Pre-Depends": null,
@@ -1669,7 +1669,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.2",
+    "Version": "1.1.8-3.3",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.2"
+    "source:Version": "1.1.8-3.3"
   },
   {
     "Architecture": "all",
@@ -1686,7 +1686,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1013",
+    "Installed-Size": "1016",
     "Origin": null,
     "Package": "libpam-runtime",
     "Pre-Depends": null,
@@ -1697,7 +1697,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.1.8-3.2",
+    "Version": "1.1.8-3.3",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.2"
+    "source:Version": "1.1.8-3.3"
   },
   {
     "Architecture": "amd64",
@@ -1714,7 +1714,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "231",
+    "Installed-Size": "233",
     "Origin": null,
     "Package": "libpam0g",
     "Pre-Depends": null,
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.1.8-3.2",
+    "Version": "1.1.8-3.3",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.1.8-3.2"
+    "source:Version": "1.1.8-3.3"
   },
   {
     "Architecture": "amd64",
@@ -2214,11 +2214,11 @@
   {
     "Architecture": "all",
     "Conflicts": null,
-    "Breaks": "upstart (<< 1.12.1-0ubuntu8)",
+    "Breaks": null,
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "50",
+    "Installed-Size": "49",
     "Origin": null,
     "Package": "lsb-base",
     "Pre-Depends": null,
@@ -2229,7 +2229,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "9.20160110",
+    "Version": "9.20160601",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "9.20160110"
+    "source:Version": "9.20160601"
   },
   {
     "Architecture": "amd64",
@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "211",
+    "Installed-Size": "212",
     "Origin": null,
     "Package": "multiarch-support",
     "Pre-Depends": null,
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-9",
+    "Version": "2.22-10",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-9"
+    "source:Version": "2.22-10"
   },
   {
     "Architecture": "all",
