@@ -407,51 +407,51 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org wheezy/updates Release.gpg [1554 B]
 Get:2 http://security.debian.org wheezy/updates Release [39.0 kB]
-Get:3 http://security.debian.org wheezy/updates/main amd64 Packages [441 kB]
+Get:3 http://security.debian.org wheezy/updates/main amd64 Packages [466 kB]
 Hit http://ftp.jp.debian.org wheezy Release.gpg
 Get:4 http://ftp.jp.debian.org wheezy-updates Release.gpg [1554 B]
 Hit http://ftp.jp.debian.org wheezy Release
 Get:5 http://ftp.jp.debian.org wheezy-updates Release [151 kB]
 Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7635 kB]
-Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7474 B]
-Fetched 8277 kB in 1s (6421 kB/s)
+Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
+Fetched 8302 kB in 1s (6720 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
   libc-bin libc6 multiarch-support tzdata
 4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 6104 kB of archives.
-After this operation, 15.4 kB of additional disk space will be used.
-Get:1 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u10 [1274 kB]
-Get:2 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2016d-0+deb7u1 [453 kB]
-Get:3 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u10 [4226 kB]
-Get:4 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u10 [152 kB]
-Fetched 6104 kB in 5s (1096 kB/s)
+Need to get 6231 kB of archives.
+After this operation, 202 kB of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian/ wheezy-updates/main tzdata all 2016d-0+deb7u1 [453 kB]
+Get:2 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u11 [1275 kB]
+Get:3 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u11 [4352 kB]
+Get:4 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u11 [152 kB]
+Fetched 6231 kB in 1s (3299 kB/s)
 (Reading database ... 6726 files and directories currently installed.)
-Preparing to replace libc-bin 2.13-38+deb7u9 (using .../libc-bin_2.13-38+deb7u10_amd64.deb) ...
+Preparing to replace libc-bin 2.13-38+deb7u9 (using .../libc-bin_2.13-38+deb7u11_amd64.deb) ...
 Unpacking replacement libc-bin ...
-Setting up libc-bin (2.13-38+deb7u10) ...
+Setting up libc-bin (2.13-38+deb7u11) ...
 (Reading database ... 6726 files and directories currently installed.)
-Preparing to replace libc6:amd64 2.13-38+deb7u9 (using .../libc6_2.13-38+deb7u10_amd64.deb) ...
+Preparing to replace libc6:amd64 2.13-38+deb7u9 (using .../libc6_2.13-38+deb7u11_amd64.deb) ...
 Unpacking replacement libc6:amd64 ...
-Setting up libc6:amd64 (2.13-38+deb7u10) ...
+Setting up libc6:amd64 (2.13-38+deb7u11) ...
 (Reading database ... 6726 files and directories currently installed.)
 Preparing to replace tzdata 2016c-0+deb7u1 (using .../tzdata_2016d-0+deb7u1_all.deb) ...
 Unpacking replacement tzdata ...
 Setting up tzdata (2016d-0+deb7u1) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace multiarch-support 2.13-38+deb7u9 (using .../multiarch-support_2.13-38+deb7u10_amd64.deb) ...
+Preparing to replace multiarch-support 2.13-38+deb7u9 (using .../multiarch-support_2.13-38+deb7u11_amd64.deb) ...
 Unpacking replacement multiarch-support ...
-Setting up multiarch-support (2.13-38+deb7u10) ...
+Setting up multiarch-support (2.13-38+deb7u11) ...
 Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.62 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 1753f6a65245
-Removing intermediate container f2e216cc9099
+ ---> 86969a5fa180
+Removing intermediate container 9370165573f9
 Step 3 : CMD /bin/bash
- ---> Running in 01d2d5f1ebeb
- ---> 771eb45c6f44
-Removing intermediate container 01d2d5f1ebeb
-Successfully built 771eb45c6f44
+ ---> Running in 587044fd6190
+ ---> f3ec5ca667f9
+Removing intermediate container 587044fd6190
+Successfully built f3ec5ca667f9
