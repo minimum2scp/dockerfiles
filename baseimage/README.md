@@ -83,8 +83,8 @@ ii   e2fsprogs               1.43-3                       amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.2-1                     all    store /etc in git, mercurial, bzr or darcs                                     
 ii   findutils               4.6.0+git+20160126-2         amd64  utilities for finding files--find, xargs                                       
 ii   gcc-4.9-base            4.9.3-14                     amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   gcc-5-base              5.3.1-21                     amd64  GCC, the GNU Compiler Collection (base package)                                
-ii   gcc-6-base              6.1.1-4                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-5-base              5.4.0-3                      amd64  GCC, the GNU Compiler Collection (base package)                                
+ii   gcc-6-base              6.1.1-5                      amd64  GCC, the GNU Compiler Collection (base package)                                
 ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system                            
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)             
 ii   gnupg                   1.4.20-6                     amd64  GNU privacy guard - a free PGP replacement                                     
@@ -122,10 +122,10 @@ ii   libdevmapper1.02.1      2:1.02.124-1                 amd64  Linux Kernel De
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries                                             
 ii   liberror-perl           0.17-1.2                     all    Perl module for error/exception handling in an OO-ish way                      
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)                                    
-ii   libexpat1               2.1.1-2                      amd64  XML parsing C library - runtime library                                        
+ii   libexpat1               2.1.1-3                      amd64  XML parsing C library - runtime library                                        
 ii   libfdisk1               2.28-5                       amd64  fdisk partitioning library                                                     
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime                                     
-ii   libgcc1                 1:6.1.1-4                    amd64  GCC support library                                                            
+ii   libgcc1                 1:6.1.1-5                    amd64  GCC support library                                                            
 ii   libgcrypt20             1.7.0-2                      amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                   amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2               amd64  Multiprecision arithmetic library                                              
@@ -161,9 +161,9 @@ ii   libperl5.22             5.22.2-1                     amd64  shared Perl lib
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library                                                  
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters                                             
 ii   libprocps5              2:3.3.11-3                   amd64  library for accessing process information from /proc                           
-ii   libpython-stdlib        2.7.11-1                     amd64  interactive high-level object-oriented language (default python version)       
-ii   libpython2.7-minimal    2.7.11-9                     amd64  Minimal subset of the Python language (version 2.7)                            
-ii   libpython2.7-stdlib     2.7.11-9                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython-stdlib        2.7.11-2                     amd64  interactive high-level object-oriented language (default python version)       
+ii   libpython2.7-minimal    2.7.11-11                    amd64  Minimal subset of the Python language (version 2.7)                            
+ii   libpython2.7-stdlib     2.7.11-11                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline6            6.3-8+b4                     amd64  GNU readline and history libraries, run-time libraries                         
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)                                      
 ii   libsasl2-2              2.1.26.dfsg1-15              amd64  Cyrus SASL - authentication abstraction library                                
@@ -179,7 +179,7 @@ ii   libsqlite3-0            3.13.0-1                     amd64  SQLite 3 shared
 ii   libss2                  1.43-3                       amd64  command-line interface parsing library                                         
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library                                                       
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries                                
-ii   libstdc++6              6.1.1-4                      amd64  GNU Standard C++ Library v3                                                    
+ii   libstdc++6              6.1.1-5                      amd64  GNU Standard C++ Library v3                                                    
 ii   libsystemd0             230-2                        amd64  systemd utility library                                                        
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)                                              
 ii   libtinfo5               6.0+20160319-1               amd64  shared low-level terminfo library for terminal handling                        
@@ -211,10 +211,10 @@ ii   perl                    5.22.2-1                     amd64  Larry Wall's Pr
 ii   perl-base               5.22.2-1                     amd64  minimal Perl system                                                            
 ii   perl-modules-5.22       5.22.2-1                     all    Core Perl modules                                                              
 ii   procps                  2:3.3.11-3                   amd64  /proc file system utilities                                                    
-ii   python                  2.7.11-1                     amd64  interactive high-level object-oriented language (default version)              
-ii   python-minimal          2.7.11-1                     amd64  minimal subset of the Python language (default version)                        
-ii   python2.7               2.7.11-9                     amd64  Interactive high-level object-oriented language (version 2.7)                  
-ii   python2.7-minimal       2.7.11-9                     amd64  Minimal subset of the Python language (version 2.7)                            
+ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)              
+ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)                        
+ii   python2.7               2.7.11-11                    amd64  Interactive high-level object-oriented language (version 2.7)                  
+ii   python2.7-minimal       2.7.11-11                    amd64  Minimal subset of the Python language (version 2.7)                            
 ii   readline-common         6.3-8                        all    GNU readline and history libraries, common files                               
 ii   rsyslog                 8.16.0-1+b3                  amd64  reliable system and kernel logging daemon                                      
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor                                                      
