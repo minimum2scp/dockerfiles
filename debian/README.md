@@ -30,7 +30,6 @@ ii   debconf                 1.5.59                   all    Debian configuratio
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive                              
 ii   debianutils             4.7                      amd64  Miscellaneous utilities specific to Debian                            
 ii   diffutils               1:3.3-3                  amd64  File comparison utilities                                             
-ii   dmsetup                 2:1.02.124-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   dpkg                    1.18.7                   amd64  Debian package management system                                      
 ii   e2fslibs                1.43-3                   amd64  ext2/ext3/ext4 file system libraries                                  
 ii   e2fsprogs               1.43-3                   amd64  ext2/ext3/ext4 file system utilities                                  
@@ -43,14 +42,12 @@ ii   gpgv                    1.4.20-6                 amd64  GNU privacy guard -
 ii   grep                    2.25-3                   amd64  GNU grep, egrep and fgrep                                             
 ii   gzip                    1.6-5                    amd64  GNU compression utilities                                             
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name                      
-ii   inetutils-ping          2:1.9.4-1+b1             amd64  ICMP echo tool                                                        
-ii   init                    1.34                     amd64  init metapackage                                                      
+ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool                                                        
 ii   init-system-helpers     1.34                     all    helper tools for all init systems                                     
 ii   initscripts             2.88dsf-59.4             amd64  scripts for initializing and shutting down the system                 
 ii   insserv                 1.14.0-5.3               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools                                  
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library                                    
-ii   libapparmor1            2.10-4                   amd64  changehat AppArmor library                                            
 ii   libapt-pkg5.0           1.2.12                   amd64  package management runtime library                                    
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library                                     
 ii   libaudit-common         1:2.5.2-1                all    Dynamic library for security auditing - common files                  
@@ -59,18 +56,13 @@ ii   libblkid1               2.28-5                   amd64  block device ID lib
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime          
 ii   libc-bin                2.22-10                  amd64  GNU C Library: Binaries                                               
 ii   libc6                   2.22-10                  amd64  GNU C Library: Shared libraries                                       
-ii   libcap2                 1:2.25-1                 amd64  POSIX 1003.1e capabilities (library)                                  
-ii   libcap2-bin             1:2.25-1                 amd64  POSIX 1003.1e capabilities (utilities)                                
 ii   libcomerr2              1.43-3                   amd64  common error description library                                      
-ii   libcryptsetup4          2:1.7.0-2                amd64  disk encryption support - shared library                              
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]                            
 ii   libdebconfclient0       0.213                    amd64  Debian Configuration Management System (C-implementation library)     
-ii   libdevmapper1.02.1      2:1.02.124-1             amd64  Linux Kernel Device Mapper userspace library                          
 ii   libfdisk1               2.28-5                   amd64  fdisk partitioning library                                            
 ii   libgcc1                 1:6.1.1-5                amd64  GCC support library                                                   
 ii   libgcrypt20             1.7.0-2                  amd64  LGPL Crypto library - runtime library                                 
 ii   libgpg-error0           1.22-2                   amd64  library for common error values and messages in GnuPG components      
-ii   libkmod2                22-1.1                   amd64  libkmod shared library                                                
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime                       
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library                                         
 ii   libmount1               2.28-5                   amd64  device mounting library                                               
@@ -82,7 +74,6 @@ ii   libpam-runtime          1.1.8-3.3                all    Runtime support for
 ii   libpam0g                1.1.8-3.3                amd64  Pluggable Authentication Modules library                              
 ii   libpcre3                2:8.38-3.1               amd64  Perl 5 Compatible Regular Expression Library - runtime files          
 ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries                
-ii   libseccomp2             2.3.1-2                  amd64  high level interface to Linux seccomp filter                          
 ii   libselinux1             2.5-3                    amd64  SELinux runtime shared libraries                                      
 ii   libsemanage-common      2.5-1                    all    Common files for SELinux policy management libraries                  
 ii   libsemanage1            2.5-1                    amd64  SELinux policy management library                                     
@@ -110,8 +101,6 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor                                             
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection                          
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output                  
-ii   systemd                 230-2                    amd64  system and service manager                                            
-ii   systemd-sysv            230-2                    amd64  system and service manager - SysV links                               
 ii   sysv-rc                 2.88dsf-59.4             all    System-V-like runlevel change mechanism                               
 ii   sysvinit-utils          2.88dsf-59.4             amd64  System-V-like utilities                                               
 ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility                              
