@@ -105,9 +105,9 @@ ii   libaudit1               1:2.5.2-1                    amd64  Dynamic library
 ii   libblkid1               2.28-5                       amd64  block device ID library                                                        
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library                            
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime                   
-ii   libc-bin                2.22-10                      amd64  GNU C Library: Binaries                                                        
-ii   libc-l10n               2.22-10                      all    GNU C Library: localization files                                              
-ii   libc6                   2.22-10                      amd64  GNU C Library: Shared libraries                                                
+ii   libc-bin                2.22-11                      amd64  GNU C Library: Binaries                                                        
+ii   libc-l10n               2.22-11                      all    GNU C Library: localization files                                              
+ii   libc6                   2.22-11                      amd64  GNU C Library: Shared libraries                                                
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)                                           
 ii   libcomerr2              1.43-3                       amd64  common error description library                                               
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)                  
@@ -123,7 +123,7 @@ ii   libgcc1                 1:6.1.1-5                    amd64  GCC support lib
 ii   libgcrypt20             1.7.0-2                      amd64  LGPL Crypto library - runtime library                                          
 ii   libgdbm3                1.8.3-13.1                   amd64  GNU dbm database routines (runtime version)                                    
 ii   libgmp10                2:6.1.0+dfsg-2               amd64  Multiprecision arithmetic library                                              
-ii   libgnutls30             3.4.12-2                     amd64  GNU TLS library - main runtime library                                         
+ii   libgnutls30             3.4.13-1                     amd64  GNU TLS library - main runtime library                                         
 ii   libgpg-error0           1.22-2                       amd64  library for common error values and messages in GnuPG components               
 ii   libgssapi-krb5-2        1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism                        
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)                           
@@ -181,7 +181,7 @@ ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string li
 ii   libuuid1                2.28-5                       amd64  Universally Unique ID library                                                  
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library                                           
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations                          
-ii   locales                 2.22-10                      all    GNU C Library: National Language (locale) data [support]                       
+ii   locales                 2.22-11                      all    GNU C Library: National Language (locale) data [support]                       
 ii   login                   1:4.2-3.1                    amd64  system login tools                                                             
 ii   lsb-base                9.20160601                   all    Linux Standard Base init script functionality                                  
 ii   lv                      4.51-2.3+b1                  amd64  Powerful Multilingual File Viewer                                              
@@ -189,7 +189,7 @@ ii   man-db                  2.7.5-1                      amd64  on-line manual 
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language                                
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs                      
 ii   mount                   2.28-5                       amd64  tools for mounting and manipulating filesystems                                
-ii   multiarch-support       2.22-10                      amd64  Transitional package to ensure multiarch compatibility                         
+ii   multiarch-support       2.22-11                      amd64  Transitional package to ensure multiarch compatibility                         
 ii   ncurses-base            6.0+20160319-1               all    basic terminal type definitions                                                
 ii   ncurses-bin             6.0+20160319-1               amd64  terminal-related programs and man pages                                        
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit                                                       
