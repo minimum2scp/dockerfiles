@@ -61,7 +61,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 
 ```
 <% fields = %w[db:Status-Abbrev Package Version Architecture binary:Summary] -%>
-<% width = Hash[fields.map{|k| [k, packages.map{|pkg| pkg[k].size}.max] }] -%>
+<% width = Hash[fields[0..-2].map{|k| [k, packages.map{|pkg| pkg[k].size}.max] }] -%>
 <% packages.each do |package| -%>
 <%= fields.map{|k| "%<#{k}>-#{width[k]}s" }.join(" " * 2) % Hash[fields.map{|k| [k.to_sym, package[k]] }] %>
 <% end -%>
