@@ -49,14 +49,14 @@ I: Retrieving diffutils 1:3.3-3
 I: Validating diffutils 1:3.3-3
 I: Retrieving dpkg 1.18.7
 I: Validating dpkg 1.18.7
-I: Retrieving e2fslibs 1.43-3
-I: Validating e2fslibs 1.43-3
-I: Retrieving e2fsprogs 1.43-3
-I: Validating e2fsprogs 1.43-3
-I: Retrieving libcomerr2 1.43-3
-I: Validating libcomerr2 1.43-3
-I: Retrieving libss2 1.43-3
-I: Validating libss2 1.43-3
+I: Retrieving e2fslibs 1.43.1-1
+I: Validating e2fslibs 1.43.1-1
+I: Retrieving e2fsprogs 1.43.1-1
+I: Validating e2fsprogs 1.43.1-1
+I: Retrieving libcomerr2 1.43.1-1
+I: Validating libcomerr2 1.43.1-1
+I: Retrieving libss2 1.43.1-1
+I: Validating libss2 1.43.1-1
 I: Retrieving findutils 4.6.0+git+20160126-2
 I: Validating findutils 4.6.0+git+20160126-2
 I: Retrieving gcc-4.9-base 4.9.3-14
@@ -451,7 +451,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [205 kB]
-Fetched 205 kB in 0s (1016 kB/s)
+Fetched 205 kB in 0s (1212 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -461,10 +461,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 2964288b0d16
-Removing intermediate container 0d0bc8ff568a
+ ---> b87e012ddc04
+Removing intermediate container e0ffccaf4fdd
 Step 3 : CMD /bin/bash
- ---> Running in 9b3a4c92e5bd
- ---> b8db08709f60
-Removing intermediate container 9b3a4c92e5bd
-Successfully built b8db08709f60
+ ---> Running in 43b7ac684efb
+ ---> 81e34c5aa4dd
+Removing intermediate container 43b7ac684efb
+Successfully built 81e34c5aa4dd
