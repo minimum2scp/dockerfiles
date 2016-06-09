@@ -77,8 +77,8 @@ ii   debian-archive-keyring  2014.3                       all    GnuPG archive k
 ii   debianutils             4.7                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-3                      amd64  File comparison utilities
 ii   dpkg                    1.18.7                       amd64  Debian package management system
-ii   e2fslibs                1.43-3                       amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43-3                       amd64  ext2/ext3/ext4 file system utilities
+ii   e2fslibs                1.43.1-1                     amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.1-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.2-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20160126-2         amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                     amd64  GCC, the GNU Compiler Collection (base package)
@@ -109,7 +109,7 @@ ii   libc-bin                2.22-11                      amd64  GNU C Library: 
 ii   libc-l10n               2.22-11                      all    GNU C Library: localization files
 ii   libc6                   2.22-11                      amd64  GNU C Library: Shared libraries
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
-ii   libcomerr2              1.43-3                       amd64  common error description library
+ii   libcomerr2              1.43.1-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-11                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.213                        amd64  Debian Configuration Management System (C-implementation library)
@@ -121,7 +121,7 @@ ii   libfdisk1               2.28-5                       amd64  fdisk partition
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.1.1-5                    amd64  GCC support library
 ii   libgcrypt20             1.7.0-2                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm3                1.8.3-13.1                   amd64  GNU dbm database routines (runtime version)
+ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.0+dfsg-2               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.4.13-1                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.22-2                       amd64  library for common error values and messages in GnuPG components
@@ -168,7 +168,7 @@ ii   libsepol1               2.5-1                        amd64  SELinux library
 ii   libslang2               2.3.0-2.3                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28-5                       amd64  smart column output alignment library
 ii   libsqlite3-0            3.13.0-1                     amd64  SQLite 3 shared library
-ii   libss2                  1.43-3                       amd64  command-line interface parsing library
+ii   libss2                  1.43.1-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.1.1-5                      amd64  GNU Standard C++ Library v3
