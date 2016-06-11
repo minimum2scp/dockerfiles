@@ -21,7 +21,7 @@ installed packages:
 ii   acl                     2.2.52-2                  amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                all    add and remove users and groups
 ii   apt                     1.0.9.8.3                 amd64  commandline package manager
-ii   base-files              8+deb8u4                  amd64  Debian base system miscellaneous files
+ii   base-files              8+deb8u5                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                    amd64  Debian base system master password and group files
 ii   bash                    4.3-11+b1                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.25.2-6                amd64  basic utilities from 4.4BSD-Lite
@@ -32,8 +32,8 @@ ii   debconf-i18n            1.5.56                    all    full international
 ii   debian-archive-keyring  2014.3                    all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.4+b1                    amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-1+b1                amd64  File comparison utilities
-ii   dmsetup                 2:1.02.90-2.2             amd64  Linux Kernel Device Mapper userspace library
-ii   dpkg                    1.17.26                   amd64  Debian package management system
+ii   dmsetup                 2:1.02.90-2.2+deb8u1      amd64  Linux Kernel Device Mapper userspace library
+ii   dpkg                    1.17.27                   amd64  Debian package management system
 ii   e2fslibs                1.42.12-1.1               amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.42.12-1.1               amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.4.2-9+b1                amd64  utilities for finding files--find, xargs
@@ -64,7 +64,7 @@ ii   libcomerr2              1.42.12-1.1               amd64  common error descr
 ii   libcryptsetup4          2:1.6.6-5                 amd64  disk encryption support - shared library
 ii   libdb5.3                5.3.28-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.192                     amd64  Debian Configuration Management System (C-implementation library)
-ii   libdevmapper1.02.1      2:1.02.90-2.2             amd64  Linux Kernel Device Mapper userspace library
+ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1      amd64  Linux Kernel Device Mapper userspace library
 ii   libgcc1                 1:4.9.2-10                amd64  GCC support library
 ii   libgcrypt20             1.6.3-2+deb8u1            amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.17-3                    amd64  library for common error values and messages in GnuPG components
@@ -107,7 +107,7 @@ ii   ncurses-base            5.9+20140913-1            all    basic terminal typ
 ii   ncurses-bin             5.9+20140913-1+b1         amd64  terminal-related programs and man pages
 ii   netbase                 5.3                       all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3+deb8u1            amd64  change and administer password and group data
-ii   perl-base               5.20.2-3+deb8u4           amd64  minimal Perl system
+ii   perl-base               5.20.2-3+deb8u5           amd64  minimal Perl system
 ii   procps                  2:3.3.9-9                 amd64  /proc file system utilities
 ii   readline-common         6.3-8                     all    GNU readline and history libraries, common files
 ii   sed                     4.2.2-4+b1                amd64  The GNU sed stream editor
