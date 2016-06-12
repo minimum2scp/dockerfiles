@@ -63,7 +63,7 @@ difference between minimum2scp/debian:latest and minimum2scp/wheezy-baseimage:la
 ii   adduser                 3.113+nmu3                 all    add and remove users and groups
 ii   apt                     0.9.7.9+deb7u7             amd64  commandline package manager
 ii   apt-utils               0.9.7.9+deb7u7             amd64  package managment related utility programs
-ii   base-files              7.1wheezy10                amd64  Debian base system miscellaneous files
+ii   base-files              7.1wheezy11                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.26                     amd64  Debian base system master password and group files
 ii   bash                    4.2+dfsg-0.1+deb7u3        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.3                      amd64  collection of more utilities from FreeBSD
@@ -78,7 +78,7 @@ ii   debconf-i18n            1.5.49                     all    full internationa
 ii   debian-archive-keyring  2014.3~deb7u1              all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.3.2                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.2-6                    amd64  File comparison utilities
-ii   dpkg                    1.16.17                    amd64  Debian package management system
+ii   dpkg                    1.16.18                    amd64  Debian package management system
 ii   e2fslibs                1.42.5-1.1+deb7u1          amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.42.5-1.1+deb7u1          amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               0.63                       all    store /etc in git, mercurial, bzr or darcs
@@ -113,7 +113,7 @@ ii   libcurl3-gnutls         7.26.0-1+wheezy13          amd64  easy-to-use clien
 ii   libdb5.1                5.1.29-5                   amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libedit2                2.11-20080614-5            amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1                     all    Perl module for error/exception handling in an OO-ish way
-ii   libexpat1               2.1.0-1+deb7u3             amd64  XML parsing C library - runtime library
+ii   libexpat1               2.1.0-1+deb7u4             amd64  XML parsing C library - runtime library
 ii   libgcc1                 1:4.7.2-5                  amd64  GCC support library
 ii   libgcrypt11             1.5.0-5+deb7u4             amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database routines (runtime version)
@@ -125,7 +125,7 @@ ii   libk5crypto3            1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runt
 ii   libkeyutils1            1.5.5-3+deb7u1             amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.31-2+deb7u1            amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.31-2+deb7u2            amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-7+b1                  amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2      amd64  XZ-format compression library
 ii   libmount1               2.20.1-5.3                 amd64  block device id library
