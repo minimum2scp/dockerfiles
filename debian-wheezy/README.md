@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   apt                     0.9.7.9+deb7u7         amd64  commandline package manager
-ii   base-files              7.1wheezy10            amd64  Debian base system miscellaneous files
+ii   base-files              7.1wheezy11            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.26                 amd64  Debian base system master password and group files
 ii   bash                    4.2+dfsg-0.1+deb7u3    amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.20.1-5.3           amd64  Basic utilities from 4.4BSD-Lite
@@ -30,7 +30,7 @@ ii   debconf-i18n            1.5.49                 all    full internationaliza
 ii   debian-archive-keyring  2014.3~deb7u1          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.3.2                  amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.2-6                amd64  File comparison utilities
-ii   dpkg                    1.16.17                amd64  Debian package management system
+ii   dpkg                    1.16.18                amd64  Debian package management system
 ii   e2fslibs                1.42.5-1.1+deb7u1      amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.42.5-1.1+deb7u1      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.4.2-4                amd64  utilities for finding files--find, xargs

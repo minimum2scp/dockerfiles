@@ -34,7 +34,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "414",
+    "Installed-Size": "218",
     "Origin": null,
     "Package": "base-files",
     "Pre-Depends": "awk",
@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "7.1wheezy10",
+    "Version": "7.1wheezy11",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "base-files",
-    "source:Version": "7.1wheezy10"
+    "source:Version": "7.1wheezy11"
   },
   {
     "Architecture": "amd64",
@@ -342,7 +342,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "6560",
+    "Installed-Size": "6562",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.11), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.16.17",
+    "Version": "1.16.18",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": null,
     "db:Status-Eflag": null,
     "source:Package": "dpkg",
-    "source:Version": "1.16.17"
+    "source:Version": "1.16.18"
   },
   {
     "Architecture": "amd64",
@@ -2142,7 +2142,7 @@
     "Provides": "tzdata-wheezy",
     "Recommends": null,
     "Replace": null,
-    "Section": "libs",
+    "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
     "Version": "2016d-0+deb7u1",
