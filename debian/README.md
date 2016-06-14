@@ -44,7 +44,7 @@ ii   gzip                    1.6-5                    amd64  GNU compression uti
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool
 ii   init-system-helpers     1.34                     all    helper tools for all init systems
-ii   initscripts             2.88dsf-59.4             amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.88dsf-59.6             amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.3               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
@@ -101,8 +101,8 @@ ii   readline-common         6.3-8                    all    GNU readline and hi
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output
-ii   sysv-rc                 2.88dsf-59.4             all    System-V-like runlevel change mechanism
-ii   sysvinit-utils          2.88dsf-59.4             amd64  System-V-like utilities
+ii   sysv-rc                 2.88dsf-59.6             all    System-V-like runlevel change mechanism
+ii   sysvinit-utils          2.88dsf-59.6             amd64  System-V-like utilities
 ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016d-2                  all    time zone and daylight-saving time data
 ii   util-linux              2.28-5                   amd64  miscellaneous system utilities
