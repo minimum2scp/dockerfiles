@@ -94,7 +94,7 @@ ii   gzip                    1.6-5                        amd64  GNU compression
 ii   hostname                3.17                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
 ii   init-system-helpers     1.34                         all    helper tools for all init systems
-ii   initscripts             2.88dsf-59.4                 amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.88dsf-59.6                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.3                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1                   amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
@@ -155,8 +155,8 @@ ii   libpipeline1            1.4.1-2                      amd64  pipeline manipu
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps5              2:3.3.11-3                   amd64  library for accessing process information from /proc
 ii   libpython-stdlib        2.7.11-2                     amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.11-11                    amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.11-11                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.12~rc1-2                 amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.12~rc1-2                 amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline6            6.3-8+b4                     amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.26.dfsg1-15              amd64  Cyrus SASL - authentication abstraction library
@@ -205,17 +205,17 @@ ii   perl-modules-5.22       5.22.2-1                     all    Core Perl modul
 ii   procps                  2:3.3.11-3                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.11-11                    amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.11-11                    amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.12~rc1-2                 amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.12~rc1-2                 amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         6.3-8                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.16.0-1+b3                  amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.15-1.1                   amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.88dsf-59.4                 all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.88dsf-59.4                 amd64  System-V-like init utilities
-ii   sysvinit-utils          2.88dsf-59.4                 amd64  System-V-like utilities
+ii   sysv-rc                 2.88dsf-59.6                 all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.88dsf-59.6                 amd64  System-V-like init utilities
+ii   sysvinit-utils          2.88dsf-59.6                 amd64  System-V-like utilities
 ii   tar                     1.29-1                       amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016d-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files

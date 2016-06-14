@@ -955,10 +955,10 @@
     "Architecture": "amd64",
     "Conflicts": "libdevmapper1.02.1 (<< 2:1.02.24-1)",
     "Breaks": "aide (<< 0.15.1-5), atm-tools (<< 1:2.5.1-1.3), autofs (<< 5.0.0), bootchart (<< 0.10~svn407-4), console-common (<< 0.7.86), console-setup (<< 1.74), cruft (<< 0.9.16), eepc-acpi-scripts (<< 1.1.12), fcheck (<< 2.7.59-16), hostapd (<< 1:0.7.3-3), hurd (<< 0.5.git20131101~), ifupdown (<< 0.7.46), initramfs-tools (<< 0.104), libpam-mount (<< 2.13-1), live-build (<< 3.0~a26-1), ltsp-client-core (<< 5.2.16-1), mdadm (<< 3.2.2-1), nbd-client (<< 1:2.9.23-1), nfs-common (<< 1:1.2.5-3), portmap (<< 6.0.0-2), readahead-fedora (<< 2:1.5.6-3), resolvconf (<< 1.49), rpcbind (<< 0.2.0-7), rsyslog (<< 5.8.2-2), selinux-policy-default (<= 2:0.2.20100524-9), splashy (<< 0.3.13-5.1+b1), sysklogd (<< 1.5-6.2), util-linux (<< 2.26.2-4~), wpasupplicant (<< 0.7.3-4), xymon (<< 4.3.0~beta2.dfsg-9)",
-    "Depends": "mount (>= 2.11x-1), debianutils (>= 4), lsb-base (>= 3.2-14), sysvinit-utils (>= 2.88dsf-50), sysv-rc | file-rc, coreutils (>= 5.93)",
+    "Depends": "mount (>= 2.11x-1), debianutils (>= 4), lsb-base (>= 3.2-14), sysvinit-utils (>= 2.88dsf-59.5), sysv-rc | file-rc, coreutils (>= 5.93)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "208",
+    "Installed-Size": "206",
     "Origin": null,
     "Package": "initscripts",
     "Pre-Depends": null,
@@ -969,7 +969,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.88dsf-59.4",
+    "Version": "2.88dsf-59.6",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.4"
+    "source:Version": "2.88dsf-59.6"
   },
   {
     "Architecture": "amd64",
@@ -2666,7 +2666,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2764",
+    "Installed-Size": "2772",
     "Origin": null,
     "Package": "libpython2.7-minimal",
     "Pre-Depends": null,
@@ -2677,7 +2677,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.7.11-11",
+    "Version": "2.7.12~rc1-2",
     "binary:Package": "libpython2.7-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2685,16 +2685,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-11"
+    "source:Version": "2.7.12~rc1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "python-urllib3 (<< 1.9.1-3)",
-    "Depends": "libpython2.7-minimal (= 2.7.11-11), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.2 (>= 1.0.2d), libtinfo5 (>= 6)",
+    "Depends": "libpython2.7-minimal (= 2.7.12~rc1-2), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.2 (>= 1.0.2d), libtinfo5 (>= 6)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "8486",
+    "Installed-Size": "8720",
     "Origin": null,
     "Package": "libpython2.7-stdlib",
     "Pre-Depends": null,
@@ -2705,7 +2705,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.7.11-11",
+    "Version": "2.7.12~rc1-2",
     "binary:Package": "libpython2.7-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-11"
+    "source:Version": "2.7.12~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -4063,10 +4063,10 @@
     "Architecture": "amd64",
     "Conflicts": "python-profiler (<= 2.7.1-2)",
     "Breaks": "python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)",
-    "Depends": "python2.7-minimal (= 2.7.11-11), libpython2.7-stdlib (= 2.7.11-11), mime-support",
+    "Depends": "python2.7-minimal (= 2.7.12~rc1-2), libpython2.7-stdlib (= 2.7.12~rc1-2), mime-support",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "340",
+    "Installed-Size": "349",
     "Origin": null,
     "Package": "python2.7",
     "Pre-Depends": null,
@@ -4077,7 +4077,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python2.7-doc, binutils",
-    "Version": "2.7.11-11",
+    "Version": "2.7.12~rc1-2",
     "binary:Package": "python2.7",
     "binary:Summary": "Interactive high-level object-oriented language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4085,16 +4085,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-11"
+    "source:Version": "2.7.12~rc1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": null,
-    "Depends": "libpython2.7-minimal (= 2.7.11-11), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython2.7-minimal (= 2.7.12~rc1-2), zlib1g (>= 1:1.2.0)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "3579",
+    "Installed-Size": "3580",
     "Origin": null,
     "Package": "python2.7-minimal",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -4105,7 +4105,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "2.7.11-11",
+    "Version": "2.7.12~rc1-2",
     "binary:Package": "python2.7-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.11-11"
+    "source:Version": "2.7.12~rc1-2"
   },
   {
     "Architecture": "all",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bum",
-    "Version": "2.88dsf-59.4",
+    "Version": "2.88dsf-59.6",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.4"
+    "source:Version": "2.88dsf-59.6"
   },
   {
     "Architecture": "amd64",
@@ -4329,7 +4329,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.88dsf-59.4",
+    "Version": "2.88dsf-59.6",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4337,16 +4337,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.4"
+    "source:Version": "2.88dsf-59.6"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "chkconfig (<< 11.0-79.1-2), last, startpar (<< 0.58-2), sysvconfig",
-    "Breaks": "systemd (<< 215), upstart (<< 1.5-0ubuntu5)",
-    "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), startpar, util-linux (>> 2.28-2~)",
+    "Breaks": "initscripts (<< 2.88dsf-59.5), systemd (<< 215), upstart (<< 1.5-0ubuntu5)",
+    "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "103",
+    "Installed-Size": "105",
     "Origin": null,
     "Package": "sysvinit-utils",
     "Pre-Depends": null,
@@ -4357,7 +4357,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd, sash",
-    "Version": "2.88dsf-59.4",
+    "Version": "2.88dsf-59.6",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.4"
+    "source:Version": "2.88dsf-59.6"
   },
   {
     "Architecture": "amd64",
