@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "562",
+    "Installed-Size": "569",
     "Origin": null,
     "Package": "libgpg-error0",
     "Pre-Depends": null,
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.22-2",
+    "Version": "1.23-1",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.22-2"
+    "source:Version": "1.23-1"
   },
   {
     "Architecture": "amd64",
