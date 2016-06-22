@@ -12,7 +12,7 @@ GEM
     multi_json (1.12.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (3.1.1)
+    net-ssh (3.2.0)
     net-telnet (0.1.1)
     pry (0.10.3)
       coderay (~> 1.1.0)
@@ -43,7 +43,7 @@ GEM
       specinfra (~> 2.53)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.59.0)
+    specinfra (2.59.2)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
