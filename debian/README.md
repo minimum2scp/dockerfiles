@@ -22,7 +22,7 @@ ii   adduser                 3.114                    all    add and remove user
 ii   apt                     1.2.14                   amd64  commandline package manager
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files
-ii   bash                    4.3-14+b1                amd64  GNU Bourne Again SHell
+ii   bash                    4.3-15                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.28-5                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.25-2                   amd64  GNU core utilities
 ii   dash                    0.5.8-2.2                amd64  POSIX-compliant shell
@@ -33,7 +33,7 @@ ii   diffutils               1:3.3-3                  amd64  File comparison uti
 ii   dpkg                    1.18.7                   amd64  Debian package management system
 ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.1-1                 amd64  ext2/ext3/ext4 file system utilities
-ii   findutils               4.6.0+git+20160517-4     amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20160517-5     amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.0-4                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.1.1-7                  amd64  GCC, the GNU Compiler Collection (base package)

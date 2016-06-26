@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "5138",
+    "Installed-Size": "5137",
     "Origin": null,
     "Package": "bash",
     "Pre-Depends": "dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libncurses5 (>= 6), libtinfo5 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.3-14+b1",
+    "Version": "4.3-15",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.3-14"
+    "source:Version": "4.3-15"
   },
   {
     "Architecture": "amd64",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20160517-4",
+    "Version": "4.6.0+git+20160517-5",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20160517-4"
+    "source:Version": "4.6.0+git+20160517-5"
   },
   {
     "Architecture": "amd64",
