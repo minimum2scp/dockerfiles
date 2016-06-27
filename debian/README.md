@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.114                    all    add and remove users and groups
+ii   adduser                 3.115                    all    add and remove users and groups
 ii   apt                     1.2.14                   amd64  commandline package manager
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files
@@ -54,8 +54,8 @@ ii   libaudit-common         1:2.5.2-1                all    Dynamic library for
 ii   libaudit1               1:2.5.2-1                amd64  Dynamic library for security auditing
 ii   libblkid1               2.28-5                   amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.22-12                  amd64  GNU C Library: Binaries
-ii   libc6                   2.22-12                  amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.22-13                  amd64  GNU C Library: Binaries
+ii   libc6                   2.22-13                  amd64  GNU C Library: Shared libraries
 ii   libcomerr2              1.43.1-1                 amd64  common error description library
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.213                    amd64  Debian Configuration Management System (C-implementation library)
@@ -91,7 +91,7 @@ ii   login                   1:4.2-3.1                amd64  system login tools
 ii   lsb-base                9.20160601               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language
 ii   mount                   2.28-5                   amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.22-12                  amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.22-13                  amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160319-2           all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160319-2+b1        amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
@@ -104,7 +104,7 @@ ii   startpar                0.59-3                   amd64  run processes in pa
 ii   sysv-rc                 2.88dsf-59.7             all    System-V-like runlevel change mechanism
 ii   sysvinit-utils          2.88dsf-59.7             amd64  System-V-like utilities
 ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016d-2                  all    time zone and daylight-saving time data
+ii   tzdata                  2016e-1                  all    time zone and daylight-saving time data
 ii   util-linux              2.28-5                   amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime
 ```
