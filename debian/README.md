@@ -28,7 +28,7 @@ ii   coreutils               8.25-2                   amd64  GNU core utilities
 ii   dash                    0.5.8-2.2                amd64  POSIX-compliant shell
 ii   debconf                 1.5.59                   all    Debian configuration management system
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.7                      amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-3                  amd64  File comparison utilities
 ii   dpkg                    1.18.7                   amd64  Debian package management system
 ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file system libraries
@@ -89,7 +89,7 @@ ii   libusb-0.1-4            2:0.1.12-30              amd64  userspace USB progr
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library
 ii   libuuid1                2.28-5                   amd64  Universally Unique ID library
 ii   login                   1:4.2-3.1                amd64  system login tools
-ii   lsb-base                9.20160601               all    Linux Standard Base init script functionality
+ii   lsb-base                9.20160629               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language
 ii   mount                   2.28-5                   amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.22-13                  amd64  Transitional package to ensure multiarch compatibility

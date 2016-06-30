@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "4.7",
+    "Version": "4.8",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.7"
+    "source:Version": "4.8"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "9.20160601",
+    "Version": "9.20160629",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "9.20160601"
+    "source:Version": "9.20160629"
   },
   {
     "Architecture": "amd64",
