@@ -35,7 +35,7 @@ ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file
 ii   e2fsprogs               1.43.1-1                 amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20160517-5     amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                 amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-5-base              5.4.0-4                  amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.0-5                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.1.1-7                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gnupg                   1.4.20-6                 amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.20-6                 amd64  GNU privacy guard - signature verification tool
