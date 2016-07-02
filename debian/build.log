@@ -61,14 +61,14 @@ I: Retrieving findutils 4.6.0+git+20160517-5
 I: Validating findutils 4.6.0+git+20160517-5
 I: Retrieving gcc-4.9-base 4.9.3-14
 I: Validating gcc-4.9-base 4.9.3-14
-I: Retrieving gcc-5-base 5.4.0-5
-I: Validating gcc-5-base 5.4.0-5
-I: Retrieving gcc-6-base 6.1.1-7
-I: Validating gcc-6-base 6.1.1-7
-I: Retrieving libgcc1 1:6.1.1-7
-I: Validating libgcc1 1:6.1.1-7
-I: Retrieving libstdc++6 6.1.1-7
-I: Validating libstdc++6 6.1.1-7
+I: Retrieving gcc-5-base 5.4.0-6
+I: Validating gcc-5-base 5.4.0-6
+I: Retrieving gcc-6-base 6.1.1-8
+I: Validating gcc-6-base 6.1.1-8
+I: Retrieving libgcc1 1:6.1.1-8
+I: Validating libgcc1 1:6.1.1-8
+I: Retrieving libstdc++6 6.1.1-8
+I: Validating libstdc++6 6.1.1-8
 I: Retrieving libc-bin 2.22-13
 I: Validating libc-bin 2.22-13
 I: Retrieving libc6 2.22-13
@@ -153,10 +153,10 @@ I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
 I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 230-3
-I: Validating libsystemd0 230-3
-I: Retrieving libudev1 230-3
-I: Validating libudev1 230-3
+I: Retrieving libsystemd0 230-5
+I: Validating libsystemd0 230-5
+I: Retrieving libudev1 230-5
+I: Validating libudev1 230-5
 I: Retrieving initscripts 2.88dsf-59.7
 I: Validating initscripts 2.88dsf-59.7
 I: Retrieving sysv-rc 2.88dsf-59.7
@@ -456,7 +456,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (861 kB/s)
+Fetched 209 kB in 0s (1155 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -466,10 +466,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> c1085b1fae66
-Removing intermediate container bdedb5376a5b
+ ---> ab3a288cfbb4
+Removing intermediate container eeab3cccbd54
 Step 3 : CMD /bin/bash
- ---> Running in 885e38d42816
- ---> 462443eb96b3
-Removing intermediate container 885e38d42816
-Successfully built 462443eb96b3
+ ---> Running in 36b2fd5a290f
+ ---> 9e05c1904013
+Removing intermediate container 36b2fd5a290f
+Successfully built 9e05c1904013
