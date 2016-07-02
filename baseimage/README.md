@@ -82,8 +82,8 @@ ii   e2fsprogs               1.43.1-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.2-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20160517-5         amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-5-base              5.4.0-5                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.1.1-7                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.1.1-8                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gnupg                   1.4.20-6                     amd64  GNU privacy guard - a free PGP replacement
@@ -120,7 +120,7 @@ ii   libestr0                0.1.10-2                     amd64  Helper function
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
 ii   libfdisk1               2.28-5                       amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:6.1.1-7                    amd64  GCC support library
+ii   libgcc1                 1:6.1.1-8                    amd64  GCC support library
 ii   libgcrypt20             1.7.1-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
@@ -172,11 +172,11 @@ ii   libsqlite3-0            3.13.0-1                     amd64  SQLite 3 shared
 ii   libss2                  1.43.1-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              6.1.1-7                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             230-3                        amd64  systemd utility library
+ii   libstdc++6              6.1.1-8                      amd64  GNU Standard C++ Library v3
+ii   libsystemd0             230-5                        amd64  systemd utility library
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160319-2+b1            amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                230-3                        amd64  libudev shared library
+ii   libudev1                230-5                        amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-30                  amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28-5                       amd64  Universally Unique ID library
