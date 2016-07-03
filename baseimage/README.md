@@ -88,8 +88,8 @@ ii   git                     1:2.8.1-1                    amd64  fast, scalable,
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gnupg                   1.4.20-6                     amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.20-6                     amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.25-3                       amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.3-7                     amd64  GNU troff text-formatting system (base system components)
+ii   grep                    2.25-5                       amd64  GNU grep, egrep and fgrep
+ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.17                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
@@ -144,7 +144,7 @@ ii   libncurses5             6.0+20160319-2+b1            amd64  shared librarie
 ii   libncursesw5            6.0+20160319-2+b1            amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.11.1-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.12.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-3                     amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
