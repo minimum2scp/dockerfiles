@@ -1,0 +1,17 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## RDBMS client and headers, and rails
+packages="sqlite3 libsqlite3-dev"
+packages="$packages mysql-client libmysqlclient-dev"
+packages="$packages postgresql-client libpq-dev"
+
+## install packages
+apt-get install --install-recommends -y ${packages}
+
+## install rails (by gem)
+gem install -N rails --version '~> 5.0'
+
