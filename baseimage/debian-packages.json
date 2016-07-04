@@ -451,10 +451,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "dpkg-dev (<< 1.15.8), libdpkg-perl (<< 1.15.8)",
-    "Depends": null,
+    "Depends": "tar (>= 1.28-1)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "6733",
+    "Installed-Size": "6742",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -465,7 +465,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.18.7",
+    "Version": "1.18.8",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.7"
+    "source:Version": "1.18.8"
   },
   {
     "Architecture": "amd64",
@@ -801,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.25-5",
+    "Version": "2.25-6",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.25-5"
+    "source:Version": "2.25-6"
   },
   {
     "Architecture": "amd64",
@@ -1262,11 +1262,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)",
-    "Depends": "libc6 (>> 2.22), libc6 (<< 2.23)",
+    "Breaks": null,
+    "Depends": "libc6 (>> 2.23), libc6 (<< 2.24)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3316",
+    "Installed-Size": "3306",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "all",
@@ -1294,7 +1294,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "4127",
+    "Installed-Size": "4199",
     "Origin": null,
     "Package": "libc-l10n",
     "Pre-Depends": null,
@@ -1305,7 +1305,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1313,16 +1313,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.22), locales-all (<< 2.22), lsb-core (<= 3.2-27), nscd (<< 2.22)",
+    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.23), locales-all (<< 2.23), lsb-core (<= 3.2-27), nscd (<< 2.23)",
     "Depends": "libgcc1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "10639",
+    "Installed-Size": "10673",
     "Origin": null,
     "Package": "libc6",
     "Pre-Depends": null,
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1350,7 @@
     "Depends": "libc6 (>= 2.8)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "41",
+    "Installed-Size": "42",
     "Origin": null,
     "Package": "libcap-ng0",
     "Pre-Depends": null,
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.7.7-2",
+    "Version": "0.7.7-3",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "An alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.7.7-2"
+    "source:Version": "0.7.7-3"
   },
   {
     "Architecture": "amd64",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.12.0-1",
+    "Version": "1.12.0-2",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.12.0-1"
+    "source:Version": "1.12.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.3.0-2.3",
+    "Version": "2.3.0-3",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.0-2.3"
+    "source:Version": "2.3.0-3"
   },
   {
     "Architecture": "amd64",
@@ -3419,10 +3419,10 @@
     "Architecture": "all",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc-bin (>> 2.22), libc-l10n (>> 2.22), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc-bin (>> 2.23), libc-l10n (>> 2.23), debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "12374",
+    "Installed-Size": "12525",
     "Origin": null,
     "Package": "locales",
     "Pre-Depends": null,
@@ -3433,7 +3433,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
@@ -3646,7 +3646,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "212",
+    "Installed-Size": "214",
     "Origin": null,
     "Package": "multiarch-support",
     "Pre-Depends": null,
@@ -3657,7 +3657,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "all",
