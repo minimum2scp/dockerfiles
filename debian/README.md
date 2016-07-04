@@ -30,7 +30,7 @@ ii   debconf                 1.5.59                   all    Debian configuratio
 ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-3                  amd64  File comparison utilities
-ii   dpkg                    1.18.7                   amd64  Debian package management system
+ii   dpkg                    1.18.8                   amd64  Debian package management system
 ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.1-1                 amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20160517-5     amd64  utilities for finding files--find, xargs
@@ -39,7 +39,7 @@ ii   gcc-5-base              5.4.0-6                  amd64  GCC, the GNU Compil
 ii   gcc-6-base              6.1.1-8                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gnupg                   1.4.20-6                 amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.20-6                 amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.25-5                   amd64  GNU grep, egrep and fgrep
+ii   grep                    2.25-6                   amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5                    amd64  GNU compression utilities
 ii   hostname                3.17                     amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool
@@ -54,9 +54,9 @@ ii   libaudit-common         1:2.6.1-1                all    Dynamic library for
 ii   libaudit1               1:2.6.1-1                amd64  Dynamic library for security auditing
 ii   libblkid1               2.28-5                   amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.22-13                  amd64  GNU C Library: Binaries
-ii   libc6                   2.22-13                  amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.7-2                  amd64  An alternate POSIX capabilities library
+ii   libc-bin                2.23-1                   amd64  GNU C Library: Binaries
+ii   libc6                   2.23-1                   amd64  GNU C Library: Shared libraries
+ii   libcap-ng0              0.7.7-3                  amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.1-1                 amd64  common error description library
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.213                    amd64  Debian Configuration Management System (C-implementation library)
@@ -92,7 +92,7 @@ ii   login                   1:4.2-3.1                amd64  system login tools
 ii   lsb-base                9.20160629               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language
 ii   mount                   2.28-5                   amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.22-13                  amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.23-1                   amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160319-2           all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160319-2+b1        amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
