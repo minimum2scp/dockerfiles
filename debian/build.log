@@ -47,8 +47,8 @@ I: Retrieving debianutils 4.8
 I: Validating debianutils 4.8
 I: Retrieving diffutils 1:3.3-3
 I: Validating diffutils 1:3.3-3
-I: Retrieving dpkg 1.18.8
-I: Validating dpkg 1.18.8
+I: Retrieving dpkg 1.18.9
+I: Validating dpkg 1.18.9
 I: Retrieving e2fslibs 1.43.1-1
 I: Validating e2fslibs 1.43.1-1
 I: Retrieving e2fsprogs 1.43.1-1
@@ -456,7 +456,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (1151 kB/s)
+Fetched 209 kB in 0s (1051 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -466,10 +466,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> bb549dad0e7b
-Removing intermediate container f922aae7acca
+ ---> 7faef1af6e68
+Removing intermediate container 864d6f2e30f1
 Step 3 : CMD /bin/bash
- ---> Running in 327c07ac69fb
- ---> 1bc40fe401d3
-Removing intermediate container 327c07ac69fb
-Successfully built 1bc40fe401d3
+ ---> Running in fe9061020076
+ ---> ba6781e89de8
+Removing intermediate container fe9061020076
+Successfully built ba6781e89de8
