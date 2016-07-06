@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "3.17",
+    "Version": "3.18",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.17"
+    "source:Version": "3.18"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.6.1-1",
+    "Version": "1:2.6.3-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1145,13 +1145,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.1-1"
+    "source:Version": "1:2.6.3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libaudit-common (>= 1:2.6.1-1), libc6 (>= 2.14), libcap-ng0",
+    "Depends": "libaudit-common (>= 1:2.6.3-1), libc6 (>= 2.14), libcap-ng0",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "148",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.6.1-1",
+    "Version": "1:2.6.3-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.1-1"
+    "source:Version": "1:2.6.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4290,7 +4290,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2776",
+    "Installed-Size": "2933",
     "Origin": null,
     "Package": "sudo",
     "Pre-Depends": null,
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.8.15-1.1",
+    "Version": "1.8.17p1-2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.8.15-1.1"
+    "source:Version": "1.8.17p1-2"
   },
   {
     "Architecture": "all",
@@ -4430,7 +4430,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2775",
+    "Installed-Size": "2811",
     "Origin": null,
     "Package": "tzdata",
     "Pre-Depends": null,
@@ -4441,7 +4441,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2016e-1",
+    "Version": "2016f-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2016e-1"
+    "source:Version": "2016f-1"
   },
   {
     "Architecture": "all",

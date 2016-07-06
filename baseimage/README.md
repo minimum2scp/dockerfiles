@@ -91,7 +91,7 @@ ii   gpgv                    1.4.20-6                     amd64  GNU privacy gua
 ii   grep                    2.25-6                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
-ii   hostname                3.17                         amd64  utility to set/show the host name or domain name
+ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
 ii   init-system-helpers     1.36                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.7                 amd64  scripts for initializing and shutting down the system
@@ -100,8 +100,8 @@ ii   iproute2                4.3.0-1+b1                   amd64  networking and 
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.2.14                       amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.6.1-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.6.1-1                    amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.6.3-1                    all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.6.3-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.28-5                       amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
@@ -213,12 +213,12 @@ ii   rsyslog                 8.16.0-1+b3                  amd64  reliable system
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.15-1.1                   amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.17p1-2                   amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.7                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.7                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.7                 amd64  System-V-like utilities
 ii   tar                     1.29-1                       amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016e-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2016f-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files
 ii   util-linux              2.28-5                       amd64  miscellaneous system utilities
