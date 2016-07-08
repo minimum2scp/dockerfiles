@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                        all    add and remove users and groups
-ii   apt                     1.2.14                       amd64  commandline package manager
+ii   apt                     1.3~pre2                     amd64  commandline package manager
 ii   base-files              9.6                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.39                       amd64  Debian base system master password and group files
 ii   bash                    4.3-15                       amd64  GNU Bourne Again SHell
@@ -86,7 +86,6 @@ ii   gcc-5-base              5.4.0-6                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.1.1-9                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.20-6                     amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.20-6                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.25-6                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
@@ -98,7 +97,7 @@ ii   initscripts             2.88dsf-59.7                 amd64  scripts for ini
 ii   insserv                 1.14.0-5.3                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1                   amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.2.14                       amd64  package management runtime library
+ii   libapt-pkg5.0           1.3~pre2                     amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.3-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.3-1                    amd64  Dynamic library for security auditing
@@ -115,7 +114,7 @@ ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28-11                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.213                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries
-ii   liberror-perl           0.17-1.2                     all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17-1.3                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
 ii   libfdisk1               2.28-5                       amd64  fdisk partitioning library
@@ -151,7 +150,7 @@ ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authe
 ii   libpam-runtime          1.1.8-3.3                    all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.3                    amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.38-3.1                   amd64  Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.22             5.22.2-1                     amd64  shared Perl library
+ii   libperl5.22             5.22.2-2                     amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps5              2:3.3.11-3                   amd64  library for accessing process information from /proc
@@ -173,11 +172,10 @@ ii   libss2                  1.43.1-1                     amd64  command-line in
 ii   libssh2-1               1.5.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.1.1-9                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             230-5                        amd64  systemd utility library
+ii   libsystemd0             230-7                        amd64  systemd utility library
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160625-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                230-5                        amd64  libudev shared library
-ii   libusb-0.1-4            2:0.1.12-30                  amd64  userspace USB programming library
+ii   libudev1                230-7                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28-5                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
@@ -200,9 +198,9 @@ ii   openssh-server          1:7.2p2-5                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.2p2-5                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2h-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.1                    amd64  change and administer password and group data
-ii   perl                    5.22.2-1                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.22.2-1                     amd64  minimal Perl system
-ii   perl-modules-5.22       5.22.2-1                     all    Core Perl modules
+ii   perl                    5.22.2-2                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.22.2-2                     amd64  minimal Perl system
+ii   perl-modules-5.22       5.22.2-2                     all    Core Perl modules
 ii   procps                  2:3.3.11-3                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
