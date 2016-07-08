@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                    all    add and remove users and groups
-ii   apt                     1.2.14                   amd64  commandline package manager
+ii   apt                     1.3~pre2                 amd64  commandline package manager
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.39                   amd64  Debian base system master password and group files
 ii   bash                    4.3-15                   amd64  GNU Bourne Again SHell
@@ -37,7 +37,6 @@ ii   findutils               4.6.0+git+20160517-5     amd64  utilities for findi
 ii   gcc-4.9-base            4.9.3-14                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.0-6                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.1.1-9                  amd64  GCC, the GNU Compiler Collection (base package)
-ii   gnupg                   1.4.20-6                 amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.20-6                 amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.25-6                   amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5                    amd64  GNU compression utilities
@@ -48,7 +47,7 @@ ii   initscripts             2.88dsf-59.7             amd64  scripts for initial
 ii   insserv                 1.14.0-5.3               amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.3.0-1+b1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
-ii   libapt-pkg5.0           1.2.14                   amd64  package management runtime library
+ii   libapt-pkg5.0           1.3~pre2                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.3-1                all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.3-1                amd64  Dynamic library for security auditing
@@ -74,7 +73,6 @@ ii   libpam-modules-bin      1.1.8-3.3                amd64  Pluggable Authentic
 ii   libpam-runtime          1.1.8-3.3                all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.3                amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.38-3.1               amd64  Perl 5 Compatible Regular Expression Library - runtime files
-ii   libreadline6            6.3-8+b4                 amd64  GNU readline and history libraries, run-time libraries
 ii   libselinux1             2.5-3                    amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.5-1                    all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                    amd64  SELinux policy management library
@@ -82,10 +80,9 @@ ii   libsepol1               2.5-1                    amd64  SELinux library for
 ii   libsmartcols1           2.28-5                   amd64  smart column output alignment library
 ii   libss2                  1.43.1-1                 amd64  command-line interface parsing library
 ii   libstdc++6              6.1.1-9                  amd64  GNU Standard C++ Library v3
-ii   libsystemd0             230-5                    amd64  systemd utility library
+ii   libsystemd0             230-7                    amd64  systemd utility library
 ii   libtinfo5               6.0+20160625-1           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                230-5                    amd64  libudev shared library
-ii   libusb-0.1-4            2:0.1.12-30              amd64  userspace USB programming library
+ii   libudev1                230-7                    amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library
 ii   libuuid1                2.28-5                   amd64  Universally Unique ID library
 ii   login                   1:4.2-3.1                amd64  system login tools
@@ -97,8 +94,7 @@ ii   ncurses-base            6.0+20160625-1           all    basic terminal type
 ii   ncurses-bin             6.0+20160625-1           amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data
-ii   perl-base               5.22.2-1                 amd64  minimal Perl system
-ii   readline-common         6.3-8                    all    GNU readline and history libraries, common files
+ii   perl-base               5.22.2-2                 amd64  minimal Perl system
 ii   sed                     4.2.2-7.1                amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output
