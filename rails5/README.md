@@ -6,6 +6,7 @@
    * SQLite3: sqlite3, libsqlite3-dev
    * MySQL: mysql-client, libmysqlclient-dev
    * PostgreSQL: postgresql-client, libpq-dev
+ * nodejs is installed with nodenv (`NODENV_ROOT=/opt/nodenv/`)
 
 ## start container
 
