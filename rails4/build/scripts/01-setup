@@ -13,5 +13,11 @@ packages="$packages postgresql-client libpq-dev"
 apt-get install --install-recommends -y ${packages}
 
 ## install rails (by gem)
-gem install -N rails --version '~> 4.0'
+for v in $(bash -lc "rbenv versions --bare --skip-aliases"); do
+  bash -lc "RBENV_VERSION=${v} gem install -N rails --version '~> 4.0'"
+done
+bash -lc "rbenv rehash"
+
+## set latest ruby as global
+bash -lc "rbenv global $(rbenv versions --bare --skip-aliases | sort -r | head -n 1)"
 
