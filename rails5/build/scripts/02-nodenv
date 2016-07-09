@@ -1,0 +1,35 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+nodenv_root=/opt/nodenv
+node_version=6.3.0
+
+## install nodenv into /opt/nodenv
+git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}
+
+## install nodenv plugins
+git clone https://github.com/nodenv/node-build.git               ${nodenv_root}/plugins/node-build
+git clone https://github.com/charlesbjohnson/nodenv-update.git   ${nodenv_root}/plugins/nodenv-update
+
+## install /etc/profile.d/nodenv.sh
+cat <<PROFILE > /etc/profile.d/nodenv.sh
+export NODENV_ROOT=${nodenv_root}
+export PATH=\${NODENV_ROOT}/bin:\${PATH}
+eval "\$(nodenv init -)"
+PROFILE
+if etckeeper unclean 1>/dev/null 2>/dev/null; then
+  sudo etckeeper commit "add /etc/profile.d/nodenv.sh to use ${nodenv_root}"
+fi
+
+### create shims,versions
+set +e
+bash -l -c "nodenv rehash"
+set -e
+
+## install nodejs
+bash -l -c "nodenv install ${node_version}"
+bash -l -c "nodenv global ${node_version}"
+
