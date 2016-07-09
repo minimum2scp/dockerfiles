@@ -19,5 +19,6 @@ done
 bash -lc "rbenv rehash"
 
 ## set latest stable ruby as global
-bash -lc "rbenv global $(rbenv versions --bare --skip-aliases | grep -vE -- '-(preview|rc)[0-9]*' | sort -r | head -n 1)"
+v=$(bash -lc "rbenv versions --bare --skip-aliases" | grep -vE -- '-(preview|rc)[0-9]*' | sort -r | head -n 1)
+bash -lc "rbenv global ${v}"
 
