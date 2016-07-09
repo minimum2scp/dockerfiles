@@ -30,22 +30,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "apt-utils (<< 1.1.3), manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)",
-    "Depends": "libapt-pkg5.0 (>= 1.2.2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), init-system-helpers (>= 1.18~), debian-archive-keyring, gpgv | gpgv2, gnupg | gnupg2, adduser",
+    "Breaks": "apt-utils (<< 1.3~exp2~), manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)",
+    "Depends": "libapt-pkg5.0 (>= 1.3~pre2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), init-system-helpers (>= 1.18~), debian-archive-keyring, gpgv | gpgv2, adduser",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "3320",
+    "Installed-Size": "3319",
     "Origin": null,
     "Package": "apt",
     "Pre-Depends": null,
     "Priority": "important",
     "Provides": null,
-    "Recommends": null,
+    "Recommends": "gnupg | gnupg2",
     "Replace": null,
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt",
-    "Version": "1.2.14",
+    "Suggests": "aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt, powermgmt-base",
+    "Version": "1.3~pre2",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.2.14"
+    "source:Version": "1.3~pre2"
   },
   {
     "Architecture": "amd64",
@@ -325,7 +325,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.5.8-2.2",
+    "Version": "0.5.8-2.3",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.8-2.2"
+    "source:Version": "0.5.8-2.3"
   },
   {
     "Architecture": "all",
@@ -451,10 +451,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "dpkg-dev (<< 1.15.8), libdpkg-perl (<< 1.15.8)",
-    "Depends": null,
+    "Depends": "tar (>= 1.28-1)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "6733",
+    "Installed-Size": "6743",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4), tar (>= 1.23)",
@@ -465,7 +465,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.18.7",
+    "Version": "1.18.9",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.7"
+    "source:Version": "1.18.9"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "201",
+    "Installed-Size": "202",
     "Origin": null,
     "Package": "gcc-6-base",
     "Pre-Depends": null,
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.1.1-8",
+    "Version": "6.1.1-9",
     "binary:Package": "gcc-6-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.1.1-8"
+    "source:Version": "6.1.1-9"
   },
   {
     "Architecture": "amd64",
@@ -731,34 +731,6 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "gpgv, libbz2-1.0, libc6 (>= 2.15), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4)",
-    "Enhances": null,
-    "Essential": "no",
-    "Installed-Size": "5051",
-    "Origin": null,
-    "Package": "gnupg",
-    "Pre-Depends": null,
-    "Priority": "important",
-    "Provides": null,
-    "Recommends": "gnupg-curl, libldap-2.4-2 (>= 2.4.7)",
-    "Replace": null,
-    "Section": "utils",
-    "Status": "install ok installed",
-    "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.20-6",
-    "binary:Package": "gnupg",
-    "binary:Summary": "GNU privacy guard - a free PGP replacement",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "gnupg",
-    "source:Version": "1.4.20-6"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": null,
-    "Breaks": null,
     "Depends": "libbz2-1.0, libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
@@ -801,7 +773,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.25-5",
+    "Version": "2.25-6",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.25-5"
+    "source:Version": "2.25-6"
   },
   {
     "Architecture": "amd64",
@@ -885,7 +857,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "3.17",
+    "Version": "3.18",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.17"
+    "source:Version": "3.18"
   },
   {
     "Architecture": "amd64",
@@ -941,7 +913,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.36",
+    "Version": "1.37",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.36"
+    "source:Version": "1.37"
   },
   {
     "Architecture": "amd64",
@@ -1070,18 +1042,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2786",
+    "Installed-Size": "2870",
     "Origin": null,
     "Package": "libapt-pkg5.0",
     "Pre-Depends": null,
     "Priority": "important",
     "Provides": null,
-    "Recommends": "apt (>= 1.2.14)",
+    "Recommends": "apt (>= 1.3~pre2)",
     "Replace": null,
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.2.14",
+    "Version": "1.3~pre2",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.2.14"
+    "source:Version": "1.3~pre2"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.6.1-1",
+    "Version": "1:2.6.3-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1145,13 +1117,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.1-1"
+    "source:Version": "1:2.6.3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libaudit-common (>= 1:2.6.1-1), libc6 (>= 2.14), libcap-ng0",
+    "Depends": "libaudit-common (>= 1:2.6.3-1), libc6 (>= 2.14), libcap-ng0",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "148",
@@ -1165,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.6.1-1",
+    "Version": "1:2.6.3-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.1-1"
+    "source:Version": "1:2.6.3-1"
   },
   {
     "Architecture": "amd64",
@@ -1262,11 +1234,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)",
-    "Depends": "libc6 (>> 2.22), libc6 (<< 2.23)",
+    "Breaks": null,
+    "Depends": "libc6 (>> 2.23), libc6 (<< 2.24)",
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "3316",
+    "Installed-Size": "3306",
     "Origin": null,
     "Package": "libc-bin",
     "Pre-Depends": null,
@@ -1277,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "all",
@@ -1294,7 +1266,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "4127",
+    "Installed-Size": "4199",
     "Origin": null,
     "Package": "libc-l10n",
     "Pre-Depends": null,
@@ -1305,7 +1277,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1313,16 +1285,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
-    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.22), locales-all (<< 2.22), lsb-core (<= 3.2-27), nscd (<< 2.22)",
+    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.23), locales-all (<< 2.23), lsb-core (<= 3.2-27), nscd (<< 2.23)",
     "Depends": "libgcc1",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "10639",
+    "Installed-Size": "10673",
     "Origin": null,
     "Package": "libc6",
     "Pre-Depends": null,
@@ -1333,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1322,7 @@
     "Depends": "libc6 (>= 2.8)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "41",
+    "Installed-Size": "42",
     "Origin": null,
     "Package": "libcap-ng0",
     "Pre-Depends": null,
@@ -1361,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.7.7-2",
+    "Version": "0.7.7-3",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "An alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.7.7-2"
+    "source:Version": "0.7.7-3"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1518,7 @@
     "Depends": "perl",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "54",
+    "Installed-Size": "52",
     "Origin": null,
     "Package": "liberror-perl",
     "Pre-Depends": null,
@@ -1557,7 +1529,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "0.17-1.2",
+    "Version": "0.17-1.3",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17-1.2"
+    "source:Version": "0.17-1.3"
   },
   {
     "Architecture": "amd64",
@@ -1683,7 +1655,7 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-6-base (= 6.1.1-8), libc6 (>= 2.14)",
+    "Depends": "gcc-6-base (= 6.1.1-9), libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "105",
@@ -1697,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:6.1.1-8",
+    "Version": "1:6.1.1-9",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.1.1-8"
+    "source:Version": "6.1.1-9"
   },
   {
     "Architecture": "amd64",
@@ -2243,10 +2215,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20160625-1), libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "286",
+    "Installed-Size": "287",
     "Origin": null,
     "Package": "libncurses5",
     "Pre-Depends": null,
@@ -2257,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.0+20160319-2+b1",
+    "Version": "6.0+20160625-1",
     "binary:Package": "libncurses5:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2265,16 +2237,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160319-2"
+    "source:Version": "6.0+20160625-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libtinfo5 (= 6.0+20160319-2+b1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20160625-1), libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "350",
+    "Installed-Size": "347",
     "Origin": null,
     "Package": "libncursesw5",
     "Pre-Depends": null,
@@ -2285,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.0+20160319-2+b1",
+    "Version": "6.0+20160625-1",
     "binary:Package": "libncursesw5:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160319-2"
+    "source:Version": "6.0+20160625-1"
   },
   {
     "Architecture": "amd64",
@@ -2369,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.12.0-1",
+    "Version": "1.12.0-2",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.12.0-1"
+    "source:Version": "1.12.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2551,10 +2523,10 @@
     "Architecture": "amd64",
     "Conflicts": null,
     "Breaks": "dh-make-perl (<< 0.73-1), ftpmirror (<< 1.96+dfsg-13), libcompress-raw-bzip2-perl (<< 2.068), libcompress-raw-zlib-perl (<< 2.068), libcompress-zlib-perl (<< 2.068), libdigest-md5-perl (<< 2.54), libdigest-sha-perl (<< 5.95), libencode-perl (<< 2.77), libhtml-template-compiled-perl (<< 0.95-1), libio-compress-base-perl (<< 2.068), libio-compress-bzip2-perl (<< 2.068), libio-compress-perl (<< 2.068), libio-compress-zlib-perl (<< 2.068), libload-perl (<< 0.20-1), libmime-base64-perl (<< 3.15), libnet-jifty-perl (<< 0.14-1), libperl-apireference-perl (<< 0.09-1), libregexp-optimizer-perl (<< 0.15-3), libsoap-lite-perl (<< 0.712-4), libstorable-perl (<< 2.53.01), libsys-syslog-perl (<< 0.33), libthreads-perl (<< 2.01), libthreads-shared-perl (<< 1.48), libtime-hires-perl (<< 1.9726), libtime-piece-perl (<< 1.29), libxml-parser-lite-tree-perl (<< 0.14-1), libyaml-perl (<< 0.73-1), mrtg (<< 2.16.3-3.1)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.14), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3), perl-modules-5.22 (>= 5.22.2-1)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.23), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3), perl-modules-5.22 (>= 5.22.2-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "20415",
+    "Installed-Size": "20404",
     "Origin": null,
     "Package": "libperl5.22",
     "Pre-Depends": null,
@@ -2565,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "5.22.2-1",
+    "Version": "5.22.2-2",
     "binary:Package": "libperl5.22:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.2-1"
+    "source:Version": "5.22.2-2"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.3.0-2.3",
+    "Version": "2.3.0-3",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.0-2.3"
+    "source:Version": "2.3.0-3"
   },
   {
     "Architecture": "amd64",
@@ -3139,7 +3111,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1+b1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)",
-    "Depends": "gcc-6-base (= 6.1.1-8), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-6-base (= 6.1.1-9), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "1983",
@@ -3153,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.1.1-8",
+    "Version": "6.1.1-9",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.1.1-8"
+    "source:Version": "6.1.1-9"
   },
   {
     "Architecture": "amd64",
@@ -3181,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "230-5",
+    "Version": "230-7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "230-5"
+    "source:Version": "230-7"
   },
   {
     "Architecture": "amd64",
@@ -3226,7 +3198,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "473",
+    "Installed-Size": "476",
     "Origin": null,
     "Package": "libtinfo5",
     "Pre-Depends": null,
@@ -3237,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.0+20160319-2+b1",
+    "Version": "6.0+20160625-1",
     "binary:Package": "libtinfo5:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160319-2"
+    "source:Version": "6.0+20160625-1"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3226,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "204",
+    "Installed-Size": "205",
     "Origin": null,
     "Package": "libudev1",
     "Pre-Depends": null,
@@ -3265,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "230-5",
+    "Version": "230-7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,35 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "230-5"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": null,
-    "Breaks": null,
-    "Depends": "libc6 (>= 2.15)",
-    "Enhances": null,
-    "Essential": "no",
-    "Installed-Size": "57",
-    "Origin": null,
-    "Package": "libusb-0.1-4",
-    "Pre-Depends": null,
-    "Priority": "important",
-    "Provides": null,
-    "Recommends": null,
-    "Replace": null,
-    "Section": "libs",
-    "Status": "install ok installed",
-    "Suggests": null,
-    "Version": "2:0.1.12-30",
-    "binary:Package": "libusb-0.1-4:amd64",
-    "binary:Summary": "userspace USB programming library",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "libusb",
-    "source:Version": "2:0.1.12-30"
+    "source:Version": "230-7"
   },
   {
     "Architecture": "amd64",
@@ -3419,10 +3363,10 @@
     "Architecture": "all",
     "Conflicts": null,
     "Breaks": null,
-    "Depends": "libc-bin (>> 2.22), libc-l10n (>> 2.22), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc-bin (>> 2.23), libc-l10n (>> 2.23), debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "12374",
+    "Installed-Size": "12525",
     "Origin": null,
     "Package": "locales",
     "Pre-Depends": null,
@@ -3433,7 +3377,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "amd64",
@@ -3646,7 +3590,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "212",
+    "Installed-Size": "214",
     "Origin": null,
     "Package": "multiarch-support",
     "Pre-Depends": null,
@@ -3657,7 +3601,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.22-13",
+    "Version": "2.23-1",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.22-13"
+    "source:Version": "2.23-1"
   },
   {
     "Architecture": "all",
@@ -3674,7 +3618,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "336",
+    "Installed-Size": "338",
     "Origin": null,
     "Package": "ncurses-base",
     "Pre-Depends": null,
@@ -3685,7 +3629,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.0+20160319-2",
+    "Version": "6.0+20160625-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160319-2"
+    "source:Version": "6.0+20160625-1"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3646,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "515",
+    "Installed-Size": "511",
     "Origin": null,
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.0+20151017), libtinfo5 (<< 6.1~)",
@@ -3713,7 +3657,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "6.0+20160319-2+b1",
+    "Version": "6.0+20160625-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160319-2"
+    "source:Version": "6.0+20160625-1"
   },
   {
     "Architecture": "amd64",
@@ -3923,7 +3867,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "perl-doc (<< 5.22.2-1)",
-    "Depends": "perl-base (= 5.22.2-1), perl-modules-5.22 (>= 5.22.2-1), libperl5.22 (= 5.22.2-1)",
+    "Depends": "perl-base (= 5.22.2-2), perl-modules-5.22 (>= 5.22.2-2), libperl5.22 (= 5.22.2-2)",
     "Enhances": null,
     "Essential": "no",
     "Installed-Size": "669",
@@ -3937,7 +3881,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make",
-    "Version": "5.22.2-1",
+    "Version": "5.22.2-2",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.2-1"
+    "source:Version": "5.22.2-2"
   },
   {
     "Architecture": "amd64",
@@ -3954,10 +3898,10 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "7098",
+    "Installed-Size": "7087",
     "Origin": null,
     "Package": "perl-base",
-    "Pre-Depends": "libc6 (>= 2.14), dpkg (>= 1.17.17)",
+    "Pre-Depends": "libc6 (>= 2.23), dpkg (>= 1.17.17)",
     "Priority": "required",
     "Provides": "libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perlapi-5.22.1, perlapi-5.22.2",
     "Recommends": null,
@@ -3965,7 +3909,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.22.2-1",
+    "Version": "5.22.2-2",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.2-1"
+    "source:Version": "5.22.2-2"
   },
   {
     "Architecture": "all",
@@ -3982,7 +3926,7 @@
     "Depends": "perl-base (>= 5.22.2-1)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "17279",
+    "Installed-Size": "17280",
     "Origin": null,
     "Package": "perl-modules-5.22",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -3993,7 +3937,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "5.22.2-1",
+    "Version": "5.22.2-2",
     "binary:Package": "perl-modules-5.22",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.2-1"
+    "source:Version": "5.22.2-2"
   },
   {
     "Architecture": "amd64",
@@ -4290,7 +4234,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2776",
+    "Installed-Size": "2933",
     "Origin": null,
     "Package": "sudo",
     "Pre-Depends": null,
@@ -4301,7 +4245,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.8.15-1.1",
+    "Version": "1.8.17p1-2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.8.15-1.1"
+    "source:Version": "1.8.17p1-2"
   },
   {
     "Architecture": "all",
@@ -4430,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2775",
+    "Installed-Size": "2811",
     "Origin": null,
     "Package": "tzdata",
     "Pre-Depends": null,
@@ -4441,7 +4385,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2016e-1",
+    "Version": "2016f-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2016e-1"
+    "source:Version": "2016f-1"
   },
   {
     "Architecture": "all",
