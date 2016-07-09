@@ -18,6 +18,6 @@ for v in $(bash -lc "rbenv versions --bare --skip-aliases"); do
 done
 bash -lc "rbenv rehash"
 
-## set latest ruby as global
-bash -lc "rbenv global $(rbenv versions --bare --skip-aliases | sort -r | head -n 1)"
+## set latest stable ruby as global
+bash -lc "rbenv global $(rbenv versions --bare --skip-aliases | grep -vE -- '-(preview|rc)[0-9]*' | sort -r | head -n 1)"
 
