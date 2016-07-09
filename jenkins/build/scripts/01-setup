@@ -1,0 +1,89 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install jenkins
+##
+curl -sS http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+echo "deb http://pkg.jenkins-ci.org/debian binary/" > /etc/apt/sources.list.d/jenkins.list
+etckeeper commit "add apt-key, apt-line for jenkins"
+
+apt-get update
+apt-get install -y --no-install-recommends jenkins
+
+##
+## install nginx
+## (see baseimage/build/opt/custom-installers)
+##
+/opt/custom-installers/nginx/install.sh
+
+##
+## configure nginx
+##
+install -m 644 -o root -g root -p /build/etc/nginx/sites-available/jenkins /etc/nginx/sites-available/jenkins
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/jenkins
+etckeeper commit "nginx: disabled default site, enabled jenkins site"
+
+##
+## start jenkins
+##
+service jenkins start
+ruby -rtimeout -rsocket -ropen-uri -e '
+  $stdout.sync = true
+  Timeout.timeout(60) do
+    begin
+      s = TCPSocket.open("127.0.0.1", 8080)
+      s.close
+    rescue Errno::ECONNREFUSED
+      sleep 1
+      puts "waiting for socket..."
+      retry
+    end
+    puts "socket is ready."
+    loop do
+      begin
+        if open("http://127.0.0.1:8080").status[0].to_i == 200
+          break
+        end
+      rescue OpenURI::HTTPError
+        puts "waiting for HTTP 200 OK..."
+        sleep 1
+      end
+    end
+    puts "HTTP 200 OK."
+  end
+'
+
+##
+## download jenkins-cli
+##
+curl -o /build/tmp/jenkins-cli.jar http://127.0.0.1:8080/jnlpJars/jenkins-cli.jar
+install -m 644 -o debian -g debian -p /build/tmp/jenkins-cli.jar /home/debian/jenkins-cli.jar
+
+##
+## install plugins
+##
+java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ version
+java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin slack
+java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin git
+java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin github
+java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin credentials-binding
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin ghprb
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin docker-plugin
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin ansible
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin google-oauth-plugin
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin google-storage-plugin
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin google-cloud-backup
+#java -jar /home/debian/jenkins-cli.jar -s http://127.0.0.1:8080/ install-plugin github-oauth
+
+##
+## stop jenkins
+##
+service jenkins stop
+
+
+
