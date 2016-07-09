@@ -1,0 +1,10 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+for v in $(bash -lc "rbenv versions --bare --skip-aliases"); do
+  bash -lc "RBENV_VERSION=${v} rails new /tmp/build/rails4/hello-${v}"
+done
+
