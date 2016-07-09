@@ -1,7 +1,7 @@
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v5.7.1 is installed with [nodenv](https://github.com/nodenv/nodenv)
+ * node.js v6.3.0 is installed with [nodenv](https://github.com/nodenv/nodenv)
  * nodenv is installed in /opt/nodenv
 
 ## start container
