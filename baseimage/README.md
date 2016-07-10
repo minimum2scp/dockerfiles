@@ -95,7 +95,7 @@ ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
 ii   init-system-helpers     1.37                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.7                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.3                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.3.0-1+b1                   amd64  networking and traffic control tools
+ii   iproute2                4.6.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3~pre2                     amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
@@ -123,7 +123,7 @@ ii   libgcc1                 1:6.1.1-9                    amd64  GCC support lib
 ii   libgcrypt20             1.7.1-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.4.13-1                     amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.4.14-1                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.23-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)

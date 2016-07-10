@@ -986,7 +986,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libselinux1 (>= 2.0.15)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "1395",
+    "Installed-Size": "1456",
     "Origin": null,
     "Package": "iproute2",
     "Pre-Depends": null,
@@ -997,7 +997,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.3.0-1+b1",
+    "Version": "4.6.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.3.0-1"
+    "source:Version": "4.6.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1770,7 +1770,7 @@
     "Depends": "libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed4, libidn11 (>= 1.13), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.5), zlib1g (>= 1:1.1.4)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "2044",
+    "Installed-Size": "2045",
     "Origin": null,
     "Package": "libgnutls30",
     "Pre-Depends": null,
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.4.13-1",
+    "Version": "3.4.14-1",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.4.13-1"
+    "source:Version": "3.4.14-1"
   },
   {
     "Architecture": "amd64",
