@@ -1,0 +1,24 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## RDBMS client and headers, and rails
+packages="sqlite3 libsqlite3-dev"
+packages="$packages mysql-client libmysqlclient-dev"
+packages="$packages postgresql-client libpq-dev"
+
+## install packages
+apt-get install --install-recommends -y ${packages}
+
+## install rails (by gem)
+for v in $(bash -lc "rbenv versions --bare --skip-aliases" | grep -vE '^2\.[01].'); do
+  bash -lc "RBENV_VERSION=${v} gem install -N rails --version '~> 5.0'"
+done
+bash -lc "rbenv rehash"
+
+## set latest stable ruby as global
+v=$(bash -lc "rbenv versions --bare --skip-aliases" | grep -vE -- '-(preview|rc)[0-9]*' | sort -r | head -n 1)
+bash -lc "rbenv global ${v}"
+
