@@ -92,7 +92,7 @@ ii   groff-base              1.22.3-8                     amd64  GNU troff text-
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
-ii   init-system-helpers     1.37                         all    helper tools for all init systems
+ii   init-system-helpers     1.38                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.7                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.3                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.6.0-1                      amd64  networking and traffic control tools
@@ -153,7 +153,7 @@ ii   libpcre3                2:8.38-3.1                   amd64  Perl 5 Compatib
 ii   libperl5.22             5.22.2-2                     amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
-ii   libprocps5              2:3.3.11-3                   amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.12-1                   amd64  library for accessing process information from /proc
 ii   libpython-stdlib        2.7.11-2                     amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.12-1                     amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.12-1                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -201,7 +201,7 @@ ii   passwd                  1:4.2-3.1                    amd64  change and admi
 ii   perl                    5.22.2-2                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.22.2-2                     amd64  minimal Perl system
 ii   perl-modules-5.22       5.22.2-2                     all    Core Perl modules
-ii   procps                  2:3.3.11-3                   amd64  /proc file system utilities
+ii   procps                  2:3.3.12-1                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
 ii   python2.7               2.7.12-1                     amd64  Interactive high-level object-oriented language (version 2.7)
