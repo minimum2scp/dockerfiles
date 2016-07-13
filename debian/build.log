@@ -85,8 +85,8 @@ I: Retrieving hostname 3.18
 I: Validating hostname 3.18
 I: Retrieving inetutils-ping 2:1.9.4-2
 I: Validating inetutils-ping 2:1.9.4-2
-I: Retrieving init-system-helpers 1.38
-I: Validating init-system-helpers 1.38
+I: Retrieving init-system-helpers 1.39
+I: Validating init-system-helpers 1.39
 I: Retrieving insserv 1.14.0-5.3
 I: Validating insserv 1.14.0-5.3
 I: Retrieving iproute2 4.6.0-1
@@ -440,7 +440,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (491 kB/s)
+Fetched 209 kB in 0s (215 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -450,10 +450,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 7c6d8c264b9a
-Removing intermediate container 17b0d27fbdc8
+ ---> e547ff237043
+Removing intermediate container 1a434ceced5a
 Step 3 : CMD /bin/bash
- ---> Running in 9248a2d52515
- ---> 4bf8dfbf8fe3
-Removing intermediate container 9248a2d52515
-Successfully built 4bf8dfbf8fe3
+ ---> Running in 73a53acb16d9
+ ---> 65b3494c0754
+Removing intermediate container 73a53acb16d9
+Successfully built 65b3494c0754
