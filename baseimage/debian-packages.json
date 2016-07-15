@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1:2.28-5",
+    "Version": "1:2.28-6",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "all",
@@ -958,7 +958,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "138",
+    "Installed-Size": "139",
     "Origin": null,
     "Package": "insserv",
     "Pre-Depends": null,
@@ -969,7 +969,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.14.0-5.3",
+    "Version": "1.14.0-5.4",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.14.0-5.3"
+    "source:Version": "1.14.0-5.4"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "libfdisk1:amd64",
     "binary:Summary": "fdisk partitioning library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "569",
+    "Installed-Size": "570",
     "Origin": null,
     "Package": "libgpg-error0",
     "Pre-Depends": null,
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "1.23-1",
+    "Version": "1.24-1",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.23-1"
+    "source:Version": "1.24-1"
   },
   {
     "Architecture": "amd64",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -2610,7 +2610,7 @@
     "Depends": "libc6 (>= 2.14), libsystemd0",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "116",
+    "Installed-Size": "117",
     "Origin": null,
     "Package": "libprocps6",
     "Pre-Depends": null,
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:3.3.12-1",
+    "Version": "2:3.3.12-2",
     "binary:Package": "libprocps6:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.12-1"
+    "source:Version": "2:3.3.12-2"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": null,
     "Enhances": null,
     "Essential": "yes",
-    "Installed-Size": "419",
+    "Installed-Size": "415",
     "Origin": null,
     "Package": "mount",
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.25), libselinux1 (>= 2.0.15), libsmartcols1 (>= 2.28~rc1), libudev1 (>= 183)",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "libc6 (>= 2.15), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps6, libtinfo5 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
     "Enhances": null,
     "Essential": "no",
-    "Installed-Size": "693",
+    "Installed-Size": "694",
     "Origin": null,
     "Package": "procps",
     "Pre-Depends": null,
@@ -3965,7 +3965,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": null,
-    "Version": "2:3.3.12-1",
+    "Version": "2:3.3.12-2",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.12-1"
+    "source:Version": "2:3.3.12-2"
   },
   {
     "Architecture": "amd64",
@@ -4469,7 +4469,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.28-5",
+    "Version": "2.28-6",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.28-5"
+    "source:Version": "2.28-6"
   },
   {
     "Architecture": "amd64",
