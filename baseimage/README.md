@@ -99,8 +99,8 @@ ii   iproute2                4.6.0-1                      amd64  networking and 
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3~pre2                     amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.6.3-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.6.3-1                    amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.6.5-1                    all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.6.5-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.28-6                       amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
@@ -112,7 +112,7 @@ ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e c
 ii   libcomerr2              1.43.1-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-11                    amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.213                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.214                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1.3                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
