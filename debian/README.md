@@ -49,8 +49,8 @@ ii   iproute2                4.6.0-1                  amd64  networking and traf
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3~pre2                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library
-ii   libaudit-common         1:2.6.3-1                all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.6.3-1                amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.6.5-1                all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.6.5-1                amd64  Dynamic library for security auditing
 ii   libblkid1               2.28-6                   amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.23-1                   amd64  GNU C Library: Binaries
@@ -58,7 +58,7 @@ ii   libc6                   2.23-1                   amd64  GNU C Library: Shar
 ii   libcap-ng0              0.7.7-3                  amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.1-1                 amd64  common error description library
 ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.213                    amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.214                    amd64  Debian Configuration Management System (C-implementation library)
 ii   libfdisk1               2.28-6                   amd64  fdisk partitioning library
 ii   libgcc1                 1:6.1.1-9                amd64  GCC support library
 ii   libgcrypt20             1.7.1-2                  amd64  LGPL Crypto library - runtime library
