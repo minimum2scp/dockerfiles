@@ -1,7 +1,7 @@
-require 'csv'
 require 'erb'
 require 'json'
 require 'rake/clean'
+require 'tempfile'
 
 CLOBBER.include 'README.md', 'debian-packages.json'
 
@@ -10,7 +10,8 @@ task :default => ['README.md']
 desc 'update debian-packages.json'
 file 'debian-packages.json' do |t|
   tag = ENV['TAG'] || 'minimum2scp/baseimage-jessie:latest'
-  tsv_file = File.basename(t.name, ".json") + ".tsv"
+  tmpfile = Tempfile.new('packages')
+  tmpfile.close
   fields = %w[
     Architecture Conflicts Breaks Depends Enhances Essential Installed-Size Origin Package
     Pre-Depends Priority Provides Recommends Replace Section Status Suggests Version
@@ -18,9 +19,8 @@ file 'debian-packages.json' do |t|
     source:Package source:Version
   ]
   field_fmt = fields.map{|f| "${#{f}}"}.join("\\t") + "\\n"
-  sh %Q[docker run --rm #{tag} dpkg-query -f '#{field_fmt}' -W > #{tsv_file}], :verbose => false
-  packages = CSV.read(tsv_file, :col_sep => "\t").map{ |row| Hash[fields.zip(row)] }
-  rm tsv_file, :verbose => false
+  sh %Q[docker run --rm #{tag} dpkg-query -f '#{field_fmt}' -W > #{tmpfile.path}], :verbose => false
+  packages = File.readlines(tmpfile.path).map(&:chomp).map{|row| Hash[fields.zip(row.split("\t"))]}
   File.open(t.name, "w") do |fh|
     fh << JSON.pretty_generate(packages)
   end
