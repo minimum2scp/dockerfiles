@@ -33,7 +33,7 @@ ii   diffutils               1:3.3-3                  amd64  File comparison uti
 ii   dpkg                    1.18.9                   amd64  Debian package management system
 ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.1-1                 amd64  ext2/ext3/ext4 file system utilities
-ii   findutils               4.6.0+git+20160517-5     amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20160703-2     amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.0-6                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.1.1-9                  amd64  GCC, the GNU Compiler Collection (base package)
@@ -61,7 +61,7 @@ ii   libdb5.3                5.3.28-11                amd64  Berkeley v5.3 Datab
 ii   libdebconfclient0       0.214                    amd64  Debian Configuration Management System (C-implementation library)
 ii   libfdisk1               2.28-6                   amd64  fdisk partitioning library
 ii   libgcc1                 1:6.1.1-9                amd64  GCC support library
-ii   libgcrypt20             1.7.1-2                  amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.2-2                  amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.24-1                   amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library
