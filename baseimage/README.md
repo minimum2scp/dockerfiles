@@ -93,7 +93,7 @@ ii   gzip                    1.6-5                        amd64  GNU compression
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
 ii   init-system-helpers     1.39                         all    helper tools for all init systems
-ii   initscripts             2.88dsf-59.7                 amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.6.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
@@ -111,7 +111,7 @@ ii   libcap-ng0              0.7.7-3                      amd64  An alternate PO
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.1-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.47.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libdb5.3                5.3.28-11                    amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.214                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -212,9 +212,9 @@ ii   sed                     4.2.2-7.1                    amd64  The GNU sed str
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.17p1-2                   amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.88dsf-59.7                 all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.88dsf-59.7                 amd64  System-V-like init utilities
-ii   sysvinit-utils          2.88dsf-59.7                 amd64  System-V-like utilities
+ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
+ii   sysvinit-utils          2.88dsf-59.8                 amd64  System-V-like utilities
 ii   tar                     1.29-1                       amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016f-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
