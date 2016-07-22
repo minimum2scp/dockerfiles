@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.214",
+    "Version": "0.215",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.214"
+    "source:Version": "0.215"
   },
   {
     "Architecture": "amd64",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "305",
+    "Installed-Size": "306",
     "Origin": "",
     "Package": "libidn11",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.32-3.1",
+    "Version": "1.33-1",
     "binary:Package": "libidn11:amd64",
     "binary:Summary": "GNU Libidn library, implementation of IETF IDN specifications",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn",
-    "source:Version": "1.32-3.1"
+    "source:Version": "1.33-1"
   },
   {
     "Architecture": "amd64",
