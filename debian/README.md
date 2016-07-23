@@ -100,7 +100,7 @@ ii   sensible-utils          0.0.9                    all    Utilities for sensi
 ii   startpar                0.59-3                   amd64  run processes in parallel and multiplex their output
 ii   sysv-rc                 2.88dsf-59.8             all    System-V-like runlevel change mechanism
 ii   sysvinit-utils          2.88dsf-59.8             amd64  System-V-like utilities
-ii   tar                     1.29-1                   amd64  GNU version of the tar archiving utility
+ii   tar                     1.29b-1                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016f-1                  all    time zone and daylight-saving time data
 ii   util-linux              2.28-6                   amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime
