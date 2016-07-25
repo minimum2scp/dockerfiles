@@ -83,7 +83,7 @@ ii   etckeeper               1.18.2-1                     all    store /etc in g
 ii   findutils               4.6.0+git+20160703-2         amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.3-14                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.1.1-9                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.1.1-10                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    1.4.20-6                     amd64  GNU privacy guard - signature verification tool
@@ -119,7 +119,7 @@ ii   libestr0                0.1.10-2                     amd64  Helper function
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
 ii   libfdisk1               2.28-6                       amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:6.1.1-9                    amd64  GCC support library
+ii   libgcc1                 1:6.1.1-10                   amd64  GCC support library
 ii   libgcrypt20             1.7.2-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
@@ -143,7 +143,7 @@ ii   libncurses5             6.0+20160625-1               amd64  shared librarie
 ii   libncursesw5            6.0+20160625-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.12.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.13.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-3                     amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -171,11 +171,11 @@ ii   libsqlite3-0            3.13.0-1                     amd64  SQLite 3 shared
 ii   libss2                  1.43.1-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              6.1.1-9                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             230-7                        amd64  systemd utility library
+ii   libstdc++6              6.1.1-10                     amd64  GNU Standard C++ Library v3
+ii   libsystemd0             230-7+b1                     amd64  systemd utility library
 ii   libtasn1-6              4.8-1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160625-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                230-7                        amd64  libudev shared library
+ii   libudev1                230-7+b1                     amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28-6                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
@@ -193,9 +193,9 @@ ii   ncurses-base            6.0+20160625-1               all    basic terminal 
 ii   ncurses-bin             6.0+20160625-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
 ii   netbase                 5.3                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.2p2-6                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.2p2-6                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.2p2-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.2p2-7                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.2p2-7                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.2p2-7                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2h-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.1                    amd64  change and administer password and group data
 ii   perl                    5.22.2-2                     amd64  Larry Wall's Practical Extraction and Report Language
