@@ -675,10 +675,10 @@
     "Architecture": "all",
     "Conflicts": "file-rc (<< 0.8.17~), openrc (<= 0.18.3-1)",
     "Breaks": "systemd (<< 44-12), sysvinit-utils (<< 2.88dsf-59.3~)",
-    "Depends": "perl-base (>= 5.20.1-3), insserv",
+    "Depends": "perl-base (>= 5.20.1-3)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "116",
+    "Installed-Size": "117",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.39",
+    "Version": "1.40",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.39"
+    "source:Version": "1.40"
   },
   {
     "Architecture": "amd64",
@@ -759,10 +759,10 @@
     "Architecture": "amd64",
     "Conflicts": "arpd, iproute (<< 20130000-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libdb5.3, libselinux1 (>= 2.0.15)",
+    "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1456",
+    "Installed-Size": "1650",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.6.0-1",
+    "Version": "4.6.0-2",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.6.0-1"
+    "source:Version": "4.6.0-2"
   },
   {
     "Architecture": "amd64",
@@ -986,7 +986,7 @@
     "Depends": "libc6 (>> 2.23), libc6 (<< 2.24)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3306",
+    "Installed-Size": "3307",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.23-3",
+    "Version": "2.23-4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-3"
+    "source:Version": "2.23-4"
   },
   {
     "Architecture": "amd64",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.23-3",
+    "Version": "2.23-4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-3"
+    "source:Version": "2.23-4"
   },
   {
     "Architecture": "amd64",
@@ -1146,6 +1146,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
     "source:Version": "0.215"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "1036",
+    "Origin": "",
+    "Package": "libelf1",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "0.166-2",
+    "binary:Package": "libelf1:amd64",
+    "binary:Summary": "library to read and write ELF files",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "elfutils",
+    "source:Version": "0.166-2"
   },
   {
     "Architecture": "amd64",
@@ -1314,6 +1342,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
     "source:Version": "5.1.1alpha+20120614-2.1"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "libc6 (>= 2.14)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "60",
+    "Origin": "",
+    "Package": "libmnl0",
+    "Pre-Depends": "multiarch-support",
+    "Priority": "extra",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "1.0.3-5",
+    "binary:Package": "libmnl0:amd64",
+    "binary:Summary": "minimalistic Netlink communication library",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "libmnl",
+    "source:Version": "1.0.3-5"
   },
   {
     "Architecture": "amd64",
@@ -1753,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "230-7+b1",
+    "Version": "231-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "230-7"
+    "source:Version": "231-1"
   },
   {
     "Architecture": "amd64",
@@ -1798,7 +1854,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "210",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1809,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "230-7+b1",
+    "Version": "231-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "230-7"
+    "source:Version": "231-1"
   },
   {
     "Architecture": "amd64",
@@ -1994,7 +2050,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "214",
+    "Installed-Size": "215",
     "Origin": "",
     "Package": "multiarch-support",
     "Pre-Depends": "",
@@ -2005,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.23-3",
+    "Version": "2.23-4",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-3"
+    "source:Version": "2.23-4"
   },
   {
     "Architecture": "all",
