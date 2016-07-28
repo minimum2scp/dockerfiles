@@ -92,7 +92,7 @@ ii   groff-base              1.22.3-8                     amd64  GNU troff text-
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
-ii   init-system-helpers     1.40                         all    helper tools for all init systems
+ii   init-system-helpers     1.41                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.6.0-2                      amd64  networking and traffic control tools
@@ -124,7 +124,7 @@ ii   libgcc1                 1:6.1.1-10                   amd64  GCC support lib
 ii   libgcrypt20             1.7.2-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.4.14-1                     amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.2-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
