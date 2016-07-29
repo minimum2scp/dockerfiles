@@ -528,24 +528,29 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:2 http://security.debian.org jessie/updates/main amd64 Packages [365 kB]
+Get:2 http://security.debian.org jessie/updates/main amd64 Packages [371 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:3 http://ftp.jp.debian.org jessie-updates InRelease [142 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.6 kB]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9032 kB]
-Fetched 9620 kB in 1s (6036 kB/s)
+Fetched 9626 kB in 1s (5951 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  tzdata
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 185 kB of archives.
-After this operation, 1024 B of additional disk space will be used.
+  perl-base tzdata
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1414 kB of archives.
+After this operation, 6144 B of additional disk space will be used.
 Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2016f-0+deb8u1 [185 kB]
-Fetched 185 kB in 0s (841 kB/s)
+Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u6 [1229 kB]
+Fetched 1414 kB in 1s (1018 kB/s)
+(Reading database ... 7548 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.20.2-3+deb8u6_amd64.deb ...
+Unpacking perl-base (5.20.2-3+deb8u6) over (5.20.2-3+deb8u5) ...
+Setting up perl-base (5.20.2-3+deb8u6) ...
 (Reading database ... 7548 files and directories currently installed.)
 Preparing to unpack .../tzdata_2016f-0+deb8u1_all.deb ...
 Unpacking tzdata (2016f-0+deb8u1) over (2016d-0+deb8u1) ...
@@ -554,10 +559,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 01c9e991eecf
-Removing intermediate container a33d6c329883
+ ---> c09a9e93ced5
+Removing intermediate container 03c9489c950b
 Step 3 : CMD /bin/bash
- ---> Running in 0595e1adf0ff
- ---> 0e1ea82216bd
-Removing intermediate container 0595e1adf0ff
-Successfully built 0e1ea82216bd
+ ---> Running in dea3c36849c3
+ ---> 3393ebd048cb
+Removing intermediate container dea3c36849c3
+Successfully built 3393ebd048cb
