@@ -179,9 +179,9 @@ ii   openssh-client          1:6.0p1-4+deb7u4           amd64  secure shell (SSH
 ii   openssh-server          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssl                 1.0.1e-2+deb7u21           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data
-ii   perl                    5.14.2-21+deb7u3           amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.14.2-21+deb7u3           amd64  minimal Perl system
-ii   perl-modules            5.14.2-21+deb7u3           all    Core Perl modules
+ii   perl                    5.14.2-21+deb7u4           amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.14.2-21+deb7u4           amd64  minimal Perl system
+ii   perl-modules            5.14.2-21+deb7u4           all    Core Perl modules
 ii   procps                  1:3.3.3-3                  amd64  /proc file system utilities
 ii   readline-common         6.2+dfsg-0.1               all    GNU readline and history libraries, common files
 ii   rsyslog                 5.8.11-3+deb7u2            amd64  reliable system and kernel logging daemon
