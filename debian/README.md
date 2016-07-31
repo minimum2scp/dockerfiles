@@ -42,7 +42,7 @@ ii   grep                    2.25-6                   amd64  GNU grep, egrep and
 ii   gzip                    1.6-5                    amd64  GNU compression utilities
 ii   hostname                3.18                     amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool
-ii   init-system-helpers     1.41                     all    helper tools for all init systems
+ii   init-system-helpers     1.42                     all    helper tools for all init systems
 ii   iproute2                4.6.0-2                  amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3~pre2                 amd64  package management runtime library
@@ -72,7 +72,7 @@ ii   libpam-modules          1.1.8-3.3                amd64  Pluggable Authentic
 ii   libpam-modules-bin      1.1.8-3.3                amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.3                all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.3                amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.38-3.1               amd64  Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-1                 amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libselinux1             2.5-3                    amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.5-1                    all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                    amd64  SELinux policy management library

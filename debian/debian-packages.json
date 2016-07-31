@@ -678,7 +678,7 @@
     "Depends": "perl-base (>= 5.20.1-3)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "117",
+    "Installed-Size": "120",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.41",
+    "Version": "1.42",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.41"
+    "source:Version": "1.42"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "655",
+    "Installed-Size": "664",
     "Origin": "",
     "Package": "libpcre3",
     "Pre-Depends": "multiarch-support",
@@ -1529,15 +1529,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.38-3.1",
+    "Version": "2:8.39-1",
     "binary:Package": "libpcre3:amd64",
-    "binary:Summary": "Perl 5 Compatible Regular Expression Library - runtime files",
+    "binary:Summary": "Old Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.38-3.1"
+    "source:Version": "2:8.39-1"
   },
   {
     "Architecture": "amd64",
