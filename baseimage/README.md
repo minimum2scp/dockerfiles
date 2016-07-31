@@ -92,7 +92,7 @@ ii   groff-base              1.22.3-8                     amd64  GNU troff text-
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
-ii   init-system-helpers     1.41                         all    helper tools for all init systems
+ii   init-system-helpers     1.42                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.6.0-2                      amd64  networking and traffic control tools
@@ -151,7 +151,7 @@ ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authe
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.3                    all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.3                    amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.38-3.1                   amd64  Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-1                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.22             5.22.2-3                     amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
@@ -195,9 +195,9 @@ ii   ncurses-base            6.0+20160625-1               all    basic terminal 
 ii   ncurses-bin             6.0+20160625-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
 ii   netbase                 5.3                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.2p2-7                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.2p2-7                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.2p2-7                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.2p2-8                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.2p2-8                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.2p2-8                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2h-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.1                    amd64  change and administer password and group data
 ii   perl                    5.22.2-3                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -212,7 +212,7 @@ ii   readline-common         6.3-8                        all    GNU readline an
 ii   rsyslog                 8.16.0-1+b3                  amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
-ii   startpar                0.59-3                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.17p1-2                   amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
