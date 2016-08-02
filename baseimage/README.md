@@ -76,7 +76,7 @@ ii   debconf                 1.5.59                       all    Debian configur
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-3                      amd64  File comparison utilities
-ii   dpkg                    1.18.9                       amd64  Debian package management system
+ii   dpkg                    1.18.10                      amd64  Debian package management system
 ii   e2fslibs                1.43.1-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.1-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.2-1                     all    store /etc in git, mercurial, bzr or darcs
@@ -126,14 +126,14 @@ ii   libgdbm3                1.8.3-14                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.2-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1                       amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libjson-c3              0.12-3                       amd64  JSON manipulation library - shared library
-ii   libk5crypto3            1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                      amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.14.2+dfsg-1                amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2             amd64  OpenLDAP libraries
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library
 ii   liblognorm2             1.1.2-1.1+b2                 amd64  Log normalizing library
@@ -146,7 +146,7 @@ ii   libncursesw5            6.0+20160625-1               amd64  shared librarie
 ii   libnettle6              3.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.13.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.2-3                     amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.2-4                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.3                    all    Runtime support for the PAM library
