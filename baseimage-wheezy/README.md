@@ -120,7 +120,7 @@ ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database 
 ii   libgnutls26             2.12.20-8+deb7u5           amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                   amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libidn11                1.25-2+deb7u1              amd64  GNU Libidn library, implementation of IETF IDN specifications
+ii   libidn11                1.25-2+deb7u2              amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libk5crypto3            1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.5-3+deb7u1             amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.10.1+dfsg-5+deb7u7       amd64  MIT Kerberos runtime libraries
@@ -175,8 +175,8 @@ ii   ncurses-base            5.9-10                     all    basic terminal ty
 ii   ncurses-bin             5.9-10                     amd64  terminal-related programs and man pages
 ii   net-tools               1.60-24.2                  amd64  The NET-3 networking toolkit
 ii   netbase                 5.0                        all    Basic TCP/IP networking system
-ii   openssh-client          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:6.0p1-4+deb7u4           amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-client          1:6.0p1-4+deb7u5           amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:6.0p1-4+deb7u5           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssl                 1.0.1e-2+deb7u21           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data
 ii   perl                    5.14.2-21+deb7u4           amd64  Larry Wall's Practical Extraction and Report Language
