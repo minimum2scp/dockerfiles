@@ -61,8 +61,8 @@ I: Retrieving libelf1 0.166-2
 I: Validating libelf1 0.166-2
 I: Retrieving findutils 4.6.0+git+20160703-2
 I: Validating findutils 4.6.0+git+20160703-2
-I: Retrieving gcc-4.9-base 4.9.3-14
-I: Validating gcc-4.9-base 4.9.3-14
+I: Retrieving gcc-4.9-base 4.9.4-1
+I: Validating gcc-4.9-base 4.9.4-1
 I: Retrieving gcc-5-base 5.4.0-6
 I: Validating gcc-5-base 5.4.0-6
 I: Retrieving gcc-6-base 6.1.1-10
@@ -428,7 +428,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (1000 kB/s)
+Fetched 209 kB in 0s (1030 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -438,10 +438,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 4d484a969f14
-Removing intermediate container 48068e39a2ab
+ ---> a2a4317eaa59
+Removing intermediate container a6d6fc98d577
 Step 3 : CMD /bin/bash
- ---> Running in ec75c6551f26
- ---> 5ab0e0d9eea7
-Removing intermediate container ec75c6551f26
-Successfully built 5ab0e0d9eea7
+ ---> Running in eefda070b712
+ ---> a13ab68420c4
+Removing intermediate container eefda070b712
+Successfully built a13ab68420c4
