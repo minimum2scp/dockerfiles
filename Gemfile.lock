@@ -3,7 +3,7 @@ GEM
   specs:
     coderay (1.1.1)
     diff-lcs (1.2.5)
-    docker-api (1.29.2)
+    docker-api (1.31.0)
       excon (>= 0.38.0)
       json
     excon (0.51.0)
@@ -43,7 +43,7 @@ GEM
       specinfra (~> 2.53)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.60.2)
+    specinfra (2.60.3)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
