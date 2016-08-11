@@ -2218,18 +2218,18 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "60",
+    "Installed-Size": "44",
     "Origin": "",
     "Package": "libmnl0",
-    "Pre-Depends": "multiarch-support",
-    "Priority": "extra",
+    "Pre-Depends": "",
+    "Priority": "important",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.3-5",
+    "Version": "1.0.4-1",
     "binary:Package": "libmnl0:amd64",
     "binary:Summary": "minimalistic Netlink communication library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libmnl",
-    "source:Version": "1.0.3-5"
+    "source:Version": "1.0.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3058,7 +3058,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1142",
+    "Installed-Size": "1139",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.13.0-1",
+    "Version": "3.14.0-1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.13.0-1"
+    "source:Version": "3.14.0-1"
   },
   {
     "Architecture": "amd64",
