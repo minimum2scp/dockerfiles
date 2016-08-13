@@ -534,11 +534,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "",
-    "Depends": "libbz2-1.0, libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
+    "Breaks": "gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "426",
+    "Installed-Size": "577",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -549,15 +549,15 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.20-6",
+    "Version": "2.1.14-5",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
-    "source:Package": "gnupg",
-    "source:Version": "1.4.20-6"
+    "source:Package": "gnupg2",
+    "source:Version": "2.1.14-5"
   },
   {
     "Architecture": "amd64",
