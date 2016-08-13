@@ -86,7 +86,7 @@ ii   gcc-5-base              5.4.1-1                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.1.1-11                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    1.4.20-6                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.14-5                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.25-6                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
@@ -118,6 +118,7 @@ ii   libelf1                 0.166-2                      amd64  library to read
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
+ii   libfastjson4            0.99.4-1                     amd64  fast json library for C
 ii   libfdisk1               2.28-6                       amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-4                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.1.1-11                   amd64  GCC support library
@@ -129,14 +130,13 @@ ii   libgpg-error0           1.24-1                       amd64  library for com
 ii   libgssapi-krb5-2        1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1                       amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libjson-c3              0.12-3                       amd64  JSON manipulation library - shared library
 ii   libk5crypto3            1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2             amd64  OpenLDAP libraries
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library
-ii   liblognorm2             1.1.2-1.1+b2                 amd64  Log normalizing library
+ii   liblognorm5             2.0.1-1                      amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.1.1alpha+20120614-2.1      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-1                      amd64  minimalistic Netlink communication library
@@ -209,7 +209,7 @@ ii   python-minimal          2.7.11-2                     amd64  minimal subset 
 ii   python2.7               2.7.12-2                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.12-2                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         6.3-8                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.16.0-1+b3                  amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.20.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
