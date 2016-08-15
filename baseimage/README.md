@@ -169,15 +169,15 @@ ii   libsemanage1            2.5-1                        amd64  SELinux policy 
 ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.0-3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28-6                       amd64  smart column output alignment library
-ii   libsqlite3-0            3.14.0-1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.14.1-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.1-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.1.1-11                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             231-1                        amd64  systemd utility library
-ii   libtasn1-6              4.9-3                        amd64  Manage ASN.1 structures (runtime)
+ii   libsystemd0             231-2                        amd64  systemd utility library
+ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160625-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                231-1                        amd64  libudev shared library
+ii   libudev1                231-2                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28-6                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
