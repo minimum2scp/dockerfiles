@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                 3.115                        all    add and remove users and groups
 ii   apt                     1.3~rc1                      amd64  commandline package manager
 ii   base-files              9.6                          amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.39                       amd64  Debian base system master password and group files
+ii   base-passwd             3.5.40                       amd64  Debian base system master password and group files
 ii   bash                    4.3-15                       amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.10                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.28.1-1                   amd64  basic utilities from 4.4BSD-Lite
@@ -84,8 +84,8 @@ ii   findutils               4.6.0+git+20160703-2         amd64  utilities for f
 ii   gcc-4.9-base            4.9.4-2                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.1-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.1.1-12                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.8.1-1                    amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.8.1-1                    all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.9.3-1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.9.3-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.14-5                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.25-6                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
@@ -95,7 +95,7 @@ ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
 ii   init-system-helpers     1.42                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.6.0-3                      amd64  networking and traffic control tools
+ii   iproute2                4.6.0-4                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3~rc1                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
