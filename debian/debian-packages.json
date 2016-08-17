@@ -90,7 +90,7 @@
     "Depends": "libc6 (>= 2.8), libdebconfclient0 (>= 0.145)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "219",
+    "Installed-Size": "229",
     "Origin": "",
     "Package": "base-passwd",
     "Pre-Depends": "",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.39",
+    "Version": "3.5.40",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.39"
+    "source:Version": "3.5.40"
   },
   {
     "Architecture": "amd64",
@@ -706,7 +706,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1649",
+    "Installed-Size": "1614",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -717,7 +717,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.6.0-3",
+    "Version": "4.6.0-4",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.6.0-3"
+    "source:Version": "4.6.0-4"
   },
   {
     "Architecture": "amd64",
