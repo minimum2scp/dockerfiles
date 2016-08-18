@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                    all    add and remove users and groups
-ii   apt                     1.3~rc1                  amd64  commandline package manager
+ii   apt                     1.3~rc2                  amd64  commandline package manager
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.40                   amd64  Debian base system master password and group files
 ii   bash                    4.3-15                   amd64  GNU Bourne Again SHell
@@ -45,7 +45,7 @@ ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool
 ii   init-system-helpers     1.42                     all    helper tools for all init systems
 ii   iproute2                4.6.0-4                  amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
-ii   libapt-pkg5.0           1.3~rc1                  amd64  package management runtime library
+ii   libapt-pkg5.0           1.3~rc2                  amd64  package management runtime library
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.6-1                all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.6-1                amd64  Dynamic library for security auditing
@@ -60,7 +60,7 @@ ii   libdebconfclient0       0.215                    amd64  Debian Configuratio
 ii   libelf1                 0.166-2                  amd64  library to read and write ELF files
 ii   libfdisk1               2.28.1-1                 amd64  fdisk partitioning library
 ii   libgcc1                 1:6.1.1-12               amd64  GCC support library
-ii   libgcrypt20             1.7.2-2                  amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.3-1                  amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.24-1                   amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.1.1alpha+20120614-2.1  amd64  XZ-format compression library
@@ -80,9 +80,9 @@ ii   libsepol1               2.5-1                    amd64  SELinux library for
 ii   libsmartcols1           2.28.1-1                 amd64  smart column output alignment library
 ii   libss2                  1.43.1-1                 amd64  command-line interface parsing library
 ii   libstdc++6              6.1.1-12                 amd64  GNU Standard C++ Library v3
-ii   libsystemd0             231-3                    amd64  systemd utility library
+ii   libsystemd0             231-4                    amd64  systemd utility library
 ii   libtinfo5               6.0+20160625-1           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                231-3                    amd64  libudev shared library
+ii   libudev1                231-4                    amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library
 ii   libuuid1                2.28.1-1                 amd64  Universally Unique ID library
 ii   login                   1:4.2-3.1                amd64  system login tools
