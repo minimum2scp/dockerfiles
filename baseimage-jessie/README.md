@@ -88,8 +88,8 @@ ii   gcc-4.8-base            4.8.4-1                    amd64  GCC, the GNU Comp
 ii   gcc-4.9-base            4.9.2-10                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.1.4-2.1+deb8u2         amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.1.4-2.1+deb8u2         all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.18-7+deb8u1            amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.18-7+deb8u1            amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.18-7+deb8u2            amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.18-7+deb8u2            amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.20-4.1                   amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.2-8                   amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-4                      amd64  GNU compression utilities
@@ -125,7 +125,7 @@ ii   libestr0                0.1.9-1.1                  amd64  Helper functions 
 ii   libexpat1               2.1.0-6+deb8u3             amd64  XML parsing C library - runtime library
 ii   libffi6                 3.1-2+b2                   amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:4.9.2-10                 amd64  GCC support library
-ii   libgcrypt20             1.6.3-2+deb8u1             amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.6.3-2+deb8u2             amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-13.1                 amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.0.0+dfsg-6             amd64  Multiprecision arithmetic library
 ii   libgnutls-deb0-28       3.3.8-6+deb8u3             amd64  GNU TLS library - main runtime library
