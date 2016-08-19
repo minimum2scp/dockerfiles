@@ -528,29 +528,45 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:2 http://security.debian.org jessie/updates/main amd64 Packages [371 kB]
+Get:2 http://security.debian.org jessie/updates/main amd64 Packages [385 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:3 http://ftp.jp.debian.org jessie-updates InRelease [142 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.6 kB]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9032 kB]
-Fetched 9626 kB in 1s (5951 kB/s)
+Fetched 9640 kB in 1s (6074 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  perl-base tzdata
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 1414 kB of archives.
+  gnupg gpgv libgcrypt20 perl-base tzdata
+5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3164 kB of archives.
 After this operation, 6144 B of additional disk space will be used.
 Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2016f-0+deb8u1 [185 kB]
 Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u6 [1229 kB]
-Fetched 1414 kB in 1s (1018 kB/s)
+Get:3 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u2 [393 kB]
+Get:4 http://security.debian.org/ jessie/updates/main gpgv amd64 1.4.18-7+deb8u2 [209 kB]
+Get:5 http://security.debian.org/ jessie/updates/main gnupg amd64 1.4.18-7+deb8u2 [1149 kB]
+Fetched 3164 kB in 1s (1778 kB/s)
 (Reading database ... 7548 files and directories currently installed.)
 Preparing to unpack .../perl-base_5.20.2-3+deb8u6_amd64.deb ...
 Unpacking perl-base (5.20.2-3+deb8u6) over (5.20.2-3+deb8u5) ...
 Setting up perl-base (5.20.2-3+deb8u6) ...
+(Reading database ... 7548 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u2) over (1.6.3-2+deb8u1) ...
+Setting up libgcrypt20:amd64 (1.6.3-2+deb8u2) ...
+Processing triggers for libc-bin (2.19-18+deb8u4) ...
+(Reading database ... 7548 files and directories currently installed.)
+Preparing to unpack .../gpgv_1.4.18-7+deb8u2_amd64.deb ...
+Unpacking gpgv (1.4.18-7+deb8u2) over (1.4.18-7+deb8u1) ...
+Setting up gpgv (1.4.18-7+deb8u2) ...
+(Reading database ... 7548 files and directories currently installed.)
+Preparing to unpack .../gnupg_1.4.18-7+deb8u2_amd64.deb ...
+Unpacking gnupg (1.4.18-7+deb8u2) over (1.4.18-7+deb8u1) ...
+Setting up gnupg (1.4.18-7+deb8u2) ...
 (Reading database ... 7548 files and directories currently installed.)
 Preparing to unpack .../tzdata_2016f-0+deb8u1_all.deb ...
 Unpacking tzdata (2016f-0+deb8u1) over (2016d-0+deb8u1) ...
@@ -559,10 +575,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> c09a9e93ced5
-Removing intermediate container 03c9489c950b
+ ---> 3eba7254c67b
+Removing intermediate container df9080da7a3c
 Step 3 : CMD /bin/bash
- ---> Running in dea3c36849c3
- ---> 3393ebd048cb
-Removing intermediate container dea3c36849c3
-Successfully built 3393ebd048cb
+ ---> Running in 7e5a30faf46a
+ ---> 3bb2ba0de5d9
+Removing intermediate container 7e5a30faf46a
+Successfully built 3bb2ba0de5d9
