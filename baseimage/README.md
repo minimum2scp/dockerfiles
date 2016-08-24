@@ -104,9 +104,9 @@ ii   libaudit1               1:2.6.6-1                    amd64  Dynamic library
 ii   libblkid1               2.28.1-1                     amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.23-4                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.23-4                       all    GNU C Library: localization files
-ii   libc6                   2.23-4                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.23-5                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.23-5                       all    GNU C Library: localization files
+ii   libc6                   2.23-5                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.1-1                     amd64  common error description library
@@ -182,7 +182,7 @@ ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string li
 ii   libuuid1                2.28.1-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.23-4                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.23-5                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3.1                    amd64  system login tools
 ii   lsb-base                9.20160629                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-2.3+b1                  amd64  Powerful Multilingual File Viewer
@@ -190,7 +190,7 @@ ii   man-db                  2.7.5-1                      amd64  on-line manual 
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.28.1-1                     amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.23-4                       amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.23-5                       amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160625-1               all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160625-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
@@ -209,7 +209,7 @@ ii   python-minimal          2.7.11-2                     amd64  minimal subset 
 ii   python2.7               2.7.12-2                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.12-2                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         6.3-8                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.20.0-1                     amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.21.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-7.1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
