@@ -930,7 +930,7 @@
     "Depends": "libc6 (>> 2.23), libc6 (<< 2.24)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3307",
+    "Installed-Size": "3310",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.23-4",
+    "Version": "2.23-5",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-4"
+    "source:Version": "2.23-5"
   },
   {
     "Architecture": "amd64",
@@ -958,7 +958,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "10674",
+    "Installed-Size": "10670",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.23-4",
+    "Version": "2.23-5",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-4"
+    "source:Version": "2.23-5"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.23-4",
+    "Version": "2.23-5",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.23-4"
+    "source:Version": "2.23-5"
   },
   {
     "Architecture": "all",
