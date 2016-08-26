@@ -115,7 +115,7 @@ ii   libedit2                2.11-20080614-5            amd64  BSD editline and 
 ii   liberror-perl           0.17-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libexpat1               2.1.0-1+deb7u4             amd64  XML parsing C library - runtime library
 ii   libgcc1                 1:4.7.2-5                  amd64  GCC support library
-ii   libgcrypt11             1.5.0-5+deb7u4             amd64  LGPL Crypto library - runtime library
+ii   libgcrypt11             1.5.0-5+deb7u5             amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-11                   amd64  GNU dbm database routines (runtime version)
 ii   libgnutls26             2.12.20-8+deb7u5           amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                   amd64  library for common error values and messages in GnuPG components

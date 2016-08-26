@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.5.0-5+deb7u4",
+    "Version": "1.5.0-5+deb7u5",
     "binary:Package": "libgcrypt11:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "libgcrypt11",
-    "source:Version": "1.5.0-5+deb7u4"
+    "source:Version": "1.5.0-5+deb7u5"
   },
   {
     "Architecture": "amd64",
