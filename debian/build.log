@@ -145,10 +145,10 @@ I: Retrieving login 1:4.2-3.1
 I: Validating login 1:4.2-3.1
 I: Retrieving passwd 1:4.2-3.1
 I: Validating passwd 1:4.2-3.1
-I: Retrieving libsystemd0 231-4
-I: Validating libsystemd0 231-4
-I: Retrieving libudev1 231-4
-I: Validating libudev1 231-4
+I: Retrieving libsystemd0 231-5
+I: Validating libsystemd0 231-5
+I: Retrieving libudev1 231-5
+I: Validating libudev1 231-5
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1
@@ -428,7 +428,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (1424 kB/s)
+Fetched 209 kB in 0s (1050 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -438,10 +438,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> d7a7fccd6023
-Removing intermediate container 28eb7552725e
+ ---> b3e92d5b3df6
+Removing intermediate container 5db54094a852
 Step 3 : CMD /bin/bash
- ---> Running in ec9700a6ddf7
- ---> 83ea1f48e3ec
-Removing intermediate container ec9700a6ddf7
-Successfully built 83ea1f48e3ec
+ ---> Running in 2176743530c2
+ ---> d532be31b4c7
+Removing intermediate container 2176743530c2
+Successfully built d532be31b4c7
