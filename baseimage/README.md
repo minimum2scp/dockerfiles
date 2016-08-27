@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.2.0-1                    amd64  GCC support lib
 ii   libgcrypt20             1.7.3-1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.3-2                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.3-3                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -174,10 +174,10 @@ ii   libss2                  1.43.1-1                     amd64  command-line in
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-1                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             231-4                        amd64  systemd utility library
+ii   libsystemd0             231-5                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160625-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                231-4                        amd64  libudev shared library
+ii   libudev1                231-5                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28.1-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
