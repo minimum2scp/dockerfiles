@@ -86,8 +86,8 @@ ii   findutils               4.4.2-4                    amd64  utilities for fin
 ii   gcc-4.7-base            4.7.2-5                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:1.7.10.4-1+wheezy3       amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:1.7.10.4-1+wheezy3       all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.12-7+deb7u7            amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.12-7+deb7u7            amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.12-7+deb7u8            amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.12-7+deb7u8            amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.12-2                     amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.21-9                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.5-1.1                    amd64  GNU compression utilities
