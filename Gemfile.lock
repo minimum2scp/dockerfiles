@@ -36,14 +36,14 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     sequel (4.37.0)
-    serverspec (2.36.0)
+    serverspec (2.36.1)
       multi_json
       rspec (~> 3.0)
       rspec-its
       specinfra (~> 2.53)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.61.2)
+    specinfra (2.61.3)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
