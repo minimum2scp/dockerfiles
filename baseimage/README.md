@@ -145,7 +145,7 @@ ii   libncurses5             6.0+20160625-1               amd64  shared librarie
 ii   libncursesw5            6.0+20160625-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.2-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.13.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.14.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
