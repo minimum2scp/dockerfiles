@@ -31,8 +31,8 @@ ii   debian-archive-keyring  2014.3                   all    GnuPG archive keys 
 ii   debianutils             4.8                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                  amd64  File comparison utilities
 ii   dpkg                    1.18.10                  amd64  Debian package management system
-ii   e2fslibs                1.43.1-1                 amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.1-1                 amd64  ext2/ext3/ext4 file system utilities
+ii   e2fslibs                1.43.2-2                 amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.2-2                 amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20160703-2     amd64  utilities for finding files--find, xargs
 ii   gcc-4.9-base            4.9.4-2                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-5-base              5.4.1-1                  amd64  GCC, the GNU Compiler Collection (base package)
@@ -54,7 +54,7 @@ ii   libbz2-1.0              1.0.6-8                  amd64  high-quality block-
 ii   libc-bin                2.24-1                   amd64  GNU C Library: Binaries
 ii   libc6                   2.24-1                   amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                  amd64  An alternate POSIX capabilities library
-ii   libcomerr2              1.43.1-1                 amd64  common error description library
+ii   libcomerr2              1.43.2-2                 amd64  common error description library
 ii   libdb5.3                5.3.28-12                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.215                    amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.166-2                  amd64  library to read and write ELF files
@@ -78,7 +78,7 @@ ii   libsemanage-common      2.5-1                    all    Common files for SE
 ii   libsemanage1            2.5-1                    amd64  SELinux policy management library
 ii   libsepol1               2.5-1                    amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.28.1-1                 amd64  smart column output alignment library
-ii   libss2                  1.43.1-1                 amd64  command-line interface parsing library
+ii   libss2                  1.43.2-2                 amd64  command-line interface parsing library
 ii   libstdc++6              6.2.0-2                  amd64  GNU Standard C++ Library v3
 ii   libsystemd0             231-5                    amd64  systemd utility library
 ii   libtinfo5               6.0+20160625-1           amd64  shared low-level terminfo library for terminal handling
@@ -94,7 +94,7 @@ ii   ncurses-base            6.0+20160625-1           all    basic terminal type
 ii   ncurses-bin             6.0+20160625-1           amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data
-ii   perl-base               5.22.2-3                 amd64  minimal Perl system
+ii   perl-base               5.22.2-4                 amd64  minimal Perl system
 ii   sed                     4.2.2-8                  amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.8             amd64  System-V-like utilities
