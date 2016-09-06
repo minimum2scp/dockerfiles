@@ -132,7 +132,7 @@ ii   libgnutls-deb0-28       3.3.8-6+deb8u3             amd64  GNU TLS library -
 ii   libgpg-error0           1.17-3                     amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u2      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u1             amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.29-1+deb8u1              amd64  GNU Libidn library, implementation of IETF IDN specifications
+ii   libidn11                1.29-1+deb8u2              amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libjson-c2              0.11-4                     amd64  JSON manipulation library - shared library
 ii   libk5crypto3            1.12.1+dfsg-19+deb8u2      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-5+b1                 amd64  Linux Key Management Utilities (library)
