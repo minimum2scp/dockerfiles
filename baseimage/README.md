@@ -127,13 +127,13 @@ ii   libgdbm3                1.8.3-14                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.3-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1                       amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libk5crypto3            1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                      amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.14.3+dfsg-1                amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.42+dfsg-2+b2             amd64  OpenLDAP libraries
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1                      amd64  log normalizing library
@@ -167,7 +167,7 @@ ii   libselinux1             2.5-3                        amd64  SELinux runtime
 ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                        amd64  SELinux policy management library
 ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.0-3                      amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.0-3+b1                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.1-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.14.1-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
