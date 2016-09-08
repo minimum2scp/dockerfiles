@@ -4,11 +4,13 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+jruby_version=9.1.5.0
+
 ## install jruby by rbenv
-bash -l -c "rbenv install jruby-1.7.19"
+bash -l -c "rbenv install jruby-${jruby_version}"
 
 ## install norikra with JRuby
-bash -l -c "RBENV_VERSION=jruby-1.7.19 gem install norikra"
+bash -l -c "RBENV_VERSION=jruby-${jruby_version} gem install norikra"
 
 ## install norikura-client with CRuby
 bash -l -c "RBENV_VERSION=system gem install norikra-client"
