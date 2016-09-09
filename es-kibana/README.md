@@ -1,9 +1,8 @@
 # about minimum2scp/es-kibana image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * default-jre-headless package installed
- * elasticsearch package installed from http://www.elasticsearch.org/overview/elkdownloads/
- * kibana 4.0.0 installed from http://www.elasticsearch.org/overview/kibana/installation/
+ * default-jre-headless package is installed
+ * kibana, elasticsearch packages are installed
 
 ## start container
 
@@ -36,17 +35,16 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 03:05 ?        Ss     0:00 init [2]  
-elastic+   349     1  2 03:05 ?        Sl     0:07 /usr/lib/jvm/java-7-openjdk-amd64//bin/java -Xms256m -Xmx1g -Xss256k -Djava.awt.headless=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -XX:+DisableExplicitGC -Dfile.encoding=UTF-8 -Delasticsearch -Des.pidfile=/var/run/elasticsearch.pid -Des.path.home=/usr/share/elasticsearch -cp :/usr/share/elasticsearch/lib/elasticsearch-1.4.4.jar:/usr/share/elasticsearch/lib/*:/usr/share/elasticsearch/lib/sigar/* -Des.default.config=/etc/elasticsearch/elasticsearch.yml -Des.default.path.home=/usr/share/elasticsearch -Des.default.path.logs=/var/log/elasticsearch -Des.default.path.data=/var/lib/elasticsearch -Des.default.path.work=/tmp/elasticsearch -Des.default.path.conf=/etc/elasticsearch org.elasticsearch.bootstrap.Elasticsearch
-root       350     1  0 03:05 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root       384     1  0 03:05 ?        Ss     0:00 /usr/sbin/cron
-root       395     1  0 03:05 ?        Ss     0:00 /usr/sbin/sshd
-root       555   395  0 03:10 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     557   555  0 03:10 ?        S      0:00      \_ sshd: debian@pts/0
-debian     558   557  0 03:10 pts/0    Ss     0:00          \_ -bash
-debian     564   558  0 03:10 pts/0    R+     0:00              \_ ps -ef fww
-root       407     1  0 03:05 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
-kibana     487   407  0 03:05 ?        Sl     0:01  \_ /opt/kibana/bin/../node/bin/node /opt/kibana/bin/../src/bin/kibana.js
+root         1     0  0 01:06 ?        Ss     0:00 init [2]
+root       635     1  0 01:06 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       660     1  0 01:06 ?        Ss     0:00 /usr/sbin/cron
+kibana     666     1  1 01:06 ?        Sl     0:04 /opt/kibana/bin/../node/bin/node /opt/kibana/bin/../src/cli
+root       677     1  0 01:06 ?        Ss     0:00 /usr/sbin/sshd
+root       749   677  0 01:06 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     751   749  0 01:06 ?        S      0:00      \_ sshd: debian@pts/0
+debian     752   751  0 01:06 pts/0    Ss     0:00          \_ -bash
+debian    1104   752  0 01:13 pts/0    R+     0:00              \_ ps -ef fww
+elastic+  1003     1  3 01:09 ?        Sl     0:09 /usr/bin/java -Xms256m -Xmx1g -Djava.awt.headless=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -XX:+DisableExplicitGC -Dfile.encoding=UTF-8 -Djna.nosys=true -Des.path.home=/usr/share/elasticsearch -cp /usr/share/elasticsearch/lib/elasticsearch-2.4.0.jar:/usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch start -d -p /var/run/elasticsearch/elasticsearch.pid --default.path.home=/usr/share/elasticsearch --default.path.logs=/var/log/elasticsearch --default.path.data=/var/lib/elasticsearch --default.path.conf=/etc/elasticsearch
 ```
 
 ## ports
