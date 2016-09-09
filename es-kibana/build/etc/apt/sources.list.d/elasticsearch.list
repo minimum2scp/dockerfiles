@@ -1,6 +1,0 @@
-##
-## see http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-repositories.html
-##
-
-deb http://packages.elasticsearch.org/elasticsearch/1.4/debian stable main
-

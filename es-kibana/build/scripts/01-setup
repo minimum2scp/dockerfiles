@@ -4,38 +4,36 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-## install java and elasticsearch
-apt-get install --no-install-recommends -y default-jre-headless elasticsearch
+##
+## install deps
+##
+apt-get install --no-install-recommends -y default-jre-headless gnupg apt-transport-https
 
 ##
-## download kibana, and extract to /opt/kibana
+## install GPG key
 ##
-kibana_version=4.0.0
-kibana_archive=kibana-${kibana_version}-linux-x64.tar.gz
-cd /tmp
-curl -LO https://download.elasticsearch.org/kibana/kibana/${kibana_archive}
-mkdir -p /opt/kibana
-tar xf /tmp/${kibana_archive} -C /opt/kibana --strip-components=1
-rm /tmp/${kibana_archive}
+curl -sSL https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+etckeeper commit "apt: Added GPG-KEY-elasticsearch"
 
 ##
-## add system user "kibana" to run kibana process
+## add apt-line and install elasticsearch
 ##
-addgroup --system kibana
-adduser --system --home /opt/kibana --shell /bin/false --no-create-home \
-  --gecos 'kibana' --ingroup kibana --disabled-password \
-  kibana
-chown -R kibana:kibana /opt/kibana
+echo "deb https://packages.elastic.co/elasticsearch/2.x/debian stable main" > /etc/apt/sources.list.d/elasticsearch-2.x.list
+etckeeper commit "apt: Added apt-line for elasticsearch"
+apt-get update
+apt-get install elasticsearch
+update-rc.d elasticsearch defaults 95 10
+etckeeper commit "enabled elasticsearch"
+sed -i -e 's/^# network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elasticsearch.yml
+etckeeper commit "elasticsearch: bind 0.0.0.0"
 
 ##
-## install supervisor
-## (see baseimage/build/opt/custom-installers)
+## add apt-line and install kibana
 ##
-/opt/custom-installers/supervisor/install.sh
-
-##
-## add kibana to supervisor
-##
-install -m 644 -o root -g root -p /tmp/build/es-kibana/etc/supervisor/conf.d/kibana.conf /etc/supervisor/conf.d/kibana.conf
-etckeeper commit "supervisor: add kibana"
+echo "deb https://packages.elastic.co/kibana/4.6/debian stable main" > /etc/apt/sources.list.d/kibana.list
+etckeeper commit "apt: Added apt-line for kibana"
+apt-get update
+apt-get install kibana
+update-rc.d kibana defaults 95 10
+etckeeper commit "enabled kibana"
 
