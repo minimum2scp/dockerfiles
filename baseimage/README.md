@@ -92,7 +92,7 @@ ii   groff-base              1.22.3-8                     amd64  GNU troff text-
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                    amd64  ICMP echo tool
-ii   init-system-helpers     1.42                         all    helper tools for all init systems
+ii   init-system-helpers     1.43                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.6.0-4                      amd64  networking and traffic control tools
@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.2.0-3                    amd64  GCC support lib
 ii   libgcrypt20             1.7.3-1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.3-4                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.4-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.2-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -174,10 +174,10 @@ ii   libss2                  1.43.3-1                     amd64  command-line in
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2h-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-3                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             231-5                        amd64  systemd utility library
+ii   libsystemd0             231-6                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160625-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                231-5                        amd64  libudev shared library
+ii   libudev1                231-6                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
@@ -222,9 +222,10 @@ ii   tzdata                  2016f-1                      all    time zone and d
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files
 ii   util-linux              2.28.2-1                     amd64  miscellaneous system utilities
-ii   vim-common              2:7.4.2330-1                 amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.4.2330-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.4.2347-1                 all    Vi IMproved - Common files
+ii   vim-tiny                2:7.4.2347-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.18-3                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   xxd                     2:7.4.2347-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-2+b1            amd64  compression library - runtime
 ii   zsh                     5.2-5                        amd64  shell with lots of features
 ii   zsh-common              5.2-5                        all    architecture independent files for Zsh
