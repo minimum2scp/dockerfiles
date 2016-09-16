@@ -1,0 +1,4 @@
+---
+:base_path: "/home/debian/.gemstash"
+:cache_type: memory
+:db_adapter: sqlite3
