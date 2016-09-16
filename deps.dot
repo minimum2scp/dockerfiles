@@ -13,6 +13,7 @@ digraph deps {
   es_kibana         [label = "minimum2scp/es-kibana"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
   geminabox         [label = "minimum2scp/geminabox"];
+  gemstash          [label = "minimum2scp/gemstash"];
   hubot             [label = "minimum2scp/hubot"];
   mruby             [label = "minimum2scp/mruby"];
   nodejs            [label = "minimum2scp/nodejs"];
@@ -31,7 +32,7 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, nodejs, ruby, sphinx, squid, systemd};
-  ruby      -> {fluentd_ui, geminabox, mruby, norikra, ruby_full};
+  ruby      -> {fluentd_ui, geminabox, gemstash, mruby, norikra, ruby_full};
   ruby_full -> {rails4, rails5, tdiary};
   nodejs    -> {hubot};
 
