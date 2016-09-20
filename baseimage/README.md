@@ -183,7 +183,7 @@ ii   libuuid1                2.28.2-1                     amd64  Universally Uni
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-3                       all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.2-3.1                    amd64  system login tools
+ii   login                   1:4.2-3.2                    amd64  system login tools
 ii   lsb-base                9.20160629                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-2.3+b1                  amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.5-1                      amd64  on-line manual pager
@@ -199,7 +199,7 @@ ii   openssh-client          1:7.3p1-1                    amd64  secure shell (S
 ii   openssh-server          1:7.3p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.3p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.2h-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.2-3.1                    amd64  change and administer password and group data
+ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
 ii   perl                    5.22.2-5                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.22.2-5                     amd64  minimal Perl system
 ii   perl-modules-5.22       5.22.2-5                     all    Core Perl modules
