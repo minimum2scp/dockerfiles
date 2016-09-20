@@ -85,7 +85,7 @@ ii   libtinfo5               6.0+20160910-1           amd64  shared low-level te
 ii   libudev1                231-6                    amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                  amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1                 amd64  Universally Unique ID library
-ii   login                   1:4.2-3.1                amd64  system login tools
+ii   login                   1:4.2-3.2                amd64  system login tools
 ii   lsb-base                9.20160629               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17                 amd64  a pattern scanning and text processing language
 ii   mount                   2.28.2-1                 amd64  tools for mounting and manipulating filesystems
@@ -93,7 +93,7 @@ ii   multiarch-support       2.24-3                   amd64  Transitional packag
 ii   ncurses-base            6.0+20160910-1           all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160910-1           amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
-ii   passwd                  1:4.2-3.1                amd64  change and administer password and group data
+ii   passwd                  1:4.2-3.2                amd64  change and administer password and group data
 ii   perl-base               5.22.2-5                 amd64  minimal Perl system
 ii   sed                     4.2.2-8                  amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection

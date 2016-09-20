@@ -1882,7 +1882,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2388",
+    "Installed-Size": "2396",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
@@ -1893,7 +1893,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2-3.1",
+    "Version": "1:4.2-3.2",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.2-3.1"
+    "source:Version": "1:4.2-3.2"
   },
   {
     "Architecture": "all",
@@ -2106,7 +2106,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules, debianutils (>= 2.15.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2299",
+    "Installed-Size": "2345",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2-3.1",
+    "Version": "1:4.2-3.2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.2-3.1"
+    "source:Version": "1:4.2-3.2"
   },
   {
     "Architecture": "amd64",
