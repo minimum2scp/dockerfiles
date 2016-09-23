@@ -18,7 +18,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (11.2.2)
+    rake (11.3.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -43,7 +43,7 @@ GEM
       specinfra (~> 2.53)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.62.0)
+    specinfra (2.63.1)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
