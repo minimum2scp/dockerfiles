@@ -2102,22 +2102,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)",
-    "Breaks": "autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libfile-path-perl (<< 2.09), libfile-spec-perl (<< 3.5601), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.37), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.41), libsocket-perl (<< 2.018), libxsloader-perl (<< 0.20), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.22.2~), perl-modules (<< 5.22.2~)",
+    "Breaks": "autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libfile-path-perl (<< 2.12.01), libfile-spec-perl (<< 3.6301), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.37), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.42.02), libsocket-perl (<< 2.020.03), libxsloader-perl (<< 0.22), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.24.1~rc3~), perl-modules (<< 5.24.1~rc3~), texinfo (<< 6.1.0.dfsg.1-8)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7099",
+    "Installed-Size": "7426",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.23), dpkg (>= 1.17.17)",
     "Priority": "required",
-    "Provides": "libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perlapi-5.22.1, perlapi-5.22.2",
+    "Provides": "libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perlapi-5.24.1",
     "Recommends": "",
     "Replace": "",
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.22.2-5",
+    "Version": "5.24.1~rc3-2",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.22.2-5"
+    "source:Version": "5.24.1~rc3-2"
   },
   {
     "Architecture": "amd64",
@@ -2246,7 +2246,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2811",
+    "Installed-Size": "2831",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2016f-1",
+    "Version": "2016g-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2016f-1"
+    "source:Version": "2016g-1"
   },
   {
     "Architecture": "amd64",

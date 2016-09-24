@@ -93,12 +93,12 @@ ii   ncurses-base            6.0+20160917-1           all    basic terminal type
 ii   ncurses-bin             6.0+20160917-1           amd64  terminal-related programs and man pages
 ii   netbase                 5.3                      all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3.2                amd64  change and administer password and group data
-ii   perl-base               5.22.2-5                 amd64  minimal Perl system
+ii   perl-base               5.24.1~rc3-2             amd64  minimal Perl system
 ii   sed                     4.2.2-8                  amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                    all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.8             amd64  System-V-like utilities
 ii   tar                     1.29b-1                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016f-1                  all    time zone and daylight-saving time data
+ii   tzdata                  2016g-1                  all    time zone and daylight-saving time data
 ii   util-linux              2.28.2-1                 amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1        amd64  compression library - runtime
 ```
