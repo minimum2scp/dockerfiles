@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.6.6-1",
+    "Version": "1:2.6.7-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1089,13 +1089,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.6-1"
+    "source:Version": "1:2.6.7-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:2.6.6-1), libc6 (>= 2.14), libcap-ng0",
+    "Depends": "libaudit-common (>= 1:2.6.7-1), libc6 (>= 2.14), libcap-ng0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "149",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.6.6-1",
+    "Version": "1:2.6.7-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.6.6-1"
+    "source:Version": "1:2.6.7-1"
   },
   {
     "Architecture": "amd64",
@@ -2974,7 +2974,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1529",
+    "Installed-Size": "1528",
     "Origin": "",
     "Package": "libslang2",
     "Pre-Depends": "",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.0-3+b1",
+    "Version": "2.3.0-4",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.0-3"
+    "source:Version": "2.3.0-4"
   },
   {
     "Architecture": "amd64",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2i-1",
+    "Version": "1.0.2j-1",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3133,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.2i-1"
+    "source:Version": "1.0.2j-1"
   },
   {
     "Architecture": "amd64",
@@ -3842,7 +3842,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.0.2 (>= 1.0.2g)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1130",
+    "Installed-Size": "1127",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3853,7 +3853,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.2i-1",
+    "Version": "1.0.2j-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.2i-1"
+    "source:Version": "1.0.2j-1"
   },
   {
     "Architecture": "amd64",

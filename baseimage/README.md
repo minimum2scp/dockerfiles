@@ -98,8 +98,8 @@ ii   iproute2                4.6.0-4                      amd64  networking and 
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.3                          amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.6.6-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.6.6-1                    amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.6.7-1                    all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.28.2-1                     amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
@@ -166,12 +166,12 @@ ii   libselinux1             2.5-3                        amd64  SELinux runtime
 ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                        amd64  SELinux policy management library
 ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.0-3+b1                   amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.0-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.14.2-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2i-1                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2j-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-4                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             231-7                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
@@ -197,7 +197,7 @@ ii   netbase                 5.3                          all    Basic TCP/IP ne
 ii   openssh-client          1:7.3p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.3p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.3p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.0.2i-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.0.2j-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc3-3                 amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1~rc3-3                 amd64  minimal Perl system
