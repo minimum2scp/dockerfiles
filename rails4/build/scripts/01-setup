@@ -13,7 +13,7 @@ packages="$packages postgresql-client libpq-dev"
 apt-get install --install-recommends -y ${packages}
 
 ## install rails (by gem)
-for v in $(bash -lc "rbenv versions --bare --skip-aliases"); do
+for v in $(bash -lc "rbenv versions --bare --skip-aliases" | grep -v '2.4.0-preview2'); do
   bash -lc "RBENV_VERSION=${v} gem install -N rails --version '~> 4.0'"
 done
 bash -lc "rbenv rehash"
