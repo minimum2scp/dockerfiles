@@ -65,7 +65,7 @@ ii   apt                     1.3                          amd64  commandline pac
 ii   base-files              9.6                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.40                       amd64  Debian base system master password and group files
 ii   bash                    4.4-1                        amd64  GNU Bourne Again SHell
-ii   bsdmainutils            9.0.10                       amd64  collection of more utilities from FreeBSD
+ii   bsdmainutils            9.0.11                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.28.2-1                   amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20160104                     all    Common CA certificates
 ii   coreutils               8.25-2                       amd64  GNU core utilities
@@ -173,10 +173,10 @@ ii   libss2                  1.43.3-1                     amd64  command-line in
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2j-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-5                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             231-7                        amd64  systemd utility library
+ii   libsystemd0             231-8                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160917-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                231-7                        amd64  libudev shared library
+ii   libudev1                231-8                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
