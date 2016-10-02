@@ -146,7 +146,7 @@
     "Depends": "libbsd0 (>= 0.2.0), libc6 (>= 2.14), libncurses5 (>= 6), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "566",
+    "Installed-Size": "558",
     "Origin": "",
     "Package": "bsdmainutils",
     "Pre-Depends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "cpp, wamerican | wordlist, whois, vacation",
-    "Version": "9.0.10",
+    "Version": "9.0.11",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "9.0.10"
+    "source:Version": "9.0.11"
   },
   {
     "Architecture": "amd64",
@@ -3170,7 +3170,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "639",
+    "Installed-Size": "640",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "231-7",
+    "Version": "231-9",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "231-7"
+    "source:Version": "231-9"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "212",
+    "Installed-Size": "213",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "231-7",
+    "Version": "231-9",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "231-7"
+    "source:Version": "231-9"
   },
   {
     "Architecture": "amd64",
