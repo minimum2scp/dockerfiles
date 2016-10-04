@@ -26,7 +26,7 @@ describe 'minimum2scp/ruby-full' do
         ruby: '2.4.0-preview2',
         desc: 'ruby 2.4.0preview2 (2016-09-09 trunk 56129) [x86_64-linux]',
         gems: [
-          {name: 'bundler', version: '1.13.1'},
+          {name: 'bundler', version: '1.13.2'},
           {name: 'pry'}
         ]
       },
@@ -34,7 +34,7 @@ describe 'minimum2scp/ruby-full' do
         ruby: '2.3.1',
         desc: 'ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]',
         gems: [
-          {name: 'bundler', version: '1.13.1'},
+          {name: 'bundler', version: '1.13.2'},
           {name: 'pry'}
         ]
       },
@@ -42,7 +42,7 @@ describe 'minimum2scp/ruby-full' do
         ruby: '2.2.5',
         desc: 'ruby 2.2.5p319 (2016-04-26 revision 54774) [x86_64-linux]',
         gems: [
-          {name: 'bundler', version: '1.13.1'},
+          {name: 'bundler', version: '1.13.2'},
           {name: 'pry'}
         ]
       },
@@ -50,7 +50,7 @@ describe 'minimum2scp/ruby-full' do
         ruby: '2.1.10',
         desc: 'ruby 2.1.10p492 (2016-04-01 revision 54464) [x86_64-linux]',
         gems: [
-          {name: 'bundler', version: '1.13.1'},
+          {name: 'bundler', version: '1.13.2'},
           {name: 'pry'}
         ]
       },
