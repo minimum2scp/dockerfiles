@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                    all    add and remove users and groups
-ii   apt                     1.3                      amd64  commandline package manager
+ii   apt                     1.3.1                    amd64  commandline package manager
 ii   base-files              9.6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.40                   amd64  Debian base system master password and group files
 ii   bash                    4.4-1                    amd64  GNU Bourne Again SHell
@@ -37,14 +37,14 @@ ii   findutils               4.6.0+git+20160703-2     amd64  utilities for findi
 ii   gcc-5-base              5.4.1-2                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.2.0-5                  amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.15-3                 amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.25-6                   amd64  GNU grep, egrep and fgrep
+ii   grep                    2.26-1                   amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5                    amd64  GNU compression utilities
 ii   hostname                3.18                     amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2                amd64  ICMP echo tool
 ii   init-system-helpers     1.45                     all    helper tools for all init systems
 ii   iproute2                4.6.0-4                  amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                 amd64  Access control list shared library
-ii   libapt-pkg5.0           1.3                      amd64  package management runtime library
+ii   libapt-pkg5.0           1.3.1                    amd64  package management runtime library
 ii   libattr1                1:2.4.47-2               amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1                all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1                amd64  Dynamic library for security auditing
