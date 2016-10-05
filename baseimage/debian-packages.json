@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.3",
+    "Version": "1.3.1",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.3"
+    "source:Version": "1.3.1"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1109",
+    "Installed-Size": "1132",
     "Origin": "",
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.14), libpcre3",
@@ -745,7 +745,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.25-6",
+    "Version": "2.26-1",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.25-6"
+    "source:Version": "2.26-1"
   },
   {
     "Architecture": "amd64",
@@ -1014,18 +1014,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2975",
+    "Installed-Size": "2976",
     "Origin": "",
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.3)",
-    "Recommends": "apt (>= 1.3)",
+    "Provides": "libapt-pkg (= 1.3.1)",
+    "Recommends": "apt (>= 1.3.1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3",
+    "Version": "1.3.1",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.3"
+    "source:Version": "1.3.1"
   },
   {
     "Architecture": "amd64",
@@ -1879,7 +1879,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.2-1)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "232",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.2-1",
+    "Version": "3.3-1",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.2-1"
+    "source:Version": "3.3-1"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.1-1",
+    "Version": "2.0.1-1.1",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.0.1-1"
+    "source:Version": "2.0.1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "355",
+    "Installed-Size": "357",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.2-1",
+    "Version": "3.3-1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.2-1"
+    "source:Version": "3.3-1"
   },
   {
     "Architecture": "amd64",
@@ -2750,7 +2750,7 @@
     "Depends": "readline-common, libc6 (>= 2.15), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "397",
+    "Installed-Size": "396",
     "Origin": "",
     "Package": "libreadline6",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3-8+b4",
+    "Version": "6.3-9",
     "binary:Package": "libreadline6:amd64",
     "binary:Summary": "GNU readline and history libraries, run-time libraries",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline6",
-    "source:Version": "6.3-8"
+    "source:Version": "6.3-9"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.0-4",
+    "Version": "2.3.0-4.1",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.0-4"
+    "source:Version": "2.3.0-4.1"
   },
   {
     "Architecture": "amd64",
@@ -3478,7 +3478,7 @@
     "Depends": "libc6 (>= 2.4), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "616",
+    "Installed-Size": "618",
     "Origin": "",
     "Package": "lv",
     "Pre-Depends": "",
@@ -3489,7 +3489,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.51-2.3+b1",
+    "Version": "4.51-3",
     "binary:Package": "lv",
     "binary:Summary": "Powerful Multilingual File Viewer",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lv",
-    "source:Version": "4.51-2.3"
+    "source:Version": "4.51-3"
   },
   {
     "Architecture": "amd64",
@@ -4122,7 +4122,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "109",
+    "Installed-Size": "89",
     "Origin": "",
     "Package": "readline-common",
     "Pre-Depends": "",
@@ -4133,15 +4133,15 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "6.3-8",
+    "Version": "7.0-1",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
-    "source:Package": "readline6",
-    "source:Version": "6.3-8"
+    "source:Package": "readline",
+    "source:Version": "7.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4514,7 +4514,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "321",
+    "Installed-Size": "272",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4525,7 +4525,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0003-1",
+    "Version": "2:8.0.0022-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4533,16 +4533,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0003-1"
+    "source:Version": "2:8.0.0022-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.0003-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.0022-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1059",
+    "Installed-Size": "1063",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.0003-1+b1",
+    "Version": "2:8.0.0022-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0003-1"
+    "source:Version": "2:8.0.0022-1"
   },
   {
     "Architecture": "amd64",
@@ -4598,7 +4598,7 @@
     "Depends": "libc6 (>= 2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "167",
+    "Installed-Size": "166",
     "Origin": "",
     "Package": "xxd",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0003-1+b1",
+    "Version": "2:8.0.0022-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0003-1"
+    "source:Version": "2:8.0.0022-1"
   },
   {
     "Architecture": "amd64",
