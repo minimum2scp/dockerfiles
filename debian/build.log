@@ -95,8 +95,8 @@ I: Retrieving libgcrypt20 1.7.3-1
 I: Validating libgcrypt20 1.7.3-1
 I: Retrieving libgpg-error0 1.24-1
 I: Validating libgpg-error0 1.24-1
-I: Retrieving libmnl0 1.0.4-1
-I: Validating libmnl0 1.0.4-1
+I: Retrieving libmnl0 1.0.4-2
+I: Validating libmnl0 1.0.4-2
 I: Retrieving libselinux1 2.5-3
 I: Validating libselinux1 2.5-3
 I: Retrieving libsemanage-common 2.5-1
@@ -423,7 +423,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (558 kB/s)
+Fetched 209 kB in 0s (1057 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -433,10 +433,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 236accc0889d
-Removing intermediate container 4f0f7b4b14e2
+ ---> 8cdd4bbb28cd
+Removing intermediate container 40eee9cab446
 Step 3 : CMD /bin/bash
- ---> Running in c3fd796665aa
- ---> 9f405b0308d9
-Removing intermediate container c3fd796665aa
-Successfully built 9f405b0308d9
+ ---> Running in ec733b2a3cc5
+ ---> 7b6a268d7c96
+Removing intermediate container ec733b2a3cc5
+Successfully built 7b6a268d7c96
