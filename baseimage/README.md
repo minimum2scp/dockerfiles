@@ -138,7 +138,7 @@ ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and
 ii   liblognorm5             2.0.1-1.1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.1.1alpha+20120614-2.1      amd64  XZ-format compression library
-ii   libmnl0                 1.0.4-1                      amd64  minimalistic Netlink communication library
+ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.28.2-1                     amd64  device mounting library
 ii   libncurses5             6.0+20160917-1               amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20160917-1               amd64  shared libraries for terminal handling (wide character support)

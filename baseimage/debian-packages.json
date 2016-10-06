@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "44",
+    "Installed-Size": "46",
     "Origin": "",
     "Package": "libmnl0",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.4-1",
+    "Version": "1.0.4-2",
     "binary:Package": "libmnl0:amd64",
     "binary:Summary": "minimalistic Netlink communication library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libmnl",
-    "source:Version": "1.0.4-1"
+    "source:Version": "1.0.4-2"
   },
   {
     "Architecture": "amd64",
