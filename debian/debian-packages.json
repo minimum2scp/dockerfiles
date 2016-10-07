@@ -1235,10 +1235,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "292",
+    "Installed-Size": "337",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.1.1alpha+20120614-2.1",
+    "Version": "5.2.2-1.1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.1.1alpha+20120614-2.1"
+    "source:Version": "5.2.2-1.1"
   },
   {
     "Architecture": "amd64",
