@@ -137,7 +137,7 @@ ii   libldap-2.4-2           2.4.42+dfsg-2+b3             amd64  OpenLDAP librar
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2                   amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.1.1alpha+20120614-2.1      amd64  XZ-format compression library
+ii   liblzma5                5.2.2-1.1                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.28.2-1                     amd64  device mounting library
 ii   libncurses5             6.0+20160917-1               amd64  shared libraries for terminal handling
@@ -208,7 +208,7 @@ ii   python-minimal          2.7.11-2                     amd64  minimal subset 
 ii   python2.7               2.7.12-3                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.12-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-1                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.21.0-1                     amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.22.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-8                      amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
