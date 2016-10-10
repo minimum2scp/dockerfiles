@@ -111,7 +111,7 @@ ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e c
 ii   libcomerr2              1.43.3-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.50.1-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.217                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.218                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries
 ii   libelf1                 0.166-2                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -121,7 +121,7 @@ ii   libfastjson4            0.99.4-1                     amd64  fast json libra
 ii   libfdisk1               2.28.2-1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.2.0-5                    amd64  GCC support library
-ii   libgcrypt20             1.7.3-1                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.3-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.4-2                      amd64  GNU TLS library - main runtime library
