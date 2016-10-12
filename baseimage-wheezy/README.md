@@ -71,7 +71,7 @@ ii   bsdutils                1:2.20.1-5.3               amd64  Basic utilities f
 ii   ca-certificates         20130119+deb7u1            all    Common CA certificates
 ii   coreutils               8.13-3.5                   amd64  GNU core utilities
 ii   cron                    3.0pl1-124                 amd64  process scheduling daemon
-ii   curl                    7.26.0-1+wheezy14          amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.26.0-1+wheezy16          amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-3                    amd64  POSIX-compliant shell
 ii   debconf                 1.5.49                     all    Debian configuration management system
 ii   debconf-i18n            1.5.49                     all    full internationalization support for debconf
@@ -108,8 +108,8 @@ ii   libc6                   2.13-38+deb7u11            amd64  Embedded GNU C Li
 ii   libcap2                 1:2.22-1.2                 amd64  support for getting/setting POSIX.1e capabilities
 ii   libclass-isa-perl       0.36-3                     all    report the search path for a class's ISA tree
 ii   libcomerr2              1.42.5-1.1+deb7u1          amd64  common error description library
-ii   libcurl3                7.26.0-1+wheezy14          amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.26.0-1+wheezy14          amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.26.0-1+wheezy16          amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.26.0-1+wheezy16          amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.1                5.1.29-5                   amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libedit2                2.11-20080614-5            amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1                     all    Perl module for error/exception handling in an OO-ish way
@@ -150,7 +150,7 @@ ii   libsepol1               2.1.4-3                    amd64  SELinux library f
 ii   libslang2               2.2.4-15                   amd64  S-Lang programming library - runtime version
 ii   libss2                  1.42.5-1.1+deb7u1          amd64  command-line interface parsing library
 ii   libssh2-1               1.4.2-1.1+deb7u2           amd64  SSH2 client-side library
-ii   libssl1.0.0             1.0.1e-2+deb7u21           amd64  SSL shared libraries
+ii   libssl1.0.0             1.0.1t-1+deb7u1            amd64  SSL shared libraries
 ii   libstdc++6              4.7.2-5                    amd64  GNU Standard C++ Library v3
 ii   libswitch-perl          2.16-2                     all    switch statement for Perl
 ii   libtasn1-3              2.13-2+deb7u3              amd64  Manage ASN.1 structures (runtime)
@@ -177,7 +177,7 @@ ii   net-tools               1.60-24.2                  amd64  The NET-3 network
 ii   netbase                 5.0                        all    Basic TCP/IP networking system
 ii   openssh-client          1:6.0p1-4+deb7u6           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:6.0p1-4+deb7u6           amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssl                 1.0.1e-2+deb7u21           amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
+ii   openssl                 1.0.1t-1+deb7u1            amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
 ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data
 ii   perl                    5.14.2-21+deb7u4           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.14.2-21+deb7u4           amd64  minimal Perl system

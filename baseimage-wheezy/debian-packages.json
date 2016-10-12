@@ -311,7 +311,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy14), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy16), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "365",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy14",
+    "Version": "7.26.0-1+wheezy16",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy14"
+    "source:Version": "7.26.0-1+wheezy16"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy14",
+    "Version": "7.26.0-1+wheezy16",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy14"
+    "source:Version": "7.26.0-1+wheezy16"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy14",
+    "Version": "7.26.0-1+wheezy16",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy14"
+    "source:Version": "7.26.0-1+wheezy16"
   },
   {
     "Architecture": "amd64",
@@ -2526,7 +2526,7 @@
     "Depends": "libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3046",
+    "Installed-Size": "3067",
     "Origin": "",
     "Package": "libssl1.0.0",
     "Pre-Depends": "multiarch-support",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.1e-2+deb7u21",
+    "Version": "1.0.1t-1+deb7u1",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "SSL shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u21"
+    "source:Version": "1.0.1t-1+deb7u1"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": "libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1e-2+deb7u20), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1083",
+    "Installed-Size": "1084",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1e-2+deb7u21",
+    "Version": "1.0.1t-1+deb7u1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Socket Layer (SSL) binary and related cryptographic tools",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1e-2+deb7u21"
+    "source:Version": "1.0.1t-1+deb7u1"
   },
   {
     "Architecture": "amd64",
