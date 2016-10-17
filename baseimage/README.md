@@ -103,9 +103,9 @@ ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library
 ii   libblkid1               2.28.2-1                     amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-3                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.24-3                       all    GNU C Library: localization files
-ii   libc6                   2.24-3                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-4                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.24-4                       all    GNU C Library: localization files
+ii   libc6                   2.24-4                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.3-1                     amd64  common error description library
@@ -124,7 +124,7 @@ ii   libgcc1                 1:6.2.0-6                    amd64  GCC support lib
 ii   libgcrypt20             1.7.3-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.4-2                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.5-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -143,7 +143,7 @@ ii   libmount1               2.28.2-1                     amd64  device mounting
 ii   libncurses5             6.0+20160917-1               amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20160917-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.18-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.15.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
@@ -156,9 +156,9 @@ ii   libpipeline1            1.4.1-2                      amd64  pipeline manipu
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-2                   amd64  library for accessing process information from /proc
 ii   libpython-stdlib        2.7.11-2                     amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.12-3                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.12-3                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
-ii   libreadline6            6.3-9                        amd64  GNU readline and history libraries, run-time libraries
+ii   libpython2.7-minimal    2.7.12-3+b1                  amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.12-3+b1                  amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libreadline7            7.0-1                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.26.dfsg1-15              amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.26.dfsg1-15              amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -181,7 +181,7 @@ ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string li
 ii   libuuid1                2.28.2-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.24-3                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.24-4                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3.2                    amd64  system login tools
 ii   lsb-base                9.20160629                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
@@ -189,7 +189,7 @@ ii   man-db                  2.7.5-1                      amd64  on-line manual 
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.28.2-1                     amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-3                       amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-4                       amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160917-1               all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160917-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
@@ -205,10 +205,10 @@ ii   perl-modules-5.24       5.24.1~rc3-3                 all    Core Perl modul
 ii   procps                  2:3.3.12-2                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.12-3                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.12-3                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.12-3+b1                  amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.12-3+b1                  amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-1                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.22.0-1                     amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.22.0-2                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-8                      amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
@@ -223,9 +223,9 @@ ii   unzip                   6.0-20                       amd64  De-archiver for
 ii   util-linux              2.28.2-1                     amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0022-1                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.0022-1                 amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.18-3                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0022-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-2+b1            amd64  compression library - runtime
-ii   zsh                     5.2-5                        amd64  shell with lots of features
+ii   zsh                     5.2-5+b1                     amd64  shell with lots of features
 ii   zsh-common              5.2-5                        all    architecture independent files for Zsh
 ```
