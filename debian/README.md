@@ -85,7 +85,7 @@ ii   libudev1                231-9                 amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5               amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1              amd64  Universally Unique ID library
 ii   login                   1:4.2-3.2             amd64  system login tools
-ii   lsb-base                9.20160629            all    Linux Standard Base init script functionality
+ii   lsb-base                9.20161016            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.28.2-1              amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-4                amd64  Transitional package to ensure multiarch compatibility

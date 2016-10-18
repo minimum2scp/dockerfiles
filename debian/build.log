@@ -105,8 +105,8 @@ I: Retrieving libsemanage1 2.5-1
 I: Validating libsemanage1 2.5-1
 I: Retrieving libsepol1 2.5-1
 I: Validating libsepol1 2.5-1
-I: Retrieving lsb-base 9.20160629
-I: Validating lsb-base 9.20160629
+I: Retrieving lsb-base 9.20161016
+I: Validating lsb-base 9.20161016
 I: Retrieving liblz4-1 0.0~r131-2
 I: Validating liblz4-1 0.0~r131-2
 I: Retrieving mawk 1.3.3-17
@@ -423,7 +423,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (882 kB/s)
+Fetched 209 kB in 0s (1162 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -433,10 +433,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 64e8d0dfd21e
-Removing intermediate container 00b9fc21039c
+ ---> 85d7cd2d1c01
+Removing intermediate container e96d4e236579
 Step 3 : CMD /bin/bash
- ---> Running in 357f6d5037b3
- ---> 0a82074a8469
-Removing intermediate container 357f6d5037b3
-Successfully built 0a82074a8469
+ ---> Running in 39b5f2171eea
+ ---> b289c2b3328b
+Removing intermediate container 39b5f2171eea
+Successfully built b289c2b3328b
