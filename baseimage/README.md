@@ -183,7 +183,7 @@ ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-4                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3.2                    amd64  system login tools
-ii   lsb-base                9.20160629                   all    Linux Standard Base init script functionality
+ii   lsb-base                9.20161016                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.5-1                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
