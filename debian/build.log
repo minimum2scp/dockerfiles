@@ -57,8 +57,8 @@ I: Retrieving libcomerr2 1.43.3-1
 I: Validating libcomerr2 1.43.3-1
 I: Retrieving libss2 1.43.3-1
 I: Validating libss2 1.43.3-1
-I: Retrieving libelf1 0.166-2
-I: Validating libelf1 0.166-2
+I: Retrieving libelf1 0.166-2.2
+I: Validating libelf1 0.166-2.2
 I: Retrieving findutils 4.6.0+git+20160703-2
 I: Validating findutils 4.6.0+git+20160703-2
 I: Retrieving gcc-5-base 5.4.1-2
@@ -69,12 +69,12 @@ I: Retrieving libgcc1 1:6.2.0-6
 I: Validating libgcc1 1:6.2.0-6
 I: Retrieving libstdc++6 6.2.0-6
 I: Validating libstdc++6 6.2.0-6
-I: Retrieving libc-bin 2.24-4
-I: Validating libc-bin 2.24-4
-I: Retrieving libc6 2.24-4
-I: Validating libc6 2.24-4
-I: Retrieving multiarch-support 2.24-4
-I: Validating multiarch-support 2.24-4
+I: Retrieving libc-bin 2.24-5
+I: Validating libc-bin 2.24-5
+I: Retrieving libc6 2.24-5
+I: Validating libc6 2.24-5
+I: Retrieving multiarch-support 2.24-5
+I: Validating multiarch-support 2.24-5
 I: Retrieving gpgv 2.1.15-4
 I: Validating gpgv 2.1.15-4
 I: Retrieving grep 2.26-1
@@ -423,7 +423,7 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [209 kB]
-Fetched 209 kB in 0s (1162 kB/s)
+Fetched 209 kB in 0s (1128 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -433,10 +433,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 85d7cd2d1c01
-Removing intermediate container e96d4e236579
+ ---> bd7a10c40e57
+Removing intermediate container 2baae749c650
 Step 3 : CMD /bin/bash
- ---> Running in 39b5f2171eea
- ---> b289c2b3328b
-Removing intermediate container 39b5f2171eea
-Successfully built b289c2b3328b
+ ---> Running in dcd625d7cff0
+ ---> 8cebbab112ae
+Removing intermediate container dcd625d7cff0
+Successfully built 8cebbab112ae
