@@ -103,9 +103,9 @@ ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library
 ii   libblkid1               2.28.2-1                     amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-4                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.24-4                       all    GNU C Library: localization files
-ii   libc6                   2.24-4                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-5                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.24-5                       all    GNU C Library: localization files
+ii   libc6                   2.24-5                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.3-1                     amd64  common error description library
@@ -113,7 +113,7 @@ ii   libcurl3-gnutls         7.50.1-1                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.218                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20150325-1+b1            amd64  BSD editline and history libraries
-ii   libelf1                 0.166-2                      amd64  library to read and write ELF files
+ii   libelf1                 0.166-2.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
@@ -168,7 +168,7 @@ ii   libsemanage1            2.5-1                        amd64  SELinux policy 
 ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.0-4.1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
-ii   libsqlite3-0            3.14.2-1+b1                  amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.15.0-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2j-1                     amd64  Secure Sockets Layer toolkit - shared libraries
@@ -181,7 +181,7 @@ ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string li
 ii   libuuid1                2.28.2-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.24-4                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.24-5                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3.2                    amd64  system login tools
 ii   lsb-base                9.20161016                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
@@ -189,7 +189,7 @@ ii   man-db                  2.7.5-1                      amd64  on-line manual 
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.28.2-1                     amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-4                       amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-5                       amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160917-1               all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160917-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
