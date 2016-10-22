@@ -1,8 +1,9 @@
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v6.3.0 is installed with [nodenv](https://github.com/nodenv/nodenv)
+ * node.js v6.9.1 is installed with [nodenv](https://github.com/nodenv/nodenv)
  * nodenv is installed in /opt/nodenv
+ * [yarn](https://yarnpkg.com/) is installed with deb package
 
 ## start container
 
@@ -49,13 +50,13 @@ debian     178   127  0 03:42 pts/0    R+     0:00              \_ ps -ef fww
 
 ## nodenv
 
-nvm is installed in `/opt/nodenv`, and enabled by `/etc/profile.d/nodenv.sh`.
+nodenv is installed in `/opt/nodenv`, and enabled by `/etc/profile.d/nodenv.sh`.
 
 If you need root privilege, use `sudo bash -lc "..."`.
 For example, install LTS version of nodejs:
 
 ```
-sudo bash -lc "nodenv install 4.3.2"
+sudo bash -lc "nodenv install 4.6.1"
 ```
 
 

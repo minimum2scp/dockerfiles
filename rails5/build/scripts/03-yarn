@@ -1,0 +1,18 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install yarn (https://yarnpkg.com/en/docs/install)
+##
+apt-get install -y --no-install-recommends gnupg dirmngr
+apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
+echo "deb http://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list
+if etckeeper unclean 1>/dev/null 2>/dev/null; then
+  etckeeper commit "add apt-key and apt-line for yarn"
+fi
+apt-get update
+apt-get install -y --no-install-recommends yarn
+
