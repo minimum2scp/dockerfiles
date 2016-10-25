@@ -6,6 +6,6 @@ RUN run-parts --report --exit-on-error /tmp/build/sphinx/scripts && rm -rfv /tmp
 EXPOSE 22
 
 USER debian
-ENTRYPOINT ["/opt/init-wrapper/sbin/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "-c"]
 CMD ["/bin/bash"]
 
