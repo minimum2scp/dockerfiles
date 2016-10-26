@@ -65,7 +65,7 @@ ii   apt                     1.3.1                        amd64  commandline pac
 ii   base-files              9.6                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.40                       amd64  Debian base system master password and group files
 ii   bash                    4.4-1                        amd64  GNU Bourne Again SHell
-ii   bsdmainutils            9.0.11                       amd64  collection of more utilities from FreeBSD
+ii   bsdmainutils            9.0.12                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.28.2-1                   amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20160104                     all    Common CA certificates
 ii   coreutils               8.25-2                       amd64  GNU core utilities
@@ -85,7 +85,7 @@ ii   gcc-5-base              5.4.1-3                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.2.0-9                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.10.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.10.1-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.15-4                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.15-5                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.26-1                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
@@ -124,7 +124,7 @@ ii   libgcc1                 1:6.2.0-9                    amd64  GCC support lib
 ii   libgcrypt20             1.7.3-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.5-2                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.5-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -144,7 +144,7 @@ ii   libncurses5             6.0+20160917-1               amd64  shared librarie
 ii   libncursesw5            6.0+20160917-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.15.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.16.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -160,8 +160,8 @@ ii   libpython2.7-minimal    2.7.12-3+b1                  amd64  Minimal subset 
 ii   libpython2.7-stdlib     2.7.12-3+b1                  amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-1                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.26.dfsg1-15              amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.26.dfsg1-15              amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libselinux1             2.5-3                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                        amd64  SELinux policy management library

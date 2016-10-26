@@ -146,7 +146,7 @@
     "Depends": "libbsd0 (>= 0.2.0), libc6 (>= 2.14), libncurses5 (>= 6), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "558",
+    "Installed-Size": "557",
     "Origin": "",
     "Package": "bsdmainutils",
     "Pre-Depends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "cpp, wamerican | wordlist, whois, vacation",
-    "Version": "9.0.11",
+    "Version": "9.0.12",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "9.0.11"
+    "source:Version": "9.0.12"
   },
   {
     "Architecture": "amd64",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.15-4",
+    "Version": "2.1.15-5",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.15-4"
+    "source:Version": "2.1.15-5"
   },
   {
     "Architecture": "amd64",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.5.5-2",
+    "Version": "3.5.5-4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.5.5-2"
+    "source:Version": "3.5.5-4"
   },
   {
     "Architecture": "amd64",
@@ -2358,7 +2358,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "205",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.15.0-1",
+    "Version": "1.16.0-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.15.0-1"
+    "source:Version": "1.16.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2803,21 +2803,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libc6 (>= 2.15), libsasl2-modules-db (>= 2.1.26.dfsg1-15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27~72-g88d82a3+dfsg-1), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "182",
+    "Installed-Size": "183",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.26.dfsg1-15)",
+    "Recommends": "libsasl2-modules (>= 2.1.27~72-g88d82a3+dfsg-1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.26.dfsg1-15",
+    "Version": "2.1.27~72-g88d82a3+dfsg-1",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2825,16 +2825,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.26.dfsg1-15"
+    "source:Version": "2.1.27~72-g88d82a3+dfsg-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libsasl2-2 (<< 2.1.26.dfsg1-2~)",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.14), libdb5.3",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "95",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -2845,7 +2845,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.26.dfsg1-15",
+    "Version": "2.1.27~72-g88d82a3+dfsg-1",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.26.dfsg1-15"
+    "source:Version": "2.1.27~72-g88d82a3+dfsg-1"
   },
   {
     "Architecture": "amd64",
