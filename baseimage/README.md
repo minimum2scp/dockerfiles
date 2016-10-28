@@ -85,7 +85,7 @@ ii   gcc-5-base              5.4.1-3                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.2.0-9                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.10.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.10.1-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.15-6                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.15-8                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.26-1                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
@@ -165,7 +165,7 @@ ii   libsasl2-modules-db     2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - pl
 ii   libselinux1             2.5-3                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.5-1                        amd64  SELinux policy management library
-ii   libsepol1               2.5-1                        amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               2.6-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.0-4.1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.15.0-1                     amd64  SQLite 3 shared library

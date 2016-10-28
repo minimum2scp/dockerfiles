@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.15-6",
+    "Version": "2.1.15-8",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.15-6"
+    "source:Version": "2.1.15-8"
   },
   {
     "Architecture": "amd64",
@@ -2946,7 +2946,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "644",
+    "Installed-Size": "653",
     "Origin": "",
     "Package": "libsepol1",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5-1",
+    "Version": "2.6-1",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "2.5-1"
+    "source:Version": "2.6-1"
   },
   {
     "Architecture": "amd64",
