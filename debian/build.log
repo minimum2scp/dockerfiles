@@ -74,8 +74,8 @@ I: Retrieving libc6 2.24-5
 I: Validating libc6 2.24-5
 I: Retrieving multiarch-support 2.24-5
 I: Validating multiarch-support 2.24-5
-I: Retrieving gpgv 2.1.15-6
-I: Validating gpgv 2.1.15-6
+I: Retrieving gpgv 2.1.15-8
+I: Validating gpgv 2.1.15-8
 I: Retrieving grep 2.26-1
 I: Validating grep 2.26-1
 I: Retrieving gzip 1.6-5
@@ -102,8 +102,8 @@ I: Retrieving libsemanage-common 2.5-1
 I: Validating libsemanage-common 2.5-1
 I: Retrieving libsemanage1 2.5-1
 I: Validating libsemanage1 2.5-1
-I: Retrieving libsepol1 2.5-1
-I: Validating libsepol1 2.5-1
+I: Retrieving libsepol1 2.6-1
+I: Validating libsepol1 2.6-1
 I: Retrieving lsb-base 9.20161016
 I: Validating lsb-base 9.20161016
 I: Retrieving liblz4-1 0.0~r131-2
@@ -431,10 +431,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> f4f287180f06
-Removing intermediate container 17d8614fbc35
+ ---> a9b8c4d419ad
+Removing intermediate container fa7d1488f64b
 Step 3 : CMD /bin/bash
- ---> Running in 13208b3163c0
- ---> c3c25c9a440a
-Removing intermediate container 13208b3163c0
-Successfully built c3c25c9a440a
+ ---> Running in 40c7dce4006f
+ ---> 2ac0df82cc9d
+Removing intermediate container 40c7dce4006f
+Successfully built 2ac0df82cc9d
