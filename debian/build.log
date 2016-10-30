@@ -98,10 +98,10 @@ I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
 I: Retrieving libselinux1 2.6-1
 I: Validating libselinux1 2.6-1
-I: Retrieving libsemanage-common 2.5-1
-I: Validating libsemanage-common 2.5-1
-I: Retrieving libsemanage1 2.5-1
-I: Validating libsemanage1 2.5-1
+I: Retrieving libsemanage-common 2.6-1
+I: Validating libsemanage-common 2.6-1
+I: Retrieving libsemanage1 2.6-1
+I: Validating libsemanage1 2.6-1
 I: Retrieving libsepol1 2.6-1
 I: Validating libsepol1 2.6-1
 I: Retrieving lsb-base 9.20161016
@@ -431,10 +431,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> de55a59127e0
-Removing intermediate container 6f5289ee6869
+ ---> 23b471ccf934
+Removing intermediate container 4c451d6cd3a9
 Step 3 : CMD /bin/bash
- ---> Running in 19d13b2e1e95
- ---> be91b8ffbb91
-Removing intermediate container 19d13b2e1e95
-Successfully built be91b8ffbb91
+ ---> Running in 11a9f385b842
+ ---> 4b95d55f332c
+Removing intermediate container 11a9f385b842
+Successfully built 4b95d55f332c
