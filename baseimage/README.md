@@ -163,8 +163,8 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTM
 ii   libsasl2-2              2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libselinux1             2.6-1                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.5-1                        all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.5-1                        amd64  SELinux policy management library
+ii   libsemanage-common      2.6-1                        all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.6-1                        amd64  SELinux policy management library
 ii   libsepol1               2.6-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.0-4.1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
