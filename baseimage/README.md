@@ -124,7 +124,7 @@ ii   libgcc1                 1:6.2.0-10                   amd64  GCC support lib
 ii   libgcrypt20             1.7.3-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.5-4                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.5-6                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.24-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.14.3+dfsg-2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -216,7 +216,7 @@ ii   sudo                    1.8.17p1-2                   amd64  Provide limited
 ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.8                 amd64  System-V-like utilities
-ii   tar                     1.29b-1                      amd64  GNU version of the tar archiving utility
+ii   tar                     1.29b-1.1                    amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016h-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files
