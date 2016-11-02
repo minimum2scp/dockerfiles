@@ -166,12 +166,13 @@ ii   libselinux1             2.6-1                        amd64  SELinux runtime
 ii   libsemanage-common      2.6-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-1                        amd64  SELinux policy management library
 ii   libsepol1               2.6-1                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.0-4.1                    amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.1-1                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.15.0-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2j-1                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2j-3                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0b-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-10                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             231-10                       amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
@@ -183,7 +184,7 @@ ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-5                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3.2                    amd64  system login tools
-ii   lsb-base                9.20161016                   all    Linux Standard Base init script functionality
+ii   lsb-base                9.20161101                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.5-1                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
@@ -197,7 +198,7 @@ ii   netbase                 5.3                          all    Basic TCP/IP ne
 ii   openssh-client          1:7.3p1-2                    amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.3p1-2                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.3p1-2                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.0.2j-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0b-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc3-3                 amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1~rc3-3                 amd64  minimal Perl system
@@ -225,7 +226,7 @@ ii   vim-common              2:8.0.0022-1                 all    Vi IMproved - C
 ii   vim-tiny                2:8.0.0022-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0022-1                 amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.8.dfsg-2+b1            amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-2+b3            amd64  compression library - runtime
 ii   zsh                     5.2-5+b1                     amd64  shell with lots of features
 ii   zsh-common              5.2-5                        all    architecture independent files for Zsh
 ```
