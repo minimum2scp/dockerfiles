@@ -5,6 +5,11 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
+## install libssl1.0-dev (openssl 1.0.x) instead of libssl-dev (openssl 1.1.0)
+##
+apt-get install -y libssl1.0-dev
+
+##
 ## setup geminabox
 ##
 sudo -H -u debian /tmp/build/geminabox/user-scripts/setup-geminabox.sh
