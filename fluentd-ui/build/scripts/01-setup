@@ -29,9 +29,6 @@ fi
 install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/gemrc /etc/gemrc
 etckeeper commit "gemrc: do not install document on gem install, gem update"
 
-## install libssl1.0-dev (openssl 1.0.0) instead of libssl-dev (openssl 1.1.0)
-apt-get install -y libssl1.0-dev
-
 ## install fluentd-ui in /opt/fluentd-ui
 git clone https://github.com/fluent/fluentd-ui.git -b v0.4.2 /opt/fluentd-ui
 chown -R td-agent:td-agent /opt/fluentd-ui
