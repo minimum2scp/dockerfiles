@@ -85,7 +85,7 @@ ii   libudev1                231-10                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5               amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1              amd64  Universally Unique ID library
 ii   login                   1:4.2-3.2             amd64  system login tools
-ii   lsb-base                9.20161016            all    Linux Standard Base init script functionality
+ii   lsb-base                9.20161101            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.28.2-1              amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-5                amd64  Transitional package to ensure multiarch compatibility
@@ -100,5 +100,5 @@ ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilitie
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016h-1               all    time zone and daylight-saving time data
 ii   util-linux              2.28.2-1              amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.8.dfsg-2+b1     amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-2+b3     amd64  compression library - runtime
 ```
