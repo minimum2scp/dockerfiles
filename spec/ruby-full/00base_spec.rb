@@ -28,7 +28,8 @@ describe 'minimum2scp/ruby-full' do
         gems: [
           {name: 'bundler', version: '1.13.6'},
           {name: 'pry'}
-        ]
+        ],
+        openssl_version: '1.1.0'
       },
       {
         ruby: '2.3.1',
@@ -36,7 +37,8 @@ describe 'minimum2scp/ruby-full' do
         gems: [
           {name: 'bundler', version: '1.13.6'},
           {name: 'pry'}
-        ]
+        ],
+        openssl_version: '1.0.2'
       },
       {
         ruby: '2.2.5',
@@ -44,7 +46,8 @@ describe 'minimum2scp/ruby-full' do
         gems: [
           {name: 'bundler', version: '1.13.6'},
           {name: 'pry'}
-        ]
+        ],
+        openssl_version: '1.0.2'
       },
       {
         ruby: '2.1.10',
@@ -52,7 +55,8 @@ describe 'minimum2scp/ruby-full' do
         gems: [
           {name: 'bundler', version: '1.13.6'},
           {name: 'pry'}
-        ]
+        ],
+        openssl_version: '1.0.2'
       },
     ].each do |v|
       describe command("rbenv versions --bare --skip-aliases") do
@@ -74,6 +78,11 @@ describe 'minimum2scp/ruby-full' do
             its(:stdout){ should match /^#{gem[:name]} / }
           end
         end
+      end
+
+      describe command("RBENV_VERSION=#{v[:ruby]} ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'") do
+        let(:login_shell){ true }
+        its(:stdout){ should match /^OpenSSL #{Regexp.quote(v[:openssl_version])}/ }
       end
     end
 
