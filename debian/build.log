@@ -62,12 +62,12 @@ I: Retrieving findutils 4.6.0+git+20160703-2
 I: Validating findutils 4.6.0+git+20160703-2
 I: Retrieving gcc-5-base 5.4.1-3
 I: Validating gcc-5-base 5.4.1-3
-I: Retrieving gcc-6-base 6.2.0-10
-I: Validating gcc-6-base 6.2.0-10
-I: Retrieving libgcc1 1:6.2.0-10
-I: Validating libgcc1 1:6.2.0-10
-I: Retrieving libstdc++6 6.2.0-10
-I: Validating libstdc++6 6.2.0-10
+I: Retrieving gcc-6-base 6.2.0-11
+I: Validating gcc-6-base 6.2.0-11
+I: Retrieving libgcc1 1:6.2.0-11
+I: Validating libgcc1 1:6.2.0-11
+I: Retrieving libstdc++6 6.2.0-11
+I: Validating libstdc++6 6.2.0-11
 I: Retrieving libc-bin 2.24-5
 I: Validating libc-bin 2.24-5
 I: Retrieving libc6 2.24-5
@@ -431,10 +431,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 6da8ce968bfe
-Removing intermediate container 86cb129cfc0b
+ ---> e97bc2402c59
+Removing intermediate container 3add184781b4
 Step 3 : CMD /bin/bash
- ---> Running in 423dacff72f0
- ---> ffd708843f08
-Removing intermediate container 423dacff72f0
-Successfully built ffd708843f08
+ ---> Running in d8c2a8c00326
+ ---> 998f266d761d
+Removing intermediate container d8c2a8c00326
+Successfully built 998f266d761d
