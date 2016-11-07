@@ -76,7 +76,7 @@ ii   debconf                 1.5.59                       all    Debian configur
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                      amd64  File comparison utilities
-ii   dpkg                    1.18.10                      amd64  Debian package management system
+ii   dpkg                    1.18.13                      amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
@@ -91,7 +91,7 @@ ii   groff-base              1.22.3-8                     amd64  GNU troff text-
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                 amd64  ICMP echo tool
-ii   init-system-helpers     1.45                         all    helper tools for all init systems
+ii   init-system-helpers     1.46                         all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.8.0-1                      amd64  networking and traffic control tools
@@ -162,22 +162,22 @@ ii   libreadline7            7.0-1                        amd64  GNU readline an
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~72-g88d82a3+dfsg-1    amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libselinux1             2.6-1                        amd64  SELinux runtime shared libraries
+ii   libselinux1             2.6-2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-1                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-1                        amd64  SELinux policy management library
 ii   libsepol1               2.6-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.28.2-1                     amd64  smart column output alignment library
-ii   libsqlite3-0            3.15.0-1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.15.1-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2j-3                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2j-4                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0b-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.0-11                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-1                        amd64  systemd utility library
+ii   libsystemd0             232-2                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160917-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-1                        amd64  libudev shared library
+ii   libudev1                232-2                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.28.2-1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
@@ -195,9 +195,9 @@ ii   ncurses-base            6.0+20160917-1               all    basic terminal 
 ii   ncurses-bin             6.0+20160917-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2   amd64  NET-3 networking toolkit
 ii   netbase                 5.3                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.3p1-3                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.3p1-3                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.3p1-3                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.3p1-3+b1                 amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.3p1-3+b1                 amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.3p1-3+b1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0b-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc3-3                 amd64  Larry Wall's Practical Extraction and Report Language
@@ -218,7 +218,7 @@ ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like r
 ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.8                 amd64  System-V-like utilities
 ii   tar                     1.29b-1.1                    amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016h-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2016i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files
 ii   util-linux              2.28.2-1                     amd64  miscellaneous system utilities
