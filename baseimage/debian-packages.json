@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6-2",
+    "Version": "2.6-3",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "2.6-2"
+    "source:Version": "2.6-3"
   },
   {
     "Architecture": "all",
