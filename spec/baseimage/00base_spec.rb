@@ -13,6 +13,22 @@ describe 'minimum2scp/baseimage' do
       stop_container
     end
 
+    ## no merged usr
+    ## https://wiki.debian.org/UsrMerge
+    ## https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=839046
+    %w[/bin /lib /lib64 /sbin].each do |dir|
+      describe file(dir) do
+        it { should be_directory }
+        it { should_not be_symlink }
+      end
+    end
+    %w[/lib32 /libx32].each do |dir|
+      describe file(dir) do
+        it { should_not be_directory }
+        it { should_not be_symlink }
+      end
+    end
+
     describe file('/etc/apt/sources.list') do
       apt_line_re = ->(enabled, type, uri, suite, *components) {
         /^#{enabled ? '' : '#'}#{type}\s+#{Regexp.quote(uri)}\s+#{suite}\s+#{components.join('\s+')}$/
