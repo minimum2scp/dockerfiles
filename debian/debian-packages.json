@@ -174,10 +174,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "14783",
+    "Installed-Size": "14642",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13), multiarch-support",
+    "Pre-Depends": "libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.25-2",
+    "Version": "8.25-2+b1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -342,7 +342,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6659",
+    "Installed-Size": "6661",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.18.13",
+    "Version": "1.18.14",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.13"
+    "source:Version": "1.18.14"
   },
   {
     "Architecture": "amd64",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.15-8",
+    "Version": "2.1.15-9",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.15-8"
+    "source:Version": "2.1.15-9"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.24-1",
+    "Version": "1.24-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.24-1"
+    "source:Version": "1.24-2"
   },
   {
     "Architecture": "amd64",
