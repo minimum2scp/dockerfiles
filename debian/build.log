@@ -24,8 +24,8 @@ I: Retrieving libaudit1 1:2.6.7-1
 I: Validating libaudit1 1:2.6.7-1
 I: Retrieving base-files 9.6
 I: Validating base-files 9.6
-I: Retrieving base-passwd 3.5.40
-I: Validating base-passwd 3.5.40
+I: Retrieving base-passwd 3.5.41
+I: Validating base-passwd 3.5.41
 I: Retrieving bash 4.4-1
 I: Validating bash 4.4-1
 I: Retrieving libbz2-1.0 1.0.6-8
@@ -431,10 +431,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 6d66b866fb6c
-Removing intermediate container 15eace92790a
+ ---> d6efd76263dc
+Removing intermediate container a848f924a9b8
 Step 3 : CMD /bin/bash
- ---> Running in fd2a7ead7c56
- ---> 072cfe51ab1a
-Removing intermediate container fd2a7ead7c56
-Successfully built 072cfe51ab1a
+ ---> Running in dbc04ed016c2
+ ---> bab53078d35d
+Removing intermediate container dbc04ed016c2
+Successfully built bab53078d35d
