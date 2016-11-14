@@ -71,7 +71,7 @@ ii   bsdutils                1:2.25.2-6                 amd64  basic utilities f
 ii   ca-certificates         20141019+deb8u1            all    Common CA certificates
 ii   coreutils               8.23-4                     amd64  GNU core utilities
 ii   cron                    3.0pl1-127+deb8u1          amd64  process scheduling daemon
-ii   curl                    7.38.0-4+deb8u4            amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.38.0-4+deb8u5            amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                 amd64  POSIX-compliant shell
 ii   debconf                 1.5.56                     all    Debian configuration management system
 ii   debconf-i18n            1.5.56                     all    full internationalization support for debconf
@@ -114,8 +114,8 @@ ii   libcap2                 1:2.24-8                   amd64  POSIX 1003.1e cap
 ii   libcap2-bin             1:2.24-8                   amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcomerr2              1.42.12-2                  amd64  common error description library
 ii   libcryptsetup4          2:1.6.6-5                  amd64  disk encryption support - shared library
-ii   libcurl3                7.38.0-4+deb8u4            amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.38.0-4+deb8u4            amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.38.0-4+deb8u5            amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.38.0-4+deb8u5            amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-9                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.192                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1       amd64  Linux Kernel Device Mapper userspace library
@@ -214,8 +214,8 @@ ii   sudo                    1.8.10p3-1+deb8u3          amd64  Provide limited s
 ii   sysv-rc                 2.88dsf-59                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59                 amd64  System-V-like utilities
-ii   tar                     1.27.1-2+b1                amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016f-0+deb8u1             all    time zone and daylight-saving time data
+ii   tar                     1.27.1-2+deb8u1            amd64  GNU version of the tar archiving utility
+ii   tzdata                  2016i-0+deb8u1             all    time zone and daylight-saving time data
 ii   ucf                     3.0030                     all    Update Configuration File(s): preserve user changes to config files
 ii   udev                    215-17+deb8u5              amd64  /dev/ and hotplug management daemon
 ii   unzip                   6.0-16+deb8u2              amd64  De-archiver for .zip files
