@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5786",
+    "Installed-Size": "5798",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libtinfo5 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.4-1",
+    "Version": "4.4-2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.4-1"
+    "source:Version": "4.4-2"
   },
   {
     "Architecture": "amd64",
@@ -454,7 +454,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6661",
+    "Installed-Size": "6664",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -465,7 +465,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt",
-    "Version": "1.18.14",
+    "Version": "1.18.15",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.14"
+    "source:Version": "1.18.15"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "570",
+    "Installed-Size": "571",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.24-2",
+    "Version": "1.25-1",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.24-2"
+    "source:Version": "1.25-1"
   },
   {
     "Architecture": "amd64",

@@ -64,7 +64,7 @@ ii   adduser                 3.115                        all    add and remove 
 ii   apt                     1.3.1                        amd64  commandline package manager
 ii   base-files              9.6                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.41                       amd64  Debian base system master password and group files
-ii   bash                    4.4-1                        amd64  GNU Bourne Again SHell
+ii   bash                    4.4-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29-1                     amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161102                     all    Common CA certificates
@@ -76,7 +76,7 @@ ii   debconf                 1.5.59                       all    Debian configur
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                      amd64  File comparison utilities
-ii   dpkg                    1.18.14                      amd64  Debian package management system
+ii   dpkg                    1.18.15                      amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
@@ -125,7 +125,7 @@ ii   libgcrypt20             1.7.3-2                      amd64  LGPL Crypto lib
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.6-4                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.24-2                       amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.25-1                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15~beta1-1                 amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1                       amd64  GNU Libidn library, implementation of IETF IDN specifications
