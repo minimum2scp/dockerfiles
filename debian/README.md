@@ -22,7 +22,7 @@ ii   adduser                 3.115                 all    add and remove users a
 ii   apt                     1.3.1                 amd64  commandline package manager
 ii   base-files              9.6                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.41                amd64  Debian base system master password and group files
-ii   bash                    4.4-1                 amd64  GNU Bourne Again SHell
+ii   bash                    4.4-2                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29-1              amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.25-2+b1             amd64  GNU core utilities
 ii   dash                    0.5.8-2.3             amd64  POSIX-compliant shell
@@ -30,7 +30,7 @@ ii   debconf                 1.5.59                all    Debian configuration m
 ii   debian-archive-keyring  2014.3                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8                   amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1               amd64  File comparison utilities
-ii   dpkg                    1.18.14               amd64  Debian package management system
+ii   dpkg                    1.18.15               amd64  Debian package management system
 ii   e2fslibs                1.43.3-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-1  amd64  utilities for finding files--find, xargs
@@ -60,7 +60,7 @@ ii   libelf1                 0.166-2.2             amd64  library to read and wr
 ii   libfdisk1               2.29-1                amd64  fdisk partitioning library
 ii   libgcc1                 1:6.2.0-13            amd64  GCC support library
 ii   libgcrypt20             1.7.3-2               amd64  LGPL Crypto library - runtime library
-ii   libgpg-error0           1.24-2                amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.25-1                amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
