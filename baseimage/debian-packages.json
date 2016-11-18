@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8",
+    "Version": "4.8.1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.8"
+    "source:Version": "4.8.1"
   },
   {
     "Architecture": "amd64",
@@ -4178,7 +4178,7 @@
     "Depends": "libc6 (>= 2.17), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.3), liblogging-stdlog0 (>= 1.0.2), liblognorm5 (>= 1.1.2), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.18~), lsb-base (>= 3.2-14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1495",
+    "Installed-Size": "1500",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4189,7 +4189,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.22.0-2+b1",
+    "Version": "8.23.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.22.0-2"
+    "source:Version": "8.23.0-1"
   },
   {
     "Architecture": "amd64",

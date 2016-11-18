@@ -74,7 +74,7 @@ ii   curl                    7.51.0-1                     amd64  command line to
 ii   dash                    0.5.8-2.3                    amd64  POSIX-compliant shell
 ii   debconf                 1.5.59                       all    Debian configuration management system
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.8                          amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8.1                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                      amd64  File comparison utilities
 ii   dpkg                    1.18.15                      amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
@@ -209,7 +209,7 @@ ii   python-minimal          2.7.11-2                     amd64  minimal subset 
 ii   python2.7               2.7.12-5                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.12-5                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-1                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.22.0-2+b1                  amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.23.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-8                      amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
