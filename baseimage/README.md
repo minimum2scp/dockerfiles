@@ -85,7 +85,7 @@ ii   gcc-5-base              5.4.1-3                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.2.1-4                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.10.2-3                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.10.2-3                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.15-9                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.16-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.26-1                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
@@ -174,10 +174,10 @@ ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-sid
 ii   libssl1.0.2             1.0.2j-4                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.2.1-4                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-3                        amd64  systemd utility library
+ii   libsystemd0             232-6                        amd64  systemd utility library
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160917-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-3                        amd64  libudev shared library
+ii   libudev1                232-6                        amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
 ii   libuuid1                2.29-1                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
@@ -186,7 +186,7 @@ ii   locales                 2.24-5                       all    GNU C Library: 
 ii   login                   1:4.2-3.2                    amd64  system login tools
 ii   lsb-base                9.20161101                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.5-1                      amd64  on-line manual pager
+ii   man-db                  2.7.5-2                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29-1                       amd64  tools for mounting and manipulating filesystems

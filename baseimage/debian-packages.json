@@ -706,7 +706,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "585",
+    "Installed-Size": "615",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.15-9",
+    "Version": "2.1.16-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.15-9"
+    "source:Version": "2.1.16-1"
   },
   {
     "Architecture": "amd64",
@@ -3198,10 +3198,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "641",
+    "Installed-Size": "646",
     "Origin": "",
     "Package": "libsystemd0",
-    "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.1.9)",
+    "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.1.9)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-3",
+    "Version": "232-6",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-3"
+    "source:Version": "232-6"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "215",
+    "Installed-Size": "216",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-3",
+    "Version": "232-6",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-3"
+    "source:Version": "232-6"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, libc6 (>= 2.17), libgdbm3 (>= 1.8.3), libpipeline1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2174",
+    "Installed-Size": "2167",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3545,7 +3545,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "groff, less, www-browser",
-    "Version": "2.7.5-1",
+    "Version": "2.7.5-2",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.7.5-1"
+    "source:Version": "2.7.5-2"
   },
   {
     "Architecture": "amd64",
