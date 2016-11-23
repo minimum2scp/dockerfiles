@@ -157,7 +157,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.2+dfsg-0.1+deb7u3",
+    "Version": "4.2+dfsg-0.1+deb7u4",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "bash",
-    "source:Version": "4.2+dfsg-0.1+deb7u3"
+    "source:Version": "4.2+dfsg-0.1+deb7u4"
   },
   {
     "Architecture": "amd64",
@@ -311,10 +311,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy16), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy17), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "365",
+    "Installed-Size": "367",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy16",
+    "Version": "7.26.0-1+wheezy17",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy16"
+    "source:Version": "7.26.0-1+wheezy17"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1350,7 @@
     "Depends": "libc6 (>= 2.11), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "601",
+    "Installed-Size": "603",
     "Origin": "",
     "Package": "libcurl3",
     "Pre-Depends": "multiarch-support",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy16",
+    "Version": "7.26.0-1+wheezy17",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy16"
+    "source:Version": "7.26.0-1+wheezy17"
   },
   {
     "Architecture": "amd64",
@@ -1378,7 +1378,7 @@
     "Depends": "libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "581",
+    "Installed-Size": "582",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "multiarch-support",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy16",
+    "Version": "7.26.0-1+wheezy17",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy16"
+    "source:Version": "7.26.0-1+wheezy17"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.11), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1587",
+    "Installed-Size": "1838",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.5p2-1+nmu3+deb7u1",
+    "Version": "1.8.5p2-1+nmu3+deb7u2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "sudo",
-    "source:Version": "1.8.5p2-1+nmu3+deb7u1"
+    "source:Version": "1.8.5p2-1+nmu3+deb7u2"
   },
   {
     "Architecture": "all",
@@ -3685,7 +3685,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils",
-    "Version": "1.26+dfsg-0.1",
+    "Version": "1.26+dfsg-0.1+deb7u1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tar",
-    "source:Version": "1.26+dfsg-0.1"
+    "source:Version": "1.26+dfsg-0.1+deb7u1"
   },
   {
     "Architecture": "all",
@@ -3702,7 +3702,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1625",
+    "Installed-Size": "1614",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -3710,10 +3710,10 @@
     "Provides": "tzdata-wheezy",
     "Recommends": "",
     "Replace": "",
-    "Section": "localization",
+    "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2016d-0+deb7u1",
+    "Version": "2016i-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2016d-0+deb7u1"
+    "source:Version": "2016i-0+deb7u1"
   },
   {
     "Architecture": "all",
@@ -3825,7 +3825,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:7.3.547-7",
+    "Version": "2:7.3.547-7+deb7u1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7"
+    "source:Version": "2:7.3.547-7+deb7u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:7.3.547-7), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
+    "Depends": "vim-common (= 2:7.3.547-7+deb7u1), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "830",
@@ -3853,7 +3853,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:7.3.547-7",
+    "Version": "2:7.3.547-7+deb7u1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7"
+    "source:Version": "2:7.3.547-7+deb7u1"
   },
   {
     "Architecture": "amd64",

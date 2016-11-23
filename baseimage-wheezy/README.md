@@ -65,13 +65,13 @@ ii   apt                     0.9.7.9+deb7u7             amd64  commandline packa
 ii   apt-utils               0.9.7.9+deb7u7             amd64  package managment related utility programs
 ii   base-files              7.1wheezy11                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.26                     amd64  Debian base system master password and group files
-ii   bash                    4.2+dfsg-0.1+deb7u3        amd64  GNU Bourne Again SHell
+ii   bash                    4.2+dfsg-0.1+deb7u4        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.3                      amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.20.1-5.3               amd64  Basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20130119+deb7u1            all    Common CA certificates
 ii   coreutils               8.13-3.5                   amd64  GNU core utilities
 ii   cron                    3.0pl1-124                 amd64  process scheduling daemon
-ii   curl                    7.26.0-1+wheezy16          amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.26.0-1+wheezy17          amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-3                    amd64  POSIX-compliant shell
 ii   debconf                 1.5.49                     all    Debian configuration management system
 ii   debconf-i18n            1.5.49                     all    full internationalization support for debconf
@@ -108,8 +108,8 @@ ii   libc6                   2.13-38+deb7u11            amd64  Embedded GNU C Li
 ii   libcap2                 1:2.22-1.2                 amd64  support for getting/setting POSIX.1e capabilities
 ii   libclass-isa-perl       0.36-3                     all    report the search path for a class's ISA tree
 ii   libcomerr2              1.42.5-1.1+deb7u1          amd64  common error description library
-ii   libcurl3                7.26.0-1+wheezy16          amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.26.0-1+wheezy16          amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.26.0-1+wheezy17          amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.26.0-1+wheezy17          amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.1                5.1.29-5                   amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libedit2                2.11-20080614-5            amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1                     all    Perl module for error/exception handling in an OO-ish way
@@ -187,17 +187,17 @@ ii   readline-common         6.2+dfsg-0.1               all    GNU readline and 
 ii   rsyslog                 5.8.11-3+deb7u2            amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.1-10                   amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.7                      all    Utilities for sensible alternative selection
-ii   sudo                    1.8.5p2-1+nmu3+deb7u1      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.5p2-1+nmu3+deb7u2      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-41+deb7u1          all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1          amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1          amd64  System-V-like utilities
-ii   tar                     1.26+dfsg-0.1              amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016d-0+deb7u1             all    time zone and daylight-saving time data
+ii   tar                     1.26+dfsg-0.1+deb7u1       amd64  GNU version of the tar archiving utility
+ii   tzdata                  2016i-0+deb7u1             all    time zone and daylight-saving time data
 ii   ucf                     3.0025+nmu3                all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u5               amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                 amd64  Miscellaneous system utilities
-ii   vim-common              2:7.3.547-7                amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.3.547-7                amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.3.547-7+deb7u1         amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.3.547-7+deb7u1         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.14-11.1               amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xz-utils                5.1.1alpha+20120614-2      amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13            amd64  compression library - runtime
