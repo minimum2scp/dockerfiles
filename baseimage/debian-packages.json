@@ -2047,10 +2047,10 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.3), libsasl2-2",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (= 2.4.44+dfsg-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "518",
+    "Installed-Size": "508",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.42+dfsg-2+b3",
+    "Version": "2.4.44+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,35 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.42+dfsg-2"
+    "source:Version": "2.4.44+dfsg-1"
+  },
+  {
+    "Architecture": "all",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "107",
+    "Origin": "",
+    "Package": "libldap-common",
+    "Pre-Depends": "",
+    "Priority": "standard",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "2.4.44+dfsg-1",
+    "binary:Package": "libldap-common",
+    "binary:Summary": "OpenLDAP common files for libraries",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "openldap",
+    "source:Version": "2.4.44+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -2635,7 +2663,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libsystemd0",
+    "Depends": "libc6 (>= 2.14), libsystemd0 (>= 209)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "117",
@@ -2649,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.12-2",
+    "Version": "2:3.3.12-3",
     "binary:Package": "libprocps6:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.12-2"
+    "source:Version": "2:3.3.12-3"
   },
   {
     "Architecture": "amd64",
@@ -4010,7 +4038,7 @@
     "Depends": "libc6 (>= 2.15), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps6, libtinfo5 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "694",
+    "Installed-Size": "690",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4021,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.12-2",
+    "Version": "2:3.3.12-3",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.12-2"
+    "source:Version": "2:3.3.12-3"
   },
   {
     "Architecture": "amd64",
@@ -4542,7 +4570,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "272",
+    "Installed-Size": "274",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4553,7 +4581,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0049-1",
+    "Version": "2:8.0.0095-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4561,13 +4589,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0049-1"
+    "source:Version": "2:8.0.0095-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.0049-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.0095-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1063",
@@ -4581,7 +4609,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.0049-1",
+    "Version": "2:8.0.0095-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0049-1"
+    "source:Version": "2:8.0.0095-1"
   },
   {
     "Architecture": "amd64",
@@ -4637,7 +4665,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0049-1",
+    "Version": "2:8.0.0095-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0049-1"
+    "source:Version": "2:8.0.0095-1"
   },
   {
     "Architecture": "amd64",

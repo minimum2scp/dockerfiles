@@ -133,7 +133,8 @@ ii   libk5crypto3            1.15~beta1-1                 amd64  MIT Kerberos ru
 ii   libkeyutils1            1.5.9-9                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15~beta1-1                 amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15~beta1-1                 amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.42+dfsg-2+b3             amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.44+dfsg-1                amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-1                all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2                      amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2                   amd64  Fast LZ compression algorithm library - runtime
@@ -154,7 +155,7 @@ ii   libpcre3                2:8.39-2                     amd64  Old Perl 5 Comp
 ii   libperl5.24             5.24.1~rc3-3                 amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
-ii   libprocps6              2:3.3.12-2                   amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.12-3                   amd64  library for accessing process information from /proc
 ii   libpython-stdlib        2.7.11-2                     amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.12-7                     amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.12-7                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -203,7 +204,7 @@ ii   passwd                  1:4.2-3.2                    amd64  change and admi
 ii   perl                    5.24.1~rc3-3                 amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1~rc3-3                 amd64  minimal Perl system
 ii   perl-modules-5.24       5.24.1~rc3-3                 all    Core Perl modules
-ii   procps                  2:3.3.12-2                   amd64  /proc file system utilities
+ii   procps                  2:3.3.12-3                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
 ii   python2.7               2.7.12-7                     amd64  Interactive high-level object-oriented language (version 2.7)
@@ -222,10 +223,10 @@ ii   tzdata                  2016i-1                      all    time zone and d
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-20                       amd64  De-archiver for .zip files
 ii   util-linux              2.29-1                       amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.0049-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0049-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.0095-1                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.0095-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0049-1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0095-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-2+b3            amd64  compression library - runtime
 ii   zsh                     5.2-5+b1                     amd64  shell with lots of features
 ii   zsh-common              5.2-5                        all    architecture independent files for Zsh
