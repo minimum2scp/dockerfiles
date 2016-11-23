@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     0.9.7.9+deb7u7         amd64  commandline package manager
 ii   base-files              7.1wheezy11            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.26                 amd64  Debian base system master password and group files
-ii   bash                    4.2+dfsg-0.1+deb7u3    amd64  GNU Bourne Again SHell
+ii   bash                    4.2+dfsg-0.1+deb7u4    amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.20.1-5.3           amd64  Basic utilities from 4.4BSD-Lite
 ii   coreutils               8.13-3.5               amd64  GNU core utilities
 ii   dash                    0.5.7-3                amd64  POSIX-compliant shell
@@ -93,8 +93,8 @@ ii   sensible-utils          0.0.7                  all    Utilities for sensibl
 ii   sysv-rc                 2.88dsf-41+deb7u1      all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1      amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1      amd64  System-V-like utilities
-ii   tar                     1.26+dfsg-0.1          amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016d-0+deb7u1         all    time zone and daylight-saving time data
+ii   tar                     1.26+dfsg-0.1+deb7u1   amd64  GNU version of the tar archiving utility
+ii   tzdata                  2016i-0+deb7u1         all    time zone and daylight-saving time data
 ii   util-linux              2.20.1-5.3             amd64  Miscellaneous system utilities
 ii   xz-utils                5.1.1alpha+20120614-2  amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13        amd64  compression library - runtime

@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.2+dfsg-0.1+deb7u3",
+    "Version": "4.2+dfsg-0.1+deb7u4",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "bash",
-    "source:Version": "4.2+dfsg-0.1+deb7u3"
+    "source:Version": "4.2+dfsg-0.1+deb7u4"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils",
-    "Version": "1.26+dfsg-0.1",
+    "Version": "1.26+dfsg-0.1+deb7u1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tar",
-    "source:Version": "1.26+dfsg-0.1"
+    "source:Version": "1.26+dfsg-0.1+deb7u1"
   },
   {
     "Architecture": "all",
@@ -2134,7 +2134,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1625",
+    "Installed-Size": "1614",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2142,10 +2142,10 @@
     "Provides": "tzdata-wheezy",
     "Recommends": "",
     "Replace": "",
-    "Section": "localization",
+    "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2016d-0+deb7u1",
+    "Version": "2016i-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2016d-0+deb7u1"
+    "source:Version": "2016i-0+deb7u1"
   },
   {
     "Architecture": "amd64",
