@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "268",
+    "Installed-Size": "258",
     "Origin": "",
     "Package": "libustr-1.0-1",
     "Pre-Depends": "",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.4-5",
+    "Version": "1.0.4-6",
     "binary:Package": "libustr-1.0-1:amd64",
     "binary:Summary": "Micro string library: shared library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ustr",
-    "source:Version": "1.0.4-5"
+    "source:Version": "1.0.4-6"
   },
   {
     "Architecture": "amd64",

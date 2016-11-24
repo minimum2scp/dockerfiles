@@ -152,8 +152,8 @@ I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
 I: Retrieving tzdata 2016i-1
 I: Validating tzdata 2016i-1
-I: Retrieving libustr-1.0-1 1.0.4-5
-I: Validating libustr-1.0-1 1.0.4-5
+I: Retrieving libustr-1.0-1 1.0.4-6
+I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29-1
 I: Validating bsdutils 1:2.29-1
 I: Retrieving libblkid1 2.29-1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> f6a0a1e2cab7
-Removing intermediate container c765aa3eb104
+ ---> 38c4ca6f609d
+Removing intermediate container d9572d78b137
 Step 3 : CMD /bin/bash
- ---> Running in 4bbe09577221
- ---> cdb5fe9069e9
-Removing intermediate container 4bbe09577221
-Successfully built cdb5fe9069e9
+ ---> Running in a46c6d4ebc14
+ ---> f5c7f3836a33
+Removing intermediate container a46c6d4ebc14
+Successfully built f5c7f3836a33
