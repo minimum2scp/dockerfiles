@@ -179,7 +179,7 @@ ii   libsystemd0             232-6                        amd64  systemd utility
 ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20160917-1               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                232-6                        amd64  libudev shared library
-ii   libustr-1.0-1           1.0.4-5                      amd64  Micro string library: shared library
+ii   libustr-1.0-1           1.0.4-6                      amd64  Micro string library: shared library
 ii   libuuid1                2.29-1                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
