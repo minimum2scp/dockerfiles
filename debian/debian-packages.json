@@ -34,7 +34,7 @@
     "Depends": "adduser, gpgv | gpgv2 | gpgv1, debian-archive-keyring, init-system-helpers (>= 1.18~), libapt-pkg5.0 (>= 1.3~rc2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3449",
+    "Installed-Size": "3478",
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.3.1",
+    "Version": "1.4~beta1",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.3.1"
+    "source:Version": "1.4~beta1"
   },
   {
     "Architecture": "amd64",
@@ -734,18 +734,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2976",
+    "Installed-Size": "3006",
     "Origin": "",
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.3.1)",
-    "Recommends": "apt (>= 1.3.1)",
+    "Provides": "libapt-pkg (= 1.4~beta1)",
+    "Recommends": "apt (>= 1.4~beta1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1",
+    "Version": "1.4~beta1",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.3.1"
+    "source:Version": "1.4~beta1"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libc6 (>> 2.24), libc6 (<< 2.25)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3421",
+    "Installed-Size": "3362",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-6",
+    "Version": "2.24-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-6"
+    "source:Version": "2.24-7"
   },
   {
     "Architecture": "amd64",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.24-6",
+    "Version": "2.24-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-6"
+    "source:Version": "2.24-7"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.20161101",
+    "Version": "9.20161125",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "9.20161101"
+    "source:Version": "9.20161125"
   },
   {
     "Architecture": "amd64",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-6",
+    "Version": "2.24-7",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-6"
+    "source:Version": "2.24-7"
   },
   {
     "Architecture": "all",
@@ -2246,7 +2246,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2848",
+    "Installed-Size": "3006",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2016j-1",
+    "Version": "2016j-2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2016j-1"
+    "source:Version": "2016j-2"
   },
   {
     "Architecture": "amd64",

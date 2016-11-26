@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
-ii   apt                     1.3.1                 amd64  commandline package manager
+ii   apt                     1.4~beta1             amd64  commandline package manager
 ii   base-files              9.6                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.41                amd64  Debian base system master password and group files
 ii   bash                    4.4-2                 amd64  GNU Bourne Again SHell
@@ -44,14 +44,14 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.46                  all    helper tools for all init systems
 ii   iproute2                4.8.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3              amd64  Access control list shared library
-ii   libapt-pkg5.0           1.3.1                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.4~beta1             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2            amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.29-1                amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8               amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-6                amd64  GNU C Library: Binaries
-ii   libc6                   2.24-6                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-7                amd64  GNU C Library: Binaries
+ii   libc6                   2.24-7                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3               amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.3-1              amd64  common error description library
 ii   libdb5.3                5.3.28-12             amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -85,10 +85,10 @@ ii   libudev1                232-6                 amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29-1                amd64  Universally Unique ID library
 ii   login                   1:4.2-3.2             amd64  system login tools
-ii   lsb-base                9.20161101            all    Linux Standard Base init script functionality
+ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.29-1                amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-6                amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-7                amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20160917-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160917-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.3                   all    Basic TCP/IP networking system
@@ -98,7 +98,7 @@ ii   sed                     4.2.2-8               amd64  The GNU sed stream edi
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilities
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
-ii   tzdata                  2016j-1               all    time zone and daylight-saving time data
+ii   tzdata                  2016j-2               all    time zone and daylight-saving time data
 ii   util-linux              2.29-1                amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b3     amd64  compression library - runtime
 ```
