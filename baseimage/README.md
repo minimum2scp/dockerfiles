@@ -152,7 +152,7 @@ ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authe
 ii   libpam-runtime          1.1.8-3.3                    all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.3                    amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-2                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1~rc3-3                 amd64  shared Perl library
+ii   libperl5.24             5.24.1~rc4-1                 amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                   amd64  library for accessing process information from /proc
@@ -201,9 +201,9 @@ ii   openssh-server          1:7.3p1-3+b1                 amd64  secure shell (S
 ii   openssh-sftp-server     1:7.3p1-3+b1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
-ii   perl                    5.24.1~rc3-3                 amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1~rc3-3                 amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1~rc3-3                 all    Core Perl modules
+ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.24.1~rc4-1                 amd64  minimal Perl system
+ii   perl-modules-5.24       5.24.1~rc4-1                 all    Core Perl modules
 ii   procps                  2:3.3.12-3                   amd64  /proc file system utilities
 ii   python                  2.7.11-2                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                     amd64  minimal subset of the Python language (default version)
