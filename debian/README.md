@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
 ii   apt                     1.4~beta1             amd64  commandline package manager
-ii   base-files              9.6                   amd64  Debian base system miscellaneous files
+ii   base-files              9.7                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.41                amd64  Debian base system master password and group files
 ii   bash                    4.4-2                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29-1              amd64  basic utilities from 4.4BSD-Lite
@@ -84,7 +84,7 @@ ii   libtinfo5               6.0+20160917-1        amd64  shared low-level termi
 ii   libudev1                232-6                 amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29-1                amd64  Universally Unique ID library
-ii   login                   1:4.2-3.2             amd64  system login tools
+ii   login                   1:4.2-3.3             amd64  system login tools
 ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.29-1                amd64  tools for mounting and manipulating filesystems
@@ -92,7 +92,7 @@ ii   multiarch-support       2.24-7                amd64  Transitional package t
 ii   ncurses-base            6.0+20160917-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20160917-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.3                   all    Basic TCP/IP networking system
-ii   passwd                  1:4.2-3.2             amd64  change and administer password and group data
+ii   passwd                  1:4.2-3.3             amd64  change and administer password and group data
 ii   perl-base               5.24.1~rc4-1          amd64  minimal Perl system
 ii   sed                     4.2.2-8               amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
