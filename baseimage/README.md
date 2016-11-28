@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.115                        all    add and remove users and groups
 ii   apt                     1.4~beta1                    amd64  commandline package manager
-ii   base-files              9.6                          amd64  Debian base system miscellaneous files
+ii   base-files              9.7                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.41                       amd64  Debian base system master password and group files
 ii   bash                    4.4-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                       amd64  collection of more utilities from FreeBSD
@@ -145,7 +145,7 @@ ii   libncurses5             6.0+20160917-1               amd64  shared librarie
 ii   libncursesw5            6.0+20160917-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.16.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.17.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.2-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.3                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -184,7 +184,7 @@ ii   libuuid1                2.29-1                       amd64  Universally Uni
 ii   libwrap0                7.6.q-25                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-7                       all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.2-3.2                    amd64  system login tools
+ii   login                   1:4.2-3.3                    amd64  system login tools
 ii   lsb-base                9.20161125                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.5-2                      amd64  on-line manual pager
@@ -200,7 +200,7 @@ ii   openssh-client          1:7.3p1-3+b1                 amd64  secure shell (S
 ii   openssh-server          1:7.3p1-3+b1                 amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.3p1-3+b1                 amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.2-3.2                    amd64  change and administer password and group data
+ii   passwd                  1:4.2-3.3                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1~rc4-1                 amd64  minimal Perl system
 ii   perl-modules-5.24       5.24.1~rc4-1                 all    Core Perl modules
