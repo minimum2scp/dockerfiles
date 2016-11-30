@@ -1319,10 +1319,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20160917-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20161126-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "283",
+    "Installed-Size": "287",
     "Origin": "",
     "Package": "libncurses5",
     "Pre-Depends": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20160917-1",
+    "Version": "6.0+20161126-1",
     "binary:Package": "libncurses5:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -1341,13 +1341,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160917-1"
+    "source:Version": "6.0+20161126-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20160917-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20161126-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "347",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20160917-1",
+    "Version": "6.0+20161126-1",
     "binary:Package": "libncursesw5:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160917-1"
+    "source:Version": "6.0+20161126-1"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "477",
+    "Installed-Size": "478",
     "Origin": "",
     "Package": "libtinfo5",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20160917-1",
+    "Version": "6.0+20161126-1",
     "binary:Package": "libtinfo5:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160917-1"
+    "source:Version": "6.0+20161126-1"
   },
   {
     "Architecture": "amd64",
@@ -1994,7 +1994,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "339",
+    "Installed-Size": "340",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -2005,7 +2005,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20160917-1",
+    "Version": "6.0+20161126-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160917-1"
+    "source:Version": "6.0+20161126-1"
   },
   {
     "Architecture": "amd64",
@@ -2022,7 +2022,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "519",
+    "Installed-Size": "532",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.0+20151017), libtinfo5 (<< 6.1~)",
@@ -2033,7 +2033,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20160917-1",
+    "Version": "6.0+20161126-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20160917-1"
+    "source:Version": "6.0+20161126-1"
   },
   {
     "Architecture": "all",
