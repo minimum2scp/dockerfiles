@@ -142,10 +142,10 @@ I: Retrieving login 1:4.2-3.3
 I: Validating login 1:4.2-3.3
 I: Retrieving passwd 1:4.2-3.3
 I: Validating passwd 1:4.2-3.3
-I: Retrieving libsystemd0 232-6
-I: Validating libsystemd0 232-6
-I: Retrieving libudev1 232-6
-I: Validating libudev1 232-6
+I: Retrieving libsystemd0 232-7
+I: Validating libsystemd0 232-7
+I: Retrieving libudev1 232-7
+I: Validating libudev1 232-7
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1.1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 5861266e908d
-Removing intermediate container d61495f2e0f0
+ ---> c92e9bc5ebbf
+Removing intermediate container c91b6cce2e82
 Step 3 : CMD /bin/bash
- ---> Running in 8fc4cf7ee7d3
- ---> af3283407137
-Removing intermediate container 8fc4cf7ee7d3
-Successfully built af3283407137
+ ---> Running in 2066f0e89d7f
+ ---> 390213c8f2e1
+Removing intermediate container 2066f0e89d7f
+Successfully built 390213c8f2e1
