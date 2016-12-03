@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                 3.115                         all    add and remove users and groups
 ii   apt                     1.4~beta1                     amd64  commandline package manager
 ii   base-files              9.7                           amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.41                        amd64  Debian base system master password and group files
+ii   base-passwd             3.5.42                        amd64  Debian base system master password and group files
 ii   bash                    4.4-2                         amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                        amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29-1                      amd64  basic utilities from 4.4BSD-Lite
@@ -81,7 +81,7 @@ ii   e2fslibs                1.43.3-1                      amd64  ext2/ext3/ext4
 ii   e2fsprogs               1.43.3-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-1          amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-3                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-4                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.2.1-5                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.10.2-3                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.10.2-3                    all    fast, scalable, distributed revision control system (manual pages)
@@ -133,8 +133,8 @@ ii   libk5crypto3            1.15~beta1-1                  amd64  MIT Kerberos r
 ii   libkeyutils1            1.5.9-9                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15~beta1-1                  amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15~beta1-1                  amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-1                 amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-1                 all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-2                 amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-2                 all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2                       amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1                     amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2                    amd64  Fast LZ compression algorithm library - runtime
@@ -196,9 +196,9 @@ ii   ncurses-base            6.0+20161126-1                all    basic terminal
 ii   ncurses-bin             6.0+20161126-1                amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20150829.73cef8a-2.1  amd64  NET-3 networking toolkit
 ii   netbase                 5.3                           all    Basic TCP/IP networking system
-ii   openssh-client          1:7.3p1-3+b1                  amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.3p1-3+b1                  amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.3p1-3+b1                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.3p1-5                     amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.3p1-5                     amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.3p1-5                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.3                     amd64  change and administer password and group data
 ii   perl                    5.24.1~rc4-1                  amd64  Larry Wall's Practical Extraction and Report Language
