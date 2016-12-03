@@ -21,7 +21,7 @@ installed packages:
 ii   adduser                 3.115                 all    add and remove users and groups
 ii   apt                     1.4~beta1             amd64  commandline package manager
 ii   base-files              9.7                   amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.41                amd64  Debian base system master password and group files
+ii   base-passwd             3.5.42                amd64  Debian base system master password and group files
 ii   bash                    4.4-2                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29-1              amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.25-2+b1             amd64  GNU core utilities
@@ -34,7 +34,7 @@ ii   dpkg                    1.18.15               amd64  Debian package managem
 ii   e2fslibs                1.43.3-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-1  amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-3               amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.2.1-5               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.16-2              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.26-1                amd64  GNU grep, egrep and fgrep

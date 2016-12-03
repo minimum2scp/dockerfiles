@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.41",
+    "Version": "3.5.42",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.41"
+    "source:Version": "3.5.42"
   },
   {
     "Architecture": "amd64",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4.1-3",
+    "Version": "5.4.1-4",
     "binary:Package": "gcc-5-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-5",
-    "source:Version": "5.4.1-3"
+    "source:Version": "5.4.1-4"
   },
   {
     "Architecture": "amd64",
