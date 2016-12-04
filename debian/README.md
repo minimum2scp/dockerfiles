@@ -75,7 +75,7 @@ ii   libpcre3                2:8.39-2              amd64  Old Perl 5 Compatible 
 ii   libselinux1             2.6-3                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-1                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-1                 amd64  SELinux policy management library
-ii   libsepol1               2.6-1                 amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               2.6-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.29-1                amd64  smart column output alignment library
 ii   libss2                  1.43.3-1              amd64  command-line interface parsing library
 ii   libstdc++6              6.2.1-5               amd64  GNU Standard C++ Library v3
