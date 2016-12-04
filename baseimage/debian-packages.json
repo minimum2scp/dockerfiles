@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6-1",
+    "Version": "2.6-2",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "2.6-1"
+    "source:Version": "2.6-2"
   },
   {
     "Architecture": "amd64",
