@@ -76,8 +76,8 @@ I: Retrieving multiarch-support 2.24-8
 I: Validating multiarch-support 2.24-8
 I: Retrieving gpgv 2.1.16-3
 I: Validating gpgv 2.1.16-3
-I: Retrieving grep 2.26-1
-I: Validating grep 2.26-1
+I: Retrieving grep 2.27-1
+I: Validating grep 2.27-1
 I: Retrieving gzip 1.6-5
 I: Validating gzip 1.6-5
 I: Retrieving hostname 3.18
@@ -172,8 +172,8 @@ I: Retrieving util-linux 2.29-1
 I: Validating util-linux 2.29-1
 I: Retrieving liblzma5 5.2.2-1.2
 I: Validating liblzma5 5.2.2-1.2
-I: Retrieving zlib1g 1:1.2.8.dfsg-2+b3
-I: Validating zlib1g 1:1.2.8.dfsg-2+b3
+I: Retrieving zlib1g 1:1.2.8.dfsg-4
+I: Validating zlib1g 1:1.2.8.dfsg-4
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting libattr1...
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 570862258189
-Removing intermediate container f0efabadf7fd
+ ---> 9b8d5e74f837
+Removing intermediate container d936e2552aa7
 Step 3 : CMD /bin/bash
- ---> Running in 0f789aca5c38
- ---> d2295376a5ee
-Removing intermediate container 0f789aca5c38
-Successfully built d2295376a5ee
+ ---> Running in 23f3c645294c
+ ---> 2a1ceef14ebf
+Removing intermediate container 23f3c645294c
+Successfully built 2a1ceef14ebf

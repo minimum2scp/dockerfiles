@@ -37,7 +37,7 @@ ii   findutils               4.6.0+git+20161106-1  amd64  utilities for finding 
 ii   gcc-5-base              5.4.1-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.2.1-5               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.16-3              amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.26-1                amd64  GNU grep, egrep and fgrep
+ii   grep                    2.27-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5                 amd64  GNU compression utilities
 ii   hostname                3.18                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
@@ -100,5 +100,5 @@ ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilitie
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016j-2               all    time zone and daylight-saving time data
 ii   util-linux              2.29-1                amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.8.dfsg-2+b3     amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-4        amd64  compression library - runtime
 ```
