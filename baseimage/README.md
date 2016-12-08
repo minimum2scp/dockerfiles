@@ -86,7 +86,7 @@ ii   gcc-6-base              6.2.1-5                       amd64  GCC, the GNU C
 ii   git                     1:2.11.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.16-3                      amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.26-1                        amd64  GNU grep, egrep and fgrep
+ii   grep                    2.27-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-8                      amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                         amd64  GNU compression utilities
 ii   hostname                3.18                          amd64  utility to set/show the host name or domain name
@@ -227,7 +227,7 @@ ii   vim-common              2:8.0.0095-1                  all    Vi IMproved - 
 ii   vim-tiny                2:8.0.0095-1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0095-1                  amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.8.dfsg-2+b3             amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-4                amd64  compression library - runtime
 ii   zsh                     5.2-5+b1                      amd64  shell with lots of features
 ii   zsh-common              5.2-5                         all    architecture independent files for Zsh
 ```
