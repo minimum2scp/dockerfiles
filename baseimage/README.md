@@ -68,7 +68,7 @@ ii   bash                    4.4-2                         amd64  GNU Bourne Aga
 ii   bsdmainutils            9.0.12                        amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                      all    Common CA certificates
-ii   coreutils               8.25-2+b1                     amd64  GNU core utilities
+ii   coreutils               8.26-1                        amd64  GNU core utilities
 ii   cron                    3.0pl1-128                    amd64  process scheduling daemon
 ii   curl                    7.51.0-1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.3                     amd64  POSIX-compliant shell
@@ -124,7 +124,7 @@ ii   libgcc1                 1:6.2.1-5                     amd64  GCC support li
 ii   libgcrypt20             1.7.3-2                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                      amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.6-7                       amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.7-2                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.25-2                        amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                         amd64  low level cryptographic library (public-key cryptos)
