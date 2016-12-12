@@ -23,8 +23,8 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '2.4.0-preview3',
-        desc: 'ruby 2.4.0preview3 (2016-11-07 trunk 56661) [x86_64-linux]',
+        ruby: '2.4.0-rc1',
+        desc: 'ruby 2.4.0rc1 (2016-12-12 trunk 57064) [x86_64-linux]',
         gems: [
           {name: 'bundler', version: '1.13.6'},
           {name: 'pry'}
