@@ -187,7 +187,7 @@ ii   locales                 2.24-8                        all    GNU C Library:
 ii   login                   1:4.2-3.3                     amd64  system login tools
 ii   lsb-base                9.20161125                    all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                        amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.5-2                       amd64  on-line manual pager
+ii   man-db                  2.7.6-1                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                          all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29-1                        amd64  tools for mounting and manipulating filesystems
@@ -221,13 +221,13 @@ ii   sysvinit-utils          2.88dsf-59.8                  amd64  System-V-like 
 ii   tar                     1.29b-1.1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016j-2                       all    time zone and daylight-saving time data
 ii   ucf                     3.0036                        all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-20                        amd64  De-archiver for .zip files
+ii   unzip                   6.0-21                        amd64  De-archiver for .zip files
 ii   util-linux              2.29-1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0095-1                  all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.0095-1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0095-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-4                amd64  compression library - runtime
-ii   zsh                     5.2-5+b1                      amd64  shell with lots of features
-ii   zsh-common              5.2-5                         all    architecture independent files for Zsh
+ii   zsh                     5.3-1                         amd64  shell with lots of features
+ii   zsh-common              5.3-1                         all    architecture independent files for Zsh
 ```
