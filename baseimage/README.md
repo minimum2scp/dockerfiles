@@ -82,7 +82,7 @@ ii   e2fsprogs               1.43.3-1                      amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.5-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-1          amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-4                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.2.1-5                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.2.1-6                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.16-3                      amd64  GNU privacy guard - signature verification tool
@@ -120,7 +120,7 @@ ii   libexpat1               2.2.0-1                       amd64  XML parsing C 
 ii   libfastjson4            0.99.4-1                      amd64  fast json library for C
 ii   libfdisk1               2.29-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                       amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:6.2.1-5                     amd64  GCC support library
+ii   libgcc1                 1:6.2.1-6                     amd64  GCC support library
 ii   libgcrypt20             1.7.3-2                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                      amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.1+dfsg-1                amd64  Multiprecision arithmetic library
@@ -174,7 +174,7 @@ ii   libss2                  1.43.3-1                      amd64  command-line i
 ii   libssh2-1               1.7.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2j-4                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0c-2                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              6.2.1-5                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6              6.2.1-6                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-7                         amd64  systemd utility library
 ii   libtasn1-6              4.9-4                         amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                amd64  shared low-level terminfo library for terminal handling
@@ -187,7 +187,7 @@ ii   locales                 2.24-8                        all    GNU C Library:
 ii   login                   1:4.2-3.3                     amd64  system login tools
 ii   lsb-base                9.20161125                    all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                        amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.6-1                       amd64  on-line manual pager
+ii   man-db                  2.7.6.1-1                     amd64  on-line manual pager
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                          all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29-1                        amd64  tools for mounting and manipulating filesystems
