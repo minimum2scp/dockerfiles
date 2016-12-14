@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                         all    add and remove users and groups
-ii   apt                     1.4~beta1                     amd64  commandline package manager
+ii   apt                     1.4~beta2                     amd64  commandline package manager
 ii   base-files              9.7                           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.42                        amd64  Debian base system master password and group files
 ii   bash                    4.4-2                         amd64  GNU Bourne Again SHell
@@ -87,16 +87,16 @@ ii   git                     1:2.11.0-1                    amd64  fast, scalable
 ii   git-man                 1:2.11.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.16-3                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-1                        amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.3-8                      amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.3-9                      amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                         amd64  GNU compression utilities
 ii   hostname                3.18                          amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                  amd64  ICMP echo tool
 ii   init-system-helpers     1.46                          all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.8                  amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                    amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.8.0-1                       amd64  networking and traffic control tools
+ii   iproute2                4.9.0-1                       amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                      amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4~beta1                     amd64  package management runtime library
+ii   libapt-pkg5.0           1.4~beta2                     amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                    amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1                     all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1                     amd64  Dynamic library for security auditing
@@ -187,7 +187,7 @@ ii   locales                 2.24-8                        all    GNU C Library:
 ii   login                   1:4.2-3.3                     amd64  system login tools
 ii   lsb-base                9.20161125                    all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                        amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.6.1-1                     amd64  on-line manual pager
+ii   man-db                  2.7.6.1-2                     amd64  on-line manual pager
 ii   mawk                    1.3.3-17                      amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                          all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29-1                        amd64  tools for mounting and manipulating filesystems

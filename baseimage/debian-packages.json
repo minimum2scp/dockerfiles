@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.4~beta1",
+    "Version": "1.4~beta2",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta1"
+    "source:Version": "1.4~beta2"
   },
   {
     "Architecture": "amd64",
@@ -759,10 +759,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "groff (<< 1.17-1), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
-    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)",
+    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3255",
+    "Installed-Size": "3261",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.3-8",
+    "Version": "1.22.3-9",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.3-8"
+    "source:Version": "1.22.3-9"
   },
   {
     "Architecture": "amd64",
@@ -958,18 +958,18 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1719",
+    "Installed-Size": "1753",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
     "Priority": "important",
     "Provides": "arpd",
-    "Recommends": "libatm1 (>= 2.4.1-17~), libxtables11",
+    "Recommends": "libatm1 (>= 2.4.1-17~), libxtables12",
     "Replace": "",
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.8.0-1",
+    "Version": "4.9.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.8.0-1"
+    "source:Version": "4.9.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1019,13 +1019,13 @@
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.4~beta1)",
-    "Recommends": "apt (>= 1.4~beta1)",
+    "Provides": "libapt-pkg (= 1.4~beta2)",
+    "Recommends": "apt (>= 1.4~beta2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4~beta1",
+    "Version": "1.4~beta2",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta1"
+    "source:Version": "1.4~beta2"
   },
   {
     "Architecture": "amd64",
@@ -3573,7 +3573,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "groff, less, www-browser",
-    "Version": "2.7.6.1-1",
+    "Version": "2.7.6.1-2",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.7.6.1-1"
+    "source:Version": "2.7.6.1-2"
   },
   {
     "Architecture": "amd64",
