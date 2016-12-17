@@ -46,8 +46,8 @@ I: Retrieving debianutils 4.8.1
 I: Validating debianutils 4.8.1
 I: Retrieving diffutils 1:3.5-1
 I: Validating diffutils 1:3.5-1
-I: Retrieving dpkg 1.18.15
-I: Validating dpkg 1.18.15
+I: Retrieving dpkg 1.18.16
+I: Validating dpkg 1.18.16
 I: Retrieving e2fslibs 1.43.3-1
 I: Validating e2fslibs 1.43.3-1
 I: Retrieving e2fsprogs 1.43.3-1
@@ -90,8 +90,8 @@ I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3
 I: Validating libcap-ng0 0.7.7-3
-I: Retrieving libgcrypt20 1.7.3-2
-I: Validating libgcrypt20 1.7.3-2
+I: Retrieving libgcrypt20 1.7.5-2
+I: Validating libgcrypt20 1.7.5-2
 I: Retrieving libgpg-error0 1.25-2
 I: Validating libgpg-error0 1.25-2
 I: Retrieving libmnl0 1.0.4-2
@@ -142,10 +142,10 @@ I: Retrieving login 1:4.2-3.3
 I: Validating login 1:4.2-3.3
 I: Retrieving passwd 1:4.2-3.3
 I: Validating passwd 1:4.2-3.3
-I: Retrieving libsystemd0 232-7
-I: Validating libsystemd0 232-7
-I: Retrieving libudev1 232-7
-I: Validating libudev1 232-7
+I: Retrieving libsystemd0 232-8
+I: Validating libsystemd0 232-8
+I: Retrieving libudev1 232-8
+I: Validating libudev1 232-8
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1.1
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.42 MB
+Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.44 MB
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> 85621a7c45e7
-Removing intermediate container c51a520244af
+ ---> d4ff12ca2aff
+Removing intermediate container 9b211c79541e
 Step 3 : CMD /bin/bash
- ---> Running in aedbbb7e89fc
- ---> 0817debe271b
-Removing intermediate container aedbbb7e89fc
-Successfully built 0817debe271b
+ ---> Running in 0506601c4cff
+ ---> 6bdb0ba6c790
+Removing intermediate container 0506601c4cff
+Successfully built 6bdb0ba6c790
