@@ -529,29 +529,41 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:2 http://security.debian.org jessie/updates/main amd64 Packages [421 kB]
+Get:2 http://security.debian.org jessie/updates/main amd64 Packages [424 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:3 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.6 kB]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
-Fetched 9710 kB in 1s (5886 kB/s)
+Fetched 9713 kB in 1s (5607 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  tar tzdata
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 863 kB of archives.
+  apt libapt-pkg4.12 tar tzdata
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2764 kB of archives.
 After this operation, 348 kB disk space will be freed.
 Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2016j-0+deb8u1 [186 kB]
 Get:2 http://security.debian.org/ jessie/updates/main tar amd64 1.27.1-2+deb8u1 [676 kB]
-Fetched 863 kB in 0s (2681 kB/s)
+Get:3 http://security.debian.org/ jessie/updates/main libapt-pkg4.12 amd64 1.0.9.8.4 [792 kB]
+Get:4 http://security.debian.org/ jessie/updates/main apt amd64 1.0.9.8.4 [1109 kB]
+Fetched 2764 kB in 1s (1668 kB/s)
 (Reading database ... 7548 files and directories currently installed.)
 Preparing to unpack .../tar_1.27.1-2+deb8u1_amd64.deb ...
 Unpacking tar (1.27.1-2+deb8u1) over (1.27.1-2+b1) ...
 Setting up tar (1.27.1-2+deb8u1) ...
+(Reading database ... 7547 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg4.12_1.0.9.8.4_amd64.deb ...
+Unpacking libapt-pkg4.12:amd64 (1.0.9.8.4) over (1.0.9.8.3) ...
+Setting up libapt-pkg4.12:amd64 (1.0.9.8.4) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
+(Reading database ... 7547 files and directories currently installed.)
+Preparing to unpack .../apt_1.0.9.8.4_amd64.deb ...
+Unpacking apt (1.0.9.8.4) over (1.0.9.8.3) ...
+Setting up apt (1.0.9.8.4) ...
+Processing triggers for libc-bin (2.19-18+deb8u6) ...
 (Reading database ... 7547 files and directories currently installed.)
 Preparing to unpack .../tzdata_2016j-0+deb8u1_all.deb ...
 Unpacking tzdata (2016j-0+deb8u1) over (2016f-0+deb8u1) ...
@@ -560,10 +572,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> b7ee47d41bf0
-Removing intermediate container 47a057979019
+ ---> d92873bac0fb
+Removing intermediate container 3f5e5c5f61c0
 Step 3 : CMD /bin/bash
- ---> Running in 7d79938c0bd2
- ---> 685618ce5d0e
-Removing intermediate container 7d79938c0bd2
-Successfully built 685618ce5d0e
+ ---> Running in b81e432109e9
+ ---> 810146bb6b4b
+Removing intermediate container b81e432109e9
+Successfully built 810146bb6b4b
