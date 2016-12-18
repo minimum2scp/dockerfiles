@@ -59,7 +59,7 @@
     "Architecture": "amd64",
     "Conflicts": "python-apt (<< 0.7.93.2~)",
     "Breaks": "manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)",
-    "Depends": "libapt-pkg4.12 (>= 1.0.9.8.3), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), debian-archive-keyring, gnupg",
+    "Depends": "libapt-pkg4.12 (>= 1.0.9.8.4), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), debian-archive-keyring, gnupg",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3178",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt",
-    "Version": "1.0.9.8.3",
+    "Version": "1.0.9.8.4",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.0.9.8.3"
+    "source:Version": "1.0.9.8.4"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.9.8.3",
+    "Version": "1.0.9.8.4",
     "binary:Package": "libapt-pkg4.12:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.0.9.8.3"
+    "source:Version": "1.0.9.8.4"
   },
   {
     "Architecture": "amd64",
