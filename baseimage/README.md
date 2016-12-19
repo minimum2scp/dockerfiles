@@ -76,7 +76,7 @@ ii   debconf                 1.5.59                        all    Debian configu
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                       amd64  File comparison utilities
-ii   dpkg                    1.18.16                       amd64  Debian package management system
+ii   dpkg                    1.18.17                       amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                      all    store /etc in git, mercurial, bzr or darcs
@@ -157,8 +157,8 @@ ii   libpipeline1            1.4.1-2                       amd64  pipeline manip
 ii   libpopt0                1.16-10                       amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                    amd64  library for accessing process information from /proc
 ii   libpython-stdlib        2.7.11-2                      amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.13~rc1-1                  amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.13~rc1-1                  amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.13-1                      amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.13-1                      amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-1                         amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1   amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-1    amd64  Cyrus SASL - authentication abstraction library
@@ -207,8 +207,8 @@ ii   perl-modules-5.24       5.24.1~rc4-1                  all    Core Perl modu
 ii   procps                  2:3.3.12-3                    amd64  /proc file system utilities
 ii   python                  2.7.11-2                      amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.11-2                      amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.13~rc1-1                  amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.13~rc1-1                  amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.13-1                      amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.13-1                      amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-1                         all    GNU readline and history libraries, common files
 ii   rsyslog                 8.23.0-2                      amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-8                       amd64  The GNU sed stream editor
