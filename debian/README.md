@@ -67,10 +67,10 @@ ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink c
 ii   libmount1               2.29-1                amd64  device mounting library
 ii   libncurses5             6.0+20161126-1        amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20161126-1        amd64  shared libraries for terminal handling (wide character support)
-ii   libpam-modules          1.1.8-3.3             amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.3             amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.1.8-3.3             all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.3             amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.1.8-3.4             amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.4             amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.1.8-3.4             all    Runtime support for the PAM library
+ii   libpam0g                1.1.8-3.4             amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-2              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libselinux1             2.6-3                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-1                 all    Common files for SELinux policy management libraries

@@ -122,14 +122,14 @@ I: Retrieving ncurses-bin 6.0+20161126-1
 I: Validating ncurses-bin 6.0+20161126-1
 I: Retrieving netbase 5.3
 I: Validating netbase 5.3
-I: Retrieving libpam-modules 1.1.8-3.3
-I: Validating libpam-modules 1.1.8-3.3
-I: Retrieving libpam-modules-bin 1.1.8-3.3
-I: Validating libpam-modules-bin 1.1.8-3.3
-I: Retrieving libpam-runtime 1.1.8-3.3
-I: Validating libpam-runtime 1.1.8-3.3
-I: Retrieving libpam0g 1.1.8-3.3
-I: Validating libpam0g 1.1.8-3.3
+I: Retrieving libpam-modules 1.1.8-3.4
+I: Validating libpam-modules 1.1.8-3.4
+I: Retrieving libpam-modules-bin 1.1.8-3.4
+I: Validating libpam-modules-bin 1.1.8-3.4
+I: Retrieving libpam-runtime 1.1.8-3.4
+I: Validating libpam-runtime 1.1.8-3.4
+I: Retrieving libpam0g 1.1.8-3.4
+I: Validating libpam0g 1.1.8-3.4
 I: Retrieving libpcre3 2:8.39-2
 I: Validating libpcre3 2:8.39-2
 I: Retrieving perl-base 5.24.1~rc4-1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> e0a25247ae50
-Removing intermediate container 0d26cdfaeb27
+ ---> 56864d194ad1
+Removing intermediate container 0a667c97a424
 Step 3 : CMD /bin/bash
- ---> Running in 1336bd8a0752
- ---> 60bf8882afbf
-Removing intermediate container 1336bd8a0752
-Successfully built 60bf8882afbf
+ ---> Running in c947d084c3a9
+ ---> dfcdb6206b1d
+Removing intermediate container c947d084c3a9
+Successfully built dfcdb6206b1d
