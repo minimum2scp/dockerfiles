@@ -76,7 +76,7 @@ ii   debconf                 1.5.59                        all    Debian configu
 ii   debian-archive-keyring  2014.3                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-1                       amd64  File comparison utilities
-ii   dpkg                    1.18.17                       amd64  Debian package management system
+ii   dpkg                    1.18.18                       amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                      all    store /etc in git, mercurial, bzr or darcs
@@ -123,8 +123,8 @@ ii   libffi6                 3.2.1-6                       amd64  Foreign Functi
 ii   libgcc1                 1:6.2.1-7                     amd64  GCC support library
 ii   libgcrypt20             1.7.5-2                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                      amd64  GNU dbm database routines (runtime version)
-ii   libgmp10                2:6.1.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.7-2                       amd64  GNU TLS library - main runtime library
+ii   libgmp10                2:6.1.2+dfsg-1                amd64  Multiprecision arithmetic library
+ii   libgnutls30             3.5.7-3                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.25-2                        amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -169,7 +169,7 @@ ii   libsemanage1            2.6-1                         amd64  SELinux policy
 ii   libsepol1               2.6-2                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                       amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.15.2-1                      amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.15.2-2                      amd64  SQLite 3 shared library
 ii   libss2                  1.43.3-1                      amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2j-4                      amd64  Secure Sockets Layer toolkit - shared libraries
