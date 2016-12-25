@@ -85,7 +85,7 @@ ii   gcc-5-base              5.4.1-4                       amd64  GCC, the GNU C
 ii   gcc-6-base              6.2.1-7                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-1                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.16-3                      amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.17-2                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                      amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                         amd64  GNU compression utilities
@@ -125,7 +125,7 @@ ii   libgcrypt20             1.7.5-2                       amd64  LGPL Crypto li
 ii   libgdbm3                1.8.3-14                      amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.7-3                       amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.25-2                        amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.26-1                        amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1                        amd64  GNU Libidn library, implementation of IETF IDN specifications
