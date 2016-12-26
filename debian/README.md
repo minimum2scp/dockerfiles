@@ -91,7 +91,7 @@ ii   mount                   2.29-1                amd64  tools for mounting and
 ii   multiarch-support       2.24-8                amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
-ii   netbase                 5.3                   all    Basic TCP/IP networking system
+ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3.3             amd64  change and administer password and group data
 ii   perl-base               5.24.1~rc4-1          amd64  minimal Perl system
 ii   sed                     4.2.2-8               amd64  The GNU sed stream editor
