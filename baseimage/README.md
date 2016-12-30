@@ -113,7 +113,7 @@ ii   libcurl3-gnutls         7.51.0-1                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.219                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-2               amd64  BSD editline and history libraries
-ii   libelf1                 0.166-2.2                    amd64  library to read and write ELF files
+ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
@@ -145,8 +145,8 @@ ii   libncurses5             6.0+20161126-1               amd64  shared librarie
 ii   libncursesw5            6.0+20161126-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.17.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.2-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libnghttp2-14           1.18.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libp11-kit0             0.23.3-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.4                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.4                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.4                    all    Runtime support for the PAM library
@@ -196,9 +196,9 @@ ii   ncurses-base            6.0+20161126-1               all    basic terminal 
 ii   ncurses-bin             6.0+20161126-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.4                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-2                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-2                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-2                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.3                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language

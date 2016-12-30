@@ -1490,7 +1490,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1036",
+    "Installed-Size": "934",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.166-2.2",
+    "Version": "0.168-0.2",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.166-2.2"
+    "source:Version": "0.168-0.2"
   },
   {
     "Architecture": "all",
@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "203",
+    "Installed-Size": "205",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.17.0-1",
+    "Version": "1.18.0-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.17.0-1"
+    "source:Version": "1.18.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.2-5",
+    "Version": "0.23.3-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.2-5"
+    "source:Version": "0.23.3-2"
   },
   {
     "Architecture": "amd64",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:7.4p1-1",
+    "Version": "1:7.4p1-2",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-1"
+    "source:Version": "1:7.4p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-1), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-2), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "883",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:7.4p1-1",
+    "Version": "1:7.4p1-2",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,13 +3861,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-1"
+    "source:Version": "1:7.4p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:7.4p1-1), libc6 (>= 2.17)",
+    "Depends": "openssh-client (= 1:7.4p1-2), libc6 (>= 2.17)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "106",
@@ -3881,7 +3881,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.4p1-1",
+    "Version": "1:7.4p1-2",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-1"
+    "source:Version": "1:7.4p1-2"
   },
   {
     "Architecture": "amd64",
