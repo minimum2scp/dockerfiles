@@ -164,8 +164,8 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTM
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-1   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-1   amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libselinux1             2.6-3                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.6-1                        all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.6-1                        amd64  SELinux policy management library
+ii   libsemanage-common      2.6-2                        all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.6-2                        amd64  SELinux policy management library
 ii   libsepol1               2.6-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29-1                       amd64  smart column output alignment library
@@ -196,9 +196,9 @@ ii   ncurses-base            6.0+20161126-1               all    basic terminal 
 ii   ncurses-bin             6.0+20161126-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.4                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-2                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-2                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-2                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-3                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-3                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-3                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.3                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language
