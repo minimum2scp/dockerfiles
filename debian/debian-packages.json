@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6-1",
+    "Version": "2.6-2",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -1565,13 +1565,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.6-1"
+    "source:Version": "2.6-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 2.4), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
-    "Depends": "libsemanage-common (= 2.6-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.6), libsepol1 (>= 2.6), libustr-1.0-1 (>= 1.0.4)",
+    "Depends": "libsemanage-common (= 2.6-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.6), libsepol1 (>= 2.6), libustr-1.0-1 (>= 1.0.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "291",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6-1",
+    "Version": "2.6-2",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.6-1"
+    "source:Version": "2.6-2"
   },
   {
     "Architecture": "amd64",
