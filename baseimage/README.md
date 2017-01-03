@@ -116,7 +116,7 @@ ii   libedit2                3.1-20160903-2               amd64  BSD editline an
 ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.0-1                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.0-2                      amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.4-1                     amd64  fast json library for C
 ii   libfdisk1               2.29-1                       amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                      amd64  Foreign Function Interface library runtime
@@ -196,9 +196,9 @@ ii   ncurses-base            6.0+20161126-1               all    basic terminal 
 ii   ncurses-bin             6.0+20161126-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.4                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-3                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-3                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-3                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-4                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-4                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3.3                    amd64  change and administer password and group data
 ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language
