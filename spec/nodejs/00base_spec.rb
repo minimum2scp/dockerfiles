@@ -74,12 +74,12 @@ describe 'minimum2scp/nodejs' do
     ].each do |v|
       describe command('nodenv versions --bare --skip-aliases') do
         let(:login_shell){ true }
-        its(:content) { should match /^#{Regexp.quote(v[:nodejs])}$/ }
+        its(:stdout) { should match /^#{Regexp.quote(v[:nodejs])}$/ }
       end
 
       describe command("NODENV_VERSION=#{v[:nodejs]} node -v") do
         let(:login_shell){ true }
-        its(:content) { should eq "v#{v[:nodejs]}\n" }
+        its(:stdout) { should eq "v#{v[:nodejs]}\n" }
       end
     end
 
@@ -88,7 +88,8 @@ describe 'minimum2scp/nodejs' do
     end
 
     describe command('yarn -V') do
-      its(:exit_code) { should eq 0 }
+      let(:login_shell){ true }
+      its(:exit_status) { should eq 0 }
     end
   end
 end
