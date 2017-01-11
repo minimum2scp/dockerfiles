@@ -34,7 +34,7 @@
     "Depends": "adduser, gpgv | gpgv2 | gpgv1, debian-archive-keyring, init-system-helpers (>= 1.18~), libapt-pkg5.0 (>= 1.3~rc2), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3478",
+    "Installed-Size": "3492",
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.4~beta2",
+    "Version": "1.4~beta3",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta2"
+    "source:Version": "1.4~beta3"
   },
   {
     "Architecture": "amd64",
@@ -314,7 +314,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1319",
+    "Installed-Size": "1327",
     "Origin": "",
     "Package": "diffutils",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -325,7 +325,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "diffutils-doc, wdiff",
-    "Version": "1:3.5-1",
+    "Version": "1:3.5-3",
     "binary:Package": "diffutils",
     "binary:Summary": "File comparison utilities",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "diffutils",
-    "source:Version": "1:3.5-1"
+    "source:Version": "1:3.5-3"
   },
   {
     "Architecture": "amd64",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.17-2",
+    "Version": "2.1.17-4",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.17-2"
+    "source:Version": "2.1.17-4"
   },
   {
     "Architecture": "amd64",
@@ -734,18 +734,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3006",
+    "Installed-Size": "3029",
     "Origin": "",
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.4~beta2)",
-    "Recommends": "apt (>= 1.4~beta2)",
+    "Provides": "libapt-pkg (= 1.4~beta3)",
+    "Recommends": "apt (>= 1.4~beta3)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4~beta2",
+    "Version": "1.4~beta3",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta2"
+    "source:Version": "1.4~beta3"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2396",
+    "Installed-Size": "2389",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
@@ -1865,7 +1865,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2-3.3",
+    "Version": "1:4.4-1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.2-3.3"
+    "source:Version": "1:4.4-1"
   },
   {
     "Architecture": "all",
@@ -2075,10 +2075,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules, debianutils (>= 2.15.2)",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2345",
+    "Installed-Size": "2405",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -2089,7 +2089,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.2-3.3",
+    "Version": "1:4.4-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.2-3.3"
+    "source:Version": "1:4.4-1"
   },
   {
     "Architecture": "amd64",
@@ -2131,10 +2131,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "dpkg (>= 1.15.4) | install-info",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "685",
+    "Installed-Size": "785",
     "Origin": "",
     "Package": "sed",
     "Pre-Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32)",
@@ -2145,15 +2145,15 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.2.2-8",
+    "Version": "4.3-3",
     "binary:Package": "sed",
-    "binary:Summary": "The GNU sed stream editor",
+    "binary:Summary": "GNU stream editor for filtering/transforming text",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sed",
-    "source:Version": "4.2.2-8"
+    "source:Version": "4.3-3"
   },
   {
     "Architecture": "all",
