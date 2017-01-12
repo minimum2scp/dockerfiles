@@ -39,22 +39,22 @@ describe 'minimum2scp/nodejs' do
 
       describe command("RBENV_VERSION=2.4.0 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should_not match /^rails 4\./ }
+        its(:stdout){ should_not match /^rails \(4(?:\.\d+){2,3}\)$/ }
       end
 
       describe command("RBENV_VERSION=2.3.3 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^rails 4\./ }
+        its(:stdout){ should match /^rails \(4(?:\.\d+){2,3}\)$/ }
       end
 
       describe command("RBENV_VERSION=2.2.6 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^rails 4\./ }
+        its(:stdout){ should match /^rails \(4(?:\.\d+){2,3}\)$/ }
       end
 
       describe command("RBENV_VERSION=2.1.10 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^rails 4\./ }
+        its(:stdout){ should match /^rails \(4(?:\.\d+){2,3}\)$/ }
       end
     end
 
