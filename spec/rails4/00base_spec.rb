@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'minimum2scp/nodejs' do
+describe 'minimum2scp/rails4' do
   context 'with env [APT_LINE=keep]' do
     before(:all) do
       start_container({
