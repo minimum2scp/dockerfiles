@@ -122,7 +122,7 @@ ii   libfastjson4            0.99.4-1                     amd64  fast json libra
 ii   libfdisk1               2.29-1                       amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.3.0-2                    amd64  GCC support library
-ii   libgcrypt20             1.7.5-2                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.5-3                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-1                      amd64  GNU TLS library - main runtime library
@@ -180,7 +180,7 @@ ii   libssl1.0.2             1.0.2j-5                     amd64  Secure Sockets 
 ii   libssl1.1               1.1.0c-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-2                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-10                       amd64  systemd utility library
-ii   libtasn1-6              4.9-4                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.9-5                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                232-10                       amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1        amd64  Unicode string library for C
@@ -219,7 +219,7 @@ ii   rsyslog                 8.23.0-2                     amd64  reliable system
 ii   sed                     4.3-3                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.19-1                     amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.19p1-1                   amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.8                 amd64  System-V-like utilities
