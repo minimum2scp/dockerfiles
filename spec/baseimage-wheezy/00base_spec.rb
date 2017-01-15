@@ -20,8 +20,8 @@ describe 'minimum2scp/baseimage-wheezy' do
       ## stable
       its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'wheezy',         'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'wheezy',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',         'wheezy/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',         'wheezy/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',   'wheezy/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',   'wheezy/updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'wheezy-updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'wheezy-updates', 'main', 'contrib', 'non-free'] }
       ## testing
