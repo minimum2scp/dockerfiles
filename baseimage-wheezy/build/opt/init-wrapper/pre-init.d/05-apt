@@ -71,7 +71,7 @@ write_post_init (){
 if [ -n "${APT_LINE}" ]; then
   case "${APT_LINE}" in
   keep)
-    # do nothing (use httpredir.debian.org)
+    # do nothing (use deb.debian.org)
     :
     ;;
   jp)
