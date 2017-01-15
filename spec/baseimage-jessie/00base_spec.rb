@@ -20,8 +20,8 @@ describe 'minimum2scp/baseimage-jessie' do
       ## stable
       its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'jessie',         'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'jessie',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',         'jessie/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',         'jessie/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',   'jessie/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',   'jessie/updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'jessie-updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'jessie-updates', 'main', 'contrib', 'non-free'] }
       ## testing
