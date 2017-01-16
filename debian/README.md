@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
 ii   apt                     1.4~beta3             amd64  commandline package manager
-ii   base-files              9.7                   amd64  Debian base system miscellaneous files
+ii   base-files              9.8                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.42                amd64  Debian base system master password and group files
 ii   bash                    4.4-2                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29-1              amd64  basic utilities from 4.4BSD-Lite
@@ -55,7 +55,7 @@ ii   libc6                   2.24-8                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3               amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.3-1              amd64  common error description library
 ii   libdb5.3                5.3.28-12             amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.219                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.220                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29-1                amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-2             amd64  GCC support library
@@ -93,7 +93,7 @@ ii   ncurses-base            6.0+20161126-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-1               amd64  change and administer password and group data
-ii   perl-base               5.24.1~rc4-1          amd64  minimal Perl system
+ii   perl-base               5.24.1-1              amd64  minimal Perl system
 ii   sed                     4.3-3                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilities
