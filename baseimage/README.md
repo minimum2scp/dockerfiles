@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.115                        all    add and remove users and groups
 ii   apt                     1.4~beta3                    amd64  commandline package manager
-ii   base-files              9.7                          amd64  Debian base system miscellaneous files
+ii   base-files              9.8                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.42                       amd64  Debian base system master password and group files
 ii   bash                    4.4-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                       amd64  collection of more utilities from FreeBSD
@@ -112,7 +112,7 @@ ii   libcomerr2              1.43.3-1                     amd64  common error de
 ii   libcurl3                7.52.1-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.219                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.220                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-2               amd64  BSD editline and history libraries
 ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -149,13 +149,13 @@ ii   libncursesw5            6.0+20161126-1               amd64  shared librarie
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.18.1-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.3-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.3-3                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.5                    all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.5                    amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-2                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1~rc4-1                 amd64  shared Perl library
+ii   libperl5.24             5.24.1-1                     amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                   amd64  library for accessing process information from /proc
@@ -206,9 +206,9 @@ ii   openssh-server          1:7.4p1-5                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.4p1-5                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-1                      amd64  change and administer password and group data
-ii   perl                    5.24.1~rc4-1                 amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1~rc4-1                 amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1~rc4-1                 all    Core Perl modules
+ii   perl                    5.24.1-1                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.24.1-1                     amd64  minimal Perl system
+ii   perl-modules-5.24       5.24.1-1                     all    Core Perl modules
 ii   procps                  2:3.3.12-3                   amd64  /proc file system utilities
 ii   python                  2.7.13-1                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-1                     amd64  minimal subset of the Python language (default version)
