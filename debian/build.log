@@ -12,10 +12,10 @@ I: Retrieving libacl1 2.2.52-3
 I: Validating libacl1 2.2.52-3
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
-I: Retrieving apt 1.4~beta3
-I: Validating apt 1.4~beta3
-I: Retrieving libapt-pkg5.0 1.4~beta3
-I: Validating libapt-pkg5.0 1.4~beta3
+I: Retrieving apt 1.4~beta4
+I: Validating apt 1.4~beta4
+I: Retrieving libapt-pkg5.0 1.4~beta4
+I: Validating libapt-pkg5.0 1.4~beta4
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.6.7-1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 557.1 kBSending build context to Docker 
 Step 1 : FROM scratch
  ---> 
 Step 2 : ADD rootfs.tar.xz /
- ---> b53bd80f415f
-Removing intermediate container 3a01e43d3d43
+ ---> e694b07e7971
+Removing intermediate container 8eca12dbd7cd
 Step 3 : CMD /bin/bash
- ---> Running in 4e99af8243d1
- ---> 5ecd7d2dfe7d
-Removing intermediate container 4e99af8243d1
-Successfully built 5ecd7d2dfe7d
+ ---> Running in 75fdbad60315
+ ---> 0543857eb6c5
+Removing intermediate container 75fdbad60315
+Successfully built 0543857eb6c5
