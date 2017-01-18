@@ -5,7 +5,7 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ## install build-dependencies
-apt-get install --no-install-recommends -y libcurl4-openssl-dev
+apt-get install --no-install-recommends -y libcurl4-openssl-dev gnupg dirmngr
 
 ## install td-agent
 curl -L https://td-toolbelt.herokuapp.com/sh/install-debian-jessie-td-agent2.sh | sh
