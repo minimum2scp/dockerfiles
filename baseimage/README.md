@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                        all    add and remove users and groups
-ii   apt                     1.4~beta3                    amd64  commandline package manager
+ii   apt                     1.4~beta4                    amd64  commandline package manager
 ii   base-files              9.8                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                       amd64  Debian base system master password and group files
 ii   bash                    4.4-2                        amd64  GNU Bourne Again SHell
@@ -96,7 +96,7 @@ ii   initscripts             2.88dsf-59.8                 amd64  scripts for ini
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4~beta3                    amd64  package management runtime library
+ii   libapt-pkg5.0           1.4~beta4                    amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library for security auditing
@@ -180,7 +180,7 @@ ii   libssl1.0.2             1.0.2j-5                     amd64  Secure Sockets 
 ii   libssl1.1               1.1.0c-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-2                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-10                       amd64  systemd utility library
-ii   libtasn1-6              4.9-5                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.10-1                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                232-10                       amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1        amd64  Unicode string library for C
