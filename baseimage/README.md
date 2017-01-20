@@ -102,7 +102,7 @@ ii   libaudit-common         1:2.6.7-1                    all    Dynamic library
 ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.29-1                       amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-8                      amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-8+b1                   amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-9                       amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-9                       all    GNU C Library: localization files
 ii   libc6                   2.24-9                       amd64  GNU C Library: Shared libraries
@@ -161,8 +161,8 @@ ii   libpopt0                1.16-10                      amd64  lib for parsing
 ii   libprocps6              2:3.3.12-3                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.16.1-1                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-1                     amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.13-1                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.13-1                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.13-2                     amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.13-2                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-1                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-2   amd64  Cyrus SASL - authentication abstraction library
@@ -189,7 +189,7 @@ ii   libuuid1                2.29-1                       amd64  Universally Uni
 ii   libwrap0                7.6.q-26                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-9                       all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.4-1                      amd64  system login tools
+ii   login                   1:4.4-2                      amd64  system login tools
 ii   lsb-base                9.20161125                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-2                    amd64  on-line manual pager
@@ -205,15 +205,15 @@ ii   openssh-client          1:7.4p1-6                    amd64  secure shell (S
 ii   openssh-server          1:7.4p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0c-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.4-1                      amd64  change and administer password and group data
+ii   passwd                  1:4.4-2                      amd64  change and administer password and group data
 ii   perl                    5.24.1-1                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-1                     amd64  minimal Perl system
 ii   perl-modules-5.24       5.24.1-1                     all    Core Perl modules
 ii   procps                  2:3.3.12-3                   amd64  /proc file system utilities
 ii   python                  2.7.13-1                     amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-1                     amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.13-1                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.13-1                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.13-2                     amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.13-2                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-1                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.24.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.3-3                        amd64  GNU stream editor for filtering/transforming text
@@ -233,6 +233,6 @@ ii   vim-tiny                2:8.0.0197-1                 amd64  Vi IMproved - e
 ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-4               amd64  compression library - runtime
-ii   zsh                     5.3.1-2                      amd64  shell with lots of features
-ii   zsh-common              5.3.1-2                      all    architecture independent files for Zsh
+ii   zsh                     5.3.1-3                      amd64  shell with lots of features
+ii   zsh-common              5.3.1-3                      all    architecture independent files for Zsh
 ```
