@@ -28,8 +28,8 @@ I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
 I: Retrieving bash 4.4-2
 I: Validating bash 4.4-2
-I: Retrieving libbz2-1.0 1.0.6-8
-I: Validating libbz2-1.0 1.0.6-8
+I: Retrieving libbz2-1.0 1.0.6-8+b1
+I: Validating libbz2-1.0 1.0.6-8+b1
 I: Retrieving libdebconfclient0 0.220
 I: Validating libdebconfclient0 0.220
 I: Retrieving coreutils 8.26-1
@@ -138,10 +138,10 @@ I: Retrieving sed 4.3-3
 I: Validating sed 4.3-3
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.4-1
-I: Validating login 1:4.4-1
-I: Retrieving passwd 1:4.4-1
-I: Validating passwd 1:4.4-1
+I: Retrieving login 1:4.4-2
+I: Validating login 1:4.4-2
+I: Retrieving passwd 1:4.4-2
+I: Validating passwd 1:4.4-2
 I: Retrieving libsystemd0 232-12
 I: Validating libsystemd0 232-12
 I: Retrieving libudev1 232-12
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 26.48 MB
+Sending build context to Docker daemon 26.55 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6650d173498c
-Removing intermediate container 8f870a394511
+ ---> c462893b9306
+Removing intermediate container bdd4add35f34
 Step 3/3 : CMD /bin/bash
- ---> Running in c8550bd28053
- ---> 813c86a2b459
-Removing intermediate container c8550bd28053
-Successfully built 813c86a2b459
+ ---> Running in bfe11aee146b
+ ---> ef3d3c9b1cb3
+Removing intermediate container bfe11aee146b
+Successfully built ef3d3c9b1cb3
