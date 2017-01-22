@@ -13,6 +13,6 @@ packages="$packages gem2deb"
 apt-get install --no-install-recommends -y ${packages}
 
 ## install bundler, pry by gem command
-gem install bundler --version 1.13.7
+gem install bundler --version 1.14.1
 gem install pry
 
