@@ -85,8 +85,8 @@ ii   gcc-5-base              5.4.1-4                      amd64  GCC, the GNU Co
 ii   gcc-6-base              6.3.0-4                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-2                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-2                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.17-6                     amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.27-1                       amd64  GNU grep, egrep and fgrep
+ii   gpgv                    2.1.18-1                     amd64  GNU privacy guard - signature verification tool
+ii   grep                    2.27-2                       amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5                        amd64  GNU compression utilities
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
@@ -111,7 +111,7 @@ ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e c
 ii   libcomerr2              1.43.3-1                     amd64  common error description library
 ii   libcurl3                7.52.1-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libdb5.3                5.3.28-12                    amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28-12+b1                 amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.220                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3               amd64  BSD editline and history libraries
 ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
@@ -129,9 +129,9 @@ ii   libgnutls30             3.5.8-1                      amd64  GNU TLS library
 ii   libgpg-error0           1.26-2                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
-ii   libicu57                57.1-5                       amd64  International Components for Unicode
 ii   libidn11                1.33-1                       amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1                       amd64  Internationalized domain names (IDNA2008) library
+ii   libidn2-0-dev           0.16-1                       amd64  Internationalized domain names (IDNA2008) development files
 ii   libk5crypto3            1.15-1                       amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1                       amd64  MIT Kerberos runtime libraries
@@ -159,7 +159,7 @@ ii   libperl5.24             5.24.1-1                     amd64  shared Perl lib
 ii   libpipeline1            1.4.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                   amd64  library for accessing process information from /proc
-ii   libpsl5                 0.16.1-1                     amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.17.0-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-1                     amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-2                     amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-2                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -179,10 +179,10 @@ ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-sid
 ii   libssl1.0.2             1.0.2j-5                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0c-4                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-4                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-13                       amd64  systemd utility library
+ii   libsystemd0             232-14                       amd64  systemd utility library
 ii   libtasn1-6              4.10-1                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-13                       amd64  libudev shared library
+ii   libudev1                232-14                       amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1        amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                      amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1                     amd64  Universally Unique ID library
