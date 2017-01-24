@@ -36,8 +36,8 @@ I: Retrieving coreutils 8.26-2
 I: Validating coreutils 8.26-2
 I: Retrieving dash 0.5.8-2.3
 I: Validating dash 0.5.8-2.3
-I: Retrieving libdb5.3 5.3.28-12
-I: Validating libdb5.3 5.3.28-12
+I: Retrieving libdb5.3 5.3.28-12+b1
+I: Validating libdb5.3 5.3.28-12+b1
 I: Retrieving debconf 1.5.60
 I: Validating debconf 1.5.60
 I: Retrieving debian-archive-keyring 2014.3
@@ -74,10 +74,10 @@ I: Retrieving libc6 2.24-9
 I: Validating libc6 2.24-9
 I: Retrieving multiarch-support 2.24-9
 I: Validating multiarch-support 2.24-9
-I: Retrieving gpgv 2.1.17-6
-I: Validating gpgv 2.1.17-6
-I: Retrieving grep 2.27-1
-I: Validating grep 2.27-1
+I: Retrieving gpgv 2.1.18-1
+I: Validating gpgv 2.1.18-1
+I: Retrieving grep 2.27-2
+I: Validating grep 2.27-2
 I: Retrieving gzip 1.6-5
 I: Validating gzip 1.6-5
 I: Retrieving hostname 3.18
@@ -142,10 +142,10 @@ I: Retrieving login 1:4.4-2
 I: Validating login 1:4.4-2
 I: Retrieving passwd 1:4.4-2
 I: Validating passwd 1:4.4-2
-I: Retrieving libsystemd0 232-13
-I: Validating libsystemd0 232-13
-I: Retrieving libudev1 232-13
-I: Validating libudev1 232-13
+I: Retrieving libsystemd0 232-14
+I: Validating libsystemd0 232-14
+I: Retrieving libudev1 232-14
+I: Validating libudev1 232-14
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1.1
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 26.56 MB
+Sending build context to Docker daemon 26.66 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 295edbbb34f0
-Removing intermediate container 2cefee0cf2fe
+ ---> dac8e09e94d9
+Removing intermediate container c7f6d447de6a
 Step 3/3 : CMD /bin/bash
- ---> Running in e4f0ae590741
- ---> 5481bd86087a
-Removing intermediate container e4f0ae590741
-Successfully built 5481bd86087a
+ ---> Running in cdcd72d38d73
+ ---> c43d56522d47
+Removing intermediate container cdcd72d38d73
+Successfully built c43d56522d47

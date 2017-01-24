@@ -510,7 +510,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "630",
+    "Installed-Size": "720",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.17-6",
+    "Version": "2.1.18-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.17-6"
+    "source:Version": "2.1.18-1"
   },
   {
     "Architecture": "amd64",
@@ -549,7 +549,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.27-1",
+    "Version": "2.27-2",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.27-1"
+    "source:Version": "2.27-2"
   },
   {
     "Architecture": "amd64",
@@ -1014,7 +1014,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1814",
+    "Installed-Size": "1815",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28-12",
+    "Version": "5.3.28-12+b1",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-13",
+    "Version": "232-14",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-13"
+    "source:Version": "232-14"
   },
   {
     "Architecture": "amd64",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-13",
+    "Version": "232-14",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-13"
+    "source:Version": "232-14"
   },
   {
     "Architecture": "amd64",
