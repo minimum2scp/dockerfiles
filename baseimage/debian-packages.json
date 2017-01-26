@@ -314,7 +314,7 @@
     "Depends": "debianutils (>= 2.15), dpkg (>= 1.15.0)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "200",
+    "Installed-Size": "204",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.14)",
@@ -325,7 +325,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.8-2.3",
+    "Version": "0.5.8-2.4",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.8-2.3"
+    "source:Version": "0.5.8-2.4"
   },
   {
     "Architecture": "all",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.18-1",
+    "Version": "2.1.18-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.18-1"
+    "source:Version": "2.1.18-3"
   },
   {
     "Architecture": "amd64",
@@ -3590,7 +3590,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2745",
+    "Installed-Size": "2747",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
@@ -3601,7 +3601,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-2",
+    "Version": "1:4.4-3",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-2"
+    "source:Version": "1:4.4-3"
   },
   {
     "Architecture": "all",
@@ -4038,7 +4038,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2474",
+    "Installed-Size": "2478",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-2",
+    "Version": "1:4.4-3",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-2"
+    "source:Version": "1:4.4-3"
   },
   {
     "Architecture": "amd64",
