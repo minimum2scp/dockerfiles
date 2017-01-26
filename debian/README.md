@@ -25,7 +25,7 @@ ii   base-passwd             3.5.43                amd64  Debian base system mas
 ii   bash                    4.4-4                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.1-1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.26-2                amd64  GNU core utilities
-ii   dash                    0.5.8-2.3             amd64  POSIX-compliant shell
+ii   dash                    0.5.8-2.4             amd64  POSIX-compliant shell
 ii   debconf                 1.5.60                all    Debian configuration management system
 ii   debian-archive-keyring  2014.3                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                 amd64  Miscellaneous utilities specific to Debian
@@ -36,7 +36,7 @@ ii   e2fsprogs               1.43.3-1              amd64  ext2/ext3/ext4 file sy
 ii   findutils               4.6.0+git+20161106-1  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-5               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.1.18-1              amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-3              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5                 amd64  GNU compression utilities
 ii   hostname                3.18                  amd64  utility to set/show the host name or domain name
@@ -84,7 +84,7 @@ ii   libtinfo5               6.0+20161126-1        amd64  shared low-level termi
 ii   libudev1                232-14                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1              amd64  Universally Unique ID library
-ii   login                   1:4.4-2               amd64  system login tools
+ii   login                   1:4.4-3               amd64  system login tools
 ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.29.1-1              amd64  tools for mounting and manipulating filesystems
@@ -92,7 +92,7 @@ ii   multiarch-support       2.24-9                amd64  Transitional package t
 ii   ncurses-base            6.0+20161126-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
-ii   passwd                  1:4.4-2               amd64  change and administer password and group data
+ii   passwd                  1:4.4-3               amd64  change and administer password and group data
 ii   perl-base               5.24.1-1              amd64  minimal Perl system
 ii   sed                     4.3-3                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
