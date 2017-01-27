@@ -454,7 +454,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6664",
+    "Installed-Size": "6680",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -464,8 +464,8 @@
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "apt",
-    "Version": "1.18.18",
+    "Suggests": "apt, debsig-verify",
+    "Version": "1.18.19",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.18"
+    "source:Version": "1.18.19"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1238",
+    "Installed-Size": "1262",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.7.5-3",
+    "Version": "1.7.6-1",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.7.5-3"
+    "source:Version": "1.7.6-1"
   },
   {
     "Architecture": "amd64",
@@ -3226,7 +3226,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3538",
+    "Installed-Size": "3546",
     "Origin": "",
     "Package": "libssl1.0.2",
     "Pre-Depends": "",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2j-5",
+    "Version": "1.0.2k-1",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2j-5"
+    "source:Version": "1.0.2k-1"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3511",
+    "Installed-Size": "3520",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0c-4",
+    "Version": "1.1.0d-1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0c-4"
+    "source:Version": "1.1.0d-1"
   },
   {
     "Architecture": "amd64",
@@ -4010,7 +4010,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.0), perl",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1254",
+    "Installed-Size": "1255",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0c-4",
+    "Version": "1.1.0d-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0c-4"
+    "source:Version": "1.1.0d-1"
   },
   {
     "Architecture": "amd64",
