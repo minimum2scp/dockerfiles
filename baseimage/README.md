@@ -76,7 +76,7 @@ ii   debconf                 1.5.60                       all    Debian configur
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                      amd64  File comparison utilities
-ii   dpkg                    1.18.19                      amd64  Debian package management system
+ii   dpkg                    1.18.20                      amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
