@@ -46,8 +46,8 @@ I: Retrieving debianutils 4.8.1
 I: Validating debianutils 4.8.1
 I: Retrieving diffutils 1:3.5-3
 I: Validating diffutils 1:3.5-3
-I: Retrieving dpkg 1.18.19
-I: Validating dpkg 1.18.19
+I: Retrieving dpkg 1.18.20
+I: Validating dpkg 1.18.20
 I: Retrieving e2fslibs 1.43.3-1
 I: Validating e2fslibs 1.43.3-1
 I: Retrieving e2fsprogs 1.43.3-1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon  26.7 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e9f7de8c6a51
-Removing intermediate container 0577c765366d
+ ---> 13f605ab7c4a
+Removing intermediate container 4c191d746aaf
 Step 3/3 : CMD /bin/bash
- ---> Running in d2a15e41e09e
- ---> b4af2d1a1417
-Removing intermediate container d2a15e41e09e
-Successfully built b4af2d1a1417
+ ---> Running in 70e2fb7702ed
+ ---> 09aa2e80872f
+Removing intermediate container 70e2fb7702ed
+Successfully built 09aa2e80872f
