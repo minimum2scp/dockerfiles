@@ -35,6 +35,23 @@ jobs:
             docker version
             docker info
 
+      - run:
+          name: Install java
+          command: |
+            set -x
+            echo "deb http://deb.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
+            apt-get update
+            apt-get install openjdk-8-jre-headless -t jessie-backports -y --no-install-recommends
+
+      - run:
+          name: Install digdag
+          command: |
+            set -x
+            curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-latest"
+            chmod +x /usr/local/bin/digdag
+
+      - run: digdag --version
+
       - run: docker pull     minimum2scp/debian:latest
       - run: docker build -t minimum2scp/baseimage:latest         baseimage
       - run: docker build -t minimum2scp/ruby:latest              ruby
