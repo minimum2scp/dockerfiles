@@ -12,42 +12,42 @@ I: Retrieving libacl1 2.2.52-3
 I: Validating libacl1 2.2.52-3
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
-I: Retrieving apt 1.4~beta3
-I: Validating apt 1.4~beta3
-I: Retrieving libapt-pkg5.0 1.4~beta3
-I: Validating libapt-pkg5.0 1.4~beta3
+I: Retrieving apt 1.4~beta4
+I: Validating apt 1.4~beta4
+I: Retrieving libapt-pkg5.0 1.4~beta4
+I: Validating libapt-pkg5.0 1.4~beta4
 I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
 I: Retrieving libaudit-common 1:2.6.7-1
 I: Validating libaudit-common 1:2.6.7-1
 I: Retrieving libaudit1 1:2.6.7-1
 I: Validating libaudit1 1:2.6.7-1
-I: Retrieving base-files 9.7
-I: Validating base-files 9.7
-I: Retrieving base-passwd 3.5.42
-I: Validating base-passwd 3.5.42
-I: Retrieving bash 4.4-2
-I: Validating bash 4.4-2
-I: Retrieving libbz2-1.0 1.0.6-8
-I: Validating libbz2-1.0 1.0.6-8
-I: Retrieving libdebconfclient0 0.219
-I: Validating libdebconfclient0 0.219
-I: Retrieving coreutils 8.26-1
-I: Validating coreutils 8.26-1
-I: Retrieving dash 0.5.8-2.3
-I: Validating dash 0.5.8-2.3
-I: Retrieving libdb5.3 5.3.28-12
-I: Validating libdb5.3 5.3.28-12
-I: Retrieving debconf 1.5.59
-I: Validating debconf 1.5.59
+I: Retrieving base-files 9.8
+I: Validating base-files 9.8
+I: Retrieving base-passwd 3.5.43
+I: Validating base-passwd 3.5.43
+I: Retrieving bash 4.4-4
+I: Validating bash 4.4-4
+I: Retrieving libbz2-1.0 1.0.6-8+b1
+I: Validating libbz2-1.0 1.0.6-8+b1
+I: Retrieving libdebconfclient0 0.220
+I: Validating libdebconfclient0 0.220
+I: Retrieving coreutils 8.26-2
+I: Validating coreutils 8.26-2
+I: Retrieving dash 0.5.8-2.4
+I: Validating dash 0.5.8-2.4
+I: Retrieving libdb5.3 5.3.28-12+b1
+I: Validating libdb5.3 5.3.28-12+b1
+I: Retrieving debconf 1.5.60
+I: Validating debconf 1.5.60
 I: Retrieving debian-archive-keyring 2014.3
 I: Validating debian-archive-keyring 2014.3
 I: Retrieving debianutils 4.8.1
 I: Validating debianutils 4.8.1
 I: Retrieving diffutils 1:3.5-3
 I: Validating diffutils 1:3.5-3
-I: Retrieving dpkg 1.18.18
-I: Validating dpkg 1.18.18
+I: Retrieving dpkg 1.18.20
+I: Validating dpkg 1.18.20
 I: Retrieving e2fslibs 1.43.3-1
 I: Validating e2fslibs 1.43.3-1
 I: Retrieving e2fsprogs 1.43.3-1
@@ -62,38 +62,38 @@ I: Retrieving findutils 4.6.0+git+20161106-1
 I: Validating findutils 4.6.0+git+20161106-1
 I: Retrieving gcc-5-base 5.4.1-4
 I: Validating gcc-5-base 5.4.1-4
-I: Retrieving gcc-6-base 6.3.0-2
-I: Validating gcc-6-base 6.3.0-2
-I: Retrieving libgcc1 1:6.3.0-2
-I: Validating libgcc1 1:6.3.0-2
-I: Retrieving libstdc++6 6.3.0-2
-I: Validating libstdc++6 6.3.0-2
-I: Retrieving libc-bin 2.24-8
-I: Validating libc-bin 2.24-8
-I: Retrieving libc6 2.24-8
-I: Validating libc6 2.24-8
-I: Retrieving multiarch-support 2.24-8
-I: Validating multiarch-support 2.24-8
-I: Retrieving gpgv 2.1.17-4
-I: Validating gpgv 2.1.17-4
-I: Retrieving grep 2.27-1
-I: Validating grep 2.27-1
+I: Retrieving gcc-6-base 6.3.0-5
+I: Validating gcc-6-base 6.3.0-5
+I: Retrieving libgcc1 1:6.3.0-5
+I: Validating libgcc1 1:6.3.0-5
+I: Retrieving libstdc++6 6.3.0-5
+I: Validating libstdc++6 6.3.0-5
+I: Retrieving libc-bin 2.24-9
+I: Validating libc-bin 2.24-9
+I: Retrieving libc6 2.24-9
+I: Validating libc6 2.24-9
+I: Retrieving multiarch-support 2.24-9
+I: Validating multiarch-support 2.24-9
+I: Retrieving gpgv 2.1.18-3
+I: Validating gpgv 2.1.18-3
+I: Retrieving grep 2.27-2
+I: Validating grep 2.27-2
 I: Retrieving gzip 1.6-5
 I: Validating gzip 1.6-5
 I: Retrieving hostname 3.18
 I: Validating hostname 3.18
 I: Retrieving inetutils-ping 2:1.9.4-2+b1
 I: Validating inetutils-ping 2:1.9.4-2+b1
-I: Retrieving init-system-helpers 1.46
-I: Validating init-system-helpers 1.46
+I: Retrieving init-system-helpers 1.47
+I: Validating init-system-helpers 1.47
 I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3
 I: Validating libcap-ng0 0.7.7-3
-I: Retrieving libgcrypt20 1.7.5-3
-I: Validating libgcrypt20 1.7.5-3
-I: Retrieving libgpg-error0 1.26-1
-I: Validating libgpg-error0 1.26-1
+I: Retrieving libgcrypt20 1.7.6-1
+I: Validating libgcrypt20 1.7.6-1
+I: Retrieving libgpg-error0 1.26-2
+I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
 I: Retrieving libselinux1 2.6-3
@@ -132,20 +132,20 @@ I: Retrieving libpam0g 1.1.8-3.5
 I: Validating libpam0g 1.1.8-3.5
 I: Retrieving libpcre3 2:8.39-2
 I: Validating libpcre3 2:8.39-2
-I: Retrieving perl-base 5.24.1~rc4-1
-I: Validating perl-base 5.24.1~rc4-1
+I: Retrieving perl-base 5.24.1-1
+I: Validating perl-base 5.24.1-1
 I: Retrieving sed 4.3-3
 I: Validating sed 4.3-3
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.4-1
-I: Validating login 1:4.4-1
-I: Retrieving passwd 1:4.4-1
-I: Validating passwd 1:4.4-1
-I: Retrieving libsystemd0 232-10
-I: Validating libsystemd0 232-10
-I: Retrieving libudev1 232-10
-I: Validating libudev1 232-10
+I: Retrieving login 1:4.4-3
+I: Validating login 1:4.4-3
+I: Retrieving passwd 1:4.4-3
+I: Validating passwd 1:4.4-3
+I: Retrieving libsystemd0 232-14
+I: Validating libsystemd0 232-14
+I: Retrieving libudev1 232-14
+I: Validating libudev1 232-14
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1.1
@@ -154,22 +154,22 @@ I: Retrieving tzdata 2016j-2
 I: Validating tzdata 2016j-2
 I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
-I: Retrieving bsdutils 1:2.29-1
-I: Validating bsdutils 1:2.29-1
-I: Retrieving libblkid1 2.29-1
-I: Validating libblkid1 2.29-1
-I: Retrieving libfdisk1 2.29-1
-I: Validating libfdisk1 2.29-1
-I: Retrieving libmount1 2.29-1
-I: Validating libmount1 2.29-1
-I: Retrieving libsmartcols1 2.29-1
-I: Validating libsmartcols1 2.29-1
-I: Retrieving libuuid1 2.29-1
-I: Validating libuuid1 2.29-1
-I: Retrieving mount 2.29-1
-I: Validating mount 2.29-1
-I: Retrieving util-linux 2.29-1
-I: Validating util-linux 2.29-1
+I: Retrieving bsdutils 1:2.29.1-1
+I: Validating bsdutils 1:2.29.1-1
+I: Retrieving libblkid1 2.29.1-1
+I: Validating libblkid1 2.29.1-1
+I: Retrieving libfdisk1 2.29.1-1
+I: Validating libfdisk1 2.29.1-1
+I: Retrieving libmount1 2.29.1-1
+I: Validating libmount1 2.29.1-1
+I: Retrieving libsmartcols1 2.29.1-1
+I: Validating libsmartcols1 2.29.1-1
+I: Retrieving libuuid1 2.29.1-1
+I: Validating libuuid1 2.29.1-1
+I: Retrieving mount 2.29.1-1
+I: Validating mount 2.29.1-1
+I: Retrieving util-linux 2.29.1-1
+I: Validating util-linux 2.29.1-1
 I: Retrieving liblzma5 5.2.2-1.2
 I: Validating liblzma5 5.2.2-1.2
 I: Retrieving zlib1g 1:1.2.8.dfsg-4
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 557.1 kBSending build context to Docker daemon 1.114 MBSending build context to Docker daemon 1.671 MBSending build context to Docker daemon 2.228 MBSending build context to Docker daemon 2.785 MBSending build context to Docker daemon 3.342 MBSending build context to Docker daemon 3.899 MBSending build context to Docker daemon 4.456 MBSending build context to Docker daemon 5.014 MBSending build context to Docker daemon 5.571 MBSending build context to Docker daemon 6.128 MBSending build context to Docker daemon 6.685 MBSending build context to Docker daemon 7.242 MBSending build context to Docker daemon 7.799 MBSending build context to Docker daemon 8.356 MBSending build context to Docker daemon 8.913 MBSending build context to Docker daemon  9.47 MBSending build context to Docker daemon 10.03 MBSending build context to Docker daemon 10.58 MBSending build context to Docker daemon 11.14 MBSending build context to Docker daemon  11.7 MBSending build context to Docker daemon 12.26 MBSending build context to Docker daemon 12.81 MBSending build context to Docker daemon 13.37 MBSending build context to Docker daemon 13.93 MBSending build context to Docker daemon 14.48 MBSending build context to Docker daemon 15.04 MBSending build context to Docker daemon  15.6 MBSending build context to Docker daemon 16.15 MBSending build context to Docker daemon 16.71 MBSending build context to Docker daemon 17.27 MBSending build context to Docker daemon 17.83 MBSending build context to Docker daemon 18.38 MBSending build context to Docker daemon 18.94 MBSending build context to Docker daemon  19.5 MBSending build context to Docker daemon 20.05 MBSending build context to Docker daemon 20.61 MBSending build context to Docker daemon 21.17 MBSending build context to Docker daemon 21.73 MBSending build context to Docker daemon 22.28 MBSending build context to Docker daemon 22.84 MBSending build context to Docker daemon  23.4 MBSending build context to Docker daemon 23.95 MBSending build context to Docker daemon 24.51 MBSending build context to Docker daemon 25.07 MBSending build context to Docker daemon 25.62 MBSending build context to Docker daemon 26.18 MBSending build context to Docker daemon 26.45 MB
-Step 1 : FROM scratch
+Sending build context to Docker daemon  26.7 MB
+Step 1/3 : FROM scratch
  ---> 
-Step 2 : ADD rootfs.tar.xz /
- ---> b5b7804352ce
-Removing intermediate container 569ee0b5fd90
-Step 3 : CMD /bin/bash
- ---> Running in 0b002aa27330
- ---> 4a72e5d5b9e5
-Removing intermediate container 0b002aa27330
-Successfully built 4a72e5d5b9e5
+Step 2/3 : ADD rootfs.tar.xz /
+ ---> 13f605ab7c4a
+Removing intermediate container 4c191d746aaf
+Step 3/3 : CMD /bin/bash
+ ---> Running in 70e2fb7702ed
+ ---> 09aa2e80872f
+Removing intermediate container 70e2fb7702ed
+Successfully built 09aa2e80872f

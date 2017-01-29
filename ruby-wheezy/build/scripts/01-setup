@@ -13,6 +13,6 @@ packages="$packages build-essential autoconf bison ca-certificates libgdbm-dev l
 apt-get install --no-install-recommends -y ${packages}
 
 ## install bundler, pry by gem command
-gem install bundler --version 1.13.7
+gem install bundler --version 1.14.3
 gem install pry
 

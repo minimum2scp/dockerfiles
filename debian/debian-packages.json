@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.4~beta3",
+    "Version": "1.4~beta4",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta3"
+    "source:Version": "1.4~beta4"
   },
   {
     "Architecture": "amd64",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.7",
+    "Version": "9.8",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "9.7"
+    "source:Version": "9.8"
   },
   {
     "Architecture": "amd64",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.42",
+    "Version": "3.5.43",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.42"
+    "source:Version": "3.5.43"
   },
   {
     "Architecture": "amd64",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.4-2",
+    "Version": "4.4-4",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.4-2"
+    "source:Version": "4.4-4"
   },
   {
     "Architecture": "amd64",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.29-1",
+    "Version": "1:2.29.1-1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -174,7 +174,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "15042",
+    "Installed-Size": "15103",
     "Origin": "",
     "Package": "coreutils",
     "Pre-Depends": "libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13)",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.26-1",
+    "Version": "8.26-2",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.26-1"
+    "source:Version": "8.26-2"
   },
   {
     "Architecture": "amd64",
@@ -202,7 +202,7 @@
     "Depends": "debianutils (>= 2.15), dpkg (>= 1.15.0)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "200",
+    "Installed-Size": "204",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.14)",
@@ -213,7 +213,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.8-2.3",
+    "Version": "0.5.8-2.4",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.8-2.3"
+    "source:Version": "0.5.8-2.4"
   },
   {
     "Architecture": "all",
@@ -241,7 +241,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk2-perl (>= 1:1.130), libnet-ldap-perl, perl, libqtgui4-perl, libqtcore4-perl",
-    "Version": "1.5.59",
+    "Version": "1.5.60",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.59"
+    "source:Version": "1.5.60"
   },
   {
     "Architecture": "all",
@@ -342,7 +342,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6664",
+    "Installed-Size": "6682",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -352,8 +352,8 @@
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "apt",
-    "Version": "1.18.18",
+    "Suggests": "apt, debsig-verify",
+    "Version": "1.18.20",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.18"
+    "source:Version": "1.18.20"
   },
   {
     "Architecture": "amd64",
@@ -482,7 +482,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "207",
     "Origin": "",
     "Package": "gcc-6-base",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3.0-2",
+    "Version": "6.3.0-5",
     "binary:Package": "gcc-6-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.3.0-2"
+    "source:Version": "6.3.0-5"
   },
   {
     "Architecture": "amd64",
@@ -510,7 +510,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "630",
+    "Installed-Size": "720",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.17-4",
+    "Version": "2.1.18-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.17-4"
+    "source:Version": "2.1.18-3"
   },
   {
     "Architecture": "amd64",
@@ -549,7 +549,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.27-1",
+    "Version": "2.27-2",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.27-1"
+    "source:Version": "2.27-2"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": "perl-base (>= 5.20.1-3)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "130",
+    "Installed-Size": "131",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46",
+    "Version": "1.47",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.46"
+    "source:Version": "1.47"
   },
   {
     "Architecture": "amd64",
@@ -734,18 +734,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3029",
+    "Installed-Size": "3047",
     "Origin": "",
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.4~beta3)",
-    "Recommends": "apt (>= 1.4~beta3)",
+    "Provides": "libapt-pkg (= 1.4~beta4)",
+    "Recommends": "apt (>= 1.4~beta4)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4~beta3",
+    "Version": "1.4~beta4",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4~beta3"
+    "source:Version": "1.4~beta4"
   },
   {
     "Architecture": "amd64",
@@ -857,7 +857,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -874,7 +874,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "83",
+    "Installed-Size": "97",
     "Origin": "",
     "Package": "libbz2-1.0",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.6-8",
+    "Version": "1.0.6-8+b1",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -902,7 +902,7 @@
     "Depends": "libc6 (>> 2.24), libc6 (<< 2.25)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3362",
+    "Installed-Size": "3364",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-8",
+    "Version": "2.24-9",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-8"
+    "source:Version": "2.24-9"
   },
   {
     "Architecture": "amd64",
@@ -930,7 +930,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "10670",
+    "Installed-Size": "10679",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.24-8",
+    "Version": "2.24-9",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-8"
+    "source:Version": "2.24-9"
   },
   {
     "Architecture": "amd64",
@@ -1014,7 +1014,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1814",
+    "Installed-Size": "1815",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28-12",
+    "Version": "5.3.28-12+b1",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.219",
+    "Version": "0.220",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.219"
+    "source:Version": "0.220"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "libfdisk1:amd64",
     "binary:Summary": "fdisk partitioning library",
     "db:Status-Abbrev": "ii ",
@@ -1117,13 +1117,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-6-base (= 6.3.0-2), libc6 (>= 2.14)",
+    "Depends": "gcc-6-base (= 6.3.0-5), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "108",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:6.3.0-2",
+    "Version": "1:6.3.0-5",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.3.0-2"
+    "source:Version": "6.3.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1238",
+    "Installed-Size": "1262",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.7.5-3",
+    "Version": "1.7.6-1",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.7.5-3"
+    "source:Version": "1.7.6-1"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.26-1",
+    "Version": "1.26-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.26-1"
+    "source:Version": "1.26-2"
   },
   {
     "Architecture": "amd64",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1683,7 +1683,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1+b1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)",
-    "Depends": "gcc-6-base (= 6.3.0-2), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-6-base (= 6.3.0-5), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1992",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3.0-2",
+    "Version": "6.3.0-5",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.3.0-2"
+    "source:Version": "6.3.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-10",
+    "Version": "232-14",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-10"
+    "source:Version": "232-14"
   },
   {
     "Architecture": "amd64",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-10",
+    "Version": "232-14",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-10"
+    "source:Version": "232-14"
   },
   {
     "Architecture": "amd64",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2389",
+    "Installed-Size": "2747",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
@@ -1865,7 +1865,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-1",
+    "Version": "1:4.4-3",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-1"
+    "source:Version": "1:4.4-3"
   },
   {
     "Architecture": "all",
@@ -1949,7 +1949,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "218",
+    "Installed-Size": "219",
     "Origin": "",
     "Package": "multiarch-support",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-8",
+    "Version": "2.24-9",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-8"
+    "source:Version": "2.24-9"
   },
   {
     "Architecture": "all",
@@ -2078,7 +2078,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2405",
+    "Installed-Size": "2478",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -2089,7 +2089,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-1",
+    "Version": "1:4.4-3",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2097,16 +2097,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-1"
+    "source:Version": "1:4.4-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)",
-    "Breaks": "amanda-common (<< 1:3.3.9-2), autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), dh-haskell (<< 0.3), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libfile-path-perl (<< 2.12.01), libfile-spec-perl (<< 3.6301), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.37), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.42.02), libsocket-perl (<< 2.020.03), libxsloader-perl (<< 0.22), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.24.1~rc4~), perl-modules (<< 5.24.1~rc4~), texinfo (<< 6.1.0.dfsg.1-8)",
+    "Breaks": "amanda-common (<< 1:3.3.9-2), autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), dh-haskell (<< 0.3), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libexception-class-perl (<< 1.42), libfile-path-perl (<< 2.12.01), libfile-spec-perl (<< 3.6301), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.37), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.42.02), libsocket-perl (<< 2.020.03), libxsloader-perl (<< 0.22), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.24.1~), perl-modules (<< 5.24.1~), texinfo (<< 6.1.0.dfsg.1-8)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7538",
+    "Installed-Size": "7537",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.23), dpkg (>= 1.17.17)",
@@ -2117,7 +2117,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.24.1~rc4-1",
+    "Version": "5.24.1-1",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.24.1~rc4-1"
+    "source:Version": "5.24.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2274,7 +2274,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3552",
+    "Installed-Size": "3560",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libblkid1 (>= 2.25), libc6 (>= 2.15), libfdisk1 (>= 2.29~rc2), libmount1 (>= 2.25), libncursesw5 (>= 6), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.28~rc1), libsystemd0, libtinfo5 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -2285,7 +2285,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.29-1",
+    "Version": "2.29.1-1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.29-1"
+    "source:Version": "2.29.1-1"
   },
   {
     "Architecture": "amd64",
