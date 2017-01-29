@@ -72,3 +72,7 @@ jobs:
 
       - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
 
+      - store_artifacts:
+          path: .circleci/log/
+          destination: log
+

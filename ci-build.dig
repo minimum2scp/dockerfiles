@@ -3,51 +3,77 @@
 
   +sid:
     +debian:
-      sh>: docker pull  minimum2scp/debian:latest
+      sh>: docker pull  minimum2scp/debian:latest > .circleci/log/pull_debian.log 2>&1
+      _error:
+        sh>: cat .circleci/log/pull_debian.log
 
     +baseimage:
-      sh>: docker build -t minimum2scp/baseimage:latest baseimage
+      sh>: docker build -t minimum2scp/baseimage:latest baseimage > .circleci/log/build_baseimage.log 2>&1
+      _error:
+        sh>: cat .circleci/log/build_baseimage.log
 
     +after-baseimage:
       _parallel: true
 
       +nodejs-group:
         +nodejs:
-          sh>: docker build -t minimum2scp/nodejs:latest nodejs
+          sh>: docker build -t minimum2scp/nodejs:latest nodejs > .circleci/log/build_nodejs.log 2>&1
+          _error:
+            sh>: cat .circleci/log/build_nodejs.log
 
       +ruby-group:
         +ruby:
-          sh>: docker build -t minimum2scp/ruby:latest ruby
+          sh>: docker build -t minimum2scp/ruby:latest ruby > .circleci/log/build_ruby.log 2>&1
+          _error:
+            sh>: cat .circleci/log/build_ruby.log
 
         +after-ruby:
           _parallel: true
 
           +ruby-full:
-            sh>: docker build -t minimum2scp/ruby-full:latest ruby-full
+            sh>: docker build -t minimum2scp/ruby-full:latest ruby-full > .circleci/log/build_ruby-full.log 2>&1
+            _error:
+              sh>: cat .circleci/log/build_ruby-full.log
 
           +rails4:
-            sh>: docker build -t minimum2scp/rails4:latest rails4
+            sh>: docker build -t minimum2scp/rails4:latest rails4 > .circleci/log/build_rails4.log 2>&1
+            _error:
+              sh>: cat .circleci/log/build_rails4.log
 
           +rails5:
-            sh>: docker build -t minimum2scp/rails5:latest rails5
+            sh>: docker build -t minimum2scp/rails5:latest rails5 > .circleci/log/build_rails5.log 2>&1
+            _error:
+              sh>: cat .circleci/log/build_rails5.log
 
   +jessie:
     +debian-jessie:
-      sh>: docker pull  minimum2scp/debian-jessie:latest
+      sh>: docker pull  minimum2scp/debian-jessie:latest > .circleci/log/pull_debian-jessie.log 2>&1
+      _error:
+        sh>: cat .circleci/log/pull_debian-jessie.log
 
     +baseimage-jessie:
-      sh>: docker build -t minimum2scp/baseimage-jessie:latest baseimage-jessie
+      sh>: docker build -t minimum2scp/baseimage-jessie:latest baseimage-jessie > .circleci/log/build_baseimage-jessie.log 2>&1
+      _error:
+        sh>: cat .circleci/log/build_baseimage-jessie.log
 
     +ruby-jessie:
-      sh>: docker build -t minimum2scp/ruby-jessie:latest ruby-jessie
+      sh>: docker build -t minimum2scp/ruby-jessie:latest ruby-jessie > .circleci/log/build_ruby-jessie.log 2>&1
+      _error:
+        sh>: cat .circleci/log/build_ruby-jessie.log
 
   +wheezy:
     +debian-wheezy:
-      sh>: docker pull  minimum2scp/debian-wheezy:latest
+      sh>: docker pull  minimum2scp/debian-wheezy:latest > .circleci/log/pull_debian-wheezy.log 2>&1
+      _error:
+        sh>: cat .circleci/log/pull_debian-wheezy.log
 
     +baseimage-wheezy:
-      sh>: docker build -t minimum2scp/baseimage-wheezy:latest baseimage-wheezy
+      sh>: docker build -t minimum2scp/baseimage-wheezy:latest baseimage-wheezy > .circleci/log/build_baseimage-wheezy.log 2>&1
+      _error:
+        sh>: cat .circleci/log/build_baseimage-wheezy.log
 
     +ruby-wheezy:
-      sh>: docker build -t minimum2scp/ruby-wheezy:latest ruby-wheezy
+      sh>: docker build -t minimum2scp/ruby-wheezy:latest ruby-wheezy > .circleci/log/build_ruby-wheezy.log 2>&1
+      _error:
+        sh>: cat .circleci/log/build_ruby-wheezy.log
 

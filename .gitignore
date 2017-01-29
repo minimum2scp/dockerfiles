@@ -4,3 +4,4 @@
 deps.svg
 vendor/bundle
 .digdag
+.circleci/log
