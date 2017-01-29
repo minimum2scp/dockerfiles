@@ -1,0 +1,53 @@
++main:
+  _parallel: true
+
+  +sid:
+    +debian:
+      sh>: docker pull  minimum2scp/debian:latest
+
+    +baseimage:
+      sh>: docker build -t minimum2scp/baseimage:latest baseimage
+
+    +after-baseimage:
+      _parallel: true
+
+      +nodejs-group:
+        +nodejs:
+          sh>: docker build -t minimum2scp/nodejs:latest nodejs
+
+      +ruby-group:
+        +ruby:
+          sh>: docker build -t minimum2scp/ruby:latest ruby
+
+        +after-ruby:
+          _parallel: true
+
+          +ruby-full:
+            sh>: docker build -t minimum2scp/ruby-full:latest ruby-full
+
+          +rails4:
+            sh>: docker build -t minimum2scp/rails4:latest rails4
+
+          +rails5:
+            sh>: docker build -t minimum2scp/rails5:latest rails5
+
+  +jessie:
+    +debian-jessie:
+      sh>: docker pull  minimum2scp/debian-jessie:latest
+
+    +baseimage-jessie:
+      sh>: docker build -t minimum2scp/baseimage-jessie:latest baseimage-jessie
+
+    +ruby-jessie:
+      sh>: docker build -t minimum2scp/ruby-jessie:latest ruby-jessie
+
+  +wheezy:
+    +debian-wheezy:
+      sh>: docker pull  minimum2scp/debian-wheezy:latest
+
+    +baseimage-wheezy:
+      sh>: docker build -t minimum2scp/baseimage-wheezy:latest baseimage-wheezy
+
+    +ruby-wheezy:
+      sh>: docker build -t minimum2scp/ruby-wheezy:latest ruby-wheezy
+

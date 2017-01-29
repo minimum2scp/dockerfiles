@@ -3,3 +3,4 @@
 .snippets
 deps.svg
 vendor/bundle
+.digdag

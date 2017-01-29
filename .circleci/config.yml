@@ -51,20 +51,8 @@ jobs:
             chmod +x /usr/local/bin/digdag
 
       - run: digdag --version
-
-      - run: docker pull     minimum2scp/debian:latest
-      - run: docker build -t minimum2scp/baseimage:latest         baseimage
-      - run: docker build -t minimum2scp/ruby:latest              ruby
-      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
-      - run: docker build -t minimum2scp/nodejs:latest            nodejs
-      - run: docker build -t minimum2scp/rails4:latest            rails4
-      - run: docker build -t minimum2scp/rails5:latest            rails5
-      - run: docker pull     minimum2scp/debian-jessie:latest
-      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
-      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
-      - run: docker pull     minimum2scp/debian-wheezy:latest
-      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
-      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+      - run: digdag check
+      - run: digdag run ci-build.dig --rerun
 
       - run:
           name: Build rspec-runner image
