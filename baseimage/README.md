@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.3.0-5                    amd64  GCC support lib
 ii   libgcrypt20             1.7.6-1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-1                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -148,7 +148,7 @@ ii   libncursesw5            6.0+20161126-1               amd64  shared librarie
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.18.1-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.3-4                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.3-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.5                    all    Runtime support for the PAM library
