@@ -70,13 +70,13 @@ ii   bsdutils                1:2.29.1-1                   amd64  basic utilities
 ii   ca-certificates         20161130                     all    Common CA certificates
 ii   coreutils               8.26-2                       amd64  GNU core utilities
 ii   cron                    3.0pl1-128                   amd64  process scheduling daemon
-ii   curl                    7.52.1-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.52.1-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                    amd64  POSIX-compliant shell
 ii   debconf                 1.5.60                       all    Debian configuration management system
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                      amd64  File comparison utilities
-ii   dpkg                    1.18.20                      amd64  Debian package management system
+ii   dpkg                    1.18.21                      amd64  Debian package management system
 ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
@@ -102,17 +102,17 @@ ii   libaudit-common         1:2.6.7-1                    all    Dynamic library
 ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.1-1                     amd64  block device ID library
 ii   libbsd0                 0.8.3-1                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-8+b1                   amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-8.1                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-9                       amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-9                       all    GNU C Library: localization files
 ii   libc6                   2.24-9                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.3-1                     amd64  common error description library
-ii   libcurl3                7.52.1-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.52.1-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.52.1-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.52.1-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                 amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.220                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.221                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3               amd64  BSD editline and history libraries
 ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -231,7 +231,7 @@ ii   vim-common              2:8.0.0197-1                 all    Vi IMproved - C
 ii   vim-tiny                2:8.0.0197-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-1                 amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.8.dfsg-4               amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-5               amd64  compression library - runtime
 ii   zsh                     5.3.1-3                      amd64  shell with lots of features
 ii   zsh-common              5.3.1-3                      all    architecture independent files for Zsh
 ```
