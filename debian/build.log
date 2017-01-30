@@ -28,10 +28,10 @@ I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
 I: Retrieving bash 4.4-4
 I: Validating bash 4.4-4
-I: Retrieving libbz2-1.0 1.0.6-8+b1
-I: Validating libbz2-1.0 1.0.6-8+b1
-I: Retrieving libdebconfclient0 0.220
-I: Validating libdebconfclient0 0.220
+I: Retrieving libbz2-1.0 1.0.6-8.1
+I: Validating libbz2-1.0 1.0.6-8.1
+I: Retrieving libdebconfclient0 0.221
+I: Validating libdebconfclient0 0.221
 I: Retrieving coreutils 8.26-2
 I: Validating coreutils 8.26-2
 I: Retrieving dash 0.5.8-2.4
@@ -46,8 +46,8 @@ I: Retrieving debianutils 4.8.1
 I: Validating debianutils 4.8.1
 I: Retrieving diffutils 1:3.5-3
 I: Validating diffutils 1:3.5-3
-I: Retrieving dpkg 1.18.20
-I: Validating dpkg 1.18.20
+I: Retrieving dpkg 1.18.21
+I: Validating dpkg 1.18.21
 I: Retrieving e2fslibs 1.43.3-1
 I: Validating e2fslibs 1.43.3-1
 I: Retrieving e2fsprogs 1.43.3-1
@@ -172,8 +172,8 @@ I: Retrieving util-linux 2.29.1-1
 I: Validating util-linux 2.29.1-1
 I: Retrieving liblzma5 5.2.2-1.2
 I: Validating liblzma5 5.2.2-1.2
-I: Retrieving zlib1g 1:1.2.8.dfsg-4
-I: Validating zlib1g 1:1.2.8.dfsg-4
+I: Retrieving zlib1g 1:1.2.8.dfsg-5
+I: Validating zlib1g 1:1.2.8.dfsg-5
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting libattr1...
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.7 MB
+Sending build context to Docker daemon 26.71 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 13f605ab7c4a
-Removing intermediate container 4c191d746aaf
+ ---> 4118672784f7
+Removing intermediate container af9ea5f2622d
 Step 3/3 : CMD /bin/bash
- ---> Running in 70e2fb7702ed
- ---> 09aa2e80872f
-Removing intermediate container 70e2fb7702ed
-Successfully built 09aa2e80872f
+ ---> Running in 096272bd1eb2
+ ---> e5e468680c6c
+Removing intermediate container 096272bd1eb2
+Successfully built e5e468680c6c

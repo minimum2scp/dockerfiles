@@ -30,7 +30,7 @@ ii   debconf                 1.5.60                all    Debian configuration m
 ii   debian-archive-keyring  2014.3                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3               amd64  File comparison utilities
-ii   dpkg                    1.18.20               amd64  Debian package management system
+ii   dpkg                    1.18.21               amd64  Debian package management system
 ii   e2fslibs                1.43.3-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-1  amd64  utilities for finding files--find, xargs
@@ -49,13 +49,13 @@ ii   libattr1                1:2.4.47-2            amd64  Extended attribute sha
 ii   libaudit-common         1:2.6.7-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.1-1              amd64  block device ID library
-ii   libbz2-1.0              1.0.6-8+b1            amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-9                amd64  GNU C Library: Binaries
 ii   libc6                   2.24-9                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3               amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.3-1              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.220                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.221                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.1-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-5             amd64  GCC support library
@@ -100,5 +100,5 @@ ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilitie
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016j-2               all    time zone and daylight-saving time data
 ii   util-linux              2.29.1-1              amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.8.dfsg-4        amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-5        amd64  compression library - runtime
 ```
