@@ -77,8 +77,8 @@ ii   debian-archive-keyring  2014.3                       all    GnuPG archive k
 ii   debianutils             4.8.1                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                      amd64  File comparison utilities
 ii   dpkg                    1.18.21                      amd64  Debian package management system
-ii   e2fslibs                1.43.3-1                     amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.3-1                     amd64  ext2/ext3/ext4 file system utilities
+ii   e2fslibs                1.43.4~WIP.2017.01.30-1      amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.4~WIP.2017.01.30-1      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-1         amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-4                      amd64  GCC, the GNU Compiler Collection (base package)
@@ -108,7 +108,7 @@ ii   libc-l10n               2.24-9                       all    GNU C Library: 
 ii   libc6                   2.24-9                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
-ii   libcomerr2              1.43.3-1                     amd64  common error description library
+ii   libcomerr2              1.43.4~WIP.2017.01.30-1      amd64  common error description library
 ii   libcurl3                7.52.1-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                 amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1               amd64  shared librarie
 ii   libncursesw5            6.0+20161126-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.18.1-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.19.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -173,10 +173,10 @@ ii   libsepol1               2.6-2                        amd64  SELinux library
 ii   libslang2               2.3.1-5                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.1-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.16.2-2                     amd64  SQLite 3 shared library
-ii   libss2                  1.43.3-1                     amd64  command-line interface parsing library
+ii   libss2                  1.43.4~WIP.2017.01.30-1      amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0d-1                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0d-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-5                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-14                       amd64  systemd utility library
 ii   libtasn1-6              4.10-1                       amd64  Manage ASN.1 structures (runtime)
@@ -203,7 +203,7 @@ ii   netbase                 5.4                          all    Basic TCP/IP ne
 ii   openssh-client          1:7.4p1-6                    amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0d-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0d-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-3                      amd64  change and administer password and group data
 ii   perl                    5.24.1-1                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-1                     amd64  minimal Perl system
