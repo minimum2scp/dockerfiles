@@ -76,9 +76,9 @@ ii   debconf                 1.5.60                       all    Debian configur
 ii   debian-archive-keyring  2014.3                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                      amd64  File comparison utilities
-ii   dpkg                    1.18.21                      amd64  Debian package management system
-ii   e2fslibs                1.43.4~WIP.2017.01.30-1      amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.4~WIP.2017.01.30-1      amd64  ext2/ext3/ext4 file system utilities
+ii   dpkg                    1.18.22                      amd64  Debian package management system
+ii   e2fslibs                1.43.4-2                     amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.4-2                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-1         amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-4                      amd64  GCC, the GNU Compiler Collection (base package)
@@ -108,7 +108,7 @@ ii   libc-l10n               2.24-9                       all    GNU C Library: 
 ii   libc6                   2.24-9                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                     amd64  POSIX 1003.1e capabilities (library)
-ii   libcomerr2              1.43.4~WIP.2017.01.30-1      amd64  common error description library
+ii   libcomerr2              1.43.4-2                     amd64  common error description library
 ii   libcurl3                7.52.1-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                 amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -173,7 +173,7 @@ ii   libsepol1               2.6-2                        amd64  SELinux library
 ii   libslang2               2.3.1-5                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.1-1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.16.2-2                     amd64  SQLite 3 shared library
-ii   libss2                  1.43.4~WIP.2017.01.30-1      amd64  command-line interface parsing library
+ii   libss2                  1.43.4-2                     amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                      amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0d-2                     amd64  Secure Sockets Layer toolkit - shared libraries
