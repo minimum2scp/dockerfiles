@@ -1,0 +1,24 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## install dependencies
+apt-get install -y --no-install-recommends libsqlite3-dev
+
+## install gemstash
+gem install gemstash --no-document
+
+## install supervisor
+/opt/custom-installers/supervisor/install.sh
+
+## add gemstash to supervisor
+install -m 644 -o root -g root -p /tmp/build/gemstash/etc/supervisor/conf.d/gemstash.conf /etc/supervisor/conf.d/gemstash.conf
+etckeeper commit "supervisor: add gemstash"
+
+## install configuration
+mkdir /home/debian/.gemstash
+chown debian:debian /home/debian/.gemstash
+install -m 644 -o debian -g debian -p /tmp/build/gemstash/home/debian/.gemstash/config.yml /home/debian/.gemstash/config.yml
+
