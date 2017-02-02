@@ -142,10 +142,10 @@ I: Retrieving login 1:4.4-3
 I: Validating login 1:4.4-3
 I: Retrieving passwd 1:4.4-3
 I: Validating passwd 1:4.4-3
-I: Retrieving libsystemd0 232-14
-I: Validating libsystemd0 232-14
-I: Retrieving libudev1 232-14
-I: Validating libudev1 232-14
+I: Retrieving libsystemd0 232-15
+I: Validating libsystemd0 232-15
+I: Retrieving libudev1 232-15
+I: Validating libudev1 232-15
 I: Retrieving sysvinit-utils 2.88dsf-59.8
 I: Validating sysvinit-utils 2.88dsf-59.8
 I: Retrieving tar 1.29b-1.1
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 26.73 MB
+Sending build context to Docker daemon 26.72 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 44ac1e93689a
-Removing intermediate container c942f271e201
+ ---> b26b7d176c89
+Removing intermediate container 20e8fec3da1d
 Step 3/3 : CMD /bin/bash
- ---> Running in 1ec4ad74cb1d
- ---> 36efff3e76e0
-Removing intermediate container 1ec4ad74cb1d
-Successfully built 36efff3e76e0
+ ---> Running in efbf4cfdbca6
+ ---> 343b72472e73
+Removing intermediate container efbf4cfdbca6
+Successfully built 343b72472e73
