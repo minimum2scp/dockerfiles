@@ -112,7 +112,7 @@ ii   libcomerr2              1.43.4-2                     amd64  common error de
 ii   libcurl3                7.52.1-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                 amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.221                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.222                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3               amd64  BSD editline and history libraries
 ii   libelf1                 0.168-0.2                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.3.0-5                    amd64  GCC support lib
 ii   libgcrypt20             1.7.6-1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                     amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-2                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-3                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                       amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1                        amd64  low level cryptographic library (public-key cryptos)
@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1               amd64  shared librarie
 ii   libncursesw5            6.0+20161126-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.19.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.19.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.5                    amd64  Pluggable Authentication Modules for PAM - helper binaries
