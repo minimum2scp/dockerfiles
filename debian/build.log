@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-4
 I: Validating bash 4.4-4
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.221
-I: Validating libdebconfclient0 0.221
+I: Retrieving libdebconfclient0 0.222
+I: Validating libdebconfclient0 0.222
 I: Retrieving coreutils 8.26-2
 I: Validating coreutils 8.26-2
 I: Retrieving dash 0.5.8-2.4
@@ -428,14 +428,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 26.72 MB
+Sending build context to Docker daemon 26.71 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b26b7d176c89
-Removing intermediate container 20e8fec3da1d
+ ---> 08ddb365e0c8
+Removing intermediate container cec699b20be4
 Step 3/3 : CMD /bin/bash
- ---> Running in efbf4cfdbca6
- ---> 343b72472e73
-Removing intermediate container efbf4cfdbca6
-Successfully built 343b72472e73
+ ---> Running in cf1bdd3eaaf0
+ ---> 13b7a56b7a56
+Removing intermediate container cf1bdd3eaaf0
+Successfully built 13b7a56b7a56
