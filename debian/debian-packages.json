@@ -2134,7 +2134,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "785",
+    "Installed-Size": "799",
     "Origin": "",
     "Package": "sed",
     "Pre-Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32)",
@@ -2145,7 +2145,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.3-3",
+    "Version": "4.4-1",
     "binary:Package": "sed",
     "binary:Summary": "GNU stream editor for filtering/transforming text",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sed",
-    "source:Version": "4.3-3"
+    "source:Version": "4.4-1"
   },
   {
     "Architecture": "all",

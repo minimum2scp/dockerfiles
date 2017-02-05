@@ -94,7 +94,7 @@ ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related progr
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-3               amd64  change and administer password and group data
 ii   perl-base               5.24.1-1              amd64  minimal Perl system
-ii   sed                     4.3-3                 amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.8          amd64  System-V-like utilities
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
