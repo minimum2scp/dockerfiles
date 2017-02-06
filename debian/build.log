@@ -60,22 +60,22 @@ I: Retrieving libelf1 0.168-0.2
 I: Validating libelf1 0.168-0.2
 I: Retrieving findutils 4.6.0+git+20161106-1
 I: Validating findutils 4.6.0+git+20161106-1
-I: Retrieving gcc-5-base 5.4.1-4
-I: Validating gcc-5-base 5.4.1-4
-I: Retrieving gcc-6-base 6.3.0-5
-I: Validating gcc-6-base 6.3.0-5
-I: Retrieving libgcc1 1:6.3.0-5
-I: Validating libgcc1 1:6.3.0-5
-I: Retrieving libstdc++6 6.3.0-5
-I: Validating libstdc++6 6.3.0-5
+I: Retrieving gcc-5-base 5.4.1-5
+I: Validating gcc-5-base 5.4.1-5
+I: Retrieving gcc-6-base 6.3.0-6
+I: Validating gcc-6-base 6.3.0-6
+I: Retrieving libgcc1 1:6.3.0-6
+I: Validating libgcc1 1:6.3.0-6
+I: Retrieving libstdc++6 6.3.0-6
+I: Validating libstdc++6 6.3.0-6
 I: Retrieving libc-bin 2.24-9
 I: Validating libc-bin 2.24-9
 I: Retrieving libc6 2.24-9
 I: Validating libc6 2.24-9
 I: Retrieving multiarch-support 2.24-9
 I: Validating multiarch-support 2.24-9
-I: Retrieving gpgv 2.1.18-3
-I: Validating gpgv 2.1.18-3
+I: Retrieving gpgv 2.1.18-4
+I: Validating gpgv 2.1.18-4
 I: Retrieving grep 2.27-2
 I: Validating grep 2.27-2
 I: Retrieving gzip 1.6-5
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 26.74 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7d5ec34ef43f
-Removing intermediate container db9165427fb4
+ ---> 3a2a669d9d5d
+Removing intermediate container 60a83ce194db
 Step 3/3 : CMD /bin/bash
- ---> Running in 4b2e960c70b4
- ---> 9252a52c27b8
-Removing intermediate container 4b2e960c70b4
-Successfully built 9252a52c27b8
+ ---> Running in 9d279228f706
+ ---> 17df935f1311
+Removing intermediate container 9d279228f706
+Successfully built 17df935f1311
