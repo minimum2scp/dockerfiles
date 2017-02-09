@@ -311,7 +311,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy17), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy18), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "367",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy17",
+    "Version": "7.26.0-1+wheezy18",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy17"
+    "source:Version": "7.26.0-1+wheezy18"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy17",
+    "Version": "7.26.0-1+wheezy18",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy17"
+    "source:Version": "7.26.0-1+wheezy18"
   },
   {
     "Architecture": "amd64",
@@ -1378,7 +1378,7 @@
     "Depends": "libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "582",
+    "Installed-Size": "583",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "multiarch-support",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy17",
+    "Version": "7.26.0-1+wheezy18",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy17"
+    "source:Version": "7.26.0-1+wheezy18"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.1t-1+deb7u1",
+    "Version": "1.0.1t-1+deb7u2",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "SSL shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb7u1"
+    "source:Version": "1.0.1t-1+deb7u2"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1t-1+deb7u1",
+    "Version": "1.0.1t-1+deb7u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Socket Layer (SSL) binary and related cryptographic tools",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb7u1"
+    "source:Version": "1.0.1t-1+deb7u2"
   },
   {
     "Architecture": "amd64",
@@ -3769,7 +3769,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-8+deb7u5",
+    "Version": "6.0-8+deb7u6",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "unzip",
-    "source:Version": "6.0-8+deb7u5"
+    "source:Version": "6.0-8+deb7u6"
   },
   {
     "Architecture": "amd64",
