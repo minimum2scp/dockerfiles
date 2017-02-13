@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "106",
+    "Installed-Size": "110",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.8",
+    "Version": "2.88dsf-59.9",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.8"
+    "source:Version": "2.88dsf-59.9"
   },
   {
     "Architecture": "amd64",
