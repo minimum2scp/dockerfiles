@@ -92,7 +92,7 @@ ii   gzip                    1.6-5                        amd64  GNU compression
 ii   hostname                3.18                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                 amd64  ICMP echo tool
 ii   init-system-helpers     1.47                         all    helper tools for all init systems
-ii   initscripts             2.88dsf-59.8                 amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.88dsf-59.9                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
@@ -219,18 +219,18 @@ ii   sed                     4.4-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.9                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                     amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.19p1-1                   amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.88dsf-59.8                 all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.88dsf-59.8                 amd64  System-V-like init utilities
-ii   sysvinit-utils          2.88dsf-59.8                 amd64  System-V-like utilities
+ii   sysv-rc                 2.88dsf-59.9                 all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.88dsf-59.9                 amd64  System-V-like init utilities
+ii   sysvinit-utils          2.88dsf-59.9                 amd64  System-V-like utilities
 ii   tar                     1.29b-1.1                    amd64  GNU version of the tar archiving utility
 ii   tzdata                  2016j-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0036                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.29.1-1                     amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.0197-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0197-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.0197-2                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.0197-2                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0197-1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0197-2                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5               amd64  compression library - runtime
 ii   zsh                     5.3.1-3                      amd64  shell with lots of features
 ii   zsh-common              5.3.1-3                      all    architecture independent files for Zsh

@@ -902,18 +902,18 @@
     "Depends": "mount (>= 2.11x-1), debianutils (>= 4), lsb-base (>= 3.2-14), sysvinit-utils (>= 2.88dsf-59.5), sysv-rc | file-rc | openrc, coreutils (>= 5.93)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "207",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "psmisc, e2fsprogs",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.8",
+    "Version": "2.88dsf-59.9",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.8"
+    "source:Version": "2.88dsf-59.9"
   },
   {
     "Architecture": "amd64",
@@ -4462,14 +4462,14 @@
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "init-system-helpers (>= 1.25~)",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "lsb-base (>= 3.2-14)",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bum",
-    "Version": "2.88dsf-59.8",
+    "Version": "2.88dsf-59.9",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.8"
+    "source:Version": "2.88dsf-59.9"
   },
   {
     "Architecture": "amd64",
@@ -4486,7 +4486,7 @@
     "Depends": "initscripts (>= 2.88dsf-13.3), sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), libc6 (>= 2.15), libselinux1 (>= 1.32), libsepol1 (>= 2.4), debconf (>= 0.5) | debconf-2.0, debianutils (>= 4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "221",
+    "Installed-Size": "225",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.88dsf-59.8",
+    "Version": "2.88dsf-59.9",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.8"
+    "source:Version": "2.88dsf-59.9"
   },
   {
     "Architecture": "amd64",
@@ -4514,7 +4514,7 @@
     "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "106",
+    "Installed-Size": "110",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4525,7 +4525,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.8",
+    "Version": "2.88dsf-59.9",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.8"
+    "source:Version": "2.88dsf-59.9"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-1",
+    "Version": "2:8.0.0197-2",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4701,13 +4701,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-1"
+    "source:Version": "2:8.0.0197-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.0197-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.0197-2), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1067",
@@ -4721,7 +4721,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.0197-1",
+    "Version": "2:8.0.0197-2",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-1"
+    "source:Version": "2:8.0.0197-2"
   },
   {
     "Architecture": "amd64",
@@ -4777,7 +4777,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-1",
+    "Version": "2:8.0.0197-2",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-1"
+    "source:Version": "2:8.0.0197-2"
   },
   {
     "Architecture": "amd64",
