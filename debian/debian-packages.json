@@ -510,7 +510,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "720",
+    "Installed-Size": "721",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.18-4",
+    "Version": "2.1.18-6",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.18-4"
+    "source:Version": "2.1.18-6"
   },
   {
     "Architecture": "amd64",
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.222",
+    "Version": "0.223",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.222"
+    "source:Version": "0.223"
   },
   {
     "Architecture": "amd64",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-17",
+    "Version": "232-18",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-17"
+    "source:Version": "232-18"
   },
   {
     "Architecture": "amd64",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-17",
+    "Version": "232-18",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-17"
+    "source:Version": "232-18"
   },
   {
     "Architecture": "amd64",
