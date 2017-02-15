@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-4
 I: Validating bash 4.4-4
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.222
-I: Validating libdebconfclient0 0.222
+I: Retrieving libdebconfclient0 0.223
+I: Validating libdebconfclient0 0.223
 I: Retrieving coreutils 8.26-2
 I: Validating coreutils 8.26-2
 I: Retrieving dash 0.5.8-2.4
@@ -74,8 +74,8 @@ I: Retrieving libc6 2.24-9
 I: Validating libc6 2.24-9
 I: Retrieving multiarch-support 2.24-9
 I: Validating multiarch-support 2.24-9
-I: Retrieving gpgv 2.1.18-4
-I: Validating gpgv 2.1.18-4
+I: Retrieving gpgv 2.1.18-6
+I: Validating gpgv 2.1.18-6
 I: Retrieving grep 2.27-2
 I: Validating grep 2.27-2
 I: Retrieving gzip 1.6-5
@@ -142,10 +142,10 @@ I: Retrieving login 1:4.4-3
 I: Validating login 1:4.4-3
 I: Retrieving passwd 1:4.4-3
 I: Validating passwd 1:4.4-3
-I: Retrieving libsystemd0 232-17
-I: Validating libsystemd0 232-17
-I: Retrieving libudev1 232-17
-I: Validating libudev1 232-17
+I: Retrieving libsystemd0 232-18
+I: Validating libsystemd0 232-18
+I: Retrieving libudev1 232-18
+I: Validating libudev1 232-18
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 26.75 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3f1ed2fb464f
-Removing intermediate container 1efde0499270
+ ---> 7ae9003358c3
+Removing intermediate container 01528f2b0df3
 Step 3/3 : CMD /bin/bash
- ---> Running in ea0fe0b394c1
- ---> 8441ae71b43f
-Removing intermediate container ea0fe0b394c1
-Successfully built 8441ae71b43f
+ ---> Running in 1030e84f52e5
+ ---> 078954dfcf28
+Removing intermediate container 1030e84f52e5
+Successfully built 078954dfcf28
