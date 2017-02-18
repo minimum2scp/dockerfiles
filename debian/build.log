@@ -130,8 +130,8 @@ I: Retrieving libpam-runtime 1.1.8-3.5
 I: Validating libpam-runtime 1.1.8-3.5
 I: Retrieving libpam0g 1.1.8-3.5
 I: Validating libpam0g 1.1.8-3.5
-I: Retrieving libpcre3 2:8.39-2
-I: Validating libpcre3 2:8.39-2
+I: Retrieving libpcre3 2:8.39-2.1
+I: Validating libpcre3 2:8.39-2.1
 I: Retrieving perl-base 5.24.1-1
 I: Validating perl-base 5.24.1-1
 I: Retrieving sed 4.4-1
@@ -432,10 +432,10 @@ Sending build context to Docker daemon 26.75 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7ae9003358c3
-Removing intermediate container 01528f2b0df3
+ ---> d696efaf6125
+Removing intermediate container 3769b8977235
 Step 3/3 : CMD /bin/bash
- ---> Running in 1030e84f52e5
- ---> 078954dfcf28
-Removing intermediate container 1030e84f52e5
-Successfully built 078954dfcf28
+ ---> Running in 9e38ce132291
+ ---> 6e68e33e1f61
+Removing intermediate container 9e38ce132291
+Successfully built 6e68e33e1f61
