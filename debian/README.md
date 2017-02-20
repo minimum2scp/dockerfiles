@@ -55,7 +55,7 @@ ii   libc6                   2.24-9                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3               amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.223                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.224                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.1-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-7             amd64  GCC support library
