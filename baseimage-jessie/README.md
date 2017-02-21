@@ -220,8 +220,8 @@ ii   ucf                     3.0030                     all    Update Configurat
 ii   udev                    215-17+deb8u6              amd64  /dev/ and hotplug management daemon
 ii   unzip                   6.0-16+deb8u2              amd64  De-archiver for .zip files
 ii   util-linux              2.25.2-6                   amd64  Miscellaneous system utilities
-ii   vim-common              2:7.4.488-7+deb8u1         amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.4.488-7+deb8u1         amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.4.488-7+deb8u2         amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.4.488-7+deb8u2         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.17-1+b1               amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                  1:1.2.8.dfsg-2+b1          amd64  compression library - runtime
 ii   zsh                     5.0.7-5                    amd64  shell with lots of features
