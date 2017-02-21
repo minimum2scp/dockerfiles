@@ -34,12 +34,12 @@ describe 'minimum2scp/rails4' do
 
       describe command('rbenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "2.3.3\n" }
+        its(:stdout){ should eq "2.4.0\n" }
       end
 
       describe command("RBENV_VERSION=2.4.0 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should_not match /^rails \(4(?:\.\d+){2,3}\)$/ }
+        its(:stdout){ should match /^rails \(4(?:\.\d+){2,3}\)$/ }
       end
 
       describe command("RBENV_VERSION=2.3.3 gem list") do
