@@ -43,9 +43,9 @@ ii   hostname                3.18                  amd64  utility to set/show th
 ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.47                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
-ii   libacl1                 2.2.52-3              amd64  Access control list shared library
+ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4~rc2               amd64  package management runtime library
-ii   libattr1                1:2.4.47-2            amd64  Extended attribute shared library
+ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.1-1              amd64  block device ID library
@@ -83,7 +83,7 @@ ii   libtinfo5               6.0+20161126-1        amd64  shared low-level termi
 ii   libudev1                232-18                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1              amd64  Universally Unique ID library
-ii   login                   1:4.4-3               amd64  system login tools
+ii   login                   1:4.4-4               amd64  system login tools
 ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
 ii   mount                   2.29.1-1              amd64  tools for mounting and manipulating filesystems
@@ -91,7 +91,7 @@ ii   multiarch-support       2.24-9                amd64  Transitional package t
 ii   ncurses-base            6.0+20161126-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
-ii   passwd                  1:4.4-3               amd64  change and administer password and group data
+ii   passwd                  1:4.4-4               amd64  change and administer password and group data
 ii   perl-base               5.24.1-1              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
