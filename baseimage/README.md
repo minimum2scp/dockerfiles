@@ -95,9 +95,9 @@ ii   init-system-helpers     1.47                         all    helper tools fo
 ii   initscripts             2.88dsf-59.9                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                      amd64  networking and traffic control tools
-ii   libacl1                 2.2.52-3                     amd64  Access control list shared library
+ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4~rc2                      amd64  package management runtime library
-ii   libattr1                1:2.4.47-2                   amd64  Extended attribute shared library
+ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.1-1                     amd64  block device ID library
@@ -188,7 +188,7 @@ ii   libuuid1                2.29.1-1                     amd64  Universally Uni
 ii   libwrap0                7.6.q-26                     amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-9                       all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.4-3                      amd64  system login tools
+ii   login                   1:4.4-4                      amd64  system login tools
 ii   lsb-base                9.20161125                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-2                    amd64  on-line manual pager
@@ -204,7 +204,7 @@ ii   openssh-client          1:7.4p1-6                    amd64  secure shell (S
 ii   openssh-server          1:7.4p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0e-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.4-3                      amd64  change and administer password and group data
+ii   passwd                  1:4.4-4                      amd64  change and administer password and group data
 ii   perl                    5.24.1-1                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-1                     amd64  minimal Perl system
 ii   perl-modules-5.24       5.24.1-1                     all    Core Perl modules
