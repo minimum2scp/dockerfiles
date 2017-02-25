@@ -52,7 +52,7 @@ ii   libblkid1               2.29.1-1              amd64  block device ID librar
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-9                amd64  GNU C Library: Binaries
 ii   libc6                   2.24-9                amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.7-3               amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.224                 amd64  Debian Configuration Management System (C-implementation library)
@@ -61,8 +61,8 @@ ii   libfdisk1               2.29.1-1              amd64  fdisk partitioning lib
 ii   libgcc1                 1:6.3.0-8             amd64  GCC support library
 ii   libgcrypt20             1.7.6-1               amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                amd64  library for common error values and messages in GnuPG components
-ii   liblz4-1                0.0~r131-2            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.2             amd64  XZ-format compression library
+ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
+ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.1-1              amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1        amd64  shared libraries for terminal handling (wide character support)
