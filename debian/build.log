@@ -8,16 +8,16 @@ I: Resolving dependencies of base packages...
 I: Found additional required dependencies: libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 libustr-1.0-1 
 I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libmnl0 libstdc++6 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving libacl1 2.2.52-3
-I: Validating libacl1 2.2.52-3
+I: Retrieving libacl1 2.2.52-3+b1
+I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
-I: Retrieving apt 1.4~rc1
-I: Validating apt 1.4~rc1
-I: Retrieving libapt-pkg5.0 1.4~rc1
-I: Validating libapt-pkg5.0 1.4~rc1
-I: Retrieving libattr1 1:2.4.47-2
-I: Validating libattr1 1:2.4.47-2
+I: Retrieving apt 1.4~rc2
+I: Validating apt 1.4~rc2
+I: Retrieving libapt-pkg5.0 1.4~rc2
+I: Validating libapt-pkg5.0 1.4~rc2
+I: Retrieving libattr1 1:2.4.47-2+b2
+I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.6.7-1
 I: Validating libaudit-common 1:2.6.7-1
 I: Retrieving libaudit1 1:2.6.7-1
@@ -32,8 +32,8 @@ I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.224
 I: Validating libdebconfclient0 0.224
-I: Retrieving coreutils 8.26-2
-I: Validating coreutils 8.26-2
+I: Retrieving coreutils 8.26-3
+I: Validating coreutils 8.26-3
 I: Retrieving dash 0.5.8-2.4
 I: Validating dash 0.5.8-2.4
 I: Retrieving libdb5.3 5.3.28-12+b1
@@ -62,12 +62,12 @@ I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
 I: Retrieving gcc-5-base 5.4.1-5
 I: Validating gcc-5-base 5.4.1-5
-I: Retrieving gcc-6-base 6.3.0-7
-I: Validating gcc-6-base 6.3.0-7
-I: Retrieving libgcc1 1:6.3.0-7
-I: Validating libgcc1 1:6.3.0-7
-I: Retrieving libstdc++6 6.3.0-7
-I: Validating libstdc++6 6.3.0-7
+I: Retrieving gcc-6-base 6.3.0-8
+I: Validating gcc-6-base 6.3.0-8
+I: Retrieving libgcc1 1:6.3.0-8
+I: Validating libgcc1 1:6.3.0-8
+I: Retrieving libstdc++6 6.3.0-8
+I: Validating libstdc++6 6.3.0-8
 I: Retrieving libc-bin 2.24-9
 I: Validating libc-bin 2.24-9
 I: Retrieving libc6 2.24-9
@@ -88,8 +88,8 @@ I: Retrieving init-system-helpers 1.47
 I: Validating init-system-helpers 1.47
 I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
-I: Retrieving libcap-ng0 0.7.7-3
-I: Validating libcap-ng0 0.7.7-3
+I: Retrieving libcap-ng0 0.7.7-3+b1
+I: Validating libcap-ng0 0.7.7-3+b1
 I: Retrieving libgcrypt20 1.7.6-1
 I: Validating libgcrypt20 1.7.6-1
 I: Retrieving libgpg-error0 1.26-2
@@ -106,8 +106,8 @@ I: Retrieving libsepol1 2.6-2
 I: Validating libsepol1 2.6-2
 I: Retrieving lsb-base 9.20161125
 I: Validating lsb-base 9.20161125
-I: Retrieving liblz4-1 0.0~r131-2
-I: Validating liblz4-1 0.0~r131-2
+I: Retrieving liblz4-1 0.0~r131-2+b1
+I: Validating liblz4-1 0.0~r131-2+b1
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
 I: Retrieving libncursesw5 6.0+20161126-1
@@ -136,10 +136,10 @@ I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.4-3
-I: Validating login 1:4.4-3
-I: Retrieving passwd 1:4.4-3
-I: Validating passwd 1:4.4-3
+I: Retrieving login 1:4.4-4
+I: Validating login 1:4.4-4
+I: Retrieving passwd 1:4.4-4
+I: Validating passwd 1:4.4-4
 I: Retrieving libsystemd0 232-18
 I: Validating libsystemd0 232-18
 I: Retrieving libudev1 232-18
@@ -168,8 +168,8 @@ I: Retrieving mount 2.29.1-1
 I: Validating mount 2.29.1-1
 I: Retrieving util-linux 2.29.1-1
 I: Validating util-linux 2.29.1-1
-I: Retrieving liblzma5 5.2.2-1.2
-I: Validating liblzma5 5.2.2-1.2
+I: Retrieving liblzma5 5.2.2-1.2+b1
+I: Validating liblzma5 5.2.2-1.2+b1
 I: Retrieving zlib1g 1:1.2.8.dfsg-5
 I: Validating zlib1g 1:1.2.8.dfsg-5
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -340,6 +340,7 @@ I: Configuring libsmartcols1:amd64...
 I: Configuring libaudit1:amd64...
 I: Configuring libtinfo5:amd64...
 I: Configuring libudev1:amd64...
+I: Configuring libattr1:amd64...
 I: Configuring libss2:amd64...
 I: Configuring liblzma5:amd64...
 I: Configuring base-passwd...
@@ -357,21 +358,20 @@ I: Configuring libpcre3:amd64...
 I: Configuring base-files...
 I: Configuring libselinux1:amd64...
 I: Configuring findutils...
+I: Configuring libacl1:amd64...
 I: Configuring ncurses-bin...
 I: Configuring sed...
-I: Configuring libattr1:amd64...
 I: Configuring libsystemd0:amd64...
-I: Configuring libsemanage1:amd64...
-I: Configuring libacl1:amd64...
-I: Configuring bsdutils...
 I: Configuring coreutils...
 I: Configuring tar...
+I: Configuring libsemanage1:amd64...
 I: Configuring dpkg...
 I: Configuring perl-base...
 I: Configuring grep...
 I: Configuring debconf...
 I: Configuring tzdata...
 I: Configuring gzip...
+I: Configuring bsdutils...
 I: Configuring dash...
 I: Configuring init-system-helpers...
 I: Configuring libpam0g:amd64...
@@ -423,14 +423,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.7 MB
+Sending build context to Docker daemon 26.69 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a244af08412a
-Removing intermediate container ae35c307d9a2
+ ---> b1ae1aa2c778
+Removing intermediate container 55f97eaa16f1
 Step 3/3 : CMD /bin/bash
- ---> Running in da26b7573099
- ---> 65a2a6f4e6fa
-Removing intermediate container da26b7573099
-Successfully built 65a2a6f4e6fa
+ ---> Running in 93f38e2084bf
+ ---> a2d89ca5c7be
+Removing intermediate container 93f38e2084bf
+Successfully built a2d89ca5c7be
