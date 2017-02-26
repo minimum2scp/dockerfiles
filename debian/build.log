@@ -8,16 +8,16 @@ I: Resolving dependencies of base packages...
 I: Found additional required dependencies: libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 libustr-1.0-1 
 I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libmnl0 libstdc++6 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving libacl1 2.2.52-3
-I: Validating libacl1 2.2.52-3
+I: Retrieving libacl1 2.2.52-3+b1
+I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
 I: Retrieving apt 1.4~rc2
 I: Validating apt 1.4~rc2
 I: Retrieving libapt-pkg5.0 1.4~rc2
 I: Validating libapt-pkg5.0 1.4~rc2
-I: Retrieving libattr1 1:2.4.47-2
-I: Validating libattr1 1:2.4.47-2
+I: Retrieving libattr1 1:2.4.47-2+b2
+I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.6.7-1
 I: Validating libaudit-common 1:2.6.7-1
 I: Retrieving libaudit1 1:2.6.7-1
@@ -88,8 +88,8 @@ I: Retrieving init-system-helpers 1.47
 I: Validating init-system-helpers 1.47
 I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
-I: Retrieving libcap-ng0 0.7.7-3
-I: Validating libcap-ng0 0.7.7-3
+I: Retrieving libcap-ng0 0.7.7-3+b1
+I: Validating libcap-ng0 0.7.7-3+b1
 I: Retrieving libgcrypt20 1.7.6-1
 I: Validating libgcrypt20 1.7.6-1
 I: Retrieving libgpg-error0 1.26-2
@@ -106,8 +106,8 @@ I: Retrieving libsepol1 2.6-2
 I: Validating libsepol1 2.6-2
 I: Retrieving lsb-base 9.20161125
 I: Validating lsb-base 9.20161125
-I: Retrieving liblz4-1 0.0~r131-2
-I: Validating liblz4-1 0.0~r131-2
+I: Retrieving liblz4-1 0.0~r131-2+b1
+I: Validating liblz4-1 0.0~r131-2+b1
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
 I: Retrieving libncursesw5 6.0+20161126-1
@@ -136,10 +136,10 @@ I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.9
 I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.4-3
-I: Validating login 1:4.4-3
-I: Retrieving passwd 1:4.4-3
-I: Validating passwd 1:4.4-3
+I: Retrieving login 1:4.4-4
+I: Validating login 1:4.4-4
+I: Retrieving passwd 1:4.4-4
+I: Validating passwd 1:4.4-4
 I: Retrieving libsystemd0 232-18
 I: Validating libsystemd0 232-18
 I: Retrieving libudev1 232-18
@@ -168,8 +168,8 @@ I: Retrieving mount 2.29.1-1
 I: Validating mount 2.29.1-1
 I: Retrieving util-linux 2.29.1-1
 I: Validating util-linux 2.29.1-1
-I: Retrieving liblzma5 5.2.2-1.2
-I: Validating liblzma5 5.2.2-1.2
+I: Retrieving liblzma5 5.2.2-1.2+b1
+I: Validating liblzma5 5.2.2-1.2+b1
 I: Retrieving zlib1g 1:1.2.8.dfsg-5
 I: Validating zlib1g 1:1.2.8.dfsg-5
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -340,6 +340,7 @@ I: Configuring libsmartcols1:amd64...
 I: Configuring libaudit1:amd64...
 I: Configuring libtinfo5:amd64...
 I: Configuring libudev1:amd64...
+I: Configuring libattr1:amd64...
 I: Configuring libss2:amd64...
 I: Configuring liblzma5:amd64...
 I: Configuring base-passwd...
@@ -357,21 +358,20 @@ I: Configuring libpcre3:amd64...
 I: Configuring base-files...
 I: Configuring libselinux1:amd64...
 I: Configuring findutils...
+I: Configuring libacl1:amd64...
 I: Configuring ncurses-bin...
 I: Configuring sed...
-I: Configuring libattr1:amd64...
 I: Configuring libsystemd0:amd64...
-I: Configuring libsemanage1:amd64...
-I: Configuring libacl1:amd64...
-I: Configuring bsdutils...
 I: Configuring coreutils...
 I: Configuring tar...
+I: Configuring libsemanage1:amd64...
 I: Configuring dpkg...
 I: Configuring perl-base...
 I: Configuring grep...
 I: Configuring debconf...
 I: Configuring tzdata...
 I: Configuring gzip...
+I: Configuring bsdutils...
 I: Configuring dash...
 I: Configuring init-system-helpers...
 I: Configuring libpam0g:amd64...
@@ -427,10 +427,10 @@ Sending build context to Docker daemon 26.69 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7a2f65455cda
-Removing intermediate container 6e806ca19b0f
+ ---> b1ae1aa2c778
+Removing intermediate container 55f97eaa16f1
 Step 3/3 : CMD /bin/bash
- ---> Running in 1551ffa94dd0
- ---> c9fdf7c00b43
-Removing intermediate container 1551ffa94dd0
-Successfully built c9fdf7c00b43
+ ---> Running in 93f38e2084bf
+ ---> a2d89ca5c7be
+Removing intermediate container 93f38e2084bf
+Successfully built a2d89ca5c7be
