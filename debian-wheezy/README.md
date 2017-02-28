@@ -77,7 +77,7 @@ ii   libtinfo5               5.9-10                 amd64  shared low-level term
 ii   libusb-0.1-4            2:0.1.12-20+nmu1       amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3                amd64  Micro string library: shared library
 ii   libuuid1                2.20.1-5.3             amd64  Universally Unique ID library
-ii   login                   1:4.1.5.1-1            amd64  system login tools
+ii   login                   1:4.1.5.1-1+deb7u1     amd64  system login tools
 ii   lsb-base                4.1+Debian8+deb7u1     all    Linux Standard Base 4.1 init script functionality
 ii   mawk                    1.3.3-17               amd64  a pattern scanning and text processing language
 ii   mount                   2.20.1-5.3             amd64  Tools for mounting and manipulating filesystems
@@ -85,7 +85,7 @@ ii   multiarch-support       2.13-38+deb7u11        amd64  Transitional package 
 ii   ncurses-base            5.9-10                 all    basic terminal type definitions
 ii   ncurses-bin             5.9-10                 amd64  terminal-related programs and man pages
 ii   netbase                 5.0                    all    Basic TCP/IP networking system
-ii   passwd                  1:4.1.5.1-1            amd64  change and administer password and group data
+ii   passwd                  1:4.1.5.1-1+deb7u1     amd64  change and administer password and group data
 ii   perl-base               5.14.2-21+deb7u4       amd64  minimal Perl system
 ii   readline-common         6.2+dfsg-0.1           all    GNU readline and history libraries, common files
 ii   sed                     4.2.1-10               amd64  The GNU sed stream editor
