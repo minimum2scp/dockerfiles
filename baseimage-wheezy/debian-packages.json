@@ -2918,7 +2918,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2155",
+    "Installed-Size": "2726",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules",
@@ -2929,7 +2929,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.1.5.1-1",
+    "Version": "1:4.1.5.1-1+deb7u1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "shadow",
-    "source:Version": "1:4.1.5.1-1"
+    "source:Version": "1:4.1.5.1-1+deb7u1"
   },
   {
     "Architecture": "all",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.8), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules, debianutils (>= 2.15.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2009",
+    "Installed-Size": "2293",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.1.5.1-1",
+    "Version": "1:4.1.5.1-1+deb7u1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "shadow",
-    "source:Version": "1:4.1.5.1-1"
+    "source:Version": "1:4.1.5.1-1+deb7u1"
   },
   {
     "Architecture": "amd64",
@@ -3825,7 +3825,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:7.3.547-7+deb7u1",
+    "Version": "2:7.3.547-7+deb7u2",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7+deb7u1"
+    "source:Version": "2:7.3.547-7+deb7u2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:7.3.547-7+deb7u1), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
+    "Depends": "vim-common (= 2:7.3.547-7+deb7u2), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "830",
@@ -3853,7 +3853,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:7.3.547-7+deb7u1",
+    "Version": "2:7.3.547-7+deb7u2",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7+deb7u1"
+    "source:Version": "2:7.3.547-7+deb7u2"
   },
   {
     "Architecture": "amd64",

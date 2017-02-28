@@ -164,7 +164,7 @@ ii   libuuid1                2.20.1-5.3                 amd64  Universally Uniqu
 ii   libwrap0                7.6.q-24                   amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.6.3+deb7u1               all    Reclaim disk space removing unneeded localizations
 ii   locales                 2.13-38+deb7u11            all    Embedded GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.1.5.1-1                amd64  system login tools
+ii   login                   1:4.1.5.1-1+deb7u1         amd64  system login tools
 ii   lsb-base                4.1+Debian8+deb7u1         all    Linux Standard Base 4.1 init script functionality
 ii   lv                      4.51-2                     amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.6.2-1                    amd64  on-line manual pager
@@ -178,7 +178,7 @@ ii   netbase                 5.0                        all    Basic TCP/IP netw
 ii   openssh-client          1:6.0p1-4+deb7u6           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:6.0p1-4+deb7u6           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssl                 1.0.1t-1+deb7u2            amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
-ii   passwd                  1:4.1.5.1-1                amd64  change and administer password and group data
+ii   passwd                  1:4.1.5.1-1+deb7u1         amd64  change and administer password and group data
 ii   perl                    5.14.2-21+deb7u4           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.14.2-21+deb7u4           amd64  minimal Perl system
 ii   perl-modules            5.14.2-21+deb7u4           all    Core Perl modules
@@ -196,8 +196,8 @@ ii   tzdata                  2016j-0+deb7u1             all    time zone and day
 ii   ucf                     3.0025+nmu3                all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6               amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                 amd64  Miscellaneous system utilities
-ii   vim-common              2:7.3.547-7+deb7u1         amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.3.547-7+deb7u1         amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.3.547-7+deb7u2         amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.3.547-7+deb7u2         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.14-11.1               amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xz-utils                5.1.1alpha+20120614-2      amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13            amd64  compression library - runtime
