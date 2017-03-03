@@ -55,7 +55,7 @@ ii   libc6                   2.24-9                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.224                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.225                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.1-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-8             amd64  GCC support library
@@ -78,9 +78,9 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.1-1              amd64  smart column output alignment library
 ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
 ii   libstdc++6              6.3.0-8               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-18                amd64  systemd utility library
+ii   libsystemd0             232-19                amd64  systemd utility library
 ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-18                amd64  libudev shared library
+ii   libudev1                232-19                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4               amd64  system login tools
