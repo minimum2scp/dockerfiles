@@ -112,7 +112,7 @@ ii   libcomerr2              1.43.4-2                        amd64  common error
 ii   libcurl3                7.52.1-3                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-3                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                    amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.224                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.225                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3                  amd64  BSD editline and history libraries
 ii   libelf1                 0.168-0.2                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -178,10 +178,10 @@ ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-8                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-18                          amd64  systemd utility library
+ii   libsystemd0             232-19                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-18                          amd64  libudev shared library
+ii   libudev1                232-19                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1                        amd64  Universally Unique ID library
