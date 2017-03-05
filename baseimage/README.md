@@ -69,7 +69,7 @@ ii   bsdmainutils            9.0.12                          amd64  collection o
 ii   bsdutils                1:2.29.1-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                        all    Common CA certificates
 ii   coreutils               8.26-3                          amd64  GNU core utilities
-ii   cron                    3.0pl1-128                      amd64  process scheduling daemon
+ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
 ii   curl                    7.52.1-3                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.60                          all    Debian configuration management system
@@ -81,7 +81,7 @@ ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ex
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-7                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-8                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-2                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-2                      all    fast, scalable, distributed revision control system (manual pages)
@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.3.0-8                       amd64  GCC support 
 ii   libgcrypt20             1.7.6-1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-3                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-4                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
@@ -200,9 +200,9 @@ ii   ncurses-base            6.0+20161126-1                  all    basic termin
 ii   ncurses-bin             6.0+20161126-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0e-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4                         amd64  change and administer password and group data
 ii   perl                    5.24.1-1                        amd64  Larry Wall's Practical Extraction and Report Language

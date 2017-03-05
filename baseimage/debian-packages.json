@@ -258,7 +258,7 @@
     "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), init-system-helpers (>= 1.18~), debianutils (>= 1.7), adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "194",
+    "Installed-Size": "251",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "dpkg (>= 1.15.7.2)",
@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-128",
+    "Version": "3.0pl1-128+b1",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4.1-7",
+    "Version": "5.4.1-8",
     "binary:Package": "gcc-5-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-5",
-    "source:Version": "5.4.1-7"
+    "source:Version": "5.4.1-8"
   },
   {
     "Architecture": "amd64",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.5.8-3",
+    "Version": "3.5.8-4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.5.8-3"
+    "source:Version": "3.5.8-4"
   },
   {
     "Architecture": "amd64",
@@ -3926,7 +3926,7 @@
     "Depends": "adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libc6 (>= 2.17), libedit2 (>= 2.11-20080614), libgssapi-krb5-2 (>= 1.14+dfsg), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4105",
+    "Installed-Size": "4106",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3937,7 +3937,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:7.4p1-6",
+    "Version": "1:7.4p1-7",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3945,13 +3945,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-6"
+    "source:Version": "1:7.4p1-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-6), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-7), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "883",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:7.4p1-6",
+    "Version": "1:7.4p1-7",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3973,13 +3973,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-6"
+    "source:Version": "1:7.4p1-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:7.4p1-6), libc6 (>= 2.17)",
+    "Depends": "openssh-client (= 1:7.4p1-7), libc6 (>= 2.17)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "106",
@@ -3993,7 +3993,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.4p1-6",
+    "Version": "1:7.4p1-7",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-6"
+    "source:Version": "1:7.4p1-7"
   },
   {
     "Architecture": "amd64",
