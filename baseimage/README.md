@@ -64,7 +64,7 @@ ii   adduser                 3.115                           all    add and remo
 ii   apt                     1.4~rc2                         amd64  commandline package manager
 ii   base-files              9.8                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
-ii   bash                    4.4-4                           amd64  GNU Bourne Again SHell
+ii   bash                    4.4-4+b1                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.1-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                        all    Common CA certificates
@@ -76,7 +76,7 @@ ii   debconf                 1.5.60                          all    Debian confi
 ii   debian-archive-keyring  2014.3                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                         amd64  File comparison utilities
-ii   dpkg                    1.18.22                         amd64  Debian package management system
+ii   dpkg                    1.18.23                         amd64  Debian package management system
 ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
@@ -88,12 +88,12 @@ ii   git-man                 1:2.11.0-2                      all    fast, scalab
 ii   gpgv                    2.1.18-6                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.6-5                           amd64  GNU compression utilities
-ii   hostname                3.18                            amd64  utility to set/show the host name or domain name
+ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
+ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
 ii   init-system-helpers     1.47                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                    amd64  scripts for initializing and shutting down the system
-ii   insserv                 1.14.0-5.4                      amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4~rc2                         amd64  package management runtime library
@@ -192,7 +192,7 @@ ii   login                   1:4.4-4                         amd64  system login
 ii   lsb-base                9.20161125                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-2                       amd64  on-line manual pager
-ii   mawk                    1.3.3-17                        amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29.1-1                        amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-9                          amd64  Transitional package to ensure multiarch compatibility
