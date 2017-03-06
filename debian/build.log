@@ -26,8 +26,8 @@ I: Retrieving base-files 9.8
 I: Validating base-files 9.8
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
-I: Retrieving bash 4.4-4
-I: Validating bash 4.4-4
+I: Retrieving bash 4.4-4+b1
+I: Validating bash 4.4-4+b1
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.225
@@ -46,8 +46,8 @@ I: Retrieving debianutils 4.8.1
 I: Validating debianutils 4.8.1
 I: Retrieving diffutils 1:3.5-3
 I: Validating diffutils 1:3.5-3
-I: Retrieving dpkg 1.18.22
-I: Validating dpkg 1.18.22
+I: Retrieving dpkg 1.18.23
+I: Validating dpkg 1.18.23
 I: Retrieving e2fslibs 1.43.4-2
 I: Validating e2fslibs 1.43.4-2
 I: Retrieving e2fsprogs 1.43.4-2
@@ -78,10 +78,10 @@ I: Retrieving gpgv 2.1.18-6
 I: Validating gpgv 2.1.18-6
 I: Retrieving grep 2.27-2
 I: Validating grep 2.27-2
-I: Retrieving gzip 1.6-5
-I: Validating gzip 1.6-5
-I: Retrieving hostname 3.18
-I: Validating hostname 3.18
+I: Retrieving gzip 1.6-5+b1
+I: Validating gzip 1.6-5+b1
+I: Retrieving hostname 3.18+b1
+I: Validating hostname 3.18+b1
 I: Retrieving inetutils-ping 2:1.9.4-2+b1
 I: Validating inetutils-ping 2:1.9.4-2+b1
 I: Retrieving init-system-helpers 1.47
@@ -108,8 +108,8 @@ I: Retrieving lsb-base 9.20161125
 I: Validating lsb-base 9.20161125
 I: Retrieving liblz4-1 0.0~r131-2+b1
 I: Validating liblz4-1 0.0~r131-2+b1
-I: Retrieving mawk 1.3.3-17
-I: Validating mawk 1.3.3-17
+I: Retrieving mawk 1.3.3-17+b3
+I: Validating mawk 1.3.3-17+b3
 I: Retrieving libncursesw5 6.0+20161126-1
 I: Validating libncursesw5 6.0+20161126-1
 I: Retrieving libtinfo5 6.0+20161126-1
@@ -427,10 +427,10 @@ Sending build context to Docker daemon  26.7 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 436de7ab587b
-Removing intermediate container 361315464c82
+ ---> 58e9a08c2c6f
+Removing intermediate container a5e34dc8890d
 Step 3/3 : CMD /bin/bash
- ---> Running in ae00c41be9c0
- ---> 94e0030dbfcb
-Removing intermediate container ae00c41be9c0
-Successfully built 94e0030dbfcb
+ ---> Running in 8099311c2f14
+ ---> 1a9630eee076
+Removing intermediate container 8099311c2f14
+Successfully built 1a9630eee076

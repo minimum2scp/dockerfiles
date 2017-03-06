@@ -22,7 +22,7 @@ ii   adduser                 3.115                 all    add and remove users a
 ii   apt                     1.4~rc2               amd64  commandline package manager
 ii   base-files              9.8                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
-ii   bash                    4.4-4                 amd64  GNU Bourne Again SHell
+ii   bash                    4.4-4+b1              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.1-1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.26-3                amd64  GNU core utilities
 ii   dash                    0.5.8-2.4             amd64  POSIX-compliant shell
@@ -30,7 +30,7 @@ ii   debconf                 1.5.60                all    Debian configuration m
 ii   debian-archive-keyring  2014.3                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3               amd64  File comparison utilities
-ii   dpkg                    1.18.22               amd64  Debian package management system
+ii   dpkg                    1.18.23               amd64  Debian package management system
 ii   e2fslibs                1.43.4-2              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2  amd64  utilities for finding files--find, xargs
@@ -38,8 +38,8 @@ ii   gcc-5-base              5.4.1-8               amd64  GCC, the GNU Compiler 
 ii   gcc-6-base              6.3.0-8               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.18-6              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.6-5                 amd64  GNU compression utilities
-ii   hostname                3.18                  amd64  utility to set/show the host name or domain name
+ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
+ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.47                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
@@ -85,7 +85,7 @@ ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: 
 ii   libuuid1                2.29.1-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4               amd64  system login tools
 ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
-ii   mawk                    1.3.3-17              amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.29.1-1              amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-9                amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1        all    basic terminal type definitions
