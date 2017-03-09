@@ -196,8 +196,8 @@ ii   tzdata                  2016j-0+deb7u1             all    time zone and day
 ii   ucf                     3.0025+nmu3                all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6               amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                 amd64  Miscellaneous system utilities
-ii   vim-common              2:7.3.547-7+deb7u2         amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.3.547-7+deb7u2         amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.3.547-7+deb7u3         amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.3.547-7+deb7u3         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.14-11.1               amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xz-utils                5.1.1alpha+20120614-2      amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13            amd64  compression library - runtime
