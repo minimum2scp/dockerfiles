@@ -4,6 +4,9 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
+elasticsearch_version=5.2.2
+kibana_version=5.2.2
+
 ##
 ## install deps
 ##
@@ -12,28 +15,31 @@ apt-get install --no-install-recommends -y default-jre-headless gnupg apt-transp
 ##
 ## install GPG key
 ##
-curl -sSL https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+curl -sSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key --keyring /etc/apt/trusted.gpg.d/elasticsearch.gpg add -
 etckeeper commit "apt: Added GPG-KEY-elasticsearch"
 
 ##
-## add apt-line and install elasticsearch
+## add apt-line for elasticsearch, kibana
 ##
-echo "deb https://packages.elastic.co/elasticsearch/2.x/debian stable main" > /etc/apt/sources.list.d/elasticsearch-2.x.list
+echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" > /etc/apt/sources.list.d/elastic-5.x.list
 etckeeper commit "apt: Added apt-line for elasticsearch"
 apt-get update
-apt-get install elasticsearch
+
+##
+## install elasticsearch
+##
+apt-get install elasticsearch=${elasticsearch_version}
 update-rc.d elasticsearch defaults 95 10
 etckeeper commit "enabled elasticsearch"
-sed -i -e 's/^# network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elasticsearch.yml
+sed -i -e 's/^#network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: bind 0.0.0.0"
 
 ##
-## add apt-line and install kibana
+## install kibana
 ##
-echo "deb https://packages.elastic.co/kibana/4.6/debian stable main" > /etc/apt/sources.list.d/kibana.list
-etckeeper commit "apt: Added apt-line for kibana"
-apt-get update
-apt-get install kibana
+apt-get install kibana=${kibana_version}
 update-rc.d kibana defaults 95 10
 etckeeper commit "enabled kibana"
+sed -i -e 's/^#server.host: .*$/server.host: "0.0.0.0"/' /etc/kibana/kibana.yml
+etckeeper commit "kibana: bind 0.0.0.0"
 
