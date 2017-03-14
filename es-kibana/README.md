@@ -7,10 +7,13 @@
 ## start container
 
 ```
-docker run -d -p 5601:5601 -p 9200:9200 minimum2scp/es-kibana
+sysctl -w vm.max_map_count=262144
+docker run -d -p 5601:5601 -p 9200:9200  minimum2scp/es-kibana
 ```
 
-and then open http://localhost:5601/ by browser
+and then open http://localhost:5601/ by browser.
+
+See [Virtual memory](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html) about `vm.max_map_count`.
 
 ## ssh login to container
 
@@ -35,16 +38,16 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 01:06 ?        Ss     0:00 init [2]
-root       635     1  0 01:06 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root       660     1  0 01:06 ?        Ss     0:00 /usr/sbin/cron
-kibana     666     1  1 01:06 ?        Sl     0:04 /opt/kibana/bin/../node/bin/node /opt/kibana/bin/../src/cli
-root       677     1  0 01:06 ?        Ss     0:00 /usr/sbin/sshd
-root       749   677  0 01:06 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     751   749  0 01:06 ?        S      0:00      \_ sshd: debian@pts/0
-debian     752   751  0 01:06 pts/0    Ss     0:00          \_ -bash
-debian    1104   752  0 01:13 pts/0    R+     0:00              \_ ps -ef fww
-elastic+  1003     1  3 01:09 ?        Sl     0:09 /usr/bin/java -Xms256m -Xmx1g -Djava.awt.headless=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -XX:+DisableExplicitGC -Dfile.encoding=UTF-8 -Djna.nosys=true -Des.path.home=/usr/share/elasticsearch -cp /usr/share/elasticsearch/lib/elasticsearch-2.4.0.jar:/usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch start -d -p /var/run/elasticsearch/elasticsearch.pid --default.path.home=/usr/share/elasticsearch --default.path.logs=/var/log/elasticsearch --default.path.data=/var/lib/elasticsearch --default.path.conf=/etc/elasticsearch
+root         1     0  0 03:30 ?        Ss     0:00 init [2]
+elastic+   594     1 99 03:30 ?        Sl     0:15 /usr/bin/java -Xms2g -Xmx2g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -XX:+HeapDumpOnOutOfMemoryError -Des.path.home=/usr/share/elasticsearch -cp /usr/share/elasticsearch/lib/elasticsearch-5.2.2.jar:/usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid -Edefault.path.logs=/var/log/elasticsearch -Edefault.path.data=/var/lib/elasticsearch -Edefault.path.conf=/etc/elasticsearch
+root       628     1  1 03:30 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       653     1  0 03:30 ?        Ss     0:00 /usr/sbin/cron
+kibana     659     1 35 03:30 ?        Sl     0:03 /usr/share/kibana/bin/../node/bin/node --no-warnings /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml
+root       675     1  0 03:30 ?        Ss     0:00 /usr/sbin/sshd
+root       749   675  0 03:30 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     751   749  0 03:30 ?        S      0:00      \_ sshd: debian@pts/0
+debian     752   751  0 03:30 pts/0    Ss     0:00          \_ -bash
+debian     861   752  0 03:30 pts/0    R+     0:00              \_ ps -ef fww
 ```
 
 ## ports
