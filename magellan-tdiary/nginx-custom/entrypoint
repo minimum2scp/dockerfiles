@@ -1,0 +1,20 @@
+#! /bin/sh
+
+set -e
+set -x
+
+## rm /etc/nginx/conf.d/default.conf
+if [ -f /etc/nginx/conf.d/default.conf ]; then
+  rm /etc/nginx/conf.d/default.conf
+fi
+
+## create /etc/nginx/conf.d/backend.conf
+echo "upstream tdiary {" > /tmp/backend.conf
+docker inspect `docker ps -q` | jq --arg project magellantdiary --arg service tdiary -r \
+  '.[] | select(.Config.Labels["com.docker.compose.project"] == $project and .Config.Labels["com.docker.compose.service"] == $service) | .NetworkSettings.IPAddress | "  server \(.):80;"' \
+  >> /tmp/backend.conf
+echo "}" >> /tmp/backend.conf
+cat /tmp/backend.conf
+install -m 644 -o root -g root -p /tmp/backend.conf /etc/nginx/conf.d/backend.conf
+
+exec "$@"

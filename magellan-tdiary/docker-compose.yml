@@ -1,0 +1,43 @@
+nginx:
+  build: ./nginx-custom/
+  links:
+    - tdiary
+  volumes:
+    - ./nginx-custom/frontend.conf:/etc/nginx/conf.d/frontend.conf:ro
+    - ./nginx-custom/entrypoint:/opt/entrypoint:ro
+    - /var/run/docker.sock:/var/run/docker.sock
+  entrypoint: /opt/entrypoint
+  command: ["nginx", "-g", "daemon off;"]
+
+tdiary:
+  image: minimum2scp/magellan-tdiary:0.1.10
+  expose:
+    - 80
+  links:
+    - db
+  command: >
+    bundle exec passenger start -e production -p 80 --max-pool-size 3
+    --pid-file tmp/passenger.pid --load-shell-envvars --static-files-dir public
+  environment:
+    - MYSQL_USERNAME=tdiary
+    - MYSQL_PASSWORD=tdiary
+    - MYSQL_DATABASE=tdiary
+    #- TDIARY_BASIC_AUTH_USERNAME=tdiary
+    #- TDIARY_BASIC_AUTH_PASSWORD=tdiary
+    - TDIARY_CSRF_PROTECTION_KEY=FAKE_LOCALTEST_KEY
+    - NEW_RELIC_LICENSE_KEY=DUMMY_LICENSE_KEY
+    - NEW_RELIC_APP_NAME=magellan-tdiary-local-dev
+    #- RACK_MINI_PROFILE_ENABLED=false
+    #- RUBY_GC_PROFILER_ENABLED=false
+
+db:
+  image: mysql:5.5
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_USER=tdiary
+    - MYSQL_PASSWORD=tdiary
+    - MYSQL_DATABASE=tdiary
+  volumes:
+    - ./volumes/mysql-conf/charset.cnf:/etc/mysql/conf.d/charset.cnf:ro
+
+

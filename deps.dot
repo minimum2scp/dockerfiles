@@ -40,4 +40,9 @@ digraph deps {
 
   debian_wheezy    -> baseimage_wheezy;
   baseimage_wheezy -> ruby_wheezy;
+
+
+  ruby_230         [label = "ruby:2.3.0"];
+  magellan_tdiary  [label = "minimum2scp/magellan-tdiary"];
+  ruby_230 -> magellan_tdiary;
 }
