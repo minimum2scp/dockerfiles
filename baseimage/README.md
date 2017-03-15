@@ -200,9 +200,9 @@ ii   ncurses-base            6.0+20161126-1                  all    basic termin
 ii   ncurses-bin             6.0+20161126-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-8                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-8                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-8                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0e-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4                         amd64  change and administer password and group data
 ii   perl                    5.24.1-1                        amd64  Larry Wall's Practical Extraction and Report Language
