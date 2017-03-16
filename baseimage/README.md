@@ -137,7 +137,7 @@ ii   libkrb5-3               1.15-1                          amd64  MIT Kerberos
 ii   libkrb5support0         1.15-1                          amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.44+dfsg-3                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-3                   all    OpenLDAP common files for libraries
-ii   liblogging-stdlog0      1.0.5-2                         amd64  easy to use and lightweight logging library
+ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1                    amd64  XZ-format compression library
@@ -156,7 +156,7 @@ ii   libpam0g                1.1.8-3.5                       amd64  Pluggable Au
 ii   libpcre3                2:8.39-2.1                      amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.24             5.24.1-1                        amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                         amd64  pipeline manipulation library
-ii   libpopt0                1.16-10                         amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.17.0-4                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
@@ -174,7 +174,7 @@ ii   libslang2               2.3.1-5                         amd64  S-Lang progr
 ii   libsmartcols1           2.29.1-1                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.16.2-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
-ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-side library
+ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-8                         amd64  GNU Standard C++ Library v3
