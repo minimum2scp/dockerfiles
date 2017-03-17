@@ -1,0 +1,82 @@
+version: 2
+jobs:
+  build:
+    working_directory: /tmp/dockerfiles
+
+    docker:
+      - image: ruby:2.4.0
+
+    environment:
+      - CACHE_DIR=/tmp/dockerfiles/.cache/docker
+
+    steps:
+      - run:
+          name: Check ruby version
+          command: |
+            set -x
+            ruby -v
+            gem env
+            bundle version
+
+      - checkout
+
+      - restore_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: bundle install
+          command: |
+            bundle check --path=vendor/bundle || \
+            bundle install --jobs=4 --path=vendor/bundle
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - setup_remote_docker
+
+      - run:
+          name: Install Docker client
+          command: |
+            set -x
+            VER="17.03.0-ce"
+            curl -L -o /tmp/docker-$VER.tgz https://get.docker.com/builds/Linux/x86_64/docker-$VER.tgz
+            tar -xz -C /tmp -f /tmp/docker-$VER.tgz
+            mv /tmp/docker/* /usr/bin
+
+      - run:
+          name: Check docker version
+          command: |
+            set -x
+            docker version
+            docker info
+
+      - restore_cache:
+          key: docker-images
+
+      - run: if [ -d "${CACHE_DIR}" ]; then ls -lahR "${CACHE_DIR}"; fi
+
+      - run: ./ci_util.rb list
+      - run: ./ci_util.rb gc 86400
+      - run: ./ci_util.rb pull  minimum2scp/debian:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage:latest
+      #- run: ./ci_util.rb build minimum2scp/ruby:latest
+      #- run: ./ci_util.rb build minimum2scp/ruby-full:latest
+      #- run: ./ci_util.rb build minimum2scp/nodejs:latest
+      #- run: ./ci_util.rb build minimum2scp/rails4:latest
+      #- run: ./ci_util.rb build minimum2scp/rails5:latest
+      #- run: ./ci_util.rb pull  minimum2scp/debian-jessie:latest
+      #- run: ./ci_util.rb build minimum2scp/baseimage-jessie:latest
+      #- run: ./ci_util.rb build minimum2scp/ruby-jessie:latest
+      #- run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
+      #- run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
+      #- run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
+
+      - save_cache:
+          key: docker-images
+          paths:
+            - /tmp/.cache/docker
+
+      - run: bundle exec rspec spec/baseimage/
+
