@@ -3702,7 +3702,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1776",
+    "Installed-Size": "1762",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2016j-0+deb7u1",
+    "Version": "2017a-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2016j-0+deb7u1"
+    "source:Version": "2017a-0+deb7u1"
   },
   {
     "Architecture": "all",
