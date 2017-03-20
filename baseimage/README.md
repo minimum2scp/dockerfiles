@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1                  amd64  shared libra
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.19.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.20.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.5                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -164,8 +164,8 @@ ii   libpython2.7-minimal    2.7.13-2                        amd64  Minimal subs
 ii   libpython2.7-stdlib     2.7.13-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-2                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27~101-g0780600+dfsg-2      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-2      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libselinux1             2.6-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-2                           amd64  SELinux policy management library
