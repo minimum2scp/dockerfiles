@@ -35,7 +35,7 @@ ii   e2fslibs                1.43.4-2              amd64  ext2/ext3/ext4 file sy
 ii   e2fsprogs               1.43.4-2              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-8               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.3.0-9               amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.3.0-10              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.18-6              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
@@ -58,7 +58,7 @@ ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database
 ii   libdebconfclient0       0.226                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.1-1              amd64  fdisk partitioning library
-ii   libgcc1                 1:6.3.0-9             amd64  GCC support library
+ii   libgcc1                 1:6.3.0-10            amd64  GCC support library
 ii   libgcrypt20             1.7.6-1               amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
@@ -70,17 +70,17 @@ ii   libpam-modules          1.1.8-3.5             amd64  Pluggable Authenticati
 ii   libpam-modules-bin      1.1.8-3.5             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.5             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.5             amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-2.1            amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-3              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libselinux1             2.6-3                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-2                 amd64  SELinux policy management library
 ii   libsepol1               2.6-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.29.1-1              amd64  smart column output alignment library
 ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
-ii   libstdc++6              6.3.0-9               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-20                amd64  systemd utility library
+ii   libstdc++6              6.3.0-10              amd64  GNU Standard C++ Library v3
+ii   libsystemd0             232-21                amd64  systemd utility library
 ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-20                amd64  libudev shared library
+ii   libudev1                232-21                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4               amd64  system login tools
