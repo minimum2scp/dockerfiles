@@ -82,7 +82,7 @@ ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-8                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.3.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.3.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-2                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-6                        amd64  GNU privacy guard - signature verification tool
@@ -121,7 +121,7 @@ ii   libexpat1               2.2.0-2                         amd64  XML parsing 
 ii   libfastjson4            0.99.4-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.1-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:6.3.0-9                       amd64  GCC support library
+ii   libgcc1                 1:6.3.0-10                      amd64  GCC support library
 ii   libgcrypt20             1.7.6-1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -153,7 +153,7 @@ ii   libpam-modules          1.1.8-3.5                       amd64  Pluggable Au
 ii   libpam-modules-bin      1.1.8-3.5                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.5                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.5                       amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-2.1                      amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-3                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.24             5.24.1-2                        amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
@@ -177,11 +177,11 @@ ii   libss2                  1.43.4-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              6.3.0-9                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-20                          amd64  systemd utility library
+ii   libstdc++6              6.3.0-10                        amd64  GNU Standard C++ Library v3
+ii   libsystemd0             232-21                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-20                          amd64  libudev shared library
+ii   libudev1                232-21                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.1-1                        amd64  Universally Unique ID library
