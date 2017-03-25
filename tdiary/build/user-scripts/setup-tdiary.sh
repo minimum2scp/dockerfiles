@@ -32,7 +32,7 @@ done
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
-bash -l -c "cd ~; rbenv local 2.4.0"
+bash -l -c "cd ~; rbenv local 2.4.1"
 bash -l -c "bundle install --path vendor/bundle --jobs=4"
 
 ## add Gemfile.local
