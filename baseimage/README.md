@@ -166,7 +166,7 @@ ii   libreadline7            7.0-2                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libselinux1             2.6-3                           amd64  SELinux runtime shared libraries
+ii   libselinux1             2.6-3+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-2                           amd64  SELinux policy management library
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
@@ -232,6 +232,6 @@ ii   vim-tiny                2:8.0.0197-3                    amd64  Vi IMproved 
 ii   whiptail                0.52.19-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-3                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.3.1-3                         amd64  shell with lots of features
+ii   zsh                     5.3.1-3+b1                      amd64  shell with lots of features
 ii   zsh-common              5.3.1-3                         all    architecture independent files for Zsh
 ```
