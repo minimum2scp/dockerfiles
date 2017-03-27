@@ -96,8 +96,8 @@ I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
-I: Retrieving libselinux1 2.6-3
-I: Validating libselinux1 2.6-3
+I: Retrieving libselinux1 2.6-3+b1
+I: Validating libselinux1 2.6-3+b1
 I: Retrieving libsemanage-common 2.6-2
 I: Validating libsemanage-common 2.6-2
 I: Retrieving libsemanage1 2.6-2
@@ -423,14 +423,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon 26.69 MB
+Sending build context to Docker daemon 26.71 MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> c2aa63440576
-Removing intermediate container ea82bfd8f4d0
+ ---> cae179ee29bc
+Removing intermediate container 1b9231081ad5
 Step 3/3 : CMD /bin/bash
- ---> Running in 8c3f39e72c38
- ---> 7fef3ec54320
-Removing intermediate container 8c3f39e72c38
-Successfully built 7fef3ec54320
+ ---> Running in 9a8d267568ec
+ ---> d92fd0f787ac
+Removing intermediate container 9a8d267568ec
+Successfully built d92fd0f787ac
