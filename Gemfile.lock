@@ -35,7 +35,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    sequel (4.44.0)
+    sequel (4.45.0)
     serverspec (2.38.0)
       multi_json
       rspec (~> 3.0)
@@ -43,7 +43,7 @@ GEM
       specinfra (~> 2.53)
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.67.6)
+    specinfra (2.67.7)
       net-scp
       net-ssh (>= 2.7, < 5.0)
       net-telnet
