@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
 ii   apt                     1.4                             amd64  commandline package manager
-ii   base-files              9.8                             amd64  Debian base system miscellaneous files
+ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b1                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12                          amd64  collection of more utilities from FreeBSD
