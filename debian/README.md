@@ -55,7 +55,7 @@ ii   libc6                   2.24-9                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.226                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.227                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-11            amd64  GCC support library
@@ -97,7 +97,7 @@ ii   sed                     4.4-1                 amd64  GNU stream editor for 
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017a-1               all    time zone and daylight-saving time data
+ii   tzdata                  2017b-1               all    time zone and daylight-saving time data
 ii   util-linux              2.29.2-1              amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-5        amd64  compression library - runtime
 ```
