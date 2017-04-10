@@ -1,0 +1,69 @@
+version: 2
+jobs:
+  build:
+    working_directory: /tmp/dockerfiles
+
+    docker:
+      - image: ruby:2.4.1
+
+    steps:
+      - run:
+          name: Check ruby version
+          command: |
+            set -x
+            ruby -v
+            gem env
+            bundle version
+
+      - checkout
+
+      - setup_remote_docker
+
+      - run:
+          name: Install Docker client
+          command: |
+            set -x
+            VER="17.03.1-ce"
+            curl -L -o /tmp/docker-$VER.tgz https://get.docker.com/builds/Linux/x86_64/docker-$VER.tgz
+            tar -xz -C /tmp -f /tmp/docker-$VER.tgz
+            mv /tmp/docker/* /usr/bin
+
+      - run:
+          name: Check docker version
+          command: |
+            set -x
+            docker version
+            docker info
+
+      - run: docker pull     minimum2scp/debian:latest
+      - run: docker build -t minimum2scp/baseimage:latest         baseimage
+      - run: docker build -t minimum2scp/ruby:latest              ruby
+      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
+      - run: docker build -t minimum2scp/nodejs:latest            nodejs
+      - run: docker build -t minimum2scp/rails4:latest            rails4
+      - run: docker build -t minimum2scp/rails5:latest            rails5
+      - run: docker pull     minimum2scp/debian-jessie:latest
+      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
+      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
+      - run: docker pull     minimum2scp/debian-wheezy:latest
+      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
+      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+
+      - run:
+          name: Build rspec-runner image
+          command: |
+            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
+            docker build -t rspec-runner .circleci/
+
+      - run:
+          name: Setup rspec-runner environment variables and volumes
+          command: |
+            printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
+            echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
+            docker volume create data
+            docker create --name cfg -v data:/data rspec-runner
+            docker cp ${DOCKER_CERT_PATH} cfg:/data
+            docker rm cfg
+
+      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
+

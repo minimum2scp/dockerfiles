@@ -11,17 +11,6 @@ if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
   Docker.logger.level = Logger::DEBUG
 end
 
-## workaround for Circle CI
-## docker rm (removing btrfs snapshot) fails on Circle CI
-if ENV['CIRCLECI']
-  class Docker::Container
-    def remove(options={})
-      # do not delete container
-    end
-    alias_method :delete, :remove
-  end
-end
-
 ## configure ssh
 set :backend, :ssh
 set :ssh_options, {
@@ -40,7 +29,6 @@ set :os, :family => 'debian', :arch => 'x86_64', :release => nil
 
 def start_container(opts)
   ## start container before run test
-  opts['Env'] << "CIRCLECI=#{ENV['CIRCLECI']}" if ENV["CIRCLECI"]
   container = ::Docker::Container.create(opts)
   container.start
 
