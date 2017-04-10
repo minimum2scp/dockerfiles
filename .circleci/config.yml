@@ -61,17 +61,17 @@ jobs:
       - run: ./ci_util.rb gc 86400
       - run: ./ci_util.rb pull  minimum2scp/debian:latest
       - run: ./ci_util.rb build minimum2scp/baseimage:latest
-      #- run: ./ci_util.rb build minimum2scp/ruby:latest
-      #- run: ./ci_util.rb build minimum2scp/ruby-full:latest
-      #- run: ./ci_util.rb build minimum2scp/nodejs:latest
-      #- run: ./ci_util.rb build minimum2scp/rails4:latest
-      #- run: ./ci_util.rb build minimum2scp/rails5:latest
-      #- run: ./ci_util.rb pull  minimum2scp/debian-jessie:latest
-      #- run: ./ci_util.rb build minimum2scp/baseimage-jessie:latest
-      #- run: ./ci_util.rb build minimum2scp/ruby-jessie:latest
-      #- run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
-      #- run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
-      #- run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/ruby:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-full:latest
+      - run: ./ci_util.rb build minimum2scp/nodejs:latest
+      - run: ./ci_util.rb build minimum2scp/rails4:latest
+      - run: ./ci_util.rb build minimum2scp/rails5:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-jessie:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
 
       - save_cache:
           key: docker-images
@@ -94,5 +94,5 @@ jobs:
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
 
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec spec/baseimage/
+      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
 
