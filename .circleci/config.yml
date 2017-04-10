@@ -35,19 +35,25 @@ jobs:
             docker version
             docker info
 
+      - run:
+          name: Run apt-cacher-ng container
+          command: |
+            docker run -d --name acng minimum2scp/apt-cacher-ng:latest
+            export acng="http://$(docker inspect -f '{{.NetworkSettings.IPAddress}}' acng):3142"
+
       - run: docker pull     minimum2scp/debian:latest
-      - run: docker build -t minimum2scp/baseimage:latest         baseimage
-      - run: docker build -t minimum2scp/ruby:latest              ruby
-      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
-      - run: docker build -t minimum2scp/nodejs:latest            nodejs
-      - run: docker build -t minimum2scp/rails4:latest            rails4
-      - run: docker build -t minimum2scp/rails5:latest            rails5
+      - run: docker build -t minimum2scp/baseimage:latest         --build-arg http_proxy=${acng} --build-arg https_proxy= baseimage
+      - run: docker build -t minimum2scp/ruby:latest              --build-arg http_proxy=${acng} --build-arg https_proxy= ruby
+      - run: docker build -t minimum2scp/ruby-full:latest         --build-arg http_proxy=${acng} --build-arg https_proxy= ruby-full
+      - run: docker build -t minimum2scp/nodejs:latest            --build-arg http_proxy=${acng} --build-arg https_proxy= nodejs
+      - run: docker build -t minimum2scp/rails4:latest            --build-arg http_proxy=${acng} --build-arg https_proxy= rails4
+      - run: docker build -t minimum2scp/rails5:latest            --build-arg http_proxy=${acng} --build-arg https_proxy= rails5
       - run: docker pull     minimum2scp/debian-jessie:latest
-      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
-      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
+      - run: docker build -t minimum2scp/baseimage-jessie:latest  --build-arg http_proxy=${acng} --build-arg https_proxy= baseimage-jessie
+      - run: docker build -t minimum2scp/ruby-jessie:latest       --build-arg http_proxy=${acng} --build-arg https_proxy= ruby-jessie
       - run: docker pull     minimum2scp/debian-wheezy:latest
-      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
-      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+      - run: docker build -t minimum2scp/baseimage-wheezy:latest  --build-arg http_proxy=${acng} --build-arg https_proxy= baseimage-wheezy
+      - run: docker build -t minimum2scp/ruby-wheezy:latest       --build-arg http_proxy=${acng} --build-arg https_proxy= ruby-wheezy
 
       - run:
           name: Build rspec-runner image
