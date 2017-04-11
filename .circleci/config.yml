@@ -52,7 +52,27 @@ jobs:
 
       - run: digdag --version
       - run: digdag check
-      - run: digdag run ci-build.dig --rerun
+
+      - run:
+          name: Run apt-cacher-ng
+          command: |
+            set -x
+            docker run -d --name acng minimum2scp/apt-cacher-ng:latest
+
+      - run:
+          name: Check apt-cacher-ng
+          command: |
+            set -x
+            acng_uri=http://$(docker inspect -f '{{ .NetworkSettings.IPAddress }}' acng):3142
+            echo "http_proxy=${acng_uri}"
+            docker run --rm --entrypoint=/bin/sh minimum2scp/apt-cacher-ng:latest -c "curl ${acng_uri}/acng-report.html"
+
+      - run:
+          name: Build images
+          command: |
+            set -x
+            acng_uri=http://$(docker inspect -f '{{ .NetworkSettings.IPAddress }}' acng):3142
+            digdag run ci-build.dig -p acng_uri=${acng_uri} --rerun
 
       - run:
           name: Build rspec-runner image
