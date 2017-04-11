@@ -6,6 +6,9 @@ jobs:
     docker:
       - image: ruby:2.4.1
 
+    environment:
+      - CACHE_DIR=/tmp/dockerfiles/.cache/docker
+
     steps:
       - run:
           name: Check ruby version
@@ -49,19 +52,31 @@ jobs:
             docker version
             docker info
 
-      - run: docker pull     minimum2scp/debian:latest
-      - run: docker build -t minimum2scp/baseimage:latest         baseimage
-      - run: docker build -t minimum2scp/ruby:latest              ruby
-      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
-      - run: docker build -t minimum2scp/nodejs:latest            nodejs
-      - run: docker build -t minimum2scp/rails4:latest            rails4
-      - run: docker build -t minimum2scp/rails5:latest            rails5
-      - run: docker pull     minimum2scp/debian-jessie:latest
-      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
-      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
-      - run: docker pull     minimum2scp/debian-wheezy:latest
-      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
-      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+      - restore_cache:
+          key: docker-images
+
+      - run: if [ -d "${CACHE_DIR}" ]; then ls -lahR "${CACHE_DIR}"; fi
+
+      - run: ./ci_util.rb list
+      - run: ./ci_util.rb gc 86400
+      - run: ./ci_util.rb pull  minimum2scp/debian:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage:latest
+      - run: ./ci_util.rb build minimum2scp/ruby:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-full:latest
+      - run: ./ci_util.rb build minimum2scp/nodejs:latest
+      - run: ./ci_util.rb build minimum2scp/rails4:latest
+      - run: ./ci_util.rb build minimum2scp/rails5:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-jessie:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
+
+      - save_cache:
+          key: docker-images
+          paths:
+            - /tmp/.cache/docker
 
       - run:
           name: Build rspec-runner image
