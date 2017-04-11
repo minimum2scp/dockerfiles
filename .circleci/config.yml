@@ -21,7 +21,9 @@ jobs:
       - checkout
 
       - restore_cache:
-          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+          keys:
+            - bundler-cache-{{ .Branch }}
+            - bundler-cache-master
 
       - run:
           name: bundle install
@@ -30,7 +32,7 @@ jobs:
             bundle install --jobs=4 --path=vendor/bundle
 
       - save_cache:
-          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+          key: bundler-cache-{{ .Branch }}-{{ .BuildNum }}
           paths:
             - vendor/bundle
 
@@ -53,7 +55,9 @@ jobs:
             docker info
 
       - restore_cache:
-          key: docker-images
+          keys:
+            - docker-images-{{ .Branch }}
+            - docker-images-master
 
       - run: if [ -d "${CACHE_DIR}" ]; then ls -lahR "${CACHE_DIR}"; fi
 
@@ -74,9 +78,9 @@ jobs:
       - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
 
       - save_cache:
-          key: docker-images
+          key: docker-images-{{ .Branch }}-{{ .BuildNum }}
           paths:
-            - /tmp/.cache/docker
+            - ${CACHE_DIR}
 
       - run:
           name: Build rspec-runner image
