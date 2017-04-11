@@ -7,7 +7,7 @@ GEM
       excon (>= 0.38.0)
       json
     excon (0.55.0)
-    json (2.0.3)
+    json (2.0.4)
     method_source (0.8.2)
     multi_json (1.12.1)
     net-scp (1.2.1)
@@ -42,7 +42,7 @@ GEM
       specinfra (~> 2.53)
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.67.7)
+    specinfra (2.67.8)
       net-scp
       net-ssh (>= 2.7, < 5.0)
       net-telnet
