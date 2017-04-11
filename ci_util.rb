@@ -11,7 +11,7 @@ require 'sequel'
 require 'text-table'
 require 'pry'
 
-CACHE_DIR = Pathname(ENV['CACHE_DIR'] || File.expand_path('~/.cache/docker'))
+CACHE_DIR = Pathname("#{__dir__}/.circleci/cache/docker")
 CACHE_DIR.mkpath if !CACHE_DIR.directory?
 DB = Sequel.connect("sqlite://#{CACHE_DIR}/index.db")
 DB.create_table?(:image_caches) do
