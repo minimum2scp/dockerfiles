@@ -75,16 +75,17 @@ jobs:
       - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
       - run: ./ci_util.rb pull  ruby:2.4.1
 
+      - run:
+          name: Build rspec-runner image
+          command: |
+            cp -a .circleci/rspec-runner .
+            cp -a Gemfile Gemfile.lock Rakefile spec .rspec rspec-runner/
+            ./ci_util.rb build minimum2scp/rspec-runner:latest
+
       - save_cache:
           key: docker-images-{{ .Branch }}-{{ .BuildNum }}
           paths:
             - .circleci/cache/docker
-
-      - run:
-          name: Build rspec-runner image
-          command: |
-            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/rspec-runner/
-            docker build -t rspec-runner .circleci/rspec-runner/
 
       - run:
           name: Setup rspec-runner environment variables and volumes
@@ -92,9 +93,9 @@ jobs:
             printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/rspec-runner/env
             echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/rspec-runner/env
             docker volume create data
-            docker create --name cfg -v data:/data rspec-runner
+            docker create --name cfg -v data:/data minimum2scp/rspec-runner:latest
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
 
-      - run: docker run --rm -t --env-file .circleci/rspec-runner/env -v data:/data rspec-runner bundle exec rspec
+      - run: docker run --rm -t --env-file .circleci/rspec-runner/env -v data:/data minimum2scp/rspec-runner:latest bundle exec rspec
 
