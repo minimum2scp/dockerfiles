@@ -17,6 +17,20 @@ jobs:
 
       - checkout
 
+      - restore_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: bundle install
+          command: |
+            bundle check --path=vendor/bundle || \
+            bundle install --jobs=4 --path=vendor/bundle
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
       - setup_remote_docker
 
       - run:
