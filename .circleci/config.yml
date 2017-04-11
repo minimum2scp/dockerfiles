@@ -73,6 +73,7 @@ jobs:
       - run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
       - run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
       - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
+      - run: ./ci_util.rb pull  ruby:2.4.1
 
       - save_cache:
           key: docker-images-{{ .Branch }}-{{ .BuildNum }}
