@@ -82,18 +82,18 @@ jobs:
       - run:
           name: Build rspec-runner image
           command: |
-            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
-            docker build -t rspec-runner .circleci/
+            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/rspec-runner/
+            docker build -t rspec-runner .circleci/rspec-runner/
 
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
-            printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
-            echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
+            printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/rspec-runner/env
+            echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/rspec-runner/env
             docker volume create data
             docker create --name cfg -v data:/data rspec-runner
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
 
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
+      - run: docker run --rm -t --env-file .circleci/rspec-runner/env -v data:/data rspec-runner bundle exec rspec
 
