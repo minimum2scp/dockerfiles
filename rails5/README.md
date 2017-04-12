@@ -1,6 +1,6 @@
 # about minimum2scp/rails5 image
 
- * based on minimum2scp/ruby-full (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby-full)
+ * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * Ruby on Rails 5.x is installed by gem (1)
  * RDBMS client, headers packages are installed
    * SQLite3: sqlite3, libsqlite3-dev
