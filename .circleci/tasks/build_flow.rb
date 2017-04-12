@@ -68,6 +68,6 @@ class BuildFlow
   end
 
   def log_path
-    @log_path ||= File.expand_path("#{__dir__}/../log/build_#{@image.tr('/:', '__')}.log")
+    @log_path ||= File.expand_path("#{__dir__}/../log/build_#{@image.tr('/:', '__')}.log.txt")
   end
 end
