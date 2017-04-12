@@ -5,6 +5,14 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 ##
+## install ruby (see https://github.com/minimum2scp/ruby-binary)
+##
+git clone https://github.com/minimum2scp/ruby-binary.git /tmp/build/tdiary/tmp/ruby-binary/
+cd /tmp/build/tdiary/tmp/ruby-binary/
+rake install:github_release:install[2.4.1,https://github.com/minimum2scp/ruby-binary/releases/download/v0.1.49/ruby-binary_sid-amd64_2.4.1.tar.gz]
+bash -lc "rbenv global 2.4.1"
+
+##
 ## tdiary test dependencies
 ##
 apt-get install -y --no-install-recommends libsqlite3-dev
