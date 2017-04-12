@@ -1,6 +1,6 @@
 # about minimum2scp/rails4 image
 
- * based on minimum2scp/ruby-full (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby-full)
+ * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * Ruby on Rails 4.x (debian package) is installed
  * RDBMS client, headers packages are installed
    * SQLite3: sqlite3, libsqlite3-dev

@@ -12,13 +12,13 @@ packages="$packages postgresql-client libpq-dev"
 ## install packages
 apt-get install --install-recommends -y ${packages}
 
-## install rails (by gem)
-for v in $(bash -lc "rbenv versions --bare --skip-aliases"); do
-  bash -lc "RBENV_VERSION=${v} gem install -N rails --version '~> 4.0'"
-done
-bash -lc "rbenv rehash"
+## install ruby (see https://github.com/minimum2scp/ruby-binary)
+git clone https://github.com/minimum2scp/ruby-binary.git /tmp/build/rails4/tmp/ruby-binary/
+cd /tmp/build/rails4/tmp/ruby-binary/
+rake install:github_release:install[2.4.1,https://github.com/minimum2scp/ruby-binary/releases/download/v0.1.49/ruby-binary_sid-amd64_2.4.1.tar.gz]
+bash -lc "rbenv global 2.4.1"
 
-## set latest stable ruby as global
-v=$(bash -lc "rbenv versions --bare --skip-aliases" | grep -vE -- '-(preview|rc)[0-9]*' | sort -r | head -n 1)
-bash -lc "rbenv global ${v}"
+## install rails (by gem)
+bash -lc "RBENV_VERSION=2.4.1 gem install -N rails --version '~> 4.0'"
+bash -lc "rbenv rehash"
 
