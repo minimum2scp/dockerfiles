@@ -1,0 +1,109 @@
+_export:
+  rb:
+    require: ".circleci/tasks/build_flow.rb"
+
++main:
+  _parallel: true
+
+  +sid:
+    +debian:
+      _export:
+        image: minimum2scp/debian:latest
+      rb>: BuildFlow.pull_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +baseimage:
+      _export:
+        image: minimum2scp/baseimage:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +after-baseimage:
+      _parallel: true
+
+      +nodejs-group:
+        +nodejs:
+          _export:
+            image: minimum2scp/nodejs:latest
+          rb>: BuildFlow.build_image
+          _error:
+            rb>: BuildFlow.error_report
+
+      +ruby-group:
+        +ruby:
+          _export:
+            image: minimum2scp/ruby:latest
+          rb>: BuildFlow.build_image
+          _error:
+            rb>: BuildFlow.error_report
+
+        +after-ruby:
+          _parallel: true
+
+          +ruby-full:
+            _export:
+              image: minimum2scp/ruby-full:latest
+            rb>: BuildFlow.build_image
+            _error:
+              rb>: BuildFlow.error_report
+
+          +rails4:
+            _export:
+              image: minimum2scp/rails4:latest
+            rb>: BuildFlow.build_image
+            _error:
+              rb>: BuildFlow.error_report
+
+          +rails5:
+            _export:
+              image: minimum2scp/rails5:latest
+            rb>: BuildFlow.build_image
+            _error:
+              rb>: BuildFlow.error_report
+
+  +jessie:
+    +debian-jessie:
+      _export:
+        image: minimum2scp/debian-jessie:latest
+      rb>: BuildFlow.pull_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +baseimage-jessie:
+      _export:
+        image: minimum2scp/baseimage-jessie:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +ruby-jessie:
+      _export:
+        image: minimum2scp/ruby-jessie:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
+  +wheezy:
+    +debian-wheezy:
+      _export:
+        image: minimum2scp/debian-wheezy:latest
+      rb>: BuildFlow.pull_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +baseimage-wheezy:
+      _export:
+        image: minimum2scp/baseimage-wheezy:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +ruby-wheezy:
+      _export:
+        image: minimum2scp/ruby-wheezy:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
