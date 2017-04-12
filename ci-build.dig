@@ -1,79 +1,109 @@
+_export:
+  rb:
+    require: ".circleci/tasks/build_flow.rb"
+
 +main:
   _parallel: true
 
   +sid:
     +debian:
-      sh>: docker pull  minimum2scp/debian:latest > .circleci/log/pull_debian.log 2>&1
+      _export:
+        image: minimum2scp/debian:latest
+      rb>: BuildFlow.pull_image
       _error:
-        sh>: cat .circleci/log/pull_debian.log
+        rb>: BuildFlow.error_report
 
     +baseimage:
-      sh>: docker build -t minimum2scp/baseimage:latest baseimage > .circleci/log/build_baseimage.log 2>&1
+      _export:
+        image: minimum2scp/baseimage:latest
+      rb>: BuildFlow.build_image
       _error:
-        sh>: cat .circleci/log/build_baseimage.log
+        rb>: BuildFlow.error_report
 
     +after-baseimage:
       _parallel: true
 
       +nodejs-group:
         +nodejs:
-          sh>: docker build -t minimum2scp/nodejs:latest nodejs > .circleci/log/build_nodejs.log 2>&1
+          _export:
+            image: minimum2scp/nodejs:latest
+          rb>: BuildFlow.build_image
           _error:
-            sh>: cat .circleci/log/build_nodejs.log
+            rb>: BuildFlow.error_report
 
       +ruby-group:
         +ruby:
-          sh>: docker build -t minimum2scp/ruby:latest ruby > .circleci/log/build_ruby.log 2>&1
+          _export:
+            image: minimum2scp/ruby:latest
+          rb>: BuildFlow.build_image
           _error:
-            sh>: cat .circleci/log/build_ruby.log
+            rb>: BuildFlow.error_report
 
         +after-ruby:
           _parallel: true
 
           +ruby-full:
-            sh>: docker build -t minimum2scp/ruby-full:latest ruby-full > .circleci/log/build_ruby-full.log 2>&1
+            _export:
+              image: minimum2scp/ruby-full:latest
+            rb>: BuildFlow.build_image
             _error:
-              sh>: cat .circleci/log/build_ruby-full.log
+              rb>: BuildFlow.error_report
 
           +rails4:
-            sh>: docker build -t minimum2scp/rails4:latest rails4 > .circleci/log/build_rails4.log 2>&1
+            _export:
+              image: minimum2scp/rails4:latest
+            rb>: BuildFlow.build_image
             _error:
-              sh>: cat .circleci/log/build_rails4.log
+              rb>: BuildFlow.error_report
 
           +rails5:
-            sh>: docker build -t minimum2scp/rails5:latest rails5 > .circleci/log/build_rails5.log 2>&1
+            _export:
+              image: minimum2scp/rails5:latest
+            rb>: BuildFlow.build_image
             _error:
-              sh>: cat .circleci/log/build_rails5.log
+              rb>: BuildFlow.error_report
 
   +jessie:
     +debian-jessie:
-      sh>: docker pull  minimum2scp/debian-jessie:latest > .circleci/log/pull_debian-jessie.log 2>&1
+      _export:
+        image: minimum2scp/debian-jessie:latest
+      rb>: BuildFlow.pull_image
       _error:
-        sh>: cat .circleci/log/pull_debian-jessie.log
+        rb>: BuildFlow.error_report
 
     +baseimage-jessie:
-      sh>: docker build -t minimum2scp/baseimage-jessie:latest baseimage-jessie > .circleci/log/build_baseimage-jessie.log 2>&1
+      _export:
+        image: minimum2scp/baseimage-jessie:latest
+      rb>: BuildFlow.build_image
       _error:
-        sh>: cat .circleci/log/build_baseimage-jessie.log
+        rb>: BuildFlow.error_report
 
     +ruby-jessie:
-      sh>: docker build -t minimum2scp/ruby-jessie:latest ruby-jessie > .circleci/log/build_ruby-jessie.log 2>&1
+      _export:
+        image: minimum2scp/ruby-jessie:latest
+      rb>: BuildFlow.build_image
       _error:
-        sh>: cat .circleci/log/build_ruby-jessie.log
+        rb>: BuildFlow.error_report
 
   +wheezy:
     +debian-wheezy:
-      sh>: docker pull  minimum2scp/debian-wheezy:latest > .circleci/log/pull_debian-wheezy.log 2>&1
+      _export:
+        image: minimum2scp/debian-wheezy:latest
+      rb>: BuildFlow.pull_image
       _error:
-        sh>: cat .circleci/log/pull_debian-wheezy.log
+        rb>: BuildFlow.error_report
 
     +baseimage-wheezy:
-      sh>: docker build -t minimum2scp/baseimage-wheezy:latest baseimage-wheezy > .circleci/log/build_baseimage-wheezy.log 2>&1
+      _export:
+        image: minimum2scp/baseimage-wheezy:latest
+      rb>: BuildFlow.build_image
       _error:
-        sh>: cat .circleci/log/build_baseimage-wheezy.log
+        rb>: BuildFlow.error_report
 
     +ruby-wheezy:
-      sh>: docker build -t minimum2scp/ruby-wheezy:latest ruby-wheezy > .circleci/log/build_ruby-wheezy.log 2>&1
+      _export:
+        image: minimum2scp/ruby-wheezy:latest
+      rb>: BuildFlow.build_image
       _error:
-        sh>: cat .circleci/log/build_ruby-wheezy.log
+        rb>: BuildFlow.error_report
 
