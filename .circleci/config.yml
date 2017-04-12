@@ -17,6 +17,22 @@ jobs:
 
       - checkout
 
+      - restore_cache:
+          keys:
+            - bundler-cache-{{ .Branch }}
+            - bundler-cache-master
+
+      - run:
+          name: bundle install
+          command: |
+            bundle check --path=vendor/bundle || \
+            bundle install --jobs=4 --path=vendor/bundle
+
+      - save_cache:
+          key: bundler-cache-{{ .Branch }}-{{ epoch }}
+          paths:
+            - vendor/bundle
+
       - setup_remote_docker
 
       - run:
@@ -35,35 +51,49 @@ jobs:
             docker version
             docker info
 
-      - run: docker pull     minimum2scp/debian:latest
-      - run: docker build -t minimum2scp/baseimage:latest         baseimage
-      - run: docker build -t minimum2scp/ruby:latest              ruby
-      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
-      - run: docker build -t minimum2scp/nodejs:latest            nodejs
-      - run: docker build -t minimum2scp/rails4:latest            rails4
-      - run: docker build -t minimum2scp/rails5:latest            rails5
-      - run: docker pull     minimum2scp/debian-jessie:latest
-      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
-      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
-      - run: docker pull     minimum2scp/debian-wheezy:latest
-      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
-      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+      - restore_cache:
+          keys:
+            - docker-images-{{ .Branch }}
+            - docker-images-master
+
+      - run: if [ -d .circleci/cache/docker ]; then ls -lahR .circleci/cache/docker; fi
+
+      - run: ./ci_util.rb list
+      - run: ./ci_util.rb gc 86400
+      - run: ./ci_util.rb pull  minimum2scp/debian:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage:latest
+      - run: ./ci_util.rb build minimum2scp/ruby:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-full:latest
+      - run: ./ci_util.rb build minimum2scp/nodejs:latest
+      - run: ./ci_util.rb build minimum2scp/rails4:latest
+      - run: ./ci_util.rb build minimum2scp/rails5:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-jessie:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-jessie:latest
+      - run: ./ci_util.rb pull  minimum2scp/debian-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/baseimage-wheezy:latest
+      - run: ./ci_util.rb build minimum2scp/ruby-wheezy:latest
+
+      - save_cache:
+          key: docker-images-{{ .Branch }}-{{ epoch }}
+          paths:
+            - .circleci/cache/docker
 
       - run:
           name: Build rspec-runner image
           command: |
-            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
-            docker build -t rspec-runner .circleci/
+            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/rspec-runner/
+            docker build -t rspec-runner .circleci/rspec-runner/
 
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
-            printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
-            echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
+            printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/rspec-runner/env
+            echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/rspec-runner/env
             docker volume create data
             docker create --name cfg -v data:/data rspec-runner
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
 
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
+      - run: docker run --rm -t --env-file .circleci/rspec-runner/env -v data:/data rspec-runner bundle exec rspec
 
