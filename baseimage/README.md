@@ -65,7 +65,7 @@ ii   apt                     1.4                             amd64  commandline 
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b1                        amd64  GNU Bourne Again SHell
-ii   bsdmainutils            9.0.12                          amd64  collection of more utilities from FreeBSD
+ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                        all    Common CA certificates
 ii   coreutils               8.26-3                          amd64  GNU core utilities
@@ -98,8 +98,8 @@ ii   iproute2                4.9.0-1                         amd64  networking a
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4                             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.6.7-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.6.7-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.6.7-2                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.6.7-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-1                        amd64  block device ID library
 ii   libbsd0                 0.8.3-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
