@@ -18,10 +18,10 @@ I: Retrieving libapt-pkg5.0 1.4
 I: Validating libapt-pkg5.0 1.4
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
-I: Retrieving libaudit-common 1:2.6.7-1
-I: Validating libaudit-common 1:2.6.7-1
-I: Retrieving libaudit1 1:2.6.7-1
-I: Validating libaudit1 1:2.6.7-1
+I: Retrieving libaudit-common 1:2.6.7-2
+I: Validating libaudit-common 1:2.6.7-2
+I: Retrieving libaudit1 1:2.6.7-2
+I: Validating libaudit1 1:2.6.7-2
 I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
@@ -427,10 +427,10 @@ Sending build context to Docker daemon  26.73MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6848e7c66e2c
-Removing intermediate container 9ed02857ab48
+ ---> f3c5a1217b32
+Removing intermediate container f7dc0fe3f03e
 Step 3/3 : CMD /bin/bash
- ---> Running in 581c0cb68237
- ---> cee1c6febc78
-Removing intermediate container 581c0cb68237
-Successfully built cee1c6febc78
+ ---> Running in 8d5151f81864
+ ---> 2f538693e29c
+Removing intermediate container 8d5151f81864
+Successfully built 2f538693e29c
