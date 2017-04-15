@@ -112,7 +112,7 @@ _export:
       sh>: cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/rspec-runner/
     +build:
       _export:
-        image: rspec-runner
+        image: minimum2scp/rspec-runner:ci
         directory: .circleci/rspec-runner/
       rb>: BuildFlow.build_image
       _error:
