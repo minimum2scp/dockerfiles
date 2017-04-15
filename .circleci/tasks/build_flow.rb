@@ -8,7 +8,7 @@ class BuildFlow
       abort 'Missing variable "image"'
     end
 
-    @directory = @image.split(":", 2)[0].split("/", 2)[1]
+    @directory = Digdag.env.params['directory'] || @image.split(":", 2)[0].split("/", 2)[1]
     unless File.directory?(@directory)
       abort "No such directory #{@directory}"
     end

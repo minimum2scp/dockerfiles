@@ -107,3 +107,14 @@ _export:
       _error:
         rb>: BuildFlow.error_report
 
+  +rspec-runner:
+    +prepare:
+      sh>: cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
+    +build:
+      _export:
+        image: rspec-runner
+        directory: .circleci
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+

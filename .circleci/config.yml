@@ -55,12 +55,6 @@ jobs:
       - run: digdag run ci-build.dig --rerun
 
       - run:
-          name: Build rspec-runner image
-          command: |
-            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
-            docker build -t rspec-runner .circleci/
-
-      - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
             printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
