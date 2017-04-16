@@ -35,25 +35,24 @@ jobs:
             docker version
             docker info
 
-      - run: docker pull     minimum2scp/debian:latest
-      - run: docker build -t minimum2scp/baseimage:latest         baseimage
-      - run: docker build -t minimum2scp/ruby:latest              ruby
-      - run: docker build -t minimum2scp/ruby-full:latest         ruby-full
-      - run: docker build -t minimum2scp/nodejs:latest            nodejs
-      - run: docker build -t minimum2scp/rails4:latest            rails4
-      - run: docker build -t minimum2scp/rails5:latest            rails5
-      - run: docker pull     minimum2scp/debian-jessie:latest
-      - run: docker build -t minimum2scp/baseimage-jessie:latest  baseimage-jessie
-      - run: docker build -t minimum2scp/ruby-jessie:latest       ruby-jessie
-      - run: docker pull     minimum2scp/debian-wheezy:latest
-      - run: docker build -t minimum2scp/baseimage-wheezy:latest  baseimage-wheezy
-      - run: docker build -t minimum2scp/ruby-wheezy:latest       ruby-wheezy
+      - run:
+          name: Install java
+          command: |
+            set -x
+            echo "deb http://deb.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
+            apt-get update
+            apt-get install openjdk-8-jre-headless -t jessie-backports -y --no-install-recommends
 
       - run:
-          name: Build rspec-runner image
+          name: Install digdag
           command: |
-            cp -a Gemfile Gemfile.lock Rakefile spec .rspec .circleci/
-            docker build -t rspec-runner .circleci/
+            set -x
+            curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-latest"
+            chmod +x /usr/local/bin/digdag
+
+      - run: digdag --version
+      - run: digdag check
+      - run: digdag run ci-build.dig --rerun
 
       - run:
           name: Setup rspec-runner environment variables and volumes
@@ -61,9 +60,13 @@ jobs:
             printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
             echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
             docker volume create data
-            docker create --name cfg -v data:/data rspec-runner
+            docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
 
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data rspec-runner bundle exec rspec
+      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rspec
+
+      - store_artifacts:
+          path: .circleci/log/
+          destination: log
 

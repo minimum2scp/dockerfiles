@@ -18,10 +18,10 @@ I: Retrieving libapt-pkg5.0 1.4
 I: Validating libapt-pkg5.0 1.4
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
-I: Retrieving libaudit-common 1:2.6.7-1
-I: Validating libaudit-common 1:2.6.7-1
-I: Retrieving libaudit1 1:2.6.7-1
-I: Validating libaudit1 1:2.6.7-1
+I: Retrieving libaudit-common 1:2.6.7-2
+I: Validating libaudit-common 1:2.6.7-2
+I: Retrieving libaudit1 1:2.6.7-2
+I: Validating libaudit1 1:2.6.7-2
 I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
@@ -62,18 +62,18 @@ I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
 I: Retrieving gcc-5-base 5.4.1-8
 I: Validating gcc-5-base 5.4.1-8
-I: Retrieving gcc-6-base 6.3.0-12
-I: Validating gcc-6-base 6.3.0-12
-I: Retrieving libgcc1 1:6.3.0-12
-I: Validating libgcc1 1:6.3.0-12
-I: Retrieving libstdc++6 6.3.0-12
-I: Validating libstdc++6 6.3.0-12
-I: Retrieving libc-bin 2.24-9
-I: Validating libc-bin 2.24-9
-I: Retrieving libc6 2.24-9
-I: Validating libc6 2.24-9
-I: Retrieving multiarch-support 2.24-9
-I: Validating multiarch-support 2.24-9
+I: Retrieving gcc-6-base 6.3.0-13
+I: Validating gcc-6-base 6.3.0-13
+I: Retrieving libgcc1 1:6.3.0-13
+I: Validating libgcc1 1:6.3.0-13
+I: Retrieving libstdc++6 6.3.0-13
+I: Validating libstdc++6 6.3.0-13
+I: Retrieving libc-bin 2.24-10
+I: Validating libc-bin 2.24-10
+I: Retrieving libc6 2.24-10
+I: Validating libc6 2.24-10
+I: Retrieving multiarch-support 2.24-10
+I: Validating multiarch-support 2.24-10
 I: Retrieving gpgv 2.1.18-6
 I: Validating gpgv 2.1.18-6
 I: Retrieving grep 2.27-2
@@ -423,14 +423,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.71MB
+Sending build context to Docker daemon  26.72MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 33a133c930f4
-Removing intermediate container eb80ead6fa49
+ ---> e4aa5660ecb9
+Removing intermediate container 77ee367dcced
 Step 3/3 : CMD /bin/bash
- ---> Running in 89441c81c945
- ---> df367aecfc9d
-Removing intermediate container 89441c81c945
-Successfully built df367aecfc9d
+ ---> Running in 8d7f67c6a220
+ ---> d8c0d8e4f805
+Removing intermediate container 8d7f67c6a220
+Successfully built d8c0d8e4f805
