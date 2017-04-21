@@ -215,7 +215,7 @@ ii   sysv-rc                 2.88dsf-59                 all    System-V-like run
 ii   sysvinit-core           2.88dsf-59                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59                 amd64  System-V-like utilities
 ii   tar                     1.27.1-2+deb8u1            amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017a-0+deb8u1             all    time zone and daylight-saving time data
+ii   tzdata                  2017b-0+deb8u1             all    time zone and daylight-saving time data
 ii   ucf                     3.0030                     all    Update Configuration File(s): preserve user changes to config files
 ii   udev                    215-17+deb8u6              amd64  /dev/ and hotplug management daemon
 ii   unzip                   6.0-16+deb8u2              amd64  De-archiver for .zip files
