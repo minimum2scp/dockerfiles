@@ -12,10 +12,10 @@ I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
-I: Retrieving apt 1.4
-I: Validating apt 1.4
-I: Retrieving libapt-pkg5.0 1.4
-I: Validating libapt-pkg5.0 1.4
+I: Retrieving apt 1.4.1
+I: Validating apt 1.4.1
+I: Retrieving libapt-pkg5.0 1.4.1
+I: Validating libapt-pkg5.0 1.4.1
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.6.7-2
@@ -423,14 +423,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.72MB
+Sending build context to Docker daemon  26.71MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a69c3bf06407
-Removing intermediate container a305ee5fcd49
+ ---> e897427b5294
+Removing intermediate container 295eaa29e444
 Step 3/3 : CMD /bin/bash
- ---> Running in 3687fb9847f6
- ---> 97e40cde44e6
-Removing intermediate container 3687fb9847f6
-Successfully built 97e40cde44e6
+ ---> Running in d9637f62ce73
+ ---> 3396d709df2a
+Removing intermediate container d9637f62ce73
+Successfully built 3396d709df2a
