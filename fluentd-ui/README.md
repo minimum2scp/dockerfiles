@@ -38,25 +38,25 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 ## processes
 
 ```
-debian@e47b05d66a22:~$ ps -ef fww
+debian@bc44ac497e02:~$ ps -ef fww
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 00:55 ?        Ss     0:00 init [2]
-root       507     1  1 00:55 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root       532     1  0 00:55 ?        Ss     0:00 /usr/sbin/cron
-root       544     1  0 00:55 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
-www-data   545   544  0 00:55 ?        S      0:00  \_ nginx: worker process
-www-data   546   544  0 00:55 ?        S      0:00  \_ nginx: worker process
-www-data   547   544  0 00:55 ?        S      0:00  \_ nginx: worker process
-www-data   549   544  0 00:55 ?        S      0:00  \_ nginx: worker process
-root       558     1  0 00:55 ?        Ss     0:00 /usr/sbin/sshd
-root       592   558  0 00:55 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     594   592  0 00:55 ?        S      0:00      \_ sshd: debian@pts/0
-debian     596   594  0 00:55 pts/0    Ss     0:00          \_ -bash
-debian     771   596  0 00:55 pts/0    R+     0:00              \_ ps -ef fww
-root       564     1  0 00:55 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
-td-agent   567   564 38 00:55 ?        Sl     0:02  \_ /usr/bin/ruby2.2 bin/rails s Puma -e production -p 9292
-td-agent   635     1  0 00:55 ?        Sl     0:00 /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
-td-agent   638   635  2 00:55 ?        Sl     0:00  \_ /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
+root         1     0  0 00:15 ?        Ss     0:00 init [2]
+root       577     1  2 00:15 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       602     1  0 00:15 ?        Ss     0:00 /usr/sbin/cron
+root       613     1  0 00:15 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
+www-data   614   613  0 00:15 ?        S      0:00  \_ nginx: worker process
+www-data   615   613  0 00:15 ?        S      0:00  \_ nginx: worker process
+www-data   616   613  0 00:15 ?        S      0:00  \_ nginx: worker process
+www-data   617   613  0 00:15 ?        S      0:00  \_ nginx: worker process
+root       626     1  0 00:15 ?        Ss     0:00 /usr/sbin/sshd
+root       681   626  0 00:15 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     701   681  0 00:15 ?        S      0:00      \_ sshd: debian@pts/0
+debian     737   701  0 00:15 pts/0    Ss     0:00          \_ -bash
+debian     855   737  0 00:16 pts/0    R+     0:00              \_ ps -ef fww
+root       632     1  0 00:15 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+td-agent   683   632 40 00:15 ?        Rl     0:01  \_ /usr/bin/ruby2.3 bin/rails s Puma -e production -p 9292
+td-agent   659     1  0 00:15 ?        Sl     0:00 /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
+td-agent   662   659  5 00:15 ?        Sl     0:00  \_ /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
 ```
 
 ## ports
