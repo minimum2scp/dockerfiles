@@ -30,7 +30,7 @@ install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/gemrc /etc/gemrc
 etckeeper commit "gemrc: do not install document on gem install, gem update"
 
 ## install fluentd-ui in /opt/fluentd-ui
-git clone https://github.com/fluent/fluentd-ui.git -b v0.4.2 /opt/fluentd-ui
+git clone https://github.com/fluent/fluentd-ui.git -b v0.4.4 /opt/fluentd-ui
 chown -R td-agent:td-agent /opt/fluentd-ui
 sudo -u td-agent mkdir -p /opt/fluentd-ui/vendor/bundle
 sudo -u td-agent sh -c "cd /opt/fluentd-ui; bundle install --path vendor/bundle --jobs 4 --without development test"
