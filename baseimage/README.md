@@ -64,7 +64,7 @@ ii   adduser                 3.115                           all    add and remo
 ii   apt                     1.4.1                           amd64  commandline package manager
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
-ii   bash                    4.4-4+b1                        amd64  GNU Bourne Again SHell
+ii   bash                    4.4-4+b2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                        all    Common CA certificates
@@ -232,6 +232,6 @@ ii   vim-tiny                2:8.0.0197-4                    amd64  Vi IMproved 
 ii   whiptail                0.52.19-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.3.1-4                         amd64  shell with lots of features
+ii   zsh                     5.3.1-4+b1                      amd64  shell with lots of features
 ii   zsh-common              5.3.1-4                         all    architecture independent files for Zsh
 ```
