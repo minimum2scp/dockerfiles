@@ -26,8 +26,8 @@ I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
-I: Retrieving bash 4.4-4+b1
-I: Validating bash 4.4-4+b1
+I: Retrieving bash 4.4-4+b2
+I: Validating bash 4.4-4+b2
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.227
@@ -423,14 +423,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.71MB
+Sending build context to Docker daemon  26.72MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e897427b5294
-Removing intermediate container 295eaa29e444
+ ---> 202c11723109
+Removing intermediate container ab4a85de0dd5
 Step 3/3 : CMD /bin/bash
- ---> Running in d9637f62ce73
- ---> 3396d709df2a
-Removing intermediate container d9637f62ce73
-Successfully built 3396d709df2a
+ ---> Running in fdf49672f942
+ ---> 93b71da833f8
+Removing intermediate container fdf49672f942
+Successfully built 93b71da833f8
