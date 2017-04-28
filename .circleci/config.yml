@@ -4,7 +4,7 @@ jobs:
     working_directory: /tmp/dockerfiles
 
     docker:
-      - image: ruby:2.4.1
+      - image: circleci/ruby:2.4.1
 
     steps:
       - run:
@@ -20,15 +20,6 @@ jobs:
       - setup_remote_docker
 
       - run:
-          name: Install Docker client
-          command: |
-            set -x
-            VER="17.03.1-ce"
-            curl -L -o /tmp/docker-$VER.tgz https://get.docker.com/builds/Linux/x86_64/docker-$VER.tgz
-            tar -xz -C /tmp -f /tmp/docker-$VER.tgz
-            mv /tmp/docker/* /usr/bin
-
-      - run:
           name: Check docker version
           command: |
             set -x
@@ -39,16 +30,16 @@ jobs:
           name: Install java
           command: |
             set -x
-            echo "deb http://deb.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
-            apt-get update
-            apt-get install openjdk-8-jre-headless -t jessie-backports -y --no-install-recommends
+            echo "deb http://deb.debian.org/debian jessie-backports main" | sudo tee /etc/apt/sources.list.d/jessie-backports.list
+            sudo apt-get update
+            sudo apt-get install openjdk-8-jre-headless -t jessie-backports -y --no-install-recommends
 
       - run:
           name: Install digdag
           command: |
             set -x
-            curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-latest"
-            chmod +x /usr/local/bin/digdag
+            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-latest"
+            sudo chmod +x /usr/local/bin/digdag
 
       - run: digdag --version
       - run: digdag check
