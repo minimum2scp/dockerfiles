@@ -40,8 +40,7 @@ for v in \
   GOOGLE_FLUENTD_USE_METADATA_SERVICE \
   GOOGLE_FLUENTD_PROJECT_ID \
   GOOGLE_FLUENTD_ZONE \
-  GOOGLE_FLUENTD_VM_ID \
-  CIRCLECI
+  GOOGLE_FLUENTD_VM_ID
 do
   sed -i -e "s/^export ${v}=/#export ${v}=/" /etc/profile.d/00docker-env.sh
 done
