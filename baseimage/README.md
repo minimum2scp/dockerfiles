@@ -91,7 +91,7 @@ ii   groff-base              1.22.3-9                        amd64  GNU troff te
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
-ii   init-system-helpers     1.47                            all    helper tools for all init systems
+ii   init-system-helpers     1.48                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                    amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
@@ -176,7 +176,7 @@ ii   libsqlite3-0            3.16.2-3                        amd64  SQLite 3 sha
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0e-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-16                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-22                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
@@ -203,7 +203,7 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.4p1-10                      amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0e-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0e-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4                         amd64  change and administer password and group data
 ii   perl                    5.24.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-2                        amd64  minimal Perl system
