@@ -37,18 +37,19 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 ## processes
 
 ```
-debian@5f45b8456e41:~$ ps -ef fww
+debian@505ae19c0574:~$ ps -ef fww
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 01:05 ?        Ss     0:00 init [2]
-elastic+   609     1 99 01:05 ?        Sl     0:13 /usr/bin/java -Xms2g -Xmx2g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -XX:+HeapDumpOnOutOfMemoryError -Des.path.home=/usr/share/elasticsearch -cp /usr/share/elasticsearch/lib/elasticsearch-5.3.2.jar:/usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid -Edefault.path.logs=/var/log/elasticsearch -Edefault.path.data=/var/lib/elasticsearch -Edefault.path.conf=/etc/elasticsearch
-root       649     1  1 01:05 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root       674     1  0 01:05 ?        Ss     0:00 /usr/sbin/cron
-kibana     680     1 52 01:05 ?        Sl     0:03 /usr/share/kibana/bin/../node/bin/node --no-warnings /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml
-root       696     1  0 01:05 ?        Ss     0:00 /usr/sbin/sshd
-root       773   696  0 01:06 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     780   773  0 01:06 ?        S      0:00      \_ sshd: debian@pts/0
-debian     783   780  0 01:06 pts/0    Ss     0:00          \_ -bash
-debian     794   783  0 01:06 pts/0    R+     0:00              \_ ps -ef fww
+root         1     0  0 00:17 ?        Ss     0:00 init [2]
+elastic+   503     1 76 00:17 ?        Sl     0:16 /usr/bin/java -Xms2g -Xmx2g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -XX:+HeapDumpOnOutOfMemoryError -Des.path.home=/usr/share/elasticsearch -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid -Edefault.path.logs=/var/log/elasticsearch -Edefault.path.data=/var/lib/elasticsearch -Edefault.path.conf=/etc/elasticsearch
+root       537     1  0 00:17 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       562     1  0 00:17 ?        Ss     0:00 /usr/sbin/cron
+kibana     568     1 20 00:17 ?        Sl     0:03 /usr/share/kibana/bin/../node/bin/node --no-warnings /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml
+root       584     1  0 00:17 ?        Ss     0:00 /usr/sbin/sshd
+root       594   584  0 00:17 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     624   594  0 00:17 ?        S      0:00      \_ sshd: debian@pts/0
+debian     625   624  0 00:17 pts/0    Ss     0:00          \_ -bash
+debian     650   625  0 00:17 pts/0    R+     0:00              \_ ps -ef fww
+
 ```
 
 ## ports
