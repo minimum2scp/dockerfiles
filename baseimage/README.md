@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
-ii   apt                     1.4.1                           amd64  commandline package manager
+ii   apt                     1.4.2                           amd64  commandline package manager
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b2                        amd64  GNU Bourne Again SHell
@@ -96,7 +96,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.1                           amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.2                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2                       amd64  Dynamic library for security auditing
@@ -146,7 +146,7 @@ ii   libmount1               2.29.2-1                        amd64  device mount
 ii   libncurses5             6.0+20161126-1                  amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.19-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.20-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.22.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                       amd64  Pluggable Authentication Modules for PAM
@@ -229,7 +229,7 @@ ii   unzip                   6.0-21                          amd64  De-archiver 
 ii   util-linux              2.29.2-1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0197-4                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.0197-4                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.19-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.20-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.3.1-4+b1                      amd64  shell with lots of features
