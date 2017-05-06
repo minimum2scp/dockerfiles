@@ -74,8 +74,8 @@ I: Retrieving libc6 2.24-10
 I: Validating libc6 2.24-10
 I: Retrieving multiarch-support 2.24-10
 I: Validating multiarch-support 2.24-10
-I: Retrieving gpgv 2.1.18-6
-I: Validating gpgv 2.1.18-6
+I: Retrieving gpgv 2.1.18-7
+I: Validating gpgv 2.1.18-7
 I: Retrieving grep 2.27-2
 I: Validating grep 2.27-2
 I: Retrieving gzip 1.6-5+b1
@@ -423,14 +423,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.72MB
+Sending build context to Docker daemon   26.7MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 58480da1d753
-Removing intermediate container f3c6259b7b7a
+ ---> ae35b362c29f
+Removing intermediate container e3c0b2b2c47b
 Step 3/3 : CMD /bin/bash
- ---> Running in c3dda7935a16
- ---> b04676b9bbfb
-Removing intermediate container c3dda7935a16
-Successfully built b04676b9bbfb
+ ---> Running in ea1d077492d6
+ ---> fd5f9373aad4
+Removing intermediate container ea1d077492d6
+Successfully built fd5f9373aad4
+Successfully tagged minimum2scp/debian:latest
