@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
-ii   apt                     1.4.1                           amd64  commandline package manager
+ii   apt                     1.4.2                           amd64  commandline package manager
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b2                        amd64  GNU Bourne Again SHell
@@ -85,7 +85,7 @@ ii   gcc-5-base              5.4.1-8                         amd64  GCC, the GNU
 ii   gcc-6-base              6.3.0-16                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-2                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-2                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.18-6                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-7                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -96,7 +96,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.1                           amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.2                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2                       amd64  Dynamic library for security auditing
@@ -146,7 +146,7 @@ ii   libmount1               2.29.2-1                        amd64  device mount
 ii   libncurses5             6.0+20161126-1                  amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.19-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.20-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.22.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.5                       amd64  Pluggable Authentication Modules for PAM
@@ -178,10 +178,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0e-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-16                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-22                          amd64  systemd utility library
+ii   libsystemd0             232-23                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-22                          amd64  libudev shared library
+ii   libudev1                232-23                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1                        amd64  Universally Unique ID library
@@ -229,7 +229,7 @@ ii   unzip                   6.0-21                          amd64  De-archiver 
 ii   util-linux              2.29.2-1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0197-4                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.0197-4                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.19-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.20-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.3.1-4+b1                      amd64  shell with lots of features

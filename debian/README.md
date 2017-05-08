@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
-ii   apt                     1.4.1                 amd64  commandline package manager
+ii   apt                     1.4.2                 amd64  commandline package manager
 ii   base-files              9.9                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b2              amd64  GNU Bourne Again SHell
@@ -36,7 +36,7 @@ ii   e2fsprogs               1.43.4-2              amd64  ext2/ext3/ext4 file sy
 ii   findutils               4.6.0+git+20161106-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-8               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-16              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.1.18-6              amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-7              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
@@ -44,7 +44,7 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.48                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.1                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.2                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2             amd64  Dynamic library for security auditing
@@ -78,9 +78,9 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.2-1              amd64  smart column output alignment library
 ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
 ii   libstdc++6              6.3.0-16              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-22                amd64  systemd utility library
+ii   libsystemd0             232-23                amd64  systemd utility library
 ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-22                amd64  libudev shared library
+ii   libudev1                232-23                amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4               amd64  system login tools
