@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
-ii   apt                     1.4.2                           amd64  commandline package manager
+ii   apt                     1.4.3                           amd64  commandline package manager
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-4+b2                        amd64  GNU Bourne Again SHell
@@ -82,7 +82,7 @@ ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-8                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.3.0-16                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.3.0-17                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-3                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
@@ -96,7 +96,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.2                           amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.3                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2                       amd64  Dynamic library for security auditing
@@ -121,7 +121,7 @@ ii   libexpat1               2.2.0-2                         amd64  XML parsing 
 ii   libfastjson4            0.99.4-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:6.3.0-16                      amd64  GCC support library
+ii   libgcc1                 1:6.3.0-17                      amd64  GCC support library
 ii   libgcrypt20             1.7.6-1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -177,7 +177,7 @@ ii   libss2                  1.43.4-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0e-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              6.3.0-16                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              6.3.0-17                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-23                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
@@ -218,7 +218,7 @@ ii   rsyslog                 8.24.0-1                        amd64  reliable sys
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                           all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.19p1-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.20-1                        amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.9                    amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-like utilities
