@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8+deb8u7",
+    "Version": "8+deb8u8",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "8+deb8u7"
+    "source:Version": "8+deb8u8"
   },
   {
     "Architecture": "amd64",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, locales",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1994,7 +1994,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "214",
+    "Installed-Size": "183",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.14), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), multiarch-support",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "132",
+    "Installed-Size": "101",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "multiarch-support",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "all",
@@ -2663,10 +2663,10 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2)",
-    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u6), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u7), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "11800",
+    "Installed-Size": "11421",
     "Origin": "",
     "Package": "systemd",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2685,16 +2685,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sysvinit-core, upstart",
     "Breaks": "",
-    "Depends": "systemd (= 215-17+deb8u6)",
+    "Depends": "systemd (= 215-17+deb8u7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "79",
+    "Installed-Size": "40",
     "Origin": "",
     "Package": "systemd-sysv",
     "Pre-Depends": "systemd",
@@ -2705,7 +2705,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "all",
@@ -2831,10 +2831,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u6), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u7), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6048",
+    "Installed-Size": "5924",
     "Origin": "",
     "Package": "udev",
     "Pre-Depends": "debconf (>= 1.4.69) | debconf-2.0",
@@ -2845,7 +2845,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
