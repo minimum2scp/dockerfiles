@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8+deb8u7",
+    "Version": "8+deb8u8",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "8+deb8u7"
+    "source:Version": "8+deb8u8"
   },
   {
     "Architecture": "amd64",
@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "457",
+    "Installed-Size": "367",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20141019+deb8u2",
+    "Version": "20141019+deb8u3",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20141019+deb8u2"
+    "source:Version": "20141019+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3 (>= 1:8.35), zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:2.1.4), git-man (<< 1:2.1.4-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "21645",
+    "Installed-Size": "21945",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.1.4-2.1+deb8u2",
+    "Version": "1:2.1.4-2.1+deb8u3",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.1.4-2.1+deb8u2"
+    "source:Version": "1:2.1.4-2.1+deb8u3"
   },
   {
     "Architecture": "all",
@@ -773,7 +773,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.1.4-2.1+deb8u2",
+    "Version": "1:2.1.4-2.1+deb8u3",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.1.4-2.1+deb8u2"
+    "source:Version": "1:2.1.4-2.1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, locales",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed2 (>= 2.7), libnettle4 (>= 2.7), libp11-kit0 (>= 0.20.7), libtasn1-6 (>= 4.1-0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1960",
+    "Installed-Size": "1811",
     "Origin": "",
     "Package": "libgnutls-deb0-28",
     "Pre-Depends": "multiarch-support",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.3.8-6+deb8u4",
+    "Version": "3.3.8-6+deb8u5",
     "binary:Package": "libgnutls-deb0-28:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.3.8-6+deb8u4"
+    "source:Version": "3.3.8-6+deb8u5"
   },
   {
     "Architecture": "amd64",
@@ -2778,7 +2778,7 @@
     "Depends": "libc6 (>= 2.14), libgmp10, libgnutls-deb0-28 (>= 3.3.0), libhogweed2, libnettle4, zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "164",
+    "Installed-Size": "160",
     "Origin": "",
     "Package": "librtmp1",
     "Pre-Depends": "multiarch-support",
@@ -2789,7 +2789,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4+20150115.gita107cef-1",
+    "Version": "2.4+20150115.gita107cef-1+deb8u1",
     "binary:Package": "librtmp1:amd64",
     "binary:Summary": "toolkit for RTMP streams (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rtmpdump",
-    "source:Version": "2.4+20150115.gita107cef-1"
+    "source:Version": "2.4+20150115.gita107cef-1+deb8u1"
   },
   {
     "Architecture": "amd64",
@@ -3142,7 +3142,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "214",
+    "Installed-Size": "183",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.14), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), multiarch-support",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "132",
+    "Installed-Size": "101",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "multiarch-support",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
@@ -3489,7 +3489,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u7",
+    "Version": "2.19-18+deb8u9",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u7"
+    "source:Version": "2.19-18+deb8u9"
   },
   {
     "Architecture": "all",
@@ -4399,10 +4399,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u6), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u7), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6048",
+    "Installed-Size": "5924",
     "Origin": "",
     "Package": "udev",
     "Pre-Depends": "debconf (>= 1.4.69) | debconf-2.0",
@@ -4413,7 +4413,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u6",
+    "Version": "215-17+deb8u7",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u6"
+    "source:Version": "215-17+deb8u7"
   },
   {
     "Architecture": "amd64",
@@ -4430,7 +4430,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "339",
+    "Installed-Size": "386",
     "Origin": "",
     "Package": "unzip",
     "Pre-Depends": "",
@@ -4441,7 +4441,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-16+deb8u2",
+    "Version": "6.0-16+deb8u3",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "unzip",
-    "source:Version": "6.0-16+deb8u2"
+    "source:Version": "6.0-16+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -4497,7 +4497,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:7.4.488-7+deb8u2",
+    "Version": "2:7.4.488-7+deb8u3",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4505,13 +4505,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:7.4.488-7+deb8u2"
+    "source:Version": "2:7.4.488-7+deb8u3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:7.4.488-7+deb8u2), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5",
+    "Depends": "vim-common (= 2:7.4.488-7+deb8u3), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1051",
@@ -4525,7 +4525,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:7.4.488-7+deb8u2",
+    "Version": "2:7.4.488-7+deb8u3",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:7.4.488-7+deb8u2"
+    "source:Version": "2:7.4.488-7+deb8u3"
   },
   {
     "Architecture": "amd64",
