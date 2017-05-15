@@ -689,7 +689,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-arch, git-cvs, git-svn, git-email, git-gui, gitk, gitweb",
-    "Version": "1:1.7.10.4-1+wheezy3",
+    "Version": "1:1.7.10.4-1+wheezy4",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy3"
+    "source:Version": "1:1.7.10.4-1+wheezy4"
   },
   {
     "Architecture": "all",
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.7.10.4-1+wheezy3",
+    "Version": "1:1.7.10.4-1+wheezy4",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy3"
+    "source:Version": "1:1.7.10.4-1+wheezy4"
   },
   {
     "Architecture": "amd64",
@@ -2271,7 +2271,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.6.1-0), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.7), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "150",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4+20111222.git4e06e21-1",
+    "Version": "2.4+20111222.git4e06e21-1+deb7u1",
     "binary:Package": "librtmp0:amd64",
     "binary:Summary": "toolkit for RTMP streams (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "rtmpdump",
-    "source:Version": "2.4+20111222.git4e06e21-1"
+    "source:Version": "2.4+20111222.git4e06e21-1+deb7u1"
   },
   {
     "Architecture": "amd64",
