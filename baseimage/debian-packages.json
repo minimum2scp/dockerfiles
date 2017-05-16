@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5799",
+    "Installed-Size": "5798",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libtinfo5 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.4-4+b2",
+    "Version": "4.4-5",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.4-4"
+    "source:Version": "4.4-5"
   },
   {
     "Architecture": "amd64",
@@ -594,7 +594,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "204",
+    "Installed-Size": "203",
     "Origin": "",
     "Package": "gcc-5-base",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4.1-8",
+    "Version": "5.4.1-10",
     "binary:Package": "gcc-5-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-5",
-    "source:Version": "5.4.1-8"
+    "source:Version": "5.4.1-10"
   },
   {
     "Architecture": "amd64",
@@ -656,12 +656,12 @@
     "Pre-Depends": "dpkg (>= 1.17.13)",
     "Priority": "optional",
     "Provides": "git-completion, git-core",
-    "Recommends": "patch, less, rsync, ssh-client",
+    "Recommends": "patch, less, ssh-client",
     "Replace": "",
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.11.0-3",
+    "Version": "1:2.11.0-4",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.11.0-3"
+    "source:Version": "1:2.11.0-4"
   },
   {
     "Architecture": "all",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.11.0-3",
+    "Version": "1:2.11.0-4",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.11.0-3"
+    "source:Version": "1:2.11.0-4"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.0-2",
+    "Version": "7.0-3",
     "binary:Package": "libreadline7:amd64",
     "binary:Summary": "GNU readline and history libraries, run-time libraries",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "7.0-2"
+    "source:Version": "7.0-3"
   },
   {
     "Architecture": "amd64",
@@ -4301,7 +4301,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "7.0-2",
+    "Version": "7.0-3",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "7.0-2"
+    "source:Version": "7.0-3"
   },
   {
     "Architecture": "amd64",

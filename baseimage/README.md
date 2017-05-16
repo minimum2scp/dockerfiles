@@ -64,7 +64,7 @@ ii   adduser                 3.115                           all    add and remo
 ii   apt                     1.4.3                           amd64  commandline package manager
 ii   base-files              9.9                             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
-ii   bash                    4.4-4+b2                        amd64  GNU Bourne Again SHell
+ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20161130                        all    Common CA certificates
@@ -81,10 +81,10 @@ ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ex
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-8                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-10                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-17                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.11.0-3                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.11.0-3                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.11.0-4                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.11.0-4                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -162,7 +162,7 @@ ii   libpsl5                 0.17.0-4                        amd64  Library for 
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
-ii   libreadline7            7.0-2                           amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline7            7.0-3                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -213,7 +213,7 @@ ii   python                  2.7.13-2                        amd64  interactive 
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
 ii   python2.7               2.7.13-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
-ii   readline-common         7.0-2                           all    GNU readline and history libraries, common files
+ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.24.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                           all    Utilities for sensible alternative selection
