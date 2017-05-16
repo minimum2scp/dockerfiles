@@ -26,8 +26,8 @@ I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
-I: Retrieving bash 4.4-4+b2
-I: Validating bash 4.4-4+b2
+I: Retrieving bash 4.4-5
+I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.227
@@ -60,8 +60,8 @@ I: Retrieving libelf1 0.168-0.2
 I: Validating libelf1 0.168-0.2
 I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
-I: Retrieving gcc-5-base 5.4.1-8
-I: Validating gcc-5-base 5.4.1-8
+I: Retrieving gcc-5-base 5.4.1-10
+I: Validating gcc-5-base 5.4.1-10
 I: Retrieving gcc-6-base 6.3.0-17
 I: Validating gcc-6-base 6.3.0-17
 I: Retrieving libgcc1 1:6.3.0-17
@@ -427,11 +427,11 @@ Sending build context to Docker daemon  26.72MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 710225092467
-Removing intermediate container c069b483b77c
+ ---> 1cbfdb3a0ea9
+Removing intermediate container 779ef66d8145
 Step 3/3 : CMD /bin/bash
- ---> Running in 0a3e69f10534
- ---> 22eddc0f9d84
-Removing intermediate container 0a3e69f10534
-Successfully built 22eddc0f9d84
+ ---> Running in 1f6aa976b8e5
+ ---> dd5cfa67463f
+Removing intermediate container 1f6aa976b8e5
+Successfully built dd5cfa67463f
 Successfully tagged minimum2scp/debian:latest
