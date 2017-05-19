@@ -98,7 +98,7 @@ ii   libudev1                215-17+deb8u7             amd64  libudev shared lib
 ii   libusb-0.1-4            2:0.1.12-25               amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                amd64  Micro string library: shared library
 ii   libuuid1                2.25.2-6                  amd64  Universally Unique ID library
-ii   login                   1:4.2-3+deb8u3            amd64  system login tools
+ii   login                   1:4.2-3+deb8u4            amd64  system login tools
 ii   lsb-base                4.1+Debian13+nmu1         all    Linux Standard Base 4.1 init script functionality
 ii   mawk                    1.3.3-17                  amd64  a pattern scanning and text processing language
 ii   mount                   2.25.2-6                  amd64  Tools for mounting and manipulating filesystems
@@ -106,7 +106,7 @@ ii   multiarch-support       2.19-18+deb8u9            amd64  Transitional packa
 ii   ncurses-base            5.9+20140913-1            all    basic terminal type definitions
 ii   ncurses-bin             5.9+20140913-1+b1         amd64  terminal-related programs and man pages
 ii   netbase                 5.3                       all    Basic TCP/IP networking system
-ii   passwd                  1:4.2-3+deb8u3            amd64  change and administer password and group data
+ii   passwd                  1:4.2-3+deb8u4            amd64  change and administer password and group data
 ii   perl-base               5.20.2-3+deb8u6           amd64  minimal Perl system
 ii   procps                  2:3.3.9-9                 amd64  /proc file system utilities
 ii   readline-common         6.3-8                     all    GNU readline and history libraries, common files
