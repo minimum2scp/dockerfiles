@@ -81,7 +81,7 @@ ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ex
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-10                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-18                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-4                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-4                      all    fast, scalable, distributed revision control system (manual pages)
