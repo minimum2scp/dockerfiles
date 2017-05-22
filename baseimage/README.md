@@ -72,7 +72,7 @@ ii   coreutils               8.26-3                          amd64  GNU core uti
 ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
 ii   curl                    7.52.1-5                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                       amd64  POSIX-compliant shell
-ii   debconf                 1.5.60                          all    Debian configuration management system
+ii   debconf                 1.5.61                          all    Debian configuration management system
 ii   debian-archive-keyring  2014.3                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                         amd64  File comparison utilities
@@ -188,7 +188,7 @@ ii   libuuid1                2.29.2-1                        amd64  Universally 
 ii   libwrap0                7.6.q-26                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-10                         all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.4-4                         amd64  system login tools
+ii   login                   1:4.4-4.1                       amd64  system login tools
 ii   lsb-base                9.20161125                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-2                       amd64  on-line manual pager
@@ -204,7 +204,7 @@ ii   openssh-client          1:7.4p1-10                      amd64  secure shell
 ii   openssh-server          1:7.4p1-10                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0e-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.4-4                         amd64  change and administer password and group data
+ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.24.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.24       5.24.1-2                        all    Core Perl modules
