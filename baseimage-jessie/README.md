@@ -173,7 +173,7 @@ ii   libssh2-1               1.4.3-4.1+deb8u1                  amd64  SSH2 clien
 ii   libssl1.0.0             1.0.1t-1+deb8u6                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              4.9.2-10                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             215-17+deb8u7                     amd64  systemd utility library
-ii   libtasn1-6              4.2-3+deb8u2                      amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                          amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
