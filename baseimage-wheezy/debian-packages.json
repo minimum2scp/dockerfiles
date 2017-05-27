@@ -2610,7 +2610,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "104",
+    "Installed-Size": "135",
     "Origin": "",
     "Package": "libtasn1-3",
     "Pre-Depends": "multiarch-support",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.13-2+deb7u3",
+    "Version": "2.13-2+deb7u4",
     "binary:Package": "libtasn1-3:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "libtasn1-3",
-    "source:Version": "2.13-2+deb7u3"
+    "source:Version": "2.13-2+deb7u4"
   },
   {
     "Architecture": "amd64",
