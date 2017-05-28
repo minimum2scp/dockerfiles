@@ -56,8 +56,8 @@ I: Retrieving libcomerr2 1.43.4-2
 I: Validating libcomerr2 1.43.4-2
 I: Retrieving libss2 1.43.4-2
 I: Validating libss2 1.43.4-2
-I: Retrieving libelf1 0.168-0.2
-I: Validating libelf1 0.168-0.2
+I: Retrieving libelf1 0.168-1
+I: Validating libelf1 0.168-1
 I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
 I: Retrieving gcc-5-base 5.4.1-11
@@ -120,14 +120,14 @@ I: Retrieving ncurses-bin 6.0+20161126-1
 I: Validating ncurses-bin 6.0+20161126-1
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
-I: Retrieving libpam-modules 1.1.8-3.5
-I: Validating libpam-modules 1.1.8-3.5
-I: Retrieving libpam-modules-bin 1.1.8-3.5
-I: Validating libpam-modules-bin 1.1.8-3.5
-I: Retrieving libpam-runtime 1.1.8-3.5
-I: Validating libpam-runtime 1.1.8-3.5
-I: Retrieving libpam0g 1.1.8-3.5
-I: Validating libpam0g 1.1.8-3.5
+I: Retrieving libpam-modules 1.1.8-3.6
+I: Validating libpam-modules 1.1.8-3.6
+I: Retrieving libpam-modules-bin 1.1.8-3.6
+I: Validating libpam-modules-bin 1.1.8-3.6
+I: Retrieving libpam-runtime 1.1.8-3.6
+I: Validating libpam-runtime 1.1.8-3.6
+I: Retrieving libpam0g 1.1.8-3.6
+I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-3
 I: Validating libpcre3 2:8.39-3
 I: Retrieving perl-base 5.24.1-2
@@ -423,15 +423,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.76MB
+Sending build context to Docker daemon  26.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 11571fb9c3e0
-Removing intermediate container 7dd85cb7894e
+ ---> 1d18a34177dd
+Removing intermediate container e384483276ae
 Step 3/3 : CMD /bin/bash
- ---> Running in cfd4ecf3930a
- ---> 984ca16dbffd
-Removing intermediate container cfd4ecf3930a
-Successfully built 984ca16dbffd
+ ---> Running in 71c395c0bec7
+ ---> 6a525850744b
+Removing intermediate container 71c395c0bec7
+Successfully built 6a525850744b
 Successfully tagged minimum2scp/debian:latest

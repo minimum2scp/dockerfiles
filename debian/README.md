@@ -56,7 +56,7 @@ ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX cap
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                 amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.168-0.2             amd64  library to read and write ELF files
+ii   libelf1                 0.168-1               amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-18            amd64  GCC support library
 ii   libgcrypt20             1.7.6-1               amd64  LGPL Crypto library - runtime library
@@ -66,10 +66,10 @@ ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression 
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1              amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1        amd64  shared libraries for terminal handling (wide character support)
-ii   libpam-modules          1.1.8-3.5             amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.5             amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.1.8-3.5             all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.5             amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
+ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-3              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libselinux1             2.6-3+b1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-2                 all    Common files for SELinux policy management libraries
