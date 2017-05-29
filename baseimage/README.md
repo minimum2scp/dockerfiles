@@ -103,9 +103,9 @@ ii   libaudit1               1:2.6.7-2                       amd64  Dynamic libr
 ii   libblkid1               2.29.2-1                        amd64  block device ID library
 ii   libbsd0                 0.8.3-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-10                         amd64  GNU C Library: Binaries
-ii   libc-l10n               2.24-10                         all    GNU C Library: localization files
-ii   libc6                   2.24-10                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-11                         amd64  GNU C Library: Binaries
+ii   libc-l10n               2.24-11                         all    GNU C Library: localization files
+ii   libc6                   2.24-11                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.4-2                        amd64  common error description library
@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1                          amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1                          amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-4+b1                amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-4                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
@@ -179,7 +179,7 @@ ii   libssl1.0.2             1.0.2l-1                        amd64  Secure Socke
 ii   libssl1.1               1.1.0f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-23                          amd64  systemd utility library
-ii   libtasn1-6              4.10-1                          amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.10-1.1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                232-23                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
@@ -187,7 +187,7 @@ ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string
 ii   libuuid1                2.29.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-26                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.24-10                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.24-11                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.4-4.1                       amd64  system login tools
 ii   lsb-base                9.20161125                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-3                          amd64  Powerful Multilingual File Viewer
@@ -195,7 +195,7 @@ ii   man-db                  2.7.6.1-2                       amd64  on-line manu
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29.2-1                        amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-10                         amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-11                         amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
