@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1                  amd64  shared libra
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.22.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.23.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -178,10 +178,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-23                          amd64  systemd utility library
+ii   libsystemd0             232-24                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-23                          amd64  libudev shared library
+ii   libudev1                232-24                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1                        amd64  Universally Unique ID library
