@@ -140,10 +140,10 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-23
-I: Validating libsystemd0 232-23
-I: Retrieving libudev1 232-23
-I: Validating libudev1 232-23
+I: Retrieving libsystemd0 232-24
+I: Validating libsystemd0 232-24
+I: Retrieving libudev1 232-24
+I: Validating libudev1 232-24
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
@@ -417,25 +417,21 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [243 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-05-29-1428.18.pdiff [4438 B]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-05-29-1428.18.pdiff [4438 B]
-Fetched 276 kB in 1s (186 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.77MB
+Sending build context to Docker daemon  26.78MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0829fbc9672d
-Removing intermediate container 05c1f81803a9
+ ---> 4c3ef50ed7c7
+Removing intermediate container cf1eb466976d
 Step 3/3 : CMD /bin/bash
- ---> Running in a4bad66599d6
- ---> 9afb2b46f6cb
-Removing intermediate container a4bad66599d6
-Successfully built 9afb2b46f6cb
+ ---> Running in 7dc7e416c760
+ ---> 18b9f8c0d6bf
+Removing intermediate container 7dc7e416c760
+Successfully built 18b9f8c0d6bf
 Successfully tagged minimum2scp/debian:latest
