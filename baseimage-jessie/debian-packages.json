@@ -2218,7 +2218,7 @@
     "Depends": "libc6 (>= 2.14), libgnutls-deb0-28 (>= 3.3.0), libsasl2-2",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "526",
+    "Installed-Size": "471",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "multiarch-support",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.40+dfsg-1+deb8u2",
+    "Version": "2.4.40+dfsg-1+deb8u3",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.40+dfsg-1+deb8u2"
+    "source:Version": "2.4.40+dfsg-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -4206,7 +4206,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2334",
+    "Installed-Size": "2335",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -4217,7 +4217,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.10p3-1+deb8u3",
+    "Version": "1.8.10p3-1+deb8u4",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.8.10p3-1+deb8u3"
+    "source:Version": "1.8.10p3-1+deb8u4"
   },
   {
     "Architecture": "all",

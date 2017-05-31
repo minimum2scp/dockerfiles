@@ -139,7 +139,7 @@ ii   libkeyutils1            1.5.9-5+b1                        amd64  Linux Key 
 ii   libkmod2                18-3                              amd64  libkmod shared library
 ii   libkrb5-3               1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u2              amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u3              amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-8+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblogging-stdlog0      1.0.4-1                           amd64  easy to use and lightweight logging library
 ii   liblognorm1             1.0.1-3                           amd64  Log normalizing library
@@ -210,7 +210,7 @@ ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable s
 ii   sed                     4.2.2-4+deb8u1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                             all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                            amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.10p3-1+deb8u3                 amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.10p3-1+deb8u4                 amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59                        all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59                        amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59                        amd64  System-V-like utilities
