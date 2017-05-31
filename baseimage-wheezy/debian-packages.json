@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.5p2-1+nmu3+deb7u2",
+    "Version": "1.8.5p2-1+nmu3+deb7u3",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "sudo",
-    "source:Version": "1.8.5p2-1+nmu3+deb7u2"
+    "source:Version": "1.8.5p2-1+nmu3+deb7u3"
   },
   {
     "Architecture": "all",

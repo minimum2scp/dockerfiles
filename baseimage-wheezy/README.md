@@ -187,7 +187,7 @@ ii   readline-common         6.2+dfsg-0.1                      all    GNU readli
 ii   rsyslog                 5.8.11-3+deb7u2                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.1-10                          amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.7                             all    Utilities for sensible alternative selection
-ii   sudo                    1.8.5p2-1+nmu3+deb7u2             amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.5p2-1+nmu3+deb7u3             amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-41+deb7u1                 all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1                 amd64  System-V-like utilities
