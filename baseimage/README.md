@@ -122,7 +122,7 @@ ii   libfastjson4            0.99.4-1                        amd64  fast json li
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.3.0-18                      amd64  GCC support library
-ii   libgcrypt20             1.7.6-1                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.6-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-5                         amd64  GNU TLS library - main runtime library
@@ -138,7 +138,7 @@ ii   libkrb5support0         1.15-1                          amd64  MIT Kerberos
 ii   libldap-2.4-2           2.4.44+dfsg-5                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-5                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
-ii   liblognorm5             2.0.1-1.1+b1                    amd64  log normalizing library
+ii   liblognorm5             2.0.3-1                         amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
