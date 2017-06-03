@@ -90,8 +90,8 @@ I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
-I: Retrieving libgcrypt20 1.7.6-1
-I: Validating libgcrypt20 1.7.6-1
+I: Retrieving libgcrypt20 1.7.6-2
+I: Validating libgcrypt20 1.7.6-2
 I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
@@ -423,15 +423,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.77MB
+Sending build context to Docker daemon  26.78MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 028ece1c4e2f
-Removing intermediate container 2f6ced004601
+ ---> a5488119db9e
+Removing intermediate container db69f7b67218
 Step 3/3 : CMD /bin/bash
- ---> Running in 59a9b9f237e3
- ---> 6787a6eabcf2
-Removing intermediate container 59a9b9f237e3
-Successfully built 6787a6eabcf2
+ ---> Running in 271e8f0b9b90
+ ---> e4b4bf38fb90
+Removing intermediate container 271e8f0b9b90
+Successfully built e4b4bf38fb90
 Successfully tagged minimum2scp/debian:latest
