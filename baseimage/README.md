@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1                  amd64  shared libra
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.23.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.23.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -172,16 +172,16 @@ ii   libsemanage1            2.6-2                           amd64  SELinux poli
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-3                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.16.2-4                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0f-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-24                          amd64  systemd utility library
+ii   libsystemd0             232-25                          amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-24                          amd64  libudev shared library
+ii   libudev1                232-25                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1                        amd64  Universally Unique ID library
@@ -203,7 +203,7 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.4p1-10                      amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0f-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0f-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.24.1-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-3                        amd64  minimal Perl system
