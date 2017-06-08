@@ -125,7 +125,7 @@ ii   libk5crypto3            1.10.1+dfsg-5+deb7u7              amd64  MIT Kerber
 ii   libkeyutils1            1.5.5-3+deb7u1                    amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.31-2+deb7u2                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.31-2+deb7u3                   amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-7+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2             amd64  XZ-format compression library
 ii   libmount1               2.20.1-5.3                        amd64  block device id library
