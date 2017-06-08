@@ -12,6 +12,9 @@ packages="$packages build-essential autoconf bison ca-certificates libgdbm-dev l
 ## install packages
 apt-get install --no-install-recommends -y ${packages}
 
+## Workaround for `gem install` with apt-cacher-ng
+unset http_proxy https_proxy
+
 ## install bundler, pry by gem command
 gem install bundler --version 1.15.0
 gem install pry

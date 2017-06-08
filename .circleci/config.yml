@@ -43,7 +43,52 @@ jobs:
 
       - run: digdag --version
       - run: digdag check
-      - run: digdag run ci-build.dig --rerun
+
+      - restore_cache:
+          keys:
+            - acng-cache-{{ .Branch }}
+            - acng-cache-master
+
+      - run:
+          name: Run apt-cacher-ng
+          command: |
+            set -x
+            docker run -d --name acng minimum2scp/apt-cacher-ng:latest
+            if [ -d .circleci/cache/acng/apt-cacher-ng/ ]; then
+              docker exec -t acng service apt-cacher-ng stop
+              docker cp .circleci/cache/acng/apt-cacher-ng/ acng:/var/cache/apt-cacher-ng/
+              docker exec -t acng chown -R apt-cacher-ng:apt-cacher-ng /var/cache/apt-cacher-ng/
+              docker exec -t acng service apt-cacher-ng start
+            else
+              mkdir -p .circleci/cache/acng/
+            fi
+
+      - run:
+          name: Check apt-cacher-ng
+          command: |
+            set -x
+            acng_uri=http://$(docker inspect -f '{{ .NetworkSettings.IPAddress }}' acng):3142
+            echo "http_proxy=${acng_uri}"
+            docker run --rm --entrypoint=/bin/sh minimum2scp/apt-cacher-ng:latest -c "curl ${acng_uri}/acng-report.html"
+
+      - run:
+          name: Build images
+          command: |
+            set -x
+            acng_uri=http://$(docker inspect -f '{{ .NetworkSettings.IPAddress }}' acng):3142
+            digdag run ci-build.dig -p acng_uri=${acng_uri} --rerun
+
+      - run:
+          name: Stop apt-cacher-ng
+          command: |
+            set -x
+            docker stop acng
+            docker cp acng:/var/cache/apt-cacher-ng/ .circleci/cache/acng/apt-cacher-ng/
+
+      - save_cache:
+          key: acng-cache-{{ .Branch }}-{{ epoch }}
+          paths:
+            - .circleci/cache/acng/
 
       - run:
           name: Setup rspec-runner environment variables and volumes

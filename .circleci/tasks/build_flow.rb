@@ -17,7 +17,12 @@ class BuildFlow
   end
 
   def build_image
-    cmd = "docker build -t #{@image} #{@directory}"
+    http_proxy = Digdag.env.params['acng_uri']
+    if http_proxy
+      cmd = "docker build -t #{@image} --build-arg http_proxy=#{http_proxy} --build-arg https_proxy= #{@directory}"
+    else
+      cmd = "docker build -t #{@image} #{@directory}"
+    end
     puts "Started build #{@image} (#{cmd})"
     ret, d = run_command(cmd)
     if ret == 0
