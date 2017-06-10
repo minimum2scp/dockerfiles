@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.12), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libsasl2-2 (>= 2.1.24)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "515",
+    "Installed-Size": "516",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "multiarch-support",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.31-2+deb7u2",
+    "Version": "2.4.31-2+deb7u3",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openldap",
-    "source:Version": "2.4.31-2+deb7u2"
+    "source:Version": "2.4.31-2+deb7u3"
   },
   {
     "Architecture": "amd64",
