@@ -408,14 +408,14 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org wheezy/updates Release.gpg [1554 B]
 Get:2 http://security.debian.org wheezy/updates Release [39.0 kB]
-Get:3 http://security.debian.org wheezy/updates/main amd64 Packages [614 kB]
 Hit http://ftp.jp.debian.org wheezy Release.gpg
-Get:4 http://ftp.jp.debian.org wheezy-updates Release.gpg [1554 B]
+Get:3 http://ftp.jp.debian.org wheezy-updates Release.gpg [1554 B]
+Get:4 http://security.debian.org wheezy/updates/main amd64 Packages [676 kB]
 Hit http://ftp.jp.debian.org wheezy Release
 Get:5 http://ftp.jp.debian.org wheezy-updates Release [155 kB]
 Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7634 kB]
 Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
-Fetched 8452 kB in 6s (1287 kB/s)
+Fetched 8515 kB in 1s (7018 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -427,7 +427,7 @@ Need to get 14.7 MB of archives.
 After this operation, 1210 kB of additional disk space will be used.
 Get:1 http://security.debian.org/ wheezy/updates/main bash amd64 4.2+dfsg-0.1+deb7u4 [1499 kB]
 Get:2 http://security.debian.org/ wheezy/updates/main login amd64 1:4.1.5.1-1+deb7u1 [984 kB]
-Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u4 [1522 kB]
+Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u5 [1534 kB]
 Get:4 http://security.debian.org/ wheezy/updates/main tar amd64 1.26+dfsg-0.1+deb7u1 [984 kB]
 Get:5 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u11 [1275 kB]
 Get:6 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u11 [4352 kB]
@@ -436,7 +436,7 @@ Get:8 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u
 Get:9 http://security.debian.org/ wheezy/updates/main passwd amd64 1:4.1.5.1-1+deb7u1 [1262 kB]
 Get:10 http://security.debian.org/ wheezy/updates/main tzdata all 2017b-0+deb7u1 [488 kB]
 Get:11 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u11 [152 kB]
-Fetched 14.7 MB in 1min 43s (142 kB/s)
+Fetched 14.7 MB in 1s (11.2 MB/s)
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace bash 4.2+dfsg-0.1+deb7u3 (using .../bash_4.2+dfsg-0.1+deb7u4_amd64.deb) ...
 Unpacking replacement bash ...
@@ -447,9 +447,9 @@ Preparing to replace login 1:4.1.5.1-1 (using .../login_1%3a4.1.5.1-1+deb7u1_amd
 Unpacking replacement login ...
 Setting up login (1:4.1.5.1-1+deb7u1) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace perl-base 5.14.2-21+deb7u3 (using .../perl-base_5.14.2-21+deb7u4_amd64.deb) ...
+Preparing to replace perl-base 5.14.2-21+deb7u3 (using .../perl-base_5.14.2-21+deb7u5_amd64.deb) ...
 Unpacking replacement perl-base ...
-Setting up perl-base (5.14.2-21+deb7u4) ...
+Setting up perl-base (5.14.2-21+deb7u5) ...
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace tar 1.26+dfsg-0.1 (using .../tar_1.26+dfsg-0.1+deb7u1_amd64.deb) ...
 Unpacking replacement tar ...
@@ -486,10 +486,11 @@ Sending build context to Docker daemon  21.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bf8ccc9977fb
-Removing intermediate container 19d877dc2850
+ ---> dce3ed86c6e2
+Removing intermediate container f507d77029e2
 Step 3/3 : CMD /bin/bash
- ---> Running in b30dd8692b09
- ---> 56d9dfeb137a
-Removing intermediate container b30dd8692b09
-Successfully built 56d9dfeb137a
+ ---> Running in 696ee03f3064
+ ---> 7d3beb6e9ad1
+Removing intermediate container 696ee03f3064
+Successfully built 7d3beb6e9ad1
+Successfully tagged minimum2scp/debian-wheezy:latest
