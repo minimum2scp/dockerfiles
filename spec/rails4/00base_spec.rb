@@ -79,12 +79,12 @@ describe 'minimum2scp/rails4' do
 
       describe command('nodenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "8.1.0\n" }
+        its(:stdout){ should eq "8.1.1\n" }
       end
 
       [
         {
-          nodejs: '8.1.0',
+          nodejs: '8.1.1',
         },
       ].each do |v|
           describe command('nodenv versions --bare --skip-aliases') do
