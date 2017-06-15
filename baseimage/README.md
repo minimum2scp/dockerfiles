@@ -125,7 +125,7 @@ ii   libgcc1                 1:6.3.0-18                      amd64  GCC support 
 ii   libgcrypt20             1.7.6-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-5                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-6                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
@@ -172,7 +172,7 @@ ii   libsemanage1            2.6-2                           amd64  SELinux poli
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-4                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.16.2-5                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -218,7 +218,7 @@ ii   rsyslog                 8.24.0-1                        amd64  reliable sys
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                           all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.20p1-1.1                    amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.20p2-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.9                    amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-like utilities

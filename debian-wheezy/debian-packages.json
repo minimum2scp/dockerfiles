@@ -1921,7 +1921,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.14.2-21+deb7u4",
+    "Version": "5.14.2-21+deb7u5",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "perl",
-    "source:Version": "5.14.2-21+deb7u4"
+    "source:Version": "5.14.2-21+deb7u5"
   },
   {
     "Architecture": "all",
