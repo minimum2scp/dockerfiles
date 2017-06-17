@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.6.3-2+deb8u2",
+    "Version": "1.6.3-2+deb8u3",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.6.3-2+deb8u2"
+    "source:Version": "1.6.3-2+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed2 (>= 2.7), libnettle4 (>= 2.7), libp11-kit0 (>= 0.20.7), libtasn1-6 (>= 4.1-0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1811",
+    "Installed-Size": "1808",
     "Origin": "",
     "Package": "libgnutls-deb0-28",
     "Pre-Depends": "multiarch-support",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.3.8-6+deb8u5",
+    "Version": "3.3.8-6+deb8u6",
     "binary:Package": "libgnutls-deb0-28:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.3.8-6+deb8u5"
+    "source:Version": "3.3.8-6+deb8u6"
   },
   {
     "Architecture": "amd64",
