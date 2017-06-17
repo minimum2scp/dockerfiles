@@ -531,24 +531,25 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:1 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Get:2 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [523 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.6 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.6 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:4 http://security.debian.org jessie/updates/main amd64 Packages [522 kB]
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9065 kB]
-Fetched 9812 kB in 51s (189 kB/s)
+Fetched 9813 kB in 55s (176 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  login passwd perl-base
-3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2920 kB of archives.
+  libgcrypt20 login passwd perl-base
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3313 kB of archives.
 After this operation, 3072 B of additional disk space will be used.
 Get:1 http://security.debian.org/ jessie/updates/main login amd64 1:4.2-3+deb8u4 [722 kB]
 Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u7 [1227 kB]
-Get:3 http://security.debian.org/ jessie/updates/main passwd amd64 1:4.2-3+deb8u4 [971 kB]
-Fetched 2920 kB in 25s (115 kB/s)
+Get:3 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u3 [393 kB]
+Get:4 http://security.debian.org/ jessie/updates/main passwd amd64 1:4.2-3+deb8u4 [971 kB]
+Fetched 3313 kB in 24s (136 kB/s)
 (Reading database ... 7562 files and directories currently installed.)
 Preparing to unpack .../login_1%3a4.2-3+deb8u4_amd64.deb ...
 Unpacking login (1:4.2-3+deb8u4) over (1:4.2-3+deb8u3) ...
@@ -558,6 +559,11 @@ Preparing to unpack .../perl-base_5.20.2-3+deb8u7_amd64.deb ...
 Unpacking perl-base (5.20.2-3+deb8u7) over (5.20.2-3+deb8u6) ...
 Setting up perl-base (5.20.2-3+deb8u7) ...
 (Reading database ... 7562 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u3_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u3) over (1.6.3-2+deb8u2) ...
+Setting up libgcrypt20:amd64 (1.6.3-2+deb8u3) ...
+Processing triggers for libc-bin (2.19-18+deb8u9) ...
+(Reading database ... 7562 files and directories currently installed.)
 Preparing to unpack .../passwd_1%3a4.2-3+deb8u4_amd64.deb ...
 Unpacking passwd (1:4.2-3+deb8u4) over (1:4.2-3+deb8u3) ...
 Setting up passwd (1:4.2-3+deb8u4) ...
@@ -565,11 +571,11 @@ Sending build context to Docker daemon   30.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a5c6c5475b6a
-Removing intermediate container ae78edeeb78f
+ ---> f5900152cb9c
+Removing intermediate container 7786baab54a3
 Step 3/3 : CMD /bin/bash
- ---> Running in 243ffbbcecf3
- ---> c42e0a1bee6e
-Removing intermediate container 243ffbbcecf3
-Successfully built c42e0a1bee6e
+ ---> Running in f53ca0d64c30
+ ---> c9b71c17ca5e
+Removing intermediate container f53ca0d64c30
+Successfully built c9b71c17ca5e
 Successfully tagged minimum2scp/debian-jessie:latest

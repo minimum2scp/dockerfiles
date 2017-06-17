@@ -66,7 +66,7 @@ ii   libdb5.3                5.3.28-9                  amd64  Berkeley v5.3 Data
 ii   libdebconfclient0       0.192                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1      amd64  Linux Kernel Device Mapper userspace library
 ii   libgcc1                 1:4.9.2-10                amd64  GCC support library
-ii   libgcrypt20             1.6.3-2+deb8u2            amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.6.3-2+deb8u3            amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.17-3                    amd64  library for common error values and messages in GnuPG components
 ii   libkmod2                18-3                      amd64  libkmod shared library
 ii   liblocale-gettext-perl  1.05-8+b1                 amd64  module using libc functions for internationalization in Perl
