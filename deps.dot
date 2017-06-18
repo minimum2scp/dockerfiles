@@ -23,6 +23,7 @@ digraph deps {
   rails5            [label = "minimum2scp/rails5"];
   ruby              [label = "minimum2scp/ruby"];
   ruby_full         [label = "minimum2scp/ruby-full"];
+  ruby_stretch      [label = "minimum2scp/ruby-stretch"];
   ruby_jessie       [label = "minimum2scp/ruby-jessie"];
   ruby_wheezy       [label = "minimum2scp/ruby-wheezy"];
   sphinx            [label = "minimum2scp/sphinx"];
@@ -37,6 +38,7 @@ digraph deps {
   nodejs    -> {hubot};
 
   debian_stretch   -> baseimage_stretch;
+  baseimage_stretch -> ruby_stretch;
 
   debian_jessie    -> baseimage_jessie;
   baseimage_jessie -> {systemd_jessie, ruby_jessie};
