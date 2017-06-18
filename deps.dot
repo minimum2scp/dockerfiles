@@ -8,6 +8,7 @@ digraph deps {
   baseimage_jessie  [label = "minimum2scp/baseimage-jessie"];
   baseimage_wheezy  [label = "minimum2scp/baseimage-wheezy"];
   debian            [label = "minimum2scp/debian"];
+  debian_stretch    [label = "minimum2scp/debian-stretch"];
   debian_jessie     [label = "minimum2scp/debian-jessie"];
   debian_wheezy     [label = "minimum2scp/debian-wheezy"];
   es_kibana         [label = "minimum2scp/es-kibana"];
@@ -33,6 +34,8 @@ digraph deps {
   baseimage -> {acng, es_kibana, nodejs, ruby, sphinx, squid, systemd};
   ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, rails5, ruby_full, tdiary};
   nodejs    -> {hubot};
+
+  debian_stretch;
 
   debian_jessie    -> baseimage_jessie;
   baseimage_jessie -> {systemd_jessie, ruby_jessie};
