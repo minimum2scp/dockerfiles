@@ -17,6 +17,15 @@ namespace :minimum2scp do
     sh "cd debian && rake clobber mkimage README.md #{tag} #{env}"
   end
 
+  desc 'build minimum2scp/debian-stretch image'
+  task :debian_stretch do
+    tag = ->(env, default){
+      env ? (!env.empty? ? "TAG=#{env}" : "") : "TAG=#{default}"
+    }[ENV['TAG_DEBIAN'], 'minimum2scp/debian-stretch:latest']
+    env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
+    sh "cd debian-stretch && rake clobber mkimage README.md #{tag} #{env}"
+  end
+
   desc 'build minimum2scp/debian-jessie image'
   task :debian_jessie do
     tag = ->(env, default){
