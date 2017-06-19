@@ -90,8 +90,8 @@ I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
-I: Retrieving libgcrypt20 1.7.6-2
-I: Validating libgcrypt20 1.7.6-2
+I: Retrieving libgcrypt20 1.7.7-2
+I: Validating libgcrypt20 1.7.7-2
 I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
@@ -148,8 +148,8 @@ I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2017b-1
-I: Validating tzdata 2017b-1
+I: Retrieving tzdata 2017b-2
+I: Validating tzdata 2017b-2
 I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29.2-1
@@ -423,15 +423,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.76MB
+Sending build context to Docker daemon  26.67MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 94beacf90248
-Removing intermediate container 917b2adf7e33
+ ---> 036375884f0d
+Removing intermediate container f86b3c8a42c4
 Step 3/3 : CMD /bin/bash
- ---> Running in 8b5387de367e
- ---> 13deaafc1aea
-Removing intermediate container 8b5387de367e
-Successfully built 13deaafc1aea
+ ---> Running in b0461738ac6b
+ ---> 1a99861bcafc
+Removing intermediate container b0461738ac6b
+Successfully built 1a99861bcafc
 Successfully tagged minimum2scp/debian:latest

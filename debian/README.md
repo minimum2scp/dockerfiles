@@ -59,7 +59,7 @@ ii   libdebconfclient0       0.227                 amd64  Debian Configuration M
 ii   libelf1                 0.168-1               amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-18            amd64  GCC support library
-ii   libgcrypt20             1.7.6-2               amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.7-2               amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
@@ -97,7 +97,7 @@ ii   sed                     4.4-1                 amd64  GNU stream editor for 
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017b-1               all    time zone and daylight-saving time data
+ii   tzdata                  2017b-2               all    time zone and daylight-saving time data
 ii   util-linux              2.29.2-1              amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-5        amd64  compression library - runtime
 ```
