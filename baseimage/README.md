@@ -117,12 +117,12 @@ ii   libedit2                3.1-20160903-3                  amd64  BSD editline
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.0-2                         amd64  XML parsing C library - runtime library
-ii   libfastjson4            0.99.4-1                        amd64  fast json library for C
+ii   libexpat1               2.2.1-1                         amd64  XML parsing C library - runtime library
+ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.3.0-18                      amd64  GCC support library
-ii   libgcrypt20             1.7.6-2                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-6                         amd64  GNU TLS library - main runtime library
@@ -179,7 +179,7 @@ ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Socke
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25                          amd64  systemd utility library
-ii   libtasn1-6              4.10-1.1                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                232-25                          amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
@@ -200,9 +200,9 @@ ii   ncurses-base            6.0+20161126-1                  all    basic termin
 ii   ncurses-bin             6.0+20161126-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-11                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-11                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-11                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.5p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.5p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.5p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.24.1-3                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -214,7 +214,7 @@ ii   python-minimal          2.7.13-2                        amd64  minimal subs
 ii   python2.7               2.7.13-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.24.0-1                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.27.0-3                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                           all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
@@ -223,7 +223,7 @@ ii   sysv-rc                 2.88dsf-59.9                    all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.9                    amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-like utilities
 ii   tar                     1.29b-1.1                       amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017b-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2017b-2                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1                        amd64  miscellaneous system utilities
