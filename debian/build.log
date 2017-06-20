@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.227
-I: Validating libdebconfclient0 0.227
+I: Retrieving libdebconfclient0 0.228
+I: Validating libdebconfclient0 0.228
 I: Retrieving coreutils 8.26-3
 I: Validating coreutils 8.26-3
 I: Retrieving dash 0.5.8-2.4
@@ -64,16 +64,18 @@ I: Retrieving gcc-5-base 5.4.1-11
 I: Validating gcc-5-base 5.4.1-11
 I: Retrieving gcc-6-base 6.3.0-18
 I: Validating gcc-6-base 6.3.0-18
-I: Retrieving libgcc1 1:6.3.0-18
-I: Validating libgcc1 1:6.3.0-18
-I: Retrieving libstdc++6 6.3.0-18
-I: Validating libstdc++6 6.3.0-18
-I: Retrieving libc-bin 2.24-11
-I: Validating libc-bin 2.24-11
-I: Retrieving libc6 2.24-11
-I: Validating libc6 2.24-11
-I: Retrieving multiarch-support 2.24-11
-I: Validating multiarch-support 2.24-11
+I: Retrieving gcc-7-base 7.1.0-7
+I: Validating gcc-7-base 7.1.0-7
+I: Retrieving libgcc1 1:7.1.0-7
+I: Validating libgcc1 1:7.1.0-7
+I: Retrieving libstdc++6 7.1.0-7
+I: Validating libstdc++6 7.1.0-7
+I: Retrieving libc-bin 2.24-12
+I: Validating libc-bin 2.24-12
+I: Retrieving libc6 2.24-12
+I: Validating libc6 2.24-12
+I: Retrieving multiarch-support 2.24-12
+I: Validating multiarch-support 2.24-12
 I: Retrieving gpgv 2.1.18-8
 I: Validating gpgv 2.1.18-8
 I: Retrieving grep 2.27-2
@@ -140,10 +142,10 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25
-I: Validating libsystemd0 232-25
-I: Retrieving libudev1 232-25
-I: Validating libudev1 232-25
+I: Retrieving libsystemd0 233-9
+I: Validating libsystemd0 233-9
+I: Retrieving libudev1 233-9
+I: Validating libudev1 233-9
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
@@ -196,6 +198,7 @@ I: Extracting libss2...
 I: Extracting findutils...
 I: Extracting gcc-5-base...
 I: Extracting gcc-6-base...
+I: Extracting gcc-7-base...
 I: Extracting libgcc1...
 I: Extracting libc-bin...
 I: Extracting libc6...
@@ -269,6 +272,7 @@ I: Unpacking libss2:amd64...
 I: Unpacking findutils...
 I: Unpacking gcc-5-base:amd64...
 I: Unpacking gcc-6-base:amd64...
+I: Unpacking gcc-7-base:amd64...
 I: Unpacking libgcc1:amd64...
 I: Unpacking libc-bin...
 I: Unpacking libc6:amd64...
@@ -320,6 +324,7 @@ I: Unpacking zlib1g:amd64...
 I: Configuring required packages...
 I: Configuring gcc-6-base:amd64...
 I: Configuring lsb-base...
+I: Configuring gcc-7-base:amd64...
 I: Configuring sensible-utils...
 I: Configuring ncurses-base...
 I: Configuring libsemanage-common...
@@ -423,15 +428,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.67MB
+Sending build context to Docker daemon  26.83MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 036375884f0d
-Removing intermediate container f86b3c8a42c4
+ ---> 30b469eeb615
+Removing intermediate container f699ce3fae6e
 Step 3/3 : CMD /bin/bash
- ---> Running in b0461738ac6b
- ---> 1a99861bcafc
-Removing intermediate container b0461738ac6b
-Successfully built 1a99861bcafc
+ ---> Running in 48dee3b14b77
+ ---> af1297132e2a
+Removing intermediate container 48dee3b14b77
+Successfully built af1297132e2a
 Successfully tagged minimum2scp/debian:latest
