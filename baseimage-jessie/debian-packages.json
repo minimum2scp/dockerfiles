@@ -426,7 +426,7 @@
     "Depends": "gpgv",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "108",
+    "Installed-Size": "137",
     "Origin": "",
     "Package": "debian-archive-keyring",
     "Pre-Depends": "",
@@ -437,7 +437,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2014.3",
+    "Version": "2017.5~deb8u1",
     "binary:Package": "debian-archive-keyring",
     "binary:Summary": "GnuPG archive keys of the Debian archive",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debian-archive-keyring",
-    "source:Version": "2014.3"
+    "source:Version": "2017.5~deb8u1"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u9",
+    "Version": "2.19-18+deb8u10",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u9"
+    "source:Version": "2.19-18+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, locales",
-    "Version": "2.19-18+deb8u9",
+    "Version": "2.19-18+deb8u10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u9"
+    "source:Version": "2.19-18+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -1770,7 +1770,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "71",
+    "Installed-Size": "43",
     "Origin": "",
     "Package": "libffi6",
     "Pre-Depends": "multiarch-support",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-2+b2",
+    "Version": "3.1-2+deb8u1",
     "binary:Package": "libffi6:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.1-2"
+    "source:Version": "3.1-2+deb8u1"
   },
   {
     "Architecture": "amd64",
@@ -3489,7 +3489,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u9",
+    "Version": "2.19-18+deb8u10",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u9"
+    "source:Version": "2.19-18+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.19-18+deb8u9",
+    "Version": "2.19-18+deb8u10",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.19-18+deb8u9"
+    "source:Version": "2.19-18+deb8u10"
   },
   {
     "Architecture": "all",
