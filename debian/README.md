@@ -35,7 +35,7 @@ ii   e2fslibs                1.43.4-2              amd64  ext2/ext3/ext4 file sy
 ii   e2fsprogs               1.43.4-2              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.3.0-18              amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.3.0-19              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-7               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.18-8              amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                amd64  GNU grep, egrep and fgrep
@@ -93,7 +93,7 @@ ii   ncurses-base            6.0+20161126-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
-ii   perl-base               5.24.1-3              amd64  minimal Perl system
+ii   perl-base               5.24.1-4              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities
