@@ -1210,7 +1210,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3306",
+    "Installed-Size": "3216",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.13-38+deb7u11",
+    "Version": "2.13-38+deb7u12",
     "binary:Package": "libc-bin",
     "binary:Summary": "Embedded GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,16 +1229,16 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u11"
+    "source:Version": "2.13-38+deb7u12"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "prelink (<= 0.0.20090311-1), tzdata (<< 2007k-1), tzdata-etch",
     "Breaks": "locales (<< 2.13), locales-all (<< 2.13), lsb-core (<= 3.2-27), nscd (<< 2.13)",
-    "Depends": "libc-bin (= 2.13-38+deb7u11), libgcc1",
+    "Depends": "libc-bin (= 2.13-38+deb7u12), libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9534",
+    "Installed-Size": "9465",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, locales",
-    "Version": "2.13-38+deb7u11",
+    "Version": "2.13-38+deb7u12",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "Embedded GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u11"
+    "source:Version": "2.13-38+deb7u12"
   },
   {
     "Architecture": "amd64",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.0-1+deb7u4",
+    "Version": "2.1.0-1+deb7u5",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "expat",
-    "source:Version": "2.1.0-1+deb7u4"
+    "source:Version": "2.1.0-1+deb7u5"
   },
   {
     "Architecture": "amd64",
@@ -2901,7 +2901,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.13-38+deb7u11",
+    "Version": "2.13-38+deb7u12",
     "binary:Package": "locales",
     "binary:Summary": "Embedded GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u11"
+    "source:Version": "2.13-38+deb7u12"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "181",
+    "Installed-Size": "158",
     "Origin": "",
     "Package": "multiarch-support",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.13-38+deb7u11",
+    "Version": "2.13-38+deb7u12",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "eglibc",
-    "source:Version": "2.13-38+deb7u11"
+    "source:Version": "2.13-38+deb7u12"
   },
   {
     "Architecture": "all",
