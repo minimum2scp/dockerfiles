@@ -18,10 +18,10 @@ I: Retrieving libapt-pkg5.0 1.4.6
 I: Validating libapt-pkg5.0 1.4.6
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
-I: Retrieving libaudit-common 1:2.6.7-2
-I: Validating libaudit-common 1:2.6.7-2
-I: Retrieving libaudit1 1:2.6.7-2
-I: Validating libaudit1 1:2.6.7-2
+I: Retrieving libaudit-common 1:2.7.7-1
+I: Validating libaudit-common 1:2.7.7-1
+I: Retrieving libaudit1 1:2.7.7-1
+I: Validating libaudit1 1:2.7.7-1
 I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
@@ -422,21 +422,25 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [255 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
+Fetched 290 kB in 3s (90.3 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.82MB
+Sending build context to Docker daemon  26.83MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ff0cc63c2374
-Removing intermediate container 5a6c6c4c58ac
+ ---> f3ffbc447822
+Removing intermediate container 8ac57b8b0c80
 Step 3/3 : CMD /bin/bash
- ---> Running in 1df81db9ec8d
- ---> 30e91fa942d8
-Removing intermediate container 1df81db9ec8d
-Successfully built 30e91fa942d8
+ ---> Running in 0aed18041c85
+ ---> c7822c1f3395
+Removing intermediate container 0aed18041c85
+Successfully built c7822c1f3395
 Successfully tagged minimum2scp/debian:latest
