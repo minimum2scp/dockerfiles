@@ -75,7 +75,7 @@ ii   curl                    7.38.0-4+deb8u5                   amd64  command li
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
 ii   debconf                 1.5.56                            all    Debian configuration management system
 ii   debconf-i18n            1.5.56                            all    full internationalization support for debconf
-ii   debian-archive-keyring  2014.3                            all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2017.5~deb8u1                     all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.4+b1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-1+b1                        amd64  File comparison utilities
 ii   dmsetup                 2:1.02.90-2.2+deb8u1              amd64  Linux Kernel Device Mapper userspace library
@@ -108,8 +108,8 @@ ii   libaudit1               1:2.4-1+b1                        amd64  Dynamic li
 ii   libblkid1               2.25.2-6                          amd64  block device id library
 ii   libbsd0                 0.7.0-2                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-7+b3                        amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.19-18+deb8u9                    amd64  GNU C Library: Binaries
-ii   libc6                   2.19-18+deb8u9                    amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.19-18+deb8u10                   amd64  GNU C Library: Binaries
+ii   libc6                   2.19-18+deb8u10                   amd64  GNU C Library: Shared libraries
 ii   libcap2                 1:2.24-8                          amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.24-8                          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcomerr2              1.42.12-2+b1                      amd64  common error description library
@@ -123,12 +123,12 @@ ii   libedit2                3.1-20140620-2                    amd64  BSD editli
 ii   liberror-perl           0.17-1.1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.9-1.1                         amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.1.0-6+deb8u3                    amd64  XML parsing C library - runtime library
-ii   libffi6                 3.1-2+b2                          amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.1-2+deb8u1                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:4.9.2-10                        amd64  GCC support library
-ii   libgcrypt20             1.6.3-2+deb8u2                    amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.6.3-2+deb8u3                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
-ii   libgnutls-deb0-28       3.3.8-6+deb8u5                    amd64  GNU TLS library - main runtime library
+ii   libgnutls-deb0-28       3.3.8-6+deb8u6                    amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.17-3                            amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u2                    amd64  low level cryptographic library (public-key cryptos)
@@ -184,14 +184,14 @@ ii   libustr-1.0-1           1.0.4-3+b2                        amd64  Micro stri
 ii   libuuid1                2.25.2-6                          amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-25                          amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                           all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.19-18+deb8u9                    all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.19-18+deb8u10                   all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.2-3+deb8u4                    amd64  system login tools
 ii   lsb-base                4.1+Debian13+nmu1                 all    Linux Standard Base 4.1 init script functionality
 ii   lv                      4.51-2.2                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.0.2-5                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17                          amd64  a pattern scanning and text processing language
 ii   mount                   2.25.2-6                          amd64  Tools for mounting and manipulating filesystems
-ii   multiarch-support       2.19-18+deb8u9                    amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.19-18+deb8u10                   amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            5.9+20140913-1                    all    basic terminal type definitions
 ii   ncurses-bin             5.9+20140913-1+b1                 amd64  terminal-related programs and man pages
 ii   net-tools               1.60-26+b1                        amd64  NET-3 networking toolkit

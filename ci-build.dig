@@ -63,6 +63,28 @@ _export:
             _error:
               rb>: BuildFlow.error_report
 
+  +stretch:
+    +debian-stretch:
+      _export:
+        image: minimum2scp/debian-stretch:latest
+      rb>: BuildFlow.pull_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +baseimage-stretch:
+      _export:
+        image: minimum2scp/baseimage-stretch:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
+    +ruby-stretch:
+      _export:
+        image: minimum2scp/ruby-stretch:latest
+      rb>: BuildFlow.build_image
+      _error:
+        rb>: BuildFlow.error_report
+
   +jessie:
     +debian-jessie:
       _export:

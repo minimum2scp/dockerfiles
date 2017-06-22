@@ -18,10 +18,10 @@ I: Retrieving libapt-pkg5.0 1.4.6
 I: Validating libapt-pkg5.0 1.4.6
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
-I: Retrieving libaudit-common 1:2.6.7-2
-I: Validating libaudit-common 1:2.6.7-2
-I: Retrieving libaudit1 1:2.6.7-2
-I: Validating libaudit1 1:2.6.7-2
+I: Retrieving libaudit-common 1:2.7.7-1
+I: Validating libaudit-common 1:2.7.7-1
+I: Retrieving libaudit1 1:2.7.7-1
+I: Validating libaudit1 1:2.7.7-1
 I: Retrieving base-files 9.9
 I: Validating base-files 9.9
 I: Retrieving base-passwd 3.5.43
@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.227
-I: Validating libdebconfclient0 0.227
+I: Retrieving libdebconfclient0 0.228
+I: Validating libdebconfclient0 0.228
 I: Retrieving coreutils 8.26-3
 I: Validating coreutils 8.26-3
 I: Retrieving dash 0.5.8-2.4
@@ -62,18 +62,20 @@ I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
 I: Retrieving gcc-5-base 5.4.1-11
 I: Validating gcc-5-base 5.4.1-11
-I: Retrieving gcc-6-base 6.3.0-18
-I: Validating gcc-6-base 6.3.0-18
-I: Retrieving libgcc1 1:6.3.0-18
-I: Validating libgcc1 1:6.3.0-18
-I: Retrieving libstdc++6 6.3.0-18
-I: Validating libstdc++6 6.3.0-18
-I: Retrieving libc-bin 2.24-11
-I: Validating libc-bin 2.24-11
-I: Retrieving libc6 2.24-11
-I: Validating libc6 2.24-11
-I: Retrieving multiarch-support 2.24-11
-I: Validating multiarch-support 2.24-11
+I: Retrieving gcc-6-base 6.3.0-19
+I: Validating gcc-6-base 6.3.0-19
+I: Retrieving gcc-7-base 7.1.0-7
+I: Validating gcc-7-base 7.1.0-7
+I: Retrieving libgcc1 1:7.1.0-7
+I: Validating libgcc1 1:7.1.0-7
+I: Retrieving libstdc++6 7.1.0-7
+I: Validating libstdc++6 7.1.0-7
+I: Retrieving libc-bin 2.24-12
+I: Validating libc-bin 2.24-12
+I: Retrieving libc6 2.24-12
+I: Validating libc6 2.24-12
+I: Retrieving multiarch-support 2.24-12
+I: Validating multiarch-support 2.24-12
 I: Retrieving gpgv 2.1.18-8
 I: Validating gpgv 2.1.18-8
 I: Retrieving grep 2.27-2
@@ -90,8 +92,8 @@ I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
-I: Retrieving libgcrypt20 1.7.6-2
-I: Validating libgcrypt20 1.7.6-2
+I: Retrieving libgcrypt20 1.7.7-2
+I: Validating libgcrypt20 1.7.7-2
 I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
@@ -130,8 +132,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-3
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3
-I: Validating perl-base 5.24.1-3
+I: Retrieving perl-base 5.24.1-4
+I: Validating perl-base 5.24.1-4
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.9
@@ -140,16 +142,16 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25
-I: Validating libsystemd0 232-25
-I: Retrieving libudev1 232-25
-I: Validating libudev1 232-25
+I: Retrieving libsystemd0 233-9
+I: Validating libsystemd0 233-9
+I: Retrieving libudev1 233-9
+I: Validating libudev1 233-9
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2017b-1
-I: Validating tzdata 2017b-1
+I: Retrieving tzdata 2017b-2
+I: Validating tzdata 2017b-2
 I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29.2-1
@@ -196,6 +198,7 @@ I: Extracting libss2...
 I: Extracting findutils...
 I: Extracting gcc-5-base...
 I: Extracting gcc-6-base...
+I: Extracting gcc-7-base...
 I: Extracting libgcc1...
 I: Extracting libc-bin...
 I: Extracting libc6...
@@ -269,6 +272,7 @@ I: Unpacking libss2:amd64...
 I: Unpacking findutils...
 I: Unpacking gcc-5-base:amd64...
 I: Unpacking gcc-6-base:amd64...
+I: Unpacking gcc-7-base:amd64...
 I: Unpacking libgcc1:amd64...
 I: Unpacking libc-bin...
 I: Unpacking libc6:amd64...
@@ -320,6 +324,7 @@ I: Unpacking zlib1g:amd64...
 I: Configuring required packages...
 I: Configuring gcc-6-base:amd64...
 I: Configuring lsb-base...
+I: Configuring gcc-7-base:amd64...
 I: Configuring sensible-utils...
 I: Configuring ncurses-base...
 I: Configuring libsemanage-common...
@@ -417,21 +422,25 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [255 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
+Fetched 290 kB in 3s (90.3 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.76MB
+Sending build context to Docker daemon  26.83MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 94beacf90248
-Removing intermediate container 917b2adf7e33
+ ---> f3ffbc447822
+Removing intermediate container 8ac57b8b0c80
 Step 3/3 : CMD /bin/bash
- ---> Running in 8b5387de367e
- ---> 13deaafc1aea
-Removing intermediate container 8b5387de367e
-Successfully built 13deaafc1aea
+ ---> Running in 0aed18041c85
+ ---> c7822c1f3395
+Removing intermediate container 0aed18041c85
+Successfully built c7822c1f3395
 Successfully tagged minimum2scp/debian:latest
