@@ -80,7 +80,7 @@ ii   dpkg                    1.18.24                         amd64  Debian packa
 ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
-ii   findutils               4.6.0+git+20161106-2            amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20170606-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
@@ -118,7 +118,7 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.1-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.1-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
@@ -126,11 +126,10 @@ ii   libgcc1                 1:7.1.0-7                       amd64  GCC support 
 ii   libgcrypt20             1.7.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-6                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.13-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.33-1                          amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1                          amd64  Internationalized domain names (IDNA2008) library
 ii   libk5crypto3            1.15-1                          amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
