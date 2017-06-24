@@ -58,8 +58,8 @@ I: Retrieving libss2 1.43.4-2
 I: Validating libss2 1.43.4-2
 I: Retrieving libelf1 0.168-1
 I: Validating libelf1 0.168-1
-I: Retrieving findutils 4.6.0+git+20161106-2
-I: Validating findutils 4.6.0+git+20161106-2
+I: Retrieving findutils 4.6.0+git+20170606-2
+I: Validating findutils 4.6.0+git+20170606-2
 I: Retrieving gcc-5-base 5.4.1-11
 I: Validating gcc-5-base 5.4.1-11
 I: Retrieving gcc-6-base 6.3.0-19
@@ -422,25 +422,21 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [255 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-06-22-1416.20.pdiff [6955 B]
-Fetched 290 kB in 3s (90.3 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.83MB
+Sending build context to Docker daemon  26.82MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f3ffbc447822
-Removing intermediate container 8ac57b8b0c80
+ ---> 31dbeda47458
+Removing intermediate container ce87cb034071
 Step 3/3 : CMD /bin/bash
- ---> Running in 0aed18041c85
- ---> c7822c1f3395
-Removing intermediate container 0aed18041c85
-Successfully built c7822c1f3395
+ ---> Running in d4169eaa3c86
+ ---> 47955dba6ed4
+Removing intermediate container d4169eaa3c86
+Successfully built 47955dba6ed4
 Successfully tagged minimum2scp/debian:latest
