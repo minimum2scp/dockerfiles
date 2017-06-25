@@ -102,7 +102,7 @@ ii   libattr1                1:2.4.47-2+b2                   amd64  Extended att
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-1                        amd64  block device ID library
-ii   libbsd0                 0.8.4-1                         amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.8.5-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-12                         amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-12                         all    GNU C Library: localization files
