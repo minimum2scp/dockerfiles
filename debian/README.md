@@ -61,7 +61,7 @@ ii   libelf1                 0.168-1               amd64  library to read and wr
 ii   libfdisk1               2.29.2-1              amd64  fdisk partitioning library
 ii   libgcc1                 1:7.1.0-7             amd64  GCC support library
 ii   libgcrypt20             1.7.7-2               amd64  LGPL Crypto library - runtime library
-ii   libgpg-error0           1.26-2                amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
