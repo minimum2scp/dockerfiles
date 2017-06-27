@@ -84,8 +84,8 @@ ii   findutils               4.6.0+git+20170606-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.13.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.13.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.13.2-2                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.13.2-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -127,7 +127,7 @@ ii   libgcrypt20             1.7.7-2                         amd64  LGPL Crypto 
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.13-2                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.26-2                          amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               0.16-1                          amd64  Internationalized domain names (IDNA2008) library
