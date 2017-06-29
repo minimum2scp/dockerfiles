@@ -622,7 +622,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "209",
+    "Installed-Size": "210",
     "Origin": "",
     "Package": "gcc-6-base",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3.0-19",
+    "Version": "6.3.0-21",
     "binary:Package": "gcc-6-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.3.0-19"
+    "source:Version": "6.3.0-21"
   },
   {
     "Architecture": "amd64",
@@ -2103,7 +2103,7 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (= 2.4.44+dfsg-6)",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-7)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "509",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-6",
+    "Version": "2.4.44+dfsg-7",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-6"
+    "source:Version": "2.4.44+dfsg-7"
   },
   {
     "Architecture": "all",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-6",
+    "Version": "2.4.44+dfsg-7",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-6"
+    "source:Version": "2.4.44+dfsg-7"
   },
   {
     "Architecture": "amd64",
