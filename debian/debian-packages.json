@@ -482,7 +482,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "209",
+    "Installed-Size": "210",
     "Origin": "",
     "Package": "gcc-6-base",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3.0-19",
+    "Version": "6.3.0-21",
     "binary:Package": "gcc-6-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.3.0-19"
+    "source:Version": "6.3.0-21"
   },
   {
     "Architecture": "amd64",
