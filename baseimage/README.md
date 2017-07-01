@@ -84,8 +84,8 @@ ii   findutils               4.6.0+git+20170606-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.3.0-21                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.13.2-2                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.13.2-2                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.13.2-3                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.13.2-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -168,7 +168,7 @@ ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL -
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libselinux1             2.6-3+b2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.6-2                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.6-2                           amd64  SELinux policy management library
+ii   libsemanage1            2.6-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library

@@ -688,8 +688,8 @@
     "Replace": "",
     "Section": "vcs",
     "Status": "install ok installed",
-    "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.13.2-2",
+    "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
+    "Version": "1:2.13.2-3",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.13.2-2"
+    "source:Version": "1:2.13.2-3"
   },
   {
     "Architecture": "all",
@@ -706,7 +706,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1521",
+    "Installed-Size": "1522",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.13.2-2",
+    "Version": "1:2.13.2-3",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.13.2-2"
+    "source:Version": "1:2.13.2-3"
   },
   {
     "Architecture": "amd64",
@@ -3030,7 +3030,7 @@
     "Depends": "libsemanage-common (= 2.6-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.6), libsepol1 (>= 2.6), libustr-1.0-1 (>= 1.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "291",
+    "Installed-Size": "292",
     "Origin": "",
     "Package": "libsemanage1",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6-2",
+    "Version": "2.6-2+b1",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
