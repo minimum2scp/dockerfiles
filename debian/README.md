@@ -26,7 +26,7 @@ ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.26-3                amd64  GNU core utilities
 ii   dash                    0.5.8-2.4             amd64  POSIX-compliant shell
-ii   debconf                 1.5.61                all    Debian configuration management system
+ii   debconf                 1.5.62                all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3               amd64  File comparison utilities
@@ -93,7 +93,7 @@ ii   ncurses-base            6.0+20161126-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
-ii   perl-base               5.24.1-4              amd64  minimal Perl system
+ii   perl-base               5.24.1-5              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities
