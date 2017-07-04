@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
-ii   apt                     1.4.6                 amd64  commandline package manager
+ii   apt                     1.5~beta1             amd64  commandline package manager
 ii   base-files              10                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
@@ -45,7 +45,7 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.48                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.6                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~beta1             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b1          amd64  Dynamic library for security auditing
@@ -56,17 +56,24 @@ ii   libc6                   2.24-12               amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.228                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.229                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-1               amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1              amd64  fdisk partitioning library
+ii   libffi6                 3.2.1-6               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.1.0-8             amd64  GCC support library
 ii   libgcrypt20             1.7.8-1               amd64  LGPL Crypto library - runtime library
+ii   libgmp10                2:6.1.2+dfsg-1        amd64  Multiprecision arithmetic library
+ii   libgnutls30             3.5.13-2              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
+ii   libhogweed4             3.3-1+b1              amd64  low level cryptographic library (public-key cryptos)
+ii   libidn2-0               0.16-1+b1             amd64  Internationalized domain names (IDNA2008) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1              amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1        amd64  shared libraries for terminal handling (wide character support)
+ii   libnettle6              3.3-1+b1              amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libp11-kit0             0.23.7-2              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
@@ -79,9 +86,11 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.2-1              amd64  smart column output alignment library
 ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
 ii   libstdc++6              7.1.0-8               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             233-9                 amd64  systemd utility library
+ii   libsystemd0             233-10                amd64  systemd utility library
+ii   libtasn1-6              4.12-2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                233-9                 amd64  libudev shared library
+ii   libudev1                233-10                amd64  libudev shared library
+ii   libunistring2           0.9.7-2               amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4.1             amd64  system login tools
