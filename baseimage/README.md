@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
-ii   apt                     1.4.6                           amd64  commandline package manager
+ii   apt                     1.5~beta1                       amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
@@ -97,7 +97,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.6                           amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~beta1                       amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b1                    amd64  Dynamic library for security auditing
@@ -113,7 +113,7 @@ ii   libcomerr2              1.43.4-2                        amd64  common error
 ii   libcurl3                7.52.1-5                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.52.1-5                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+b1                    amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.228                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.229                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -130,7 +130,7 @@ ii   libgnutls30             3.5.13-2                        amd64  GNU TLS libr
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               0.16-1                          amd64  Internationalized domain names (IDNA2008) library
+ii   libidn2-0               0.16-1+b1                       amd64  Internationalized domain names (IDNA2008) library
 ii   libk5crypto3            1.15-1                          amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1                          amd64  MIT Kerberos runtime libraries
@@ -158,7 +158,7 @@ ii   libperl5.24             5.24.1-5                        amd64  shared Perl 
 ii   libpipeline1            1.4.1-2                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.17.0-4                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.17.0-4+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -178,11 +178,11 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.1.0-8                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             233-9                           amd64  systemd utility library
+ii   libsystemd0             233-10                          amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                233-9                           amd64  libudev shared library
-ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
+ii   libudev1                233-10                          amd64  libudev shared library
+ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-26                        amd64  Wietse Venema's TCP wrappers library
