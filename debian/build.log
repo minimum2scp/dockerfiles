@@ -62,8 +62,8 @@ I: Retrieving findutils 4.6.0+git+20170606-2
 I: Validating findutils 4.6.0+git+20170606-2
 I: Retrieving gcc-5-base 5.4.1-11
 I: Validating gcc-5-base 5.4.1-11
-I: Retrieving gcc-6-base 6.3.0-21
-I: Validating gcc-6-base 6.3.0-21
+I: Retrieving gcc-6-base 6.4.0-1
+I: Validating gcc-6-base 6.4.0-1
 I: Retrieving gcc-7-base 7.1.0-8
 I: Validating gcc-7-base 7.1.0-8
 I: Retrieving libgcc1 1:7.1.0-8
@@ -150,8 +150,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-3
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-5
-I: Validating perl-base 5.24.1-5
+I: Retrieving perl-base 5.24.1-6
+I: Validating perl-base 5.24.1-6
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.9
@@ -464,15 +464,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.05MB
+Sending build context to Docker daemon  29.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> c529aa00113e
-Removing intermediate container 6d29dfb5370f
+ ---> 0e48c9da15a4
+Removing intermediate container 3a16cc9de021
 Step 3/3 : CMD /bin/bash
- ---> Running in 83c4ecc76f05
- ---> 64f5ad85d15a
-Removing intermediate container 83c4ecc76f05
-Successfully built 64f5ad85d15a
+ ---> Running in 43a677cb166c
+ ---> 891d75ce3d18
+Removing intermediate container 43a677cb166c
+Successfully built 891d75ce3d18
 Successfully tagged minimum2scp/debian:latest
