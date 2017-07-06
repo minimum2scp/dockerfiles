@@ -83,7 +83,7 @@ ii   etckeeper               1.18.5-1                        all    store /etc i
 ii   findutils               4.6.0+git+20170606-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-7-base              7.1.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-7-base              7.1.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.13.2-3                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.13.2-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
@@ -118,11 +118,11 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.1-2                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.1-3                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.1.0-8                       amd64  GCC support library
+ii   libgcc1                 1:7.1.0-9                       amd64  GCC support library
 ii   libgcrypt20             1.7.8-1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -147,7 +147,7 @@ ii   libncurses5             6.0+20161126-1                  amd64  shared libra
 ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.23.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.24.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.7-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -177,7 +177,7 @@ ii   libss2                  1.43.4-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.1.0-8                         amd64  GNU Standard C++ Library v3
+ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             233-10                          amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
