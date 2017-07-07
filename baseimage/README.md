@@ -80,7 +80,7 @@ ii   dpkg                    1.18.24                         amd64  Debian packa
 ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
-ii   findutils               4.6.0+git+20170606-2            amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20170606-3            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
@@ -123,7 +123,7 @@ ii   libfastjson4            0.99.6-1                        amd64  fast json li
 ii   libfdisk1               2.29.2-1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.1.0-9                       amd64  GCC support library
-ii   libgcrypt20             1.7.8-1                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.8-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.13-2                        amd64  GNU TLS library - main runtime library
@@ -172,7 +172,7 @@ ii   libsemanage1            2.6-2+b1                        amd64  SELinux poli
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-5                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.19.3-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries

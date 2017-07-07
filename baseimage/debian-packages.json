@@ -577,7 +577,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20170606-2",
+    "Version": "4.6.0+git+20170606-3",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20170606-2"
+    "source:Version": "4.6.0+git+20170606-3"
   },
   {
     "Architecture": "amd64",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.7.8-1",
+    "Version": "1.7.8-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.7.8-1"
+    "source:Version": "1.7.8-2"
   },
   {
     "Architecture": "amd64",
@@ -3142,7 +3142,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1162",
+    "Installed-Size": "1178",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.16.2-5",
+    "Version": "3.19.3-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.16.2-5"
+    "source:Version": "3.19.3-2"
   },
   {
     "Architecture": "amd64",
