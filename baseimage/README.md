@@ -143,8 +143,8 @@ ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ comp
 ii   liblzma5                5.2.2-1.2+b1                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1                        amd64  device mounting library
-ii   libncurses5             6.0+20161126-1                  amd64  shared libraries for terminal handling
-ii   libncursesw5            6.0+20161126-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             6.0+20170701-1                  amd64  shared libraries for terminal handling
+ii   libncursesw5            6.0+20170701-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.24.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -172,7 +172,7 @@ ii   libsemanage1            2.6-2+b1                        amd64  SELinux poli
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.19.3-2                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.19.3-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -180,7 +180,7 @@ ii   libssl1.1               1.1.0f-3                        amd64  Secure Socke
 ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             233-10                          amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.0+20161126-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               6.0+20170701-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                233-10                          amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
@@ -190,14 +190,14 @@ ii   localepurge             0.7.3.4                         all    reclaim disk
 ii   locales                 2.24-12                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.4-4.1                       amd64  system login tools
 ii   lsb-base                9.20161125                      all    Linux Standard Base init script functionality
-ii   lv                      4.51-3                          amd64  Powerful Multilingual File Viewer
+ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-2                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29.2-1                        amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-12                         amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            6.0+20161126-1                  all    basic terminal type definitions
-ii   ncurses-bin             6.0+20161126-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.0+20170701-1                  all    basic terminal type definitions
+ii   ncurses-bin             6.0+20170701-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
 ii   openssh-client          1:7.5p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines

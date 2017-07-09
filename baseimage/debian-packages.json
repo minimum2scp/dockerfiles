@@ -2327,21 +2327,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20161126-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20170701-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "287",
     "Origin": "",
     "Package": "libncurses5",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "libgpm2",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20161126-1",
+    "Version": "6.0+20170701-1",
     "binary:Package": "libncurses5:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2349,13 +2349,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20161126-1"
+    "source:Version": "6.0+20170701-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20161126-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.0+20170701-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "347",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20161126-1",
+    "Version": "6.0+20170701-1",
     "binary:Package": "libncursesw5:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20161126-1"
+    "source:Version": "6.0+20170701-1"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.19.3-2",
+    "Version": "3.19.3-3",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.19.3-2"
+    "source:Version": "3.19.3-3"
   },
   {
     "Architecture": "amd64",
@@ -3366,7 +3366,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "478",
+    "Installed-Size": "487",
     "Origin": "",
     "Package": "libtinfo5",
     "Pre-Depends": "",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20161126-1",
+    "Version": "6.0+20170701-1",
     "binary:Package": "libtinfo5:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20161126-1"
+    "source:Version": "6.0+20170701-1"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.51-3",
+    "Version": "4.51-4",
     "binary:Package": "lv",
     "binary:Summary": "Powerful Multilingual File Viewer",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lv",
-    "source:Version": "4.51-3"
+    "source:Version": "4.51-4"
   },
   {
     "Architecture": "amd64",
@@ -3814,7 +3814,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "340",
+    "Installed-Size": "346",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -3825,7 +3825,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20161126-1",
+    "Version": "6.0+20170701-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3833,7 +3833,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20161126-1"
+    "source:Version": "6.0+20170701-1"
   },
   {
     "Architecture": "amd64",
@@ -3842,10 +3842,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "532",
+    "Installed-Size": "555",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.0+20151017), libtinfo5 (<< 6.1~)",
+    "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.0+20170701), libtinfo5 (<< 6.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3853,7 +3853,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20161126-1",
+    "Version": "6.0+20170701-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20161126-1"
+    "source:Version": "6.0+20170701-1"
   },
   {
     "Architecture": "amd64",
