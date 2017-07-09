@@ -63,7 +63,7 @@ ii   libffi6                 3.2.1-6               amd64  Foreign Function Inter
 ii   libgcc1                 1:7.1.0-9             amd64  GCC support library
 ii   libgcrypt20             1.7.8-2               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-1        amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.13-2              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.14-2              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.3-1+b1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               0.16-1+b1             amd64  Internationalized domain names (IDNA2008) library
