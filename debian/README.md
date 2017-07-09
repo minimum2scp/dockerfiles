@@ -71,7 +71,7 @@ ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression al
 ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1              amd64  device mounting library
-ii   libncursesw5            6.0+20161126-1        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw5            6.0+20170701-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1              amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.7-2              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
@@ -88,7 +88,7 @@ ii   libss2                  1.43.4-2              amd64  command-line interface
 ii   libstdc++6              7.1.0-9               amd64  GNU Standard C++ Library v3
 ii   libsystemd0             233-10                amd64  systemd utility library
 ii   libtasn1-6              4.12-2                amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               6.0+20170701-1        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                233-10                amd64  libudev shared library
 ii   libunistring2           0.9.7-2               amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
@@ -98,8 +98,8 @@ ii   lsb-base                9.20161125            all    Linux Standard Base in
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.29.2-1              amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-12               amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            6.0+20161126-1        all    basic terminal type definitions
-ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
+ii   ncurses-base            6.0+20170701-1        all    basic terminal type definitions
+ii   ncurses-bin             6.0+20170701-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
 ii   perl-base               5.24.1-6              amd64  minimal Perl system
