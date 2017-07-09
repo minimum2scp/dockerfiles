@@ -10,7 +10,7 @@ kibana_version=5.4.3
 ##
 ## install deps
 ##
-apt-get install --no-install-recommends -y default-jre-headless gnupg apt-transport-https
+apt-get install --no-install-recommends -y default-jre-headless gnupg
 
 ##
 ## install GPG key
