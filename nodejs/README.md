@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/nodejs.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/nodejs.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/nodejs.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/nodejs.svg)]()
+
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)

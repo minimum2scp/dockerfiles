@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-wheezy.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-wheezy.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/debian-wheezy.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-wheezy.svg)]()
+
 # about minimum2scp/debian-wheezy image
 
  * Debian wheezy (7.x) amd64

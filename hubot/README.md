@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/hubot.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/hubot.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/hubot.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/hubot.svg)]()
+
 # about minimum2scp/hubot image
 
  * based on minimum2scp/nodejs (see https://github.com/minimum2scp/dockerfiles/tree/master/nodejs)
