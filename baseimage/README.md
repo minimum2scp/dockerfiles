@@ -87,7 +87,7 @@ ii   gcc-7-base              7.1.0-9                         amd64  GCC, the GNU
 ii   git                     1:2.13.2-3                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.13.2-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
-ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
+ii   grep                    3.1-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
@@ -227,10 +227,10 @@ ii   tzdata                  2017b-2                         all    time zone an
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-2                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.0197-4                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0197-4                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.0197-5                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.0197-5                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0197-4                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0197-5                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.3.1-5                         amd64  shell with lots of features
 ii   zsh-common              5.3.1-5                         all    architecture independent files for Zsh
