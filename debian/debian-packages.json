@@ -566,7 +566,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1131",
+    "Installed-Size": "1034",
     "Origin": "",
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.14), libpcre3",
@@ -577,7 +577,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "libpcre3 (>= 7.7)",
-    "Version": "2.27-2",
+    "Version": "3.1-1",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "2.27-2"
+    "source:Version": "3.1-1"
   },
   {
     "Architecture": "amd64",
