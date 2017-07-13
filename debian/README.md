@@ -25,8 +25,8 @@ ii   base-passwd             3.5.43                amd64  Debian base system mas
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-2            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.26-3                amd64  GNU core utilities
-ii   dash                    0.5.8-2.4             amd64  POSIX-compliant shell
-ii   debconf                 1.5.62                all    Debian configuration management system
+ii   dash                    0.5.8-2.5             amd64  POSIX-compliant shell
+ii   debconf                 1.5.63                all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3               amd64  File comparison utilities
@@ -38,7 +38,7 @@ ii   gcc-5-base              5.4.1-11              amd64  GCC, the GNU Compiler 
 ii   gcc-6-base              6.4.0-1               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-9               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.18-8              amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.1-1                 amd64  GNU grep, egrep and fgrep
+ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
@@ -55,7 +55,7 @@ ii   libc-bin                2.24-12               amd64  GNU C Library: Binarie
 ii   libc6                   2.24-12               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2              amd64  common error description library
-ii   libdb5.3                5.3.28-12+b1          amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28-13             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.229                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-1               amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-2              amd64  fdisk partitioning library
@@ -68,7 +68,7 @@ ii   libgpg-error0           1.27-3                amd64  library for common err
 ii   libhogweed4             3.3-1+b1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-1               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.2+b1          amd64  XZ-format compression library
+ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-2              amd64  device mounting library
 ii   libncursesw5            6.0+20170708-1        amd64  shared libraries for terminal handling (wide character support)
@@ -104,7 +104,7 @@ ii   netbase                 5.4                   all    Basic TCP/IP networkin
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
 ii   perl-base               5.24.1-7              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.9+nmu1            all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities
 ii   tar                     1.29b-1.1             amd64  GNU version of the tar archiving utility
 ii   tzdata                  2017b-2               all    time zone and daylight-saving time data
