@@ -160,10 +160,10 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 233-10
-I: Validating libsystemd0 233-10
-I: Retrieving libudev1 233-10
-I: Validating libudev1 233-10
+I: Retrieving libsystemd0 234-1
+I: Validating libsystemd0 234-1
+I: Retrieving libudev1 234-1
+I: Validating libudev1 234-1
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
@@ -464,15 +464,15 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon     29MB
+Sending build context to Docker daemon  29.01MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5e290371adb1
-Removing intermediate container 51e1420fe15f
+ ---> 02dc69f4fe70
+Removing intermediate container d9f69a4af699
 Step 3/3 : CMD /bin/bash
- ---> Running in d9fbe95df2a6
- ---> 00304eecb667
-Removing intermediate container d9fbe95df2a6
-Successfully built 00304eecb667
+ ---> Running in 826bdc496320
+ ---> 4411c8dc0710
+Removing intermediate container 826bdc496320
+Successfully built 4411c8dc0710
 Successfully tagged minimum2scp/debian:latest
