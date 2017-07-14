@@ -118,7 +118,7 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.1-3                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.2-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-2                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
@@ -178,10 +178,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             233-10                          amd64  systemd utility library
+ii   libsystemd0             234-1                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170708-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                233-10                          amd64  libudev shared library
+ii   libudev1                234-1                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-2                        amd64  Universally Unique ID library
