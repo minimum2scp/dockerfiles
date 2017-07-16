@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "347",
+    "Installed-Size": "386",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "multiarch-support",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.0-6+deb8u3",
+    "Version": "2.1.0-6+deb8u4",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.1.0-6+deb8u3"
+    "source:Version": "2.1.0-6+deb8u4"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1002",
+    "Installed-Size": "998",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "multiarch-support",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.6.3-2+deb8u3",
+    "Version": "1.6.3-2+deb8u4",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.6.3-2+deb8u3"
+    "source:Version": "1.6.3-2+deb8u4"
   },
   {
     "Architecture": "amd64",
