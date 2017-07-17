@@ -102,7 +102,7 @@ ii   libattr1                1:2.4.47-2+b2                   amd64  Extended att
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-2                        amd64  block device ID library
-ii   libbsd0                 0.8.5-1                         amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.8.6-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-12                         amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-12                         all    GNU C Library: localization files
@@ -118,7 +118,7 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.2-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.2-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-2                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
@@ -135,16 +135,16 @@ ii   libk5crypto3            1.15.1-1                        amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-1                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15.1-1                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-7                   amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-7                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-8                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-8                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.3-1                         amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-2                        amd64  device mounting library
-ii   libncurses5             6.0+20170708-1                  amd64  shared libraries for terminal handling
-ii   libncursesw5            6.0+20170708-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             6.0+20170715-2                  amd64  shared libraries for terminal handling
+ii   libncursesw5            6.0+20170715-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.24.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -180,7 +180,7 @@ ii   libssl1.1               1.1.0f-3                        amd64  Secure Socke
 ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             234-1                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.0+20170708-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               6.0+20170715-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                234-1                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
@@ -196,8 +196,8 @@ ii   mawk                    1.3.3-17+b3                     amd64  a pattern sc
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29.2-2                        amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-12                         amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            6.0+20170708-1                  all    basic terminal type definitions
-ii   ncurses-bin             6.0+20170708-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.0+20170715-2                  all    basic terminal type definitions
+ii   ncurses-bin             6.0+20170715-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
 ii   openssh-client          1:7.5p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
