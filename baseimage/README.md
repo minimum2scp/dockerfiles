@@ -84,15 +84,15 @@ ii   findutils               4.6.0+git+20170606-3            amd64  utilities fo
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.13.2-3                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.13.2-3                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.13.3-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.13.3-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
-ii   init-system-helpers     1.48                            all    helper tools for all init systems
+ii   init-system-helpers     1.49                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                    amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
