@@ -154,7 +154,7 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-3                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1-7                        amd64  shared Perl library
+ii   libperl5.26             5.26.0-4                        amd64  shared Perl library
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
@@ -178,10 +178,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             234-1                           amd64  systemd utility library
+ii   libsystemd0             234-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170715-2                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                234-1                           amd64  libudev shared library
+ii   libudev1                234-2                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-2                        amd64  Universally Unique ID library
@@ -205,9 +205,9 @@ ii   openssh-server          1:7.5p1-5                       amd64  secure shell
 ii   openssh-sftp-server     1:7.5p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
-ii   perl                    5.24.1-7                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1-7                        amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1-7                        all    Core Perl modules
+ii   perl                    5.26.0-4                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.0-4                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.0-4                        all    Core Perl modules
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
