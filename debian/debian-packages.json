@@ -2480,8 +2480,8 @@
     "Replace": "",
     "Section": "utils",
     "Status": "install ok installed",
-    "Suggests": "bzip2, ncompress, xz-utils, tar-scripts",
-    "Version": "1.29b-1.1",
+    "Suggests": "bzip2, ncompress, xz-utils, tar-scripts, tar-doc",
+    "Version": "1.29b-2",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.29b-1.1"
+    "source:Version": "1.29b-2"
   },
   {
     "Architecture": "all",
