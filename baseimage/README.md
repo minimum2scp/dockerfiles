@@ -83,7 +83,7 @@ ii   etckeeper               1.18.5-1                        all    store /etc i
 ii   findutils               4.6.0+git+20170606-3            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-7-base              7.1.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-7-base              7.1.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.13.3-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.13.3-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
@@ -122,7 +122,7 @@ ii   libexpat1               2.2.2-2                         amd64  XML parsing 
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-2                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.1.0-9                       amd64  GCC support library
+ii   libgcc1                 1:7.1.0-10                      amd64  GCC support library
 ii   libgcrypt20             1.7.8-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -135,7 +135,7 @@ ii   libk5crypto3            1.15.1-1                        amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-1                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15.1-1                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-8                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.44+dfsg-8+b2                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-8                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.3-1                         amd64  log normalizing library
@@ -177,7 +177,7 @@ ii   libss2                  1.43.4-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.1.0-9                         amd64  GNU Standard C++ Library v3
+ii   libstdc++6              7.1.0-10                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             234-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170715-2                  amd64  shared low-level terminfo library for terminal handling
@@ -228,9 +228,9 @@ ii   ucf                     3.0036                          all    Update Confi
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-2                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0197-5                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0197-5                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.0.0197-5+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0197-5                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0197-5+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.3.1-5                         amd64  shell with lots of features
 ii   zsh-common              5.3.1-5                         all    architecture independent files for Zsh
