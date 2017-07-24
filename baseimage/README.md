@@ -128,13 +128,13 @@ ii   libgdbm3                1.8.3-14                        amd64  GNU dbm data
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.14-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.15.1-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.15.1-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.15.1-1                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.15.1-1                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.15.1-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.44+dfsg-8+b2                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-8                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
@@ -153,7 +153,7 @@ ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-3                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-4                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.0-4                        amd64  shared Perl library
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
