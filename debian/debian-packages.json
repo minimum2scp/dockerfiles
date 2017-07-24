@@ -1689,7 +1689,7 @@
     "Installed-Size": "668",
     "Origin": "",
     "Package": "libpcre3",
-    "Pre-Depends": "multiarch-support",
+    "Pre-Depends": "",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.39-3",
+    "Version": "2:8.39-4",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Old Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.39-3"
+    "source:Version": "2:8.39-4"
   },
   {
     "Architecture": "amd64",
