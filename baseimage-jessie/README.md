@@ -63,7 +63,7 @@ installed packages:
 ii   acl                     2.2.52-2                          amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                        all    add and remove users and groups
 ii   apt                     1.0.9.8.4                         amd64  commandline package manager
-ii   base-files              8+deb8u8                          amd64  Debian base system miscellaneous files
+ii   base-files              8+deb8u9                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                            amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.6                             amd64  collection of more utilities from FreeBSD
@@ -73,8 +73,8 @@ ii   coreutils               8.23-4                            amd64  GNU core u
 ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
 ii   curl                    7.38.0-4+deb8u5                   amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
-ii   debconf                 1.5.56                            all    Debian configuration management system
-ii   debconf-i18n            1.5.56                            all    full internationalization support for debconf
+ii   debconf                 1.5.56+deb8u1                     all    Debian configuration management system
+ii   debconf-i18n            1.5.56+deb8u1                     all    full internationalization support for debconf
 ii   debian-archive-keyring  2017.5~deb8u1                     all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.4+b1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-1+b1                        amd64  File comparison utilities
@@ -128,7 +128,7 @@ ii   libgcc1                 1:4.9.2-10                        amd64  GCC suppor
 ii   libgcrypt20             1.6.3-2+deb8u4                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
-ii   libgnutls-deb0-28       3.3.8-6+deb8u6                    amd64  GNU TLS library - main runtime library
+ii   libgnutls-deb0-28       3.3.8-6+deb8u7                    amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.17-3                            amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u2                    amd64  low level cryptographic library (public-key cryptos)
@@ -150,10 +150,10 @@ ii   libncursesw5            5.9+20140913-1+b1                 amd64  shared lib
 ii   libnettle4              2.7.1-5+deb8u2                    amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.17-1+b1                      amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libp11-kit0             0.20.7-1                          amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.1.8-3.1+deb8u2                  amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.1+deb8u2                  amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules          1.1.8-3.1+deb8u2+b1               amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.1+deb8u2+b1               amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.1+deb8u2                  all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.1+deb8u2                  amd64  Pluggable Authentication Modules library
+ii   libpam0g                1.1.8-3.1+deb8u2+b1               amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.35-3.3+deb8u4                 amd64  Perl 5 Compatible Regular Expression Library - runtime files
 ii   libpipeline1            1.4.0-1                           amd64  pipeline manipulation library
 ii   libpopt0                1.16-10                           amd64  lib for parsing cmdline parameters
@@ -201,9 +201,9 @@ ii   openssh-server          1:6.7p1-5+deb8u3                  amd64  secure she
 ii   openssh-sftp-server     1:6.7p1-5+deb8u3                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u6                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
-ii   perl                    5.20.2-3+deb8u7                   amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.20.2-3+deb8u7                   amd64  minimal Perl system
-ii   perl-modules            5.20.2-3+deb8u7                   all    Core Perl modules
+ii   perl                    5.20.2-3+deb8u8                   amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.20.2-3+deb8u8                   amd64  minimal Perl system
+ii   perl-modules            5.20.2-3+deb8u8                   all    Core Perl modules
 ii   procps                  2:3.3.9-9                         amd64  /proc file system utilities
 ii   readline-common         6.3-8                             all    GNU readline and history libraries, common files
 ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable system and kernel logging daemon
