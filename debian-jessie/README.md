@@ -21,14 +21,14 @@ installed packages:
 ii   acl                     2.2.52-2                  amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                all    add and remove users and groups
 ii   apt                     1.0.9.8.4                 amd64  commandline package manager
-ii   base-files              8+deb8u8                  amd64  Debian base system miscellaneous files
+ii   base-files              8+deb8u9                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                    amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1             amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.25.2-6                amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.23-4                    amd64  GNU core utilities
 ii   dash                    0.5.7-4+b1                amd64  POSIX-compliant shell
-ii   debconf                 1.5.56                    all    Debian configuration management system
-ii   debconf-i18n            1.5.56                    all    full internationalization support for debconf
+ii   debconf                 1.5.56+deb8u1             all    Debian configuration management system
+ii   debconf-i18n            1.5.56+deb8u1             all    full internationalization support for debconf
 ii   debian-archive-keyring  2017.5~deb8u1             all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.4+b1                    amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.3-1+b1                amd64  File comparison utilities
@@ -74,10 +74,10 @@ ii   liblzma5                5.1.1alpha+20120614-2+b3  amd64  XZ-format compress
 ii   libmount1               2.25.2-6                  amd64  device mounting library
 ii   libncurses5             5.9+20140913-1+b1         amd64  shared libraries for terminal handling
 ii   libncursesw5            5.9+20140913-1+b1         amd64  shared libraries for terminal handling (wide character support)
-ii   libpam-modules          1.1.8-3.1+deb8u2          amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.1+deb8u2          amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-modules          1.1.8-3.1+deb8u2+b1       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.1+deb8u2+b1       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.1+deb8u2          all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.1+deb8u2          amd64  Pluggable Authentication Modules library
+ii   libpam0g                1.1.8-3.1+deb8u2+b1       amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.35-3.3+deb8u4         amd64  Perl 5 Compatible Regular Expression Library - runtime files
 ii   libprocps3              2:3.3.9-9                 amd64  library for accessing process information from /proc
 ii   libreadline6            6.3-8+b3                  amd64  GNU readline and history libraries, run-time libraries
@@ -107,7 +107,7 @@ ii   ncurses-base            5.9+20140913-1            all    basic terminal typ
 ii   ncurses-bin             5.9+20140913-1+b1         amd64  terminal-related programs and man pages
 ii   netbase                 5.3                       all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3+deb8u4            amd64  change and administer password and group data
-ii   perl-base               5.20.2-3+deb8u7           amd64  minimal Perl system
+ii   perl-base               5.20.2-3+deb8u8           amd64  minimal Perl system
 ii   procps                  2:3.3.9-9                 amd64  /proc file system utilities
 ii   readline-common         6.3-8                     all    GNU readline and history libraries, common files
 ii   sed                     4.2.2-4+deb8u1            amd64  The GNU sed stream editor
