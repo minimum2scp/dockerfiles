@@ -19,8 +19,8 @@ installed packages:
 
 ```
 ii   adduser                 3.115                 all    add and remove users and groups
-ii   apt                     1.4.6                 amd64  commandline package manager
-ii   base-files              9.9                   amd64  Debian base system miscellaneous files
+ii   apt                     1.4.7                 amd64  commandline package manager
+ii   base-files              9.9+deb9u1            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-1            amd64  basic utilities from 4.4BSD-Lite
@@ -43,7 +43,7 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.48                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.6                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.7                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2             amd64  Dynamic library for security auditing
@@ -77,9 +77,9 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.2-1              amd64  smart column output alignment library
 ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
 ii   libstdc++6              6.3.0-18              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-25                amd64  systemd utility library
+ii   libsystemd0             232-25+deb9u1         amd64  systemd utility library
 ii   libtinfo5               6.0+20161126-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-25                amd64  libudev shared library
+ii   libudev1                232-25+deb9u1         amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1              amd64  Universally Unique ID library
 ii   login                   1:4.4-4.1             amd64  system login tools
@@ -91,7 +91,7 @@ ii   ncurses-base            6.0+20161126-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20161126-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
-ii   perl-base               5.24.1-3              amd64  minimal Perl system
+ii   perl-base               5.24.1-3+deb9u1       amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9                 all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities

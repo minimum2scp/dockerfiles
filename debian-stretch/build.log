@@ -14,18 +14,18 @@ I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.115
 I: Validating adduser 3.115
-I: Retrieving apt 1.4.6
-I: Validating apt 1.4.6
-I: Retrieving libapt-pkg5.0 1.4.6
-I: Validating libapt-pkg5.0 1.4.6
+I: Retrieving apt 1.4.7
+I: Validating apt 1.4.7
+I: Retrieving libapt-pkg5.0 1.4.7
+I: Validating libapt-pkg5.0 1.4.7
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.6.7-2
 I: Validating libaudit-common 1:2.6.7-2
 I: Retrieving libaudit1 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9
-I: Validating base-files 9.9
+I: Retrieving base-files 9.9+deb9u1
+I: Validating base-files 9.9+deb9u1
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
 I: Retrieving bash 4.4-5
@@ -68,12 +68,12 @@ I: Retrieving libgcc1 1:6.3.0-18
 I: Validating libgcc1 1:6.3.0-18
 I: Retrieving libstdc++6 6.3.0-18
 I: Validating libstdc++6 6.3.0-18
-I: Retrieving libc-bin 2.24-11
-I: Validating libc-bin 2.24-11
-I: Retrieving libc6 2.24-11
-I: Validating libc6 2.24-11
-I: Retrieving multiarch-support 2.24-11
-I: Validating multiarch-support 2.24-11
+I: Retrieving libc-bin 2.24-11+deb9u1
+I: Validating libc-bin 2.24-11+deb9u1
+I: Retrieving libc6 2.24-11+deb9u1
+I: Validating libc6 2.24-11+deb9u1
+I: Retrieving multiarch-support 2.24-11+deb9u1
+I: Validating multiarch-support 2.24-11+deb9u1
 I: Retrieving gpgv 2.1.18-6
 I: Validating gpgv 2.1.18-6
 I: Retrieving grep 2.27-2
@@ -90,8 +90,8 @@ I: Retrieving iproute2 4.9.0-1
 I: Validating iproute2 4.9.0-1
 I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
-I: Retrieving libgcrypt20 1.7.6-2
-I: Validating libgcrypt20 1.7.6-2
+I: Retrieving libgcrypt20 1.7.6-2+deb9u1
+I: Validating libgcrypt20 1.7.6-2+deb9u1
 I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
 I: Retrieving libmnl0 1.0.4-2
@@ -130,8 +130,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-3
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3
-I: Validating perl-base 5.24.1-3
+I: Retrieving perl-base 5.24.1-3+deb9u1
+I: Validating perl-base 5.24.1-3+deb9u1
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.9
@@ -140,10 +140,10 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25
-I: Validating libsystemd0 232-25
-I: Retrieving libudev1 232-25
-I: Validating libudev1 232-25
+I: Retrieving libsystemd0 232-25+deb9u1
+I: Validating libsystemd0 232-25+deb9u1
+I: Retrieving libudev1 232-25+deb9u1
+I: Validating libudev1 232-25+deb9u1
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
@@ -415,52 +415,25 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
-Get:2 http://security.debian.org stretch/updates InRelease [62.9 kB]
-Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [88.5 kB]
+Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [88.5 kB]
+Get:3 http://security.debian.org stretch/updates InRelease [62.9 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [90.0 kB]
-Fetched 241 kB in 1s (219 kB/s)
+Get:6 http://security.debian.org stretch/updates/main amd64 Packages [144 kB]
+Fetched 295 kB in 0s (456 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  libc-bin libc6 libgcrypt20 multiarch-support
-4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 4194 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://security.debian.org stretch/updates/main amd64 libc6 amd64 2.24-11+deb9u1 [2695 kB]
-Get:2 http://security.debian.org stretch/updates/main amd64 libc-bin amd64 2.24-11+deb9u1 [778 kB]
-Get:3 http://security.debian.org stretch/updates/main amd64 multiarch-support amd64 2.24-11+deb9u1 [200 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 libgcrypt20 amd64 1.7.6-2+deb9u1 [522 kB]
-Fetched 4194 kB in 1s (4014 kB/s)
-(Reading database ... 6491 files and directories currently installed.)
-Preparing to unpack .../libc6_2.24-11+deb9u1_amd64.deb ...
-Unpacking libc6:amd64 (2.24-11+deb9u1) over (2.24-11) ...
-Setting up libc6:amd64 (2.24-11+deb9u1) ...
-(Reading database ... 6491 files and directories currently installed.)
-Preparing to unpack .../libc-bin_2.24-11+deb9u1_amd64.deb ...
-Unpacking libc-bin (2.24-11+deb9u1) over (2.24-11) ...
-Setting up libc-bin (2.24-11+deb9u1) ...
-Updating /etc/nsswitch.conf to current default.
-(Reading database ... 6491 files and directories currently installed.)
-Preparing to unpack .../multiarch-support_2.24-11+deb9u1_amd64.deb ...
-Unpacking multiarch-support (2.24-11+deb9u1) over (2.24-11) ...
-Setting up multiarch-support (2.24-11+deb9u1) ...
-(Reading database ... 6491 files and directories currently installed.)
-Preparing to unpack .../libgcrypt20_1.7.6-2+deb9u1_amd64.deb ...
-Unpacking libgcrypt20:amd64 (1.7.6-2+deb9u1) over (1.7.6-2) ...
-Setting up libgcrypt20:amd64 (1.7.6-2+deb9u1) ...
-Processing triggers for libc-bin (2.24-11+deb9u1) ...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Sending build context to Docker daemon  26.63MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bd3e71bc1bfd
-Removing intermediate container 99b64e117003
+ ---> 504316c28e8a
+Removing intermediate container 1090a71601b7
 Step 3/3 : CMD /bin/bash
- ---> Running in 92c2aa66a5d5
- ---> 3d6bfa94bb81
-Removing intermediate container 92c2aa66a5d5
-Successfully built 3d6bfa94bb81
+ ---> Running in ed9159a0e579
+ ---> f07f94580fcf
+Removing intermediate container ed9159a0e579
+Successfully built f07f94580fcf
 Successfully tagged minimum2scp/debian-stretch:latest
