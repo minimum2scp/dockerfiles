@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15.1-2                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-8+b2                amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-8                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.3-1                         amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
@@ -170,7 +170,7 @@ ii   libselinux1             2.6-3+b2                        amd64  SELinux runt
 ii   libsemanage-common      2.6-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.6-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-2                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.19.3-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library

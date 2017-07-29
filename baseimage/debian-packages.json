@@ -2103,10 +2103,10 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-8)",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.45+dfsg-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "510",
+    "Installed-Size": "515",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-8+b2",
+    "Version": "2.4.45+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-8"
+    "source:Version": "2.4.45+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -2134,7 +2134,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "108",
+    "Installed-Size": "110",
     "Origin": "",
     "Package": "libldap-common",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-8",
+    "Version": "2.4.45+dfsg-1",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-8"
+    "source:Version": "2.4.45+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1566",
+    "Installed-Size": "1567",
     "Origin": "",
     "Package": "libslang2",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.1-5",
+    "Version": "2.3.1a-1",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.1-5"
+    "source:Version": "2.3.1a-1"
   },
   {
     "Architecture": "amd64",
