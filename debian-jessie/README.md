@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-jessie.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-jessie.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-jessie.svg)]()
+
 # about minimum2scp/debian-jessie image
 
  * Debian jessie (8.x) amd64

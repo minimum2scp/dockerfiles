@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-stretch.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-stretch.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-stretch.svg)]()
+
 # about minimum2scp/debian-stretch image
 
  * Debian stretch (9.x) amd64
