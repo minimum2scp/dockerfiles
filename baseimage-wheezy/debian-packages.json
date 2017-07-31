@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.5.0-5+deb7u5",
+    "Version": "1.5.0-5+deb7u6",
     "binary:Package": "libgcrypt11:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "libgcrypt11",
-    "source:Version": "1.5.0-5+deb7u5"
+    "source:Version": "1.5.0-5+deb7u6"
   },
   {
     "Architecture": "amd64",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.13-2+deb7u4",
+    "Version": "2.13-2+deb7u5",
     "binary:Package": "libtasn1-3:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "libtasn1-3",
-    "source:Version": "2.13-2+deb7u4"
+    "source:Version": "2.13-2+deb7u5"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.11), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1838",
+    "Installed-Size": "1839",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.5p2-1+nmu3+deb7u3",
+    "Version": "1.8.5p2-1+nmu3+deb7u4",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "sudo",
-    "source:Version": "1.8.5p2-1+nmu3+deb7u3"
+    "source:Version": "1.8.5p2-1+nmu3+deb7u4"
   },
   {
     "Architecture": "all",
@@ -3825,7 +3825,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:7.3.547-7+deb7u3",
+    "Version": "2:7.3.547-7+deb7u4",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7+deb7u3"
+    "source:Version": "2:7.3.547-7+deb7u4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:7.3.547-7+deb7u3), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
+    "Depends": "vim-common (= 2:7.3.547-7+deb7u4), libacl1 (>= 2.2.51-8), libc6 (>= 2.11), libselinux1 (>= 1.32), libtinfo5",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "830",
@@ -3853,7 +3853,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:7.3.547-7+deb7u3",
+    "Version": "2:7.3.547-7+deb7u4",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "vim",
-    "source:Version": "2:7.3.547-7+deb7u3"
+    "source:Version": "2:7.3.547-7+deb7u4"
   },
   {
     "Architecture": "amd64",

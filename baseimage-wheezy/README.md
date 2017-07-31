@@ -120,7 +120,7 @@ ii   libedit2                2.11-20080614-5                   amd64  BSD editli
 ii   liberror-perl           0.17-1                            all    Perl module for error/exception handling in an OO-ish way
 ii   libexpat1               2.1.0-1+deb7u5                    amd64  XML parsing C library - runtime library
 ii   libgcc1                 1:4.7.2-5                         amd64  GCC support library
-ii   libgcrypt11             1.5.0-5+deb7u5                    amd64  LGPL Crypto library - runtime library
+ii   libgcrypt11             1.5.0-5+deb7u6                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-11                          amd64  GNU dbm database routines (runtime version)
 ii   libgnutls26             2.12.20-8+deb7u5                  amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                          amd64  library for common error values and messages in GnuPG components
@@ -158,7 +158,7 @@ ii   libssh2-1               1.4.2-1.1+deb7u2                  amd64  SSH2 clien
 ii   libssl1.0.0             1.0.1t-1+deb7u2                   amd64  SSL shared libraries
 ii   libstdc++6              4.7.2-5                           amd64  GNU Standard C++ Library v3
 ii   libswitch-perl          2.16-2                            all    switch statement for Perl
-ii   libtasn1-3              2.13-2+deb7u4                     amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-3              2.13-2+deb7u5                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b1                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5                             amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
@@ -192,7 +192,7 @@ ii   readline-common         6.2+dfsg-0.1                      all    GNU readli
 ii   rsyslog                 5.8.11-3+deb7u2                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.1-10                          amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.7                             all    Utilities for sensible alternative selection
-ii   sudo                    1.8.5p2-1+nmu3+deb7u3             amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.5p2-1+nmu3+deb7u4             amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-41+deb7u1                 all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1                 amd64  System-V-like utilities
@@ -201,8 +201,8 @@ ii   tzdata                  2017b-0+deb7u1                    all    time zone 
 ii   ucf                     3.0025+nmu3                       all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6                      amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                        amd64  Miscellaneous system utilities
-ii   vim-common              2:7.3.547-7+deb7u3                amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.3.547-7+deb7u3                amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.3.547-7+deb7u4                amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.3.547-7+deb7u4                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.14-11.1                      amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xz-utils                5.1.1alpha+20120614-2             amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13                   amd64  compression library - runtime
