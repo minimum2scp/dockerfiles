@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.1.0-10",
+    "Version": "7.1.0-11",
     "binary:Package": "gcc-7-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.1.0-10"
+    "source:Version": "7.1.0-11"
   },
   {
     "Architecture": "amd64",
@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>> 2.24), libc6 (<< 2.25)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3365",
+    "Installed-Size": "3361",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-12",
+    "Version": "2.24-13",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-12"
+    "source:Version": "2.24-13"
   },
   {
     "Architecture": "all",
@@ -1277,7 +1277,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-12",
+    "Version": "2.24-13",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-12"
+    "source:Version": "2.24-13"
   },
   {
     "Architecture": "amd64",
@@ -1294,7 +1294,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "10682",
+    "Installed-Size": "10676",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.24-12",
+    "Version": "2.24-13",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-12"
+    "source:Version": "2.24-13"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-7-base (= 7.1.0-10), libc6 (>= 2.14)",
+    "Depends": "gcc-7-base (= 7.1.0-11), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "108",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.1.0-10",
+    "Version": "1:7.1.0-11",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.1.0-10"
+    "source:Version": "7.1.0-11"
   },
   {
     "Architecture": "amd64",
@@ -2635,10 +2635,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "dh-make-perl (<< 0.73-1), ftpmirror (<< 1.96+dfsg-13), libcompress-raw-bzip2-perl (<< 2.074), libcompress-raw-zlib-perl (<< 2.074), libcompress-zlib-perl (<< 2.074), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 5.96), libencode-perl (<< 2.88), libhtml-template-compiled-perl (<< 0.95-1), libio-compress-base-perl (<< 2.074), libio-compress-bzip2-perl (<< 2.074), libio-compress-perl (<< 2.074), libio-compress-zlib-perl (<< 2.074), libload-perl (<< 0.20-1), libmime-base64-perl (<< 3.15), libnet-jifty-perl (<< 0.14-1), libperl-apireference-perl (<< 0.09-1), libregexp-optimizer-perl (<< 0.15-3), libsoap-lite-perl (<< 0.712-4), libstorable-perl (<< 2.62), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.15), libthreads-shared-perl (<< 1.56), libtime-hires-perl (<< 1.9741), libtime-piece-perl (<< 1.31), libxml-parser-lite-tree-perl (<< 0.14-1), libyaml-perl (<< 0.73-1), mrtg (<< 2.16.3-3.1)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.23), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3), perl-modules-5.26 (>= 5.26.0-4)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.23), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3), perl-modules-5.26 (>= 5.26.0-5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "21392",
+    "Installed-Size": "21382",
     "Origin": "",
     "Package": "libperl5.26",
     "Pre-Depends": "",
@@ -2649,7 +2649,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.26.0-4",
+    "Version": "5.26.0-5",
     "binary:Package": "libperl5.26:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.0-4"
+    "source:Version": "5.26.0-5"
   },
   {
     "Architecture": "amd64",
@@ -3279,10 +3279,10 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqbanking34-plugins, libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libktoblzcheck1c2a, liblhapdf0, libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libpythia8, libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxapian30 (<= 1.4.1-1~bpo8+1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1+b1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)",
-    "Depends": "gcc-7-base (= 7.1.0-10), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-7-base (= 7.1.0-11), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2008",
+    "Installed-Size": "2000",
     "Origin": "",
     "Package": "libstdc++6",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.1.0-10",
+    "Version": "7.1.0-11",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.1.0-10"
+    "source:Version": "7.1.0-11"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc-bin (>> 2.24), libc-l10n (>> 2.24), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9245",
+    "Installed-Size": "9246",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-12",
+    "Version": "2.24-13",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-12"
+    "source:Version": "2.24-13"
   },
   {
     "Architecture": "amd64",
@@ -3797,7 +3797,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-12",
+    "Version": "2.24-13",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-12"
+    "source:Version": "2.24-13"
   },
   {
     "Architecture": "all",
@@ -4063,7 +4063,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "libperl-dev (<< 5.24.0~), perl-doc (<< 5.26.0-1)",
-    "Depends": "perl-base (= 5.26.0-4), perl-modules-5.26 (>= 5.26.0-4), libperl5.26 (= 5.26.0-4)",
+    "Depends": "perl-base (= 5.26.0-5), perl-modules-5.26 (>= 5.26.0-5), libperl5.26 (= 5.26.0-5)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "577",
@@ -4077,7 +4077,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make",
-    "Version": "5.26.0-4",
+    "Version": "5.26.0-5",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -4085,16 +4085,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.0-4"
+    "source:Version": "5.26.0-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)",
-    "Breaks": "amanda-common (<< 1:3.3.9-2), autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), debconf (<< 1.5.61), dh-haskell (<< 0.3), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libexception-class-perl (<< 1.42), libfile-path-perl (<< 2.12.01), libfile-spec-perl (<< 3.6700), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.38), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.46.02), libsocket-perl (<< 2.020.03), libxsloader-perl (<< 0.27), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.26.0~), perl-modules (<< 5.26.0~), texinfo (<< 6.1.0.dfsg.1-8)",
+    "Breaks": "amanda-common (<< 1:3.3.9-2), autoconf2.13 (<< 2.13-45), backuppc (<< 3.3.1-2), debconf (<< 1.5.61), dh-haskell (<< 0.3), intltool (<< 0.51.0-4), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libexception-class-perl (<< 1.42), libfile-path-perl (<< 2.12.01), libfile-spec-perl (<< 3.6700), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.38), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.46.02), libsocket-perl (<< 2.020.03), libxsloader-perl (<< 0.27), mailagent (<< 1:3.1-81-2), pdl (<< 1:2.007-4), perl (<< 5.26.0~), perl-modules (<< 5.26.0~), texinfo (<< 6.1.0.dfsg.1-8)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7785",
+    "Installed-Size": "7766",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.23), dpkg (>= 1.17.17)",
@@ -4105,7 +4105,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.26.0-4",
+    "Version": "5.26.0-5",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.0-4"
+    "source:Version": "5.26.0-5"
   },
   {
     "Architecture": "all",
@@ -4122,7 +4122,7 @@
     "Depends": "perl-base (>= 5.26.0-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "18470",
+    "Installed-Size": "18471",
     "Origin": "",
     "Package": "perl-modules-5.26",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -4133,7 +4133,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.26.0-4",
+    "Version": "5.26.0-5",
     "binary:Package": "perl-modules-5.26",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4141,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.0-4"
+    "source:Version": "5.26.0-5"
   },
   {
     "Architecture": "amd64",
