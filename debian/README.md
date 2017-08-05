@@ -33,11 +33,11 @@ ii   dash                    0.5.8-2.5             amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1               amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.5-3               amd64  File comparison utilities
+ii   diffutils               1:3.6-1               amd64  File comparison utilities
 ii   dpkg                    1.18.24               amd64  Debian package management system
-ii   e2fslibs                1.43.4-2              amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.4-2              amd64  ext2/ext3/ext4 file system utilities
-ii   findutils               4.6.0+git+20170606-3  amd64  utilities for finding files--find, xargs
+ii   e2fslibs                1.43.5-1              amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.5-1              amd64  ext2/ext3/ext4 file system utilities
+ii   findutils               4.6.0+git+20170729-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-2               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-12              amd64  GCC, the GNU Compiler Collection (base package)
@@ -58,7 +58,7 @@ ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sor
 ii   libc-bin                2.24-14               amd64  GNU C Library: Binaries
 ii   libc6                   2.24-14               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
-ii   libcomerr2              1.43.4-2              amd64  common error description library
+ii   libcomerr2              1.43.5-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.229                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.168-1               amd64  library to read and write ELF files
@@ -88,7 +88,7 @@ ii   libsemanage-common      2.6-2                 all    Common files for SELin
 ii   libsemanage1            2.6-2+b1              amd64  SELinux policy management library
 ii   libsepol1               2.6-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.29.2-2              amd64  smart column output alignment library
-ii   libss2                  1.43.4-2              amd64  command-line interface parsing library
+ii   libss2                  1.43.5-1              amd64  command-line interface parsing library
 ii   libstdc++6              7.1.0-12              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             234-2                 amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1              amd64  Manage ASN.1 structures (runtime)
