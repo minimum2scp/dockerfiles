@@ -283,7 +283,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "sensible-utils",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "213",
@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8.1.1",
+    "Version": "4.8.2",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.8.1.1"
+    "source:Version": "4.8.2"
   },
   {
     "Architecture": "amd64",
