@@ -79,7 +79,7 @@ ii   curl                    7.52.1-5                        amd64  command line
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                          all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.8.1.1                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8.2                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.18.24                         amd64  Debian package management system
 ii   e2fslibs                1.43.5-1                        amd64  ext2/ext3/ext4 file system libraries
@@ -89,8 +89,8 @@ ii   findutils               4.6.0+git+20170729-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-12                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.13.3-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.13.3-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.14.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.14.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -158,6 +158,7 @@ ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
+ii   libpcre2-8-0            10.22-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-4                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.0-5                        amd64  shared Perl library
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
