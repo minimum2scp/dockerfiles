@@ -675,10 +675,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre2-8-0, zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.14.0), git-man (<< 1:2.14.0-.)",
+    "Depends": "libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre2-8-0, zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.14.1), git-man (<< 1:2.14.1-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "30809",
+    "Installed-Size": "30821",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "dpkg (>= 1.17.13)",
@@ -689,7 +689,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.14.0-1",
+    "Version": "1:2.14.1-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.14.0-1"
+    "source:Version": "1:2.14.1-1"
   },
   {
     "Architecture": "all",
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.14.0-1",
+    "Version": "1:2.14.1-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.14.0-1"
+    "source:Version": "1:2.14.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2778,7 +2778,7 @@
     "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "73",
+    "Installed-Size": "74",
     "Origin": "",
     "Package": "libpsl5",
     "Pre-Depends": "",
@@ -2789,7 +2789,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17.0-5",
+    "Version": "0.18.0-1",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.17.0-5"
+    "source:Version": "0.18.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4847,10 +4847,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "zsh-common (= 5.3.1-5), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
+    "Depends": "zsh-common (= 5.4.1-1), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2149",
+    "Installed-Size": "2181",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "dpkg (>= 1.17.14)",
@@ -4861,7 +4861,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.3.1-5",
+    "Version": "5.4.1-1",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.3.1-5"
+    "source:Version": "5.4.1-1"
   },
   {
     "Architecture": "all",
@@ -4878,7 +4878,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12673",
+    "Installed-Size": "12869",
     "Origin": "",
     "Package": "zsh-common",
     "Pre-Depends": "dpkg (>= 1.17.14)",
@@ -4889,7 +4889,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.3.1-5",
+    "Version": "5.4.1-1",
     "binary:Package": "zsh-common",
     "binary:Summary": "architecture independent files for Zsh",
     "db:Status-Abbrev": "ii ",
@@ -4897,6 +4897,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.3.1-5"
+    "source:Version": "5.4.1-1"
   }
 ]

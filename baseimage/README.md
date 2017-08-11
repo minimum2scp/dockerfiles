@@ -89,8 +89,8 @@ ii   findutils               4.6.0+git+20170729-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.1.0-13                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.14.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.14.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.14.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.14.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -164,7 +164,7 @@ ii   libperl5.26             5.26.0-5                        amd64  shared Perl 
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.17.0-5                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.18.0-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-4                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-4                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -238,6 +238,6 @@ ii   vim-tiny                2:8.0.0197-5+b1                 amd64  Vi IMproved 
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-5+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.3.1-5                         amd64  shell with lots of features
-ii   zsh-common              5.3.1-5                         all    architecture independent files for Zsh
+ii   zsh                     5.4.1-1                         amd64  shell with lots of features
+ii   zsh-common              5.4.1-1                         all    architecture independent files for Zsh
 ```
