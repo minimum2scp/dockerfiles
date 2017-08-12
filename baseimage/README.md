@@ -164,7 +164,7 @@ ii   libperl5.26             5.26.0-5                        amd64  shared Perl 
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.18.0-1                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.18.0-2                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-4                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-4                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -222,7 +222,7 @@ ii   python2.7-minimal       2.7.13-4                        amd64  Minimal subs
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.29.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.9+nmu1                      all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.20p2-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism

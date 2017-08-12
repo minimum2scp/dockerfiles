@@ -2789,7 +2789,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.18.0-1",
+    "Version": "0.18.0-2",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.18.0-1"
+    "source:Version": "0.18.0-2"
   },
   {
     "Architecture": "amd64",
@@ -4402,7 +4402,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "61",
     "Origin": "",
     "Package": "sensible-utils",
     "Pre-Depends": "",
@@ -4413,7 +4413,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.9+nmu1",
+    "Version": "0.0.10",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.9+nmu1"
+    "source:Version": "0.0.10"
   },
   {
     "Architecture": "amd64",
