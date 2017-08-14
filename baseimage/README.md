@@ -65,7 +65,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                 3.115                           all    add and remove users and groups
+ii   adduser                 3.116                           all    add and remove users and groups
 ii   apt                     1.5~beta1                       amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
@@ -75,7 +75,7 @@ ii   bsdutils                1:2.29.2-2                      amd64  basic utilit
 ii   ca-certificates         20161130+nmu1                   all    Common CA certificates
 ii   coreutils               8.26-3                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
-ii   curl                    7.52.1-5                        amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.55.0-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                          all    GnuPG archive keys of the Debian archive
@@ -115,8 +115,8 @@ ii   libc6                   2.24-14                         amd64  GNU C Librar
 ii   libcap-ng0              0.7.7-3+b1                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.5-1                        amd64  common error description library
-ii   libcurl3                7.52.1-5                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.52.1-5                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.55.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.55.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13                       amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.229                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
@@ -164,7 +164,7 @@ ii   libperl5.26             5.26.0-5                        amd64  shared Perl 
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.18.0-1                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.18.0-2                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.13-4                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.13-4                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
@@ -222,7 +222,7 @@ ii   python2.7-minimal       2.7.13-4                        amd64  Minimal subs
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.29.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.9+nmu1                      all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.20p2-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism
