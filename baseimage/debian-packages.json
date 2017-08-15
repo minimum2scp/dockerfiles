@@ -202,7 +202,7 @@
     "Depends": "openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "468",
+    "Installed-Size": "427",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -213,7 +213,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20161130+nmu1",
+    "Version": "20170717",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20161130+nmu1"
+    "source:Version": "20170717"
   },
   {
     "Architecture": "amd64",
@@ -689,7 +689,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.14.1-1",
+    "Version": "1:2.14.1-2",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.14.1-1"
+    "source:Version": "1:2.14.1-2"
   },
   {
     "Architecture": "all",
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.14.1-1",
+    "Version": "1:2.14.1-2",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.14.1-1"
+    "source:Version": "1:2.14.1-2"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "721",
+    "Installed-Size": "792",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.18-8",
+    "Version": "2.1.23-2",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.18-8"
+    "source:Version": "2.1.23-2"
   },
   {
     "Architecture": "amd64",
@@ -4706,11 +4706,11 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "vim-gui-common (<< 2:7.4.488-4~)",
+    "Breaks": "",
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "275",
+    "Installed-Size": "306",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4721,7 +4721,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-5",
+    "Version": "2:8.0.0946-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4729,16 +4729,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-5"
+    "source:Version": "2:8.0.0946-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.0197-5), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.0946-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1067",
+    "Installed-Size": "1083",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.0197-5+b1",
+    "Version": "2:8.0.0946-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-5"
+    "source:Version": "2:8.0.0946-1"
   },
   {
     "Architecture": "amd64",
@@ -4794,18 +4794,18 @@
     "Depends": "libc6 (>= 2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "168",
+    "Installed-Size": "183",
     "Origin": "",
     "Package": "xxd",
     "Pre-Depends": "",
-    "Priority": "extra",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-5+b1",
+    "Version": "2:8.0.0946-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4813,7 +4813,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-5"
+    "source:Version": "2:8.0.0946-1"
   },
   {
     "Architecture": "amd64",
