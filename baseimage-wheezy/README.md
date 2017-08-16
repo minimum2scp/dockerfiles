@@ -124,12 +124,12 @@ ii   libgcrypt11             1.5.0-5+deb7u6                    amd64  LGPL Crypt
 ii   libgdbm3                1.8.3-11                          amd64  GNU dbm database routines (runtime version)
 ii   libgnutls26             2.12.20-8+deb7u5                  amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libidn11                1.25-2+deb7u2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libk5crypto3            1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.5-3+deb7u1                    amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.31-2+deb7u3                   amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-7+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2             amd64  XZ-format compression library
