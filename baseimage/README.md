@@ -89,7 +89,7 @@ ii   fdisk                   2.29.2-4                        amd64  collection o
 ii   findutils               4.6.0+git+20170729-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.4.1-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-7-base              7.1.0-13                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-7-base              7.2.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.14.1-2                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.14.1-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.23-2                        amd64  GNU privacy guard - signature verification tool
@@ -128,7 +128,7 @@ ii   libexpat1               2.2.3-1                         amd64  XML parsing 
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
 ii   libfdisk1               2.29.2-4                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.1.0-13                      amd64  GCC support library
+ii   libgcc1                 1:7.2.0-1                       amd64  GCC support library
 ii   libgcrypt20             1.7.8-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -184,7 +184,7 @@ ii   libss2                  1.43.5-1                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-4                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.1.0-13                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              7.2.0-1                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             234-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170715-2                  amd64  shared low-level terminfo library for terminal handling
