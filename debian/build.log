@@ -60,22 +60,22 @@ I: Retrieving libelf1 0.168-1
 I: Validating libelf1 0.168-1
 I: Retrieving findutils 4.6.0+git+20170729-2
 I: Validating findutils 4.6.0+git+20170729-2
-I: Retrieving gcc-5-base 5.4.1-11
-I: Validating gcc-5-base 5.4.1-11
-I: Retrieving gcc-6-base 6.4.0-3
-I: Validating gcc-6-base 6.4.0-3
+I: Retrieving gcc-5-base 5.4.1-12
+I: Validating gcc-5-base 5.4.1-12
+I: Retrieving gcc-6-base 6.4.0-4
+I: Validating gcc-6-base 6.4.0-4
 I: Retrieving gcc-7-base 7.2.0-1
 I: Validating gcc-7-base 7.2.0-1
 I: Retrieving libgcc1 1:7.2.0-1
 I: Validating libgcc1 1:7.2.0-1
 I: Retrieving libstdc++6 7.2.0-1
 I: Validating libstdc++6 7.2.0-1
-I: Retrieving libc-bin 2.24-14
-I: Validating libc-bin 2.24-14
-I: Retrieving libc6 2.24-14
-I: Validating libc6 2.24-14
-I: Retrieving multiarch-support 2.24-14
-I: Validating multiarch-support 2.24-14
+I: Retrieving libc-bin 2.24-15
+I: Validating libc-bin 2.24-15
+I: Retrieving libc6 2.24-15
+I: Validating libc6 2.24-15
+I: Retrieving multiarch-support 2.24-15
+I: Validating multiarch-support 2.24-15
 I: Retrieving libgmp10 2:6.1.2+dfsg-1
 I: Validating libgmp10 2:6.1.2+dfsg-1
 I: Retrieving gpgv 2.1.23-2
@@ -463,11 +463,7 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [228 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-08-20-1418.29.pdiff [2796 B]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-08-20-1418.29.pdiff [2796 B]
-Fetched 259 kB in 1s (157 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -477,11 +473,11 @@ Sending build context to Docker daemon  29.16MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0e96708a4d7e
-Removing intermediate container 54d9f88652e1
+ ---> 7ae3e449f852
+Removing intermediate container cb37b3aef919
 Step 3/3 : CMD /bin/bash
- ---> Running in 9f7d8269b8f0
- ---> 0e8f46a8d40e
-Removing intermediate container 9f7d8269b8f0
-Successfully built 0e8f46a8d40e
+ ---> Running in 258e81a8e4d5
+ ---> 0c6b1bca80ad
+Removing intermediate container 258e81a8e4d5
+Successfully built 0c6b1bca80ad
 Successfully tagged minimum2scp/debian:latest

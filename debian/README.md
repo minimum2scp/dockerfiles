@@ -39,8 +39,8 @@ ii   e2fslibs                1.43.5-1              amd64  ext2/ext3/ext4 file sy
 ii   e2fsprogs               1.43.5-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.29.2-4              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170729-2  amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-11              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.4.0-3               amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-12              amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.4.0-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-1               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.23-2              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
@@ -56,8 +56,8 @@ ii   libaudit-common         1:2.7.7-1             all    Dynamic library for se
 ii   libaudit1               1:2.7.7-1+b2          amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-4              amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-14               amd64  GNU C Library: Binaries
-ii   libc6                   2.24-14               amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-15               amd64  GNU C Library: Binaries
+ii   libc6                   2.24-15               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.5-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13             amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -102,7 +102,7 @@ ii   login                   1:4.4-4.1             amd64  system login tools
 ii   lsb-base                9.20161125            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.29.2-4              amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-14               amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-15               amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20170715-2        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20170715-2        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
