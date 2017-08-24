@@ -68,7 +68,7 @@ ii   libffi6                 3.2.1-6               amd64  Foreign Function Inter
 ii   libgcc1                 1:7.2.0-1             amd64  GCC support library
 ii   libgcrypt20             1.7.8-2               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-1        amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.14-3              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.15-2              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.3-1+b1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-3               amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -91,10 +91,10 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.2-4              amd64  smart column output alignment library
 ii   libss2                  1.43.5-1              amd64  command-line interface parsing library
 ii   libstdc++6              7.2.0-1               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             234-2                 amd64  systemd utility library
+ii   libsystemd0             234-2.3               amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1              amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170715-2        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                234-2                 amd64  libudev shared library
+ii   libudev1                234-2.3               amd64  libudev shared library
 ii   libunistring2           0.9.7-2               amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-4              amd64  Universally Unique ID library
