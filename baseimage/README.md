@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                           all    add and remove users and groups
-ii   apt                     1.5~beta2                       amd64  commandline package manager
+ii   apt                     1.5~rc1                         amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
@@ -103,7 +103,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.5~beta2                       amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~rc1                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b2                    amd64  Dynamic library for security auditing
@@ -183,7 +183,7 @@ ii   libsqlite3-0            3.19.3-3                        amd64  SQLite 3 sha
 ii   libss2                  1.43.5-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0f-4                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0f-5                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-1                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             234-2.3                         amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
@@ -210,7 +210,7 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.5p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.5p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.5p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0f-4                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0f-5                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.26.0-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.0-5                        amd64  minimal Perl system
