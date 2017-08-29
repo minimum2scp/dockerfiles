@@ -90,8 +90,8 @@ ii   findutils               4.6.0+git+20170729-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-12                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-4                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.14.1-2                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.14.1-2                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.14.1-3                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.14.1-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.23-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -207,9 +207,9 @@ ii   ncurses-base            6.0+20170715-2                  all    basic termin
 ii   ncurses-bin             6.0+20170715-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.5p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.5p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.5p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.5p1-8                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.5p1-8                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.5p1-8                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-5                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.26.0-5                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -225,7 +225,7 @@ ii   rsyslog                 8.29.0-1                        amd64  reliable sys
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.20p2-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.21-1                        amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.9                    amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-like utilities
