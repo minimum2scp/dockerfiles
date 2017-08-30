@@ -418,22 +418,33 @@ Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
 Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [88.5 kB]
 Get:3 http://security.debian.org stretch/updates InRelease [62.9 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:6 http://security.debian.org stretch/updates/main amd64 Packages [144 kB]
-Fetched 295 kB in 0s (456 kB/s)
+Get:6 http://security.debian.org stretch/updates/main amd64 Packages [189 kB]
+Fetched 341 kB in 0s (472 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  libgcrypt20
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 523 kB of archives.
+After this operation, 4096 B of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 libgcrypt20 amd64 1.7.6-2+deb9u2 [523 kB]
+Fetched 523 kB in 0s (633 kB/s)
+(Reading database ... 6491 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.7.6-2+deb9u2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.7.6-2+deb9u2) over (1.7.6-2+deb9u1) ...
+Setting up libgcrypt20:amd64 (1.7.6-2+deb9u2) ...
+Processing triggers for libc-bin (2.24-11+deb9u1) ...
 Sending build context to Docker daemon  26.63MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 504316c28e8a
-Removing intermediate container 1090a71601b7
+ ---> 3a2d2631d3e9
+Removing intermediate container 41b31d0c861a
 Step 3/3 : CMD /bin/bash
- ---> Running in ed9159a0e579
- ---> f07f94580fcf
-Removing intermediate container ed9159a0e579
-Successfully built f07f94580fcf
+ ---> Running in ec86f31bc8e6
+ ---> 57be24653947
+Removing intermediate container ec86f31bc8e6
+Successfully built 57be24653947
 Successfully tagged minimum2scp/debian-stretch:latest
