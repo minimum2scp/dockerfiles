@@ -801,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.18-7+deb8u3",
+    "Version": "1.4.18-7+deb8u4",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.18-7+deb8u3"
+    "source:Version": "1.4.18-7+deb8u4"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.18-7+deb8u3",
+    "Version": "1.4.18-7+deb8u4",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.18-7+deb8u3"
+    "source:Version": "1.4.18-7+deb8u4"
   },
   {
     "Architecture": "amd64",

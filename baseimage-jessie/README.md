@@ -93,8 +93,8 @@ ii   gcc-4.8-base            4.8.4-1                           amd64  GCC, the G
 ii   gcc-4.9-base            4.9.2-10                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.1.4-2.1+deb8u4                amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.1.4-2.1+deb8u4                all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.18-7+deb8u3                   amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.18-7+deb8u3                   amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.18-7+deb8u4                   amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.18-7+deb8u4                   amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.20-4.1                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.2-8                          amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-4                             amd64  GNU compression utilities
