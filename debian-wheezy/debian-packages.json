@@ -482,7 +482,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.4), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info, gpgv",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4962",
+    "Installed-Size": "4629",
     "Origin": "",
     "Package": "gnupg",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, xloadimage | imagemagick | eog, libpcsclite1",
-    "Version": "1.4.12-7+deb7u8",
+    "Version": "1.4.12-7+deb7u9",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "gnupg",
-    "source:Version": "1.4.12-7+deb7u8"
+    "source:Version": "1.4.12-7+deb7u9"
   },
   {
     "Architecture": "amd64",
@@ -510,7 +510,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.4), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "438",
+    "Installed-Size": "403",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.12-7+deb7u8",
+    "Version": "1.4.12-7+deb7u9",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "gnupg",
-    "source:Version": "1.4.12-7+deb7u8"
+    "source:Version": "1.4.12-7+deb7u9"
   },
   {
     "Architecture": "amd64",

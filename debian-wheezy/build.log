@@ -406,16 +406,16 @@ I: Configuring gnupg...
 I: Configuring apt...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org wheezy/updates Release.gpg [1554 B]
-Get:2 http://security.debian.org wheezy/updates Release [39.0 kB]
 Hit http://ftp.jp.debian.org wheezy Release.gpg
-Get:3 http://ftp.jp.debian.org wheezy-updates Release.gpg [1554 B]
+Get:1 http://security.debian.org wheezy/updates Release.gpg [1554 B]
+Get:2 http://ftp.jp.debian.org wheezy-updates Release.gpg [1554 B]
+Get:3 http://security.debian.org wheezy/updates Release [39.0 kB]
 Hit http://ftp.jp.debian.org wheezy Release
 Get:4 http://ftp.jp.debian.org wheezy-updates Release [155 kB]
-Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [680 kB]
+Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [704 kB]
 Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7634 kB]
 Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
-Fetched 8518 kB in 25s (339 kB/s)
+Fetched 8542 kB in 24s (349 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -424,19 +424,19 @@ The following packages will be upgraded:
   tzdata
 11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 14.6 MB of archives.
-After this operation, 1024 kB of additional disk space will be used.
+After this operation, 647 kB of additional disk space will be used.
 Get:1 http://security.debian.org/ wheezy/updates/main bash amd64 4.2+dfsg-0.1+deb7u4 [1499 kB]
 Get:2 http://security.debian.org/ wheezy/updates/main login amd64 1:4.1.5.1-1+deb7u1 [984 kB]
 Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u5 [1534 kB]
 Get:4 http://security.debian.org/ wheezy/updates/main tar amd64 1.26+dfsg-0.1+deb7u1 [984 kB]
 Get:5 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u12 [1275 kB]
 Get:6 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u12 [4226 kB]
-Get:7 http://security.debian.org/ wheezy/updates/main gpgv amd64 1.4.12-7+deb7u8 [229 kB]
-Get:8 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u8 [1957 kB]
+Get:7 http://security.debian.org/ wheezy/updates/main gpgv amd64 1.4.12-7+deb7u9 [229 kB]
+Get:8 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u9 [1954 kB]
 Get:9 http://security.debian.org/ wheezy/updates/main passwd amd64 1:4.1.5.1-1+deb7u1 [1262 kB]
 Get:10 http://security.debian.org/ wheezy/updates/main tzdata all 2017b-0+deb7u1 [488 kB]
 Get:11 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u12 [152 kB]
-Fetched 14.6 MB in 14min 37s (16.6 kB/s)
+Fetched 14.6 MB in 27s (536 kB/s)
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace bash 4.2+dfsg-0.1+deb7u3 (using .../bash_4.2+dfsg-0.1+deb7u4_amd64.deb) ...
 Unpacking replacement bash ...
@@ -463,13 +463,13 @@ Preparing to replace libc6:amd64 2.13-38+deb7u10 (using .../libc6_2.13-38+deb7u1
 Unpacking replacement libc6:amd64 ...
 Setting up libc6:amd64 (2.13-38+deb7u12) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace gpgv 1.4.12-7+deb7u7 (using .../gpgv_1.4.12-7+deb7u8_amd64.deb) ...
+Preparing to replace gpgv 1.4.12-7+deb7u7 (using .../gpgv_1.4.12-7+deb7u9_amd64.deb) ...
 Unpacking replacement gpgv ...
-Setting up gpgv (1.4.12-7+deb7u8) ...
+Setting up gpgv (1.4.12-7+deb7u9) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace gnupg 1.4.12-7+deb7u7 (using .../gnupg_1.4.12-7+deb7u8_amd64.deb) ...
+Preparing to replace gnupg 1.4.12-7+deb7u7 (using .../gnupg_1.4.12-7+deb7u9_amd64.deb) ...
 Unpacking replacement gnupg ...
-Setting up gnupg (1.4.12-7+deb7u8) ...
+Setting up gnupg (1.4.12-7+deb7u9) ...
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace passwd 1:4.1.5.1-1 (using .../passwd_1%3a4.1.5.1-1+deb7u1_amd64.deb) ...
 Unpacking replacement passwd ...
@@ -482,15 +482,14 @@ Setting up tzdata (2017b-0+deb7u1) ...
 Preparing to replace multiarch-support 2.13-38+deb7u10 (using .../multiarch-support_2.13-38+deb7u12_amd64.deb) ...
 Unpacking replacement multiarch-support ...
 Setting up multiarch-support (2.13-38+deb7u12) ...
-Sending build context to Docker daemon  21.65MB
+Sending build context to Docker daemon  21.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7f4d9f34f93a
-Removing intermediate container ab37c936151a
+ ---> ca5979e04ad8
 Step 3/3 : CMD /bin/bash
- ---> Running in 8eab62abed19
- ---> a497d2fd0fd2
-Removing intermediate container 8eab62abed19
-Successfully built a497d2fd0fd2
+ ---> Running in 774b5d5153a6
+ ---> 156912a81e2d
+Removing intermediate container 774b5d5153a6
+Successfully built 156912a81e2d
 Successfully tagged minimum2scp/debian-wheezy:latest
