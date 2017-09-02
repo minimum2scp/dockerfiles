@@ -43,8 +43,8 @@ ii   e2fsprogs               1.42.12-2+b1              amd64  ext2/ext3/ext4 fil
 ii   findutils               4.4.2-9+b1                amd64  utilities for finding files--find, xargs
 ii   gcc-4.8-base            4.8.4-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-4.9-base            4.9.2-10                  amd64  GCC, the GNU Compiler Collection (base package)
-ii   gnupg                   1.4.18-7+deb8u3           amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.18-7+deb8u3           amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.18-7+deb8u4           amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.18-7+deb8u4           amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.20-4.1                  amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-4                     amd64  GNU compression utilities
 ii   hostname                3.15                      amd64  utility to set/show the host name or domain name

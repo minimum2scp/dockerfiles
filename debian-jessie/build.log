@@ -531,25 +531,39 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [539 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [561 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
 Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [17.8 kB]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9063 kB]
-Fetched 9828 kB in 7s (1385 kB/s)
+Fetched 9850 kB in 34s (283 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  gnupg gpgv
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1357 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org/ jessie/updates/main gpgv amd64 1.4.18-7+deb8u4 [209 kB]
+Get:2 http://security.debian.org/ jessie/updates/main gnupg amd64 1.4.18-7+deb8u4 [1149 kB]
+Fetched 1357 kB in 1s (781 kB/s)
+(Reading database ... 7566 files and directories currently installed.)
+Preparing to unpack .../gpgv_1.4.18-7+deb8u4_amd64.deb ...
+Unpacking gpgv (1.4.18-7+deb8u4) over (1.4.18-7+deb8u3) ...
+Setting up gpgv (1.4.18-7+deb8u4) ...
+(Reading database ... 7566 files and directories currently installed.)
+Preparing to unpack .../gnupg_1.4.18-7+deb8u4_amd64.deb ...
+Unpacking gnupg (1.4.18-7+deb8u4) over (1.4.18-7+deb8u3) ...
+Setting up gnupg (1.4.18-7+deb8u4) ...
 Sending build context to Docker daemon  30.13MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a189854a0fb6
-Removing intermediate container cdb64e627671
+ ---> 1db76d4030c8
 Step 3/3 : CMD /bin/bash
- ---> Running in c6ac2e1887cf
- ---> dba91b415188
-Removing intermediate container c6ac2e1887cf
-Successfully built dba91b415188
+ ---> Running in ce9c977e968a
+ ---> 66d985a4b0df
+Removing intermediate container ce9c977e968a
+Successfully built 66d985a4b0df
 Successfully tagged minimum2scp/debian-jessie:latest
