@@ -40,8 +40,8 @@ I: Retrieving libdb5.3 5.3.28-13.1
 I: Validating libdb5.3 5.3.28-13.1
 I: Retrieving debconf 1.5.63
 I: Validating debconf 1.5.63
-I: Retrieving debian-archive-keyring 2017.5
-I: Validating debian-archive-keyring 2017.5
+I: Retrieving debian-archive-keyring 2017.6
+I: Validating debian-archive-keyring 2017.6
 I: Retrieving debianutils 4.8.2
 I: Validating debianutils 4.8.2
 I: Retrieving diffutils 1:3.6-1
@@ -124,14 +124,14 @@ I: Retrieving liblz4-1 0.0~r131-2+b1
 I: Validating liblz4-1 0.0~r131-2+b1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw5 6.0+20170827-1
-I: Validating libncursesw5 6.0+20170827-1
-I: Retrieving libtinfo5 6.0+20170827-1
-I: Validating libtinfo5 6.0+20170827-1
-I: Retrieving ncurses-base 6.0+20170827-1
-I: Validating ncurses-base 6.0+20170827-1
-I: Retrieving ncurses-bin 6.0+20170827-1
-I: Validating ncurses-bin 6.0+20170827-1
+I: Retrieving libncursesw5 6.0+20170902-1
+I: Validating libncursesw5 6.0+20170902-1
+I: Retrieving libtinfo5 6.0+20170902-1
+I: Validating libtinfo5 6.0+20170902-1
+I: Retrieving ncurses-base 6.0+20170902-1
+I: Validating ncurses-base 6.0+20170902-1
+I: Retrieving ncurses-bin 6.0+20170902-1
+I: Validating ncurses-bin 6.0+20170902-1
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
 I: Retrieving libhogweed4 3.3-1+b1
@@ -160,10 +160,10 @@ I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 234-2.3
-I: Validating libsystemd0 234-2.3
-I: Retrieving libudev1 234-2.3
-I: Validating libudev1 234-2.3
+I: Retrieving libsystemd0 234-3
+I: Validating libsystemd0 234-3
+I: Retrieving libudev1 234-3
+I: Validating libudev1 234-3
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-2
@@ -473,10 +473,10 @@ Sending build context to Docker daemon  28.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4dab84820bb1
+ ---> 5afad996b939
 Step 3/3 : CMD /bin/bash
- ---> Running in 7d866af4e221
- ---> 4a31865e986b
-Removing intermediate container 7d866af4e221
-Successfully built 4a31865e986b
+ ---> Running in 2f8eae4a30cc
+ ---> d42484f78f99
+Removing intermediate container 2f8eae4a30cc
+Successfully built d42484f78f99
 Successfully tagged minimum2scp/debian:latest

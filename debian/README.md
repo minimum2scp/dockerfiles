@@ -31,7 +31,7 @@ ii   bsdutils                1:2.29.2-4            amd64  basic utilities from 4
 ii   coreutils               8.26-3                amd64  GNU core utilities
 ii   dash                    0.5.8-2.5             amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                all    Debian configuration management system
-ii   debian-archive-keyring  2017.5                all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2017.6                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
 ii   dpkg                    1.18.24               amd64  Debian package management system
@@ -76,7 +76,7 @@ ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression al
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-4              amd64  device mounting library
-ii   libncursesw5            6.0+20170827-1        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw5            6.0+20170902-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1              amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.7-3              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
@@ -91,10 +91,10 @@ ii   libsepol1               2.6-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.29.2-4              amd64  smart column output alignment library
 ii   libss2                  1.43.6-1              amd64  command-line interface parsing library
 ii   libstdc++6              7.2.0-3               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             234-2.3               amd64  systemd utility library
+ii   libsystemd0             234-3                 amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1              amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.0+20170827-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                234-2.3               amd64  libudev shared library
+ii   libtinfo5               6.0+20170902-1        amd64  shared low-level terminfo library for terminal handling
+ii   libudev1                234-3                 amd64  libudev shared library
 ii   libunistring2           0.9.7-2               amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-4              amd64  Universally Unique ID library
@@ -103,8 +103,8 @@ ii   lsb-base                9.20170808            all    Linux Standard Base in
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.29.2-4              amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-17               amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            6.0+20170827-1        all    basic terminal type definitions
-ii   ncurses-bin             6.0+20170827-1        amd64  terminal-related programs and man pages
+ii   ncurses-base            6.0+20170902-1        all    basic terminal type definitions
+ii   ncurses-bin             6.0+20170902-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
 ii   perl-base               5.26.0-5              amd64  minimal Perl system
