@@ -78,7 +78,7 @@ ii   cron                    3.0pl1-128+b1                   amd64  process sche
 ii   curl                    7.55.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                          all    Debian configuration management system
-ii   debian-archive-keyring  2017.5                          all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2017.6                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.18.24                         amd64  Debian package management system
@@ -149,8 +149,8 @@ ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ comp
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-4                        amd64  device mounting library
-ii   libncurses5             6.0+20170827-1                  amd64  shared libraries for terminal handling
-ii   libncursesw5            6.0+20170827-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             6.0+20170902-1                  amd64  shared libraries for terminal handling
+ii   libncursesw5            6.0+20170902-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.25.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -185,10 +185,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-5                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-3                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             234-2.3                         amd64  systemd utility library
+ii   libsystemd0             234-3                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.0+20170827-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                234-2.3                         amd64  libudev shared library
+ii   libtinfo5               6.0+20170902-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libudev1                234-3                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-4                        amd64  Universally Unique ID library
@@ -203,8 +203,8 @@ ii   mawk                    1.3.3-17+b3                     amd64  a pattern sc
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.29.2-4                        amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-17                         amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            6.0+20170827-1                  all    basic terminal type definitions
-ii   ncurses-bin             6.0+20170827-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.0+20170902-1                  all    basic terminal type definitions
+ii   ncurses-bin             6.0+20170902-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
 ii   openssh-client          1:7.5p1-10                      amd64  secure shell (SSH) client, for secure access to remote machines
