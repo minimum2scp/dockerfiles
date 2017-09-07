@@ -62,14 +62,14 @@ I: Retrieving findutils 4.6.0+git+20170729-2
 I: Validating findutils 4.6.0+git+20170729-2
 I: Retrieving gcc-5-base 5.4.1-12
 I: Validating gcc-5-base 5.4.1-12
-I: Retrieving gcc-6-base 6.4.0-4
-I: Validating gcc-6-base 6.4.0-4
-I: Retrieving gcc-7-base 7.2.0-3
-I: Validating gcc-7-base 7.2.0-3
-I: Retrieving libgcc1 1:7.2.0-3
-I: Validating libgcc1 1:7.2.0-3
-I: Retrieving libstdc++6 7.2.0-3
-I: Validating libstdc++6 7.2.0-3
+I: Retrieving gcc-6-base 6.4.0-5
+I: Validating gcc-6-base 6.4.0-5
+I: Retrieving gcc-7-base 7.2.0-4
+I: Validating gcc-7-base 7.2.0-4
+I: Retrieving libgcc1 1:7.2.0-4
+I: Validating libgcc1 1:7.2.0-4
+I: Retrieving libstdc++6 7.2.0-4
+I: Validating libstdc++6 7.2.0-4
 I: Retrieving libc-bin 2.24-17
 I: Validating libc-bin 2.24-17
 I: Retrieving libc6 2.24-17
@@ -78,8 +78,8 @@ I: Retrieving multiarch-support 2.24-17
 I: Validating multiarch-support 2.24-17
 I: Retrieving libgmp10 2:6.1.2+dfsg-1
 I: Validating libgmp10 2:6.1.2+dfsg-1
-I: Retrieving gpgv 2.1.23-2
-I: Validating gpgv 2.1.23-2
+I: Retrieving gpgv 2.2.0-1
+I: Validating gpgv 2.2.0-1
 I: Retrieving libgnutls30 3.5.15-2
 I: Validating libgnutls30 3.5.15-2
 I: Retrieving grep 3.1-2
@@ -469,14 +469,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.78MB
+Sending build context to Docker daemon  28.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3a7b4d8c07bb
+ ---> 867491b88377
 Step 3/3 : CMD /bin/bash
- ---> Running in be4cf5860222
- ---> b8ebd53832c6
-Removing intermediate container be4cf5860222
-Successfully built b8ebd53832c6
+ ---> Running in ce0c7455d936
+ ---> c23207248289
+Removing intermediate container ce0c7455d936
+Successfully built c23207248289
 Successfully tagged minimum2scp/debian:latest
