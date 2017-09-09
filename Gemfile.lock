@@ -6,13 +6,13 @@ GEM
     docker-api (1.33.6)
       excon (>= 0.38.0)
       json
-    excon (0.58.0)
+    excon (0.59.0)
     json (2.1.0)
     method_source (0.8.2)
     multi_json (1.12.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (4.1.0)
+    net-ssh (4.2.0)
     net-telnet (0.1.1)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -42,7 +42,7 @@ GEM
       specinfra (~> 2.68)
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.71.1)
+    specinfra (2.71.2)
       net-scp
       net-ssh (>= 2.7, < 5.0)
       net-telnet
