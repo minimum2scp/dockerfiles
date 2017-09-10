@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                 all    add and remove users and groups
-ii   apt                     1.5~rc1               amd64  commandline package manager
+ii   apt                     1.5~rc2               amd64  commandline package manager
 ii   base-files              10                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
@@ -50,7 +50,7 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.49                  all    helper tools for all init systems
 ii   iproute2                4.9.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.5~rc1               amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~rc2               amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b2          amd64  Dynamic library for security auditing
@@ -84,10 +84,10 @@ ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authenticati
 ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-4              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libselinux1             2.6-3+b2              amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.6-2                 all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.6-2+b1              amd64  SELinux policy management library
-ii   libsepol1               2.6-2                 amd64  SELinux library for manipulating binary security policies
+ii   libselinux1             2.7-1                 amd64  SELinux runtime shared libraries
+ii   libsemanage-common      2.7-1                 all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.7-1                 amd64  SELinux policy management library
+ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.29.2-4              amd64  smart column output alignment library
 ii   libss2                  1.43.6-1              amd64  command-line interface parsing library
 ii   libstdc++6              7.2.0-4               amd64  GNU Standard C++ Library v3
@@ -96,7 +96,6 @@ ii   libtasn1-6              4.12-2.1              amd64  Manage ASN.1 structure
 ii   libtinfo5               6.0+20170902-1        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                234-3                 amd64  libudev shared library
 ii   libunistring2           0.9.7-2               amd64  Unicode string library for C
-ii   libustr-1.0-1           1.0.4-6               amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-4              amd64  Universally Unique ID library
 ii   login                   1:4.4-4.1             amd64  system login tools
 ii   lsb-base                9.20170808            all    Linux Standard Base init script functionality

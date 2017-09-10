@@ -5,17 +5,17 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies: fdisk libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 libustr-1.0-1 
+I: Found additional required dependencies: fdisk libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 
 I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libffi6 libgmp10 libgnutls30 libhogweed4 libidn2-0 libmnl0 libnettle6 libp11-kit0 libstdc++6 libtasn1-6 libunistring2 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.116
 I: Validating adduser 3.116
-I: Retrieving apt 1.5~rc1
-I: Validating apt 1.5~rc1
-I: Retrieving libapt-pkg5.0 1.5~rc1
-I: Validating libapt-pkg5.0 1.5~rc1
+I: Retrieving apt 1.5~rc2
+I: Validating apt 1.5~rc2
+I: Retrieving libapt-pkg5.0 1.5~rc2
+I: Validating libapt-pkg5.0 1.5~rc2
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.7.7-1
@@ -106,14 +106,14 @@ I: Retrieving libidn2-0 2.0.2-3
 I: Validating libidn2-0 2.0.2-3
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
-I: Retrieving libselinux1 2.6-3+b2
-I: Validating libselinux1 2.6-3+b2
-I: Retrieving libsemanage-common 2.6-2
-I: Validating libsemanage-common 2.6-2
-I: Retrieving libsemanage1 2.6-2+b1
-I: Validating libsemanage1 2.6-2+b1
-I: Retrieving libsepol1 2.6-2
-I: Validating libsepol1 2.6-2
+I: Retrieving libselinux1 2.7-1
+I: Validating libselinux1 2.7-1
+I: Retrieving libsemanage-common 2.7-1
+I: Validating libsemanage-common 2.7-1
+I: Retrieving libsemanage1 2.7-1
+I: Validating libsemanage1 2.7-1
+I: Retrieving libsepol1 2.7-1
+I: Validating libsepol1 2.7-1
 I: Retrieving libtasn1-6 4.12-2.1
 I: Validating libtasn1-6 4.12-2.1
 I: Retrieving libunistring2 0.9.7-2
@@ -170,8 +170,6 @@ I: Retrieving tar 1.29b-2
 I: Validating tar 1.29b-2
 I: Retrieving tzdata 2017b-2
 I: Validating tzdata 2017b-2
-I: Retrieving libustr-1.0-1 1.0.4-6
-I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29.2-4
 I: Validating bsdutils 1:2.29.2-4
 I: Retrieving fdisk 2.29.2-4
@@ -256,7 +254,6 @@ I: Extracting libudev1...
 I: Extracting sysvinit-utils...
 I: Extracting tar...
 I: Extracting tzdata...
-I: Extracting libustr-1.0-1...
 I: Extracting bsdutils...
 I: Extracting fdisk...
 I: Extracting libblkid1...
@@ -331,7 +328,6 @@ I: Unpacking libudev1:amd64...
 I: Unpacking sysvinit-utils...
 I: Unpacking tar...
 I: Unpacking tzdata...
-I: Unpacking libustr-1.0-1:amd64...
 I: Unpacking bsdutils...
 I: Unpacking fdisk...
 I: Unpacking libblkid1:amd64...
@@ -365,7 +361,6 @@ I: Configuring findutils...
 I: Configuring libcap-ng0:amd64...
 I: Configuring libsepol1:amd64...
 I: Configuring libgcc1:amd64...
-I: Configuring libustr-1.0-1:amd64...
 I: Configuring sed...
 I: Configuring libsmartcols1:amd64...
 I: Configuring libaudit1:amd64...
@@ -469,14 +464,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.78MB
+Sending build context to Docker daemon   28.7MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 14093a38a152
+ ---> e4f8fd82d67d
 Step 3/3 : CMD /bin/bash
- ---> Running in e000651735f0
- ---> 3305ffc39add
-Removing intermediate container e000651735f0
-Successfully built 3305ffc39add
+ ---> Running in d7f705845242
+ ---> 5b04810e803d
+Removing intermediate container d7f705845242
+Successfully built 5b04810e803d
 Successfully tagged minimum2scp/debian:latest
