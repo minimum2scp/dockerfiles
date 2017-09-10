@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                           all    add and remove users and groups
-ii   apt                     1.5~rc1                         amd64  commandline package manager
+ii   apt                     1.5~rc2                         amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
@@ -103,7 +103,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.5~rc1                         amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~rc2                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b2                    amd64  Dynamic library for security auditing
@@ -173,10 +173,10 @@ ii   libreadline7            7.0-3                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libselinux1             2.6-3+b2                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.6-2                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.6-2+b1                        amd64  SELinux policy management library
-ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
+ii   libselinux1             2.7-1                           amd64  SELinux runtime shared libraries
+ii   libsemanage-common      2.7-1                           all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.7-1                           amd64  SELinux policy management library
+ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-4                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.20.1-1                        amd64  SQLite 3 shared library
@@ -190,7 +190,6 @@ ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1
 ii   libtinfo5               6.0+20170902-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                234-3                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
-ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-4                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-26                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
