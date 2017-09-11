@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                           all    add and remove users and groups
-ii   apt                     1.5~rc2                         amd64  commandline package manager
+ii   apt                     1.5~rc3                         amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
@@ -103,7 +103,7 @@ ii   initscripts             2.88dsf-59.9                    amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.5~rc2                         amd64  package management runtime library
+ii   libapt-pkg5.0           1.5~rc3                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.7.7-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.7.7-1+b2                    amd64  Dynamic library for security auditing
@@ -165,7 +165,7 @@ ii   libperl5.26             5.26.0-7                        amd64  shared Perl 
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.18.0-2                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.18.0-4                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.14~rc1-3                    amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.14~rc1-3                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
