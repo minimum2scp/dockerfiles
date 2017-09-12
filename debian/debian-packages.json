@@ -1126,7 +1126,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "934",
+    "Installed-Size": "945",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.168-1",
+    "Version": "0.170-0.1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.168-1"
+    "source:Version": "0.170-0.1"
   },
   {
     "Architecture": "amd64",
@@ -1347,10 +1347,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-1+b1)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "232",
+    "Installed-Size": "228",
     "Origin": "",
     "Package": "libhogweed4",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b1",
+    "Version": "3.3-2",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-1"
+    "source:Version": "3.3-2"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "358",
+    "Installed-Size": "353",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b1",
+    "Version": "3.3-2",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-1"
+    "source:Version": "3.3-2"
   },
   {
     "Architecture": "amd64",

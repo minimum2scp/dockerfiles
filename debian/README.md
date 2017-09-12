@@ -62,7 +62,7 @@ ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX cap
 ii   libcomerr2              1.43.6-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1           amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.229                 amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.168-1               amd64  library to read and write ELF files
+ii   libelf1                 0.170-0.1             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-4              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-4             amd64  GCC support library
@@ -70,14 +70,14 @@ ii   libgcrypt20             1.7.9-1               amd64  LGPL Crypto library - 
 ii   libgmp10                2:6.1.2+dfsg-1        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.15-2              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
-ii   libhogweed4             3.3-1+b1              amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.3-2                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-3               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-4              amd64  device mounting library
 ii   libncursesw5            6.0+20170902-1        amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.3-1+b1              amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.3-2                 amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.7-3              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
