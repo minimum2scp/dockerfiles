@@ -121,7 +121,7 @@ ii   libcurl3-gnutls         7.55.1-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.229                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
-ii   libelf1                 0.168-1                         amd64  library to read and write ELF files
+ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.3-1                         amd64  XML parsing C library - runtime library
@@ -135,7 +135,7 @@ ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecisi
 ii   libgnutls30             3.5.15-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.3-1+b1                        amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-3                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
@@ -151,7 +151,7 @@ ii   libmnl0                 1.0.4-2                         amd64  minimalistic
 ii   libmount1               2.29.2-4                        amd64  device mounting library
 ii   libncurses5             6.0+20170902-1                  amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20170902-1                  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.3-1+b1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.3-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.25.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.7-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
