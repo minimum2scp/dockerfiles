@@ -68,7 +68,7 @@ installed packages:
 ii   adduser                 3.116                           all    add and remove users and groups
 ii   apt                     1.5~rc3                         amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
+ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-4                      amd64  basic utilities from 4.4BSD-Lite
@@ -119,7 +119,7 @@ ii   libcomerr2              1.43.6-1                        amd64  common error
 ii   libcurl3                7.55.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.55.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.229                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.230                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -136,7 +136,7 @@ ii   libgnutls30             3.5.15-2                        amd64  GNU TLS libr
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.0.2-3                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.0.2-4                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
@@ -161,7 +161,7 @@ ii   libpam-runtime          1.1.8-3.6                       all    Runtime supp
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-4                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.0-7                        amd64  shared Perl library
+ii   libperl5.26             5.26.0-8                        amd64  shared Perl library
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
@@ -211,9 +211,9 @@ ii   openssh-server          1:7.5p1-10                      amd64  secure shell
 ii   openssh-sftp-server     1:7.5p1-10                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-5                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
-ii   perl                    5.26.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.0-7                        amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.0-7                        all    Core Perl modules
+ii   perl                    5.26.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.0-8                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.0-8                        all    Core Perl modules
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
@@ -238,6 +238,6 @@ ii   vim-tiny                2:8.0.0946-1                    amd64  Vi IMproved 
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0946-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.4.1-1                         amd64  shell with lots of features
-ii   zsh-common              5.4.1-1                         all    architecture independent files for Zsh
+ii   zsh                     5.4.2-1                         amd64  shell with lots of features
+ii   zsh-common              5.4.2-1                         all    architecture independent files for Zsh
 ```
