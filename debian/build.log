@@ -24,14 +24,14 @@ I: Retrieving libaudit1 1:2.7.7-1+b2
 I: Validating libaudit1 1:2.7.7-1+b2
 I: Retrieving base-files 10
 I: Validating base-files 10
-I: Retrieving base-passwd 3.5.43
-I: Validating base-passwd 3.5.43
+I: Retrieving base-passwd 3.5.44
+I: Validating base-passwd 3.5.44
 I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.229
-I: Validating libdebconfclient0 0.229
+I: Retrieving libdebconfclient0 0.230
+I: Validating libdebconfclient0 0.230
 I: Retrieving coreutils 8.26-3
 I: Validating coreutils 8.26-3
 I: Retrieving dash 0.5.8-2.5
@@ -102,8 +102,8 @@ I: Retrieving libgcrypt20 1.7.9-1
 I: Validating libgcrypt20 1.7.9-1
 I: Retrieving libgpg-error0 1.27-3
 I: Validating libgpg-error0 1.27-3
-I: Retrieving libidn2-0 2.0.2-3
-I: Validating libidn2-0 2.0.2-3
+I: Retrieving libidn2-0 2.0.2-4
+I: Validating libidn2-0 2.0.2-4
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
 I: Retrieving libselinux1 2.7-1
@@ -150,8 +150,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-4
 I: Validating libpcre3 2:8.39-4
-I: Retrieving perl-base 5.26.0-7
-I: Validating perl-base 5.26.0-7
+I: Retrieving perl-base 5.26.0-8
+I: Validating perl-base 5.26.0-8
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.10
@@ -464,14 +464,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.72MB
+Sending build context to Docker daemon  28.71MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 390c95ae3c45
+ ---> 6855c5c6dca0
 Step 3/3 : CMD /bin/bash
- ---> Running in 440ef337289a
- ---> 650ead2372ec
-Removing intermediate container 440ef337289a
-Successfully built 650ead2372ec
+ ---> Running in 13081e911626
+ ---> 717d2b413af8
+Removing intermediate container 13081e911626
+Successfully built 717d2b413af8
 Successfully tagged minimum2scp/debian:latest

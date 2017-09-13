@@ -25,7 +25,7 @@ installed packages:
 ii   adduser                 3.116                 all    add and remove users and groups
 ii   apt                     1.5~rc3               amd64  commandline package manager
 ii   base-files              10                    amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.43                amd64  Debian base system master password and group files
+ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-4            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.26-3                amd64  GNU core utilities
@@ -61,7 +61,7 @@ ii   libc6                   2.24-17               amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3+b1            amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.6-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1           amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.229                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.230                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.1             amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-4              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6               amd64  Foreign Function Interface library runtime
@@ -71,7 +71,7 @@ ii   libgmp10                2:6.1.2+dfsg-1        amd64  Multiprecision arithme
 ii   libgnutls30             3.5.15-2              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.3-2                 amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.0.2-3               amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.0.2-4               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
@@ -106,7 +106,7 @@ ii   ncurses-base            6.0+20170902-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20170902-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1             amd64  change and administer password and group data
-ii   perl-base               5.26.0-7              amd64  minimal Perl system
+ii   perl-base               5.26.0-8              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.10                all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9          amd64  System-V-like utilities

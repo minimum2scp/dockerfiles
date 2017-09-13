@@ -90,7 +90,7 @@
     "Depends": "libc6 (>= 2.8), libdebconfclient0 (>= 0.145)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "229",
+    "Installed-Size": "228",
     "Origin": "",
     "Package": "base-passwd",
     "Pre-Depends": "",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.43",
+    "Version": "3.5.44",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.43"
+    "source:Version": "3.5.44"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.229",
+    "Version": "0.230",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.229"
+    "source:Version": "0.230"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.2-3",
+    "Version": "2.0.2-4",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2-0",
-    "source:Version": "2.0.2-3"
+    "source:Version": "2.0.2-4"
   },
   {
     "Architecture": "amd64",
@@ -2369,7 +2369,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.26.0-7",
+    "Version": "5.26.0-8",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.0-7"
+    "source:Version": "5.26.0-8"
   },
   {
     "Architecture": "amd64",
