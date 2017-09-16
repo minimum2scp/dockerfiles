@@ -61,7 +61,7 @@ If you need root privilege, use `sudo bash -lc "..."`.
 For example, install LTS version of nodejs:
 
 ```
-sudo bash -lc "nodenv install 6.11.2"
+sudo bash -lc "nodenv install 6.11.3"
 ```
 
 
