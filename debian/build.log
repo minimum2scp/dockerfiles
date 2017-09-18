@@ -102,8 +102,8 @@ I: Retrieving libgcrypt20 1.7.9-1
 I: Validating libgcrypt20 1.7.9-1
 I: Retrieving libgpg-error0 1.27-3
 I: Validating libgpg-error0 1.27-3
-I: Retrieving libidn2-0 2.0.2-4
-I: Validating libidn2-0 2.0.2-4
+I: Retrieving libidn2-0 2.0.2-5
+I: Validating libidn2-0 2.0.2-5
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
 I: Retrieving libselinux1 2.7-2
@@ -464,14 +464,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   28.7MB
+Sending build context to Docker daemon  28.71MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ce8a0f76ef7b
+ ---> 750817803deb
 Step 3/3 : CMD /bin/bash
- ---> Running in ccc3ddcdff5e
- ---> 311d287a8afb
-Removing intermediate container ccc3ddcdff5e
-Successfully built 311d287a8afb
+ ---> Running in 58ed2e5da065
+ ---> aee8e493e7ac
+Removing intermediate container 58ed2e5da065
+Successfully built aee8e493e7ac
 Successfully tagged minimum2scp/debian:latest
