@@ -136,7 +136,7 @@ ii   libgnutls30             3.5.15-2                        amd64  GNU TLS libr
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.0.2-4                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.0.2-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
@@ -167,8 +167,8 @@ ii   libpopt0                1.16-10+b2                      amd64  lib for pars
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.18.0-4                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.14~rc1-3                    amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.14~rc1-3                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.14-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-3                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
@@ -217,8 +217,8 @@ ii   perl-modules-5.26       5.26.0-8                        all    Core Perl mo
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.14~rc1-3                    amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.14~rc1-3                    amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.14-2                        amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.29.0-2                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
