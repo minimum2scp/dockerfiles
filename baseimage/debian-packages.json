@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4.0-5",
+    "Version": "6.4.0-6",
     "binary:Package": "gcc-6-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-6",
-    "source:Version": "6.4.0-5"
+    "source:Version": "6.4.0-6"
   },
   {
     "Architecture": "amd64",
@@ -689,7 +689,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.2.0-4",
+    "Version": "7.2.0-5",
     "binary:Package": "gcc-7-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.2.0-4"
+    "source:Version": "7.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-7-base (= 7.2.0-4), libc6 (>= 2.14)",
+    "Depends": "gcc-7-base (= 7.2.0-5), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "108",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.2.0-4",
+    "Version": "1:7.2.0-5",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.2.0-4"
+    "source:Version": "7.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.2-4",
+    "Version": "2.0.2-5",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2-0",
-    "source:Version": "2.0.2-4"
+    "source:Version": "2.0.2-5"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.14~rc1-3",
+    "Version": "2.7.14-2",
     "binary:Package": "libpython2.7-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2881,16 +2881,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.14~rc1-3"
+    "source:Version": "2.7.14-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cython (<< 0.26-2.1), epigrass (<= 2.4.7-1), invesalius-bin (<= 3.1.1-1), macs (<= 2.1.1.20160309-1), printrun (<= 0~20150310-5), pycorrfit (<= 1.0.0+dfsg-1), pyscanfcs (<= 0.2.3-3), python-acora (<= 2.0-2+b1), python-adios (<= 1.12.0-3), python-astroml-addons (<= 0.2.2-4), python-astropy (<= 2.0.1-2), python-astroscrappy (<= 1.0.5-1+b1), python-bcolz (<= 1.1.0+ds1-4+b1), python-breezy (<= 3.0.0~bzr6772-1), python-bzrlib (<= 2.7.0+bzr6622-7), python-cartopy (<= 0.14.2+dfsg1-2+b1), python-cogent (<= 1.9-11), python-cutadapt (<= 1.13-1+b1), python-cypari2 (<= 1.0.0-3), python-dipy-lib (<= 0.12.0-1), python-djvu (<= 0.8-2), python-fabio (<= 0.4.0+dfsg-2+b1), python-falcon (<= 1.0.0-2+b1), python-fiona (<= 1.7.9-1), python-fpylll (<= 0.2.4+ds-3), python-grib (<= 2.0.2-2), python-gssapi (<= 1.2.0-1+b1), python-h5py (<= 2.7.0-1+b1), python-healpy (<= 1.10.3-2+b1), python-htseq (<= 0.6.1p1-4), python-imobiledevice (<= 1.2.0+dfsg-3.1), python-kivy (<= 1.9.1-1+b1), python-libdiscid (<= 1.0-1+b1), python-liblo (<= 0.10.0-3+b1), python-llfuse (<= 1.2+dfsg-1+b1), python-lxml (<< 3.8.0-2), python-meliae (<= 0.4.0+bzr199-3), python-netcdf4 (<= 1.2.9-1+b1), python-nipy-lib (<= 0.4.1-1), python-numpy (<< 1:1.12.1-3.1), python-pandas-lib (<= 0.20.3-1), python-petsc4py (<= 3.7.0-3+b1), python-pybloomfiltermmap (<= 0.3.15-0.1+b1), python-pyfai (<= 0.13.0+dfsg-1+b1), python-pygame-sdl2 (<= 6.99.12.4-1), python-pygpu (<= 0.6.9-2), python-pymca5 (<= 5.1.3+dfsg-1+b1), python-pymssql (<= 2.1.3+dfsg-1+b1), python-pyresample (<= 1.5.0-3+b1), python-pysam (<= 0.11.2.2+ds-3), python-pysph (<= 0~20160514.git91867dc-4), python-pywt (<= 0.5.1-1.1+b1), python-rasterio (<= 0.36.0-2+b2), python-renpy (<= 6.99.12.4+dfsg-1), python-scipy (<< 0.18.1-2.1), python-sfepy (<= 2016.2-2), python-sfml (<= 2.2~git20150611.196c88+dfsg-4), python-shapely (<= 1.6.1-1), python-skimage-lib (<= 0.12.3-9+b1), python-sklearn-lib (<= 0.19.0-1), python-specutils (<= 0.2.2-1+b1), python-statsmodels-lib (<= 0.8.0-3), python-stemmer (<= 1.3.0+dfsg-1+b7), python-tables-lib (<= 3.3.0-5+b1), python-tinycss (<= 0.4-1+b1), python-tk (<< 2.7.14~rc1-1~), python-urllib3 (<< 1.9.1-3), python-wheezy.template (<= 0.1.167-1.1+b1), python-yt (<= 3.3.3-2+b1), sagemath (<= 8.0-5), xpra (<= 0.17.6+dfsg-1)",
-    "Depends": "libpython2.7-minimal (= 2.7.14~rc1-3), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libssl1.1 (>= 1.1.0), libtinfo5 (>= 6)",
+    "Depends": "libpython2.7-minimal (= 2.7.14-2), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libssl1.1 (>= 1.1.0), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8781",
+    "Installed-Size": "8785",
     "Origin": "",
     "Package": "libpython2.7-stdlib",
     "Pre-Depends": "",
@@ -2901,7 +2901,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.14~rc1-3",
+    "Version": "2.7.14-2",
     "binary:Package": "libpython2.7-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.14~rc1-3"
+    "source:Version": "2.7.14-2"
   },
   {
     "Architecture": "amd64",
@@ -3335,7 +3335,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqbanking34-plugins, libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libktoblzcheck1c2a, liblhapdf0, libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libpythia8, libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxapian30 (<= 1.4.1-1~bpo8+1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), openscad (<= 2014.03+dfsg-1+b1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)",
-    "Depends": "gcc-7-base (= 7.2.0-4), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-7-base (= 7.2.0-5), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2000",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.2.0-4",
+    "Version": "7.2.0-5",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-7",
-    "source:Version": "7.2.0-4"
+    "source:Version": "7.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -4259,10 +4259,10 @@
     "Architecture": "amd64",
     "Conflicts": "python-profiler (<= 2.7.1-2)",
     "Breaks": "python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)",
-    "Depends": "python2.7-minimal (= 2.7.14~rc1-3), libpython2.7-stdlib (= 2.7.14~rc1-3), mime-support",
+    "Depends": "python2.7-minimal (= 2.7.14-2), libpython2.7-stdlib (= 2.7.14-2), mime-support",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "198",
+    "Installed-Size": "366",
     "Origin": "",
     "Package": "python2.7",
     "Pre-Depends": "",
@@ -4273,7 +4273,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python2.7-doc, binutils",
-    "Version": "2.7.14~rc1-3",
+    "Version": "2.7.14-2",
     "binary:Package": "python2.7",
     "binary:Summary": "Interactive high-level object-oriented language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4281,16 +4281,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.14~rc1-3"
+    "source:Version": "2.7.14-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython2.7-minimal (= 2.7.14~rc1-3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython2.7-minimal (= 2.7.14-2), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3719",
+    "Installed-Size": "3743",
     "Origin": "",
     "Package": "python2.7-minimal",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -4301,7 +4301,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "2.7.14~rc1-3",
+    "Version": "2.7.14-2",
     "binary:Package": "python2.7-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.14~rc1-3"
+    "source:Version": "2.7.14-2"
   },
   {
     "Architecture": "all",
