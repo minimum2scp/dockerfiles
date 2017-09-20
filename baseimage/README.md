@@ -92,7 +92,7 @@ ii   gcc-6-base              6.4.0-6                         amd64  GCC, the GNU
 ii   gcc-7-base              7.2.0-5                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.14.1-3                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.14.1-3                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.0-3                         amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.1-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -160,13 +160,13 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-4                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-5                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.0-8                        amd64  shared Perl library
 ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.18.0-4                        amd64  Library for Public Suffix List (shared libraries)
-ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
+ii   libpython-stdlib        2.7.14-1                        amd64  interactive high-level object-oriented language (default python version)
 ii   libpython2.7-minimal    2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.14-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-3                           amd64  GNU readline and history libraries, run-time libraries
@@ -215,8 +215,8 @@ ii   perl                    5.26.0-8                        amd64  Larry Wall's
 ii   perl-base               5.26.0-8                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.0-8                        all    Core Perl modules
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
-ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
-ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
+ii   python                  2.7.14-1                        amd64  interactive high-level object-oriented language (default version)
+ii   python-minimal          2.7.14-1                        amd64  minimal subset of the Python language (default version)
 ii   python2.7               2.7.14-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files

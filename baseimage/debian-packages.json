@@ -762,7 +762,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.7.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "799",
+    "Installed-Size": "800",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.0-3",
+    "Version": "2.2.1-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.0-3"
+    "source:Version": "2.2.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2666,7 +2666,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "668",
+    "Installed-Size": "664",
     "Origin": "",
     "Package": "libpcre3",
     "Pre-Depends": "",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.39-4",
+    "Version": "2:8.39-5",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Old Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.39-4"
+    "source:Version": "2:8.39-5"
   },
   {
     "Architecture": "amd64",
@@ -2831,7 +2831,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpython2.7-stdlib (>= 2.7.13-1~)",
+    "Depends": "libpython2.7-stdlib (>= 2.7.14-1~)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "37",
@@ -2845,7 +2845,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.13-2",
+    "Version": "2.7.14-1",
     "binary:Package": "libpython-stdlib:amd64",
     "binary:Summary": "interactive high-level object-oriented language (default python version)",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python-defaults",
-    "source:Version": "2.7.13-2"
+    "source:Version": "2.7.14-1"
   },
   {
     "Architecture": "amd64",
@@ -4203,21 +4203,21 @@
     "Architecture": "amd64",
     "Conflicts": "python-central (<< 0.5.5)",
     "Breaks": "update-manager-core (<< 0.200.5-2)",
-    "Depends": "python2.7 (>= 2.7.13-1~), libpython-stdlib (= 2.7.13-2)",
+    "Depends": "python2.7 (>= 2.7.14-1~), libpython-stdlib (= 2.7.14-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "648",
+    "Installed-Size": "626",
     "Origin": "",
     "Package": "python",
-    "Pre-Depends": "python-minimal (= 2.7.13-2)",
+    "Pre-Depends": "python-minimal (= 2.7.14-1)",
     "Priority": "optional",
     "Provides": "python-ctypes, python-email, python-importlib, python-profiler, python-wsgiref",
     "Recommends": "",
     "Replace": "",
     "Section": "python",
     "Status": "install ok installed",
-    "Suggests": "python-doc (= 2.7.13-2), python-tk (>= 2.7.13-1~)",
-    "Version": "2.7.13-2",
+    "Suggests": "python-doc (= 2.7.14-1), python-tk (>= 2.7.14-1~)",
+    "Version": "2.7.14-1",
     "binary:Package": "python",
     "binary:Summary": "interactive high-level object-oriented language (default version)",
     "db:Status-Abbrev": "ii ",
@@ -4225,13 +4225,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python-defaults",
-    "source:Version": "2.7.13-2"
+    "source:Version": "2.7.14-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "python-central (<< 0.5.5)",
     "Breaks": "idle (<< 2.6), python (<= 2.7.3-1~), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)",
-    "Depends": "python2.7-minimal (>= 2.7.13-1~), dpkg (>= 1.13.20)",
+    "Depends": "python2.7-minimal (>= 2.7.14-1~), dpkg (>= 1.13.20)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "145",
@@ -4245,7 +4245,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.13-2",
+    "Version": "2.7.14-1",
     "binary:Package": "python-minimal",
     "binary:Summary": "minimal subset of the Python language (default version)",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python-defaults",
-    "source:Version": "2.7.13-2"
+    "source:Version": "2.7.14-1"
   },
   {
     "Architecture": "amd64",
