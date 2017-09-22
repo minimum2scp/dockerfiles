@@ -8,7 +8,7 @@
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * mruby is installed
    * mruby package (by apt)
-   * mruby-1.0.0 (by rbenv install)
+   * mruby-1.3.0 (by rbenv install)
    * mruby-dev (by rbenv install)
 
 ## start container
