@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-wheezy.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-wheezy.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-wheezy.svg)]()
+
 # about minimum2scp/debian-wheezy image
 
  * Debian wheezy (7.x) amd64
@@ -35,8 +39,8 @@ ii   e2fslibs                1.42.5-1.1+deb7u1      amd64  ext2/ext3/ext4 file s
 ii   e2fsprogs               1.42.5-1.1+deb7u1      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.4.2-4                amd64  utilities for finding files--find, xargs
 ii   gcc-4.7-base            4.7.2-5                amd64  GCC, the GNU Compiler Collection (base package)
-ii   gnupg                   1.4.12-7+deb7u8        amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.12-7+deb7u8        amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.12-7+deb7u9        amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.12-7+deb7u9        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.12-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.5-1.1                amd64  GNU compression utilities
 ii   hostname                3.11                   amd64  utility to set/show the host name or domain name

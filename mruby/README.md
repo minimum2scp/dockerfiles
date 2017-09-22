@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/mruby.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/mruby.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/mruby.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/mruby.svg)]()
+
 # about minimum2scp/mruby image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)

@@ -1,7 +1,12 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/nodejs.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/nodejs.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/nodejs.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/nodejs.svg)]()
+
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v8.1.2 is installed with [nodenv](https://github.com/nodenv/nodenv)
+ * node.js v8.5.0 is installed with [nodenv](https://github.com/nodenv/nodenv)
  * nodenv is installed in /opt/nodenv
  * [yarn](https://yarnpkg.com/) is installed with deb package
 
@@ -56,7 +61,7 @@ If you need root privilege, use `sudo bash -lc "..."`.
 For example, install LTS version of nodejs:
 
 ```
-sudo bash -lc "nodenv install 6.11.0"
+sudo bash -lc "nodenv install 6.11.3"
 ```
 
 

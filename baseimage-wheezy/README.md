@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/baseimage-wheezy.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/baseimage-wheezy.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/baseimage-wheezy.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/baseimage-wheezy.svg)]()
+
 # about minimum2scp/wheezy-baseimage image
 
  * based on minimum2scp/debian-wheezy image
@@ -71,7 +76,7 @@ ii   bsdutils                1:2.20.1-5.3                      amd64  Basic util
 ii   ca-certificates         20130119+deb7u1                   all    Common CA certificates
 ii   coreutils               8.13-3.5                          amd64  GNU core utilities
 ii   cron                    3.0pl1-124                        amd64  process scheduling daemon
-ii   curl                    7.26.0-1+wheezy19                 amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.26.0-1+wheezy20                 amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-3                           amd64  POSIX-compliant shell
 ii   debconf                 1.5.49                            all    Debian configuration management system
 ii   debconf-i18n            1.5.49                            all    full internationalization support for debconf
@@ -84,10 +89,10 @@ ii   e2fsprogs               1.42.5-1.1+deb7u1                 amd64  ext2/ext3/
 ii   etckeeper               0.63                              all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.4.2-4                           amd64  utilities for finding files--find, xargs
 ii   gcc-4.7-base            4.7.2-5                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:1.7.10.4-1+wheezy4              amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:1.7.10.4-1+wheezy4              all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.12-7+deb7u8                   amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.12-7+deb7u8                   amd64  GNU privacy guard - signature verification tool
+ii   git                     1:1.7.10.4-1+wheezy5              amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:1.7.10.4-1+wheezy5              all    fast, scalable, distributed revision control system (manual pages)
+ii   gnupg                   1.4.12-7+deb7u9                   amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.12-7+deb7u9                   amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.12-2                            amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.21-9                            amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.5-1.1                           amd64  GNU compression utilities
@@ -108,23 +113,23 @@ ii   libc6                   2.13-38+deb7u12                   amd64  Embedded G
 ii   libcap2                 1:2.22-1.2                        amd64  support for getting/setting POSIX.1e capabilities
 ii   libclass-isa-perl       0.36-3                            all    report the search path for a class's ISA tree
 ii   libcomerr2              1.42.5-1.1+deb7u1                 amd64  common error description library
-ii   libcurl3                7.26.0-1+wheezy19                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.26.0-1+wheezy19                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.26.0-1+wheezy20                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.26.0-1+wheezy20                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.1                5.1.29-5                          amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libedit2                2.11-20080614-5                   amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1                            all    Perl module for error/exception handling in an OO-ish way
 ii   libexpat1               2.1.0-1+deb7u5                    amd64  XML parsing C library - runtime library
 ii   libgcc1                 1:4.7.2-5                         amd64  GCC support library
-ii   libgcrypt11             1.5.0-5+deb7u5                    amd64  LGPL Crypto library - runtime library
+ii   libgcrypt11             1.5.0-5+deb7u6                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-11                          amd64  GNU dbm database routines (runtime version)
 ii   libgnutls26             2.12.20-8+deb7u5                  amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libidn11                1.25-2+deb7u2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libk5crypto3            1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.5-3+deb7u1                    amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.10.1+dfsg-5+deb7u7              amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.31-2+deb7u3                   amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-7+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2             amd64  XZ-format compression library
@@ -153,7 +158,7 @@ ii   libssh2-1               1.4.2-1.1+deb7u2                  amd64  SSH2 clien
 ii   libssl1.0.0             1.0.1t-1+deb7u2                   amd64  SSL shared libraries
 ii   libstdc++6              4.7.2-5                           amd64  GNU Standard C++ Library v3
 ii   libswitch-perl          2.16-2                            all    switch statement for Perl
-ii   libtasn1-3              2.13-2+deb7u4                     amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-3              2.13-2+deb7u5                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b1                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5                             amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
@@ -187,7 +192,7 @@ ii   readline-common         6.2+dfsg-0.1                      all    GNU readli
 ii   rsyslog                 5.8.11-3+deb7u2                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.1-10                          amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.7                             all    Utilities for sensible alternative selection
-ii   sudo                    1.8.5p2-1+nmu3+deb7u3             amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.5p2-1+nmu3+deb7u4             amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-41+deb7u1                 all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1                 amd64  System-V-like utilities
@@ -196,8 +201,8 @@ ii   tzdata                  2017b-0+deb7u1                    all    time zone 
 ii   ucf                     3.0025+nmu3                       all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6                      amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                        amd64  Miscellaneous system utilities
-ii   vim-common              2:7.3.547-7+deb7u3                amd64  Vi IMproved - Common files
-ii   vim-tiny                2:7.3.547-7+deb7u3                amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:7.3.547-7+deb7u4                amd64  Vi IMproved - Common files
+ii   vim-tiny                2:7.3.547-7+deb7u4                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.14-11.1                      amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xz-utils                5.1.1alpha+20120614-2             amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13                   amd64  compression library - runtime
