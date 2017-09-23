@@ -2453,7 +2453,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.9",
+    "Version": "2.88dsf-59.10",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.9"
+    "source:Version": "2.88dsf-59.10"
   },
   {
     "Architecture": "amd64",
