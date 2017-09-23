@@ -958,7 +958,7 @@
     "Depends": "mount (>= 2.11x-1), debianutils (>= 4), lsb-base (>= 3.2-14), sysvinit-utils (>= 2.88dsf-59.5), sysv-rc | file-rc | openrc, coreutils (>= 5.93)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "208",
+    "Installed-Size": "205",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.9",
+    "Version": "2.88dsf-59.10",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.9"
+    "source:Version": "2.88dsf-59.10"
   },
   {
     "Architecture": "amd64",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bum",
-    "Version": "2.88dsf-59.9",
+    "Version": "2.88dsf-59.10",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.9"
+    "source:Version": "2.88dsf-59.10"
   },
   {
     "Architecture": "amd64",
@@ -4525,7 +4525,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.88dsf-59.9",
+    "Version": "2.88dsf-59.10",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.9"
+    "source:Version": "2.88dsf-59.10"
   },
   {
     "Architecture": "amd64",
@@ -4553,7 +4553,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.9",
+    "Version": "2.88dsf-59.10",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.9"
+    "source:Version": "2.88dsf-59.10"
   },
   {
     "Architecture": "amd64",

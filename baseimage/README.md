@@ -99,7 +99,7 @@ ii   gzip                    1.6-5+b1                        amd64  GNU compress
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
 ii   init-system-helpers     1.49                            all    helper tools for all init systems
-ii   initscripts             2.88dsf-59.9                    amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-2                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
@@ -225,9 +225,9 @@ ii   sed                     4.4-1                           amd64  GNU stream e
 ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.21p2-1                      amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.88dsf-59.9                    amd64  System-V-like init utilities
-ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-like utilities
+ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
+ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
 ii   tzdata                  2017b-2                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
