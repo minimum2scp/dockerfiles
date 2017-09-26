@@ -90,8 +90,8 @@ ii   findutils               4.6.0+git+20170729-2            amd64  utilities fo
 ii   gcc-5-base              5.4.1-12                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.14.1-3                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.14.1-3                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.14.2-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.14.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.1-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
