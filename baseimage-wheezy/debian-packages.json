@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.25-2+deb7u2",
+    "Version": "1.25-2+deb7u3",
     "binary:Package": "libidn11:amd64",
     "binary:Summary": "GNU Libidn library, implementation of IETF IDN specifications",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "libidn",
-    "source:Version": "1.25-2+deb7u2"
+    "source:Version": "1.25-2+deb7u3"
   },
   {
     "Architecture": "amd64",
