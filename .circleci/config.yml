@@ -38,7 +38,7 @@ jobs:
           name: Install digdag
           command: |
             set -x
-            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.12"
+            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.16"
             sudo chmod +x /usr/local/bin/digdag
 
       - run: digdag --version
