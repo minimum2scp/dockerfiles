@@ -91,8 +91,8 @@ ii   etckeeper               1.15                              all    store /etc
 ii   findutils               4.4.2-9+b1                        amd64  utilities for finding files--find, xargs
 ii   gcc-4.8-base            4.8.4-1                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-4.9-base            4.9.2-10                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.1.4-2.1+deb8u4                amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.1.4-2.1+deb8u4                all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.1.4-2.1+deb8u5                amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.1.4-2.1+deb8u5                all    fast, scalable, distributed revision control system (manual pages)
 ii   gnupg                   1.4.18-7+deb8u4                   amd64  GNU privacy guard - a free PGP replacement
 ii   gpgv                    1.4.18-7+deb8u4                   amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.20-4.1                          amd64  GNU grep, egrep and fgrep
@@ -206,9 +206,9 @@ ii   openssh-server          1:6.7p1-5+deb8u3                  amd64  secure she
 ii   openssh-sftp-server     1:6.7p1-5+deb8u3                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u6                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
-ii   perl                    5.20.2-3+deb8u8                   amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.20.2-3+deb8u8                   amd64  minimal Perl system
-ii   perl-modules            5.20.2-3+deb8u8                   all    Core Perl modules
+ii   perl                    5.20.2-3+deb8u9                   amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.20.2-3+deb8u9                   amd64  minimal Perl system
+ii   perl-modules            5.20.2-3+deb8u9                   all    Core Perl modules
 ii   procps                  2:3.3.9-9                         amd64  /proc file system utilities
 ii   readline-common         6.3-8                             all    GNU readline and history libraries, common files
 ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable system and kernel logging daemon
