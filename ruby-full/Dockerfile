@@ -1,5 +1,5 @@
 FROM minimum2scp/ruby:latest
-MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/ruby-full
 RUN run-parts --report --exit-on-error /tmp/build/ruby-full/scripts && rm -rfv /tmp/build

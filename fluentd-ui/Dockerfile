@@ -1,5 +1,5 @@
 FROM minimum2scp/ruby:latest
-MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 ADD build /tmp/build/fluentd-ui
 RUN run-parts --report --exit-on-error /tmp/build/fluentd-ui/scripts && rm -rfv /tmp/build
