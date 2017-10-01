@@ -156,10 +156,10 @@ I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.10
 I: Validating sensible-utils 0.0.10
-I: Retrieving login 1:4.4-4.1
-I: Validating login 1:4.4-4.1
-I: Retrieving passwd 1:4.4-4.1
-I: Validating passwd 1:4.4-4.1
+I: Retrieving login 1:4.5-1
+I: Validating login 1:4.5-1
+I: Retrieving passwd 1:4.5-1
+I: Validating passwd 1:4.5-1
 I: Retrieving libsystemd0 234-3
 I: Validating libsystemd0 234-3
 I: Retrieving libudev1 234-3
@@ -468,10 +468,10 @@ Sending build context to Docker daemon  28.73MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5c3ebec1bde1
+ ---> 4cc8f7cf11dc
 Step 3/3 : CMD /bin/bash
- ---> Running in 5b584caf29a7
- ---> fe3f930769e4
-Removing intermediate container 5b584caf29a7
-Successfully built fe3f930769e4
+ ---> Running in 9d552c8736ab
+ ---> 95c8261cc7c5
+Removing intermediate container 9d552c8736ab
+Successfully built 95c8261cc7c5
 Successfully tagged minimum2scp/debian:latest
