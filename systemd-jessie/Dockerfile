@@ -1,5 +1,5 @@
 FROM minimum2scp/baseimage-jessie:latest
-MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/systemd-jessie
 RUN run-parts --report --exit-on-error /tmp/build/systemd-jessie/scripts && rm -rfv /tmp/build

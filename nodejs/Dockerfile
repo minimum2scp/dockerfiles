@@ -1,5 +1,5 @@
 FROM minimum2scp/baseimage:latest
-MAINTAINER YAMADA Tsuyoshi <tyamada@minimum2scp.org>
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/nodejs
 RUN run-parts --report --exit-on-error /tmp/build/nodejs/scripts && rm -rfv /tmp/build
