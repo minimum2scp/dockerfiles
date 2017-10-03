@@ -73,7 +73,7 @@ ii   bash                    4.4-5                           amd64  GNU Bourne A
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-5                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
-ii   coreutils               8.26-3                          amd64  GNU core utilities
+ii   coreutils               8.28-1                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
 ii   curl                    7.55.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
@@ -224,7 +224,7 @@ ii   rsyslog                 8.29.0-2                        amd64  reliable sys
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.21p2-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.21p2-2                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
