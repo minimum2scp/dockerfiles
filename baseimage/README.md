@@ -87,7 +87,7 @@ ii   e2fsprogs               1.43.6-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.29.2-5+b1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170729-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.4.1-12                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.4.1-14                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.14.2-1                      amd64  fast, scalable, distributed revision control system
@@ -131,7 +131,7 @@ ii   libffi6                 3.2.1-6                         amd64  Foreign Func
 ii   libgcc1                 1:7.2.0-8                       amd64  GCC support library
 ii   libgcrypt20             1.7.9-1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
-ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.15-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
