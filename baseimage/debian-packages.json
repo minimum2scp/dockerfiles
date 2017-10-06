@@ -1602,7 +1602,7 @@
     "Depends": "perl",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "65",
+    "Installed-Size": "66",
     "Origin": "",
     "Package": "liberror-perl",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17024-1",
+    "Version": "0.17025-1",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17024-1"
+    "source:Version": "0.17025-1"
   },
   {
     "Architecture": "amd64",

@@ -122,7 +122,7 @@ ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.
 ii   libdebconfclient0       0.230                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
-ii   liberror-perl           0.17024-1                       all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                        amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.3-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.6-1                        amd64  fast json library for C
