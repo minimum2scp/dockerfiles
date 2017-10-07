@@ -74,7 +74,7 @@ ii   bsdmainutils            9.0.12+nmu1                     amd64  collection o
 ii   bsdutils                1:2.29.2-5+b1                   amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
-ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-128.1                    amd64  process scheduling daemon
 ii   curl                    7.55.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.63                          all    Debian configuration management system
@@ -206,9 +206,9 @@ ii   ncurses-base            6.0+20170902-1                  all    basic termin
 ii   ncurses-bin             6.0+20170902-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.5p1-10                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.5p1-10                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.5p1-10                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-5                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.0-8                        amd64  Larry Wall's Practical Extraction and Report Language

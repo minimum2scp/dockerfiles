@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-128+b1",
+    "Version": "3.0pl1-128.1",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-128"
+    "source:Version": "3.0pl1-128.1"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libc6 (>= 2.17), libedit2 (>= 2.11-20080614), libgssapi-krb5-2 (>= 1.14+dfsg), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4100",
+    "Installed-Size": "4147",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:7.5p1-10",
+    "Version": "1:7.6p1-2",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3973,16 +3973,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.5p1-10"
+    "source:Version": "1:7.6p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.5p1-10), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.6p1-2), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "878",
+    "Installed-Size": "870",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "",
@@ -3993,7 +3993,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:7.5p1-10",
+    "Version": "1:7.6p1-2",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4001,16 +4001,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.5p1-10"
+    "source:Version": "1:7.6p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:7.5p1-10), libc6 (>= 2.17)",
+    "Depends": "openssh-client (= 1:7.6p1-2), libc6 (>= 2.17)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
-    "Installed-Size": "106",
+    "Installed-Size": "118",
     "Origin": "",
     "Package": "openssh-sftp-server",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.5p1-10",
+    "Version": "1:7.6p1-2",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.5p1-10"
+    "source:Version": "1:7.6p1-2"
   },
   {
     "Architecture": "amd64",
