@@ -1126,7 +1126,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "32",
+    "Installed-Size": "33",
     "Origin": "",
     "Package": "libaudit-common",
     "Pre-Depends": "",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.7.8-1",
+    "Version": "1:2.8-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1145,16 +1145,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.7.8-1"
+    "source:Version": "1:2.8-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:2.7.8-1), libc6 (>= 2.14), libcap-ng0",
+    "Depends": "libaudit-common (>= 1:2.8-1), libc6 (>= 2.14), libcap-ng0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "156",
+    "Installed-Size": "157",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.7.8-1",
+    "Version": "1:2.8-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.7.8-1"
+    "source:Version": "1:2.8-1"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.25-1",
+    "Version": "1:2.25-1.1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.25-1"
+    "source:Version": "1:2.25-1.1"
   },
   {
     "Architecture": "amd64",
