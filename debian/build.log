@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.230
-I: Validating libdebconfclient0 0.230
+I: Retrieving libdebconfclient0 0.231
+I: Validating libdebconfclient0 0.231
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.5
@@ -90,8 +90,8 @@ I: Retrieving hostname 3.18+b1
 I: Validating hostname 3.18+b1
 I: Retrieving inetutils-ping 2:1.9.4-2+b1
 I: Validating inetutils-ping 2:1.9.4-2+b1
-I: Retrieving init-system-helpers 1.49
-I: Validating init-system-helpers 1.49
+I: Retrieving init-system-helpers 1.50
+I: Validating init-system-helpers 1.50
 I: Retrieving iproute2 4.9.0-2
 I: Validating iproute2 4.9.0-2
 I: Retrieving libcap-ng0 0.7.7-3.1
@@ -468,10 +468,10 @@ Sending build context to Docker daemon  28.58MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1cab136aca7a
+ ---> 3734e99cf476
 Step 3/3 : CMD /bin/bash
- ---> Running in 67f7c741ea65
- ---> f1a83f0329c7
-Removing intermediate container 67f7c741ea65
-Successfully built f1a83f0329c7
+ ---> Running in 303b7d2d96de
+ ---> 3f0fb2a7afe2
+Removing intermediate container 303b7d2d96de
+Successfully built 3f0fb2a7afe2
 Successfully tagged minimum2scp/debian:latest
