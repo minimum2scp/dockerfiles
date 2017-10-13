@@ -98,7 +98,7 @@ ii   groff-base              1.22.3-9                        amd64  GNU troff te
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
-ii   init-system-helpers     1.49                            all    helper tools for all init systems
+ii   init-system-helpers     1.50                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-2                         amd64  networking and traffic control tools
@@ -119,7 +119,7 @@ ii   libcomerr2              1.43.6-1                        amd64  common error
 ii   libcurl3                7.55.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.55.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.230                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.231                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
