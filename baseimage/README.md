@@ -113,7 +113,7 @@ ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality
 ii   libc-bin                2.24-17                         amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-17                         all    GNU C Library: localization files
 ii   libc6                   2.24-17                         amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.7-3.1                       amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.6-1                        amd64  common error description library
 ii   libcurl3                7.55.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -138,7 +138,7 @@ ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.5.9-9.1                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15.1-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
@@ -154,7 +154,7 @@ ii   libncursesw5            6.0+20170902-1                  amd64  shared libra
 ii   libnettle6              3.3-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.26.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.7-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.9-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
@@ -234,9 +234,9 @@ ii   ucf                     3.0036                          all    Update Confi
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.1                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.1144-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1144-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.0.1144-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1144-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.1144-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.4.2-1                         amd64  shell with lots of features
 ii   zsh-common              5.4.2-1                         all    architecture independent files for Zsh
