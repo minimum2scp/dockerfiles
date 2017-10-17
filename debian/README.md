@@ -34,7 +34,7 @@ ii   debconf                 1.5.63                all    Debian configuration m
 ii   debian-archive-keyring  2017.6                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
-ii   dpkg                    1.18.24               amd64  Debian package management system
+ii   dpkg                    1.19.0.1              amd64  Debian package management system
 ii   e2fslibs                1.43.6-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.6-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
