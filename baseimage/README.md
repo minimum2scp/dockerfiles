@@ -81,7 +81,7 @@ ii   debconf                 1.5.63                          all    Debian confi
 ii   debian-archive-keyring  2017.6                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
-ii   dpkg                    1.18.24                         amd64  Debian package management system
+ii   dpkg                    1.19.0.1                        amd64  Debian package management system
 ii   e2fslibs                1.43.6-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
@@ -90,8 +90,8 @@ ii   findutils               4.6.0+git+20170729-2            amd64  utilities fo
 ii   gcc-5-base              5.5.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.15.0~rc0-1                  amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.15.0~rc0-1                  all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.15.0~rc1-1                  amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.15.0~rc1-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.1-2                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -179,7 +179,7 @@ ii   libsemanage1            2.7-2                           amd64  SELinux poli
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.30.2-0.1                      amd64  smart column output alignment library
-ii   libsqlite3-0            3.20.1-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.20.1-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
