@@ -27,7 +27,7 @@ describe 'minimum2scp/ruby-full' do
         desc: 'ruby 2.5.0preview1 (2017-10-10 trunk 60153) [x86_64-linux]',
         rubygems_version: '2.6.14',
         gems: [
-          {name: 'bundler', version: '1.15.4'},
+          {name: 'bundler', version: '1.15.4', default: true},
           {name: 'pry'}
         ],
         openssl_version: '1.1.0'
@@ -91,8 +91,12 @@ describe 'minimum2scp/ruby-full' do
       describe command("RBENV_VERSION=#{v[:ruby]} gem list") do
         let(:login_shell){ true }
         v[:gems].each do |gem|
-          if gem[:version]
+          if gem[:version] && gem[:default]
+            its(:stdout){ should match /^#{gem[:name]} #{Regexp.quote("(default: #{gem[:version]})")}$/ }
+          elsif gem[:version]
             its(:stdout){ should match /^#{gem[:name]} #{Regexp.quote("(#{gem[:version]})")}$/ }
+          elsif gem[:default]
+            its(:stdout){ should match /^#{gem[:name]} \(default: .+\)$/ }
           else
             its(:stdout){ should match /^#{gem[:name]} / }
           end
