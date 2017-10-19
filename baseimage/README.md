@@ -92,7 +92,7 @@ ii   gcc-6-base              6.4.0-8                         amd64  GCC, the GNU
 ii   gcc-7-base              7.2.0-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.15.0~rc1-1                  amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.15.0~rc1-1                  all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.1-2                         amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.1-4                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
