@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "cpp, wamerican | wordlist, whois, vacation",
-    "Version": "9.0.13",
+    "Version": "9.0.14",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "9.0.13"
+    "source:Version": "9.0.14"
   },
   {
     "Architecture": "amd64",
