@@ -34,7 +34,7 @@ ii   debconf                 1.5.64                all    Debian configuration m
 ii   debian-archive-keyring  2017.6                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
-ii   dpkg                    1.19.0.2              amd64  Debian package management system
+ii   dpkg                    1.19.0.3              amd64  Debian package management system
 ii   e2fslibs                1.43.7-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.7-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
@@ -68,7 +68,7 @@ ii   libffi6                 3.2.1-6               amd64  Foreign Function Inter
 ii   libgcc1                 1:7.2.0-11            amd64  GCC support library
 ii   libgcrypt20             1.7.9-1               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-1.1      amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.15-2              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.16-1              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.3-2                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-5               amd64  Internationalized domain names (IDNA2008/TR46) library
