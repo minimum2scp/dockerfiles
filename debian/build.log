@@ -6,16 +6,16 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Found additional required dependencies: fdisk libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 
-I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libffi6 libgmp10 libgnutls30 libhogweed4 libidn2-0 libmnl0 libnettle6 libp11-kit0 libstdc++6 libtasn1-6 libunistring2 netbase 
+I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libffi6 libgmp10 libgnutls30 libhogweed4 libidn2-0 libmnl0 libnettle6 libp11-kit0 libseccomp2 libstdc++6 libtasn1-6 libunistring2 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.116
 I: Validating adduser 3.116
-I: Retrieving apt 1.5
-I: Validating apt 1.5
-I: Retrieving libapt-pkg5.0 1.5
-I: Validating libapt-pkg5.0 1.5
+I: Retrieving apt 1.6~alpha1
+I: Validating apt 1.6~alpha1
+I: Retrieving libapt-pkg5.0 1.6~alpha1
+I: Validating libapt-pkg5.0 1.6~alpha1
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.8.1-1
@@ -46,8 +46,8 @@ I: Retrieving debianutils 4.8.2
 I: Validating debianutils 4.8.2
 I: Retrieving diffutils 1:3.6-1
 I: Validating diffutils 1:3.6-1
-I: Retrieving dpkg 1.19.0.3
-I: Validating dpkg 1.19.0.3
+I: Retrieving dpkg 1.19.0.4
+I: Validating dpkg 1.19.0.4
 I: Retrieving e2fslibs 1.43.7-1
 I: Validating e2fslibs 1.43.7-1
 I: Retrieving e2fsprogs 1.43.7-1
@@ -106,6 +106,8 @@ I: Retrieving libidn2-0 2.0.2-5
 I: Validating libidn2-0 2.0.2-5
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
+I: Retrieving libseccomp2 2.3.1-2.1
+I: Validating libseccomp2 2.3.1-2.1
 I: Retrieving libselinux1 2.7-2
 I: Validating libselinux1 2.7-2
 I: Retrieving libsemanage-common 2.7-2
@@ -428,6 +430,7 @@ I: Unpacking iproute2...
 I: Unpacking libffi6:amd64...
 I: Unpacking libidn2-0:amd64...
 I: Unpacking libmnl0:amd64...
+I: Unpacking libseccomp2:amd64...
 I: Unpacking libtasn1-6:amd64...
 I: Unpacking libunistring2:amd64...
 I: Unpacking netbase...
@@ -442,6 +445,7 @@ I: Configuring libelf1:amd64...
 I: Configuring gpgv...
 I: Configuring libtasn1-6:amd64...
 I: Configuring libgmp10:amd64...
+I: Configuring libseccomp2:amd64...
 I: Configuring debian-archive-keyring...
 I: Configuring libstdc++6:amd64...
 I: Configuring libffi6:amd64...
@@ -458,20 +462,24 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [235 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-10-23-1420.23.pdiff [21.2 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2017-10-23-1420.23.pdiff [21.2 kB]
+Fetched 284 kB in 1s (175 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.18MB
+Sending build context to Docker daemon  29.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bee4bfdd875e
+ ---> 4a42533b54e4
 Step 3/3 : CMD /bin/bash
- ---> Running in 23de0f4303b6
- ---> 6bb507eab168
-Removing intermediate container 23de0f4303b6
-Successfully built 6bb507eab168
+ ---> Running in 5f211ead622a
+ ---> e1c32b3c0ee6
+Removing intermediate container 5f211ead622a
+Successfully built e1c32b3c0ee6
 Successfully tagged minimum2scp/debian:latest

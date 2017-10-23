@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                 all    add and remove users and groups
-ii   apt                     1.5                   amd64  commandline package manager
+ii   apt                     1.6~alpha1            amd64  commandline package manager
 ii   base-files              10                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
@@ -34,7 +34,7 @@ ii   debconf                 1.5.64                all    Debian configuration m
 ii   debian-archive-keyring  2017.6                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.2                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
-ii   dpkg                    1.19.0.3              amd64  Debian package management system
+ii   dpkg                    1.19.0.4              amd64  Debian package management system
 ii   e2fslibs                1.43.7-1              amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.7-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
@@ -50,7 +50,7 @@ ii   inetutils-ping          2:1.9.4-2+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.50                  all    helper tools for all init systems
 ii   iproute2                4.9.0-2               amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.5                   amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~alpha1            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.1-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.1-1             amd64  Dynamic library for security auditing
@@ -84,6 +84,7 @@ ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authenticati
 ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-5              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libseccomp2             2.3.1-2.1             amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2                 amd64  SELinux policy management library
