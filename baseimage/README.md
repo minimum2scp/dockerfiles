@@ -75,7 +75,7 @@ ii   bsdutils                1:2.30.2-0.1                    amd64  basic utilit
 ii   ca-certificates         20170717                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128.1                    amd64  process scheduling daemon
-ii   curl                    7.55.1-1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.56.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.64                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.6                          all    GnuPG archive keys of the Debian archive
@@ -116,8 +116,8 @@ ii   libc6                   2.24-17                         amd64  GNU C Librar
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.7-1                        amd64  common error description library
-ii   libcurl3                7.55.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.55.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.56.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.56.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.232                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
@@ -134,13 +134,13 @@ ii   libgdbm3                1.8.3-14                        amd64  GNU dbm data
 ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-3                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.15.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.15.2-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.15.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.15.2-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9.1                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.15.1-2                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.15.1-2                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.15.2-1                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.15.2-1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
@@ -230,7 +230,7 @@ ii   sysv-rc                 2.88dsf-59.10                   all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017b-2                         all    time zone and daylight-saving time data
+ii   tzdata                  2017c-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.1                      amd64  miscellaneous system utilities
