@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                           all    add and remove users and groups
-ii   apt                     1.6~alpha2                      amd64  commandline package manager
+ii   apt                     1.6~alpha3                      amd64  commandline package manager
 ii   base-files              10                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
@@ -103,7 +103,7 @@ ii   initscripts             2.88dsf-59.10                   amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-2                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6~alpha2                      amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~alpha3                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.1-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.1-1                       amd64  Dynamic library for security auditing
@@ -134,13 +134,13 @@ ii   libgdbm3                1.8.3-14                        amd64  GNU dbm data
 ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-4                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.15.2-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.15.2-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.2-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.15.2-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.15.2-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9.1                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.15.2-1                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.15.2-1                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.15.2-2                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.15.2-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-1                         amd64  easy to use and lightweight logging library
