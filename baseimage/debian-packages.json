@@ -3558,7 +3558,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "tcpd (<< 7.6.q-20)",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
@@ -3568,12 +3568,12 @@
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "tcpd",
+    "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.6.q-26",
+    "Version": "7.6.q-27",
     "binary:Package": "libwrap0:amd64",
     "binary:Summary": "Wietse Venema's TCP wrappers library",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tcp-wrappers",
-    "source:Version": "7.6.q-26"
+    "source:Version": "7.6.q-27"
   },
   {
     "Architecture": "all",

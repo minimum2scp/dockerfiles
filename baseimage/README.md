@@ -192,7 +192,7 @@ ii   libtinfo5               6.0+20170902-1                  amd64  shared low-l
 ii   libudev1                235-2                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
-ii   libwrap0                7.6.q-26                        amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-17                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
