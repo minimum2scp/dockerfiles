@@ -183,8 +183,8 @@ ii   libsmartcols1           2.30.2-0.1                      amd64  smart column
 ii   libsqlite3-0            3.20.1-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.7-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2l-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0f-5                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2m-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-12                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             235-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
@@ -210,7 +210,7 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0f-5                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.1-2                        amd64  minimal Perl system
@@ -221,7 +221,7 @@ ii   python-minimal          2.7.14-1                        amd64  minimal subs
 ii   python2.7               2.7.14-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.29.0-2                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.30.0-2                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
@@ -234,11 +234,11 @@ ii   tzdata                  2017c-1                         all    time zone an
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.1                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1226-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1226-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.1257-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.1257-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1226-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.1257-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.4.2-1                         amd64  shell with lots of features
-ii   zsh-common              5.4.2-1                         all    architecture independent files for Zsh
+ii   zsh                     5.4.2-2                         amd64  shell with lots of features
+ii   zsh-common              5.4.2-2                         all    architecture independent files for Zsh
 ```
