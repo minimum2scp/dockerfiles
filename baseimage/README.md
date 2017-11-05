@@ -129,7 +129,7 @@ ii   libfastjson4            0.99.7-1                        amd64  fast json li
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-12                      amd64  GCC support library
-ii   libgcrypt20             1.7.9-1                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.9-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1                        amd64  GNU TLS library - main runtime library
@@ -180,11 +180,11 @@ ii   libsemanage1            2.7-2                           amd64  SELinux poli
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.30.2-0.1                      amd64  smart column output alignment library
-ii   libsqlite3-0            3.20.1-2                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.21.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.7-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2m-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-12                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             235-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
@@ -210,7 +210,7 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0g-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.1-2                        amd64  minimal Perl system
