@@ -454,7 +454,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1866",
+    "Installed-Size": "1856",
     "Origin": "",
     "Package": "findutils",
     "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -465,7 +465,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20170729-2",
+    "Version": "4.6.0+git+20170828-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20170729-2"
+    "source:Version": "4.6.0+git+20170828-2"
   },
   {
     "Architecture": "amd64",
@@ -678,18 +678,18 @@
     "Depends": "libc6 (>= 2.15), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "337",
+    "Installed-Size": "336",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
-    "Priority": "extra",
+    "Priority": "optional",
     "Provides": "ping",
     "Recommends": "",
     "Replace": "",
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-2+b1",
+    "Version": "2:1.9.4-3",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-2"
+    "source:Version": "2:1.9.4-3"
   },
   {
     "Architecture": "all",
