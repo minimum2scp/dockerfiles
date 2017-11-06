@@ -594,7 +594,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1866",
+    "Installed-Size": "1856",
     "Origin": "",
     "Package": "findutils",
     "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -605,7 +605,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20170729-2",
+    "Version": "4.6.0+git+20170828-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20170729-2"
+    "source:Version": "4.6.0+git+20170828-2"
   },
   {
     "Architecture": "amd64",
@@ -902,18 +902,18 @@
     "Depends": "libc6 (>= 2.15), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "337",
+    "Installed-Size": "336",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
-    "Priority": "extra",
+    "Priority": "optional",
     "Provides": "ping",
     "Recommends": "",
     "Replace": "",
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-2+b1",
+    "Version": "2:1.9.4-3",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-2"
+    "source:Version": "2:1.9.4-3"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.6-2",
+    "Version": "0.8.6-3",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.6-2"
+    "source:Version": "0.8.6-3"
   },
   {
     "Architecture": "amd64",
@@ -1658,7 +1658,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "381",
+    "Installed-Size": "437",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.3-1",
+    "Version": "2.2.3-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.2.3-1"
+    "source:Version": "2.2.3-2"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2m-2",
+    "Version": "1.0.2m-3",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2m-2"
+    "source:Version": "1.0.2m-3"
   },
   {
     "Architecture": "amd64",

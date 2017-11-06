@@ -86,7 +86,7 @@ ii   e2fslibs                1.43.7-1                        amd64  ext2/ext3/ex
 ii   e2fsprogs               1.43.7-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.30.2-0.1                      amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20170729-2            amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.5.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-12                        amd64  GCC, the GNU Compiler Collection (base package)
@@ -97,7 +97,7 @@ ii   grep                    3.1-2                           amd64  GNU grep, eg
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.18+b1                         amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo tool
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
@@ -108,7 +108,7 @@ ii   libattr1                1:2.4.47-2+b2                   amd64  Extended att
 ii   libaudit-common         1:2.8.1-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.1-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
-ii   libbsd0                 0.8.6-2                         amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-17                         amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-17                         all    GNU C Library: localization files
@@ -124,7 +124,7 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.3-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.3-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.7-1                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
@@ -183,7 +183,7 @@ ii   libsmartcols1           2.30.2-0.1                      amd64  smart column
 ii   libsqlite3-0            3.21.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.43.7-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2m-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2m-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-12                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             235-2                           amd64  systemd utility library
