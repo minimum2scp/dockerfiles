@@ -30,8 +30,8 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "apt-transport-https, apt-utils (<< 1.3~exp2~)",
-    "Depends": "adduser, gpgv | gpgv2 | gpgv1, debian-archive-keyring, libapt-pkg5.0 (>= 1.6~alpha3), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.5.6), libseccomp2 (>= 1.0.1), libstdc++6 (>= 5.2)",
+    "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)",
+    "Depends": "adduser, gpgv | gpgv2 | gpgv1, debian-archive-keyring, libapt-pkg5.0 (>= 1.6~alpha4), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.5.6), libseccomp2 (>= 1.0.1), libstdc++6 (>= 5.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3814",
@@ -39,13 +39,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "apt-transport-https (= 1.6~alpha3)",
+    "Provides": "apt-transport-https (= 1.6~alpha4)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base, python-apt",
-    "Version": "1.6~alpha3",
+    "Version": "1.6~alpha4",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.6~alpha3"
+    "source:Version": "1.6~alpha4"
   },
   {
     "Architecture": "amd64",
@@ -795,13 +795,13 @@
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.6~alpha3)",
-    "Recommends": "apt (>= 1.6~alpha3)",
+    "Provides": "libapt-pkg (= 1.6~alpha4)",
+    "Recommends": "apt (>= 1.6~alpha4)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.6~alpha3",
+    "Version": "1.6~alpha4",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.6~alpha3"
+    "source:Version": "1.6~alpha4"
   },
   {
     "Architecture": "amd64",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.27-4",
+    "Version": "1.27-5",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.27-4"
+    "source:Version": "1.27-5"
   },
   {
     "Architecture": "amd64",
