@@ -42,7 +42,7 @@ ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding 
 ii   gcc-5-base              5.5.0-3               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-9               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-12              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.1-5               amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.2-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
@@ -52,8 +52,8 @@ ii   iproute2                4.9.0-2               amd64  networking and traffic
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha4            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.1-1             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.1-1             amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.1-2             all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.1-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-17               amd64  GNU C Library: Binaries
