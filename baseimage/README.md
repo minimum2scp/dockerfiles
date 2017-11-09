@@ -92,7 +92,7 @@ ii   gcc-6-base              6.4.0-9                         amd64  GCC, the GNU
 ii   gcc-7-base              7.2.0-12                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.15.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.15.0-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.1-5                         amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.2-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -105,8 +105,8 @@ ii   iproute2                4.9.0-2                         amd64  networking a
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha4                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.1-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.1-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.1-2                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.1-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
 ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
