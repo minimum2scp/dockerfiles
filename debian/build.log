@@ -64,12 +64,12 @@ I: Retrieving gcc-5-base 5.5.0-3
 I: Validating gcc-5-base 5.5.0-3
 I: Retrieving gcc-6-base 6.4.0-9
 I: Validating gcc-6-base 6.4.0-9
-I: Retrieving gcc-7-base 7.2.0-12
-I: Validating gcc-7-base 7.2.0-12
-I: Retrieving libgcc1 1:7.2.0-12
-I: Validating libgcc1 1:7.2.0-12
-I: Retrieving libstdc++6 7.2.0-12
-I: Validating libstdc++6 7.2.0-12
+I: Retrieving gcc-7-base 7.2.0-14
+I: Validating gcc-7-base 7.2.0-14
+I: Retrieving libgcc1 1:7.2.0-14
+I: Validating libgcc1 1:7.2.0-14
+I: Retrieving libstdc++6 7.2.0-14
+I: Validating libstdc++6 7.2.0-14
 I: Retrieving libc-bin 2.24-17
 I: Validating libc-bin 2.24-17
 I: Retrieving libc6 2.24-17
@@ -468,14 +468,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.09MB
+Sending build context to Docker daemon   29.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d9c9141f6c9e
+ ---> a6175a544d3a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c16d523d3426
- ---> 1afa23eefe4e
-Removing intermediate container c16d523d3426
-Successfully built 1afa23eefe4e
+ ---> Running in 863d3f1fc406
+ ---> b0aab584da3e
+Removing intermediate container 863d3f1fc406
+Successfully built b0aab584da3e
 Successfully tagged minimum2scp/debian:latest
