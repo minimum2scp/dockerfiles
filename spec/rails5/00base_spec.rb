@@ -34,10 +34,10 @@ describe 'minimum2scp/rails5' do
 
       describe command('rbenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "2.4.1\n" }
+        its(:stdout){ should eq "2.4.2\n" }
       end
 
-      describe command("RBENV_VERSION=2.4.1 gem list") do
+      describe command("RBENV_VERSION=2.4.2 gem list") do
         let(:login_shell){ true }
         its(:stdout){ should match /^rails \(5(?:\.\d+){2,3}\)$/ }
       end
@@ -79,12 +79,12 @@ describe 'minimum2scp/rails5' do
 
       describe command('nodenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "8.5.0\n" }
+        its(:stdout){ should eq "9.0.0\n" }
       end
 
       [
         {
-          nodejs: '8.5.0',
+          nodejs: '9.0.0',
         },
       ].each do |v|
           describe command('nodenv versions --bare --skip-aliases') do
