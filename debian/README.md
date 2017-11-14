@@ -30,7 +30,7 @@ ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.30.2-0.1          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.5             amd64  POSIX-compliant shell
-ii   debconf                 1.5.64                all    Debian configuration management system
+ii   debconf                 1.5.65                all    Debian configuration management system
 ii   debian-archive-keyring  2017.6                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.3                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
@@ -40,7 +40,7 @@ ii   e2fsprogs               1.43.7-1              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.5.0-4               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.4.0-9               amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.4.0-10              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-14              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.2-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
