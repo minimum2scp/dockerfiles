@@ -89,7 +89,7 @@ ii   fdisk                   2.30.2-0.1                      amd64  collection o
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.5.0-4                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-7-base              7.2.0-14                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-7-base              7.2.0-16                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.15.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.15.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.2-1                         amd64  GNU privacy guard - signature verification tool
@@ -128,8 +128,8 @@ ii   libexpat1               2.2.3-2                         amd64  XML parsing 
 ii   libfastjson4            0.99.7-1                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.2.0-14                      amd64  GCC support library
-ii   libgcrypt20             1.7.9-2                         amd64  LGPL Crypto library - runtime library
+ii   libgcc1                 1:7.2.0-16                      amd64  GCC support library
+ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1                        amd64  GNU TLS library - main runtime library
@@ -162,7 +162,7 @@ ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Au
 ii   libpcre2-8-0            10.22-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-5                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-2                        amd64  shared Perl library
-ii   libpipeline1            1.4.2-1                         amd64  pipeline manipulation library
+ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.19.1-3                        amd64  Library for Public Suffix List (shared libraries)
@@ -185,11 +185,11 @@ ii   libss2                  1.43.7-1                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2m-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.2.0-14                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             235-2                           amd64  systemd utility library
+ii   libstdc++6              7.2.0-16                        amd64  GNU Standard C++ Library v3
+ii   libsystemd0             235-3                           amd64  systemd utility library
 ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170902-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                235-2                           amd64  libudev shared library
+ii   libudev1                235-3                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
@@ -223,8 +223,8 @@ ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subs
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.30.0-2                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.10                          all    Utilities for sensible alternative selection
-ii   startpar                0.59-3.2                        amd64  run processes in parallel and multiplex their output
+ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
+ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.21p2-2                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
