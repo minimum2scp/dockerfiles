@@ -136,7 +136,7 @@ ii   libgnutls30             3.5.16-1                        amd64  GNU TLS libr
 ii   libgpg-error0           1.27-5                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.2-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.0.2-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.0.4-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.2-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9.1                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.2-2                        amd64  MIT Kerberos runtime libraries
