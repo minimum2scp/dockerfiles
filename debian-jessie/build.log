@@ -529,26 +529,27 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
-Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [546 kB]
+Get:1 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
+Get:2 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.2 kB]
+Get:3 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9063 kB]
-Fetched 9840 kB in 4s (2405 kB/s)
+Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9063 kB]
+Get:5 http://security.debian.org jessie/updates/main amd64 Packages [613 kB]
+Fetched 9908 kB in 3s (2820 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  gnupg gpgv perl-base
-3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2583 kB of archives.
-After this operation, 455 kB disk space will be freed.
-Get:1 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u9 [1226 kB]
-Get:2 http://security.debian.org/ jessie/updates/main gpgv amd64 1.4.18-7+deb8u4 [209 kB]
-Get:3 http://security.debian.org/ jessie/updates/main gnupg amd64 1.4.18-7+deb8u4 [1149 kB]
-Fetched 2583 kB in 1s (1867 kB/s)
+  gnupg gpgv perl-base tzdata
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2815 kB of archives.
+After this operation, 453 kB disk space will be freed.
+Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2017c-0+deb8u1 [232 kB]
+Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u9 [1226 kB]
+Get:3 http://security.debian.org/ jessie/updates/main gpgv amd64 1.4.18-7+deb8u4 [209 kB]
+Get:4 http://security.debian.org/ jessie/updates/main gnupg amd64 1.4.18-7+deb8u4 [1149 kB]
+Fetched 2815 kB in 11s (249 kB/s)
 (Reading database ... 7566 files and directories currently installed.)
 Preparing to unpack .../perl-base_5.20.2-3+deb8u9_amd64.deb ...
 Unpacking perl-base (5.20.2-3+deb8u9) over (5.20.2-3+deb8u8) ...
@@ -561,14 +562,18 @@ Setting up gpgv (1.4.18-7+deb8u4) ...
 Preparing to unpack .../gnupg_1.4.18-7+deb8u4_amd64.deb ...
 Unpacking gnupg (1.4.18-7+deb8u4) over (1.4.18-7+deb8u3) ...
 Setting up gnupg (1.4.18-7+deb8u4) ...
+(Reading database ... 7566 files and directories currently installed.)
+Preparing to unpack .../tzdata_2017c-0+deb8u1_all.deb ...
+Unpacking tzdata (2017c-0+deb8u1) over (2017b-0+deb8u1) ...
+Setting up tzdata (2017c-0+deb8u1) ...
 Sending build context to Docker daemon  30.12MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0d0335e2f18d
-Step 3/3 : CMD /bin/bash
- ---> Running in 4cfb291602e5
- ---> a2b73fc42bca
-Removing intermediate container 4cfb291602e5
-Successfully built a2b73fc42bca
+ ---> facfa21d7b74
+Step 3/3 : CMD ["/bin/bash"]
+ ---> Running in 68136818ce32
+ ---> 5140e16ad265
+Removing intermediate container 68136818ce32
+Successfully built 5140e16ad265
 Successfully tagged minimum2scp/debian-jessie:latest
