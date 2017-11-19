@@ -955,10 +955,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>> 2.24), libc6 (<< 2.25)",
+    "Depends": "libc6 (>> 2.25), libc6 (<< 2.26)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3362",
+    "Installed-Size": "3376",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-17",
+    "Version": "2.25-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -977,16 +977,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-17"
+    "source:Version": "2.25-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.24), locales-all (<< 2.24), lsb-core (<= 3.2-27), nscd (<< 2.24)",
+    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.25), locales-all (<< 2.25), lsb-core (<= 3.2-27), nscd (<< 2.25)",
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "10677",
+    "Installed-Size": "10744",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.24-17",
+    "Version": "2.25-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-17"
+    "source:Version": "2.25-1"
   },
   {
     "Architecture": "amd64",
@@ -2246,7 +2246,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "221",
+    "Installed-Size": "223",
     "Origin": "",
     "Package": "multiarch-support",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-17",
+    "Version": "2.25-1",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-17"
+    "source:Version": "2.25-1"
   },
   {
     "Architecture": "all",
