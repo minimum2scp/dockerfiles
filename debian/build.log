@@ -60,8 +60,8 @@ I: Retrieving libelf1 0.170-0.1
 I: Validating libelf1 0.170-0.1
 I: Retrieving findutils 4.6.0+git+20170828-2
 I: Validating findutils 4.6.0+git+20170828-2
-I: Retrieving gcc-5-base 5.5.0-4
-I: Validating gcc-5-base 5.5.0-4
+I: Retrieving gcc-5-base 5.5.0-5
+I: Validating gcc-5-base 5.5.0-5
 I: Retrieving gcc-6-base 6.4.0-10
 I: Validating gcc-6-base 6.4.0-10
 I: Retrieving gcc-7-base 7.2.0-16
@@ -472,10 +472,10 @@ Sending build context to Docker daemon  29.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a84a456bac86
+ ---> 0e56c8808889
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d9ded75df728
- ---> 4580ce90ded7
-Removing intermediate container d9ded75df728
-Successfully built 4580ce90ded7
+ ---> Running in bf667d8e0478
+ ---> 1305bdc6eed8
+Removing intermediate container bf667d8e0478
+Successfully built 1305bdc6eed8
 Successfully tagged minimum2scp/debian:latest
