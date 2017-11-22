@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-1",
+    "Version": "2.25-2",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-1"
+    "source:Version": "2.25-2"
   },
   {
     "Architecture": "all",
@@ -1305,7 +1305,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-1",
+    "Version": "2.25-2",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1313,11 +1313,11 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-1"
+    "source:Version": "2.25-2"
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "",
+    "Conflicts": "openrc (<< 0.27-2~)",
     "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.25), locales-all (<< 2.25), lsb-core (<= 3.2-27), nscd (<< 2.25)",
     "Depends": "libgcc1",
     "Enhances": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.25-1",
+    "Version": "2.25-2",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-1"
+    "source:Version": "2.25-2"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.9-9.1",
+    "Version": "1.5.9-9.2",
     "binary:Package": "libkeyutils1:amd64",
     "binary:Summary": "Linux Key Management Utilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "keyutils",
-    "source:Version": "1.5.9-9.1"
+    "source:Version": "1.5.9-9.2"
   },
   {
     "Architecture": "amd64",
@@ -3629,7 +3629,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-1",
+    "Version": "2.25-2",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-1"
+    "source:Version": "2.25-2"
   },
   {
     "Architecture": "amd64",
@@ -3730,7 +3730,7 @@
     "Depends": "groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, libc6 (>= 2.17), libgdbm3 (>= 1.8.3), libpipeline1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2231",
+    "Installed-Size": "2237",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3740,8 +3740,8 @@
     "Replace": "",
     "Section": "doc",
     "Status": "install ok installed",
-    "Suggests": "groff, less, www-browser",
-    "Version": "2.7.6.1-2",
+    "Suggests": "groff, less, www-browser, apparmor",
+    "Version": "2.7.6.1-4",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.7.6.1-2"
+    "source:Version": "2.7.6.1-4"
   },
   {
     "Architecture": "amd64",
@@ -3853,7 +3853,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-1",
+    "Version": "2.25-2",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-1"
+    "source:Version": "2.25-2"
   },
   {
     "Architecture": "all",

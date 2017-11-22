@@ -110,9 +110,9 @@ ii   libaudit1               1:2.8.1-2                       amd64  Dynamic libr
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
 ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.25-1                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.25-1                          all    GNU C Library: localization files
-ii   libc6                   2.25-1                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.25-2                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.25-2                          all    GNU C Library: localization files
+ii   libc6                   2.25-2                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.7-1                        amd64  common error description library
@@ -138,7 +138,7 @@ ii   libgssapi-krb5-2        1.15.2-2                        amd64  MIT Kerberos
 ii   libhogweed4             3.3-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.15.2-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.5.9-9.1                       amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.5.9-9.2                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15.2-2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15.2-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
@@ -194,15 +194,15 @@ ii   libunistring2           0.9.7-2                         amd64  Unicode stri
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.25-1                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.25-2                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.6.1-2                       amd64  on-line manual pager
+ii   man-db                  2.7.6.1-4                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mime-support            3.60                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.30.2-0.1                      amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.25-1                          amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.25-2                          amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20170902-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20170902-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
