@@ -48,7 +48,7 @@ ii   gzip                    1.6-5+b1              amd64  GNU compression utilit
 ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
-ii   iproute2                4.9.0-2               amd64  networking and traffic control tools
+ii   iproute2                4.9.0-2.1             amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha5            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
@@ -61,7 +61,7 @@ ii   libc6                   2.25-2                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.7-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1           amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.233                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.234                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.1             amd64  library to read and write ELF files
 ii   libfdisk1               2.30.2-0.1            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6               amd64  Foreign Function Interface library runtime
