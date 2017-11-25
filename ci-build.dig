@@ -49,13 +49,6 @@ _export:
             _error:
               rb>: BuildFlow.error_report
 
-          +rails4:
-            _export:
-              image: minimum2scp/rails4:latest
-            rb>: BuildFlow.build_image
-            _error:
-              rb>: BuildFlow.error_report
-
           +rails5:
             _export:
               image: minimum2scp/rails5:latest
