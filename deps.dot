@@ -19,7 +19,6 @@ digraph deps {
   mruby             [label = "minimum2scp/mruby"];
   nodejs            [label = "minimum2scp/nodejs"];
   norikra           [label = "minimum2scp/norikra"];
-  rails4            [label = "minimum2scp/rails4"];
   rails5            [label = "minimum2scp/rails5"];
   ruby              [label = "minimum2scp/ruby"];
   ruby_full         [label = "minimum2scp/ruby-full"];
@@ -35,7 +34,7 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, nodejs, ruby, sphinx, squid, systemd};
-  ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails4, rails5, ruby_full, tdiary};
+  ruby      -> {fluentd_ui, geminabox, mruby, norikra, rails5, ruby_full, tdiary};
   nodejs    -> {hubot};
 
   debian_stretch   -> baseimage_stretch;
