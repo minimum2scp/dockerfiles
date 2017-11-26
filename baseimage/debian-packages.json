@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.12-2.1",
+    "Version": "4.12-3",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.12-2.1"
+    "source:Version": "4.12-3"
   },
   {
     "Architecture": "amd64",

@@ -187,7 +187,7 @@ ii   libssl1.0.2             1.0.2m-3                        amd64  Secure Socke
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-16                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             235-3                           amd64  systemd utility library
-ii   libtasn1-6              4.12-2.1                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.12-3                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20170902-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                235-3                           amd64  libudev shared library
 ii   libunistring2           0.9.7-2                         amd64  Unicode string library for C
