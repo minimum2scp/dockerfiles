@@ -48,6 +48,7 @@ describe 'minimum2scp/fluentd-ui' do
 
     describe port('24224') do
       it { should be_listening.on('0.0.0.0').with('tcp') }
+      it { should be_listening.on('0.0.0.0').with('udp') }
     end
 
     describe port('24230') do
@@ -72,6 +73,10 @@ describe 'minimum2scp/fluentd-ui' do
     describe service('supervisor') do
       it { should be_running }
       it { should be_enabled }
+    end
+
+    describe port('9001') do
+      it { should be_listening.on('0.0.0.0').with('tcp') }
     end
 
     describe service('fluentd-ui') do
