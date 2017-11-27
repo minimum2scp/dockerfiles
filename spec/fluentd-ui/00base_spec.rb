@@ -7,6 +7,8 @@ describe 'minimum2scp/fluentd-ui' do
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
         'Env' => [ 'APT_LINE=keep' ]
       })
+      ## wait for fluentd-ui startup
+      sleep 3
     end
 
     after(:all) do
@@ -77,7 +79,7 @@ describe 'minimum2scp/fluentd-ui' do
     end
 
     describe port('9292') do
-      it { should be_listening.with('tcp') }
+      it { should be_listening.on('127.0.0.1').with('tcp') }
     end
 
     describe package('nginx-light') do
