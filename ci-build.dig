@@ -42,6 +42,13 @@ _export:
         +after-ruby:
           _parallel: true
 
+          +fluentd-ui:
+            _export:
+              image: minimum2scp/fluentd-ui:latest
+            rb>: BuildFlow.build_image
+            _error:
+              rb>: BuildFlow.error_report
+
           +ruby-full:
             _export:
               image: minimum2scp/ruby-full:latest

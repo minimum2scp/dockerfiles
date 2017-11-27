@@ -17,7 +17,7 @@
 docker run -d -p 10080:80 minimum2scp/fluentd-ui
 ```
 
-and then open http://localhost:10080/ or http://<container ip address>/ by browser.
+and then open http://localhost:10080/ or `http://<container ip address>/` by browser.
 
 The default account is username: "admin", password: "changeme".
 
@@ -43,25 +43,25 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 ## processes
 
 ```
-debian@bc44ac497e02:~$ ps -ef fww
+debian@10c58565e4e7:~$ ps -ef fww
 UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 00:15 ?        Ss     0:00 init [2]
-root       577     1  2 00:15 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root       602     1  0 00:15 ?        Ss     0:00 /usr/sbin/cron
-root       613     1  0 00:15 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
-www-data   614   613  0 00:15 ?        S      0:00  \_ nginx: worker process
-www-data   615   613  0 00:15 ?        S      0:00  \_ nginx: worker process
-www-data   616   613  0 00:15 ?        S      0:00  \_ nginx: worker process
-www-data   617   613  0 00:15 ?        S      0:00  \_ nginx: worker process
-root       626     1  0 00:15 ?        Ss     0:00 /usr/sbin/sshd
-root       681   626  0 00:15 ?        Ss     0:00  \_ sshd: debian [priv]
-debian     701   681  0 00:15 ?        S      0:00      \_ sshd: debian@pts/0
-debian     737   701  0 00:15 pts/0    Ss     0:00          \_ -bash
-debian     855   737  0 00:16 pts/0    R+     0:00              \_ ps -ef fww
-root       632     1  0 00:15 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
-td-agent   683   632 40 00:15 ?        Rl     0:01  \_ /usr/bin/ruby2.3 bin/rails s Puma -e production -p 9292
-td-agent   659     1  0 00:15 ?        Sl     0:00 /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
-td-agent   662   659  5 00:15 ?        Sl     0:00  \_ /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
+root         1     0  0 00:28 ?        Ss     0:00 init [2]
+root       464     1  1 00:28 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root       489     1  0 00:28 ?        Ss     0:00 /usr/sbin/cron
+root       500     1  0 00:28 ?        Ss     0:00 nginx: master process /usr/sbin/nginx
+www-data   501   500  0 00:28 ?        S      0:00  \_ nginx: worker process
+www-data   502   500  0 00:28 ?        S      0:00  \_ nginx: worker process
+www-data   503   500  0 00:28 ?        S      0:00  \_ nginx: worker process
+www-data   504   500  0 00:28 ?        S      0:00  \_ nginx: worker process
+root       513     1  0 00:28 ?        Ss     0:00 /usr/sbin/sshd
+root       575   513  0 00:28 ?        Ss     0:00  \_ sshd: debian [priv]
+debian     592   575  0 00:28 ?        S      0:00      \_ sshd: debian@pts/0
+debian     593   592  0 00:28 pts/0    Ss     0:00          \_ -bash
+debian     642   593  0 00:29 pts/0    R+     0:00              \_ ps -ef fww
+root       525     1  0 00:28 ?        Ss     0:00 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+td-agent   571   525 35 00:28 ?        Sl     0:01  \_ puma 3.8.2 (tcp://127.0.0.1:9292) [fluentd-ui]
+td-agent   552     1  0 00:28 ?        Sl     0:00 /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
+td-agent   555   552  3 00:28 ?        Sl     0:00  \_ /opt/td-agent/embedded/bin/ruby /usr/sbin/td-agent --log /var/log/td-agent/td-agent.log --daemon /var/run/td-agent/td-agent.pid
 ```
 
 ## ports
@@ -70,10 +70,9 @@ td-agent   662   659  5 00:15 ?        Sl     0:00  \_ /opt/td-agent/embedded/bi
  * TCP/80: nginx
  * TCP/8888: td-agent (type http)
  * TCP/9001: supervisor
- * TCP/9292: fluentd-ui (rails s Puma)
- * TCP/9292: fluentd-ui (rails s Puma)
+ * TCP/9292: fluentd-ui (rails s Puma, bind localhost only)
  * TCP/24224: td-agent (type forward)
- * TCP/24230: td-agent (type debug\_agent)
+ * TCP/24230: td-agent (type debug\_agent, bind localhost only)
 
 ## fluentd-ui
 
