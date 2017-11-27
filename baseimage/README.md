@@ -114,7 +114,7 @@ ii   libc-bin                2.25-2                          amd64  GNU C Librar
 ii   libc-l10n               2.25-2                          all    GNU C Library: localization files
 ii   libc6                   2.25-2                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.25-1.1                      amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.7-1                        amd64  common error description library
 ii   libcurl3                7.56.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.56.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -221,7 +221,7 @@ ii   python-minimal          2.7.14-1                        amd64  minimal subs
 ii   python2.7               2.7.14-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.30.0-2                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.30.0-3                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
