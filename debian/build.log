@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.234
-I: Validating libdebconfclient0 0.234
+I: Retrieving libdebconfclient0 0.235
+I: Validating libdebconfclient0 0.235
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.5
@@ -126,14 +126,14 @@ I: Retrieving liblz4-1 0.0~r131-2+b1
 I: Validating liblz4-1 0.0~r131-2+b1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw5 6.0+20170902-1
-I: Validating libncursesw5 6.0+20170902-1
-I: Retrieving libtinfo5 6.0+20170902-1
-I: Validating libtinfo5 6.0+20170902-1
-I: Retrieving ncurses-base 6.0+20170902-1
-I: Validating ncurses-base 6.0+20170902-1
-I: Retrieving ncurses-bin 6.0+20170902-1
-I: Validating ncurses-bin 6.0+20170902-1
+I: Retrieving libncursesw5 6.0+20171125-1
+I: Validating libncursesw5 6.0+20171125-1
+I: Retrieving libtinfo5 6.0+20171125-1
+I: Validating libtinfo5 6.0+20171125-1
+I: Retrieving ncurses-base 6.0+20171125-1
+I: Validating ncurses-base 6.0+20171125-1
+I: Retrieving ncurses-bin 6.0+20171125-1
+I: Validating ncurses-bin 6.0+20171125-1
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
 I: Retrieving libhogweed4 3.3-2
@@ -468,14 +468,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.25MB
+Sending build context to Docker daemon  29.27MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1a3ace7c6c75
+ ---> ff9f755adadc
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9b0db8193c69
-Removing intermediate container 9b0db8193c69
- ---> 01ec1f3a4369
-Successfully built 01ec1f3a4369
+ ---> Running in 32901d0e05d3
+Removing intermediate container 32901d0e05d3
+ ---> 6a6dda8b2f80
+Successfully built 6a6dda8b2f80
 Successfully tagged minimum2scp/debian:latest
