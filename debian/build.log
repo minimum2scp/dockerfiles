@@ -152,8 +152,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-5
 I: Validating libpcre3 2:8.39-5
-I: Retrieving perl-base 5.26.1-2
-I: Validating perl-base 5.26.1-2
+I: Retrieving perl-base 5.26.1-3
+I: Validating perl-base 5.26.1-3
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving sensible-utils 0.0.11
@@ -472,10 +472,10 @@ Sending build context to Docker daemon  29.27MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ff9f755adadc
+ ---> 71af2c261a77
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 32901d0e05d3
-Removing intermediate container 32901d0e05d3
- ---> 6a6dda8b2f80
-Successfully built 6a6dda8b2f80
+ ---> Running in 2a3e6d6bf998
+Removing intermediate container 2a3e6d6bf998
+ ---> 4fc9b1eeb3cb
+Successfully built 4fc9b1eeb3cb
 Successfully tagged minimum2scp/debian:latest
