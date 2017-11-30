@@ -90,8 +90,8 @@ ii   findutils               4.6.0+git+20170828-2            amd64  utilities fo
 ii   gcc-5-base              5.5.0-5                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-16                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.15.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.15.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.15.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.15.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.2-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -221,7 +221,7 @@ ii   python-minimal          2.7.14-1                        amd64  minimal subs
 ii   python2.7               2.7.14-2                        amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.14-2                        amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.30.0-3                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.31.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
