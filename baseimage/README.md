@@ -110,9 +110,9 @@ ii   libaudit1               1:2.8.1-2                       amd64  Dynamic libr
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
 ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.25-2                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.25-2                          all    GNU C Library: localization files
-ii   libc6                   2.25-2                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.25-3                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.25-3                          all    GNU C Library: localization files
+ii   libc6                   2.25-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.7-1                        amd64  common error description library
@@ -159,7 +159,7 @@ ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.22-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.22-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-6                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-3                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
@@ -189,14 +189,14 @@ ii   libunistring2           0.9.7-2                         amd64  Unicode stri
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.25-2                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.25-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.7.6.1-4                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.1                      amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.25-2                          amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.25-3                          amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20171125-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
