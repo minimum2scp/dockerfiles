@@ -4,7 +4,7 @@ jobs:
     working_directory: /tmp/dockerfiles
 
     docker:
-      - image: circleci/ruby:2.4.2
+      - image: circleci/ruby:2.4.2-stretch
 
     steps:
       - run:
@@ -30,15 +30,14 @@ jobs:
           name: Install java
           command: |
             set -x
-            echo "deb http://deb.debian.org/debian jessie-backports main" | sudo tee /etc/apt/sources.list.d/jessie-backports.list
             sudo apt-get update
-            sudo apt-get install openjdk-8-jre-headless -t jessie-backports -y --no-install-recommends
+            sudo apt-get install default-jre-headless -y --no-install-recommends
 
       - run:
           name: Install digdag
           command: |
             set -x
-            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.16"
+            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.21"
             sudo chmod +x /usr/local/bin/digdag
 
       - run: digdag --version
