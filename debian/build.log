@@ -36,8 +36,8 @@ I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.5
 I: Validating dash 0.5.8-2.5
-I: Retrieving libdb5.3 5.3.28-13.1
-I: Validating libdb5.3 5.3.28-13.1
+I: Retrieving libdb5.3 5.3.28-13.1+b1
+I: Validating libdb5.3 5.3.28-13.1+b1
 I: Retrieving debconf 1.5.65
 I: Validating debconf 1.5.65
 I: Retrieving debian-archive-keyring 2017.6
@@ -150,8 +150,8 @@ I: Retrieving libpam-runtime 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
 I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
-I: Retrieving libpcre3 2:8.39-7
-I: Validating libpcre3 2:8.39-7
+I: Retrieving libpcre3 2:8.39-8
+I: Validating libpcre3 2:8.39-8
 I: Retrieving perl-base 5.26.1-3
 I: Validating perl-base 5.26.1-3
 I: Retrieving sed 4.4-1
@@ -468,14 +468,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.26MB
+Sending build context to Docker daemon  29.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 45d150ec6574
+ ---> 2445088c9f49
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b1c7388ad7ba
-Removing intermediate container b1c7388ad7ba
- ---> 49a9ac2291e2
-Successfully built 49a9ac2291e2
+ ---> Running in a45e698162d8
+Removing intermediate container a45e698162d8
+ ---> ce7af16c9a42
+Successfully built ce7af16c9a42
 Successfully tagged minimum2scp/debian:latest

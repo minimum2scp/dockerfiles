@@ -60,7 +60,7 @@ ii   libc-bin                2.25-3                amd64  GNU C Library: Binarie
 ii   libc6                   2.25-3                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.7-1              amd64  common error description library
-ii   libdb5.3                5.3.28-13.1           amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.235                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.1             amd64  library to read and write ELF files
 ii   libfdisk1               2.30.2-0.1            amd64  fdisk partitioning library
@@ -83,7 +83,7 @@ ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authenticati
 ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-7              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-8              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.1-2.1             amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries

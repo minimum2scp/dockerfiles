@@ -1070,7 +1070,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1798",
+    "Installed-Size": "1799",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28-13.1",
+    "Version": "5.3.28-13.1+b1",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.39-7",
+    "Version": "2:8.39-8",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Old Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.39-7"
+    "source:Version": "2:8.39-8"
   },
   {
     "Architecture": "amd64",
