@@ -118,7 +118,7 @@ ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1
 ii   libcomerr2              1.43.7-1                        amd64  common error description library
 ii   libcurl3                7.57.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.57.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libdb5.3                5.3.28-13.1                     amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.235                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
@@ -160,7 +160,7 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-7                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-8                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-3                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
