@@ -40,7 +40,7 @@ ii   e2fsprogs               1.43.7-1              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.5.0-5               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.4.0-10              amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-6-base              6.4.0-11              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-17              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.3-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
