@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
 ii   apt                     1.4.8                           amd64  commandline package manager
-ii   base-files              9.9+deb9u2                      amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u3                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
@@ -75,7 +75,7 @@ ii   bsdutils                1:2.29.2-1                      amd64  basic utilit
 ii   ca-certificates         20161130+nmu1                   all    Common CA certificates
 ii   coreutils               8.26-3                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128+b1                   amd64  process scheduling daemon
-ii   curl                    7.52.1-5+deb9u2                 amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.52.1-5+deb9u3                 amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.61                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.5                          all    GnuPG archive keys of the Debian archive
@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-2+b1                    amd64  ICMP echo to
 ii   init-system-helpers     1.48                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                    amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.9.0-1                         amd64  networking and traffic control tools
+ii   iproute2                4.9.0-1+deb9u1                  amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4.8                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
@@ -113,8 +113,8 @@ ii   libc6                   2.24-11+deb9u1                  amd64  GNU C Librar
 ii   libcap-ng0              0.7.7-3+b1                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.4-2                        amd64  common error description library
-ii   libcurl3                7.52.1-5+deb9u2                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.52.1-5+deb9u2                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.52.1-5+deb9u3                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.52.1-5+deb9u3                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+deb9u1                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3                  amd64  BSD editline and history libraries
@@ -164,8 +164,8 @@ ii   libpopt0                1.16-10+b2                      amd64  lib for pars
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.17.0-3                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                        amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.13-2                        amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.13-2+deb9u2                 amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.13-2+deb9u2                 amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-3                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
@@ -176,7 +176,7 @@ ii   libsemanage1            2.6-2                           amd64  SELinux poli
 ii   libsepol1               2.6-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-5                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.16.2-5+deb9u1                 amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2+deb9u1                 amd64  Secure Sockets Layer toolkit - shared libraries
@@ -204,9 +204,9 @@ ii   ncurses-base            6.0+20161126-1+deb9u1           all    basic termin
 ii   ncurses-bin             6.0+20161126-1+deb9u1           amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.4p1-10+deb9u1               amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.4p1-10+deb9u1               amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.4p1-10+deb9u1               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.4p1-10+deb9u2               amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.4p1-10+deb9u2               amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.4p1-10+deb9u2               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-3+deb9u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
 ii   perl                    5.24.1-3+deb9u2                 amd64  Larry Wall's Practical Extraction and Report Language
@@ -215,8 +215,8 @@ ii   perl-modules-5.24       5.24.1-3+deb9u2                 all    Core Perl mo
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.13-2                        amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.13-2                        amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.13-2+deb9u2                 amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.13-2+deb9u2                 amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.24.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
@@ -236,6 +236,6 @@ ii   vim-tiny                2:8.0.0197-4+deb9u1             amd64  Vi IMproved 
 ii   whiptail                0.52.19-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4+deb9u1             amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.3.1-4+b1                      amd64  shell with lots of features
+ii   zsh                     5.3.1-4+b2                      amd64  shell with lots of features
 ii   zsh-common              5.3.1-4                         all    architecture independent files for Zsh
 ```
