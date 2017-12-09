@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.9+deb9u2",
+    "Version": "9.9+deb9u3",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "9.9+deb9u2"
+    "source:Version": "9.9+deb9u3"
   },
   {
     "Architecture": "amd64",
@@ -650,18 +650,18 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1753",
+    "Installed-Size": "1757",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
     "Priority": "important",
     "Provides": "arpd",
-    "Recommends": "libatm1 (>= 2.4.1-17~), libxtables12",
+    "Recommends": "libatm1 (>= 2.4.1-17~), libxtables12 (>= 1.6.0+snapshot20161117)",
     "Replace": "",
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.9.0-1",
+    "Version": "4.9.0-1+deb9u1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.9.0-1"
+    "source:Version": "4.9.0-1+deb9u1"
   },
   {
     "Architecture": "amd64",

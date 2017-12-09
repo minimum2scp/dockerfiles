@@ -24,8 +24,8 @@ I: Retrieving libaudit-common 1:2.6.7-2
 I: Validating libaudit-common 1:2.6.7-2
 I: Retrieving libaudit1 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u1
-I: Validating base-files 9.9+deb9u1
+I: Retrieving base-files 9.9+deb9u3
+I: Validating base-files 9.9+deb9u3
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
 I: Retrieving bash 4.4-5
@@ -86,8 +86,8 @@ I: Retrieving inetutils-ping 2:1.9.4-2+b1
 I: Validating inetutils-ping 2:1.9.4-2+b1
 I: Retrieving init-system-helpers 1.48
 I: Validating init-system-helpers 1.48
-I: Retrieving iproute2 4.9.0-1
-I: Validating iproute2 4.9.0-1
+I: Retrieving iproute2 4.9.0-1+deb9u1
+I: Validating iproute2 4.9.0-1+deb9u1
 I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
 I: Retrieving libgcrypt20 1.7.6-2+deb9u2
@@ -148,8 +148,8 @@ I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2017b-1
-I: Validating tzdata 2017b-1
+I: Retrieving tzdata 2017c-0+deb9u1
+I: Validating tzdata 2017c-0+deb9u1
 I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29.2-1
@@ -414,42 +414,26 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org stretch/updates InRelease [63.0 kB]
-Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
+Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org stretch/updates InRelease [63.0 kB]
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [283 kB]
+Get:5 http://security.debian.org stretch/updates/main amd64 Packages [311 kB]
 Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [6499 B]
-Fetched 443 kB in 0s (852 kB/s)
+Fetched 471 kB in 0s (861 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  base-files tzdata
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 329 kB of archives.
-After this operation, 1024 B disk space will be freed.
-Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 base-files amd64 9.9+deb9u2 [67.2 kB]
-Get:2 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2017c-0+deb9u1 [262 kB]
-Fetched 329 kB in 0s (937 kB/s)
-(Reading database ... 6490 files and directories currently installed.)
-Preparing to unpack .../base-files_9.9+deb9u2_amd64.deb ...
-Unpacking base-files (9.9+deb9u2) over (9.9+deb9u1) ...
-Setting up base-files (9.9+deb9u2) ...
-Installing new version of config file /etc/debian_version ...
-(Reading database ... 6490 files and directories currently installed.)
-Preparing to unpack .../tzdata_2017c-0+deb9u1_all.deb ...
-Unpacking tzdata (2017c-0+deb9u1) over (2017b-1) ...
-Setting up tzdata (2017c-0+deb9u1) ...
-Sending build context to Docker daemon  26.55MB
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Sending build context to Docker daemon  26.62MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1d7521629e73
+ ---> f0158a4c363e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 83c6696b1fcc
- ---> b79fb83bfa50
-Removing intermediate container 83c6696b1fcc
-Successfully built b79fb83bfa50
+ ---> Running in 9a7092b15d49
+Removing intermediate container 9a7092b15d49
+ ---> 23d4069a0a56
+Successfully built 23d4069a0a56
 Successfully tagged minimum2scp/debian-stretch:latest
