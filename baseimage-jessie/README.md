@@ -68,7 +68,7 @@ installed packages:
 ii   acl                     2.2.52-2                          amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                        all    add and remove users and groups
 ii   apt                     1.0.9.8.4                         amd64  commandline package manager
-ii   base-files              8+deb8u9                          amd64  Debian base system miscellaneous files
+ii   base-files              8+deb8u10                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                            amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.6                             amd64  collection of more utilities from FreeBSD
@@ -76,7 +76,7 @@ ii   bsdutils                1:2.25.2-6                        amd64  basic util
 ii   ca-certificates         20141019+deb8u3                   all    Common CA certificates
 ii   coreutils               8.23-4                            amd64  GNU core utilities
 ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
-ii   curl                    7.38.0-4+deb8u7                   amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.38.0-4+deb8u8                   amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
 ii   debconf                 1.5.56+deb8u1                     all    Debian configuration management system
 ii   debconf-i18n            1.5.56+deb8u1                     all    full internationalization support for debconf
@@ -119,9 +119,9 @@ ii   libcap2                 1:2.24-8                          amd64  POSIX 1003
 ii   libcap2-bin             1:2.24-8                          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcomerr2              1.42.12-2+b1                      amd64  common error description library
 ii   libcryptsetup4          2:1.6.6-5                         amd64  disk encryption support - shared library
-ii   libcurl3                7.38.0-4+deb8u7                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.38.0-4+deb8u7                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libdb5.3                5.3.28-9                          amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libcurl3                7.38.0-4+deb8u8                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.38.0-4+deb8u8                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libdb5.3                5.3.28-9+deb8u1                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.192                             amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1              amd64  Linux Kernel Device Mapper userspace library
 ii   libedit2                3.1-20140620-2                    amd64  BSD editline and history libraries
@@ -135,23 +135,23 @@ ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm da
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
 ii   libgnutls-deb0-28       3.3.8-6+deb8u7                    amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.17-3                            amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u2                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.29-1+deb8u2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libjson-c2              0.11-4                            amd64  JSON manipulation library - shared library
-ii   libk5crypto3            1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-5+b1                        amd64  Linux Key Management Utilities (library)
 ii   libkmod2                18-3                              amd64  libkmod shared library
-ii   libkrb5-3               1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.12.1+dfsg-19+deb8u2             amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u3              amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-8+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblogging-stdlog0      1.0.4-1                           amd64  easy to use and lightweight logging library
 ii   liblognorm1             1.0.1-3                           amd64  Log normalizing library
 ii   liblzma5                5.1.1alpha+20120614-2+b3          amd64  XZ-format compression library
 ii   libmount1               2.25.2-6                          amd64  device mounting library
-ii   libncurses5             5.9+20140913-1+b1                 amd64  shared libraries for terminal handling
-ii   libncursesw5            5.9+20140913-1+b1                 amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             5.9+20140913-1+deb8u2             amd64  shared libraries for terminal handling
+ii   libncursesw5            5.9+20140913-1+deb8u2             amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle4              2.7.1-5+deb8u2                    amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.17-1+b1                      amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libp11-kit0             0.20.7-1                          amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -182,7 +182,7 @@ ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                          amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
-ii   libtinfo5               5.9+20140913-1+b1                 amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               5.9+20140913-1+deb8u2             amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                215-17+deb8u7                     amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25                       amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                        amd64  Micro string library: shared library
@@ -197,13 +197,13 @@ ii   man-db                  2.7.0.2-5                         amd64  on-line ma
 ii   mawk                    1.3.3-17                          amd64  a pattern scanning and text processing language
 ii   mount                   2.25.2-6                          amd64  Tools for mounting and manipulating filesystems
 ii   multiarch-support       2.19-18+deb8u10                   amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            5.9+20140913-1                    all    basic terminal type definitions
-ii   ncurses-bin             5.9+20140913-1+b1                 amd64  terminal-related programs and man pages
+ii   ncurses-base            5.9+20140913-1+deb8u2             all    basic terminal type definitions
+ii   ncurses-bin             5.9+20140913-1+deb8u2             amd64  terminal-related programs and man pages
 ii   net-tools               1.60-26+b1                        amd64  NET-3 networking toolkit
 ii   netbase                 5.3                               all    Basic TCP/IP networking system
-ii   openssh-client          1:6.7p1-5+deb8u3                  amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:6.7p1-5+deb8u3                  amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:6.7p1-5+deb8u3                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u7                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
 ii   perl                    5.20.2-3+deb8u9                   amd64  Larry Wall's Practical Extraction and Report Language
@@ -215,7 +215,7 @@ ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable s
 ii   sed                     4.2.2-4+deb8u1                    amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9                             all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                            amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.10p3-1+deb8u4                 amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.10p3-1+deb8u5                 amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59                        all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59                        amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59                        amd64  System-V-like utilities
