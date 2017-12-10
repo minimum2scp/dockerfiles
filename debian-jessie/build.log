@@ -26,8 +26,8 @@ I: Retrieving libaudit-common 1:2.4-1
 I: Validating libaudit-common 1:2.4-1
 I: Retrieving libaudit1 1:2.4-1+b1
 I: Validating libaudit1 1:2.4-1+b1
-I: Retrieving base-files 8+deb8u9
-I: Validating base-files 8+deb8u9
+I: Retrieving base-files 8+deb8u10
+I: Validating base-files 8+deb8u10
 I: Retrieving base-passwd 3.5.37
 I: Validating base-passwd 3.5.37
 I: Retrieving bash 4.3-11+deb8u1
@@ -42,8 +42,8 @@ I: Retrieving libcryptsetup4 2:1.6.6-5
 I: Validating libcryptsetup4 2:1.6.6-5
 I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
-I: Retrieving libdb5.3 5.3.28-9
-I: Validating libdb5.3 5.3.28-9
+I: Retrieving libdb5.3 5.3.28-9+deb8u1
+I: Validating libdb5.3 5.3.28-9+deb8u1
 I: Retrieving debconf 1.5.56+deb8u1
 I: Validating debconf 1.5.56+deb8u1
 I: Retrieving debconf-i18n 1.5.56+deb8u1
@@ -80,10 +80,10 @@ I: Retrieving libc6 2.19-18+deb8u10
 I: Validating libc6 2.19-18+deb8u10
 I: Retrieving multiarch-support 2.19-18+deb8u10
 I: Validating multiarch-support 2.19-18+deb8u10
-I: Retrieving gnupg 1.4.18-7+deb8u3
-I: Validating gnupg 1.4.18-7+deb8u3
-I: Retrieving gpgv 1.4.18-7+deb8u3
-I: Validating gpgv 1.4.18-7+deb8u3
+I: Retrieving gnupg 1.4.18-7+deb8u4
+I: Validating gnupg 1.4.18-7+deb8u4
+I: Retrieving gpgv 1.4.18-7+deb8u4
+I: Validating gpgv 1.4.18-7+deb8u4
 I: Retrieving grep 2.20-4.1
 I: Validating grep 2.20-4.1
 I: Retrieving gzip 1.6-4
@@ -134,16 +134,16 @@ I: Retrieving libdevmapper1.02.1 2:1.02.90-2.2+deb8u1
 I: Validating libdevmapper1.02.1 2:1.02.90-2.2+deb8u1
 I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
-I: Retrieving libncurses5 5.9+20140913-1+b1
-I: Validating libncurses5 5.9+20140913-1+b1
-I: Retrieving libncursesw5 5.9+20140913-1+b1
-I: Validating libncursesw5 5.9+20140913-1+b1
-I: Retrieving libtinfo5 5.9+20140913-1+b1
-I: Validating libtinfo5 5.9+20140913-1+b1
-I: Retrieving ncurses-base 5.9+20140913-1
-I: Validating ncurses-base 5.9+20140913-1
-I: Retrieving ncurses-bin 5.9+20140913-1+b1
-I: Validating ncurses-bin 5.9+20140913-1+b1
+I: Retrieving libncurses5 5.9+20140913-1+deb8u2
+I: Validating libncurses5 5.9+20140913-1+deb8u2
+I: Retrieving libncursesw5 5.9+20140913-1+deb8u2
+I: Validating libncursesw5 5.9+20140913-1+deb8u2
+I: Retrieving libtinfo5 5.9+20140913-1+deb8u2
+I: Validating libtinfo5 5.9+20140913-1+deb8u2
+I: Retrieving ncurses-base 5.9+20140913-1+deb8u2
+I: Validating ncurses-base 5.9+20140913-1+deb8u2
+I: Retrieving ncurses-bin 5.9+20140913-1+deb8u2
+I: Validating ncurses-bin 5.9+20140913-1+deb8u2
 I: Retrieving netbase 5.3
 I: Validating netbase 5.3
 I: Retrieving libpam-modules 1.1.8-3.1+deb8u2+b1
@@ -156,8 +156,8 @@ I: Retrieving libpam0g 1.1.8-3.1+deb8u2+b1
 I: Validating libpam0g 1.1.8-3.1+deb8u2+b1
 I: Retrieving libpcre3 2:8.35-3.3+deb8u4
 I: Validating libpcre3 2:8.35-3.3+deb8u4
-I: Retrieving perl-base 5.20.2-3+deb8u8
-I: Validating perl-base 5.20.2-3+deb8u8
+I: Retrieving perl-base 5.20.2-3+deb8u9
+I: Validating perl-base 5.20.2-3+deb8u9
 I: Retrieving libprocps3 2:3.3.9-9
 I: Validating libprocps3 2:3.3.9-9
 I: Retrieving procps 2:3.3.9-9
@@ -196,8 +196,8 @@ I: Retrieving sysvinit-utils 2.88dsf-59
 I: Validating sysvinit-utils 2.88dsf-59
 I: Retrieving tar 1.27.1-2+deb8u1
 I: Validating tar 1.27.1-2+deb8u1
-I: Retrieving tzdata 2017b-0+deb8u1
-I: Validating tzdata 2017b-0+deb8u1
+I: Retrieving tzdata 2017c-0+deb8u1
+I: Validating tzdata 2017c-0+deb8u1
 I: Retrieving libustr-1.0-1 1.0.4-3+b2
 I: Validating libustr-1.0-1 1.0.4-3+b2
 I: Retrieving bsdutils 1:2.25.2-6
@@ -529,51 +529,26 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
+Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:2 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.2 kB]
-Get:3 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9063 kB]
-Get:5 http://security.debian.org jessie/updates/main amd64 Packages [613 kB]
-Fetched 9908 kB in 3s (2820 kB/s)
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [598 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.2 kB]
+Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
+Fetched 9893 kB in 1s (5472 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-The following packages will be upgraded:
-  gnupg gpgv perl-base tzdata
-4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2815 kB of archives.
-After this operation, 453 kB disk space will be freed.
-Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2017c-0+deb8u1 [232 kB]
-Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u9 [1226 kB]
-Get:3 http://security.debian.org/ jessie/updates/main gpgv amd64 1.4.18-7+deb8u4 [209 kB]
-Get:4 http://security.debian.org/ jessie/updates/main gnupg amd64 1.4.18-7+deb8u4 [1149 kB]
-Fetched 2815 kB in 11s (249 kB/s)
-(Reading database ... 7566 files and directories currently installed.)
-Preparing to unpack .../perl-base_5.20.2-3+deb8u9_amd64.deb ...
-Unpacking perl-base (5.20.2-3+deb8u9) over (5.20.2-3+deb8u8) ...
-Setting up perl-base (5.20.2-3+deb8u9) ...
-(Reading database ... 7566 files and directories currently installed.)
-Preparing to unpack .../gpgv_1.4.18-7+deb8u4_amd64.deb ...
-Unpacking gpgv (1.4.18-7+deb8u4) over (1.4.18-7+deb8u3) ...
-Setting up gpgv (1.4.18-7+deb8u4) ...
-(Reading database ... 7566 files and directories currently installed.)
-Preparing to unpack .../gnupg_1.4.18-7+deb8u4_amd64.deb ...
-Unpacking gnupg (1.4.18-7+deb8u4) over (1.4.18-7+deb8u3) ...
-Setting up gnupg (1.4.18-7+deb8u4) ...
-(Reading database ... 7566 files and directories currently installed.)
-Preparing to unpack .../tzdata_2017c-0+deb8u1_all.deb ...
-Unpacking tzdata (2017c-0+deb8u1) over (2017b-0+deb8u1) ...
-Setting up tzdata (2017c-0+deb8u1) ...
-Sending build context to Docker daemon  30.12MB
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Sending build context to Docker daemon  30.13MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> facfa21d7b74
+ ---> 2ae8aa6d268a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 68136818ce32
- ---> 5140e16ad265
-Removing intermediate container 68136818ce32
-Successfully built 5140e16ad265
+ ---> Running in 33000c907d1c
+Removing intermediate container 33000c907d1c
+ ---> 16ea3037ae44
+Successfully built 16ea3037ae44
 Successfully tagged minimum2scp/debian-jessie:latest
