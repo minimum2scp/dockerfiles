@@ -39,7 +39,7 @@ ii   e2fslibs                1.43.7-1              amd64  ext2/ext3/ext4 file sy
 ii   e2fsprogs               1.43.7-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.5.0-5               amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.5.0-6               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-11              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-17              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.3-1               amd64  GNU privacy guard - signature verification tool
@@ -64,7 +64,7 @@ ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database
 ii   libdebconfclient0       0.236                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.1             amd64  library to read and write ELF files
 ii   libfdisk1               2.30.2-0.1            amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-6               amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.2.1-7               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-17            amd64  GCC support library
 ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-1.1      amd64  Multiprecision arithmetic library
