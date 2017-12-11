@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.5.0-5",
+    "Version": "5.5.0-6",
     "binary:Package": "gcc-5-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-5",
-    "source:Version": "5.5.0-5"
+    "source:Version": "5.5.0-6"
   },
   {
     "Architecture": "amd64",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.2.1-6",
+    "Version": "3.2.1-7",
     "binary:Package": "libffi6:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.2.1-6"
+    "source:Version": "3.2.1-7"
   },
   {
     "Architecture": "amd64",

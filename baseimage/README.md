@@ -87,7 +87,7 @@ ii   e2fsprogs               1.43.7-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.30.2-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.5.0-5                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-5-base              5.5.0-6                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-17                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.15.1-1                      amd64  fast, scalable, distributed revision control system
@@ -127,7 +127,7 @@ ii   libestr0                0.1.10-2.1                      amd64  Helper funct
 ii   libexpat1               2.2.3-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.7-1                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.2.1-7                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-17                      amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
