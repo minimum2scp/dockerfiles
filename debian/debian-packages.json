@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-3",
+    "Version": "2.25-4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-3"
+    "source:Version": "2.25-4"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.25-3",
+    "Version": "2.25-4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-3"
+    "source:Version": "2.25-4"
   },
   {
     "Architecture": "amd64",
@@ -1347,10 +1347,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-2)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "228",
+    "Installed-Size": "237",
     "Origin": "",
     "Package": "libhogweed4",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-2",
+    "Version": "3.4-1",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-2"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "353",
+    "Installed-Size": "378",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-2",
+    "Version": "3.4-1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-2"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.25-3",
+    "Version": "2.25-4",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.25-3"
+    "source:Version": "2.25-4"
   },
   {
     "Architecture": "all",

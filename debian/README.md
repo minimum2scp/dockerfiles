@@ -56,8 +56,8 @@ ii   libaudit-common         1:2.8.1-2             all    Dynamic library for se
 ii   libaudit1               1:2.8.1-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.25-3                amd64  GNU C Library: Binaries
-ii   libc6                   2.25-3                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.25-4                amd64  GNU C Library: Binaries
+ii   libc6                   2.25-4                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.7-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -70,14 +70,14 @@ ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - 
 ii   libgmp10                2:6.1.2+dfsg-1.1      amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-5                amd64  library for common error values and messages in GnuPG components
-ii   libhogweed4             3.3-2                 amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1             amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.30.2-0.1            amd64  device mounting library
 ii   libncursesw5            6.0+20171125-1        amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.3-2                 amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.9-2              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -102,7 +102,7 @@ ii   login                   1:4.5-1               amd64  system login tools
 ii   lsb-base                9.20170808            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.1            amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.25-3                amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.25-4                amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20171125-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20171125-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
