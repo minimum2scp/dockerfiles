@@ -178,7 +178,7 @@ ii   libslang2               2.3.1a-1                        amd64  S-Lang progr
 ii   libsmartcols1           2.30.2-0.1                      amd64  smart column output alignment library
 ii   libss2                  1.43.7-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2m-3                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-17                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             235-3                           amd64  systemd utility library
@@ -210,7 +210,7 @@ ii   perl                    5.26.1-3                        amd64  Larry Wall's
 ii   perl-base               5.26.1-3                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-3                        all    Core Perl modules
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
-ii   rsyslog                 8.31.0-1                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.31.0-2                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
