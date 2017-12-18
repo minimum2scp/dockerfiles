@@ -101,7 +101,7 @@ ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo to
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.9.0-2.1                       amd64  networking and traffic control tools
+ii   iproute2                4.13.0-1                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha5                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
@@ -124,7 +124,7 @@ ii   libedit2                3.1-20170329-1                  amd64  BSD editline
 ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.3-2                         amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.5-2                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.7-1                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-7                         amd64  Foreign Function Interface library runtime
@@ -181,10 +181,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-18                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             235-3                           amd64  systemd utility library
+ii   libsystemd0             236-1                           amd64  systemd utility library
 ii   libtasn1-6              4.12-3                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                235-3                           amd64  libudev shared library
+ii   libudev1                236-1                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
@@ -223,10 +223,10 @@ ii   tzdata                  2017c-1                         all    time zone an
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.1                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1257-2                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1257-2                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.1401-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.1401-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1257-2                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.1401-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.4.2-2                         amd64  shell with lots of features
 ii   zsh-common              5.4.2-2                         all    architecture independent files for Zsh

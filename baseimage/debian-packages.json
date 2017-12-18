@@ -1014,7 +1014,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1749",
+    "Installed-Size": "1919",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.9.0-2.1",
+    "Version": "4.13.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.9.0-2.1"
+    "source:Version": "4.13.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1655,10 +1655,10 @@
     "Architecture": "amd64",
     "Conflicts": "wink (<= 1.5.1060-4)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "437",
+    "Installed-Size": "439",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.3-2",
+    "Version": "2.2.5-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.2.3-2"
+    "source:Version": "2.2.5-2"
   },
   {
     "Architecture": "amd64",
@@ -3254,10 +3254,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "616",
+    "Installed-Size": "621",
     "Origin": "",
     "Package": "libsystemd0",
-    "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.1.9)",
+    "Pre-Depends": "libc6 (>= 2.25), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.1.9)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "235-3",
+    "Version": "236-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "235-3"
+    "source:Version": "236-1"
   },
   {
     "Architecture": "amd64",
@@ -3335,10 +3335,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "216",
+    "Installed-Size": "217",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "235-3",
+    "Version": "236-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "235-3"
+    "source:Version": "236-1"
   },
   {
     "Architecture": "amd64",
@@ -4430,7 +4430,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "312",
+    "Installed-Size": "315",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4441,7 +4441,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.1257-2",
+    "Version": "2:8.0.1401-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4449,16 +4449,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.1257-2"
+    "source:Version": "2:8.0.1401-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.1257-2), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.1401-1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1087",
+    "Installed-Size": "1091",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.1257-2",
+    "Version": "2:8.0.1401-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.1257-2"
+    "source:Version": "2:8.0.1401-1"
   },
   {
     "Architecture": "amd64",
@@ -4525,7 +4525,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.1257-2",
+    "Version": "2:8.0.1401-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.1257-2"
+    "source:Version": "2:8.0.1401-1"
   },
   {
     "Architecture": "amd64",
