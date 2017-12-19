@@ -90,8 +90,8 @@ ii   findutils               4.6.0+git+20170828-2            amd64  utilities fo
 ii   gcc-5-base              5.5.0-6                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-18                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.15.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.15.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.15.1-2                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.15.1-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.3-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
@@ -105,8 +105,8 @@ ii   iproute2                4.13.0-1                        amd64  networking a
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha5                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.1-2                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.1-2                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.2-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.2-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
 ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
@@ -196,7 +196,6 @@ ii   lv                      4.51-4                          amd64  Powerful Mul
 ii   man-db                  2.7.6.1-4                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.1                      amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.25-5                          amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20171125-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
@@ -212,9 +211,8 @@ ii   perl-modules-5.26       5.26.1-3                        all    Core Perl mo
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   rsyslog                 8.31.0-2                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.21p2-2                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.21p2-3                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
