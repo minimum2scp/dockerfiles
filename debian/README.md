@@ -52,8 +52,8 @@ ii   iproute2                4.13.0-1              amd64  networking and traffic
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha5            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.1-2             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.1-2             amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.2-1             all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.25-5                amd64  GNU C Library: Binaries
@@ -99,17 +99,14 @@ ii   libudev1                236-1                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1            amd64  Universally Unique ID library
 ii   login                   1:4.5-1               amd64  system login tools
-ii   lsb-base                9.20170808            all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.1            amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.25-5                amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20171125-1        all    basic terminal type definitions
 ii   ncurses-bin             6.0+20171125-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
 ii   perl-base               5.26.1-3              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.11                all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2017c-1               all    time zone and daylight-saving time data
