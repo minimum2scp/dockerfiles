@@ -1,49 +1,16 @@
 version: 2
-jobs:
-  build:
-    working_directory: /tmp/dockerfiles
 
+resources:
+  build: &build
     docker:
       - image: circleci/ruby:2.4.2-stretch
-
     steps:
-      - run:
-          name: Check ruby version
-          command: |
-            set -x
-            ruby -v
-            gem env
-            bundle version
-
       - checkout
-
       - setup_remote_docker
-
-      - run:
-          name: Check docker version
-          command: |
-            set -x
-            docker version
-            docker info
-
-      - run:
-          name: Install java
-          command: |
-            set -x
-            sudo apt-get update
-            sudo apt-get install default-jre-headless -y --no-install-recommends
-
-      - run:
-          name: Install digdag
-          command: |
-            set -x
-            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.21"
-            sudo chmod +x /usr/local/bin/digdag
-
-      - run: digdag --version
-      - run: digdag check
-      - run: digdag run ci-build.dig --rerun
-
+      - attach_workspace: { at: /tmp/workspace }
+      - run: if [ -n "${load_image}" ]; then zcat /tmp/workspace/${load_image}.tar.gz | docker load; fi
+      - run: docker build -t minimum2scp/${target}:latest ${target}
+      - run: zcat /tmp/workspace/rspec-runner.tar.gz | docker load
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
@@ -53,10 +20,108 @@ jobs:
             docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
+      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${target}
+      - run: docker save minimum2scp/${target}:latest | gzip -c - > /tmp/${target}.tar.gz
+      - persist_to_workspace:
+          root: /tmp
+          paths: [ "*.tar.gz" ]
 
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rspec
+jobs:
+  rspec-runner:
+    docker:
+      - image: circleci/ruby:2.4.2-stretch
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run: docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile .
+      - run: docker save minimum2scp/rspec-runner:ci | gzip -c - > /tmp/rspec-runner.tar.gz
+      - persist_to_workspace:
+          root: /tmp
+          paths: [rspec-runner.tar.gz]
+  baseimage:
+    <<: *build
+    environment:
+      target: baseimage
+  nodejs:
+    <<: *build
+    environment:
+      target: nodejs
+      load_image: baseimage
+  ruby:
+    <<: *build
+    environment:
+      target: ruby
+      load_image: baseimage
+  fluentd-ui:
+    <<: *build
+    environment:
+      target: fluentd-ui
+      load_image: ruby
+  ruby-full:
+    <<: *build
+    environment:
+      target: ruby-full
+      load_image: ruby
+  rails5:
+    <<: *build
+    environment:
+      target: rails5
+      load_image: ruby
+  baseimage-stretch:
+    <<: *build
+    environment:
+      target: baseimage-stretch
+  ruby-stretch:
+    <<: *build
+    environment:
+      target: ruby-stretch
+      load_image: baseimage-stretch
+  baseimage-jessie:
+    <<: *build
+    environment:
+      target: baseimage-jessie
+  ruby-jessie:
+    <<: *build
+    environment:
+      target: ruby-jessie
+      load_image: baseimage-jessie
+  baseimage-wheezy:
+    <<: *build
+    environment:
+      target: baseimage-wheezy
+  ruby-wheezy:
+    <<: *build
+    environment:
+      target: ruby-wheezy
+      load_image: baseimage-wheezy
 
-      - store_artifacts:
-          path: .circleci/log/
-          destination: log
-
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - rspec-runner
+      - baseimage:
+          requires: [rspec-runner]
+      - nodejs:
+          requires: [rspec-runner, baseimage]
+      - ruby:
+          requires: [rspec-runner, baseimage]
+      - fluentd-ui:
+          requires: [rspec-runner, ruby]
+      - ruby-full:
+          requires: [rspec-runner, ruby]
+      - rails5:
+          requires: [rspec-runner, ruby]
+      - baseimage-stretch:
+          requires: [rspec-runner]
+      - ruby-stretch:
+          requires: [rspec-runner, baseimage-stretch]
+      - baseimage-jessie:
+          requires: [rspec-runner]
+      - ruby-jessie:
+          requires: [rspec-runner, baseimage-jessie]
+      - baseimage-wheezy:
+          requires: [rspec-runner]
+      - ruby-wheezy:
+          requires: [rspec-runner, baseimage-wheezy]
+ 
