@@ -29,7 +29,7 @@ resources:
 jobs:
   rspec-runner:
     docker:
-      - image: circleci/ruby:2.4.2-stretch
+      - image: circleci/ruby:2.4.3-stretch
     steps:
       - checkout
       - setup_remote_docker
