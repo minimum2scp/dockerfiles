@@ -37,7 +37,7 @@ resources:
       - store_artifacts: { path: /tmp/build.log }
       - run:
           name: Load rspec-runner image
-          command: zcat /tmp/workspace/rspec-runner.tar.gz | docker load
+          command: pigz -c -d /tmp/workspace/rspec-runner.tar.gz | docker load
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
