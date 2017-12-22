@@ -25,7 +25,8 @@ resources:
             fi
       - run:
           name: Build image
-          command: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB}
+          command: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB} 2>&1 | tee /tmp/build.log
+      - store_artifacts: { path: /tmp/build.log }
       - run:
           name: Load rspec-runner image
           command: zcat /tmp/workspace/rspec-runner.tar.gz | docker load
@@ -40,7 +41,8 @@ resources:
             docker rm cfg
       - run:
           name: Test image
-          command: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${CIRCLE_JOB}
+          command: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${CIRCLE_JOB} | tee /tmp/test.log
+      - store_artifacts: { path: /tmp/test.log }
       - run:
           name: Save image if necessary
           command: |
@@ -67,7 +69,8 @@ jobs:
       - setup_remote_docker
       - run:
           name: Build rspec-runner image
-          command: docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile .
+          command: docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile . 2>&1 | tee /tmp/build.log
+      - store_artifacts: { path: /tmp/build.log }
       - run:
           name: Save rspec-runner image
           command: docker save minimum2scp/rspec-runner:ci | gzip -c - > /tmp/rspec-runner.tar.gz
