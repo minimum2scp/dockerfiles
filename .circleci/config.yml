@@ -21,7 +21,19 @@ resources:
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
       - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${target}
-      - run: docker save minimum2scp/${target}:latest | gzip -c - > /tmp/${target}.tar.gz
+      - run:
+          name: Save image to workspace
+          command: |
+            case "${target}" in
+              baseimage|baseimage-*|ruby)
+                echo "Saving image minimum2scp/${target}:latest to /tmp/${target}.tar.gz"
+                docker save minimum2scp/${target}:latest | gzip -c - > /tmp/${target}.tar.gz
+                ;;
+              *)
+                echo "Skipped to save image minimum2scp/${target}:latest, creating /tmp/${target}.tar.gz as empty file"
+                : > /tmp/${target}.tar.gz
+                ;;
+            esac
       - persist_to_workspace:
           root: /tmp
           paths: [ "*.tar.gz" ]
