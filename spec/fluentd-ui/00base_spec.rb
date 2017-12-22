@@ -8,7 +8,7 @@ describe 'minimum2scp/fluentd-ui' do
         'Env' => [ 'APT_LINE=keep' ]
       })
       ## wait for fluentd-ui startup
-      sleep 3
+      sleep 5
     end
 
     after(:all) do
