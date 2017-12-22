@@ -9,6 +9,7 @@ resources:
       - run:
           name: Install pigz
           command: |
+            set -x
             sudo apt-get update
             sudo apt-get install -y --no-install-recommends pigz
       - setup_remote_docker
@@ -16,6 +17,7 @@ resources:
       - run:
           name: Load base image if necessary
           command: |
+            set -x
             load_image=
             case "${CIRCLE_JOB}" in
               ruby|nodejs)                 load_image=baseimage;;
@@ -38,6 +40,7 @@ resources:
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
+            set -x
             printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
             echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
             docker volume create data
@@ -51,6 +54,7 @@ resources:
       - run:
           name: Save image if necessary
           command: |
+            set -x
             case "${CIRCLE_JOB}" in
               baseimage|baseimage-*|ruby)
                 echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
@@ -74,6 +78,7 @@ jobs:
       - run:
           name: Install pigz
           command: |
+            set -x
             sudo apt-get update
             sudo apt-get install -y --no-install-recommends pigz
       - setup_remote_docker
