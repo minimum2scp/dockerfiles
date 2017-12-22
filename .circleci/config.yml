@@ -9,7 +9,7 @@ resources:
       - setup_remote_docker
       - attach_workspace: { at: /tmp/workspace }
       - run: if [ -n "${load_image}" ]; then zcat /tmp/workspace/${load_image}.tar.gz | docker load; fi
-      - run: docker build -t minimum2scp/${target}:latest ${target}
+      - run: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB}
       - run: zcat /tmp/workspace/rspec-runner.tar.gz | docker load
       - run:
           name: Setup rspec-runner environment variables and volumes
@@ -20,18 +20,18 @@ resources:
             docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${target}
+      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${CIRCLE_JOB}
       - run:
           name: Save image to workspace
           command: |
-            case "${target}" in
+            case "${CIRCLE_JOB}" in
               baseimage|baseimage-*|ruby)
-                echo "Saving image minimum2scp/${target}:latest to /tmp/${target}.tar.gz"
-                docker save minimum2scp/${target}:latest | gzip -c - > /tmp/${target}.tar.gz
+                echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
+                docker save minimum2scp/${CIRCLE_JOB}:latest | gzip -c - > /tmp/${CIRCLE_JOB}.tar.gz
                 ;;
               *)
-                echo "Skipped to save image minimum2scp/${target}:latest, creating /tmp/${target}.tar.gz as empty file"
-                : > /tmp/${target}.tar.gz
+                echo "Skipped to save image minimum2scp/${CIRCLE_JOB}:latest, creating /tmp/${CIRCLE_JOB}.tar.gz as empty file"
+                : > /tmp/${CIRCLE_JOB}.tar.gz
                 ;;
             esac
       - persist_to_workspace:
@@ -52,59 +52,43 @@ jobs:
           paths: [rspec-runner.tar.gz]
   baseimage:
     <<: *build
-    environment:
-      target: baseimage
   nodejs:
     <<: *build
     environment:
-      target: nodejs
       load_image: baseimage
   ruby:
     <<: *build
     environment:
-      target: ruby
       load_image: baseimage
   fluentd-ui:
     <<: *build
     environment:
-      target: fluentd-ui
       load_image: ruby
   ruby-full:
     <<: *build
     environment:
-      target: ruby-full
       load_image: ruby
   rails5:
     <<: *build
     environment:
-      target: rails5
       load_image: ruby
   baseimage-stretch:
     <<: *build
-    environment:
-      target: baseimage-stretch
   ruby-stretch:
     <<: *build
     environment:
-      target: ruby-stretch
       load_image: baseimage-stretch
   baseimage-jessie:
     <<: *build
-    environment:
-      target: baseimage-jessie
   ruby-jessie:
     <<: *build
     environment:
-      target: ruby-jessie
       load_image: baseimage-jessie
   baseimage-wheezy:
     <<: *build
-    environment:
-      target: baseimage-wheezy
   ruby-wheezy:
     <<: *build
     environment:
-      target: ruby-wheezy
       load_image: baseimage-wheezy
 
 workflows:
