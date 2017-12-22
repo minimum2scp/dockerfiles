@@ -8,7 +8,21 @@ resources:
       - checkout
       - setup_remote_docker
       - attach_workspace: { at: /tmp/workspace }
-      - run: if [ -n "${load_image}" ]; then zcat /tmp/workspace/${load_image}.tar.gz | docker load; fi
+      - run:
+          name: Load image
+          command: |
+            load_image=
+            case "${CIRCLE_JOB}" in
+              ruby|nodejs)                 load_image=baseimage;;
+              fluentd-ui|rub-full|rails5)  load_image=ruby;;
+              ruby-stretch)                load_image=baseimage-stretch;;
+              ruby-jessie)                 load_image=baseimage-jessie;;
+              ruby-wheezy)                 load_image=baseimage-wheezy;;
+            esac
+            if [ -n "${load_image}" ]; then
+              echo "Loading /tmp/${load_image}.tar.gz"
+              zcat /tmp/workspace/${load_image}.tar.gz | docker load
+            fi
       - run: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB}
       - run: zcat /tmp/workspace/rspec-runner.tar.gz | docker load
       - run:
@@ -54,42 +68,26 @@ jobs:
     <<: *build
   nodejs:
     <<: *build
-    environment:
-      load_image: baseimage
   ruby:
     <<: *build
-    environment:
-      load_image: baseimage
   fluentd-ui:
     <<: *build
-    environment:
-      load_image: ruby
   ruby-full:
     <<: *build
-    environment:
-      load_image: ruby
   rails5:
     <<: *build
-    environment:
-      load_image: ruby
   baseimage-stretch:
     <<: *build
   ruby-stretch:
     <<: *build
-    environment:
-      load_image: baseimage-stretch
   baseimage-jessie:
     <<: *build
   ruby-jessie:
     <<: *build
-    environment:
-      load_image: baseimage-jessie
   baseimage-wheezy:
     <<: *build
   ruby-wheezy:
     <<: *build
-    environment:
-      load_image: baseimage-wheezy
 
 workflows:
   version: 2
