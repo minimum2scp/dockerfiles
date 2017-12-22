@@ -28,6 +28,7 @@ resources:
             esac
             if [ -n "${load_image}" ]; then
               echo "Loading /tmp/${load_image}.tar.gz"
+              ls -lah /tmp/workspace/
               pigz -c -d /tmp/workspace/${load_image}.tar.gz | docker load
             fi
       - run:
@@ -65,6 +66,7 @@ resources:
                 : > /tmp/${CIRCLE_JOB}.tar.gz
                 ;;
             esac
+            ls -lh /tmp/${CIRCLE_JOB}.tar.gz
       - persist_to_workspace:
           root: /tmp
           paths: [ "*.tar.gz" ]
@@ -88,7 +90,10 @@ jobs:
       - store_artifacts: { path: /tmp/build.log }
       - run:
           name: Save rspec-runner image
-          command: docker save minimum2scp/rspec-runner:ci | pigz -c - > /tmp/rspec-runner.tar.gz
+          command: |
+            set -x
+            docker save minimum2scp/rspec-runner:ci | pigz -c - > /tmp/rspec-runner.tar.gz
+            ls -lah /tmp/rspec-runner.tar.gz
       - persist_to_workspace:
           root: /tmp
           paths: [rspec-runner.tar.gz]
