@@ -45,7 +45,7 @@ describe 'minimum2scp/ruby-full' do
       {
         ruby: '2.3.6',
         desc: 'ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        rubygems_version: '2.5.2.2',
         gems: [
           {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
@@ -55,7 +55,7 @@ describe 'minimum2scp/ruby-full' do
       {
         ruby: '2.2.9',
         desc: 'ruby 2.2.9p480 (2017-12-15 revision 61259) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        rubygems_version: '2.4.5.4',
         gems: [
           {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
