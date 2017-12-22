@@ -23,55 +23,45 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '2.5.0-preview1',
-        desc: 'ruby 2.5.0preview1 (2017-10-10 trunk 60153) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        ruby: '2.5.0-rc1',
+        desc: 'ruby 2.5.0rc1 (2017-12-14 trunk 61243) [x86_64-linux]',
+        rubygems_version: '2.7.3',
         gems: [
-          {name: 'bundler', version: '1.15.4', default: true},
+          {name: 'bundler', version: '1.16.1.pre1', default: true},
           {name: 'pry'}
         ],
         openssl_version: '1.1.0'
       },
       {
-        ruby: '2.4.2',
-        desc: 'ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-linux]',
+        ruby: '2.4.3',
+        desc: 'ruby 2.4.3p205 (2017-12-14 revision 61247) [x86_64-linux]',
         rubygems_version: '2.6.14',
         gems: [
-          {name: 'bundler', version: '1.16.0'},
+          {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.0'
       },
       {
-        ruby: '2.3.5',
-        desc: 'ruby 2.3.5p376 (2017-09-14 revision 59905) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        ruby: '2.3.6',
+        desc: 'ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]',
+        rubygems_version: '2.5.2.2',
         gems: [
-          {name: 'bundler', version: '1.16.0'},
+          {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
         ],
         openssl_version: '1.0.2'
       },
       {
-        ruby: '2.2.8',
-        desc: 'ruby 2.2.8p477 (2017-09-14 revision 59906) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        ruby: '2.2.9',
+        desc: 'ruby 2.2.9p480 (2017-12-15 revision 61259) [x86_64-linux]',
+        rubygems_version: '2.4.5.4',
         gems: [
-          {name: 'bundler', version: '1.16.0'},
+          {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
         ],
         openssl_version: '1.0.2'
-      },
-      {
-        ruby: '2.1.10',
-        desc: 'ruby 2.1.10p492 (2016-04-01 revision 54464) [x86_64-linux]',
-        rubygems_version: '2.6.14',
-        gems: [
-          {name: 'bundler', version: '1.16.0'},
-          {name: 'pry'}
-        ],
-        openssl_version: '1.0.2'
-      },
+      }
     ].each do |v|
       describe command("rbenv versions --bare --skip-aliases") do
         let(:login_shell){ true }
