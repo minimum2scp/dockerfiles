@@ -61,8 +61,8 @@ resources:
             mkdir /tmp/test-results
             docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp cfg:/data/rspec.xml /tmp/test-results/rspec.xml
-      - store_test_results:
-          path: /tmp/test-results
+      # store_test_results is not supported with workflows (https://circleci.com/docs/2.0/configuration-reference/#store_test_results)
+      - store_test_results: { path: /tmp/test-results }
       - run:
           name: Save image if necessary
           command: |
