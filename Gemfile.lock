@@ -33,6 +33,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
+    rspec_junit_formatter (0.3.0)
+      rspec-core (>= 2, < 4, != 2.12.0)
     serverspec (2.41.3)
       multi_json
       rspec (~> 3.0)
@@ -52,6 +54,7 @@ DEPENDENCIES
   docker-api
   pry
   rake
+  rspec_junit_formatter
   serverspec
   specinfra
 
