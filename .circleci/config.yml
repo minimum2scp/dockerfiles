@@ -50,8 +50,19 @@ resources:
             docker rm cfg
       - run:
           name: Test image
-          command: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rake spec:${CIRCLE_JOB} | tee /tmp/test.log
+          command: |
+            docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci \
+            bundle exec rspec --color -f documentation -f RspecJunitFormatter -o /data/rspec.xml spec/${CIRCLE_JOB} \
+            | tee /tmp/test.log
       - store_artifacts: { path: /tmp/test.log }
+      - run:
+          name: Download rspec.xml
+          command: |
+            mkdir /tmp/test-results
+            docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
+            docker cp cfg:/data/rspec.xml /tmp/test-results/rspec.xml
+      - store_test_results:
+          path: /tmp/test-results
       - run:
           name: Save image if necessary
           command: |
