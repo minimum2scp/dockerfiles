@@ -90,8 +90,8 @@ I: Retrieving inetutils-ping 2:1.9.4-3
 I: Validating inetutils-ping 2:1.9.4-3
 I: Retrieving init-system-helpers 1.51
 I: Validating init-system-helpers 1.51
-I: Retrieving iproute2 4.13.0-1
-I: Validating iproute2 4.13.0-1
+I: Retrieving iproute2 4.14.1-1
+I: Validating iproute2 4.14.1-1
 I: Retrieving libcap-ng0 0.7.7-3.1+b1
 I: Validating libcap-ng0 0.7.7-3.1+b1
 I: Retrieving libffi6 3.2.1-7
@@ -453,14 +453,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.3MB
+Sending build context to Docker daemon  29.34MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5961ddc2abc2
+ ---> 8e103f88cf6d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d0fb98cfbd48
-Removing intermediate container d0fb98cfbd48
- ---> eaf8d18cd036
-Successfully built eaf8d18cd036
+ ---> Running in 175790aed07c
+Removing intermediate container 175790aed07c
+ ---> eb5e03a7dc82
+Successfully built eb5e03a7dc82
 Successfully tagged minimum2scp/debian:latest
