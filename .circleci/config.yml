@@ -1,72 +1,165 @@
 version: 2
-jobs:
-  build:
-    working_directory: /tmp/dockerfiles
 
+resources:
+  build: &build
     docker:
-      - image: circleci/ruby:2.4.2-stretch
-
+      - image: circleci/ruby:2.4.3-stretch
     steps:
-      - run:
-          name: Check ruby version
-          command: |
-            set -x
-            ruby -v
-            gem env
-            bundle version
-
       - checkout
-
-      - setup_remote_docker
-
       - run:
-          name: Check docker version
-          command: |
-            set -x
-            docker version
-            docker info
-
-      - run:
-          name: Install java
+          name: Install pigz
           command: |
             set -x
             sudo apt-get update
-            sudo apt-get install default-jre-headless -y --no-install-recommends
-
+            sudo apt-get install -y --no-install-recommends pigz
+      - setup_remote_docker
+      - attach_workspace: { at: /tmp/workspace }
       - run:
-          name: Install digdag
+          name: Load base image if necessary
           command: |
             set -x
-            sudo curl -o /usr/local/bin/digdag -L "https://dl.digdag.io/digdag-0.9.21"
-            sudo chmod +x /usr/local/bin/digdag
-
-      - run: digdag --version
-      - run: digdag check
-      - run: digdag run ci-build.dig --rerun
-
+            load_image=
+            case "${CIRCLE_JOB}" in
+              ruby|nodejs)                 load_image=baseimage;;
+              fluentd-ui|ruby-full|rails5) load_image=ruby;;
+              ruby-stretch)                load_image=baseimage-stretch;;
+              ruby-jessie)                 load_image=baseimage-jessie;;
+              ruby-wheezy)                 load_image=baseimage-wheezy;;
+            esac
+            if [ -n "${load_image}" ]; then
+              echo "Loading /tmp/${load_image}.tar.gz"
+              ls -lah /tmp/workspace/
+              pigz -c -d /tmp/workspace/${load_image}.tar.gz | docker load
+            fi
+      - run:
+          name: Build image
+          command: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB} 2>&1 | tee /tmp/build.log
+      - store_artifacts: { path: /tmp/build.log }
+      - run:
+          name: Load rspec-runner image
+          command: pigz -c -d /tmp/workspace/rspec-runner.tar.gz | docker load
       - run:
           name: Setup rspec-runner environment variables and volumes
           command: |
+            set -x
             printenv | sort | grep -Ev '^(DOCKER_CERT_PATH|CIRCLE_BUILD_TOKEN)=' | grep -E '^(CI=|CIRCLECI=|CIRCLE_|DOCKER_)' > .circleci/env
             echo "DOCKER_CERT_PATH=/data/$(basename ${DOCKER_CERT_PATH})" >> .circleci/env
             docker volume create data
             docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp ${DOCKER_CERT_PATH} cfg:/data
             docker rm cfg
-
-      - run: docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci bundle exec rspec --color -f documentation -f RspecJunitFormatter -o /data/rspec.xml
-
+      - run:
+          name: Test image
+          command: |
+            docker run --rm -t --env-file .circleci/env -v data:/data minimum2scp/rspec-runner:ci \
+            bundle exec rspec --color -f documentation -f RspecJunitFormatter -o /data/rspec.xml spec/${CIRCLE_JOB} \
+            | tee /tmp/test.log
+      - store_artifacts: { path: /tmp/test.log }
       - run:
           name: Download rspec.xml
           command: |
             mkdir /tmp/test-results
             docker create --name cfg -v data:/data minimum2scp/rspec-runner:ci
             docker cp cfg:/data/rspec.xml /tmp/test-results/rspec.xml
+      # store_test_results is not supported with workflows (https://circleci.com/docs/2.0/configuration-reference/#store_test_results)
+      - store_test_results: { path: /tmp/test-results }
+      - run:
+          name: Save image if necessary
+          command: |
+            set -x
+            case "${CIRCLE_JOB}" in
+              baseimage|baseimage-*|ruby)
+                echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
+                docker save minimum2scp/${CIRCLE_JOB}:latest | pigz -c - > /tmp/${CIRCLE_JOB}.tar.gz
+                ;;
+              *)
+                echo "Skipped to save image minimum2scp/${CIRCLE_JOB}:latest, creating /tmp/${CIRCLE_JOB}.tar.gz as empty file"
+                : > /tmp/${CIRCLE_JOB}.tar.gz
+                ;;
+            esac
+            ls -lh /tmp/${CIRCLE_JOB}.tar.gz
+      - persist_to_workspace:
+          root: /tmp
+          paths: [ "*.tar.gz" ]
 
-      - store_test_results:
-          path: /tmp/test-results
+jobs:
+  rspec-runner:
+    docker:
+      - image: circleci/ruby:2.4.3-stretch
+    steps:
+      - checkout
+      - run:
+          name: Install pigz
+          command: |
+            set -x
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends pigz
+      - setup_remote_docker
+      - run:
+          name: Build rspec-runner image
+          command: docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile . 2>&1 | tee /tmp/build.log
+      - store_artifacts: { path: /tmp/build.log }
+      - run:
+          name: Save rspec-runner image
+          command: |
+            set -x
+            docker save minimum2scp/rspec-runner:ci | pigz -c - > /tmp/rspec-runner.tar.gz
+            ls -lah /tmp/rspec-runner.tar.gz
+      - persist_to_workspace:
+          root: /tmp
+          paths: [rspec-runner.tar.gz]
+  baseimage:
+    <<: *build
+  nodejs:
+    <<: *build
+  ruby:
+    <<: *build
+  fluentd-ui:
+    <<: *build
+  ruby-full:
+    <<: *build
+  rails5:
+    <<: *build
+  baseimage-stretch:
+    <<: *build
+  ruby-stretch:
+    <<: *build
+  baseimage-jessie:
+    <<: *build
+  ruby-jessie:
+    <<: *build
+  baseimage-wheezy:
+    <<: *build
+  ruby-wheezy:
+    <<: *build
 
-      - store_artifacts:
-          path: .circleci/log/
-          destination: log
-
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - rspec-runner
+      - baseimage:
+          requires: [rspec-runner]
+      - nodejs:
+          requires: [rspec-runner, baseimage]
+      - ruby:
+          requires: [rspec-runner, baseimage]
+      - fluentd-ui:
+          requires: [rspec-runner, ruby]
+      - ruby-full:
+          requires: [rspec-runner, ruby]
+      - rails5:
+          requires: [rspec-runner, ruby]
+      - baseimage-stretch:
+          requires: [rspec-runner]
+      - ruby-stretch:
+          requires: [rspec-runner, baseimage-stretch]
+      - baseimage-jessie:
+          requires: [rspec-runner]
+      - ruby-jessie:
+          requires: [rspec-runner, baseimage-jessie]
+      - baseimage-wheezy:
+          requires: [rspec-runner]
+      - ruby-wheezy:
+          requires: [rspec-runner, baseimage-wheezy]
+ 
