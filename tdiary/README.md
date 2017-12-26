@@ -5,7 +5,7 @@
 
 # about minimum2scp/tdiary image
 
- * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby-full)
+ * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * tdiary (http://www.tdiary.org/) is installed
  * supervisor invokes tdiary server
  * use nginx-light as web server
