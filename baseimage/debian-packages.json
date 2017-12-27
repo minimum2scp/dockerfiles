@@ -143,10 +143,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bsdutils (<< 1:2.13-11)",
-    "Depends": "libbsd0 (>= 0.2.0), libc6 (>= 2.14), libncurses5 (>= 6), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
+    "Depends": "libbsd0 (>= 0.2.0), libc6 (>= 2.14), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "566",
+    "Installed-Size": "586",
     "Origin": "",
     "Package": "bsdmainutils",
     "Pre-Depends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "cpp, wamerican | wordlist, whois, vacation",
-    "Version": "9.0.14",
+    "Version": "11.1.1",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "9.0.14"
+    "source:Version": "11.1.1"
   },
   {
     "Architecture": "amd64",
