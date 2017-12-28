@@ -97,7 +97,7 @@ ii   netbase                 5.4                    all    Basic TCP/IP networki
 ii   passwd                  1:4.4-4.1              amd64  change and administer password and group data
 ii   perl-base               5.24.1-3+deb9u2        amd64  minimal Perl system
 ii   sed                     4.4-1                  amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.9                  all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9           amd64  System-V-like utilities
 ii   tar                     1.29b-1.1              amd64  GNU version of the tar archiving utility
 ii   tzdata                  2017c-0+deb9u1         all    time zone and daylight-saving time data
