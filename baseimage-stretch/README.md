@@ -179,7 +179,7 @@ ii   libsmartcols1           2.29.2-1                        amd64  smart column
 ii   libsqlite3-0            3.16.2-5+deb9u1                 amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2l-2+deb9u1                 amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2l-2+deb9u2                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3+deb9u1                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u1                   amd64  systemd utility library
@@ -220,7 +220,7 @@ ii   python2.7-minimal       2.7.13-2+deb9u2                 amd64  Minimal subs
 ii   readline-common         7.0-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.24.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.9                           all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.9+deb9u1                    all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                        amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.19p1-2.1                    amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                    all    System-V-like runlevel change mechanism

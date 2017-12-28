@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2l-2+deb9u1",
+    "Version": "1.0.2l-2+deb9u2",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2l-2+deb9u1"
+    "source:Version": "1.0.2l-2+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "110",
+    "Installed-Size": "62",
     "Origin": "",
     "Package": "sensible-utils",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.9",
+    "Version": "0.0.9+deb9u1",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.9"
+    "source:Version": "0.0.9+deb9u1"
   },
   {
     "Architecture": "amd64",
