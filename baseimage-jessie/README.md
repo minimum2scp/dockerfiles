@@ -213,7 +213,7 @@ ii   procps                  2:3.3.9-9                         amd64  /proc file
 ii   readline-common         6.3-8                             all    GNU readline and history libraries, common files
 ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable system and kernel logging daemon
 ii   sed                     4.2.2-4+deb8u1                    amd64  The GNU sed stream editor
-ii   sensible-utils          0.0.9                             all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.9+deb8u1                      all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                            amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.10p3-1+deb8u5                 amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59                        all    System-V-like runlevel change mechanism
