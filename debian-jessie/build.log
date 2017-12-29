@@ -528,27 +528,40 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Ign http://ftp.jp.debian.org jessie InRelease
 Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Ign http://ftp.jp.debian.org jessie InRelease
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
+Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [598 kB]
-Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.2 kB]
-Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
-Fetched 9893 kB in 1s (5472 kB/s)
+Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
+Get:5 http://security.debian.org jessie/updates/main amd64 Packages [599 kB]
+Err http://security.debian.org jessie/updates/main amd64 Packages
+  
+Get:6 http://security.debian.org jessie/updates/main amd64 Packages [599 kB]
+Fetched 9773 kB in 6min 46s (24.0 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.13MB
+The following packages will be upgraded:
+  sensible-utils
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 10.9 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org/ jessie/updates/main sensible-utils all 0.0.9+deb8u1 [10.9 kB]
+Fetched 10.9 kB in 0s (34.3 kB/s)
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../sensible-utils_0.0.9+deb8u1_all.deb ...
+Unpacking sensible-utils (0.0.9+deb8u1) over (0.0.9) ...
+Setting up sensible-utils (0.0.9+deb8u1) ...
+Sending build context to Docker daemon  30.12MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 2ae8aa6d268a
+ ---> 2ca274bc3b12
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 33000c907d1c
-Removing intermediate container 33000c907d1c
- ---> 16ea3037ae44
-Successfully built 16ea3037ae44
+ ---> Running in 1fa93ebdac6b
+Removing intermediate container 1fa93ebdac6b
+ ---> 94113a129187
+Successfully built 94113a129187
 Successfully tagged minimum2scp/debian-jessie:latest
