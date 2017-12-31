@@ -79,7 +79,7 @@ ii   curl                    7.57.0-1                        amd64  command line
 ii   dash                    0.5.8-2.5                       amd64  POSIX-compliant shell
 ii   debconf                 1.5.65                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                          all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.8.3                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.19.0.4                        amd64  Debian package management system
 ii   e2fslibs                1.43.7-1                        amd64  ext2/ext3/ext4 file system libraries
@@ -121,7 +121,7 @@ ii   libcurl3-gnutls         7.57.0-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.237                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
-ii   libelf1                 0.170-0.1                       amd64  library to read and write ELF files
+ii   libelf1                 0.170-0.2                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                      amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                         amd64  XML parsing C library - runtime library
@@ -226,6 +226,6 @@ ii   vim-tiny                2:8.0.1401-2                    amd64  Vi IMproved 
 ii   whiptail                0.52.20-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.1401-2                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.4.2-2                         amd64  shell with lots of features
-ii   zsh-common              5.4.2-2                         all    architecture independent files for Zsh
+ii   zsh                     5.4.2-3                         amd64  shell with lots of features
+ii   zsh-common              5.4.2-3                         all    architecture independent files for Zsh
 ```

@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8.3",
+    "Version": "4.8.4",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.8.3"
+    "source:Version": "4.8.4"
   },
   {
     "Architecture": "amd64",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.170-0.1",
+    "Version": "0.170-0.2",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.170-0.1"
+    "source:Version": "0.170-0.2"
   },
   {
     "Architecture": "all",
@@ -4511,7 +4511,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "zsh-common (= 5.4.2-2), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
+    "Depends": "zsh-common (= 5.4.2-3), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2183",
@@ -4525,7 +4525,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.4.2-2",
+    "Version": "5.4.2-3",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.4.2-2"
+    "source:Version": "5.4.2-3"
   },
   {
     "Architecture": "all",
@@ -4542,7 +4542,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12972",
+    "Installed-Size": "12875",
     "Origin": "",
     "Package": "zsh-common",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.4.2-2",
+    "Version": "5.4.2-3",
     "binary:Package": "zsh-common",
     "binary:Summary": "architecture independent files for Zsh",
     "db:Status-Abbrev": "ii ",
@@ -4561,6 +4561,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.4.2-2"
+    "source:Version": "5.4.2-3"
   }
 ]
