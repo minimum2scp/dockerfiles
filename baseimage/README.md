@@ -82,8 +82,8 @@ ii   debian-archive-keyring  2017.7                          all    GnuPG archiv
 ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.19.0.4                        amd64  Debian package management system
-ii   e2fslibs                1.43.7-1                        amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.7-1                        amd64  ext2/ext3/ext4 file system utilities
+ii   e2fslibs                1.43.8-1                        amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.8-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.30.2-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
@@ -115,7 +115,7 @@ ii   libc-l10n               2.25-6                          all    GNU C Librar
 ii   libc6                   2.25-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
-ii   libcomerr2              1.43.7-1                        amd64  common error description library
+ii   libcomerr2              1.43.8-1                        amd64  common error description library
 ii   libcurl3                7.57.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.57.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -176,15 +176,15 @@ ii   libsemanage1            2.7-2                           amd64  SELinux poli
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.30.2-0.1                      amd64  smart column output alignment library
-ii   libss2                  1.43.7-1                        amd64  command-line interface parsing library
+ii   libss2                  1.43.8-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              7.2.0-18                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             236-1                           amd64  systemd utility library
+ii   libsystemd0             236-2                           amd64  systemd utility library
 ii   libtasn1-6              4.12-3                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                236-1                           amd64  libudev shared library
+ii   libudev1                236-2                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
