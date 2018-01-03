@@ -311,7 +311,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy20), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy23), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "367",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy20",
+    "Version": "7.26.0-1+wheezy23",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy20"
+    "source:Version": "7.26.0-1+wheezy23"
   },
   {
     "Architecture": "amd64",
@@ -678,7 +678,7 @@
     "Depends": "libc6 (>= 2.9), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:1.7.10.4), git-man (<< 1:1.7.10.4-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "13173",
+    "Installed-Size": "13174",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-arch, git-cvs, git-svn, git-email, git-gui, gitk, gitweb",
-    "Version": "1:1.7.10.4-1+wheezy5",
+    "Version": "1:1.7.10.4-1+wheezy6",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy5"
+    "source:Version": "1:1.7.10.4-1+wheezy6"
   },
   {
     "Architecture": "all",
@@ -717,7 +717,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.7.10.4-1+wheezy5",
+    "Version": "1:1.7.10.4-1+wheezy6",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "git",
-    "source:Version": "1:1.7.10.4-1+wheezy5"
+    "source:Version": "1:1.7.10.4-1+wheezy6"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1350,7 @@
     "Depends": "libc6 (>= 2.11), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp0 (>= 2.3), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "603",
+    "Installed-Size": "604",
     "Origin": "",
     "Package": "libcurl3",
     "Pre-Depends": "multiarch-support",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy20",
+    "Version": "7.26.0-1+wheezy23",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy20"
+    "source:Version": "7.26.0-1+wheezy23"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.26.0-1+wheezy20",
+    "Version": "7.26.0-1+wheezy23",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "curl",
-    "source:Version": "7.26.0-1+wheezy20"
+    "source:Version": "7.26.0-1+wheezy23"
   },
   {
     "Architecture": "amd64",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.1.29-5",
+    "Version": "5.1.29-5+deb7u1",
     "binary:Package": "libdb5.1:amd64",
     "binary:Summary": "Berkeley v5.1 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "db",
-    "source:Version": "5.1.29-5"
+    "source:Version": "5.1.29-5+deb7u1"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.1t-1+deb7u2",
+    "Version": "1.0.1t-1+deb7u3",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "SSL shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb7u2"
+    "source:Version": "1.0.1t-1+deb7u3"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1t-1+deb7u2",
+    "Version": "1.0.1t-1+deb7u3",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Socket Layer (SSL) binary and related cryptographic tools",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb7u2"
+    "source:Version": "1.0.1t-1+deb7u3"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.7",
+    "Version": "0.0.7+deb7u1",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.7"
+    "source:Version": "0.0.7+deb7u1"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3702,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1764",
+    "Installed-Size": "1779",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2017b-0+deb7u1",
+    "Version": "2017c-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2017b-0+deb7u1"
+    "source:Version": "2017c-0+deb7u1"
   },
   {
     "Architecture": "all",
