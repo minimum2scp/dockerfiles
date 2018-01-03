@@ -56,7 +56,7 @@ ii   libbz2-1.0              1.0.6-4                amd64  high-quality block-so
 ii   libc-bin                2.13-38+deb7u12        amd64  Embedded GNU C Library: Binaries
 ii   libc6                   2.13-38+deb7u12        amd64  Embedded GNU C Library: Shared libraries
 ii   libcomerr2              1.42.5-1.1+deb7u1      amd64  common error description library
-ii   libdb5.1                5.1.29-5               amd64  Berkeley v5.1 Database Libraries [runtime]
+ii   libdb5.1                5.1.29-5+deb7u1        amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libgcc1                 1:4.7.2-5              amd64  GCC support library
 ii   liblocale-gettext-perl  1.05-7+b1              amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2  amd64  XZ-format compression library
@@ -93,12 +93,12 @@ ii   passwd                  1:4.1.5.1-1+deb7u1     amd64  change and administer
 ii   perl-base               5.14.2-21+deb7u5       amd64  minimal Perl system
 ii   readline-common         6.2+dfsg-0.1           all    GNU readline and history libraries, common files
 ii   sed                     4.2.1-10               amd64  The GNU sed stream editor
-ii   sensible-utils          0.0.7                  all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.7+deb7u1           all    Utilities for sensible alternative selection
 ii   sysv-rc                 2.88dsf-41+deb7u1      all    System-V-like runlevel change mechanism
 ii   sysvinit                2.88dsf-41+deb7u1      amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1      amd64  System-V-like utilities
 ii   tar                     1.26+dfsg-0.1+deb7u1   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017b-0+deb7u1         all    time zone and daylight-saving time data
+ii   tzdata                  2017c-0+deb7u1         all    time zone and daylight-saving time data
 ii   util-linux              2.20.1-5.3             amd64  Miscellaneous system utilities
 ii   xz-utils                5.1.1alpha+20120614-2  amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13        amd64  compression library - runtime

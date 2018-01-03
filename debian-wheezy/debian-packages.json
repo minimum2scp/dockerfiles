@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.1.29-5",
+    "Version": "5.1.29-5+deb7u1",
     "binary:Package": "libdb5.1:amd64",
     "binary:Summary": "Berkeley v5.1 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "db",
-    "source:Version": "5.1.29-5"
+    "source:Version": "5.1.29-5+deb7u1"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.7",
+    "Version": "0.0.7+deb7u1",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.7"
+    "source:Version": "0.0.7+deb7u1"
   },
   {
     "Architecture": "all",
@@ -2134,7 +2134,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1764",
+    "Installed-Size": "1779",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2017b-0+deb7u1",
+    "Version": "2017c-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2017b-0+deb7u1"
+    "source:Version": "2017c-0+deb7u1"
   },
   {
     "Architecture": "amd64",
