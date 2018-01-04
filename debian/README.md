@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.116                 all    add and remove users and groups
-ii   apt                     1.6~alpha5            amd64  commandline package manager
+ii   apt                     1.6~alpha6            amd64  commandline package manager
 ii   base-files              10                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
@@ -35,14 +35,14 @@ ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of 
 ii   debianutils             4.8.4                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
 ii   dpkg                    1.19.0.4              amd64  Debian package management system
-ii   e2fslibs                1.43.8-1              amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.8-1              amd64  ext2/ext3/ext4 file system utilities
+ii   e2fslibs                1.43.8-2              amd64  ext2/ext3/ext4 file system libraries
+ii   e2fsprogs               1.43.8-2              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.30.2-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
 ii   gcc-5-base              5.5.0-6               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-6-base              6.4.0-11              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-7-base              7.2.0-18              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.3-1               amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.4-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.18+b1               amd64  utility to set/show the host name or domain name
@@ -50,16 +50,16 @@ ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
 ii   iproute2                4.14.1-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6~alpha5            amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~alpha6            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.2-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.25-6                amd64  GNU C Library: Binaries
-ii   libc6                   2.25-6                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.26-1                amd64  GNU C Library: Binaries
+ii   libc6                   2.26-1                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
-ii   libcomerr2              1.43.8-1              amd64  common error description library
+ii   libcomerr2              1.43.8-2              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.237                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.2             amd64  library to read and write ELF files
@@ -90,7 +90,7 @@ ii   libsemanage-common      2.7-2                 all    Common files for SELin
 ii   libsemanage1            2.7-2                 amd64  SELinux policy management library
 ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.30.2-0.1            amd64  smart column output alignment library
-ii   libss2                  1.43.8-1              amd64  command-line interface parsing library
+ii   libss2                  1.43.8-2              amd64  command-line interface parsing library
 ii   libstdc++6              7.2.0-18              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             236-2                 amd64  systemd utility library
 ii   libtasn1-6              4.12-3                amd64  Manage ASN.1 structures (runtime)
