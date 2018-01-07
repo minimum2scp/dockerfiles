@@ -64,7 +64,7 @@ ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database
 ii   libdebconfclient0       0.237                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.30.2-0.1            amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-7               amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-18            amd64  GCC support library
 ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-1.1      amd64  Multiprecision arithmetic library
