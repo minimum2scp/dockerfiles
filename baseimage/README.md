@@ -127,7 +127,7 @@ ii   libestr0                0.1.10-2.1                      amd64  Helper funct
 ii   libexpat1               2.2.5-3                         amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.8-1                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.1                      amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-7                         amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.2.0-18                      amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
