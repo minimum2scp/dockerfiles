@@ -30,8 +30,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.237
-I: Validating libdebconfclient0 0.237
+I: Retrieving libdebconfclient0 0.238
+I: Validating libdebconfclient0 0.238
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.5
@@ -70,10 +70,10 @@ I: Retrieving libgcc1 1:7.2.0-19
 I: Validating libgcc1 1:7.2.0-19
 I: Retrieving libstdc++6 7.2.0-19
 I: Validating libstdc++6 7.2.0-19
-I: Retrieving libc-bin 2.26-2
-I: Validating libc-bin 2.26-2
-I: Retrieving libc6 2.26-2
-I: Validating libc6 2.26-2
+I: Retrieving libc-bin 2.26-3
+I: Validating libc-bin 2.26-3
+I: Retrieving libc6 2.26-3
+I: Validating libc6 2.26-3
 I: Retrieving libgmp10 2:6.1.2+dfsg-1.1
 I: Validating libgmp10 2:6.1.2+dfsg-1.1
 I: Retrieving gpgv 2.2.4-1
@@ -156,10 +156,10 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 236-2
-I: Validating libsystemd0 236-2
-I: Retrieving libudev1 236-2
-I: Validating libudev1 236-2
+I: Retrieving libsystemd0 236-3
+I: Validating libsystemd0 236-3
+I: Retrieving libudev1 236-3
+I: Validating libudev1 236-3
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.29b-2
@@ -453,14 +453,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.46MB
+Sending build context to Docker daemon  29.45MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ae69eb9b6bd0
+ ---> 654e08f0a16f
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2ae052e51d84
-Removing intermediate container 2ae052e51d84
- ---> 4fcb4e6aa822
-Successfully built 4fcb4e6aa822
+ ---> Running in c6bf60f3b844
+Removing intermediate container c6bf60f3b844
+ ---> 5bbd30e2c5f9
+Successfully built 5bbd30e2c5f9
 Successfully tagged minimum2scp/debian:latest

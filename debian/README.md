@@ -56,12 +56,12 @@ ii   libaudit-common         1:2.8.2-1             all    Dynamic library for se
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.26-2                amd64  GNU C Library: Binaries
-ii   libc6                   2.26-2                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.26-3                amd64  GNU C Library: Binaries
+ii   libc6                   2.26-3                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.8-2              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.237                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.238                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.2             amd64  library to read and write ELF files
 ii   libfdisk1               2.30.2-0.1            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
@@ -92,10 +92,10 @@ ii   libsepol1               2.7-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.30.2-0.1            amd64  smart column output alignment library
 ii   libss2                  1.43.8-2              amd64  command-line interface parsing library
 ii   libstdc++6              7.2.0-19              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             236-2                 amd64  systemd utility library
+ii   libsystemd0             236-3                 amd64  systemd utility library
 ii   libtasn1-6              4.12-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                236-2                 amd64  libudev shared library
+ii   libudev1                236-3                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.1            amd64  Universally Unique ID library
 ii   login                   1:4.5-1               amd64  system login tools
