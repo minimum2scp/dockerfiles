@@ -24,7 +24,7 @@ installed packages:
 ```
 ii   adduser                 3.116                 all    add and remove users and groups
 ii   apt                     1.6~alpha6            amd64  commandline package manager
-ii   base-files              10                    amd64  Debian base system miscellaneous files
+ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
 ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.30.2-0.1          amd64  basic utilities from 4.4BSD-Lite
@@ -56,8 +56,8 @@ ii   libaudit-common         1:2.8.2-1             all    Dynamic library for se
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.26-3                amd64  GNU C Library: Binaries
-ii   libc6                   2.26-3                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.26-4                amd64  GNU C Library: Binaries
+ii   libc6                   2.26-4                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.8-2              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
