@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.116                           all    add and remove users and groups
 ii   apt                     1.6~alpha6                      amd64  commandline package manager
-ii   base-files              10                              amd64  Debian base system miscellaneous files
+ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
@@ -108,11 +108,11 @@ ii   libattr1                1:2.4.47-2+b2                   amd64  Extended att
 ii   libaudit-common         1:2.8.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.30.2-0.1                      amd64  block device ID library
-ii   libbsd0                 0.8.6-3                         amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.8.7-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.26-3                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.26-3                          all    GNU C Library: localization files
-ii   libc6                   2.26-3                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.26-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.26-4                          all    GNU C Library: localization files
+ii   libc6                   2.26-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.8-2                        amd64  common error description library
@@ -189,7 +189,7 @@ ii   libunistring2           0.9.8-1                         amd64  Unicode stri
 ii   libuuid1                2.30.2-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.26-3                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.26-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
