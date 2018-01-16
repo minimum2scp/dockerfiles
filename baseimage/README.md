@@ -131,7 +131,7 @@ ii   libffi6                 3.2.1-8                         amd64  Foreign Func
 ii   libgcc1                 1:7.2.0-19                      amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
-ii   libgmp10                2:6.1.2+dfsg-1.1                amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-1.2                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.16-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-5                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15.2-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
