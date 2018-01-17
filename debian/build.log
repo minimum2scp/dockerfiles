@@ -22,16 +22,16 @@ I: Retrieving libaudit-common 1:2.8.2-1
 I: Validating libaudit-common 1:2.8.2-1
 I: Retrieving libaudit1 1:2.8.2-1
 I: Validating libaudit1 1:2.8.2-1
-I: Retrieving base-files 10.1
-I: Validating base-files 10.1
+I: Retrieving base-files 10
+I: Validating base-files 10
 I: Retrieving base-passwd 3.5.44
 I: Validating base-passwd 3.5.44
 I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.238
-I: Validating libdebconfclient0 0.238
+I: Retrieving libdebconfclient0 0.237
+I: Validating libdebconfclient0 0.237
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.5
@@ -70,12 +70,12 @@ I: Retrieving libgcc1 1:7.2.0-19
 I: Validating libgcc1 1:7.2.0-19
 I: Retrieving libstdc++6 7.2.0-19
 I: Validating libstdc++6 7.2.0-19
-I: Retrieving libc-bin 2.26-4
-I: Validating libc-bin 2.26-4
-I: Retrieving libc6 2.26-4
-I: Validating libc6 2.26-4
-I: Retrieving libgmp10 2:6.1.2+dfsg-1.2
-I: Validating libgmp10 2:6.1.2+dfsg-1.2
+I: Retrieving libc-bin 2.26-2
+I: Validating libc-bin 2.26-2
+I: Retrieving libc6 2.26-2
+I: Validating libc6 2.26-2
+I: Retrieving libgmp10 2:6.1.2+dfsg-1.1
+I: Validating libgmp10 2:6.1.2+dfsg-1.1
 I: Retrieving gpgv 2.2.4-1
 I: Validating gpgv 2.2.4-1
 I: Retrieving libgnutls30 3.5.16-1
@@ -148,8 +148,8 @@ I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Retrieving libpcre3 2:8.39-8
 I: Validating libpcre3 2:8.39-8
-I: Retrieving perl-base 5.26.1-4
-I: Validating perl-base 5.26.1-4
+I: Retrieving perl-base 5.26.1-3
+I: Validating perl-base 5.26.1-3
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
 I: Retrieving login 1:4.5-1
@@ -166,24 +166,24 @@ I: Retrieving tar 1.29b-2
 I: Validating tar 1.29b-2
 I: Retrieving tzdata 2017c-1
 I: Validating tzdata 2017c-1
-I: Retrieving bsdutils 1:2.30.2-0.2
-I: Validating bsdutils 1:2.30.2-0.2
-I: Retrieving fdisk 2.30.2-0.2
-I: Validating fdisk 2.30.2-0.2
-I: Retrieving libblkid1 2.30.2-0.2
-I: Validating libblkid1 2.30.2-0.2
-I: Retrieving libfdisk1 2.30.2-0.2
-I: Validating libfdisk1 2.30.2-0.2
-I: Retrieving libmount1 2.30.2-0.2
-I: Validating libmount1 2.30.2-0.2
-I: Retrieving libsmartcols1 2.30.2-0.2
-I: Validating libsmartcols1 2.30.2-0.2
-I: Retrieving libuuid1 2.30.2-0.2
-I: Validating libuuid1 2.30.2-0.2
-I: Retrieving mount 2.30.2-0.2
-I: Validating mount 2.30.2-0.2
-I: Retrieving util-linux 2.30.2-0.2
-I: Validating util-linux 2.30.2-0.2
+I: Retrieving bsdutils 1:2.30.2-0.1
+I: Validating bsdutils 1:2.30.2-0.1
+I: Retrieving fdisk 2.30.2-0.1
+I: Validating fdisk 2.30.2-0.1
+I: Retrieving libblkid1 2.30.2-0.1
+I: Validating libblkid1 2.30.2-0.1
+I: Retrieving libfdisk1 2.30.2-0.1
+I: Validating libfdisk1 2.30.2-0.1
+I: Retrieving libmount1 2.30.2-0.1
+I: Validating libmount1 2.30.2-0.1
+I: Retrieving libsmartcols1 2.30.2-0.1
+I: Validating libsmartcols1 2.30.2-0.1
+I: Retrieving libuuid1 2.30.2-0.1
+I: Validating libuuid1 2.30.2-0.1
+I: Retrieving mount 2.30.2-0.1
+I: Validating mount 2.30.2-0.1
+I: Retrieving util-linux 2.30.2-0.1
+I: Validating util-linux 2.30.2-0.1
 I: Retrieving liblzma5 5.2.2-1.3
 I: Validating liblzma5 5.2.2-1.3
 I: Retrieving zlib1g 1:1.2.8.dfsg-5
@@ -447,20 +447,132 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [240 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-12-0819.20.pdiff [10.2 kB]
+Get:4 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-12-1421.11.pdiff [9991 B]
+Get:5 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-12-2023.32.pdiff [9204 B]
+Get:6 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-13-0228.07.pdiff [3190 B]
+Get:7 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-13-0820.33.pdiff [12.9 kB]
+Get:8 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-13-1421.47.pdiff [6962 B]
+Get:9 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-13-2021.33.pdiff [10.1 kB]
+Get:10 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-14-0221.55.pdiff [5838 B]
+Get:11 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-14-0821.53.pdiff [3353 B]
+Get:12 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-14-1422.21.pdiff [18.0 kB]
+Get:13 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-14-2021.45.pdiff [14.0 kB]
+Get:14 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-15-0224.00.pdiff [5822 B]
+Get:15 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-15-0825.17.pdiff [1058 B]
+Get:16 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-15-1424.31.pdiff [11.1 kB]
+Get:17 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-15-2025.06.pdiff [20.3 kB]
+Get:18 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-16-0221.41.pdiff [19.1 kB]
+Get:19 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-16-0819.02.pdiff [3843 B]
+Get:20 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-16-1421.44.pdiff [4036 B]
+Get:21 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-16-2020.28.pdiff [6925 B]
+Get:22 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-17-0221.32.pdiff [13.8 kB]
+Get:23 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-17-0819.19.pdiff [8816 B]
+Get:24 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-17-1419.43.pdiff [6501 B]
+Get:24 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-01-17-1419.43.pdiff [6501 B]
+Fetched 473 kB in 2s (218 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  base-files bsdutils dpkg fdisk libblkid1 libc-bin libc6 libdebconfclient0
+  libfdisk1 libgmp10 libmount1 libsmartcols1 libuuid1 mount perl-base
+  util-linux
+16 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9697 kB of archives.
+After this operation, 78.8 kB of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian sid/main amd64 base-files amd64 10.1 [69.4 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 bsdutils amd64 1:2.30.2-0.3 [116 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 dpkg amd64 1.19.0.5 [2133 kB]
+Get:4 http://ftp.jp.debian.org/debian sid/main amd64 perl-base amd64 5.26.1-4 [1389 kB]
+Get:5 http://ftp.jp.debian.org/debian sid/main amd64 libc6 amd64 2.26-4 [2868 kB]
+Get:6 http://ftp.jp.debian.org/debian sid/main amd64 libuuid1 amd64 2.30.2-0.3 [70.7 kB]
+Get:7 http://ftp.jp.debian.org/debian sid/main amd64 libblkid1 amd64 2.30.2-0.3 [177 kB]
+Get:8 http://ftp.jp.debian.org/debian sid/main amd64 libfdisk1 amd64 2.30.2-0.3 [216 kB]
+Get:9 http://ftp.jp.debian.org/debian sid/main amd64 libmount1 amd64 2.30.2-0.3 [191 kB]
+Get:10 http://ftp.jp.debian.org/debian sid/main amd64 libsmartcols1 amd64 2.30.2-0.3 [136 kB]
+Get:11 http://ftp.jp.debian.org/debian sid/main amd64 fdisk amd64 2.30.2-0.3 [164 kB]
+Get:12 http://ftp.jp.debian.org/debian sid/main amd64 util-linux amd64 2.30.2-0.3 [933 kB]
+Get:13 http://ftp.jp.debian.org/debian sid/main amd64 libc-bin amd64 2.26-4 [764 kB]
+Get:14 http://ftp.jp.debian.org/debian sid/main amd64 mount amd64 2.30.2-0.3 [169 kB]
+Get:15 http://ftp.jp.debian.org/debian sid/main amd64 libdebconfclient0 amd64 0.238 [48.2 kB]
+Get:16 http://ftp.jp.debian.org/debian sid/main amd64 libgmp10 amd64 2:6.1.2+dfsg-1.2 [254 kB]
+Fetched 9697 kB in 1s (10.2 MB/s)
+(Reading database ... 6539 files and directories currently installed.)
+Preparing to unpack .../base-files_10.1_amd64.deb ...
+Unpacking base-files (10.1) over (10) ...
+Setting up base-files (10.1) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.30.2-0.3_amd64.deb ...
+Unpacking bsdutils (1:2.30.2-0.3) over (1:2.30.2-0.1) ...
+Setting up bsdutils (1:2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../dpkg_1.19.0.5_amd64.deb ...
+Unpacking dpkg (1.19.0.5) over (1.19.0.4) ...
+Setting up dpkg (1.19.0.5) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.26.1-4_amd64.deb ...
+Unpacking perl-base (5.26.1-4) over (5.26.1-3) ...
+Setting up perl-base (5.26.1-4) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libc6_2.26-4_amd64.deb ...
+Unpacking libc6:amd64 (2.26-4) over (2.26-2) ...
+Setting up libc6:amd64 (2.26-4) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.30.2-0.3_amd64.deb ...
+Unpacking libuuid1:amd64 (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up libuuid1:amd64 (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.30.2-0.3_amd64.deb ...
+Unpacking libblkid1:amd64 (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up libblkid1:amd64 (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.30.2-0.3_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up libfdisk1:amd64 (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.30.2-0.3_amd64.deb ...
+Unpacking libmount1:amd64 (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up libmount1:amd64 (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.30.2-0.3_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up libsmartcols1:amd64 (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.30.2-0.3_amd64.deb ...
+Unpacking fdisk (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up fdisk (2.30.2-0.3) ...
+(Reading database ... 6540 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.30.2-0.3_amd64.deb ...
+Unpacking util-linux (2.30.2-0.3) over (2.30.2-0.1) ...
+Setting up util-linux (2.30.2-0.3) ...
+(Reading database ... 6546 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.26-4_amd64.deb ...
+Unpacking libc-bin (2.26-4) over (2.26-2) ...
+Setting up libc-bin (2.26-4) ...
+(Reading database ... 6546 files and directories currently installed.)
+Preparing to unpack .../mount_2.30.2-0.3_amd64.deb ...
+Unpacking mount (2.30.2-0.3) over (2.30.2-0.1) ...
+Preparing to unpack .../libdebconfclient0_0.238_amd64.deb ...
+Unpacking libdebconfclient0:amd64 (0.238) over (0.237) ...
+Setting up libdebconfclient0:amd64 (0.238) ...
+(Reading database ... 6546 files and directories currently installed.)
+Preparing to unpack .../libgmp10_2%3a6.1.2+dfsg-1.2_amd64.deb ...
+Unpacking libgmp10:amd64 (2:6.1.2+dfsg-1.2) over (2:6.1.2+dfsg-1.1) ...
+Setting up libgmp10:amd64 (2:6.1.2+dfsg-1.2) ...
+Setting up mount (2.30.2-0.3) ...
+Processing triggers for libc-bin (2.26-4) ...
 Sending build context to Docker daemon  29.48MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8efa09d98f36
+ ---> 43a8aa02a845
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 803c8dbdebca
-Removing intermediate container 803c8dbdebca
- ---> 9a5124a2d263
-Successfully built 9a5124a2d263
+ ---> Running in c2c578aefa0c
+Removing intermediate container c2c578aefa0c
+ ---> 72d5fb9d953e
+Successfully built 72d5fb9d953e
 Successfully tagged minimum2scp/debian:latest
