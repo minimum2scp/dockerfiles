@@ -109,7 +109,7 @@ ii   perl-base               5.26.1-4              amd64  minimal Perl system
 ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017c-1               all    time zone and daylight-saving time data
+ii   tzdata                  2018b-1               all    time zone and daylight-saving time data
 ii   util-linux              2.30.2-0.3            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-5        amd64  compression library - runtime
 ```
