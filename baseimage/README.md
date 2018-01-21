@@ -134,13 +134,13 @@ ii   libgdbm3                1.8.3-14                        amd64  GNU dbm data
 ii   libgmp10                2:6.1.2+dfsg-1.2                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.17-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-5                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.16-1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                       amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.16-1                          amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.16-2                          amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9.2                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.16-1                          amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.16-1                          amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.16-2                          amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.16-2                          amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-3                         amd64  easy to use and lightweight logging library
@@ -217,7 +217,7 @@ ii   sysv-rc                 2.88dsf-59.10                   all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017c-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2018b-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.3                      amd64  miscellaneous system utilities
