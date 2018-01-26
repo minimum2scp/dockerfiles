@@ -76,7 +76,7 @@ ii   ca-certificates         20170717                        all    Common CA ce
 ii   coreutils               8.28-1                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128.1                    amd64  process scheduling daemon
 ii   curl                    7.58.0-2                        amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.8-2.9                       amd64  POSIX-compliant shell
+ii   dash                    0.5.8-2.10                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.65                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
@@ -87,9 +87,7 @@ ii   e2fsprogs               1.43.8-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.30.2-0.3                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
-ii   gcc-5-base              5.5.0-6                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-6-base              6.4.0-12                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-7-base              7.2.0-20                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-7-base              7.3.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.15.1-3                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.15.1-3                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.4-1                         amd64  GNU privacy guard - signature verification tool
@@ -128,7 +126,7 @@ ii   libexpat1               2.2.5-3                         amd64  XML parsing 
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.3                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.2.0-20                      amd64  GCC support library
+ii   libgcc1                 1:7.3.0-1                       amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
@@ -180,7 +178,7 @@ ii   libss2                  1.43.8-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.2.0-20                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              7.3.0-1                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             236-3+b1                        amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1                  amd64  shared low-level terminfo library for terminal handling
@@ -217,7 +215,7 @@ ii   sysv-rc                 2.88dsf-59.10                   all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018b-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2018c-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.3                      amd64  miscellaneous system utilities
