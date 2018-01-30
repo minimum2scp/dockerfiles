@@ -90,10 +90,10 @@ ii   libsepol1               2.7-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.30.2-0.3            amd64  smart column output alignment library
 ii   libss2                  1.43.8-2              amd64  command-line interface parsing library
 ii   libstdc++6              7.3.0-1               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             236-4                 amd64  systemd utility library
+ii   libsystemd0             237-1                 amd64  systemd utility library
 ii   libtasn1-6              4.13-2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                236-4                 amd64  libudev shared library
+ii   libudev1                237-1                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.30.2-0.3            amd64  Universally Unique ID library
 ii   login                   1:4.5-1               amd64  system login tools
@@ -104,7 +104,7 @@ ii   ncurses-bin             6.0+20171125-1        amd64  terminal-related progr
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
 ii   perl-base               5.26.1-4              amd64  minimal Perl system
-ii   sed                     4.4-1                 amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018c-1               all    time zone and daylight-saving time data
