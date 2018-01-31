@@ -31,8 +31,8 @@ I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.238
-I: Validating libdebconfclient0 0.238
+I: Retrieving libdebconfclient0 0.239
+I: Validating libdebconfclient0 0.239
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.10
@@ -81,8 +81,8 @@ I: Retrieving grep 3.1-2
 I: Validating grep 3.1-2
 I: Retrieving gzip 1.6-5+b1
 I: Validating gzip 1.6-5+b1
-I: Retrieving hostname 3.18+b1
-I: Validating hostname 3.18+b1
+I: Retrieving hostname 3.19
+I: Validating hostname 3.19
 I: Retrieving inetutils-ping 2:1.9.4-3
 I: Validating inetutils-ping 2:1.9.4-3
 I: Retrieving init-system-helpers 1.51
@@ -460,14 +460,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.73MB
+Sending build context to Docker daemon  28.74MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 04ce1f99ba61
+ ---> 1dc4fa4fc3d2
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 86fb335aeb2c
-Removing intermediate container 86fb335aeb2c
- ---> 77eea47f0d98
-Successfully built 77eea47f0d98
+ ---> Running in 69faa9ff3eee
+Removing intermediate container 69faa9ff3eee
+ ---> 14f38cae0f8c
+Successfully built 14f38cae0f8c
 Successfully tagged minimum2scp/debian:latest
