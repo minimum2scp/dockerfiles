@@ -94,7 +94,7 @@ ii   gpgv                    2.2.4-1                         amd64  GNU privacy 
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
-ii   hostname                3.19                            amd64  utility to set/show the host name or domain name
+ii   hostname                3.20                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo tool
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
@@ -128,7 +128,7 @@ ii   libfdisk1               2.30.2-0.3                      amd64  fdisk partit
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:7.3.0-1                       amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
+ii   libgdbm5                1.14.1-2                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.17-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-5                          amd64  library for common error values and messages in GnuPG components
@@ -159,7 +159,7 @@ ii   libpam-runtime          1.1.8-3.6                       all    Runtime supp
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-8                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.1-4                        amd64  shared Perl library
+ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
@@ -191,7 +191,7 @@ ii   locales                 2.26-6                          all    GNU C Librar
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.6.1-4                       amd64  on-line manual pager
+ii   man-db                  2.7.6.1-4+b1                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.3                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions
@@ -203,8 +203,8 @@ ii   openssh-server          1:7.6p1-3                       amd64  secure shell
 ii   openssh-sftp-server     1:7.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0g-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
-ii   perl                    5.26.1-4                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.1-4                        amd64  minimal Perl system
+ii   perl                    5.26.1-4+b1                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.1-4+b1                     amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-4                        all    Core Perl modules
 ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
 ii   rsyslog                 8.32.0-1                        amd64  reliable system and kernel logging daemon
