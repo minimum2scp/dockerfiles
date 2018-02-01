@@ -43,7 +43,7 @@ ii   gcc-7-base              7.3.0-1               amd64  GCC, the GNU Compiler 
 ii   gpgv                    2.2.4-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
-ii   hostname                3.19                  amd64  utility to set/show the host name or domain name
+ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
 ii   iproute2                4.14.1-2              amd64  networking and traffic control tools
