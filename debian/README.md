@@ -83,7 +83,7 @@ ii   libpam-runtime          1.1.8-3.6             all    Runtime support for th
 ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-8              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.1-2.1             amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.7-2                 amd64  SELinux runtime shared libraries
+ii   libselinux1             2.7-2+b1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2                 amd64  SELinux policy management library
 ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
@@ -103,7 +103,7 @@ ii   ncurses-base            6.0+20171125-1        all    basic terminal type de
 ii   ncurses-bin             6.0+20171125-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.1-4              amd64  minimal Perl system
+ii   perl-base               5.26.1-4+b1           amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
