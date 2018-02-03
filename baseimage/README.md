@@ -65,7 +65,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                 3.116                           all    add and remove users and groups
+ii   adduser                 3.117                           all    add and remove users and groups
 ii   apt                     1.6~alpha7                      amd64  commandline package manager
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
@@ -219,10 +219,10 @@ ii   tzdata                  2018c-1                         all    time zone an
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.30.2-0.3                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1401-2                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1401-2                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.1453-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-2                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1401-2                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.1453-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.4.2-3                         amd64  shell with lots of features
 ii   zsh-common              5.4.2-3                         all    architecture independent files for Zsh
