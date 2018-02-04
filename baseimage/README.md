@@ -158,7 +158,7 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-8                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
