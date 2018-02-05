@@ -157,7 +157,7 @@ ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.22-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.22-6                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
@@ -191,7 +191,7 @@ ii   locales                 2.26-6                          all    GNU C Librar
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.7.6.1-4+b1                    amd64  on-line manual pager
+ii   man-db                  2.8.0-1                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.3                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions

@@ -2593,7 +2593,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.22-5",
+    "Version": "10.22-6",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.22-5"
+    "source:Version": "10.22-6"
   },
   {
     "Architecture": "amd64",
@@ -3531,10 +3531,10 @@
     "Architecture": "amd64",
     "Conflicts": "man, suidmanager (<< 0.50)",
     "Breaks": "manpages-zh (<< 1.5.2-1.1)",
-    "Depends": "groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, libc6 (>= 2.17), libgdbm5 (>= 1.12), libpipeline1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "groff-base (>= 1.18.1.1-15), bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, libc6 (>= 2.17), libgdbm5 (>= 1.12), libpipeline1 (>= 1.5.0), libseccomp2 (>= 1.0.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2238",
+    "Installed-Size": "2422",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3545,7 +3545,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "groff, less, www-browser, apparmor",
-    "Version": "2.7.6.1-4+b1",
+    "Version": "2.8.0-1",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.7.6.1-4"
+    "source:Version": "2.8.0-1"
   },
   {
     "Architecture": "amd64",
