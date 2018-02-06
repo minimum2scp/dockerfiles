@@ -118,10 +118,10 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5798",
+    "Installed-Size": "5846",
     "Origin": "",
     "Package": "bash",
-    "Pre-Depends": "dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libtinfo5 (>= 6)",
+    "Pre-Depends": "libc6 (>= 2.15), libtinfo5 (>= 6)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "bash-completion (>= 20060301-0)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.4-5",
+    "Version": "4.4.18-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.4-5"
+    "source:Version": "4.4.18-1"
   },
   {
     "Architecture": "amd64",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.4-1",
+    "Version": "2.2.4-2",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.4-1"
+    "source:Version": "2.2.4-2"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "576",
+    "Installed-Size": "579",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.27-5",
+    "Version": "1.27-6",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "library for common error values and messages in GnuPG components",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.27-5"
+    "source:Version": "1.27-6"
   },
   {
     "Architecture": "amd64",
@@ -1770,7 +1770,7 @@
     "Depends": "libsemanage-common (= 2.7-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.7), libsepol1 (>= 2.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "292",
+    "Installed-Size": "293",
     "Origin": "",
     "Package": "libsemanage1",
     "Pre-Depends": "",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7-2",
+    "Version": "2.7-2+b1",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
