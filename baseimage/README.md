@@ -69,7 +69,7 @@ ii   adduser                 3.117                           all    add and remo
 ii   apt                     1.6~alpha7                      amd64  commandline package manager
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
-ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
+ii   bash                    4.4.18-1                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.30.2-0.3                    amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
@@ -88,9 +88,9 @@ ii   etckeeper               1.18.7-1                        all    store /etc i
 ii   fdisk                   2.30.2-0.3                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
 ii   gcc-7-base              7.3.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.15.1-3                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.15.1-3                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.4-1                         amd64  GNU privacy guard - signature verification tool
+ii   git                     1:2.16.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.16.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   gpgv                    2.2.4-2                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -131,7 +131,7 @@ ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto 
 ii   libgdbm5                1.14.1-2                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.17-1                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.27-5                          amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                       amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -170,7 +170,7 @@ ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL -
 ii   libseccomp2             2.3.1-2.1                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.7-2                           amd64  SELinux policy management library
+ii   libsemanage1            2.7-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.30.2-0.3                      amd64  smart column output alignment library
@@ -191,7 +191,7 @@ ii   locales                 2.26-6                          all    GNU C Librar
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.0-1                         amd64  on-line manual pager
+ii   man-db                  2.8.0-2                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.30.2-0.3                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions
