@@ -22,11 +22,11 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.116                 all    add and remove users and groups
+ii   adduser                 3.117                 all    add and remove users and groups
 ii   apt                     1.6~alpha7            amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
-ii   bash                    4.4-5                 amd64  GNU Bourne Again SHell
+ii   bash                    4.4.18-1              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.30.2-0.3          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
@@ -40,7 +40,7 @@ ii   e2fsprogs               1.43.8-2              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.30.2-0.3            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
 ii   gcc-7-base              7.3.0-1               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.4-1               amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.4-2               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
@@ -67,7 +67,7 @@ ii   libgcc1                 1:7.3.0-1             amd64  GCC support library
 ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-2        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.17-1              amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.27-5                amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.27-6                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1             amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
@@ -81,11 +81,11 @@ ii   libpam-modules          1.1.8-3.6             amd64  Pluggable Authenticati
 ii   libpam-modules-bin      1.1.8-3.6             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6             amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-8              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-9              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.1-2.1             amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.7-2                 amd64  SELinux policy management library
+ii   libsemanage1            2.7-2+b1              amd64  SELinux policy management library
 ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.30.2-0.3            amd64  smart column output alignment library
 ii   libss2                  1.43.8-2              amd64  command-line interface parsing library
