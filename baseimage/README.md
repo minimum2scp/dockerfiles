@@ -87,7 +87,7 @@ ii   e2fsprogs               1.43.8-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.30.2-0.3                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
-ii   gcc-7-base              7.3.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8-20180207-2                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.16.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.16.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.4-2                         amd64  GNU privacy guard - signature verification tool
@@ -117,7 +117,7 @@ ii   libcomerr2              1.43.8-2                        amd64  common error
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.239                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.240                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.3                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -126,7 +126,7 @@ ii   libexpat1               2.2.5-3                         amd64  XML parsing 
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.30.2-0.3                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:7.3.0-1                       amd64  GCC support library
+ii   libgcc1                 1:8-20180207-2                  amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm5                1.14.1-2                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
@@ -153,10 +153,10 @@ ii   libnettle6              3.4-1                           amd64  low level cr
 ii   libnewt0.52             0.52.20-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.29.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.9-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.1.8-3.7                       all    Runtime support for the PAM library
+ii   libpam0g                1.1.8-3.7                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-6                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
@@ -178,7 +178,7 @@ ii   libss2                  1.43.8-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              7.3.0-1                         amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8-20180207-2                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             237-1                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1                  amd64  shared low-level terminfo library for terminal handling
