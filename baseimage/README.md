@@ -71,7 +71,7 @@ ii   base-files              10.1                            amd64  Debian base 
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
 ii   bash                    4.4.18-1                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
-ii   bsdutils                1:2.30.2-0.3                    amd64  basic utilities from 4.4BSD-Lite
+ii   bsdutils                1:2.31.1-0.1                    amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128.1                    amd64  process scheduling daemon
@@ -82,17 +82,16 @@ ii   debian-archive-keyring  2017.7                          all    GnuPG archiv
 ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.19.0.5                        amd64  Debian package management system
-ii   e2fslibs                1.43.8-2                        amd64  ext2/ext3/ext4 file system libraries
-ii   e2fsprogs               1.43.8-2                        amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.43.9-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
-ii   fdisk                   2.30.2-0.3                      amd64  collection of partitioning utilities
+ii   fdisk                   2.31.1-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8-20180207-2                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.16.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.16.1-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.4-2                         amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.4-3                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.3-10                       amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.20                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo tool
@@ -105,7 +104,7 @@ ii   libapt-pkg5.0           1.6~alpha7                      amd64  package mana
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1                       amd64  Dynamic library for security auditing
-ii   libblkid1               2.30.2-0.3                      amd64  block device ID library
+ii   libblkid1               2.31.1-0.1                      amd64  block device ID library
 ii   libbsd0                 0.8.7-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.26-6                          amd64  GNU C Library: Binaries
@@ -113,7 +112,7 @@ ii   libc-l10n               2.26-6                          all    GNU C Librar
 ii   libc6                   2.26-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
-ii   libcomerr2              1.43.8-2                        amd64  common error description library
+ii   libcom-err2             1.43.9-1                        amd64  common error description library
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,8 +122,9 @@ ii   libelf1                 0.170-0.3                       amd64  library to r
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                      amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                         amd64  XML parsing C library - runtime library
+ii   libext2fs2              1.43.9-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
-ii   libfdisk1               2.30.2-0.3                      amd64  fdisk partitioning library
+ii   libfdisk1               2.31.1-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180207-2                  amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
@@ -146,7 +146,7 @@ ii   liblognorm5             2.0.3-1                         amd64  log normaliz
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
-ii   libmount1               2.30.2-0.3                      amd64  device mounting library
+ii   libmount1               2.31.1-0.1                      amd64  device mounting library
 ii   libncurses5             6.0+20171125-1                  amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20171125-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -162,7 +162,7 @@ ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 C
 ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
-ii   libprocps6              2:3.3.12-3                      amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.12-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.19.1-4                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
@@ -173,40 +173,40 @@ ii   libsemanage-common      2.7-2                           all    Common files
 ii   libsemanage1            2.7-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
-ii   libsmartcols1           2.30.2-0.3                      amd64  smart column output alignment library
-ii   libss2                  1.43.8-2                        amd64  command-line interface parsing library
+ii   libsmartcols1           2.31.1-0.1                      amd64  smart column output alignment library
+ii   libss2                  1.43.9-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8-20180207-2                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0             237-1                           amd64  systemd utility library
+ii   libsystemd0             237-2                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20171125-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                237-1                           amd64  libudev shared library
+ii   libudev1                237-2                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
-ii   libuuid1                2.30.2-0.3                      amd64  Universally Unique ID library
+ii   libuuid1                2.31.1-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.26-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.0-2                         amd64  on-line manual pager
+ii   man-db                  2.8.1-1                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
-ii   mount                   2.30.2-0.3                      amd64  tools for mounting and manipulating filesystems
+ii   mount                   2.31.1-0.1                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.0+20171125-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20171125-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.6p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.6p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.6p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.6p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.6p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0g-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.1-4+b1                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.1-4+b1                     amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-4                        all    Core Perl modules
-ii   procps                  2:3.3.12-3                      amd64  /proc file system utilities
+ii   procps                  2:3.3.12-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.32.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
@@ -218,7 +218,7 @@ ii   tar                     1.29b-2                         amd64  GNU version 
 ii   tzdata                  2018c-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
-ii   util-linux              2.30.2-0.3                      amd64  miscellaneous system utilities
+ii   util-linux              2.31.1-0.1                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.1453-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-2                       amd64  Displays user-friendly dialog boxes from shell scripts
