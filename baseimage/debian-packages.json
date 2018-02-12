@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.240",
+    "Version": "0.241",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.240"
+    "source:Version": "0.241"
   },
   {
     "Architecture": "amd64",
@@ -2299,7 +2299,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20171125-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.1-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "287",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20171125-1",
+    "Version": "6.1-1",
     "binary:Package": "libncurses5:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2321,13 +2321,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20171125-1"
+    "source:Version": "6.1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 6.0+20171125-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo5 (= 6.1-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "347",
@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20171125-1",
+    "Version": "6.1-1",
     "binary:Package": "libncursesw5:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20171125-1"
+    "source:Version": "6.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "492",
+    "Installed-Size": "496",
     "Origin": "",
     "Package": "libtinfo5",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20171125-1",
+    "Version": "6.1-1",
     "binary:Package": "libtinfo5:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20171125-1"
+    "source:Version": "6.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3618,7 +3618,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "352",
+    "Installed-Size": "356",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -3629,7 +3629,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20171125-1",
+    "Version": "6.1-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20171125-1"
+    "source:Version": "6.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3646,10 +3646,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "570",
+    "Installed-Size": "575",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.0+20170715), libtinfo5 (<< 6.1~)",
+    "Pre-Depends": "libc6 (>= 2.14), libtinfo5 (>= 6.1)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3657,7 +3657,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.0+20171125-1",
+    "Version": "6.1-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.0+20171125-1"
+    "source:Version": "6.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3674,7 +3674,7 @@
     "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "940",
+    "Installed-Size": "932",
     "Origin": "",
     "Package": "net-tools",
     "Pre-Depends": "",
@@ -3685,7 +3685,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.60+git20161116.90da8a0-1",
+    "Version": "1.60+git20161116.90da8a0-2",
     "binary:Package": "net-tools",
     "binary:Summary": "NET-3 networking toolkit",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "net-tools",
-    "source:Version": "1.60+git20161116.90da8a0-1"
+    "source:Version": "1.60+git20161116.90da8a0-2"
   },
   {
     "Architecture": "all",
