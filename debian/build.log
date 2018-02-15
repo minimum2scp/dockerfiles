@@ -153,34 +153,34 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 237-2
-I: Validating libsystemd0 237-2
-I: Retrieving libudev1 237-2
-I: Validating libudev1 237-2
+I: Retrieving libsystemd0 237-3
+I: Validating libsystemd0 237-3
+I: Retrieving libudev1 237-3
+I: Validating libudev1 237-3
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.29b-2
 I: Validating tar 1.29b-2
 I: Retrieving tzdata 2018c-1
 I: Validating tzdata 2018c-1
-I: Retrieving bsdutils 1:2.31.1-0.1
-I: Validating bsdutils 1:2.31.1-0.1
-I: Retrieving fdisk 2.31.1-0.1
-I: Validating fdisk 2.31.1-0.1
-I: Retrieving libblkid1 2.31.1-0.1
-I: Validating libblkid1 2.31.1-0.1
-I: Retrieving libfdisk1 2.31.1-0.1
-I: Validating libfdisk1 2.31.1-0.1
-I: Retrieving libmount1 2.31.1-0.1
-I: Validating libmount1 2.31.1-0.1
-I: Retrieving libsmartcols1 2.31.1-0.1
-I: Validating libsmartcols1 2.31.1-0.1
-I: Retrieving libuuid1 2.31.1-0.1
-I: Validating libuuid1 2.31.1-0.1
-I: Retrieving mount 2.31.1-0.1
-I: Validating mount 2.31.1-0.1
-I: Retrieving util-linux 2.31.1-0.1
-I: Validating util-linux 2.31.1-0.1
+I: Retrieving bsdutils 1:2.31.1-0.4
+I: Validating bsdutils 1:2.31.1-0.4
+I: Retrieving fdisk 2.31.1-0.4
+I: Validating fdisk 2.31.1-0.4
+I: Retrieving libblkid1 2.31.1-0.4
+I: Validating libblkid1 2.31.1-0.4
+I: Retrieving libfdisk1 2.31.1-0.4
+I: Validating libfdisk1 2.31.1-0.4
+I: Retrieving libmount1 2.31.1-0.4
+I: Validating libmount1 2.31.1-0.4
+I: Retrieving libsmartcols1 2.31.1-0.4
+I: Validating libsmartcols1 2.31.1-0.4
+I: Retrieving libuuid1 2.31.1-0.4
+I: Validating libuuid1 2.31.1-0.4
+I: Retrieving mount 2.31.1-0.4
+I: Validating mount 2.31.1-0.4
+I: Retrieving util-linux 2.31.1-0.4
+I: Validating util-linux 2.31.1-0.4
 I: Retrieving liblzma5 5.2.2-1.3
 I: Validating liblzma5 5.2.2-1.3
 I: Retrieving zlib1g 1:1.2.8.dfsg-5
@@ -460,14 +460,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.77MB
+Sending build context to Docker daemon  28.79MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3a61395a8a2a
+ ---> 63e4a8ad3aa7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d74ce4983fe3
-Removing intermediate container d74ce4983fe3
- ---> 5805413ca430
-Successfully built 5805413ca430
+ ---> Running in b12460bc4441
+Removing intermediate container b12460bc4441
+ ---> 055f3a171a0b
+Successfully built 055f3a171a0b
 Successfully tagged minimum2scp/debian:latest
