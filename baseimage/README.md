@@ -172,7 +172,7 @@ ii   libselinux1             2.7-2+b1                        amd64  SELinux runt
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.1a-1                        amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.1a-2                        amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.31.1-0.4                      amd64  smart column output alignment library
 ii   libss2                  1.43.9-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
