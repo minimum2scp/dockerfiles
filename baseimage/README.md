@@ -130,7 +130,7 @@ ii   libgcc1                 1:8-20180207-2                  amd64  GCC support 
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm5                1.14.1-3                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.17-1                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
@@ -209,6 +209,7 @@ ii   perl-modules-5.26       5.26.1-4                        all    Core Perl mo
 ii   procps                  2:3.3.12-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.32.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
+ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.21p2-3                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
@@ -216,7 +217,7 @@ ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-lik
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018c-1                         all    time zone and daylight-saving time data
-ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                     3.0037                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.4                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
