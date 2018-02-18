@@ -930,7 +930,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2027",
+    "Installed-Size": "2057",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.14.1-2",
+    "Version": "4.15.0-2",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.14.1-2"
+    "source:Version": "4.15.0-2"
   },
   {
     "Architecture": "amd64",

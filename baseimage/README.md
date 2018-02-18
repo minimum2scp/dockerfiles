@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo to
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.14.1-2                        amd64  networking and traffic control tools
+ii   iproute2                4.15.0-2                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha7                      amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
