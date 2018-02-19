@@ -38,14 +38,14 @@ ii   dpkg                    1.19.0.5              amd64  Debian package managem
 ii   e2fsprogs               1.43.9-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.31.1-0.4            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2  amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8-20180207-2          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8-20180218-1          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.4-3               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
-ii   iproute2                4.14.1-2              amd64  networking and traffic control tools
+ii   iproute2                4.15.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6~alpha7            amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
@@ -63,7 +63,7 @@ ii   libelf1                 0.170-0.3             amd64  library to read and wr
 ii   libext2fs2              1.43.9-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.31.1-0.4            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8-20180207-2        amd64  GCC support library
+ii   libgcc1                 1:8-20180218-1        amd64  GCC support library
 ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-2        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1              amd64  GNU TLS library - main runtime library
@@ -89,7 +89,7 @@ ii   libsemanage1            2.7-2+b1              amd64  SELinux policy managem
 ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.31.1-0.4            amd64  smart column output alignment library
 ii   libss2                  1.43.9-1              amd64  command-line interface parsing library
-ii   libstdc++6              8-20180207-2          amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8-20180218-1          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             237-3                 amd64  systemd utility library
 ii   libtasn1-6              4.13-2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.1-1                 amd64  shared low-level terminfo library for terminal handling
