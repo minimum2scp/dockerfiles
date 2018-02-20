@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.1a-2",
+    "Version": "2.3.1a-3",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.1a-2"
+    "source:Version": "2.3.1a-3"
   },
   {
     "Architecture": "amd64",
