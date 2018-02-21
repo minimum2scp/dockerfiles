@@ -311,10 +311,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.38.0-4+deb8u8), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.38.0-4+deb8u9), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "290",
+    "Installed-Size": "325",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u8",
+    "Version": "7.38.0-4+deb8u9",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u8"
+    "source:Version": "7.38.0-4+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "547",
+    "Installed-Size": "586",
     "Origin": "",
     "Package": "libcurl3",
     "Pre-Depends": "multiarch-support",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u8",
+    "Version": "7.38.0-4+deb8u9",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u8"
+    "source:Version": "7.38.0-4+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.17), libcomerr2 (>= 1.01), libgnutls-deb0-28 (>= 3.3.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle4, librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "519",
+    "Installed-Size": "558",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "multiarch-support",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u8",
+    "Version": "7.38.0-4+deb8u9",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u8"
+    "source:Version": "7.38.0-4+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1712",
+    "Installed-Size": "1713",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2017c-0+deb8u1",
+    "Version": "2018c-0+deb8u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2017c-0+deb8u1"
+    "source:Version": "2018c-0+deb8u1"
   },
   {
     "Architecture": "all",
