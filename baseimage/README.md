@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20170828-2            amd64  utilities fo
 ii   gcc-8-base              8-20180218-1                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.16.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.16.1-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.4-3                         amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.5-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                       amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -128,7 +128,7 @@ ii   libfdisk1               2.31.1-0.4                      amd64  fdisk partit
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180218-1                  amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm5                1.14.1-3                        amd64  GNU dbm database routines (runtime version)
+ii   libgdbm5                1.14.1-4                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
@@ -163,7 +163,7 @@ ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl 
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-4                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.19.1-4                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.19.1-5                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
