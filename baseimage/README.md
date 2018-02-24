@@ -87,8 +87,8 @@ ii   etckeeper               1.18.7-1                        all    store /etc i
 ii   fdisk                   2.31.1-0.4                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8-20180218-1                    amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.16.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.16.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.16.2-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.16.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.5-1                         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                       amd64  GNU troff text-formatting system (base system components)
@@ -128,6 +128,7 @@ ii   libfdisk1               2.31.1-0.4                      amd64  fdisk partit
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180218-1                  amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
+ii   libgdbm-compat4         1.14.1-4                        amd64  GNU dbm database routines (legacy support runtime version)
 ii   libgdbm5                1.14.1-4                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
@@ -159,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.7                       all    Runtime supp
 ii   libpam0g                1.1.8-3.7                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.22-6                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.1-4+b1                     amd64  shared Perl library
+ii   libperl5.26             5.26.1-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-4                      amd64  library for accessing process information from /proc
@@ -203,9 +204,9 @@ ii   openssh-server          1:7.6p1-4                       amd64  secure shell
 ii   openssh-sftp-server     1:7.6p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0g-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
-ii   perl                    5.26.1-4+b1                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.1-4+b1                     amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.1-4                        all    Core Perl modules
+ii   perl                    5.26.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.1-5                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
 ii   procps                  2:3.3.12-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.32.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
