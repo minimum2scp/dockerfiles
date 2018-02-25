@@ -62,7 +62,7 @@ describe 'minimum2scp/baseimage-wheezy' do
     end
 
     describe file("/etc/localtime") do
-      its(:md5sum){ should eq '4387b905d699977cb48c740de16e610b' }
+      its(:md5sum){ should eq '626d71964c55b911a4c72fc794afa928' }
     end
 
     describe file("/etc/locale.nopurge") do
