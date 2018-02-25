@@ -406,16 +406,16 @@ I: Configuring gnupg...
 I: Configuring apt...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit http://ftp.jp.debian.org wheezy Release.gpg
 Get:1 http://security.debian.org wheezy/updates Release.gpg [1601 B]
+Hit http://ftp.jp.debian.org wheezy Release.gpg
 Get:2 http://ftp.jp.debian.org wheezy-updates Release.gpg [1601 B]
-Hit http://ftp.jp.debian.org wheezy Release
 Get:3 http://security.debian.org wheezy/updates Release [39.0 kB]
+Hit http://ftp.jp.debian.org wheezy Release
 Get:4 http://ftp.jp.debian.org wheezy-updates Release [155 kB]
-Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [751 kB]
+Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [775 kB]
 Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7634 kB]
 Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
-Fetched 8590 kB in 1s (4306 kB/s)
+Fetched 8613 kB in 1s (4462 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -424,7 +424,7 @@ The following packages will be upgraded:
   perl-base sensible-utils tar tzdata
 13 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 15.3 MB of archives.
-After this operation, 663 kB of additional disk space will be used.
+After this operation, 664 kB of additional disk space will be used.
 Get:1 http://security.debian.org/ wheezy/updates/main bash amd64 4.2+dfsg-0.1+deb7u4 [1499 kB]
 Get:2 http://security.debian.org/ wheezy/updates/main login amd64 1:4.1.5.1-1+deb7u1 [984 kB]
 Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u5 [1534 kB]
@@ -436,9 +436,9 @@ Get:8 http://security.debian.org/ wheezy/updates/main gpgv amd64 1.4.12-7+deb7u9
 Get:9 http://security.debian.org/ wheezy/updates/main gnupg amd64 1.4.12-7+deb7u9 [1954 kB]
 Get:10 http://security.debian.org/ wheezy/updates/main passwd amd64 1:4.1.5.1-1+deb7u1 [1262 kB]
 Get:11 http://security.debian.org/ wheezy/updates/main sensible-utils all 0.0.7+deb7u1 [9000 B]
-Get:12 http://security.debian.org/ wheezy/updates/main tzdata all 2017c-0+deb7u1 [493 kB]
+Get:12 http://security.debian.org/ wheezy/updates/main tzdata all 2018c-0+deb7u1 [496 kB]
 Get:13 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u12 [152 kB]
-Fetched 15.3 MB in 1s (9373 kB/s)
+Fetched 15.3 MB in 1s (10.7 MB/s)
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace bash 4.2+dfsg-0.1+deb7u3 (using .../bash_4.2+dfsg-0.1+deb7u4_amd64.deb) ...
 Unpacking replacement bash ...
@@ -485,9 +485,9 @@ Preparing to replace sensible-utils 0.0.7 (using .../sensible-utils_0.0.7+deb7u1
 Unpacking replacement sensible-utils ...
 Setting up sensible-utils (0.0.7+deb7u1) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace tzdata 2016d-0+deb7u1 (using .../tzdata_2017c-0+deb7u1_all.deb) ...
+Preparing to replace tzdata 2016d-0+deb7u1 (using .../tzdata_2018c-0+deb7u1_all.deb) ...
 Unpacking replacement tzdata ...
-Setting up tzdata (2017c-0+deb7u1) ...
+Setting up tzdata (2018c-0+deb7u1) ...
 (Reading database ... 6744 files and directories currently installed.)
 Preparing to replace multiarch-support 2.13-38+deb7u10 (using .../multiarch-support_2.13-38+deb7u12_amd64.deb) ...
 Unpacking replacement multiarch-support ...
@@ -496,10 +496,10 @@ Sending build context to Docker daemon  21.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 2aef2b8937f9
+ ---> 9f033fb384eb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 1811fdb20278
-Removing intermediate container 1811fdb20278
- ---> fb82c999ebb0
-Successfully built fb82c999ebb0
+ ---> Running in 83585e0daf35
+Removing intermediate container 83585e0daf35
+ ---> 89ae76fef9bd
+Successfully built 89ae76fef9bd
 Successfully tagged minimum2scp/debian-wheezy:latest
