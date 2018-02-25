@@ -73,10 +73,10 @@ ii   base-passwd             3.5.26                            amd64  Debian bas
 ii   bash                    4.2+dfsg-0.1+deb7u4               amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.3                             amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.20.1-5.3                      amd64  Basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20130119+deb7u1                   all    Common CA certificates
+ii   ca-certificates         20130119+deb7u2                   all    Common CA certificates
 ii   coreutils               8.13-3.5                          amd64  GNU core utilities
 ii   cron                    3.0pl1-124                        amd64  process scheduling daemon
-ii   curl                    7.26.0-1+wheezy23                 amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.26.0-1+wheezy24                 amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-3                           amd64  POSIX-compliant shell
 ii   debconf                 1.5.49                            all    Debian configuration management system
 ii   debconf-i18n            1.5.49                            all    full internationalization support for debconf
@@ -113,8 +113,8 @@ ii   libc6                   2.13-38+deb7u12                   amd64  Embedded G
 ii   libcap2                 1:2.22-1.2                        amd64  support for getting/setting POSIX.1e capabilities
 ii   libclass-isa-perl       0.36-3                            all    report the search path for a class's ISA tree
 ii   libcomerr2              1.42.5-1.1+deb7u1                 amd64  common error description library
-ii   libcurl3                7.26.0-1+wheezy23                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.26.0-1+wheezy23                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.26.0-1+wheezy24                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.26.0-1+wheezy24                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.1                5.1.29-5+deb7u1                   amd64  Berkeley v5.1 Database Libraries [runtime]
 ii   libedit2                2.11-20080614-5                   amd64  BSD editline and history libraries
 ii   liberror-perl           0.17-1                            all    Perl module for error/exception handling in an OO-ish way
@@ -124,12 +124,12 @@ ii   libgcrypt11             1.5.0-5+deb7u6                    amd64  LGPL Crypt
 ii   libgdbm3                1.8.3-11                          amd64  GNU dbm database routines (runtime version)
 ii   libgnutls26             2.12.20-8+deb7u5                  amd64  GNU TLS library - runtime library
 ii   libgpg-error0           1.10-3.1                          amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.10.1+dfsg-5+deb7u9              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libidn11                1.25-2+deb7u3                     amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libk5crypto3            1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.10.1+dfsg-5+deb7u9              amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.5-3+deb7u1                    amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.10.1+dfsg-5+deb7u8              amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.10.1+dfsg-5+deb7u9              amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.10.1+dfsg-5+deb7u9              amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.31-2+deb7u3                   amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-7+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblzma5                5.1.1alpha+20120614-2             amd64  XZ-format compression library
@@ -180,8 +180,8 @@ ii   ncurses-base            5.9-10                            all    basic term
 ii   ncurses-bin             5.9-10                            amd64  terminal-related programs and man pages
 ii   net-tools               1.60-24.2                         amd64  The NET-3 networking toolkit
 ii   netbase                 5.0                               all    Basic TCP/IP networking system
-ii   openssh-client          1:6.0p1-4+deb7u6                  amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:6.0p1-4+deb7u6                  amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-client          1:6.0p1-4+deb7u7                  amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:6.0p1-4+deb7u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssl                 1.0.1t-1+deb7u3                   amd64  Secure Socket Layer (SSL) binary and related cryptographic tools
 ii   passwd                  1:4.1.5.1-1+deb7u1                amd64  change and administer password and group data
 ii   perl                    5.14.2-21+deb7u5                  amd64  Larry Wall's Practical Extraction and Report Language
@@ -197,7 +197,7 @@ ii   sysv-rc                 2.88dsf-41+deb7u1                 all    System-V-l
 ii   sysvinit                2.88dsf-41+deb7u1                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1                 amd64  System-V-like utilities
 ii   tar                     1.26+dfsg-0.1+deb7u1              amd64  GNU version of the tar archiving utility
-ii   tzdata                  2017c-0+deb7u1                    all    time zone and daylight-saving time data
+ii   tzdata                  2018c-0+deb7u1                    all    time zone and daylight-saving time data
 ii   ucf                     3.0025+nmu3                       all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6                      amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                        amd64  Miscellaneous system utilities
