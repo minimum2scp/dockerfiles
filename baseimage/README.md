@@ -218,7 +218,7 @@ ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-lik
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018c-1                         all    time zone and daylight-saving time data
-ii   ucf                     3.0037                          all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.4                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
