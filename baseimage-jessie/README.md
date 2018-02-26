@@ -90,7 +90,7 @@ ii   e2fsprogs               1.42.12-2+b1                      amd64  ext2/ext3/
 ii   etckeeper               1.15                              all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.4.2-9+b1                        amd64  utilities for finding files--find, xargs
 ii   gcc-4.8-base            4.8.4-1                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-4.9-base            4.9.2-10                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-4.9-base            4.9.2-10+deb8u1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.1.4-2.1+deb8u5                amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.1.4-2.1+deb8u5                all    fast, scalable, distributed revision control system (manual pages)
 ii   gnupg                   1.4.18-7+deb8u4                   amd64  GNU privacy guard - a free PGP replacement
@@ -129,7 +129,7 @@ ii   liberror-perl           0.17-1.1                          all    Perl modul
 ii   libestr0                0.1.9-1.1                         amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.1.0-6+deb8u4                    amd64  XML parsing C library - runtime library
 ii   libffi6                 3.1-2+deb8u1                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:4.9.2-10                        amd64  GCC support library
+ii   libgcc1                 1:4.9.2-10+deb8u1                 amd64  GCC support library
 ii   libgcrypt20             1.6.3-2+deb8u4                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
@@ -176,7 +176,7 @@ ii   libsmartcols1           2.25.2-6                          amd64  smart colu
 ii   libss2                  1.42.12-2+b1                      amd64  command-line interface parsing library
 ii   libssh2-1               1.4.3-4.1+deb8u1                  amd64  SSH2 client-side library
 ii   libssl1.0.0             1.0.1t-1+deb8u7                   amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              4.9.2-10                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6              4.9.2-10+deb8u1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             215-17+deb8u7                     amd64  systemd utility library
 ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
