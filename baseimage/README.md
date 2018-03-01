@@ -180,10 +180,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2n-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0g-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8-20180218-1                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0             237-3                           amd64  systemd utility library
+ii   libsystemd0             237-4                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.1-1                           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                237-3                           amd64  libudev shared library
+ii   libudev1                237-4                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.4                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
@@ -192,7 +192,7 @@ ii   locales                 2.26-6                          all    GNU C Librar
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-4                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.1-1                         amd64  on-line manual pager
+ii   man-db                  2.8.2-1                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.4                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1-1                           all    basic terminal type definitions
