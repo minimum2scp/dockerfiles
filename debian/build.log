@@ -153,10 +153,10 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 237-3
-I: Validating libsystemd0 237-3
-I: Retrieving libudev1 237-3
-I: Validating libudev1 237-3
+I: Retrieving libsystemd0 237-4
+I: Validating libsystemd0 237-4
+I: Retrieving libudev1 237-4
+I: Validating libudev1 237-4
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.29b-2
@@ -464,10 +464,10 @@ Sending build context to Docker daemon  28.81MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 53bba435f9c6
+ ---> a47b522bc454
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9615a9a87dfb
-Removing intermediate container 9615a9a87dfb
- ---> 14f7e39fe44a
-Successfully built 14f7e39fe44a
+ ---> Running in b4b1893046d6
+Removing intermediate container b4b1893046d6
+ ---> 3cf28357cd1f
+Successfully built 3cf28357cd1f
 Successfully tagged minimum2scp/debian:latest
