@@ -23,14 +23,14 @@ installed packages:
 
 ```
 ii   adduser                 3.117                 all    add and remove users and groups
-ii   apt                     1.6~alpha7            amd64  commandline package manager
+ii   apt                     1.6~beta1             amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
 ii   bash                    4.4.18-1.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.31.1-0.4          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
-ii   debconf                 1.5.65                all    Debian configuration management system
+ii   debconf                 1.5.66                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.4                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
@@ -47,7 +47,7 @@ ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
 ii   iproute2                4.15.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6~alpha7            amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~beta1             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.2-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
@@ -90,10 +90,10 @@ ii   libsepol1               2.7-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.31.1-0.4            amd64  smart column output alignment library
 ii   libss2                  1.43.9-2              amd64  command-line interface parsing library
 ii   libstdc++6              8-20180218-1          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             237-3                 amd64  systemd utility library
+ii   libsystemd0             237-4                 amd64  systemd utility library
 ii   libtasn1-6              4.13-2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.1-1                 amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                237-3                 amd64  libudev shared library
+ii   libudev1                237-4                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.4            amd64  Universally Unique ID library
 ii   login                   1:4.5-1               amd64  system login tools

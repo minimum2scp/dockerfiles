@@ -414,36 +414,57 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org stretch/updates InRelease [63.0 kB]
-Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
-Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [6499 B]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [318 kB]
-Fetched 478 kB in 7s (64.8 kB/s)
+Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
+Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
+Hit:3 http://ftp.jp.debian.org/debian stretch Release
+Get:4 http://security.debian.org stretch/updates InRelease [63.0 kB]
+Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [8431 B]
+Get:7 http://security.debian.org stretch/updates/main amd64 Packages [419 kB]
+Fetched 581 kB in 1s (515 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  sensible-utils
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 10.8 kB of archives.
-After this operation, 49.2 kB disk space will be freed.
-Get:1 http://security.debian.org stretch/updates/main amd64 sensible-utils all 0.0.9+deb9u1 [10.8 kB]
-Fetched 10.8 kB in 0s (60.6 kB/s)
+  gcc-6-base libgcc1 libstdc++6 sensible-utils tzdata
+5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 889 kB of archives.
+After this operation, 47.1 kB disk space will be freed.
+Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018c-0+deb9u1 [264 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 gcc-6-base amd64 6.3.0-18+deb9u1 [180 kB]
+Get:3 http://security.debian.org stretch/updates/main amd64 libstdc++6 amd64 6.3.0-18+deb9u1 [396 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 libgcc1 amd64 1:6.3.0-18+deb9u1 [38.0 kB]
+Get:5 http://security.debian.org stretch/updates/main amd64 sensible-utils all 0.0.9+deb9u1 [10.8 kB]
+Fetched 889 kB in 0s (1959 kB/s)
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../gcc-6-base_6.3.0-18+deb9u1_amd64.deb ...
+Unpacking gcc-6-base:amd64 (6.3.0-18+deb9u1) over (6.3.0-18) ...
+Setting up gcc-6-base:amd64 (6.3.0-18+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_6.3.0-18+deb9u1_amd64.deb ...
+Unpacking libstdc++6:amd64 (6.3.0-18+deb9u1) over (6.3.0-18) ...
+Setting up libstdc++6:amd64 (6.3.0-18+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libgcc1_1%3a6.3.0-18+deb9u1_amd64.deb ...
+Unpacking libgcc1:amd64 (1:6.3.0-18+deb9u1) over (1:6.3.0-18) ...
+Setting up libgcc1:amd64 (1:6.3.0-18+deb9u1) ...
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../sensible-utils_0.0.9+deb9u1_all.deb ...
 Unpacking sensible-utils (0.0.9+deb9u1) over (0.0.9) ...
 Setting up sensible-utils (0.0.9+deb9u1) ...
-Sending build context to Docker daemon  26.62MB
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../tzdata_2018c-0+deb9u1_all.deb ...
+Unpacking tzdata (2018c-0+deb9u1) over (2017c-0+deb9u1) ...
+Setting up tzdata (2018c-0+deb9u1) ...
+Processing triggers for libc-bin (2.24-11+deb9u1) ...
+Sending build context to Docker daemon  26.63MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d62cb5c13409
+ ---> 68670f397d24
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 81a9b98f5487
-Removing intermediate container 81a9b98f5487
- ---> 4ece7771ba1a
-Successfully built 4ece7771ba1a
+ ---> Running in b127bc24048f
+Removing intermediate container b127bc24048f
+ ---> f17fe5d2f11a
+Successfully built f17fe5d2f11a
 Successfully tagged minimum2scp/debian-stretch:latest
