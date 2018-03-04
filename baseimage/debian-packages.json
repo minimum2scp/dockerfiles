@@ -1179,10 +1179,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>> 2.26), libc6 (<< 2.27)",
+    "Depends": "libc6 (>> 2.27), libc6 (<< 2.28)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3336",
+    "Installed-Size": "3435",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.26-6",
+    "Version": "2.27-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.26-6"
+    "source:Version": "2.27-1"
   },
   {
     "Architecture": "all",
@@ -1210,7 +1210,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4297",
+    "Installed-Size": "4305",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.26-6",
+    "Version": "2.27-1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,16 +1229,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.26-6"
+    "source:Version": "2.27-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "openrc (<< 0.27-2~)",
-    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.26), locales-all (<< 2.26), nscd (<< 2.26)",
+    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.27), locales-all (<< 2.27), nscd (<< 2.27)",
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "11066",
+    "Installed-Size": "11401",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.26-6",
+    "Version": "2.27-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.26-6"
+    "source:Version": "2.27-1"
   },
   {
     "Architecture": "amd64",
@@ -3447,10 +3447,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc-bin (>> 2.26), libc-l10n (>> 2.26), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc-bin (>> 2.27), libc-l10n (>> 2.27), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9340",
+    "Installed-Size": "13067",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3461,7 +3461,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.26-6",
+    "Version": "2.27-1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.26-6"
+    "source:Version": "2.27-1"
   },
   {
     "Architecture": "amd64",
