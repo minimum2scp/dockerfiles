@@ -109,14 +109,14 @@ describe 'minimum2scp/ruby-full' do
       end
     end
 
-    %w[ruby2.3 ruby2.3-dev].each do |pkg|
+    %w[ruby2.5 ruby2.5-dev].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
     end
 
-    describe command('ruby2.3 -v') do
-      its(:stdout) { should include 'ruby 2.3.6p384 (2017-12-14) [x86_64-linux-gnu]' }
+    describe command('ruby2.5 -v') do
+      its(:stdout) { should include 'ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux-gnu]' }
     end
   end
 end
