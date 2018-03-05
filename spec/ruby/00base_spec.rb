@@ -43,11 +43,11 @@ describe 'minimum2scp/ruby' do
 
     describe file('/usr/bin/ruby') do
       it { should be_symlink }
-      it { should be_linked_to('ruby2.3') }
+      it { should be_linked_to('ruby2.5') }
     end
 
-    describe command('ruby2.3 -v') do
-      its(:stdout) { should include 'ruby 2.3.6p384 (2017-12-14) [x86_64-linux-gnu]' }
+    describe command('ruby2.5 -v') do
+      its(:stdout) { should include 'ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux-gnu]' }
     end
 
     describe file('/opt/rbenv') do
