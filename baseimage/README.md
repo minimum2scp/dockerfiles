@@ -152,7 +152,7 @@ ii   libncurses5             6.1-1                           amd64  shared libra
 ii   libncursesw5            6.1-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.30.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.31.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.9-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -222,9 +222,9 @@ ii   ucf                     3.0038                          all    Update Confi
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.4                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1453-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.0.1453-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-2                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1453-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.1453-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
 ii   zsh                     5.4.2-3                         amd64  shell with lots of features
 ii   zsh-common              5.4.2-3                         all    architecture independent files for Zsh
