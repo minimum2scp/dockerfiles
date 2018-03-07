@@ -130,7 +130,7 @@ ii   libgcc1                 1:8-20180218-1                  amd64  GCC support 
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-4                        amd64  GNU dbm database routines (legacy support runtime version)
 ii   libgdbm5                1.14.1-4                        amd64  GNU dbm database routines (runtime version)
-ii   libgmp10                2:6.1.2+dfsg-2                  amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -173,7 +173,7 @@ ii   libselinux1             2.7-2+b1                        amd64  SELinux runt
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.1a-3                        amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.2-1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.31.1-0.4                      amd64  smart column output alignment library
 ii   libss2                  1.43.9-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
@@ -208,7 +208,7 @@ ii   perl                    5.26.1-5                        amd64  Larry Wall's
 ii   perl-base               5.26.1-5                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
 ii   procps                  2:3.3.12-4                      amd64  /proc file system utilities
-ii   rsyslog                 8.32.0-1                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.33.1-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.11                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
