@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "572",
+    "Installed-Size": "573",
     "Origin": "",
     "Package": "libgmp10",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.1.2+dfsg-2",
+    "Version": "2:6.1.2+dfsg-3",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.1.2+dfsg-2"
+    "source:Version": "2:6.1.2+dfsg-3"
   },
   {
     "Architecture": "amd64",
