@@ -85,7 +85,7 @@ ii   dpkg                    1.19.0.5                        amd64  Debian packa
 ii   e2fsprogs               1.44.0-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.31.1-0.5                      amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20170828-2            amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20171230-2            amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8-20180310-1                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.16.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.16.2-1                      all    fast, scalable, distributed revision control system (manual pages)
