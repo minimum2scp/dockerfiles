@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1856",
+    "Installed-Size": "1865",
     "Origin": "",
     "Package": "findutils",
     "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20170828-2",
+    "Version": "4.6.0+git+20171230-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20170828-2"
+    "source:Version": "4.6.0+git+20171230-2"
   },
   {
     "Architecture": "amd64",

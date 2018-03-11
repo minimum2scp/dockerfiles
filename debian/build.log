@@ -59,8 +59,8 @@ I: Retrieving libss2 1.44.0-1
 I: Validating libss2 1.44.0-1
 I: Retrieving libelf1 0.170-0.3
 I: Validating libelf1 0.170-0.3
-I: Retrieving findutils 4.6.0+git+20170828-2
-I: Validating findutils 4.6.0+git+20170828-2
+I: Retrieving findutils 4.6.0+git+20171230-2
+I: Validating findutils 4.6.0+git+20171230-2
 I: Retrieving gcc-8-base 8-20180310-1
 I: Validating gcc-8-base 8-20180310-1
 I: Retrieving libgcc1 1:8-20180310-1
@@ -460,14 +460,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.74MB
+Sending build context to Docker daemon  28.76MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 36c2861801bb
+ ---> 4242b408f5d4
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 6513574783a2
-Removing intermediate container 6513574783a2
- ---> 1755abc7d57e
-Successfully built 1755abc7d57e
+ ---> Running in bf6d58b956c2
+Removing intermediate container bf6d58b956c2
+ ---> 86e08ddc4c40
+Successfully built 86e08ddc4c40
 Successfully tagged minimum2scp/debian:latest
