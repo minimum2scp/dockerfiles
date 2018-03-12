@@ -255,10 +255,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "dpkg (<< 1.15.4)",
-    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), init-system-helpers (>= 1.18~), debianutils (>= 1.7), adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
+    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), debianutils (>= 1.7), adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "251",
+    "Installed-Size": "250",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "dpkg (>= 1.15.7.2)",
@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-128.1",
+    "Version": "3.0pl1-129",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-128.1"
+    "source:Version": "3.0pl1-129"
   },
   {
     "Architecture": "amd64",
@@ -1781,15 +1781,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.14.1-4",
+    "Version": "1.14.1-5",
     "binary:Package": "libgdbm-compat4:amd64",
-    "binary:Summary": "GNU dbm database routines (legacy support runtime version)",
+    "binary:Summary": "(legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.14.1-4"
+    "source:Version": "1.14.1-5"
   },
   {
     "Architecture": "amd64",
@@ -1808,16 +1808,16 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.14.1-4)",
-    "Version": "1.14.1-4",
+    "Suggests": "gdbm-l10n (= 1.14.1-5)",
+    "Version": "1.14.1-5",
     "binary:Package": "libgdbm5:amd64",
-    "binary:Summary": "GNU dbm database routines (runtime version)",
+    "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.14.1-4"
+    "source:Version": "1.14.1-5"
   },
   {
     "Architecture": "amd64",

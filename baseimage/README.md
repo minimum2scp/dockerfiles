@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2                          amd64  collection o
 ii   bsdutils                1:2.31.1-0.5                    amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
-ii   cron                    3.0pl1-128.1                    amd64  process scheduling daemon
+ii   cron                    3.0pl1-129                      amd64  process scheduling daemon
 ii   curl                    7.58.0-2                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.10                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.66                          all    Debian configuration management system
@@ -128,8 +128,8 @@ ii   libfdisk1               2.31.1-0.5                      amd64  fdisk partit
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180310-1                  amd64  GCC support library
 ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.14.1-4                        amd64  GNU dbm database routines (legacy support runtime version)
-ii   libgdbm5                1.14.1-4                        amd64  GNU dbm database routines (runtime version)
+ii   libgdbm-compat4         1.14.1-5                        amd64  (legacy support runtime version) 
+ii   libgdbm5                1.14.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
