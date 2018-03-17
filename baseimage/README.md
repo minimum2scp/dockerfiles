@@ -116,7 +116,7 @@ ii   libcom-err2             1.44.0-1                        amd64  common error
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.241                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.241+b1                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.3                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -132,7 +132,7 @@ ii   libgdbm-compat4         1.14.1-6                        amd64  GNU dbm data
 ii   libgdbm5                1.14.1-6                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.27-6                          amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.28-1                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                       amd64  Internationalized domain names (IDNA2008/TR46) library
