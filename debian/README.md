@@ -58,7 +58,7 @@ ii   libc6                   2.27-2                amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.44.0-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.241                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.241+b1              amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.3             amd64  library to read and write ELF files
 ii   libext2fs2              1.44.0-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.31.1-0.5            amd64  fdisk partitioning library
@@ -67,7 +67,7 @@ ii   libgcc1                 1:8-20180312-2        amd64  GCC support library
 ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1              amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.27-6                amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.28-1                amd64  library for common error values and messages in GnuPG components
 ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1             amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                0.0~r131-2+b1         amd64  Fast LZ compression algorithm library - runtime
