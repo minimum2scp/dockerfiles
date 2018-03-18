@@ -24,8 +24,8 @@ I: Retrieving libaudit-common 1:2.6.7-2
 I: Validating libaudit-common 1:2.6.7-2
 I: Retrieving libaudit1 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u3
-I: Validating base-files 9.9+deb9u3
+I: Retrieving base-files 9.9+deb9u4
+I: Validating base-files 9.9+deb9u4
 I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
 I: Retrieving bash 4.4-5
@@ -62,18 +62,18 @@ I: Retrieving libelf1 0.168-1
 I: Validating libelf1 0.168-1
 I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
-I: Retrieving gcc-6-base 6.3.0-18
-I: Validating gcc-6-base 6.3.0-18
-I: Retrieving libgcc1 1:6.3.0-18
-I: Validating libgcc1 1:6.3.0-18
-I: Retrieving libstdc++6 6.3.0-18
-I: Validating libstdc++6 6.3.0-18
-I: Retrieving libc-bin 2.24-11+deb9u1
-I: Validating libc-bin 2.24-11+deb9u1
-I: Retrieving libc6 2.24-11+deb9u1
-I: Validating libc6 2.24-11+deb9u1
-I: Retrieving multiarch-support 2.24-11+deb9u1
-I: Validating multiarch-support 2.24-11+deb9u1
+I: Retrieving gcc-6-base 6.3.0-18+deb9u1
+I: Validating gcc-6-base 6.3.0-18+deb9u1
+I: Retrieving libgcc1 1:6.3.0-18+deb9u1
+I: Validating libgcc1 1:6.3.0-18+deb9u1
+I: Retrieving libstdc++6 6.3.0-18+deb9u1
+I: Validating libstdc++6 6.3.0-18+deb9u1
+I: Retrieving libc-bin 2.24-11+deb9u3
+I: Validating libc-bin 2.24-11+deb9u3
+I: Retrieving libc6 2.24-11+deb9u3
+I: Validating libc6 2.24-11+deb9u3
+I: Retrieving multiarch-support 2.24-11+deb9u3
+I: Validating multiarch-support 2.24-11+deb9u3
 I: Retrieving gpgv 2.1.18-8~deb9u1
 I: Validating gpgv 2.1.18-8~deb9u1
 I: Retrieving grep 2.27-2
@@ -110,14 +110,14 @@ I: Retrieving liblz4-1 0.0~r131-2+b1
 I: Validating liblz4-1 0.0~r131-2+b1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw5 6.0+20161126-1+deb9u1
-I: Validating libncursesw5 6.0+20161126-1+deb9u1
-I: Retrieving libtinfo5 6.0+20161126-1+deb9u1
-I: Validating libtinfo5 6.0+20161126-1+deb9u1
-I: Retrieving ncurses-base 6.0+20161126-1+deb9u1
-I: Validating ncurses-base 6.0+20161126-1+deb9u1
-I: Retrieving ncurses-bin 6.0+20161126-1+deb9u1
-I: Validating ncurses-bin 6.0+20161126-1+deb9u1
+I: Retrieving libncursesw5 6.0+20161126-1+deb9u2
+I: Validating libncursesw5 6.0+20161126-1+deb9u2
+I: Retrieving libtinfo5 6.0+20161126-1+deb9u2
+I: Validating libtinfo5 6.0+20161126-1+deb9u2
+I: Retrieving ncurses-base 6.0+20161126-1+deb9u2
+I: Validating ncurses-base 6.0+20161126-1+deb9u2
+I: Retrieving ncurses-bin 6.0+20161126-1+deb9u2
+I: Validating ncurses-bin 6.0+20161126-1+deb9u2
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
 I: Retrieving libpam-modules 1.1.8-3.6
@@ -134,22 +134,22 @@ I: Retrieving perl-base 5.24.1-3+deb9u2
 I: Validating perl-base 5.24.1-3+deb9u2
 I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
-I: Retrieving sensible-utils 0.0.9
-I: Validating sensible-utils 0.0.9
+I: Retrieving sensible-utils 0.0.9+deb9u1
+I: Validating sensible-utils 0.0.9+deb9u1
 I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
 I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u1
-I: Validating libsystemd0 232-25+deb9u1
-I: Retrieving libudev1 232-25+deb9u1
-I: Validating libudev1 232-25+deb9u1
+I: Retrieving libsystemd0 232-25+deb9u2
+I: Validating libsystemd0 232-25+deb9u2
+I: Retrieving libudev1 232-25+deb9u2
+I: Validating libudev1 232-25+deb9u2
 I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2017c-0+deb9u1
-I: Validating tzdata 2017c-0+deb9u1
+I: Retrieving tzdata 2018c-0+deb9u1
+I: Validating tzdata 2018c-0+deb9u1
 I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
 I: Retrieving bsdutils 1:2.29.2-1
@@ -419,52 +419,68 @@ Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:3 http://ftp.jp.debian.org/debian stretch Release
 Get:4 http://security.debian.org stretch/updates InRelease [63.0 kB]
 Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [8431 B]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [419 kB]
-Fetched 581 kB in 1s (515 kB/s)
+Get:7 http://security.debian.org stretch/updates/main amd64 Packages [441 kB]
+Fetched 603 kB in 1s (350 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  gcc-6-base libgcc1 libstdc++6 sensible-utils tzdata
-5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 889 kB of archives.
-After this operation, 47.1 kB disk space will be freed.
-Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018c-0+deb9u1 [264 kB]
-Get:2 http://security.debian.org stretch/updates/main amd64 gcc-6-base amd64 6.3.0-18+deb9u1 [180 kB]
-Get:3 http://security.debian.org stretch/updates/main amd64 libstdc++6 amd64 6.3.0-18+deb9u1 [396 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 libgcc1 amd64 1:6.3.0-18+deb9u1 [38.0 kB]
-Get:5 http://security.debian.org stretch/updates/main amd64 sensible-utils all 0.0.9+deb9u1 [10.8 kB]
-Fetched 889 kB in 0s (1959 kB/s)
+  bsdutils libblkid1 libfdisk1 libmount1 libsmartcols1 libuuid1 mount
+  util-linux
+8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2028 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 bsdutils amd64 1:2.29.2-1+deb9u1 [112 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 util-linux amd64 2.29.2-1+deb9u1 [981 kB]
+Get:3 http://security.debian.org stretch/updates/main amd64 mount amd64 2.29.2-1+deb9u1 [189 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 libuuid1 amd64 2.29.2-1+deb9u1 [70.1 kB]
+Get:5 http://security.debian.org stretch/updates/main amd64 libblkid1 amd64 2.29.2-1+deb9u1 [168 kB]
+Get:6 http://security.debian.org stretch/updates/main amd64 libfdisk1 amd64 2.29.2-1+deb9u1 [203 kB]
+Get:7 http://security.debian.org stretch/updates/main amd64 libmount1 amd64 2.29.2-1+deb9u1 [178 kB]
+Get:8 http://security.debian.org stretch/updates/main amd64 libsmartcols1 amd64 2.29.2-1+deb9u1 [126 kB]
+Fetched 2028 kB in 3s (648 kB/s)
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../gcc-6-base_6.3.0-18+deb9u1_amd64.deb ...
-Unpacking gcc-6-base:amd64 (6.3.0-18+deb9u1) over (6.3.0-18) ...
-Setting up gcc-6-base:amd64 (6.3.0-18+deb9u1) ...
+Preparing to unpack .../bsdutils_1%3a2.29.2-1+deb9u1_amd64.deb ...
+Unpacking bsdutils (1:2.29.2-1+deb9u1) over (1:2.29.2-1) ...
+Setting up bsdutils (1:2.29.2-1+deb9u1) ...
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../libstdc++6_6.3.0-18+deb9u1_amd64.deb ...
-Unpacking libstdc++6:amd64 (6.3.0-18+deb9u1) over (6.3.0-18) ...
-Setting up libstdc++6:amd64 (6.3.0-18+deb9u1) ...
+Preparing to unpack .../util-linux_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking util-linux (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up util-linux (2.29.2-1+deb9u1) ...
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../libgcc1_1%3a6.3.0-18+deb9u1_amd64.deb ...
-Unpacking libgcc1:amd64 (1:6.3.0-18+deb9u1) over (1:6.3.0-18) ...
-Setting up libgcc1:amd64 (1:6.3.0-18+deb9u1) ...
+Preparing to unpack .../mount_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking mount (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up mount (2.29.2-1+deb9u1) ...
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../sensible-utils_0.0.9+deb9u1_all.deb ...
-Unpacking sensible-utils (0.0.9+deb9u1) over (0.0.9) ...
-Setting up sensible-utils (0.0.9+deb9u1) ...
+Preparing to unpack .../libuuid1_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking libuuid1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up libuuid1:amd64 (2.29.2-1+deb9u1) ...
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../tzdata_2018c-0+deb9u1_all.deb ...
-Unpacking tzdata (2018c-0+deb9u1) over (2017c-0+deb9u1) ...
-Setting up tzdata (2018c-0+deb9u1) ...
-Processing triggers for libc-bin (2.24-11+deb9u1) ...
-Sending build context to Docker daemon  26.63MB
+Preparing to unpack .../libblkid1_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking libblkid1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up libblkid1:amd64 (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up libfdisk1:amd64 (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking libmount1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up libmount1:amd64 (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.29.2-1+deb9u1_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
+Setting up libsmartcols1:amd64 (2.29.2-1+deb9u1) ...
+Processing triggers for libc-bin (2.24-11+deb9u3) ...
+Sending build context to Docker daemon  26.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 68670f397d24
+ ---> 4570ac517051
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b127bc24048f
-Removing intermediate container b127bc24048f
- ---> f17fe5d2f11a
-Successfully built f17fe5d2f11a
+ ---> Running in 3538a73018c3
+Removing intermediate container 3538a73018c3
+ ---> e1529d6ec6da
+Successfully built e1529d6ec6da
 Successfully tagged minimum2scp/debian-stretch:latest
