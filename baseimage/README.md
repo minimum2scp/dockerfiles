@@ -116,7 +116,7 @@ ii   libcom-err2             1.44.0-1                        amd64  common error
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.241+b1                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.242                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.3                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -164,7 +164,7 @@ ii   libperl5.26             5.26.1-5                        amd64  shared Perl 
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-4                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.19.1-5                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.20.1-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)

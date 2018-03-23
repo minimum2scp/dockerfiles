@@ -1434,7 +1434,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "68",
+    "Installed-Size": "67",
     "Origin": "",
     "Package": "libdebconfclient0",
     "Pre-Depends": "",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.241+b1",
+    "Version": "0.242",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.241"
+    "source:Version": "0.242"
   },
   {
     "Architecture": "amd64",
@@ -2778,7 +2778,7 @@
     "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "74",
+    "Installed-Size": "82",
     "Origin": "",
     "Package": "libpsl5",
     "Pre-Depends": "",
@@ -2789,7 +2789,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.19.1-5",
+    "Version": "0.20.1-1",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.19.1-5"
+    "source:Version": "0.20.1-1"
   },
   {
     "Architecture": "amd64",
