@@ -31,8 +31,8 @@ I: Retrieving bash 4.4.18-1.1
 I: Validating bash 4.4.18-1.1
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.241+b1
-I: Validating libdebconfclient0 0.241+b1
+I: Retrieving libdebconfclient0 0.242
+I: Validating libdebconfclient0 0.242
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.10
@@ -464,10 +464,10 @@ Sending build context to Docker daemon  28.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a50948702565
+ ---> 452d21654698
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 6d3d890d066b
-Removing intermediate container 6d3d890d066b
- ---> 6af3a057aea7
-Successfully built 6af3a057aea7
+ ---> Running in 8eefa0b29323
+Removing intermediate container 8eefa0b29323
+ ---> b8090a7d1163
+Successfully built b8090a7d1163
 Successfully tagged minimum2scp/debian:latest
