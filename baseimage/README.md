@@ -116,7 +116,7 @@ ii   libcom-err2             1.44.1-1                        amd64  common error
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-13.1+b1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.242                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.243                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20170329-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.3                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17025-1                       all    Perl module for error/exception handling in an OO-ish way
@@ -217,7 +217,7 @@ ii   sysv-rc                 2.88dsf-59.10                   all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018c-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2018d-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.5                      amd64  miscellaneous system utilities
