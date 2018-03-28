@@ -2719,21 +2719,21 @@
     "Architecture": "amd64",
     "Conflicts": "libpopt-dev (<= 1.4-1), popt, rpm (<= 4.0.2-3)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.27)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "224",
+    "Installed-Size": "222",
     "Origin": "",
     "Package": "libpopt0",
     "Pre-Depends": "",
-    "Priority": "important",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.16-10+b2",
+    "Version": "1.16-11",
     "binary:Package": "libpopt0:amd64",
     "binary:Summary": "lib for parsing cmdline parameters",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "popt",
-    "source:Version": "1.16-10"
+    "source:Version": "1.16-11"
   },
   {
     "Architecture": "amd64",
@@ -2929,7 +2929,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7-2+b1",
+    "Version": "2.7-2+b2",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3142,7 +3142,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3529",
+    "Installed-Size": "3530",
     "Origin": "",
     "Package": "libssl1.0.2",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2n-1",
+    "Version": "1.0.2o-1",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2n-1"
+    "source:Version": "1.0.2o-1"
   },
   {
     "Architecture": "amd64",
@@ -3170,7 +3170,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3515",
+    "Installed-Size": "3536",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0g-2",
+    "Version": "1.1.0h-2",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0g-2"
+    "source:Version": "1.1.0h-2"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "libc6 (>= 2.4), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "618",
+    "Installed-Size": "622",
     "Origin": "",
     "Package": "lv",
     "Pre-Depends": "",
@@ -3545,7 +3545,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.51-4",
+    "Version": "4.51-5",
     "binary:Package": "lv",
     "binary:Summary": "Powerful Multilingual File Viewer",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lv",
-    "source:Version": "4.51-4"
+    "source:Version": "4.51-5"
   },
   {
     "Architecture": "amd64",
@@ -3842,7 +3842,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1303",
+    "Installed-Size": "1305",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3853,7 +3853,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0g-2",
+    "Version": "1.1.0h-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0g-2"
+    "source:Version": "1.1.0h-2"
   },
   {
     "Architecture": "amd64",
