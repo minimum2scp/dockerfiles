@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.1-4",
+    "Version": "1.8.2-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.1-4"
+    "source:Version": "1.8.2-2"
   },
   {
     "Architecture": "amd64",
@@ -2467,10 +2467,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "opencryptoki (<= 3.6.1+dfsg-1)",
-    "Depends": "libc6 (>= 2.16), libffi6 (>= 3.0.4)",
+    "Depends": "libc6 (>= 2.26), libffi6 (>= 3.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1247",
+    "Installed-Size": "1241",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -2481,7 +2481,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.9-2",
+    "Version": "0.23.10-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.9-2"
+    "source:Version": "0.23.10-2"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7-2+b1",
+    "Version": "2.7-2+b2",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",

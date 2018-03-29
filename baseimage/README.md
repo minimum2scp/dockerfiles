@@ -127,7 +127,7 @@ ii   libfastjson4            0.99.8-2                        amd64  fast json li
 ii   libfdisk1               2.31.1-0.5                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180321-1                  amd64  GCC support library
-ii   libgcrypt20             1.8.1-4                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.2-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
@@ -153,7 +153,7 @@ ii   libncursesw5            6.1-1                           amd64  shared libra
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.31.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.9-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.10-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.7                       all    Runtime support for the PAM library
@@ -171,7 +171,7 @@ ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL -
 ii   libseccomp2             2.3.1-2.1                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.7-2+b1                        amd64  SELinux policy management library
+ii   libsemanage1            2.7-2+b2                        amd64  SELinux policy management library
 ii   libsepol1               2.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.31.1-0.5                      amd64  smart column output alignment library
