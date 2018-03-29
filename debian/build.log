@@ -93,8 +93,8 @@ I: Retrieving libcap-ng0 0.7.7-3.1+b1
 I: Validating libcap-ng0 0.7.7-3.1+b1
 I: Retrieving libffi6 3.2.1-8
 I: Validating libffi6 3.2.1-8
-I: Retrieving libgcrypt20 1.8.1-4
-I: Validating libgcrypt20 1.8.1-4
+I: Retrieving libgcrypt20 1.8.2-2
+I: Validating libgcrypt20 1.8.2-2
 I: Retrieving libgpg-error0 1.28-2
 I: Validating libgpg-error0 1.28-2
 I: Retrieving libidn2-0 2.0.4-1.1
@@ -133,8 +133,8 @@ I: Retrieving libhogweed4 3.4-1
 I: Validating libhogweed4 3.4-1
 I: Retrieving libnettle6 3.4-1
 I: Validating libnettle6 3.4-1
-I: Retrieving libp11-kit0 0.23.9-2
-I: Validating libp11-kit0 0.23.9-2
+I: Retrieving libp11-kit0 0.23.10-2
+I: Validating libp11-kit0 0.23.10-2
 I: Retrieving libpam-modules 1.1.8-3.7
 I: Validating libpam-modules 1.1.8-3.7
 I: Retrieving libpam-modules-bin 1.1.8-3.7
@@ -460,14 +460,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.77MB
+Sending build context to Docker daemon  28.79MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 834a9c6e5573
+ ---> f2ee662b3ae7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c51c64330e5f
-Removing intermediate container c51c64330e5f
- ---> e00b039e8dc2
-Successfully built e00b039e8dc2
+ ---> Running in 21ec4bf8ee95
+Removing intermediate container 21ec4bf8ee95
+ ---> 78737a06dae0
+Successfully built 78737a06dae0
 Successfully tagged minimum2scp/debian:latest

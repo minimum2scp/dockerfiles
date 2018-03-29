@@ -64,7 +64,7 @@ ii   libext2fs2              1.44.1-1              amd64  ext2/ext3/ext4 file sy
 ii   libfdisk1               2.31.1-0.5            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8-20180321-1        amd64  GCC support library
-ii   libgcrypt20             1.8.1-4               amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.2-2               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.28-2                amd64  library for common error values and messages in GnuPG components
@@ -76,7 +76,7 @@ ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink c
 ii   libmount1               2.31.1-0.5            amd64  device mounting library
 ii   libncursesw5            6.1-1                 amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.9-2              amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.10-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.7             all    Runtime support for the PAM library
