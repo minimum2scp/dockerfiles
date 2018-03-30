@@ -53,8 +53,8 @@ ii   libaudit-common         1:2.8.2-1             all    Dynamic library for se
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
 ii   libblkid1               2.31.1-0.5            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.27-2                amd64  GNU C Library: Binaries
-ii   libc6                   2.27-2                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.27-3                amd64  GNU C Library: Binaries
+ii   libc6                   2.27-3                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.44.1-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -85,7 +85,7 @@ ii   libpcre3                2:8.39-9              amd64  Old Perl 5 Compatible 
 ii   libseccomp2             2.3.1-2.1             amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b2              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.7-2+b1              amd64  SELinux policy management library
+ii   libsemanage1            2.7-2+b2              amd64  SELinux policy management library
 ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.31.1-0.5            amd64  smart column output alignment library
 ii   libss2                  1.44.1-1              amd64  command-line interface parsing library
