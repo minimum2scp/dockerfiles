@@ -33,9 +33,9 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.0'
       },
       {
-        ruby: '2.5.0',
-        desc: 'ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux]',
-        rubygems_version: '2.7.3',
+        ruby: '2.5.1',
+        desc: 'ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]',
+        rubygems_version: '2.7.6',
         gems: [
           {name: 'bundler', version: '1.16.1', default: false},
           {name: 'pry'}
@@ -43,9 +43,9 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.0'
       },
       {
-        ruby: '2.4.3',
-        desc: 'ruby 2.4.3p205 (2017-12-14 revision 61247) [x86_64-linux]',
-        rubygems_version: '2.6.14',
+        ruby: '2.4.4',
+        desc: 'ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]',
+        rubygems_version: '2.6.14.1',
         gems: [
           {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
@@ -53,25 +53,15 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.0'
       },
       {
-        ruby: '2.3.6',
-        desc: 'ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]',
-        rubygems_version: '2.5.2.2',
+        ruby: '2.3.7',
+        desc: 'ruby 2.3.7p456 (2018-03-28 revision 63024) [x86_64-linux]',
+        rubygems_version: '2.5.2.3',
         gems: [
           {name: 'bundler', version: '1.16.1'},
           {name: 'pry'}
         ],
         openssl_version: '1.0.2'
       },
-      {
-        ruby: '2.2.9',
-        desc: 'ruby 2.2.9p480 (2017-12-15 revision 61259) [x86_64-linux]',
-        rubygems_version: '2.4.5.4',
-        gems: [
-          {name: 'bundler', version: '1.16.1'},
-          {name: 'pry'}
-        ],
-        openssl_version: '1.0.2'
-      }
     ].each do |v|
       describe command("rbenv versions --bare --skip-aliases") do
         let(:login_shell){ true }
