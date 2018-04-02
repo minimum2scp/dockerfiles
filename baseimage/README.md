@@ -163,7 +163,7 @@ ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 C
 ii   libperl5.26             5.26.1-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
-ii   libprocps6              2:3.3.12-4                      amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.13-1                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.1-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
@@ -180,10 +180,10 @@ ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2o-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8-20180331-1                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0             238-3                           amd64  systemd utility library
+ii   libsystemd0             238-4                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.1-1                           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                238-3                           amd64  libudev shared library
+ii   libudev1                238-4                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
@@ -199,15 +199,15 @@ ii   ncurses-base            6.1-1                           all    basic termin
 ii   ncurses-bin             6.1-1                           amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-2      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.6p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.6p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.6p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.6p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.6p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.6p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.1-5                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
-ii   procps                  2:3.3.12-4                      amd64  /proc file system utilities
+ii   procps                  2:3.3.13-1                      amd64  /proc file system utilities
 ii   rsyslog                 8.33.1-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
