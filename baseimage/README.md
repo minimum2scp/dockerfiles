@@ -69,7 +69,7 @@ ii   adduser                 3.117                           all    add and remo
 ii   apt                     1.6~beta1                       amd64  commandline package manager
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
-ii   bash                    4.4.18-1.1                      amd64  GNU Bourne Again SHell
+ii   bash                    4.4.18-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.31.1-0.5                    amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20170717                        all    Common CA certificates
@@ -199,9 +199,9 @@ ii   ncurses-base            6.1-1                           all    basic termin
 ii   ncurses-bin             6.1-1                           amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-2      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
-ii   openssh-client          1:7.7p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.7p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.7p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.7p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.7p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
 ii   perl                    5.26.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
