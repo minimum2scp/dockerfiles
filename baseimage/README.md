@@ -192,7 +192,7 @@ ii   locales                 2.27-3                          all    GNU C Librar
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
 ii   lv                      4.51-5                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.2-1                         amd64  on-line manual pager
+ii   man-db                  2.8.3-2                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.5                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1-1                           all    basic terminal type definitions
@@ -208,7 +208,7 @@ ii   perl                    5.26.1-5                        amd64  Larry Wall's
 ii   perl-base               5.26.1-5                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
 ii   procps                  2:3.3.13-1                      amd64  /proc file system utilities
-ii   rsyslog                 8.33.1-1                        amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
@@ -226,6 +226,6 @@ ii   vim-tiny                2:8.0.1453-1+b1                 amd64  Vi IMproved 
 ii   whiptail                0.52.20-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.1453-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.4.2-3                         amd64  shell with lots of features
-ii   zsh-common              5.4.2-3                         all    architecture independent files for Zsh
+ii   zsh                     5.5-1                           amd64  shell with lots of features
+ii   zsh-common              5.5-1                           all    architecture independent files for Zsh
 ```
