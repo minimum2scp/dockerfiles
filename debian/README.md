@@ -59,7 +59,7 @@ ii   libcap-ng0              0.7.7-3.1+b1          amd64  An alternate POSIX cap
 ii   libcom-err2             1.44.1-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.243                 amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.170-0.3             amd64  library to read and write ELF files
+ii   libelf1                 0.170-0.4             amd64  library to read and write ELF files
 ii   libext2fs2              1.44.1-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.31.1-0.5            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
