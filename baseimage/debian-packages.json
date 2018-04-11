@@ -199,10 +199,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "ca-certificates-java (<< 20121112+nmu1)",
-    "Depends": "openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "openssl (>= 1.1.0), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "427",
+    "Installed-Size": "392",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -213,7 +213,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20170717",
+    "Version": "20180409",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20170717"
+    "source:Version": "20180409"
   },
   {
     "Architecture": "amd64",
@@ -2750,7 +2750,7 @@
     "Depends": "libc6 (>= 2.14), libsystemd0 (>= 209)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "121",
+    "Installed-Size": "122",
     "Origin": "",
     "Package": "libprocps6",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.13-1",
+    "Version": "2:3.3.14-1",
     "binary:Package": "libprocps6:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.13-1"
+    "source:Version": "2:3.3.14-1"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "libc6 (>= 2.27), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps6 (>= 2:3.3.13-1), libtinfo5 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "720",
+    "Installed-Size": "721",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -3993,7 +3993,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.13-1",
+    "Version": "2:3.3.14-1",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.13-1"
+    "source:Version": "2:3.3.14-1"
   },
   {
     "Architecture": "amd64",

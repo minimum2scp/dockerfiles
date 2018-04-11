@@ -72,7 +72,7 @@ ii   base-passwd             3.5.44                          amd64  Debian base 
 ii   bash                    4.4.18-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.31.1-0.5                    amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20170717                        all    Common CA certificates
+ii   ca-certificates         20180409                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
 ii   cron                    3.0pl1-130                      amd64  process scheduling daemon
 ii   curl                    7.58.0-2                        amd64  command line tool for transferring data with URL syntax
@@ -163,7 +163,7 @@ ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 C
 ii   libperl5.26             5.26.1-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
-ii   libprocps6              2:3.3.13-1                      amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.14-1                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.1-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
@@ -207,7 +207,7 @@ ii   passwd                  1:4.5-1                         amd64  change and a
 ii   perl                    5.26.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.1-5                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
-ii   procps                  2:3.3.13-1                      amd64  /proc file system utilities
+ii   procps                  2:3.3.14-1                      amd64  /proc file system utilities
 ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
