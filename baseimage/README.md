@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.1-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.31.1-0.5                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2            amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8-20180402-1                    amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8-20180414-1                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.17.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.17.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.5-1                         amd64  GNU privacy guard - signature verification tool
@@ -126,13 +126,13 @@ ii   libext2fs2              1.44.1-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.31.1-0.5                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8-20180402-1                  amd64  GCC support library
+ii   libgcc1                 1:8-20180414-1                  amd64  GCC support library
 ii   libgcrypt20             1.8.2-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.29-2                          amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.29-3                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                       amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.7                       all    Runtime supp
 ii   libpam0g                1.1.8-3.7                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.1-5                        amd64  shared Perl library
+ii   libperl5.26             5.26.1-6                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.14-1                      amd64  library for accessing process information from /proc
@@ -179,7 +179,7 @@ ii   libss2                  1.44.1-2                        amd64  command-line
 ii   libssh2-1               1.8.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8-20180402-1                    amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8-20180414-1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             238-4                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.1-1                           amd64  shared low-level terminfo library for terminal handling
@@ -204,9 +204,9 @@ ii   openssh-server          1:7.7p1-2                       amd64  secure shell
 ii   openssh-sftp-server     1:7.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
-ii   perl                    5.26.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.1-5                        amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.1-5                        all    Core Perl modules
+ii   perl                    5.26.1-6                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.1-6                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.1-6                        all    Core Perl modules
 ii   procps                  2:3.3.14-1                      amd64  /proc file system utilities
 ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
