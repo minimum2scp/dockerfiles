@@ -66,9 +66,9 @@ installed packages:
 
 ```
 ii   adduser                 3.117                           all    add and remove users and groups
-ii   apt                     1.6~beta1                       amd64  commandline package manager
+ii   apt                     1.6~rc1                         amd64  commandline package manager
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.44                          amd64  Debian base system master password and group files
+ii   base-passwd             3.5.45                          amd64  Debian base system master password and group files
 ii   bash                    4.4.18-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.31.1-0.5                    amd64  basic utilities from 4.4BSD-Lite
@@ -100,7 +100,7 @@ ii   initscripts             2.88dsf-59.10                   amd64  scripts for 
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.15.0-3                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6~beta1                       amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~rc1                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1                       amd64  Dynamic library for security auditing
@@ -187,6 +187,7 @@ ii   libudev1                238-4                           amd64  libudev shar
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
+ii   libzstd1                1.3.3+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
