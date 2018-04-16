@@ -23,9 +23,9 @@ installed packages:
 
 ```
 ii   adduser                 3.117                 all    add and remove users and groups
-ii   apt                     1.6~beta1             amd64  commandline package manager
+ii   apt                     1.6~rc1               amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.44                amd64  Debian base system master password and group files
+ii   base-passwd             3.5.45                amd64  Debian base system master password and group files
 ii   bash                    4.4.18-2              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.31.1-0.5          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
@@ -47,7 +47,7 @@ ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
 ii   iproute2                4.15.0-3              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6~beta1             amd64  package management runtime library
+ii   libapt-pkg5.0           1.6~rc1               amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.2-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.2-1             amd64  Dynamic library for security auditing
@@ -96,6 +96,7 @@ ii   libtinfo5               6.1-1                 amd64  shared low-level termi
 ii   libudev1                238-4                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5            amd64  Universally Unique ID library
+ii   libzstd1                1.3.3+dfsg-1          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1               amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.5            amd64  tools for mounting and manipulating filesystems
