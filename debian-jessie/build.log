@@ -528,15 +528,16 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Ign http://ftp.jp.debian.org jessie InRelease
+Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Get:3 http://security.debian.org jessie/updates/main amd64 Packages [629 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
+Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
-Fetched 9924 kB in 2s (4753 kB/s)
+Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
+Get:5 http://security.debian.org jessie/updates/main amd64 Packages [644 kB]
+Get:6 http://security.debian.org jessie/updates/main amd64 Packages [644 kB]
+Fetched 9755 kB in 5min 0s (32.5 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -544,13 +545,13 @@ The following packages will be upgraded:
   gcc-4.9-base libgcc1 libstdc++6 sensible-utils tzdata
 5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 715 kB of archives.
-After this operation, 1024 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2018c-0+deb8u1 [232 kB]
+After this operation, 2048 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2018d-0+deb8u1 [232 kB]
 Get:2 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u1 [160 kB]
 Get:3 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u1 [273 kB]
 Get:4 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u1 [39.5 kB]
 Get:5 http://security.debian.org/ jessie/updates/main sensible-utils all 0.0.9+deb8u1 [10.9 kB]
-Fetched 715 kB in 0s (1312 kB/s)
+Fetched 715 kB in 2min 21s (5060 B/s)
 (Reading database ... 7561 files and directories currently installed.)
 Preparing to unpack .../gcc-4.9-base_4.9.2-10+deb8u1_amd64.deb ...
 Unpacking gcc-4.9-base:amd64 (4.9.2-10+deb8u1) over (4.9.2-10) ...
@@ -570,17 +571,17 @@ Preparing to unpack .../sensible-utils_0.0.9+deb8u1_all.deb ...
 Unpacking sensible-utils (0.0.9+deb8u1) over (0.0.9) ...
 Setting up sensible-utils (0.0.9+deb8u1) ...
 (Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../tzdata_2018c-0+deb8u1_all.deb ...
-Unpacking tzdata (2018c-0+deb8u1) over (2017c-0+deb8u1) ...
-Setting up tzdata (2018c-0+deb8u1) ...
+Preparing to unpack .../tzdata_2018d-0+deb8u1_all.deb ...
+Unpacking tzdata (2018d-0+deb8u1) over (2017c-0+deb8u1) ...
+Setting up tzdata (2018d-0+deb8u1) ...
 Sending build context to Docker daemon  30.12MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 026876bed59b
+ ---> 5a88fbe57015
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d873137692e2
-Removing intermediate container d873137692e2
- ---> c6d3e43a15e2
-Successfully built c6d3e43a15e2
+ ---> Running in 46becda16043
+Removing intermediate container 46becda16043
+ ---> c44cc5522d6f
+Successfully built c44cc5522d6f
 Successfully tagged minimum2scp/debian-jessie:latest

@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018c-0+deb7u1",
+    "Version": "2018d-0+deb7u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "",
     "db:Status-Eflag": "",
     "source:Package": "tzdata",
-    "source:Version": "2018c-0+deb7u1"
+    "source:Version": "2018d-0+deb7u1"
   },
   {
     "Architecture": "amd64",

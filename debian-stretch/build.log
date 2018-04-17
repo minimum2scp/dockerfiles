@@ -418,28 +418,31 @@ Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
 Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:3 http://ftp.jp.debian.org/debian stretch Release
 Get:4 http://security.debian.org stretch/updates InRelease [63.0 kB]
-Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [8431 B]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [441 kB]
-Fetched 603 kB in 1s (350 kB/s)
+Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [12.1 kB]
+Get:7 http://security.debian.org stretch/updates/main amd64 Packages [459 kB]
+Fetched 626 kB in 1s (507 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  bsdutils libblkid1 libfdisk1 libmount1 libsmartcols1 libuuid1 mount
-  util-linux
-8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2028 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://security.debian.org stretch/updates/main amd64 bsdutils amd64 1:2.29.2-1+deb9u1 [112 kB]
-Get:2 http://security.debian.org stretch/updates/main amd64 util-linux amd64 2.29.2-1+deb9u1 [981 kB]
-Get:3 http://security.debian.org stretch/updates/main amd64 mount amd64 2.29.2-1+deb9u1 [189 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 libuuid1 amd64 2.29.2-1+deb9u1 [70.1 kB]
-Get:5 http://security.debian.org stretch/updates/main amd64 libblkid1 amd64 2.29.2-1+deb9u1 [168 kB]
-Get:6 http://security.debian.org stretch/updates/main amd64 libfdisk1 amd64 2.29.2-1+deb9u1 [203 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 libmount1 amd64 2.29.2-1+deb9u1 [178 kB]
-Get:8 http://security.debian.org stretch/updates/main amd64 libsmartcols1 amd64 2.29.2-1+deb9u1 [126 kB]
-Fetched 2028 kB in 3s (648 kB/s)
+  bsdutils libblkid1 libfdisk1 libmount1 libsmartcols1 libsystemd0 libudev1
+  libuuid1 mount tzdata util-linux
+11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2699 kB of archives.
+After this operation, 2048 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libsystemd0 amd64 232-25+deb9u3 [280 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 bsdutils amd64 1:2.29.2-1+deb9u1 [112 kB]
+Get:3 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libudev1 amd64 232-25+deb9u3 [125 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 util-linux amd64 2.29.2-1+deb9u1 [981 kB]
+Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018d-0+deb9u1 [266 kB]
+Get:6 http://security.debian.org stretch/updates/main amd64 mount amd64 2.29.2-1+deb9u1 [189 kB]
+Get:7 http://security.debian.org stretch/updates/main amd64 libuuid1 amd64 2.29.2-1+deb9u1 [70.1 kB]
+Get:8 http://security.debian.org stretch/updates/main amd64 libblkid1 amd64 2.29.2-1+deb9u1 [168 kB]
+Get:9 http://security.debian.org stretch/updates/main amd64 libfdisk1 amd64 2.29.2-1+deb9u1 [203 kB]
+Get:10 http://security.debian.org stretch/updates/main amd64 libmount1 amd64 2.29.2-1+deb9u1 [178 kB]
+Get:11 http://security.debian.org stretch/updates/main amd64 libsmartcols1 amd64 2.29.2-1+deb9u1 [126 kB]
+Fetched 2699 kB in 0s (2819 kB/s)
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../bsdutils_1%3a2.29.2-1+deb9u1_amd64.deb ...
 Unpacking bsdutils (1:2.29.2-1+deb9u1) over (1:2.29.2-1) ...
@@ -452,6 +455,10 @@ Setting up util-linux (2.29.2-1+deb9u1) ...
 Preparing to unpack .../mount_2.29.2-1+deb9u1_amd64.deb ...
 Unpacking mount (2.29.2-1+deb9u1) over (2.29.2-1) ...
 Setting up mount (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_232-25+deb9u3_amd64.deb ...
+Unpacking libsystemd0:amd64 (232-25+deb9u3) over (232-25+deb9u2) ...
+Setting up libsystemd0:amd64 (232-25+deb9u3) ...
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../libuuid1_2.29.2-1+deb9u1_amd64.deb ...
 Unpacking libuuid1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
@@ -472,15 +479,23 @@ Setting up libmount1:amd64 (2.29.2-1+deb9u1) ...
 Preparing to unpack .../libsmartcols1_2.29.2-1+deb9u1_amd64.deb ...
 Unpacking libsmartcols1:amd64 (2.29.2-1+deb9u1) over (2.29.2-1) ...
 Setting up libsmartcols1:amd64 (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../libudev1_232-25+deb9u3_amd64.deb ...
+Unpacking libudev1:amd64 (232-25+deb9u3) over (232-25+deb9u2) ...
+Setting up libudev1:amd64 (232-25+deb9u3) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../tzdata_2018d-0+deb9u1_all.deb ...
+Unpacking tzdata (2018d-0+deb9u1) over (2018c-0+deb9u1) ...
+Setting up tzdata (2018d-0+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u3) ...
-Sending build context to Docker daemon  26.64MB
+Sending build context to Docker daemon  26.63MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4570ac517051
+ ---> 5f32f21033ee
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3538a73018c3
-Removing intermediate container 3538a73018c3
- ---> e1529d6ec6da
-Successfully built e1529d6ec6da
+ ---> Running in d90da20c3b2d
+Removing intermediate container d90da20c3b2d
+ ---> d9bd7213bc94
+Successfully built d9bd7213bc94
 Successfully tagged minimum2scp/debian-stretch:latest
