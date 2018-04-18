@@ -67,7 +67,7 @@ ii   libgcc1                 1:8-20180414-1        amd64  GCC support library
 ii   libgcrypt20             1.8.2-2               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1              amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.29-3                amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.29-4                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1             amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.1.2-1             amd64  Fast LZ compression algorithm library - runtime
@@ -104,7 +104,7 @@ ii   ncurses-base            6.1-1                 all    basic terminal type de
 ii   ncurses-bin             6.1-1                 amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.1-6              amd64  minimal Perl system
+ii   perl-base               5.26.2-2              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
