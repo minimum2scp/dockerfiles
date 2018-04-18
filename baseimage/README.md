@@ -132,7 +132,7 @@ ii   libgdbm-compat4         1.14.1-6                        amd64  GNU dbm data
 ii   libgdbm5                1.14.1-6                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.29-3                          amd64  library for common error values and messages in GnuPG components
+ii   libgpg-error0           1.29-4                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16-2                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                       amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.7                       all    Runtime supp
 ii   libpam0g                1.1.8-3.7                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.1-6                        amd64  shared Perl library
+ii   libperl5.26             5.26.2-2                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.14-1                      amd64  library for accessing process information from /proc
@@ -205,9 +205,9 @@ ii   openssh-server          1:7.7p1-2                       amd64  secure shell
 ii   openssh-sftp-server     1:7.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
-ii   perl                    5.26.1-6                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.1-6                        amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.1-6                        all    Core Perl modules
+ii   perl                    5.26.2-2                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.2-2                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.2-2                        all    Core Perl modules
 ii   procps                  2:3.3.14-1                      amd64  /proc file system utilities
 ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
@@ -227,6 +227,6 @@ ii   vim-tiny                2:8.0.1453-1+b1                 amd64  Vi IMproved 
 ii   whiptail                0.52.20-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.1453-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
-ii   zsh                     5.5-1                           amd64  shell with lots of features
-ii   zsh-common              5.5-1                           all    architecture independent files for Zsh
+ii   zsh                     5.5.1-1                         amd64  shell with lots of features
+ii   zsh-common              5.5.1-1                         all    architecture independent files for Zsh
 ```
