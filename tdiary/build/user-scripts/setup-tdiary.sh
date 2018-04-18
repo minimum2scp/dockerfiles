@@ -37,6 +37,10 @@ bash -l -c "bundle install --path vendor/bundle --jobs=4"
 ## add Gemfile.local
 install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
 
+## workaround to resolve conflict `Bundler could not find compatible versions for gem "faraday"`
+bash -l -c "bundle lock --update faraday"
+GIT_PAGER= git diff Gemfile.lock
+
 ## run bundle install again
 bash -l -c "bundle install"
 bash -l -c "bundle clean"
