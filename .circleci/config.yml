@@ -20,11 +20,11 @@ resources:
             set -x
             load_image=
             case "${CIRCLE_JOB}" in
-              ruby|nodejs)                 load_image=baseimage;;
-              fluentd-ui|ruby-full|rails5) load_image=ruby;;
-              ruby-stretch)                load_image=baseimage-stretch;;
-              ruby-jessie)                 load_image=baseimage-jessie;;
-              ruby-wheezy)                 load_image=baseimage-wheezy;;
+              ruby|nodejs)                        load_image=baseimage;;
+              fluentd-ui|ruby-full|rails5|tdiary) load_image=ruby;;
+              ruby-stretch)                       load_image=baseimage-stretch;;
+              ruby-jessie)                        load_image=baseimage-jessie;;
+              ruby-wheezy)                        load_image=baseimage-wheezy;;
             esac
             if [ -n "${load_image}" ]; then
               echo "Loading /tmp/${load_image}.tar.gz"
@@ -120,6 +120,8 @@ jobs:
     <<: *build
   rails5:
     <<: *build
+  tdiary:
+    <<: *build
   baseimage-stretch:
     <<: *build
   ruby-stretch:
@@ -149,6 +151,8 @@ workflows:
       - ruby-full:
           requires: [rspec-runner, ruby]
       - rails5:
+          requires: [rspec-runner, ruby]
+      - tdiary:
           requires: [rspec-runner, ruby]
       - baseimage-stretch:
           requires: [rspec-runner]
