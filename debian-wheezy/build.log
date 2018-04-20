@@ -1,3 +1,4 @@
+I: Target architecture can be executed
 I: Retrieving InRelease 
 I: Retrieving Release 
 I: Retrieving Release.gpg 
@@ -7,7 +8,7 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies: insserv libbz2-1.0 libdb5.1 libsemanage-common libsemanage1 libslang2 libustr-1.0-1 
+I: Found additional required dependencies:  insserv libbz2-1.0 libdb5.1 libsemanage-common libsemanage1 libslang2 libustr-1.0-1 
 I: Found additional base dependencies: debian-archive-keyring gnupg gpgv libapt-pkg4.12 libreadline6 libstdc++6 libusb-0.1-4 netbase readline-common 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.51-8
@@ -407,15 +408,15 @@ I: Configuring apt...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit http://ftp.jp.debian.org wheezy Release.gpg
-Get:1 http://ftp.jp.debian.org wheezy-updates Release.gpg [1601 B]
+Get:1 http://security.debian.org wheezy/updates Release.gpg [1601 B]
+Get:2 http://ftp.jp.debian.org wheezy-updates Release.gpg [1601 B]
 Hit http://ftp.jp.debian.org wheezy Release
-Get:2 http://ftp.jp.debian.org wheezy-updates Release [155 kB]
-Get:3 http://security.debian.org wheezy/updates Release.gpg [1601 B]
-Get:4 http://ftp.jp.debian.org wheezy/main amd64 Packages [7634 kB]
-Get:5 http://security.debian.org wheezy/updates Release [39.0 kB]
-Get:6 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
-Get:7 http://security.debian.org wheezy/updates/main amd64 Packages [781 kB]
-Fetched 8619 kB in 1s (4358 kB/s)
+Get:3 http://security.debian.org wheezy/updates Release [52.3 kB]
+Get:4 http://ftp.jp.debian.org wheezy-updates Release [155 kB]
+Get:5 http://security.debian.org wheezy/updates/main amd64 Packages [782 kB]
+Get:6 http://ftp.jp.debian.org wheezy/main amd64 Packages [7634 kB]
+Get:7 http://ftp.jp.debian.org wheezy-updates/main amd64 Packages [7481 B]
+Fetched 8634 kB in 2s (3566 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -427,7 +428,7 @@ Need to get 15.3 MB of archives.
 After this operation, 664 kB of additional disk space will be used.
 Get:1 http://security.debian.org/ wheezy/updates/main bash amd64 4.2+dfsg-0.1+deb7u4 [1499 kB]
 Get:2 http://security.debian.org/ wheezy/updates/main login amd64 1:4.1.5.1-1+deb7u1 [984 kB]
-Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u5 [1534 kB]
+Get:3 http://security.debian.org/ wheezy/updates/main perl-base amd64 5.14.2-21+deb7u6 [1534 kB]
 Get:4 http://security.debian.org/ wheezy/updates/main tar amd64 1.26+dfsg-0.1+deb7u1 [984 kB]
 Get:5 http://security.debian.org/ wheezy/updates/main libc-bin amd64 2.13-38+deb7u12 [1275 kB]
 Get:6 http://security.debian.org/ wheezy/updates/main libc6 amd64 2.13-38+deb7u12 [4226 kB]
@@ -438,7 +439,7 @@ Get:10 http://security.debian.org/ wheezy/updates/main passwd amd64 1:4.1.5.1-1+
 Get:11 http://security.debian.org/ wheezy/updates/main sensible-utils all 0.0.7+deb7u1 [9000 B]
 Get:12 http://security.debian.org/ wheezy/updates/main tzdata all 2018d-0+deb7u1 [496 kB]
 Get:13 http://security.debian.org/ wheezy/updates/main multiarch-support amd64 2.13-38+deb7u12 [152 kB]
-Fetched 15.3 MB in 8s (1718 kB/s)
+Fetched 15.3 MB in 13s (1178 kB/s)
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace bash 4.2+dfsg-0.1+deb7u3 (using .../bash_4.2+dfsg-0.1+deb7u4_amd64.deb) ...
 Unpacking replacement bash ...
@@ -449,9 +450,9 @@ Preparing to replace login 1:4.1.5.1-1 (using .../login_1%3a4.1.5.1-1+deb7u1_amd
 Unpacking replacement login ...
 Setting up login (1:4.1.5.1-1+deb7u1) ...
 (Reading database ... 6732 files and directories currently installed.)
-Preparing to replace perl-base 5.14.2-21+deb7u3 (using .../perl-base_5.14.2-21+deb7u5_amd64.deb) ...
+Preparing to replace perl-base 5.14.2-21+deb7u3 (using .../perl-base_5.14.2-21+deb7u6_amd64.deb) ...
 Unpacking replacement perl-base ...
-Setting up perl-base (5.14.2-21+deb7u5) ...
+Setting up perl-base (5.14.2-21+deb7u6) ...
 (Reading database ... 6732 files and directories currently installed.)
 Preparing to replace tar 1.26+dfsg-0.1 (using .../tar_1.26+dfsg-0.1+deb7u1_amd64.deb) ...
 Unpacking replacement tar ...
@@ -496,10 +497,10 @@ Sending build context to Docker daemon  21.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ad582f376873
+ ---> 8cad0590397e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2d02c00b5f7e
-Removing intermediate container 2d02c00b5f7e
- ---> 0201977c4af7
-Successfully built 0201977c4af7
+ ---> Running in 70aef565834c
+Removing intermediate container 70aef565834c
+ ---> c0c7939793b6
+Successfully built c0c7939793b6
 Successfully tagged minimum2scp/debian-wheezy:latest
