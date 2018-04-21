@@ -14,10 +14,10 @@ I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.117
 I: Validating adduser 3.117
-I: Retrieving apt 1.6
-I: Validating apt 1.6
-I: Retrieving libapt-pkg5.0 1.6
-I: Validating libapt-pkg5.0 1.6
+I: Retrieving apt 1.6.1
+I: Validating apt 1.6.1
+I: Retrieving libapt-pkg5.0 1.6.1
+I: Validating libapt-pkg5.0 1.6.1
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.8.2-1
@@ -470,10 +470,10 @@ Sending build context to Docker daemon  28.99MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 050b51420c0c
+ ---> 32de4f6c5373
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 37c7b7fe3cfc
-Removing intermediate container 37c7b7fe3cfc
- ---> ef75f7ad0357
-Successfully built ef75f7ad0357
+ ---> Running in 6f72480eb7b6
+Removing intermediate container 6f72480eb7b6
+ ---> 127fe982bf06
+Successfully built 127fe982bf06
 Successfully tagged minimum2scp/debian:latest
