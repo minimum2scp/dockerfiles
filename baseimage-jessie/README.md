@@ -206,9 +206,9 @@ ii   openssh-server          1:6.7p1-5+deb8u4                  amd64  secure she
 ii   openssh-sftp-server     1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u8                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
-ii   perl                    5.20.2-3+deb8u9                   amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.20.2-3+deb8u9                   amd64  minimal Perl system
-ii   perl-modules            5.20.2-3+deb8u9                   all    Core Perl modules
+ii   perl                    5.20.2-3+deb8u10                  amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.20.2-3+deb8u10                  amd64  minimal Perl system
+ii   perl-modules            5.20.2-3+deb8u10                  all    Core Perl modules
 ii   procps                  2:3.3.9-9                         amd64  /proc file system utilities
 ii   readline-common         6.3-8                             all    GNU readline and history libraries, common files
 ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable system and kernel logging daemon
