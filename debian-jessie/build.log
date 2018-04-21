@@ -1,3 +1,4 @@
+I: Target architecture can be executed
 I: Retrieving InRelease 
 I: Retrieving Release 
 I: Retrieving Release.gpg 
@@ -7,7 +8,7 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies: acl adduser dmsetup insserv libaudit-common libaudit1 libbz2-1.0 libcap2 libcap2-bin libcryptsetup4 libdb5.3 libdebconfclient0 libdevmapper1.02.1 libgcrypt20 libgpg-error0 libkmod2 libncursesw5 libprocps3 libsemanage-common libsemanage1 libslang2 libsystemd0 libudev1 libustr-1.0-1 procps systemd systemd-sysv udev 
+I: Found additional required dependencies:  acl adduser dmsetup insserv libaudit-common libaudit1 libbz2-1.0 libcap2 libcap2-bin libcryptsetup4 libdb5.3 libdebconfclient0 libdevmapper1.02.1 libgcrypt20 libgpg-error0 libkmod2 libncursesw5 libprocps3 libsemanage-common libsemanage1 libslang2 libsystemd0 libudev1 libustr-1.0-1 procps systemd systemd-sysv udev 
 I: Found additional base dependencies: debian-archive-keyring gnupg gpgv libapt-pkg4.12 libreadline6 libstdc++6 libusb-0.1-4 netbase readline-common 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving acl 2.2.52-2
@@ -529,29 +530,33 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://security.debian.org jessie/updates InRelease [63.1 kB]
+Get:1 http://security.debian.org jessie/updates InRelease [94.4 kB]
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [646 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.1 kB]
 Hit http://ftp.jp.debian.org jessie Release
-Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
-Get:5 http://security.debian.org jessie/updates/main amd64 Packages [644 kB]
-Get:6 http://security.debian.org jessie/updates/main amd64 Packages [644 kB]
-Fetched 9755 kB in 5min 0s (32.5 kB/s)
+Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
+Fetched 9972 kB in 3s (2859 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  gcc-4.9-base libgcc1 libstdc++6 sensible-utils tzdata
-5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 715 kB of archives.
-After this operation, 2048 B of additional disk space will be used.
+  gcc-4.9-base libgcc1 libstdc++6 perl-base sensible-utils tzdata
+6 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1943 kB of archives.
+After this operation, 3072 B of additional disk space will be used.
 Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2018d-0+deb8u1 [232 kB]
-Get:2 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u1 [160 kB]
-Get:3 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u1 [273 kB]
-Get:4 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u1 [39.5 kB]
-Get:5 http://security.debian.org/ jessie/updates/main sensible-utils all 0.0.9+deb8u1 [10.9 kB]
-Fetched 715 kB in 2min 21s (5060 B/s)
+Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u10 [1228 kB]
+Get:3 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u1 [160 kB]
+Get:4 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u1 [273 kB]
+Get:5 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u1 [39.5 kB]
+Get:6 http://security.debian.org/ jessie/updates/main sensible-utils all 0.0.9+deb8u1 [10.9 kB]
+Fetched 1943 kB in 0s (3155 kB/s)
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.20.2-3+deb8u10_amd64.deb ...
+Unpacking perl-base (5.20.2-3+deb8u10) over (5.20.2-3+deb8u9) ...
+Setting up perl-base (5.20.2-3+deb8u10) ...
 (Reading database ... 7561 files and directories currently installed.)
 Preparing to unpack .../gcc-4.9-base_4.9.2-10+deb8u1_amd64.deb ...
 Unpacking gcc-4.9-base:amd64 (4.9.2-10+deb8u1) over (4.9.2-10) ...
@@ -578,10 +583,10 @@ Sending build context to Docker daemon  30.12MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5a88fbe57015
+ ---> 5a67de3dfcdc
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 46becda16043
-Removing intermediate container 46becda16043
- ---> c44cc5522d6f
-Successfully built c44cc5522d6f
+ ---> Running in 0621c7c3ed7c
+Removing intermediate container 0621c7c3ed7c
+ ---> 686b8a0c35ab
+Successfully built 686b8a0c35ab
 Successfully tagged minimum2scp/debian-jessie:latest
