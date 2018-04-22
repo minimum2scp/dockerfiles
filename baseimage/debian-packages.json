@@ -2442,7 +2442,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "202",
+    "Installed-Size": "201",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.31.0-1",
+    "Version": "1.31.1-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.31.0-1"
+    "source:Version": "1.31.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2831,7 +2831,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27~101-g0780600+dfsg-3), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27~101-g0780600+dfsg-3.1), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "183",
@@ -2840,12 +2840,12 @@
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27~101-g0780600+dfsg-3)",
+    "Recommends": "libsasl2-modules (>= 2.1.27~101-g0780600+dfsg-3.1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~101-g0780600+dfsg-3",
+    "Version": "2.1.27~101-g0780600+dfsg-3.1",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~101-g0780600+dfsg-3"
+    "source:Version": "2.1.27~101-g0780600+dfsg-3.1"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~101-g0780600+dfsg-3",
+    "Version": "2.1.27~101-g0780600+dfsg-3.1",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~101-g0780600+dfsg-3"
+    "source:Version": "2.1.27~101-g0780600+dfsg-3.1"
   },
   {
     "Architecture": "amd64",
@@ -3422,7 +3422,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "522",
+    "Installed-Size": "523",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3433,15 +3433,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.3+dfsg-1",
-    "binary:Package": "libzstd1",
+    "Version": "1.3.3+dfsg-2",
+    "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.3.3+dfsg-1"
+    "source:Version": "1.3.3+dfsg-2"
   },
   {
     "Architecture": "all",

@@ -152,7 +152,7 @@ ii   libncurses5             6.1-1                           amd64  shared libra
 ii   libncursesw5            6.1-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.31.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.31.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.10-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -166,8 +166,8 @@ ii   libpopt0                1.16-11                         amd64  lib for pars
 ii   libprocps6              2:3.3.14-1                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.1-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3.1    amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3.1    amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.1-2.1                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
@@ -187,7 +187,7 @@ ii   libudev1                238-4                           amd64  libudev shar
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
-ii   libzstd1                1.3.3+dfsg-1                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.3+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
