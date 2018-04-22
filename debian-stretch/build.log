@@ -1,3 +1,4 @@
+I: Target architecture can be executed
 I: Retrieving InRelease 
 I: Retrieving Release 
 I: Retrieving Release.gpg 
@@ -7,7 +8,7 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies: libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 libustr-1.0-1 
+I: Found additional required dependencies:  libaudit-common libaudit1 libbz2-1.0 libcap-ng0 libdb5.3 libdebconfclient0 libgcrypt20 libgpg-error0 liblz4-1 libncursesw5 libsemanage-common libsemanage1 libsystemd0 libudev1 libustr-1.0-1 
 I: Found additional base dependencies: adduser debian-archive-keyring gpgv libapt-pkg5.0 libelf1 libmnl0 libstdc++6 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.52-3+b1
@@ -417,32 +418,33 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
 Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:3 http://ftp.jp.debian.org/debian stretch Release
-Get:4 http://security.debian.org stretch/updates InRelease [63.0 kB]
-Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [12.1 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [459 kB]
-Fetched 626 kB in 1s (507 kB/s)
+Get:4 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [12.1 kB]
+Get:6 http://security.debian.org stretch/updates InRelease [94.3 kB]
+Get:7 http://security.debian.org stretch/updates/main amd64 Packages [468 kB]
+Fetched 666 kB in 2s (304 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
   bsdutils libblkid1 libfdisk1 libmount1 libsmartcols1 libsystemd0 libudev1
-  libuuid1 mount tzdata util-linux
-11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2699 kB of archives.
-After this operation, 2048 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libsystemd0 amd64 232-25+deb9u3 [280 kB]
-Get:2 http://security.debian.org stretch/updates/main amd64 bsdutils amd64 1:2.29.2-1+deb9u1 [112 kB]
-Get:3 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libudev1 amd64 232-25+deb9u3 [125 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 util-linux amd64 2.29.2-1+deb9u1 [981 kB]
+  libuuid1 mount perl-base tzdata util-linux
+12 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4043 kB of archives.
+After this operation, 10.2 kB of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 bsdutils amd64 1:2.29.2-1+deb9u1 [112 kB]
+Get:2 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libsystemd0 amd64 232-25+deb9u3 [280 kB]
+Get:3 http://security.debian.org stretch/updates/main amd64 util-linux amd64 2.29.2-1+deb9u1 [981 kB]
+Get:4 http://ftp.jp.debian.org/debian stretch-updates/main amd64 libudev1 amd64 232-25+deb9u3 [125 kB]
 Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018d-0+deb9u1 [266 kB]
 Get:6 http://security.debian.org stretch/updates/main amd64 mount amd64 2.29.2-1+deb9u1 [189 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 libuuid1 amd64 2.29.2-1+deb9u1 [70.1 kB]
-Get:8 http://security.debian.org stretch/updates/main amd64 libblkid1 amd64 2.29.2-1+deb9u1 [168 kB]
-Get:9 http://security.debian.org stretch/updates/main amd64 libfdisk1 amd64 2.29.2-1+deb9u1 [203 kB]
-Get:10 http://security.debian.org stretch/updates/main amd64 libmount1 amd64 2.29.2-1+deb9u1 [178 kB]
-Get:11 http://security.debian.org stretch/updates/main amd64 libsmartcols1 amd64 2.29.2-1+deb9u1 [126 kB]
-Fetched 2699 kB in 0s (2819 kB/s)
+Get:7 http://security.debian.org stretch/updates/main amd64 perl-base amd64 5.24.1-3+deb9u3 [1344 kB]
+Get:8 http://security.debian.org stretch/updates/main amd64 libuuid1 amd64 2.29.2-1+deb9u1 [70.1 kB]
+Get:9 http://security.debian.org stretch/updates/main amd64 libblkid1 amd64 2.29.2-1+deb9u1 [168 kB]
+Get:10 http://security.debian.org stretch/updates/main amd64 libfdisk1 amd64 2.29.2-1+deb9u1 [203 kB]
+Get:11 http://security.debian.org stretch/updates/main amd64 libmount1 amd64 2.29.2-1+deb9u1 [178 kB]
+Get:12 http://security.debian.org stretch/updates/main amd64 libsmartcols1 amd64 2.29.2-1+deb9u1 [126 kB]
+Fetched 4043 kB in 0s (6315 kB/s)
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../bsdutils_1%3a2.29.2-1+deb9u1_amd64.deb ...
 Unpacking bsdutils (1:2.29.2-1+deb9u1) over (1:2.29.2-1) ...
@@ -455,6 +457,10 @@ Setting up util-linux (2.29.2-1+deb9u1) ...
 Preparing to unpack .../mount_2.29.2-1+deb9u1_amd64.deb ...
 Unpacking mount (2.29.2-1+deb9u1) over (2.29.2-1) ...
 Setting up mount (2.29.2-1+deb9u1) ...
+(Reading database ... 6487 files and directories currently installed.)
+Preparing to unpack .../perl-base_5.24.1-3+deb9u3_amd64.deb ...
+Unpacking perl-base (5.24.1-3+deb9u3) over (5.24.1-3+deb9u2) ...
+Setting up perl-base (5.24.1-3+deb9u3) ...
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../libsystemd0_232-25+deb9u3_amd64.deb ...
 Unpacking libsystemd0:amd64 (232-25+deb9u3) over (232-25+deb9u2) ...
@@ -492,10 +498,10 @@ Sending build context to Docker daemon  26.63MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5f32f21033ee
+ ---> 9718165dee53
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d90da20c3b2d
-Removing intermediate container d90da20c3b2d
- ---> d9bd7213bc94
-Successfully built d9bd7213bc94
+ ---> Running in 28608b115997
+Removing intermediate container 28608b115997
+ ---> 2c3396ffa26f
+Successfully built 2c3396ffa26f
 Successfully tagged minimum2scp/debian-stretch:latest
