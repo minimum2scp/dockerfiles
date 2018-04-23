@@ -10,3 +10,6 @@ gem "tdiary-contrib",           :path => "../tdiary-contrib"
 gem "tdiary-style-rd",         :path => "../tdiary-style-rd"
 gem "tdiary-style-gfm",        :path => "../tdiary-style-gfm"
 
+## workaround to resolve conflict `Bundler could not find compatible versions for gem "faraday"`
+gem "pushbullet_ruby", git: "https://github.com/minimum2scp/pushbullet_ruby", branch: "features/update-faraday-20180421"
+
