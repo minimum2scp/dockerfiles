@@ -41,6 +41,9 @@ install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemf
 bash -l -c "bundle install"
 bash -l -c "bundle clean"
 
+## show diff
+GIT_PAGER= git diff Gemfile.lock
+
 ##
 ## tdiary data
 ##
