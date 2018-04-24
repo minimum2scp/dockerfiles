@@ -3,7 +3,7 @@ version: 2
 resources:
   build: &build
     docker:
-      - image: circleci/ruby:2.5.0-stretch
+      - image: circleci/ruby:2.5.1-stretch
     steps:
       - checkout
       - run:
@@ -85,7 +85,7 @@ resources:
 jobs:
   rspec-runner:
     docker:
-      - image: circleci/ruby:2.5.0-stretch
+      - image: circleci/ruby:2.5.1-stretch
     steps:
       - checkout
       - run:
