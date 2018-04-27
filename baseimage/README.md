@@ -102,8 +102,8 @@ ii   iproute2                4.15.0-3                        amd64  networking a
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.2-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.2-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.3-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.3-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.31.1-0.5                      amd64  block device ID library
 ii   libbsd0                 0.8.7-1                         amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality block-sorting file compressor library - runtime
@@ -148,8 +148,8 @@ ii   liblz4-1                1.8.1.2-1                       amd64  Fast LZ comp
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.31.1-0.5                      amd64  device mounting library
-ii   libncurses5             6.1-1                           amd64  shared libraries for terminal handling
-ii   libncursesw5            6.1-1                           amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             6.1+20180210-2                  amd64  shared libraries for terminal handling (legacy version)
+ii   libncursesw5            6.1+20180210-2                  amd64  shared libraries for terminal handling (wide character legacy version)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.31.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -182,12 +182,13 @@ ii   libssl1.1               1.1.0h-2                        amd64  Secure Socke
 ii   libstdc++6              8-20180425-1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             238-4                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.1-1                           amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               6.1+20180210-2                  amd64  shared low-level terminfo library (legacy version)
+ii   libtinfo6               6.1+20180210-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                238-4                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                        amd64  Wietse Venema's TCP wrappers library
-ii   libzstd1                1.3.3+dfsg-2                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
@@ -196,8 +197,8 @@ ii   lv                      4.51-5                          amd64  Powerful Mul
 ii   man-db                  2.8.3-2                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.5                      amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1-1                           all    basic terminal type definitions
-ii   ncurses-bin             6.1-1                           amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20180210-2                  all    basic terminal type definitions
+ii   ncurses-bin             6.1+20180210-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-2      amd64  NET-3 networking toolkit
 ii   netbase                 5.4                             all    Basic TCP/IP networking system
 ii   openssh-client          1:7.7p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
@@ -222,11 +223,11 @@ ii   tzdata                  2018d-1                         all    time zone an
 ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.5                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1453-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1453-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.1766-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.1766-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-4                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1453-1+b1                 amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.8.dfsg-5                  amd64  compression library - runtime
+ii   xxd                     2:8.0.1766-1                    amd64  tool to make (or reverse) a hex dump
+ii   zlib1g                  1:1.2.11.dfsg-1                 amd64  compression library - runtime
 ii   zsh                     5.5.1-1                         amd64  shell with lots of features
 ii   zsh-common              5.5.1-1                         all    architecture independent files for Zsh
 ```
