@@ -2341,7 +2341,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.26.2-2",
+    "Version": "5.26.2-3",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.26.2-2"
+    "source:Version": "5.26.2-3"
   },
   {
     "Architecture": "amd64",

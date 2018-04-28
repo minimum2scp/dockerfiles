@@ -105,7 +105,7 @@ ii   ncurses-base            6.1+20180210-2        all    basic terminal type de
 ii   ncurses-bin             6.1+20180210-2        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.2-2              amd64  minimal Perl system
+ii   perl-base               5.26.2-3              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.29b-2               amd64  GNU version of the tar archiving utility
