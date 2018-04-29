@@ -110,7 +110,7 @@ ii   libbz2-1.0              1.0.6-8.1                       amd64  high-quality
 ii   libc-bin                2.27-3                          amd64  GNU C Library: Binaries
 ii   libc-l10n               2.27-3                          all    GNU C Library: localization files
 ii   libc6                   2.27-3                          amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.7-3.1+b1                    amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-1                         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.44.1-2                        amd64  common error description library
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -143,7 +143,7 @@ ii   libkrb5support0         1.16-2                          amd64  MIT Kerberos
 ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-3                         amd64  easy to use and lightweight logging library
-ii   liblognorm5             2.0.3-1                         amd64  log normalizing library
+ii   liblognorm5             2.0.5-1                         amd64  log normalizing library
 ii   liblz4-1                1.8.1.2-1                       amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
