@@ -218,7 +218,7 @@ ii   sudo                    1.8.21p2-3                      amd64  Provide limi
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
-ii   tar                     1.29b-2                         amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018d-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
