@@ -214,7 +214,7 @@ ii   rsyslog                 8.34.0-1                        amd64  reliable sys
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.21p2-3                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.23-1                        amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
