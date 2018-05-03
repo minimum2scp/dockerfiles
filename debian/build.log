@@ -62,12 +62,12 @@ I: Retrieving libelf1 0.170-0.4
 I: Validating libelf1 0.170-0.4
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8-20180425-1
-I: Validating gcc-8-base 8-20180425-1
-I: Retrieving libgcc1 1:8-20180425-1
-I: Validating libgcc1 1:8-20180425-1
-I: Retrieving libstdc++6 8-20180425-1
-I: Validating libstdc++6 8-20180425-1
+I: Retrieving gcc-8-base 8.1.0-1
+I: Validating gcc-8-base 8.1.0-1
+I: Retrieving libgcc1 1:8.1.0-1
+I: Validating libgcc1 1:8.1.0-1
+I: Retrieving libstdc++6 8.1.0-1
+I: Validating libstdc++6 8.1.0-1
 I: Retrieving libc-bin 2.27-3
 I: Validating libc-bin 2.27-3
 I: Retrieving libc6 2.27-3
@@ -96,8 +96,8 @@ I: Retrieving libffi6 3.2.1-8
 I: Validating libffi6 3.2.1-8
 I: Retrieving libgcrypt20 1.8.2-2
 I: Validating libgcrypt20 1.8.2-2
-I: Retrieving libgpg-error0 1.29-4
-I: Validating libgpg-error0 1.29-4
+I: Retrieving libgpg-error0 1.31-1
+I: Validating libgpg-error0 1.31-1
 I: Retrieving libidn2-0 2.0.4-1.1
 I: Validating libidn2-0 2.0.4-1.1
 I: Retrieving libmnl0 1.0.4-2
@@ -116,8 +116,8 @@ I: Retrieving libtasn1-6 4.13-2
 I: Validating libtasn1-6 4.13-2
 I: Retrieving libunistring2 0.9.8-1
 I: Validating libunistring2 0.9.8-1
-I: Retrieving libzstd1 1.3.4+dfsg-1
-I: Validating libzstd1 1.3.4+dfsg-1
+I: Retrieving libzstd1 1.3.4+dfsg-2
+I: Validating libzstd1 1.3.4+dfsg-2
 I: Retrieving liblz4-1 1.8.1.2-1
 I: Validating liblz4-1 1.8.1.2-1
 I: Retrieving mawk 1.3.3-17+b3
@@ -471,14 +471,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.05MB
+Sending build context to Docker daemon  29.19MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 05cc845db910
+ ---> 93792365badb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in bd8d0b2b59d3
-Removing intermediate container bd8d0b2b59d3
- ---> 3b22670b61bc
-Successfully built 3b22670b61bc
+ ---> Running in 70ca9ac6b18b
+Removing intermediate container 70ca9ac6b18b
+ ---> df413956aa3d
+Successfully built df413956aa3d
 Successfully tagged minimum2scp/debian:latest
