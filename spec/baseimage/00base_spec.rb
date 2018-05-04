@@ -41,7 +41,7 @@ describe 'minimum2scp/baseimage' do
       its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/', 'stable-updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/', 'stable-updates', 'main', 'contrib', 'non-free'] }
       ## testing
-      its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/', 'testing',        'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',     'http://deb.debian.org/debian/', 'testing',        'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/', 'testing',        'main', 'contrib', 'non-free'] }
       ## sid
       its(:content) { should match apt_line_re[true,  'deb',     'http://deb.debian.org/debian/', 'sid',            'main', 'contrib', 'non-free'] }
