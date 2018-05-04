@@ -7,7 +7,7 @@ I: Validating Packages
 I: Found packages in base already in required: apt 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies:  adduser debian-archive-keyring fdisk gcc-8-base gpgv libacl1 libapt-pkg5.0 libattr1 libaudit-common libaudit1 libblkid1 libbz2-1.0 libc6 libcap-ng0 libcom-err2 libdb5.3 libdebconfclient0 libext2fs2 libfdisk1 libffi6 libgcc1 libgcrypt20 libgmp10 libgnutls30 libgpg-error0 libhogweed4 libidn2-0 liblz4-1 liblzma5 libmount1 libncursesw5 libnettle6 libp11-kit0 libpam0g libpcre3 libseccomp2 libselinux1 libsemanage-common libsemanage1 libsepol1 libsmartcols1 libss2 libstdc++6 libsystemd0 libtasn1-6 libtinfo5 libudev1 libunistring2 libuuid1 libzstd1 zlib1g 
+I: Found additional required dependencies:  adduser debian-archive-keyring fdisk gcc-8-base gpgv libacl1 libapt-pkg5.0 libattr1 libaudit-common libaudit1 libblkid1 libbz2-1.0 libc6 libcap-ng0 libcom-err2 libdb5.3 libdebconfclient0 libext2fs2 libfdisk1 libffi6 libgcc1 libgcrypt20 libgmp10 libgnutls30 libgpg-error0 libhogweed4 libidn2-0 liblz4-1 liblzma5 libmount1 libncursesw5 libnettle6 libp11-kit0 libpam0g libpcre3 libseccomp2 libselinux1 libsemanage-common libsemanage1 libsepol1 libsmartcols1 libss2 libstdc++6 libsystemd0 libtasn1-6 libtinfo5 libtinfo6 libudev1 libunistring2 libuuid1 libzstd1 zlib1g 
 I: Found additional base dependencies: libelf1 libmnl0 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.52-3+b1
@@ -20,10 +20,10 @@ I: Retrieving libapt-pkg5.0 1.6.1
 I: Validating libapt-pkg5.0 1.6.1
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
-I: Retrieving libaudit-common 1:2.8.2-1
-I: Validating libaudit-common 1:2.8.2-1
-I: Retrieving libaudit1 1:2.8.2-1
-I: Validating libaudit1 1:2.8.2-1
+I: Retrieving libaudit-common 1:2.8.3-1
+I: Validating libaudit-common 1:2.8.3-1
+I: Retrieving libaudit1 1:2.8.3-1
+I: Validating libaudit1 1:2.8.3-1
 I: Retrieving base-files 10.1
 I: Validating base-files 10.1
 I: Retrieving base-passwd 3.5.45
@@ -62,12 +62,12 @@ I: Retrieving libelf1 0.170-0.4
 I: Validating libelf1 0.170-0.4
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8-20180425-1
-I: Validating gcc-8-base 8-20180425-1
-I: Retrieving libgcc1 1:8-20180425-1
-I: Validating libgcc1 1:8-20180425-1
-I: Retrieving libstdc++6 8-20180425-1
-I: Validating libstdc++6 8-20180425-1
+I: Retrieving gcc-8-base 8.1.0-1
+I: Validating gcc-8-base 8.1.0-1
+I: Retrieving libgcc1 1:8.1.0-1
+I: Validating libgcc1 1:8.1.0-1
+I: Retrieving libstdc++6 8.1.0-1
+I: Validating libstdc++6 8.1.0-1
 I: Retrieving libc-bin 2.27-3
 I: Validating libc-bin 2.27-3
 I: Retrieving libc6 2.27-3
@@ -90,14 +90,14 @@ I: Retrieving init-system-helpers 1.51
 I: Validating init-system-helpers 1.51
 I: Retrieving iproute2 4.15.0-3
 I: Validating iproute2 4.15.0-3
-I: Retrieving libcap-ng0 0.7.7-3.1+b1
-I: Validating libcap-ng0 0.7.7-3.1+b1
+I: Retrieving libcap-ng0 0.7.9-1
+I: Validating libcap-ng0 0.7.9-1
 I: Retrieving libffi6 3.2.1-8
 I: Validating libffi6 3.2.1-8
 I: Retrieving libgcrypt20 1.8.2-2
 I: Validating libgcrypt20 1.8.2-2
-I: Retrieving libgpg-error0 1.29-4
-I: Validating libgpg-error0 1.29-4
+I: Retrieving libgpg-error0 1.31-1
+I: Validating libgpg-error0 1.31-1
 I: Retrieving libidn2-0 2.0.4-1.1
 I: Validating libidn2-0 2.0.4-1.1
 I: Retrieving libmnl0 1.0.4-2
@@ -116,20 +116,22 @@ I: Retrieving libtasn1-6 4.13-2
 I: Validating libtasn1-6 4.13-2
 I: Retrieving libunistring2 0.9.8-1
 I: Validating libunistring2 0.9.8-1
-I: Retrieving libzstd1 1.3.3+dfsg-2
-I: Validating libzstd1 1.3.3+dfsg-2
+I: Retrieving libzstd1 1.3.4+dfsg-2
+I: Validating libzstd1 1.3.4+dfsg-2
 I: Retrieving liblz4-1 1.8.1.2-1
 I: Validating liblz4-1 1.8.1.2-1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw5 6.1-1
-I: Validating libncursesw5 6.1-1
-I: Retrieving libtinfo5 6.1-1
-I: Validating libtinfo5 6.1-1
-I: Retrieving ncurses-base 6.1-1
-I: Validating ncurses-base 6.1-1
-I: Retrieving ncurses-bin 6.1-1
-I: Validating ncurses-bin 6.1-1
+I: Retrieving libncursesw5 6.1+20180210-2
+I: Validating libncursesw5 6.1+20180210-2
+I: Retrieving libtinfo5 6.1+20180210-2
+I: Validating libtinfo5 6.1+20180210-2
+I: Retrieving libtinfo6 6.1+20180210-2
+I: Validating libtinfo6 6.1+20180210-2
+I: Retrieving ncurses-base 6.1+20180210-2
+I: Validating ncurses-base 6.1+20180210-2
+I: Retrieving ncurses-bin 6.1+20180210-2
+I: Validating ncurses-bin 6.1+20180210-2
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
 I: Retrieving libhogweed4 3.4-1
@@ -148,8 +150,8 @@ I: Retrieving libpam0g 1.1.8-3.7
 I: Validating libpam0g 1.1.8-3.7
 I: Retrieving libpcre3 2:8.39-9
 I: Validating libpcre3 2:8.39-9
-I: Retrieving perl-base 5.26.2-2
-I: Validating perl-base 5.26.2-2
+I: Retrieving perl-base 5.26.2-3
+I: Validating perl-base 5.26.2-3
 I: Retrieving sed 4.4-2
 I: Validating sed 4.4-2
 I: Retrieving login 1:4.5-1
@@ -162,8 +164,8 @@ I: Retrieving libudev1 238-4
 I: Validating libudev1 238-4
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
-I: Retrieving tar 1.29b-2
-I: Validating tar 1.29b-2
+I: Retrieving tar 1.30+dfsg-1
+I: Validating tar 1.30+dfsg-1
 I: Retrieving tzdata 2018d-1
 I: Validating tzdata 2018d-1
 I: Retrieving bsdutils 1:2.31.1-0.5
@@ -186,8 +188,8 @@ I: Retrieving util-linux 2.31.1-0.5
 I: Validating util-linux 2.31.1-0.5
 I: Retrieving liblzma5 5.2.2-1.3
 I: Validating liblzma5 5.2.2-1.3
-I: Retrieving zlib1g 1:1.2.8.dfsg-5
-I: Validating zlib1g 1:1.2.8.dfsg-5
+I: Retrieving zlib1g 1:1.2.11.dfsg-1
+I: Validating zlib1g 1:1.2.11.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting adduser...
@@ -243,6 +245,7 @@ I: Extracting liblz4-1...
 I: Extracting mawk...
 I: Extracting libncursesw5...
 I: Extracting libtinfo5...
+I: Extracting libtinfo6...
 I: Extracting ncurses-base...
 I: Extracting ncurses-bin...
 I: Extracting libhogweed4...
@@ -329,6 +332,7 @@ I: Unpacking liblz4-1:amd64...
 I: Unpacking mawk...
 I: Unpacking libncursesw5:amd64...
 I: Unpacking libtinfo5:amd64...
+I: Unpacking libtinfo6:amd64...
 I: Unpacking ncurses-base...
 I: Unpacking ncurses-bin...
 I: Unpacking libhogweed4:amd64...
@@ -405,6 +409,7 @@ I: Configuring zlib1g:amd64...
 I: Configuring hostname...
 I: Configuring mawk...
 I: Configuring gpgv...
+I: Configuring libtinfo6:amd64...
 I: Configuring libsystemd0:amd64...
 I: Configuring libzstd1:amd64...
 I: Configuring libblkid1:amd64...
@@ -466,14 +471,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  28.98MB
+Sending build context to Docker daemon  29.19MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a8ae6fef5d03
+ ---> 93792365badb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7e15d4aeb95e
-Removing intermediate container 7e15d4aeb95e
- ---> b95ab6a4efba
-Successfully built b95ab6a4efba
+ ---> Running in 70ca9ac6b18b
+Removing intermediate container 70ca9ac6b18b
+ ---> df413956aa3d
+Successfully built df413956aa3d
 Successfully tagged minimum2scp/debian:latest
