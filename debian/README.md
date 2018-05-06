@@ -45,7 +45,7 @@ ii   gzip                    1.6-5+b1              amd64  GNU compression utilit
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
-ii   iproute2                4.15.0-3              amd64  networking and traffic control tools
+ii   iproute2                4.16.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
@@ -56,6 +56,8 @@ ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sor
 ii   libc-bin                2.27-3                amd64  GNU C Library: Binaries
 ii   libc6                   2.27-3                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1               amd64  An alternate POSIX capabilities library
+ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.1-2              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.243                 amd64  Debian Configuration Management System (C-implementation library)
@@ -109,7 +111,7 @@ ii   perl-base               5.26.2-3              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-1           amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018d-1               all    time zone and daylight-saving time data
+ii   tzdata                  2018e-1               all    time zone and daylight-saving time data
 ii   util-linux              2.31.1-0.5            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
 ```
