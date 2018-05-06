@@ -70,7 +70,7 @@ ii   apt                     1.6.1                           amd64  commandline 
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                          amd64  Debian base system master password and group files
 ii   bash                    4.4.18-2                        amd64  GNU Bourne Again SHell
-ii   bsdmainutils            11.1.2                          amd64  collection of more utilities from FreeBSD
+ii   bsdmainutils            11.1.2+b1                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.31.1-0.5                    amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20180409                        all    Common CA certificates
 ii   coreutils               8.28-1                          amd64  GNU core utilities
@@ -81,7 +81,7 @@ ii   debconf                 1.5.66                          all    Debian confi
 ii   debian-archive-keyring  2017.7                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
-ii   dpkg                    1.19.0.5                        amd64  Debian package management system
+ii   dpkg                    1.19.0.5+b1                     amd64  Debian package management system
 ii   e2fsprogs               1.44.1-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                        all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.31.1-0.5                      amd64  collection of partitioning utilities
@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo to
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.15.0-3                        amd64  networking and traffic control tools
+ii   iproute2                4.16.0-2                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
@@ -112,6 +112,7 @@ ii   libc-l10n               2.27-3                          all    GNU C Librar
 ii   libc6                   2.27-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1                         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.25-1.2                      amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.1-2                        amd64  common error description library
 ii   libcurl3                7.58.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libcurl3-gnutls         7.58.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -140,8 +141,8 @@ ii   libk5crypto3            1.16-2                          amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9.2                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.16-2                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.16-2                          amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.45+dfsg-1                   amd64  OpenLDAP libraries
-ii   libldap-common          2.4.45+dfsg-1                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.46+dfsg-5                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.46+dfsg-5                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-3                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.5-1                         amd64  log normalizing library
 ii   liblz4-1                1.8.1.2-1                       amd64  Fast LZ compression algorithm library - runtime
@@ -149,7 +150,9 @@ ii   liblzma5                5.2.2-1.3                       amd64  XZ-format co
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.31.1-0.5                      amd64  device mounting library
 ii   libncurses5             6.1+20180210-2                  amd64  shared libraries for terminal handling (legacy version)
+ii   libncurses6             6.1+20180210-2                  amd64  shared libraries for terminal handling
 ii   libncursesw5            6.1+20180210-2                  amd64  shared libraries for terminal handling (wide character legacy version)
+ii   libncursesw6            6.1+20180210-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.31.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -163,7 +166,7 @@ ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 C
 ii   libperl5.26             5.26.2-3                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
-ii   libprocps6              2:3.3.14-1                      amd64  library for accessing process information from /proc
+ii   libprocps6              2:3.3.14-1+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.1-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3.1    amd64  Cyrus SASL - authentication abstraction library
@@ -193,7 +196,7 @@ ii   localepurge             0.7.3.4                         all    reclaim disk
 ii   locales                 2.27-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1                         amd64  system login tools
 ii   lsb-base                9.20170808                      all    Linux Standard Base init script functionality
-ii   lv                      4.51-5                          amd64  Powerful Multilingual File Viewer
+ii   lv                      4.51-5+b1                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.3-2                         amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.5                      amd64  tools for mounting and manipulating filesystems
@@ -209,7 +212,7 @@ ii   passwd                  1:4.5-1                         amd64  change and a
 ii   perl                    5.26.2-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.26.2-3                        amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.2-3                        all    Core Perl modules
-ii   procps                  2:3.3.14-1                      amd64  /proc file system utilities
+ii   procps                  2:3.3.14-1+b1                   amd64  /proc file system utilities
 ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
@@ -219,7 +222,7 @@ ii   sysv-rc                 2.88dsf-59.10                   all    System-V-lik
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018d-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2018e-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
 ii   util-linux              2.31.1-0.5                      amd64  miscellaneous system utilities
