@@ -197,7 +197,7 @@ ii   sysv-rc                 2.88dsf-41+deb7u1                 all    System-V-l
 ii   sysvinit                2.88dsf-41+deb7u1                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1                 amd64  System-V-like utilities
 ii   tar                     1.26+dfsg-0.1+deb7u1              amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018d-0+deb7u1                    all    time zone and daylight-saving time data
+ii   tzdata                  2018e-0+deb7u1                    all    time zone and daylight-saving time data
 ii   ucf                     3.0025+nmu3                       all    Update Configuration File: preserve user changes to config files.
 ii   unzip                   6.0-8+deb7u6                      amd64  De-archiver for .zip files
 ii   util-linux              2.20.1-5.3                        amd64  Miscellaneous system utilities
