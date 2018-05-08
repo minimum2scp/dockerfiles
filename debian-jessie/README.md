@@ -122,7 +122,7 @@ ii   systemd-sysv            215-17+deb8u7             amd64  system and service
 ii   sysv-rc                 2.88dsf-59                all    System-V-like runlevel change mechanism
 ii   sysvinit-utils          2.88dsf-59                amd64  System-V-like utilities
 ii   tar                     1.27.1-2+deb8u1           amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018d-0+deb8u1            all    time zone and daylight-saving time data
+ii   tzdata                  2018e-0+deb8u1            all    time zone and daylight-saving time data
 ii   udev                    215-17+deb8u7             amd64  /dev/ and hotplug management daemon
 ii   util-linux              2.25.2-6                  amd64  Miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1         amd64  compression library - runtime
