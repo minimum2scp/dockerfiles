@@ -99,7 +99,7 @@ ii   libtinfo6               6.1+20180210-2        amd64  shared low-level termi
 ii   libudev1                238-4                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.31.1-0.5            amd64  Universally Unique ID library
-ii   libzstd1                1.3.4+dfsg-2          amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1               amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.31.1-0.5            amd64  tools for mounting and manipulating filesystems
