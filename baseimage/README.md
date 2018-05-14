@@ -69,7 +69,7 @@ ii   adduser                 3.117                           all    add and remo
 ii   apt                     1.6.1                           amd64  commandline package manager
 ii   base-files              10.1                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                          amd64  Debian base system master password and group files
-ii   bash                    4.4.18-2                        amd64  GNU Bourne Again SHell
+ii   bash                    4.4.18-2+b1                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.32-0.1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20180409                        all    Common CA certificates
@@ -169,7 +169,7 @@ ii   libpsl5                 0.20.1-1                        amd64  Library for 
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3.1    amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3.1    amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.3.3-1                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.3.3-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.7-2+b2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2+b2                        amd64  SELinux policy management library
@@ -183,7 +183,6 @@ ii   libssl1.1               1.1.0h-2                        amd64  Secure Socke
 ii   libstdc++6              8.1.0-3                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             238-4                           amd64  systemd utility library
 ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo5               6.1+20180210-3                  amd64  shared low-level terminfo library (legacy version)
 ii   libtinfo6               6.1+20180210-3                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                238-4                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
