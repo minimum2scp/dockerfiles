@@ -7,7 +7,7 @@ I: Validating Packages
 I: Found packages in base already in required: apt 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies:  adduser debian-archive-keyring fdisk gcc-8-base gpgv libacl1 libapt-pkg5.0 libattr1 libaudit-common libaudit1 libblkid1 libbz2-1.0 libc6 libcap-ng0 libcom-err2 libdb5.3 libdebconfclient0 libext2fs2 libfdisk1 libffi6 libgcc1 libgcrypt20 libgmp10 libgnutls30 libgpg-error0 libhogweed4 libidn2-0 liblz4-1 liblzma5 libmount1 libncursesw6 libnettle6 libp11-kit0 libpam0g libpcre3 libseccomp2 libselinux1 libsemanage-common libsemanage1 libsepol1 libsmartcols1 libss2 libstdc++6 libsystemd0 libtasn1-6 libtinfo5 libtinfo6 libudev1 libunistring2 libuuid1 libzstd1 zlib1g 
+I: Found additional required dependencies:  adduser debian-archive-keyring fdisk gcc-8-base gpgv libacl1 libapt-pkg5.0 libattr1 libaudit-common libaudit1 libblkid1 libbz2-1.0 libc6 libcap-ng0 libcom-err2 libdb5.3 libdebconfclient0 libext2fs2 libfdisk1 libffi6 libgcc1 libgcrypt20 libgmp10 libgnutls30 libgpg-error0 libhogweed4 libidn2-0 liblz4-1 liblzma5 libmount1 libncursesw6 libnettle6 libp11-kit0 libpam0g libpcre3 libseccomp2 libselinux1 libsemanage-common libsemanage1 libsepol1 libsmartcols1 libss2 libstdc++6 libsystemd0 libtasn1-6 libtinfo6 libudev1 libunistring2 libuuid1 libzstd1 zlib1g 
 I: Found additional base dependencies: libcap2 libcap2-bin libelf1 libmnl0 netbase 
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.2.52-3+b1
@@ -28,8 +28,8 @@ I: Retrieving base-files 10.1
 I: Validating base-files 10.1
 I: Retrieving base-passwd 3.5.45
 I: Validating base-passwd 3.5.45
-I: Retrieving bash 4.4.18-2
-I: Validating bash 4.4.18-2
+I: Retrieving bash 4.4.18-2+b1
+I: Validating bash 4.4.18-2+b1
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.243
@@ -62,12 +62,12 @@ I: Retrieving libelf1 0.170-0.4
 I: Validating libelf1 0.170-0.4
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8.1.0-2
-I: Validating gcc-8-base 8.1.0-2
-I: Retrieving libgcc1 1:8.1.0-2
-I: Validating libgcc1 1:8.1.0-2
-I: Retrieving libstdc++6 8.1.0-2
-I: Validating libstdc++6 8.1.0-2
+I: Retrieving gcc-8-base 8.1.0-3
+I: Validating gcc-8-base 8.1.0-3
+I: Retrieving libgcc1 1:8.1.0-3
+I: Validating libgcc1 1:8.1.0-3
+I: Retrieving libstdc++6 8.1.0-3
+I: Validating libstdc++6 8.1.0-3
 I: Retrieving libc-bin 2.27-3
 I: Validating libc-bin 2.27-3
 I: Retrieving libc6 2.27-3
@@ -106,8 +106,8 @@ I: Retrieving libidn2-0 2.0.4-1.1
 I: Validating libidn2-0 2.0.4-1.1
 I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
-I: Retrieving libseccomp2 2.3.3-1
-I: Validating libseccomp2 2.3.3-1
+I: Retrieving libseccomp2 2.3.3-2
+I: Validating libseccomp2 2.3.3-2
 I: Retrieving libselinux1 2.7-2+b2
 I: Validating libselinux1 2.7-2+b2
 I: Retrieving libsemanage-common 2.7-2
@@ -128,8 +128,6 @@ I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
 I: Retrieving libncursesw6 6.1+20180210-3
 I: Validating libncursesw6 6.1+20180210-3
-I: Retrieving libtinfo5 6.1+20180210-3
-I: Validating libtinfo5 6.1+20180210-3
 I: Retrieving libtinfo6 6.1+20180210-3
 I: Validating libtinfo6 6.1+20180210-3
 I: Retrieving ncurses-base 6.1+20180210-3
@@ -248,7 +246,6 @@ I: Extracting libzstd1...
 I: Extracting liblz4-1...
 I: Extracting mawk...
 I: Extracting libncursesw6...
-I: Extracting libtinfo5...
 I: Extracting libtinfo6...
 I: Extracting ncurses-base...
 I: Extracting ncurses-bin...
@@ -335,7 +332,6 @@ I: Unpacking libzstd1:amd64...
 I: Unpacking liblz4-1:amd64...
 I: Unpacking mawk...
 I: Unpacking libncursesw6:amd64...
-I: Unpacking libtinfo5:amd64...
 I: Unpacking libtinfo6:amd64...
 I: Unpacking ncurses-base...
 I: Unpacking ncurses-bin...
@@ -394,7 +390,6 @@ I: Configuring sed...
 I: Configuring libsmartcols1:amd64...
 I: Configuring libcom-err2:amd64...
 I: Configuring libaudit1:amd64...
-I: Configuring libtinfo5:amd64...
 I: Configuring libudev1:amd64...
 I: Configuring libunistring2:amd64...
 I: Configuring libnettle6:amd64...
@@ -479,14 +474,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.13MB
+Sending build context to Docker daemon  29.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> dbdb8027fe92
+ ---> 604e260a941e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 732744f856b9
-Removing intermediate container 732744f856b9
- ---> 335c0ec00ecc
-Successfully built 335c0ec00ecc
+ ---> Running in d22f194e96c2
+Removing intermediate container d22f194e96c2
+ ---> 4e5b915fe4ab
+Successfully built 4e5b915fe4ab
 Successfully tagged minimum2scp/debian:latest
