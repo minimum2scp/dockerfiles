@@ -79,7 +79,7 @@ ii   curl                    7.58.0-2                        amd64  command line
 ii   dash                    0.5.8-2.10                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.66                          all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                          all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.8.4                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8.6                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                         amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1                     amd64  Debian package management system
 ii   e2fsprogs               1.44.1-2                        amd64  ext2/ext3/ext4 file system utilities
@@ -94,11 +94,11 @@ ii   grep                    3.1-2                           amd64  GNU grep, eg
 ii   groff-base              1.22.3-10                       amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
 ii   hostname                3.20                            amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-3                       amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-3+b1                    amd64  ICMP echo tool
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.16.0-2                        amd64  networking and traffic control tools
+ii   iproute2                4.16.0-3                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
@@ -129,8 +129,8 @@ ii   libfdisk1               2.32-0.1                        amd64  fdisk partit
 ii   libffi6                 3.2.1-8                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.1.0-3                       amd64  GCC support library
 ii   libgcrypt20             1.8.2-2                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.14.1-6                        amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm5                1.14.1-6                        amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.14.1-6+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm5                1.14.1-6+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.18-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.31-1                          amd64  GnuPG development runtime library
@@ -145,7 +145,7 @@ ii   libldap-2.4-2           2.4.46+dfsg-5                   amd64  OpenLDAP lib
 ii   libldap-common          2.4.46+dfsg-5                   all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.6-3                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.5-1                         amd64  log normalizing library
-ii   liblz4-1                1.8.1.2-1                       amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.8.2-1                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.32-0.1                        amd64  device mounting library
