@@ -44,8 +44,8 @@ I: Retrieving debconf 1.5.66
 I: Validating debconf 1.5.66
 I: Retrieving debian-archive-keyring 2017.7
 I: Validating debian-archive-keyring 2017.7
-I: Retrieving debianutils 4.8.4
-I: Validating debianutils 4.8.4
+I: Retrieving debianutils 4.8.6
+I: Validating debianutils 4.8.6
 I: Retrieving diffutils 1:3.6-1
 I: Validating diffutils 1:3.6-1
 I: Retrieving dpkg 1.19.0.5+b1
@@ -84,12 +84,12 @@ I: Retrieving gzip 1.6-5+b1
 I: Validating gzip 1.6-5+b1
 I: Retrieving hostname 3.20
 I: Validating hostname 3.20
-I: Retrieving inetutils-ping 2:1.9.4-3
-I: Validating inetutils-ping 2:1.9.4-3
+I: Retrieving inetutils-ping 2:1.9.4-3+b1
+I: Validating inetutils-ping 2:1.9.4-3+b1
 I: Retrieving init-system-helpers 1.51
 I: Validating init-system-helpers 1.51
-I: Retrieving iproute2 4.16.0-2
-I: Validating iproute2 4.16.0-2
+I: Retrieving iproute2 4.16.0-3
+I: Validating iproute2 4.16.0-3
 I: Retrieving libcap-ng0 0.7.9-1
 I: Validating libcap-ng0 0.7.9-1
 I: Retrieving libcap2 1:2.25-1.2
@@ -122,8 +122,8 @@ I: Retrieving libunistring2 0.9.8-1
 I: Validating libunistring2 0.9.8-1
 I: Retrieving libzstd1 1.3.4+dfsg-3
 I: Validating libzstd1 1.3.4+dfsg-3
-I: Retrieving liblz4-1 1.8.1.2-1
-I: Validating liblz4-1 1.8.1.2-1
+I: Retrieving liblz4-1 1.8.2-1
+I: Validating liblz4-1 1.8.2-1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
 I: Retrieving libncursesw6 6.1+20180210-3
@@ -478,10 +478,10 @@ Sending build context to Docker daemon  29.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 604e260a941e
+ ---> 375a27035a24
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d22f194e96c2
-Removing intermediate container d22f194e96c2
- ---> 4e5b915fe4ab
-Successfully built 4e5b915fe4ab
+ ---> Running in 754e6b96b938
+Removing intermediate container 754e6b96b938
+ ---> 98c9bf23ce2f
+Successfully built 98c9bf23ce2f
 Successfully tagged minimum2scp/debian:latest

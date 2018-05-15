@@ -32,7 +32,7 @@ ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
 ii   debconf                 1.5.66                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.8.4                 amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1           amd64  Debian package management system
 ii   e2fsprogs               1.44.1-2              amd64  ext2/ext3/ext4 file system utilities
@@ -43,9 +43,9 @@ ii   gpgv                    2.2.5-1               amd64  GNU privacy guard - si
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-3             amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-3+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
-ii   iproute2                4.16.0-2              amd64  networking and traffic control tools
+ii   iproute2                4.16.0-3              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
@@ -72,7 +72,7 @@ ii   libgnutls30             3.5.18-1              amd64  GNU TLS library - main
 ii   libgpg-error0           1.31-1                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1             amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   liblz4-1                1.8.1.2-1             amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.32-0.1              amd64  device mounting library
