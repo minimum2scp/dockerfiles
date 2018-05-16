@@ -50,14 +50,14 @@ I: Retrieving diffutils 1:3.6-1
 I: Validating diffutils 1:3.6-1
 I: Retrieving dpkg 1.19.0.5+b1
 I: Validating dpkg 1.19.0.5+b1
-I: Retrieving e2fsprogs 1.44.1-2
-I: Validating e2fsprogs 1.44.1-2
-I: Retrieving libcom-err2 1.44.1-2
-I: Validating libcom-err2 1.44.1-2
-I: Retrieving libext2fs2 1.44.1-2
-I: Validating libext2fs2 1.44.1-2
-I: Retrieving libss2 1.44.1-2
-I: Validating libss2 1.44.1-2
+I: Retrieving e2fsprogs 1.44.2-1
+I: Validating e2fsprogs 1.44.2-1
+I: Retrieving libcom-err2 1.44.2-1
+I: Validating libcom-err2 1.44.2-1
+I: Retrieving libext2fs2 1.44.2-1
+I: Validating libext2fs2 1.44.2-1
+I: Retrieving libss2 1.44.2-1
+I: Validating libss2 1.44.2-1
 I: Retrieving libelf1 0.170-0.4
 I: Validating libelf1 0.170-0.4
 I: Retrieving findutils 4.6.0+git+20171230-2
@@ -474,14 +474,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.11MB
+Sending build context to Docker daemon   29.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 375a27035a24
+ ---> 7f55c0e85e1a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 754e6b96b938
-Removing intermediate container 754e6b96b938
- ---> 98c9bf23ce2f
-Successfully built 98c9bf23ce2f
+ ---> Running in e3a102b7f457
+Removing intermediate container e3a102b7f457
+ ---> 02766659fa1b
+Successfully built 02766659fa1b
 Successfully tagged minimum2scp/debian:latest
