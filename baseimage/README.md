@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-3+b1                    amd64  ICMP echo to
 ii   init-system-helpers     1.51                            all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                   amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                   amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.16.0-3                        amd64  networking and traffic control tools
+ii   iproute2                4.16.0-4                        amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                     amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                   amd64  Extended attribute shared library
@@ -218,7 +218,7 @@ ii   sudo                    1.8.23-1                        amd64  Provide limi
 ii   sysv-rc                 2.88dsf-59.10                   all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                   amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                   amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-1                     amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-2                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018e-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0038                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
