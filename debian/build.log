@@ -88,8 +88,8 @@ I: Retrieving inetutils-ping 2:1.9.4-3+b1
 I: Validating inetutils-ping 2:1.9.4-3+b1
 I: Retrieving init-system-helpers 1.51
 I: Validating init-system-helpers 1.51
-I: Retrieving iproute2 4.16.0-3
-I: Validating iproute2 4.16.0-3
+I: Retrieving iproute2 4.16.0-4
+I: Validating iproute2 4.16.0-4
 I: Retrieving libcap-ng0 0.7.9-1
 I: Validating libcap-ng0 0.7.9-1
 I: Retrieving libcap2 1:2.25-1.2
@@ -166,8 +166,8 @@ I: Retrieving libudev1 238-4
 I: Validating libudev1 238-4
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
-I: Retrieving tar 1.30+dfsg-1
-I: Validating tar 1.30+dfsg-1
+I: Retrieving tar 1.30+dfsg-2
+I: Validating tar 1.30+dfsg-2
 I: Retrieving tzdata 2018e-1
 I: Validating tzdata 2018e-1
 I: Retrieving bsdutils 1:2.32-0.1
@@ -474,14 +474,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.1MB
+Sending build context to Docker daemon  29.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7f55c0e85e1a
+ ---> f746401c1fe5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e3a102b7f457
-Removing intermediate container e3a102b7f457
- ---> 02766659fa1b
-Successfully built 02766659fa1b
+ ---> Running in 7bb8b5c1629e
+Removing intermediate container 7bb8b5c1629e
+ ---> 2a3765127df6
+Successfully built 2a3765127df6
 Successfully tagged minimum2scp/debian:latest
