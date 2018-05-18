@@ -98,7 +98,7 @@ ii   sysv-rc                 2.88dsf-41+deb7u1      all    System-V-like runleve
 ii   sysvinit                2.88dsf-41+deb7u1      amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-41+deb7u1      amd64  System-V-like utilities
 ii   tar                     1.26+dfsg-0.1+deb7u1   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018d-0+deb7u1         all    time zone and daylight-saving time data
+ii   tzdata                  2018e-0+deb7u1         all    time zone and daylight-saving time data
 ii   util-linux              2.20.1-5.3             amd64  Miscellaneous system utilities
 ii   xz-utils                5.1.1alpha+20120614-2  amd64  XZ-format compression utilities
 ii   zlib1g                  1:1.2.7.dfsg-13        amd64  compression library - runtime
