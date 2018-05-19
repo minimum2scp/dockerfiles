@@ -88,7 +88,7 @@ ii   libseccomp2             2.3.3-2               amd64  high level interface t
 ii   libselinux1             2.7-2+b2              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.7-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.7-2+b2              amd64  SELinux policy management library
-ii   libsepol1               2.7-1                 amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               2.7-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.32-0.1              amd64  smart column output alignment library
 ii   libss2                  1.44.2-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.1.0-3               amd64  GNU Standard C++ Library v3
@@ -106,7 +106,7 @@ ii   ncurses-base            6.1+20180210-3        all    basic terminal type de
 ii   ncurses-bin             6.1+20180210-3        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.2-3              amd64  minimal Perl system
+ii   perl-base               5.26.2-4              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2           amd64  GNU version of the tar archiving utility

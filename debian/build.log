@@ -114,8 +114,8 @@ I: Retrieving libsemanage-common 2.7-2
 I: Validating libsemanage-common 2.7-2
 I: Retrieving libsemanage1 2.7-2+b2
 I: Validating libsemanage1 2.7-2+b2
-I: Retrieving libsepol1 2.7-1
-I: Validating libsepol1 2.7-1
+I: Retrieving libsepol1 2.7-2
+I: Validating libsepol1 2.7-2
 I: Retrieving libtasn1-6 4.13-2
 I: Validating libtasn1-6 4.13-2
 I: Retrieving libunistring2 0.9.8-1
@@ -152,8 +152,8 @@ I: Retrieving libpam0g 1.1.8-3.7
 I: Validating libpam0g 1.1.8-3.7
 I: Retrieving libpcre3 2:8.39-9
 I: Validating libpcre3 2:8.39-9
-I: Retrieving perl-base 5.26.2-3
-I: Validating perl-base 5.26.2-3
+I: Retrieving perl-base 5.26.2-4
+I: Validating perl-base 5.26.2-4
 I: Retrieving sed 4.4-2
 I: Validating sed 4.4-2
 I: Retrieving login 1:4.5-1
@@ -478,10 +478,10 @@ Sending build context to Docker daemon  29.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f746401c1fe5
+ ---> c9b9380476d0
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7bb8b5c1629e
-Removing intermediate container 7bb8b5c1629e
- ---> 2a3765127df6
-Successfully built 2a3765127df6
+ ---> Running in f2e6c08f2ccc
+Removing intermediate container f2e6c08f2ccc
+ ---> 788a3c9c1499
+Successfully built 788a3c9c1499
 Successfully tagged minimum2scp/debian:latest
