@@ -153,7 +153,7 @@ ii   libncurses6             6.1+20180210-3                  amd64  shared libra
 ii   libncursesw6            6.1+20180210-3                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.31.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.32.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.10-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -161,7 +161,7 @@ ii   libpam-runtime          1.1.8-3.7                       all    Runtime supp
 ii   libpam0g                1.1.8-3.7                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-9                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.2-4                        amd64  shared Perl library
+ii   libperl5.26             5.26.2-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                         amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.14-1+b1                   amd64  library for accessing process information from /proc
@@ -182,7 +182,7 @@ ii   libssl1.0.2             1.0.2o-1                        amd64  Secure Socke
 ii   libssl1.1               1.1.0h-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.1.0-3                         amd64  GNU Standard C++ Library v3
 ii   libsystemd0             238-4                           amd64  systemd utility library
-ii   libtasn1-6              4.13-2                          amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.13-3                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-3                  amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                238-4                           amd64  libudev shared library
 ii   libunistring2           0.9.8-1                         amd64  Unicode string library for C
@@ -206,9 +206,9 @@ ii   openssh-server          1:7.7p1-2                       amd64  secure shell
 ii   openssh-sftp-server     1:7.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1                         amd64  change and administer password and group data
-ii   perl                    5.26.2-4                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.2-4                        amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.2-4                        all    Core Perl modules
+ii   perl                    5.26.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.2-5                        amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.2-5                        all    Core Perl modules
 ii   procps                  2:3.3.14-1+b1                   amd64  /proc file system utilities
 ii   rsyslog                 8.34.0-1                        amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                           amd64  GNU stream editor for filtering/transforming text
