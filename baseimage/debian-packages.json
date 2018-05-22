@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.7-1",
+    "Version": "0.8.7-1.1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.7-1"
+    "source:Version": "0.8.7-1.1"
   },
   {
     "Architecture": "amd64",
@@ -2355,7 +2355,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20180210-3), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20180210-4), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "310",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20180210-3",
+    "Version": "6.1+20180210-4",
     "binary:Package": "libncurses6:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2377,13 +2377,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20180210-3"
+    "source:Version": "6.1+20180210-4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20180210-3), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20180210-4), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "395",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20180210-3",
+    "Version": "6.1+20180210-4",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20180210-3"
+    "source:Version": "6.1+20180210-4"
   },
   {
     "Architecture": "amd64",
@@ -2778,9 +2778,9 @@
     "Depends": "libc6 (>= 2.14), libsystemd0 (>= 209)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "123",
+    "Installed-Size": "122",
     "Origin": "",
-    "Package": "libprocps6",
+    "Package": "libprocps7",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
@@ -2789,15 +2789,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.14-1+b1",
-    "binary:Package": "libprocps6:amd64",
+    "Version": "2:3.3.15-1",
+    "binary:Package": "libprocps7:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.14-1"
+    "source:Version": "2:3.3.15-1"
   },
   {
     "Architecture": "amd64",
@@ -2834,7 +2834,7 @@
     "Depends": "libc6 (>= 2.14), libgmp10, libgnutls30 (>= 3.5.6), libhogweed4, libnettle6, zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "142",
+    "Installed-Size": "141",
     "Origin": "",
     "Package": "librtmp1",
     "Pre-Depends": "",
@@ -2845,7 +2845,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4+20151223.gitfa8646d.1-1+b1",
+    "Version": "2.4+20151223.gitfa8646d.1-2",
     "binary:Package": "librtmp1:amd64",
     "binary:Summary": "toolkit for RTMP streams (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rtmpdump",
-    "source:Version": "2.4+20151223.gitfa8646d.1-1"
+    "source:Version": "2.4+20151223.gitfa8646d.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "511",
+    "Installed-Size": "512",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20180210-3",
+    "Version": "6.1+20180210-4",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20180210-3"
+    "source:Version": "6.1+20180210-4"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3702,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "356",
+    "Installed-Size": "364",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20180210-3",
+    "Version": "6.1+20180210-4",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20180210-3"
+    "source:Version": "6.1+20180210-4"
   },
   {
     "Architecture": "amd64",
@@ -3730,7 +3730,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "575",
+    "Installed-Size": "576",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.1)",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20180210-3",
+    "Version": "6.1+20180210-4",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20180210-3"
+    "source:Version": "6.1+20180210-4"
   },
   {
     "Architecture": "amd64",
@@ -4035,10 +4035,10 @@
     "Architecture": "amd64",
     "Conflicts": "pgrep (<< 3.3-5), w-bassman (<< 1.0-3)",
     "Breaks": "guymager (<= 0.5.9-1), open-vm-tools (<= 2011.12.20-562307-1)",
-    "Depends": "libc6 (>= 2.27), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps6 (>= 2:3.3.13-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
+    "Depends": "libc6 (>= 2.27), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps7 (>= 2:3.3.15-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "726",
+    "Installed-Size": "729",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.14-1+b1",
+    "Version": "2:3.3.15-1",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.14-1"
+    "source:Version": "2:3.3.15-1"
   },
   {
     "Architecture": "amd64",
