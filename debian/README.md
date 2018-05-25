@@ -39,7 +39,7 @@ ii   e2fsprogs               1.44.2-1              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.32-0.1              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.1.0-3               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.5-1               amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.7-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
@@ -76,7 +76,7 @@ ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression al
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.32-0.1              amd64  device mounting library
-ii   libncursesw6            6.1+20180210-3        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6            6.1+20180210-4        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.10-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM
@@ -93,8 +93,8 @@ ii   libsmartcols1           2.32-0.1              amd64  smart column output al
 ii   libss2                  1.44.2-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.1.0-3               amd64  GNU Standard C++ Library v3
 ii   libsystemd0             238-4                 amd64  systemd utility library
-ii   libtasn1-6              4.13-2                amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20180210-3        amd64  shared low-level terminfo library for terminal handling
+ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
+ii   libtinfo6               6.1+20180210-4        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                238-4                 amd64  libudev shared library
 ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1              amd64  Universally Unique ID library
@@ -102,11 +102,11 @@ ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compress
 ii   login                   1:4.5-1               amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.32-0.1              amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20180210-3        all    basic terminal type definitions
-ii   ncurses-bin             6.1+20180210-3        amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20180210-4        all    basic terminal type definitions
+ii   ncurses-bin             6.1+20180210-4        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.2-4              amd64  minimal Perl system
+ii   perl-base               5.26.2-5              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2           amd64  GNU version of the tar archiving utility
