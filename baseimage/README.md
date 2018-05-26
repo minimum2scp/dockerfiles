@@ -181,10 +181,10 @@ ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-si
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.1.0-3                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             238-4                         amd64  systemd utility library
+ii   libsystemd0             238-5                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                238-4                         amd64  libudev shared library
+ii   libudev1                238-5                         amd64  libudev shared library
 ii   libunistring2           0.9.8-1                       amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
