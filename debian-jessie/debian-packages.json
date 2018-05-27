@@ -1714,7 +1714,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "132",
+    "Installed-Size": "105",
     "Origin": "",
     "Package": "libprocps3",
     "Pre-Depends": "multiarch-support",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.9-9",
+    "Version": "2:3.3.9-9+deb8u1",
     "binary:Package": "libprocps3:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.9-9"
+    "source:Version": "2:3.3.9-9+deb8u1"
   },
   {
     "Architecture": "amd64",
@@ -2526,7 +2526,7 @@
     "Depends": "libc6 (>= 2.15), libncurses5 (>= 5.5-5~), libncursesw5 (>= 5.6+20070908), libprocps3, libtinfo5, lsb-base (>= 3.0-10), initscripts",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "670",
+    "Installed-Size": "577",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -2537,7 +2537,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.9-9",
+    "Version": "2:3.3.9-9+deb8u1",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.9-9"
+    "source:Version": "2:3.3.9-9+deb8u1"
   },
   {
     "Architecture": "all",
