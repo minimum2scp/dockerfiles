@@ -62,12 +62,12 @@ I: Retrieving libelf1 0.170-0.4
 I: Validating libelf1 0.170-0.4
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8.1.0-3
-I: Validating gcc-8-base 8.1.0-3
-I: Retrieving libgcc1 1:8.1.0-3
-I: Validating libgcc1 1:8.1.0-3
-I: Retrieving libstdc++6 8.1.0-3
-I: Validating libstdc++6 8.1.0-3
+I: Retrieving gcc-8-base 8.1.0-4
+I: Validating gcc-8-base 8.1.0-4
+I: Retrieving libgcc1 1:8.1.0-4
+I: Validating libgcc1 1:8.1.0-4
+I: Retrieving libstdc++6 8.1.0-4
+I: Validating libstdc++6 8.1.0-4
 I: Retrieving libc-bin 2.27-3
 I: Validating libc-bin 2.27-3
 I: Retrieving libc6 2.27-3
@@ -474,14 +474,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.12MB
+Sending build context to Docker daemon  29.26MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bf8c2e954edc
+ ---> 3b2ee9419bd5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 139222e975b8
-Removing intermediate container 139222e975b8
- ---> 86c1af43e666
-Successfully built 86c1af43e666
+ ---> Running in f25f58069f0a
+Removing intermediate container f25f58069f0a
+ ---> f938a88465c8
+Successfully built f938a88465c8
 Successfully tagged minimum2scp/debian:latest
