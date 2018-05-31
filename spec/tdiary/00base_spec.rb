@@ -66,6 +66,7 @@ describe 'minimum2scp/tdiary' do
         its(:stdout){ should eq "The Gemfile's dependencies are satisfied\n" }
       end
 
+      ## workaround to resolve conflict `Bundler could not find compatible versions for gem "faraday"`
       describe command('cd /home/debian/go/src/github.com/tdiary/tdiary-core && bundle show') do
         let(:login_shell){ true }
         its(:exit_status){ should eq 0 }
