@@ -24,7 +24,6 @@ resources:
               fluentd-ui|ruby-full|rails5|tdiary) load_image=ruby;;
               ruby-stretch)                       load_image=baseimage-stretch;;
               ruby-jessie)                        load_image=baseimage-jessie;;
-              ruby-wheezy)                        load_image=baseimage-wheezy;;
             esac
             if [ -n "${load_image}" ]; then
               echo "Loading /tmp/${load_image}.tar.gz"
@@ -130,10 +129,6 @@ jobs:
     <<: *build
   ruby-jessie:
     <<: *build
-  baseimage-wheezy:
-    <<: *build
-  ruby-wheezy:
-    <<: *build
 
 workflows:
   version: 2
@@ -162,8 +157,4 @@ workflows:
           requires: [rspec-runner]
       - ruby-jessie:
           requires: [rspec-runner, baseimage-jessie]
-      - baseimage-wheezy:
-          requires: [rspec-runner]
-      - ruby-wheezy:
-          requires: [rspec-runner, baseimage-wheezy]
  

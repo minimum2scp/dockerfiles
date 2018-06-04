@@ -35,15 +35,6 @@ namespace :minimum2scp do
     sh "cd debian-jessie && rake clobber mkimage README.md #{tag} #{env}"
   end
 
-  desc 'build minimum2scp/debian-wheezy image'
-  task :debian_wheezy do
-    tag = ->(env, default){
-      env ? (!env.empty? ? "TAG=#{env}" : "") : "TAG=#{default}"
-    }[ENV['TAG_DEBIAN_WHEEZY'], 'minimum2scp/debian-wheezy:latest']
-    env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
-    sh "cd debian-wheezy && rake clobber mkimage README.md #{tag} #{env}"
-  end
-
   desc "create deps.svg from deps.dot (visualize dependencies)"
   file "deps.svg" => "deps.dot" do
     sh "dot -T svg -o deps.svg deps.dot"
