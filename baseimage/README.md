@@ -210,7 +210,7 @@ ii   perl                    5.26.2-5                      amd64  Larry Wall's P
 ii   perl-base               5.26.2-5                      amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.2-5                      all    Core Perl modules
 ii   procps                  2:3.3.15-2                    amd64  /proc file system utilities
-ii   rsyslog                 8.34.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.35.0-1                      amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-2                         amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                        amd64  run processes in parallel and multiplex their output
