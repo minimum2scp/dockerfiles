@@ -66,13 +66,6 @@ describe 'minimum2scp/tdiary' do
         its(:stdout){ should eq "The Gemfile's dependencies are satisfied\n" }
       end
 
-      ## workaround to resolve conflict `Bundler could not find compatible versions for gem "faraday"`
-      describe command('cd /home/debian/go/src/github.com/tdiary/tdiary-core && bundle show') do
-        let(:login_shell){ true }
-        its(:exit_status){ should eq 0 }
-        its(:stdout){ should include " * pushbullet_ruby (1.1.3 473cfaf)\n" }
-      end
-
       describe file("/home/debian/go/src/github.com/tdiary/tdiary-core/tdiary.conf") do
         it { should be_linked_to '/home/debian/tdiary/tdiary.conf' }
       end
