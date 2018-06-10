@@ -12,9 +12,10 @@ sh /tmp/build/tdiary/tmp/ruby-binary/install.sh -t v0.1.71 -v 2.5.1
 bash -lc "rbenv global 2.5.1"
 
 ##
-## tdiary test dependencies
-##
-apt-get install -y --no-install-recommends libsqlite3-dev
+## tdiary dependencies
+##   * libsqlite3-dev: tdiary-core/Gemfile -> sqlite3
+##   * libidn11-dev: tdiary-style-gfm -> twitter-text -> idn-ruby
+apt-get install -y --no-install-recommends libsqlite3-dev libidn11-dev
 
 ##
 ## setup tdiary
