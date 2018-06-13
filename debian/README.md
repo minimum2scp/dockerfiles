@@ -30,7 +30,7 @@ ii   bash                    4.4.18-3              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.32-0.1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
-ii   debconf                 1.5.66                all    Debian configuration management system
+ii   debconf                 1.5.67                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
@@ -78,7 +78,7 @@ ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink c
 ii   libmount1               2.32-0.1              amd64  device mounting library
 ii   libncursesw6            6.1+20180210-4        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.10-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.12-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.7             all    Runtime support for the PAM library
@@ -106,7 +106,7 @@ ii   ncurses-base            6.1+20180210-4        all    basic terminal type de
 ii   ncurses-bin             6.1+20180210-4        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
-ii   perl-base               5.26.2-5              amd64  minimal Perl system
+ii   perl-base               5.26.2-6              amd64  minimal Perl system
 ii   sed                     4.4-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.10         amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2           amd64  GNU version of the tar archiving utility
