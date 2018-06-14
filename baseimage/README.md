@@ -128,7 +128,7 @@ ii   libfastjson4            0.99.8-2                      amd64  fast json libr
 ii   libfdisk1               2.32-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.1.0-5                     amd64  GCC support library
-ii   libgcrypt20             1.8.2-2                       amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.3-1                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6+b1                   amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                   amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                amd64  Multiprecision arithmetic library
