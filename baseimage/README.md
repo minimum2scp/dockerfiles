@@ -120,7 +120,7 @@ ii   libdb5.3                5.3.28-13.1+b1                amd64  Berkeley v5.3 
 ii   libdebconfclient0       0.243                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1                amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.4                     amd64  library to read and write ELF files
-ii   liberror-perl           0.17025-1                     all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                       amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.2-1                      amd64  ext2/ext3/ext4 file system libraries
@@ -223,10 +223,10 @@ ii   tzdata                  2018e-1                       all    time zone and 
 ii   ucf                     3.0038                        all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                        amd64  De-archiver for .zip files
 ii   util-linux              2.32-0.1                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1766-1                  all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1766-1                  amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0089-1                  all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0089-1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-4                     amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1766-1                  amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0089-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
 ii   zsh                     5.5.1-1+b1                    amd64  shell with lots of features
 ii   zsh-common              5.5.1-1                       all    architecture independent files for Zsh
