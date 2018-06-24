@@ -86,10 +86,10 @@ ii   e2fsprogs               1.44.2-1                      amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.1.0-5                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.17.1-1                    amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.17.1-1                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.8-1                       amd64  GNU privacy guard - signature verification tool
+ii   gcc-8-base              8.1.0-8                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   git                     1:2.18.0-1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.18.0-1                    all    fast, scalable, distributed revision control system (manual pages)
+ii   gpgv                    2.2.8-3                       amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                         amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                      amd64  GNU compression utilities
@@ -120,14 +120,14 @@ ii   libdb5.3                5.3.28-13.1+b1                amd64  Berkeley v5.3 
 ii   libdebconfclient0       0.243                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1                amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.4                     amd64  library to read and write ELF files
-ii   liberror-perl           0.17025-1                     all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                       amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.2-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.1.0-5                     amd64  GCC support library
+ii   libgcc1                 1:8.1.0-8                     amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6+b1                   amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                   amd64  GNU dbm database routines (runtime version) 
@@ -180,11 +180,11 @@ ii   libss2                  1.44.2-1                      amd64  command-line i
 ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.1.0-5                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             238-5                         amd64  systemd utility library
+ii   libstdc++6              8.1.0-8                       amd64  GNU Standard C++ Library v3
+ii   libsystemd0             239-1                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                238-5                         amd64  libudev shared library
+ii   libudev1                239-1                         amd64  libudev shared library
 ii   libunistring2           0.9.8-1                       amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
@@ -223,10 +223,10 @@ ii   tzdata                  2018e-1                       all    time zone and 
 ii   ucf                     3.0038                        all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                        amd64  De-archiver for .zip files
 ii   util-linux              2.32-0.1                      amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.1766-1                  all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.1766-1                  amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0089-1                  all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0089-1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-4                     amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.1766-1                  amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0089-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
 ii   zsh                     5.5.1-1+b1                    amd64  shell with lots of features
 ii   zsh-common              5.5.1-1                       all    architecture independent files for Zsh
