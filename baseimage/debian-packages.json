@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.20-4",
+    "Version": "0.52.20-5",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.20-4"
+    "source:Version": "0.52.20-5"
   },
   {
     "Architecture": "amd64",
@@ -2918,7 +2918,7 @@
     "Depends": "libc6 (>= 2.14), libpcre3",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "193",
+    "Installed-Size": "194",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -2929,7 +2929,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8-1",
+    "Version": "2.8-1+b1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -4458,7 +4458,7 @@
     "Depends": "libc6 (>= 2.14), libnewt0.52 (>= 0.52.20), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "70",
+    "Installed-Size": "74",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.20-4",
+    "Version": "0.52.20-5",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.20-4"
+    "source:Version": "0.52.20-5"
   },
   {
     "Architecture": "amd64",

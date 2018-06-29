@@ -151,7 +151,7 @@ ii   libmount1               2.32-0.1                      amd64  device mountin
 ii   libncurses6             6.1+20180210-4                amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20180210-4                amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.20-4                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.20-5                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.32.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.12-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7                     amd64  Pluggable Authentication Modules for PAM
@@ -169,7 +169,7 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-2   amd64  toolkit for RT
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3.1  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3.1  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-2                       amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.8-1                         amd64  SELinux runtime shared libraries
+ii   libselinux1             2.8-1+b1                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-1                         amd64  SELinux policy management library
 ii   libsepol1               2.8-1                         amd64  SELinux library for manipulating binary security policies
@@ -224,7 +224,7 @@ ii   unzip                   6.0-21                        amd64  De-archiver fo
 ii   util-linux              2.32-0.1                      amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0089-1                  all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0089-1                  amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.20-4                     amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.20-5                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0089-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
 ii   zsh                     5.5.1-1+b1                    amd64  shell with lots of features
