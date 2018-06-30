@@ -39,7 +39,7 @@ ii   e2fslibs                1.43.4-2               amd64  ext2/ext3/ext4 file s
 ii   e2fsprogs               1.43.4-2               amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2   amd64  utilities for finding files--find, xargs
 ii   gcc-6-base              6.3.0-18+deb9u1        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.1.18-8~deb9u1        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-8~deb9u2        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1               amd64  GNU compression utilities
 ii   hostname                3.18+b1                amd64  utility to set/show the host name or domain name
@@ -62,7 +62,7 @@ ii   libdebconfclient0       0.227                  amd64  Debian Configuration 
 ii   libelf1                 0.168-1                amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1+deb9u1        amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-18+deb9u1      amd64  GCC support library
-ii   libgcrypt20             1.7.6-2+deb9u2         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.6-2+deb9u3         amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                 amd64  library for common error values and messages in GnuPG components
 ii   liblz4-1                0.0~r131-2+b1          amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1           amd64  XZ-format compression library
@@ -95,7 +95,7 @@ ii   ncurses-base            6.0+20161126-1+deb9u2  all    basic terminal type d
 ii   ncurses-bin             6.0+20161126-1+deb9u2  amd64  terminal-related programs and man pages
 ii   netbase                 5.4                    all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1              amd64  change and administer password and group data
-ii   perl-base               5.24.1-3+deb9u3        amd64  minimal Perl system
+ii   perl-base               5.24.1-3+deb9u4        amd64  minimal Perl system
 ii   sed                     4.4-1                  amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9           amd64  System-V-like utilities
