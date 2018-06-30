@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20161106-2            amd64  utilities fo
 ii   gcc-6-base              6.3.0-18+deb9u1                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-3+deb9u3               amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-3+deb9u3               all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.18-8~deb9u1                 amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-8~deb9u2                 amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -126,7 +126,7 @@ ii   libfastjson4            0.99.4-1                        amd64  fast json li
 ii   libfdisk1               2.29.2-1+deb9u1                 amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:6.3.0-18+deb9u1               amd64  GCC support library
-ii   libgcrypt20             1.7.6-2+deb9u2                  amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.7.6-2+deb9u3                  amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-5+deb9u3                  amd64  GNU TLS library - main runtime library
@@ -158,7 +158,7 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-3                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1-3+deb9u3                 amd64  shared Perl library
+ii   libperl5.24             5.24.1-3+deb9u4                 amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3+deb9u1               amd64  library for accessing process information from /proc
@@ -209,9 +209,9 @@ ii   openssh-server          1:7.4p1-10+deb9u3               amd64  secure shell
 ii   openssh-sftp-server     1:7.4p1-10+deb9u3               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0f-3+deb9u2                 amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
-ii   perl                    5.24.1-3+deb9u3                 amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1-3+deb9u3                 amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1-3+deb9u3                 all    Core Perl modules
+ii   perl                    5.24.1-3+deb9u4                 amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.24.1-3+deb9u4                 amd64  minimal Perl system
+ii   perl-modules-5.24       5.24.1-3+deb9u4                 all    Core Perl modules
 ii   procps                  2:3.3.12-3+deb9u1               amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
