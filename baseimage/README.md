@@ -103,7 +103,7 @@ ii   libacl1                 2.2.52-3+b1                   amd64  Access control
 ii   libapt-pkg5.0           1.6.2                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.3-1                     all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.3-1                     amd64  Dynamic library for security auditing
+ii   libaudit1               1:2.8.3-1+b1                  amd64  Dynamic library for security auditing
 ii   libblkid1               2.32-0.1                      amd64  block device ID library
 ii   libbsd0                 0.9.1-1                       amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                     amd64  high-quality block-sorting file compressor library - runtime
@@ -168,7 +168,7 @@ ii   libpsl5                 0.20.2-1                      amd64  Library for Pu
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2   amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3.1  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27~101-g0780600+dfsg-3.1  amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.3.3-2                       amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.3.3-3                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-1+b1                      amd64  SELinux policy management library
