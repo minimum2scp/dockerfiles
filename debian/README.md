@@ -26,7 +26,7 @@ ii   adduser                 3.117                 all    add and remove users a
 ii   apt                     1.6.2                 amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                amd64  Debian base system master password and group files
-ii   bash                    4.4.18-3              amd64  GNU Bourne Again SHell
+ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.32-0.1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
@@ -50,7 +50,7 @@ ii   libacl1                 2.2.52-3+b1           amd64  Access control list sh
 ii   libapt-pkg5.0           1.6.2                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.3-1             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.3-1             amd64  Dynamic library for security auditing
+ii   libaudit1               1:2.8.3-1+b1          amd64  Dynamic library for security auditing
 ii   libblkid1               2.32-0.1              amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.27-3                amd64  GNU C Library: Binaries

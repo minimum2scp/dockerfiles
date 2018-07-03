@@ -19,14 +19,14 @@ I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.8.3-1
 I: Validating libaudit-common 1:2.8.3-1
-I: Retrieving libaudit1 1:2.8.3-1
-I: Validating libaudit1 1:2.8.3-1
+I: Retrieving libaudit1 1:2.8.3-1+b1
+I: Validating libaudit1 1:2.8.3-1+b1
 I: Retrieving base-files 10.1
 I: Validating base-files 10.1
 I: Retrieving base-passwd 3.5.45
 I: Validating base-passwd 3.5.45
-I: Retrieving bash 4.4.18-3
-I: Validating bash 4.4.18-3
+I: Retrieving bash 4.4.18-3.1
+I: Validating bash 4.4.18-3.1
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
 I: Retrieving libdebconfclient0 0.243
@@ -467,20 +467,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [247 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.8 MB]
-Fetched 11.1 MB in 3s (3928 kB/s)
+Fetched 11.1 MB in 3s (3524 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.09MB
+Sending build context to Docker daemon   29.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d9e12591a18d
+ ---> 157f4ac64ea6
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in be122ae34b58
-Removing intermediate container be122ae34b58
- ---> b735bb99a6b8
-Successfully built b735bb99a6b8
+ ---> Running in a1ecb5d76b37
+Removing intermediate container a1ecb5d76b37
+ ---> 15704df011d6
+Successfully built 15704df011d6
 Successfully tagged minimum2scp/debian:latest
