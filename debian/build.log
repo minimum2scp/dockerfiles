@@ -85,8 +85,10 @@ I: Retrieving inetutils-ping 2:1.9.4-3+b1
 I: Validating inetutils-ping 2:1.9.4-3+b1
 I: Retrieving init-system-helpers 1.51
 I: Validating init-system-helpers 1.51
-I: Retrieving iproute2 4.16.0-4
-I: Validating iproute2 4.16.0-4
+I: Retrieving iproute2 4.17.0-2
+I: Validating iproute2 4.17.0-2
+I: Retrieving libxtables12 1.6.2-1
+I: Validating libxtables12 1.6.2-1
 I: Retrieving libcap-ng0 0.7.9-1
 I: Validating libcap-ng0 0.7.9-1
 I: Retrieving libcap2 1:2.25-1.2
@@ -157,10 +159,10 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 239-3
-I: Validating libsystemd0 239-3
-I: Retrieving libudev1 239-3
-I: Validating libudev1 239-3
+I: Retrieving libsystemd0 239-4
+I: Validating libsystemd0 239-4
+I: Retrieving libudev1 239-4
+I: Validating libudev1 239-4
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.30+dfsg-2
@@ -450,6 +452,7 @@ I: Unpacking the base system...
 I: Unpacking libelf1:amd64...
 I: Unpacking inetutils-ping...
 I: Unpacking iproute2...
+I: Unpacking libxtables12:amd64...
 I: Unpacking libcap2:amd64...
 I: Unpacking libcap2-bin...
 I: Unpacking libmnl0:amd64...
@@ -457,6 +460,7 @@ I: Unpacking netbase...
 I: Configuring the base system...
 I: Configuring libelf1:amd64...
 I: Configuring libcap2:amd64...
+I: Configuring libxtables12:amd64...
 I: Configuring libmnl0:amd64...
 I: Configuring netbase...
 I: Configuring inetutils-ping...
@@ -467,20 +471,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [247 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.8 MB]
-Fetched 11.1 MB in 3s (3524 kB/s)
+Fetched 11.1 MB in 4s (3022 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.1MB
+Sending build context to Docker daemon   29.2MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 157f4ac64ea6
+ ---> f9dbbddda761
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a1ecb5d76b37
-Removing intermediate container a1ecb5d76b37
- ---> 15704df011d6
-Successfully built 15704df011d6
+ ---> Running in 8277ce6f0326
+Removing intermediate container 8277ce6f0326
+ ---> fbc5c775dd82
+Successfully built fbc5c775dd82
 Successfully tagged minimum2scp/debian:latest
