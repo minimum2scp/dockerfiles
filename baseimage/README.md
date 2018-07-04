@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-3+b1                  amd64  ICMP echo tool
 ii   init-system-helpers     1.51                          all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.16.0-4                      amd64  networking and traffic control tools
+ii   iproute2                4.17.0-2                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                   amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.2                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
@@ -180,13 +180,14 @@ ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-si
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.1.0-9                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-3                         amd64  systemd utility library
+ii   libsystemd0             239-4                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-3                         amd64  libudev shared library
+ii   libudev1                239-4                         amd64  libudev shared library
 ii   libunistring2           0.9.8-1                       amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
+ii   libxtables12            1.6.2-1                       amd64  netfilter xtables library
 ii   libzstd1                1.3.4+dfsg-3                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-3                        all    GNU C Library: National Language (locale) data [support]
