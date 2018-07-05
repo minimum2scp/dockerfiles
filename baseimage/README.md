@@ -82,7 +82,7 @@ ii   debian-archive-keyring  2017.7                        all    GnuPG archive 
 ii   debianutils             4.8.6                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                       amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1                   amd64  Debian package management system
-ii   e2fsprogs               1.44.2-1                      amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.3~rc2-1                  amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
@@ -113,7 +113,7 @@ ii   libc6                   2.27-3                        amd64  GNU C Library:
 ii   libcap-ng0              0.7.9-1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.2-1                      amd64  common error description library
+ii   libcom-err2             1.44.3~rc2-1                  amd64  common error description library
 ii   libcurl3-gnutls         7.60.0-2                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.60.0-2                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28-13.1+b1                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,7 +123,7 @@ ii   libelf1                 0.170-0.5                     amd64  library to rea
 ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                       amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.44.2-1                      amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.3~rc2-1                  amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
@@ -175,15 +175,15 @@ ii   libsemanage1            2.8-1+b1                      amd64  SELinux policy
 ii   libsepol1               2.8-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.32-0.1                      amd64  smart column output alignment library
-ii   libss2                  1.44.2-1                      amd64  command-line interface parsing library
+ii   libss2                  1.44.3~rc2-1                  amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.1.0-9                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-4                         amd64  systemd utility library
+ii   libsystemd0             239-5                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-4                         amd64  libudev shared library
+ii   libudev1                239-5                         amd64  libudev shared library
 ii   libunistring2           0.9.8-1                       amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
@@ -211,7 +211,7 @@ ii   perl-base               5.26.2-6                      amd64  minimal Perl s
 ii   perl-modules-5.26       5.26.2-6                      all    Core Perl modules
 ii   procps                  2:3.3.15-2                    amd64  /proc file system utilities
 ii   rsyslog                 8.36.0-1                      amd64  reliable system and kernel logging daemon
-ii   sed                     4.4-2                         amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.5-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                        amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.23-1                      amd64  Provide limited super user privileges to specific users
