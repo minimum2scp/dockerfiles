@@ -47,14 +47,14 @@ I: Retrieving diffutils 1:3.6-1
 I: Validating diffutils 1:3.6-1
 I: Retrieving dpkg 1.19.0.5+b1
 I: Validating dpkg 1.19.0.5+b1
-I: Retrieving e2fsprogs 1.44.2-1
-I: Validating e2fsprogs 1.44.2-1
-I: Retrieving libcom-err2 1.44.2-1
-I: Validating libcom-err2 1.44.2-1
-I: Retrieving libext2fs2 1.44.2-1
-I: Validating libext2fs2 1.44.2-1
-I: Retrieving libss2 1.44.2-1
-I: Validating libss2 1.44.2-1
+I: Retrieving e2fsprogs 1.44.3~rc2-1
+I: Validating e2fsprogs 1.44.3~rc2-1
+I: Retrieving libcom-err2 1.44.3~rc2-1
+I: Validating libcom-err2 1.44.3~rc2-1
+I: Retrieving libext2fs2 1.44.3~rc2-1
+I: Validating libext2fs2 1.44.3~rc2-1
+I: Retrieving libss2 1.44.3~rc2-1
+I: Validating libss2 1.44.3~rc2-1
 I: Retrieving libelf1 0.170-0.5
 I: Validating libelf1 0.170-0.5
 I: Retrieving findutils 4.6.0+git+20171230-2
@@ -153,16 +153,16 @@ I: Retrieving libpcre3 2:8.39-9
 I: Validating libpcre3 2:8.39-9
 I: Retrieving perl-base 5.26.2-6
 I: Validating perl-base 5.26.2-6
-I: Retrieving sed 4.4-2
-I: Validating sed 4.4-2
+I: Retrieving sed 4.5-1
+I: Validating sed 4.5-1
 I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 239-4
-I: Validating libsystemd0 239-4
-I: Retrieving libudev1 239-4
-I: Validating libudev1 239-4
+I: Retrieving libsystemd0 239-5
+I: Validating libsystemd0 239-5
+I: Retrieving libudev1 239-5
+I: Validating libudev1 239-5
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.30+dfsg-2
@@ -471,20 +471,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [247 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.8 MB]
-Fetched 11.1 MB in 4s (3022 kB/s)
+Fetched 11.1 MB in 3s (3348 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.2MB
+Sending build context to Docker daemon  29.22MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f9dbbddda761
+ ---> 3502cc0706b1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 8277ce6f0326
-Removing intermediate container 8277ce6f0326
- ---> fbc5c775dd82
-Successfully built fbc5c775dd82
+ ---> Running in 62e30527bd23
+Removing intermediate container 62e30527bd23
+ ---> c7288cc7573d
+Successfully built c7288cc7573d
 Successfully tagged minimum2scp/debian:latest
