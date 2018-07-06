@@ -8,216 +8,126 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Found additional required dependencies:  acl adduser dmsetup insserv libaudit-common libaudit1 libbz2-1.0 libcap2 libcap2-bin libcryptsetup4 libdb5.3 libdebconfclient0 libdevmapper1.02.1 libgcrypt20 libgpg-error0 libkmod2 libncursesw5 libprocps3 libsemanage-common libsemanage1 libslang2 libsystemd0 libudev1 libustr-1.0-1 procps systemd systemd-sysv udev 
-I: Found additional base dependencies: debian-archive-keyring gnupg gpgv libapt-pkg4.12 libreadline6 libstdc++6 libusb-0.1-4 netbase readline-common 
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving acl 2.2.52-2
 I: Validating acl 2.2.52-2
-I: Retrieving libacl1 2.2.52-2
 I: Validating libacl1 2.2.52-2
-I: Retrieving adduser 3.113+nmu3
 I: Validating adduser 3.113+nmu3
-I: Retrieving apt 1.0.9.8.4
 I: Validating apt 1.0.9.8.4
-I: Retrieving libapt-pkg4.12 1.0.9.8.4
 I: Validating libapt-pkg4.12 1.0.9.8.4
-I: Retrieving libattr1 1:2.4.47-2
 I: Validating libattr1 1:2.4.47-2
-I: Retrieving libaudit-common 1:2.4-1
 I: Validating libaudit-common 1:2.4-1
-I: Retrieving libaudit1 1:2.4-1+b1
 I: Validating libaudit1 1:2.4-1+b1
-I: Retrieving base-files 8+deb8u10
-I: Validating base-files 8+deb8u10
-I: Retrieving base-passwd 3.5.37
+I: Retrieving base-files 8+deb8u11
+I: Validating base-files 8+deb8u11
 I: Validating base-passwd 3.5.37
-I: Retrieving bash 4.3-11+deb8u1
 I: Validating bash 4.3-11+deb8u1
-I: Retrieving libbz2-1.0 1.0.6-7+b3
 I: Validating libbz2-1.0 1.0.6-7+b3
-I: Retrieving libdebconfclient0 0.192
 I: Validating libdebconfclient0 0.192
-I: Retrieving coreutils 8.23-4
 I: Validating coreutils 8.23-4
-I: Retrieving libcryptsetup4 2:1.6.6-5
 I: Validating libcryptsetup4 2:1.6.6-5
-I: Retrieving dash 0.5.7-4+b1
 I: Validating dash 0.5.7-4+b1
-I: Retrieving libdb5.3 5.3.28-9+deb8u1
 I: Validating libdb5.3 5.3.28-9+deb8u1
-I: Retrieving debconf 1.5.56+deb8u1
 I: Validating debconf 1.5.56+deb8u1
-I: Retrieving debconf-i18n 1.5.56+deb8u1
 I: Validating debconf-i18n 1.5.56+deb8u1
-I: Retrieving debian-archive-keyring 2017.5~deb8u1
 I: Validating debian-archive-keyring 2017.5~deb8u1
-I: Retrieving debianutils 4.4+b1
 I: Validating debianutils 4.4+b1
-I: Retrieving diffutils 1:3.3-1+b1
 I: Validating diffutils 1:3.3-1+b1
-I: Retrieving dpkg 1.17.27
 I: Validating dpkg 1.17.27
-I: Retrieving e2fslibs 1.42.12-2+b1
 I: Validating e2fslibs 1.42.12-2+b1
-I: Retrieving e2fsprogs 1.42.12-2+b1
 I: Validating e2fsprogs 1.42.12-2+b1
-I: Retrieving libcomerr2 1.42.12-2+b1
 I: Validating libcomerr2 1.42.12-2+b1
-I: Retrieving libss2 1.42.12-2+b1
 I: Validating libss2 1.42.12-2+b1
-I: Retrieving findutils 4.4.2-9+b1
 I: Validating findutils 4.4.2-9+b1
-I: Retrieving gcc-4.8-base 4.8.4-1
 I: Validating gcc-4.8-base 4.8.4-1
-I: Retrieving gcc-4.9-base 4.9.2-10
-I: Validating gcc-4.9-base 4.9.2-10
-I: Retrieving libgcc1 1:4.9.2-10
-I: Validating libgcc1 1:4.9.2-10
-I: Retrieving libstdc++6 4.9.2-10
-I: Validating libstdc++6 4.9.2-10
-I: Retrieving libc-bin 2.19-18+deb8u10
+I: Retrieving gcc-4.9-base 4.9.2-10+deb8u1
+I: Validating gcc-4.9-base 4.9.2-10+deb8u1
+I: Retrieving libgcc1 1:4.9.2-10+deb8u1
+I: Validating libgcc1 1:4.9.2-10+deb8u1
+I: Retrieving libstdc++6 4.9.2-10+deb8u1
+I: Validating libstdc++6 4.9.2-10+deb8u1
 I: Validating libc-bin 2.19-18+deb8u10
-I: Retrieving libc6 2.19-18+deb8u10
 I: Validating libc6 2.19-18+deb8u10
-I: Retrieving multiarch-support 2.19-18+deb8u10
 I: Validating multiarch-support 2.19-18+deb8u10
-I: Retrieving gnupg 1.4.18-7+deb8u4
-I: Validating gnupg 1.4.18-7+deb8u4
-I: Retrieving gpgv 1.4.18-7+deb8u4
-I: Validating gpgv 1.4.18-7+deb8u4
-I: Retrieving grep 2.20-4.1
+I: Retrieving gnupg 1.4.18-7+deb8u5
+I: Validating gnupg 1.4.18-7+deb8u5
+I: Retrieving gpgv 1.4.18-7+deb8u5
+I: Validating gpgv 1.4.18-7+deb8u5
 I: Validating grep 2.20-4.1
-I: Retrieving gzip 1.6-4
 I: Validating gzip 1.6-4
-I: Retrieving hostname 3.15
 I: Validating hostname 3.15
-I: Retrieving inetutils-ping 2:1.9.2.39.3a460-3
 I: Validating inetutils-ping 2:1.9.2.39.3a460-3
-I: Retrieving init 1.22
 I: Validating init 1.22
-I: Retrieving insserv 1.14.0-5
 I: Validating insserv 1.14.0-5
-I: Retrieving iproute2 3.16.0-2
 I: Validating iproute2 3.16.0-2
-I: Retrieving libkmod2 18-3
 I: Validating libkmod2 18-3
-I: Retrieving libcap2 1:2.24-8
 I: Validating libcap2 1:2.24-8
-I: Retrieving libcap2-bin 1:2.24-8
 I: Validating libcap2-bin 1:2.24-8
-I: Retrieving libgcrypt20 1.6.3-2+deb8u4
 I: Validating libgcrypt20 1.6.3-2+deb8u4
-I: Retrieving libgpg-error0 1.17-3
 I: Validating libgpg-error0 1.17-3
-I: Retrieving liblocale-gettext-perl 1.05-8+b1
 I: Validating liblocale-gettext-perl 1.05-8+b1
-I: Retrieving libselinux1 2.3-2
 I: Validating libselinux1 2.3-2
-I: Retrieving libsemanage-common 2.3-1
 I: Validating libsemanage-common 2.3-1
-I: Retrieving libsemanage1 2.3-1+b1
 I: Validating libsemanage1 2.3-1+b1
-I: Retrieving libsepol1 2.3-2
 I: Validating libsepol1 2.3-2
-I: Retrieving libtext-charwidth-perl 0.04-7+b3
 I: Validating libtext-charwidth-perl 0.04-7+b3
-I: Retrieving libtext-iconv-perl 1.7-5+b2
 I: Validating libtext-iconv-perl 1.7-5+b2
-I: Retrieving libtext-wrapi18n-perl 0.06-7
 I: Validating libtext-wrapi18n-perl 0.06-7
-I: Retrieving libusb-0.1-4 2:0.1.12-25
 I: Validating libusb-0.1-4 2:0.1.12-25
-I: Retrieving lsb-base 4.1+Debian13+nmu1
 I: Validating lsb-base 4.1+Debian13+nmu1
-I: Retrieving dmsetup 2:1.02.90-2.2+deb8u1
 I: Validating dmsetup 2:1.02.90-2.2+deb8u1
-I: Retrieving libdevmapper1.02.1 2:1.02.90-2.2+deb8u1
 I: Validating libdevmapper1.02.1 2:1.02.90-2.2+deb8u1
-I: Retrieving mawk 1.3.3-17
 I: Validating mawk 1.3.3-17
-I: Retrieving libncurses5 5.9+20140913-1+deb8u2
-I: Validating libncurses5 5.9+20140913-1+deb8u2
-I: Retrieving libncursesw5 5.9+20140913-1+deb8u2
-I: Validating libncursesw5 5.9+20140913-1+deb8u2
-I: Retrieving libtinfo5 5.9+20140913-1+deb8u2
-I: Validating libtinfo5 5.9+20140913-1+deb8u2
-I: Retrieving ncurses-base 5.9+20140913-1+deb8u2
-I: Validating ncurses-base 5.9+20140913-1+deb8u2
-I: Retrieving ncurses-bin 5.9+20140913-1+deb8u2
-I: Validating ncurses-bin 5.9+20140913-1+deb8u2
-I: Retrieving netbase 5.3
+I: Retrieving libncurses5 5.9+20140913-1+deb8u3
+I: Validating libncurses5 5.9+20140913-1+deb8u3
+I: Retrieving libncursesw5 5.9+20140913-1+deb8u3
+I: Validating libncursesw5 5.9+20140913-1+deb8u3
+I: Retrieving libtinfo5 5.9+20140913-1+deb8u3
+I: Validating libtinfo5 5.9+20140913-1+deb8u3
+I: Retrieving ncurses-base 5.9+20140913-1+deb8u3
+I: Validating ncurses-base 5.9+20140913-1+deb8u3
+I: Retrieving ncurses-bin 5.9+20140913-1+deb8u3
+I: Validating ncurses-bin 5.9+20140913-1+deb8u3
 I: Validating netbase 5.3
-I: Retrieving libpam-modules 1.1.8-3.1+deb8u2+b1
 I: Validating libpam-modules 1.1.8-3.1+deb8u2+b1
-I: Retrieving libpam-modules-bin 1.1.8-3.1+deb8u2+b1
 I: Validating libpam-modules-bin 1.1.8-3.1+deb8u2+b1
-I: Retrieving libpam-runtime 1.1.8-3.1+deb8u2
 I: Validating libpam-runtime 1.1.8-3.1+deb8u2
-I: Retrieving libpam0g 1.1.8-3.1+deb8u2+b1
 I: Validating libpam0g 1.1.8-3.1+deb8u2+b1
-I: Retrieving libpcre3 2:8.35-3.3+deb8u4
 I: Validating libpcre3 2:8.35-3.3+deb8u4
-I: Retrieving perl-base 5.20.2-3+deb8u9
-I: Validating perl-base 5.20.2-3+deb8u9
-I: Retrieving libprocps3 2:3.3.9-9
-I: Validating libprocps3 2:3.3.9-9
-I: Retrieving procps 2:3.3.9-9
-I: Validating procps 2:3.3.9-9
-I: Retrieving libreadline6 6.3-8+b3
+I: Retrieving perl-base 5.20.2-3+deb8u11
+I: Validating perl-base 5.20.2-3+deb8u11
+I: Retrieving libprocps3 2:3.3.9-9+deb8u1
+I: Validating libprocps3 2:3.3.9-9+deb8u1
+I: Retrieving procps 2:3.3.9-9+deb8u1
+I: Validating procps 2:3.3.9-9+deb8u1
 I: Validating libreadline6 6.3-8+b3
-I: Retrieving readline-common 6.3-8
 I: Validating readline-common 6.3-8
-I: Retrieving sed 4.2.2-4+deb8u1
 I: Validating sed 4.2.2-4+deb8u1
-I: Retrieving sensible-utils 0.0.9
-I: Validating sensible-utils 0.0.9
-I: Retrieving login 1:4.2-3+deb8u4
+I: Retrieving sensible-utils 0.0.9+deb8u1
+I: Validating sensible-utils 0.0.9+deb8u1
 I: Validating login 1:4.2-3+deb8u4
-I: Retrieving passwd 1:4.2-3+deb8u4
 I: Validating passwd 1:4.2-3+deb8u4
-I: Retrieving libslang2 2.3.0-2
 I: Validating libslang2 2.3.0-2
-I: Retrieving startpar 0.59-3
 I: Validating startpar 0.59-3
-I: Retrieving libsystemd0 215-17+deb8u7
 I: Validating libsystemd0 215-17+deb8u7
-I: Retrieving libudev1 215-17+deb8u7
 I: Validating libudev1 215-17+deb8u7
-I: Retrieving systemd 215-17+deb8u7
 I: Validating systemd 215-17+deb8u7
-I: Retrieving systemd-sysv 215-17+deb8u7
 I: Validating systemd-sysv 215-17+deb8u7
-I: Retrieving udev 215-17+deb8u7
 I: Validating udev 215-17+deb8u7
-I: Retrieving initscripts 2.88dsf-59
 I: Validating initscripts 2.88dsf-59
-I: Retrieving sysv-rc 2.88dsf-59
 I: Validating sysv-rc 2.88dsf-59
-I: Retrieving sysvinit-utils 2.88dsf-59
 I: Validating sysvinit-utils 2.88dsf-59
-I: Retrieving tar 1.27.1-2+deb8u1
 I: Validating tar 1.27.1-2+deb8u1
-I: Retrieving tzdata 2017c-0+deb8u1
-I: Validating tzdata 2017c-0+deb8u1
-I: Retrieving libustr-1.0-1 1.0.4-3+b2
+I: Retrieving tzdata 2018e-0+deb8u1
+I: Validating tzdata 2018e-0+deb8u1
 I: Validating libustr-1.0-1 1.0.4-3+b2
-I: Retrieving bsdutils 1:2.25.2-6
 I: Validating bsdutils 1:2.25.2-6
-I: Retrieving libblkid1 2.25.2-6
 I: Validating libblkid1 2.25.2-6
-I: Retrieving libmount1 2.25.2-6
 I: Validating libmount1 2.25.2-6
-I: Retrieving libsmartcols1 2.25.2-6
 I: Validating libsmartcols1 2.25.2-6
-I: Retrieving libuuid1 2.25.2-6
 I: Validating libuuid1 2.25.2-6
-I: Retrieving mount 2.25.2-6
 I: Validating mount 2.25.2-6
-I: Retrieving util-linux 2.25.2-6
 I: Validating util-linux 2.25.2-6
-I: Retrieving liblzma5 5.1.1alpha+20120614-2+b3
 I: Validating liblzma5 5.1.1alpha+20120614-2+b3
-I: Retrieving zlib1g 1:1.2.8.dfsg-2+b1
 I: Validating zlib1g 1:1.2.8.dfsg-2+b1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting acl...
@@ -530,76 +440,37 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://security.debian.org jessie/updates InRelease [94.4 kB]
+Get:1 http://security.debian.org jessie/updates InRelease [44.9 kB]
 Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.0 kB]
-Hit http://ftp.jp.debian.org jessie Release
-Get:4 http://security.debian.org jessie/updates/main amd64 Packages [623 kB]
-Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9064 kB]
-Fetched 9949 kB in 2s (3829 kB/s)
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [592 kB]
+Get:4 http://ftp.jp.debian.org jessie Release.gpg [2420 B]
+Get:5 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.0 kB]
+Get:6 http://ftp.jp.debian.org jessie Release [148 kB]
+Get:7 http://ftp.jp.debian.org jessie/main amd64 Packages [9098 kB]
+Fetched 10.1 MB in 1s (5253 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  gcc-4.9-base libgcc1 libprocps3 libstdc++6 perl-base procps sensible-utils
-  tzdata
-8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2237 kB of archives.
-After this operation, 120 kB disk space will be freed.
-Get:1 http://ftp.jp.debian.org/debian/ jessie-updates/main tzdata all 2018e-0+deb8u1 [233 kB]
-Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u10 [1228 kB]
-Get:3 http://security.debian.org/ jessie/updates/main libprocps3 amd64 2:3.3.9-9+deb8u1 [56.7 kB]
-Get:4 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u1 [160 kB]
-Get:5 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u1 [273 kB]
-Get:6 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u1 [39.5 kB]
-Get:7 http://security.debian.org/ jessie/updates/main procps amd64 2:3.3.9-9+deb8u1 [236 kB]
-Get:8 http://security.debian.org/ jessie/updates/main sensible-utils all 0.0.9+deb8u1 [10.9 kB]
-Fetched 2237 kB in 0s (2325 kB/s)
+  libgcrypt20
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 394 kB of archives.
+After this operation, 36.9 kB of additional disk space will be used.
+Get:1 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u5 [394 kB]
+Fetched 394 kB in 0s (1161 kB/s)
 (Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../perl-base_5.20.2-3+deb8u10_amd64.deb ...
-Unpacking perl-base (5.20.2-3+deb8u10) over (5.20.2-3+deb8u9) ...
-Setting up perl-base (5.20.2-3+deb8u10) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../libprocps3_2%3a3.3.9-9+deb8u1_amd64.deb ...
-Unpacking libprocps3:amd64 (2:3.3.9-9+deb8u1) over (2:3.3.9-9) ...
-Setting up libprocps3:amd64 (2:3.3.9-9+deb8u1) ...
+Preparing to unpack .../libgcrypt20_1.6.3-2+deb8u5_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.3-2+deb8u5) over (1.6.3-2+deb8u4) ...
+Setting up libgcrypt20:amd64 (1.6.3-2+deb8u5) ...
 Processing triggers for libc-bin (2.19-18+deb8u10) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../gcc-4.9-base_4.9.2-10+deb8u1_amd64.deb ...
-Unpacking gcc-4.9-base:amd64 (4.9.2-10+deb8u1) over (4.9.2-10) ...
-Setting up gcc-4.9-base:amd64 (4.9.2-10+deb8u1) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../libstdc++6_4.9.2-10+deb8u1_amd64.deb ...
-Unpacking libstdc++6:amd64 (4.9.2-10+deb8u1) over (4.9.2-10) ...
-Setting up libstdc++6:amd64 (4.9.2-10+deb8u1) ...
-Processing triggers for libc-bin (2.19-18+deb8u10) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../libgcc1_1%3a4.9.2-10+deb8u1_amd64.deb ...
-Unpacking libgcc1:amd64 (1:4.9.2-10+deb8u1) over (1:4.9.2-10) ...
-Setting up libgcc1:amd64 (1:4.9.2-10+deb8u1) ...
-Processing triggers for libc-bin (2.19-18+deb8u10) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../procps_2%3a3.3.9-9+deb8u1_amd64.deb ...
-Unpacking procps (2:3.3.9-9+deb8u1) over (2:3.3.9-9) ...
-Processing triggers for systemd (215-17+deb8u7) ...
-Setting up procps (2:3.3.9-9+deb8u1) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../sensible-utils_0.0.9+deb8u1_all.deb ...
-Unpacking sensible-utils (0.0.9+deb8u1) over (0.0.9) ...
-Setting up sensible-utils (0.0.9+deb8u1) ...
-(Reading database ... 7561 files and directories currently installed.)
-Preparing to unpack .../tzdata_2018e-0+deb8u1_all.deb ...
-Unpacking tzdata (2018e-0+deb8u1) over (2017c-0+deb8u1) ...
-Setting up tzdata (2018e-0+deb8u1) ...
-Sending build context to Docker daemon  30.12MB
+Sending build context to Docker daemon  30.13MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 22e279cc2b87
+ ---> afde0dfaf48a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in eaa7d6983b52
-Removing intermediate container eaa7d6983b52
- ---> e726e2c796b7
-Successfully built e726e2c796b7
+ ---> Running in fbd8ebc47383
+Removing intermediate container fbd8ebc47383
+ ---> 46fbb895d73c
+Successfully built 46fbb895d73c
 Successfully tagged minimum2scp/debian-jessie:latest
