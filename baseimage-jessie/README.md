@@ -68,7 +68,7 @@ installed packages:
 ii   acl                     2.2.52-2                          amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                        all    add and remove users and groups
 ii   apt                     1.0.9.8.4                         amd64  commandline package manager
-ii   base-files              8+deb8u10                         amd64  Debian base system miscellaneous files
+ii   base-files              8+deb8u11                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                            amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.6                             amd64  collection of more utilities from FreeBSD
@@ -93,8 +93,8 @@ ii   gcc-4.8-base            4.8.4-1                           amd64  GCC, the G
 ii   gcc-4.9-base            4.9.2-10+deb8u1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.1.4-2.1+deb8u6                amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.1.4-2.1+deb8u6                all    fast, scalable, distributed revision control system (manual pages)
-ii   gnupg                   1.4.18-7+deb8u4                   amd64  GNU privacy guard - a free PGP replacement
-ii   gpgv                    1.4.18-7+deb8u4                   amd64  GNU privacy guard - signature verification tool
+ii   gnupg                   1.4.18-7+deb8u5                   amd64  GNU privacy guard - a free PGP replacement
+ii   gpgv                    1.4.18-7+deb8u5                   amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.20-4.1                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.2-8                          amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-4                             amd64  GNU compression utilities
@@ -130,7 +130,7 @@ ii   libestr0                0.1.9-1.1                         amd64  Helper fun
 ii   libexpat1               2.1.0-6+deb8u4                    amd64  XML parsing C library - runtime library
 ii   libffi6                 3.1-2+deb8u1                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:4.9.2-10+deb8u1                 amd64  GCC support library
-ii   libgcrypt20             1.6.3-2+deb8u4                    amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.6.3-2+deb8u5                    amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
 ii   libgnutls-deb0-28       3.3.8-6+deb8u7                    amd64  GNU TLS library - main runtime library
@@ -144,14 +144,14 @@ ii   libkeyutils1            1.5.9-5+b1                        amd64  Linux Key 
 ii   libkmod2                18-3                              amd64  libkmod shared library
 ii   libkrb5-3               1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u3              amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u4              amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-8+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblogging-stdlog0      1.0.4-1                           amd64  easy to use and lightweight logging library
 ii   liblognorm1             1.0.1-3                           amd64  Log normalizing library
 ii   liblzma5                5.1.1alpha+20120614-2+b3          amd64  XZ-format compression library
 ii   libmount1               2.25.2-6                          amd64  device mounting library
-ii   libncurses5             5.9+20140913-1+deb8u2             amd64  shared libraries for terminal handling
-ii   libncursesw5            5.9+20140913-1+deb8u2             amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses5             5.9+20140913-1+deb8u3             amd64  shared libraries for terminal handling
+ii   libncursesw5            5.9+20140913-1+deb8u3             amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle4              2.7.1-5+deb8u2                    amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.17-1+b1                      amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libp11-kit0             0.20.7-1                          amd64  Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -182,7 +182,7 @@ ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                          amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
-ii   libtinfo5               5.9+20140913-1+deb8u2             amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo5               5.9+20140913-1+deb8u3             amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                215-17+deb8u7                     amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25                       amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                        amd64  Micro string library: shared library
@@ -197,8 +197,8 @@ ii   man-db                  2.7.0.2-5                         amd64  on-line ma
 ii   mawk                    1.3.3-17                          amd64  a pattern scanning and text processing language
 ii   mount                   2.25.2-6                          amd64  Tools for mounting and manipulating filesystems
 ii   multiarch-support       2.19-18+deb8u10                   amd64  Transitional package to ensure multiarch compatibility
-ii   ncurses-base            5.9+20140913-1+deb8u2             all    basic terminal type definitions
-ii   ncurses-bin             5.9+20140913-1+deb8u2             amd64  terminal-related programs and man pages
+ii   ncurses-base            5.9+20140913-1+deb8u3             all    basic terminal type definitions
+ii   ncurses-bin             5.9+20140913-1+deb8u3             amd64  terminal-related programs and man pages
 ii   net-tools               1.60-26+b1                        amd64  NET-3 networking toolkit
 ii   netbase                 5.3                               all    Basic TCP/IP networking system
 ii   openssh-client          1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) client, for secure access to remote machines
@@ -206,9 +206,9 @@ ii   openssh-server          1:6.7p1-5+deb8u4                  amd64  secure she
 ii   openssh-sftp-server     1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u8                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
-ii   perl                    5.20.2-3+deb8u10                  amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.20.2-3+deb8u10                  amd64  minimal Perl system
-ii   perl-modules            5.20.2-3+deb8u10                  all    Core Perl modules
+ii   perl                    5.20.2-3+deb8u11                  amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.20.2-3+deb8u11                  amd64  minimal Perl system
+ii   perl-modules            5.20.2-3+deb8u11                  all    Core Perl modules
 ii   procps                  2:3.3.9-9+deb8u1                  amd64  /proc file system utilities
 ii   readline-common         6.3-8                             all    GNU readline and history libraries, common files
 ii   rsyslog                 8.4.2-1+deb8u2                    amd64  reliable system and kernel logging daemon
@@ -229,6 +229,6 @@ ii   vim-common              2:7.4.488-7+deb8u3                amd64  Vi IMprove
 ii   vim-tiny                2:7.4.488-7+deb8u3                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.17-1+b1                      amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                  1:1.2.8.dfsg-2+b1                 amd64  compression library - runtime
-ii   zsh                     5.0.7-5                           amd64  shell with lots of features
+ii   zsh                     5.0.7-5+b1                        amd64  shell with lots of features
 ii   zsh-common              5.0.7-5                           all    architecture independent files for Zsh
 ```

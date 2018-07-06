@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8+deb8u10",
+    "Version": "8+deb8u11",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "8+deb8u10"
+    "source:Version": "8+deb8u11"
   },
   {
     "Architecture": "amd64",
@@ -801,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg-doc, libpcsclite1, parcimonie, xloadimage | imagemagick | eog",
-    "Version": "1.4.18-7+deb8u4",
+    "Version": "1.4.18-7+deb8u5",
     "binary:Package": "gnupg",
     "binary:Summary": "GNU privacy guard - a free PGP replacement",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.18-7+deb8u4"
+    "source:Version": "1.4.18-7+deb8u5"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "1.4.18-7+deb8u4",
+    "Version": "1.4.18-7+deb8u5",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg",
-    "source:Version": "1.4.18-7+deb8u4"
+    "source:Version": "1.4.18-7+deb8u5"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "998",
+    "Installed-Size": "1034",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "multiarch-support",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.6.3-2+deb8u4",
+    "Version": "1.6.3-2+deb8u5",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.6.3-2+deb8u4"
+    "source:Version": "1.6.3-2+deb8u5"
   },
   {
     "Architecture": "amd64",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.40+dfsg-1+deb8u3",
+    "Version": "2.4.40+dfsg-1+deb8u4",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.40+dfsg-1+deb8u3"
+    "source:Version": "2.4.40+dfsg-1+deb8u4"
   },
   {
     "Architecture": "amd64",
@@ -2383,7 +2383,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 5.9+20140913-1+deb8u2), libc6 (>= 2.15)",
+    "Depends": "libtinfo5 (= 5.9+20140913-1+deb8u3), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "270",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9+20140913-1+deb8u2",
+    "Version": "5.9+20140913-1+deb8u3",
     "binary:Package": "libncurses5:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2405,13 +2405,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "5.9+20140913-1+deb8u2"
+    "source:Version": "5.9+20140913-1+deb8u3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo5 (= 5.9+20140913-1+deb8u2), libc6 (>= 2.15)",
+    "Depends": "libtinfo5 (= 5.9+20140913-1+deb8u3), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "353",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9+20140913-1+deb8u2",
+    "Version": "5.9+20140913-1+deb8u3",
     "binary:Package": "libncursesw5:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "5.9+20140913-1+deb8u2"
+    "source:Version": "5.9+20140913-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9+20140913-1+deb8u2",
+    "Version": "5.9+20140913-1+deb8u3",
     "binary:Package": "libtinfo5:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "5.9+20140913-1+deb8u2"
+    "source:Version": "5.9+20140913-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9+20140913-1+deb8u2",
+    "Version": "5.9+20140913-1+deb8u3",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "5.9+20140913-1+deb8u2"
+    "source:Version": "5.9+20140913-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9+20140913-1+deb8u2",
+    "Version": "5.9+20140913-1+deb8u3",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "5.9+20140913-1+deb8u2"
+    "source:Version": "5.9+20140913-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -3951,10 +3951,10 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "dh-make-perl (<< 0.73-1), ftpmirror (<< 1.96+dfsg-13), libcompress-raw-bzip2-perl (<< 2.064), libcompress-raw-zlib-perl (<< 2.065), libcompress-zlib-perl (<< 2.064), libdigest-md5-perl (<< 2.53), libdigest-sha-perl (<< 5.88), libencode-perl (<< 2.63-1+deb8u1), libhtml-template-compiled-perl (<< 0.95-1), libio-compress-base-perl (<< 2.064), libio-compress-bzip2-perl (<< 2.064), libio-compress-perl (<< 2.064), libio-compress-zlib-perl (<< 2.064), libload-perl (<< 0.20-1), libmime-base64-perl (<< 3.14), libnet-jifty-perl (<< 0.14-1), libperl-apireference-perl (<< 0.09-1), libregexp-optimizer-perl (<< 0.15-3), libsoap-lite-perl (<< 0.712-4), libstorable-perl (<< 2.49.01), libsys-syslog-perl (<< 0.33), libthreads-perl (<< 1.93), libthreads-shared-perl (<< 1.46), libtime-hires-perl (<< 1.9726), libtime-piece-perl (<< 1.27), libxml-parser-lite-tree-perl (<< 0.14-1), libyaml-perl (<< 0.73-1), mrtg (<< 2.16.3-3.1), perl-doc (<< 5.20.2-1)",
-    "Depends": "perl-base (= 5.20.2-3+deb8u10), perl-modules (>= 5.20.2-3+deb8u10), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3)",
+    "Depends": "perl-base (= 5.20.2-3+deb8u11), perl-modules (>= 5.20.2-3+deb8u11), libbz2-1.0, libc6 (>= 2.14), libdb5.3, libgdbm3 (>= 1.8.3), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "17095",
+    "Installed-Size": "17585",
     "Origin": "",
     "Package": "perl",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -3965,7 +3965,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make",
-    "Version": "5.20.2-3+deb8u10",
+    "Version": "5.20.2-3+deb8u11",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.20.2-3+deb8u10"
+    "source:Version": "5.20.2-3+deb8u11"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4658",
+    "Installed-Size": "5102",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.14), dpkg (>= 1.17.17)",
@@ -3993,7 +3993,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl",
-    "Version": "5.20.2-3+deb8u10",
+    "Version": "5.20.2-3+deb8u11",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4001,16 +4001,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.20.2-3+deb8u10"
+    "source:Version": "5.20.2-3+deb8u11"
   },
   {
     "Architecture": "all",
     "Conflicts": "defoma (<< 0.11.12), mono-gac (<< 2.10.8.1-3)",
     "Breaks": "cli-common (<< 0.9+nmu1), libansicolor-perl (<< 4.02), libarchive-tar-perl (<< 1.96), libattribute-handlers-perl (<< 0.96), libautodie-perl (<< 2.23), libcgi-pm-perl (<< 3.65), libcpan-meta-perl (<< 2.140640), libcpan-meta-requirements-perl (<< 2.125), libcpan-meta-yaml-perl (<< 0.012), libdigest-perl (<< 1.17), libexperimental-perl (<< 0.007), libextutils-cbuilder-perl (<< 0.280217), libextutils-command-perl (<< 1.18), libextutils-install-perl (<< 1.67), libextutils-parsexs-perl (<< 3.240000), libfile-spec-perl (<< 3.4801), libhttp-tiny-perl (<< 0.043), libi18n-langtags-perl (<< 0.40), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 2.27203), liblocale-codes-perl (<< 3.30), liblocale-maketext-perl (<< 1.25), liblocale-maketext-simple-perl (<< 0.21), libmath-bigint-perl (<< 1.9993), libmath-complex-perl (<< 1.59), libmodule-build-perl (<< 0.420500), libmodule-corelist-perl (<< 5.20150214), libmodule-load-conditional-perl (<< 0.62), libmodule-load-perl (<< 0.32), libmodule-metadata-perl (<< 1.000019), libnet-perl (<= 1:1.22), libnet-ping-perl (<< 2.43), libpackage-constants-perl (<< 0.04), libparams-check-perl (<< 0.38), libparent-perl (<< 0.228), libparse-cpan-meta-perl (<< 1.4414), libperl-ostype-perl (<< 1.007), libpod-escapes-perl (<< 1.06), libpod-parser-perl (<< 1.62), libpod-simple-perl (<< 3.28), libtest-harness-perl (<< 3.30), libtest-simple-perl (<< 1.001002), libthread-queue-perl (<< 3.05), libtime-local-perl (<< 1.2300), libunicode-collate-perl (<< 1.04), libversion-perl (<< 1:0.9909), libversion-requirements-perl (<< 0.101022), mono-apache-server2 (<< 3.8-2.1), mono-apache-server4 (<< 3.8-2.1), mono-fastcgi-server2 (<< 3.8-2.1), mono-fastcgi-server4 (<< 3.8-2.1), patcher (<< 0.0.20040521-6.1), pdl (<< 1:2.007-4), perl (<< 5.20.2~), podlators-perl (<< 2.3.1), polygen-data (<< 1.0.6.ds2-13.1), pristine-tar (<< 1.33), pure-ftpd-common (<< 1.0.36-3.2), rinse (<< 3.0.7), shorewall (<< 4.6.4.3-2), shorewall-core (<< 4.6.4.3-2), tvtime (<< 1.0.2-14)",
-    "Depends": "perl-base (>= 5.20.2-3+deb8u10)",
+    "Depends": "perl-base (>= 5.20.2-3+deb8u11)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "15108",
+    "Installed-Size": "15109",
     "Origin": "",
     "Package": "perl-modules",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -4021,7 +4021,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "libb-lint-perl, libcpanplus-dist-build-perl, libcpanplus-perl, libfile-checktree-perl, liblog-message-simple-perl, liblog-message-perl, libobject-accessor-perl",
-    "Version": "5.20.2-3+deb8u10",
+    "Version": "5.20.2-3+deb8u11",
     "binary:Package": "perl-modules",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.20.2-3+deb8u10"
+    "source:Version": "5.20.2-3+deb8u11"
   },
   {
     "Architecture": "amd64",
@@ -4598,18 +4598,18 @@
     "Depends": "zsh-common (= 5.0.7-5), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1976",
+    "Installed-Size": "1914",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "dpkg (>= 1.17.14)",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libncursesw5 (>= 5.6+20070908), libpcre3 (>= 8.35)",
+    "Recommends": "libncursesw5 (>= 5.6+20070908), libpcre3 (>= 1:8.35)",
     "Replace": "",
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.0.7-5",
+    "Version": "5.0.7-5+b1",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
