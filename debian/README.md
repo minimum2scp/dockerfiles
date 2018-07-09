@@ -96,7 +96,7 @@ ii   libsystemd0             239-5                 amd64  systemd utility librar
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                239-5                 amd64  libudev shared library
-ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
+ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1              amd64  Universally Unique ID library
 ii   libxtables12            1.6.2-1               amd64  netfilter xtables library
 ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compression algorithm
