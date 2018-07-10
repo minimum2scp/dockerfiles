@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.117                         all    add and remove users and groups
-ii   apt                     1.6.2                         amd64  commandline package manager
+ii   apt                     1.6.3                         amd64  commandline package manager
 ii   base-files              10.1                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                        amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1                    amd64  GNU Bourne Again SHell
@@ -82,7 +82,7 @@ ii   debian-archive-keyring  2017.7                        all    GnuPG archive 
 ii   debianutils             4.8.6                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                       amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1                   amd64  Debian package management system
-ii   e2fsprogs               1.44.3~rc2-1                  amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.3-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
@@ -100,7 +100,7 @@ ii   initscripts             2.88dsf-59.10                 amd64  scripts for in
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.17.0-2                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                   amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6.2                         amd64  package management runtime library
+ii   libapt-pkg5.0           1.6.3                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.3-1                     all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.3-1+b1                  amd64  Dynamic library for security auditing
@@ -113,7 +113,7 @@ ii   libc6                   2.27-4                        amd64  GNU C Library:
 ii   libcap-ng0              0.7.9-1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.3~rc2-1                  amd64  common error description library
+ii   libcom-err2             1.44.3-1                      amd64  common error description library
 ii   libcurl3-gnutls         7.60.0-2                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.60.0-2                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28-13.1+b1                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,7 +123,7 @@ ii   libelf1                 0.170-0.5                     amd64  library to rea
 ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.5-3                       amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.44.3~rc2-1                  amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.3-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
@@ -175,7 +175,7 @@ ii   libsemanage1            2.8-1+b1                      amd64  SELinux policy
 ii   libsepol1               2.8-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.32-0.1                      amd64  smart column output alignment library
-ii   libss2                  1.44.3~rc2-1                  amd64  command-line interface parsing library
+ii   libss2                  1.44.3-1                      amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
