@@ -11,10 +11,10 @@ I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
 I: Retrieving adduser 3.117
 I: Validating adduser 3.117
-I: Retrieving apt 1.6.2
-I: Validating apt 1.6.2
-I: Retrieving libapt-pkg5.0 1.6.2
-I: Validating libapt-pkg5.0 1.6.2
+I: Retrieving apt 1.6.3
+I: Validating apt 1.6.3
+I: Retrieving libapt-pkg5.0 1.6.3
+I: Validating libapt-pkg5.0 1.6.3
 I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Retrieving libaudit-common 1:2.8.3-1
@@ -47,14 +47,14 @@ I: Retrieving diffutils 1:3.6-1
 I: Validating diffutils 1:3.6-1
 I: Retrieving dpkg 1.19.0.5+b1
 I: Validating dpkg 1.19.0.5+b1
-I: Retrieving e2fsprogs 1.44.3~rc2-1
-I: Validating e2fsprogs 1.44.3~rc2-1
-I: Retrieving libcom-err2 1.44.3~rc2-1
-I: Validating libcom-err2 1.44.3~rc2-1
-I: Retrieving libext2fs2 1.44.3~rc2-1
-I: Validating libext2fs2 1.44.3~rc2-1
-I: Retrieving libss2 1.44.3~rc2-1
-I: Validating libss2 1.44.3~rc2-1
+I: Retrieving e2fsprogs 1.44.3-1
+I: Validating e2fsprogs 1.44.3-1
+I: Retrieving libcom-err2 1.44.3-1
+I: Validating libcom-err2 1.44.3-1
+I: Retrieving libext2fs2 1.44.3-1
+I: Validating libext2fs2 1.44.3-1
+I: Retrieving libss2 1.44.3-1
+I: Validating libss2 1.44.3-1
 I: Retrieving libelf1 0.170-0.5
 I: Validating libelf1 0.170-0.5
 I: Retrieving findutils 4.6.0+git+20171230-2
@@ -470,21 +470,21 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.8 MB]
-Fetched 11.1 MB in 4s (3143 kB/s)
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
+Fetched 11.1 MB in 5s (2366 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.24MB
+Sending build context to Docker daemon  29.23MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 88814f0432c6
+ ---> ea322ed03d71
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 364f25cf0718
-Removing intermediate container 364f25cf0718
- ---> 489f935f1870
-Successfully built 489f935f1870
+ ---> Running in fe41e3e34478
+Removing intermediate container fe41e3e34478
+ ---> 4d8b05a253ed
+Successfully built 4d8b05a253ed
 Successfully tagged minimum2scp/debian:latest
