@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.117                 all    add and remove users and groups
-ii   apt                     1.6.2                 amd64  commandline package manager
+ii   apt                     1.6.3                 amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
@@ -35,7 +35,7 @@ ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of 
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1           amd64  Debian package management system
-ii   e2fsprogs               1.44.3~rc2-1          amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.32-0.1              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.1.0-9               amd64  GCC, the GNU Compiler Collection (base package)
@@ -47,22 +47,22 @@ ii   inetutils-ping          2:1.9.4-3+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.51                  all    helper tools for all init systems
 ii   iproute2                4.17.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6.2                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.6.3                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.3-1             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.3-1+b1          amd64  Dynamic library for security auditing
 ii   libblkid1               2.32-0.1              amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.27-3                amd64  GNU C Library: Binaries
-ii   libc6                   2.27-3                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.27-4                amd64  GNU C Library: Binaries
+ii   libc6                   2.27-4                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.3~rc2-1          amd64  common error description library
+ii   libcom-err2             1.44.3-1              amd64  common error description library
 ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.243                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.5             amd64  library to read and write ELF files
-ii   libext2fs2              1.44.3~rc2-1          amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.3-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.32-0.1              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.1.0-9             amd64  GCC support library
@@ -90,13 +90,13 @@ ii   libsemanage-common      2.8-1                 all    Common files for SELin
 ii   libsemanage1            2.8-1+b1              amd64  SELinux policy management library
 ii   libsepol1               2.8-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.32-0.1              amd64  smart column output alignment library
-ii   libss2                  1.44.3~rc2-1          amd64  command-line interface parsing library
+ii   libss2                  1.44.3-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.1.0-9               amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-5                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180210-4        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                239-5                 amd64  libudev shared library
-ii   libunistring2           0.9.8-1               amd64  Unicode string library for C
+ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1              amd64  Universally Unique ID library
 ii   libxtables12            1.6.2-1               amd64  netfilter xtables library
 ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compression algorithm
