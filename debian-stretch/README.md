@@ -24,7 +24,7 @@ installed packages:
 ```
 ii   adduser                 3.115                  all    add and remove users and groups
 ii   apt                     1.4.8                  amd64  commandline package manager
-ii   base-files              9.9+deb9u4             amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u5             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                 amd64  Debian base system master password and group files
 ii   bash                    4.4-5                  amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-1+deb9u1      amd64  basic utilities from 4.4BSD-Lite
@@ -34,7 +34,7 @@ ii   debconf                 1.5.61                 all    Debian configuration 
 ii   debian-archive-keyring  2017.5                 all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1                amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                amd64  File comparison utilities
-ii   dpkg                    1.18.24                amd64  Debian package management system
+ii   dpkg                    1.18.25                amd64  Debian package management system
 ii   e2fslibs                1.43.4-2               amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2               amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2   amd64  utilities for finding files--find, xargs
@@ -81,9 +81,9 @@ ii   libsepol1               2.6-2                  amd64  SELinux library for m
 ii   libsmartcols1           2.29.2-1+deb9u1        amd64  smart column output alignment library
 ii   libss2                  1.43.4-2               amd64  command-line interface parsing library
 ii   libstdc++6              6.3.0-18+deb9u1        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-25+deb9u3          amd64  systemd utility library
+ii   libsystemd0             232-25+deb9u4          amd64  systemd utility library
 ii   libtinfo5               6.0+20161126-1+deb9u2  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-25+deb9u3          amd64  libudev shared library
+ii   libudev1                232-25+deb9u4          amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6                amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1        amd64  Universally Unique ID library
 ii   login                   1:4.4-4.1              amd64  system login tools
