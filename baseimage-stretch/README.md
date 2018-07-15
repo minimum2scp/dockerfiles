@@ -67,12 +67,12 @@ installed packages:
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
 ii   apt                     1.4.8                           amd64  commandline package manager
-ii   base-files              9.9+deb9u4                      amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u5                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1+deb9u1               amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20161130+nmu1                   all    Common CA certificates
+ii   ca-certificates         20161130+nmu1+deb9u1            all    Common CA certificates
 ii   coreutils               8.26-3                          amd64  GNU core utilities
 ii   cron                    3.0pl1-128+deb9u1               amd64  process scheduling daemon
 ii   curl                    7.52.1-5+deb9u6                 amd64  command line tool for transferring data with URL syntax
@@ -81,7 +81,7 @@ ii   debconf                 1.5.61                          all    Debian confi
 ii   debian-archive-keyring  2017.5                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                         amd64  File comparison utilities
-ii   dpkg                    1.18.24                         amd64  Debian package management system
+ii   dpkg                    1.18.25                         amd64  Debian package management system
 ii   e2fslibs                1.43.4-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   e2fsprogs               1.43.4-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.5-1                        all    store /etc in git, mercurial, bzr or darcs
@@ -139,8 +139,8 @@ ii   libk5crypto3            1.15-1+deb9u1                   amd64  MIT Kerberos
 ii   libkeyutils1            1.5.9-9                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u1                   amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u1                   amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u1            amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u1            all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u2            amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u2            all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                      amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                    amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                   amd64  Fast LZ compression algorithm library - runtime
@@ -182,10 +182,10 @@ ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2+deb9u3                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3+deb9u2                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                 amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-25+deb9u3                   amd64  systemd utility library
+ii   libsystemd0             232-25+deb9u4                   amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                 amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1+deb9u2           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-25+deb9u3                   amd64  libudev shared library
+ii   libudev1                232-25+deb9u4                   amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1                 amd64  Universally Unique ID library

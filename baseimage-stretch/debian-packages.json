@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.9+deb9u4",
+    "Version": "9.9+deb9u5",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "9.9+deb9u4"
+    "source:Version": "9.9+deb9u5"
   },
   {
     "Architecture": "amd64",
@@ -202,7 +202,7 @@
     "Depends": "openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "468",
+    "Installed-Size": "434",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -213,7 +213,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20161130+nmu1",
+    "Version": "20161130+nmu1+deb9u1",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20161130+nmu1"
+    "source:Version": "20161130+nmu1+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -454,7 +454,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6745",
+    "Installed-Size": "6778",
     "Origin": "debian",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -465,7 +465,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.18.24",
+    "Version": "1.18.25",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.18.24"
+    "source:Version": "1.18.25"
   },
   {
     "Architecture": "amd64",
@@ -2075,7 +2075,7 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u1)",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "509",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u1",
+    "Version": "2.4.44+dfsg-5+deb9u2",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u1"
+    "source:Version": "2.4.44+dfsg-5+deb9u2"
   },
   {
     "Architecture": "all",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u1",
+    "Version": "2.4.44+dfsg-5+deb9u2",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u1"
+    "source:Version": "2.4.44+dfsg-5+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-25+deb9u3",
+    "Version": "232-25+deb9u4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-25+deb9u3"
+    "source:Version": "232-25+deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "232-25+deb9u3",
+    "Version": "232-25+deb9u4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "232-25+deb9u3"
+    "source:Version": "232-25+deb9u4"
   },
   {
     "Architecture": "amd64",
