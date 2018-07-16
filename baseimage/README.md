@@ -138,7 +138,7 @@ ii   libgssapi-krb5-2        1.16-2                        amd64  MIT Kerberos r
 ii   libhogweed4             3.4-1                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.4-1.1                     amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.16-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.5.9-9.2                     amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.5.9-9.3                     amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.16-2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.16-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.46+dfsg-5                 amd64  OpenLDAP libraries

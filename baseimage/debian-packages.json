@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "36",
+    "Installed-Size": "40",
     "Origin": "",
     "Package": "libkeyutils1",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.9-9.2",
+    "Version": "1.5.9-9.3",
     "binary:Package": "libkeyutils1:amd64",
     "binary:Summary": "Linux Key Management Utilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "keyutils",
-    "source:Version": "1.5.9-9.2"
+    "source:Version": "1.5.9-9.3"
   },
   {
     "Architecture": "amd64",
