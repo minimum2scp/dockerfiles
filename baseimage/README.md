@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.3-1                      amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32-0.1                      amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.1.0-10                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.1.0-11                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.18.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.18.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.8-3                       amd64  GNU privacy guard - signature verification tool
@@ -127,7 +127,7 @@ ii   libext2fs2              1.44.3-1                      amd64  ext2/ext3/ext4
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32-0.1                      amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.1.0-10                    amd64  GCC support library
+ii   libgcc1                 1:8.1.0-11                    amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6+b1                   amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                   amd64  GNU dbm database routines (runtime version) 
@@ -148,8 +148,8 @@ ii   liblz4-1                1.8.2-1                       amd64  Fast LZ compre
 ii   liblzma5                5.2.2-1.3                     amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.32-0.1                      amd64  device mounting library
-ii   libncurses6             6.1+20180210-4                amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20180210-4                amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20180714-1                amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20180714-1                amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-5                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.32.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
@@ -159,7 +159,7 @@ ii   libpam-modules-bin      1.1.8-3.7                     amd64  Pluggable Auth
 ii   libpam-runtime          1.1.8-3.7                     all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.7                     amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-9                      amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-10                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.2-6                      amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                       amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                       amd64  lib for parsing cmdline parameters
@@ -179,10 +179,10 @@ ii   libss2                  1.44.3-1                      amd64  command-line i
 ii   libssh2-1               1.8.0-1                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.1.0-10                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.1.0-11                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-5                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20180210-4                amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20180714-1                amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                239-5                         amd64  libudev shared library
 ii   libunistring2           0.9.10-1                      amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
@@ -197,8 +197,8 @@ ii   lv                      4.51-5+b1                     amd64  Powerful Multi
 ii   man-db                  2.8.3-2                       amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                   amd64  a pattern scanning and text processing language
 ii   mount                   2.32-0.1                      amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20180210-4                all    basic terminal type definitions
-ii   ncurses-bin             6.1+20180210-4                amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20180714-1                all    basic terminal type definitions
+ii   ncurses-bin             6.1+20180714-1                amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-2    amd64  NET-3 networking toolkit
 ii   netbase                 5.4                           all    Basic TCP/IP networking system
 ii   openssh-client          1:7.7p1-3                     amd64  secure shell (SSH) client, for secure access to remote machines
