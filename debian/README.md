@@ -38,7 +38,7 @@ ii   dpkg                    1.19.0.5+b1           amd64  Debian package managem
 ii   e2fsprogs               1.44.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.32-0.1              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2  amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.1.0-10              amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.1.0-11              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.8-3               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1              amd64  GNU compression utilities
@@ -65,7 +65,7 @@ ii   libelf1                 0.170-0.5             amd64  library to read and wr
 ii   libext2fs2              1.44.3-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.32-0.1              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.1.0-10            amd64  GCC support library
+ii   libgcc1                 1:8.1.0-11            amd64  GCC support library
 ii   libgcrypt20             1.8.3-1               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1              amd64  GNU TLS library - main runtime library
@@ -76,14 +76,14 @@ ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression al
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.32-0.1              amd64  device mounting library
-ii   libncursesw6            6.1+20180210-4        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6            6.1+20180714-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.12-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.7             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.7             all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.7             amd64  Pluggable Authentication Modules library
-ii   libpcre3                2:8.39-9              amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-10             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.3-3               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-1                 all    Common files for SELinux policy management libraries
@@ -91,10 +91,10 @@ ii   libsemanage1            2.8-1+b1              amd64  SELinux policy managem
 ii   libsepol1               2.8-1                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.32-0.1              amd64  smart column output alignment library
 ii   libss2                  1.44.3-1              amd64  command-line interface parsing library
-ii   libstdc++6              8.1.0-10              amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.1.0-11              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-5                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20180210-4        amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20180714-1        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                239-5                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1              amd64  Universally Unique ID library
@@ -103,8 +103,8 @@ ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compress
 ii   login                   1:4.5-1               amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.32-0.1              amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20180210-4        all    basic terminal type definitions
-ii   ncurses-bin             6.1+20180210-4        amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20180714-1        all    basic terminal type definitions
+ii   ncurses-bin             6.1+20180714-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.4                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1               amd64  change and administer password and group data
 ii   perl-base               5.26.2-6              amd64  minimal Perl system

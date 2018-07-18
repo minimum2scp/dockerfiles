@@ -59,12 +59,12 @@ I: Retrieving libelf1 0.170-0.5
 I: Validating libelf1 0.170-0.5
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8.1.0-10
-I: Validating gcc-8-base 8.1.0-10
-I: Retrieving libgcc1 1:8.1.0-10
-I: Validating libgcc1 1:8.1.0-10
-I: Retrieving libstdc++6 8.1.0-10
-I: Validating libstdc++6 8.1.0-10
+I: Retrieving gcc-8-base 8.1.0-11
+I: Validating gcc-8-base 8.1.0-11
+I: Retrieving libgcc1 1:8.1.0-11
+I: Validating libgcc1 1:8.1.0-11
+I: Retrieving libstdc++6 8.1.0-11
+I: Validating libstdc++6 8.1.0-11
 I: Retrieving libc-bin 2.27-5
 I: Validating libc-bin 2.27-5
 I: Retrieving libc6 2.27-5
@@ -125,14 +125,14 @@ I: Retrieving liblz4-1 1.8.2-1
 I: Validating liblz4-1 1.8.2-1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw6 6.1+20180210-4
-I: Validating libncursesw6 6.1+20180210-4
-I: Retrieving libtinfo6 6.1+20180210-4
-I: Validating libtinfo6 6.1+20180210-4
-I: Retrieving ncurses-base 6.1+20180210-4
-I: Validating ncurses-base 6.1+20180210-4
-I: Retrieving ncurses-bin 6.1+20180210-4
-I: Validating ncurses-bin 6.1+20180210-4
+I: Retrieving libncursesw6 6.1+20180714-1
+I: Validating libncursesw6 6.1+20180714-1
+I: Retrieving libtinfo6 6.1+20180714-1
+I: Validating libtinfo6 6.1+20180714-1
+I: Retrieving ncurses-base 6.1+20180714-1
+I: Validating ncurses-base 6.1+20180714-1
+I: Retrieving ncurses-bin 6.1+20180714-1
+I: Validating ncurses-bin 6.1+20180714-1
 I: Retrieving netbase 5.4
 I: Validating netbase 5.4
 I: Retrieving libhogweed4 3.4-1
@@ -149,8 +149,8 @@ I: Retrieving libpam-runtime 1.1.8-3.7
 I: Validating libpam-runtime 1.1.8-3.7
 I: Retrieving libpam0g 1.1.8-3.7
 I: Validating libpam0g 1.1.8-3.7
-I: Retrieving libpcre3 2:8.39-9
-I: Validating libpcre3 2:8.39-9
+I: Retrieving libpcre3 2:8.39-10
+I: Validating libpcre3 2:8.39-10
 I: Retrieving perl-base 5.26.2-6
 I: Validating perl-base 5.26.2-6
 I: Retrieving sed 4.5-1
@@ -471,7 +471,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.1 MB in 4s (3153 kB/s)
+Fetched 11.1 MB in 3s (4157 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -481,10 +481,10 @@ Sending build context to Docker daemon  29.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b2792c285ca1
+ ---> e7710f08c208
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c5dbdc4ad3e9
-Removing intermediate container c5dbdc4ad3e9
- ---> 7b73d278f0ed
-Successfully built 7b73d278f0ed
+ ---> Running in 25ee5dd72d14
+Removing intermediate container 25ee5dd72d14
+ ---> f567cdc33326
+Successfully built f567cdc33326
 Successfully tagged minimum2scp/debian:latest
