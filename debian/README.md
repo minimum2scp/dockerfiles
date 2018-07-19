@@ -30,7 +30,7 @@ ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.32-0.1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
-ii   debconf                 1.5.67                all    Debian configuration management system
+ii   debconf                 1.5.68                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
@@ -92,10 +92,10 @@ ii   libsepol1               2.8-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.32-0.1              amd64  smart column output alignment library
 ii   libss2                  1.44.3-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.1.0-11              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-5                 amd64  systemd utility library
+ii   libsystemd0             239-6                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180714-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-5                 amd64  libudev shared library
+ii   libudev1                239-6                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1              amd64  Universally Unique ID library
 ii   libxtables12            1.6.2-1               amd64  netfilter xtables library

@@ -37,8 +37,8 @@ I: Retrieving dash 0.5.8-2.10
 I: Validating dash 0.5.8-2.10
 I: Retrieving libdb5.3 5.3.28-13.1+b1
 I: Validating libdb5.3 5.3.28-13.1+b1
-I: Retrieving debconf 1.5.67
-I: Validating debconf 1.5.67
+I: Retrieving debconf 1.5.68
+I: Validating debconf 1.5.68
 I: Retrieving debian-archive-keyring 2017.7
 I: Validating debian-archive-keyring 2017.7
 I: Retrieving debianutils 4.8.6
@@ -159,10 +159,10 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 239-5
-I: Validating libsystemd0 239-5
-I: Retrieving libudev1 239-5
-I: Validating libudev1 239-5
+I: Retrieving libsystemd0 239-6
+I: Validating libsystemd0 239-6
+I: Retrieving libudev1 239-6
+I: Validating libudev1 239-6
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.30+dfsg-2
@@ -471,20 +471,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.1 MB in 3s (4157 kB/s)
+Fetched 11.1 MB in 3s (4305 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.25MB
+Sending build context to Docker daemon  29.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e7710f08c208
+ ---> f16775a71e06
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 25ee5dd72d14
-Removing intermediate container 25ee5dd72d14
- ---> f567cdc33326
-Successfully built f567cdc33326
+ ---> Running in 3af95dc5a1af
+Removing intermediate container 3af95dc5a1af
+ ---> bc92e32ee773
+Successfully built bc92e32ee773
 Successfully tagged minimum2scp/debian:latest
