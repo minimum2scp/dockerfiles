@@ -59,12 +59,12 @@ I: Retrieving libelf1 0.170-0.5
 I: Validating libelf1 0.170-0.5
 I: Retrieving findutils 4.6.0+git+20171230-2
 I: Validating findutils 4.6.0+git+20171230-2
-I: Retrieving gcc-8-base 8.1.0-11
-I: Validating gcc-8-base 8.1.0-11
-I: Retrieving libgcc1 1:8.1.0-11
-I: Validating libgcc1 1:8.1.0-11
-I: Retrieving libstdc++6 8.1.0-11
-I: Validating libstdc++6 8.1.0-11
+I: Retrieving gcc-8-base 8.1.0-12
+I: Validating gcc-8-base 8.1.0-12
+I: Retrieving libgcc1 1:8.1.0-12
+I: Validating libgcc1 1:8.1.0-12
+I: Retrieving libstdc++6 8.1.0-12
+I: Validating libstdc++6 8.1.0-12
 I: Retrieving libc-bin 2.27-5
 I: Validating libc-bin 2.27-5
 I: Retrieving libc6 2.27-5
@@ -471,7 +471,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.1 MB in 3s (4305 kB/s)
+Fetched 11.1 MB in 2s (4692 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -481,10 +481,10 @@ Sending build context to Docker daemon  29.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f16775a71e06
+ ---> a485db3701e8
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3af95dc5a1af
-Removing intermediate container 3af95dc5a1af
- ---> bc92e32ee773
-Successfully built bc92e32ee773
+ ---> Running in c4d3ab3dda5b
+Removing intermediate container c4d3ab3dda5b
+ ---> d8d1038ac364
+Successfully built d8d1038ac364
 Successfully tagged minimum2scp/debian:latest
