@@ -71,8 +71,8 @@ I: Retrieving libc6 2.27-5
 I: Validating libc6 2.27-5
 I: Retrieving libgmp10 2:6.1.2+dfsg-3
 I: Validating libgmp10 2:6.1.2+dfsg-3
-I: Retrieving gpgv 2.2.8-3
-I: Validating gpgv 2.2.8-3
+I: Retrieving gpgv 2.2.9-1
+I: Validating gpgv 2.2.9-1
 I: Retrieving libgnutls30 3.5.19-1
 I: Validating libgnutls30 3.5.19-1
 I: Retrieving grep 3.1-2
@@ -159,10 +159,10 @@ I: Retrieving login 1:4.5-1
 I: Validating login 1:4.5-1
 I: Retrieving passwd 1:4.5-1
 I: Validating passwd 1:4.5-1
-I: Retrieving libsystemd0 239-6
-I: Validating libsystemd0 239-6
-I: Retrieving libudev1 239-6
-I: Validating libudev1 239-6
+I: Retrieving libsystemd0 239-7
+I: Validating libsystemd0 239-7
+I: Retrieving libudev1 239-7
+I: Validating libudev1 239-7
 I: Retrieving sysvinit-utils 2.88dsf-59.10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Retrieving tar 1.30+dfsg-2
@@ -471,20 +471,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.1 MB in 2s (4692 kB/s)
+Fetched 11.1 MB in 3s (3230 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.24MB
+Sending build context to Docker daemon  29.26MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a485db3701e8
+ ---> 9079b6401f51
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c4d3ab3dda5b
-Removing intermediate container c4d3ab3dda5b
- ---> d8d1038ac364
-Successfully built d8d1038ac364
+ ---> Running in 03773cf078aa
+Removing intermediate container 03773cf078aa
+ ---> 4cba6c5515d0
+Successfully built 4cba6c5515d0
 Successfully tagged minimum2scp/debian:latest
