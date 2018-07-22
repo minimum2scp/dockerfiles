@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20171230-2          amd64  utilities for 
 ii   gcc-8-base              8.1.0-12                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.18.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.18.0-1                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.8-3                       amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.9-1                       amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                         amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                      amd64  GNU compression utilities
@@ -180,10 +180,10 @@ ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-si
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.1.0-12                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-6                         amd64  systemd utility library
+ii   libsystemd0             239-7                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180714-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-6                         amd64  libudev shared library
+ii   libudev1                239-7                         amd64  libudev shared library
 ii   libunistring2           0.9.10-1                      amd64  Unicode string library for C
 ii   libuuid1                2.32-0.1                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
@@ -214,7 +214,7 @@ ii   rsyslog                 8.36.0-1                      amd64  reliable syste
 ii   sed                     4.5-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                        amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.23-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.23-2                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.10                 all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.10                 amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.10                 amd64  System-V-like utilities
