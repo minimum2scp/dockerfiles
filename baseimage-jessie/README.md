@@ -73,7 +73,7 @@ ii   base-passwd             3.5.37                            amd64  Debian bas
 ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.6                             amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.25.2-6                        amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20141019+deb8u3                   all    Common CA certificates
+ii   ca-certificates         20141019+deb8u4                   all    Common CA certificates
 ii   coreutils               8.23-4                            amd64  GNU core utilities
 ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
 ii   curl                    7.38.0-4+deb8u11                  amd64  command line tool for transferring data with URL syntax
