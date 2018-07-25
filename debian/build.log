@@ -29,8 +29,8 @@ I: Retrieving bash 4.4.18-3.1
 I: Validating bash 4.4.18-3.1
 I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
-I: Retrieving libdebconfclient0 0.243
-I: Validating libdebconfclient0 0.243
+I: Retrieving libdebconfclient0 0.244
+I: Validating libdebconfclient0 0.244
 I: Retrieving coreutils 8.28-1
 I: Validating coreutils 8.28-1
 I: Retrieving dash 0.5.8-2.10
@@ -471,20 +471,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.1 MB in 3s (3230 kB/s)
+Fetched 11.1 MB in 4s (2659 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.26MB
+Sending build context to Docker daemon  29.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 9079b6401f51
+ ---> a546557f8a05
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 03773cf078aa
-Removing intermediate container 03773cf078aa
- ---> 4cba6c5515d0
-Successfully built 4cba6c5515d0
+ ---> Running in 190d24f5d13b
+Removing intermediate container 190d24f5d13b
+ ---> a938a431d5bd
+Successfully built a938a431d5bd
 Successfully tagged minimum2scp/debian:latest
