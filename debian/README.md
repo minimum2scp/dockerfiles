@@ -30,7 +30,7 @@ ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.32-0.1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.28-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
-ii   debconf                 1.5.68                all    Debian configuration management system
+ii   debconf                 1.5.69                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
