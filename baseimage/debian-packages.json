@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.32-0.2",
+    "Version": "1:2.32-0.3",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "all",
@@ -346,7 +346,7 @@
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
-    "Priority": "important",
+    "Priority": "required",
     "Provides": "debconf-2.0",
     "Recommends": "apt-utils (>= 0.5.1), debconf-i18n",
     "Replace": "",
@@ -549,7 +549,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "fdisk",
     "binary:Summary": "collection of partitioning utilities",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -598,7 +598,7 @@
     "Origin": "",
     "Package": "gcc-8-base",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
@@ -762,7 +762,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "231",
+    "Installed-Size": "235",
     "Origin": "",
     "Package": "gzip",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -773,7 +773,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.6-5+b1",
+    "Version": "1.9-1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.6-5"
+    "source:Version": "1.9-1"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "libfdisk1:amd64",
     "binary:Summary": "fdisk partitioning library",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -1746,7 +1746,7 @@
     "Origin": "",
     "Package": "libgcc1",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -3202,7 +3202,7 @@
     "Origin": "",
     "Package": "libstdc++6",
     "Pre-Depends": "",
-    "Priority": "important",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "amd64",
@@ -3613,12 +3613,12 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "man, suidmanager (<< 0.50)",
+    "Conflicts": "man",
     "Breaks": "manpages-tr (<< 1.0.5.1-3), manpages-zh (<< 1.5.2-1.1)",
-    "Depends": "bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.17), libgdbm5 (>= 1.12), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.27), libgdbm5 (>= 1.12), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2443",
+    "Installed-Size": "2497",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3629,7 +3629,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.8.3-2",
+    "Version": "2.8.4-1",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.8.3-2"
+    "source:Version": "2.8.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "all",
@@ -4402,7 +4402,7 @@
     "Depends": "fdisk, login (>= 1:4.5-1.1~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3718",
+    "Installed-Size": "3725",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libmount1 (>= 2.25), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.30.2), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -4413,7 +4413,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.32-0.2",
+    "Version": "2.32-0.3",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.32-0.2"
+    "source:Version": "2.32-0.3"
   },
   {
     "Architecture": "all",
