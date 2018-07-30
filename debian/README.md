@@ -71,7 +71,7 @@ ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithme
 ii   libgnutls30             3.5.19-1              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-1                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4-1                 amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.0.4-2.1             amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.0.4-2.2             amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library

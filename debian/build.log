@@ -42,7 +42,6 @@ I: Validating libgmp10 2:6.1.2+dfsg-3
 I: Validating gpgv 2.2.9-1
 I: Validating libgnutls30 3.5.19-1
 I: Validating grep 3.1-2
-I: Retrieving gzip 1.9-1
 I: Validating gzip 1.9-1
 I: Validating hostname 3.20
 I: Validating inetutils-ping 2:1.9.4-3+b1
@@ -55,7 +54,8 @@ I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-8
 I: Validating libgcrypt20 1.8.3-1
 I: Validating libgpg-error0 1.32-1
-I: Validating libidn2-0 2.0.4-2.1
+I: Retrieving libidn2-0 2.0.4-2.2
+I: Validating libidn2-0 2.0.4-2.2
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-3
 I: Validating libselinux1 2.8-1+b1
@@ -89,23 +89,14 @@ I: Validating libudev1 239-7
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Validating tar 1.30+dfsg-2
 I: Validating tzdata 2018e-1
-I: Retrieving bsdutils 1:2.32-0.3
 I: Validating bsdutils 1:2.32-0.3
-I: Retrieving fdisk 2.32-0.3
 I: Validating fdisk 2.32-0.3
-I: Retrieving libblkid1 2.32-0.3
 I: Validating libblkid1 2.32-0.3
-I: Retrieving libfdisk1 2.32-0.3
 I: Validating libfdisk1 2.32-0.3
-I: Retrieving libmount1 2.32-0.3
 I: Validating libmount1 2.32-0.3
-I: Retrieving libsmartcols1 2.32-0.3
 I: Validating libsmartcols1 2.32-0.3
-I: Retrieving libuuid1 2.32-0.3
 I: Validating libuuid1 2.32-0.3
-I: Retrieving mount 2.32-0.3
 I: Validating mount 2.32-0.3
-I: Retrieving util-linux 2.32-0.3
 I: Validating util-linux 2.32-0.3
 I: Validating liblzma5 5.2.2-1.3
 I: Validating zlib1g 1:1.2.11.dfsg-1
@@ -389,7 +380,7 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.2 MB in 3s (4086 kB/s)
+Fetched 11.2 MB in 3s (3938 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -399,10 +390,10 @@ Sending build context to Docker daemon  29.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 38c70bfd2cf7
+ ---> 43e8eaf449c7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a85264a07e6a
-Removing intermediate container a85264a07e6a
- ---> a1582eb239e0
-Successfully built a1582eb239e0
+ ---> Running in df6345fed0f9
+Removing intermediate container df6345fed0f9
+ ---> 7fc901cb2df9
+Successfully built 7fc901cb2df9
 Successfully tagged minimum2scp/debian:latest
