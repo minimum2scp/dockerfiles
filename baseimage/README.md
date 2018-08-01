@@ -199,7 +199,7 @@ ii   mawk                    1.3.3-17+b3                   amd64  a pattern scan
 ii   mount                   2.32-0.3                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20180714-1                all    basic terminal type definitions
 ii   ncurses-bin             6.1+20180714-1                amd64  terminal-related programs and man pages
-ii   net-tools               1.60+git20161116.90da8a0-2    amd64  NET-3 networking toolkit
+ii   net-tools               1.60+git20161116.90da8a0-3    amd64  NET-3 networking toolkit
 ii   netbase                 5.4                           all    Basic TCP/IP networking system
 ii   openssh-client          1:7.7p1-3                     amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.7p1-3                     amd64  secure shell (SSH) server, for secure access from remote machines
