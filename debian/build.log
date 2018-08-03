@@ -33,9 +33,12 @@ I: Validating libext2fs2 1.44.3-1
 I: Validating libss2 1.44.3-1
 I: Validating libelf1 0.170-0.5
 I: Validating findutils 4.6.0+git+20171230-2
-I: Validating gcc-8-base 8.2.0-1
-I: Validating libgcc1 1:8.2.0-1
-I: Validating libstdc++6 8.2.0-1
+I: Retrieving gcc-8-base 8.2.0-2
+I: Validating gcc-8-base 8.2.0-2
+I: Retrieving libgcc1 1:8.2.0-2
+I: Validating libgcc1 1:8.2.0-2
+I: Retrieving libstdc++6 8.2.0-2
+I: Validating libstdc++6 8.2.0-2
 I: Validating libc-bin 2.27-5
 I: Validating libc6 2.27-5
 I: Validating libgmp10 2:6.1.2+dfsg-3
@@ -54,7 +57,6 @@ I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-8
 I: Validating libgcrypt20 1.8.3-1
 I: Validating libgpg-error0 1.32-1
-I: Retrieving libidn2-0 2.0.4-2.2
 I: Validating libidn2-0 2.0.4-2.2
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-3
@@ -89,15 +91,24 @@ I: Validating libudev1 239-7
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Validating tar 1.30+dfsg-2
 I: Validating tzdata 2018e-1
-I: Validating bsdutils 1:2.32-0.3
-I: Validating fdisk 2.32-0.3
-I: Validating libblkid1 2.32-0.3
-I: Validating libfdisk1 2.32-0.3
-I: Validating libmount1 2.32-0.3
-I: Validating libsmartcols1 2.32-0.3
-I: Validating libuuid1 2.32-0.3
-I: Validating mount 2.32-0.3
-I: Validating util-linux 2.32-0.3
+I: Retrieving bsdutils 1:2.32-0.4
+I: Validating bsdutils 1:2.32-0.4
+I: Retrieving fdisk 2.32-0.4
+I: Validating fdisk 2.32-0.4
+I: Retrieving libblkid1 2.32-0.4
+I: Validating libblkid1 2.32-0.4
+I: Retrieving libfdisk1 2.32-0.4
+I: Validating libfdisk1 2.32-0.4
+I: Retrieving libmount1 2.32-0.4
+I: Validating libmount1 2.32-0.4
+I: Retrieving libsmartcols1 2.32-0.4
+I: Validating libsmartcols1 2.32-0.4
+I: Retrieving libuuid1 2.32-0.4
+I: Validating libuuid1 2.32-0.4
+I: Retrieving mount 2.32-0.4
+I: Validating mount 2.32-0.4
+I: Retrieving util-linux 2.32-0.4
+I: Validating util-linux 2.32-0.4
 I: Validating liblzma5 5.2.2-1.3
 I: Validating zlib1g 1:1.2.11.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -379,21 +390,21 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [10.9 MB]
-Fetched 11.2 MB in 3s (3938 kB/s)
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages [11.0 MB]
+Fetched 11.2 MB in 5s (2367 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.24MB
+Sending build context to Docker daemon  29.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 43e8eaf449c7
+ ---> 67fb3261cd68
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in df6345fed0f9
-Removing intermediate container df6345fed0f9
- ---> 7fc901cb2df9
-Successfully built 7fc901cb2df9
+ ---> Running in d613868369d0
+Removing intermediate container d613868369d0
+ ---> 83ce1624ea2f
+Successfully built 83ce1624ea2f
 Successfully tagged minimum2scp/debian:latest
