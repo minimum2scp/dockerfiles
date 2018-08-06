@@ -2022,7 +2022,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "319",
+    "Installed-Size": "350",
     "Origin": "",
     "Package": "libidn11",
     "Pre-Depends": "multiarch-support",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.29-1+deb8u2",
+    "Version": "1.29-1+deb8u3",
     "binary:Package": "libidn11:amd64",
     "binary:Summary": "GNU Libidn library, implementation of IETF IDN specifications",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn",
-    "source:Version": "1.29-1+deb8u2"
+    "source:Version": "1.29-1+deb8u3"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3040",
+    "Installed-Size": "3079",
     "Origin": "",
     "Package": "libssl1.0.0",
     "Pre-Depends": "multiarch-support",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.1t-1+deb8u8",
+    "Version": "1.0.1t-1+deb8u9",
     "binary:Package": "libssl1.0.0:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb8u8"
+    "source:Version": "1.0.1t-1+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -3898,7 +3898,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.0.0 (>= 1.0.1k-3+deb8u3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1020",
+    "Installed-Size": "1093",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3909,7 +3909,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.0.1t-1+deb8u8",
+    "Version": "1.0.1t-1+deb8u9",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.0.1t-1+deb8u8"
+    "source:Version": "1.0.1t-1+deb8u9"
   },
   {
     "Architecture": "amd64",

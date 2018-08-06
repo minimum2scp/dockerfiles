@@ -137,7 +137,7 @@ ii   libgnutls-deb0-28       3.3.8-6+deb8u7                    amd64  GNU TLS li
 ii   libgpg-error0           1.17-3                            amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u2                    amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.29-1+deb8u2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
+ii   libidn11                1.29-1+deb8u3                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libjson-c2              0.11-4                            amd64  JSON manipulation library - shared library
 ii   libk5crypto3            1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-5+b1                        amd64  Linux Key Management Utilities (library)
@@ -175,7 +175,7 @@ ii   libslang2               2.3.0-2                           amd64  S-Lang pro
 ii   libsmartcols1           2.25.2-6                          amd64  smart column output alignment library
 ii   libss2                  1.42.12-2+b1                      amd64  command-line interface parsing library
 ii   libssh2-1               1.4.3-4.1+deb8u1                  amd64  SSH2 client-side library
-ii   libssl1.0.0             1.0.1t-1+deb8u8                   amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.0             1.0.1t-1+deb8u9                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              4.9.2-10+deb8u1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             215-17+deb8u7                     amd64  systemd utility library
 ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN.1 structures (runtime)
@@ -204,7 +204,7 @@ ii   netbase                 5.3                               all    Basic TCP/
 ii   openssh-client          1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:6.7p1-5+deb8u4                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.0.1t-1+deb8u8                   amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.0.1t-1+deb8u9                   amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
 ii   perl                    5.20.2-3+deb8u11                  amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.20.2-3+deb8u11                  amd64  minimal Perl system
