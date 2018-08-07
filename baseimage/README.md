@@ -187,7 +187,7 @@ ii   libudev1                239-7                         amd64  libudev shared
 ii   libunistring2           0.9.10-1                      amd64  Unicode string library for C
 ii   libuuid1                2.32-0.4                      amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.6.2-1                       amd64  netfilter xtables library
+ii   libxtables12            1.6.2-1.1                     amd64  netfilter xtables library
 ii   libzstd1                1.3.4+dfsg-3                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                       all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-5                        all    GNU C Library: National Language (locale) data [support]
