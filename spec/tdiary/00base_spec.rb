@@ -27,7 +27,6 @@ describe 'minimum2scp/tdiary' do
       %w[
         libsqlite3-dev
         supervisor
-        nginx-light
       ].each do |pkg|
         describe package(pkg) do
           it { should be_installed }
@@ -93,6 +92,26 @@ describe 'minimum2scp/tdiary' do
 
       describe port(9001) do
         it { should be_listening.with('tcp') }
+      end
+
+      describe package('nginx') do
+        it { should be_installed.with_version('1.15.2-1~stretch') }
+      end
+
+      describe file('/etc/nginx/nginx.conf') do
+        it { should be_file }
+      end
+
+      describe file('/etc/nginx/conf.d/default.conf') do
+        it { should_not be_file }
+      end
+
+      describe file('/etc/nginx/conf.d/misc.conf') do
+        it { should be_file }
+      end
+
+      describe file('/etc/nginx/conf.d/tdiary.conf') do
+        it { should be_file }
       end
 
       describe service('nginx') do
