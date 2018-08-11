@@ -87,8 +87,24 @@ describe 'minimum2scp/fluentd-ui' do
       it { should be_listening.on('127.0.0.1').with('tcp') }
     end
 
-    describe package('nginx-light') do
-      it { should be_installed }
+    describe package('nginx') do
+      it { should be_installed.with_version('1.15.2-1~stretch') }
+    end
+
+    describe file('/etc/nginx/nginx.conf') do
+      it { should be_file }
+    end
+
+    describe file('/etc/nginx/conf.d/default.conf') do
+      it { should_not be_file }
+    end
+
+    describe file('/etc/nginx/conf.d/misc.conf') do
+      it { should be_file }
+    end
+
+    describe file('/etc/nginx/conf.d/fluentd-ui.conf') do
+      it { should be_file }
     end
 
     describe service('nginx') do
