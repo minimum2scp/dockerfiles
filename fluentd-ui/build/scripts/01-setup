@@ -51,8 +51,7 @@ install -m 755 -o td-agent -g td-agent -p /tmp/build/fluentd-ui/opt/fluentd-ui/s
 /opt/custom-installers/nginx/install.sh
 
 ## configure nginx
-install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/nginx/sites-available/fluentd-ui /etc/nginx/sites-available/fluentd-ui
-rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/fluentd-ui /etc/nginx/sites-enabled/fluentd-ui
-etckeeper commit "nginx: disabled default site, enabled fluentd-ui site"
+install -m 644 -o root -g root -p /tmp/build/fluentd-ui/etc/nginx/conf.d/fluentd-ui.conf /etc/nginx/conf.d/fluentd-ui.conf
+rm /etc/nginx/conf.d/default.conf
+etckeeper commit "nginx: configured for fluentd-ui"
 
