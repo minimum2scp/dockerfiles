@@ -43,8 +43,7 @@ etckeeper commit "supervisor: add tdiary"
 ##
 ## configure nginx
 ##
-install -m 644 -o root -g root -p /tmp/build/tdiary/etc/nginx/sites-available/tdiary /etc/nginx/sites-available/tdiary
-rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/tdiary /etc/nginx/sites-enabled/tdiary
-etckeeper commit "nginx: disabled default site, enabled tdiary site"
+install -m 644 -o root -g root -p /tmp/build/tdiary/etc/nginx/conf.d/tdiary.conf /etc/nginx/conf.d/tdiary.conf
+rm /etc/nginx/conf.d/default.conf
+etckeeper commit "nginx: configured for tdiary"
 
