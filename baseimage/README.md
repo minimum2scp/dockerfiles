@@ -95,7 +95,7 @@ ii   groff-base              1.22.3-10                     amd64  GNU troff text
 ii   gzip                    1.9-2                         amd64  GNU compression utilities
 ii   hostname                3.20                          amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3+b1                  amd64  ICMP echo tool
-ii   init-system-helpers     1.51                          all    helper tools for all init systems
+ii   init-system-helpers     1.52                          all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.17.0-2                      amd64  networking and traffic control tools
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.7                     all    Runtime suppor
 ii   libpam0g                1.1.8-3.7                     amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.2-6                      amd64  shared Perl library
+ii   libperl5.26             5.26.2-7                      amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                       amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                       amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                    amd64  library for accessing process information from /proc
@@ -206,9 +206,9 @@ ii   openssh-server          1:7.7p1-3                     amd64  secure shell (
 ii   openssh-sftp-server     1:7.7p1-3                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0h-4                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                     amd64  change and administer password and group data
-ii   perl                    5.26.2-6                      amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.2-6                      amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.2-6                      all    Core Perl modules
+ii   perl                    5.26.2-7                      amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.2-7                      amd64  minimal Perl system
+ii   perl-modules-5.26       5.26.2-7                      all    Core Perl modules
 ii   procps                  2:3.3.15-2                    amd64  /proc file system utilities
 ii   rsyslog                 8.37.0-1                      amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-1                         amd64  GNU stream editor for filtering/transforming text
