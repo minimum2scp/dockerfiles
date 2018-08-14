@@ -141,14 +141,14 @@ I: Retrieving libnettle6 3.4-1
 I: Validating libnettle6 3.4-1
 I: Retrieving libp11-kit0 0.23.12-2
 I: Validating libp11-kit0 0.23.12-2
-I: Retrieving libpam-modules 1.1.8-3.7
-I: Validating libpam-modules 1.1.8-3.7
-I: Retrieving libpam-modules-bin 1.1.8-3.7
-I: Validating libpam-modules-bin 1.1.8-3.7
-I: Retrieving libpam-runtime 1.1.8-3.7
-I: Validating libpam-runtime 1.1.8-3.7
-I: Retrieving libpam0g 1.1.8-3.7
-I: Validating libpam0g 1.1.8-3.7
+I: Retrieving libpam-modules 1.1.8-3.8
+I: Validating libpam-modules 1.1.8-3.8
+I: Retrieving libpam-modules-bin 1.1.8-3.8
+I: Validating libpam-modules-bin 1.1.8-3.8
+I: Retrieving libpam-runtime 1.1.8-3.8
+I: Validating libpam-runtime 1.1.8-3.8
+I: Retrieving libpam0g 1.1.8-3.8
+I: Validating libpam0g 1.1.8-3.8
 I: Retrieving libpcre3 2:8.39-11
 I: Validating libpcre3 2:8.39-11
 I: Retrieving perl-base 5.26.2-7
@@ -475,14 +475,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.4MB
+Sending build context to Docker daemon  29.38MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4e3a4b988fd1
+ ---> 66a98043cbd0
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e9ce16f805e4
-Removing intermediate container e9ce16f805e4
- ---> 6aef500d3ea1
-Successfully built 6aef500d3ea1
+ ---> Running in 941784c3bb12
+Removing intermediate container 941784c3bb12
+ ---> b69d26050d0a
+Successfully built b69d26050d0a
 Successfully tagged minimum2scp/debian:latest
