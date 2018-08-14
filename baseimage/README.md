@@ -154,10 +154,10 @@ ii   libnettle6              3.4-1                         amd64  low level cryp
 ii   libnewt0.52             0.52.20-5                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.32.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.12-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.1.8-3.7                     amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-3.7                     amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.1.8-3.7                     all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-3.7                     amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.1.8-3.8                     all    Runtime support for the PAM library
+ii   libpam0g                1.1.8-3.8                     amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.2-7                      amd64  shared Perl library
