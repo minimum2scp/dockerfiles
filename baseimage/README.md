@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.3-1                      amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                    amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-3                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-4                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.18.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.18.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.9-1                       amd64  GNU privacy guard - signature verification tool
@@ -106,7 +106,7 @@ ii   libaudit-common         1:2.8.3-1                     all    Dynamic librar
 ii   libaudit1               1:2.8.3-1+b1                  amd64  Dynamic library for security auditing
 ii   libblkid1               2.32.1-0.1                    amd64  block device ID library
 ii   libbsd0                 0.9.1-1                       amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-8.1                     amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.27-5                        amd64  GNU C Library: Binaries
 ii   libc-l10n               2.27-5                        all    GNU C Library: localization files
 ii   libc6                   2.27-5                        amd64  GNU C Library: Shared libraries
@@ -127,7 +127,7 @@ ii   libext2fs2              1.44.3-1                      amd64  ext2/ext3/ext4
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32.1-0.1                    amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-3                     amd64  GCC support library
+ii   libgcc1                 1:8.2.0-4                     amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6+b1                   amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                   amd64  GNU dbm database routines (runtime version) 
@@ -179,7 +179,7 @@ ii   libss2                  1.44.3-1                      amd64  command-line i
 ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0h-4                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-3                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-4                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-7                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180714-1                amd64  shared low-level terminfo library for terminal handling
