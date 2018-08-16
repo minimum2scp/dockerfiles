@@ -85,7 +85,7 @@ ii   dpkg                    1.19.0.5+b1                   amd64  Debian package
 ii   e2fsprogs               1.44.3-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.7-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                    amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20171230-2          amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20180808-2          amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-4                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.18.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.18.0-1                    all    fast, scalable, distributed revision control system (manual pages)
@@ -95,7 +95,7 @@ ii   groff-base              1.22.3-10                     amd64  GNU troff text
 ii   gzip                    1.9-2                         amd64  GNU compression utilities
 ii   hostname                3.20                          amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3+b1                  amd64  ICMP echo tool
-ii   init-system-helpers     1.52                          all    helper tools for all init systems
+ii   init-system-helpers     1.53                          all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.17.0-2                      amd64  networking and traffic control tools
@@ -116,13 +116,13 @@ ii   libcap2-bin             1:2.25-1.2                    amd64  POSIX 1003.1e 
 ii   libcom-err2             1.44.3-1                      amd64  common error description library
 ii   libcurl3-gnutls         7.61.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.61.0-1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                5.3.28-13.1+b1                amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg1-0.1              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.244                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1                amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.5                     amd64  library to read and write ELF files
 ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.5-3                       amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.6-1                       amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.3-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32.1-0.1                    amd64  fdisk partitioning library
@@ -153,7 +153,7 @@ ii   libncursesw6            6.1+20180714-1                amd64  shared librari
 ii   libnettle6              3.4-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-5                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.32.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.12-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.13-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.8                     all    Runtime support for the PAM library
