@@ -37,14 +37,14 @@ ii   diffutils               1:3.6-1               amd64  File comparison utilit
 ii   dpkg                    1.19.0.5+b1           amd64  Debian package management system
 ii   e2fsprogs               1.44.3-1              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.32.1-0.1            amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20171230-2  amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20180808-2  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.9-1               amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-2                 amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3+b1          amd64  ICMP echo tool
-ii   init-system-helpers     1.52                  all    helper tools for all init systems
+ii   init-system-helpers     1.53                  all    helper tools for all init systems
 ii   iproute2                4.17.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.3                 amd64  package management runtime library
@@ -59,7 +59,7 @@ ii   libcap-ng0              0.7.9-1               amd64  An alternate POSIX cap
 ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.3-1              amd64  common error description library
-ii   libdb5.3                5.3.28-13.1+b1        amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg1-0.1      amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.244                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.5             amd64  library to read and write ELF files
 ii   libext2fs2              1.44.3-1              amd64  ext2/ext3/ext4 file system libraries
@@ -78,7 +78,7 @@ ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink c
 ii   libmount1               2.32.1-0.1            amd64  device mounting library
 ii   libncursesw6            6.1+20180714-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.12-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.13-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.8             all    Runtime support for the PAM library

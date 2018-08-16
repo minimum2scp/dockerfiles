@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1865",
+    "Installed-Size": "1880",
     "Origin": "",
     "Package": "findutils",
     "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20171230-2",
+    "Version": "4.6.0+git+20180808-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20171230-2"
+    "source:Version": "4.6.0+git+20180808-2"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.52",
+    "Version": "1.53",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.52"
+    "source:Version": "1.53"
   },
   {
     "Architecture": "amd64",
@@ -1042,7 +1042,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1799",
+    "Installed-Size": "1802",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28-13.1+b1",
+    "Version": "5.3.28+dfsg1-0.1",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28-13.1"
+    "source:Version": "5.3.28+dfsg1-0.1"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.26), libffi6 (>= 3.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1353",
+    "Installed-Size": "1360",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.12-2",
+    "Version": "0.23.13-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.12-2"
+    "source:Version": "0.23.13-2"
   },
   {
     "Architecture": "amd64",
