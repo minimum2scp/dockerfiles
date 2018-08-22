@@ -99,7 +99,7 @@ ii   libudev1                239-7                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.1            amd64  Universally Unique ID library
 ii   libxtables12            1.6.2-1.1             amd64  netfilter xtables library
-ii   libzstd1                1.3.4+dfsg-3          amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.5+dfsg-1          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1.1             amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.32.1-0.1            amd64  tools for mounting and manipulating filesystems
