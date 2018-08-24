@@ -82,7 +82,7 @@ ii   debian-archive-keyring  2017.7                        all    GnuPG archive 
 ii   debianutils             4.8.6                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                       amd64  File comparison utilities
 ii   dpkg                    1.19.0.5+b1                   amd64  Debian package management system
-ii   e2fsprogs               1.44.4-1                      amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.4-2                      amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.8-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                    amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20180808-2          amd64  utilities for finding files--find, xargs
@@ -113,7 +113,7 @@ ii   libc6                   2.27-5                        amd64  GNU C Library:
 ii   libcap-ng0              0.7.9-1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                    amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.4-1                      amd64  common error description library
+ii   libcom-err2             1.44.4-2                      amd64  common error description library
 ii   libcurl3-gnutls         7.61.0-1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.61.0-1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.1              amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,7 +123,7 @@ ii   libelf1                 0.170-0.5                     amd64  library to rea
 ii   liberror-perl           0.17026-1                     all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                    amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                       amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.44.4-1                      amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.4-2                      amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32.1-0.1                    amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
@@ -181,7 +181,7 @@ ii   libsepol1               2.8-1                         amd64  SELinux librar
 ii   libslang2               2.3.2-1+b1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.32.1-0.1                    amd64  smart column output alignment library
 ii   libsqlite3-0            3.24.0-1                      amd64  SQLite 3 shared library
-ii   libss2                  1.44.4-1                      amd64  command-line interface parsing library
+ii   libss2                  1.44.4-2                      amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.1~~pre9-1                 amd64  Secure Sockets Layer toolkit - shared libraries
@@ -237,10 +237,10 @@ ii   tzdata                  2018e-1                       all    time zone and 
 ii   ucf                     3.0038                        all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                        amd64  De-archiver for .zip files
 ii   util-linux              2.32.1-0.1                    amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0229-1                  all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0229-1                  amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0320-1                  all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0320-1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-6                     amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0229-1                  amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0320-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
 ii   zsh                     5.5.1-1+b1                    amd64  shell with lots of features
 ii   zsh-common              5.5.1-1                       all    architecture independent files for Zsh
