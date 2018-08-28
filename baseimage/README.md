@@ -102,8 +102,8 @@ ii   iproute2                4.17.0-2                      amd64  networking and
 ii   libacl1                 2.2.52-3+b1                   amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.4                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.3-1                     all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.3-1+b1                  amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.4-1                     all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.4-1                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.32.1-0.1                    amd64  block device ID library
 ii   libbsd0                 0.9.1-1                       amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                       amd64  high-quality block-sorting file compressor library - runtime
