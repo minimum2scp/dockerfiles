@@ -19,7 +19,8 @@ I: Validating base-passwd 3.5.45
 I: Validating bash 4.4.18-3.1
 I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.244
-I: Validating coreutils 8.28-1
+I: Retrieving coreutils 8.30-1
+I: Validating coreutils 8.30-1
 I: Validating dash 0.5.8-2.10
 I: Validating libdb5.3 5.3.28+dfsg1-0.1
 I: Validating debconf 1.5.69
@@ -46,7 +47,6 @@ I: Validating gzip 1.9-2
 I: Validating hostname 3.20
 I: Validating inetutils-ping 2:1.9.4-3+b1
 I: Validating init-system-helpers 1.54
-I: Retrieving iproute2 4.18.0-2
 I: Validating iproute2 4.18.0-2
 I: Validating libxtables12 1.6.2-1.1
 I: Validating libcap-ng0 0.7.9-1
@@ -384,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.44MB
+Sending build context to Docker daemon   29.5MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 146559d48c66
+ ---> dbed8fddb3ea
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in aa99a24dde28
-Removing intermediate container aa99a24dde28
- ---> a38213df5e71
-Successfully built a38213df5e71
+ ---> Running in cb3ae59e536d
+Removing intermediate container cb3ae59e536d
+ ---> ab1d4f98251a
+Successfully built ab1d4f98251a
 Successfully tagged minimum2scp/debian:latest

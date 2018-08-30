@@ -28,7 +28,7 @@ ii   base-files              10.1                  amd64  Debian base system mis
 ii   base-passwd             3.5.45                amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.32.1-0.1          amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.28-1                amd64  GNU core utilities
+ii   coreutils               8.30-1                amd64  GNU core utilities
 ii   dash                    0.5.8-2.10            amd64  POSIX-compliant shell
 ii   debconf                 1.5.69                all    Debian configuration management system
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
