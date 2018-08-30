@@ -73,7 +73,7 @@ ii   bash                    4.4.18-3.1                    amd64  GNU Bourne Aga
 ii   bsdmainutils            11.1.2+b1                     amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.32.1-0.1                  amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20180409                      all    Common CA certificates
-ii   coreutils               8.28-1                        amd64  GNU core utilities
+ii   coreutils               8.30-1                        amd64  GNU core utilities
 ii   cron                    3.0pl1-130                    amd64  process scheduling daemon
 ii   curl                    7.61.0-1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.10                    amd64  POSIX-compliant shell

@@ -230,10 +230,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "15016",
+    "Installed-Size": "15723",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13)",
+    "Pre-Depends": "libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.25), libselinux1 (>= 2.1.13)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -241,7 +241,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.28-1",
+    "Version": "8.30-1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.28-1"
+    "source:Version": "8.30-1"
   },
   {
     "Architecture": "amd64",
