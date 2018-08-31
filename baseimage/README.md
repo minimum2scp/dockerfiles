@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20180808-2          amd64  utilities for 
 ii   gcc-8-base              8.2.0-4                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.19.0~rc1-1                amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.19.0~rc1-1                all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.9-2                       amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.10-1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                         amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2                         amd64  GNU compression utilities
@@ -102,8 +102,8 @@ ii   iproute2                4.18.0-2                      amd64  networking and
 ii   libacl1                 2.2.52-3+b1                   amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.4                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.4-1                     all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.4-1                     amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.4-2                     all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.4-2                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.32.1-0.1                    amd64  block device ID library
 ii   libbsd0                 0.9.1-1                       amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                       amd64  high-quality block-sorting file compressor library - runtime
@@ -153,7 +153,7 @@ ii   libncursesw6            6.1+20180714-1                amd64  shared librari
 ii   libnettle6              3.4-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-6                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.32.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.13-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.14-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.8                     all    Runtime support for the PAM library
@@ -208,9 +208,9 @@ ii   ncurses-base            6.1+20180714-1                all    basic terminal
 ii   ncurses-bin             6.1+20180714-1                amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-3    amd64  NET-3 networking toolkit
 ii   netbase                 5.4                           all    Basic TCP/IP networking system
-ii   openssh-client          1:7.7p1-4                     amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.7p1-4                     amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.7p1-4                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.8p1-1                     amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.8p1-1                     amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.8p1-1                     amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1~~pre9-1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                     amd64  change and administer password and group data
 ii   perl                    5.26.2-7                      amd64  Larry Wall's Practical Extraction and Report Language
