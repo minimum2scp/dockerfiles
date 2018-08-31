@@ -482,7 +482,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "831",
+    "Installed-Size": "832",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.9-2",
+    "Version": "2.2.10-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.9-2"
+    "source:Version": "2.2.10-1"
   },
   {
     "Architecture": "amd64",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.4-1",
+    "Version": "1:2.8.4-2",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -781,13 +781,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.4-1"
+    "source:Version": "1:2.8.4-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:2.8.4-1), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:2.8.4-2), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "161",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.4-1",
+    "Version": "1:2.8.4-2",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.4-1"
+    "source:Version": "1:2.8.4-2"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.26), libffi6 (>= 3.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1360",
+    "Installed-Size": "1361",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.13-2",
+    "Version": "0.23.14-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.13-2"
+    "source:Version": "0.23.14-2"
   },
   {
     "Architecture": "amd64",

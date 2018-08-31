@@ -39,7 +39,7 @@ ii   e2fsprogs               1.44.4-2              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.32.1-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20180808-2  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-4               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.9-2               amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.10-1              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-2                 amd64  GNU compression utilities
 ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
@@ -49,8 +49,8 @@ ii   iproute2                4.18.0-2              amd64  networking and traffic
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.6.4                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
-ii   libaudit-common         1:2.8.4-1             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.4-1             amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.32.1-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.27-5                amd64  GNU C Library: Binaries
@@ -78,7 +78,7 @@ ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink c
 ii   libmount1               2.32.1-0.1            amd64  device mounting library
 ii   libncursesw6            6.1+20180714-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.13-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.14-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8             amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8             amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.8             all    Runtime support for the PAM library
