@@ -88,7 +88,7 @@ describe 'minimum2scp/fluentd-ui' do
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.15.2-1~stretch') }
+      it { should be_installed.with_version('1.15.3-1~stretch') }
     end
 
     describe file('/etc/nginx/nginx.conf') do
