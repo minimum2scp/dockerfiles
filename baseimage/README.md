@@ -242,6 +242,6 @@ ii   vim-tiny                2:8.1.0320-1                  amd64  Vi IMproved - 
 ii   whiptail                0.52.20-6                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0320-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
-ii   zsh                     5.5.1-1+b1                    amd64  shell with lots of features
-ii   zsh-common              5.5.1-1                       all    architecture independent files for Zsh
+ii   zsh                     5.6-1                         amd64  shell with lots of features
+ii   zsh-common              5.6-1                         all    architecture independent files for Zsh
 ```
