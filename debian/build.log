@@ -20,7 +20,8 @@ I: Validating bash 4.4.18-3.1
 I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.244
 I: Validating coreutils 8.30-1
-I: Validating dash 0.5.8-2.10
+I: Retrieving dash 0.5.10.2-1
+I: Validating dash 0.5.10.2-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.1
 I: Validating debconf 1.5.69
 I: Validating debian-archive-keyring 2017.7
@@ -33,11 +34,16 @@ I: Validating libext2fs2 1.44.4-2
 I: Validating libss2 1.44.4-2
 I: Validating libelf1 0.170-0.5
 I: Validating findutils 4.6.0+git+20180808-2
-I: Validating gcc-8-base 8.2.0-4
-I: Validating libgcc1 1:8.2.0-4
-I: Validating libstdc++6 8.2.0-4
-I: Validating libc-bin 2.27-5
-I: Validating libc6 2.27-5
+I: Retrieving gcc-8-base 8.2.0-5
+I: Validating gcc-8-base 8.2.0-5
+I: Retrieving libgcc1 1:8.2.0-5
+I: Validating libgcc1 1:8.2.0-5
+I: Retrieving libstdc++6 8.2.0-5
+I: Validating libstdc++6 8.2.0-5
+I: Retrieving libc-bin 2.27-6
+I: Validating libc-bin 2.27-6
+I: Retrieving libc6 2.27-6
+I: Validating libc6 2.27-6
 I: Validating libgmp10 2:6.1.2+dfsg-3
 I: Validating gpgv 2.2.10-1
 I: Validating libgnutls30 3.5.19-1
@@ -54,7 +60,6 @@ I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-8
 I: Validating libgcrypt20 1.8.3-1
 I: Validating libgpg-error0 1.32-1
-I: Retrieving libidn2-0 2.0.5-1
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-3
@@ -384,14 +389,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.5MB
+Sending build context to Docker daemon  29.51MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> c528918b30f7
+ ---> 5d2894fc1af1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 889d60872bb6
-Removing intermediate container 889d60872bb6
- ---> 7cbdb1265145
-Successfully built 7cbdb1265145
+ ---> Running in 7f4d69dccbd2
+Removing intermediate container 7f4d69dccbd2
+ ---> aa95a86be210
+Successfully built aa95a86be210
 Successfully tagged minimum2scp/debian:latest
