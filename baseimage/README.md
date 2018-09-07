@@ -152,7 +152,7 @@ ii   libncurses6             6.1+20180714-1                amd64  shared librari
 ii   libncursesw6            6.1+20180714-1                amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-6                     amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.32.1-1                      amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.33.0-1                      amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                     amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -186,10 +186,10 @@ ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-si
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.1~~pre9-1                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-5                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-7                         amd64  systemd utility library
+ii   libsystemd0             239-8                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180714-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-7                         amd64  libudev shared library
+ii   libudev1                239-8                         amd64  libudev shared library
 ii   libunistring2           0.9.10-1                      amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.1                    amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                      amd64  Wietse Venema's TCP wrappers library
