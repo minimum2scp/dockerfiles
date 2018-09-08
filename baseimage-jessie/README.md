@@ -76,7 +76,7 @@ ii   bsdutils                1:2.25.2-6                        amd64  basic util
 ii   ca-certificates         20141019+deb8u4                   all    Common CA certificates
 ii   coreutils               8.23-4                            amd64  GNU core utilities
 ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
-ii   curl                    7.38.0-4+deb8u11                  amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.38.0-4+deb8u12                  amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
 ii   debconf                 1.5.56+deb8u1                     all    Debian configuration management system
 ii   debconf-i18n            1.5.56+deb8u1                     all    full internationalization support for debconf
@@ -119,8 +119,8 @@ ii   libcap2                 1:2.24-8                          amd64  POSIX 1003
 ii   libcap2-bin             1:2.24-8                          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcomerr2              1.42.12-2+b1                      amd64  common error description library
 ii   libcryptsetup4          2:1.6.6-5                         amd64  disk encryption support - shared library
-ii   libcurl3                7.38.0-4+deb8u11                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.38.0-4+deb8u11                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.38.0-4+deb8u12                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.38.0-4+deb8u12                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-9+deb8u1                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.192                             amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1              amd64  Linux Kernel Device Mapper userspace library
