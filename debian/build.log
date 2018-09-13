@@ -21,7 +21,6 @@ I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.244
 I: Validating coreutils 8.30-1
 I: Validating dash 0.5.10.2-1
-I: Retrieving libdb5.3 5.3.28+dfsg1-0.2
 I: Validating libdb5.3 5.3.28+dfsg1-0.2
 I: Validating debconf 1.5.69
 I: Validating debian-archive-keyring 2017.7
@@ -34,11 +33,8 @@ I: Validating libext2fs2 1.44.4-2
 I: Validating libss2 1.44.4-2
 I: Validating libelf1 0.170-0.5
 I: Validating findutils 4.6.0+git+20180808-2
-I: Retrieving gcc-8-base 8.2.0-6
 I: Validating gcc-8-base 8.2.0-6
-I: Retrieving libgcc1 1:8.2.0-6
 I: Validating libgcc1 1:8.2.0-6
-I: Retrieving libstdc++6 8.2.0-6
 I: Validating libstdc++6 8.2.0-6
 I: Validating libc-bin 2.27-6
 I: Validating libc6 2.27-6
@@ -87,8 +83,10 @@ I: Validating perl-base 5.26.2-7
 I: Validating sed 4.5-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 239-8
-I: Validating libudev1 239-8
+I: Retrieving libsystemd0 239-9
+I: Validating libsystemd0 239-9
+I: Retrieving libudev1 239-9
+I: Validating libudev1 239-9
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Validating tar 1.30+dfsg-2
 I: Validating tzdata 2018e-1
@@ -383,22 +381,22 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-10-1406.49.pdiff [19.8 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-10-1406.49.pdiff [19.8 kB]
-Fetched 280 kB in 1s (193 kB/s)
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-13-1406.43.pdiff [8463 B]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-13-1406.43.pdiff [8463 B]
+Fetched 269 kB in 1s (189 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.48MB
+Sending build context to Docker daemon  29.51MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 2521720fcf2a
+ ---> e4790775b576
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 84afd1a1af11
-Removing intermediate container 84afd1a1af11
- ---> a269ed009ad5
-Successfully built a269ed009ad5
+ ---> Running in 067292f5f402
+Removing intermediate container 067292f5f402
+ ---> 38f1842ed415
+Successfully built 38f1842ed415
 Successfully tagged minimum2scp/debian:latest
