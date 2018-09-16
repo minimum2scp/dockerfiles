@@ -65,7 +65,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                 3.117                         all    add and remove users and groups
+ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     1.6.4                         amd64  commandline package manager
 ii   base-files              10.1                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                        amd64  Debian base system master password and group files
@@ -180,7 +180,7 @@ ii   libsemanage1            2.8-1+b1                      amd64  SELinux policy
 ii   libsepol1               2.8-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                    amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.32.1-0.1                    amd64  smart column output alignment library
-ii   libsqlite3-0            3.24.0-1                      amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.25.0-1                      amd64  SQLite 3 shared library
 ii   libss2                  1.44.4-2                      amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
