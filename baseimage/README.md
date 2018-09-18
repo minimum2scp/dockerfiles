@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.4-2                      amd64  ext2/ext3/ext4
 ii   etckeeper               1.18.8-1                      all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                    amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20180808-2          amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-6                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-7                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.19.0-1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.19.0-1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.10-1                      amd64  GNU privacy guard - signature verification tool
@@ -127,12 +127,12 @@ ii   libext2fs2              1.44.4-2                      amd64  ext2/ext3/ext4
 ii   libfastjson4            0.99.8-2                      amd64  fast json library for C
 ii   libfdisk1               2.32.1-0.1                    amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                       amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-6                     amd64  GCC support library
+ii   libgcc1                 1:8.2.0-7                     amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                       amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.14.1-6+b1                   amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                   amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.19-1                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.19-1+b1                   amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-1                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -185,7 +185,7 @@ ii   libss2                  1.44.4-2                      amd64  command-line i
 ii   libssh2-1               1.8.0-2                       amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2o-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.1-1                       amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-6                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-7                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-9                         amd64  systemd utility library
 ii   libtasn1-6              4.13-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20180714-1                amd64  shared low-level terminfo library for terminal handling
@@ -242,6 +242,6 @@ ii   vim-tiny                2:8.1.0320-1                  amd64  Vi IMproved - 
 ii   whiptail                0.52.20-7                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0320-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
-ii   zsh                     5.6.2-1                       amd64  shell with lots of features
-ii   zsh-common              5.6.2-1                       all    architecture independent files for Zsh
+ii   zsh                     5.6.2-2                       amd64  shell with lots of features
+ii   zsh-common              5.6.2-2                       all    architecture independent files for Zsh
 ```
