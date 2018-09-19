@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
-ii   apt                     1.6.4                         amd64  commandline package manager
+ii   apt                     1.7.0~rc1                     amd64  commandline package manager
 ii   base-files              10.1                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                        amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1                    amd64  GNU Bourne Again SHell
@@ -100,7 +100,7 @@ ii   initscripts             2.88dsf-59.10                 amd64  scripts for in
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                   amd64  Access control list shared library
-ii   libapt-pkg5.0           1.6.4                         amd64  package management runtime library
+ii   libapt-pkg5.0           1.7.0~rc1                     amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                 amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                     all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                     amd64  Dynamic library for security auditing
@@ -224,7 +224,7 @@ ii   python2-minimal         2.7.15-3                      amd64  minimal subset
 ii   python2.7               2.7.15-4                      amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.15-4                      amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                         all    GNU readline and history libraries, common files
-ii   rsyslog                 8.37.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.38.0-1                      amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                        all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                        amd64  run processes in parallel and multiplex their output
@@ -242,6 +242,6 @@ ii   vim-tiny                2:8.1.0320-1                  amd64  Vi IMproved - 
 ii   whiptail                0.52.20-7                     amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0320-1                  amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1               amd64  compression library - runtime
-ii   zsh                     5.6.2-2                       amd64  shell with lots of features
-ii   zsh-common              5.6.2-2                       all    architecture independent files for Zsh
+ii   zsh                     5.6.2-3                       amd64  shell with lots of features
+ii   zsh-common              5.6.2-3                       all    architecture independent files for Zsh
 ```
