@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.60+git20161116.90da8a0-3",
+    "Version": "1.60+git20180626.aebd88e-1",
     "binary:Package": "net-tools",
     "binary:Summary": "NET-3 networking toolkit",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "net-tools",
-    "source:Version": "1.60+git20161116.90da8a0-3"
+    "source:Version": "1.60+git20180626.aebd88e-1"
   },
   {
     "Architecture": "all",

@@ -206,7 +206,7 @@ ii   mime-support            3.61                          all    MIME files 'mi
 ii   mount                   2.32.1-0.1                    amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20180714-1                all    basic terminal type definitions
 ii   ncurses-bin             6.1+20180714-1                amd64  terminal-related programs and man pages
-ii   net-tools               1.60+git20161116.90da8a0-3    amd64  NET-3 networking toolkit
+ii   net-tools               1.60+git20180626.aebd88e-1    amd64  NET-3 networking toolkit
 ii   netbase                 5.4                           all    Basic TCP/IP networking system
 ii   openssh-client          1:7.8p1-1                     amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.8p1-1                     amd64  secure shell (SSH) server, for secure access from remote machines
