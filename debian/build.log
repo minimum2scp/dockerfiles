@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.118
-I: Retrieving apt 1.7.0~rc2
 I: Validating apt 1.7.0~rc2
-I: Retrieving libapt-pkg5.0 1.7.0~rc2
 I: Validating libapt-pkg5.0 1.7.0~rc2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.8.4-2
@@ -85,8 +83,10 @@ I: Validating perl-base 5.26.2-7
 I: Validating sed 4.5-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 239-9
-I: Validating libudev1 239-9
+I: Retrieving libsystemd0 239-10
+I: Validating libsystemd0 239-10
+I: Retrieving libudev1 239-10
+I: Validating libudev1 239-10
 I: Validating sysvinit-utils 2.88dsf-59.10
 I: Validating tar 1.30+dfsg-2
 I: Validating tzdata 2018e-1
@@ -379,24 +379,20 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [233 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-21-1409.48.pdiff [16.2 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-09-21-1409.48.pdiff [16.2 kB]
-Fetched 277 kB in 1s (498 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.5MB
+Sending build context to Docker daemon  29.51MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b3c82c80c4de
+ ---> 5a7c1f83eebe
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 0ffa51feba04
-Removing intermediate container 0ffa51feba04
- ---> ff0482269c7c
-Successfully built ff0482269c7c
+ ---> Running in 72131b1a1da3
+Removing intermediate container 72131b1a1da3
+ ---> e6a871653eaf
+Successfully built e6a871653eaf
 Successfully tagged minimum2scp/debian:latest
