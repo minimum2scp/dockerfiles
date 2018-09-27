@@ -34,7 +34,7 @@ ii   debconf                 1.5.69                all    Debian configuration m
 ii   debian-archive-keyring  2017.7                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1               amd64  File comparison utilities
-ii   dpkg                    1.19.0.5+b1           amd64  Debian package management system
+ii   dpkg                    1.19.1                amd64  Debian package management system
 ii   e2fsprogs               1.44.4-2              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.32.1-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20180808-2  amd64  utilities for finding files--find, xargs
@@ -42,7 +42,7 @@ ii   gcc-8-base              8.2.0-7               amd64  GCC, the GNU Compiler 
 ii   gpgv                    2.2.10-1              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-2                 amd64  GNU compression utilities
-ii   hostname                3.20                  amd64  utility to set/show the host name or domain name
+ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-3+b1          amd64  ICMP echo tool
 ii   init-system-helpers     1.54                  all    helper tools for all init systems
 ii   iproute2                4.18.0-2              amd64  networking and traffic control tools
@@ -60,7 +60,7 @@ ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabili
 ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.4-2              amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.2      amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.244                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.245                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.170-0.5             amd64  library to read and write ELF files
 ii   libext2fs2              1.44.4-2              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.32.1-0.1            amd64  fdisk partitioning library
