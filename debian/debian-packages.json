@@ -594,7 +594,7 @@
     "Depends": "libc6 (>= 2.15), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "337",
+    "Installed-Size": "348",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-3+b1",
+    "Version": "2:1.9.4-4",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-3"
+    "source:Version": "2:1.9.4-4"
   },
   {
     "Architecture": "all",
