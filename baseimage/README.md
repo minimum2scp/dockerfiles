@@ -94,7 +94,7 @@ ii   grep                    3.1-2                         amd64  GNU grep, egre
 ii   groff-base              1.22.3-10                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2                         amd64  GNU compression utilities
 ii   hostname                3.21                          amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-3+b1                  amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-4                     amd64  ICMP echo tool
 ii   init-system-helpers     1.54                          all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.10                 amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                 amd64  boot sequence organizer using LSB init.d script dependency information
