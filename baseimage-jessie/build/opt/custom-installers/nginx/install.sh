@@ -3,7 +3,7 @@
 set -e
 set -x
 
-nginx_version="1.15.3-1~jessie"
+nginx_version="1.15.4-1~jessie"
 
 ## install gnupg
 apt-get install -y --no-install-recommends gnupg
