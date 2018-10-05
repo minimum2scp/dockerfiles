@@ -92,7 +92,7 @@ ii   git-man                 1:2.19.0-1                   all    fast, scalable,
 ii   gpgv                    2.2.10-2                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.9-2                        amd64  GNU compression utilities
+ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.54                         all    helper tools for all init systems
