@@ -42,9 +42,9 @@ I: Validating libgmp10 2:6.1.2+dfsg-3
 I: Validating gpgv 2.2.10-2
 I: Validating libgnutls30 3.5.19-1+b1
 I: Validating grep 3.1-2
-I: Validating gzip 1.9-2
+I: Retrieving gzip 1.9-2.1
+I: Validating gzip 1.9-2.1
 I: Validating hostname 3.21
-I: Retrieving inetutils-ping 2:1.9.4-5
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.54
 I: Validating iproute2 4.18.0-2
@@ -384,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.51MB
+Sending build context to Docker daemon  29.52MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> baf6ccfe3391
+ ---> f0e6246c9d9d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in aed35bf43f9d
-Removing intermediate container aed35bf43f9d
- ---> 04a39025e764
-Successfully built 04a39025e764
+ ---> Running in 699e50a3c753
+Removing intermediate container 699e50a3c753
+ ---> 035fd37e2c0b
+Successfully built 035fd37e2c0b
 Successfully tagged minimum2scp/debian:latest
