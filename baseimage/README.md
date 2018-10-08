@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.7.0~rc2                    amd64  commandline package manager
+ii   apt                     1.7.0                        amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1                   amd64  GNU Bourne Again SHell
@@ -81,7 +81,7 @@ ii   debconf                 1.5.69                       all    Debian configur
 ii   debian-archive-keyring  2017.7                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                      amd64  File comparison utilities
-ii   dpkg                    1.19.1                       amd64  Debian package management system
+ii   dpkg                    1.19.2                       amd64  Debian package management system
 ii   e2fsprogs               1.44.4-2                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.8-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                   amd64  collection of partitioning utilities
@@ -100,7 +100,7 @@ ii   initscripts             2.88dsf-59.10                amd64  scripts for ini
 ii   insserv                 1.14.0-5.4+b1                amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.7.0~rc2                    amd64  package management runtime library
+ii   libapt-pkg5.0           1.7.0                        amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
