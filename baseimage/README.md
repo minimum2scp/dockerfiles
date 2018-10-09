@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20180808-2         amd64  utilities for f
 ii   gcc-8-base              8.2.0-7                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.19.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.19.1-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.10-2                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.10-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
@@ -129,8 +129,9 @@ ii   libfdisk1               2.32.1-0.1                   amd64  fdisk partition
 ii   libffi6                 3.2.1-8                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-7                    amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.14.1-6+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm-compat4         1.18-2                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm5                1.14.1-6+b1                  amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm6                1.18-2                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-1                       amd64  GnuPG development runtime library
