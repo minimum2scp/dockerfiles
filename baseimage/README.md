@@ -130,7 +130,6 @@ ii   libffi6                 3.2.1-8                      amd64  Foreign Functio
 ii   libgcc1                 1:8.2.0-7                    amd64  GCC support library
 ii   libgcrypt20             1.8.3-1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18-2                       amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm5                1.14.1-6+b1                  amd64  GNU dbm database routines (runtime version) 
 ii   libgdbm6                1.18-2                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
@@ -153,7 +152,7 @@ ii   libncurses6             6.1+20180714-1               amd64  shared librarie
 ii   libncursesw6            6.1+20180714-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.33.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.34.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -161,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.8                    all    Runtime support
 ii   libpam0g                1.1.8-3.8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.31-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.2-7                     amd64  shared Perl library
+ii   libperl5.26             5.26.2-7+b1                  amd64  shared Perl library
 ii   libpipeline1            1.5.0-1                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
@@ -201,7 +200,7 @@ ii   locales                 2.27-6                       all    GNU C Library: 
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                9.20170808                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.4-2                      amd64  on-line manual pager
+ii   man-db                  2.8.4-2+b1                   amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.61                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.32.1-0.1                   amd64  tools for mounting and manipulating filesystems
@@ -214,8 +213,8 @@ ii   openssh-server          1:7.8p1-1                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.8p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
-ii   perl                    5.26.2-7                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.2-7                     amd64  minimal Perl system
+ii   perl                    5.26.2-7+b1                  amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.26.2-7+b1                  amd64  minimal Perl system
 ii   perl-modules-5.26       5.26.2-7                     all    Core Perl modules
 ii   procps                  2:3.3.15-2                   amd64  /proc file system utilities
 ii   python                  2.7.15-3                     amd64  interactive high-level object-oriented language (Python2 version)
@@ -225,7 +224,7 @@ ii   python2-minimal         2.7.15-3                     amd64  minimal subset 
 ii   python2.7               2.7.15-4                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.15-4                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.38.0-1                     amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.38.0-1+b1                  amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                       amd64  run processes in parallel and multiplex their output
