@@ -26,7 +26,6 @@ I: Validating debconf 1.5.69
 I: Validating debian-archive-keyring 2017.7
 I: Validating debianutils 4.8.6
 I: Validating diffutils 1:3.6-1
-I: Retrieving dpkg 1.19.2
 I: Validating dpkg 1.19.2
 I: Validating e2fsprogs 1.44.4-2
 I: Validating libcom-err2 1.44.4-2
@@ -40,7 +39,6 @@ I: Validating libstdc++6 8.2.0-7
 I: Validating libc-bin 2.27-6
 I: Validating libc6 2.27-6
 I: Validating libgmp10 2:6.1.2+dfsg-3
-I: Retrieving gpgv 2.2.10-3
 I: Validating gpgv 2.2.10-3
 I: Validating libgnutls30 3.5.19-1+b1
 I: Validating grep 3.1-2
@@ -81,7 +79,8 @@ I: Validating libpam-modules-bin 1.1.8-3.8
 I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
-I: Validating perl-base 5.26.2-7
+I: Retrieving perl-base 5.26.2-7+b1
+I: Validating perl-base 5.26.2-7+b1
 I: Validating sed 4.5-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
@@ -385,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.51MB
+Sending build context to Docker daemon  29.52MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 32424e9eaf24
+ ---> 75a680992631
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 35b5df94f54b
-Removing intermediate container 35b5df94f54b
- ---> 3bd8bf9b31c0
-Successfully built 3bd8bf9b31c0
+ ---> Running in 87a5e05943a3
+Removing intermediate container 87a5e05943a3
+ ---> e683a0dbd0af
+Successfully built e683a0dbd0af
 Successfully tagged minimum2scp/debian:latest
