@@ -133,7 +133,7 @@ ii   libgdbm-compat4         1.18-2                       amd64  GNU dbm databas
 ii   libgdbm6                1.18-2                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.32-1                       amd64  GnuPG development runtime library
+ii   libgpg-error0           1.32-2                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16.1-1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
