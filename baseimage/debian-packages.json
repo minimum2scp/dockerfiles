@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.10",
+    "Version": "2.88dsf-59.11",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.10"
+    "source:Version": "2.88dsf-59.11"
   },
   {
     "Architecture": "amd64",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bum",
-    "Version": "2.88dsf-59.10",
+    "Version": "2.88dsf-59.11",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.10"
+    "source:Version": "2.88dsf-59.11"
   },
   {
     "Architecture": "amd64",
@@ -4626,7 +4626,7 @@
     "Depends": "initscripts (>= 2.88dsf-13.3), sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), libc6 (>= 2.15), libselinux1 (>= 1.32), libsepol1 (>= 2.4), debconf (>= 0.5) | debconf-2.0, debianutils (>= 4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "225",
+    "Installed-Size": "249",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4637,7 +4637,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.88dsf-59.10",
+    "Version": "2.88dsf-59.11",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.10"
+    "source:Version": "2.88dsf-59.11"
   },
   {
     "Architecture": "amd64",
@@ -4654,7 +4654,7 @@
     "Depends": "libc6 (>= 2.14), init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "110",
+    "Installed-Size": "122",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.88dsf-59.10",
+    "Version": "2.88dsf-59.11",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.88dsf-59.10"
+    "source:Version": "2.88dsf-59.11"
   },
   {
     "Architecture": "amd64",
