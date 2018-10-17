@@ -164,7 +164,7 @@ ii   libperl5.26             5.26.2-7+b1                  amd64  shared Perl lib
 ii   libpipeline1            1.5.0-1                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
-ii   libpsl5                 0.20.2-1                     amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.15-3                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.15-3                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2.7-minimal    2.7.15-4                     amd64  Minimal subset of the Python language (version 2.7)
