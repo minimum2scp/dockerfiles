@@ -148,8 +148,8 @@ ii   liblz4-1                1.8.2-1                      amd64  Fast LZ compres
 ii   liblzma5                5.2.2-1.3                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.32.1-0.1                   amd64  device mounting library
-ii   libncurses6             6.1+20180714-1               amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20180714-1               amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20181013-1               amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.34.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
@@ -188,7 +188,7 @@ ii   libssl1.1               1.1.1-1                      amd64  Secure Sockets 
 ii   libstdc++6              8.2.0-8                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-10                       amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20180714-1               amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                239-10                       amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.1                   amd64  Universally Unique ID library
@@ -204,8 +204,8 @@ ii   man-db                  2.8.4-2+b1                   amd64  on-line manual 
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.61                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.32.1-0.1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20180714-1               all    basic terminal type definitions
-ii   ncurses-bin             6.1+20180714-1               amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-1               all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.4                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.8p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
@@ -233,7 +233,7 @@ ii   sysv-rc                 2.88dsf-59.11                all    System-V-like r
 ii   sysvinit-core           2.88dsf-59.11                amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.11                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018e-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2018f-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.32.1-0.1                   amd64  miscellaneous system utilities
