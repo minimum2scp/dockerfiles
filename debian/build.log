@@ -53,7 +53,8 @@ I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-8
 I: Validating libgcrypt20 1.8.3-1
-I: Validating libgpg-error0 1.32-2
+I: Retrieving libgpg-error0 1.32-3
+I: Validating libgpg-error0 1.32-3
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-3
@@ -66,13 +67,9 @@ I: Validating libunistring2 0.9.10-1
 I: Validating libzstd1 1.3.5+dfsg-1
 I: Validating liblz4-1 1.8.2-1
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw6 6.1+20181013-1
 I: Validating libncursesw6 6.1+20181013-1
-I: Retrieving libtinfo6 6.1+20181013-1
 I: Validating libtinfo6 6.1+20181013-1
-I: Retrieving ncurses-base 6.1+20181013-1
 I: Validating ncurses-base 6.1+20181013-1
-I: Retrieving ncurses-bin 6.1+20181013-1
 I: Validating ncurses-bin 6.1+20181013-1
 I: Validating netbase 5.4
 I: Validating libhogweed4 3.4-1
@@ -91,7 +88,6 @@ I: Validating libsystemd0 239-10
 I: Validating libudev1 239-10
 I: Validating sysvinit-utils 2.88dsf-59.11
 I: Validating tar 1.30+dfsg-2
-I: Retrieving tzdata 2018f-1
 I: Validating tzdata 2018f-1
 I: Validating bsdutils 1:2.32.1-0.1
 I: Validating fdisk 2.32.1-0.1
@@ -388,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.44MB
+Sending build context to Docker daemon  29.46MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a95440e4977c
+ ---> 197d06cb2d23
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a940da7e0371
-Removing intermediate container a940da7e0371
- ---> 539320fab6e5
-Successfully built 539320fab6e5
+ ---> Running in 6c311ed283f6
+Removing intermediate container 6c311ed283f6
+ ---> b189a71610d4
+Successfully built b189a71610d4
 Successfully tagged minimum2scp/debian:latest
