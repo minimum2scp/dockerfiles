@@ -33,8 +33,8 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.5.1',
-        desc: 'ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]',
+        ruby: '2.5.3',
+        desc: 'ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]',
         rubygems_version: '2.7.6',
         gems: [
           {name: 'bundler', version: '1.16.6', default: false},
@@ -43,9 +43,9 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.4.4',
-        desc: 'ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]',
-        rubygems_version: '2.6.14.1',
+        ruby: '2.4.5',
+        desc: 'ruby 2.4.5p335 (2018-10-18 revision 65137) [x86_64-linux]',
+        rubygems_version: '2.6.14.3',
         gems: [
           {name: 'bundler', version: '1.16.6'},
           {name: 'pry'}
@@ -53,8 +53,8 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.3.7',
-        desc: 'ruby 2.3.7p456 (2018-03-28 revision 63024) [x86_64-linux]',
+        ruby: '2.3.8',
+        desc: 'ruby 2.3.8p459 (2018-10-18 revision 65136) [x86_64-linux]',
         rubygems_version: '2.5.2.3',
         gems: [
           {name: 'bundler', version: '1.16.6'},
