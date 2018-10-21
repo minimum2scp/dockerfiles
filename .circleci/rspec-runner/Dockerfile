@@ -1,4 +1,4 @@
-FROM ruby:2.5.1-slim-stretch
+FROM ruby:2.5.3-slim-stretch
 
 COPY Gemfile Gemfile.lock Rakefile .rspec /usr/src/app/
 COPY spec                                 /usr/src/app/spec/
