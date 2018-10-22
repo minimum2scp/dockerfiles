@@ -37,7 +37,7 @@ ii   diffutils               1:3.6-1               amd64  File comparison utilit
 ii   dpkg                    1.19.2                amd64  Debian package management system
 ii   e2fsprogs               1.44.4-2              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.32.1-0.1            amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20180808-2  amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20181018-1  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-8               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.10-3              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
