@@ -85,7 +85,7 @@ ii   dpkg                    1.19.2                       amd64  Debian package 
 ii   e2fsprogs               1.44.4-2                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.8-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.1                   amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20180808-2         amd64  utilities for finding files--find, xargs
+ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-8                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.19.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.19.1-1                   all    fast, scalable, distributed revision control system (manual pages)
@@ -183,7 +183,6 @@ ii   libsmartcols1           2.32.1-0.1                   amd64  smart column ou
 ii   libsqlite3-0            3.25.2-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.4-2                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2o-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-8                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-10                       amd64  systemd utility library
@@ -208,9 +207,9 @@ ii   ncurses-base            6.1+20181013-1               all    basic terminal 
 ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.4                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.8p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.8p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.8p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.9p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.26.2-7+b1                  amd64  Larry Wall's Practical Extraction and Report Language
