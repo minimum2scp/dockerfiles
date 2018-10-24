@@ -633,7 +633,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.54",
+    "Version": "1.55",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.54"
+    "source:Version": "1.55"
   },
   {
     "Architecture": "amd64",
@@ -2131,10 +2131,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "iptables (<< 1.4.16.3-3), libxtables11 (>= 1.6.0+snapshot20161117-1)",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "139",
+    "Installed-Size": "145",
     "Origin": "",
     "Package": "libxtables12",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.6.2-1.1",
+    "Version": "1.8.1-1",
     "binary:Package": "libxtables12:amd64",
     "binary:Summary": "netfilter xtables library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iptables",
-    "source:Version": "1.6.2-1.1"
+    "source:Version": "1.8.1-1"
   },
   {
     "Architecture": "amd64",

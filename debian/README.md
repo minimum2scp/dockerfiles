@@ -44,7 +44,7 @@ ii   grep                    3.1-2                 amd64  GNU grep, egrep and fg
 ii   gzip                    1.9-2.1               amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5             amd64  ICMP echo tool
-ii   init-system-helpers     1.54                  all    helper tools for all init systems
+ii   init-system-helpers     1.55                  all    helper tools for all init systems
 ii   iproute2                4.18.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.7.0                 amd64  package management runtime library
@@ -98,7 +98,7 @@ ii   libtinfo6               6.1+20181013-1        amd64  shared low-level termi
 ii   libudev1                239-10                amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.1            amd64  Universally Unique ID library
-ii   libxtables12            1.6.2-1.1             amd64  netfilter xtables library
+ii   libxtables12            1.8.1-1               amd64  netfilter xtables library
 ii   libzstd1                1.3.5+dfsg-1          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1.1             amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
