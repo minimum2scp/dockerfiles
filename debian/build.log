@@ -45,11 +45,10 @@ I: Validating grep 3.1-2
 I: Validating gzip 1.9-2.1
 I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
-I: Retrieving init-system-helpers 1.55
 I: Validating init-system-helpers 1.55
 I: Validating iproute2 4.18.0-2
-I: Retrieving libxtables12 1.8.1-1
-I: Validating libxtables12 1.8.1-1
+I: Retrieving libxtables12 1.8.1-2
+I: Validating libxtables12 1.8.1-2
 I: Validating libcap-ng0 0.7.9-1
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
@@ -385,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.46MB
+Sending build context to Docker daemon  29.44MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8fc80d564a02
+ ---> 03fefb892d74
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 97476b804582
-Removing intermediate container 97476b804582
- ---> c08cfd11a252
-Successfully built c08cfd11a252
+ ---> Running in f58c8c4ef8cf
+Removing intermediate container f58c8c4ef8cf
+ ---> 9cc663e4242e
+Successfully built 9cc663e4242e
 Successfully tagged minimum2scp/debian:latest
