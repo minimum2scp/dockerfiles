@@ -128,9 +128,9 @@ ii   libfastjson4            0.99.8-2                     amd64  fast json libra
 ii   libfdisk1               2.32.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-8                    amd64  GCC support library
-ii   libgcrypt20             1.8.3-1                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18-2                       amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18-2                       amd64  GNU dbm database routines (runtime version) 
+ii   libgcrypt20             1.8.4-2                      amd64  LGPL Crypto library - runtime library
+ii   libgdbm-compat4         1.18.1-1                     amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.18.1-1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-3                       amd64  GnuPG development runtime library
@@ -158,10 +158,10 @@ ii   libpam-modules          1.1.8-3.8                    amd64  Pluggable Authe
 ii   libpam-modules-bin      1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.8                    all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.8                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.31-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.32-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.26             5.26.2-7+b1                  amd64  shared Perl library
-ii   libpipeline1            1.5.0-1                      amd64  pipeline manipulation library
+ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
@@ -232,7 +232,7 @@ ii   sysv-rc                 2.88dsf-59.11                all    System-V-like r
 ii   sysvinit-core           2.88dsf-59.11                amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.11                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018f-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2018g-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.32.1-0.1                   amd64  miscellaneous system utilities
