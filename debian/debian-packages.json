@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1333",
+    "Installed-Size": "1342",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.3-1",
+    "Version": "1.8.4-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.3-1"
+    "source:Version": "1.8.4-2"
   },
   {
     "Architecture": "amd64",
@@ -2498,7 +2498,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3020",
+    "Installed-Size": "3018",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018f-1",
+    "Version": "2018g-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2018f-1"
+    "source:Version": "2018g-1"
   },
   {
     "Architecture": "amd64",

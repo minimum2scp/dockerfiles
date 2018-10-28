@@ -66,7 +66,7 @@ ii   libext2fs2              1.44.4-2              amd64  ext2/ext3/ext4 file sy
 ii   libfdisk1               2.32.1-0.1            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-8             amd64  GCC support library
-ii   libgcrypt20             1.8.3-1               amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-2               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1           amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-3                amd64  GnuPG development runtime library
@@ -111,7 +111,7 @@ ii   perl-base               5.26.2-7+b1           amd64  minimal Perl system
 ii   sed                     4.5-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.11         amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-2           amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018f-1               all    time zone and daylight-saving time data
+ii   tzdata                  2018g-1               all    time zone and daylight-saving time data
 ii   util-linux              2.32.1-0.1            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
 ```

@@ -47,13 +47,13 @@ I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.55
 I: Validating iproute2 4.18.0-2
-I: Retrieving libxtables12 1.8.1-2
 I: Validating libxtables12 1.8.1-2
 I: Validating libcap-ng0 0.7.9-1
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-8
-I: Validating libgcrypt20 1.8.3-1
+I: Retrieving libgcrypt20 1.8.4-2
+I: Validating libgcrypt20 1.8.4-2
 I: Validating libgpg-error0 1.32-3
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
@@ -88,7 +88,8 @@ I: Validating libsystemd0 239-10
 I: Validating libudev1 239-10
 I: Validating sysvinit-utils 2.88dsf-59.11
 I: Validating tar 1.30+dfsg-2
-I: Validating tzdata 2018f-1
+I: Retrieving tzdata 2018g-1
+I: Validating tzdata 2018g-1
 I: Validating bsdutils 1:2.32.1-0.1
 I: Validating fdisk 2.32.1-0.1
 I: Validating libblkid1 2.32.1-0.1
@@ -384,14 +385,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.44MB
+Sending build context to Docker daemon  29.45MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 03fefb892d74
+ ---> 0b2a6bcaa034
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in f58c8c4ef8cf
-Removing intermediate container f58c8c4ef8cf
- ---> 9cc663e4242e
-Successfully built 9cc663e4242e
+ ---> Running in 45500418ba96
+Removing intermediate container 45500418ba96
+ ---> 40d5ee42d6c9
+Successfully built 40d5ee42d6c9
 Successfully tagged minimum2scp/debian:latest
