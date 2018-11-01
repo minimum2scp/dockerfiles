@@ -75,7 +75,7 @@ ii   bsdutils                1:2.32.1-0.1                 amd64  basic utilities
 ii   ca-certificates         20180409                     all    Common CA certificates
 ii   coreutils               8.30-1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-130                   amd64  process scheduling daemon
-ii   curl                    7.61.0-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.62.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-1                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.69                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
@@ -114,8 +114,8 @@ ii   libcap-ng0              0.7.9-1                      amd64  An alternate PO
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.4-2                     amd64  common error description library
-ii   libcurl3-gnutls         7.61.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.61.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.62.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.62.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.245                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1               amd64  BSD editline and history libraries
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.8                    all    Runtime support
 ii   libpam0g                1.1.8-3.8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.26             5.26.2-7+b1                  amd64  shared Perl library
+ii   libperl5.28             5.28.0-3                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
@@ -212,9 +212,9 @@ ii   openssh-server          1:7.9p1-1                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.9p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
-ii   perl                    5.26.2-7+b1                  amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.26.2-7+b1                  amd64  minimal Perl system
-ii   perl-modules-5.26       5.26.2-7                     all    Core Perl modules
+ii   perl                    5.28.0-3                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.28.0-3                     amd64  minimal Perl system
+ii   perl-modules-5.28       5.28.0-3                     all    Core Perl modules
 ii   procps                  2:3.3.15-2                   amd64  /proc file system utilities
 ii   python                  2.7.15-3                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python-minimal          2.7.15-3                     amd64  minimal subset of the Python2 language
@@ -223,7 +223,7 @@ ii   python2-minimal         2.7.15-3                     amd64  minimal subset 
 ii   python2.7               2.7.15-4                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.15-4                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.38.0-1+b1                  amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.39.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                       amd64  run processes in parallel and multiplex their output
