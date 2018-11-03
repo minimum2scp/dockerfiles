@@ -62,7 +62,7 @@ describe 'minimum2scp/baseimage-jessie' do
     end
 
     describe file("/etc/localtime") do
-      its(:md5sum){ should eq '875222afc40fb57fdab0217f61908397' }
+      its(:md5sum){ should eq '739c841cd6960980c0056089a30b9ce4' }
     end
 
     describe file("/etc/locale.nopurge") do
