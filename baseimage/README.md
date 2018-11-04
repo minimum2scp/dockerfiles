@@ -141,7 +141,7 @@ ii   libk5crypto3            1.16.1-1                     amd64  MIT Kerberos ru
 ii   libkeyutils1            1.5.9-9.3                    amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.16.1-1                     amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.16.1-1                     amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.46+dfsg-5                amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.46+dfsg-5+b1             amd64  OpenLDAP libraries
 ii   libldap-common          2.4.46+dfsg-5                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.2-1                      amd64  Fast LZ compression algorithm library - runtime
@@ -237,9 +237,9 @@ ii   ucf                     3.0038                       all    Update Configur
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.32.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0320-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0320-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.1.0320-1+b1              amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0320-1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0320-1+b1              amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.6.2-3                      amd64  shell with lots of features
 ii   zsh-common              5.6.2-3                      all    architecture independent files for Zsh
