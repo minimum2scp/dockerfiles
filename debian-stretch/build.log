@@ -16,7 +16,6 @@ I: Validating libapt-pkg5.0 1.4.8
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u5
 I: Validating base-files 9.9+deb9u5
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
@@ -29,7 +28,6 @@ I: Validating debconf 1.5.61
 I: Validating debian-archive-keyring 2017.5
 I: Validating debianutils 4.8.1.1
 I: Validating diffutils 1:3.5-3
-I: Retrieving dpkg 1.18.25
 I: Validating dpkg 1.18.25
 I: Validating e2fslibs 1.43.4-2
 I: Validating e2fsprogs 1.43.4-2
@@ -43,7 +41,6 @@ I: Validating libstdc++6 6.3.0-18+deb9u1
 I: Validating libc-bin 2.24-11+deb9u3
 I: Validating libc6 2.24-11+deb9u3
 I: Validating multiarch-support 2.24-11+deb9u3
-I: Retrieving gpgv 2.1.18-8~deb9u2
 I: Validating gpgv 2.1.18-8~deb9u2
 I: Validating grep 2.27-2
 I: Validating gzip 1.6-5+b1
@@ -52,7 +49,6 @@ I: Validating inetutils-ping 2:1.9.4-2+b1
 I: Validating init-system-helpers 1.48
 I: Validating iproute2 4.9.0-1+deb9u1
 I: Validating libcap-ng0 0.7.7-3+b1
-I: Retrieving libgcrypt20 1.7.6-2+deb9u3
 I: Validating libgcrypt20 1.7.6-2+deb9u3
 I: Validating libgpg-error0 1.26-2
 I: Validating libmnl0 1.0.4-2
@@ -73,36 +69,24 @@ I: Validating libpam-modules-bin 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3+deb9u4
 I: Validating perl-base 5.24.1-3+deb9u4
 I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
 I: Validating login 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u4
 I: Validating libsystemd0 232-25+deb9u4
-I: Retrieving libudev1 232-25+deb9u4
 I: Validating libudev1 232-25+deb9u4
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2018e-0+deb9u1
 I: Validating tzdata 2018e-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
-I: Retrieving bsdutils 1:2.29.2-1+deb9u1
 I: Validating bsdutils 1:2.29.2-1+deb9u1
-I: Retrieving libblkid1 2.29.2-1+deb9u1
 I: Validating libblkid1 2.29.2-1+deb9u1
-I: Retrieving libfdisk1 2.29.2-1+deb9u1
 I: Validating libfdisk1 2.29.2-1+deb9u1
-I: Retrieving libmount1 2.29.2-1+deb9u1
 I: Validating libmount1 2.29.2-1+deb9u1
-I: Retrieving libsmartcols1 2.29.2-1+deb9u1
 I: Validating libsmartcols1 2.29.2-1+deb9u1
-I: Retrieving libuuid1 2.29.2-1+deb9u1
 I: Validating libuuid1 2.29.2-1+deb9u1
-I: Retrieving mount 2.29.2-1+deb9u1
 I: Validating mount 2.29.2-1+deb9u1
-I: Retrieving util-linux 2.29.2-1+deb9u1
 I: Validating util-linux 2.29.2-1+deb9u1
 I: Validating liblzma5 5.2.2-1.2+b1
 I: Validating zlib1g 1:1.2.8.dfsg-5
@@ -351,10 +335,10 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
 Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:3 http://ftp.jp.debian.org/debian stretch Release
-Get:4 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [5516 B]
+Get:4 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [5476 B]
 Get:6 http://security.debian.org stretch/updates InRelease [94.3 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [564 kB]
-Fetched 755 kB in 0s (788 kB/s)
+Get:7 http://security.debian.org stretch/updates/main amd64 Packages [566 kB]
+Fetched 757 kB in 1s (513 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -363,21 +347,21 @@ The following packages will be upgraded:
   tzdata
 1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 270 kB of archives.
-After this operation, 4096 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018f-0+deb9u1 [270 kB]
-Fetched 270 kB in 0s (1091 kB/s)
+After this operation, 1024 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018g-0+deb9u1 [270 kB]
+Fetched 270 kB in 0s (1108 kB/s)
 (Reading database ... 6487 files and directories currently installed.)
-Preparing to unpack .../tzdata_2018f-0+deb9u1_all.deb ...
-Unpacking tzdata (2018f-0+deb9u1) over (2018e-0+deb9u1) ...
-Setting up tzdata (2018f-0+deb9u1) ...
-Sending build context to Docker daemon  26.65MB
+Preparing to unpack .../tzdata_2018g-0+deb9u1_all.deb ...
+Unpacking tzdata (2018g-0+deb9u1) over (2018e-0+deb9u1) ...
+Setting up tzdata (2018g-0+deb9u1) ...
+Sending build context to Docker daemon  26.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 526d8287e89f
+ ---> e73a9bbac5d3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 0c196d261579
-Removing intermediate container 0c196d261579
- ---> cf45f4c38d8d
-Successfully built cf45f4c38d8d
+ ---> Running in a192833a529f
+Removing intermediate container a192833a529f
+ ---> eeb77c3e9eb5
+Successfully built eeb77c3e9eb5
 Successfully tagged minimum2scp/debian-stretch:latest
