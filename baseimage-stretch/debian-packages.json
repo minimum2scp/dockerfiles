@@ -283,7 +283,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u7), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u8), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "346",
@@ -297,7 +297,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u7",
+    "Version": "7.52.1-5+deb9u8",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u7"
+    "source:Version": "7.52.1-5+deb9u8"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u7",
+    "Version": "7.52.1-5+deb9u8",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u7"
+    "source:Version": "7.52.1-5+deb9u8"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u7",
+    "Version": "7.52.1-5+deb9u8",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u7"
+    "source:Version": "7.52.1-5+deb9u8"
   },
   {
     "Architecture": "amd64",
@@ -4542,7 +4542,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3017",
+    "Installed-Size": "3014",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018f-0+deb9u1",
+    "Version": "2018g-0+deb9u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2018f-0+deb9u1"
+    "source:Version": "2018g-0+deb9u1"
   },
   {
     "Architecture": "all",
