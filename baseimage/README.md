@@ -199,7 +199,7 @@ ii   locales                 2.27-8                       all    GNU C Library: 
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                9.20170808                   all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.4-2+b1                   amd64  on-line manual pager
+ii   man-db                  2.8.4-3                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.61                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.32.1-0.1                   amd64  tools for mounting and manipulating filesystems

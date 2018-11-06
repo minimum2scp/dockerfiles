@@ -3758,7 +3758,7 @@
     "Depends": "bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.27), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2498",
+    "Installed-Size": "2499",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3769,7 +3769,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.8.4-2+b1",
+    "Version": "2.8.4-3",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.8.4-2"
+    "source:Version": "2.8.4-3"
   },
   {
     "Architecture": "amd64",
