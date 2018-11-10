@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
 ii   apt                     1.4.8                           amd64  commandline package manager
-ii   base-files              9.9+deb9u5                      amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u6                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20161106-2            amd64  utilities fo
 ii   gcc-6-base              6.3.0-18+deb9u1                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.11.0-3+deb9u4               amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.11.0-3+deb9u4               all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.1.18-8~deb9u2                 amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-8~deb9u3                 amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                          amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                        amd64  GNU compression utilities
@@ -129,7 +129,7 @@ ii   libgcc1                 1:6.3.0-18+deb9u1               amd64  GCC support 
 ii   libgcrypt20             1.7.6-2+deb9u3                  amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                        amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-5+deb9u3                  amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-5+deb9u4                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                          amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1+deb9u1                   amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b2                        amd64  low level cryptographic library (public-key cryptos)
@@ -182,10 +182,10 @@ ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-
 ii   libssl1.0.2             1.0.2l-2+deb9u3                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0f-3+deb9u2                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                 amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-25+deb9u4                   amd64  systemd utility library
+ii   libsystemd0             232-25+deb9u6                   amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                 amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1+deb9u2           amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-25+deb9u4                   amd64  libudev shared library
+ii   libudev1                232-25+deb9u6                   amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1           amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                         amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1                 amd64  Universally Unique ID library
