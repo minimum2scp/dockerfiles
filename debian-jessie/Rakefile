@@ -30,10 +30,12 @@ task :mkimage  do
   debootstrap_options << 'jessie' << 'http://ftp.jp.debian.org/debian'
   debootstrap_options = debootstrap_options.join(' ')
   env = ENV.select{|k,v| ['TMPDIR', 'http_proxy'].include?(k) }.map{|k,v| "#{k}=#{v}"}.join(' ')
-  mkimage_sh = %W[
-    /usr/share/docker-ce/contrib/mkimage.sh
-    /usr/share/docker-engine/contrib/mkimage.sh
-    /usr/share/docker.io/contrib/mkimage.sh
+  mkimage_sh = [
+    "#{ENV.fetch('GOPATH', "#{ENV['HOME']}/go")}/src/github.com/moby/moby/contrib/mkimage.sh",
+    "#{ENV.fetch('GOPATH', "#{ENV['HOME']}/go")}/src/github.com/docker/docker-ce/components/engine/contrib/mkimage.sh",
+    '/usr/share/docker-ce/contrib/mkimage.sh',
+    '/usr/share/docker-engine/contrib/mkimage.sh',
+    '/usr/share/docker.io/contrib/mkimage.sh',
   ].find{|f| File.executable?(f) }
   unless mkimage_sh
     raise "mkimage.sh not found"
