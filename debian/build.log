@@ -9,10 +9,8 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.0~alpha1
-I: Validating apt 1.8.0~alpha1
-I: Retrieving libapt-pkg5.0 1.8.0~alpha1
-I: Validating libapt-pkg5.0 1.8.0~alpha1
+I: Validating apt 1.8.0~alpha2
+I: Validating libapt-pkg5.0 1.8.0~alpha2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
@@ -389,10 +387,10 @@ Sending build context to Docker daemon  29.62MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 65452a905f8b
+ ---> a1c816e69dd5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a39d2f18ee7b
-Removing intermediate container a39d2f18ee7b
- ---> 52dccd3c5a6c
-Successfully built 52dccd3c5a6c
+ ---> Running in e1f9197ce083
+Removing intermediate container e1f9197ce083
+ ---> 72600983e431
+Successfully built 72600983e431
 Successfully tagged minimum2scp/debian:latest
