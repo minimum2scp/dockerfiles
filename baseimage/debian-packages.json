@@ -38,7 +38,7 @@
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
-    "Priority": "important",
+    "Priority": "required",
     "Provides": "apt-transport-https (= 1.8.0~alpha2)",
     "Recommends": "ca-certificates",
     "Replace": "",
