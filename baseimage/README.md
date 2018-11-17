@@ -206,10 +206,10 @@ ii   mount                   2.32.1-0.2                   amd64  tools for mount
 ii   ncurses-base            6.1+20181013-1               all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
-ii   netbase                 5.4                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.9p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.9p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.9p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   netbase                 5.5                          all    Basic TCP/IP networking system
+ii   openssh-client          1:7.9p1-4                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-4                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.0-3                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -231,7 +231,7 @@ ii   sudo                    1.8.23-2                     amd64  Provide limited
 ii   sysv-rc                 2.88dsf-59.11                all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.11                amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.11                amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-2                  amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-3                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
