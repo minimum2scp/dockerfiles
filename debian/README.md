@@ -105,7 +105,7 @@ ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and
 ii   mount                   2.32.1-0.2            amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20181013-1        all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-1        amd64  terminal-related programs and man pages
-ii   netbase                 5.4                   all    Basic TCP/IP networking system
+ii   netbase                 5.5                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1             amd64  change and administer password and group data
 ii   perl-base               5.28.0-3              amd64  minimal Perl system
 ii   sed                     4.5-2                 amd64  GNU stream editor for filtering/transforming text
