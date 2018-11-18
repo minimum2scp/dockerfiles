@@ -1557,7 +1557,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17026-1",
+    "Version": "0.17027-1",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17026-1"
+    "source:Version": "0.17027-1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-11",
+    "Version": "239-12",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-11"
+    "source:Version": "239-12"
   },
   {
     "Architecture": "amd64",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-11",
+    "Version": "239-12",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-11"
+    "source:Version": "239-12"
   },
   {
     "Architecture": "amd64",

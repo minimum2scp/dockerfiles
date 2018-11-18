@@ -120,7 +120,7 @@ ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 D
 ii   libdebconfclient0       0.245                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.170-0.5                    amd64  library to read and write ELF files
-ii   liberror-perl           0.17026-1                    all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.4-2                     amd64  ext2/ext3/ext4 file system libraries
@@ -185,10 +185,10 @@ ii   libss2                  1.44.4-2                     amd64  command-line in
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-9                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-11                       amd64  systemd utility library
+ii   libsystemd0             239-12                       amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-11                       amd64  libudev shared library
+ii   libudev1                239-12                       amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.2                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
