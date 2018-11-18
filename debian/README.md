@@ -92,10 +92,10 @@ ii   libsepol1               2.8-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.32.1-0.2            amd64  smart column output alignment library
 ii   libss2                  1.44.4-2              amd64  command-line interface parsing library
 ii   libstdc++6              8.2.0-9               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-11                amd64  systemd utility library
+ii   libsystemd0             239-12                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-11                amd64  libudev shared library
+ii   libudev1                239-12                amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.2            amd64  Universally Unique ID library
 ii   libxtables12            1.8.2-1               amd64  netfilter xtables library
@@ -110,7 +110,7 @@ ii   passwd                  1:4.5-1.1             amd64  change and administer 
 ii   perl-base               5.28.0-3              amd64  minimal Perl system
 ii   sed                     4.5-2                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.88dsf-59.11         amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-2           amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-3           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-1               all    time zone and daylight-saving time data
 ii   util-linux              2.32.1-0.2            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
