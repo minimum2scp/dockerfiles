@@ -39,7 +39,8 @@ I: Validating libstdc++6 8.2.0-9
 I: Validating libc-bin 2.27-8
 I: Validating libc6 2.27-8
 I: Validating libgmp10 2:6.1.2+dfsg-3
-I: Validating gpgv 2.2.10-3
+I: Retrieving gpgv 2.2.11-1
+I: Validating gpgv 2.2.11-1
 I: Validating libgnutls30 3.5.19-1+b1
 I: Validating grep 3.1-2
 I: Validating gzip 1.9-2.1
@@ -83,12 +84,9 @@ I: Validating perl-base 5.28.0-3
 I: Validating sed 4.5-2
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 239-12
 I: Validating libsystemd0 239-12
-I: Retrieving libudev1 239-12
 I: Validating libudev1 239-12
 I: Validating sysvinit-utils 2.88dsf-59.11
-I: Retrieving tar 1.30+dfsg-3
 I: Validating tar 1.30+dfsg-3
 I: Validating tzdata 2018g-1
 I: Validating bsdutils 1:2.32.1-0.2
@@ -386,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.6MB
+Sending build context to Docker daemon  29.61MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 921d505bff58
+ ---> b8ba1e958f1f
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a516c5615529
-Removing intermediate container a516c5615529
- ---> b061aaa2f9d5
-Successfully built b061aaa2f9d5
+ ---> Running in fc0764ff7c44
+Removing intermediate container fc0764ff7c44
+ ---> 1fe5b1b65334
+Successfully built 1fe5b1b65334
 Successfully tagged minimum2scp/debian:latest
