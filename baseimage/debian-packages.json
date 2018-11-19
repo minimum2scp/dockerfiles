@@ -678,7 +678,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "832",
+    "Installed-Size": "835",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.10-3",
+    "Version": "2.2.11-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.10-3"
+    "source:Version": "2.2.11-1"
   },
   {
     "Architecture": "amd64",
@@ -4430,10 +4430,10 @@
     "Depends": "libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), liblognorm5 (>= 2.0.3), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1796",
+    "Installed-Size": "1801",
     "Origin": "",
     "Package": "rsyslog",
-    "Pre-Depends": "",
+    "Pre-Depends": "init-system-helpers (>= 1.54~)",
     "Priority": "important",
     "Provides": "linux-kernel-log-daemon, system-log-daemon",
     "Recommends": "logrotate",
@@ -4441,7 +4441,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.39.0-1",
+    "Version": "8.39.0-2",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.39.0-1"
+    "source:Version": "8.39.0-2"
   },
   {
     "Architecture": "amd64",
