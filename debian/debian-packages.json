@@ -1098,7 +1098,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "946",
+    "Installed-Size": "926",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.170-0.5",
+    "Version": "0.175-1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.170-0.5"
+    "source:Version": "0.175-1"
   },
   {
     "Architecture": "amd64",
@@ -2396,8 +2396,8 @@
     "Replace": "",
     "Section": "perl",
     "Status": "install ok installed",
-    "Suggests": "perl",
-    "Version": "5.28.0-3",
+    "Suggests": "perl, sensible-utils",
+    "Version": "5.28.0-4",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.28.0-3"
+    "source:Version": "5.28.0-4"
   },
   {
     "Architecture": "amd64",
