@@ -119,7 +119,7 @@ ii   libcurl4                7.62.0-1                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.245                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20180525-1               amd64  BSD editline and history libraries
-ii   libelf1                 0.170-0.5                    amd64  library to read and write ELF files
+ii   libelf1                 0.175-1                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.8                    all    Runtime support
 ii   libpam0g                1.1.8-3.8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.28             5.28.0-3                     amd64  shared Perl library
+ii   libperl5.28             5.28.0-4                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
@@ -194,7 +194,7 @@ ii   libuuid1                2.32.1-0.2                   amd64  Universally Uni
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.2-1                      amd64  netfilter xtables library
 ii   libzstd1                1.3.5+dfsg-1                 amd64  fast lossless compression algorithm
-ii   localepurge             0.7.3.4                      all    reclaim disk space by removing unneeded localizations
+ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.27-8                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                9.20170808                   all    Linux Standard Base init script functionality
@@ -212,9 +212,9 @@ ii   openssh-server          1:7.9p1-4                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.9p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
-ii   perl                    5.28.0-3                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.28.0-3                     amd64  minimal Perl system
-ii   perl-modules-5.28       5.28.0-3                     all    Core Perl modules
+ii   perl                    5.28.0-4                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.28.0-4                     amd64  minimal Perl system
+ii   perl-modules-5.28       5.28.0-4                     all    Core Perl modules
 ii   procps                  2:3.3.15-2                   amd64  /proc file system utilities
 ii   python                  2.7.15-3                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python-minimal          2.7.15-3                     amd64  minimal subset of the Python2 language
@@ -227,7 +227,7 @@ ii   rsyslog                 8.39.0-2                     amd64  reliable system
 ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.23-2                     amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.26-1                     amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.11                all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.11                amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.11                amd64  System-V-like utilities
