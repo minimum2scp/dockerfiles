@@ -1966,7 +1966,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "673",
+    "Installed-Size": "674",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.27), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614)",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-12",
+    "Version": "239-13",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-12"
+    "source:Version": "239-13"
   },
   {
     "Architecture": "amd64",
@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.26)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "227",
+    "Installed-Size": "228",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-12",
+    "Version": "239-13",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-12"
+    "source:Version": "239-13"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.2-1",
+    "Version": "1.8.2-2",
     "binary:Package": "libxtables12:amd64",
     "binary:Summary": "netfilter xtables library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iptables",
-    "source:Version": "1.8.2-1"
+    "source:Version": "1.8.2-2"
   },
   {
     "Architecture": "amd64",

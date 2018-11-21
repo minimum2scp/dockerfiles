@@ -31,7 +31,6 @@ I: Validating e2fsprogs 1.44.4-2
 I: Validating libcom-err2 1.44.4-2
 I: Validating libext2fs2 1.44.4-2
 I: Validating libss2 1.44.4-2
-I: Retrieving libelf1 0.175-1
 I: Validating libelf1 0.175-1
 I: Validating findutils 4.6.0+git+20181018-1
 I: Validating gcc-8-base 8.2.0-9
@@ -48,7 +47,8 @@ I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.55
 I: Validating iproute2 4.18.0-2
-I: Validating libxtables12 1.8.2-1
+I: Retrieving libxtables12 1.8.2-2
+I: Validating libxtables12 1.8.2-2
 I: Validating libcap-ng0 0.7.9-1
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
@@ -80,13 +80,14 @@ I: Validating libpam-modules-bin 1.1.8-3.8
 I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
-I: Retrieving perl-base 5.28.0-4
 I: Validating perl-base 5.28.0-4
 I: Validating sed 4.5-2
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 239-12
-I: Validating libudev1 239-12
+I: Retrieving libsystemd0 239-13
+I: Validating libsystemd0 239-13
+I: Retrieving libudev1 239-13
+I: Validating libudev1 239-13
 I: Validating sysvinit-utils 2.88dsf-59.11
 I: Validating tar 1.30+dfsg-3
 I: Validating tzdata 2018g-1
@@ -385,14 +386,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.59MB
+Sending build context to Docker daemon   29.6MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4822fc13f68e
+ ---> 68c7f363e359
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4e1cfb8b6904
-Removing intermediate container 4e1cfb8b6904
- ---> 8f17d8ec13cf
-Successfully built 8f17d8ec13cf
+ ---> Running in 46058cef5c50
+Removing intermediate container 46058cef5c50
+ ---> c011e75ab894
+Successfully built c011e75ab894
 Successfully tagged minimum2scp/debian:latest
