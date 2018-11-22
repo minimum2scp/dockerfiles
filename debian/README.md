@@ -44,7 +44,7 @@ ii   grep                    3.1-2                 amd64  GNU grep, egrep and fg
 ii   gzip                    1.9-2.1               amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5             amd64  ICMP echo tool
-ii   init-system-helpers     1.55                  all    helper tools for all init systems
+ii   init-system-helpers     1.56                  all    helper tools for all init systems
 ii   iproute2                4.18.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
 ii   libapt-pkg5.0           1.8.0~alpha2          amd64  package management runtime library
