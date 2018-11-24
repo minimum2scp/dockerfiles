@@ -59,12 +59,12 @@ I: Retrieving libelf1 0.175-1
 I: Validating libelf1 0.175-1
 I: Retrieving findutils 4.6.0+git+20181018-1
 I: Validating findutils 4.6.0+git+20181018-1
-I: Retrieving gcc-8-base 8.2.0-9
-I: Validating gcc-8-base 8.2.0-9
-I: Retrieving libgcc1 1:8.2.0-9
-I: Validating libgcc1 1:8.2.0-9
-I: Retrieving libstdc++6 8.2.0-9
-I: Validating libstdc++6 8.2.0-9
+I: Retrieving gcc-8-base 8.2.0-10
+I: Validating gcc-8-base 8.2.0-10
+I: Retrieving libgcc1 1:8.2.0-10
+I: Validating libgcc1 1:8.2.0-10
+I: Retrieving libstdc++6 8.2.0-10
+I: Validating libstdc++6 8.2.0-10
 I: Retrieving libc-bin 2.27-8
 I: Validating libc-bin 2.27-8
 I: Retrieving libc6 2.27-8
@@ -163,8 +163,8 @@ I: Retrieving libsystemd0 239-13
 I: Validating libsystemd0 239-13
 I: Retrieving libudev1 239-13
 I: Validating libudev1 239-13
-I: Retrieving sysvinit-utils 2.92~beta-1
-I: Validating sysvinit-utils 2.92~beta-1
+I: Retrieving sysvinit-utils 2.92~beta-2
+I: Validating sysvinit-utils 2.92~beta-2
 I: Retrieving tar 1.30+dfsg-3
 I: Validating tar 1.30+dfsg-3
 I: Retrieving tzdata 2018g-1
@@ -475,14 +475,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.76MB
+Sending build context to Docker daemon  29.75MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ef1216516157
+ ---> 753ec76ba630
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a429b4411a4c
-Removing intermediate container a429b4411a4c
- ---> f38de17a791d
-Successfully built f38de17a791d
+ ---> Running in ff9e394075fb
+Removing intermediate container ff9e394075fb
+ ---> 2722feccd6fc
+Successfully built 2722feccd6fc
 Successfully tagged minimum2scp/debian:latest
