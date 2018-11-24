@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.4-2                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.8-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.32.1-0.2                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-9                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.19.2-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.19.2-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
@@ -96,7 +96,7 @@ ii   gzip                    1.9-2.1                      amd64  GNU compression
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56                         all    helper tools for all init systems
-ii   initscripts             2.92~beta-1                  amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.92~beta-2                  amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
@@ -127,7 +127,7 @@ ii   libext2fs2              1.44.4-2                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.32.1-0.2                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-8                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-9                    amd64  GCC support library
+ii   libgcc1                 1:8.2.0-10                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-3                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-1                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-1                     amd64  GNU dbm database routines (runtime version) 
@@ -184,7 +184,7 @@ ii   libsqlite3-0            3.25.3-2                     amd64  SQLite 3 shared
 ii   libss2                  1.44.4-2                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-9                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-10                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-13                       amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
@@ -227,10 +227,10 @@ ii   rsyslog                 8.39.0-2                     amd64  reliable system
 ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.26-1                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.92~beta-1                  all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.92~beta-1                  amd64  System-V-like init utilities
-ii   sysvinit-utils          2.92~beta-1                  amd64  System-V-like utilities
+ii   sudo                    1.8.26-2                     amd64  Provide limited super user privileges to specific users
+ii   sysv-rc                 2.92~beta-2                  all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.92~beta-2                  amd64  System-V-like init utilities
+ii   sysvinit-utils          2.92~beta-2                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-3                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038                       all    Update Configuration File(s): preserve user changes to config files
