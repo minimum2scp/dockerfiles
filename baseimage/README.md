@@ -129,8 +129,8 @@ ii   libfdisk1               2.32.1-0.2                   amd64  fdisk partition
 ii   libffi6                 3.2.1-8                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-10                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-3                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18.1-1                     amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18.1-1                     amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-3                       amd64  GnuPG development runtime library
