@@ -87,8 +87,8 @@ ii   etckeeper               1.18.8-1                     all    store /etc in g
 ii   fdisk                   2.32.1-0.2                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.19.2-1                   amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.19.2-1                   all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.0~rc1-1               amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.0~rc1-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
@@ -152,7 +152,7 @@ ii   libncurses6             6.1+20181013-1               amd64  shared librarie
 ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.34.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.35.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
