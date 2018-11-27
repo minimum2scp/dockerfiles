@@ -110,7 +110,7 @@ ii   libbz2-1.0              1.0.6-9                      amd64  high-quality bl
 ii   libc-bin                2.27-8                       amd64  GNU C Library: Binaries
 ii   libc-l10n               2.27-8                       all    GNU C Library: localization files
 ii   libc6                   2.27-8                       amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-1                      amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-1+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.4-2                     amd64  common error description library
@@ -237,9 +237,9 @@ ii   ucf                     3.0038                       all    Update Configur
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.32.1-0.2                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0320-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0320-1+b1              amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.1.0320-1+b2              amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0320-1+b1              amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0320-1+b2              amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.6.2-3                      amd64  shell with lots of features
 ii   zsh-common              5.6.2-3                      all    architecture independent files for Zsh
