@@ -64,7 +64,7 @@ ii   libdebconfclient0       0.245                 amd64  Debian Configuration M
 ii   libelf1                 0.175-1               amd64  library to read and write ELF files
 ii   libext2fs2              1.44.4-2              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.32.1-0.2            amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-8               amd64  Foreign Function Interface library runtime
+ii   libffi6                 3.2.1-9               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-10            amd64  GCC support library
 ii   libgcrypt20             1.8.4-3               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-3        amd64  Multiprecision arithmetic library
