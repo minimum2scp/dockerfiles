@@ -107,9 +107,9 @@ ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library
 ii   libblkid1               2.32.1-0.2                   amd64  block device ID library
 ii   libbsd0                 0.9.1-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.27-8                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.27-8                       all    GNU C Library: localization files
-ii   libc6                   2.27-8                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-1                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-1                       all    GNU C Library: localization files
+ii   libc6                   2.28-1                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
@@ -167,8 +167,8 @@ ii   libprocps7              2:3.3.15-2                   amd64  library for acc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.15-3                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.15-3                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.15-4                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.15-4                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.15-5                     amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.15-5                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~rc8-1                 amd64  Cyrus SASL - authentication abstraction library
@@ -195,9 +195,9 @@ ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's
 ii   libxtables12            1.8.2-2                      amd64  netfilter xtables library
 ii   libzstd1                1.3.5+dfsg-1                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.27-8                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-1                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
-ii   lsb-base                9.20170808                   all    Linux Standard Base init script functionality
+ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.4-3                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
@@ -220,8 +220,8 @@ ii   python                  2.7.15-3                     amd64  interactive hig
 ii   python-minimal          2.7.15-3                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.15-3                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python2-minimal         2.7.15-3                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.15-4                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.15-4                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.15-5                     amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.15-5                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.39.0-2                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
