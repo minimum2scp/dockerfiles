@@ -36,9 +36,7 @@ I: Validating findutils 4.6.0+git+20181018-1
 I: Validating gcc-8-base 8.2.0-10
 I: Validating libgcc1 1:8.2.0-10
 I: Validating libstdc++6 8.2.0-10
-I: Retrieving libc-bin 2.28-1
 I: Validating libc-bin 2.28-1
-I: Retrieving libc6 2.28-1
 I: Validating libc6 2.28-1
 I: Validating libgmp10 2:6.1.2+dfsg-3
 I: Validating gpgv 2.2.11-1
@@ -81,7 +79,8 @@ I: Validating libpam-modules-bin 1.1.8-3.8
 I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
-I: Validating perl-base 5.28.0-4
+I: Retrieving perl-base 5.28.1-1
+I: Validating perl-base 5.28.1-1
 I: Validating sed 4.5-2
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
@@ -385,14 +384,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.54MB
+Sending build context to Docker daemon  29.57MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b1b79b10a171
+ ---> 9c0e6ca8d08c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7f2009b02f3d
-Removing intermediate container 7f2009b02f3d
- ---> fe1a1b86d8f3
-Successfully built fe1a1b86d8f3
+ ---> Running in b7a2b81db11e
+Removing intermediate container b7a2b81db11e
+ ---> ed03811bd9de
+Successfully built ed03811bd9de
 Successfully tagged minimum2scp/debian:latest
