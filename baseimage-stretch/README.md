@@ -158,7 +158,7 @@ ii   libpam-modules-bin      1.1.8-3.6                       amd64  Pluggable Au
 ii   libpam-runtime          1.1.8-3.6                       all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                       amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-3                        amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1-3+deb9u4                 amd64  shared Perl library
+ii   libperl5.24             5.24.1-3+deb9u5                 amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                         amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                      amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3+deb9u1               amd64  library for accessing process information from /proc
@@ -180,7 +180,7 @@ ii   libsqlite3-0            3.16.2-5+deb9u1                 amd64  SQLite 3 sha
 ii   libss2                  1.43.4-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1                         amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2l-2+deb9u3                 amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0f-3+deb9u2                 amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0j-1~deb9u1                 amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                 amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u6                   amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                 amd64  Manage ASN.1 structures (runtime)
@@ -207,11 +207,11 @@ ii   netbase                 5.4                             all    Basic TCP/IP
 ii   openssh-client          1:7.4p1-10+deb9u4               amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u4               amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u4               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0f-3+deb9u2                 amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0j-1~deb9u1                 amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                       amd64  change and administer password and group data
-ii   perl                    5.24.1-3+deb9u4                 amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1-3+deb9u4                 amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1-3+deb9u4                 all    Core Perl modules
+ii   perl                    5.24.1-3+deb9u5                 amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.24.1-3+deb9u5                 amd64  minimal Perl system
+ii   perl-modules-5.24       5.24.1-3+deb9u5                 all    Core Perl modules
 ii   procps                  2:3.3.12-3+deb9u1               amd64  /proc file system utilities
 ii   python                  2.7.13-2                        amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                        amd64  minimal subset of the Python language (default version)
