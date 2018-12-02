@@ -131,7 +131,7 @@ ii   libgcc1                 1:8.2.0-10                   amd64  GCC support lib
 ii   libgcrypt20             1.8.4-3                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                2:6.1.2+dfsg-3               amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-3                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16.1-1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -180,15 +180,15 @@ ii   libsemanage1            2.8-1+b1                     amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.32.1-0.2                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.25.3-2                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.26.0-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.4-2                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-10                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-13                       amd64  systemd utility library
+ii   libsystemd0             239-14                       amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-13                       amd64  libudev shared library
+ii   libudev1                239-14                       amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.2                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
