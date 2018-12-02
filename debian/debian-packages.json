@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "573",
+    "Installed-Size": "565",
     "Origin": "",
     "Package": "libgmp10",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.1.2+dfsg-3",
+    "Version": "2:6.1.2+dfsg-4",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.1.2+dfsg-3"
+    "source:Version": "2:6.1.2+dfsg-4"
   },
   {
     "Architecture": "amd64",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-13",
+    "Version": "239-14",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-13"
+    "source:Version": "239-14"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "239-13",
+    "Version": "239-14",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "239-13"
+    "source:Version": "239-14"
   },
   {
     "Architecture": "amd64",
