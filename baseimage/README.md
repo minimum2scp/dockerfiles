@@ -87,8 +87,8 @@ ii   etckeeper               1.18.8-1                     all    store /etc in g
 ii   fdisk                   2.32.1-0.2                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.0~rc1-1               amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.0~rc1-1               all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.0~rc2-1               amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.0~rc2-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-2                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
@@ -128,7 +128,7 @@ ii   libfastjson4            0.99.8-2                     amd64  fast json libra
 ii   libfdisk1               2.32.1-0.2                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-10                   amd64  GCC support library
-ii   libgcrypt20             1.8.4-3                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-4                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
