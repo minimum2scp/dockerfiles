@@ -90,13 +90,13 @@ ii   gcc-8-base              8.2.0-10                     amd64  GCC, the GNU Co
 ii   git                     1:2.20.0~rc2-1               amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.0~rc2-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.1-2                        amd64  GNU grep, egrep and fgrep
+ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56                         all    helper tools for all init systems
-ii   initscripts             2.92~beta-2                  amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.93-1                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.1.8-3.8                    all    Runtime support
 ii   libpam0g                1.1.8-3.8                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.28             5.28.1-1                     amd64  shared Perl library
+ii   libperl5.28             5.28.1-2                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
@@ -212,9 +212,9 @@ ii   openssh-server          1:7.9p1-4                    amd64  secure shell (S
 ii   openssh-sftp-server     1:7.9p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1a-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
-ii   perl                    5.28.1-1                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.28.1-1                     amd64  minimal Perl system
-ii   perl-modules-5.28       5.28.1-1                     all    Core Perl modules
+ii   perl                    5.28.1-2                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.28.1-2                     amd64  minimal Perl system
+ii   perl-modules-5.28       5.28.1-2                     all    Core Perl modules
 ii   procps                  2:3.3.15-2                   amd64  /proc file system utilities
 ii   python                  2.7.15-3                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python-minimal          2.7.15-3                     amd64  minimal subset of the Python2 language
@@ -228,9 +228,9 @@ ii   sed                     4.5-2                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-4                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.26-2                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.92~beta-2                  all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.92~beta-2                  amd64  System-V-like init utilities
-ii   sysvinit-utils          2.92~beta-2                  amd64  System-V-like utilities
+ii   sysv-rc                 2.93-1                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.93-1                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.93-1                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-3                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038                       all    Update Configuration File(s): preserve user changes to config files
