@@ -40,7 +40,7 @@ ii   fdisk                   2.32.1-0.2            amd64  collection of partitio
 ii   findutils               4.6.0+git+20181018-1  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-10              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.11-1              amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.1-2                 amd64  GNU grep, egrep and fgrep
+ii   grep                    3.1-3                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-2.1               amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5             amd64  ICMP echo tool
@@ -107,9 +107,9 @@ ii   ncurses-base            6.1+20181013-1        all    basic terminal type de
 ii   ncurses-bin             6.1+20181013-1        amd64  terminal-related programs and man pages
 ii   netbase                 5.5                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1             amd64  change and administer password and group data
-ii   perl-base               5.28.1-1              amd64  minimal Perl system
+ii   perl-base               5.28.1-2              amd64  minimal Perl system
 ii   sed                     4.5-2                 amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.92~beta-2           amd64  System-V-like utilities
+ii   sysvinit-utils          2.93-1                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-3           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-1               all    time zone and daylight-saving time data
 ii   util-linux              2.32.1-0.2            amd64  miscellaneous system utilities
