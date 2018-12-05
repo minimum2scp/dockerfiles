@@ -135,7 +135,7 @@ ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision 
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.32-3                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16.1-1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.4-1                        amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4.1~rc1-1                  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.16.1-1                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9.3                    amd64  Linux Key Management Utilities (library)
@@ -150,7 +150,7 @@ ii   libmnl0                 1.0.4-2                      amd64  minimalistic Ne
 ii   libmount1               2.32.1-0.2                   amd64  device mounting library
 ii   libncurses6             6.1+20181013-1               amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4.1~rc1-1                  amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.35.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -192,7 +192,7 @@ ii   libudev1                239-14                       amd64  libudev shared 
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.32.1-0.2                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.2-2                      amd64  netfilter xtables library
+ii   libxtables12            1.8.2-2+b1                   amd64  netfilter xtables library
 ii   libzstd1                1.3.5+dfsg-1                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-1                       all    GNU C Library: National Language (locale) data [support]
