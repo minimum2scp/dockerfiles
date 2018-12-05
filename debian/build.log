@@ -41,14 +41,14 @@ I: Validating libc6 2.28-1
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.11-1
 I: Validating libgnutls30 3.5.19-1+b1
-I: Retrieving grep 3.1-3
 I: Validating grep 3.1-3
 I: Validating gzip 1.9-2.1
 I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.56
 I: Validating iproute2 4.18.0-2
-I: Validating libxtables12 1.8.2-2
+I: Retrieving libxtables12 1.8.2-2+b1
+I: Validating libxtables12 1.8.2-2+b1
 I: Validating libcap-ng0 0.7.9-1+b1
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
@@ -72,22 +72,22 @@ I: Validating libtinfo6 6.1+20181013-1
 I: Validating ncurses-base 6.1+20181013-1
 I: Validating ncurses-bin 6.1+20181013-1
 I: Validating netbase 5.5
-I: Validating libhogweed4 3.4-1
-I: Validating libnettle6 3.4-1
+I: Retrieving libhogweed4 3.4.1~rc1-1
+I: Validating libhogweed4 3.4.1~rc1-1
+I: Retrieving libnettle6 3.4.1~rc1-1
+I: Validating libnettle6 3.4.1~rc1-1
 I: Validating libp11-kit0 0.23.14-2
 I: Validating libpam-modules 1.1.8-3.8
 I: Validating libpam-modules-bin 1.1.8-3.8
 I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
-I: Retrieving perl-base 5.28.1-2
 I: Validating perl-base 5.28.1-2
 I: Validating sed 4.5-2
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
 I: Validating libsystemd0 239-14
 I: Validating libudev1 239-14
-I: Retrieving sysvinit-utils 2.93-1
 I: Validating sysvinit-utils 2.93-1
 I: Validating tar 1.30+dfsg-3
 I: Validating tzdata 2018g-1
@@ -390,10 +390,10 @@ Sending build context to Docker daemon  29.55MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6781a440e7d5
+ ---> c198a51d4287
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4a975fae651f
-Removing intermediate container 4a975fae651f
- ---> b311696832c8
-Successfully built b311696832c8
+ ---> Running in ea0835239a58
+Removing intermediate container ea0835239a58
+ ---> 9c877b959100
+Successfully built 9c877b959100
 Successfully tagged minimum2scp/debian:latest
