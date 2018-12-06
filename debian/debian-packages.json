@@ -874,7 +874,7 @@
     "Depends": "libc6 (>> 2.28), libc6 (<< 2.29)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3491",
+    "Installed-Size": "3492",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-1",
+    "Version": "2.28-2",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -893,16 +893,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "openrc (<< 0.27-2~)",
-    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.28), locales-all (<< 2.28), nscd (<< 2.28)",
+    "Breaks": "hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.28), locales-all (<< 2.28), nscd (<< 2.28), r-cran-later (<< 0.7.5+dfsg-2)",
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12326",
+    "Installed-Size": "12327",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.28-1",
+    "Version": "2.28-2",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-1"
+    "source:Version": "2.28-2"
   },
   {
     "Architecture": "amd64",
