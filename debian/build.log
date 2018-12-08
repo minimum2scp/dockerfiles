@@ -33,11 +33,8 @@ I: Validating libext2fs2 1.44.4-2
 I: Validating libss2 1.44.4-2
 I: Validating libelf1 0.175-1
 I: Validating findutils 4.6.0+git+20181018-1
-I: Retrieving gcc-8-base 8.2.0-11
 I: Validating gcc-8-base 8.2.0-11
-I: Retrieving libgcc1 1:8.2.0-11
 I: Validating libgcc1 1:8.2.0-11
-I: Retrieving libstdc++6 8.2.0-11
 I: Validating libstdc++6 8.2.0-11
 I: Validating libc-bin 2.28-2
 I: Validating libc6 2.28-2
@@ -82,24 +79,36 @@ I: Validating libpam-modules-bin 1.1.8-3.8
 I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
-I: Validating perl-base 5.28.1-2
+I: Retrieving perl-base 5.28.1-3
+I: Validating perl-base 5.28.1-3
 I: Validating sed 4.5-2
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 239-14
-I: Validating libudev1 239-14
+I: Retrieving libsystemd0 239-15
+I: Validating libsystemd0 239-15
+I: Retrieving libudev1 239-15
+I: Validating libudev1 239-15
 I: Validating sysvinit-utils 2.93-1
 I: Validating tar 1.30+dfsg-3
 I: Validating tzdata 2018g-1
-I: Validating bsdutils 1:2.32.1-0.2
-I: Validating fdisk 2.32.1-0.2
-I: Validating libblkid1 2.32.1-0.2
-I: Validating libfdisk1 2.32.1-0.2
-I: Validating libmount1 2.32.1-0.2
-I: Validating libsmartcols1 2.32.1-0.2
-I: Validating libuuid1 2.32.1-0.2
-I: Validating mount 2.32.1-0.2
-I: Validating util-linux 2.32.1-0.2
+I: Retrieving bsdutils 1:2.33-0.2
+I: Validating bsdutils 1:2.33-0.2
+I: Retrieving fdisk 2.33-0.2
+I: Validating fdisk 2.33-0.2
+I: Retrieving libblkid1 2.33-0.2
+I: Validating libblkid1 2.33-0.2
+I: Retrieving libfdisk1 2.33-0.2
+I: Validating libfdisk1 2.33-0.2
+I: Retrieving libmount1 2.33-0.2
+I: Validating libmount1 2.33-0.2
+I: Retrieving libsmartcols1 2.33-0.2
+I: Validating libsmartcols1 2.33-0.2
+I: Retrieving libuuid1 2.33-0.2
+I: Validating libuuid1 2.33-0.2
+I: Retrieving mount 2.33-0.2
+I: Validating mount 2.33-0.2
+I: Retrieving util-linux 2.33-0.2
+I: Validating util-linux 2.33-0.2
 I: Validating liblzma5 5.2.2-1.3
 I: Validating zlib1g 1:1.2.11.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -386,14 +395,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.55MB
+Sending build context to Docker daemon  29.66MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 92c16f802574
+ ---> 98b60431819d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2c24906f377e
-Removing intermediate container 2c24906f377e
- ---> 4609724745a2
-Successfully built 4609724745a2
+ ---> Running in 4c50db114230
+Removing intermediate container 4c50db114230
+ ---> a074046fdb23
+Successfully built a074046fdb23
 Successfully tagged minimum2scp/debian:latest
