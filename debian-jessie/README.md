@@ -93,12 +93,12 @@ ii   libslang2               2.3.0-2                   amd64  S-Lang programming
 ii   libsmartcols1           2.25.2-6                  amd64  smart column output alignment library
 ii   libss2                  1.42.12-2+b1              amd64  command-line interface parsing library
 ii   libstdc++6              4.9.2-10+deb8u1           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             215-17+deb8u7             amd64  systemd utility library
+ii   libsystemd0             215-17+deb8u8             amd64  systemd utility library
 ii   libtext-charwidth-perl  0.04-7+b3                 amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                  amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                    all    internationalized substitute of Text::Wrap
 ii   libtinfo5               5.9+20140913-1+deb8u3     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                215-17+deb8u7             amd64  libudev shared library
+ii   libudev1                215-17+deb8u8             amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25               amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                amd64  Micro string library: shared library
 ii   libuuid1                2.25.2-6                  amd64  Universally Unique ID library
@@ -111,19 +111,19 @@ ii   ncurses-base            5.9+20140913-1+deb8u3     all    basic terminal typ
 ii   ncurses-bin             5.9+20140913-1+deb8u3     amd64  terminal-related programs and man pages
 ii   netbase                 5.3                       all    Basic TCP/IP networking system
 ii   passwd                  1:4.2-3+deb8u4            amd64  change and administer password and group data
-ii   perl-base               5.20.2-3+deb8u11          amd64  minimal Perl system
+ii   perl-base               5.20.2-3+deb8u12          amd64  minimal Perl system
 ii   procps                  2:3.3.9-9+deb8u1          amd64  /proc file system utilities
 ii   readline-common         6.3-8                     all    GNU readline and history libraries, common files
 ii   sed                     4.2.2-4+deb8u1            amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9+deb8u1              all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                    amd64  run processes in parallel and multiplex their output
-ii   systemd                 215-17+deb8u7             amd64  system and service manager
-ii   systemd-sysv            215-17+deb8u7             amd64  system and service manager - SysV links
+ii   systemd                 215-17+deb8u8             amd64  system and service manager
+ii   systemd-sysv            215-17+deb8u8             amd64  system and service manager - SysV links
 ii   sysv-rc                 2.88dsf-59                all    System-V-like runlevel change mechanism
 ii   sysvinit-utils          2.88dsf-59                amd64  System-V-like utilities
 ii   tar                     1.27.1-2+deb8u1           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018g-0+deb8u1            all    time zone and daylight-saving time data
-ii   udev                    215-17+deb8u7             amd64  /dev/ and hotplug management daemon
+ii   udev                    215-17+deb8u8             amd64  /dev/ and hotplug management daemon
 ii   util-linux              2.25.2-6                  amd64  Miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1         amd64  compression library - runtime
 ```
