@@ -325,7 +325,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.10.2-1",
+    "Version": "0.5.10.2-2",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.10.2-1"
+    "source:Version": "0.5.10.2-2"
   },
   {
     "Architecture": "all",
@@ -619,21 +619,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.20.0~rc2), git-man (<< 1:2.20.0~rc2-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.20.0), git-man (<< 1:2.20.0-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "35017",
+    "Installed-Size": "35264",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "git-completion, git-core",
-    "Recommends": "patch, less, ssh-client",
+    "Recommends": "ca-certificates, patch, less, ssh-client",
     "Replace": "",
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.20.0~rc2-1",
+    "Version": "1:2.20.0-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.20.0~rc2-1"
+    "source:Version": "1:2.20.0-1"
   },
   {
     "Architecture": "all",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1676",
+    "Installed-Size": "1675",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.20.0~rc2-1",
+    "Version": "1:2.20.0-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.20.0~rc2-1"
+    "source:Version": "1:2.20.0-1"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "140",
+    "Installed-Size": "148",
     "Origin": "",
     "Package": "insserv",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.14.0-5.4+b1",
+    "Version": "1.18.0-1",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.14.0-5.4"
+    "source:Version": "1.18.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1487,21 +1487,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libbsd0 (>= 0.0), libc6 (>= 2.14), libncurses6 (>= 6), libtinfo6 (>= 6)",
+    "Depends": "libbsd0 (>= 0.0), libc6 (>= 2.14), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "242",
+    "Installed-Size": "250",
     "Origin": "",
     "Package": "libedit2",
     "Pre-Depends": "",
-    "Priority": "standard",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-20180525-1",
+    "Version": "3.1-20181209-1",
     "binary:Package": "libedit2:amd64",
     "binary:Summary": "BSD editline and history libraries",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libedit",
-    "source:Version": "3.1-20180525-1"
+    "source:Version": "3.1-20181209-1"
   },
   {
     "Architecture": "amd64",
@@ -3222,7 +3222,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)",
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.26.0-2",
+    "Version": "3.26.0-3",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.26.0-2"
+    "source:Version": "3.26.0-3"
   },
   {
     "Architecture": "amd64",
@@ -4430,7 +4430,7 @@
     "Depends": "libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), liblognorm5 (>= 2.0.3), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1797",
+    "Installed-Size": "1799",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4441,7 +4441,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.39.0-3",
+    "Version": "8.40.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.39.0-3"
+    "source:Version": "8.40.0-1"
   },
   {
     "Architecture": "amd64",

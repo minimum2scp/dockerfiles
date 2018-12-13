@@ -76,7 +76,7 @@ ii   ca-certificates         20180409                     all    Common CA certi
 ii   coreutils               8.30-1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-130                   amd64  process scheduling daemon
 ii   curl                    7.62.0-1                     amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.10.2-1                   amd64  POSIX-compliant shell
+ii   dash                    0.5.10.2-2                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.69                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                        amd64  Miscellaneous utilities specific to Debian
@@ -87,8 +87,8 @@ ii   etckeeper               1.18.8-1                     all    store /etc in g
 ii   fdisk                   2.33-0.2                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-12                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.0~rc2-1               amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.0~rc2-1               all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.0-1                   amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
@@ -97,7 +97,7 @@ ii   hostname                3.21                         amd64  utility to set/
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56                         all    helper tools for all init systems
 ii   initscripts             2.93-1                       amd64  scripts for initializing and shutting down the system
-ii   insserv                 1.14.0-5.4+b1                amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.18.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
 ii   libapt-pkg5.0           1.8.0~alpha2                 amd64  package management runtime library
@@ -118,7 +118,7 @@ ii   libcurl3-gnutls         7.62.0-1                     amd64  easy-to-use cli
 ii   libcurl4                7.62.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.245                        amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20180525-1               amd64  BSD editline and history libraries
+ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.175-1                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
@@ -180,7 +180,7 @@ ii   libsemanage1            2.8-1+b1                     amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33-0.2                     amd64  smart column output alignment library
-ii   libsqlite3-0            3.26.0-2                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.26.0-3                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.4-2                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
@@ -223,7 +223,7 @@ ii   python2-minimal         2.7.15-3                     amd64  minimal subset 
 ii   python2.7               2.7.15-5                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.15-5                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.39.0-3                     amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.40.0-1                     amd64  reliable system and kernel logging daemon
 ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
