@@ -39,7 +39,7 @@ ii   e2fsprogs               1.44.4-2              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.33-0.2              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1  amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.2.0-12              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.11-1              amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.12-1              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-2.1               amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
@@ -69,7 +69,7 @@ ii   libgcc1                 1:8.2.0-12            amd64  GCC support library
 ii   libgcrypt20             1.8.4-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1           amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.32-3                amd64  GnuPG development runtime library
+ii   libgpg-error0           1.33-3                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1~rc1-1           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression algorithm library - runtime
