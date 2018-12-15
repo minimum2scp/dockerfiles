@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20181018-1         amd64  utilities for f
 ii   gcc-8-base              8.2.0-12                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.0-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.11-1                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
@@ -133,7 +133,7 @@ ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm databas
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.19-1+b1                  amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.32-3                       amd64  GnuPG development runtime library
+ii   libgpg-error0           1.33-3                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.16.1-1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1~rc1-1                  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
