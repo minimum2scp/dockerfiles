@@ -82,7 +82,7 @@ ii   debian-archive-keyring  2018.1                       all    GnuPG archive k
 ii   debianutils             4.8.6                        amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                      amd64  File comparison utilities
 ii   dpkg                    1.19.2                       amd64  Debian package management system
-ii   e2fsprogs               1.44.4-2                     amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.8-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33-0.2                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
@@ -113,7 +113,7 @@ ii   libc6                   2.28-2                       amd64  GNU C Library: 
 ii   libcap-ng0              0.7.9-1+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.4-2                     amd64  common error description library
+ii   libcom-err2             1.44.5-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.62.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.62.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,7 +123,7 @@ ii   libelf1                 0.175-1                      amd64  library to read
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.44.4-2                     amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.5-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33-0.2                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
@@ -152,7 +152,7 @@ ii   libncurses6             6.1+20181013-1               amd64  shared librarie
 ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1~rc1-1                  amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.35.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.35.1-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.8                    amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -181,7 +181,7 @@ ii   libsepol1               2.8-1                        amd64  SELinux library
 ii   libslang2               2.3.2-1+b1                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33-0.2                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.26.0-3                     amd64  SQLite 3 shared library
-ii   libss2                  1.44.4-2                     amd64  command-line interface parsing library
+ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-12                     amd64  GNU Standard C++ Library v3
