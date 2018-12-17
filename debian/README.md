@@ -53,8 +53,8 @@ ii   libaudit-common         1:2.8.4-2             all    Dynamic library for se
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33-0.2              amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-2                amd64  GNU C Library: Binaries
-ii   libc6                   2.28-2                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-3                amd64  GNU C Library: Binaries
+ii   libc6                   2.28-3                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1+b1            amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
@@ -68,7 +68,7 @@ ii   libffi6                 3.2.1-9               amd64  Foreign Function Inter
 ii   libgcc1                 1:8.2.0-12            amd64  GCC support library
 ii   libgcrypt20             1.8.4-4               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.19-1+b1           amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.5-2               amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.33-3                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1~rc1-1           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1               amd64  Internationalized domain names (IDNA2008/TR46) library
