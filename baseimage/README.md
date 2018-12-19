@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.0~alpha2                 amd64  commandline package manager
+ii   apt                     1.8.0~alpha3                 amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
 ii   bash                    4.4.18-3.1                   amd64  GNU Bourne Again SHell
@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.8-1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33-0.2                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20181018-1         amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-12                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-13                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
@@ -95,12 +95,12 @@ ii   groff-base              1.22.3-10                    amd64  GNU troff text-
 ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
-ii   init-system-helpers     1.56                         all    helper tools for all init systems
+ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
 ii   initscripts             2.93-1                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.18.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~alpha2                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~alpha3                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
@@ -127,7 +127,7 @@ ii   libext2fs2              1.44.5-1                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33-0.2                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-12                   amd64  GCC support library
+ii   libgcc1                 1:8.2.0-13                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-4                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
@@ -184,7 +184,7 @@ ii   libsqlite3-0            3.26.0-3                     amd64  SQLite 3 shared
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-12                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-13                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             239-15                       amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
