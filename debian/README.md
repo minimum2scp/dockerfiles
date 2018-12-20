@@ -29,7 +29,7 @@ ii   base-passwd             3.5.45                amd64  Debian base system mas
 ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33-0.2            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-1                amd64  GNU core utilities
-ii   dash                    0.5.10.2-2            amd64  POSIX-compliant shell
+ii   dash                    0.5.10.2-4            amd64  POSIX-compliant shell
 ii   debconf                 1.5.69                all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6                 amd64  Miscellaneous utilities specific to Debian

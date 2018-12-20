@@ -199,10 +199,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "debianutils (>= 2.15), dpkg (>= 1.15.0)",
+    "Depends": "debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "223",
+    "Installed-Size": "209",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.14)",
@@ -213,7 +213,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.10.2-2",
+    "Version": "0.5.10.2-4",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.10.2-2"
+    "source:Version": "0.5.10.2-4"
   },
   {
     "Architecture": "all",
