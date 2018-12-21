@@ -424,35 +424,53 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Get:2 http://security.debian.org jessie/updates InRelease [44.9 kB]
+Get:1 http://security.debian.org jessie/updates InRelease [44.9 kB]
+Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [782 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.0 kB]
-Get:4 http://security.debian.org jessie/updates/main amd64 Packages [781 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.0 kB]
 Hit http://ftp.jp.debian.org jessie Release
 Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9098 kB]
-Fetched 10.1 MB in 1s (7629 kB/s)
+Fetched 10.1 MB in 9s (1037 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  libgcrypt20 libsystemd0 libudev1 perl-base systemd systemd-sysv tzdata udev
-8 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 5478 kB of archives.
+  gcc-4.9-base libgcc1 libgcrypt20 libstdc++6 libsystemd0 libudev1 perl-base
+  systemd systemd-sysv tzdata udev
+11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5950 kB of archives.
 After this operation, 726 kB of additional disk space will be used.
 Get:1 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u12 [1231 kB]
-Get:2 http://security.debian.org/ jessie/updates/main libudev1 amd64 215-17+deb8u8 [58.2 kB]
-Get:3 http://security.debian.org/ jessie/updates/main udev amd64 215-17+deb8u8 [876 kB]
-Get:4 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u5 [394 kB]
-Get:5 http://security.debian.org/ jessie/updates/main libsystemd0 amd64 215-17+deb8u8 [89.8 kB]
-Get:6 http://security.debian.org/ jessie/updates/main systemd amd64 215-17+deb8u8 [2558 kB]
-Get:7 http://security.debian.org/ jessie/updates/main systemd-sysv amd64 215-17+deb8u8 [37.1 kB]
-Get:8 http://security.debian.org/ jessie/updates/main tzdata all 2018g-0+deb8u1 [233 kB]
-Fetched 5478 kB in 0s (7502 kB/s)
+Get:2 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u2 [160 kB]
+Get:3 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u2 [273 kB]
+Get:4 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u2 [39.4 kB]
+Get:5 http://security.debian.org/ jessie/updates/main libudev1 amd64 215-17+deb8u8 [58.2 kB]
+Get:6 http://security.debian.org/ jessie/updates/main udev amd64 215-17+deb8u8 [876 kB]
+Get:7 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u5 [394 kB]
+Get:8 http://security.debian.org/ jessie/updates/main libsystemd0 amd64 215-17+deb8u8 [89.8 kB]
+Get:9 http://security.debian.org/ jessie/updates/main systemd amd64 215-17+deb8u8 [2558 kB]
+Get:10 http://security.debian.org/ jessie/updates/main systemd-sysv amd64 215-17+deb8u8 [37.1 kB]
+Get:11 http://security.debian.org/ jessie/updates/main tzdata all 2018g-0+deb8u1 [233 kB]
+Fetched 5950 kB in 2s (2149 kB/s)
 (Reading database ... 7561 files and directories currently installed.)
 Preparing to unpack .../perl-base_5.20.2-3+deb8u12_amd64.deb ...
 Unpacking perl-base (5.20.2-3+deb8u12) over (5.20.2-3+deb8u11) ...
 Setting up perl-base (5.20.2-3+deb8u12) ...
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../gcc-4.9-base_4.9.2-10+deb8u2_amd64.deb ...
+Unpacking gcc-4.9-base:amd64 (4.9.2-10+deb8u2) over (4.9.2-10+deb8u1) ...
+Setting up gcc-4.9-base:amd64 (4.9.2-10+deb8u2) ...
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_4.9.2-10+deb8u2_amd64.deb ...
+Unpacking libstdc++6:amd64 (4.9.2-10+deb8u2) over (4.9.2-10+deb8u1) ...
+Setting up libstdc++6:amd64 (4.9.2-10+deb8u2) ...
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../libgcc1_1%3a4.9.2-10+deb8u2_amd64.deb ...
+Unpacking libgcc1:amd64 (1:4.9.2-10+deb8u2) over (1:4.9.2-10+deb8u1) ...
+Setting up libgcc1:amd64 (1:4.9.2-10+deb8u2) ...
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
 (Reading database ... 7561 files and directories currently installed.)
 Preparing to unpack .../libudev1_215-17+deb8u8_amd64.deb ...
 Unpacking libudev1:amd64 (215-17+deb8u8) over (215-17+deb8u7) ...
@@ -491,10 +509,10 @@ Sending build context to Docker daemon  30.13MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 941b11580d7f
+ ---> ed8865e7f271
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e6f31b0e28cf
-Removing intermediate container e6f31b0e28cf
- ---> 99f2a0abdbbd
-Successfully built 99f2a0abdbbd
+ ---> Running in 0271b02f2525
+Removing intermediate container 0271b02f2525
+ ---> 2ef936a5d51a
+Successfully built 2ef936a5d51a
 Successfully tagged minimum2scp/debian-jessie:latest
