@@ -717,7 +717,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.2-10+deb8u1",
+    "Version": "4.9.2-10+deb8u2",
     "binary:Package": "gcc-4.9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.9",
-    "source:Version": "4.9.2-10+deb8u1"
+    "source:Version": "4.9.2-10+deb8u2"
   },
   {
     "Architecture": "amd64",
@@ -1795,7 +1795,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-4.9-base (= 4.9.2-10+deb8u1), libc6 (>= 2.14)",
+    "Depends": "gcc-4.9-base (= 4.9.2-10+deb8u2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "129",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.9.2-10+deb8u1",
+    "Version": "1:4.9.2-10+deb8u2",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.9",
-    "source:Version": "4.9.2-10+deb8u1"
+    "source:Version": "4.9.2-10+deb8u2"
   },
   {
     "Architecture": "amd64",
@@ -3111,7 +3111,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-4.9-base (= 4.9.2-10+deb8u1), libc6 (>= 2.18), libgcc1 (>= 1:4.1.1)",
+    "Depends": "gcc-4.9-base (= 4.9.2-10+deb8u2), libc6 (>= 2.18), libgcc1 (>= 1:4.1.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1319",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.2-10+deb8u1",
+    "Version": "4.9.2-10+deb8u2",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3133,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-4.9",
-    "source:Version": "4.9.2-10+deb8u1"
+    "source:Version": "4.9.2-10+deb8u2"
   },
   {
     "Architecture": "amd64",
