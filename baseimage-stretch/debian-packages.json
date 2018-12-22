@@ -3195,10 +3195,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3547",
+    "Installed-Size": "3557",
     "Origin": "",
     "Package": "libssl1.0.2",
     "Pre-Depends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2l-2+deb9u3",
+    "Version": "1.0.2q-1~deb9u1",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2l-2+deb9u3"
+    "source:Version": "1.0.2q-1~deb9u1"
   },
   {
     "Architecture": "amd64",
