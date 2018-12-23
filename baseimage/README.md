@@ -185,10 +185,10 @@ ii   libss2                  1.44.5-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-13                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             239-15                       amd64  systemd utility library
+ii   libsystemd0             240-1                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                239-15                       amd64  libudev shared library
+ii   libudev1                240-1                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33-0.2                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
@@ -224,7 +224,7 @@ ii   python2.7               2.7.15-5                     amd64  Interactive hig
 ii   python2.7-minimal       2.7.15-5                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.40.0-1                     amd64  reliable system and kernel logging daemon
-ii   sed                     4.5-2                        amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.26-2                     amd64  Provide limited super user privileges to specific users
