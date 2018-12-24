@@ -18,7 +18,8 @@ I: Validating base-files 10.1
 I: Validating base-passwd 3.5.45
 I: Validating bash 4.4.18-3.1
 I: Validating libbz2-1.0 1.0.6-9
-I: Validating libdebconfclient0 0.245
+I: Retrieving libdebconfclient0 0.246
+I: Validating libdebconfclient0 0.246
 I: Validating coreutils 8.30-1
 I: Validating dash 0.5.10.2-4
 I: Validating libdb5.3 5.3.28+dfsg1-0.2
@@ -80,13 +81,10 @@ I: Validating libpam-runtime 1.1.8-3.8
 I: Validating libpam0g 1.1.8-3.8
 I: Validating libpcre3 2:8.39-11
 I: Validating perl-base 5.28.1-3
-I: Retrieving sed 4.7-1
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 240-1
 I: Validating libsystemd0 240-1
-I: Retrieving libudev1 240-1
 I: Validating libudev1 240-1
 I: Validating sysvinit-utils 2.93-1
 I: Validating tar 1.30+dfsg-3
@@ -380,20 +378,24 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [237 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-12-24-1412.18.pdiff [24.2 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2018-12-24-1412.18.pdiff [24.2 kB]
+Fetched 289 kB in 1s (194 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.85MB
+Sending build context to Docker daemon  29.86MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1f57538189e2
+ ---> ae89be406bd4
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 1fca4854b6de
-Removing intermediate container 1fca4854b6de
- ---> 9ed0cdfd788a
-Successfully built 9ed0cdfd788a
+ ---> Running in 69c6908879ff
+Removing intermediate container 69c6908879ff
+ ---> 484af1894405
+Successfully built 484af1894405
 Successfully tagged minimum2scp/debian:latest
