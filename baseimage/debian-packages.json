@@ -730,11 +730,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "groff (<< 1.17-1), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
-    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1)",
+    "Breaks": "groff (<< 1.22.4~rc2-2), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
+    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3265",
+    "Installed-Size": "3607",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.3-10",
+    "Version": "1.22.4-1",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.3-10"
+    "source:Version": "1.22.4-1"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.245",
+    "Version": "0.246",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.245"
+    "source:Version": "0.246"
   },
   {
     "Architecture": "amd64",
@@ -3442,6 +3442,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
     "source:Version": "6.1+20181013-1"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "libc6 (>= 2.4), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "180",
+    "Origin": "",
+    "Package": "libuchardet0",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "0.0.6-3",
+    "binary:Package": "libuchardet0:amd64",
+    "binary:Summary": "universal charset detection library - shared library",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "uchardet",
+    "source:Version": "0.0.6-3"
   },
   {
     "Architecture": "amd64",

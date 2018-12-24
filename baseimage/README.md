@@ -91,7 +91,7 @@ ii   git                     1:2.20.1-1                   amd64  fast, scalable,
 ii   git-man                 1:2.20.1-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.3-10                    amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-1                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-2.1                      amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
@@ -117,7 +117,7 @@ ii   libcom-err2             1.44.5-1                     amd64  common error de
 ii   libcurl3-gnutls         7.62.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.62.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.245                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.246                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.175-1                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -188,6 +188,7 @@ ii   libstdc++6              8.2.0-13                     amd64  GNU Standard C+
 ii   libsystemd0             240-1                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
+ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                240-1                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33-0.2                     amd64  Universally Unique ID library
