@@ -930,7 +930,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.27), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2411",
+    "Installed-Size": "2532",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "4.18.0-2",
+    "Version": "4.19.0-2",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "4.18.0-2"
+    "source:Version": "4.19.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2131,7 +2131,7 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common",
+    "Depends": "libc6 (>= 2.28), libgnutls30 (>= 3.6.5), libsasl2-2, libldap-common",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "524",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.46+dfsg-5+b1",
+    "Version": "2.4.47+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.46+dfsg-5"
+    "source:Version": "2.4.47+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -2162,7 +2162,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "110",
+    "Installed-Size": "111",
     "Origin": "",
     "Package": "libldap-common",
     "Pre-Depends": "",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.46+dfsg-5",
+    "Version": "2.4.47+dfsg-1",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.46+dfsg-5"
+    "source:Version": "2.4.47+dfsg-1"
   },
   {
     "Architecture": "amd64",
