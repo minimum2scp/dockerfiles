@@ -84,7 +84,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe file('/opt/rbenv/plugins/rbenv-aliases') do
-      it { should_not be_directory }
+      it { should be_directory }
     end
 
     describe file('/opt/rbenv/plugins/rbenv-update') do
