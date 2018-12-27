@@ -80,7 +80,8 @@ describe 'minimum2scp/ruby-full' do
       end
 
       v[:gems].each do |gem|
-        describe command("RBENV_VERSION=#{v[:ruby]} gem list --exact #{gem[:name]}") do
+        gem_list_opt = v[:ruby] =~ /\A2\.3\.\d+\z/ ? '' : '--exact'
+        describe command("RBENV_VERSION=#{v[:ruby]} gem list #{gem_list_opt} #{gem[:name]}") do
           let(:login_shell){ true }
           let(:env){ Bundler.original_env }
           its(:stdout){
