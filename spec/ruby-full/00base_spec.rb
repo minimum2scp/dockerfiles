@@ -27,7 +27,7 @@ describe 'minimum2scp/ruby-full' do
         desc: 'ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]',
         rubygems_version: '3.0.1',
         gems: [
-          {name: 'bundler', version: '1.17.2', default: true},
+          {name: 'bundler', version: '1.17.3', default: '1.17.2'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
@@ -37,7 +37,7 @@ describe 'minimum2scp/ruby-full' do
         desc: 'ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]',
         rubygems_version: '2.7.6',
         gems: [
-          {name: 'bundler', version: '1.17.2', default: false},
+          {name: 'bundler', version: '1.17.3', default: false},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
@@ -47,7 +47,7 @@ describe 'minimum2scp/ruby-full' do
         desc: 'ruby 2.4.5p335 (2018-10-18 revision 65137) [x86_64-linux]',
         rubygems_version: '2.6.14.3',
         gems: [
-          {name: 'bundler', version: '1.17.2'},
+          {name: 'bundler', version: '1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
@@ -57,7 +57,7 @@ describe 'minimum2scp/ruby-full' do
         desc: 'ruby 2.3.8p459 (2018-10-18 revision 65136) [x86_64-linux]',
         rubygems_version: '2.5.2.3',
         gems: [
-          {name: 'bundler', version: '1.17.2'},
+          {name: 'bundler', version: '1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.0.2'
@@ -75,21 +75,29 @@ describe 'minimum2scp/ruby-full' do
 
       describe command("RBENV_VERSION=#{v[:ruby]} gem -v") do
         let(:login_shell){ true }
+        let(:env){ Bundler.original_env }
         its(:stdout) { should eq "#{v[:rubygems_version]}\n" }
       end
 
-      describe command("RBENV_VERSION=#{v[:ruby]} gem list") do
-        let(:login_shell){ true }
-        v[:gems].each do |gem|
-          if gem[:version] && gem[:default]
-            its(:stdout){ should match /^#{gem[:name]} #{Regexp.quote("(default: #{gem[:version]})")}$/ }
-          elsif gem[:version]
-            its(:stdout){ should match /^#{gem[:name]} #{Regexp.quote("(#{gem[:version]})")}$/ }
-          elsif gem[:default]
-            its(:stdout){ should match /^#{gem[:name]} \(default: .+\)$/ }
-          else
-            its(:stdout){ should match /^#{gem[:name]} / }
-          end
+      v[:gems].each do |gem|
+        gem_list_opt = v[:ruby] =~ /\A2\.3\.\d+\z/ ? '' : '--exact'
+        describe command("RBENV_VERSION=#{v[:ruby]} gem list #{gem_list_opt} #{gem[:name]}") do
+          let(:login_shell){ true }
+          let(:env){ Bundler.original_env }
+          its(:stdout){
+            version_regexp = if gem[:version] && gem[:default] == true
+                               /\(default: #{Regexp.quote(gem[:version])}\)/
+                             elsif gem[:version] && gem[:default]
+                               /\(#{Regexp.quote(gem[:version])}, default: #{Regexp.quote(gem[:default])}\)/
+                             elsif gem[:version]
+                               /\(#{Regexp.quote(gem[:version])}\)/
+                             elsif gem[:default]
+                               /\(default: .+\)/
+                             else
+                               /\(.+\)/
+                             end
+            should match(/^#{Regexp.quote(gem[:name])} #{version_regexp}$/)
+          }
         end
       end
 
