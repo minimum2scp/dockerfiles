@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "240-1",
+    "Version": "240-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "240-1"
+    "source:Version": "240-2"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "240-1",
+    "Version": "240-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "240-1"
+    "source:Version": "240-2"
   },
   {
     "Architecture": "amd64",
@@ -2453,7 +2453,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.93-1",
+    "Version": "2.93-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.93-1"
+    "source:Version": "2.93-2"
   },
   {
     "Architecture": "amd64",
