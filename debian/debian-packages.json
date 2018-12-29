@@ -874,7 +874,7 @@
     "Depends": "libc6 (>> 2.28), libc6 (<< 2.29)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3492",
+    "Installed-Size": "3493",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-3",
+    "Version": "2.28-4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-3"
+    "source:Version": "2.28-4"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12326",
+    "Installed-Size": "12327",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.28-3",
+    "Version": "2.28-4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-3"
+    "source:Version": "2.28-4"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "150",
+    "Installed-Size": "149",
     "Origin": "",
     "Package": "libxtables12",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.2-2+b1",
+    "Version": "1.8.2-3",
     "binary:Package": "libxtables12:amd64",
     "binary:Summary": "netfilter xtables library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iptables",
-    "source:Version": "1.8.2-2"
+    "source:Version": "1.8.2-3"
   },
   {
     "Architecture": "amd64",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.5+dfsg-1",
+    "Version": "1.3.5+dfsg-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.3.5+dfsg-1"
+    "source:Version": "1.3.5+dfsg-2"
   },
   {
     "Architecture": "amd64",

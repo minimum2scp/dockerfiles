@@ -36,8 +36,10 @@ I: Validating findutils 4.6.0+git+20181018-1
 I: Validating gcc-8-base 8.2.0-13
 I: Validating libgcc1 1:8.2.0-13
 I: Validating libstdc++6 8.2.0-13
-I: Validating libc-bin 2.28-3
-I: Validating libc6 2.28-3
+I: Retrieving libc-bin 2.28-4
+I: Validating libc-bin 2.28-4
+I: Retrieving libc6 2.28-4
+I: Validating libc6 2.28-4
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.12-1
 I: Validating libgnutls30 3.6.5-2
@@ -47,7 +49,8 @@ I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.56+nmu1
 I: Validating iproute2 4.19.0-2
-I: Validating libxtables12 1.8.2-2+b1
+I: Retrieving libxtables12 1.8.2-3
+I: Validating libxtables12 1.8.2-3
 I: Validating libcap-ng0 0.7.9-1+b1
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
@@ -63,7 +66,8 @@ I: Validating libsemanage1 2.8-1+b1
 I: Validating libsepol1 2.8-1
 I: Validating libtasn1-6 4.13-3
 I: Validating libunistring2 0.9.10-1
-I: Validating libzstd1 1.3.5+dfsg-1
+I: Retrieving libzstd1 1.3.5+dfsg-2
+I: Validating libzstd1 1.3.5+dfsg-2
 I: Validating liblz4-1 1.8.2-1
 I: Validating mawk 1.3.3-17+b3
 I: Validating libncursesw6 6.1+20181013-1
@@ -83,11 +87,8 @@ I: Validating perl-base 5.28.1-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 240-2
 I: Validating libsystemd0 240-2
-I: Retrieving libudev1 240-2
 I: Validating libudev1 240-2
-I: Retrieving sysvinit-utils 2.93-2
 I: Validating sysvinit-utils 2.93-2
 I: Validating tar 1.30+dfsg-3
 I: Validating tzdata 2018g-1
@@ -390,10 +391,10 @@ Sending build context to Docker daemon  29.89MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 29a4b4be8deb
+ ---> 6b31a59916ea
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 48dfc24e30ae
-Removing intermediate container 48dfc24e30ae
- ---> 434c90ef8e49
-Successfully built 434c90ef8e49
+ ---> Running in 80c660723edf
+Removing intermediate container 80c660723edf
+ ---> 7de92f3ea925
+Successfully built 7de92f3ea925
 Successfully tagged minimum2scp/debian:latest
