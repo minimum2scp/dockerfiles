@@ -119,7 +119,7 @@ ii   libcurl4                7.62.0-1                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28+dfsg1-0.2             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.246                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
-ii   libelf1                 0.175-1                      amd64  library to read and write ELF files
+ii   libelf1                 0.175-2                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
@@ -233,7 +233,7 @@ ii   sysv-rc                 2.93-2                       all    System-V-like r
 ii   sysvinit-core           2.93-2                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-2                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-3                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018h-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.33-0.2                     amd64  miscellaneous system utilities
