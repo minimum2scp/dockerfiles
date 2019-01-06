@@ -92,11 +92,11 @@ ii   git-man                 1:2.20.1-1                   all    fast, scalable,
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-2                     amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.9-2.2                      amd64  GNU compression utilities
+ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
-ii   initscripts             2.93-2                       amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.93-3                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.19.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
@@ -144,7 +144,7 @@ ii   libkrb5support0         1.16.2-1                     amd64  MIT Kerberos ru
 ii   libldap-2.4-2           2.4.47+dfsg-1                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-1                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
-ii   liblz4-1                1.8.2-1                      amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33-0.2                     amd64  device mounting library
@@ -194,7 +194,7 @@ ii   libunistring2           0.9.10-1                     amd64  Unicode string 
 ii   libuuid1                2.33-0.2                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
-ii   libzstd1                1.3.8+dfsg-2                 amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-4                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
@@ -229,18 +229,18 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.26-2                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.93-2                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.93-2                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.93-2                       amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-3                  amd64  GNU version of the tar archiving utility
+ii   sysv-rc                 2.93-3                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.93-3                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.93-3                       amd64  System-V-like utilities
+ii   tar                     1.30+dfsg-4                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.33-0.2                     amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0549-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0549-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0693-2                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0693-2                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0549-1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0693-2                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.6.2-3                      amd64  shell with lots of features
 ii   zsh-common              5.6.2-3                      all    architecture independent files for Zsh
