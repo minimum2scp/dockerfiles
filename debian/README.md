@@ -41,7 +41,7 @@ ii   findutils               4.6.0+git+20181018-1  amd64  utilities for finding 
 ii   gcc-8-base              8.2.0-13              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.12-1              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.1-3                 amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.9-2.2               amd64  GNU compression utilities
+ii   gzip                    1.9-3                 amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-5             amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
@@ -72,7 +72,7 @@ ii   libgnutls30             3.6.5-2               amd64  GNU TLS library - main
 ii   libgpg-error0           1.33-3                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1~rc1-1           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1               amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   liblz4-1                1.8.2-1               amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.33-0.2              amd64  device mounting library
@@ -99,7 +99,7 @@ ii   libudev1                240-2                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.33-0.2              amd64  Universally Unique ID library
 ii   libxtables12            1.8.2-3               amd64  netfilter xtables library
-ii   libzstd1                1.3.8+dfsg-2          amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.8+dfsg-3          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1.1             amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.33-0.2              amd64  tools for mounting and manipulating filesystems
@@ -109,8 +109,8 @@ ii   netbase                 5.5                   all    Basic TCP/IP networkin
 ii   passwd                  1:4.5-1.1             amd64  change and administer password and group data
 ii   perl-base               5.28.1-3              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.93-2                amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-3           amd64  GNU version of the tar archiving utility
+ii   sysvinit-utils          2.93-3                amd64  System-V-like utilities
+ii   tar                     1.30+dfsg-4           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-1               all    time zone and daylight-saving time data
 ii   util-linux              2.33-0.2              amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime

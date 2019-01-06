@@ -42,8 +42,8 @@ I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.12-1
 I: Validating libgnutls30 3.6.5-2
 I: Validating grep 3.1-3
-I: Retrieving gzip 1.9-2.2
-I: Validating gzip 1.9-2.2
+I: Retrieving gzip 1.9-3
+I: Validating gzip 1.9-3
 I: Validating hostname 3.21
 I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.56+nmu1
@@ -64,8 +64,10 @@ I: Validating libsemanage1 2.8-1+b1
 I: Validating libsepol1 2.8-1
 I: Validating libtasn1-6 4.13-3
 I: Validating libunistring2 0.9.10-1
-I: Validating libzstd1 1.3.8+dfsg-2
-I: Validating liblz4-1 1.8.2-1
+I: Retrieving libzstd1 1.3.8+dfsg-3
+I: Validating libzstd1 1.3.8+dfsg-3
+I: Retrieving liblz4-1 1.8.3-1
+I: Validating liblz4-1 1.8.3-1
 I: Validating mawk 1.3.3-17+b3
 I: Validating libncursesw6 6.1+20181013-1
 I: Validating libtinfo6 6.1+20181013-1
@@ -86,8 +88,10 @@ I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
 I: Validating libsystemd0 240-2
 I: Validating libudev1 240-2
-I: Validating sysvinit-utils 2.93-2
-I: Validating tar 1.30+dfsg-3
+I: Retrieving sysvinit-utils 2.93-3
+I: Validating sysvinit-utils 2.93-3
+I: Retrieving tar 1.30+dfsg-4
+I: Validating tar 1.30+dfsg-4
 I: Validating tzdata 2018i-1
 I: Validating bsdutils 1:2.33-0.2
 I: Validating fdisk 2.33-0.2
@@ -384,14 +388,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   29.9MB
+Sending build context to Docker daemon  29.92MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> cdc48cbdad5f
+ ---> 1c3b7cc947cd
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in cd12165d9f81
-Removing intermediate container cd12165d9f81
- ---> ab49a25b1b29
-Successfully built ab49a25b1b29
+ ---> Running in c220aa90083f
+Removing intermediate container c220aa90083f
+ ---> 88b8901503a2
+Successfully built 88b8901503a2
 Successfully tagged minimum2scp/debian:latest
