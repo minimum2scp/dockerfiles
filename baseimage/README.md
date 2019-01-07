@@ -175,8 +175,8 @@ ii   libsasl2-2              2.1.27~rc8-1                 amd64  Cyrus SASL - au
 ii   libsasl2-modules-db     2.1.27~rc8-1                 amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-3                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.8-1                        all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.8-1+b1                     amd64  SELinux policy management library
+ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.8-2                        amd64  SELinux policy management library
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-1+b1                   amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33-0.2                     amd64  smart column output alignment library
@@ -200,7 +200,7 @@ ii   locales                 2.28-4                       all    GNU C Library: 
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.4-3                      amd64  on-line manual pager
+ii   man-db                  2.8.5-1                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.61                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33-0.2                     amd64  tools for mounting and manipulating filesystems
