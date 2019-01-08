@@ -90,7 +90,7 @@ ii   gcc-8-base              8.2.0-13                     amd64  GCC, the GNU Co
 ii   git                     1:2.20.1-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.1-3                        amd64  GNU grep, egrep and fgrep
+ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-2                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
