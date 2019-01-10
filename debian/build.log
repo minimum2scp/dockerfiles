@@ -33,11 +33,8 @@ I: Validating libext2fs2 1.44.5-1
 I: Validating libss2 1.44.5-1
 I: Validating libelf1 0.175-2
 I: Validating findutils 4.6.0+git+20181018-1
-I: Retrieving gcc-8-base 8.2.0-14
 I: Validating gcc-8-base 8.2.0-14
-I: Retrieving libgcc1 1:8.2.0-14
 I: Validating libgcc1 1:8.2.0-14
-I: Retrieving libstdc++6 8.2.0-14
 I: Validating libstdc++6 8.2.0-14
 I: Validating libc-bin 2.28-4
 I: Validating libc6 2.28-4
@@ -77,17 +74,23 @@ I: Validating netbase 5.5
 I: Validating libhogweed4 3.4.1~rc1-1
 I: Validating libnettle6 3.4.1~rc1-1
 I: Validating libp11-kit0 0.23.14-2
-I: Validating libpam-modules 1.1.8-3.8
-I: Validating libpam-modules-bin 1.1.8-3.8
-I: Validating libpam-runtime 1.1.8-3.8
-I: Validating libpam0g 1.1.8-3.8
+I: Retrieving libpam-modules 1.1.8-4
+I: Validating libpam-modules 1.1.8-4
+I: Retrieving libpam-modules-bin 1.1.8-4
+I: Validating libpam-modules-bin 1.1.8-4
+I: Retrieving libpam-runtime 1.1.8-4
+I: Validating libpam-runtime 1.1.8-4
+I: Retrieving libpam0g 1.1.8-4
+I: Validating libpam0g 1.1.8-4
 I: Validating libpcre3 2:8.39-11
 I: Validating perl-base 5.28.1-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 240-2
-I: Validating libudev1 240-2
+I: Retrieving libsystemd0 240-3
+I: Validating libsystemd0 240-3
+I: Retrieving libudev1 240-3
+I: Validating libudev1 240-3
 I: Validating sysvinit-utils 2.93-3
 I: Validating tar 1.30+dfsg-4
 I: Validating tzdata 2018i-1
@@ -382,48 +385,74 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://ftp.jp.debian.org/debian sid InRelease [238 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-01-09-1430.36.pdiff [40.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-01-09-1430.36.pdiff [40.9 kB]
-Fetched 307 kB in 2s (196 kB/s)
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-01-10-1412.36.pdiff [13.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-01-10-1412.36.pdiff [13.9 kB]
+Fetched 280 kB in 2s (184 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libpam-modules libpam-modules-bin libpam-runtime libpam0g
-4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 746 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian sid/main amd64 libpam0g amd64 1.1.8-4 [124 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 libpam-modules-bin amd64 1.1.8-4 [106 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 libpam-modules amd64 1.1.8-4 [305 kB]
-Get:4 http://ftp.jp.debian.org/debian sid/main amd64 libpam-runtime all 1.1.8-4 [211 kB]
-Fetched 746 kB in 1s (644 kB/s)
+  bsdutils fdisk libblkid1 libfdisk1 libmount1 libsmartcols1 libuuid1 mount
+  util-linux
+9 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2400 kB of archives.
+After this operation, 14.3 kB of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian sid/main amd64 bsdutils amd64 1:2.33.1-0.1 [121 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 libuuid1 amd64 2.33.1-0.1 [78.3 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 libblkid1 amd64 2.33.1-0.1 [195 kB]
+Get:4 http://ftp.jp.debian.org/debian sid/main amd64 libfdisk1 amd64 2.33.1-0.1 [234 kB]
+Get:5 http://ftp.jp.debian.org/debian sid/main amd64 libmount1 amd64 2.33.1-0.1 [207 kB]
+Get:6 http://ftp.jp.debian.org/debian sid/main amd64 libsmartcols1 amd64 2.33.1-0.1 [150 kB]
+Get:7 http://ftp.jp.debian.org/debian sid/main amd64 fdisk amd64 2.33.1-0.1 [179 kB]
+Get:8 http://ftp.jp.debian.org/debian sid/main amd64 util-linux amd64 2.33.1-0.1 [1062 kB]
+Get:9 http://ftp.jp.debian.org/debian sid/main amd64 mount amd64 2.33.1-0.1 [174 kB]
+Fetched 2400 kB in 2s (1006 kB/s)
 (Reading database ... 6581 files and directories currently installed.)
-Preparing to unpack .../libpam0g_1.1.8-4_amd64.deb ...
-Unpacking libpam0g:amd64 (1.1.8-4) over (1.1.8-3.8) ...
-Setting up libpam0g:amd64 (1.1.8-4) ...
+Preparing to unpack .../bsdutils_1%3a2.33.1-0.1_amd64.deb ...
+Unpacking bsdutils (1:2.33.1-0.1) over (1:2.33-0.2) ...
+Setting up bsdutils (1:2.33.1-0.1) ...
 (Reading database ... 6581 files and directories currently installed.)
-Preparing to unpack .../libpam-modules-bin_1.1.8-4_amd64.deb ...
-Unpacking libpam-modules-bin (1.1.8-4) over (1.1.8-3.8) ...
-Setting up libpam-modules-bin (1.1.8-4) ...
+Preparing to unpack .../libuuid1_2.33.1-0.1_amd64.deb ...
+Unpacking libuuid1:amd64 (2.33.1-0.1) over (2.33-0.2) ...
+Setting up libuuid1:amd64 (2.33.1-0.1) ...
 (Reading database ... 6581 files and directories currently installed.)
-Preparing to unpack .../libpam-modules_1.1.8-4_amd64.deb ...
-Unpacking libpam-modules:amd64 (1.1.8-4) over (1.1.8-3.8) ...
-Setting up libpam-modules:amd64 (1.1.8-4) ...
+Preparing to unpack .../libblkid1_2.33.1-0.1_amd64.deb ...
+Unpacking libblkid1:amd64 (2.33.1-0.1) over (2.33-0.2) ...
+Setting up libblkid1:amd64 (2.33.1-0.1) ...
 (Reading database ... 6581 files and directories currently installed.)
-Preparing to unpack .../libpam-runtime_1.1.8-4_all.deb ...
-Unpacking libpam-runtime (1.1.8-4) over (1.1.8-3.8) ...
-Setting up libpam-runtime (1.1.8-4) ...
+Preparing to unpack .../libfdisk1_2.33.1-0.1_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.33.1-0.1) over (2.33-0.2) ...
+Setting up libfdisk1:amd64 (2.33.1-0.1) ...
+(Reading database ... 6581 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.33.1-0.1_amd64.deb ...
+Unpacking libmount1:amd64 (2.33.1-0.1) over (2.33-0.2) ...
+Setting up libmount1:amd64 (2.33.1-0.1) ...
+(Reading database ... 6581 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.33.1-0.1_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.33.1-0.1) over (2.33-0.2) ...
+Setting up libsmartcols1:amd64 (2.33.1-0.1) ...
+(Reading database ... 6581 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.33.1-0.1_amd64.deb ...
+Unpacking fdisk (2.33.1-0.1) over (2.33-0.2) ...
+Setting up fdisk (2.33.1-0.1) ...
+(Reading database ... 6581 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.33.1-0.1_amd64.deb ...
+Unpacking util-linux (2.33.1-0.1) over (2.33-0.2) ...
+Setting up util-linux (2.33.1-0.1) ...
+(Reading database ... 6582 files and directories currently installed.)
+Preparing to unpack .../mount_2.33.1-0.1_amd64.deb ...
+Unpacking mount (2.33.1-0.1) over (2.33-0.2) ...
+Setting up mount (2.33.1-0.1) ...
 Processing triggers for libc-bin (2.28-4) ...
-Sending build context to Docker daemon  29.94MB
+Sending build context to Docker daemon  29.93MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 9096746a8230
+ ---> bfff013aacf1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 90374dc4d583
-Removing intermediate container 90374dc4d583
- ---> 5d5655b7ec07
-Successfully built 5d5655b7ec07
+ ---> Running in d689a550a6bc
+Removing intermediate container d689a550a6bc
+ ---> 90375e36d704
+Successfully built 90375e36d704
 Successfully tagged minimum2scp/debian:latest
