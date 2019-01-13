@@ -107,9 +107,9 @@ ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-4                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.28-4                       all    GNU C Library: localization files
-ii   libc6                   2.28-4                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-5                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-5                       all    GNU C Library: localization files
+ii   libc6                   2.28-5                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-1+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
@@ -141,8 +141,8 @@ ii   libk5crypto3            1.16.2-1                     amd64  MIT Kerberos ru
 ii   libkeyutils1            1.5.9-9.3                    amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.16.2-1                     amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.16.2-1                     amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.47+dfsg-1                amd64  OpenLDAP libraries
-ii   libldap-common          2.4.47+dfsg-1                all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.47+dfsg-2                amd64  OpenLDAP libraries
+ii   libldap-common          2.4.47+dfsg-2                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.3                    amd64  XZ-format compression library
@@ -162,7 +162,7 @@ ii   libpcre2-8-0            10.32-3                      amd64  New Perl Compat
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-3                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
-ii   libpopt0                1.16-11                      amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.15-3                     amd64  interactive high-level object-oriented language (Python2)
@@ -185,18 +185,18 @@ ii   libss2                  1.44.5-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-14                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             240-3                        amd64  systemd utility library
+ii   libsystemd0             240-4                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                240-3                        amd64  libudev shared library
+ii   libudev1                240-4                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.28-4                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-5                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
@@ -208,9 +208,9 @@ ii   ncurses-base            6.1+20181013-1               all    basic terminal 
 ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.5                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.9p1-4                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.9p1-4                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.9p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.9p1-5                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-5                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-5                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1a-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-3                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -228,7 +228,7 @@ ii   rsyslog                 8.40.0-1                     amd64  reliable system
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.26-2                     amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.93-3                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.93-3                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-3                       amd64  System-V-like utilities
