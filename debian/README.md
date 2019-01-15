@@ -26,7 +26,7 @@ ii   adduser                 3.118                 all    add and remove users a
 ii   apt                     1.8.0~alpha3          amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                amd64  Debian base system master password and group files
-ii   bash                    4.4.18-3.1            amd64  GNU Bourne Again SHell
+ii   bash                    5.0-1                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-1                amd64  GNU core utilities
 ii   dash                    0.5.10.2-4            amd64  POSIX-compliant shell
@@ -55,7 +55,7 @@ ii   libblkid1               2.33.1-0.1            amd64  block device ID librar
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-5                amd64  GNU C Library: Binaries
 ii   libc6                   2.28-5                amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-1+b1            amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.5-1              amd64  common error description library

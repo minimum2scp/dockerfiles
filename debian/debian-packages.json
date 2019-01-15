@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5784",
+    "Installed-Size": "6461",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.15), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.4.18-3.1",
+    "Version": "5.0-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.4.18-3.1"
+    "source:Version": "5.0-1"
   },
   {
     "Architecture": "amd64",
@@ -930,7 +930,7 @@
     "Depends": "libc6 (>= 2.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "48",
+    "Installed-Size": "47",
     "Origin": "",
     "Package": "libcap-ng0",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.7.9-1+b1",
+    "Version": "0.7.9-2",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "An alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.7.9-1"
+    "source:Version": "0.7.9-2"
   },
   {
     "Architecture": "amd64",

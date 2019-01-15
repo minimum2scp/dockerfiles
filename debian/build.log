@@ -16,7 +16,8 @@ I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
 I: Validating base-files 10.1
 I: Validating base-passwd 3.5.45
-I: Validating bash 4.4.18-3.1
+I: Retrieving bash 5.0-1
+I: Validating bash 5.0-1
 I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.246
 I: Validating coreutils 8.30-1
@@ -36,9 +37,7 @@ I: Validating findutils 4.6.0+git+20181018-1
 I: Validating gcc-8-base 8.2.0-14
 I: Validating libgcc1 1:8.2.0-14
 I: Validating libstdc++6 8.2.0-14
-I: Retrieving libc-bin 2.28-5
 I: Validating libc-bin 2.28-5
-I: Retrieving libc6 2.28-5
 I: Validating libc6 2.28-5
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.12-1
@@ -50,7 +49,8 @@ I: Validating inetutils-ping 2:1.9.4-5
 I: Validating init-system-helpers 1.56+nmu1
 I: Validating iproute2 4.20.0-2
 I: Validating libxtables12 1.8.2-3
-I: Validating libcap-ng0 0.7.9-1+b1
+I: Retrieving libcap-ng0 0.7.9-2
+I: Validating libcap-ng0 0.7.9-2
 I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-9
@@ -85,9 +85,7 @@ I: Validating perl-base 5.28.1-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 240-4
 I: Validating libsystemd0 240-4
-I: Retrieving libudev1 240-4
 I: Validating libudev1 240-4
 I: Validating sysvinit-utils 2.93-3
 I: Validating tar 1.30+dfsg-4
@@ -387,14 +385,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.94MB
+Sending build context to Docker daemon  30.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6a755f45d776
+ ---> 26d814489cc7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 416727edbd28
-Removing intermediate container 416727edbd28
- ---> b30f65af1abb
-Successfully built b30f65af1abb
+ ---> Running in c264db90b472
+Removing intermediate container c264db90b472
+ ---> 58797173464e
+Successfully built 58797173464e
 Successfully tagged minimum2scp/debian:latest
