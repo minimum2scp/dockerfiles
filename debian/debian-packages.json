@@ -241,7 +241,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.69",
+    "Version": "1.5.70",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.69"
+    "source:Version": "1.5.70"
   },
   {
     "Architecture": "all",
@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1887",
+    "Installed-Size": "1927",
     "Origin": "",
     "Package": "findutils",
     "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.6.0+git+20181018-1",
+    "Version": "4.6.0+git+20190105-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.6.0+git+20181018-1"
+    "source:Version": "4.6.0+git+20190105-2"
   },
   {
     "Architecture": "amd64",
