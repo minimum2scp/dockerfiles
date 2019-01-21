@@ -97,7 +97,7 @@ ii   hostname                3.21                         amd64  utility to set/
 ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
 ii   initscripts             2.93-5                       amd64  scripts for initializing and shutting down the system
-ii   insserv                 1.18.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
 ii   libapt-pkg5.0           1.8.0~alpha3                 amd64  package management runtime library
@@ -128,7 +128,7 @@ ii   libfastjson4            0.99.8-2                     amd64  fast json libra
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-14                   amd64  GCC support library
-ii   libgcrypt20             1.8.4-4                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
@@ -178,7 +178,7 @@ ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime
 ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-2                        amd64  SELinux policy management library
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.2-1+b1                   amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
 ii   libsqlite3-0            3.26.0+fossilbc891ac6b-1     amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
