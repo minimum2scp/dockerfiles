@@ -66,7 +66,7 @@ ii   libext2fs2              1.44.5-1              amd64  ext2/ext3/ext4 file sy
 ii   libfdisk1               2.33.1-0.1            amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.2.0-14            amd64  GCC support library
-ii   libgcrypt20             1.8.4-4               amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-5               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.5-2               amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.33-3                amd64  GnuPG development runtime library

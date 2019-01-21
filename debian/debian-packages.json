@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1342",
+    "Installed-Size": "1343",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.4-4",
+    "Version": "1.8.4-5",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.4-4"
+    "source:Version": "1.8.4-5"
   },
   {
     "Architecture": "amd64",
