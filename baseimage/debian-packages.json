@@ -398,7 +398,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "214",
+    "Installed-Size": "226",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8.6",
+    "Version": "4.8.6.1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.8.6"
+    "source:Version": "4.8.6.1"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.20.1-1",
+    "Version": "1:2.20.1-2",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.20.1-1"
+    "source:Version": "1:2.20.1-2"
   },
   {
     "Architecture": "all",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.20.1-1",
+    "Version": "1:2.20.1-2",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.20.1-1"
+    "source:Version": "1:2.20.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2971,21 +2971,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27~rc8-1), libc6 (>= 2.15), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-1), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "187",
+    "Installed-Size": "188",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27~rc8-1)",
+    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~rc8-1",
+    "Version": "2.1.27+dfsg-1",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2993,16 +2993,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~rc8-1"
+    "source:Version": "2.1.27+dfsg-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libdb5.3, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2)",
+    "Depends": "libc6 (>= 2.14), libdb5.3",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "100",
+    "Installed-Size": "101",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~rc8-1",
+    "Version": "2.1.27+dfsg-1",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~rc8-1"
+    "source:Version": "2.1.27+dfsg-1"
   },
   {
     "Architecture": "amd64",
