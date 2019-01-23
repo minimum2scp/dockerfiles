@@ -66,13 +66,13 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.0~alpha3                 amd64  commandline package manager
+ii   apt                     1.8.0~alpha3.1               amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
 ii   bash                    5.0-1                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20180409                     all    Common CA certificates
+ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-130                   amd64  process scheduling daemon
 ii   curl                    7.63.0-1                     amd64  command line tool for transferring data with URL syntax
@@ -81,7 +81,7 @@ ii   debconf                 1.5.70                       all    Debian configur
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                      amd64  File comparison utilities
-ii   dpkg                    1.19.2                       amd64  Debian package management system
+ii   dpkg                    1.19.3                       amd64  Debian package management system
 ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
@@ -100,7 +100,7 @@ ii   initscripts             2.93-5                       amd64  scripts for ini
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~alpha3                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~alpha3.1               amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
