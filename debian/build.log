@@ -9,10 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.0~alpha3.1
-I: Validating apt 1.8.0~alpha3.1
-I: Retrieving libapt-pkg5.0 1.8.0~alpha3.1
-I: Validating libapt-pkg5.0 1.8.0~alpha3.1
+I: Retrieving apt 1.8.0~beta1
+I: Validating apt 1.8.0~beta1
+I: Retrieving libapt-pkg5.0 1.8.0~beta1
+I: Validating libapt-pkg5.0 1.8.0~beta1
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
@@ -28,8 +28,8 @@ I: Validating debconf 1.5.70
 I: Validating debian-archive-keyring 2018.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.6-1
-I: Retrieving dpkg 1.19.3
-I: Validating dpkg 1.19.3
+I: Retrieving dpkg 1.19.4
+I: Validating dpkg 1.19.4
 I: Validating e2fsprogs 1.44.5-1
 I: Validating libcom-err2 1.44.5-1
 I: Validating libext2fs2 1.44.5-1
@@ -386,14 +386,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.09MB
+Sending build context to Docker daemon  30.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e2f008445c6e
+ ---> ef78e37787a4
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 1712c7a3a4ee
-Removing intermediate container 1712c7a3a4ee
- ---> 713f3a525edb
-Successfully built 713f3a525edb
+ ---> Running in 80abc69fc5e4
+Removing intermediate container 80abc69fc5e4
+ ---> 1b3ef3a1fb29
+Successfully built 1b3ef3a1fb29
 Successfully tagged minimum2scp/debian:latest
