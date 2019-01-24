@@ -66,10 +66,10 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.0~alpha3.1               amd64  commandline package manager
+ii   apt                     1.8.0~beta1                  amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
-ii   bash                    5.0-1                        amd64  GNU Bourne Again SHell
+ii   bash                    5.0-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
@@ -81,7 +81,7 @@ ii   debconf                 1.5.70                       all    Debian configur
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.6-1                      amd64  File comparison utilities
-ii   dpkg                    1.19.3                       amd64  Debian package management system
+ii   dpkg                    1.19.4                       amd64  Debian package management system
 ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
@@ -100,7 +100,7 @@ ii   initscripts             2.93-5                       amd64  scripts for ini
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~alpha3.1               amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~beta1                  amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
@@ -152,13 +152,13 @@ ii   libncurses6             6.1+20181013-1               amd64  shared librarie
 ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1~rc1-1                  amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.35.1-1+b1                  amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.36.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-4                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-4                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-4                      all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-4                      amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.32-3                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-3                     amd64  shared Perl library
 ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
