@@ -11,12 +11,15 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.115
-I: Validating apt 1.4.8
-I: Validating libapt-pkg5.0 1.4.8
+I: Retrieving apt 1.4.9
+I: Validating apt 1.4.9
+I: Retrieving libapt-pkg5.0 1.4.9
+I: Validating libapt-pkg5.0 1.4.9
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Validating base-files 9.9+deb9u6
+I: Retrieving base-files 9.9+deb9u7
+I: Validating base-files 9.9+deb9u7
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
 I: Validating libbz2-1.0 1.0.6-8.1
@@ -335,10 +338,10 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 Packages [584 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 Packages [585 kB]
 Hit:5 http://ftp.jp.debian.org/debian stretch Release
-Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [5479 B]
-Fetched 774 kB in 0s (1727 kB/s)
+Get:7 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [5479 B]
+Fetched 776 kB in 0s (1712 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -352,7 +355,7 @@ Get:1 http://security.debian.org stretch/updates/main amd64 perl-base amd64 5.24
 Get:2 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2018i-0+deb9u1 [273 kB]
 Get:3 http://security.debian.org stretch/updates/main amd64 libsystemd0 amd64 232-25+deb9u8 [281 kB]
 Get:4 http://security.debian.org stretch/updates/main amd64 libudev1 amd64 232-25+deb9u8 [125 kB]
-Fetched 2024 kB in 0s (5845 kB/s)
+Fetched 2024 kB in 0s (6303 kB/s)
 (Reading database ... 6487 files and directories currently installed.)
 Preparing to unpack .../perl-base_5.24.1-3+deb9u5_amd64.deb ...
 Unpacking perl-base (5.24.1-3+deb9u5) over (5.24.1-3+deb9u4) ...
@@ -370,14 +373,14 @@ Preparing to unpack .../tzdata_2018i-0+deb9u1_all.deb ...
 Unpacking tzdata (2018i-0+deb9u1) over (2018g-0+deb9u1) ...
 Setting up tzdata (2018i-0+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u3) ...
-Sending build context to Docker daemon  26.66MB
+Sending build context to Docker daemon  26.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5fd8b5796348
+ ---> ce7822c7e911
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c0c8be5f0ece
-Removing intermediate container c0c8be5f0ece
- ---> 65e406efc9dc
-Successfully built 65e406efc9dc
+ ---> Running in f511a8271cfd
+Removing intermediate container f511a8271cfd
+ ---> 1fde2095194a
+Successfully built 1fde2095194a
 Successfully tagged minimum2scp/debian-stretch:latest
