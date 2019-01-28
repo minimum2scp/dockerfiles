@@ -73,7 +73,7 @@ ii   libgpg-error0           1.33-3                amd64  GnuPG development runt
 ii   libhogweed4             3.4.1-1               amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.3             amd64  XZ-format compression library
+ii   liblzma5                5.2.4-1               amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1            amd64  device mounting library
 ii   libncursesw6            6.1+20181013-1        amd64  shared libraries for terminal handling (wide character support)
@@ -92,10 +92,10 @@ ii   libsepol1               2.8-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.44.5-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.2.0-15              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             240-4                 amd64  systemd utility library
+ii   libsystemd0             240-5                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                240-4                 amd64  libudev shared library
+ii   libudev1                240-5                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
 ii   libxtables12            1.8.2-3               amd64  netfilter xtables library
