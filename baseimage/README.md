@@ -145,7 +145,7 @@ ii   libldap-2.4-2           2.4.47+dfsg-2                amd64  OpenLDAP librar
 ii   libldap-common          2.4.47+dfsg-2                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.3                    amd64  XZ-format compression library
+ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
 ii   libncurses6             6.1+20181013-1               amd64  shared libraries for terminal handling
@@ -161,7 +161,7 @@ ii   libpam0g                1.1.8-4                      amd64  Pluggable Authe
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-3                     amd64  shared Perl library
-ii   libpipeline1            1.5.0-2                      amd64  pipeline manipulation library
+ii   libpipeline1            1.5.1-1                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
@@ -185,11 +185,11 @@ ii   libss2                  1.44.5-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-15                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             240-4                        amd64  systemd utility library
+ii   libsystemd0             240-5                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                240-4                        amd64  libudev shared library
+ii   libudev1                240-5                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
@@ -242,6 +242,6 @@ ii   vim-tiny                2:8.1.0693-2                 amd64  Vi IMproved - e
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0693-2                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
-ii   zsh                     5.7-1                        amd64  shell with lots of features
-ii   zsh-common              5.7-1                        all    architecture independent files for Zsh
+ii   zsh                     5.7-2                        amd64  shell with lots of features
+ii   zsh-common              5.7-2                        all    architecture independent files for Zsh
 ```
