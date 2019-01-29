@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   acl                     2.2.52-2                          amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                        all    add and remove users and groups
-ii   apt                     1.0.9.8.4                         amd64  commandline package manager
+ii   apt                     1.0.9.8.5                         amd64  commandline package manager
 ii   base-files              8+deb8u11                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                            amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
@@ -106,7 +106,7 @@ ii   initscripts             2.88dsf-59                        amd64  scripts fo
 ii   insserv                 1.14.0-5                          amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                3.16.0-2                          amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-2                          amd64  Access control list shared library
-ii   libapt-pkg4.12          1.0.9.8.4                         amd64  package management runtime library
+ii   libapt-pkg4.12          1.0.9.8.5                         amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                        amd64  Extended attribute shared library
 ii   libaudit-common         1:2.4-1                           all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.4-1+b1                        amd64  Dynamic library for security auditing
@@ -135,15 +135,15 @@ ii   libgdbm3                1.8.3-13.1                        amd64  GNU dbm da
 ii   libgmp10                2:6.0.0+dfsg-6                    amd64  Multiprecision arithmetic library
 ii   libgnutls-deb0-28       3.3.30-0+deb8u1                   amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.17-3                            amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.12.1+dfsg-19+deb8u5             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed2             2.7.1-5+deb8u2                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.29-1+deb8u3                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libjson-c2              0.11-4                            amd64  JSON manipulation library - shared library
-ii   libk5crypto3            1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.12.1+dfsg-19+deb8u5             amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-5+b1                        amd64  Linux Key Management Utilities (library)
 ii   libkmod2                18-3                              amd64  libkmod shared library
-ii   libkrb5-3               1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.12.1+dfsg-19+deb8u4             amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.12.1+dfsg-19+deb8u5             amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.12.1+dfsg-19+deb8u5             amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.40+dfsg-1+deb8u4              amd64  OpenLDAP libraries
 ii   liblocale-gettext-perl  1.05-8+b1                         amd64  module using libc functions for internationalization in Perl
 ii   liblogging-stdlog0      1.0.4-1                           amd64  easy to use and lightweight logging library
@@ -177,13 +177,13 @@ ii   libss2                  1.42.12-2+b1                      amd64  command-li
 ii   libssh2-1               1.4.3-4.1+deb8u1                  amd64  SSH2 client-side library
 ii   libssl1.0.0             1.0.1t-1+deb8u10                  amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              4.9.2-10+deb8u2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             215-17+deb8u8                     amd64  systemd utility library
+ii   libsystemd0             215-17+deb8u9                     amd64  systemd utility library
 ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                          amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
 ii   libtinfo5               5.9+20140913-1+deb8u3             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                215-17+deb8u8                     amd64  libudev shared library
+ii   libudev1                215-17+deb8u9                     amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25                       amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                        amd64  Micro string library: shared library
 ii   libuuid1                2.25.2-6                          amd64  Universally Unique ID library
@@ -219,10 +219,10 @@ ii   sudo                    1.8.10p3-1+deb8u5                 amd64  Provide li
 ii   sysv-rc                 2.88dsf-59                        all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59                        amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59                        amd64  System-V-like utilities
-ii   tar                     1.27.1-2+deb8u1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018g-0+deb8u1                    all    time zone and daylight-saving time data
+ii   tar                     1.27.1-2+deb8u2                   amd64  GNU version of the tar archiving utility
+ii   tzdata                  2018i-0+deb8u1                    all    time zone and daylight-saving time data
 ii   ucf                     3.0030                            all    Update Configuration File(s): preserve user changes to config files
-ii   udev                    215-17+deb8u8                     amd64  /dev/ and hotplug management daemon
+ii   udev                    215-17+deb8u9                     amd64  /dev/ and hotplug management daemon
 ii   unzip                   6.0-16+deb8u3                     amd64  De-archiver for .zip files
 ii   util-linux              2.25.2-6                          amd64  Miscellaneous system utilities
 ii   vim-common              2:7.4.488-7+deb8u3                amd64  Vi IMproved - Common files
