@@ -59,10 +59,10 @@
     "Architecture": "amd64",
     "Conflicts": "python-apt (<< 0.7.93.2~)",
     "Breaks": "manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)",
-    "Depends": "libapt-pkg4.12 (>= 1.0.9.8.4), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), debian-archive-keyring, gnupg",
+    "Depends": "libapt-pkg4.12 (>= 1.0.9.8.5), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), debian-archive-keyring, gnupg",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3178",
+    "Installed-Size": "3175",
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt",
-    "Version": "1.0.9.8.4",
+    "Version": "1.0.9.8.5",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.0.9.8.4"
+    "source:Version": "1.0.9.8.5"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 4.9), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2664",
+    "Installed-Size": "2660",
     "Origin": "",
     "Package": "libapt-pkg4.12",
     "Pre-Depends": "multiarch-support",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.9.8.4",
+    "Version": "1.0.9.8.5",
     "binary:Package": "libapt-pkg4.12:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.0.9.8.4"
+    "source:Version": "1.0.9.8.5"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u8",
+    "Version": "215-17+deb8u9",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u8"
+    "source:Version": "215-17+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u8",
+    "Version": "215-17+deb8u9",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u8"
+    "source:Version": "215-17+deb8u9"
   },
   {
     "Architecture": "amd64",
@@ -2663,7 +2663,7 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2)",
-    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u8), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u9), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "11868",
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui",
-    "Version": "215-17+deb8u8",
+    "Version": "215-17+deb8u9",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2685,13 +2685,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u8"
+    "source:Version": "215-17+deb8u9"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sysvinit-core, upstart",
     "Breaks": "",
-    "Depends": "systemd (= 215-17+deb8u8)",
+    "Depends": "systemd (= 215-17+deb8u9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "80",
@@ -2705,7 +2705,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u8",
+    "Version": "215-17+deb8u9",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u8"
+    "source:Version": "215-17+deb8u9"
   },
   {
     "Architecture": "all",
@@ -2778,7 +2778,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2261",
+    "Installed-Size": "2623",
     "Origin": "",
     "Package": "tar",
     "Pre-Depends": "libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -2789,7 +2789,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils, tar-scripts",
-    "Version": "1.27.1-2+deb8u1",
+    "Version": "1.27.1-2+deb8u2",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.27.1-2+deb8u1"
+    "source:Version": "1.27.1-2+deb8u2"
   },
   {
     "Architecture": "all",
@@ -2806,7 +2806,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1713",
+    "Installed-Size": "1722",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2817,7 +2817,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018g-0+deb8u1",
+    "Version": "2018i-0+deb8u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2825,13 +2825,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2018g-0+deb8u1"
+    "source:Version": "2018i-0+deb8u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u8), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u9), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "6048",
@@ -2845,7 +2845,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u8",
+    "Version": "215-17+deb8u9",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u8"
+    "source:Version": "215-17+deb8u9"
   },
   {
     "Architecture": "amd64",

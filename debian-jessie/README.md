@@ -24,7 +24,7 @@ installed packages:
 ```
 ii   acl                     2.2.52-2                  amd64  Access control list utilities
 ii   adduser                 3.113+nmu3                all    add and remove users and groups
-ii   apt                     1.0.9.8.4                 amd64  commandline package manager
+ii   apt                     1.0.9.8.5                 amd64  commandline package manager
 ii   base-files              8+deb8u11                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                    amd64  Debian base system master password and group files
 ii   bash                    4.3-11+deb8u1             amd64  GNU Bourne Again SHell
@@ -54,7 +54,7 @@ ii   initscripts             2.88dsf-59                amd64  scripts for initia
 ii   insserv                 1.14.0-5                  amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                3.16.0-2                  amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-2                  amd64  Access control list shared library
-ii   libapt-pkg4.12          1.0.9.8.4                 amd64  package management runtime library
+ii   libapt-pkg4.12          1.0.9.8.5                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.4-1                   all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.4-1+b1                amd64  Dynamic library for security auditing
@@ -93,12 +93,12 @@ ii   libslang2               2.3.0-2                   amd64  S-Lang programming
 ii   libsmartcols1           2.25.2-6                  amd64  smart column output alignment library
 ii   libss2                  1.42.12-2+b1              amd64  command-line interface parsing library
 ii   libstdc++6              4.9.2-10+deb8u2           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             215-17+deb8u8             amd64  systemd utility library
+ii   libsystemd0             215-17+deb8u9             amd64  systemd utility library
 ii   libtext-charwidth-perl  0.04-7+b3                 amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                  amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                    all    internationalized substitute of Text::Wrap
 ii   libtinfo5               5.9+20140913-1+deb8u3     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                215-17+deb8u8             amd64  libudev shared library
+ii   libudev1                215-17+deb8u9             amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25               amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                amd64  Micro string library: shared library
 ii   libuuid1                2.25.2-6                  amd64  Universally Unique ID library
@@ -117,13 +117,13 @@ ii   readline-common         6.3-8                     all    GNU readline and h
 ii   sed                     4.2.2-4+deb8u1            amd64  The GNU sed stream editor
 ii   sensible-utils          0.0.9+deb8u1              all    Utilities for sensible alternative selection
 ii   startpar                0.59-3                    amd64  run processes in parallel and multiplex their output
-ii   systemd                 215-17+deb8u8             amd64  system and service manager
-ii   systemd-sysv            215-17+deb8u8             amd64  system and service manager - SysV links
+ii   systemd                 215-17+deb8u9             amd64  system and service manager
+ii   systemd-sysv            215-17+deb8u9             amd64  system and service manager - SysV links
 ii   sysv-rc                 2.88dsf-59                all    System-V-like runlevel change mechanism
 ii   sysvinit-utils          2.88dsf-59                amd64  System-V-like utilities
-ii   tar                     1.27.1-2+deb8u1           amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018g-0+deb8u1            all    time zone and daylight-saving time data
-ii   udev                    215-17+deb8u8             amd64  /dev/ and hotplug management daemon
+ii   tar                     1.27.1-2+deb8u2           amd64  GNU version of the tar archiving utility
+ii   tzdata                  2018i-0+deb8u1            all    time zone and daylight-saving time data
+ii   udev                    215-17+deb8u9             amd64  /dev/ and hotplug management daemon
 ii   util-linux              2.25.2-6                  amd64  Miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-2+b1         amd64  compression library - runtime
 ```
