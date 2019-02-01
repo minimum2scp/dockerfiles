@@ -21,7 +21,8 @@ I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.246
 I: Validating coreutils 8.30-1
 I: Validating dash 0.5.10.2-5
-I: Validating libdb5.3 5.3.28+dfsg1-0.2
+I: Retrieving libdb5.3 5.3.28+dfsg1-0.3
+I: Validating libdb5.3 5.3.28+dfsg1-0.3
 I: Validating debconf 1.5.70
 I: Validating debian-archive-keyring 2018.1
 I: Validating debianutils 4.8.6.1
@@ -33,9 +34,12 @@ I: Validating libext2fs2 1.44.5-1
 I: Validating libss2 1.44.5-1
 I: Validating libelf1 0.175-2
 I: Validating findutils 4.6.0+git+20190105-2
-I: Validating gcc-8-base 8.2.0-15
-I: Validating libgcc1 1:8.2.0-15
-I: Validating libstdc++6 8.2.0-15
+I: Retrieving gcc-8-base 8.2.0-16
+I: Validating gcc-8-base 8.2.0-16
+I: Retrieving libgcc1 1:8.2.0-16
+I: Validating libgcc1 1:8.2.0-16
+I: Retrieving libstdc++6 8.2.0-16
+I: Validating libstdc++6 8.2.0-16
 I: Validating libc-bin 2.28-5
 I: Validating libc6 2.28-5
 I: Validating libgmp10 2:6.1.2+dfsg-4
@@ -83,9 +87,7 @@ I: Validating perl-base 5.28.1-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 240-5
 I: Validating libsystemd0 240-5
-I: Retrieving libudev1 240-5
 I: Validating libudev1 240-5
 I: Validating sysvinit-utils 2.93-6
 I: Validating tar 1.30+dfsg-4
@@ -99,7 +101,6 @@ I: Validating libsmartcols1 2.33.1-0.1
 I: Validating libuuid1 2.33.1-0.1
 I: Validating mount 2.33.1-0.1
 I: Validating util-linux 2.33.1-0.1
-I: Retrieving liblzma5 5.2.4-1
 I: Validating liblzma5 5.2.4-1
 I: Validating zlib1g 1:1.2.11.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -386,14 +387,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.04MB
+Sending build context to Docker daemon  30.03MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0e31252ecf0f
+ ---> f7053177bdaf
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 656176e8c74c
-Removing intermediate container 656176e8c74c
- ---> ea782ff8f069
-Successfully built ea782ff8f069
+ ---> Running in f3f232ff2f18
+Removing intermediate container f3f232ff2f18
+ ---> bb616ca5e88f
+Successfully built bb616ca5e88f
 Successfully tagged minimum2scp/debian:latest
