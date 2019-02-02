@@ -35,7 +35,7 @@ describe 'minimum2scp/tdiary' do
 
       describe command('rbenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "2.6.0\n" }
+        its(:stdout){ should eq "2.6.1\n" }
       end
 
       %w[
