@@ -133,7 +133,7 @@ ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm databas
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.6-2                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.33-3                       amd64  GnuPG development runtime library
+ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-1                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -152,7 +152,7 @@ ii   libncurses6             6.1+20181013-1               amd64  shared librarie
 ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.36.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.36.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-4                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-4                      amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -167,8 +167,8 @@ ii   libprocps7              2:3.3.15-2                   amd64  library for acc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.15-4                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.15-4                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.15-6                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.15-6                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.15-8                     amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.15-8                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
@@ -221,8 +221,8 @@ ii   python                  2.7.15-4                     amd64  interactive hig
 ii   python-minimal          2.7.15-4                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.15-4                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python2-minimal         2.7.15-4                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.15-6                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.15-6                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.15-8                     amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.15-8                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.40.0-1+b1                  amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
