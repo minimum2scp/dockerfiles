@@ -53,7 +53,8 @@ I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.4-5
-I: Validating libgpg-error0 1.33-3
+I: Retrieving libgpg-error0 1.35-1
+I: Validating libgpg-error0 1.35-1
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-3
@@ -79,7 +80,6 @@ I: Validating libpam-modules-bin 1.1.8-4
 I: Validating libpam-runtime 1.1.8-4
 I: Validating libpam0g 1.1.8-4
 I: Validating libpcre3 2:8.39-11
-I: Retrieving perl-base 5.28.1-4
 I: Validating perl-base 5.28.1-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
@@ -388,10 +388,10 @@ Sending build context to Docker daemon  30.03MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 59312390aab8
+ ---> ab1027d50259
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b0b4d41e2d4e
-Removing intermediate container b0b4d41e2d4e
- ---> 866c240329e2
-Successfully built 866c240329e2
+ ---> Running in de84a7717c64
+Removing intermediate container de84a7717c64
+ ---> abd22f485ca3
+Successfully built abd22f485ca3
 Successfully tagged minimum2scp/debian:latest
