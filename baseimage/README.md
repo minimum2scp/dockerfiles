@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.0~beta1                  amd64  commandline package manager
+ii   apt                     1.8.0~rc2                    amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
 ii   bash                    5.0-2                        amd64  GNU Bourne Again SHell
@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190105-2         amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-16                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-17                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.1-2                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
@@ -100,7 +100,7 @@ ii   initscripts             2.93-6                       amd64  scripts for ini
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~beta1                  amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~rc2                    amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
@@ -127,7 +127,7 @@ ii   libext2fs2              1.44.5-1                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-16                   amd64  GCC support library
+ii   libgcc1                 1:8.2.0-17                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
@@ -184,7 +184,7 @@ ii   libsqlite3-0            3.26.0+fossilbc891ac6b-2     amd64  SQLite 3 shared
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-16                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-17                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             240-5                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
@@ -232,7 +232,7 @@ ii   sudo                    1.8.27-1                     amd64  Provide limited
 ii   sysv-rc                 2.93-6                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.93-6                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-6                       amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-4                  amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-5                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
@@ -242,6 +242,6 @@ ii   vim-tiny                2:8.1.0693-2                 amd64  Vi IMproved - e
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0693-2                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
-ii   zsh                     5.7-2                        amd64  shell with lots of features
-ii   zsh-common              5.7-2                        all    architecture independent files for Zsh
+ii   zsh                     5.7.1-1                      amd64  shell with lots of features
+ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
 ```
