@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.118
-I: Validating apt 1.8.0~beta1
-I: Validating libapt-pkg5.0 1.8.0~beta1
+I: Retrieving apt 1.8.0~rc2
+I: Validating apt 1.8.0~rc2
+I: Retrieving libapt-pkg5.0 1.8.0~rc2
+I: Validating libapt-pkg5.0 1.8.0~rc2
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
@@ -33,9 +35,12 @@ I: Validating libext2fs2 1.44.5-1
 I: Validating libss2 1.44.5-1
 I: Validating libelf1 0.175-2
 I: Validating findutils 4.6.0+git+20190105-2
-I: Validating gcc-8-base 8.2.0-16
-I: Validating libgcc1 1:8.2.0-16
-I: Validating libstdc++6 8.2.0-16
+I: Retrieving gcc-8-base 8.2.0-17
+I: Validating gcc-8-base 8.2.0-17
+I: Retrieving libgcc1 1:8.2.0-17
+I: Validating libgcc1 1:8.2.0-17
+I: Retrieving libstdc++6 8.2.0-17
+I: Validating libstdc++6 8.2.0-17
 I: Validating libc-bin 2.28-5
 I: Validating libc6 2.28-5
 I: Validating libgmp10 2:6.1.2+dfsg-4
@@ -53,7 +58,6 @@ I: Validating libcap2 1:2.25-1.2
 I: Validating libcap2-bin 1:2.25-1.2
 I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.4-5
-I: Retrieving libgpg-error0 1.35-1
 I: Validating libgpg-error0 1.35-1
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
@@ -87,7 +91,8 @@ I: Validating passwd 1:4.5-1.1
 I: Validating libsystemd0 240-5
 I: Validating libudev1 240-5
 I: Validating sysvinit-utils 2.93-6
-I: Validating tar 1.30+dfsg-4
+I: Retrieving tar 1.30+dfsg-5
+I: Validating tar 1.30+dfsg-5
 I: Validating tzdata 2018i-1
 I: Validating bsdutils 1:2.33.1-0.1
 I: Validating fdisk 2.33.1-0.1
@@ -384,14 +389,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.03MB
+Sending build context to Docker daemon  30.05MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ab1027d50259
+ ---> 75017c462a91
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in de84a7717c64
-Removing intermediate container de84a7717c64
- ---> abd22f485ca3
-Successfully built abd22f485ca3
+ ---> Running in 019b2ee58ce5
+Removing intermediate container 019b2ee58ce5
+ ---> 3c6226303ca3
+Successfully built 3c6226303ca3
 Successfully tagged minimum2scp/debian:latest
