@@ -107,9 +107,9 @@ ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-5                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.28-5                       all    GNU C Library: localization files
-ii   libc6                   2.28-5                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-6                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-6                       all    GNU C Library: localization files
+ii   libc6                   2.28-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
@@ -196,7 +196,7 @@ ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's
 ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.28-5                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-6                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
@@ -237,10 +237,10 @@ ii   tzdata                  2018i-1                      all    time zone and d
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0693-2                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0693-2                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0875-1                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0875-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0693-2                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0875-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
