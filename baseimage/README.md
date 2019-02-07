@@ -75,7 +75,7 @@ ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-130                   amd64  process scheduling daemon
-ii   curl                    7.63.0-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.64.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.70                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
@@ -111,11 +111,11 @@ ii   libc-bin                2.28-6                       amd64  GNU C Library: 
 ii   libc-l10n               2.28-6                       all    GNU C Library: localization files
 ii   libc6                   2.28-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.25-1.2                   amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.5-1                     amd64  common error description library
-ii   libcurl3-gnutls         7.63.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.63.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.64.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.64.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.3             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.246                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
@@ -138,7 +138,7 @@ ii   libgssapi-krb5-2        1.17-1                       amd64  MIT Kerberos ru
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-1                       amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.5.9-9.3                    amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.5.9-10                     amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-1                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-1                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
