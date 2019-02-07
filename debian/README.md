@@ -56,8 +56,8 @@ ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sor
 ii   libc-bin                2.28-6                amd64  GNU C Library: Binaries
 ii   libc6                   2.28-6                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.25-1.2            amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.25-1.2            amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.5-1              amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.3      amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.246                 amd64  Debian Configuration Management System (C-implementation library)
