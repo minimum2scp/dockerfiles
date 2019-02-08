@@ -1,0 +1,18 @@
+# https://dependabot.com/blog/introducing-config-files/
+version: 1
+update_configs:
+  - package_manager: "ruby:bundler"
+    directory: "/"
+    update_schedule: "live"
+    allowed_updates:
+      - match:
+          update_type: "all"
+    default_reviewers:
+      - "minimum2scp"
+
+  - package_manager: "docker"
+    directory: "/.circleci/rspec-runner"
+    update_schedule: "daily"
+    default_reviewers:
+      - "minimum2scp"
+
