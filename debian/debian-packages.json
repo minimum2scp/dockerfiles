@@ -594,7 +594,7 @@
     "Depends": "libc6 (>= 2.15), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "348",
+    "Installed-Size": "349",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-5",
+    "Version": "2:1.9.4-6",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-5"
+    "source:Version": "2:1.9.4-6"
   },
   {
     "Architecture": "all",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-6",
+    "Version": "2.28-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-6"
+    "source:Version": "2.28-7"
   },
   {
     "Architecture": "amd64",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.28-6",
+    "Version": "2.28-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-6"
+    "source:Version": "2.28-7"
   },
   {
     "Architecture": "amd64",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.246",
+    "Version": "0.247",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.246"
+    "source:Version": "0.247"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "298",
+    "Installed-Size": "306",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.3-3",
+    "Version": "2.3.3-4",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.3.3-3"
+    "source:Version": "2.3.3-4"
   },
   {
     "Architecture": "amd64",
@@ -2330,7 +2330,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "43",
+    "Installed-Size": "44",
     "Origin": "",
     "Package": "netbase",
     "Pre-Depends": "",
@@ -2341,7 +2341,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.5",
+    "Version": "5.6",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "5.5"
+    "source:Version": "5.6"
   },
   {
     "Architecture": "amd64",

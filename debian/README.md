@@ -43,7 +43,7 @@ ii   gpgv                    2.2.12-1              amd64  GNU privacy guard - si
 ii   grep                    3.3-1                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3                 amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-5             amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-6             amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
@@ -53,14 +53,14 @@ ii   libaudit-common         1:2.8.4-2             all    Dynamic library for se
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-6                amd64  GNU C Library: Binaries
-ii   libc6                   2.28-6                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-7                amd64  GNU C Library: Binaries
+ii   libc6                   2.28-7                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.5-1              amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.3      amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.246                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.247                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.175-2               amd64  library to read and write ELF files
 ii   libext2fs2              1.44.5-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.33.1-0.1            amd64  fdisk partitioning library
@@ -84,7 +84,7 @@ ii   libpam-modules-bin      1.1.8-4               amd64  Pluggable Authenticati
 ii   libpam-runtime          1.1.8-4               all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-4               amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-11             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.3.3-3               amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.3.3-4               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-2                 amd64  SELinux policy management library
@@ -105,7 +105,7 @@ ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and
 ii   mount                   2.33.1-0.1            amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20181013-1        all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-1        amd64  terminal-related programs and man pages
-ii   netbase                 5.5                   all    Basic TCP/IP networking system
+ii   netbase                 5.6                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1             amd64  change and administer password and group data
 ii   perl-base               5.28.1-4              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
