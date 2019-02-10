@@ -94,7 +94,7 @@ ii   grep                    3.3-1                        amd64  GNU grep, egrep
 ii   groff-base              1.22.4-2                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-5                    amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-6                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
 ii   initscripts             2.93-6                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
@@ -107,9 +107,9 @@ ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-6                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.28-6                       all    GNU C Library: localization files
-ii   libc6                   2.28-6                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-7                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-7                       all    GNU C Library: localization files
+ii   libc6                   2.28-7                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
@@ -117,7 +117,7 @@ ii   libcom-err2             1.44.5-1                     amd64  common error de
 ii   libcurl3-gnutls         7.64.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.64.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.3             amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.246                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.247                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.175-2                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -173,7 +173,7 @@ ii   libreadline7            7.0-5                        amd64  GNU readline an
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.3.3-3                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-2                        amd64  SELinux policy management library
@@ -196,18 +196,18 @@ ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's
 ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.28-6                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-7                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.5-1                      amd64  on-line manual pager
+ii   man-db                  2.8.5-2                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
-ii   mime-support            3.61                         all    MIME files 'mime.types' & 'mailcap', and support programs
+ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20181013-1               all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
-ii   netbase                 5.5                          all    Basic TCP/IP networking system
+ii   netbase                 5.6                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.9p1-6                    amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.9p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.9p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -235,7 +235,7 @@ ii   sysvinit-utils          2.93-6                       amd64  System-V-like u
 ii   tar                     1.30+dfsg-5                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-21                       amd64  De-archiver for .zip files
+ii   unzip                   6.0-22                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-1                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-1                 amd64  Vi IMproved - enhanced vi editor - compact version
