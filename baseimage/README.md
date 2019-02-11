@@ -66,9 +66,9 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.0~rc2                    amd64  commandline package manager
+ii   apt                     1.8.0~rc3                    amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.45                       amd64  Debian base system master password and group files
+ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-2                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
@@ -86,7 +86,7 @@ ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190105-2         amd64  utilities for finding files--find, xargs
-ii   gcc-8-base              8.2.0-19                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-8-base              8.2.0-20                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.1-2                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
@@ -100,7 +100,7 @@ ii   initscripts             2.93-6                       amd64  scripts for ini
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~rc2                    amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~rc3                    amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
@@ -120,14 +120,14 @@ ii   libdb5.3                5.3.28+dfsg1-0.3             amd64  Berkeley v5.3 D
 ii   libdebconfclient0       0.247                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.175-2                      amd64  library to read and write ELF files
-ii   liberror-perl           0.17027-1                    all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.5-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:8.2.0-19                   amd64  GCC support library
+ii   libgcc1                 1:8.2.0-20                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-2                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-2                     amd64  GNU dbm database routines (runtime version) 
@@ -161,7 +161,7 @@ ii   libpam0g                1.1.8-4                      amd64  Pluggable Authe
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-4                     amd64  shared Perl library
-ii   libpipeline1            1.5.1-1                      amd64  pipeline manipulation library
+ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
@@ -184,7 +184,7 @@ ii   libsqlite3-0            3.26.0+fossilbc891ac6b-2     amd64  SQLite 3 shared
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              8.2.0-19                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6              8.2.0-20                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             240-5                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
