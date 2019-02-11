@@ -90,7 +90,7 @@
     "Depends": "libc6 (>= 2.8), libdebconfclient0 (>= 0.145)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "228",
+    "Installed-Size": "232",
     "Origin": "",
     "Package": "base-passwd",
     "Pre-Depends": "",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.45",
+    "Version": "3.5.46",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.45"
+    "source:Version": "3.5.46"
   },
   {
     "Architecture": "amd64",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.2.0-19",
+    "Version": "8.2.0-20",
     "binary:Package": "gcc-8-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-8",
-    "source:Version": "8.2.0-19"
+    "source:Version": "8.2.0-20"
   },
   {
     "Architecture": "amd64",
@@ -1207,7 +1207,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-8-base (= 8.2.0-19), libc6 (>= 2.14)",
+    "Depends": "gcc-8-base (= 8.2.0-20), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:8.2.0-19",
+    "Version": "1:8.2.0-20",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-8",
-    "source:Version": "8.2.0-19"
+    "source:Version": "8.2.0-20"
   },
   {
     "Architecture": "amd64",
@@ -1935,7 +1935,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-8-base (= 8.2.0-19), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-8-base (= 8.2.0-20), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2017",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.2.0-19",
+    "Version": "8.2.0-20",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-8",
-    "source:Version": "8.2.0-19"
+    "source:Version": "8.2.0-20"
   },
   {
     "Architecture": "amd64",
