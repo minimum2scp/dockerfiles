@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                 all    add and remove users and groups
-ii   apt                     1.8.0~rc2             amd64  commandline package manager
+ii   apt                     1.8.0~rc3             amd64  commandline package manager
 ii   base-files              10.1                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                amd64  Debian base system master password and group files
 ii   bash                    5.0-2                 amd64  GNU Bourne Again SHell
@@ -47,7 +47,7 @@ ii   inetutils-ping          2:1.9.4-6             amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-3+b1           amd64  Access control list shared library
-ii   libapt-pkg5.0           1.8.0~rc2             amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.0~rc3             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2         amd64  Extended attribute shared library
 ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
@@ -76,7 +76,7 @@ ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression al
 ii   liblzma5                5.2.4-1               amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1            amd64  device mounting library
-ii   libncursesw6            6.1+20181013-1        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6            6.1+20181013-2        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.14-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.1.8-4               amd64  Pluggable Authentication Modules for PAM
@@ -94,7 +94,7 @@ ii   libss2                  1.44.5-1              amd64  command-line interface
 ii   libstdc++6              8.2.0-20              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             240-5                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20181013-1        amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-2        amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                240-5                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
@@ -103,8 +103,8 @@ ii   libzstd1                1.3.8+dfsg-3          amd64  fast lossless compress
 ii   login                   1:4.5-1.1             amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.33.1-0.1            amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20181013-1        all    basic terminal type definitions
-ii   ncurses-bin             6.1+20181013-1        amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-2        all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-2        amd64  terminal-related programs and man pages
 ii   netbase                 5.6                   all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1             amd64  change and administer password and group data
 ii   perl-base               5.28.1-4              amd64  minimal Perl system
