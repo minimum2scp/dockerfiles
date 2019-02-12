@@ -138,7 +138,7 @@ ii   libgssapi-krb5-2        1.17-1                       amd64  MIT Kerberos ru
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-1                       amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.5.9-10                     amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.6-2                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-1                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-1                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
@@ -148,16 +148,16 @@ ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compres
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
-ii   libncurses6             6.1+20181013-1               amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20181013-1               amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20181013-2               amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20181013-2               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.1.8-4                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.1.8-4                      amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.1.8-4                      all    Runtime support for the PAM library
-ii   libpam0g                1.1.8-4                      amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.3.1-1                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.3.1-1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.3.1-1                      all    Runtime support for the PAM library
+ii   libpam0g                1.3.1-1                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-4                     amd64  shared Perl library
@@ -187,7 +187,7 @@ ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets 
 ii   libstdc++6              8.2.0-20                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             240-5                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20181013-1               amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                240-5                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
@@ -204,8 +204,8 @@ ii   man-db                  2.8.5-2                      amd64  on-line manual 
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20181013-1               all    basic terminal type definitions
-ii   ncurses-bin             6.1+20181013-1               amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-2               all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-2               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.9p1-6                    amd64  secure shell (SSH) client, for secure access to remote machines
