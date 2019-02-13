@@ -154,10 +154,10 @@ ii   libnettle6              3.4.1-1                      amd64  low level crypt
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.3.1-1                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.3.1-1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.3.1-1                      all    Runtime support for the PAM library
-ii   libpam0g                1.3.1-1                      amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.3.1-2                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.3.1-2                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.3.1-2                      all    Runtime support for the PAM library
+ii   libpam0g                1.3.1-2                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-4                     amd64  shared Perl library
@@ -180,7 +180,7 @@ ii   libsemanage1            2.8-2                        amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.26.0+fossilbc891ac6b-2     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.27.1-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
