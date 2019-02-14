@@ -79,10 +79,10 @@ ii   libmount1               2.33.1-0.1            amd64  device mounting librar
 ii   libncursesw6            6.1+20181013-2        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.14-2             amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.3.1-2               amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.3.1-2               amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.3.1-2               all    Runtime support for the PAM library
-ii   libpam0g                1.3.1-2               amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.3.1-4               amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.3.1-4               amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.3.1-4               all    Runtime support for the PAM library
+ii   libpam0g                1.3.1-4               amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-11             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.3-4               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1              amd64  SELinux runtime shared libraries
