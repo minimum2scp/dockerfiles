@@ -96,12 +96,12 @@ ii   gzip                    1.9-3                        amd64  GNU compression
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-6                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
-ii   initscripts             2.93-6                       amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
-ii   libacl1                 2.2.52-3+b1                  amd64  Access control list shared library
+ii   libacl1                 2.2.52-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc3                    amd64  package management runtime library
-ii   libattr1                1:2.4.47-2+b2                amd64  Extended attribute shared library
+ii   libattr1                1:2.4.47-3                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
@@ -154,10 +154,10 @@ ii   libnettle6              3.4.1-1                      amd64  low level crypt
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.14-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.3.1-4                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.3.1-4                      amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.3.1-4                      all    Runtime support for the PAM library
-ii   libpam0g                1.3.1-4                      amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library
+ii   libpam0g                1.3.1-5                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-4                     amd64  shared Perl library
@@ -229,9 +229,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.93-6                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.93-6                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.93-6                       amd64  System-V-like utilities
+ii   sysv-rc                 2.93-8                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.93-8                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-5                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
