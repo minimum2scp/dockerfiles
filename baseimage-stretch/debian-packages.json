@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.9+deb9u7",
+    "Version": "9.9+deb9u8",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "9.9+deb9u7"
+    "source:Version": "9.9+deb9u8"
   },
   {
     "Architecture": "amd64",
@@ -283,7 +283,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u8), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u9), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "346",
@@ -297,7 +297,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u8",
+    "Version": "7.52.1-5+deb9u9",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u8"
+    "source:Version": "7.52.1-5+deb9u9"
   },
   {
     "Architecture": "amd64",
@@ -689,7 +689,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.1.18-8~deb9u3",
+    "Version": "2.1.18-8~deb9u4",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.1.18-8~deb9u3"
+    "source:Version": "2.1.18-8~deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -1182,7 +1182,7 @@
     "Depends": "libc6 (>> 2.24), libc6 (<< 2.25)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3365",
+    "Installed-Size": "3366",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-11+deb9u3",
+    "Version": "2.24-11+deb9u4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-11+deb9u3"
+    "source:Version": "2.24-11+deb9u4"
   },
   {
     "Architecture": "all",
@@ -1210,7 +1210,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4210",
+    "Installed-Size": "4211",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-11+deb9u3",
+    "Version": "2.24-11+deb9u4",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-11+deb9u3"
+    "source:Version": "2.24-11+deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -1238,7 +1238,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "10684",
+    "Installed-Size": "10686",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.24-11+deb9u3",
+    "Version": "2.24-11+deb9u4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-11+deb9u3"
+    "source:Version": "2.24-11+deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u8",
+    "Version": "7.52.1-5+deb9u9",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u8"
+    "source:Version": "7.52.1-5+deb9u9"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u8",
+    "Version": "7.52.1-5+deb9u9",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u8"
+    "source:Version": "7.52.1-5+deb9u9"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "libc-bin (>> 2.24), libc-l10n (>> 2.24), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9245",
+    "Installed-Size": "9246",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3545,7 +3545,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-11+deb9u3",
+    "Version": "2.24-11+deb9u4",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-11+deb9u3"
+    "source:Version": "2.24-11+deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -3758,7 +3758,7 @@
     "Depends": "libc6 (>= 2.3.6-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "220",
+    "Installed-Size": "221",
     "Origin": "",
     "Package": "multiarch-support",
     "Pre-Depends": "",
@@ -3769,7 +3769,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.24-11+deb9u3",
+    "Version": "2.24-11+deb9u4",
     "binary:Package": "multiarch-support",
     "binary:Summary": "Transitional package to ensure multiarch compatibility",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.24-11+deb9u3"
+    "source:Version": "2.24-11+deb9u4"
   },
   {
     "Architecture": "all",
@@ -3898,7 +3898,7 @@
     "Depends": "adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libc6 (>= 2.17), libedit2 (>= 2.11-20080614), libgssapi-krb5-2 (>= 1.14+dfsg), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4106",
+    "Installed-Size": "4107",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3909,7 +3909,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:7.4p1-10+deb9u4",
+    "Version": "1:7.4p1-10+deb9u5",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3917,13 +3917,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-10+deb9u4"
+    "source:Version": "1:7.4p1-10+deb9u5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-10+deb9u4), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.4p1-10+deb9u5), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.2 (>= 1.0.2d), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "883",
@@ -3937,7 +3937,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:7.4p1-10+deb9u4",
+    "Version": "1:7.4p1-10+deb9u5",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3945,13 +3945,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-10+deb9u4"
+    "source:Version": "1:7.4p1-10+deb9u5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:7.4p1-10+deb9u4), libc6 (>= 2.17)",
+    "Depends": "openssh-client (= 1:7.4p1-10+deb9u5), libc6 (>= 2.17)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "106",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:7.4p1-10+deb9u4",
+    "Version": "1:7.4p1-10+deb9u5",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:7.4p1-10+deb9u4"
+    "source:Version": "1:7.4p1-10+deb9u5"
   },
   {
     "Architecture": "amd64",
