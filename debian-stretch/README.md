@@ -24,7 +24,7 @@ installed packages:
 ```
 ii   adduser                 3.115                  all    add and remove users and groups
 ii   apt                     1.4.9                  amd64  commandline package manager
-ii   base-files              9.9+deb9u7             amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u8             amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                 amd64  Debian base system master password and group files
 ii   bash                    4.4-5                  amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-1+deb9u1      amd64  basic utilities from 4.4BSD-Lite
@@ -39,7 +39,7 @@ ii   e2fslibs                1.43.4-2               amd64  ext2/ext3/ext4 file s
 ii   e2fsprogs               1.43.4-2               amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.6.0+git+20161106-2   amd64  utilities for finding files--find, xargs
 ii   gcc-6-base              6.3.0-18+deb9u1        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.1.18-8~deb9u3        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.1.18-8~deb9u4        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1               amd64  GNU compression utilities
 ii   hostname                3.18+b1                amd64  utility to set/show the host name or domain name
@@ -53,8 +53,8 @@ ii   libaudit-common         1:2.6.7-2              all    Dynamic library for s
 ii   libaudit1               1:2.6.7-2              amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-1+deb9u1        amd64  block device ID library
 ii   libbz2-1.0              1.0.6-8.1              amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.24-11+deb9u3         amd64  GNU C Library: Binaries
-ii   libc6                   2.24-11+deb9u3         amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.24-11+deb9u4         amd64  GNU C Library: Binaries
+ii   libc6                   2.24-11+deb9u4         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1             amd64  An alternate POSIX capabilities library
 ii   libcomerr2              1.43.4-2               amd64  common error description library
 ii   libdb5.3                5.3.28-12+deb9u1       amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -90,7 +90,7 @@ ii   login                   1:4.4-4.1              amd64  system login tools
 ii   lsb-base                9.20161125             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3            amd64  a pattern scanning and text processing language
 ii   mount                   2.29.2-1+deb9u1        amd64  tools for mounting and manipulating filesystems
-ii   multiarch-support       2.24-11+deb9u3         amd64  Transitional package to ensure multiarch compatibility
+ii   multiarch-support       2.24-11+deb9u4         amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1+deb9u2  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1+deb9u2  amd64  terminal-related programs and man pages
 ii   netbase                 5.4                    all    Basic TCP/IP networking system
