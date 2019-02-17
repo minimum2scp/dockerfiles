@@ -7,13 +7,13 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving libacl1 2.2.52-4
-I: Validating libacl1 2.2.52-4
+I: Retrieving libacl1 2.2.52-5
+I: Validating libacl1 2.2.52-5
 I: Validating adduser 3.118
 I: Validating apt 1.8.0~rc3
 I: Validating libapt-pkg5.0 1.8.0~rc3
-I: Retrieving libattr1 1:2.4.47-3
-I: Validating libattr1 1:2.4.47-3
+I: Retrieving libattr1 1:2.4.47-4
+I: Validating libattr1 1:2.4.47-4
 I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
 I: Validating base-files 10.1
@@ -33,11 +33,16 @@ I: Validating e2fsprogs 1.44.5-1
 I: Validating libcom-err2 1.44.5-1
 I: Validating libext2fs2 1.44.5-1
 I: Validating libss2 1.44.5-1
-I: Validating libelf1 0.175-2
-I: Validating findutils 4.6.0+git+20190105-2
-I: Validating gcc-8-base 8.2.0-20
-I: Validating libgcc1 1:8.2.0-20
-I: Validating libstdc++6 8.2.0-20
+I: Retrieving libelf1 0.176-1
+I: Validating libelf1 0.176-1
+I: Retrieving findutils 4.6.0+git+20190209-2
+I: Validating findutils 4.6.0+git+20190209-2
+I: Retrieving gcc-8-base 8.2.0-21
+I: Validating gcc-8-base 8.2.0-21
+I: Retrieving libgcc1 1:8.2.0-21
+I: Validating libgcc1 1:8.2.0-21
+I: Retrieving libstdc++6 8.2.0-21
+I: Validating libstdc++6 8.2.0-21
 I: Validating libc-bin 2.28-7
 I: Validating libc6 2.28-7
 I: Validating libgmp10 2:6.1.2+dfsg-4
@@ -46,7 +51,8 @@ I: Validating libgnutls30 3.6.6-2
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3
 I: Validating hostname 3.21
-I: Validating inetutils-ping 2:1.9.4-6
+I: Retrieving inetutils-ping 2:1.9.4-7
+I: Validating inetutils-ping 2:1.9.4-7
 I: Validating init-system-helpers 1.56+nmu1
 I: Validating iproute2 4.20.0-2
 I: Validating libxtables12 1.8.2-3
@@ -56,6 +62,8 @@ I: Validating libcap2-bin 1:2.25-2
 I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.4-5
 I: Validating libgpg-error0 1.35-1
+I: Retrieving libidn11 1.33-2.2
+I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.0.5-1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-4
@@ -75,14 +83,11 @@ I: Validating ncurses-bin 6.1+20181013-2
 I: Validating netbase 5.6
 I: Validating libhogweed4 3.4.1-1
 I: Validating libnettle6 3.4.1-1
-I: Validating libp11-kit0 0.23.14-2
-I: Retrieving libpam-modules 1.3.1-5
+I: Retrieving libp11-kit0 0.23.15-2
+I: Validating libp11-kit0 0.23.15-2
 I: Validating libpam-modules 1.3.1-5
-I: Retrieving libpam-modules-bin 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
-I: Retrieving libpam-runtime 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
-I: Retrieving libpam0g 1.3.1-5
 I: Validating libpam0g 1.3.1-5
 I: Validating libpcre3 2:8.39-11
 I: Validating perl-base 5.28.1-4
@@ -91,7 +96,6 @@ I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
 I: Validating libsystemd0 240-5
 I: Validating libudev1 240-5
-I: Retrieving sysvinit-utils 2.93-8
 I: Validating sysvinit-utils 2.93-8
 I: Validating tar 1.30+dfsg-5
 I: Validating tzdata 2018i-1
@@ -370,6 +374,7 @@ I: Unpacking iproute2...
 I: Unpacking libxtables12:amd64...
 I: Unpacking libcap2:amd64...
 I: Unpacking libcap2-bin...
+I: Unpacking libidn11:amd64...
 I: Unpacking libmnl0:amd64...
 I: Unpacking netbase...
 I: Configuring the base system...
@@ -377,6 +382,7 @@ I: Configuring libelf1:amd64...
 I: Configuring libcap2:amd64...
 I: Configuring libxtables12:amd64...
 I: Configuring libmnl0:amd64...
+I: Configuring libidn11:amd64...
 I: Configuring netbase...
 I: Configuring inetutils-ping...
 I: Configuring libcap2-bin...
@@ -384,24 +390,24 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [243 kB]
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [242 kB]
 Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-02-15-1412.52.pdiff [12.1 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-02-15-1412.52.pdiff [12.1 kB]
-Fetched 283 kB in 1s (207 kB/s)
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-02-17-1416.05.pdiff [9383 B]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2019-02-17-1416.05.pdiff [9383 B]
+Fetched 279 kB in 1s (197 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.09MB
+Sending build context to Docker daemon  30.21MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f3106080a38b
+ ---> 9c2b8ae57c89
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2543034d0b6f
-Removing intermediate container 2543034d0b6f
- ---> 6481de0d4801
-Successfully built 6481de0d4801
+ ---> Running in ccbf13d57e77
+Removing intermediate container ccbf13d57e77
+ ---> 314aedff41a6
+Successfully built 314aedff41a6
 Successfully tagged minimum2scp/debian:latest
