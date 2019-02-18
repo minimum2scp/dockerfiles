@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1394",
+    "Installed-Size": "1574",
     "Origin": "",
     "Package": "diffutils",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "diffutils-doc, wdiff",
-    "Version": "1:3.6-1",
+    "Version": "1:3.7-1",
     "binary:Package": "diffutils",
     "binary:Summary": "File comparison utilities",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "diffutils",
-    "source:Version": "1:3.6-1"
+    "source:Version": "1:3.7-1"
   },
   {
     "Architecture": "amd64",
@@ -3590,18 +3590,18 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "104",
+    "Installed-Size": "108",
     "Origin": "",
     "Package": "libwrap0",
     "Pre-Depends": "",
-    "Priority": "standard",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.6.q-27",
+    "Version": "7.6.q-28",
     "binary:Package": "libwrap0:amd64",
     "binary:Summary": "Wietse Venema's TCP wrappers library",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tcp-wrappers",
-    "source:Version": "7.6.q-27"
+    "source:Version": "7.6.q-28"
   },
   {
     "Architecture": "amd64",

@@ -80,7 +80,7 @@ ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant
 ii   debconf                 1.5.70                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.6-1                      amd64  File comparison utilities
+ii   diffutils               1:3.7-1                      amd64  File comparison utilities
 ii   dpkg                    1.19.4                       amd64  Debian package management system
 ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
@@ -193,7 +193,7 @@ ii   libuchardet0            0.0.6-3                      amd64  universal chars
 ii   libudev1                240-5                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
-ii   libwrap0                7.6.q-27                     amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
