@@ -16,7 +16,6 @@ I: Validating libapt-pkg5.0 1.4.9
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u8
 I: Validating base-files 9.9+deb9u8
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
@@ -39,13 +38,9 @@ I: Validating findutils 4.6.0+git+20161106-2
 I: Validating gcc-6-base 6.3.0-18+deb9u1
 I: Validating libgcc1 1:6.3.0-18+deb9u1
 I: Validating libstdc++6 6.3.0-18+deb9u1
-I: Retrieving libc-bin 2.24-11+deb9u4
 I: Validating libc-bin 2.24-11+deb9u4
-I: Retrieving libc6 2.24-11+deb9u4
 I: Validating libc6 2.24-11+deb9u4
-I: Retrieving multiarch-support 2.24-11+deb9u4
 I: Validating multiarch-support 2.24-11+deb9u4
-I: Retrieving gpgv 2.1.18-8~deb9u4
 I: Validating gpgv 2.1.18-8~deb9u4
 I: Validating grep 2.27-2
 I: Validating gzip 1.6-5+b1
@@ -74,19 +69,15 @@ I: Validating libpam-modules-bin 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3+deb9u5
 I: Validating perl-base 5.24.1-3+deb9u5
 I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
 I: Validating login 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u8
 I: Validating libsystemd0 232-25+deb9u8
-I: Retrieving libudev1 232-25+deb9u8
 I: Validating libudev1 232-25+deb9u8
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2018i-0+deb9u1
 I: Validating tzdata 2018i-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
 I: Validating bsdutils 1:2.29.2-1+deb9u1
@@ -344,23 +335,39 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 Packages [593 kB]
-Hit:5 http://ftp.jp.debian.org/debian stretch Release
+Hit:4 http://ftp.jp.debian.org/debian stretch Release
+Get:5 http://security.debian.org stretch/updates/main amd64 Packages [592 kB]
 Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [8410 B]
-Fetched 787 kB in 0s (1335 kB/s)
+Fetched 785 kB in 0s (1797 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  libsystemd0 libudev1
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 406 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 libsystemd0 amd64 232-25+deb9u9 [281 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 libudev1 amd64 232-25+deb9u9 [126 kB]
+Fetched 406 kB in 0s (1052 kB/s)
+(Reading database ... 6490 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_232-25+deb9u9_amd64.deb ...
+Unpacking libsystemd0:amd64 (232-25+deb9u9) over (232-25+deb9u8) ...
+Setting up libsystemd0:amd64 (232-25+deb9u9) ...
+(Reading database ... 6490 files and directories currently installed.)
+Preparing to unpack .../libudev1_232-25+deb9u9_amd64.deb ...
+Unpacking libudev1:amd64 (232-25+deb9u9) over (232-25+deb9u8) ...
+Setting up libudev1:amd64 (232-25+deb9u9) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
 Sending build context to Docker daemon  26.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1a5e3e315b6f
+ ---> 64d65b35a5ea
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e635ffdf08d1
-Removing intermediate container e635ffdf08d1
- ---> fa4ffebbcd02
-Successfully built fa4ffebbcd02
+ ---> Running in 0bc6a2e12df9
+Removing intermediate container 0bc6a2e12df9
+ ---> 6f52d0b22858
+Successfully built 6f52d0b22858
 Successfully tagged minimum2scp/debian-stretch:latest
