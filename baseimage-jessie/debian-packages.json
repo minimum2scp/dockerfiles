@@ -311,7 +311,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.38.0-4+deb8u13), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.38.0-4+deb8u14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "326",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u13",
+    "Version": "7.38.0-4+deb8u14",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u13"
+    "source:Version": "7.38.0-4+deb8u14"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "583",
+    "Installed-Size": "587",
     "Origin": "",
     "Package": "libcurl3",
     "Pre-Depends": "multiarch-support",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u13",
+    "Version": "7.38.0-4+deb8u14",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u13"
+    "source:Version": "7.38.0-4+deb8u14"
   },
   {
     "Architecture": "amd64",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.38.0-4+deb8u13",
+    "Version": "7.38.0-4+deb8u14",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.38.0-4+deb8u13"
+    "source:Version": "7.38.0-4+deb8u14"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "132",
+    "Installed-Size": "133",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "multiarch-support",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -4399,7 +4399,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u9), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u10), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "6048",
@@ -4413,7 +4413,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",

@@ -76,7 +76,7 @@ ii   bsdutils                1:2.25.2-6                        amd64  basic util
 ii   ca-certificates         20141019+deb8u4                   all    Common CA certificates
 ii   coreutils               8.23-4                            amd64  GNU core utilities
 ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
-ii   curl                    7.38.0-4+deb8u13                  amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.38.0-4+deb8u14                  amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
 ii   debconf                 1.5.56+deb8u1                     all    Debian configuration management system
 ii   debconf-i18n            1.5.56+deb8u1                     all    full internationalization support for debconf
@@ -119,8 +119,8 @@ ii   libcap2                 1:2.24-8                          amd64  POSIX 1003
 ii   libcap2-bin             1:2.24-8                          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcomerr2              1.42.12-2+b1                      amd64  common error description library
 ii   libcryptsetup4          2:1.6.6-5                         amd64  disk encryption support - shared library
-ii   libcurl3                7.38.0-4+deb8u13                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.38.0-4+deb8u13                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.38.0-4+deb8u14                  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.38.0-4+deb8u14                  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-9+deb8u1                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.192                             amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.90-2.2+deb8u1              amd64  Linux Kernel Device Mapper userspace library
@@ -177,13 +177,13 @@ ii   libss2                  1.42.12-2+b1                      amd64  command-li
 ii   libssh2-1               1.4.3-4.1+deb8u1                  amd64  SSH2 client-side library
 ii   libssl1.0.0             1.0.1t-1+deb8u10                  amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              4.9.2-10+deb8u2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             215-17+deb8u9                     amd64  systemd utility library
+ii   libsystemd0             215-17+deb8u10                    amd64  systemd utility library
 ii   libtasn1-6              4.2-3+deb8u3                      amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl  0.04-7+b3                         amd64  get display widths of characters on the terminal
 ii   libtext-iconv-perl      1.7-5+b2                          amd64  converts between character sets in Perl
 ii   libtext-wrapi18n-perl   0.06-7                            all    internationalized substitute of Text::Wrap
 ii   libtinfo5               5.9+20140913-1+deb8u3             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                215-17+deb8u9                     amd64  libudev shared library
+ii   libudev1                215-17+deb8u10                    amd64  libudev shared library
 ii   libusb-0.1-4            2:0.1.12-25                       amd64  userspace USB programming library
 ii   libustr-1.0-1           1.0.4-3+b2                        amd64  Micro string library: shared library
 ii   libuuid1                2.25.2-6                          amd64  Universally Unique ID library
@@ -222,7 +222,7 @@ ii   sysvinit-utils          2.88dsf-59                        amd64  System-V-l
 ii   tar                     1.27.1-2+deb8u2                   amd64  GNU version of the tar archiving utility
 ii   tzdata                  2018i-0+deb8u1                    all    time zone and daylight-saving time data
 ii   ucf                     3.0030                            all    Update Configuration File(s): preserve user changes to config files
-ii   udev                    215-17+deb8u9                     amd64  /dev/ and hotplug management daemon
+ii   udev                    215-17+deb8u10                    amd64  /dev/ and hotplug management daemon
 ii   unzip                   6.0-16+deb8u3                     amd64  De-archiver for .zip files
 ii   util-linux              2.25.2-6                          amd64  Miscellaneous system utilities
 ii   vim-common              2:7.4.488-7+deb8u3                amd64  Vi IMproved - Common files
