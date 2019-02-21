@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "132",
+    "Installed-Size": "133",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "multiarch-support",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
@@ -2663,10 +2663,10 @@
     "Architecture": "amd64",
     "Conflicts": "klogd",
     "Breaks": "lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2)",
-    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u9), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
+    "Depends": "libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd0 (= 215-17+deb8u10), util-linux (>= 2.19.1-2), mount (>= 2.21), initscripts (>= 2.88dsf-53.2), sysv-rc, udev (>= 208-8), acl, adduser, libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "11868",
+    "Installed-Size": "13908",
     "Origin": "",
     "Package": "systemd",
     "Pre-Depends": "libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)",
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "systemd-ui",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "systemd",
     "binary:Summary": "system and service manager",
     "db:Status-Abbrev": "ii ",
@@ -2685,13 +2685,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sysvinit-core, upstart",
     "Breaks": "",
-    "Depends": "systemd (= 215-17+deb8u9)",
+    "Depends": "systemd (= 215-17+deb8u10)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "80",
@@ -2705,7 +2705,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "systemd-sysv",
     "binary:Summary": "system and service manager - SysV links",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "all",
@@ -2831,7 +2831,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u9), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u10), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "6048",
@@ -2845,7 +2845,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u9",
+    "Version": "215-17+deb8u10",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u9"
+    "source:Version": "215-17+deb8u10"
   },
   {
     "Architecture": "amd64",
