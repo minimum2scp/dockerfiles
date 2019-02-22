@@ -25,7 +25,6 @@ I: Validating libdb5.3 5.3.28+dfsg1-0.3
 I: Validating debconf 1.5.70
 I: Validating debian-archive-keyring 2018.1
 I: Validating debianutils 4.8.6.1
-I: Retrieving diffutils 1:3.7-2
 I: Validating diffutils 1:3.7-2
 I: Validating dpkg 1.19.4
 I: Validating e2fsprogs 1.44.5-1
@@ -85,10 +84,10 @@ I: Validating perl-base 5.28.1-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 240-6
-I: Validating libsystemd0 240-6
-I: Retrieving libudev1 240-6
-I: Validating libudev1 240-6
+I: Retrieving libsystemd0 241-1
+I: Validating libsystemd0 241-1
+I: Retrieving libudev1 241-1
+I: Validating libudev1 241-1
 I: Validating sysvinit-utils 2.93-8
 I: Validating tar 1.30+dfsg-5
 I: Validating tzdata 2018i-1
@@ -389,14 +388,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.21MB
+Sending build context to Docker daemon  30.22MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5032bd731b5d
+ ---> 1bec20ae7668
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 159c32ad3f34
-Removing intermediate container 159c32ad3f34
- ---> 0f6136e58d72
-Successfully built 0f6136e58d72
+ ---> Running in 308374273e4a
+Removing intermediate container 308374273e4a
+ ---> e868b0fcf964
+Successfully built e868b0fcf964
 Successfully tagged minimum2scp/debian:latest
