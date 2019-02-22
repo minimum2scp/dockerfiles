@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                    amd64  collection of m
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-1                       amd64  GNU core utilities
-ii   cron                    3.0pl1-130                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-131                   amd64  process scheduling daemon
 ii   curl                    7.64.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.70                       all    Debian configuration management system
@@ -139,7 +139,7 @@ ii   libhogweed4             3.4.1-1                      amd64  low level crypt
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-1                       amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6-2                        amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.6-3                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-1                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-1                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
@@ -181,16 +181,16 @@ ii   libsemanage1            2.8-2                        amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.27.1-1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.27.1-2                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1a-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.2.0-21                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             240-6                        amd64  systemd utility library
+ii   libsystemd0             241-1                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                240-6                        amd64  libudev shared library
+ii   libudev1                241-1                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
