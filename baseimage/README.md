@@ -139,7 +139,7 @@ ii   libhogweed4             3.4.1-1                      amd64  low level crypt
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-1                       amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6-3                        amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.6-4                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-1                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-1                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
@@ -238,10 +238,10 @@ ii   tzdata                  2018i-1                      all    time zone and d
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-22                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0875-1                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0875-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0875-2                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0875-2                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0875-1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0875-2                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
