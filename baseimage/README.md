@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                    amd64  collection of m
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-1                       amd64  GNU core utilities
-ii   cron                    3.0pl1-131                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-132                   amd64  process scheduling daemon
 ii   curl                    7.64.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.70                       all    Debian configuration management system
@@ -105,7 +105,7 @@ ii   libattr1                1:2.4.47-4                   amd64  extended attrib
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
-ii   libbsd0                 0.9.1-1                      amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-7                       amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-7                       all    GNU C Library: localization files

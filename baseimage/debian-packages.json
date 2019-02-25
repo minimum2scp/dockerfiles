@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-131",
+    "Version": "3.0pl1-132",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-131"
+    "source:Version": "3.0pl1-132"
   },
   {
     "Architecture": "amd64",
@@ -1126,7 +1126,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "183",
+    "Installed-Size": "191",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.9.1-1",
+    "Version": "0.9.1-2",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.9.1-1"
+    "source:Version": "0.9.1-2"
   },
   {
     "Architecture": "amd64",
