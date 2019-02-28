@@ -48,7 +48,7 @@ ii   init-system-helpers     1.56+nmu1             all    helper tools for all i
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.52-5              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc4             amd64  package management runtime library
-ii   libattr1                1:2.4.47-4            amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-1            amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library

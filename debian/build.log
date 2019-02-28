@@ -9,11 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-5
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.0~rc4
 I: Validating apt 1.8.0~rc4
-I: Retrieving libapt-pkg5.0 1.8.0~rc4
 I: Validating libapt-pkg5.0 1.8.0~rc4
-I: Validating libattr1 1:2.4.47-4
+I: Retrieving libattr1 1:2.4.48-1
+I: Validating libattr1 1:2.4.48-1
 I: Validating libaudit-common 1:2.8.4-2
 I: Validating libaudit1 1:2.8.4-2
 I: Validating base-files 10.1
@@ -21,12 +20,9 @@ I: Validating base-passwd 3.5.46
 I: Validating bash 5.0-2
 I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.247
-I: Retrieving coreutils 8.30-2
 I: Validating coreutils 8.30-2
 I: Validating dash 0.5.10.2-5
-I: Retrieving libdb5.3 5.3.28+dfsg1-0.5
 I: Validating libdb5.3 5.3.28+dfsg1-0.5
-I: Retrieving debconf 1.5.71
 I: Validating debconf 1.5.71
 I: Validating debian-archive-keyring 2018.1
 I: Validating debianutils 4.8.6.1
@@ -38,11 +34,8 @@ I: Validating libext2fs2 1.44.5-1
 I: Validating libss2 1.44.5-1
 I: Validating libelf1 0.176-1
 I: Validating findutils 4.6.0+git+20190209-2
-I: Retrieving gcc-8-base 8.3.0-2
 I: Validating gcc-8-base 8.3.0-2
-I: Retrieving libgcc1 1:8.3.0-2
 I: Validating libgcc1 1:8.3.0-2
-I: Retrieving libstdc++6 8.3.0-2
 I: Validating libstdc++6 8.3.0-2
 I: Validating libc-bin 2.28-7
 I: Validating libc6 2.28-7
@@ -394,14 +387,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.28MB
+Sending build context to Docker daemon  30.27MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f1f3b4cf9e35
+ ---> 573833573c0d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 73ff47d29532
-Removing intermediate container 73ff47d29532
- ---> 13cc982fb69f
-Successfully built 13cc982fb69f
+ ---> Running in b90caaf0724d
+Removing intermediate container b90caaf0724d
+ ---> 8e353b3eac46
+Successfully built 8e353b3eac46
 Successfully tagged minimum2scp/debian:latest
