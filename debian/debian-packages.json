@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.30-2",
+    "Version": "8.30-3",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.30-2"
+    "source:Version": "8.30-3"
   },
   {
     "Architecture": "amd64",
@@ -675,10 +675,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libattr1 (>= 1:2.4.44), libc6 (>= 2.14)",
+    "Depends": "libattr1 (>= 1:2.4.46-8), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "69",
+    "Installed-Size": "70",
     "Origin": "",
     "Package": "libacl1",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.52-5",
+    "Version": "2.2.53-2",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.2.52-5"
+    "source:Version": "2.2.53-2"
   },
   {
     "Architecture": "amd64",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.4.48-1",
+    "Version": "1:2.4.48-2",
     "binary:Package": "libattr1:amd64",
     "binary:Summary": "extended attribute handling - shared library",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "attr",
-    "source:Version": "1:2.4.48-1"
+    "source:Version": "1:2.4.48-2"
   },
   {
     "Architecture": "all",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-7",
+    "Version": "2.28-8",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-7"
+    "source:Version": "2.28-8"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12332",
+    "Installed-Size": "12333",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.28-7",
+    "Version": "2.28-8",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-7"
+    "source:Version": "2.28-8"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018i-1",
+    "Version": "2018i-2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2018i-1"
+    "source:Version": "2018i-2"
   },
   {
     "Architecture": "amd64",

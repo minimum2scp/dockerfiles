@@ -28,7 +28,7 @@ ii   base-files              10.1                  amd64  Debian base system mis
 ii   base-passwd             3.5.46                amd64  Debian base system master password and group files
 ii   bash                    5.0-2                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1          amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.30-2                amd64  GNU core utilities
+ii   coreutils               8.30-3                amd64  GNU core utilities
 ii   dash                    0.5.10.2-5            amd64  POSIX-compliant shell
 ii   debconf                 1.5.71                all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                all    GnuPG archive keys of the Debian archive
@@ -46,15 +46,15 @@ ii   hostname                3.21                  amd64  utility to set/show th
 ii   inetutils-ping          2:1.9.4-7             amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
-ii   libacl1                 2.2.52-5              amd64  access control list - shared library
+ii   libacl1                 2.2.53-2              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc4             amd64  package management runtime library
-ii   libattr1                1:2.4.48-1            amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-2            amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-7                amd64  GNU C Library: Binaries
-ii   libc6                   2.28-7                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-8                amd64  GNU C Library: Binaries
+ii   libc6                   2.28-8                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
@@ -112,7 +112,7 @@ ii   perl-base               5.28.1-4              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.93-8                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-5           amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018i-1               all    time zone and daylight-saving time data
+ii   tzdata                  2018i-2               all    time zone and daylight-saving time data
 ii   util-linux              2.33.1-0.1            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
 ```
