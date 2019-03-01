@@ -73,7 +73,7 @@ ii   bash                    5.0-2                        amd64  GNU Bourne Agai
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
-ii   coreutils               8.30-2                       amd64  GNU core utilities
+ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-132                   amd64  process scheduling daemon
 ii   curl                    7.64.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
@@ -91,7 +91,7 @@ ii   git                     1:2.20.1-2                   amd64  fast, scalable,
 ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.4-2                     amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-7                    amd64  ICMP echo tool
@@ -99,17 +99,17 @@ ii   init-system-helpers     1.56+nmu1                    all    helper tools fo
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
-ii   libacl1                 2.2.52-5                     amd64  access control list - shared library
+ii   libacl1                 2.2.53-3                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc4                    amd64  package management runtime library
-ii   libattr1                1:2.4.48-1                   amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-3                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-7                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.28-7                       all    GNU C Library: localization files
-ii   libc6                   2.28-7                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-8                       amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-8                       all    GNU C Library: localization files
+ii   libc6                   2.28-8                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
@@ -194,10 +194,10 @@ ii   libudev1                241-1                        amd64  libudev shared 
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.2-3                      amd64  netfilter xtables library
+ii   libxtables12            1.8.2-4                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.28-7                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-8                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
@@ -209,9 +209,9 @@ ii   ncurses-base            6.1+20181013-2               all    basic terminal 
 ii   ncurses-bin             6.1+20181013-2               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.9p1-7                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.9p1-7                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.9p1-7                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.9p1-9                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-9                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-9                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1b-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-4                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -234,7 +234,7 @@ ii   sysv-rc                 2.93-8                       all    System-V-like r
 ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-8                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-5                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2018i-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2018i-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-22                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
