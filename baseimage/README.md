@@ -99,9 +99,9 @@ ii   init-system-helpers     1.56+nmu1                    all    helper tools fo
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-3                     amd64  access control list - shared library
+ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc4                    amd64  package management runtime library
-ii   libattr1                1:2.4.48-3                   amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
@@ -117,7 +117,7 @@ ii   libcom-err2             1.44.5-1                     amd64  common error de
 ii   libcurl3-gnutls         7.64.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.64.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.5             amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.247                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.248                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1                      amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
@@ -139,7 +139,7 @@ ii   libhogweed4             3.4.1-1                      amd64  low level crypt
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-2                       amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6-4                        amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.6-5                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-2                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-2                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
