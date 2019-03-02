@@ -46,9 +46,9 @@ ii   hostname                3.21                  amd64  utility to set/show th
 ii   inetutils-ping          2:1.9.4-7             amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-2              amd64  access control list - shared library
+ii   libacl1                 2.2.53-4              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0~rc4             amd64  package management runtime library
-ii   libattr1                1:2.4.48-2            amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-4            amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
@@ -60,7 +60,7 @@ ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabili
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.44.5-1              amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.5      amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.247                 amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.248                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1               amd64  library to read and write ELF files
 ii   libext2fs2              1.44.5-1              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.33.1-0.1            amd64  fdisk partitioning library
@@ -99,7 +99,7 @@ ii   libtinfo6               6.1+20181013-2        amd64  shared low-level termi
 ii   libudev1                241-1                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
-ii   libxtables12            1.8.2-3               amd64  netfilter xtables library
+ii   libxtables12            1.8.2-4               amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3          amd64  fast lossless compression algorithm
 ii   login                   1:4.5-1.1             amd64  system login tools
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
