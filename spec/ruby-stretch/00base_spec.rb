@@ -23,7 +23,7 @@ describe 'minimum2scp/ruby-stretch' do
 
     %w[
       ruby ruby-dev rake
-      build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline-dev tcl-dev tk-dev zlib1g-dev libffi-dev libyaml-dev libgmp-dev
+      build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev
       gem2deb
     ].each do |pkg|
       describe package(pkg) do
@@ -39,14 +39,10 @@ describe 'minimum2scp/ruby-stretch' do
       end
     end
 
-    %w[libssl1.0-dev libssl1.0.2 libssl1.1].each do |pkg|
+    %w[libssl1.1].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
-    end
-
-    describe package('libssl-dev') do
-      it { should_not be_installed }
     end
 
     describe file('/usr/bin/ruby') do

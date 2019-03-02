@@ -52,16 +52,6 @@ describe 'minimum2scp/ruby-full' do
         ],
         openssl_version: '1.1.1'
       },
-      {
-        ruby: '2.3.8',
-        desc: 'ruby 2.3.8p459 (2018-10-18 revision 65136) [x86_64-linux]',
-        rubygems_version: '3.0.2',
-        gems: [
-          {name: 'bundler', version: '2.0.1', default: '1.17.3'},
-          {name: 'pry'}
-        ],
-        openssl_version: '1.0.2'
-      },
     ].each do |v|
       describe command("rbenv versions --bare --skip-aliases") do
         let(:login_shell){ true }
