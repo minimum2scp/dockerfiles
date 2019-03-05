@@ -13,7 +13,7 @@ packages="$packages gem2deb"
 apt-get install --no-install-recommends -y ${packages}
 
 ## update rubygems
-gem update --system 3.0.2
+gem update --system 3.0.3
 
 ## install bundler, pry by gem command
 gem install bundler --version 2.0.1 -f
