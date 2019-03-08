@@ -75,7 +75,7 @@ ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-132                   amd64  process scheduling daemon
-ii   curl                    7.64.0-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.64.0-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.71                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
@@ -114,8 +114,8 @@ ii   libcap-ng0              0.7.9-2                      amd64  An alternate PO
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.0-1                     amd64  common error description library
-ii   libcurl3-gnutls         7.64.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.64.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.64.0-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.64.0-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.5             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.248                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
@@ -160,7 +160,7 @@ ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authe
 ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-11                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-12                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-4                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
