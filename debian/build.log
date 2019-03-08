@@ -27,13 +27,9 @@ I: Validating debian-archive-keyring 2018.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.7-2
 I: Validating dpkg 1.19.5
-I: Retrieving e2fsprogs 1.45.0-1
 I: Validating e2fsprogs 1.45.0-1
-I: Retrieving libcom-err2 1.45.0-1
 I: Validating libcom-err2 1.45.0-1
-I: Retrieving libext2fs2 1.45.0-1
 I: Validating libext2fs2 1.45.0-1
-I: Retrieving libss2 1.45.0-1
 I: Validating libss2 1.45.0-1
 I: Validating libelf1 0.176-1
 I: Validating findutils 4.6.0+git+20190209-2
@@ -83,7 +79,8 @@ I: Validating libpam-modules 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
-I: Validating libpcre3 2:8.39-11
+I: Retrieving libpcre3 2:8.39-12
+I: Validating libpcre3 2:8.39-12
 I: Validating perl-base 5.28.1-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
@@ -394,10 +391,10 @@ Sending build context to Docker daemon  30.32MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a67d0cc38450
+ ---> f58b2205bc31
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 90a11f39f80e
-Removing intermediate container 90a11f39f80e
- ---> 4ab0b5cb8b1d
-Successfully built 4ab0b5cb8b1d
+ ---> Running in c1ea4aaf2c89
+Removing intermediate container c1ea4aaf2c89
+ ---> 6d08d3579ff1
+Successfully built 6d08d3579ff1
 Successfully tagged minimum2scp/debian:latest
