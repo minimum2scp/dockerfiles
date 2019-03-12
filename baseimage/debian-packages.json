@@ -258,7 +258,7 @@
     "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "258",
+    "Installed-Size": "263",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-132",
+    "Version": "3.0pl1-133",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-132"
+    "source:Version": "3.0pl1-133"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg1-0.5",
+    "Version": "5.3.28+dfsg1-0.6",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg1-0.5"
+    "source:Version": "5.3.28+dfsg1-0.6"
   },
   {
     "Architecture": "amd64",
