@@ -199,7 +199,7 @@ ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless c
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-8                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
-ii   lsb-base                10.2018112800                all    Linux Standard Base init script functionality
+ii   lsb-base                10.2019031300                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.5-2                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language

@@ -3769,7 +3769,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.2018112800",
+    "Version": "10.2019031300",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "10.2018112800"
+    "source:Version": "10.2019031300"
   },
   {
     "Architecture": "amd64",
