@@ -23,18 +23,18 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '2.6.1',
-        desc: 'ruby 2.6.1p33 (2019-01-30 revision 66950) [x86_64-linux]',
+        ruby: '2.6.2',
+        desc: 'ruby 2.6.2p47 (2019-03-13 revision 67232) [x86_64-linux]',
         rubygems_version: '3.0.3',
         gems: [
-          {name: 'bundler', version: '2.0.1', default: '1.17.3'},
+          {name: 'bundler', version: '2.0.1', default: '1.17.2'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.5.3',
-        desc: 'ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]',
+        ruby: '2.5.5',
+        desc: 'ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux]',
         rubygems_version: '3.0.3',
         gems: [
           {name: 'bundler', version: '2.0.1', default: '1.17.3'},
