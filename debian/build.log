@@ -21,7 +21,6 @@ I: Validating libbz2-1.0 1.0.6-9
 I: Validating libdebconfclient0 0.248
 I: Validating coreutils 8.30-3
 I: Validating dash 0.5.10.2-5
-I: Retrieving libdb5.3 5.3.28+dfsg1-0.6
 I: Validating libdb5.3 5.3.28+dfsg1-0.6
 I: Validating debconf 1.5.71
 I: Validating debian-archive-keyring 2018.1
@@ -85,8 +84,10 @@ I: Validating perl-base 5.28.1-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 241-1
-I: Validating libudev1 241-1
+I: Retrieving libsystemd0 241-2
+I: Validating libsystemd0 241-2
+I: Retrieving libudev1 241-2
+I: Validating libudev1 241-2
 I: Validating sysvinit-utils 2.93-8
 I: Validating tar 1.30+dfsg-5
 I: Validating tzdata 2018i-2
@@ -391,10 +392,10 @@ Sending build context to Docker daemon  30.32MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> c69287fe00f9
+ ---> 4f60a9616313
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4bc5cb05f8e1
-Removing intermediate container 4bc5cb05f8e1
- ---> 5b57b0adfedb
-Successfully built 5b57b0adfedb
+ ---> Running in 96e05914ce23
+Removing intermediate container 96e05914ce23
+ ---> e17e360b41e4
+Successfully built e17e360b41e4
 Successfully tagged minimum2scp/debian:latest
