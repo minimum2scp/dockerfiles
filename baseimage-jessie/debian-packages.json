@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u10",
+    "Version": "215-17+deb8u11",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u10"
+    "source:Version": "215-17+deb8u11"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u10",
+    "Version": "215-17+deb8u11",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u10"
+    "source:Version": "215-17+deb8u11"
   },
   {
     "Architecture": "amd64",
@@ -4399,7 +4399,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 215-1)",
-    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u10), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
+    "Depends": "libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 215-17+deb8u11), adduser, lsb-base (>= 3.0-6), util-linux (>= 2.16), procps",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "6048",
@@ -4413,7 +4413,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "215-17+deb8u10",
+    "Version": "215-17+deb8u11",
     "binary:Package": "udev",
     "binary:Summary": "/dev/ and hotplug management daemon",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "215-17+deb8u10"
+    "source:Version": "215-17+deb8u11"
   },
   {
     "Architecture": "amd64",
