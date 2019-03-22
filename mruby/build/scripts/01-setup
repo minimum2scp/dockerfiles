@@ -1,9 +1,0 @@
-#! /bin/sh
-
-set -e
-set -x
-export DEBIAN_FRONTEND=noninteractive
-
-## install mruby by debian package
-apt-get install --no-install-recommends mruby
-
