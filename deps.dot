@@ -12,7 +12,6 @@ digraph deps {
   debian_jessie     [label = "minimum2scp/debian-jessie"];
   es_kibana         [label = "minimum2scp/es-kibana"];
   fluentd_ui        [label = "minimum2scp/fluentd-ui"];
-  hubot             [label = "minimum2scp/hubot"];
   nodejs            [label = "minimum2scp/nodejs"];
   norikra           [label = "minimum2scp/norikra"];
   rails5            [label = "minimum2scp/rails5"];
@@ -29,7 +28,6 @@ digraph deps {
   debian    -> baseimage;
   baseimage -> {acng, es_kibana, nodejs, ruby, squid, systemd};
   ruby      -> {fluentd_ui, norikra, rails5, ruby_full, tdiary};
-  nodejs    -> {hubot};
 
   debian_stretch   -> baseimage_stretch;
   baseimage_stretch -> {systemd_stretch, ruby_stretch};
