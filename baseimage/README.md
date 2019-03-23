@@ -181,7 +181,7 @@ ii   libsemanage1            2.8-2                        amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.27.2-1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.27.2-2                     amd64  SQLite 3 shared library
 ii   libss2                  1.45.0-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2                      amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1b-1                     amd64  Secure Sockets Layer toolkit - shared libraries
