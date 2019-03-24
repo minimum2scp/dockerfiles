@@ -21,7 +21,7 @@ resources:
             load_image=
             case "${CIRCLE_JOB}" in
               ruby|nodejs)                        load_image=baseimage;;
-              fluentd-ui|ruby-full|rails5|tdiary) load_image=ruby;;
+              ruby-full|rails5|tdiary)            load_image=ruby;;
               ruby-stretch)                       load_image=baseimage-stretch;;
               ruby-jessie)                        load_image=baseimage-jessie;;
             esac
@@ -113,8 +113,6 @@ jobs:
     <<: *build
   ruby:
     <<: *build
-  fluentd-ui:
-    <<: *build
   ruby-full:
     <<: *build
   rails5:
@@ -141,8 +139,6 @@ workflows:
           requires: [rspec-runner, baseimage]
       - ruby:
           requires: [rspec-runner, baseimage]
-      - fluentd-ui:
-          requires: [rspec-runner, ruby]
       - ruby-full:
           requires: [rspec-runner, ruby]
       - rails5:
