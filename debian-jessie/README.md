@@ -27,7 +27,7 @@ ii   adduser                 3.113+nmu3                all    add and remove use
 ii   apt                     1.0.9.8.5                 amd64  commandline package manager
 ii   base-files              8+deb8u11                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                    amd64  Debian base system master password and group files
-ii   bash                    4.3-11+deb8u1             amd64  GNU Bourne Again SHell
+ii   bash                    4.3-11+deb8u2             amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.25.2-6                amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.23-4                    amd64  GNU core utilities
 ii   dash                    0.5.7-4+b1                amd64  POSIX-compliant shell

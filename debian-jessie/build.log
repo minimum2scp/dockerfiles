@@ -424,38 +424,44 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Ign http://ftp.jp.debian.org jessie InRelease
-Get:1 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
-Get:2 http://security.debian.org jessie/updates InRelease [44.9 kB]
+Get:1 http://security.debian.org jessie/updates InRelease [44.9 kB]
+Get:2 http://ftp.jp.debian.org jessie-updates InRelease [145 kB]
+Get:3 http://security.debian.org jessie/updates/main amd64 Packages [822 kB]
 Hit http://ftp.jp.debian.org jessie Release.gpg
-Get:3 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [23.0 kB]
+Get:4 http://ftp.jp.debian.org jessie-updates/main amd64 Packages [20 B]
 Hit http://ftp.jp.debian.org jessie Release
-Get:4 http://ftp.jp.debian.org jessie/main amd64 Packages [9098 kB]
-Get:5 http://security.debian.org jessie/updates/main amd64 Packages [821 kB]
-Fetched 10.1 MB in 2s (4260 kB/s)
+Get:5 http://ftp.jp.debian.org jessie/main amd64 Packages [9098 kB]
+Fetched 10.1 MB in 1s (6267 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 The following packages will be upgraded:
-  apt gcc-4.9-base libapt-pkg4.12 libgcc1 libgcrypt20 libstdc++6 libsystemd0
-  libudev1 perl-base systemd systemd-sysv tar tzdata udev
-14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 8529 kB of archives.
-After this operation, 3190 kB of additional disk space will be used.
-Get:1 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u12 [1231 kB]
-Get:2 http://security.debian.org/ jessie/updates/main tar amd64 1.27.1-2+deb8u2 [676 kB]
-Get:3 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u2 [160 kB]
-Get:4 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u2 [39.4 kB]
-Get:5 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u2 [273 kB]
-Get:6 http://security.debian.org/ jessie/updates/main libapt-pkg4.12 amd64 1.0.9.8.5 [792 kB]
-Get:7 http://security.debian.org/ jessie/updates/main apt amd64 1.0.9.8.5 [1109 kB]
-Get:8 http://security.debian.org/ jessie/updates/main libudev1 amd64 215-17+deb8u11 [58.6 kB]
-Get:9 http://security.debian.org/ jessie/updates/main udev amd64 215-17+deb8u11 [876 kB]
-Get:10 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u5 [394 kB]
-Get:11 http://security.debian.org/ jessie/updates/main libsystemd0 amd64 215-17+deb8u11 [90.2 kB]
-Get:12 http://security.debian.org/ jessie/updates/main systemd amd64 215-17+deb8u11 [2558 kB]
-Get:13 http://security.debian.org/ jessie/updates/main systemd-sysv amd64 215-17+deb8u11 [37.2 kB]
-Get:14 http://security.debian.org/ jessie/updates/main tzdata all 2018i-0+deb8u1 [233 kB]
-Fetched 8529 kB in 2s (3477 kB/s)
+  apt bash gcc-4.9-base libapt-pkg4.12 libgcc1 libgcrypt20 libstdc++6
+  libsystemd0 libudev1 perl-base systemd systemd-sysv tar tzdata udev
+15 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9702 kB of archives.
+After this operation, 3551 kB of additional disk space will be used.
+Get:1 http://security.debian.org/ jessie/updates/main bash amd64 4.3-11+deb8u2 [1173 kB]
+Get:2 http://security.debian.org/ jessie/updates/main perl-base amd64 5.20.2-3+deb8u12 [1231 kB]
+Get:3 http://security.debian.org/ jessie/updates/main tar amd64 1.27.1-2+deb8u2 [676 kB]
+Get:4 http://security.debian.org/ jessie/updates/main gcc-4.9-base amd64 4.9.2-10+deb8u2 [160 kB]
+Get:5 http://security.debian.org/ jessie/updates/main libgcc1 amd64 1:4.9.2-10+deb8u2 [39.4 kB]
+Get:6 http://security.debian.org/ jessie/updates/main libstdc++6 amd64 4.9.2-10+deb8u2 [273 kB]
+Get:7 http://security.debian.org/ jessie/updates/main libapt-pkg4.12 amd64 1.0.9.8.5 [792 kB]
+Get:8 http://security.debian.org/ jessie/updates/main apt amd64 1.0.9.8.5 [1109 kB]
+Get:9 http://security.debian.org/ jessie/updates/main libudev1 amd64 215-17+deb8u11 [58.6 kB]
+Get:10 http://security.debian.org/ jessie/updates/main udev amd64 215-17+deb8u11 [876 kB]
+Get:11 http://security.debian.org/ jessie/updates/main libgcrypt20 amd64 1.6.3-2+deb8u5 [394 kB]
+Get:12 http://security.debian.org/ jessie/updates/main libsystemd0 amd64 215-17+deb8u11 [90.2 kB]
+Get:13 http://security.debian.org/ jessie/updates/main systemd amd64 215-17+deb8u11 [2558 kB]
+Get:14 http://security.debian.org/ jessie/updates/main systemd-sysv amd64 215-17+deb8u11 [37.2 kB]
+Get:15 http://security.debian.org/ jessie/updates/main tzdata all 2018i-0+deb8u1 [233 kB]
+Fetched 9702 kB in 1s (5995 kB/s)
+(Reading database ... 7561 files and directories currently installed.)
+Preparing to unpack .../bash_4.3-11+deb8u2_amd64.deb ...
+Unpacking bash (4.3-11+deb8u2) over (4.3-11+deb8u1) ...
+Setting up bash (4.3-11+deb8u2) ...
+update-alternatives: using /usr/share/man/man7/bash-builtins.7.gz to provide /usr/share/man/man7/builtins.7.gz (builtins.7.gz) in auto mode
 (Reading database ... 7561 files and directories currently installed.)
 Preparing to unpack .../perl-base_5.20.2-3+deb8u12_amd64.deb ...
 Unpacking perl-base (5.20.2-3+deb8u12) over (5.20.2-3+deb8u11) ...
@@ -526,10 +532,10 @@ Sending build context to Docker daemon  30.35MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 9b647a693145
+ ---> e753a20c19c3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e050fc4d14ef
-Removing intermediate container e050fc4d14ef
- ---> be2faf9665c7
-Successfully built be2faf9665c7
+ ---> Running in 284d1f3b26a2
+Removing intermediate container 284d1f3b26a2
+ ---> 3387b0811421
+Successfully built 3387b0811421
 Successfully tagged minimum2scp/debian-jessie:latest

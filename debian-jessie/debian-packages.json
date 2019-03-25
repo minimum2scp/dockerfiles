@@ -146,7 +146,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5010",
+    "Installed-Size": "5363",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "dash (>= 0.5.5.1-2.2), libc6 (>= 2.15), libncurses5 (>= 5.5-5~), libtinfo5",
@@ -157,7 +157,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "4.3-11+deb8u1",
+    "Version": "4.3-11+deb8u2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "4.3-11+deb8u1"
+    "source:Version": "4.3-11+deb8u2"
   },
   {
     "Architecture": "amd64",
