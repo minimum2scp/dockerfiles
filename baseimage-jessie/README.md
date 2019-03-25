@@ -70,12 +70,12 @@ ii   adduser                 3.113+nmu3                        all    add and re
 ii   apt                     1.0.9.8.5                         amd64  commandline package manager
 ii   base-files              8+deb8u11                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.37                            amd64  Debian base system master password and group files
-ii   bash                    4.3-11+deb8u1                     amd64  GNU Bourne Again SHell
+ii   bash                    4.3-11+deb8u2                     amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.6                             amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.25.2-6                        amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20141019+deb8u4                   all    Common CA certificates
 ii   coreutils               8.23-4                            amd64  GNU core utilities
-ii   cron                    3.0pl1-127+deb8u1                 amd64  process scheduling daemon
+ii   cron                    3.0pl1-127+deb8u2                 amd64  process scheduling daemon
 ii   curl                    7.38.0-4+deb8u14                  amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.7-4+b1                        amd64  POSIX-compliant shell
 ii   debconf                 1.5.56+deb8u1                     all    Debian configuration management system
@@ -201,9 +201,9 @@ ii   ncurses-base            5.9+20140913-1+deb8u3             all    basic term
 ii   ncurses-bin             5.9+20140913-1+deb8u3             amd64  terminal-related programs and man pages
 ii   net-tools               1.60-26+b1                        amd64  NET-3 networking toolkit
 ii   netbase                 5.3                               all    Basic TCP/IP networking system
-ii   openssh-client          1:6.7p1-5+deb8u7                  amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:6.7p1-5+deb8u7                  amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:6.7p1-5+deb8u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:6.7p1-5+deb8u8                  amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:6.7p1-5+deb8u8                  amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:6.7p1-5+deb8u8                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.0.1t-1+deb8u11                  amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.2-3+deb8u4                    amd64  change and administer password and group data
 ii   perl                    5.20.2-3+deb8u12                  amd64  Larry Wall's Practical Extraction and Report Language
