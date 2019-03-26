@@ -450,11 +450,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "acidbase (<= 1.4.5-4), amule (<< 2.3.1+git1a369e47-3), beep (<< 1.3-4), im (<< 1:151-4), libapt-pkg5.0 (<< 1.7~b), libdpkg-perl (<< 1.18.11), netselect (<< 0.3.ds1-27), pconsole (<< 1.0-12), phpgacl (<< 3.3.7-7.3), pure-ftpd (<< 1.0.43-1), systemtap (<< 2.8-1), terminatorx (<< 4.0.1-1), xvt (<= 2.1-20.1)",
+    "Breaks": "acidbase (<= 1.4.5-4), amule (<< 2.3.1+git1a369e47-3), beep (<< 1.3-4), im (<< 1:151-4), libapt-pkg5.0 (<< 1.7~b), libdpkg-perl (<< 1.18.11), lsb-base (<< 10.2019031300), netselect (<< 0.3.ds1-27), pconsole (<< 1.0-12), phpgacl (<< 3.3.7-7.3), pure-ftpd (<< 1.0.43-1), systemtap (<< 2.8-1), terminatorx (<< 4.0.1-1), xvt (<= 2.1-20.1)",
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6651",
+    "Installed-Size": "6665",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -465,7 +465,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.19.5",
+    "Version": "1.19.6",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.19.5"
+    "source:Version": "1.19.6"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.248",
+    "Version": "0.249",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.248"
+    "source:Version": "0.249"
   },
   {
     "Architecture": "amd64",
@@ -2649,7 +2649,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.32-4",
+    "Version": "10.32-5",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.32-4"
+    "source:Version": "10.32-5"
   },
   {
     "Architecture": "amd64",
