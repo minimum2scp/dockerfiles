@@ -23,7 +23,6 @@ resources:
               ruby|nodejs)                        load_image=baseimage;;
               ruby-full|rails5|tdiary)            load_image=ruby;;
               ruby-stretch)                       load_image=baseimage-stretch;;
-              ruby-jessie)                        load_image=baseimage-jessie;;
             esac
             if [ -n "${load_image}" ]; then
               echo "Loading /tmp/${load_image}.tar.gz"
@@ -123,10 +122,6 @@ jobs:
     <<: *build
   ruby-stretch:
     <<: *build
-  baseimage-jessie:
-    <<: *build
-  ruby-jessie:
-    <<: *build
 
 workflows:
   version: 2
@@ -149,8 +144,4 @@ workflows:
           requires: [rspec-runner]
       - ruby-stretch:
           requires: [rspec-runner, baseimage-stretch]
-      - baseimage-jessie:
-          requires: [rspec-runner]
-      - ruby-jessie:
-          requires: [rspec-runner, baseimage-jessie]
  
