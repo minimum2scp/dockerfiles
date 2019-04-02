@@ -2190,7 +2190,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3026",
+    "Installed-Size": "3028",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018i-0+deb9u1",
+    "Version": "2019a-0+deb9u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2018i-0+deb9u1"
+    "source:Version": "2019a-0+deb9u1"
   },
   {
     "Architecture": "amd64",

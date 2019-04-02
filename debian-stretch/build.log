@@ -336,21 +336,22 @@ Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [592 kB]
-Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [8410 B]
-Fetched 785 kB in 0s (1797 kB/s)
+Get:5 http://security.debian.org stretch/updates/main amd64 Packages [601 kB]
+Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [12.2 kB]
+Fetched 799 kB in 0s (1120 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libsystemd0 libudev1
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 406 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://security.debian.org stretch/updates/main amd64 libsystemd0 amd64 232-25+deb9u9 [281 kB]
-Get:2 http://security.debian.org stretch/updates/main amd64 libudev1 amd64 232-25+deb9u9 [126 kB]
-Fetched 406 kB in 0s (1052 kB/s)
+  libsystemd0 libudev1 tzdata
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 679 kB of archives.
+After this operation, 2048 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2019a-0+deb9u1 [273 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 libsystemd0 amd64 232-25+deb9u9 [281 kB]
+Get:3 http://security.debian.org stretch/updates/main amd64 libudev1 amd64 232-25+deb9u9 [126 kB]
+Fetched 679 kB in 0s (1272 kB/s)
 (Reading database ... 6490 files and directories currently installed.)
 Preparing to unpack .../libsystemd0_232-25+deb9u9_amd64.deb ...
 Unpacking libsystemd0:amd64 (232-25+deb9u9) over (232-25+deb9u8) ...
@@ -359,15 +360,19 @@ Setting up libsystemd0:amd64 (232-25+deb9u9) ...
 Preparing to unpack .../libudev1_232-25+deb9u9_amd64.deb ...
 Unpacking libudev1:amd64 (232-25+deb9u9) over (232-25+deb9u8) ...
 Setting up libudev1:amd64 (232-25+deb9u9) ...
+(Reading database ... 6490 files and directories currently installed.)
+Preparing to unpack .../tzdata_2019a-0+deb9u1_all.deb ...
+Unpacking tzdata (2019a-0+deb9u1) over (2018i-0+deb9u1) ...
+Setting up tzdata (2019a-0+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u4) ...
-Sending build context to Docker daemon  26.64MB
+Sending build context to Docker daemon  26.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 64d65b35a5ea
+ ---> d982e9e0110e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 0bc6a2e12df9
-Removing intermediate container 0bc6a2e12df9
- ---> 6f52d0b22858
-Successfully built 6f52d0b22858
+ ---> Running in ba26042b53bf
+Removing intermediate container ba26042b53bf
+ ---> 8174aba67337
+Successfully built 8174aba67337
 Successfully tagged minimum2scp/debian-stretch:latest
