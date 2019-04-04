@@ -69,7 +69,7 @@ ii   adduser                 3.118                        all    add and remove 
 ii   apt                     1.8.0                        amd64  commandline package manager
 ii   base-files              10.1                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
-ii   bash                    5.0-2                        amd64  GNU Bourne Again SHell
+ii   bash                    5.0-3                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates

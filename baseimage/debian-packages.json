@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6462",
+    "Installed-Size": "6439",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.15), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.0-2",
+    "Version": "5.0-3",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.0-2"
+    "source:Version": "5.0-3"
   },
   {
     "Architecture": "amd64",
@@ -598,7 +598,7 @@
     "Origin": "",
     "Package": "gcc-8-base",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
