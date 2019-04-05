@@ -6,7 +6,7 @@
 # about minimum2scp/ruby-full image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
- * ruby ruby ruby ruby 2.4.5, ruby 2.5.5, ruby 2.6.2 is installed by rbenv
+ * ruby ruby ruby ruby 2.4.6, ruby 2.5.5, ruby 2.6.2 is installed by rbenv
  * ruby 2.5.5 is installed by debian package
 
 ## ssh login to container
@@ -55,7 +55,7 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
 ```
 % docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "rbenv versions"
 * system (set by /opt/rbenv/version)
-  2.4.5
+  2.4.6
   2.5.5
   2.6.2
 % docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "ruby -v"
