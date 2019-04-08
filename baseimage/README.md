@@ -80,7 +80,7 @@ ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant
 ii   debconf                 1.5.71                       all    Debian configuration management system
 ii   debian-archive-keyring  2018.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.7-2                      amd64  File comparison utilities
+ii   diffutils               1:3.7-3                      amd64  File comparison utilities
 ii   dpkg                    1.19.6                       amd64  Debian package management system
 ii   e2fsprogs               1.45.0-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
@@ -186,11 +186,11 @@ ii   libss2                  1.45.0-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1b-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-2                        amd64  systemd utility library
+ii   libsystemd0             241-3                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-2                        amd64  libudev shared library
+ii   libudev1                241-3                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -209,9 +209,9 @@ ii   ncurses-base            6.1+20181013-2               all    basic terminal 
 ii   ncurses-bin             6.1+20181013-2               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:7.9p1-9                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.9p1-9                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.9p1-9                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:7.9p1-10                   amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-10                   amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-10                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1b-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
