@@ -33,6 +33,8 @@ update-rc.d elasticsearch defaults 95 10
 etckeeper commit "enabled elasticsearch"
 sed -i -e 's/^#network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: bind 0.0.0.0"
+( echo ''; echo 'discovery.type: single-node' ) | tee -a /etc/elasticsearch/elasticsearch.yml
+etckeeper commit "elasticsearch: single-node configuration"
 
 ##
 ## install kibana
