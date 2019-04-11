@@ -4,8 +4,8 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-elasticsearch_version=6.4.2
-kibana_version=6.4.2
+elasticsearch_version=7.0.0
+kibana_version=7.0.0
 
 ##
 ## install deps
@@ -21,7 +21,7 @@ etckeeper commit "apt: Added GPG-KEY-elasticsearch"
 ##
 ## add apt-line for elasticsearch, kibana
 ##
-echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" > /etc/apt/sources.list.d/elastic-6.x.list
+echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" > /etc/apt/sources.list.d/elastic-7.x.list
 etckeeper commit "apt: Added apt-line for elasticsearch"
 apt-get update
 
@@ -33,6 +33,8 @@ update-rc.d elasticsearch defaults 95 10
 etckeeper commit "enabled elasticsearch"
 sed -i -e 's/^#network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: bind 0.0.0.0"
+( echo ''; echo 'discovery.type: single-node' ) | tee -a /etc/elasticsearch/elasticsearch.yml
+etckeeper commit "elasticsearch: single-node configuration"
 
 ##
 ## install kibana
