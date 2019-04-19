@@ -24,9 +24,9 @@ installed packages:
 ```
 ii   adduser                 3.118                 all    add and remove users and groups
 ii   apt                     1.8.0                 amd64  commandline package manager
-ii   base-files              10.1                  amd64  Debian base system miscellaneous files
+ii   base-files              10.2                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                amd64  Debian base system master password and group files
-ii   bash                    5.0-3                 amd64  GNU Bourne Again SHell
+ii   bash                    5.0-4                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-3                amd64  GNU core utilities
 ii   dash                    0.5.10.2-5            amd64  POSIX-compliant shell
