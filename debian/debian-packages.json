@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "141",
+    "Installed-Size": "198",
     "Origin": "",
     "Package": "debian-archive-keyring",
     "Pre-Depends": "",
@@ -269,7 +269,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2018.1",
+    "Version": "2019.1",
     "binary:Package": "debian-archive-keyring",
     "binary:Summary": "GnuPG archive keys of the Debian archive",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debian-archive-keyring",
-    "source:Version": "2018.1"
+    "source:Version": "2019.1"
   },
   {
     "Architecture": "amd64",
