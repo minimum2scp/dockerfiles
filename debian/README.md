@@ -111,7 +111,7 @@ ii   passwd                  1:4.5-1.1             amd64  change and administer 
 ii   perl-base               5.28.1-6              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.93-8                amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-5           amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-6           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019a-1               all    time zone and daylight-saving time data
 ii   util-linux              2.33.1-0.1            amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
