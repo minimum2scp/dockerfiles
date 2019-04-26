@@ -49,12 +49,12 @@ ii   iproute2                4.20.0-2              amd64  networking and traffic
 ii   libacl1                 2.2.53-4              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.0                 amd64  package management runtime library
 ii   libattr1                1:2.4.48-4            amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.4-2             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.4-2             amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.4-3             all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.4-3             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-8                amd64  GNU C Library: Binaries
-ii   libc6                   2.28-8                amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-9                amd64  GNU C Library: Binaries
+ii   libc6                   2.28-9                amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
