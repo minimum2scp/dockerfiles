@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.115                           all    add and remove users and groups
 ii   apt                     1.4.9                           amd64  commandline package manager
-ii   base-files              9.9+deb9u8                      amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u9                      amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                          amd64  Debian base system master password and group files
 ii   bash                    4.4-5                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                     amd64  collection of more utilities from FreeBSD
@@ -229,7 +229,7 @@ ii   sysvinit-utils          2.88dsf-59.9                    amd64  System-V-lik
 ii   tar                     1.29b-1.1                       amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019a-0+deb9u1                  all    time zone and daylight-saving time data
 ii   ucf                     3.0036                          all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-21                          amd64  De-archiver for .zip files
+ii   unzip                   6.0-21+deb9u1                   amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1+deb9u1                 amd64  miscellaneous system utilities
 ii   vim-common              2:8.0.0197-4+deb9u1             all    Vi IMproved - Common files
 ii   vim-tiny                2:8.0.0197-4+deb9u1             amd64  Vi IMproved - enhanced vi editor - compact version
