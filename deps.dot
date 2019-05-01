@@ -3,7 +3,6 @@ digraph deps {
   ratio = auto;
 
 
-  acng              [label = "minimum2scp/apt-cacher-ng"];
   baseimage         [label = "minimum2scp/baseimage"];
   baseimage_stretch [label = "minimum2scp/baseimage-stretch"];
   debian            [label = "minimum2scp/debian"];
@@ -21,7 +20,7 @@ digraph deps {
   tdiary            [label = "minimum2scp/tdiary"];
 
   debian    -> baseimage;
-  baseimage -> {acng, es_kibana, nodejs, ruby, squid, systemd};
+  baseimage -> {es_kibana, nodejs, ruby, squid, systemd};
   ruby      -> {norikra, rails5, ruby_full, tdiary};
 
   debian_stretch   -> baseimage_stretch;
