@@ -77,7 +77,7 @@ ii   coreutils               8.30-3                       amd64  GNU core utilit
 ii   cron                    3.0pl1-133                   amd64  process scheduling daemon
 ii   curl                    7.64.0-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
-ii   debconf                 1.5.71                       all    Debian configuration management system
+ii   debconf                 1.5.72                       all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
@@ -238,10 +238,10 @@ ii   tzdata                  2019a-1                      all    time zone and d
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-22                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0875-2                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0875-2                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0875-3                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0875-3                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0875-2                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0875-3                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
