@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-4
 I: Validating adduser 3.118
-I: Validating apt 1.8.0
-I: Validating libapt-pkg5.0 1.8.0
+I: Retrieving apt 1.8.1
+I: Validating apt 1.8.1
+I: Retrieving libapt-pkg5.0 1.8.1
+I: Validating libapt-pkg5.0 1.8.1
 I: Validating libattr1 1:2.4.48-4
 I: Validating libaudit-common 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
@@ -22,7 +24,6 @@ I: Validating libdebconfclient0 0.249
 I: Validating coreutils 8.30-3
 I: Validating dash 0.5.10.2-5
 I: Validating libdb5.3 5.3.28+dfsg1-0.6
-I: Retrieving debconf 1.5.72
 I: Validating debconf 1.5.72
 I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.8.6.1
@@ -34,15 +35,10 @@ I: Validating libext2fs2 1.45.0-1
 I: Validating libss2 1.45.0-1
 I: Validating libelf1 0.176-1
 I: Validating findutils 4.6.0+git+20190209-2
-I: Retrieving gcc-8-base 8.3.0-7
 I: Validating gcc-8-base 8.3.0-7
-I: Retrieving libgcc1 1:8.3.0-7
 I: Validating libgcc1 1:8.3.0-7
-I: Retrieving libstdc++6 8.3.0-7
 I: Validating libstdc++6 8.3.0-7
-I: Retrieving libc-bin 2.28-10
 I: Validating libc-bin 2.28-10
-I: Retrieving libc6 2.28-10
 I: Validating libc6 2.28-10
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.13-1
@@ -396,10 +392,10 @@ Sending build context to Docker daemon  30.37MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ab13b293fed1
+ ---> 5f38e245a378
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 1401ae2178ce
-Removing intermediate container 1401ae2178ce
- ---> 69a46f5238ee
-Successfully built 69a46f5238ee
+ ---> Running in 0f0c9f38df46
+Removing intermediate container 0f0c9f38df46
+ ---> 094aec92f012
+Successfully built 094aec92f012
 Successfully tagged minimum2scp/debian:latest
