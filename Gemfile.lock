@@ -16,6 +16,9 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    pry-doc (1.0.0)
+      pry (~> 0.11)
+      yard (~> 0.9.11)
     rake (12.3.2)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
@@ -46,6 +49,7 @@ GEM
       net-ssh (>= 2.7)
       net-telnet (= 0.1.1)
       sfl
+    yard (0.9.19)
 
 PLATFORMS
   ruby
@@ -53,6 +57,7 @@ PLATFORMS
 DEPENDENCIES
   docker-api
   pry
+  pry-doc
   rake
   rspec_junit_formatter
   serverspec
