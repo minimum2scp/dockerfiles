@@ -1,9 +1,8 @@
-version: 2
+version: 2.1
 
-resources:
-  build: &build
-    docker:
-      - image: circleci/ruby:2.6.3-stretch
+commands:
+  build:
+    description: "Build image and test"
     steps:
       - checkout
       - run:
@@ -107,21 +106,29 @@ jobs:
           root: /tmp
           paths: [rspec-runner.tar.gz]
   baseimage:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   nodejs:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   ruby:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   ruby-full:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   rails5:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   tdiary:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   baseimage-stretch:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
   ruby-stretch:
-    <<: *build
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ build ]
 
 workflows:
   version: 2
@@ -144,4 +151,4 @@ workflows:
           requires: [rspec-runner]
       - ruby-stretch:
           requires: [rspec-runner, baseimage-stretch]
- 
+
