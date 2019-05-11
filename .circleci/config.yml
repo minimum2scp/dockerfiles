@@ -1,8 +1,8 @@
 version: 2.1
 
 commands:
-  build:
-    description: "Build image and test"
+  prepare:
+    description: "Prepare to build/test image"
     steps:
       - checkout
       - run:
@@ -13,6 +13,9 @@ commands:
             sudo apt-get install -y --no-install-recommends pigz
       - setup_remote_docker
       - attach_workspace: { at: /tmp/workspace }
+  build:
+    description: "Build image"
+    steps:
       - run:
           name: Load base image if necessary
           command: |
@@ -32,6 +35,27 @@ commands:
           name: Build image
           command: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB} 2>&1 | tee /tmp/build.log
       - store_artifacts: { path: /tmp/build.log }
+      - run:
+          name: Save image if necessary
+          command: |
+            set -x
+            case "${CIRCLE_JOB}" in
+              baseimage|baseimage-*|ruby)
+                echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
+                docker save minimum2scp/${CIRCLE_JOB}:latest | pigz -c - > /tmp/${CIRCLE_JOB}.tar.gz
+                ;;
+              *)
+                echo "Skipped to save image minimum2scp/${CIRCLE_JOB}:latest, creating /tmp/${CIRCLE_JOB}.tar.gz as empty file"
+                : > /tmp/${CIRCLE_JOB}.tar.gz
+                ;;
+            esac
+            ls -lh /tmp/${CIRCLE_JOB}.tar.gz
+      - persist_to_workspace:
+          root: /tmp
+          paths: [ "*.tar.gz" ]
+  test:
+    description: "Test image"
+    steps:
       - run:
           name: Load rspec-runner image
           command: pigz -c -d /tmp/workspace/rspec-runner.tar.gz | docker load
@@ -60,24 +84,6 @@ commands:
             docker cp cfg:/data/rspec.xml /tmp/test-results/rspec.xml
       # store_test_results is not supported with workflows (https://circleci.com/docs/2.0/configuration-reference/#store_test_results)
       - store_test_results: { path: /tmp/test-results }
-      - run:
-          name: Save image if necessary
-          command: |
-            set -x
-            case "${CIRCLE_JOB}" in
-              baseimage|baseimage-*|ruby)
-                echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
-                docker save minimum2scp/${CIRCLE_JOB}:latest | pigz -c - > /tmp/${CIRCLE_JOB}.tar.gz
-                ;;
-              *)
-                echo "Skipped to save image minimum2scp/${CIRCLE_JOB}:latest, creating /tmp/${CIRCLE_JOB}.tar.gz as empty file"
-                : > /tmp/${CIRCLE_JOB}.tar.gz
-                ;;
-            esac
-            ls -lh /tmp/${CIRCLE_JOB}.tar.gz
-      - persist_to_workspace:
-          root: /tmp
-          paths: [ "*.tar.gz" ]
 
 jobs:
   rspec-runner:
@@ -107,28 +113,28 @@ jobs:
           paths: [rspec-runner.tar.gz]
   baseimage:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   nodejs:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   ruby:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   ruby-full:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   rails5:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   tdiary:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   baseimage-stretch:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
   ruby-stretch:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
-    steps: [ build ]
+    steps: [ prepare, build, test ]
 
 workflows:
   version: 2
