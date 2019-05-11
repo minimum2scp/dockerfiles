@@ -33,13 +33,22 @@ commands:
             fi
       - run:
           name: Build image
-          command: docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB} 2>&1 | tee /tmp/build.log
+          command: |
+            set -x
+            case "${CIRCLE_JOB}" in
+              rspec-runner) docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile . 2>&1;;
+              *)            docker build -t minimum2scp/${CIRCLE_JOB}:latest ${CIRCLE_JOB} 2>&1;;
+            esac | tee /tmp/build.log
       - store_artifacts: { path: /tmp/build.log }
       - run:
           name: Save image if necessary
           command: |
             set -x
             case "${CIRCLE_JOB}" in
+              rspec-runner)
+                echo "Saving image minimum2scp/rspec-runner:ci to /tmp/rspec-runner.tar.gz"
+                docker save minimum2scp/rspec-runner:ci | pigz -c - > /tmp/rspec-runner.tar.gz
+                ;;
               baseimage|baseimage-*|ruby)
                 echo "Saving image minimum2scp/${CIRCLE_JOB}:latest to /tmp/${CIRCLE_JOB}.tar.gz"
                 docker save minimum2scp/${CIRCLE_JOB}:latest | pigz -c - > /tmp/${CIRCLE_JOB}.tar.gz
@@ -87,30 +96,8 @@ commands:
 
 jobs:
   rspec-runner:
-    docker:
-      - image: circleci/ruby:2.6.3-stretch
-    steps:
-      - checkout
-      - run:
-          name: Install pigz
-          command: |
-            set -x
-            sudo apt-get update
-            sudo apt-get install -y --no-install-recommends pigz
-      - setup_remote_docker
-      - run:
-          name: Build rspec-runner image
-          command: docker build -t minimum2scp/rspec-runner:ci -f .circleci/rspec-runner/Dockerfile . 2>&1 | tee /tmp/build.log
-      - store_artifacts: { path: /tmp/build.log }
-      - run:
-          name: Save rspec-runner image
-          command: |
-            set -x
-            docker save minimum2scp/rspec-runner:ci | pigz -c - > /tmp/rspec-runner.tar.gz
-            ls -lah /tmp/rspec-runner.tar.gz
-      - persist_to_workspace:
-          root: /tmp
-          paths: [rspec-runner.tar.gz]
+    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    steps: [ prepare, build ]
   baseimage:
     docker: [ { image: circleci/ruby:2.6.3-stretch } ]
     steps: [ prepare, build, test ]
