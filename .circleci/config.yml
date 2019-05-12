@@ -1,5 +1,10 @@
 version: 2.1
 
+executors:
+  my-executor:
+    docker:
+      - image: circleci/ruby:2.6.3-stretch
+
 commands:
   prepare:
     description: "Prepare to build/test image"
@@ -96,31 +101,31 @@ commands:
 
 jobs:
   rspec-runner:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build ]
   baseimage:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   nodejs:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   ruby:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   ruby-full:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   rails5:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   tdiary:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   baseimage-stretch:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
   ruby-stretch:
-    docker: [ { image: circleci/ruby:2.6.3-stretch } ]
+    executor: my-executor
     steps: [ prepare, build, test ]
 
 workflows:
