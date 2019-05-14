@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.1                        amd64  commandline package manager
-ii   base-files              10.2                         amd64  Debian base system miscellaneous files
+ii   base-files              10.3                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20190209-2         amd64  utilities for f
 ii   gcc-8-base              8.3.0-7                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.1-2                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.13-1                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.13-2                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities

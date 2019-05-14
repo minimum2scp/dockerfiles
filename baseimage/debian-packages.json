@@ -58,7 +58,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)",
+    "Breaks": "debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.2",
+    "Version": "10.3",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.2"
+    "source:Version": "10.3"
   },
   {
     "Architecture": "amd64",
@@ -689,7 +689,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.13-1",
+    "Version": "2.2.13-2",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.13-1"
+    "source:Version": "2.2.13-2"
   },
   {
     "Architecture": "amd64",
