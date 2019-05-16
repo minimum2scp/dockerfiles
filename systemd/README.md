@@ -1,5 +1,3 @@
-[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/systemd.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/systemd.svg)]()
 [![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/systemd.svg)]()
 [![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/systemd.svg)]()
 
