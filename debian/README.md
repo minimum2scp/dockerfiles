@@ -1,3 +1,5 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian.svg)]()
 [![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian.svg)]()
 
 # about minimum2scp/debian image
@@ -91,10 +93,10 @@ ii   libsepol1               2.8-1                 amd64  SELinux library for ma
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.45.1-1              amd64  command-line interface parsing library
 ii   libstdc++6              8.3.0-7               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-3                 amd64  systemd utility library
+ii   libsystemd0             241-4                 amd64  systemd utility library
 ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                241-3                 amd64  libudev shared library
+ii   libudev1                241-4                 amd64  libudev shared library
 ii   libunistring2           0.9.10-1              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
 ii   libxtables12            1.8.2-4               amd64  netfilter xtables library
