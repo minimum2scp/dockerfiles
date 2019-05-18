@@ -1,3 +1,5 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/baseimage.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/baseimage.svg)]()
 [![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/baseimage.svg)]()
 [![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/baseimage.svg)]()
 
@@ -184,11 +186,11 @@ ii   libss2                  1.45.1-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1b-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-7                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-3                        amd64  systemd utility library
+ii   libsystemd0             241-4                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-3                        amd64  libudev shared library
+ii   libudev1                241-4                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -197,7 +199,7 @@ ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless c
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
-ii   lsb-base                10.2019031300                all    Linux Standard Base init script functionality
+ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.5-2                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
