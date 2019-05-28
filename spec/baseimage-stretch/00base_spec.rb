@@ -280,4 +280,31 @@ describe 'minimum2scp/baseimage-stretch' do
       it { should have_uid 1999 }
     end
   end
+
+  context 'with env [APT_LINE=keep, INSTALL_DOCKER_CE_CLI=yes]' do
+    before(:all) do
+      start_container({
+        'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
+        'Env' => [ 'APT_LINE=keep', 'INSTALL_DOCKER_CE_CLI=yes' ]
+      })
+      # wait /opt/init-wrapper/post-init.d/07-docker-ce-cli
+      sleep 5
+    end
+
+    after(:all) do
+      stop_container
+    end
+
+    describe file('/opt/init-wrapper/post-init.d/07-docker-ce-cli') do
+      it { should be_executable }
+    end
+
+    describe file('/usr/local/bin/docker') do
+      it { should be_executable }
+    end
+
+    describe command('docker --version') do
+      its(:stdout){ should match a_string_starting_with('Docker version 18.09.6, ') }
+    end
+  end
 end
