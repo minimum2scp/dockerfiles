@@ -36,6 +36,9 @@ etckeeper commit "elasticsearch: bind 0.0.0.0"
 ( echo ''; echo 'discovery.type: single-node' ) | tee -a /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: single-node configuration"
 
+# workaround for java command check in /etc/init.d/elasticsearch
+sed -i -e 's/\tcheckJava$/#checkJava/' /etc/init.d/elasticsearch
+
 ##
 ## install kibana
 ##
