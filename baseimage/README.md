@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
-ii   apt                     1.8.1                        amd64  commandline package manager
+ii   apt                     1.8.2                        amd64  commandline package manager
 ii   base-files              10.3                         amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
@@ -100,7 +100,7 @@ ii   initscripts             2.93-8                       amd64  scripts for ini
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
-ii   libapt-pkg5.0           1.8.1                        amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.2                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-3                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library for security auditing
@@ -119,7 +119,7 @@ ii   libcurl4                7.64.0-3                     amd64  easy-to-use cli
 ii   libdb5.3                5.3.28+dfsg1-0.6             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
-ii   libelf1                 0.176-1                      amd64  library to read and write ELF files
+ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
@@ -236,7 +236,7 @@ ii   sysvinit-utils          2.93-8                       amd64  System-V-like u
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019a-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-22                       amd64  De-archiver for .zip files
+ii   unzip                   6.0-23                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-3                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-3                 amd64  Vi IMproved - enhanced vi editor - compact version
