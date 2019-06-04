@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-4
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.2
 I: Validating apt 1.8.2
-I: Retrieving libapt-pkg5.0 1.8.2
 I: Validating libapt-pkg5.0 1.8.2
 I: Validating libattr1 1:2.4.48-4
 I: Validating libaudit-common 1:2.8.4-3
@@ -28,12 +26,12 @@ I: Validating debconf 1.5.72
 I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.7-3
-I: Validating dpkg 1.19.6
+I: Retrieving dpkg 1.19.7
+I: Validating dpkg 1.19.7
 I: Validating e2fsprogs 1.45.1-3
 I: Validating libcom-err2 1.45.1-3
 I: Validating libext2fs2 1.45.1-3
 I: Validating libss2 1.45.1-3
-I: Retrieving libelf1 0.176-1.1
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.6.0+git+20190209-2
 I: Validating gcc-8-base 8.3.0-7
@@ -393,10 +391,10 @@ Sending build context to Docker daemon  30.44MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d8b525ecfce7
+ ---> 5ed65ec93281
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ae7402fad972
-Removing intermediate container ae7402fad972
- ---> 7199e6373122
-Successfully built 7199e6373122
+ ---> Running in ffb65d27663d
+Removing intermediate container ffb65d27663d
+ ---> c60271c48ce3
+Successfully built c60271c48ce3
 Successfully tagged minimum2scp/debian:latest
