@@ -19,9 +19,16 @@ curl -sSf http://nginx.org/keys/nginx_signing.key | apt-key --keyring /etc/apt/t
   echo "deb-src http://nginx.org/packages/mainline/debian/ stretch nginx"
 ) | tee /etc/apt/sources.list.d/nginx.list
 
+## add apt-preferences
+cat <<EOS >/etc/apt/preferences.d/nginx
+Package: *
+Pin: release o=nginx, l=nginx
+Pin-Priority: 600
+EOS
+
 ## etckeeper
 if etckeeper unclean 1>/dev/null 2>/dev/null; then
-  etckeeper commit "apt: added apt-key and apt-line for nginx"
+  etckeeper commit "apt: added apt-key, apt-line, apt-preferences for nginx"
 fi
 
 ## install nginx
