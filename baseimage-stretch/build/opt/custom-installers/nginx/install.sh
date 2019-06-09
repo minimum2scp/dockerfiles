@@ -41,3 +41,5 @@ if etckeeper unclean 1>/dev/null 2>/dev/null; then
   etckeeper commit "nginx: add conf.d/misc.conf"
 fi
 
+## start nginx
+service nginx start

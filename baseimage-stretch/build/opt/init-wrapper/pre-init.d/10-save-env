@@ -31,7 +31,8 @@ for v in \
   APT_INSTALL_RECOMMENDS \
   APT_INSTALL_SUGGESTS \
   APT_HTTP_PROXY \
-  INSTALL_DOCKER_CE_CLI
+  INSTALL_DOCKER_CE_CLI \
+  INSTALL_NGINX
 do
   sed -i -e "s/^export ${v}=/#export ${v}=/" /etc/profile.d/00docker-env.sh
 done
