@@ -316,16 +316,7 @@ describe 'minimum2scp/baseimage-stretch' do
       })
 
       # wait for nignx in container start
-      container = Specinfra.configuration.docker_container_obj
-      Timeout.timeout(60) do
-        begin
-          s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 80)
-          s.close
-        rescue Errno::ECONNREFUSED
-          sleep 1
-          retry
-        end
-      end
+      wait_container_port(80)
     end
 
     after(:all) do

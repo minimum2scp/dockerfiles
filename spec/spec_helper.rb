@@ -40,15 +40,7 @@ def start_container(opts)
   set :host, container.json['NetworkSettings']['IPAddress']
 
   ## wait for sshd in container start
-  Timeout.timeout(60) do
-    begin
-      s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 22)
-      s.close
-    rescue Errno::ECONNREFUSED
-      sleep 1
-      retry
-    end
-  end
+  wait_container_port(22)
 end
 
 def stop_container
@@ -58,4 +50,17 @@ def stop_container
 
   ## reset Net::SSH object for next test
   Specinfra.backend.set_config(:ssh, nil)
+end
+
+def wait_container_port(port, timeout: 60, interval: 1)
+  container = Specinfra.configuration.docker_container_obj
+  Timeout.timeout(timeout) do
+    begin
+      s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], port)
+      s.close
+    rescue Errno::ECONNREFUSED
+      sleep interval
+      retry
+    end
+  end
 end
