@@ -305,4 +305,71 @@ describe 'minimum2scp/baseimage' do
       its(:stdout){ should match a_string_starting_with('Docker version 18.09.6, ') }
     end
   end
+
+  context 'with env [APT_LINE=keep, INSTALL_NGINX=yes]' do
+    before(:all) do
+      start_container({
+        'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
+        'Env' => [ 'APT_LINE=keep', 'INSTALL_NGINX=yes' ]
+      })
+
+      # wait for nignx in container start
+      container = Specinfra.configuration.docker_container_obj
+      Timeout.timeout(60) do
+        begin
+          s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], 80)
+          s.close
+        rescue Errno::ECONNREFUSED
+          sleep 1
+          retry
+        end
+      end
+    end
+
+    after(:all) do
+      stop_container
+    end
+
+    describe file('/opt/init-wrapper/post-init.d/07-nginx') do
+      it { should be_executable }
+    end
+
+    describe file('/etc/apt/sources.list.d/nginx.list') do
+      it { should be_file }
+    end
+
+    describe file('/etc/apt/trusted.gpg.d/nginx.gpg') do
+      it { should be_file }
+    end
+
+    describe file('/etc/apt/preferences.d/nginx') do
+      it { should be_file }
+    end
+
+    describe command('apt-cache policy') do
+      its(:stdout) {
+        should include " 600 http://nginx.org/packages/mainline/debian stretch/nginx amd64 Packages\n" +
+                       "     release v=9.0,o=nginx,a=stable,n=stretch,l=nginx,c=nginx,b=amd64\n" +
+                       "     origin nginx.org\n"
+      }
+      its(:stdout) {
+        should include " 600 http://nginx.org/packages/debian stretch/nginx amd64 Packages\n" +
+                       "     release v=9.0,o=nginx,a=stable,n=stretch,l=nginx,c=nginx,b=amd64\n" +
+                       "     origin nginx.org\n"
+      }
+    end
+
+    describe package('nginx') do
+      it { should be_installed.with_version('1.17.0-1~stretch') }
+    end
+
+    describe file('/etc/nginx/conf.d/misc.conf') do
+      it { should be_file }
+    end
+
+    describe service('nginx') do
+      it { should be_running }
+      it { should be_enabled }
+    end
+  end
 end
