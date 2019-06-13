@@ -27,13 +27,9 @@ I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.7-3
 I: Validating dpkg 1.19.7
-I: Retrieving e2fsprogs 1.45.2-1
 I: Validating e2fsprogs 1.45.2-1
-I: Retrieving libcom-err2 1.45.2-1
 I: Validating libcom-err2 1.45.2-1
-I: Retrieving libext2fs2 1.45.2-1
 I: Validating libext2fs2 1.45.2-1
-I: Retrieving libss2 1.45.2-1
 I: Validating libss2 1.45.2-1
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.6.0+git+20190209-2
@@ -44,7 +40,8 @@ I: Validating libc-bin 2.28-10
 I: Validating libc6 2.28-10
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.13-2
-I: Validating libgnutls30 3.6.7-3
+I: Retrieving libgnutls30 3.6.7-4
+I: Validating libgnutls30 3.6.7-4
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3
 I: Validating hostname 3.21
@@ -390,14 +387,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.44MB
+Sending build context to Docker daemon  30.43MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> fccc4340ea00
+ ---> 84f28d2e8561
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 752c018b2902
-Removing intermediate container 752c018b2902
- ---> a3ce3a2d57ec
-Successfully built a3ce3a2d57ec
+ ---> Running in 3e1aeb1bdcbe
+Removing intermediate container 3e1aeb1bdcbe
+ ---> 16691e90b04d
+Successfully built 16691e90b04d
 Successfully tagged minimum2scp/debian:latest
