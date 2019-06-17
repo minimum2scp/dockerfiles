@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.20-8",
+    "Version": "0.52.21-1",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.20-8"
+    "source:Version": "0.52.21-1"
   },
   {
     "Architecture": "amd64",
@@ -4903,7 +4903,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libnewt0.52 (>= 0.52.20), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
+    "Depends": "libc6 (>= 2.14), libnewt0.52 (>= 0.52.21), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "70",
@@ -4917,7 +4917,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.20-8",
+    "Version": "0.52.21-1",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.20-8"
+    "source:Version": "0.52.21-1"
   },
   {
     "Architecture": "amd64",
