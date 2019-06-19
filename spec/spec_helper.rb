@@ -53,10 +53,9 @@ def stop_container
 end
 
 def wait_container_port(port, timeout: 60, interval: 1)
-  container = Specinfra.configuration.docker_container_obj
   Timeout.timeout(timeout) do
     begin
-      s = TCPSocket.open(container.json['NetworkSettings']['IPAddress'], port)
+      s = TCPSocket.open(Specinfra.configuration.host, port)
       s.close
     rescue Errno::ECONNREFUSED
       sleep interval
