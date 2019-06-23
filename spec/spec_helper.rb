@@ -3,6 +3,7 @@ require 'docker'
 #require 'pry'
 require 'timeout'
 require 'socket'
+require 'shellwords'
 
 ## show debug log
 if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
@@ -60,6 +61,22 @@ def wait_container_port(port, timeout: 60, interval: 1)
     rescue Errno::ECONNREFUSED
       sleep interval
       retry
+    end
+  end
+end
+
+def wait_container_file(file, timeout: 60, interval: 1)
+  container = Specinfra.configuration.docker_container_obj
+  begin
+    Timeout.timeout(timeout) do
+      loop do
+        stdout_messages, stderr_messages, exit_code = container.exec(Shellwords.shellsplit("[ -f #{file} ]"))
+        if exit_code == 0
+          break
+        else
+          sleep interval
+        end
+      end
     end
   end
 end
