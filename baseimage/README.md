@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                    amd64  collection of m
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
-ii   cron                    3.0pl1-133                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
 ii   curl                    7.64.0-4                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.72                       all    Debian configuration management system
