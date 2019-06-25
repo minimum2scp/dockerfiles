@@ -106,7 +106,7 @@ ii   libaudit-common         1:2.8.4-3                    all    Dynamic library
 ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9.1                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
@@ -122,7 +122,7 @@ ii   libedit2                3.1-20181209-1               amd64  BSD editline an
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.6-2                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.2-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
