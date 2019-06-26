@@ -8,7 +8,8 @@ describe 'minimum2scp/tdiary' do
         'Env' => [ 'APT_LINE=keep' ]
       })
       ## wait for tdiary startup
-      sleep 5
+      wait_container_port 80
+      wait_container_port 19292
     end
 
     after(:all) do
