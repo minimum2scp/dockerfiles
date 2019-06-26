@@ -44,7 +44,7 @@ ii   grep                    3.3-1                 amd64  GNU grep, egrep and fg
 ii   gzip                    1.9-3                 amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-7             amd64  ICMP echo tool
-ii   init-system-helpers     1.56+nmu1             all    helper tools for all init systems
+ii   init-system-helpers     1.57                  all    helper tools for all init systems
 ii   iproute2                4.20.0-2              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2                 amd64  package management runtime library
@@ -52,7 +52,7 @@ ii   libattr1                1:2.4.48-4            amd64  extended attribute han
 ii   libaudit-common         1:2.8.4-3             all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-3             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
-ii   libbz2-1.0              1.0.6-9               amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9.1             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10               amd64  GNU C Library: Binaries
 ii   libc6                   2.28-10               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library

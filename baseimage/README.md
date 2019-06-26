@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                    amd64  collection of m
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
-ii   cron                    3.0pl1-133                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
 ii   curl                    7.64.0-4                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.72                       all    Debian configuration management system
@@ -95,7 +95,7 @@ ii   groff-base              1.22.4-3                     amd64  GNU troff text-
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-7                    amd64  ICMP echo tool
-ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
+ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
@@ -106,7 +106,7 @@ ii   libaudit-common         1:2.8.4-3                    all    Dynamic library
 ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-9                      amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9.1                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
@@ -122,7 +122,7 @@ ii   libedit2                3.1-20181209-1               amd64  BSD editline an
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.6-1                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.6-2                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.2-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library

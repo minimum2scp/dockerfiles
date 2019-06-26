@@ -288,7 +288,7 @@ describe 'minimum2scp/baseimage-stretch' do
         'Env' => [ 'APT_LINE=keep', 'INSTALL_DOCKER_CE_CLI=yes' ]
       })
       # wait /opt/init-wrapper/post-init.d/07-docker-ce-cli
-      sleep 5
+      wait_container_file('/usr/local/bin/docker')
     end
 
     after(:all) do
