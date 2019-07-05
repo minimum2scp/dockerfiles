@@ -17,7 +17,6 @@ I: Validating libaudit1 1:2.8.4-3
 I: Validating base-files 10.3
 I: Validating base-passwd 3.5.46
 I: Validating bash 5.0-4
-I: Retrieving libbz2-1.0 1.0.6-9.1
 I: Validating libbz2-1.0 1.0.6-9.1
 I: Validating libdebconfclient0 0.249
 I: Validating coreutils 8.30-3
@@ -89,7 +88,8 @@ I: Validating libsystemd0 241-5
 I: Validating libudev1 241-5
 I: Validating sysvinit-utils 2.93-8
 I: Validating tar 1.30+dfsg-6
-I: Validating tzdata 2019a-1
+I: Retrieving tzdata 2019b-1
+I: Validating tzdata 2019b-1
 I: Validating bsdutils 1:2.33.1-0.1
 I: Validating fdisk 2.33.1-0.1
 I: Validating libblkid1 2.33.1-0.1
@@ -387,14 +387,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.45MB
+Sending build context to Docker daemon  30.43MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 98c6ea31328a
+ ---> 7e034229823b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c63c837586c3
-Removing intermediate container c63c837586c3
- ---> 17a0e8d11f8a
-Successfully built 17a0e8d11f8a
+ ---> Running in 71e813a517bc
+Removing intermediate container 71e813a517bc
+ ---> 41854d844fc3
+Successfully built 41854d844fc3
 Successfully tagged minimum2scp/debian:latest
