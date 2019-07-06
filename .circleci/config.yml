@@ -121,6 +121,9 @@ jobs:
   tdiary:
     executor: my-executor
     steps: [ prepare, build, test ]
+  baseimage-buster:
+    executor: my-executor
+    steps: [ prepare, build, test ]
   baseimage-stretch:
     executor: my-executor
     steps: [ prepare, build, test ]
@@ -145,6 +148,8 @@ workflows:
           requires: [rspec-runner, ruby]
       - tdiary:
           requires: [rspec-runner, ruby]
+      - baseimage-buster:
+          requires: [rspec-runner]
       - baseimage-stretch:
           requires: [rspec-runner]
       - ruby-stretch:
