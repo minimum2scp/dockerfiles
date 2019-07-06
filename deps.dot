@@ -6,6 +6,7 @@ digraph deps {
   baseimage         [label = "minimum2scp/baseimage"];
   baseimage_stretch [label = "minimum2scp/baseimage-stretch"];
   debian            [label = "minimum2scp/debian"];
+  debian_buster     [label = "minimum2scp/debian-buster "];
   debian_stretch    [label = "minimum2scp/debian-stretch"];
   es_kibana         [label = "minimum2scp/es-kibana"];
   nodejs            [label = "minimum2scp/nodejs"];
@@ -22,6 +23,8 @@ digraph deps {
   debian    -> baseimage;
   baseimage -> {es_kibana, nodejs, ruby, squid, systemd};
   ruby      -> {norikra, rails5, ruby_full, tdiary};
+
+  debian_buster;
 
   debian_stretch   -> baseimage_stretch;
   baseimage_stretch -> {systemd_stretch, ruby_stretch};
