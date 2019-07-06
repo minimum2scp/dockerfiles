@@ -14,6 +14,7 @@ digraph deps {
   norikra           [label = "minimum2scp/norikra"];
   rails5            [label = "minimum2scp/rails5"];
   ruby              [label = "minimum2scp/ruby"];
+  ruby_buster       [label = "minimum2scp/ruby-buster "];
   ruby_full         [label = "minimum2scp/ruby-full"];
   ruby_stretch      [label = "minimum2scp/ruby-stretch"];
   squid             [label = "minimum2scp/squid"];
@@ -26,6 +27,7 @@ digraph deps {
   ruby      -> {norikra, rails5, ruby_full, tdiary};
 
   debian_buster -> baseimage_buster;
+  baseimage_buster -> ruby_buster;
 
   debian_stretch   -> baseimage_stretch;
   baseimage_stretch -> {systemd_stretch, ruby_stretch};
