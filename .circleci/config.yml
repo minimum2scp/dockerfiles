@@ -29,6 +29,7 @@ commands:
             case "${CIRCLE_JOB}" in
               ruby|nodejs)                        load_image=baseimage;;
               ruby-full|rails5|tdiary)            load_image=ruby;;
+              ruby-buster)                        load_image=baseimage-buster;;
               ruby-stretch)                       load_image=baseimage-stretch;;
             esac
             if [ -n "${load_image}" ]; then
@@ -124,6 +125,9 @@ jobs:
   baseimage-buster:
     executor: my-executor
     steps: [ prepare, build, test ]
+  ruby-buster:
+    executor: my-executor
+    steps: [ prepare, build, test ]
   baseimage-stretch:
     executor: my-executor
     steps: [ prepare, build, test ]
@@ -150,6 +154,8 @@ workflows:
           requires: [rspec-runner, ruby]
       - baseimage-buster:
           requires: [rspec-runner]
+      - ruby-buster:
+          requires: [rspec-runner, baseimage-buster]
       - baseimage-stretch:
           requires: [rspec-runner]
       - ruby-stretch:
