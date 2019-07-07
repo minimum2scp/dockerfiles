@@ -118,7 +118,7 @@ ii   libcurl3-gnutls         7.64.0-4                     amd64  easy-to-use cli
 ii   libcurl4                7.64.0-4                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                        amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
+ii   libedit2                3.1-20190324-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
@@ -132,7 +132,7 @@ ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto lib
 ii   libgdbm-compat4         1.18.1-4                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.8-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-3                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
@@ -175,10 +175,10 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTM
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime shared libraries
+ii   libselinux1             2.9-2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.8-2                        amd64  SELinux policy management library
-ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               2.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
 ii   libsqlite3-0            3.27.2-3                     amd64  SQLite 3 shared library
