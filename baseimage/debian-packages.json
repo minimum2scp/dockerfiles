@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.35-1",
+    "Version": "1.36-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.35-1"
+    "source:Version": "1.36-2"
   },
   {
     "Architecture": "amd64",
@@ -3114,7 +3114,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "30",
+    "Installed-Size": "35",
     "Origin": "",
     "Package": "libsemanage-common",
     "Pre-Depends": "",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8-2",
+    "Version": "2.9-2",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -3133,13 +3133,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.8-2"
+    "source:Version": "2.9-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 2.4), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
-    "Depends": "libsemanage-common (= 2.8-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.8), libsepol1 (>= 2.8)",
+    "Depends": "libsemanage-common (= 2.9-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.9), libsepol1 (>= 2.9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "301",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8-2",
+    "Version": "2.9-2",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.8-2"
+    "source:Version": "2.9-2"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-5",
+    "Version": "241-6",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-5"
+    "source:Version": "241-6"
   },
   {
     "Architecture": "amd64",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-5",
+    "Version": "241-6",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-5"
+    "source:Version": "241-6"
   },
   {
     "Architecture": "amd64",
@@ -4458,7 +4458,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "89",
+    "Installed-Size": "91",
     "Origin": "",
     "Package": "readline-common",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "7.0-5",
+    "Version": "8.0-2",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "7.0-5"
+    "source:Version": "8.0-2"
   },
   {
     "Architecture": "amd64",

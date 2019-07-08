@@ -133,7 +133,7 @@ ii   libgdbm-compat4         1.18.1-4                     amd64  GNU dbm databas
 ii   libgdbm6                1.18.1-4                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.8-2                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
+ii   libgpg-error0           1.36-2                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-3                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -176,8 +176,8 @@ ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - au
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.8-2                        amd64  SELinux policy management library
+ii   libsemanage-common      2.9-2                        all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.9-2                        amd64  SELinux policy management library
 ii   libsepol1               2.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
@@ -186,11 +186,11 @@ ii   libss2                  1.45.2-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-7                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-5                        amd64  systemd utility library
+ii   libsystemd0             241-6                        amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-5                        amd64  libudev shared library
+ii   libudev1                241-6                        amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -224,7 +224,7 @@ ii   python2                 2.7.16-1                     amd64  interactive hig
 ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2.7               2.7.16-2                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.16-2                     amd64  Minimal subset of the Python language (version 2.7)
-ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
+ii   readline-common         8.0-2                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1901.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
