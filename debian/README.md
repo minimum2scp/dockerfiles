@@ -69,7 +69,7 @@ ii   libgcc1                 1:8.3.0-7             amd64  GCC support library
 ii   libgcrypt20             1.8.4-5               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.8-2               amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.35-1                amd64  GnuPG development runtime library
+ii   libgpg-error0           1.36-2                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1               amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2              amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1               amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -88,8 +88,8 @@ ii   libpcre2-8-0            10.32-5               amd64  New Perl Compatible Re
 ii   libpcre3                2:8.39-12             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.3.3-4               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                 amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.8-2                 all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.8-2                 amd64  SELinux policy management library
+ii   libsemanage-common      2.9-2                 all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.9-2                 amd64  SELinux policy management library
 ii   libsepol1               2.9-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.45.2-1              amd64  command-line interface parsing library
