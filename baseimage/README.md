@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2                        amd64  commandline package manager
-ii   base-files              10.3                         amd64  Debian base system miscellaneous files
+ii   base-files              11                           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-7                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
+ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
@@ -106,7 +106,7 @@ ii   libaudit-common         1:2.8.5-1                    all    Dynamic library
 ii   libaudit1               1:2.8.5-1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-9.1                    amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9.2                    amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
@@ -194,7 +194,7 @@ ii   libudev1                241-6                        amd64  libudev shared 
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.2-4                      amd64  netfilter xtables library
+ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
@@ -225,7 +225,7 @@ ii   python2-minimal         2.7.16-1                     amd64  minimal subset 
 ii   python2.7               2.7.16-3                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-2                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.1905.0-4                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.1907.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
