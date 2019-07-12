@@ -89,7 +89,7 @@ ii   findutils               4.6.0+git+20190209-2         amd64  utilities for f
 ii   gcc-9-base              9.1.0-8                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.22.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.22.0-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.13-2                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.17-1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
@@ -181,7 +181,7 @@ ii   libsemanage1            2.9-2                        amd64  SELinux policy 
 ii   libsepol1               2.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-3                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.27.2-3                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.29.0-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.45.2-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
@@ -191,7 +191,7 @@ ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 st
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                241-6                        amd64  libudev shared library
-ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
+ii   libunistring2           0.9.10-2                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
@@ -228,7 +228,7 @@ ii   readline-common         8.0-2                        all    GNU readline an
 ii   rsyslog                 8.1907.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.63-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.93-8                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
@@ -236,7 +236,7 @@ ii   sysvinit-utils          2.93-8                       amd64  System-V-like u
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-23                       amd64  De-archiver for .zip files
+ii   unzip                   6.0-24                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version

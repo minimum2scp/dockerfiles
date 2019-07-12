@@ -678,7 +678,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.25), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "840",
+    "Installed-Size": "851",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.13-2",
+    "Version": "2.2.17-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.13-2"
+    "source:Version": "2.2.17-1"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1288",
+    "Installed-Size": "1298",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.27.2-3",
+    "Version": "3.29.0-1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.27.2-3"
+    "source:Version": "3.29.0-1"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1600",
+    "Installed-Size": "1592",
     "Origin": "",
     "Package": "libunistring2",
     "Pre-Depends": "",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.9.10-1",
+    "Version": "0.9.10-2",
     "binary:Package": "libunistring2:amd64",
     "binary:Summary": "Unicode string library for C",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libunistring",
-    "source:Version": "0.9.10-1"
+    "source:Version": "0.9.10-2"
   },
   {
     "Architecture": "amd64",
@@ -4570,7 +4570,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "59",
+    "Installed-Size": "61",
     "Origin": "",
     "Package": "startpar",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.61-1",
+    "Version": "0.63-1",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.61-1"
+    "source:Version": "0.63-1"
   },
   {
     "Architecture": "amd64",
@@ -4794,7 +4794,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "554",
+    "Installed-Size": "566",
     "Origin": "",
     "Package": "unzip",
     "Pre-Depends": "",
@@ -4805,7 +4805,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-23",
+    "Version": "6.0-24",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -4813,7 +4813,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "unzip",
-    "source:Version": "6.0-23"
+    "source:Version": "6.0-24"
   },
   {
     "Architecture": "amd64",
