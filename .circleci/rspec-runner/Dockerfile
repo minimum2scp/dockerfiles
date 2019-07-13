@@ -6,5 +6,9 @@ COPY Gemfile Gemfile.lock Rakefile .rspec /usr/src/app/
 COPY spec                                 /usr/src/app/spec/
 
 WORKDIR /usr/src/app
+
+ENV BUNDLE_PATH="$GEM_HOME" \
+    BUNDLE_PATH__SYSTEM=false
+
 RUN bundle install --path=vendor/bundle --jobs=4
 
