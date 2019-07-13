@@ -1,4 +1,4 @@
-FROM ruby:2.6.3-slim-stretch
+FROM ruby:2.6.3-slim-buster
 
 RUN gem install bundler --version '~> 2.0'
 
