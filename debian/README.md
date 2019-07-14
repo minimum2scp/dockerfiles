@@ -39,11 +39,11 @@ ii   e2fsprogs               1.45.2-1              amd64  ext2/ext3/ext4 file sy
 ii   fdisk                   2.33.1-0.1            amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2  amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.1.0-8               amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.17-1              amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.17-2              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3                 amd64  GNU compression utilities
 ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-7             amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-8             amd64  ICMP echo tool
 ii   init-system-helpers     1.57                  all    helper tools for all init systems
 ii   iproute2                5.2.0-1               amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4              amd64  access control list - shared library
@@ -95,10 +95,10 @@ ii   libsepol1               2.9-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.45.2-1              amd64  command-line interface parsing library
 ii   libstdc++6              9.1.0-8               amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-6                 amd64  systemd utility library
-ii   libtasn1-6              4.13-3                amd64  Manage ASN.1 structures (runtime)
+ii   libsystemd0             241-6+b1              amd64  systemd utility library
+ii   libtasn1-6              4.13-4                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                241-6                 amd64  libudev shared library
+ii   libudev1                241-6+b1              amd64  libudev shared library
 ii   libunistring2           0.9.10-2              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
 ii   libxtables12            1.8.3-2               amd64  netfilter xtables library
