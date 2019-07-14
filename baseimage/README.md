@@ -75,7 +75,7 @@ ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
-ii   curl                    7.64.0-4                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.65.1-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.72                       all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                       all    GnuPG archive keys of the Debian archive
@@ -89,12 +89,12 @@ ii   findutils               4.6.0+git+20190510-2         amd64  utilities for f
 ii   gcc-9-base              9.1.0-8                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.22.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.22.0-1                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.17-1                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.17-2                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-7                    amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-8                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
@@ -114,15 +114,15 @@ ii   libcap-ng0              0.7.9-2                      amd64  An alternate PO
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.2-1                     amd64  common error description library
-ii   libcurl3-gnutls         7.64.0-4                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.64.0-4                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.65.1-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.65.1-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20190324-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.6-2                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.7-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.2-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
@@ -152,7 +152,7 @@ ii   libmount1               2.33.1-0.1                   amd64  device mounting
 ii   libncurses6             6.1+20181013-2               amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20181013-2               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.21-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.21-2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.37.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.15-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
@@ -186,11 +186,11 @@ ii   libss2                  1.45.2-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.1.0-8                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-6                        amd64  systemd utility library
-ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
+ii   libsystemd0             241-6+b1                     amd64  systemd utility library
+ii   libtasn1-6              4.13-4                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-6                        amd64  libudev shared library
+ii   libudev1                241-6+b1                     amd64  libudev shared library
 ii   libunistring2           0.9.10-2                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -240,7 +240,7 @@ ii   unzip                   6.0-24                       amd64  De-archiver for
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.21-1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.21-2                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0875-5                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
