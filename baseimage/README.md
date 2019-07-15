@@ -97,7 +97,7 @@ ii   hostname                3.21                         amd64  utility to set/
 ii   inetutils-ping          2:1.9.4-8                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
-ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.20.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2                        amd64  package management runtime library
@@ -129,11 +129,11 @@ ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partition
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.1.0-8                    amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18.1-4                     amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18.1-4                     amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.18.1-4+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.18.1-4+b1                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.8-2                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.36-2                       amd64  GnuPG development runtime library
+ii   libgpg-error0           1.36-4                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-4                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
