@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8.6.2",
+    "Version": "4.8.6.3",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.8.6.2"
+    "source:Version": "4.8.6.3"
   },
   {
     "Architecture": "amd64",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.17-2",
+    "Version": "2.2.17-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.17-2"
+    "source:Version": "2.2.17-3"
   },
   {
     "Architecture": "amd64",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.36-6",
+    "Version": "1.36-7",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.36-6"
+    "source:Version": "1.36-7"
   },
   {
     "Architecture": "amd64",
@@ -2285,7 +2285,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.7-1",
+    "Version": "1:4.7-2",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.7-1"
+    "source:Version": "1:4.7-2"
   },
   {
     "Architecture": "amd64",
@@ -2442,7 +2442,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2655",
+    "Installed-Size": "2657",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -2453,7 +2453,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.7-1",
+    "Version": "1:4.7-2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.7-1"
+    "source:Version": "1:4.7-2"
   },
   {
     "Architecture": "amd64",
@@ -2526,7 +2526,7 @@
     "Depends": "init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "131",
+    "Installed-Size": "135",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2537,7 +2537,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.93-8",
+    "Version": "2.95-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.93-8"
+    "source:Version": "2.95-1"
   },
   {
     "Architecture": "amd64",
