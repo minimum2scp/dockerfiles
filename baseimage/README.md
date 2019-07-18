@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.2-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.1.0-8                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.1.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.22.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.22.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
@@ -127,21 +127,21 @@ ii   libext2fs2              1.45.2-1                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.1.0-8                    amd64  GCC support library
+ii   libgcc1                 1:9.1.0-10                   amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-4+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4+b1                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.8-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-4                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-5                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-4                       amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-5                       amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-4                       amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-4                       amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-5                       amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-5                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-3                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
@@ -174,7 +174,7 @@ ii   libreadline8            8.0-2                        amd64  GNU readline an
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.1-1                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-2                        amd64  SELinux policy management library
@@ -185,7 +185,7 @@ ii   libsqlite3-0            3.29.0-1                     amd64  SQLite 3 shared
 ii   libss2                  1.45.2-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.1.0-8                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.1.0-10                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-6+b1                     amd64  systemd utility library
 ii   libtasn1-6              4.13-4                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
