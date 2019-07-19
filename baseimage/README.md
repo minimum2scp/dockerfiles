@@ -76,7 +76,7 @@ ii   ca-certificates         20190110                     all    Common CA certi
 ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
 ii   curl                    7.65.1-1                     amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
+ii   dash                    0.5.10.2-6                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.72                       all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.3                      amd64  Miscellaneous utilities specific to Debian
@@ -174,7 +174,7 @@ ii   libreadline8            8.0-2                        amd64  GNU readline an
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.4.1-1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.1-2                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-2                        amd64  SELinux policy management library
@@ -186,11 +186,11 @@ ii   libss2                  1.45.2-1                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.1.0-10                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-6+b1                     amd64  systemd utility library
+ii   libsystemd0             241-7                        amd64  systemd utility library
 ii   libtasn1-6              4.13-4                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-6+b1                     amd64  libudev shared library
+ii   libudev1                241-7                        amd64  libudev shared library
 ii   libunistring2           0.9.10-2                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
