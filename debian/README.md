@@ -29,7 +29,7 @@ ii   base-passwd             3.5.46                amd64  Debian base system mas
 ii   bash                    5.0-4                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-3                amd64  GNU core utilities
-ii   dash                    0.5.10.2-5            amd64  POSIX-compliant shell
+ii   dash                    0.5.10.2-6            amd64  POSIX-compliant shell
 ii   debconf                 1.5.72                all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.3               amd64  Miscellaneous utilities specific to Debian
@@ -87,7 +87,7 @@ ii   libpam-runtime          1.3.1-5               all    Runtime support for th
 ii   libpam0g                1.3.1-5               amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-5               amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.4.1-1               amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.1-2               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-2                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-2                 amd64  SELinux policy management library
@@ -95,10 +95,10 @@ ii   libsepol1               2.9-2                 amd64  SELinux library for ma
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.45.2-1              amd64  command-line interface parsing library
 ii   libstdc++6              9.1.0-10              amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-6+b1              amd64  systemd utility library
+ii   libsystemd0             241-7                 amd64  systemd utility library
 ii   libtasn1-6              4.13-4                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2        amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                241-6+b1              amd64  libudev shared library
+ii   libudev1                241-7                 amd64  libudev shared library
 ii   libunistring2           0.9.10-2              amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1            amd64  Universally Unique ID library
 ii   libxtables12            1.8.3-2               amd64  netfilter xtables library
