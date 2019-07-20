@@ -3,7 +3,7 @@
 set -e
 set -x
 
-nginx_version="1.17.1-1~stretch"
+nginx_version="1.17.1-1~buster"
 
 ## install gnupg
 apt-get install -y --no-install-recommends gnupg
@@ -13,10 +13,10 @@ curl -sSf http://nginx.org/keys/nginx_signing.key | apt-key --keyring /etc/apt/t
 
 ## add apt-line
 (
-  echo "deb     http://nginx.org/packages/debian/ stretch nginx"
-  echo "deb-src http://nginx.org/packages/debian/ stretch nginx"
-  echo "deb     http://nginx.org/packages/mainline/debian/ stretch nginx"
-  echo "deb-src http://nginx.org/packages/mainline/debian/ stretch nginx"
+  echo "deb     http://nginx.org/packages/debian/ buster nginx"
+  echo "deb-src http://nginx.org/packages/debian/ buster nginx"
+  echo "deb     http://nginx.org/packages/mainline/debian/ buster nginx"
+  echo "deb-src http://nginx.org/packages/mainline/debian/ buster nginx"
 ) | tee /etc/apt/sources.list.d/nginx.list
 
 ## add apt-preferences

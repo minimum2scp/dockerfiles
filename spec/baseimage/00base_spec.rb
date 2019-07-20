@@ -339,19 +339,19 @@ describe 'minimum2scp/baseimage' do
 
     describe command('apt-cache policy') do
       its(:stdout) {
-        should include " 600 http://nginx.org/packages/mainline/debian stretch/nginx amd64 Packages\n" +
-                       "     release v=9.0,o=nginx,a=stable,n=stretch,l=nginx,c=nginx,b=amd64\n" +
+        should include " 600 http://nginx.org/packages/mainline/debian buster/nginx amd64 Packages\n" +
+                       "     release v=10.0,o=nginx,a=stable,n=buster,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
       }
       its(:stdout) {
-        should include " 600 http://nginx.org/packages/debian stretch/nginx amd64 Packages\n" +
-                       "     release v=9.0,o=nginx,a=stable,n=stretch,l=nginx,c=nginx,b=amd64\n" +
+        should include " 600 http://nginx.org/packages/debian buster/nginx amd64 Packages\n" +
+                       "     release v=10.0,o=nginx,a=stable,n=buster,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
       }
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.17.1-1~stretch') }
+      it { should be_installed.with_version('1.17.1-1~buster') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
