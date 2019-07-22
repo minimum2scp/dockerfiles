@@ -96,14 +96,14 @@ ii   gzip                    1.9-3                        amd64  GNU compression
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-8                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.95-1                       amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.95-2                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.5-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-1                    amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.5-2                    all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.5-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9.2                    amd64  high-quality block-sorting file compressor library - runtime
@@ -176,8 +176,8 @@ ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - au
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.4.1-2                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.9-2                        all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.9-2                        amd64  SELinux policy management library
+ii   libsemanage-common      2.9-3                        all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.9-3                        amd64  SELinux policy management library
 ii   libsepol1               2.9-2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
@@ -230,9 +230,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.95-1                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.95-1                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.95-1                       amd64  System-V-like utilities
+ii   sysv-rc                 2.95-2                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.95-2                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.95-2                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
