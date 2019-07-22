@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.5-1",
+    "Version": "1:2.8.5-2",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -781,13 +781,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.5-1"
+    "source:Version": "1:2.8.5-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:2.8.5-1), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:2.8.5-2), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "163",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.5-1",
+    "Version": "1:2.8.5-2",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.5-1"
+    "source:Version": "1:2.8.5-2"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-2",
+    "Version": "2.9-3",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -1901,13 +1901,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.9-2"
+    "source:Version": "2.9-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 2.4), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
-    "Depends": "libsemanage-common (= 2.9-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.9), libsepol1 (>= 2.9)",
+    "Depends": "libsemanage-common (= 2.9-3), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.9), libsepol1 (>= 2.9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "301",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-2",
+    "Version": "2.9-3",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.9-2"
+    "source:Version": "2.9-3"
   },
   {
     "Architecture": "amd64",
@@ -2537,7 +2537,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-1",
+    "Version": "2.95-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-1"
+    "source:Version": "2.95-2"
   },
   {
     "Architecture": "amd64",

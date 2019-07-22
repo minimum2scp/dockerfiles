@@ -12,8 +12,10 @@ I: Validating adduser 3.118
 I: Validating apt 1.8.2
 I: Validating libapt-pkg5.0 1.8.2
 I: Validating libattr1 1:2.4.48-4
-I: Validating libaudit-common 1:2.8.5-1
-I: Validating libaudit1 1:2.8.5-1
+I: Retrieving libaudit-common 1:2.8.5-2
+I: Validating libaudit-common 1:2.8.5-2
+I: Retrieving libaudit1 1:2.8.5-2
+I: Validating libaudit1 1:2.8.5-2
 I: Validating base-files 11
 I: Validating base-passwd 3.5.46
 I: Validating bash 5.0-4
@@ -56,13 +58,14 @@ I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.4-5
 I: Validating libgpg-error0 1.36-7
 I: Validating libidn11 1.33-2.2
-I: Retrieving libidn2-0 2.2.0-1
 I: Validating libidn2-0 2.2.0-1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.4.1-2
 I: Validating libselinux1 2.9-2
-I: Validating libsemanage-common 2.9-2
-I: Validating libsemanage1 2.9-2
+I: Retrieving libsemanage-common 2.9-3
+I: Validating libsemanage-common 2.9-3
+I: Retrieving libsemanage1 2.9-3
+I: Validating libsemanage1 2.9-3
 I: Validating libsepol1 2.9-2
 I: Validating libtasn1-6 4.13-4
 I: Validating libunistring2 0.9.10-2
@@ -89,7 +92,8 @@ I: Validating login 1:4.7-2
 I: Validating passwd 1:4.7-2
 I: Validating libsystemd0 241-7
 I: Validating libudev1 241-7
-I: Validating sysvinit-utils 2.95-1
+I: Retrieving sysvinit-utils 2.95-2
+I: Validating sysvinit-utils 2.95-2
 I: Validating tar 1.30+dfsg-6
 I: Validating tzdata 2019b-1
 I: Validating bsdutils 1:2.33.1-0.1
@@ -398,10 +402,10 @@ Sending build context to Docker daemon  30.85MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3d6abefd7c99
+ ---> 5daba8a09e0c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 12119afd7dd3
-Removing intermediate container 12119afd7dd3
- ---> 5adf98260cb1
-Successfully built 5adf98260cb1
+ ---> Running in 3fe662449f14
+Removing intermediate container 3fe662449f14
+ ---> afeb74ca9e35
+Successfully built afeb74ca9e35
 Successfully tagged minimum2scp/debian:latest

@@ -49,8 +49,8 @@ ii   iproute2                5.2.0-1               amd64  networking and traffic
 ii   libacl1                 2.2.53-4              amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2                 amd64  package management runtime library
 ii   libattr1                1:2.4.48-4            amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.5-1             all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-1             amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.5-2             all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.5-2             amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1            amd64  block device ID library
 ii   libbsd0                 0.9.1-2               amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9.2             amd64  high-quality block-sorting file compressor library - runtime
@@ -89,8 +89,8 @@ ii   libpcre2-8-0            10.32-5               amd64  New Perl Compatible Re
 ii   libpcre3                2:8.39-12             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.1-2               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                 amd64  SELinux runtime shared libraries
-ii   libsemanage-common      2.9-2                 all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.9-2                 amd64  SELinux policy management library
+ii   libsemanage-common      2.9-3                 all    Common files for SELinux policy management libraries
+ii   libsemanage1            2.9-3                 amd64  SELinux policy management library
 ii   libsepol1               2.9-2                 amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.33.1-0.1            amd64  smart column output alignment library
 ii   libss2                  1.45.2-1              amd64  command-line interface parsing library
@@ -112,7 +112,7 @@ ii   netbase                 5.6                   all    Basic TCP/IP networkin
 ii   passwd                  1:4.7-2               amd64  change and administer password and group data
 ii   perl-base               5.28.1-6              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.95-1                amd64  System-V-like utilities
+ii   sysvinit-utils          2.95-2                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1               all    time zone and daylight-saving time data
 ii   util-linux              2.33.1-0.1            amd64  miscellaneous system utilities
