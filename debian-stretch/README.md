@@ -1,3 +1,5 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-stretch.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-stretch.svg)]()
 [![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-stretch.svg)]()
 
 # about minimum2scp/debian-stretch image
@@ -29,7 +31,7 @@ ii   bsdutils                1:2.29.2-1+deb9u1      amd64  basic utilities from 
 ii   coreutils               8.26-3                 amd64  GNU core utilities
 ii   dash                    0.5.8-2.4              amd64  POSIX-compliant shell
 ii   debconf                 1.5.61                 all    Debian configuration management system
-ii   debian-archive-keyring  2017.5                 all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2017.5+deb9u1          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.1.1                amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.5-3                amd64  File comparison utilities
 ii   dpkg                    1.18.25                amd64  Debian package management system
