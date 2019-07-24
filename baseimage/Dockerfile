@@ -1,5 +1,5 @@
 FROM minimum2scp/debian:latest
-MAINTAINER YAMADA Tsuyoshi tyamada@minimum2scp.org
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/baseimage
 RUN run-parts --report --exit-on-error /tmp/build/baseimage/scripts && rm -rfv /tmp/build

@@ -1,5 +1,5 @@
 FROM minimum2scp/debian-buster:latest
-MAINTAINER YAMADA Tsuyoshi tyamada@minimum2scp.org
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/baseimage-buster
 RUN run-parts --report --exit-on-error /tmp/build/baseimage-buster/scripts && rm -rfv /tmp/build

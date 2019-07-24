@@ -1,5 +1,5 @@
 FROM minimum2scp/debian-stretch:latest
-MAINTAINER YAMADA Tsuyoshi tyamada@minimum2scp.org
+LABEL maintainer="YAMADA Tsuyoshi <tyamada@minimum2scp.org>"
 
 COPY build /tmp/build/baseimage-stretch
 RUN run-parts --report --exit-on-error /tmp/build/baseimage-stretch/scripts && rm -rfv /tmp/build
