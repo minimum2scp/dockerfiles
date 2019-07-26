@@ -485,7 +485,7 @@
     "Installed-Size": "1413",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.45.3-2), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.45.3-3), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.45.3-2",
+    "Version": "1.45.3-3",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.3-2"
+    "source:Version": "1.45.3-3"
   },
   {
     "Architecture": "all",
@@ -1355,13 +1355,13 @@
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.45.3-2)",
+    "Provides": "libcomerr2 (= 1.45.3-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.3-2",
+    "Version": "1.45.3-3",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.3-2"
+    "source:Version": "1.45.3-3"
   },
   {
     "Architecture": "amd64",
@@ -1635,13 +1635,13 @@
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.45.3-2)",
+    "Provides": "e2fslibs (= 1.45.3-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.3-2",
+    "Version": "1.45.3-3",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.3-2"
+    "source:Version": "1.45.3-3"
   },
   {
     "Architecture": "amd64",
@@ -2159,10 +2159,10 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libsasl2-2 (>= 2.1.27+dfsg), libldap-common",
+    "Depends": "libc6 (>= 2.28), libgnutls30 (>= 3.6.8), libsasl2-2 (>= 2.1.27+dfsg), libldap-common",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "525",
+    "Installed-Size": "526",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.47+dfsg-3",
+    "Version": "2.4.48+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.47+dfsg-3"
+    "source:Version": "2.4.48+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -2190,7 +2190,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "112",
+    "Installed-Size": "113",
     "Origin": "",
     "Package": "libldap-common",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.47+dfsg-3",
+    "Version": "2.4.48+dfsg-1",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.47+dfsg-3"
+    "source:Version": "2.4.48+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.3-2",
+    "Version": "1.45.3-3",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.3-2"
+    "source:Version": "1.45.3-3"
   },
   {
     "Architecture": "amd64",
@@ -3754,7 +3754,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "e2fsprogs (<< 1.45.2-1)",
+    "Breaks": "e2fsprogs (<< 1.45.3-1)",
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
@@ -3769,7 +3769,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.3-2",
+    "Version": "1.45.3-3",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.3-2"
+    "source:Version": "1.45.3-3"
   },
   {
     "Architecture": "all",
