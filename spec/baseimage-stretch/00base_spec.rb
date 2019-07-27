@@ -353,7 +353,7 @@ describe 'minimum2scp/baseimage-stretch' do
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.17.1-1~stretch') }
+      it { should be_installed.with_version('1.17.2-1~stretch') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
