@@ -3,7 +3,7 @@
 set -e
 set -x
 
-nginx_version="1.17.1-1~buster"
+nginx_version="1.17.2-1~buster"
 
 ## install gnupg
 apt-get install -y --no-install-recommends gnupg
