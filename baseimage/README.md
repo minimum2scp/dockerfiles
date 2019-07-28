@@ -187,7 +187,7 @@ ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-sid
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.1.0-10                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7                        amd64  systemd utility library
-ii   libtasn1-6              4.13-4                       amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.14-2                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190713-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                241-7                        amd64  libudev shared library
@@ -196,7 +196,7 @@ ii   libuuid1                2.33.1-0.1                   amd64  Universally Uni
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
-ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
+ii   localepurge             0.7.3.6                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-3                     amd64  save the output of a command in a log file
@@ -237,7 +237,7 @@ ii   sysvinit-utils          2.95-2                       amd64  System-V-like u
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-24                       amd64  De-archiver for .zip files
+ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version
