@@ -87,8 +87,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.1.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.22.0-1                   amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.22.0-1                   all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.23.0~rc0-1               amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.23.0~rc0-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -147,7 +147,7 @@ ii   libldap-common          2.4.48+dfsg-1                all    OpenLDAP common
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
-ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
+ii   libmnl0                 1.0.4-2+b1                   amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                     amd64  device mounting library
 ii   libncurses6             6.1+20190713-1               amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20190713-1               amd64  shared libraries for terminal handling (wide character support)
