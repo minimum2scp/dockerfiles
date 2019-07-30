@@ -76,7 +76,7 @@ ii   libidn11                1.33-2.2              amd64  GNU Libidn library, im
 ii   libidn2-0               2.2.0-1               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1               amd64  XZ-format compression library
-ii   libmnl0                 1.0.4-2               amd64  minimalistic Netlink communication library
+ii   libmnl0                 1.0.4-2+b1            amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1              amd64  device mounting library
 ii   libncursesw6            6.1+20190713-1        amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1               amd64  low level cryptographic library (symmetric and one-way cryptos)
