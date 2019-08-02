@@ -1935,7 +1935,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "moonshot-gss-eap (<= 1.0)",
-    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.17-5), libkrb5support0 (>= 1.15~beta1)",
+    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.17-6), libkrb5support0 (>= 1.15~beta1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "422",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.17-5",
+    "Version": "1.17-6",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.17-5"
+    "source:Version": "1.17-6"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.17-5",
+    "Version": "1.17-6",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.17-5"
+    "source:Version": "1.17-6"
   },
   {
     "Architecture": "amd64",
@@ -2103,7 +2103,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.16), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.17-5), libssl1.1 (>= 1.1.0)",
+    "Depends": "libc6 (>= 2.16), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.17-6), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1132",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.17-5",
+    "Version": "1.17-6",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.17-5"
+    "source:Version": "1.17-6"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.17-5",
+    "Version": "1.17-6",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.17-5"
+    "source:Version": "1.17-6"
   },
   {
     "Architecture": "amd64",
@@ -2355,7 +2355,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20190713-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20190713-2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "335",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190713-1",
+    "Version": "6.1+20190713-2",
     "binary:Package": "libncurses6:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2377,13 +2377,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190713-1"
+    "source:Version": "6.1+20190713-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20190713-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20190713-2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "416",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190713-1",
+    "Version": "6.1+20190713-2",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190713-1"
+    "source:Version": "6.1+20190713-2"
   },
   {
     "Architecture": "amd64",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190713-1",
+    "Version": "6.1+20190713-2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190713-1"
+    "source:Version": "6.1+20190713-2"
   },
   {
     "Architecture": "amd64",
@@ -3965,7 +3965,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190713-1",
+    "Version": "6.1+20190713-2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190713-1"
+    "source:Version": "6.1+20190713-2"
   },
   {
     "Architecture": "amd64",
@@ -3993,7 +3993,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190713-1",
+    "Version": "6.1+20190713-2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190713-1"
+    "source:Version": "6.1+20190713-2"
   },
   {
     "Architecture": "amd64",
