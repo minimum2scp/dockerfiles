@@ -346,14 +346,14 @@
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
-    "Priority": "required",
+    "Priority": "important",
     "Provides": "debconf-2.0",
     "Recommends": "apt-utils (>= 0.5.1), debconf-i18n",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.72",
+    "Version": "1.5.73",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.72"
+    "source:Version": "1.5.73"
   },
   {
     "Architecture": "all",
@@ -619,10 +619,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.23.0~rc0), git-man (<< 1:2.23.0~rc0-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.23.0~rc1), git-man (<< 1:2.23.0~rc1-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "39543",
+    "Installed-Size": "39562",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.23.0~rc0-1",
+    "Version": "1:2.23.0~rc1-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.23.0~rc0-1"
+    "source:Version": "1:2.23.0~rc1-1"
   },
   {
     "Architecture": "all",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1730",
+    "Installed-Size": "1733",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.23.0~rc0-1",
+    "Version": "1:2.23.0~rc1-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.23.0~rc0-1"
+    "source:Version": "1:2.23.0~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-3",
+    "Version": "2.95-4",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-3"
+    "source:Version": "2.95-4"
   },
   {
     "Architecture": "amd64",
@@ -1879,10 +1879,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)",
+    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2676",
+    "Installed-Size": "2793",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.8-2",
+    "Version": "3.6.9-3",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.8-2"
+    "source:Version": "3.6.9-3"
   },
   {
     "Architecture": "amd64",
@@ -3825,7 +3825,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.51-6",
+    "Version": "4.51-7",
     "binary:Package": "lv",
     "binary:Summary": "Powerful Multilingual File Viewer",
     "db:Status-Abbrev": "ii ",
@@ -3833,7 +3833,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lv",
-    "source:Version": "4.51-6"
+    "source:Version": "4.51-7"
   },
   {
     "Architecture": "amd64",
@@ -3842,7 +3842,7 @@
     "Depends": "bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.27), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2675",
+    "Installed-Size": "2746",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3853,7 +3853,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.8.5-2",
+    "Version": "2.8.6-1",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.8.5-2"
+    "source:Version": "2.8.6-1"
   },
   {
     "Architecture": "amd64",
@@ -4077,7 +4077,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:8.0p1-3",
+    "Version": "1:8.0p1-4",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4085,13 +4085,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-3"
+    "source:Version": "1:8.0p1-4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.0p1-3), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.0p1-4), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1480",
@@ -4105,7 +4105,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:8.0p1-3",
+    "Version": "1:8.0p1-4",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4113,13 +4113,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-3"
+    "source:Version": "1:8.0p1-4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:8.0p1-3), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
+    "Depends": "openssh-client (= 1:8.0p1-4), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "125",
@@ -4133,7 +4133,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:8.0p1-3",
+    "Version": "1:8.0p1-4",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4141,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-3"
+    "source:Version": "1:8.0p1-4"
   },
   {
     "Architecture": "amd64",
@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-3",
+    "Version": "2.95-4",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-3"
+    "source:Version": "2.95-4"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.95-3",
+    "Version": "2.95-4",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-3"
+    "source:Version": "2.95-4"
   },
   {
     "Architecture": "amd64",
@@ -4721,7 +4721,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-3",
+    "Version": "2.95-4",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-3"
+    "source:Version": "2.95-4"
   },
   {
     "Architecture": "amd64",

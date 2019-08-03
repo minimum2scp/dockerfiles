@@ -77,7 +77,7 @@ ii   coreutils               8.30-3                       amd64  GNU core utilit
 ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
 ii   curl                    7.65.1-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-6                   amd64  POSIX-compliant shell
-ii   debconf                 1.5.72                       all    Debian configuration management system
+ii   debconf                 1.5.73                       all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                       all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.3                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
@@ -87,8 +87,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.1.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.23.0~rc0-1               amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.23.0~rc0-1               all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.23.0~rc1-1               amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.23.0~rc1-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -96,7 +96,7 @@ ii   gzip                    1.9-3                        amd64  GNU compression
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-8                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.95-3                       amd64  scripts for initializing and shutting down the system
+ii   initscripts             2.95-4                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
@@ -132,7 +132,7 @@ ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto lib
 ii   libgdbm-compat4         1.18.1-4+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4+b1                  amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.8-2                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.9-3                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
@@ -201,8 +201,8 @@ ii   locales                 2.28-10                      all    GNU C Library: 
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-3                     amd64  save the output of a command in a log file
 ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
-ii   lv                      4.51-6                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.5-2                      amd64  on-line manual pager
+ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
+ii   man-db                  2.8.6-1                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
@@ -210,9 +210,9 @@ ii   ncurses-base            6.1+20190713-2               all    basic terminal 
 ii   ncurses-bin             6.1+20190713-2               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:8.0p1-3                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.0p1-3                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.0p1-3                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.0p1-4                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.0p1-4                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.0p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1c-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -231,9 +231,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.95-3                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.95-3                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.95-3                       amd64  System-V-like utilities
+ii   sysv-rc                 2.95-4                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.95-4                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.95-4                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
