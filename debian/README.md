@@ -69,7 +69,7 @@ ii   libffi6                 3.2.1-9               amd64  Foreign Function Inter
 ii   libgcc1                 1:9.1.0-10            amd64  GCC support library
 ii   libgcrypt20             1.8.4-5               amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.8-2               amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.9-3               amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1               amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2              amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -113,7 +113,7 @@ ii   netbase                 5.6                   all    Basic TCP/IP networkin
 ii   passwd                  1:4.7-2               amd64  change and administer password and group data
 ii   perl-base               5.28.1-6              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.95-3                amd64  System-V-like utilities
+ii   sysvinit-utils          2.95-4                amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6           amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1               all    time zone and daylight-saving time data
 ii   util-linux              2.34-0.1              amd64  miscellaneous system utilities

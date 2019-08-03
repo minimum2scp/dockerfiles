@@ -1319,10 +1319,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)",
+    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2676",
+    "Installed-Size": "2793",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.8-2",
+    "Version": "3.6.9-3",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.8-2"
+    "source:Version": "3.6.9-3"
   },
   {
     "Architecture": "amd64",
@@ -2565,7 +2565,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-3",
+    "Version": "2.95-4",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-3"
+    "source:Version": "2.95-4"
   },
   {
     "Architecture": "amd64",
