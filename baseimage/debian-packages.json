@@ -346,7 +346,7 @@
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
-    "Priority": "important",
+    "Priority": "required",
     "Provides": "debconf-2.0",
     "Recommends": "apt-utils (>= 0.5.1), debconf-i18n",
     "Replace": "",
