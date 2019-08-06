@@ -196,13 +196,13 @@ ii   libuuid1                2.34-0.1                     amd64  Universally Uni
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
-ii   localepurge             0.7.3.6                      all    reclaim disk space by removing unneeded localizations
+ii   localepurge             0.7.3.7                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-3                     amd64  save the output of a command in a log file
 ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.6-1                      amd64  on-line manual pager
+ii   man-db                  2.8.6.1-1                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
