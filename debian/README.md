@@ -28,7 +28,7 @@ ii   base-files              11                    amd64  Debian base system mis
 ii   base-passwd             3.5.46                amd64  Debian base system master password and group files
 ii   bash                    5.0-4                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.34-0.1            amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.30-3                amd64  GNU core utilities
+ii   coreutils               8.30-3+b1             amd64  GNU core utilities
 ii   dash                    0.5.10.2-6            amd64  POSIX-compliant shell
 ii   debconf                 1.5.73                all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                all    GnuPG archive keys of the Debian archive
@@ -85,8 +85,8 @@ ii   libpam-modules          1.3.1-5               amd64  Pluggable Authenticati
 ii   libpam-modules-bin      1.3.1-5               amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5               all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5               amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.32-5               amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-12             amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre2-8-0            10.32-5+b1            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre3                2:8.39-12+b1          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.1-2               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-2                 amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                 all    Common files for SELinux policy management libraries
@@ -114,8 +114,8 @@ ii   passwd                  1:4.7-2               amd64  change and administer 
 ii   perl-base               5.28.1-6              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.95-4                amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-6           amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-6+b1        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1               all    time zone and daylight-saving time data
 ii   util-linux              2.34-0.1              amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.11.dfsg-1       amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-1+b1    amd64  compression library - runtime
 ```
