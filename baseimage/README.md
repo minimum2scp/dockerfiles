@@ -73,7 +73,7 @@ ii   bash                    5.0-4                        amd64  GNU Bourne Agai
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.34-0.1                   amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
-ii   coreutils               8.30-3                       amd64  GNU core utilities
+ii   coreutils               8.30-3+b1                    amd64  GNU core utilities
 ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
 ii   curl                    7.65.1-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-6                   amd64  POSIX-compliant shell
@@ -159,8 +159,8 @@ ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authe
 ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                      amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.32-5                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-12                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre2-8-0            10.32-5+b1                   amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre3                2:8.39-12+b1                 amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.28             5.28.1-6                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
@@ -230,11 +230,11 @@ ii   rsyslog                 8.1907.0-2                   amd64  reliable system
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.27-1                     amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.95-4                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.95-4                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.95-4                       amd64  System-V-like utilities
-ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
+ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
@@ -243,7 +243,7 @@ ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - C
 ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-2                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0875-5                 amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-1+b1           amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
 ```
