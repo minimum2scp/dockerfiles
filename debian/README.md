@@ -35,7 +35,7 @@ ii   debian-archive-keyring  2019.1                all    GnuPG archive keys of 
 ii   debianutils             4.8.6.3               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3               amd64  File comparison utilities
 ii   dpkg                    1.19.7                amd64  Debian package management system
-ii   e2fsprogs               1.45.3-3              amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.45.3-4              amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.34-0.1              amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2  amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.1.0-10              amd64  GCC, the GNU Compiler Collection (base package)
@@ -59,11 +59,11 @@ ii   libc6                   2.28-10               amd64  GNU C Library: Shared 
 ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.45.3-3              amd64  common error description library
+ii   libcom-err2             1.45.3-4              amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.6      amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                 amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1.1             amd64  library to read and write ELF files
-ii   libext2fs2              1.45.3-3              amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.45.3-4              amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9               amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.1.0-10            amd64  GCC support library
@@ -88,12 +88,12 @@ ii   libpam0g                1.3.1-5               amd64  Pluggable Authenticati
 ii   libpcre2-8-0            10.32-5+b1            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.1-2               amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.9-2                 amd64  SELinux runtime shared libraries
+ii   libselinux1             2.9-2+b2              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                 all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3                 amd64  SELinux policy management library
-ii   libsepol1               2.9-2                 amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               2.9-2+b2              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1              amd64  smart column output alignment library
-ii   libss2                  1.45.3-3              amd64  command-line interface parsing library
+ii   libss2                  1.45.3-4              amd64  command-line interface parsing library
 ii   libstdc++6              9.1.0-10              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7                 amd64  systemd utility library
 ii   libtasn1-6              4.14-2                amd64  Manage ASN.1 structures (runtime)
@@ -104,7 +104,7 @@ ii   libuuid1                2.34-0.1              amd64  Universally Unique ID 
 ii   libxtables12            1.8.3-2               amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3          amd64  fast lossless compression algorithm
 ii   login                   1:4.7-2               amd64  system login tools
-ii   logsave                 1.45.3-3              amd64  save the output of a command in a log file
+ii   logsave                 1.45.3-4              amd64  save the output of a command in a log file
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1              amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20190713-2        all    basic terminal type definitions
