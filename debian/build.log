@@ -27,15 +27,10 @@ I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.8.6.3
 I: Validating diffutils 1:3.7-3
 I: Validating dpkg 1.19.7
-I: Retrieving e2fsprogs 1.45.3-4
 I: Validating e2fsprogs 1.45.3-4
-I: Retrieving libcom-err2 1.45.3-4
 I: Validating libcom-err2 1.45.3-4
-I: Retrieving libext2fs2 1.45.3-4
 I: Validating libext2fs2 1.45.3-4
-I: Retrieving libss2 1.45.3-4
 I: Validating libss2 1.45.3-4
-I: Retrieving logsave 1.45.3-4
 I: Validating logsave 1.45.3-4
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.6.0+git+20190510-2
@@ -46,7 +41,8 @@ I: Validating libc-bin 2.28-10
 I: Validating libc6 2.28-10
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.17-3
-I: Validating libgnutls30 3.6.9-3
+I: Retrieving libgnutls30 3.6.9-4
+I: Validating libgnutls30 3.6.9-4
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3
 I: Validating hostname 3.21
@@ -54,7 +50,8 @@ I: Validating inetutils-ping 2:1.9.4-8
 I: Validating init-system-helpers 1.57
 I: Validating iproute2 5.2.0-1
 I: Validating libxtables12 1.8.3-2
-I: Validating libbsd0 0.9.1-2
+I: Retrieving libbsd0 0.10.0-1
+I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2
 I: Validating libcap2 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
@@ -65,21 +62,23 @@ I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.2.0-1
 I: Validating libmnl0 1.0.4-2+b1
 I: Validating libseccomp2 2.4.1-2
-I: Retrieving libselinux1 2.9-2+b2
 I: Validating libselinux1 2.9-2+b2
 I: Validating libsemanage-common 2.9-3
 I: Validating libsemanage1 2.9-3
-I: Retrieving libsepol1 2.9-2+b2
 I: Validating libsepol1 2.9-2+b2
 I: Validating libtasn1-6 4.14-2
 I: Validating libunistring2 0.9.10-2
 I: Validating libzstd1 1.3.8+dfsg-3
 I: Validating liblz4-1 1.8.3-1
 I: Validating mawk 1.3.3-17+b3
-I: Validating libncursesw6 6.1+20190713-2
-I: Validating libtinfo6 6.1+20190713-2
-I: Validating ncurses-base 6.1+20190713-2
-I: Validating ncurses-bin 6.1+20190713-2
+I: Retrieving libncursesw6 6.1+20190803-1
+I: Validating libncursesw6 6.1+20190803-1
+I: Retrieving libtinfo6 6.1+20190803-1
+I: Validating libtinfo6 6.1+20190803-1
+I: Retrieving ncurses-base 6.1+20190803-1
+I: Validating ncurses-base 6.1+20190803-1
+I: Retrieving ncurses-bin 6.1+20190803-1
+I: Validating ncurses-bin 6.1+20190803-1
 I: Validating netbase 5.6
 I: Validating libhogweed4 3.4.1-1
 I: Validating libnettle6 3.4.1-1
@@ -404,14 +403,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.88MB
+Sending build context to Docker daemon   30.9MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 77ab33750d99
+ ---> f0c3fbdffe5e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ccb622530c34
-Removing intermediate container ccb622530c34
- ---> 7d2c74083c1a
-Successfully built 7d2c74083c1a
+ ---> Running in 6b6fa45d0711
+Removing intermediate container 6b6fa45d0711
+ ---> 9a2be652b55d
+Successfully built 9a2be652b55d
 Successfully tagged minimum2scp/debian:latest
