@@ -204,7 +204,7 @@ ii   lsb-base                10.2019051400                all    Linux Standard 
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.6.1-1                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
-ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
+ii   mime-support            3.63                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20190803-1               all    basic terminal type definitions
 ii   ncurses-bin             6.1+20190803-1               amd64  terminal-related programs and man pages

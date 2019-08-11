@@ -3898,7 +3898,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "110",
+    "Installed-Size": "112",
     "Origin": "",
     "Package": "mime-support",
     "Pre-Depends": "",
@@ -3909,7 +3909,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.62",
+    "Version": "3.63",
     "binary:Package": "mime-support",
     "binary:Summary": "MIME files 'mime.types' & 'mailcap', and support programs",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mime-support",
-    "source:Version": "3.62"
+    "source:Version": "3.63"
   },
   {
     "Architecture": "amd64",
