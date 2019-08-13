@@ -2554,7 +2554,7 @@
     "Depends": "init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "135",
+    "Installed-Size": "136",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2565,7 +2565,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-4",
+    "Version": "2.95-5",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-4"
+    "source:Version": "2.95-5"
   },
   {
     "Architecture": "amd64",
@@ -2615,13 +2615,13 @@
     "Package": "tzdata",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "tzdata-buster",
+    "Provides": "tzdata-bullseye",
     "Recommends": "",
     "Replace": "",
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019b-1",
+    "Version": "2019b-2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2019b-1"
+    "source:Version": "2019b-2"
   },
   {
     "Architecture": "amd64",
