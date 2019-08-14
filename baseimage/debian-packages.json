@@ -594,7 +594,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "247",
+    "Installed-Size": "259",
     "Origin": "",
     "Package": "gcc-9-base",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.1.0-10",
+    "Version": "9.2.1-1",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.1.0-10"
+    "source:Version": "9.2.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-9-base (= 9.1.0-10), libc6 (>= 2.14)",
+    "Depends": "gcc-9-base (= 9.2.1-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.1.0-10",
+    "Version": "1:9.2.1-1",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.1.0-10"
+    "source:Version": "9.2.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2498,7 +2498,7 @@
     "Depends": "libc6 (>= 2.26), libffi6 (>= 3.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1365",
+    "Installed-Size": "1361",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.15-2",
+    "Version": "0.23.16.1-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.15-2"
+    "source:Version": "0.23.16.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3363,7 +3363,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-9-base (= 9.1.0-10), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-9-base (= 9.2.1-1), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2390",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.1.0-10",
+    "Version": "9.2.1-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.1.0-10"
+    "source:Version": "9.2.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3786,7 +3786,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "49",
+    "Installed-Size": "51",
     "Origin": "",
     "Package": "lsb-base",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.2019051400",
+    "Version": "11.0.0",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "10.2019051400"
+    "source:Version": "11.0.0"
   },
   {
     "Architecture": "amd64",

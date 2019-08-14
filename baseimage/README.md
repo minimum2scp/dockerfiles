@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.3-4                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.1.0-10                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.23.0~rc1-1               amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.23.0~rc1-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
@@ -127,7 +127,7 @@ ii   libext2fs2              1.45.3-4                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.1.0-10                   amd64  GCC support library
+ii   libgcc1                 1:9.2.1-1                    amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-4+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4+b1                  amd64  GNU dbm database routines (runtime version) 
@@ -154,7 +154,7 @@ ii   libncursesw6            6.1+20190803-1               amd64  shared librarie
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.37.0-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.15-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.16.1-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library
@@ -185,7 +185,7 @@ ii   libsqlite3-0            3.29.0-1                     amd64  SQLite 3 shared
 ii   libss2                  1.45.3-4                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.1.0-10                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.2.1-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7                        amd64  systemd utility library
 ii   libtasn1-6              4.14-2                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1               amd64  shared low-level terminfo library for terminal handling
@@ -200,7 +200,7 @@ ii   localepurge             0.7.3.7                      all    reclaim disk sp
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
-ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
+ii   lsb-base                11.0.0                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.6.1-1                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
