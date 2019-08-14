@@ -71,8 +71,8 @@ etckeeper commit "inittab: disabled rcS"
 ##
 ## disable tty
 ##
-sed -i -e 's@^\(1:2345:respawn:/sbin/getty 38400 tty1\)@#\1@'         /etc/inittab
-sed -i -e 's@^\([2-7]:23:respawn:/sbin/getty 38400 tty[2-7]\)$@#\1@'  /etc/inittab
+sed -i -e 's@^\(1:2345:respawn:/sbin/getty --noclear 38400 tty1\)@#\1@' /etc/inittab
+sed -i -e 's@^\([2-6]:23:respawn:/sbin/getty 38400 tty[2-6]\)$@#\1@'    /etc/inittab
 etckeeper commit "inittab: disabled tty1-7"
 
 ##
