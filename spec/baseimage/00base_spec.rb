@@ -99,8 +99,8 @@ describe 'minimum2scp/baseimage' do
 
     describe file("/etc/inittab") do
       its(:content) { should match %r!^#si::sysinit:/etc/init.d/rcS! }
-      its(:content) { should match %r!^#1:2345:respawn:/sbin/getty 38400 tty1$! }
-      its(:content) { should match %r!^#[2-7]:23:respawn:/sbin/getty 38400 tty[2-7]$! }
+      its(:content) { should match %r!^#1:2345:respawn:/sbin/getty --noclear 38400 tty1$! }
+      its(:content) { should match %r!^#[2-6]:23:respawn:/sbin/getty 38400 tty[2-6]$! }
     end
 
     describe file("/etc/default/hwclock") do
