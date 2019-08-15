@@ -94,7 +94,7 @@ ii   grep                    3.3-1                        amd64  GNU grep, egrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-8                    amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-9                    amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.95-5                       all    scripts for initializing and shutting down the system
 ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
@@ -200,7 +200,7 @@ ii   localepurge             0.7.3.7                      all    reclaim disk sp
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
-ii   lsb-base                11.0.0                       all    Linux Standard Base init script functionality
+ii   lsb-base                11.0.1                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.6.1-1                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
