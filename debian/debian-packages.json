@@ -605,7 +605,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-8",
+    "Version": "2:1.9.4-9",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-8"
+    "source:Version": "2:1.9.4-9"
   },
   {
     "Architecture": "all",
