@@ -818,7 +818,7 @@
     "Depends": "libc6 (>= 2.15), libidn11 (>= 1.13), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "350",
+    "Installed-Size": "355",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-9",
+    "Version": "2:1.9.4-10",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-9"
+    "source:Version": "2:1.9.4-10"
   },
   {
     "Architecture": "all",
@@ -2470,7 +2470,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "209",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2481,7 +2481,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.37.0-1",
+    "Version": "1.39.2-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.37.0-1"
+    "source:Version": "1.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.29.0-1",
+    "Version": "3.29.0-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.29.0-1"
+    "source:Version": "3.29.0-2"
   },
   {
     "Architecture": "amd64",
@@ -3786,7 +3786,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "51",
+    "Installed-Size": "49",
     "Origin": "",
     "Package": "lsb-base",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.0.1",
+    "Version": "11.1.0",
     "binary:Package": "lsb-base",
     "binary:Summary": "Linux Standard Base init script functionality",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lsb",
-    "source:Version": "11.0.1"
+    "source:Version": "11.1.0"
   },
   {
     "Architecture": "amd64",
