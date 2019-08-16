@@ -594,7 +594,7 @@
     "Depends": "libc6 (>= 2.15), libidn11 (>= 1.13), netbase",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "350",
+    "Installed-Size": "355",
     "Origin": "",
     "Package": "inetutils-ping",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:1.9.4-9",
+    "Version": "2:1.9.4-10",
     "binary:Package": "inetutils-ping",
     "binary:Summary": "ICMP echo tool",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "inetutils",
-    "source:Version": "2:1.9.4-9"
+    "source:Version": "2:1.9.4-10"
   },
   {
     "Architecture": "all",
