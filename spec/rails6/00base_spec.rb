@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'minimum2scp/rails5' do
+describe 'minimum2scp/rails6' do
   context 'with env [APT_LINE=keep]' do
     before(:all) do
       start_container({
@@ -21,7 +21,7 @@ describe 'minimum2scp/rails5' do
       it { should_not be_directory }
     end
 
-    describe 'rails5' do
+    describe 'rails6' do
       %w[
         sqlite3 libsqlite3-dev
         mysql-client libmysqlclient-dev
@@ -39,7 +39,7 @@ describe 'minimum2scp/rails5' do
 
       describe command("RBENV_VERSION=2.6.3 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^rails \(5(?:\.\d+){2,3}\)$/ }
+        its(:stdout){ should match /^rails \(6(?:\.\d+){2,3}\)$/ }
       end
     end
 
