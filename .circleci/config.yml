@@ -28,7 +28,7 @@ commands:
             load_image=
             case "${CIRCLE_JOB}" in
               ruby|nodejs)                        load_image=baseimage;;
-              ruby-full|rails5|tdiary)            load_image=ruby;;
+              ruby-full|rails6|tdiary)            load_image=ruby;;
               ruby-buster)                        load_image=baseimage-buster;;
               ruby-stretch)                       load_image=baseimage-stretch;;
             esac
@@ -116,7 +116,7 @@ jobs:
   ruby-full:
     executor: my-executor
     steps: [ prepare, build, test ]
-  rails5:
+  rails6:
     executor: my-executor
     steps: [ prepare, build, test ]
   tdiary:
@@ -148,7 +148,7 @@ workflows:
           requires: [rspec-runner, baseimage]
       - ruby-full:
           requires: [rspec-runner, ruby]
-      - rails5:
+      - rails6:
           requires: [rspec-runner, ruby]
       - tdiary:
           requires: [rspec-runner, ruby]

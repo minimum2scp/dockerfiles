@@ -1,7 +1,7 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/rails5.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/rails5.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/rails6.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/rails6.svg)]()
 
-# about minimum2scp/rails5 image
+# about minimum2scp/rails6 image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * Ruby on Rails 5.x is installed by gem (1)
@@ -15,7 +15,7 @@
 ## start container
 
 ```
-docker run -d  minimum2scp/rails5
+docker run -d  minimum2scp/rails6
 ```
 
 ## ssh login to container
