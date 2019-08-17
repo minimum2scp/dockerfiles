@@ -18,5 +18,5 @@ sh /tmp/build/rails6/tmp/ruby-binary/install.sh -t v0.1.97 -v 2.6.3
 bash -lc "rbenv global 2.6.3"
 
 ## install rails (by gem)
-bash -lc "RBENV_VERSION=2.6.3 gem install -N rails --version '~> 5.0'"
+bash -lc "RBENV_VERSION=2.6.3 gem install -N rails --version '~> 6.0'"
 
