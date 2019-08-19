@@ -87,8 +87,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-1                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.23.0~rc1-1               amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.23.0~rc1-1               all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.23.0-1                   amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.23.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -110,7 +110,7 @@ ii   libbz2-1.0              1.0.6-9.2                    amd64  high-quality bl
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.3-4                     amd64  common error description library
@@ -121,7 +121,7 @@ ii   libdebconfclient0       0.249                        amd64  Debian Configur
 ii   libedit2                3.1-20190324-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
-ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
+ii   libestr0                0.1.10-2.1+b1                amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.7-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.3-4                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
@@ -135,7 +135,7 @@ ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision 
 ii   libgnutls30             3.6.9-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4.1-1+b1                   amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-6                       amd64  MIT Kerberos runtime libraries - Crypto Library
@@ -144,14 +144,14 @@ ii   libkrb5-3               1.17-6                       amd64  MIT Kerberos ru
 ii   libkrb5support0         1.17-6                       amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.48+dfsg-1                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.48+dfsg-1                all    OpenLDAP common files for libraries
-ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
+ii   liblognorm5             2.0.5-1+b1                   amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1                   amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                     amd64  device mounting library
 ii   libncurses6             6.1+20190803-1               amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20190803-1               amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4.1-1+b1                   amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.39.2-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.16.1-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -164,7 +164,7 @@ ii   libpcre3                2:8.39-12+b1                 amd64  Old Perl 5 Comp
 ii   libperl5.28             5.28.1-6                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
-ii   libprocps7              2:3.3.15-2                   amd64  library for accessing process information from /proc
+ii   libprocps7              2:3.3.15-2+b1                amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
@@ -195,7 +195,7 @@ ii   libunistring2           0.9.10-2                     amd64  Unicode string 
 ii   libuuid1                2.34-0.1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
-ii   libzstd1                1.3.8+dfsg-3                 amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.8+dfsg-3+b1              amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.7                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
@@ -218,7 +218,7 @@ ii   passwd                  1:4.7-2                      amd64  change and admi
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.28.1-6                     amd64  minimal Perl system
 ii   perl-modules-5.28       5.28.1-6                     all    Core Perl modules
-ii   procps                  2:3.3.15-2                   amd64  /proc file system utilities
+ii   procps                  2:3.3.15-2+b1                amd64  /proc file system utilities
 ii   python                  2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
@@ -229,7 +229,7 @@ ii   readline-common         8.0-2                        all    GNU readline an
 ii   rsyslog                 8.1907.0-2                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.63-1                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.63-2                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.95-5                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.95-5                       amd64  System-V-like init utilities
