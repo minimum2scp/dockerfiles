@@ -56,7 +56,7 @@ ii   libbsd0                 0.10.0-1              amd64  utility functions from
 ii   libbz2-1.0              1.0.6-9.2             amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10               amd64  GNU C Library: Binaries
 ii   libc6                   2.28-10               amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2               amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2+b1            amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2              amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2              amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.3-4              amd64  common error description library
@@ -71,7 +71,7 @@ ii   libgcrypt20             1.8.4-5               amd64  LGPL Crypto library - 
 ii   libgmp10                2:6.1.2+dfsg-4        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.9-4               amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                amd64  GnuPG development runtime library
-ii   libhogweed4             3.4.1-1               amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4.1-1+b1            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2              amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-1               amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression algorithm library - runtime
@@ -79,7 +79,7 @@ ii   liblzma5                5.2.4-1               amd64  XZ-format compression 
 ii   libmnl0                 1.0.4-2+b1            amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1              amd64  device mounting library
 ii   libncursesw6            6.1+20190803-1        amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4.1-1               amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4.1-1+b1            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.16.1-2           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5               amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5               amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -102,7 +102,7 @@ ii   libudev1                241-7                 amd64  libudev shared library
 ii   libunistring2           0.9.10-2              amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1              amd64  Universally Unique ID library
 ii   libxtables12            1.8.3-2               amd64  netfilter xtables library
-ii   libzstd1                1.3.8+dfsg-3          amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.8+dfsg-3+b1       amd64  fast lossless compression algorithm
 ii   login                   1:4.7-2               amd64  system login tools
 ii   logsave                 1.45.3-4              amd64  save the output of a command in a log file
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
