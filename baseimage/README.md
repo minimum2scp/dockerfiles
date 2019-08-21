@@ -195,7 +195,7 @@ ii   libunistring2           0.9.10-2                     amd64  Unicode string 
 ii   libuuid1                2.34-0.1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
-ii   libzstd1                1.4.2+dfsg-1                 amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.3+dfsg-1                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.7                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
@@ -226,7 +226,7 @@ ii   python2-minimal         2.7.16-1                     amd64  minimal subset 
 ii   python2.7               2.7.16-3                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-2                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.1907.0-2                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-2                       amd64  run processes in parallel and multiplex their output
