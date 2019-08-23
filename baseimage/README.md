@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.3-4                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.2.1-3                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-4                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.23.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.23.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
@@ -127,10 +127,10 @@ ii   libext2fs2              1.45.3-4                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.2.1-3                    amd64  GCC support library
+ii   libgcc1                 1:9.2.1-4                    amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18.1-4+b1                  amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18.1-4+b1                  amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.18.1-5                     amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.18.1-5                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.9-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
@@ -170,7 +170,7 @@ ii   libpython-stdlib        2.7.16-1                     amd64  interactive hig
 ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2.7-minimal    2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   libpython2.7-stdlib     2.7.16-3                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
-ii   libreadline8            8.0-2                        amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8            8.0-3                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -185,7 +185,7 @@ ii   libsqlite3-0            3.29.0-2                     amd64  SQLite 3 shared
 ii   libss2                  1.45.3-4                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.2.1-3                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.2.1-4                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-4                        amd64  systemd utility library
 ii   libtasn1-6              4.14-2                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1               amd64  shared low-level terminfo library for terminal handling
@@ -225,7 +225,7 @@ ii   python2                 2.7.16-1                     amd64  interactive hig
 ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2.7               2.7.16-3                     amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
-ii   readline-common         8.0-2                        all    GNU readline and history libraries, common files
+ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
