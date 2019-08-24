@@ -762,7 +762,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "243",
+    "Installed-Size": "244",
     "Origin": "",
     "Package": "gzip",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -773,7 +773,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.9-3",
+    "Version": "1.9-3+b1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-5",
+    "Version": "2.95-6",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-5"
+    "source:Version": "2.95-6"
   },
   {
     "Architecture": "amd64",
@@ -3853,7 +3853,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.8.6.1-1",
+    "Version": "2.8.6.1-2",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.8.6.1-1"
+    "source:Version": "2.8.6.1-2"
   },
   {
     "Architecture": "amd64",
@@ -4651,7 +4651,7 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "systemd (<< 215)",
-    "Depends": "insserv (>> 1.12.0-10), lsb-base (>= 3.2-14), startpar, sysvinit-utils (>= 2.86.ds1-62)",
+    "Depends": "insserv (>> 1.12.0-10), lsb-base (>= 3.2-14), startpar (>= 0.62-1~), sysvinit-utils (>= 2.86.ds1-62)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "124",
@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-5",
+    "Version": "2.95-6",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-5"
+    "source:Version": "2.95-6"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.95-5",
+    "Version": "2.95-6",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4701,13 +4701,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-5"
+    "source:Version": "2.95-6"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "systemd (<< 215)",
-    "Depends": "init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
+    "Depends": "init-system-helpers (>= 1.25~), lsb-base (>= 11.0.0~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "136",
@@ -4721,7 +4721,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-5",
+    "Version": "2.95-6",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-5"
+    "source:Version": "2.95-6"
   },
   {
     "Architecture": "amd64",
@@ -5018,7 +5018,7 @@
     "Depends": "zsh-common (= 5.7.1-1), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2401",
+    "Installed-Size": "2398",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "",
@@ -5029,7 +5029,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.7.1-1",
+    "Version": "5.7.1-1+b1",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",

@@ -92,11 +92,11 @@ ii   git-man                 1:2.23.0-1                   all    fast, scalable,
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.9-3                        amd64  GNU compression utilities
+ii   gzip                    1.9-3+b1                     amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                   amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.95-5                       all    scripts for initializing and shutting down the system
+ii   initscripts             2.95-6                       all    scripts for initializing and shutting down the system
 ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
@@ -202,7 +202,7 @@ ii   login                   1:4.7-2                      amd64  system login to
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.6.1-1                    amd64  on-line manual pager
+ii   man-db                  2.8.6.1-2                    amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.63                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
@@ -231,9 +231,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-2                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.95-5                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.95-5                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.95-5                       amd64  System-V-like utilities
+ii   sysv-rc                 2.95-6                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.95-6                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.95-6                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
@@ -244,6 +244,6 @@ ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - e
 ii   whiptail                0.52.21-2                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0875-5                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1+b1           amd64  compression library - runtime
-ii   zsh                     5.7.1-1                      amd64  shell with lots of features
+ii   zsh                     5.7.1-1+b1                   amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
 ```
