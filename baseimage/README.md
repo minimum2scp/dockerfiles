@@ -93,10 +93,10 @@ ii   gpgv                    2.2.17-3                     amd64  GNU privacy gua
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3+b1                     amd64  GNU compression utilities
-ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
+ii   hostname                3.22+b1                      amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                   amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.95-6                       all    scripts for initializing and shutting down the system
+ii   initscripts             2.96~beta-1                  all    scripts for initializing and shutting down the system
 ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
@@ -120,7 +120,7 @@ ii   libdb5.3                5.3.28+dfsg1-0.6             amd64  Berkeley v5.3 D
 ii   libdebconfclient0       0.249                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20190324-1               amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
-ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17028-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.7-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.3-4                     amd64  ext2/ext3/ext4 file system libraries
@@ -145,8 +145,8 @@ ii   libkrb5support0         1.17-6                       amd64  MIT Kerberos ru
 ii   libldap-2.4-2           2.4.48+dfsg-1                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.48+dfsg-1                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1+b1                   amd64  log normalizing library
-ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
+ii   liblz4-1                1.8.3-1+b1                   amd64  Fast LZ compression algorithm library - runtime
+ii   liblzma5                5.2.4-1+b1                   amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1                   amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                     amd64  device mounting library
 ii   libncurses6             6.1+20190803-1               amd64  shared libraries for terminal handling
@@ -231,9 +231,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.63-2                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.95-6                       all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.95-6                       amd64  System-V-like init utilities
-ii   sysvinit-utils          2.95-6                       amd64  System-V-like utilities
+ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities
+ii   sysvinit-utils          2.96~beta-1                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files

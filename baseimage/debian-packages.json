@@ -790,7 +790,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "54",
+    "Installed-Size": "51",
     "Origin": "",
     "Package": "hostname",
     "Pre-Depends": "libc6 (>= 2.4)",
@@ -801,7 +801,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.21",
+    "Version": "3.22+b1",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.21"
+    "source:Version": "3.22"
   },
   {
     "Architecture": "amd64",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-6",
+    "Version": "2.96~beta-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-6"
+    "source:Version": "2.96~beta-1"
   },
   {
     "Architecture": "amd64",
@@ -1557,7 +1557,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17027-2",
+    "Version": "0.17028-1",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17027-2"
+    "source:Version": "0.17028-1"
   },
   {
     "Architecture": "amd64",
@@ -2246,7 +2246,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "141",
+    "Installed-Size": "142",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.3-1",
+    "Version": "1.8.3-1+b1",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2274,7 +2274,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "263",
+    "Installed-Size": "268",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.2.4-1",
+    "Version": "5.2.4-1+b1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-6",
+    "Version": "2.96~beta-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-6"
+    "source:Version": "2.96~beta-1"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.95-6",
+    "Version": "2.96~beta-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-6"
+    "source:Version": "2.96~beta-1"
   },
   {
     "Architecture": "amd64",
@@ -4721,7 +4721,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.95-6",
+    "Version": "2.96~beta-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.95-6"
+    "source:Version": "2.96~beta-1"
   },
   {
     "Architecture": "amd64",
