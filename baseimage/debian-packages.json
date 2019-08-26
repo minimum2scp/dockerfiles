@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debfoster, deborphan, bleachbit",
-    "Version": "0.7.3.7",
+    "Version": "0.7.3.8",
     "binary:Package": "localepurge",
     "binary:Summary": "reclaim disk space by removing unneeded localizations",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "localepurge",
-    "source:Version": "0.7.3.7"
+    "source:Version": "0.7.3.8"
   },
   {
     "Architecture": "all",
@@ -3790,7 +3790,7 @@
     "Origin": "",
     "Package": "lsb-base",
     "Pre-Depends": "",
-    "Priority": "required",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",

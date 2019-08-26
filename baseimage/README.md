@@ -196,7 +196,7 @@ ii   libuuid1                2.34-0.1                     amd64  Universally Uni
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
 ii   libzstd1                1.4.3+dfsg-1                 amd64  fast lossless compression algorithm
-ii   localepurge             0.7.3.7                      all    reclaim disk space by removing unneeded localizations
+ii   localepurge             0.7.3.8                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
