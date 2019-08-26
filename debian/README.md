@@ -41,8 +41,8 @@ ii   findutils               4.6.0+git+20190510-2  amd64  utilities for finding 
 ii   gcc-9-base              9.2.1-4               amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.17-3              amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                 amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.9-3                 amd64  GNU compression utilities
-ii   hostname                3.21                  amd64  utility to set/show the host name or domain name
+ii   gzip                    1.9-3+b1              amd64  GNU compression utilities
+ii   hostname                3.22+b1               amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10            amd64  ICMP echo tool
 ii   init-system-helpers     1.57                  all    helper tools for all init systems
 ii   iproute2                5.2.0-1               amd64  networking and traffic control tools
@@ -74,8 +74,8 @@ ii   libgpg-error0           1.36-7                amd64  GnuPG development runt
 ii   libhogweed4             3.4.1-1+b1            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2              amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-1               amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   liblz4-1                1.8.3-1               amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.4-1               amd64  XZ-format compression library
+ii   liblz4-1                1.8.3-1+b1            amd64  Fast LZ compression algorithm library - runtime
+ii   liblzma5                5.2.4-1+b1            amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1            amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1              amd64  device mounting library
 ii   libncursesw6            6.1+20190803-1        amd64  shared libraries for terminal handling (wide character support)
@@ -105,6 +105,7 @@ ii   libxtables12            1.8.3-2               amd64  netfilter xtables libr
 ii   libzstd1                1.4.3+dfsg-1          amd64  fast lossless compression algorithm
 ii   login                   1:4.7-2               amd64  system login tools
 ii   logsave                 1.45.3-4              amd64  save the output of a command in a log file
+ii   lsb-base                11.1.0                all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3           amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1              amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20190803-1        all    basic terminal type definitions
@@ -113,7 +114,7 @@ ii   netbase                 5.6                   all    Basic TCP/IP networkin
 ii   passwd                  1:4.7-2               amd64  change and administer password and group data
 ii   perl-base               5.28.1-6              amd64  minimal Perl system
 ii   sed                     4.7-1                 amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.95-5                amd64  System-V-like utilities
+ii   sysvinit-utils          2.96~beta-1           amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019b-2               all    time zone and daylight-saving time data
 ii   util-linux              2.34-0.1              amd64  miscellaneous system utilities

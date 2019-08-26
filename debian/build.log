@@ -34,11 +34,8 @@ I: Validating libss2 1.45.3-4
 I: Validating logsave 1.45.3-4
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.6.0+git+20190510-2
-I: Retrieving gcc-9-base 9.2.1-4
 I: Validating gcc-9-base 9.2.1-4
-I: Retrieving libgcc1 1:9.2.1-4
 I: Validating libgcc1 1:9.2.1-4
-I: Retrieving libstdc++6 9.2.1-4
 I: Validating libstdc++6 9.2.1-4
 I: Validating libc-bin 2.28-10
 I: Validating libc6 2.28-10
@@ -46,8 +43,10 @@ I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.17-3
 I: Validating libgnutls30 3.6.9-4
 I: Validating grep 3.3-1
-I: Validating gzip 1.9-3
-I: Validating hostname 3.21
+I: Retrieving gzip 1.9-3+b1
+I: Validating gzip 1.9-3+b1
+I: Retrieving hostname 3.22+b1
+I: Validating hostname 3.22+b1
 I: Validating inetutils-ping 2:1.9.4-10
 I: Validating init-system-helpers 1.57
 I: Validating iproute2 5.2.0-1
@@ -70,7 +69,10 @@ I: Validating libsepol1 2.9-2+b2
 I: Validating libtasn1-6 4.14-2
 I: Validating libunistring2 0.9.10-2
 I: Validating libzstd1 1.4.3+dfsg-1
-I: Validating liblz4-1 1.8.3-1
+I: Retrieving lsb-base 11.1.0
+I: Validating lsb-base 11.1.0
+I: Retrieving liblz4-1 1.8.3-1+b1
+I: Validating liblz4-1 1.8.3-1+b1
 I: Validating mawk 1.3.3-17+b3
 I: Validating libncursesw6 6.1+20190803-1
 I: Validating libtinfo6 6.1+20190803-1
@@ -92,7 +94,8 @@ I: Validating login 1:4.7-2
 I: Validating passwd 1:4.7-2
 I: Validating libsystemd0 242-4
 I: Validating libudev1 242-4
-I: Validating sysvinit-utils 2.95-5
+I: Retrieving sysvinit-utils 2.96~beta-1
+I: Validating sysvinit-utils 2.96~beta-1
 I: Validating tar 1.30+dfsg-6+b1
 I: Validating tzdata 2019b-2
 I: Validating bsdutils 1:2.34-0.1
@@ -104,7 +107,8 @@ I: Validating libsmartcols1 2.34-0.1
 I: Validating libuuid1 2.34-0.1
 I: Validating mount 2.34-0.1
 I: Validating util-linux 2.34-0.1
-I: Validating liblzma5 5.2.4-1
+I: Retrieving liblzma5 5.2.4-1+b1
+I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-1+b1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
@@ -158,6 +162,7 @@ I: Extracting libsepol1...
 I: Extracting libtasn1-6...
 I: Extracting libunistring2...
 I: Extracting libzstd1...
+I: Extracting lsb-base...
 I: Extracting liblz4-1...
 I: Extracting mawk...
 I: Extracting libncursesw6...
@@ -246,6 +251,7 @@ I: Unpacking libsepol1:amd64...
 I: Unpacking libtasn1-6:amd64...
 I: Unpacking libunistring2:amd64...
 I: Unpacking libzstd1:amd64...
+I: Unpacking lsb-base...
 I: Unpacking liblz4-1:amd64...
 I: Unpacking mawk...
 I: Unpacking libncursesw6:amd64...
@@ -282,6 +288,7 @@ I: Unpacking util-linux...
 I: Unpacking liblzma5:amd64...
 I: Unpacking zlib1g:amd64...
 I: Configuring required packages...
+I: Configuring lsb-base...
 I: Configuring debian-archive-keyring...
 I: Configuring libaudit-common...
 I: Configuring libsemanage-common...
@@ -400,14 +407,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.94MB
+Sending build context to Docker daemon  30.96MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3d18d3b1f558
+ ---> 6d5aa0afc2b3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 6b6e09dcad11
-Removing intermediate container 6b6e09dcad11
- ---> e5a09fd1f7be
-Successfully built e5a09fd1f7be
+ ---> Running in 8a5d40ae010d
+Removing intermediate container 8a5d40ae010d
+ ---> aa9480c02053
+Successfully built aa9480c02053
 Successfully tagged minimum2scp/debian:latest
