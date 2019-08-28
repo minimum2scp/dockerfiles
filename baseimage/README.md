@@ -97,7 +97,7 @@ ii   hostname                3.22+b1                      amd64  utility to set/
 ii   inetutils-ping          2:1.9.4-10                   amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
 ii   initscripts             2.96~beta-1                  all    scripts for initializing and shutting down the system
-ii   insserv                 1.20.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.21.0~beta-1                amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.3                        amd64  package management runtime library
@@ -202,7 +202,7 @@ ii   login                   1:4.7-2                      amd64  system login to
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.6.1-2                    amd64  on-line manual pager
+ii   man-db                  2.8.7-3                      amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.63                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
@@ -210,9 +210,9 @@ ii   ncurses-base            6.1+20190803-1               all    basic terminal 
 ii   ncurses-bin             6.1+20190803-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:8.0p1-4                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.0p1-4                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.0p1-4                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.0p1-5                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.0p1-5                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.0p1-5                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1c-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -227,9 +227,10 @@ ii   python2.7               2.7.16-3                     amd64  Interactive hig
 ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
+ii   runit-helper            2.8.13.2                     all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.63-2                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.64~beta-1                  amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities

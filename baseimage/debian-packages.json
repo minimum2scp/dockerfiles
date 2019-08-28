@@ -913,7 +913,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.20.0-2",
+    "Version": "1.21.0~beta-1",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.20.0-2"
+    "source:Version": "1.21.0~beta-1"
   },
   {
     "Architecture": "amd64",
@@ -3842,7 +3842,7 @@
     "Depends": "bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.27), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2746",
+    "Installed-Size": "2749",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "dpkg (>= 1.16.1~)",
@@ -3853,7 +3853,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.8.6.1-2",
+    "Version": "2.8.7-3",
     "binary:Package": "man-db",
     "binary:Summary": "on-line manual pager",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.8.6.1-2"
+    "source:Version": "2.8.7-3"
   },
   {
     "Architecture": "amd64",
@@ -4063,10 +4063,10 @@
     "Architecture": "amd64",
     "Conflicts": "sftp",
     "Breaks": "",
-    "Depends": "adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libc6 (>= 2.26), libedit2 (>= 2.11-20080614-0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.10), dpkg (>= 1.7.0), passwd, runit-helper (>= 2.8.8~), libc6 (>= 2.26), libedit2 (>= 2.11-20080614-0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3609",
+    "Installed-Size": "3617",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -4077,7 +4077,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:8.0p1-4",
+    "Version": "1:8.0p1-5",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4085,16 +4085,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-4"
+    "source:Version": "1:8.0p1-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
-    "Breaks": "",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.0p1-4), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Breaks": "runit (<< 2.1.2-23~)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.0p1-5), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.8.8~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1480",
+    "Installed-Size": "1507",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, rssh, ssh-askpass, ufw",
-    "Version": "1:8.0p1-4",
+    "Version": "1:8.0p1-5",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4113,13 +4113,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-4"
+    "source:Version": "1:8.0p1-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:8.0p1-4), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
+    "Depends": "openssh-client (= 1:8.0p1-5), runit-helper (>= 2.8.8~), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "125",
@@ -4133,7 +4133,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:8.0p1-4",
+    "Version": "1:8.0p1-5",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4141,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.0p1-4"
+    "source:Version": "1:8.0p1-5"
   },
   {
     "Architecture": "amd64",
@@ -4536,6 +4536,34 @@
     "source:Version": "8.1908.0-1"
   },
   {
+    "Architecture": "all",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "16",
+    "Origin": "",
+    "Package": "runit-helper",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "admin",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "2.8.13.2",
+    "binary:Package": "runit-helper",
+    "binary:Summary": "dh-runit implementation detail",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "dh-runit",
+    "source:Version": "2.8.13.2"
+  },
+  {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
@@ -4598,7 +4626,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "61",
+    "Installed-Size": "62",
     "Origin": "",
     "Package": "startpar",
     "Pre-Depends": "",
@@ -4609,7 +4637,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.63-2",
+    "Version": "0.64~beta-1",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.63-2"
+    "source:Version": "0.64~beta-1"
   },
   {
     "Architecture": "amd64",
