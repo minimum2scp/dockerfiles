@@ -1963,10 +1963,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4.1-1+b1)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.5.1+really3.4.1-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "245",
+    "Installed-Size": "249",
     "Origin": "",
     "Package": "libhogweed4",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.1-1+b1",
+    "Version": "3.5.1+really3.4.1-1",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.4.1-1"
+    "source:Version": "3.5.1+really3.4.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2414,7 +2414,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "381",
+    "Installed-Size": "380",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.1-1+b1",
+    "Version": "3.5.1+really3.4.1-1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.4.1-1"
+    "source:Version": "3.5.1+really3.4.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4542,7 +4542,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16",
+    "Installed-Size": "17",
     "Origin": "",
     "Package": "runit-helper",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8.13.2",
+    "Version": "2.8.14",
     "binary:Package": "runit-helper",
     "binary:Summary": "dh-runit implementation detail",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dh-runit",
-    "source:Version": "2.8.13.2"
+    "source:Version": "2.8.14"
   },
   {
     "Architecture": "amd64",

@@ -135,7 +135,7 @@ ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision 
 ii   libgnutls30             3.6.9-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.4.1-1+b1                   amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.5.1+really3.4.1-1          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-6                       amd64  MIT Kerberos runtime libraries - Crypto Library
@@ -151,7 +151,7 @@ ii   libmnl0                 1.0.4-2+b1                   amd64  minimalistic Ne
 ii   libmount1               2.34-0.1                     amd64  device mounting library
 ii   libncurses6             6.1+20190803-1               amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20190803-1               amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4.1-1+b1                   amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.5.1+really3.4.1-1          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.39.2-1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.16.1-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -227,7 +227,7 @@ ii   python2.7               2.7.16-3                     amd64  Interactive hig
 ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
-ii   runit-helper            2.8.13.2                     all    dh-runit implementation detail
+ii   runit-helper            2.8.14                       all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.64~beta-1                  amd64  run processes in parallel and multiplex their output
