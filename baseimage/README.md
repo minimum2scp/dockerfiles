@@ -85,7 +85,7 @@ ii   dpkg                    1.19.7                       amd64  Debian package 
 ii   e2fsprogs               1.45.3-4                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
-ii   findutils               4.6.0+git+20190510-2         amd64  utilities for finding files--find, xargs
+ii   findutils               4.7.0-1                      amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-6                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.23.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.23.0-1                   all    fast, scalable, distributed revision control system (manual pages)
@@ -128,7 +128,7 @@ ii   libfastjson4            0.99.8-2                     amd64  fast json libra
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.2.1-6                    amd64  GCC support library
-ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.5-2                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
