@@ -1,4 +1,4 @@
-FROM ruby:2.6.3-slim-buster
+FROM ruby:2.6.4-slim-buster
 
 RUN gem install bundler --version '~> 2.0'
 
