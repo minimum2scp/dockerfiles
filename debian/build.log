@@ -33,7 +33,8 @@ I: Validating libext2fs2 1.45.3-4
 I: Validating libss2 1.45.3-4
 I: Validating logsave 1.45.3-4
 I: Validating libelf1 0.176-1.1
-I: Validating findutils 4.6.0+git+20190510-2
+I: Retrieving findutils 4.7.0-1
+I: Validating findutils 4.7.0-1
 I: Validating gcc-9-base 9.2.1-6
 I: Validating libgcc1 1:9.2.1-6
 I: Validating libstdc++6 9.2.1-6
@@ -54,7 +55,8 @@ I: Validating libcap-ng0 0.7.9-2+b1
 I: Validating libcap2 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
 I: Validating libffi6 3.2.1-9
-I: Validating libgcrypt20 1.8.4-5
+I: Retrieving libgcrypt20 1.8.5-2
+I: Validating libgcrypt20 1.8.5-2
 I: Validating libgpg-error0 1.36-7
 I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.2.0-1
@@ -401,14 +403,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.97MB
+Sending build context to Docker daemon  31.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 85952cc9ddf2
+ ---> 6c3d117fe780
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 10c4fc19ddce
-Removing intermediate container 10c4fc19ddce
- ---> 858b2fb23294
-Successfully built 858b2fb23294
+ ---> Running in f55f783f5066
+Removing intermediate container f55f783f5066
+ ---> 1b6ea70f3cb2
+Successfully built 1b6ea70f3cb2
 Successfully tagged minimum2scp/debian:latest
