@@ -168,8 +168,8 @@ ii   libprocps7              2:3.3.15-2+b1                amd64  library for acc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.16-3                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.16-4                     amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.16-4                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline8            8.0-3                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
@@ -186,11 +186,11 @@ ii   libss2                  1.45.3-4                     amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             242-5                        amd64  systemd utility library
+ii   libsystemd0             242-6                        amd64  systemd utility library
 ii   libtasn1-6              4.14-2                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                242-5                        amd64  libudev shared library
+ii   libudev1                242-6                        amd64  libudev shared library
 ii   libunistring2           0.9.10-2                     amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                     amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -223,8 +223,8 @@ ii   python                  2.7.16-1                     amd64  interactive hig
 ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.16-3                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.16-3                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.16-4                     amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.16-4                     amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
