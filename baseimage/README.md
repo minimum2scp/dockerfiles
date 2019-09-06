@@ -106,7 +106,7 @@ ii   libaudit-common         1:2.8.5-2                    all    Dynamic library
 ii   libaudit1               1:2.8.5-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                     amd64  block device ID library
 ii   libbsd0                 0.10.0-1                     amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-9.2                    amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.8-2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
