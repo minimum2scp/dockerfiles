@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2                        amd64  commandline package manager
-ii   base-files              10.3                         amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u1                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -82,14 +82,14 @@ ii   debian-archive-keyring  2019.1                       all    GnuPG archive k
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
 ii   dpkg                    1.19.7                       amd64  Debian package management system
-ii   e2fsprogs               1.44.5-1                     amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.44.5-1+deb10u1             amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190209-2         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.3.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.20.1-2                   amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.12-1                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.12-1+deb10u1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
@@ -106,14 +106,14 @@ ii   libaudit-common         1:2.8.4-3                    all    Dynamic library
 ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
 ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.6-9.1                    amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.6-9.2~deb10u1            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
 ii   libc6                   2.28-10                      amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.44.5-1                     amd64  common error description library
+ii   libcom-err2             1.44.5-1+deb10u1             amd64  common error description library
 ii   libcurl3-gnutls         7.64.0-4                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.64.0-4                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.5             amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -123,7 +123,7 @@ ii   libelf1                 0.176-1.1                    amd64  library to read
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-2                      amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.44.5-1                     amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.44.5-1+deb10u1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
@@ -142,18 +142,18 @@ ii   libk5crypto3            1.17-3                       amd64  MIT Kerberos ru
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-3                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-3                       amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.47+dfsg-3                amd64  OpenLDAP libraries
-ii   libldap-common          2.4.47+dfsg-3                all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u1        amd64  OpenLDAP libraries
+ii   libldap-common          2.4.47+dfsg-3+deb10u1        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
-ii   libncurses6             6.1+20181013-2               amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20181013-2               amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20181013-2+deb10u1       amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20181013-2+deb10u1       amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.36.0-2                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.36.0-2+deb10u1             amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.15-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -182,15 +182,15 @@ ii   libsepol1               2.8-1                        amd64  SELinux library
 ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
 ii   libsqlite3-0            3.27.2-3                     amd64  SQLite 3 shared library
-ii   libss2                  1.44.5-1                     amd64  command-line interface parsing library
+ii   libss2                  1.44.5-1+deb10u1             amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-5                        amd64  systemd utility library
+ii   libsystemd0             241-7~deb10u1                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20181013-2               amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-2+deb10u1       amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-5                        amd64  libudev shared library
+ii   libudev1                241-7~deb10u1                amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -205,8 +205,8 @@ ii   man-db                  2.8.5-2                      amd64  on-line manual 
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20181013-2               all    basic terminal type definitions
-ii   ncurses-bin             6.1+20181013-2               amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-2+deb10u1       all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-2+deb10u1       amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.9p1-10                   amd64  secure shell (SSH) client, for secure access to remote machines
@@ -234,9 +234,9 @@ ii   sysv-rc                 2.93-8                       all    System-V-like r
 ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-8                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2019a-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2019b-0+deb10u1              all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-23                       amd64  De-archiver for .zip files
+ii   unzip                   6.0-23+deb10u1               amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version
