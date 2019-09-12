@@ -16,8 +16,8 @@ I: Validating libapt-pkg5.0 1.4.9
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u9
-I: Validating base-files 9.9+deb9u9
+I: Retrieving base-files 9.9+deb9u11
+I: Validating base-files 9.9+deb9u11
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
 I: Validating libbz2-1.0 1.0.6-8.1
@@ -26,7 +26,8 @@ I: Validating coreutils 8.26-3
 I: Validating dash 0.5.8-2.4
 I: Validating libdb5.3 5.3.28-12+deb9u1
 I: Validating debconf 1.5.61
-I: Validating debian-archive-keyring 2017.5
+I: Retrieving debian-archive-keyring 2017.5+deb9u1
+I: Validating debian-archive-keyring 2017.5+deb9u1
 I: Validating debianutils 4.8.1.1
 I: Validating diffutils 1:3.5-3
 I: Validating dpkg 1.18.25
@@ -75,14 +76,14 @@ I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
 I: Validating login 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u11
-I: Validating libsystemd0 232-25+deb9u11
-I: Retrieving libudev1 232-25+deb9u11
-I: Validating libudev1 232-25+deb9u11
+I: Retrieving libsystemd0 232-25+deb9u12
+I: Validating libsystemd0 232-25+deb9u12
+I: Retrieving libudev1 232-25+deb9u12
+I: Validating libudev1 232-25+deb9u12
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2019a-0+deb9u1
-I: Validating tzdata 2019a-0+deb9u1
+I: Retrieving tzdata 2019b-0+deb9u1
+I: Validating tzdata 2019b-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
 I: Validating bsdutils 1:2.29.2-1+deb9u1
 I: Validating libblkid1 2.29.2-1+deb9u1
@@ -339,35 +340,23 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [623 kB]
-Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [33.3 kB]
-Fetched 842 kB in 0s (1792 kB/s)
+Get:4 http://security.debian.org stretch/updates/main amd64 Packages [628 kB]
+Hit:5 http://ftp.jp.debian.org/debian stretch Release
+Get:7 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [33.3 kB]
+Fetched 847 kB in 0s (1889 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  debian-archive-keyring
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 73.9 kB of archives.
-After this operation, 30.7 kB of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 debian-archive-keyring all 2017.5+deb9u1 [73.9 kB]
-Fetched 73.9 kB in 0s (404 kB/s)
-(Reading database ... 6490 files and directories currently installed.)
-Preparing to unpack .../debian-archive-keyring_2017.5+deb9u1_all.deb ...
-Unpacking debian-archive-keyring (2017.5+deb9u1) over (2017.5) ...
-Setting up debian-archive-keyring (2017.5+deb9u1) ...
-Removing obsolete conffile /etc/apt/trusted.gpg.d/debian-archive-wheezy-automatic.gpg ...
-Removing obsolete conffile /etc/apt/trusted.gpg.d/debian-archive-wheezy-stable.gpg ...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Sending build context to Docker daemon  26.68MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 65d41262bf92
+ ---> 970b233e51da
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ce8b7bd3a0a9
-Removing intermediate container ce8b7bd3a0a9
- ---> 90fb7646ab57
-Successfully built 90fb7646ab57
+ ---> Running in 3f41ae97c6b4
+Removing intermediate container 3f41ae97c6b4
+ ---> 85960054cfd7
+Successfully built 85960054cfd7
 Successfully tagged minimum2scp/debian-stretch:latest
