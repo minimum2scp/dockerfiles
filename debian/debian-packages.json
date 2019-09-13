@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.0-1",
+    "Version": "2.2.0-2",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2",
-    "source:Version": "2.2.0-1"
+    "source:Version": "2.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2638,7 +2638,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3033",
+    "Installed-Size": "3026",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2649,7 +2649,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019b-2",
+    "Version": "2019c-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2019b-2"
+    "source:Version": "2019c-1"
   },
   {
     "Architecture": "amd64",
