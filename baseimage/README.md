@@ -137,7 +137,7 @@ ii   libgpg-error0           1.36-7                       amd64  GnuPG developme
 ii   libgssapi-krb5-2        1.17-6                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.5.1+really3.4.1-1          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libidn2-0               2.2.0-1                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.2.0-2                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-6                       amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-6                       amd64  MIT Kerberos runtime libraries
@@ -230,13 +230,13 @@ ii   rsyslog                 8.1908.0-1                   amd64  reliable system
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.64~beta-1                  amd64  run processes in parallel and multiplex their output
+ii   startpar                0.64-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96~beta-1                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
-ii   tzdata                  2019b-2                      all    time zone and daylight-saving time data
+ii   tzdata                  2019c-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                     amd64  miscellaneous system utilities
