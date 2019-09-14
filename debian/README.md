@@ -69,7 +69,7 @@ ii   libffi6                 3.2.1-9              amd64  Foreign Function Interf
 ii   libgcc1                 1:9.2.1-8            amd64  GCC support library
 ii   libgcrypt20             1.8.5-2              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4       amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.9-4              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.9-5              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7               amd64  GnuPG development runtime library
 ii   libhogweed4             3.5.1+really3.4.1-1  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2             amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -96,7 +96,7 @@ ii   libsmartcols1           2.34-0.1             amd64  smart column output ali
 ii   libss2                  1.45.3-4             amd64  command-line interface parsing library
 ii   libstdc++6              9.2.1-8              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                amd64  systemd utility library
-ii   libtasn1-6              4.14-2               amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.14-3               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1       amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                242-7                amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
