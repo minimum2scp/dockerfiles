@@ -132,7 +132,7 @@ ii   libgcrypt20             1.8.5-2                      amd64  LGPL Crypto lib
 ii   libgdbm-compat4         1.18.1-5                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.9-4                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.9-5                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.5.1+really3.4.1-1          amd64  low level cryptographic library (public-key cryptos)
@@ -184,10 +184,10 @@ ii   libsmartcols1           2.34-0.1                     amd64  smart column ou
 ii   libsqlite3-0            3.29.0-2                     amd64  SQLite 3 shared library
 ii   libss2                  1.45.3-4                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1c-1                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1d-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-8                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                        amd64  systemd utility library
-ii   libtasn1-6              4.14-2                       amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.14-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                242-7                        amd64  libudev shared library
@@ -213,7 +213,7 @@ ii   netbase                 5.6                          all    Basic TCP/IP ne
 ii   openssh-client          1:8.0p1-6                    amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.0p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.0p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1c-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1d-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.28.1-6                     amd64  minimal Perl system
