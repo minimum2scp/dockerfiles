@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                    amd64  collection of m
 ii   bsdutils                1:2.34-0.1                   amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3+b1                    amd64  GNU core utilities
-ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-135                   amd64  process scheduling daemon
 ii   curl                    7.65.3-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-6                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.73                       all    Debian configuration management system
@@ -154,7 +154,7 @@ ii   libncursesw6            6.1+20190803-1               amd64  shared librarie
 ii   libnettle6              3.5.1+really3.4.1-1          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.39.2-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.16.1-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.17-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library

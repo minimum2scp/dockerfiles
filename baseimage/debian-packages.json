@@ -255,7 +255,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
+    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.82), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "263",
@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-134",
+    "Version": "3.0pl1-135",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-134"
+    "source:Version": "3.0pl1-135"
   },
   {
     "Architecture": "amd64",
@@ -2498,7 +2498,7 @@
     "Depends": "libc6 (>= 2.26), libffi6 (>= 3.0.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1361",
+    "Installed-Size": "1368",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.16.1-2",
+    "Version": "0.23.17-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.16.1-2"
+    "source:Version": "0.23.17-2"
   },
   {
     "Architecture": "amd64",
