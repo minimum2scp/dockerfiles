@@ -34,10 +34,10 @@ describe 'minimum2scp/rails6' do
 
       describe command('rbenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "2.6.3\n" }
+        its(:stdout){ should eq "2.6.4\n" }
       end
 
-      describe command("RBENV_VERSION=2.6.3 gem list") do
+      describe command("RBENV_VERSION=2.6.4 gem list") do
         let(:login_shell){ true }
         its(:stdout){ should match /^rails \(6(?:\.\d+){2,3}\)$/ }
       end

@@ -33,31 +33,31 @@ describe 'minimum2scp/ruby-full' do
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.6.3',
-        desc: 'ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]',
-        rubygems_version: '3.0.3',
+        ruby: '2.6.4',
+        desc: 'ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-linux]',
+        rubygems_version: '3.0.6',
         gems: [
-          {name: 'bundler', version: '2.0.1', default: '1.17.2'},
+          {name: 'bundler', version: '2.0.2', default: '1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.5.5',
-        desc: 'ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux]',
-        rubygems_version: '3.0.3',
+        ruby: '2.5.6',
+        desc: 'ruby 2.5.6p201 (2019-08-28 revision 67796) [x86_64-linux]',
+        rubygems_version: '3.0.6',
         gems: [
-          {name: 'bundler', version: '2.0.1', default: '1.17.3'},
+          {name: 'bundler', version: '2.0.2', default: '1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.4.6',
-        desc: 'ruby 2.4.6p354 (2019-04-01 revision 67394) [x86_64-linux]',
-        rubygems_version: '3.0.3',
+        ruby: '2.4.7',
+        desc: 'ruby 2.4.7p357 (2019-08-28 revision 67796) [x86_64-linux]',
+        rubygems_version: '3.0.6',
         gems: [
-          {name: 'bundler', version: '2.0.1', default: '1.17.3'},
+          {name: 'bundler', version: '2.0.2', default: '1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
