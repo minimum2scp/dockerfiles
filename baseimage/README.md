@@ -231,7 +231,7 @@ ii   rsyslog                 8.1908.0-1                   amd64  reliable system
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.64-1                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.64-2                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities

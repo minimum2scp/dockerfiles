@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.64-1",
+    "Version": "0.64-2",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.64-1"
+    "source:Version": "0.64-2"
   },
   {
     "Architecture": "amd64",
