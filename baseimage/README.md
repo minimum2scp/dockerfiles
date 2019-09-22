@@ -109,7 +109,7 @@ ii   libbrotli1              1.0.7-2                      amd64  library impleme
 ii   libbsd0                 0.10.0-1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-2                       amd64  GNU C Library: Binaries
-ii   libc-l10n               2.29-1                       all    GNU C Library: localization files
+ii   libc-l10n               2.29-2                       all    GNU C Library: localization files
 ii   libc6                   2.29-2                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
@@ -198,7 +198,7 @@ ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's
 ii   libxtables12            1.8.3-2                      amd64  netfilter xtables library
 ii   libzstd1                1.4.3+dfsg-1                 amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.29-1                       all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.29-2                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
 ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                       all    Linux Standard Base init script functionality
@@ -231,7 +231,7 @@ ii   rsyslog                 8.1908.0-1                   amd64  reliable system
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
-ii   startpar                0.64-2                       amd64  run processes in parallel and multiplex their output
+ii   startpar                0.64-3                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities
