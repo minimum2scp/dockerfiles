@@ -122,7 +122,7 @@ ii   libedit2                3.1-20181209-1               amd64  BSD editline an
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.6-2                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.6-2+deb10u1              amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.5-1+deb10u1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
@@ -234,7 +234,7 @@ ii   sysv-rc                 2.93-8                       all    System-V-like r
 ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-8                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6                  amd64  GNU version of the tar archiving utility
-ii   tzdata                  2019b-0+deb10u1              all    time zone and daylight-saving time data
+ii   tzdata                  2019c-0+deb10u1              all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-23+deb10u1               amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
