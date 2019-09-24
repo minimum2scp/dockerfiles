@@ -16,7 +16,6 @@ I: Validating libapt-pkg5.0 1.4.9
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u11
 I: Validating base-files 9.9+deb9u11
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
@@ -26,7 +25,6 @@ I: Validating coreutils 8.26-3
 I: Validating dash 0.5.8-2.4
 I: Validating libdb5.3 5.3.28-12+deb9u1
 I: Validating debconf 1.5.61
-I: Retrieving debian-archive-keyring 2017.5+deb9u1
 I: Validating debian-archive-keyring 2017.5+deb9u1
 I: Validating debianutils 4.8.1.1
 I: Validating diffutils 1:3.5-3
@@ -76,13 +74,10 @@ I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
 I: Validating login 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u12
 I: Validating libsystemd0 232-25+deb9u12
-I: Retrieving libudev1 232-25+deb9u12
 I: Validating libudev1 232-25+deb9u12
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2019b-0+deb9u1
 I: Validating tzdata 2019b-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
 I: Validating bsdutils 1:2.29.2-1+deb9u1
@@ -338,25 +333,35 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
-Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
-Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 Packages [628 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 Packages [633 kB]
+Ign:3 http://ftp.jp.debian.org/debian stretch InRelease
+Get:4 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
 Hit:5 http://ftp.jp.debian.org/debian stretch Release
-Get:7 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [33.3 kB]
-Fetched 847 kB in 0s (1889 kB/s)
+Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [33.3 kB]
+Fetched 851 kB in 0s (1324 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.68MB
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 276 kB of archives.
+After this operation, 1024 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian stretch-updates/main amd64 tzdata all 2019c-0+deb9u1 [276 kB]
+Fetched 276 kB in 0s (816 kB/s)
+(Reading database ... 6491 files and directories currently installed.)
+Preparing to unpack .../tzdata_2019c-0+deb9u1_all.deb ...
+Unpacking tzdata (2019c-0+deb9u1) over (2019b-0+deb9u1) ...
+Setting up tzdata (2019c-0+deb9u1) ...
+Sending build context to Docker daemon  26.69MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 970b233e51da
+ ---> a8a2bc44c8da
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3f41ae97c6b4
-Removing intermediate container 3f41ae97c6b4
- ---> 85960054cfd7
-Successfully built 85960054cfd7
+ ---> Running in b5e965866f03
+Removing intermediate container b5e965866f03
+ ---> dabeb7901e8e
+Successfully built dabeb7901e8e
 Successfully tagged minimum2scp/debian-stretch:latest
