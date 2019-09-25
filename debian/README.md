@@ -35,7 +35,7 @@ ii   debian-archive-keyring  2019.1               all    GnuPG archive keys of t
 ii   debianutils             4.9                  amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3              amd64  File comparison utilities
 ii   dpkg                    1.19.7               amd64  Debian package management system
-ii   e2fsprogs               1.45.3-4             amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.45.4-1             amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-8              amd64  GCC, the GNU Compiler Collection (base package)
@@ -46,9 +46,9 @@ ii   hostname                3.22+b1              amd64  utility to set/show the
 ii   inetutils-ping          2:1.9.4-10           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
 ii   iproute2                5.2.0-1              amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-4             amd64  access control list - shared library
+ii   libacl1                 2.2.53-5             amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                amd64  package management runtime library
-ii   libattr1                1:2.4.48-4           amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-2            all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2            amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1             amd64  block device ID library
@@ -59,11 +59,11 @@ ii   libc6                   2.29-2               amd64  GNU C Library: Shared l
 ii   libcap-ng0              0.7.9-2+b1           amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2             amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.45.3-4             amd64  common error description library
+ii   libcom-err2             1.45.4-1             amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
-ii   libext2fs2              1.45.3-4             amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.45.4-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9              amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.2.1-8            amd64  GCC support library
@@ -93,7 +93,7 @@ ii   libsemanage-common      2.9-3                all    Common files for SELinu
 ii   libsemanage1            2.9-3                amd64  SELinux policy management library
 ii   libsepol1               2.9-2+b2             amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
-ii   libss2                  1.45.3-4             amd64  command-line interface parsing library
+ii   libss2                  1.45.4-1             amd64  command-line interface parsing library
 ii   libstdc++6              9.2.1-8              amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                amd64  systemd utility library
 ii   libtasn1-6              4.14-3               amd64  Manage ASN.1 structures (runtime)
@@ -104,7 +104,7 @@ ii   libuuid1                2.34-0.1             amd64  Universally Unique ID l
 ii   libxtables12            1.8.3-2              amd64  netfilter xtables library
 ii   libzstd1                1.4.3+dfsg-1         amd64  fast lossless compression algorithm
 ii   login                   1:4.7-2              amd64  system login tools
-ii   logsave                 1.45.3-4             amd64  save the output of a command in a log file
+ii   logsave                 1.45.4-1             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3          amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1             amd64  tools for mounting and manipulating filesystems
