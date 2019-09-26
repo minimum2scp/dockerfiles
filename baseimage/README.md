@@ -82,7 +82,7 @@ ii   debian-archive-keyring  2019.1                       all    GnuPG archive k
 ii   debianutils             4.9                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
 ii   dpkg                    1.19.7                       amd64  Debian package management system
-ii   e2fsprogs               1.45.3-4                     amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.45.4-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                      amd64  utilities for finding files--find, xargs
@@ -96,12 +96,12 @@ ii   gzip                    1.9-3+b1                     amd64  GNU compression
 ii   hostname                3.22+b1                      amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                   amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.96~beta-1                  all    scripts for initializing and shutting down the system
+ii   initscripts             2.96~beta-2                  all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0~beta-1                amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.2.0-1                      amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
+ii   libacl1                 2.2.53-5                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                        amd64  package management runtime library
-ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
+ii   libattr1                1:2.4.48-5                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                     amd64  block device ID library
@@ -114,7 +114,7 @@ ii   libc6                   2.29-2                       amd64  GNU C Library: 
 ii   libcap-ng0              0.7.9-2+b1                   amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
-ii   libcom-err2             1.45.3-4                     amd64  common error description library
+ii   libcom-err2             1.45.4-1                     amd64  common error description library
 ii   libcurl3-gnutls         7.66.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.66.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6             amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -124,7 +124,7 @@ ii   libelf1                 0.176-1.1                    amd64  library to read
 ii   liberror-perl           0.17028-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.7-2                      amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.45.3-4                     amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.45.4-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
@@ -183,7 +183,7 @@ ii   libsepol1               2.9-2+b2                     amd64  SELinux library
 ii   libslang2               2.3.2-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                     amd64  smart column output alignment library
 ii   libsqlite3-0            3.29.0-2                     amd64  SQLite 3 shared library
-ii   libss2                  1.45.3-4                     amd64  command-line interface parsing library
+ii   libss2                  1.45.4-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-1                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-8                      amd64  GNU Standard C++ Library v3
@@ -200,7 +200,7 @@ ii   libzstd1                1.4.3+dfsg-1                 amd64  fast lossless c
 ii   localepurge             0.7.3.8                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.29-2                       all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.7-2                      amd64  system login tools
-ii   logsave                 1.45.3-4                     amd64  save the output of a command in a log file
+ii   logsave                 1.45.4-1                     amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.8.7-3                      amd64  on-line manual pager
@@ -233,9 +233,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.96~beta-1                  all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.96~beta-1                  amd64  System-V-like init utilities
-ii   sysvinit-utils          2.96~beta-1                  amd64  System-V-like utilities
+ii   sysv-rc                 2.96~beta-2                  all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.96~beta-2                  amd64  System-V-like init utilities
+ii   sysvinit-utils          2.96~beta-2                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019c-1                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
