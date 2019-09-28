@@ -45,7 +45,7 @@ ii   gzip                    1.9-3+b1             amd64  GNU compression utiliti
 ii   hostname                3.22+b1              amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
-ii   iproute2                5.2.0-1              amd64  networking and traffic control tools
+ii   iproute2                5.3.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5             amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
