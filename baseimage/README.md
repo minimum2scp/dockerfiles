@@ -105,7 +105,7 @@ ii   libattr1                1:2.4.48-5                   amd64  extended attrib
 ii   libaudit-common         1:2.8.5-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                     amd64  block device ID library
-ii   libbrotli1              1.0.7-2                      amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-3                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-2                       amd64  GNU C Library: Binaries
@@ -123,7 +123,7 @@ ii   libedit2                3.1-20190324-1               amd64  BSD editline an
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17028-1                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.7-2                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.9-1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.4-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
@@ -237,7 +237,7 @@ ii   sysv-rc                 2.96~beta-2                  all    System-V-like r
 ii   sysvinit-core           2.96~beta-2                  amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96~beta-2                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
-ii   tzdata                  2019c-1                      all    time zone and daylight-saving time data
+ii   tzdata                  2019c-2                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                     amd64  miscellaneous system utilities
