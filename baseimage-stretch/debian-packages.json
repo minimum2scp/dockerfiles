@@ -493,7 +493,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.43.4-2",
+    "Version": "1.43.4-2+deb9u1",
     "binary:Package": "e2fslibs:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.43.4-2"
+    "source:Version": "1.43.4-2+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -510,10 +510,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4022",
+    "Installed-Size": "4026",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "e2fslibs (= 1.43.4-2), libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcomerr2 (>= 1.42~WIP-2011-10-05-1), libss2 (>= 1.34-1), libuuid1 (>= 2.16), util-linux (>= 2.15~rc1-1)",
+    "Pre-Depends": "e2fslibs (= 1.43.4-2+deb9u1), libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcomerr2 (>= 1.42~WIP-2011-10-05-1), libss2 (>= 1.34-1), libuuid1 (>= 2.16), util-linux (>= 2.15~rc1-1)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.43.4-2",
+    "Version": "1.43.4-2+deb9u1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.43.4-2"
+    "source:Version": "1.43.4-2+deb9u1"
   },
   {
     "Architecture": "all",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.43.4-2",
+    "Version": "1.43.4-2+deb9u1",
     "binary:Package": "libcomerr2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.43.4-2"
+    "source:Version": "1.43.4-2+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.43.4-2",
+    "Version": "1.43.4-2+deb9u1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.43.4-2"
+    "source:Version": "1.43.4-2+deb9u1"
   },
   {
     "Architecture": "amd64",
