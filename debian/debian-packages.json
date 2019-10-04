@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.5-2",
+    "Version": "1.8.5-3",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.5-2"
+    "source:Version": "1.8.5-3"
   },
   {
     "Architecture": "amd64",
@@ -2582,7 +2582,7 @@
     "Depends": "init-system-helpers (>= 1.25~), lsb-base (>= 11.0.0~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "136",
+    "Installed-Size": "137",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2593,7 +2593,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96~beta-2",
+    "Version": "2.96~beta-3",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96~beta-2"
+    "source:Version": "2.96~beta-3"
   },
   {
     "Architecture": "amd64",
@@ -2638,7 +2638,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3448",
+    "Installed-Size": "3451",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2649,7 +2649,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019c-2",
+    "Version": "2019c-3",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2019c-2"
+    "source:Version": "2019c-3"
   },
   {
     "Architecture": "amd64",

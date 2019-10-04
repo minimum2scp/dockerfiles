@@ -54,7 +54,8 @@ I: Validating libcap-ng0 0.7.9-2+b1
 I: Validating libcap2 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
 I: Validating libffi6 3.2.1-9
-I: Validating libgcrypt20 1.8.5-2
+I: Retrieving libgcrypt20 1.8.5-3
+I: Validating libgcrypt20 1.8.5-3
 I: Validating libgpg-error0 1.36-7
 I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.2.0-2
@@ -90,10 +91,11 @@ I: Validating login 1:4.7-2
 I: Validating passwd 1:4.7-2
 I: Validating libsystemd0 242-7
 I: Validating libudev1 242-7
-I: Validating sysvinit-utils 2.96~beta-2
+I: Retrieving sysvinit-utils 2.96~beta-3
+I: Validating sysvinit-utils 2.96~beta-3
 I: Validating tar 1.30+dfsg-6+b1
-I: Retrieving tzdata 2019c-2
-I: Validating tzdata 2019c-2
+I: Retrieving tzdata 2019c-3
+I: Validating tzdata 2019c-3
 I: Validating bsdutils 1:2.34-0.1
 I: Validating fdisk 2.34-0.1
 I: Validating libblkid1 2.34-0.1
@@ -406,10 +408,10 @@ Sending build context to Docker daemon  31.03MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bac2740c27c4
+ ---> 8a0196b057bb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in da3d9bfab88f
-Removing intermediate container da3d9bfab88f
- ---> a029e8d82944
-Successfully built a029e8d82944
+ ---> Running in ef74fcbbdf57
+Removing intermediate container ef74fcbbdf57
+ ---> f15fd6a670fb
+Successfully built f15fd6a670fb
 Successfully tagged minimum2scp/debian:latest
