@@ -143,7 +143,7 @@ ii   libk5crypto3            1.17-6                       amd64  MIT Kerberos ru
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-6                       amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-6                       amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.48+dfsg-1                amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.48+dfsg-1+b1             amd64  OpenLDAP libraries
 ii   libldap-common          2.4.48+dfsg-1                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1+b1                   amd64  log normalizing library
 ii   liblz4-1                1.8.3-1+b1                   amd64  Fast LZ compression algorithm library - runtime
@@ -162,7 +162,7 @@ ii   libpam-runtime          1.3.1-5                      all    Runtime support
 ii   libpam0g                1.3.1-5                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-5+b1                   amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                 amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.28             5.28.1-6                     amd64  shared Perl library
+ii   libperl5.30             5.30.0-5                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                amd64  library for accessing process information from /proc
@@ -182,7 +182,7 @@ ii   libsemanage1            2.9-3                        amd64  SELinux policy 
 ii   libsepol1               2.9-2+b2                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                     amd64  smart column output alignment library
-ii   libsqlite3-0            3.29.0-2                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.30.0-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.45.4-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-1                     amd64  Secure Sockets Layer toolkit - shared libraries
@@ -216,9 +216,9 @@ ii   openssh-server          1:8.0p1-6                    amd64  secure shell (S
 ii   openssh-sftp-server     1:8.0p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
-ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.28.1-6                     amd64  minimal Perl system
-ii   perl-modules-5.28       5.28.1-6                     all    Core Perl modules
+ii   perl                    5.30.0-5                     amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.30.0-5                     amd64  minimal Perl system
+ii   perl-modules-5.30       5.30.0-5                     all    Core Perl modules
 ii   procps                  2:3.3.15-2+b1                amd64  /proc file system utilities
 ii   python                  2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
@@ -242,9 +242,9 @@ ii   ucf                     3.0038+nmu1                  all    Update Configur
 ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                     amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0875-5                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.1.0875-5+b1              amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-3                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0875-5                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0875-5+b1              amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1+b1           amd64  compression library - runtime
 ii   zsh                     5.7.1-1+b1                   amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
