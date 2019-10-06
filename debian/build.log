@@ -54,7 +54,6 @@ I: Validating libcap-ng0 0.7.9-2+b1
 I: Validating libcap2 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
 I: Validating libffi6 3.2.1-9
-I: Retrieving libgcrypt20 1.8.5-3
 I: Validating libgcrypt20 1.8.5-3
 I: Validating libgpg-error0 1.36-7
 I: Validating libidn11 1.33-2.2
@@ -85,16 +84,15 @@ I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
 I: Validating libpcre2-8-0 10.32-5+b1
 I: Validating libpcre3 2:8.39-12+b1
-I: Validating perl-base 5.28.1-6
+I: Retrieving perl-base 5.30.0-5
+I: Validating perl-base 5.30.0-5
 I: Validating sed 4.7-1
 I: Validating login 1:4.7-2
 I: Validating passwd 1:4.7-2
 I: Validating libsystemd0 242-7
 I: Validating libudev1 242-7
-I: Retrieving sysvinit-utils 2.96~beta-3
 I: Validating sysvinit-utils 2.96~beta-3
 I: Validating tar 1.30+dfsg-6+b1
-I: Retrieving tzdata 2019c-3
 I: Validating tzdata 2019c-3
 I: Validating bsdutils 1:2.34-0.1
 I: Validating fdisk 2.34-0.1
@@ -404,14 +402,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.03MB
+Sending build context to Docker daemon   31.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8a0196b057bb
+ ---> 9c3831f63438
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ef74fcbbdf57
-Removing intermediate container ef74fcbbdf57
- ---> f15fd6a670fb
-Successfully built f15fd6a670fb
+ ---> Running in 4aba0dc9765e
+Removing intermediate container 4aba0dc9765e
+ ---> 5571cce797f0
+Successfully built 5571cce797f0
 Successfully tagged minimum2scp/debian:latest
