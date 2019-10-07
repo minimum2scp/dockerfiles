@@ -146,7 +146,7 @@ ii   libkrb5support0         1.17-6                       amd64  MIT Kerberos ru
 ii   libldap-2.4-2           2.4.48+dfsg-1+b1             amd64  OpenLDAP libraries
 ii   libldap-common          2.4.48+dfsg-1                all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1+b1                   amd64  log normalizing library
-ii   liblz4-1                1.8.3-1+b1                   amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.9.1-2                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                   amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1                   amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                     amd64  device mounting library
@@ -211,9 +211,9 @@ ii   ncurses-base            6.1+20190803-1               all    basic terminal 
 ii   ncurses-bin             6.1+20190803-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:8.0p1-6                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.0p1-6                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.0p1-6                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.0p1-7                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.0p1-7                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.0p1-7                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
 ii   perl                    5.30.0-5                     amd64  Larry Wall's Practical Extraction and Report Language
