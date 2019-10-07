@@ -68,7 +68,8 @@ I: Validating libtasn1-6 4.14-3
 I: Validating libunistring2 0.9.10-2
 I: Validating libzstd1 1.4.3+dfsg-1
 I: Validating lsb-base 11.1.0
-I: Validating liblz4-1 1.8.3-1+b1
+I: Retrieving liblz4-1 1.9.1-2
+I: Validating liblz4-1 1.9.1-2
 I: Validating mawk 1.3.3-17+b3
 I: Validating libncursesw6 6.1+20190803-1
 I: Validating libtinfo6 6.1+20190803-1
@@ -84,7 +85,6 @@ I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
 I: Validating libpcre2-8-0 10.32-5+b1
 I: Validating libpcre3 2:8.39-12+b1
-I: Retrieving perl-base 5.30.0-5
 I: Validating perl-base 5.30.0-5
 I: Validating sed 4.7-1
 I: Validating login 1:4.7-2
@@ -402,14 +402,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   31.1MB
+Sending build context to Docker daemon  31.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 9c3831f63438
+ ---> fc6a8c3e1e4a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4aba0dc9765e
-Removing intermediate container 4aba0dc9765e
- ---> 5571cce797f0
-Successfully built 5571cce797f0
+ ---> Running in f648d6983023
+Removing intermediate container f648d6983023
+ ---> 4a0e8524a4f4
+Successfully built 4a0e8524a4f4
 Successfully tagged minimum2scp/debian:latest
