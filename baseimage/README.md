@@ -167,10 +167,10 @@ ii   libpipeline1            1.5.1-2                      amd64  pipeline manipu
 ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
-ii   libpython-stdlib        2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.16-4                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.16-4                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython-stdlib        2.7.17-1                     amd64  interactive high-level object-oriented language (Python2)
+ii   libpython2-stdlib       2.7.17-1                     amd64  interactive high-level object-oriented language (Python2)
+ii   libpython2.7-minimal    2.7.17~rc1-1                 amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.17~rc1-1                 amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline8            8.0-3                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
@@ -182,10 +182,10 @@ ii   libsemanage1            2.9-3                        amd64  SELinux policy 
 ii   libsepol1               2.9-2+b2                     amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                     amd64  smart column output alignment library
-ii   libsqlite3-0            3.30.0-1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.30.1-1                     amd64  SQLite 3 shared library
 ii   libss2                  1.45.4-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1d-1                     amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1d-2                     amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-9                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                        amd64  systemd utility library
 ii   libtasn1-6              4.14-3                       amd64  Manage ASN.1 structures (runtime)
@@ -211,21 +211,21 @@ ii   ncurses-base            6.1+20190803-1               all    basic terminal 
 ii   ncurses-bin             6.1+20190803-1               amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
-ii   openssh-client          1:8.0p1-7                    amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.0p1-7                    amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.0p1-7                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1d-1                     amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client          1:8.1p1-1                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.1p1-1                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.1p1-1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                 1.1.1d-2                     amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                      amd64  change and administer password and group data
 ii   perl                    5.30.0-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-6                     amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-6                     all    Core Perl modules
 ii   procps                  2:3.3.15-2+b1                amd64  /proc file system utilities
-ii   python                  2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
-ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
-ii   python2                 2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
-ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.16-4                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.16-4                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python                  2.7.17-1                     amd64  interactive high-level object-oriented language (Python2 version)
+ii   python-minimal          2.7.17-1                     amd64  minimal subset of the Python2 language
+ii   python2                 2.7.17-1                     amd64  interactive high-level object-oriented language (Python2 version)
+ii   python2-minimal         2.7.17-1                     amd64  minimal subset of the Python2 language
+ii   python2.7               2.7.17~rc1-1                 amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.17~rc1-1                 amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
@@ -241,10 +241,10 @@ ii   tzdata                  2019c-3                      all    time zone and d
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                       amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                     amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0875-5                 all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0875-5+b1              amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.2136-1                 all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.2136-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-3                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0875-5+b1              amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.2136-1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1+b1           amd64  compression library - runtime
 ii   zsh                     5.7.1-1+b1                   amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
