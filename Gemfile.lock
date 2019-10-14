@@ -8,7 +8,7 @@ GEM
       multi_json
     excon (0.67.0)
     method_source (0.9.2)
-    multi_json (1.13.1)
+    multi_json (1.14.0)
     net-scp (2.0.0)
       net-ssh (>= 2.6.5, < 6.0.0)
     net-ssh (5.2.0)
