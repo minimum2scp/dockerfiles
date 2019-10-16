@@ -30,3 +30,17 @@ jobs:
       - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
       - run: docker build -t minimum2scp/baseimage:latest baseimage
       - run: bundle exec rspec spec/baseimage
+  ruby:
+    name: ruby
+    runs-on: ubuntu-latest
+    needs: [baseimage]
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - run: gem install bundler --version='>= 2.0.0' -N
+      - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
+      - run: docker build -t minimum2scp/ruby:latest ruby
+      - run: bundle exec rspec spec/ruby
+
