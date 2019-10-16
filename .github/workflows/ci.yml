@@ -22,6 +22,11 @@ jobs:
     name: baseimage
     runs-on: ubuntu-latest
     steps:
+      - shell: bash
+        name: Install pigz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/checkout@master
       - uses: actions/setup-ruby@v1
         with:
@@ -30,17 +35,33 @@ jobs:
       - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
       - run: docker build -t minimum2scp/baseimage:latest baseimage
       - run: bundle exec rspec spec/baseimage
+      - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
+      - uses: actions/upload-artifact@v1
+        with:
+          name: baseimage
+          path: /tmp/baseimage.tar.gz
   ruby:
     name: ruby
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - shell: bash
+        name: Install pigz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/checkout@master
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version='>= 2.0.0' -N
       - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
+      - uses: actions/download-artifact@v1
+        with:
+          name: baseimage
+          path: /tmp/baseimage
+      - run: pigz -c -d /tmp/baseimage/baseimage.tar.gz | docker load
+        working-directory: /tmp
       - run: docker build -t minimum2scp/ruby:latest ruby
       - run: bundle exec rspec spec/ruby
 
