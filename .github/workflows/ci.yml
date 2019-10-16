@@ -1,0 +1,32 @@
+name: CI
+
+on: [push]
+
+jobs:
+  hello:
+    name: hello
+    runs-on: ubuntu-latest
+    steps:
+      - run: export -p
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - run: ruby -v
+      - run: gem list
+      - run: gem env
+      - run: docker version
+      - run: docker system info
+      - run: docker image ls
+      - run: docker container ls
+  baseimage:
+    name: baseimage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - run: gem install bundler --version='>= 2.0.0' -N
+      - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
+      - run: docker build -t minimum2scp/baseimage:latest baseimage
+      - run: bundle exec rspec spec/baseimage
