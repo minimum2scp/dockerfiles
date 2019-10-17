@@ -162,6 +162,7 @@ jobs:
   baseimage-buster:
     name: baseimage-buster
     runs-on: ubuntu-latest
+    needs: [rspec-runner]
     steps:
       # build image
       - uses: actions/checkout@master
@@ -207,6 +208,7 @@ jobs:
   baseimage-stretch:
     name: baseimage-stretch
     runs-on: ubuntu-latest
+    needs: [rspec-runner]
     steps:
       # build image
       - uses: actions/checkout@master
