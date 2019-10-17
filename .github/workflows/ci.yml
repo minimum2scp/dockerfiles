@@ -58,4 +58,104 @@ jobs:
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby
+  build_nodejs:
+    name: build nodejs
+    runs-on: ubuntu-latest
+    needs: [build_baseimage]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/nodejs:latest nodejs
+      - run: docker save minimum2scp/nodejs:latest | pigz -c - > /tmp/nodejs.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: nodejs, path: /tmp/nodejs.tar.gz }
+  test_nodejs:
+    name: test nodejs
+    runs-on: ubuntu-latest
+    needs: [build_rspec_runner, build_nodejs]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+      - uses: actions/download-artifact@v1
+        with: { name: nodejs, path: /tmp }
+      - run: pigz -c -d /tmp/nodejs.tar.gz | docker load
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/nodejs
+  build_ruby_full:
+    name: build ruby-full
+    runs-on: ubuntu-latest
+    needs: [build_ruby]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-full:latest ruby-full
+      - run: docker save minimum2scp/ruby-full:latest | pigz -c - > /tmp/ruby-full.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: ruby-full, path: /tmp/ruby-full.tar.gz }
+  test_ruby_full:
+    name: test ruby-full
+    runs-on: ubuntu-latest
+    needs: [build_rspec_runner, build_ruby_full]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+      - uses: actions/download-artifact@v1
+        with: { name: ruby-full, path: /tmp }
+      - run: pigz -c -d /tmp/ruby-full.tar.gz | docker load
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-full
+  build_rails6:
+    name: build rails6
+    runs-on: ubuntu-latest
+    needs: [build_ruby]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/rails6:latest rails6
+      - run: docker save minimum2scp/rails6:latest | pigz -c - > /tmp/rails6.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: rails6, path: /tmp/rails6.tar.gz }
+  test_rails6:
+    name: test rails6
+    runs-on: ubuntu-latest
+    needs: [build_rspec_runner, build_rails6]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+      - uses: actions/download-artifact@v1
+        with: { name: rails6, path: /tmp }
+      - run: pigz -c -d /tmp/rails6.tar.gz | docker load
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/rails6
+  build_tdiary:
+    name: build tdiary
+    runs-on: ubuntu-latest
+    needs: [build_ruby]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/tdiary:latest tdiary
+      - run: docker save minimum2scp/tdiary:latest | pigz -c - > /tmp/tdiary.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: tdiary, path: /tmp/tdiary.tar.gz }
+  test_tdiary:
+    name: test tdiary
+    runs-on: ubuntu-latest
+    needs: [build_rspec_runner, build_tdiary]
+    steps:
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+      - uses: actions/download-artifact@v1
+        with: { name: tdiary, path: /tmp }
+      - run: pigz -c -d /tmp/tdiary.tar.gz | docker load
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/tdiary
 
