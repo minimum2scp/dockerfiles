@@ -85,10 +85,8 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/nodejs
 
-      # save image as artifact
-      - run: docker save minimum2scp/nodejs:latest | pigz -c - > /tmp/nodejs.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: nodejs, path: /tmp/nodejs.tar.gz }
+      # No need to save image as artifact
+
   ruby-full:
     name: ruby-full
     runs-on: ubuntu-latest
@@ -111,10 +109,7 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-full
 
-      # save image as artifact
-      - run: docker save minimum2scp/ruby-full:latest | pigz -c - > /tmp/ruby-full.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: ruby-full, path: /tmp/ruby-full.tar.gz }
+      # No need to save image as artifact
 
   rails6:
     name: rails6
@@ -138,10 +133,7 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/rails6
 
-      # save image as artifact
-      - run: docker save minimum2scp/rails6:latest | pigz -c - > /tmp/rails6.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: rails6, path: /tmp/rails6.tar.gz }
+      # No need to save image as artifact
 
   tdiary:
     name: tdiary
@@ -165,10 +157,7 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/tdiary
 
-      # save image as artifact
-      - run: docker save minimum2scp/tdiary:latest | pigz -c - > /tmp/tdiary.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: tdiary, path: /tmp/tdiary.tar.gz }
+      # No need to save image as artifact
 
   baseimage-buster:
     name: baseimage-buster
@@ -213,10 +202,7 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-buster
 
-      # save image as artifact
-      - run: docker save minimum2scp/ruby-buster:latest | pigz -c - > /tmp/ruby-buster.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: ruby-buster, path: /tmp/ruby-buster.tar.gz }
+      # No need to save image as artifact
 
   baseimage-stretch:
     name: baseimage-stretch
@@ -261,8 +247,5 @@ jobs:
       # run test
       - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-stretch
 
-      # save image as artifact
-      - run: docker save minimum2scp/ruby-stretch:latest | pigz -c - > /tmp/ruby-stretch.tar.gz
-      - uses: actions/upload-artifact@v1
-        with: { name: ruby-stretch, path: /tmp/ruby-stretch.tar.gz }
+      # No need to save image as artifact
 
