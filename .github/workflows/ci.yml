@@ -3,251 +3,266 @@ name: CI
 on: [push]
 
 jobs:
-  build_rspec_runner:
-    name: build rspec-runner
+  rspec-runner:
+    name: rspec-runner
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/rspec-runner:latest -f .circleci/rspec-runner/Dockerfile .
+
       - run: docker save minimum2scp/rspec-runner:latest | pigz -c - > /tmp/rspec-runner.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: rspec-runner, path: /tmp/rspec-runner.tar.gz }
-  build_baseimage:
-    name: build baseimage
+
+  baseimage:
+    name: baseimage
     runs-on: ubuntu-latest
+    needs: [rspec-runner]
     steps:
+      # build image
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/baseimage:latest baseimage
+
+      # load rspec-runner
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage
+
+      # save image as artifact
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
-  test_baseimage:
-    name: test baseimage
+
+  ruby:
+    name: ruby
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_baseimage]
+    needs: [baseimage]
     steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby:latest ruby
+
+      # load rspec-runner
       - uses: actions/download-artifact@v1
         with: { name: rspec-runner, path: /tmp }
       - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage
-  build_ruby:
-    name: build ruby
-    runs-on: ubuntu-latest
-    needs: [build_baseimage]
-    steps:
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
-      - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/ruby:latest ruby
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby
+
+      # save image as artifact
       - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: ruby, path: /tmp/ruby.tar.gz }
-  test_ruby:
-    name: test ruby
+
+  nodejs:
+    name: nodejs
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_ruby]
+    needs: [baseimage]
     steps:
-      - uses: actions/download-artifact@v1
-        with: { name: rspec-runner, path: /tmp }
-      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: ruby, path: /tmp }
-      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby
-  build_nodejs:
-    name: build nodejs
-    runs-on: ubuntu-latest
-    needs: [build_baseimage]
-    steps:
+      # load parent image
       - uses: actions/download-artifact@v1
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/nodejs:latest nodejs
+
+      # load rspec-runner
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/nodejs
+
+      # save image as artifact
       - run: docker save minimum2scp/nodejs:latest | pigz -c - > /tmp/nodejs.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: nodejs, path: /tmp/nodejs.tar.gz }
-  test_nodejs:
-    name: test nodejs
+  ruby-full:
+    name: ruby-full
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_nodejs]
+    needs: [ruby]
     steps:
-      - uses: actions/download-artifact@v1
-        with: { name: rspec-runner, path: /tmp }
-      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: nodejs, path: /tmp }
-      - run: pigz -c -d /tmp/nodejs.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/nodejs
-  build_ruby_full:
-    name: build ruby-full
-    runs-on: ubuntu-latest
-    needs: [build_ruby]
-    steps:
+      # load parent image
       - uses: actions/download-artifact@v1
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/ruby-full:latest ruby-full
+
+      # load rspec-runner
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-full
+
+      # save image as artifact
       - run: docker save minimum2scp/ruby-full:latest | pigz -c - > /tmp/ruby-full.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: ruby-full, path: /tmp/ruby-full.tar.gz }
-  test_ruby_full:
-    name: test ruby-full
+
+  rails6:
+    name: rails6
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_ruby_full]
+    needs: [ruby]
     steps:
-      - uses: actions/download-artifact@v1
-        with: { name: rspec-runner, path: /tmp }
-      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: ruby-full, path: /tmp }
-      - run: pigz -c -d /tmp/ruby-full.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-full
-  build_rails6:
-    name: build rails6
-    runs-on: ubuntu-latest
-    needs: [build_ruby]
-    steps:
+      # load parent image
       - uses: actions/download-artifact@v1
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/rails6:latest rails6
+
+      # load rspec-runner
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/rails6
+
+      # save image as artifact
       - run: docker save minimum2scp/rails6:latest | pigz -c - > /tmp/rails6.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: rails6, path: /tmp/rails6.tar.gz }
-  test_rails6:
-    name: test rails6
+
+  tdiary:
+    name: tdiary
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_rails6]
+    needs: [ruby]
     steps:
-      - uses: actions/download-artifact@v1
-        with: { name: rspec-runner, path: /tmp }
-      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: rails6, path: /tmp }
-      - run: pigz -c -d /tmp/rails6.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/rails6
-  build_tdiary:
-    name: build tdiary
-    runs-on: ubuntu-latest
-    needs: [build_ruby]
-    steps:
+      # load parent image
       - uses: actions/download-artifact@v1
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/tdiary:latest tdiary
+
+      # load rspec-runner
+      - uses: actions/download-artifact@v1
+        with: { name: rspec-runner, path: /tmp }
+      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/tdiary
+
+      # save image as artifact
       - run: docker save minimum2scp/tdiary:latest | pigz -c - > /tmp/tdiary.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: tdiary, path: /tmp/tdiary.tar.gz }
-  test_tdiary:
-    name: test tdiary
+
+  baseimage-buster:
+    name: baseimage-buster
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_tdiary]
     steps:
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
+
+      # load rspec-runner
       - uses: actions/download-artifact@v1
         with: { name: rspec-runner, path: /tmp }
       - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: tdiary, path: /tmp }
-      - run: pigz -c -d /tmp/tdiary.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/tdiary
-  build_baseimage_buster:
-    name: build baseimage-buster
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage-buster
+
+      # save image as artifact
       - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
-  test_baseimage_buster:
-    name: test baseimage-buster
+
+  ruby-buster:
+    name: ruby-buster
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_baseimage_buster]
+    needs: [baseimage-buster]
     steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-buster, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-buster:latest ruby-buster
+
+      # load rspec-runner
       - uses: actions/download-artifact@v1
         with: { name: rspec-runner, path: /tmp }
       - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage-buster, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage-buster
-  build_ruby_buster:
-    name: build ruby-buster
-    runs-on: ubuntu-latest
-    needs: [build_baseimage_buster]
-    steps:
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage-buster, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
-      - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/ruby-buster:latest ruby-buster
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-buster
+
+      # save image as artifact
       - run: docker save minimum2scp/ruby-buster:latest | pigz -c - > /tmp/ruby-buster.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: ruby-buster, path: /tmp/ruby-buster.tar.gz }
-  test_ruby_buster:
-    name: test ruby-buster
+
+  baseimage-stretch:
+    name: baseimage-stretch
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_ruby_buster]
     steps:
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
+
+      # load rspec-runner
       - uses: actions/download-artifact@v1
         with: { name: rspec-runner, path: /tmp }
       - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: ruby-buster, path: /tmp }
-      - run: pigz -c -d /tmp/ruby-buster.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-buster
-  build_baseimage_stretch:
-    name: build baseimage-stretch
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage-stretch
+
+      # save image as artifact
       - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
-  test_baseimage_stretch:
-    name: test baseimage-stretch
+
+  ruby-stretch:
+    name: ruby-stretch
     runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_baseimage_stretch]
+    needs: [baseimage-stretch]
     steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-stretch, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-stretch:latest ruby-stretch
+
+      # load rspec-runner
       - uses: actions/download-artifact@v1
         with: { name: rspec-runner, path: /tmp }
       - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage-stretch, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage-stretch
-  build_ruby_stretch:
-    name: build ruby-stretch
-    runs-on: ubuntu-latest
-    needs: [build_baseimage_stretch]
-    steps:
-      - uses: actions/download-artifact@v1
-        with: { name: baseimage-stretch, path: /tmp }
-      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
-      - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/ruby-stretch:latest ruby-stretch
+
+      # run test
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-stretch
+
+      # save image as artifact
       - run: docker save minimum2scp/ruby-stretch:latest | pigz -c - > /tmp/ruby-stretch.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: ruby-stretch, path: /tmp/ruby-stretch.tar.gz }
-  test_ruby_stretch:
-    name: test ruby-stretch
-    runs-on: ubuntu-latest
-    needs: [build_rspec_runner, build_ruby_stretch]
-    steps:
-      - uses: actions/download-artifact@v1
-        with: { name: rspec-runner, path: /tmp }
-      - run: pigz -c -d /tmp/rspec-runner.tar.gz | docker load
-      - uses: actions/download-artifact@v1
-        with: { name: ruby-stretch, path: /tmp }
-      - run: pigz -c -d /tmp/ruby-stretch.tar.gz | docker load
-      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby-stretch
 
