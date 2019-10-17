@@ -7,11 +7,6 @@ jobs:
     name: build rspec-runner
     runs-on: ubuntu-latest
     steps:
-      - shell: bash
-        name: Install pigz
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/rspec-runner:latest -f .circleci/rspec-runner/Dockerfile .
       - run: docker save minimum2scp/rspec-runner:latest | pigz -c - > /tmp/rspec-runner.tar.gz
@@ -23,11 +18,6 @@ jobs:
     name: build baseimage
     runs-on: ubuntu-latest
     steps:
-      - shell: bash
-        name: Install pigz
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/baseimage:latest baseimage
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
@@ -40,11 +30,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build_rspec_runner, build_baseimage]
     steps:
-      - shell: bash
-        name: Install pigz
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/download-artifact@v1
         with:
           name: rspec-runner
@@ -61,11 +46,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build_baseimage]
     steps:
-      - shell: bash
-        name: Install pigz
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/download-artifact@v1
         with:
           name: baseimage
@@ -83,11 +63,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build_rspec_runner, build_ruby]
     steps:
-      - shell: bash
-        name: Install pigz
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/download-artifact@v1
         with:
           name: rspec-runner
