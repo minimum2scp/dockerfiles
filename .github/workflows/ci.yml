@@ -3,23 +3,8 @@ name: CI
 on: [push]
 
 jobs:
-  hello:
-    name: hello
-    runs-on: ubuntu-latest
-    steps:
-      - run: export -p
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.6.x
-      - run: ruby -v
-      - run: gem list
-      - run: gem env
-      - run: docker version
-      - run: docker system info
-      - run: docker image ls
-      - run: docker container ls
-  baseimage:
-    name: baseimage
+  rspec_runner:
+    name: rspec-runner
     runs-on: ubuntu-latest
     steps:
       - shell: bash
@@ -28,13 +13,30 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends pigz
       - uses: actions/checkout@master
-      - uses: actions/setup-ruby@v1
+      - run: docker build -t minimum2scp/rspec-runner:latest -f .circleci/rspec-runner/Dockerfile .
+      - run: docker save minimum2scp/rspec-runner:latest | pigz -c - > /tmp/rspec-runner.tar.gz
+      - uses: actions/upload-artifact@v1
         with:
-          ruby-version: 2.6.x
-      - run: gem install bundler --version='>= 2.0.0' -N
-      - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
+          name: rspec-runner
+          path: /tmp/rspec-runner.tar.gz
+  baseimage:
+    name: baseimage
+    runs-on: ubuntu-latest
+    needs: [rspec_runner]
+    steps:
+      - shell: bash
+        name: Install pigz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pigz
+      - uses: actions/download-artifact@v1
+        with:
+          name: rspec-runner
+          path: /tmp/rspec-runner
+      - run: pigz -c -d /tmp/rspec-runner/rspec-runner.tar.gz | docker load
+      - uses: actions/checkout@master
       - run: docker build -t minimum2scp/baseimage:latest baseimage
-      - run: bundle exec rspec spec/baseimage
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/baseimage
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
       - uses: actions/upload-artifact@v1
         with:
@@ -43,25 +45,24 @@ jobs:
   ruby:
     name: ruby
     runs-on: ubuntu-latest
-    needs: [baseimage]
+    needs: [rspec_runner, baseimage]
     steps:
       - shell: bash
         name: Install pigz
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends pigz
-      - uses: actions/checkout@master
-      - uses: actions/setup-ruby@v1
+      - uses: actions/download-artifact@v1
         with:
-          ruby-version: 2.6.x
-      - run: gem install bundler --version='>= 2.0.0' -N
-      - run: bundle install --jobs=4 --without=development --path=vendor/bundle --retry=3
+          name: rspec-runner
+          path: /tmp/rspec-runner
+      - run: pigz -c -d /tmp/rspec-runner/rspec-runner.tar.gz | docker load
       - uses: actions/download-artifact@v1
         with:
           name: baseimage
           path: /tmp/baseimage
       - run: pigz -c -d /tmp/baseimage/baseimage.tar.gz | docker load
-        working-directory: /tmp
+      - uses: actions/checkout@master
       - run: docker build -t minimum2scp/ruby:latest ruby
-      - run: bundle exec rspec spec/ruby
+      - run: docker run --rm -v /var/run/docker.sock:/var/run/docker.sock minimum2scp/rspec-runner:latest bundle exec rspec spec/ruby
 
