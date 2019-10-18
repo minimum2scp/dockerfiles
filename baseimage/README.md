@@ -155,7 +155,7 @@ ii   libncursesw6            6.1+20190803-1               amd64  shared librarie
 ii   libnettle6              3.5.1+really3.4.1-1          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.39.2-1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.17-2                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.18.1-2                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                      all    Runtime support for the PAM library
@@ -164,7 +164,7 @@ ii   libpcre2-8-0            10.32-5+b1                   amd64  New Perl Compat
 ii   libpcre3                2:8.39-12+b1                 amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-7                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
-ii   libpopt0                1.16-12                      amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.16-13                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.17-1                     amd64  interactive high-level object-oriented language (Python2)
@@ -227,12 +227,12 @@ ii   python2-minimal         2.7.17-1                     amd64  minimal subset 
 ii   python2.7               2.7.17~rc1-1                 amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.17~rc1-1                 amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         8.0-3                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.1908.0-1                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.1910.0-1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                       all    dh-runit implementation detail
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.27-1+b1                  amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.27-1.1                   amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96~beta-3                  all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96~beta-3                  amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96~beta-3                  amd64  System-V-like utilities
