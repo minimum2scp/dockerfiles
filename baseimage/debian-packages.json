@@ -619,10 +619,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.23.0), git-man (<< 1:2.23.0-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.24.0~rc0), git-man (<< 1:2.24.0~rc0-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "39742",
+    "Installed-Size": "40047",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.23.0-1",
+    "Version": "1:2.24.0~rc0-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.23.0-1"
+    "source:Version": "1:2.24.0~rc0-1"
   },
   {
     "Architecture": "all",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1731",
+    "Installed-Size": "1751",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.23.0-1",
+    "Version": "1:2.24.0~rc0-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.23.0-1"
+    "source:Version": "1:2.24.0~rc0-1"
   },
   {
     "Architecture": "amd64",
@@ -874,7 +874,7 @@
     "Depends": "coreutils (>= 5.93), debianutils (>= 4), lsb-base (>= 3.2-14), sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.88dsf-59.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "215",
+    "Installed-Size": "214",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96~beta-3",
+    "Version": "2.96-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96~beta-3"
+    "source:Version": "2.96-1"
   },
   {
     "Architecture": "amd64",
@@ -4710,7 +4710,7 @@
     "Depends": "insserv (>> 1.12.0-10), lsb-base (>= 3.2-14), startpar (>= 0.62-1~), sysvinit-utils (>= 2.86.ds1-62)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "125",
+    "Installed-Size": "118",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "init-system-helpers (>= 1.25~)",
@@ -4721,7 +4721,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96~beta-3",
+    "Version": "2.96-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96~beta-3"
+    "source:Version": "2.96-1"
   },
   {
     "Architecture": "amd64",
@@ -4738,7 +4738,7 @@
     "Depends": "debianutils (>= 4), initscripts (>= 2.88dsf-13.3), sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.15), libselinux1 (>= 1.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "268",
+    "Installed-Size": "269",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.96~beta-3",
+    "Version": "2.96-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96~beta-3"
+    "source:Version": "2.96-1"
   },
   {
     "Architecture": "amd64",
@@ -4777,7 +4777,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96~beta-3",
+    "Version": "2.96-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96~beta-3"
+    "source:Version": "2.96-1"
   },
   {
     "Architecture": "amd64",

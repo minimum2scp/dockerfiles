@@ -87,8 +87,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                      amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-9                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.23.0-1                   amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.23.0-1                   all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.24.0~rc0-1               amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.24.0~rc0-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -96,7 +96,7 @@ ii   gzip                    1.9-3+b1                     amd64  GNU compression
 ii   hostname                3.22+b1                      amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                   amd64  ICMP echo tool
 ii   init-system-helpers     1.57                         all    helper tools for all init systems
-ii   initscripts             2.96~beta-3                  all    scripts for initializing and shutting down the system
+ii   initscripts             2.96-1                       all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.3.0-1                      amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5                     amd64  access control list - shared library
@@ -233,9 +233,9 @@ ii   sed                     4.7-1                        amd64  GNU stream edit
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                       amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.27-1.1                   amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.96~beta-3                  all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.96~beta-3                  amd64  System-V-like init utilities
-ii   sysvinit-utils          2.96~beta-3                  amd64  System-V-like utilities
+ii   sysv-rc                 2.96-1                       all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.96-1                       amd64  System-V-like init utilities
+ii   sysvinit-utils          2.96-1                       amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1               amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019c-3                      all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
