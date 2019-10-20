@@ -61,7 +61,7 @@ ii   libcap2                 1:2.25-2             amd64  POSIX 1003.1e capabilit
 ii   libcap2-bin             1:2.25-2             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1             amd64  common error description library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.249                amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.250                amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
 ii   libext2fs2              1.45.4-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
