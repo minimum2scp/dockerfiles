@@ -3198,7 +3198,7 @@
     "Depends": "libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3557",
+    "Installed-Size": "3562",
     "Origin": "",
     "Package": "libssl1.0.2",
     "Pre-Depends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2s-1~deb9u1",
+    "Version": "1.0.2t-1~deb9u1",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2s-1~deb9u1"
+    "source:Version": "1.0.2t-1~deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -3226,7 +3226,7 @@
     "Depends": "libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3556",
+    "Installed-Size": "3561",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0k-1~deb9u1",
+    "Version": "1.1.0l-1~deb9u1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0k-1~deb9u1"
+    "source:Version": "1.1.0l-1~deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1314",
+    "Installed-Size": "1315",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3993,7 +3993,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0k-1~deb9u1",
+    "Version": "1.1.0l-1~deb9u1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0k-1~deb9u1"
+    "source:Version": "1.1.0l-1~deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -4402,7 +4402,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules, lsb-base",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3035",
+    "Installed-Size": "3033",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -4413,7 +4413,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.19p1-2.1",
+    "Version": "1.8.19p1-2.1+deb9u1",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.8.19p1-2.1"
+    "source:Version": "1.8.19p1-2.1+deb9u1"
   },
   {
     "Architecture": "all",
