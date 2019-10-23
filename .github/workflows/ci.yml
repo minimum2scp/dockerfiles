@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: docker build -t minimum2scp/rspec-runner:latest -f .circleci/rspec-runner/Dockerfile .
+      - run: docker build -t minimum2scp/rspec-runner:latest -f .github/rspec-runner/Dockerfile .
 
       - run: docker save minimum2scp/rspec-runner:latest | pigz -c - > /tmp/rspec-runner.tar.gz
       - uses: actions/upload-artifact@v1
