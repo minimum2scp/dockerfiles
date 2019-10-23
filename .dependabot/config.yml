@@ -11,7 +11,7 @@ update_configs:
       - "minimum2scp"
 
   - package_manager: "docker"
-    directory: "/.circleci/rspec-runner"
+    directory: "/.github/rspec-runner"
     update_schedule: "daily"
     default_reviewers:
       - "minimum2scp"
