@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.4-1                     amd64  ext2/ext3/ext4 
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                     amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                      amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.2.1-9                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-12                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.24.0~rc0-1               amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.24.0~rc0-1               all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                     amd64  GNU privacy guard - signature verification tool
@@ -105,7 +105,7 @@ ii   libattr1                1:2.4.48-5                   amd64  extended attrib
 ii   libaudit-common         1:2.8.5-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                     amd64  block device ID library
-ii   libbrotli1              1.0.7-3                      amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-4                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-2                       amd64  GNU C Library: Binaries
@@ -128,7 +128,7 @@ ii   libext2fs2              1.45.4-1                     amd64  ext2/ext3/ext4 
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                     amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.2.1-9                    amd64  GCC support library
+ii   libgcc1                 1:9.2.1-12                   amd64  GCC support library
 ii   libgcrypt20             1.8.5-3                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                     amd64  GNU dbm database routines (runtime version) 
@@ -164,7 +164,7 @@ ii   libpcre2-8-0            10.32-5+b1                   amd64  New Perl Compat
 ii   libpcre3                2:8.39-12+b1                 amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-8                     amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                      amd64  pipeline manipulation library
-ii   libpopt0                1.16-13                      amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.16-14                      amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.17-1                     amd64  interactive high-level object-oriented language (Python2)
@@ -186,7 +186,7 @@ ii   libsqlite3-0            3.30.1-1                     amd64  SQLite 3 shared
 ii   libss2                  1.45.4-1                     amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                     amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.2.1-9                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.2.1-12                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                        amd64  systemd utility library
 ii   libtasn1-6              4.14-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20190803-1               amd64  shared low-level terminfo library for terminal handling
@@ -203,7 +203,7 @@ ii   login                   1:4.7-2                      amd64  system login to
 ii   logsave                 1.45.4-1                     amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                       all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                       amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.7-3                      amd64  on-line manual pager
+ii   man-db                  2.9.0-1                      amd64  tools for reading manual pages
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.64                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.34-0.1                     amd64  tools for mounting and manipulating filesystems
@@ -232,7 +232,7 @@ ii   runit-helper            2.8.14                       all    dh-runit implem
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.27-1.1                   amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.28p1-1                   amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-1                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-1                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96-1                       amd64  System-V-like utilities
