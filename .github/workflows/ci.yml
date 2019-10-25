@@ -6,6 +6,7 @@ jobs:
   rspec-runner:
     name: rspec-runner
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       - uses: actions/checkout@master
       - run: docker build -t minimum2scp/rspec-runner:latest -f .github/rspec-runner/Dockerfile .
@@ -17,6 +18,7 @@ jobs:
   baseimage:
     name: baseimage
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [rspec-runner]
     steps:
       # build image
@@ -39,6 +41,7 @@ jobs:
   ruby:
     name: ruby
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -66,6 +69,7 @@ jobs:
   nodejs:
     name: nodejs
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -90,6 +94,7 @@ jobs:
   ruby-full:
     name: ruby-full
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -114,6 +119,7 @@ jobs:
   rails6:
     name: rails6
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -138,6 +144,7 @@ jobs:
   tdiary:
     name: tdiary
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -162,6 +169,7 @@ jobs:
   baseimage-buster:
     name: baseimage-buster
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [rspec-runner]
     steps:
       # build image
@@ -184,6 +192,7 @@ jobs:
   ruby-buster:
     name: ruby-buster
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-buster]
     steps:
       # load parent image
@@ -208,6 +217,7 @@ jobs:
   baseimage-stretch:
     name: baseimage-stretch
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [rspec-runner]
     steps:
       # build image
@@ -230,6 +240,7 @@ jobs:
   ruby-stretch:
     name: ruby-stretch
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-stretch]
     steps:
       # load parent image
