@@ -43,7 +43,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe command('ruby2.5 -v') do
-      its(:stdout) { should eq "ruby 2.5.5p157 (2019-03-15 revision 67260) [x86_64-linux-gnu]\n" }
+      its(:stdout) { should match a_string_starting_with('ruby 2.5.7p') }
     end
 
     describe file('/opt/rbenv') do
