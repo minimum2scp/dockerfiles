@@ -23,11 +23,11 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '2.7.0-preview1',
-        desc: 'ruby 2.7.0preview1 (2019-05-31 trunk c55db6aa271df4a689dc8eb0039c929bf6ed43ff) [x86_64-linux]',
-        rubygems_version: '3.1.0.pre1',
+        ruby: '2.7.0-preview2',
+        desc: 'ruby 2.7.0preview2 (2019-10-22 master 02aadf1032) [x86_64-linux]',
+        rubygems_version: '3.1.0.pre2',
         gems: [
-          {name: 'bundler', version: '2.1.0.pre.1', default: true },
+          {name: 'bundler', version: '2.1.0.pre.2', default: true },
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
