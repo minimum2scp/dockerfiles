@@ -38,7 +38,7 @@ ii   dpkg                    1.19.7               amd64  Debian package manageme
 ii   e2fsprogs               1.45.4-1             amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.2.1-12             amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-14             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.17-3             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3+b1             amd64  GNU compression utilities
@@ -56,7 +56,7 @@ ii   libbsd0                 0.10.0-1             amd64  utility functions from 
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-2               amd64  GNU C Library: Binaries
 ii   libc6                   2.29-2               amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2+b1           amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.1            amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1             amd64  common error description library
@@ -66,20 +66,20 @@ ii   libelf1                 0.176-1.1            amd64  library to read and wri
 ii   libext2fs2              1.45.4-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9              amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.2.1-12           amd64  GCC support library
+ii   libgcc1                 1:9.2.1-14           amd64  GCC support library
 ii   libgcrypt20             1.8.5-3              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4       amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.9-5              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.9-5+b1           amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7               amd64  GnuPG development runtime library
-ii   libhogweed4             3.5.1+really3.4.1-1  amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed5             3.5.1+really3.5.1-2  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2             amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-2              amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.1-2              amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1           amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1           amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1             amd64  device mounting library
-ii   libncursesw6            6.1+20190803-1       amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.5.1+really3.4.1-1  amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libncursesw6            6.1+20191019-1       amd64  shared libraries for terminal handling (wide character support)
+ii   libnettle7              3.5.1+really3.5.1-2  amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.18.1-2          amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5              amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5              amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -94,10 +94,10 @@ ii   libsemanage1            2.9-3                amd64  SELinux policy manageme
 ii   libsepol1               2.9-2+b2             amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.4-1             amd64  command-line interface parsing library
-ii   libstdc++6              9.2.1-12             amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.2.1-14             amd64  GNU Standard C++ Library v3
 ii   libsystemd0             242-7                amd64  systemd utility library
 ii   libtasn1-6              4.14-3               amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20190803-1       amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20191019-1       amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                242-7                amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
@@ -108,8 +108,8 @@ ii   logsave                 1.45.4-1             amd64  save the output of a co
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3          amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1             amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20190803-1       all    basic terminal type definitions
-ii   ncurses-bin             6.1+20190803-1       amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20191019-1       all    basic terminal type definitions
+ii   ncurses-bin             6.1+20191019-1       amd64  terminal-related programs and man pages
 ii   netbase                 5.6                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.7-2              amd64  change and administer password and group data
 ii   perl-base               5.30.0-8             amd64  minimal Perl system

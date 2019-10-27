@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.2.1-12",
+    "Version": "9.2.1-14",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.2.1-12"
+    "source:Version": "9.2.1-14"
   },
   {
     "Architecture": "amd64",
@@ -958,7 +958,7 @@
     "Depends": "libc6 (>= 2.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "48",
+    "Installed-Size": "47",
     "Origin": "",
     "Package": "libcap-ng0",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.7.9-2+b1",
+    "Version": "0.7.9-2.1",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "An alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.7.9-2"
+    "source:Version": "0.7.9-2.1"
   },
   {
     "Architecture": "amd64",
@@ -1235,7 +1235,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-9-base (= 9.2.1-12), libc6 (>= 2.14)",
+    "Depends": "gcc-9-base (= 9.2.1-14), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.2.1-12",
+    "Version": "1:9.2.1-14",
     "binary:Package": "libgcc1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.2.1-12"
+    "source:Version": "9.2.1-14"
   },
   {
     "Architecture": "amd64",
@@ -1319,10 +1319,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
+    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed5, libidn2-0 (>= 2.0.0), libnettle7, libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2797",
+    "Installed-Size": "2794",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.9-5",
+    "Version": "3.6.9-5+b1",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1375,12 +1375,12 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.5.1+really3.4.1-1)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle7 (= 3.5.1+really3.5.1-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "249",
+    "Installed-Size": "246",
     "Origin": "",
-    "Package": "libhogweed4",
+    "Package": "libhogweed5",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
@@ -1389,15 +1389,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.1+really3.4.1-1",
-    "binary:Package": "libhogweed4:amd64",
+    "Version": "3.5.1+really3.5.1-2",
+    "binary:Package": "libhogweed5:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.5.1+really3.4.1-1"
+    "source:Version": "3.5.1+really3.5.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1571,7 +1571,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20190803-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20191019-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "416",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190803-1",
+    "Version": "6.1+20191019-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190803-1"
+    "source:Version": "6.1+20191019-1"
   },
   {
     "Architecture": "amd64",
@@ -1602,9 +1602,9 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "380",
+    "Installed-Size": "400",
     "Origin": "",
-    "Package": "libnettle6",
+    "Package": "libnettle7",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
@@ -1613,15 +1613,15 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.1+really3.4.1-1",
-    "binary:Package": "libnettle6:amd64",
+    "Version": "3.5.1+really3.5.1-2",
+    "binary:Package": "libnettle7:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.5.1+really3.4.1-1"
+    "source:Version": "3.5.1+really3.5.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2019,7 +2019,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-9-base (= 9.2.1-12), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
+    "Depends": "gcc-9-base (= 9.2.1-14), libc6 (>= 2.18), libgcc1 (>= 1:4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2394",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.2.1-12",
+    "Version": "9.2.1-14",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.2.1-12"
+    "source:Version": "9.2.1-14"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "534",
+    "Installed-Size": "531",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190803-1",
+    "Version": "6.1+20191019-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190803-1"
+    "source:Version": "6.1+20191019-1"
   },
   {
     "Architecture": "amd64",
@@ -2414,7 +2414,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "378",
+    "Installed-Size": "379",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -2425,7 +2425,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190803-1",
+    "Version": "6.1+20191019-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190803-1"
+    "source:Version": "6.1+20191019-1"
   },
   {
     "Architecture": "amd64",
@@ -2442,7 +2442,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "634",
+    "Installed-Size": "635",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.1+20190713), libtinfo6 (<< 6.2~)",
@@ -2453,7 +2453,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20190803-1",
+    "Version": "6.1+20191019-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20190803-1"
+    "source:Version": "6.1+20191019-1"
   },
   {
     "Architecture": "all",
