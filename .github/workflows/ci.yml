@@ -13,7 +13,7 @@ jobs:
       - run: docker build -t minimum2scp/baseimage:latest baseimage
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -50,7 +50,7 @@ jobs:
       - run: docker build -t minimum2scp/ruby:latest ruby
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -87,7 +87,7 @@ jobs:
       - run: docker build -t minimum2scp/nodejs:latest nodejs
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -121,7 +121,7 @@ jobs:
       - run: docker build -t minimum2scp/ruby-full:latest ruby-full
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -155,7 +155,7 @@ jobs:
       - run: docker build -t minimum2scp/rails6:latest rails6
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -189,7 +189,7 @@ jobs:
       - run: docker build -t minimum2scp/tdiary:latest tdiary
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -217,7 +217,7 @@ jobs:
       - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -254,7 +254,7 @@ jobs:
       - run: docker build -t minimum2scp/ruby-buster:latest ruby-buster
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -282,7 +282,7 @@ jobs:
       - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
@@ -319,7 +319,7 @@ jobs:
       - run: docker build -t minimum2scp/ruby-stretch:latest ruby-stretch
 
       # setup ruby
-      - run: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
