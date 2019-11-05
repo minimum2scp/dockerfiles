@@ -10,9 +10,3 @@ update_configs:
     default_reviewers:
       - "minimum2scp"
 
-  - package_manager: "docker"
-    directory: "/.github/rspec-runner"
-    update_schedule: "daily"
-    default_reviewers:
-      - "minimum2scp"
-
