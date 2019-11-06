@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.25-2",
+    "Version": "1:2.27-1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1005,13 +1005,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.25-2"
+    "source:Version": "1:2.27-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcap-bin",
-    "Depends": "libc6 (>= 2.14), libcap2 (>= 1:2.10)",
+    "Depends": "libc6 (>= 2.14), libcap2 (>= 1:2.26)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "111",
@@ -1025,7 +1025,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.25-2",
+    "Version": "1:2.27-1",
     "binary:Package": "libcap2-bin",
     "binary:Summary": "POSIX 1003.1e capabilities (utilities)",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.25-2"
+    "source:Version": "1:2.27-1"
   },
   {
     "Architecture": "amd64",
