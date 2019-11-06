@@ -112,8 +112,8 @@ ii   libc-bin                2.29-3                          amd64  GNU C Librar
 ii   libc-l10n               2.29-3                          all    GNU C Library: localization files
 ii   libc6                   2.29-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1                       amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.25-2                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.25-2                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1                        amd64  common error description library
 ii   libcurl3-gnutls         7.66.0-1+b1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.66.0-1+b1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
