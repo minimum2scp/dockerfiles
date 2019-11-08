@@ -93,7 +93,7 @@ ii   gpgv                    2.2.17-3                        amd64  GNU privacy 
 ii   grep                    3.3-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3+b1                        amd64  GNU compression utilities
-ii   hostname                3.22+b1                         amd64  utility to set/show the host name or domain name
+ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                      amd64  ICMP echo tool
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
 ii   initscripts             2.96-1                          all    scripts for initializing and shutting down the system
@@ -105,7 +105,7 @@ ii   libattr1                1:2.4.48-5                      amd64  extended att
 ii   libaudit-common         1:2.8.5-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                        amd64  block device ID library
-ii   libbrotli1              1.0.7-4                         amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-5                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-3                          amd64  GNU C Library: Binaries
