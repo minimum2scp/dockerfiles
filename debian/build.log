@@ -44,16 +44,15 @@ I: Validating gpgv 2.2.17-3
 I: Validating libgnutls30 3.6.10-4
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3+b1
-I: Validating hostname 3.22+b1
+I: Retrieving hostname 3.23
+I: Validating hostname 3.23
 I: Validating inetutils-ping 2:1.9.4-10
 I: Validating init-system-helpers 1.57
 I: Validating iproute2 5.3.0-1
 I: Validating libxtables12 1.8.3-2
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.1
-I: Retrieving libcap2 1:2.27-1
 I: Validating libcap2 1:2.27-1
-I: Retrieving libcap2-bin 1:2.27-1
 I: Validating libcap2-bin 1:2.27-1
 I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.5-3
@@ -407,10 +406,10 @@ Sending build context to Docker daemon  31.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 55cd01900252
+ ---> cc785b69ffdb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in a1048ce4de22
-Removing intermediate container a1048ce4de22
- ---> 224940bab402
-Successfully built 224940bab402
+ ---> Running in 0cacc4a23f08
+Removing intermediate container 0cacc4a23f08
+ ---> 89df6a509b72
+Successfully built 89df6a509b72
 Successfully tagged minimum2scp/debian:latest

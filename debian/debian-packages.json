@@ -566,7 +566,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "51",
+    "Installed-Size": "50",
     "Origin": "",
     "Package": "hostname",
     "Pre-Depends": "libc6 (>= 2.4)",
@@ -577,7 +577,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.22+b1",
+    "Version": "3.23",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.22"
+    "source:Version": "3.23"
   },
   {
     "Architecture": "amd64",
