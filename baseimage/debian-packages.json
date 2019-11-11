@@ -3422,7 +3422,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "793",
+    "Installed-Size": "798",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "242-8",
+    "Version": "243-5",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "242-8"
+    "source:Version": "243-5"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "242-8",
+    "Version": "243-5",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "242-8"
+    "source:Version": "243-5"
   },
   {
     "Architecture": "amd64",
