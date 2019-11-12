@@ -146,7 +146,7 @@ ii   libkrb5support0         1.17-6                          amd64  MIT Kerberos
 ii   libldap-2.4-2           2.4.48+dfsg-1+b2                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.48+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1+b1                      amd64  log normalizing library
-ii   liblz4-1                1.9.2-1                         amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                        amd64  device mounting library
@@ -176,7 +176,7 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for 
 ii   libsasl2-2              2.1.27+dfsg-1                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.4.1-2                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.9-2+b2                        amd64  SELinux runtime shared libraries
+ii   libselinux1             2.9-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3                           amd64  SELinux policy management library
 ii   libsepol1               2.9-2+b2                        amd64  SELinux library for manipulating binary security policies
