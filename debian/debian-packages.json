@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "308",
+    "Installed-Size": "324",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.1-2",
+    "Version": "2.4.2-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.4.1-2"
+    "source:Version": "2.4.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "libc6 (>= 2.14), libpcre2-8-0 (>= 10.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "205",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-2+b2",
+    "Version": "2.9-3",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "2.9-2"
+    "source:Version": "2.9-3"
   },
   {
     "Architecture": "all",

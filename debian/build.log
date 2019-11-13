@@ -59,8 +59,10 @@ I: Validating libgpg-error0 1.36-7
 I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.2.0-2
 I: Validating libmnl0 1.0.4-2+b1
-I: Validating libseccomp2 2.4.1-2
-I: Validating libselinux1 2.9-2+b2
+I: Retrieving libseccomp2 2.4.2-1
+I: Validating libseccomp2 2.4.2-1
+I: Retrieving libselinux1 2.9-3
+I: Validating libselinux1 2.9-3
 I: Validating libsemanage-common 2.9-3
 I: Validating libsemanage1 2.9-3
 I: Validating libsepol1 2.9-2+b2
@@ -68,7 +70,6 @@ I: Validating libtasn1-6 4.14-3
 I: Validating libunistring2 0.9.10-2
 I: Validating libzstd1 1.4.3+dfsg-1
 I: Validating lsb-base 11.1.0
-I: Retrieving liblz4-1 1.9.2-2
 I: Validating liblz4-1 1.9.2-2
 I: Validating mawk 1.3.3-17+b3
 I: Validating libncursesw6 6.1+20191019-1
@@ -402,14 +403,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.13MB
+Sending build context to Docker daemon  31.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7e9b1fa6c429
+ ---> c6d829c635ce
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4bcc232dd556
-Removing intermediate container 4bcc232dd556
- ---> afa06971f5bf
-Successfully built afa06971f5bf
+ ---> Running in bfe1a88a872e
+Removing intermediate container bfe1a88a872e
+ ---> c8d460b06d4c
+Successfully built c8d460b06d4c
 Successfully tagged minimum2scp/debian:latest
