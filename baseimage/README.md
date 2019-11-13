@@ -175,7 +175,7 @@ ii   libreadline8            8.0-3                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.4.1-2                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.2-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3                           amd64  SELinux policy management library
@@ -225,7 +225,7 @@ ii   python3-minimal         3.7.5-1                         amd64  minimal subs
 ii   python3.7               3.7.5-2                         amd64  Interactive high-level object-oriented language (version 3.7)
 ii   python3.7-minimal       3.7.5-2                         amd64  Minimal subset of the Python language (version 3.7)
 ii   readline-common         8.0-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.1910.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.1911.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                          all    Utilities for sensible alternative selection
