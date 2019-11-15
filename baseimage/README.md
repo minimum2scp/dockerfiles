@@ -105,13 +105,13 @@ ii   libattr1                1:2.4.48-5                      amd64  extended att
 ii   libaudit-common         1:2.8.5-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                        amd64  block device ID library
-ii   libbrotli1              1.0.7-5                         amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-5+b1                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-3                          amd64  GNU C Library: Binaries
 ii   libc-l10n               2.29-3                          all    GNU C Library: localization files
 ii   libc6                   2.29-3                          amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.1                       amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1                        amd64  common error description library
@@ -168,7 +168,7 @@ ii   libpipeline1            1.5.1-2                         amd64  pipeline man
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib       3.7.5-1                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib       3.7.5-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.7-minimal    3.7.5-2                         amd64  Minimal subset of the Python language (version 3.7)
 ii   libpython3.7-stdlib     3.7.5-2                         amd64  Interactive high-level object-oriented language (standard library, version 3.7)
 ii   libreadline8            8.0-3                           amd64  GNU readline and history libraries, run-time libraries
@@ -187,11 +187,11 @@ ii   libss2                  1.45.4-1                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-19                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             243-5                           amd64  systemd utility library
+ii   libsystemd0             243-6                           amd64  systemd utility library
 ii   libtasn1-6              4.14-3                          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                243-5                           amd64  libudev shared library
+ii   libudev1                243-6                           amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                        amd64  Wietse Venema's TCP wrappers library
@@ -220,8 +220,8 @@ ii   perl                    5.30.0-9                        amd64  Larry Wall's
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
 ii   procps                  2:3.3.15-2+b1                   amd64  /proc file system utilities
-ii   python3                 3.7.5-1                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal         3.7.5-1                         amd64  minimal subset of the Python language (default python3 version)
+ii   python3                 3.7.5-3                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal         3.7.5-3                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.7               3.7.5-2                         amd64  Interactive high-level object-oriented language (version 3.7)
 ii   python3.7-minimal       3.7.5-2                         amd64  Minimal subset of the Python language (version 3.7)
 ii   readline-common         8.0-3                           all    GNU readline and history libraries, common files
