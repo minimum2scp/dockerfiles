@@ -2498,7 +2498,7 @@
     "Depends": "libc6 (>= 2.15), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "374",
+    "Installed-Size": "375",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-3",
+    "Version": "0.52.21-3+b1",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.2-1",
+    "Version": "2.4.2-2",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.4.2-1"
+    "source:Version": "2.4.2-2"
   },
   {
     "Architecture": "amd64",
@@ -3114,7 +3114,7 @@
     "Depends": "libc6 (>= 2.14), libpcre2-8-0 (>= 10.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "205",
+    "Installed-Size": "206",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-3",
+    "Version": "2.9-3+b1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "243-6",
+    "Version": "243-7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "243-6"
+    "source:Version": "243-7"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "243-6",
+    "Version": "243-7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "243-6"
+    "source:Version": "243-7"
   },
   {
     "Architecture": "amd64",
@@ -3674,7 +3674,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "705",
+    "Installed-Size": "713",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3685,7 +3685,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.3+dfsg-1",
+    "Version": "1.4.4+dfsg-1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.3+dfsg-1"
+    "source:Version": "1.4.4+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -4934,7 +4934,7 @@
     "Depends": "libc6 (>= 2.14), libnewt0.52 (>= 0.52.21), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "70",
+    "Installed-Size": "71",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4945,7 +4945,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-3",
+    "Version": "0.52.21-3+b1",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
