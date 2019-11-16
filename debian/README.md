@@ -56,7 +56,7 @@ ii   libbsd0                 0.10.0-1             amd64  utility functions from 
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-3               amd64  GNU C Library: Binaries
 ii   libc6                   2.29-3               amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.1            amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.1+b1         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.27-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1             amd64  common error description library
@@ -87,22 +87,22 @@ ii   libpam-runtime          1.3.1-5              all    Runtime support for the
 ii   libpam0g                1.3.1-5              amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.32-5+b1           amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.4.2-1              amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.9-3                amd64  SELinux runtime shared libraries
+ii   libseccomp2             2.4.2-2              amd64  high level interface to Linux seccomp filter
+ii   libselinux1             2.9-3+b1             amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3                amd64  SELinux policy management library
 ii   libsepol1               2.9-2+b2             amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.4-1             amd64  command-line interface parsing library
 ii   libstdc++6              9.2.1-19             amd64  GNU Standard C++ Library v3
-ii   libsystemd0             243-6                amd64  systemd utility library
+ii   libsystemd0             243-7                amd64  systemd utility library
 ii   libtasn1-6              4.14-3               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1       amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                243-6                amd64  libudev shared library
+ii   libudev1                243-7                amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
 ii   libxtables12            1.8.3-2              amd64  netfilter xtables library
-ii   libzstd1                1.4.3+dfsg-1         amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.4+dfsg-1         amd64  fast lossless compression algorithm
 ii   login                   1:4.7-2              amd64  system login tools
 ii   logsave                 1.45.4-1             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
