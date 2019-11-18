@@ -103,7 +103,7 @@ ii   libacl1                 2.2.53-5                        amd64  access contr
 ii   libapt-pkg5.0           1.8.4                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-2                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-2                       amd64  Dynamic library for security auditing
+ii   libaudit1               1:2.8.5-2+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                        amd64  block device ID library
 ii   libbrotli1              1.0.7-5+b1                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
@@ -178,7 +178,7 @@ ii   libsasl2-modules-db     2.1.27+dfsg-1                   amd64  Cyrus SASL -
 ii   libseccomp2             2.4.2-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-3+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            2.9-3                           amd64  SELinux policy management library
+ii   libsemanage1            2.9-3+b1                        amd64  SELinux policy management library
 ii   libsepol1               2.9-2+b2                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
