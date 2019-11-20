@@ -67,14 +67,14 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2                        amd64  commandline package manager
-ii   base-files              10.3+deb10u1                 amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u2                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                     all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
-ii   cron                    3.0pl1-134                   amd64  process scheduling daemon
+ii   cron                    3.0pl1-134+deb10u1           amd64  process scheduling daemon
 ii   curl                    7.64.0-4                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.71                       all    Debian configuration management system
@@ -149,8 +149,8 @@ ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compres
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
-ii   libncurses6             6.1+20181013-2+deb10u1       amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20181013-2+deb10u1       amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20181013-2+deb10u2       amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20181013-2+deb10u2       amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2+deb10u1             amd64  library implementing HTTP/2 protocol (shared library)
@@ -168,8 +168,8 @@ ii   libprocps7              2:3.3.15-2                   amd64  library for acc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.16-2                     amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.16-2                     amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.16-2+deb10u1             amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.16-2+deb10u1             amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
@@ -186,11 +186,11 @@ ii   libss2                  1.44.5-1+deb10u2             amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-0+deb10u2             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-7~deb10u1                amd64  systemd utility library
+ii   libsystemd0             241-7~deb10u2                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20181013-2+deb10u1       amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-2+deb10u2       amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-7~deb10u1                amd64  libudev shared library
+ii   libudev1                241-7~deb10u2                amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
@@ -205,8 +205,8 @@ ii   man-db                  2.8.5-2                      amd64  on-line manual 
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20181013-2+deb10u1       all    basic terminal type definitions
-ii   ncurses-bin             6.1+20181013-2+deb10u1       amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-2+deb10u2       all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-2+deb10u2       amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   netbase                 5.6                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.9p1-10+deb10u1           amd64  secure shell (SSH) client, for secure access to remote machines
@@ -222,8 +222,8 @@ ii   python                  2.7.16-1                     amd64  interactive hig
 ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.16-2                     amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.16-2                     amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.16-2+deb10u1             amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.16-2+deb10u1             amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1901.0-1                   amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text

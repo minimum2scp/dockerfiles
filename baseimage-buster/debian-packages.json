@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u1",
+    "Version": "10.3+deb10u2",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u1"
+    "source:Version": "10.3+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -255,7 +255,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
+    "Depends": "libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.82), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "263",
@@ -269,7 +269,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-134",
+    "Version": "3.0pl1-134+deb10u1",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-134"
+    "source:Version": "3.0pl1-134+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -2355,7 +2355,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20181013-2+deb10u1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20181013-2+deb10u2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "334",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20181013-2+deb10u1",
+    "Version": "6.1+20181013-2+deb10u2",
     "binary:Package": "libncurses6:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2377,13 +2377,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20181013-2+deb10u1"
+    "source:Version": "6.1+20181013-2+deb10u2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.1+20181013-2+deb10u1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.1+20181013-2+deb10u2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "411",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20181013-2+deb10u1",
+    "Version": "6.1+20181013-2+deb10u2",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20181013-2+deb10u1"
+    "source:Version": "6.1+20181013-2+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -2901,7 +2901,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.16-2",
+    "Version": "2.7.16-2+deb10u1",
     "binary:Package": "libpython2.7-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2909,16 +2909,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.16-2"
+    "source:Version": "2.7.16-2+deb10u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cython (<< 0.26-2.1), epigrass (<= 2.4.7-1), invesalius-bin (<= 3.1.1-1), macs (<= 2.1.1.20160309-1), printrun (<= 0~20150310-5), pycorrfit (<= 1.0.0+dfsg-1), pyscanfcs (<= 0.2.3-3), python-acora (<= 2.0-2+b1), python-adios (<= 1.12.0-3), python-astroml-addons (<= 0.2.2-4), python-astropy (<= 2.0.1-2), python-astroscrappy (<= 1.0.5-1+b1), python-bcolz (<= 1.1.0+ds1-4+b1), python-breezy (<= 3.0.0~bzr6772-1), python-bzrlib (<= 2.7.0+bzr6622-7), python-cartopy (<= 0.14.2+dfsg1-2+b1), python-cogent (<= 1.9-11), python-cutadapt (<= 1.13-1+b1), python-cypari2 (<= 1.0.0-3), python-dipy-lib (<= 0.12.0-1), python-djvu (<= 0.8-2), python-fabio (<= 0.4.0+dfsg-2+b1), python-falcon (<= 1.0.0-2+b1), python-fiona (<= 1.7.9-1), python-fpylll (<= 0.2.4+ds-3), python-grib (<= 2.0.2-2), python-gssapi (<= 1.2.0-1+b1), python-h5py (<= 2.7.0-1+b1), python-healpy (<= 1.10.3-2+b1), python-htseq (<= 0.6.1p1-4), python-imobiledevice (<= 1.2.0+dfsg-3.1), python-kivy (<= 1.9.1-1+b1), python-libdiscid (<= 1.0-1+b1), python-liblo (<= 0.10.0-3+b1), python-llfuse (<= 1.2+dfsg-1+b1), python-lxml (<< 3.8.0-2), python-meliae (<= 0.4.0+bzr199-3), python-netcdf4 (<= 1.2.9-1+b1), python-nipy-lib (<= 0.4.1-1), python-numpy (<< 1:1.12.1-3.1), python-pandas-lib (<= 0.20.3-1), python-petsc4py (<= 3.7.0-3+b1), python-pybloomfiltermmap (<= 0.3.15-0.1+b1), python-pyfai (<= 0.13.0+dfsg-1+b1), python-pygame-sdl2 (<= 6.99.12.4-1), python-pygpu (<= 0.6.9-2), python-pymca5 (<= 5.1.3+dfsg-1+b1), python-pymssql (<= 2.1.3+dfsg-1+b1), python-pyresample (<= 1.5.0-3+b1), python-pysam (<= 0.11.2.2+ds-3), python-pysph (<= 0~20160514.git91867dc-4), python-pywt (<= 0.5.1-1.1+b1), python-rasterio (<= 0.36.0-2+b2), python-renpy (<= 6.99.12.4+dfsg-1), python-scipy (<< 0.18.1-2.1), python-sfepy (<= 2016.2-2), python-sfml (<= 2.2~git20150611.196c88+dfsg-4), python-shapely (<= 1.6.1-1), python-skimage-lib (<= 0.12.3-9+b1), python-sklearn-lib (<= 0.19.0-1), python-specutils (<= 0.2.2-1+b1), python-statsmodels-lib (<= 0.8.0-3), python-stemmer (<= 1.3.0+dfsg-1+b7), python-tables-lib (<= 3.3.0-5+b1), python-tinycss (<= 0.4-1+b1), python-tk (<< 2.7.14~rc1-1~), python-urllib3 (<< 1.9.1-3), python-wheezy.template (<= 0.1.167-1.1+b1), python-yt (<= 3.3.3-2+b1), sagemath (<= 8.0-5), xpra (<= 0.17.6+dfsg-1)",
-    "Depends": "libpython2.7-minimal (= 2.7.16-2), libssl1.1 (>= 1.1.1), mime-support, libbz2-1.0, libc6 (>= 2.28), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw6 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libtinfo6 (>= 6)",
+    "Depends": "libpython2.7-minimal (= 2.7.16-2+deb10u1), libssl1.1 (>= 1.1.1), mime-support, libbz2-1.0, libc6 (>= 2.28), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw6 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8915",
+    "Installed-Size": "8916",
     "Origin": "",
     "Package": "libpython2.7-stdlib",
     "Pre-Depends": "",
@@ -2929,7 +2929,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.7.16-2",
+    "Version": "2.7.16-2+deb10u1",
     "binary:Package": "libpython2.7-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.16-2"
+    "source:Version": "2.7.16-2+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u1",
+    "Version": "241-7~deb10u2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u1"
+    "source:Version": "241-7~deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20181013-2+deb10u1",
+    "Version": "6.1+20181013-2+deb10u2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20181013-2+deb10u1"
+    "source:Version": "6.1+20181013-2+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u1",
+    "Version": "241-7~deb10u2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u1"
+    "source:Version": "241-7~deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -3937,7 +3937,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20181013-2+deb10u1",
+    "Version": "6.1+20181013-2+deb10u2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20181013-2+deb10u1"
+    "source:Version": "6.1+20181013-2+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -3965,7 +3965,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.1+20181013-2+deb10u1",
+    "Version": "6.1+20181013-2+deb10u2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.1+20181013-2+deb10u1"
+    "source:Version": "6.1+20181013-2+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -4399,7 +4399,7 @@
     "Architecture": "amd64",
     "Conflicts": "python-profiler (<= 2.7.1-2)",
     "Breaks": "python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)",
-    "Depends": "python2.7-minimal (= 2.7.16-2), libpython2.7-stdlib (= 2.7.16-2), mime-support",
+    "Depends": "python2.7-minimal (= 2.7.16-2+deb10u1), libpython2.7-stdlib (= 2.7.16-2+deb10u1), mime-support",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "377",
@@ -4413,7 +4413,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python2.7-doc, binutils",
-    "Version": "2.7.16-2",
+    "Version": "2.7.16-2+deb10u1",
     "binary:Package": "python2.7",
     "binary:Summary": "Interactive high-level object-oriented language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4421,16 +4421,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.16-2"
+    "source:Version": "2.7.16-2+deb10u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython2.7-minimal (= 2.7.16-2)",
+    "Depends": "libpython2.7-minimal (= 2.7.16-2+deb10u1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3731",
+    "Installed-Size": "3735",
     "Origin": "",
     "Package": "python2.7-minimal",
     "Pre-Depends": "libc6 (>= 2.28), zlib1g (>= 1:1.2.0)",
@@ -4441,7 +4441,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "2.7.16-2",
+    "Version": "2.7.16-2+deb10u1",
     "binary:Package": "python2.7-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 2.7)",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python2.7",
-    "source:Version": "2.7.16-2"
+    "source:Version": "2.7.16-2+deb10u1"
   },
   {
     "Architecture": "all",
