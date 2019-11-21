@@ -17,7 +17,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -54,7 +54,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -91,7 +91,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -125,7 +125,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -159,7 +159,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -193,7 +193,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -221,7 +221,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -258,7 +258,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -286,7 +286,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -323,7 +323,7 @@ jobs:
         with:
           ruby-version: 2.6.x
       - run: gem install bundler --version '>= 2.0.0'
-      - uses: actions/cache@v1.0.1
+      - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
