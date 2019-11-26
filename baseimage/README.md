@@ -194,7 +194,7 @@ ii   libuchardet0            0.0.6-3                         amd64  universal ch
 ii   libudev1                243-8                           amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
-ii   libwrap0                7.6.q-28                        amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                7.6.q-29                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
@@ -210,7 +210,7 @@ ii   mount                   2.34-0.1                        amd64  tools for mo
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
-ii   netbase                 5.6                             all    Basic TCP/IP networking system
+ii   netbase                 5.7                             all    Basic TCP/IP networking system
 ii   openssh-client          1:8.1p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.1p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.1p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines

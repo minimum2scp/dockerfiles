@@ -3618,7 +3618,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "108",
+    "Installed-Size": "109",
     "Origin": "",
     "Package": "libwrap0",
     "Pre-Depends": "",
@@ -3629,7 +3629,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.6.q-28",
+    "Version": "7.6.q-29",
     "binary:Package": "libwrap0:amd64",
     "binary:Summary": "Wietse Venema's TCP wrappers library",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tcp-wrappers",
-    "source:Version": "7.6.q-28"
+    "source:Version": "7.6.q-29"
   },
   {
     "Architecture": "amd64",
@@ -4066,7 +4066,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "44",
+    "Installed-Size": "42",
     "Origin": "",
     "Package": "netbase",
     "Pre-Depends": "",
@@ -4077,7 +4077,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.6",
+    "Version": "5.7",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4085,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "5.6"
+    "source:Version": "5.7"
   },
   {
     "Architecture": "amd64",
