@@ -930,7 +930,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, libbsd0 (>= 0.0), libc6 (>= 2.29), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2623",
+    "Installed-Size": "2654",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "5.3.0-1",
+    "Version": "5.4.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "5.3.0-1"
+    "source:Version": "5.4.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2694,7 +2694,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "577",
+    "Installed-Size": "626",
     "Origin": "",
     "Package": "libpcre2-8-0",
     "Pre-Depends": "",
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.32-5+b1",
+    "Version": "10.34-1",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.32-5"
+    "source:Version": "10.34-1"
   },
   {
     "Architecture": "amd64",
@@ -3629,7 +3629,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.6.q-29",
+    "Version": "7.6.q-30",
     "binary:Package": "libwrap0:amd64",
     "binary:Summary": "Wietse Venema's TCP wrappers library",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tcp-wrappers",
-    "source:Version": "7.6.q-29"
+    "source:Version": "7.6.q-30"
   },
   {
     "Architecture": "amd64",

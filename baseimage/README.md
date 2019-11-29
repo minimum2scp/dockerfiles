@@ -98,7 +98,7 @@ ii   inetutils-ping          2:1.9.4-10                      amd64  ICMP echo to
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
 ii   initscripts             2.96-1                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.3.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.4.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5                        amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -161,7 +161,7 @@ ii   libpam-modules          1.3.1-5                         amd64  Pluggable Au
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.32-5+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                         amd64  pipeline manipulation library
@@ -194,7 +194,7 @@ ii   libuchardet0            0.0.6-3                         amd64  universal ch
 ii   libudev1                243-8                           amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
-ii   libwrap0                7.6.q-29                        amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.3-2                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
