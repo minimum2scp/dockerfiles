@@ -45,7 +45,7 @@ ii   gzip                    1.9-3+b1             amd64  GNU compression utiliti
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
-ii   iproute2                5.3.0-1              amd64  networking and traffic control tools
+ii   iproute2                5.4.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5             amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
@@ -85,7 +85,7 @@ ii   libpam-modules          1.3.1-5              amd64  Pluggable Authenticatio
 ii   libpam-modules-bin      1.3.1-5              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5              all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5              amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.32-5+b1           amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-1              amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.2-2              amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-3+b1             amd64  SELinux runtime shared libraries
