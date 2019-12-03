@@ -160,7 +160,7 @@ ii   libpam-modules          1.3.1-5                         amd64  Pluggable Au
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.34-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                         amd64  pipeline manipulation library
@@ -181,11 +181,11 @@ ii   libss2                  1.45.4-1                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-21                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             243-9                           amd64  systemd utility library
+ii   libsystemd0             244-3                           amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                243-9                           amd64  libudev shared library
+ii   libudev1                244-3                           amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
