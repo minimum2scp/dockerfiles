@@ -160,7 +160,7 @@ ii   libpam-modules          1.3.1-5                         amd64  Pluggable Au
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.34-3                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-3+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                         amd64  pipeline manipulation library
@@ -189,7 +189,7 @@ ii   libudev1                244-3                           amd64  libudev shar
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.3-2                         amd64  netfilter xtables library
+ii   libxtables12            1.8.4-1                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.29-3                          all    GNU C Library: National Language (locale) data [support]
