@@ -2666,7 +2666,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "627",
+    "Installed-Size": "629",
     "Origin": "",
     "Package": "libpcre2-8-0",
     "Pre-Depends": "",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.34-3+b1",
+    "Version": "10.34-5",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.34-3"
+    "source:Version": "10.34-5"
   },
   {
     "Architecture": "amd64",
@@ -3881,7 +3881,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.7",
+    "Version": "5.8",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "5.7"
+    "source:Version": "5.8"
   },
   {
     "Architecture": "amd64",

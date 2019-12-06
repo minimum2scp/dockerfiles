@@ -160,7 +160,7 @@ ii   libpam-modules          1.3.1-5                         amd64  Pluggable Au
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.34-3+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.1-2                         amd64  pipeline manipulation library
@@ -203,7 +203,7 @@ ii   mount                   2.34-0.1                        amd64  tools for mo
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
-ii   netbase                 5.7                             all    Basic TCP/IP networking system
+ii   netbase                 5.8                             all    Basic TCP/IP networking system
 ii   openssh-client          1:8.1p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.1p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.1p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
