@@ -85,7 +85,7 @@ ii   libpam-modules          1.3.1-5              amd64  Pluggable Authenticatio
 ii   libpam-modules-bin      1.3.1-5              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5              all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5              amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.34-3+b1           amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.34-5              amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.2-2              amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.9-3+b1             amd64  SELinux runtime shared libraries
@@ -110,7 +110,7 @@ ii   mawk                    1.3.3-17+b3          amd64  a pattern scanning and 
 ii   mount                   2.34-0.1             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1       all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1       amd64  terminal-related programs and man pages
-ii   netbase                 5.7                  all    Basic TCP/IP networking system
+ii   netbase                 5.8                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.7-2              amd64  change and administer password and group data
 ii   perl-base               5.30.0-9             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
