@@ -32,7 +32,7 @@ ii   coreutils               8.30-3+b1            amd64  GNU core utilities
 ii   dash                    0.5.10.2-6           amd64  POSIX-compliant shell
 ii   debconf                 1.5.73               all    Debian configuration management system
 ii   debian-archive-keyring  2019.1               all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.9                  amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.9.1                amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3              amd64  File comparison utilities
 ii   dpkg                    1.19.7               amd64  Debian package management system
 ii   e2fsprogs               1.45.4-1             amd64  ext2/ext3/ext4 file system utilities
@@ -54,12 +54,13 @@ ii   libaudit1               1:2.8.5-2+b1         amd64  Dynamic library for sec
 ii   libblkid1               2.34-0.1             amd64  block device ID library
 ii   libbsd0                 0.10.0-1             amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.29-3               amd64  GNU C Library: Binaries
-ii   libc6                   2.29-3               amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.29-5               amd64  GNU C Library: Binaries
+ii   libc6                   2.29-5               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.27-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1             amd64  common error description library
+ii   libcrypt1               1:4.4.10-5           amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.250                amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files

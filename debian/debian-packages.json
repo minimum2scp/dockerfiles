@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9",
+    "Version": "4.9.1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.9"
+    "source:Version": "4.9.1"
   },
   {
     "Architecture": "amd64",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-3",
+    "Version": "2.29-5",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -921,16 +921,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-3"
+    "source:Version": "2.29-5"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "openrc (<< 0.27-2~)",
     "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.29), locales-all (<< 2.29), nocache (<< 1.1-1~), nscd (<< 2.29), r-cran-later (<< 0.7.5+dfsg-2)",
-    "Depends": "libgcc1",
+    "Depends": "libgcc1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12083",
+    "Installed-Size": "12043",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.29-3",
+    "Version": "2.29-5",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-3"
+    "source:Version": "2.29-5"
   },
   {
     "Architecture": "amd64",
@@ -1062,6 +1062,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
     "source:Version": "1.45.4-1"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "libc6 (<< 2.29-4)",
+    "Depends": "libc6 (>= 2.25)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "225",
+    "Origin": "",
+    "Package": "libcrypt1",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "1:4.4.10-5",
+    "binary:Package": "libcrypt1:amd64",
+    "binary:Summary": "libcrypt shared library",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "libxcrypt",
+    "source:Version": "1:4.4.10-5"
   },
   {
     "Architecture": "amd64",
