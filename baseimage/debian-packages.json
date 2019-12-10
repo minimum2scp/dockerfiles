@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>> 2.29), libc6 (<< 2.30)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3518",
+    "Installed-Size": "3519",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-5",
+    "Version": "2.29-6",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-5"
+    "source:Version": "2.29-6"
   },
   {
     "Architecture": "all",
@@ -1238,7 +1238,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4264",
+    "Installed-Size": "4265",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-5",
+    "Version": "2.29-6",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-5"
+    "source:Version": "2.29-6"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libgcc1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12043",
+    "Installed-Size": "12044",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.29-5",
+    "Version": "2.29-6",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-5"
+    "source:Version": "2.29-6"
   },
   {
     "Architecture": "amd64",
@@ -3590,7 +3590,7 @@
     "Depends": "libc-bin (>> 2.29), libc-l10n (>> 2.29), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16108",
+    "Installed-Size": "16109",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3601,7 +3601,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-5",
+    "Version": "2.29-6",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-5"
+    "source:Version": "2.29-6"
   },
   {
     "Architecture": "amd64",
