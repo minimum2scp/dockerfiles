@@ -87,8 +87,8 @@ ii   etckeeper               1.18.12-1                       all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-21                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.24.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.24.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.24.0-2                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.24.0-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                        amd64  GNU troff text-formatting system (base system components)
@@ -175,7 +175,7 @@ ii   libseccomp2             2.4.2-2                         amd64  high level i
 ii   libselinux1             2.9-3+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3+b1                        amd64  SELinux policy management library
-ii   libsepol1               2.9-2+b2                        amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
 ii   libss2                  1.45.4-1                        amd64  command-line interface parsing library
