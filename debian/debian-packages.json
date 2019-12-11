@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "737",
+    "Installed-Size": "734",
     "Origin": "",
     "Package": "libsepol1",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-2+b2",
+    "Version": "3.0-1",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "2.9-2"
+    "source:Version": "3.0-1"
   },
   {
     "Architecture": "amd64",
