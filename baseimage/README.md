@@ -172,7 +172,7 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for 
 ii   libsasl2-2              2.1.27+dfsg-1                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.4.2-2                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1             2.9-3+b1                        amd64  SELinux runtime shared libraries
+ii   libselinux1             3.0-1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.9-3                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            2.9-3+b1                        amd64  SELinux policy management library
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
@@ -198,16 +198,16 @@ ii   login                   1:4.7-2                         amd64  system login
 ii   logsave                 1.45.4-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.9.0-1                         amd64  tools for reading manual pages
+ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 5.8                             all    Basic TCP/IP networking system
-ii   openssh-client          1:8.1p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.1p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.1p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.1p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.1p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.1p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.7-2                         amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
