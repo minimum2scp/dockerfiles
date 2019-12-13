@@ -3030,7 +3030,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "35",
+    "Installed-Size": "36",
     "Origin": "",
     "Package": "libsemanage-common",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-3",
+    "Version": "3.0-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -3049,16 +3049,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.9-3"
+    "source:Version": "3.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "policycoreutils (<< 2.4), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
-    "Depends": "libsemanage-common (= 2.9-3), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.9), libsepol1 (>= 2.9)",
+    "Breaks": "policycoreutils (<< 3.0), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
+    "Depends": "libsemanage-common (= 3.0-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.0), libsepol1 (>= 3.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "302",
+    "Installed-Size": "301",
     "Origin": "",
     "Package": "libsemanage1",
     "Pre-Depends": "",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9-3+b1",
+    "Version": "3.0-1",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "2.9-3"
+    "source:Version": "3.0-1"
   },
   {
     "Architecture": "amd64",
