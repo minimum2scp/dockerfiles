@@ -134,7 +134,7 @@ ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.10-5                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.11.1-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
@@ -164,7 +164,7 @@ ii   libpam0g                1.3.1-5                         amd64  Pluggable Au
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
-ii   libpipeline1            1.5.1-2                         amd64  pipeline manipulation library
+ii   libpipeline1            1.5.1-3                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
