@@ -90,7 +90,7 @@
     "Depends": "libc6 (>= 2.8), libdebconfclient0 (>= 0.145)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "232",
+    "Installed-Size": "233",
     "Origin": "",
     "Package": "base-passwd",
     "Pre-Depends": "",
@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.46",
+    "Version": "3.5.47",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.46"
+    "source:Version": "3.5.47"
   },
   {
     "Architecture": "amd64",

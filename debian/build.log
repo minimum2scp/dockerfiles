@@ -15,7 +15,8 @@ I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-2
 I: Validating libaudit1 1:2.8.5-2+b1
 I: Validating base-files 11
-I: Validating base-passwd 3.5.46
+I: Retrieving base-passwd 3.5.47
+I: Validating base-passwd 3.5.47
 I: Validating bash 5.0-5
 I: Validating libbz2-1.0 1.0.8-2
 I: Validating libdebconfclient0 0.250
@@ -41,7 +42,6 @@ I: Validating libc-bin 2.29-6
 I: Validating libc6 2.29-6
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.17-3
-I: Retrieving libgnutls30 3.6.11.1-2
 I: Validating libgnutls30 3.6.11.1-2
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3+b1
@@ -406,14 +406,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.31MB
+Sending build context to Docker daemon  31.29MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3d83b3129596
+ ---> 57f789f42038
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in f92fff6dbec4
-Removing intermediate container f92fff6dbec4
- ---> 18dcad8c679c
-Successfully built 18dcad8c679c
+ ---> Running in 385464de3aa0
+Removing intermediate container 385464de3aa0
+ ---> 15a89f9a5f91
+Successfully built 15a89f9a5f91
 Successfully tagged minimum2scp/debian:latest
