@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo (>= 1.7.4p4)",
-    "Version": "1.18.12-1",
+    "Version": "1.18.12-1.1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, bzr or darcs",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.12-1"
+    "source:Version": "1.18.12-1.1"
   },
   {
     "Architecture": "amd64",
@@ -731,10 +731,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "groff (<< 1.22.4~rc2-2), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
-    "Depends": "libc6 (>= 2.14), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
+    "Depends": "libc6 (>= 2.29), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3603",
+    "Installed-Size": "3617",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.4-3",
+    "Version": "1.22.4-4",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.4-3"
+    "source:Version": "1.22.4-4"
   },
   {
     "Architecture": "amd64",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.10-5",
+    "Version": "1:4.4.10-7",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.10-5"
+    "source:Version": "1:4.4.10-7"
   },
   {
     "Architecture": "amd64",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-20191025-1",
+    "Version": "3.1-20191211-1",
     "binary:Package": "libedit2:amd64",
     "binary:Summary": "BSD editline and history libraries",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libedit",
-    "source:Version": "3.1-20191025-1"
+    "source:Version": "3.1-20191211-1"
   },
   {
     "Architecture": "amd64",
@@ -2498,7 +2498,7 @@
     "Depends": "libc6 (>= 2.15), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "375",
+    "Installed-Size": "374",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-3+b1",
+    "Version": "0.52.21-4",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.21-3"
+    "source:Version": "0.52.21-4"
   },
   {
     "Architecture": "amd64",
@@ -3618,10 +3618,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2291",
+    "Installed-Size": "2325",
     "Origin": "",
     "Package": "login",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3629,7 +3629,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.7-2",
+    "Version": "1:4.8-1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3637,7 +3637,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.7-2"
+    "source:Version": "1:4.8-1"
   },
   {
     "Architecture": "amd64",
@@ -4035,10 +4035,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2657",
+    "Installed-Size": "2735",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.7-2",
+    "Version": "1:4.8-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.7-2"
+    "source:Version": "1:4.8-1"
   },
   {
     "Architecture": "amd64",
@@ -4626,7 +4626,7 @@
     "Depends": "libc6 (>= 2.14), libnewt0.52 (>= 0.52.21), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "71",
+    "Installed-Size": "70",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4637,7 +4637,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-3+b1",
+    "Version": "0.52.21-4",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.21-3"
+    "source:Version": "0.52.21-4"
   },
   {
     "Architecture": "amd64",

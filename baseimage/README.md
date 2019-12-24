@@ -83,7 +83,7 @@ ii   debianutils             4.9.1                           amd64  Miscellaneou
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dpkg                    1.19.7                          amd64  Debian package management system
 ii   e2fsprogs               1.45.4-1                        amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper               1.18.12-1                       all    store /etc in git, mercurial, bzr or darcs
+ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-21                        amd64  GCC, the GNU Compiler Collection (base package)
@@ -91,7 +91,7 @@ ii   git                     1:2.24.1-1                      amd64  fast, scalab
 ii   git-man                 1:2.24.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                           amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.4-3                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3+b1                        amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                      amd64  ICMP echo tool
@@ -115,12 +115,12 @@ ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.10-5                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.10-7                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.67.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.250                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20191025-1                  amd64  BSD editline and history libraries
+ii   libedit2                3.1-20191211-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                       amd64  library to read and write ELF files
 ii   liberror-perl           0.17028-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
@@ -154,7 +154,7 @@ ii   libmount1               2.34-0.1                        amd64  device mount
 ii   libncurses6             6.1+20191019-1                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20191019-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.21-3+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.21-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.40.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.18.1-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
@@ -194,7 +194,7 @@ ii   libxtables12            1.8.4-1                         amd64  netfilter xt
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.29-6                          all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.7-2                         amd64  system login tools
+ii   login                   1:4.8-1                         amd64  system login tools
 ii   logsave                 1.45.4-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
@@ -209,7 +209,7 @@ ii   openssh-client          1:8.1p1-2                       amd64  secure shell
 ii   openssh-server          1:8.1p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.1p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.7-2                         amd64  change and administer password and group data
+ii   passwd                  1:4.8-1                         amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
@@ -230,7 +230,7 @@ ii   unzip                   6.0-25                          amd64  De-archiver 
 ii   util-linux              2.34-0.1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.2269-1                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.1.2269-1                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.21-3+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.2269-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1+b1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1+b1                      amd64  shell with lots of features
