@@ -2494,7 +2494,7 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "ebtables (<< 2.0.11-2)",
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
@@ -2509,7 +2509,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.8",
+    "Version": "6.0",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "5.8"
+    "source:Version": "6.0"
   },
   {
     "Architecture": "amd64",
