@@ -2915,21 +2915,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-1), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-2), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "188",
+    "Installed-Size": "184",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-1)",
+    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-1",
+    "Version": "2.1.27+dfsg-2",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-1"
+    "source:Version": "2.1.27+dfsg-2"
   },
   {
     "Architecture": "amd64",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-1",
+    "Version": "2.1.27+dfsg-2",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-1"
+    "source:Version": "2.1.27+dfsg-2"
   },
   {
     "Architecture": "amd64",
@@ -3894,7 +3894,7 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "ebtables (<< 2.0.11-2)",
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
@@ -3909,7 +3909,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.8",
+    "Version": "6.0",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "5.8"
+    "source:Version": "6.0"
   },
   {
     "Architecture": "amd64",
