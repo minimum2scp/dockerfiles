@@ -87,8 +87,8 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-9-base              9.2.1-21                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.24.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.24.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.25.0~rc0-1                  amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.25.0~rc0-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.17-3                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
@@ -199,7 +199,7 @@ ii   logsave                 1.45.4-1                        amd64  save the out
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
-ii   mawk                    1.3.3-17+b3                     amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.3-19                        amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
