@@ -87,8 +87,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190209-2         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.3.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.1-2                   amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.1-2                   all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.1-2+deb10u1           amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.1-2+deb10u1           all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1+deb10u1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -172,8 +172,8 @@ ii   libpython2.7-minimal    2.7.16-2+deb10u1             amd64  Minimal subset 
 ii   libpython2.7-stdlib     2.7.16-2+deb10u1             amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27+dfsg-1                amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27+dfsg-1                amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27+dfsg-1+deb10u1        amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27+dfsg-1+deb10u1        amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
