@@ -115,7 +115,7 @@ ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.10-7                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.10-9                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.67.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
