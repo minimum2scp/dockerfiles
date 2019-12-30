@@ -66,11 +66,11 @@ I: Validating libsemanage1 3.0-1
 I: Validating libsepol1 3.0-1
 I: Validating libtasn1-6 4.15.0-2
 I: Validating libunistring2 0.9.10-2
-I: Validating libcrypt1 1:4.4.10-7
+I: Retrieving libcrypt1 1:4.4.10-9
+I: Validating libcrypt1 1:4.4.10-9
 I: Validating libzstd1 1.4.4+dfsg-1
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
-I: Retrieving mawk 1.3.3-19
 I: Validating mawk 1.3.3-19
 I: Validating libncursesw6 6.1+20191019-1
 I: Validating libtinfo6 6.1+20191019-1
@@ -410,10 +410,10 @@ Sending build context to Docker daemon  31.32MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ff5155bd618a
+ ---> 9e7dfd043390
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b49c29003055
-Removing intermediate container b49c29003055
- ---> 4ea9f112cd7f
-Successfully built 4ea9f112cd7f
+ ---> Running in 83234ce90a77
+Removing intermediate container 83234ce90a77
+ ---> 2ee9131a86d4
+Successfully built 2ee9131a86d4
 Successfully tagged minimum2scp/debian:latest
