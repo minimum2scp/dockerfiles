@@ -105,7 +105,7 @@ ii   libattr1                1:2.4.48-5                      amd64  extended att
 ii   libaudit-common         1:2.8.5-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                        amd64  block device ID library
-ii   libbrotli1              1.0.7-5+b1                      amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-6                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-7                          amd64  GNU C Library: Binaries
@@ -115,7 +115,7 @@ ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.10-9                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.67.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -164,7 +164,7 @@ ii   libpam0g                1.3.1-5                         amd64  Pluggable Au
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
-ii   libpipeline1            1.5.1-3                         amd64  Unix process pipeline manipulation library
+ii   libpipeline1            1.5.2-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
