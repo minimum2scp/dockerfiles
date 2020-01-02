@@ -60,7 +60,7 @@ ii   libcap-ng0              0.7.9-2.1+b1         amd64  An alternate POSIX capa
 ii   libcap2                 1:2.27-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.4-1             amd64  common error description library
-ii   libcrypt1               1:4.4.10-9           amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.10-10          amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.250                amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
