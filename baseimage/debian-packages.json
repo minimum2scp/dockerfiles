@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-20191211-1",
+    "Version": "3.1-20191231-1",
     "binary:Package": "libedit2:amd64",
     "binary:Summary": "BSD editline and history libraries",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libedit",
-    "source:Version": "3.1-20191211-1"
+    "source:Version": "3.1-20191231-1"
   },
   {
     "Architecture": "amd64",
