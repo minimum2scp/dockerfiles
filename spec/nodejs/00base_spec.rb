@@ -64,12 +64,12 @@ describe 'minimum2scp/nodejs' do
 
     describe command('nodenv version-name') do
       let(:login_shell){ true }
-      its(:stdout){ should eq "13.5.0\n" }
+      its(:stdout){ should eq "13.6.0\n" }
     end
 
     [
       {
-        nodejs: '13.5.0',
+        nodejs: '13.6.0',
       },
     ].each do |v|
       describe command('nodenv versions --bare --skip-aliases') do
