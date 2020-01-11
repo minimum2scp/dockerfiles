@@ -108,9 +108,9 @@ ii   libblkid1               2.34-0.1                        amd64  block device
 ii   libbrotli1              1.0.7-6                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.29-8                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.29-8                          all    GNU C Library: localization files
-ii   libc6                   2.29-8                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.29-9                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.29-9                          all    GNU C Library: localization files
+ii   libc6                   2.29-9                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -164,7 +164,7 @@ ii   libpam0g                1.3.1-5                         amd64  Pluggable Au
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
-ii   libpipeline1            1.5.2-1                         amd64  Unix process pipeline manipulation library
+ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps7              2:3.3.15-2+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
@@ -193,7 +193,7 @@ ii   libwrap0                7.6.q-30                        amd64  Wietse Venem
 ii   libxtables12            1.8.4-1                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.29-8                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.29-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8-1                         amd64  system login tools
 ii   logsave                 1.45.5-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
