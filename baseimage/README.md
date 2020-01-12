@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.5-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-9-base              9.2.1-22                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-23                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.0~rc2-1                  amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0~rc2-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
@@ -129,7 +129,7 @@ ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                         amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.2.1-22                      amd64  GCC support library
+ii   libgcc1                 1:9.2.1-23                      amd64  GCC support library
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -181,7 +181,7 @@ ii   libsmartcols1           2.34-0.1                        amd64  smart column
 ii   libss2                  1.45.5-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.2.1-22                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              9.2.1-23                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             244-3                           amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
@@ -205,9 +205,9 @@ ii   ncurses-base            6.1+20191019-1                  all    basic termin
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 6.0                             all    Basic TCP/IP networking system
-ii   openssh-client          1:8.1p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.1p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.1p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.1p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.1p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.1p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8-1                         amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
