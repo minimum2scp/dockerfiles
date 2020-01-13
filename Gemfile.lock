@@ -36,8 +36,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    rspec_junit_formatter (0.4.1)
-      rspec-core (>= 2, < 4, != 2.12.0)
     serverspec (2.41.5)
       multi_json
       rspec (~> 3.0)
@@ -59,9 +57,8 @@ DEPENDENCIES
   pry
   pry-doc
   rake
-  rspec_junit_formatter
   serverspec
   specinfra
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
