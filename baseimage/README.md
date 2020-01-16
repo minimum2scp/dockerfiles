@@ -96,7 +96,7 @@ ii   gzip                    1.9-3+b1                        amd64  GNU compress
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-10                      amd64  ICMP echo tool
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
-ii   initscripts             2.96-1                          all    scripts for initializing and shutting down the system
+ii   initscripts             2.96-2.1                        all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.4.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5                        amd64  access control list - shared library
@@ -199,7 +199,7 @@ ii   logsave                 1.45.5-2                        amd64  save the out
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
-ii   mawk                    1.3.3-19                        amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.3-20                        amd64  a pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
@@ -220,9 +220,9 @@ ii   sed                     4.7-1                           amd64  GNU stream e
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.8.29-1                        amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.96-1                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.96-1                          amd64  System-V-like init utilities
-ii   sysvinit-utils          2.96-1                          amd64  System-V-like utilities
+ii   sysv-rc                 2.96-2.1                        all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.96-2.1                        amd64  System-V-like init utilities
+ii   sysvinit-utils          2.96-2.1                        amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1                  amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019c-3                         all    time zone and daylight-saving time data
 ii   ucf                     3.0038+nmu1                     all    Update Configuration File(s): preserve user changes to config files
