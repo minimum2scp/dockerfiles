@@ -16,8 +16,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -54,8 +54,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -92,8 +92,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -127,8 +127,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -162,8 +162,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -197,8 +197,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -226,8 +226,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -264,8 +264,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -293,8 +293,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -331,8 +331,8 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - run: gem update --system
-      - run: gem install bundler --version '>= 2.0.0'
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
