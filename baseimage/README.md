@@ -128,7 +128,7 @@ ii   libexpat1               2.2.9-1                         amd64  XML parsing 
 ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-9                         amd64  Foreign Function Interface library runtime
+ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.2.1-24                      amd64  GCC support library
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
@@ -156,7 +156,7 @@ ii   libncursesw6            6.1+20191019-1                  amd64  shared libra
 ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.40.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.18.1-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.18.1-2+b1                  amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
