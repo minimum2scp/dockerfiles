@@ -66,7 +66,7 @@ ii   libdebconfclient0       0.250                amd64  Debian Configuration Ma
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
 ii   libext2fs2              1.45.5-2             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
-ii   libffi6                 3.2.1-9              amd64  Foreign Function Interface library runtime
+ii   libffi7                 3.3-3                amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:9.2.1-24           amd64  GCC support library
 ii   libgcrypt20             1.8.5-3              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4       amd64  Multiprecision arithmetic library
@@ -81,7 +81,7 @@ ii   libmnl0                 1.0.4-2+b1           amd64  minimalistic Netlink co
 ii   libmount1               2.34-0.1             amd64  device mounting library
 ii   libncursesw6            6.1+20191019-1       amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2  amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.18.1-2          amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.18.1-2+b1       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5              amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5              all    Runtime support for the PAM library
