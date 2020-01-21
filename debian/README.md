@@ -102,7 +102,7 @@ ii   libtinfo6               6.1+20191019-1       amd64  shared low-level termin
 ii   libudev1                244-3                amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
-ii   libxtables12            1.8.4-1              amd64  netfilter xtables library
+ii   libxtables12            1.8.4-2              amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1         amd64  fast lossless compression algorithm
 ii   login                   1:4.8-1              amd64  system login tools
 ii   logsave                 1.45.5-2             amd64  save the output of a command in a log file
