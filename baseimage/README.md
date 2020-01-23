@@ -214,7 +214,7 @@ ii   perl                    5.30.0-9                        amd64  Larry Wall's
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
 ii   procps                  2:3.3.15-2+b1                   amd64  /proc file system utilities
-ii   rsyslog                 8.1911.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2001.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
