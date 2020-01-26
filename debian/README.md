@@ -43,7 +43,7 @@ ii   gpgv                    2.2.19-1             amd64  GNU privacy guard - sig
 ii   grep                    3.3-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3+b1             amd64  GNU compression utilities
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-10           amd64  ICMP echo tool
+ii   inetutils-ping          2:1.9.4-11           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
 ii   iproute2                5.4.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5             amd64  access control list - shared library
@@ -96,10 +96,10 @@ ii   libsepol1               3.0-1                amd64  SELinux library for man
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.5-2             amd64  command-line interface parsing library
 ii   libstdc++6              9.2.1-25             amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244-3                amd64  systemd utility library
+ii   libsystemd0             244.1-1              amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1       amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                244-3                amd64  libudev shared library
+ii   libudev1                244.1-1              amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
 ii   libxtables12            1.8.4-2              amd64  netfilter xtables library
