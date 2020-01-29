@@ -90,7 +90,7 @@ ii   gcc-9-base              9.2.1-25                        amd64  GCC, the GNU
 ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.3-1                           amd64  GNU grep, egrep and fgrep
+ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3+b1                        amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
@@ -199,7 +199,7 @@ ii   logsave                 1.45.5-2                        amd64  save the out
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
-ii   mawk                    1.3.3-20                        amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-1                amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
