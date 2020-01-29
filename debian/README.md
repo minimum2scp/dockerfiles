@@ -107,7 +107,7 @@ ii   libzstd1                1.4.4+dfsg-1         amd64  fast lossless compressi
 ii   login                   1:4.8-1              amd64  system login tools
 ii   logsave                 1.45.5-2             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
-ii   mawk                    1.3.3-20             amd64  a pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-1     amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1       all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1       amd64  terminal-related programs and man pages
