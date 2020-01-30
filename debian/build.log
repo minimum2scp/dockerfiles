@@ -42,7 +42,8 @@ I: Validating libc6 2.29-9
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.19-1
 I: Validating libgnutls30 3.6.11.1-2
-I: Validating grep 3.3-1
+I: Retrieving grep 3.4-1
+I: Validating grep 3.4-1
 I: Validating gzip 1.9-3+b1
 I: Validating hostname 3.23
 I: Validating inetutils-ping 2:1.9.4-11
@@ -70,7 +71,6 @@ I: Validating libcrypt1 1:4.4.10-10
 I: Validating libzstd1 1.4.4+dfsg-1
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
-I: Retrieving mawk 1.3.4.20200120-1
 I: Validating mawk 1.3.4.20200120-1
 I: Validating libncursesw6 6.1+20191019-1
 I: Validating libtinfo6 6.1+20191019-1
@@ -406,14 +406,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.35MB
+Sending build context to Docker daemon  31.38MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 12e7e876d6d4
+ ---> f0ee5cba9f9d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 69f9c8318c95
-Removing intermediate container 69f9c8318c95
- ---> 54fe766f8bf3
-Successfully built 54fe766f8bf3
+ ---> Running in 434b5c2c276f
+Removing intermediate container 434b5c2c276f
+ ---> 4ef12559e7dd
+Successfully built 4ef12559e7dd
 Successfully tagged minimum2scp/debian:latest
