@@ -42,7 +42,6 @@ I: Validating libc6 2.29-9
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.19-1
 I: Validating libgnutls30 3.6.11.1-2
-I: Retrieving grep 3.4-1
 I: Validating grep 3.4-1
 I: Validating gzip 1.9-3+b1
 I: Validating hostname 3.23
@@ -79,7 +78,8 @@ I: Validating ncurses-bin 6.1+20191019-1
 I: Validating netbase 6.0
 I: Validating libhogweed5 3.5.1+really3.5.1-2
 I: Validating libnettle7 3.5.1+really3.5.1-2
-I: Validating libp11-kit0 0.23.19-2
+I: Retrieving libp11-kit0 0.23.20-1
+I: Validating libp11-kit0 0.23.20-1
 I: Validating libpam-modules 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
@@ -406,14 +406,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.38MB
+Sending build context to Docker daemon  31.37MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f0ee5cba9f9d
+ ---> 7cf2813925fe
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 434b5c2c276f
-Removing intermediate container 434b5c2c276f
- ---> 4ef12559e7dd
-Successfully built 4ef12559e7dd
+ ---> Running in afaf5b0a5371
+Removing intermediate container afaf5b0a5371
+ ---> b8c9eb70f4e8
+Successfully built b8c9eb70f4e8
 Successfully tagged minimum2scp/debian:latest

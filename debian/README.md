@@ -81,7 +81,7 @@ ii   libmnl0                 1.0.4-2+b1           amd64  minimalistic Netlink co
 ii   libmount1               2.34-0.1             amd64  device mounting library
 ii   libncursesw6            6.1+20191019-1       amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2  amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.19-2            amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.20-1            amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5              amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5              all    Runtime support for the PAM library
