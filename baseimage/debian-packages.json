@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.250",
+    "Version": "0.251",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.250"
+    "source:Version": "0.251"
   },
   {
     "Architecture": "amd64",
@@ -1599,10 +1599,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "perl",
+    "Depends": "perl:any",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "76",
+    "Installed-Size": "75",
     "Origin": "",
     "Package": "liberror-perl",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.17028-1",
+    "Version": "0.17029-1",
     "binary:Package": "liberror-perl",
     "binary:Summary": "Perl module for error/exception handling in an OO-ish way",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liberror-perl",
-    "source:Version": "0.17028-1"
+    "source:Version": "0.17029-1"
   },
   {
     "Architecture": "amd64",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.1.2+dfsg-4",
+    "Version": "2:6.2.0+dfsg-3",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.1.2+dfsg-4"
+    "source:Version": "2:6.2.0+dfsg-3"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "244.1-1",
+    "Version": "244.1-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "244.1-1"
+    "source:Version": "244.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "244.1-1",
+    "Version": "244.1-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "244.1-1"
+    "source:Version": "244.1-2"
   },
   {
     "Architecture": "amd64",

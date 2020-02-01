@@ -119,10 +119,10 @@ ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt sha
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.67.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.250                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.251                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
 ii   libelf1                 0.176-1.1                       amd64  library to read and write ELF files
-ii   liberror-perl           0.17028-1                       all    Perl module for error/exception handling in an OO-ish way
+ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.9-1                         amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ext4 file system libraries
@@ -133,7 +133,7 @@ ii   libgcc1                 1:9.2.1-25                      amd64  GCC support 
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                2:6.1.2+dfsg-4                  amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.0+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.11.1-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.36-7                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -182,11 +182,11 @@ ii   libss2                  1.45.5-2                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              9.2.1-25                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244.1-1                         amd64  systemd utility library
+ii   libsystemd0             244.1-2                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                244.1-1                         amd64  libudev shared library
+ii   libudev1                244.1-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
