@@ -86,6 +86,7 @@ ii   e2fsprogs               1.45.5-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
+ii   gcc-10-base             10-20200202-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.2.1-25                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -129,7 +130,8 @@ ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
-ii   libgcc1                 1:9.2.1-25                      amd64  GCC support library
+ii   libgcc-s1               10-20200202-1                   amd64  GCC support library
+ii   libgcc1                 1:10-20200202-1                 amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -181,7 +183,7 @@ ii   libsmartcols1           2.34-0.1                        amd64  smart column
 ii   libss2                  1.45.5-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              9.2.1-25                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10-20200202-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             244.1-2                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
@@ -219,7 +221,7 @@ ii   runit-helper            2.8.14                          all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.29-1                        amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.31-1                        amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-2.1                        all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-2.1                        amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96-2.1                        amd64  System-V-like utilities
@@ -232,7 +234,7 @@ ii   vim-common              2:8.1.2269-1                    all    Vi IMproved 
 ii   vim-tiny                2:8.1.2269-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.2269-1                    amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.11.dfsg-1+b1              amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-1.2               amd64  compression library - runtime
 ii   zsh                     5.7.1-1+b1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                         all    architecture independent files for Zsh
 ```
