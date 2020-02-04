@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200202-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-25                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-28                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
@@ -184,11 +184,11 @@ ii   libss2                  1.45.5-2                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200202-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244.1-2                         amd64  systemd utility library
+ii   libsystemd0             244.1-3                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                244.1-2                         amd64  libudev shared library
+ii   libudev1                244.1-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
