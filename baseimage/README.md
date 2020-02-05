@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.5-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200202-1                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200204-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.2.1-28                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -109,9 +109,9 @@ ii   libblkid1               2.34-0.1                        amd64  block device
 ii   libbrotli1              1.0.7-6                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.29-9                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.29-9                          all    GNU C Library: localization files
-ii   libc6                   2.29-9                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.29-10                         amd64  GNU C Library: Binaries
+ii   libc-l10n               2.29-10                         all    GNU C Library: localization files
+ii   libc6                   2.29-10                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -130,8 +130,8 @@ ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10-20200202-1                   amd64  GCC support library
-ii   libgcc1                 1:10-20200202-1                 amd64  GCC support library (dependency package)
+ii   libgcc-s1               10-20200204-1                   amd64  GCC support library
+ii   libgcc1                 1:10-20200204-1                 amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -183,7 +183,7 @@ ii   libsmartcols1           2.34-0.1                        amd64  smart column
 ii   libss2                  1.45.5-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10-20200202-1                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10-20200204-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             244.1-3                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
@@ -195,7 +195,7 @@ ii   libwrap0                7.6.q-30                        amd64  Wietse Venem
 ii   libxtables12            1.8.4-2                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.29-9                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.29-10                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8-1                         amd64  system login tools
 ii   logsave                 1.45.5-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
