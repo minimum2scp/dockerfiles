@@ -184,11 +184,11 @@ ii   libss2                  1.45.5-2                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200204-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244.1-3                         amd64  systemd utility library
+ii   libsystemd0             244.2-1                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                244.1-3                         amd64  libudev shared library
+ii   libudev1                244.2-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -196,7 +196,7 @@ ii   libxtables12            1.8.4-2                         amd64  netfilter xt
 ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.29-10                         all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.8-1                         amd64  system login tools
+ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.45.5-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
@@ -211,7 +211,7 @@ ii   openssh-client          1:8.1p1-5                       amd64  secure shell
 ii   openssh-server          1:8.1p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.1p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.8-1                         amd64  change and administer password and group data
+ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
