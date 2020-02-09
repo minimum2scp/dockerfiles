@@ -14,7 +14,8 @@ I: Validating libapt-pkg5.0 1.8.2
 I: Validating libattr1 1:2.4.48-4
 I: Validating libaudit-common 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
-I: Validating base-files 10.3+deb10u2
+I: Retrieving base-files 10.3+deb10u3
+I: Validating base-files 10.3+deb10u3
 I: Validating base-passwd 3.5.46
 I: Validating bash 5.0-4
 I: Validating libbz2-1.0 1.0.6-9.2~deb10u1
@@ -27,10 +28,14 @@ I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.7-3
 I: Validating dpkg 1.19.7
-I: Validating e2fsprogs 1.44.5-1+deb10u2
-I: Validating libcom-err2 1.44.5-1+deb10u2
-I: Validating libext2fs2 1.44.5-1+deb10u2
-I: Validating libss2 1.44.5-1+deb10u2
+I: Retrieving e2fsprogs 1.44.5-1+deb10u3
+I: Validating e2fsprogs 1.44.5-1+deb10u3
+I: Retrieving libcom-err2 1.44.5-1+deb10u3
+I: Validating libcom-err2 1.44.5-1+deb10u3
+I: Retrieving libext2fs2 1.44.5-1+deb10u3
+I: Validating libext2fs2 1.44.5-1+deb10u3
+I: Retrieving libss2 1.44.5-1+deb10u3
+I: Validating libss2 1.44.5-1+deb10u3
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.6.0+git+20190209-2
 I: Validating gcc-8-base 8.3.0-6
@@ -40,7 +45,8 @@ I: Validating libc-bin 2.28-10
 I: Validating libc6 2.28-10
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Validating gpgv 2.2.12-1+deb10u1
-I: Validating libgnutls30 3.6.7-4
+I: Retrieving libgnutls30 3.6.7-4+deb10u2
+I: Validating libgnutls30 3.6.7-4+deb10u2
 I: Validating grep 3.3-1
 I: Validating gzip 1.9-3
 I: Validating hostname 3.21
@@ -55,7 +61,8 @@ I: Validating libffi6 3.2.1-9
 I: Validating libgcrypt20 1.8.4-5
 I: Validating libgpg-error0 1.35-1
 I: Validating libidn11 1.33-2.2
-I: Validating libidn2-0 2.0.5-1
+I: Retrieving libidn2-0 2.0.5-1+deb10u1
+I: Validating libidn2-0 2.0.5-1+deb10u1
 I: Validating libmnl0 1.0.4-2
 I: Validating libseccomp2 2.3.3-4
 I: Validating libselinux1 2.8-1+b1
@@ -84,8 +91,10 @@ I: Validating perl-base 5.28.1-6
 I: Validating sed 4.7-1
 I: Validating login 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Validating libsystemd0 241-7~deb10u2
-I: Validating libudev1 241-7~deb10u2
+I: Retrieving libsystemd0 241-7~deb10u3
+I: Validating libsystemd0 241-7~deb10u3
+I: Retrieving libudev1 241-7~deb10u3
+I: Validating libudev1 241-7~deb10u3
 I: Validating sysvinit-utils 2.93-8
 I: Validating tar 1.30+dfsg-6
 I: Validating tzdata 2019c-0+deb10u1
@@ -382,34 +391,23 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit:1 http://ftp.jp.debian.org/debian buster InRelease
 Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [49.3 kB]
-Get:3 http://security.debian.org buster/updates InRelease [65.4 kB]
-Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [6292 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [215 kB]
-Fetched 336 kB in 0s (696 kB/s)
+Get:3 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [6292 B]
+Get:4 http://security.debian.org buster/updates InRelease [65.4 kB]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [216 kB]
+Fetched 337 kB in 1s (428 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  libidn2-0
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 76.7 kB of archives.
-After this operation, 1024 B of additional disk space will be used.
-Get:1 http://security.debian.org buster/updates/main amd64 libidn2-0 amd64 2.0.5-1+deb10u1 [76.7 kB]
-Fetched 76.7 kB in 0s (825 kB/s)
-(Reading database ... 6689 files and directories currently installed.)
-Preparing to unpack .../libidn2-0_2.0.5-1+deb10u1_amd64.deb ...
-Unpacking libidn2-0:amd64 (2.0.5-1+deb10u1) over (2.0.5-1) ...
-Setting up libidn2-0:amd64 (2.0.5-1+deb10u1) ...
-Processing triggers for libc-bin (2.28-10) ...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Sending build context to Docker daemon   30.5MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d09c9680652b
+ ---> 2b71b06d554c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b34176e21c7f
-Removing intermediate container b34176e21c7f
- ---> 0a7b28b36333
-Successfully built 0a7b28b36333
+ ---> Running in 9782980f354d
+Removing intermediate container 9782980f354d
+ ---> e1abc2ca6db0
+Successfully built e1abc2ca6db0
 Successfully tagged minimum2scp/debian-buster:latest
