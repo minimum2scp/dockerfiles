@@ -67,7 +67,7 @@ installed packages:
 ```
 ii   adduser                 3.115                              all    add and remove users and groups
 ii   apt                     1.4.9                              amd64  commandline package manager
-ii   base-files              9.9+deb9u11                        amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u12                        amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                             amd64  Debian base system master password and group files
 ii   bash                    4.4-5                              amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                        amd64  collection of more utilities from FreeBSD
@@ -133,7 +133,7 @@ ii   libgnutls30             3.5.8-5+deb9u4                     amd64  GNU TLS l
 ii   libgpg-error0           1.26-2                             amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b2                           amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.33-1                             amd64  GNU Libidn library, implementation of IETF IDN specifications
+ii   libidn11                1.33-1+deb9u1                      amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1+deb9u1                      amd64  Internationalized domain names (IDNA2008) library
 ii   libk5crypto3            1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
@@ -158,7 +158,7 @@ ii   libpam-modules-bin      1.1.8-3.6                          amd64  Pluggable
 ii   libpam-runtime          1.1.8-3.6                          all    Runtime support for the PAM library
 ii   libpam0g                1.1.8-3.6                          amd64  Pluggable Authentication Modules library
 ii   libpcre3                2:8.39-3                           amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.24             5.24.1-3+deb9u5                    amd64  shared Perl library
+ii   libperl5.24             5.24.1-3+deb9u6                    amd64  shared Perl library
 ii   libpipeline1            1.4.1-2                            amd64  pipeline manipulation library
 ii   libpopt0                1.16-10+b2                         amd64  lib for parsing cmdline parameters
 ii   libprocps6              2:3.3.12-3+deb9u1                  amd64  library for accessing process information from /proc
@@ -209,9 +209,9 @@ ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure sh
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.0l-1~deb9u1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                          amd64  change and administer password and group data
-ii   perl                    5.24.1-3+deb9u5                    amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.24.1-3+deb9u5                    amd64  minimal Perl system
-ii   perl-modules-5.24       5.24.1-3+deb9u5                    all    Core Perl modules
+ii   perl                    5.24.1-3+deb9u6                    amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.24.1-3+deb9u6                    amd64  minimal Perl system
+ii   perl-modules-5.24       5.24.1-3+deb9u6                    all    Core Perl modules
 ii   procps                  2:3.3.12-3+deb9u1                  amd64  /proc file system utilities
 ii   python                  2.7.13-2                           amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                           amd64  minimal subset of the Python language (default version)
@@ -222,7 +222,7 @@ ii   rsyslog                 8.24.0-1                           amd64  reliable 
 ii   sed                     4.4-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                           amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.19p1-2.1+deb9u1                amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.19p1-2.1+deb9u2                amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.88dsf-59.9                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.88dsf-59.9                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                       amd64  System-V-like utilities
