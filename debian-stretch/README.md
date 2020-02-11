@@ -24,7 +24,7 @@ installed packages:
 ```
 ii   adduser                 3.115                  all    add and remove users and groups
 ii   apt                     1.4.9                  amd64  commandline package manager
-ii   base-files              9.9+deb9u11            amd64  Debian base system miscellaneous files
+ii   base-files              9.9+deb9u12            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                 amd64  Debian base system master password and group files
 ii   bash                    4.4-5                  amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.29.2-1+deb9u1      amd64  basic utilities from 4.4BSD-Lite
@@ -95,7 +95,7 @@ ii   ncurses-base            6.0+20161126-1+deb9u2  all    basic terminal type d
 ii   ncurses-bin             6.0+20161126-1+deb9u2  amd64  terminal-related programs and man pages
 ii   netbase                 5.4                    all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1              amd64  change and administer password and group data
-ii   perl-base               5.24.1-3+deb9u5        amd64  minimal Perl system
+ii   perl-base               5.24.1-3+deb9u6        amd64  minimal Perl system
 ii   sed                     4.4-1                  amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9           amd64  System-V-like utilities
