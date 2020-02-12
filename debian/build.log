@@ -34,10 +34,14 @@ I: Validating libss2 1.45.5-2
 I: Validating logsave 1.45.5-2
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.7.0-1
-I: Validating gcc-10-base 10-20200204-1
-I: Validating libgcc-s1 10-20200204-1
-I: Validating libgcc1 1:10-20200204-1
-I: Validating libstdc++6 10-20200204-1
+I: Retrieving gcc-10-base 10-20200211-1
+I: Validating gcc-10-base 10-20200211-1
+I: Retrieving libgcc-s1 10-20200211-1
+I: Validating libgcc-s1 10-20200211-1
+I: Retrieving libgcc1 1:10-20200211-1
+I: Validating libgcc1 1:10-20200211-1
+I: Retrieving libstdc++6 10-20200211-1
+I: Validating libstdc++6 10-20200211-1
 I: Validating gcc-9-base 9.2.1-28
 I: Validating libc-bin 2.29-10
 I: Validating libc6 2.29-10
@@ -49,12 +53,15 @@ I: Validating gzip 1.9-3+b1
 I: Validating hostname 3.23
 I: Validating inetutils-ping 2:1.9.4-11
 I: Validating init-system-helpers 1.57
-I: Validating iproute2 5.4.0-1
+I: Retrieving iproute2 5.5.0-1
+I: Validating iproute2 5.5.0-1
 I: Validating libxtables12 1.8.4-2
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.1+b1
-I: Validating libcap2 1:2.27-1
-I: Validating libcap2-bin 1:2.27-1
+I: Retrieving libcap2 1:2.31-1
+I: Validating libcap2 1:2.31-1
+I: Retrieving libcap2-bin 1:2.31-1
+I: Validating libcap2-bin 1:2.31-1
 I: Validating libffi7 3.3-3
 I: Validating libgcrypt20 1.8.5-3
 I: Validating libgpg-error0 1.36-7
@@ -89,13 +96,9 @@ I: Validating libpcre2-8-0 10.34-7
 I: Validating libpcre3 2:8.39-12+b1
 I: Validating perl-base 5.30.0-9
 I: Validating sed 4.7-1
-I: Retrieving login 1:4.8.1-1
 I: Validating login 1:4.8.1-1
-I: Retrieving passwd 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 244.2-1
 I: Validating libsystemd0 244.2-1
-I: Retrieving libudev1 244.2-1
 I: Validating libudev1 244.2-1
 I: Validating sysvinit-utils 2.96-2.1
 I: Validating tar 1.30+dfsg-6+b1
@@ -417,14 +420,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.54MB
+Sending build context to Docker daemon  31.57MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> cbb34e7f7db2
+ ---> bbf221827e7b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in cd4d2a7f2119
-Removing intermediate container cd4d2a7f2119
- ---> 6e7f46d1f93f
-Successfully built 6e7f46d1f93f
+ ---> Running in d261d27a64c0
+Removing intermediate container d261d27a64c0
+ ---> c21364406849
+Successfully built c21364406849
 Successfully tagged minimum2scp/debian:latest
