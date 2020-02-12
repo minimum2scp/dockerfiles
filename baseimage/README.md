@@ -74,7 +74,7 @@ ii   bsdmainutils            11.1.2+b1                       amd64  collection o
 ii   bsdutils                1:2.34-0.1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                        all    Common CA certificates
 ii   coreutils               8.30-3+b1                       amd64  GNU core utilities
-ii   cron                    3.0pl1-135                      amd64  process scheduling daemon
+ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.67.0-2                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-6                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.73                          all    Debian configuration management system
@@ -86,7 +86,7 @@ ii   e2fsprogs               1.45.5-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200204-1                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200211-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.2.1-28                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -99,7 +99,7 @@ ii   inetutils-ping          2:1.9.4-11                      amd64  ICMP echo to
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
 ii   initscripts             2.96-2.1                        all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.4.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.5.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-5                        amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.4                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -113,8 +113,8 @@ ii   libc-bin                2.29-10                         amd64  GNU C Librar
 ii   libc-l10n               2.29-10                         all    GNU C Library: localization files
 ii   libc6                   2.29-10                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.27-1                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.27-1                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.31-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.31-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.5-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -130,8 +130,8 @@ ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10-20200204-1                   amd64  GCC support library
-ii   libgcc1                 1:10-20200204-1                 amd64  GCC support library (dependency package)
+ii   libgcc-s1               10-20200211-1                   amd64  GCC support library
+ii   libgcc1                 1:10-20200211-1                 amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -143,7 +143,7 @@ ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cr
 ii   libidn11                1.33-2.2                        amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-6                          amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6-6                           amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-6                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-6                          amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.49+dfsg-1                   amd64  OpenLDAP libraries
@@ -183,7 +183,7 @@ ii   libsmartcols1           2.34-0.1                        amd64  smart column
 ii   libss2                  1.45.5-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10-20200204-1                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10-20200211-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             244.2-1                         amd64  systemd utility library
 ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
