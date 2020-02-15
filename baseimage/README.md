@@ -136,8 +136,8 @@ ii   libgcrypt20             1.8.5-3                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-3                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.11.1-2                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.36-7                          amd64  GnuPG development runtime library
+ii   libgnutls30             3.6.12-2                        amd64  GNU TLS library - main runtime library
+ii   libgpg-error0           1.37-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                        amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -168,7 +168,7 @@ ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 C
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
-ii   libprocps7              2:3.3.15-2+b1                   amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.16-1                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -192,8 +192,8 @@ ii   libudev1                244.2-1                         amd64  libudev shar
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.4-2                         amd64  netfilter xtables library
-ii   libzstd1                1.4.4+dfsg-1                    amd64  fast lossless compression algorithm
+ii   libxtables12            1.8.4-3                         amd64  netfilter xtables library
+ii   libzstd1                1.4.4+dfsg-3                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.29-10                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -215,7 +215,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
-ii   procps                  2:3.3.15-2+b1                   amd64  /proc file system utilities
+ii   procps                  2:3.3.16-1                      amd64  /proc file system utilities
 ii   rsyslog                 8.2001.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
