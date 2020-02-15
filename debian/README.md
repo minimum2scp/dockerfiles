@@ -72,8 +72,8 @@ ii   libgcc-s1               10-20200211-1        amd64  GCC support library
 ii   libgcc1                 1:10-20200211-1      amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-3              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-3       amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.11.1-2           amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.36-7               amd64  GnuPG development runtime library
+ii   libgnutls30             3.6.12-2             amd64  GNU TLS library - main runtime library
+ii   libgpg-error0           1.37-1               amd64  GnuPG development runtime library
 ii   libhogweed5             3.5.1+really3.5.1-2  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2             amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.2.0-2              amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -104,8 +104,8 @@ ii   libtinfo6               6.1+20191019-1       amd64  shared low-level termin
 ii   libudev1                244.2-1              amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
-ii   libxtables12            1.8.4-2              amd64  netfilter xtables library
-ii   libzstd1                1.4.4+dfsg-1         amd64  fast lossless compression algorithm
+ii   libxtables12            1.8.4-3              amd64  netfilter xtables library
+ii   libzstd1                1.4.4+dfsg-3         amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1            amd64  system login tools
 ii   logsave                 1.45.5-2             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
