@@ -168,7 +168,7 @@ ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 C
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.16-1                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.16-1+b1                   amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -184,11 +184,11 @@ ii   libss2                  1.45.5-2                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200211-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244.2-1                         amd64  systemd utility library
-ii   libtasn1-6              4.15.0-2                        amd64  Manage ASN.1 structures (runtime)
+ii   libsystemd0             244.3-1                         amd64  systemd utility library
+ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                244.2-1                         amd64  libudev shared library
+ii   libudev1                244.3-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -215,7 +215,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
-ii   procps                  2:3.3.16-1                      amd64  /proc file system utilities
+ii   procps                  2:3.3.16-1+b1                   amd64  /proc file system utilities
 ii   rsyslog                 8.2001.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
