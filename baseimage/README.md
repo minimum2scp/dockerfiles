@@ -113,8 +113,8 @@ ii   libc-bin                2.29-10                         amd64  GNU C Librar
 ii   libc-l10n               2.29-10                         all    GNU C Library: localization files
 ii   libc6                   2.29-10                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.31-1                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.31-1                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.32-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.32-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.5-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.67.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -201,12 +201,12 @@ ii   logsave                 1.45.5-2                        amd64  save the out
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
-ii   mawk                    1.3.4.20200120-1                amd64  Pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
-ii   netbase                 6.0                             all    Basic TCP/IP networking system
+ii   netbase                 6.1                             all    Basic TCP/IP networking system
 ii   openssh-client          1:8.1p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.1p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.1p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -235,6 +235,6 @@ ii   vim-tiny                2:8.1.2269-1                    amd64  Vi IMproved 
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.2269-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1.2               amd64  compression library - runtime
-ii   zsh                     5.7.1-1+b1                      amd64  shell with lots of features
-ii   zsh-common              5.7.1-1                         all    architecture independent files for Zsh
+ii   zsh                     5.8-1                           amd64  shell with lots of features
+ii   zsh-common              5.8-1                           all    architecture independent files for Zsh
 ```
