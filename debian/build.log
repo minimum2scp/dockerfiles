@@ -53,8 +53,10 @@ I: Validating iproute2 5.5.0-1
 I: Validating libxtables12 1.8.4-3
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.1+b1
-I: Validating libcap2 1:2.31-1
-I: Validating libcap2-bin 1:2.31-1
+I: Retrieving libcap2 1:2.32-1
+I: Validating libcap2 1:2.32-1
+I: Retrieving libcap2-bin 1:2.32-1
+I: Validating libcap2-bin 1:2.32-1
 I: Validating libffi7 3.3-3
 I: Validating libgcrypt20 1.8.5-3
 I: Validating libgpg-error0 1.37-1
@@ -66,19 +68,20 @@ I: Validating libselinux1 3.0-1
 I: Validating libsemanage-common 3.0-1
 I: Validating libsemanage1 3.0-1
 I: Validating libsepol1 3.0-1
-I: Retrieving libtasn1-6 4.16.0-2
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-2
 I: Validating libcrypt1 1:4.4.10-10
 I: Validating libzstd1 1.4.4+dfsg-3
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
-I: Validating mawk 1.3.4.20200120-1
+I: Retrieving mawk 1.3.4.20200120-2
+I: Validating mawk 1.3.4.20200120-2
 I: Validating libncursesw6 6.1+20191019-1
 I: Validating libtinfo6 6.1+20191019-1
 I: Validating ncurses-base 6.1+20191019-1
 I: Validating ncurses-bin 6.1+20191019-1
-I: Validating netbase 6.0
+I: Retrieving netbase 6.1
+I: Validating netbase 6.1
 I: Validating libhogweed5 3.5.1+really3.5.1-2
 I: Validating libnettle7 3.5.1+really3.5.1-2
 I: Validating libp11-kit0 0.23.20-1
@@ -92,9 +95,7 @@ I: Validating perl-base 5.30.0-9
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 244.3-1
 I: Validating libsystemd0 244.3-1
-I: Retrieving libudev1 244.3-1
 I: Validating libudev1 244.3-1
 I: Validating sysvinit-utils 2.96-2.1
 I: Validating tar 1.30+dfsg-6+b1
@@ -420,10 +421,10 @@ Sending build context to Docker daemon  31.59MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 75df478fbad5
+ ---> 417f8dd8fdf7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4b28341adfe7
-Removing intermediate container 4b28341adfe7
- ---> 6589653680c8
-Successfully built 6589653680c8
+ ---> Running in 6b985533e4cb
+Removing intermediate container 6b985533e4cb
+ ---> dbb41a625d5d
+Successfully built dbb41a625d5d
 Successfully tagged minimum2scp/debian:latest

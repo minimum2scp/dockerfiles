@@ -58,8 +58,8 @@ ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sort
 ii   libc-bin                2.29-10              amd64  GNU C Library: Binaries
 ii   libc6                   2.29-10              amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b1         amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.31-1             amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.31-1             amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.32-1             amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.32-1             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.5-2             amd64  common error description library
 ii   libcrypt1               1:4.4.10-10          amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -109,11 +109,11 @@ ii   libzstd1                1.4.4+dfsg-3         amd64  fast lossless compressi
 ii   login                   1:4.8.1-1            amd64  system login tools
 ii   logsave                 1.45.5-2             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
-ii   mawk                    1.3.4.20200120-1     amd64  Pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-2     amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1       all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1       amd64  terminal-related programs and man pages
-ii   netbase                 6.0                  all    Basic TCP/IP networking system
+ii   netbase                 6.1                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
 ii   perl-base               5.30.0-9             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
