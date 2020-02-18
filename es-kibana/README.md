@@ -41,17 +41,17 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```console
 UID          PID    PPID  C STIME TTY      STAT   TIME CMD
-root           1       0  0 01:13 ?        Ss     0:00 init [2]
-elastic+     588       1 99 01:13 ?        Sl     0:39 /usr/share/elasticsearch/jdk/bin/java -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dio.netty.allocator.numDirectArenas=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.locale.providers=COMPAT -Xms1g -Xmx1g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Djava.io.tmpdir=/tmp/elasticsearch-4820098687316753882 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/var/lib/elasticsearch -XX:ErrorFile=/var/log/elasticsearch/hs_err_pid%p.log -Xlog:gc*,gc+age=trace,safepoint:file=/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m -XX:MaxDirectMemorySize=536870912 -Des.path.home=/usr/share/elasticsearch -Des.path.conf=/etc/elasticsearch -Des.distribution.flavor=default -Des.distribution.type=deb -Des.bundled_jdk=true -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid
-elastic+     604     588  0 01:13 ?        Sl     0:00  \_ /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/controller
-root         621       1  5 01:13 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root         646       1  0 01:13 ?        Ss     0:00 /usr/sbin/cron
-kibana       652       1 99 01:13 ?        Rl     0:13 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml
-root         669       1  0 01:13 ?        Ss     0:00 /usr/sbin/sshd
-root         685     669  0 01:13 ?        Ss     0:00  \_ sshd: debian [priv]
-debian       701     685  0 01:13 ?        S      0:00      \_ sshd: debian@pts/0
-debian       702     701  0 01:13 pts/0    Ss     0:00          \_ -bash
-debian       722     702  0 01:13 pts/0    R+     0:00              \_ ps -ef fww
+root           1       0  1 02:28 ?        Ss     0:00 init [2]
+elastic+     587       1 99 02:28 ?        Sl     0:43 /usr/share/elasticsearch/jdk/bin/java -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dio.netty.allocator.numDirectArenas=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.locale.providers=COMPAT -Xms1g -Xmx1g -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Djava.io.tmpdir=/tmp/elasticsearch-11408405704108524150 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/var/lib/elasticsearch -XX:ErrorFile=/var/log/elasticsearch/hs_err_pid%p.log -Xlog:gc*,gc+age=trace,safepoint:file=/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m -XX:MaxDirectMemorySize=536870912 -Des.path.home=/usr/share/elasticsearch -Des.path.conf=/etc/elasticsearch -Des.distribution.flavor=default -Des.distribution.type=deb -Des.bundled_jdk=true -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid
+elastic+     603     587  0 02:28 ?        Sl     0:00  \_ /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/controller
+root         620       1  6 02:28 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root         645       1  0 02:28 ?        Ss     0:00 /usr/sbin/cron
+kibana       651       1 99 02:28 ?        Rl     0:14 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml
+root         668       1  0 02:28 ?        Ss     0:00 /usr/sbin/sshd
+root         683     668  0 02:28 ?        Ss     0:00  \_ sshd: debian [priv]
+debian       717     683  0 02:28 ?        S      0:00      \_ sshd: debian@pts/0
+debian       718     717  0 02:28 pts/0    Ss     0:00          \_ -bash
+debian       722     718  0 02:28 pts/0    R+     0:00              \_ ps -ef fww
 ```
 
 ## ports
