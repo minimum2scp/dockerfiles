@@ -88,8 +88,8 @@ ii   fdisk                   2.34-0.1                        amd64  collection o
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200211-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.2.1-28                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.25.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.25.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
@@ -174,7 +174,7 @@ ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for 
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.4.2-2                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.0-1                           amd64  SELinux runtime shared libraries
+ii   libselinux1             3.0-1+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.0-1                           amd64  SELinux policy management library
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
@@ -231,10 +231,10 @@ ii   ucf                     3.0038+nmu1                     all    Update Confi
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.1.2269-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.2269-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.1.2269-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.2269-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.2269-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1.2               amd64  compression library - runtime
-ii   zsh                     5.8-1                           amd64  shell with lots of features
-ii   zsh-common              5.8-1                           all    architecture independent files for Zsh
+ii   zsh                     5.8-2                           amd64  shell with lots of features
+ii   zsh-common              5.8-2                           all    architecture independent files for Zsh
 ```
