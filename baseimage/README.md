@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200211-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-28                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-29                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
@@ -176,7 +176,7 @@ ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL -
 ii   libseccomp2             2.4.2-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.0-1+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.0-1                           amd64  SELinux policy management library
+ii   libsemanage1            3.0-1+b1                        amd64  SELinux policy management library
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
