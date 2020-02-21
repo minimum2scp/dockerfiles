@@ -39,7 +39,7 @@ ii   e2fsprogs               1.45.5-2             amd64  ext2/ext3/ext4 file sys
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200211-1        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-28             amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-29             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.19-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3+b1             amd64  GNU compression utilities
@@ -93,7 +93,7 @@ ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible R
 ii   libseccomp2             2.4.2-2              amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.0-1+b1             amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.0-1                amd64  SELinux policy management library
+ii   libsemanage1            3.0-1+b1             amd64  SELinux policy management library
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.5-2             amd64  command-line interface parsing library
