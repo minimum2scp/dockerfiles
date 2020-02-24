@@ -115,6 +115,7 @@ ii   libc6                   2.29-10                         amd64  GNU C Librar
 ii   libcap-ng0              0.7.9-2.1+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.32-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.32-1                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.5-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.68.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -130,12 +131,13 @@ ii   libext2fs2              1.45.5-2                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
+ii   libfido2-1              1.3.1-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10-20200222-1                   amd64  GCC support library
 ii   libgcc1                 1:10-20200222-1                 amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                2:6.2.0+dfsg-3                  amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.0+dfsg-4                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.12-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.37-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -207,9 +209,9 @@ ii   ncurses-base            6.1+20191019-1                  all    basic termin
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 6.1                             all    Basic TCP/IP networking system
-ii   openssh-client          1:8.1p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.1p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.1p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.2p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.2p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.2p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
