@@ -69,7 +69,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     1.8.4                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
-ii   bash                    5.0-5                           amd64  GNU Bourne Again SHell
+ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.34-0.1                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20190110                        all    Common CA certificates
@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200222-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-29                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-30                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
@@ -236,7 +236,7 @@ ii   vim-common              2:8.1.2269-1                    all    Vi IMproved 
 ii   vim-tiny                2:8.1.2269-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.2269-1+b1                 amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.11.dfsg-1.2               amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-3                           amd64  shell with lots of features
 ii   zsh-common              5.8-3                           all    architecture independent files for Zsh
 ```
