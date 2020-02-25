@@ -26,7 +26,7 @@ ii   adduser                 3.118                all    add and remove users an
 ii   apt                     1.8.4                amd64  commandline package manager
 ii   base-files              11                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47               amd64  Debian base system master password and group files
-ii   bash                    5.0-5                amd64  GNU Bourne Again SHell
+ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.34-0.1           amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-3+b1            amd64  GNU core utilities
 ii   dash                    0.5.10.2-6           amd64  POSIX-compliant shell
@@ -39,7 +39,7 @@ ii   e2fsprogs               1.45.5-2             amd64  ext2/ext3/ext4 file sys
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200222-1        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-29             amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.2.1-30             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.19-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3+b1             amd64  GNU compression utilities
@@ -121,5 +121,5 @@ ii   sysvinit-utils          2.96-2.1             amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6+b1       amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019c-3              all    time zone and daylight-saving time data
 ii   util-linux              2.34-0.1             amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.11.dfsg-1.2    amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-2      amd64  compression library - runtime
 ```

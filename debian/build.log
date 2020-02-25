@@ -16,7 +16,8 @@ I: Validating libaudit-common 1:2.8.5-2
 I: Validating libaudit1 1:2.8.5-2+b1
 I: Validating base-files 11
 I: Validating base-passwd 3.5.47
-I: Validating bash 5.0-5
+I: Retrieving bash 5.0-6
+I: Validating bash 5.0-6
 I: Validating libbz2-1.0 1.0.8-2
 I: Validating libdebconfclient0 0.251
 I: Validating coreutils 8.30-3+b1
@@ -38,10 +39,10 @@ I: Validating gcc-10-base 10-20200222-1
 I: Validating libgcc-s1 10-20200222-1
 I: Validating libgcc1 1:10-20200222-1
 I: Validating libstdc++6 10-20200222-1
-I: Validating gcc-9-base 9.2.1-29
+I: Retrieving gcc-9-base 9.2.1-30
+I: Validating gcc-9-base 9.2.1-30
 I: Validating libc-bin 2.29-10
 I: Validating libc6 2.29-10
-I: Retrieving libgmp10 2:6.2.0+dfsg-4
 I: Validating libgmp10 2:6.2.0+dfsg-4
 I: Validating gpgv 2.2.19-1
 I: Validating libgnutls30 3.6.12-2
@@ -107,7 +108,8 @@ I: Validating libuuid1 2.34-0.1
 I: Validating mount 2.34-0.1
 I: Validating util-linux 2.34-0.1
 I: Validating liblzma5 5.2.4-1+b1
-I: Validating zlib1g 1:1.2.11.dfsg-1.2
+I: Retrieving zlib1g 1:1.2.11.dfsg-2
+I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting adduser...
@@ -414,14 +416,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.56MB
+Sending build context to Docker daemon  31.52MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 56455bbc818a
+ ---> 9e785b4db5ef
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c18be20cad62
-Removing intermediate container c18be20cad62
- ---> 02528dffb46c
-Successfully built 02528dffb46c
+ ---> Running in 7c55f8a90820
+Removing intermediate container 7c55f8a90820
+ ---> 9e47e2d5c7b6
+Successfully built 9e47e2d5c7b6
 Successfully tagged minimum2scp/debian:latest
