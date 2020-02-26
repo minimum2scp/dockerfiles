@@ -93,7 +93,7 @@ ii   git-man                 1:2.25.1-1                      all    fast, scalab
 ii   gpgv                    2.2.19-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.9-3+b1                        amd64  GNU compression utilities
+ii   gzip                    1.10-1                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-11                      amd64  ICMP echo tool
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
@@ -170,7 +170,7 @@ ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 C
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.16-1+b1                   amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.16-2                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.20.2-2                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -202,22 +202,22 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.5-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.9.0-2                         amd64  tools for reading manual pages
+ii   man-db                  2.9.1-1                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 6.1                             all    Basic TCP/IP networking system
-ii   openssh-client          1:8.2p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.2p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.2p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.2p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
-ii   procps                  2:3.3.16-1+b1                   amd64  /proc file system utilities
+ii   procps                  2:3.3.16-2                      amd64  /proc file system utilities
 ii   rsyslog                 8.2001.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
