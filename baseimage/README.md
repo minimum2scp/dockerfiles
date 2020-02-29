@@ -117,7 +117,7 @@ ii   libcap2                 1:2.32-1                        amd64  POSIX 1003.1
 ii   libcap2-bin             1:2.32-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.5-2                        amd64  common error description library
-ii   libcrypt1               1:4.4.10-10                     amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.15-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.68.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.68.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -155,8 +155,8 @@ ii   liblz4-1                1.9.2-2                         amd64  Fast LZ comp
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2+b1                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.34-0.1                        amd64  device mounting library
-ii   libncurses6             6.1+20191019-1                  amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20191019-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.2-1                           amd64  shared libraries for terminal handling
+ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.40.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -188,7 +188,7 @@ ii   libssl1.1               1.1.1d-2                        amd64  Secure Socke
 ii   libstdc++6              10-20200222-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             244.3-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20191019-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
 ii   libudev1                244.3-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
@@ -205,8 +205,8 @@ ii   lv                      4.51-7                          amd64  Powerful Mul
 ii   man-db                  2.9.1-1                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mount                   2.34-0.1                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20191019-1                  all    basic terminal type definitions
-ii   ncurses-bin             6.1+20191019-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2-1                           all    basic terminal type definitions
+ii   ncurses-bin             6.2-1                           amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 6.1                             all    Basic TCP/IP networking system
 ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
