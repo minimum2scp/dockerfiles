@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Validating libacl1 2.2.53-5
+I: Retrieving libacl1 2.2.53-6
+I: Validating libacl1 2.2.53-6
 I: Validating adduser 3.118
 I: Validating apt 1.8.4
 I: Validating libapt-pkg5.0 1.8.4
@@ -68,19 +69,14 @@ I: Validating libsemanage1 3.0-1+b1
 I: Validating libsepol1 3.0-1
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-2
-I: Retrieving libcrypt1 1:4.4.15-1
 I: Validating libcrypt1 1:4.4.15-1
 I: Validating libzstd1 1.4.4+dfsg-3
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
 I: Validating mawk 1.3.4.20200120-2
-I: Retrieving libncursesw6 6.2-1
 I: Validating libncursesw6 6.2-1
-I: Retrieving libtinfo6 6.2-1
 I: Validating libtinfo6 6.2-1
-I: Retrieving ncurses-base 6.2-1
 I: Validating ncurses-base 6.2-1
-I: Retrieving ncurses-bin 6.2-1
 I: Validating ncurses-bin 6.2-1
 I: Validating netbase 6.1
 I: Validating libhogweed5 3.5.1+really3.5.1-2
@@ -412,20 +408,24 @@ I: Configuring inetutils-ping...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [142 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-03-01-1417.53.pdiff [12.2 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-03-01-1417.53.pdiff [12.2 kB]
+Fetched 183 kB in 1s (138 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.52MB
+Sending build context to Docker daemon  31.51MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a1012c1225cc
+ ---> 74d982b30a68
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 8ef4ab7accbe
-Removing intermediate container 8ef4ab7accbe
- ---> 95e1f26ba255
-Successfully built 95e1f26ba255
+ ---> Running in 668be199a785
+Removing intermediate container 668be199a785
+ ---> f784b641da0c
+Successfully built f784b641da0c
 Successfully tagged minimum2scp/debian:latest
