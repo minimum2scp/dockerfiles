@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "294",
+    "Installed-Size": "300",
     "Origin": "",
     "Package": "libidn2-0",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.0-2",
+    "Version": "2.3.0-1",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2",
-    "source:Version": "2.2.0-2"
+    "source:Version": "2.3.0-1"
   },
   {
     "Architecture": "amd64",

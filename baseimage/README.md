@@ -143,7 +143,7 @@ ii   libgpg-error0           1.37-1                          amd64  GnuPG develo
 ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                        amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   libidn2-0               2.2.0-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.0-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-6                          amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-6                          amd64  MIT Kerberos runtime libraries
