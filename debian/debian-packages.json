@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.7.9-2.1+b1",
+    "Version": "0.7.9-2.1+b2",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "An alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",

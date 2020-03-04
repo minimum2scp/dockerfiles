@@ -57,7 +57,7 @@ ii   libbsd0                 0.10.0-1             amd64  utility functions from 
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.29-10              amd64  GNU C Library: Binaries
 ii   libc6                   2.29-10              amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.1+b1         amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.1+b2         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.32-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.32-1             amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.5-2             amd64  common error description library
