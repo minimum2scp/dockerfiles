@@ -40,7 +40,7 @@ ii   fdisk                   2.34-0.1             amd64  collection of partition
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200304-1        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.2.1-31             amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.19-2             amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.19-3             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-1               amd64  GNU compression utilities
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name

@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-6
 I: Validating adduser 3.118
-I: Retrieving apt 2.0.0
 I: Validating apt 2.0.0
-I: Retrieving libapt-pkg6.0 2.0.0
 I: Validating libapt-pkg6.0 2.0.0
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-2
@@ -40,12 +38,12 @@ I: Validating gcc-10-base 10-20200304-1
 I: Validating libgcc-s1 10-20200304-1
 I: Validating libgcc1 1:10-20200304-1
 I: Validating libstdc++6 10-20200304-1
-I: Retrieving gcc-9-base 9.2.1-31
 I: Validating gcc-9-base 9.2.1-31
 I: Validating libc-bin 2.29-10
 I: Validating libc6 2.29-10
 I: Validating libgmp10 2:6.2.0+dfsg-4
-I: Validating gpgv 2.2.19-2
+I: Retrieving gpgv 2.2.19-3
+I: Validating gpgv 2.2.19-3
 I: Validating libgnutls30 3.6.12-2
 I: Validating grep 3.4-1
 I: Validating gzip 1.10-1
@@ -416,14 +414,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.76MB
+Sending build context to Docker daemon  31.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 2cfbe0dffcf7
+ ---> 42ad97d4e8b6
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 14e2169c71e6
-Removing intermediate container 14e2169c71e6
- ---> 8ef73549544e
-Successfully built 8ef73549544e
+ ---> Running in a3e6e60b3958
+Removing intermediate container a3e6e60b3958
+ ---> 1d081b6c9e0e
+Successfully built 1d081b6c9e0e
 Successfully tagged minimum2scp/debian:latest
