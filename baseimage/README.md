@@ -90,7 +90,7 @@ ii   gcc-10-base             10-20200304-1                   amd64  GCC, the GNU
 ii   gcc-9-base              9.2.1-31                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.19-2                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.19-3                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-1                          amd64  GNU compression utilities
@@ -170,7 +170,7 @@ ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 C
 ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.16-3                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.16-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -217,7 +217,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
-ii   procps                  2:3.3.16-3                      amd64  /proc file system utilities
+ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.2002.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.14                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
