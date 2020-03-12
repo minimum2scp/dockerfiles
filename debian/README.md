@@ -55,8 +55,8 @@ ii   libaudit1               1:2.8.5-2+b1         amd64  Dynamic library for sec
 ii   libblkid1               2.34-0.1             amd64  block device ID library
 ii   libbsd0                 0.10.0-1             amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.29-10              amd64  GNU C Library: Binaries
-ii   libc6                   2.29-10              amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.30-1               amd64  GNU C Library: Binaries
+ii   libc6                   2.30-1               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b2         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.32-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.32-1             amd64  POSIX 1003.1e capabilities (utilities)
@@ -98,10 +98,10 @@ ii   libsepol1               3.0-1                amd64  SELinux library for man
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.5-2             amd64  command-line interface parsing library
 ii   libstdc++6              10-20200304-1        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             244.3-1              amd64  systemd utility library
+ii   libsystemd0             245-1                amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                244.3-1              amd64  libudev shared library
+ii   libudev1                245-1                amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
 ii   libxtables12            1.8.4-3              amd64  netfilter xtables library
