@@ -1235,10 +1235,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>> 2.29), libc6 (<< 2.30)",
+    "Depends": "libc6 (>> 2.30), libc6 (<< 2.31)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3519",
+    "Installed-Size": "3532",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-10",
+    "Version": "2.30-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-10"
+    "source:Version": "2.30-1"
   },
   {
     "Architecture": "all",
@@ -1266,7 +1266,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4265",
+    "Installed-Size": "4289",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-10",
+    "Version": "2.30-1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1285,16 +1285,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-10"
+    "source:Version": "2.30-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "openrc (<< 0.27-2~)",
-    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.29), locales-all (<< 2.29), nocache (<< 1.1-1~), nscd (<< 2.29), r-cran-later (<< 0.7.5+dfsg-2)",
+    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.30), locales-all (<< 2.30), nocache (<< 1.1-1~), nscd (<< 2.30), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
     "Depends": "libgcc1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12048",
+    "Installed-Size": "12848",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.29-10",
+    "Version": "2.30-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-10"
+    "source:Version": "2.30-1"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "801",
+    "Installed-Size": "825",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "244.3-1",
+    "Version": "245-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "244.3-1"
+    "source:Version": "245-1"
   },
   {
     "Architecture": "amd64",
@@ -3506,7 +3506,7 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "283",
+    "Installed-Size": "287",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "244.3-1",
+    "Version": "245-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "244.3-1"
+    "source:Version": "245-1"
   },
   {
     "Architecture": "amd64",
@@ -3699,10 +3699,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc-bin (>> 2.29), libc-l10n (>> 2.29), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc-bin (>> 2.30), libc-l10n (>> 2.30), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16109",
+    "Installed-Size": "16121",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.29-10",
+    "Version": "2.30-1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.29-10"
+    "source:Version": "2.30-1"
   },
   {
     "Architecture": "amd64",
@@ -4682,7 +4682,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "363",
+    "Installed-Size": "325",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4693,7 +4693,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.1.2269-1",
+    "Version": "2:8.2.0368-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4701,16 +4701,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.2269-1"
+    "source:Version": "2:8.2.0368-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.1.2269-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.0368-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1511",
+    "Installed-Size": "1468",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4721,7 +4721,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.1.2269-1+b2",
+    "Version": "2:8.2.0368-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.2269-1"
+    "source:Version": "2:8.2.0368-1"
   },
   {
     "Architecture": "amd64",
@@ -4766,7 +4766,7 @@
     "Depends": "libc6 (>= 2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "190",
+    "Installed-Size": "189",
     "Origin": "",
     "Package": "xxd",
     "Pre-Depends": "",
@@ -4777,7 +4777,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.1.2269-1+b2",
+    "Version": "2:8.2.0368-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.2269-1"
+    "source:Version": "2:8.2.0368-1"
   },
   {
     "Architecture": "amd64",
