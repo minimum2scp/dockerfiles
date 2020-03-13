@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200304-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.2.1-31                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-3                        amd64  GNU privacy guard - signature verification tool
@@ -109,9 +109,9 @@ ii   libblkid1               2.34-0.1                        amd64  block device
 ii   libbrotli1              1.0.7-6                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.30-1                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.30-1                          all    GNU C Library: localization files
-ii   libc6                   2.30-1                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.30-2                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.30-2                          all    GNU C Library: localization files
+ii   libc6                   2.30-2                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b2                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.32-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.32-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -133,7 +133,6 @@ ii   libfdisk1               2.34-0.1                        amd64  fdisk partit
 ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.3.1-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10-20200304-1                   amd64  GCC support library
-ii   libgcc1                 1:10-20200304-1                 amd64  GCC support library (dependency package)
 ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -175,7 +174,7 @@ ii   libpsl5                 0.21.0-1                        amd64  Library for 
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.4.2-2                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.3-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.0-1+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.0-1+b1                        amd64  SELinux policy management library
@@ -186,18 +185,18 @@ ii   libss2                  1.45.5-2                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200304-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245-1                           amd64  systemd utility library
+ii   libsystemd0             245-2                           amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                245-1                           amd64  libudev shared library
+ii   libudev1                245-2                           amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.4-3                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-3                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.30-1                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.30-2                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.45.5-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality

@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.2.1-31",
+    "Version": "9.3.0-1",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.2.1-31"
+    "source:Version": "9.3.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-1",
+    "Version": "2.30-2",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-1"
+    "source:Version": "2.30-2"
   },
   {
     "Architecture": "all",
@@ -1277,7 +1277,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-1",
+    "Version": "2.30-2",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1285,13 +1285,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-1"
+    "source:Version": "2.30-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "openrc (<< 0.27-2~)",
     "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.30), locales-all (<< 2.30), nocache (<< 1.1-1~), nscd (<< 2.30), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
-    "Depends": "libgcc1, libcrypt1",
+    "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "12848",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.30-1",
+    "Version": "2.30-2",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-1"
+    "source:Version": "2.30-2"
   },
   {
     "Architecture": "amd64",
@@ -1896,34 +1896,6 @@
     "Version": "10-20200304-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "gcc-10",
-    "source:Version": "10-20200304-1"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": "",
-    "Breaks": "",
-    "Depends": "gcc-10-base (= 10-20200304-1), libgcc-s1 (>= 10-20200304-1), libc6 (>= 2.14)",
-    "Enhances": "",
-    "Essential": "no",
-    "Installed-Size": "116",
-    "Origin": "",
-    "Package": "libgcc1",
-    "Pre-Depends": "",
-    "Priority": "optional",
-    "Provides": "",
-    "Recommends": "",
-    "Replace": "",
-    "Section": "libs",
-    "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "1:10-20200304-1",
-    "binary:Package": "libgcc1",
-    "binary:Summary": "GCC support library (dependency package)",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
@@ -3086,7 +3058,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "324",
+    "Installed-Size": "344",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -3097,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.2-2",
+    "Version": "2.4.3-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.4.2-2"
+    "source:Version": "2.4.3-1"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245-1",
+    "Version": "245-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245-1"
+    "source:Version": "245-2"
   },
   {
     "Architecture": "amd64",
@@ -3517,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245-1",
+    "Version": "245-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245-1"
+    "source:Version": "245-2"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3685,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-1",
+    "Version": "2.30-2",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-1"
+    "source:Version": "2.30-2"
   },
   {
     "Architecture": "amd64",
