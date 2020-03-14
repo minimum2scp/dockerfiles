@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200304-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.25.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.25.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-3                        amd64  GNU privacy guard - signature verification tool
@@ -218,7 +218,7 @@ ii   perl-base               5.30.0-9                        amd64  minimal Perl
 ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
 ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.2002.0-2                      amd64  reliable system and kernel logging daemon
-ii   runit-helper            2.8.14                          all    dh-runit implementation detail
+ii   runit-helper            2.8.15                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
@@ -231,10 +231,10 @@ ii   tzdata                  2019c-3                         all    time zone an
 ii   ucf                     3.0038+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.0368-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.0368-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.0378-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.0378-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.0368-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.0378-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-3                           amd64  shell with lots of features
 ii   zsh-common              5.8-3                           all    architecture independent files for Zsh
