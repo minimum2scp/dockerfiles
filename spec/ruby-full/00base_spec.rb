@@ -107,14 +107,14 @@ describe 'minimum2scp/ruby-full' do
       end
     end
 
-    %w[ruby2.5 ruby2.5-dev].each do |pkg|
+    %w[ruby2.7 ruby2.7-dev].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
     end
 
-    describe command('ruby2.5 -v') do
-      its(:stdout) { should match a_string_starting_with('ruby 2.5.7p') }
+    describe command('ruby2.7 -v') do
+      its(:stdout) { should match a_string_starting_with('ruby 2.7.0p') }
     end
   end
 end
