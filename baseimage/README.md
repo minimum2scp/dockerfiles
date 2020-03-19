@@ -183,13 +183,13 @@ ii   libslang2               2.3.2-4                         amd64  S-Lang progr
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
 ii   libss2                  1.45.5-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1d-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200312-2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245-2                           amd64  systemd utility library
+ii   libsystemd0             245.2-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                245-2                           amd64  libudev shared library
+ii   libudev1                245.2-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -211,7 +211,7 @@ ii   netbase                 6.1                             all    Basic TCP/IP
 ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.2p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1d-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1e-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system

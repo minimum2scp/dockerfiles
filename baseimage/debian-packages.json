@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4085",
+    "Installed-Size": "4091",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1d-2",
+    "Version": "1.1.1e-1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1d-2"
+    "source:Version": "1.1.1e-1"
   },
   {
     "Architecture": "amd64",
@@ -3369,7 +3369,7 @@
     "Installed-Size": "825",
     "Origin": "",
     "Package": "libsystemd0",
-    "Pre-Depends": "libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)",
+    "Pre-Depends": "libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245-2",
+    "Version": "245.2-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245-2"
+    "source:Version": "245.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3475,7 +3475,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.28)",
+    "Depends": "libc6 (>= 2.30)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "287",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245-2",
+    "Version": "245.2-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245-2"
+    "source:Version": "245.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4094,7 +4094,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1451",
+    "Installed-Size": "1454",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1d-2",
+    "Version": "1.1.1e-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1d-2"
+    "source:Version": "1.1.1e-1"
   },
   {
     "Architecture": "amd64",
