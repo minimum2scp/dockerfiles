@@ -42,7 +42,7 @@ ii   gcc-10-base             10-20200312-2        amd64  GCC, the GNU Compiler C
 ii   gcc-9-base              9.3.0-3              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.19-3             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.10-1               amd64  GNU compression utilities
+ii   gzip                    1.10-2               amd64  GNU compression utilities
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-11           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
@@ -90,7 +90,7 @@ ii   libpam0g                1.3.1-5              amd64  Pluggable Authenticatio
 ii   libpcre2-8-0            10.34-7              amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.3-1              amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.0-1+b1             amd64  SELinux runtime shared libraries
+ii   libselinux1             3.0-1+b2             amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.0-1+b1             amd64  SELinux policy management library
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
@@ -116,7 +116,7 @@ ii   netbase                 6.1                  all    Basic TCP/IP networking
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
 ii   perl-base               5.30.0-9             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.96-2.1             amd64  System-V-like utilities
+ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility
 ii   tzdata                  2019c-3              all    time zone and daylight-saving time data
 ii   util-linux              2.34-0.1             amd64  miscellaneous system utilities
