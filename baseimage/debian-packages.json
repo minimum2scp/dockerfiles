@@ -801,7 +801,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.10-1",
+    "Version": "1.10-2",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.10-1"
+    "source:Version": "1.10-2"
   },
   {
     "Architecture": "amd64",
@@ -902,7 +902,7 @@
     "Depends": "coreutils (>= 5.93), debianutils (>= 4), lsb-base (>= 3.2-14), sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.88dsf-59.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "214",
+    "Installed-Size": "175",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-2.1",
+    "Version": "2.96-3",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-2.1"
+    "source:Version": "2.96-3"
   },
   {
     "Architecture": "amd64",
@@ -3083,7 +3083,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libpcre2-8-0 (>= 10.22)",
+    "Depends": "libc6 (>= 2.30), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "203",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1+b1",
+    "Version": "3.0-1+b2",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1+b1",
+    "Version": "3.0-1+b2",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -4430,7 +4430,7 @@
     "Depends": "insserv (>> 1.12.0-10), lsb-base (>= 3.2-14), startpar (>= 0.62-1~), sysvinit-utils (>= 2.86.ds1-62)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "119",
+    "Installed-Size": "80",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "init-system-helpers (>= 1.25~)",
@@ -4441,7 +4441,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-2.1",
+    "Version": "2.96-3",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4449,7 +4449,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-2.1"
+    "source:Version": "2.96-3"
   },
   {
     "Architecture": "amd64",
@@ -4469,7 +4469,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.96-2.1",
+    "Version": "2.96-3",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init utilities",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-2.1"
+    "source:Version": "2.96-3"
   },
   {
     "Architecture": "amd64",
@@ -4486,7 +4486,7 @@
     "Depends": "init-system-helpers (>= 1.25~), lsb-base (>= 11.0.0~), util-linux (>> 2.28-2~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "137",
+    "Installed-Size": "98",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-2.1",
+    "Version": "2.96-3",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-2.1"
+    "source:Version": "2.96-3"
   },
   {
     "Architecture": "amd64",
