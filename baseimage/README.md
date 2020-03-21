@@ -87,7 +87,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200312-2                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-5                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.26.0~rc2-1                  amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.26.0~rc2-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.19-3                        amd64  GNU privacy guard - signature verification tool
@@ -232,9 +232,9 @@ ii   ucf                     3.0038+nmu1                     all    Update Confi
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.0397-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.0397-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.2.0397-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.0397-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.0397-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-3                           amd64  shell with lots of features
 ii   zsh-common              5.8-3                           all    architecture independent files for Zsh
