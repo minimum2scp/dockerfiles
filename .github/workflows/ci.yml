@@ -108,6 +108,149 @@ jobs:
 
       # No need to save image as artifact
 
+  es-kibana:
+    name: es-kibana
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/es-kibana:latest es-kibana
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
+      - run: sudo sysctl -w vm.max_map_count=262144
+
+      # run test
+      - run: bundle exec rspec spec/es-kibana
+
+      # No need to save image as artifact
+
+  systemd:
+    name: systemd
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd:latest systemd
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd
+
+      # No need to save image as artifact
+
+  squid:
+    name: squid
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/squid:latest squid
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/squid
+
+      # No need to save image as artifact
+
+  norikra:
+    name: norikra
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [ruby]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/norikra:latest norikra
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/norikra
+
+      # No need to save image as artifact
+
   ruby-full:
     name: ruby-full
     runs-on: ubuntu-latest
@@ -280,6 +423,41 @@ jobs:
 
       # No need to save image as artifact
 
+  systemd-buster:
+    name: systemd-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-buster]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-buster, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd-buster:latest systemd-buster
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd-buster
+
+      # No need to save image as artifact
+
   baseimage-stretch:
     name: baseimage-stretch
     runs-on: ubuntu-latest
@@ -344,6 +522,41 @@ jobs:
 
       # run test
       - run: bundle exec rspec spec/ruby-stretch
+
+      # No need to save image as artifact
+
+  systemd-stretch:
+    name: systemd-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-stretch]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-stretch, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd-stretch:latest systemd-stretch
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd-stretch
 
       # No need to save image as artifact
 
