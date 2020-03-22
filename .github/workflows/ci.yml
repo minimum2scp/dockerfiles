@@ -37,9 +37,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/baseimage:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   ruby:
     name: ruby
@@ -81,9 +81,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/ruby:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   nodejs:
     name: nodejs
@@ -122,9 +122,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/nodejs:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   es-kibana:
     name: es-kibana
@@ -166,9 +166,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/es-kibana:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   systemd:
     name: systemd
@@ -207,9 +207,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/systemd:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   squid:
     name: squid
@@ -248,9 +248,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/squid:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   norikra:
     name: norikra
@@ -289,9 +289,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/norikra:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   ruby-full:
     name: ruby-full
@@ -330,9 +330,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/ruby-full:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   rails6:
     name: rails6
@@ -371,9 +371,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/rails6:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   tdiary:
     name: tdiary
@@ -412,9 +412,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/tdiary:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   baseimage-buster:
     name: baseimage-buster
@@ -450,9 +450,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/baseimage-buster:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   ruby-buster:
     name: ruby-buster
@@ -491,9 +491,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/ruby-buster:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   systemd-buster:
     name: systemd-buster
@@ -532,9 +532,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/systemd-buster:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   baseimage-stretch:
     name: baseimage-stretch
@@ -570,9 +570,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/baseimage-stretch:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   ruby-stretch:
     name: ruby-stretch
@@ -611,9 +611,9 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/ruby-stretch:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
   systemd-stretch:
     name: systemd-stretch
@@ -652,7 +652,7 @@ jobs:
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
       - run: docker push minimum2scp/systemd-stretch:latest
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/features/push-image-from-gha'
 
