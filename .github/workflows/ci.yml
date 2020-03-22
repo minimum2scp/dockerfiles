@@ -35,6 +35,12 @@ jobs:
       - uses: actions/upload-artifact@v1
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage:latest
+        if: github.ref == 'refs/heads/master'
+
   ruby:
     name: ruby
     runs-on: ubuntu-latest
@@ -73,6 +79,12 @@ jobs:
       - uses: actions/upload-artifact@v1
         with: { name: ruby, path: /tmp/ruby.tar.gz }
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby:latest
+        if: github.ref == 'refs/heads/master'
+
   nodejs:
     name: nodejs
     runs-on: ubuntu-latest
@@ -107,6 +119,12 @@ jobs:
       - run: bundle exec rspec spec/nodejs
 
       # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/nodejs:latest
+        if: github.ref == 'refs/heads/master'
 
   es-kibana:
     name: es-kibana
@@ -146,6 +164,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/es-kibana:latest
+        if: github.ref == 'refs/heads/master'
+
   systemd:
     name: systemd
     runs-on: ubuntu-latest
@@ -180,6 +204,12 @@ jobs:
       - run: bundle exec rspec spec/systemd
 
       # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd:latest
+        if: github.ref == 'refs/heads/master'
 
   squid:
     name: squid
@@ -216,6 +246,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/squid:latest
+        if: github.ref == 'refs/heads/master'
+
   norikra:
     name: norikra
     runs-on: ubuntu-latest
@@ -250,6 +286,12 @@ jobs:
       - run: bundle exec rspec spec/norikra
 
       # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/norikra:latest
+        if: github.ref == 'refs/heads/master'
 
   ruby-full:
     name: ruby-full
@@ -286,6 +328,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-full:latest
+        if: github.ref == 'refs/heads/master'
+
   rails6:
     name: rails6
     runs-on: ubuntu-latest
@@ -320,6 +368,12 @@ jobs:
       - run: bundle exec rspec spec/rails6
 
       # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/rails6:latest
+        if: github.ref == 'refs/heads/master'
 
   tdiary:
     name: tdiary
@@ -356,6 +410,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/tdiary:latest
+        if: github.ref == 'refs/heads/master'
+
   baseimage-buster:
     name: baseimage-buster
     runs-on: ubuntu-latest
@@ -387,6 +447,12 @@ jobs:
       - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-buster:latest
+        if: github.ref == 'refs/heads/master'
 
   ruby-buster:
     name: ruby-buster
@@ -423,6 +489,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-buster:latest
+        if: github.ref == 'refs/heads/master'
+
   systemd-buster:
     name: systemd-buster
     runs-on: ubuntu-latest
@@ -458,6 +530,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd-buster:latest
+        if: github.ref == 'refs/heads/master'
+
   baseimage-stretch:
     name: baseimage-stretch
     runs-on: ubuntu-latest
@@ -489,6 +567,12 @@ jobs:
       - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
       - uses: actions/upload-artifact@v1
         with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-stretch:latest
+        if: github.ref == 'refs/heads/master'
 
   ruby-stretch:
     name: ruby-stretch
@@ -525,6 +609,12 @@ jobs:
 
       # No need to save image as artifact
 
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-stretch:latest
+        if: github.ref == 'refs/heads/master'
+
   systemd-stretch:
     name: systemd-stretch
     runs-on: ubuntu-latest
@@ -559,4 +649,10 @@ jobs:
       - run: bundle exec rspec spec/systemd-stretch
 
       # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd-stretch:latest
+        if: github.ref == 'refs/heads/master'
 
