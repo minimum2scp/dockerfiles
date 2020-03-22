@@ -39,12 +39,6 @@ namespace :minimum2scp do
   file "deps.svg" => "deps.dot" do
     sh "dot -T svg -o deps.svg deps.dot"
   end
-
-  desc "trigger dockerhub automated build"
-  task :trigger, [:image] do |t,args|
-    trigger_url = ENV["#{args['image'].gsub('-','_')}_TRIGGER_URL"]
-    sh "curl -i -X POST #{trigger_url}"
-  end
 end
 
 namespace :spec do
