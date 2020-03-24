@@ -23,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                all    add and remove users and groups
-ii   apt                     2.0.0                amd64  commandline package manager
+ii   apt                     2.0.1                amd64  commandline package manager
 ii   base-files              11                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47               amd64  Debian base system master password and group files
 ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
@@ -40,7 +40,7 @@ ii   fdisk                   2.34-0.1             amd64  collection of partition
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200321-1        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-7              amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.19-3             amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.20-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-2               amd64  GNU compression utilities
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name
@@ -48,7 +48,7 @@ ii   inetutils-ping          2:1.9.4-11           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
 ii   iproute2                5.5.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-6             amd64  access control list - shared library
-ii   libapt-pkg6.0           2.0.0                amd64  package management runtime library
+ii   libapt-pkg6.0           2.0.1                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-2            all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2+b1         amd64  Dynamic library for security auditing
@@ -67,7 +67,7 @@ ii   libdebconfclient0       0.251                amd64  Debian Configuration Ma
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
-ii   libffi7                 3.3-3                amd64  Foreign Function Interface library runtime
+ii   libffi7                 3.3-4                amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10-20200321-1        amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-4       amd64  Multiprecision arithmetic library

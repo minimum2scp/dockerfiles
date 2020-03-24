@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-6
 I: Validating adduser 3.118
-I: Validating apt 2.0.0
-I: Validating libapt-pkg6.0 2.0.0
+I: Retrieving apt 2.0.1
+I: Validating apt 2.0.1
+I: Retrieving libapt-pkg6.0 2.0.1
+I: Validating libapt-pkg6.0 2.0.1
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-2
 I: Validating libaudit1 1:2.8.5-2+b1
@@ -27,30 +29,22 @@ I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.9.1
 I: Validating diffutils 1:3.7-3
 I: Validating dpkg 1.19.7
-I: Retrieving e2fsprogs 1.45.6-1
 I: Validating e2fsprogs 1.45.6-1
-I: Retrieving libcom-err2 1.45.6-1
 I: Validating libcom-err2 1.45.6-1
-I: Retrieving libext2fs2 1.45.6-1
 I: Validating libext2fs2 1.45.6-1
-I: Retrieving libss2 1.45.6-1
 I: Validating libss2 1.45.6-1
-I: Retrieving logsave 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.7.0-1
-I: Retrieving gcc-10-base 10-20200321-1
 I: Validating gcc-10-base 10-20200321-1
-I: Retrieving libgcc-s1 10-20200321-1
 I: Validating libgcc-s1 10-20200321-1
-I: Retrieving libstdc++6 10-20200321-1
 I: Validating libstdc++6 10-20200321-1
-I: Retrieving gcc-9-base 9.3.0-7
 I: Validating gcc-9-base 9.3.0-7
 I: Validating libc-bin 2.30-2
 I: Validating libc6 2.30-2
 I: Validating libgmp10 2:6.2.0+dfsg-4
-I: Validating gpgv 2.2.19-3
+I: Retrieving gpgv 2.2.20-1
+I: Validating gpgv 2.2.20-1
 I: Validating libgnutls30 3.6.12-2
 I: Validating grep 3.4-1
 I: Validating gzip 1.10-2
@@ -63,7 +57,8 @@ I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.1+b2
 I: Validating libcap2 1:2.32-1
 I: Validating libcap2-bin 1:2.32-1
-I: Validating libffi7 3.3-3
+I: Retrieving libffi7 3.3-4
+I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.5-5
 I: Validating libgpg-error0 1.37-1
 I: Validating libidn11 1.33-2.2
@@ -422,10 +417,10 @@ Sending build context to Docker daemon  31.77MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1fc467eaaa7c
+ ---> b4a2549b5928
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 37116042cef2
-Removing intermediate container 37116042cef2
- ---> 39dedc8268cf
-Successfully built 39dedc8268cf
+ ---> Running in 4bb1e00b2cdc
+Removing intermediate container 4bb1e00b2cdc
+ ---> 122e6f887b09
+Successfully built 122e6f887b09
 Successfully tagged minimum2scp/debian:latest
