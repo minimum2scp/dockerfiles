@@ -66,7 +66,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.0.0                           amd64  commandline package manager
+ii   apt                     2.0.1                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
@@ -88,9 +88,9 @@ ii   fdisk                   2.34-0.1                        amd64  collection o
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200321-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-7                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.26.0~rc2-1                  amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.26.0~rc2-1                  all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                    2.2.19-3                        amd64  GNU privacy guard - signature verification tool
+ii   git                     1:2.26.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.26.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-2                          amd64  GNU compression utilities
@@ -101,7 +101,7 @@ ii   initscripts             2.96-3                          all    scripts for 
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.5.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-6                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.0.0                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.0.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-2+b1                    amd64  Dynamic library for security auditing
@@ -130,7 +130,7 @@ ii   libexpat1               2.2.9-1                         amd64  XML parsing 
 ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
-ii   libffi7                 3.3-3                           amd64  Foreign Function Interface library runtime
+ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.3.1-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10-20200321-1                   amd64  GCC support library
 ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto library - runtime library
@@ -139,14 +139,14 @@ ii   libgdbm6                1.18.1-5                        amd64  GNU dbm data
 ii   libgmp10                2:6.2.0+dfsg-4                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.12-2                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.37-1                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-6                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-7                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                        amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.3.0-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-6                          amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-7                          amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-6                          amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-6                          amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-7                          amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-7                          amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.49+dfsg-2                   amd64  OpenLDAP libraries
 ii   libldap-common          2.4.49+dfsg-2                   all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
@@ -231,10 +231,10 @@ ii   tzdata                  2019c-3                         all    time zone an
 ii   ucf                     3.0038+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.34-0.1                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.0397-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.0397-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.0439-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.0439-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.0397-1+b1                 amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.0439-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-4                           amd64  shell with lots of features
 ii   zsh-common              5.8-4                           all    architecture independent files for Zsh
