@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200321-1",
+    "Version": "10-20200324-1",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200321-1"
+    "source:Version": "10-20200324-1"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.3.0-7",
+    "Version": "9.3.0-8",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.3.0-7"
+    "source:Version": "9.3.0-8"
   },
   {
     "Architecture": "amd64",
@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>> 2.30), libc6 (<< 2.31)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3532",
+    "Installed-Size": "3533",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-2",
+    "Version": "2.30-4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1257,16 +1257,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-2"
+    "source:Version": "2.30-4"
   },
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "locales (<< 2.21-1)",
+    "Breaks": "",
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4289",
+    "Installed-Size": "4290",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-2",
+    "Version": "2.30-4",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1285,16 +1285,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-2"
+    "source:Version": "2.30-4"
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "openrc (<< 0.27-2~)",
+    "Conflicts": "",
     "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.30), locales-all (<< 2.30), nocache (<< 1.1-1~), nscd (<< 2.30), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12848",
+    "Installed-Size": "12844",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.30-2",
+    "Version": "2.30-4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-2"
+    "source:Version": "2.30-4"
   },
   {
     "Architecture": "amd64",
@@ -1879,7 +1879,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-10-base (= 10-20200321-1), libc6 (>= 2.14)",
+    "Depends": "gcc-10-base (= 10-20200324-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1887,13 +1887,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:10-20200321-1)",
+    "Provides": "libgcc1 (= 1:10-20200324-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200321-1",
+    "Version": "10-20200324-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200321-1"
+    "source:Version": "10-20200324-1"
   },
   {
     "Architecture": "amd64",
@@ -3335,7 +3335,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-10-base (= 10-20200321-1), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-10-base (= 10-20200324-1), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2351",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200321-1",
+    "Version": "10-20200324-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200321-1"
+    "source:Version": "10-20200324-1"
   },
   {
     "Architecture": "amd64",
@@ -3674,7 +3674,7 @@
     "Depends": "libc-bin (>> 2.30), libc-l10n (>> 2.30), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16121",
+    "Installed-Size": "16122",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3685,7 +3685,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-2",
+    "Version": "2.30-4",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-2"
+    "source:Version": "2.30-4"
   },
   {
     "Architecture": "amd64",
