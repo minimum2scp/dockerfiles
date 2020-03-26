@@ -38,8 +38,8 @@ ii   dpkg                    1.19.7               amd64  Debian package manageme
 ii   e2fsprogs               1.45.6-1             amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200321-1        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-7              amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200324-1        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-8              amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.20-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-2               amd64  GNU compression utilities
@@ -55,8 +55,8 @@ ii   libaudit1               1:2.8.5-2+b1         amd64  Dynamic library for sec
 ii   libblkid1               2.34-0.1             amd64  block device ID library
 ii   libbsd0                 0.10.0-1             amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.30-2               amd64  GNU C Library: Binaries
-ii   libc6                   2.30-2               amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.30-4               amd64  GNU C Library: Binaries
+ii   libc6                   2.30-4               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b2         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.32-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.32-1             amd64  POSIX 1003.1e capabilities (utilities)
@@ -68,7 +68,7 @@ ii   libelf1                 0.176-1.1            amd64  library to read and wri
 ii   libext2fs2              1.45.6-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
 ii   libffi7                 3.3-4                amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10-20200321-1        amd64  GCC support library
+ii   libgcc-s1               10-20200324-1        amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-4       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.12-2             amd64  GNU TLS library - main runtime library
@@ -96,7 +96,7 @@ ii   libsemanage1            3.0-1+b2             amd64  SELinux policy manageme
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
-ii   libstdc++6              10-20200321-1        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10-20200324-1        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             245.2-1              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
