@@ -32,6 +32,7 @@ done
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
+bash -l -c "bundle lock --update=octokit"
 bash -l -c "bundle install --path vendor/bundle --jobs=4"
 
 ## add Gemfile.local
