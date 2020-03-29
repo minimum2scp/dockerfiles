@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.5-2",
+    "Version": "1:2.8.5-3",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -809,16 +809,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.5-2"
+    "source:Version": "1:2.8.5-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:2.8.5-2), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:2.8.5-3), libc6 (>= 2.14), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "164",
+    "Installed-Size": "163",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.8.5-2+b1",
+    "Version": "1:2.8.5-3",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:2.8.5-2"
+    "source:Version": "1:2.8.5-3"
   },
   {
     "Architecture": "amd64",
@@ -1014,7 +1014,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "57",
+    "Installed-Size": "69",
     "Origin": "",
     "Package": "libcap2",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.32-1",
+    "Version": "1:2.33-1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1033,16 +1033,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.32-1"
+    "source:Version": "1:2.33-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcap-bin",
-    "Depends": "libc6 (>= 2.14), libcap2 (>= 1:2.31)",
+    "Depends": "libc6 (>= 2.3.3), libcap2 (>= 1:2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "117",
+    "Installed-Size": "121",
     "Origin": "",
     "Package": "libcap2-bin",
     "Pre-Depends": "",
@@ -1053,7 +1053,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.32-1",
+    "Version": "1:2.33-1",
     "binary:Package": "libcap2-bin",
     "binary:Summary": "POSIX 1003.1e capabilities (utilities)",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.32-1"
+    "source:Version": "1:2.33-1"
   },
   {
     "Architecture": "amd64",
