@@ -314,7 +314,7 @@
     "Depends": "debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "212",
+    "Installed-Size": "217",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.14)",
@@ -325,7 +325,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.10.2-6",
+    "Version": "0.5.10.2-7",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.10.2-6"
+    "source:Version": "0.5.10.2-7"
   },
   {
     "Architecture": "all",
