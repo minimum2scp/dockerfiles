@@ -8,8 +8,8 @@ export DEBIAN_FRONTEND=noninteractive
 ## install ruby (see https://github.com/minimum2scp/ruby-binary)
 ##
 curl -L --create-dirs -o /tmp/build/tdiary/tmp/ruby-binary/install.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install.sh
-sh /tmp/build/tdiary/tmp/ruby-binary/install.sh -t v0.1.117 -v 2.7.0
-bash -lc "rbenv global 2.7.0"
+sh /tmp/build/tdiary/tmp/ruby-binary/install.sh -t v0.1.118 -v 2.7.1
+bash -lc "rbenv global 2.7.1"
 
 ##
 ## tdiary dependencies
