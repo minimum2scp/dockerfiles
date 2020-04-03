@@ -86,8 +86,8 @@ ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200324-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-8                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200402-1                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-9                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.26.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.26.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
@@ -99,7 +99,7 @@ ii   inetutils-ping          2:1.9.4-11                      amd64  ICMP echo to
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.5.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-6                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.0.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -132,7 +132,7 @@ ii   libfastjson4            0.99.8-2                        amd64  fast json li
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.3.1-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10-20200324-1                   amd64  GCC support library
+ii   libgcc-s1               10-20200402-1                   amd64  GCC support library
 ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -183,13 +183,13 @@ ii   libslang2               2.3.2-4                         amd64  S-Lang progr
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1e-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10-20200324-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.2-1                         amd64  systemd utility library
+ii   libssl1.1               1.1.1f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libstdc++6              10-20200402-1                   amd64  GNU Standard C++ Library v3
+ii   libsystemd0             245.4-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                245.2-1                         amd64  libudev shared library
+ii   libudev1                245.4-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -211,7 +211,7 @@ ii   netbase                 6.1                             all    Basic TCP/IP
 ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.2p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1e-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1f-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-9                        amd64  minimal Perl system
