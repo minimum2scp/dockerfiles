@@ -71,7 +71,7 @@ ii   libffi7                 3.3-4                amd64  Foreign Function Interf
 ii   libgcc-s1               10-20200402-1        amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-4       amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.12-2             amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.13-2             amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.37-1               amd64  GnuPG development runtime library
 ii   libhogweed5             3.5.1+really3.5.1-2  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2             amd64  GNU Libidn library, implementation of IETF IDN specifications
