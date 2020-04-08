@@ -1,8 +1,3 @@
-[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/baseimage-buster.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/baseimage-buster.svg)]()
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/baseimage-buster.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/baseimage-buster.svg)]()
-
 # about minimum2scp/baseimage-buster image
 
  * based on [minimum2scp/debian-buster](https://github.com/minimum2scp/dockerfiles/tree/master/debian-buster) image

@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/ruby.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/ruby.svg)]()
-
 # about minimum2scp/ruby image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)

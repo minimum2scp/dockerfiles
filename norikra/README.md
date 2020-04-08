@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/norikra.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/norikra.svg)]()
-
 # about minimum2scp/norikra image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)

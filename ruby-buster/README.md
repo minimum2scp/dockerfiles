@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/ruby-buster.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/ruby-buster.svg)]()
-
 # about minimum2scp/ruby-buster image
 
  * based on minimum2scp/baseimage-buster (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage-buster)

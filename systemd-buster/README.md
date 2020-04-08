@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/systemd-buster.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/systemd-buster.svg)]()
-
 # about minimum2scp/systemd-buster image
 
  * based on minimum2scp/baseimage-buster (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage-buster)
