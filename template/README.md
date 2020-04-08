@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/template.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/template.svg)]()
-
 # about minimum2scp/template image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)

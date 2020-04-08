@@ -1,6 +1,3 @@
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/systemd-stretch.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/systemd-stretch.svg)]()
-
 # about minimum2scp/systemd-stretch image
 
  * based on minimum2scp/baseimage-stretch (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage-stretch)

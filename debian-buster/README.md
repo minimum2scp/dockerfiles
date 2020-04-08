@@ -1,7 +1,3 @@
-[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian-buster.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian-buster.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian-buster.svg)]()
-
 # about minimum2scp/debian-buster image
 
  * Debian buster (10.x) amd64
