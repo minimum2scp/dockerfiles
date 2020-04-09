@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian.svg)]()
+
 # about minimum2scp/debian image
 
  * Debian sid amd64, this image follows updates of debian sid, almost every day.
@@ -19,7 +23,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                all    add and remove users and groups
-ii   apt                     2.0.1                amd64  commandline package manager
+ii   apt                     2.0.2                amd64  commandline package manager
 ii   base-files              11                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47               amd64  Debian base system master password and group files
 ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
@@ -44,7 +48,7 @@ ii   inetutils-ping          2:1.9.4-11           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
 ii   iproute2                5.6.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-6             amd64  access control list - shared library
-ii   libapt-pkg6.0           2.0.1                amd64  package management runtime library
+ii   libapt-pkg6.0           2.0.2                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3            all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3            amd64  Dynamic library for security auditing
