@@ -92,15 +92,15 @@ ii   libpcre3                2:8.39-12+b1         amd64  Old Perl 5 Compatible R
 ii   libseccomp2             2.4.3-1              amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.0-1+b2             amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.0-1                all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.0-1+b2             amd64  SELinux policy management library
+ii   libsemanage1            3.0-1+b3             amd64  SELinux policy management library
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
 ii   libstdc++6              10-20200402-1        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.4-2              amd64  systemd utility library
+ii   libsystemd0             245.4-3              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                245.4-2              amd64  libudev shared library
+ii   libudev1                245.4-3              amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
 ii   libxtables12            1.8.4-3              amd64  netfilter xtables library
