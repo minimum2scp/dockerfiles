@@ -34,9 +34,12 @@ I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.7.0-1
-I: Validating gcc-10-base 10-20200402-1
-I: Validating libgcc-s1 10-20200402-1
-I: Validating libstdc++6 10-20200402-1
+I: Retrieving gcc-10-base 10-20200410-1
+I: Validating gcc-10-base 10-20200410-1
+I: Retrieving libgcc-s1 10-20200410-1
+I: Validating libgcc-s1 10-20200410-1
+I: Retrieving libstdc++6 10-20200410-1
+I: Validating libstdc++6 10-20200410-1
 I: Validating gcc-9-base 9.3.0-10
 I: Validating libc-bin 2.30-4
 I: Validating libc6 2.30-4
@@ -63,7 +66,6 @@ I: Validating libmnl0 1.0.4-2+b1
 I: Validating libseccomp2 2.4.3-1
 I: Validating libselinux1 3.0-1+b2
 I: Validating libsemanage-common 3.0-1
-I: Retrieving libsemanage1 3.0-1+b3
 I: Validating libsemanage1 3.0-1+b3
 I: Validating libsepol1 3.0-1
 I: Validating libtasn1-6 4.16.0-2
@@ -91,9 +93,7 @@ I: Validating perl-base 5.30.0-9
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 245.4-3
 I: Validating libsystemd0 245.4-3
-I: Retrieving libudev1 245.4-3
 I: Validating libudev1 245.4-3
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
@@ -412,14 +412,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.79MB
+Sending build context to Docker daemon  31.81MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ada7d1557fd1
+ ---> f76163634205
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4746fe0120ef
-Removing intermediate container 4746fe0120ef
- ---> c33897877d60
-Successfully built c33897877d60
+ ---> Running in 15acf5a3de5c
+Removing intermediate container 15acf5a3de5c
+ ---> 52042dc0d068
+Successfully built 52042dc0d068
 Successfully tagged minimum2scp/debian:latest
