@@ -88,8 +88,8 @@ ii   fdisk                   2.34-0.1                        amd64  collection o
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200411-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.26.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.26.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.26.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.26.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
@@ -147,8 +147,8 @@ ii   libk5crypto3            1.17-7                          amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-7                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-7                          amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.49+dfsg-3                   amd64  OpenLDAP libraries
-ii   libldap-common          2.4.49+dfsg-3                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.49+dfsg-4                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.49+dfsg-4                   all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
