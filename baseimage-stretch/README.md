@@ -1,3 +1,8 @@
+[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/baseimage-stretch.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/baseimage-stretch.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/baseimage-stretch.svg)]()
+[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/baseimage-stretch.svg)]()
+
 # about minimum2scp/baseimage-stretch image
 
  * based on [minimum2scp/debian-stretch](https://github.com/minimum2scp/dockerfiles/tree/master/debian-stretch) image
@@ -82,8 +87,8 @@ ii   e2fsprogs               1.43.4-2+deb9u1                    amd64  ext2/ext3
 ii   etckeeper               1.18.5-1                           all    store /etc in git, mercurial, bzr or darcs
 ii   findutils               4.6.0+git+20161106-2               amd64  utilities for finding files--find, xargs
 ii   gcc-6-base              6.3.0-18+deb9u1                    amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.11.0-3+deb9u5                  amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.11.0-3+deb9u5                  all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.11.0-3+deb9u6                  amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.11.0-3+deb9u6                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.1.18-8~deb9u4                    amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                             amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                           amd64  GNU troff text-formatting system (base system components)
