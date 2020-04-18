@@ -1,7 +1,3 @@
-[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/debian.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/debian.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/debian.svg)]()
-
 # about minimum2scp/debian image
 
  * Debian sid amd64, this image follows updates of debian sid, almost every day.

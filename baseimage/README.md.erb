@@ -1,8 +1,3 @@
-[![Docker Stars](https://img.shields.io/docker/stars/minimum2scp/baseimage.svg)]()
-[![Docker Pulls](https://img.shields.io/docker/pulls/minimum2scp/baseimage.svg)]()
-[![Docker Build Status](https://img.shields.io/docker/build/minimum2scp/baseimage.svg)]()
-[![Docker Automated Build](https://img.shields.io/docker/automated/minimum2scp/baseimage.svg)]()
-
 # about minimum2scp/baseimage image
 
  * based on [minimum2scp/debian](https://github.com/minimum2scp/dockerfiles/tree/master/debian) image
