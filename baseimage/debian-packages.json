@@ -342,7 +342,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "520",
+    "Installed-Size": "518",
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.73",
+    "Version": "1.5.74",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.73"
+    "source:Version": "1.5.74"
   },
   {
     "Architecture": "all",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200411-1",
+    "Version": "10-20200418-1",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200411-1"
+    "source:Version": "10-20200418-1"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "libc6 (>= 2.25), libcbor0 (>= 0.5.0), libssl1.1 (>= 1.1.1), libudev1 (>= 183)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "160",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "libfido2-1",
     "Pre-Depends": "",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1-1",
+    "Version": "1.4.0-1",
     "binary:Package": "libfido2-1:amd64",
     "binary:Summary": "library for generating and verifying FIDO 2.0 objects",
     "db:Status-Abbrev": "ii ",
@@ -1873,13 +1873,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfido2",
-    "source:Version": "1.3.1-1"
+    "source:Version": "1.4.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-10-base (= 10-20200411-1), libc6 (>= 2.14)",
+    "Depends": "gcc-10-base (= 10-20200418-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1887,13 +1887,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:10-20200411-1)",
+    "Provides": "libgcc1 (= 1:10-20200418-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200411-1",
+    "Version": "10-20200418-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200411-1"
+    "source:Version": "10-20200418-1"
   },
   {
     "Architecture": "amd64",
@@ -2831,10 +2831,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.084), libcompress-raw-zlib-perl (<< 2.084), libcompress-zlib-perl (<< 2.084), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.01), libfilter-perl (<< 1.59), libio-compress-base-perl (<< 2.084), libio-compress-bzip2-perl (<< 2.084), libio-compress-perl (<< 2.084), libio-compress-zlib-perl (<< 2.084), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.15), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.60), libtime-hires-perl (<< 1.9760), libtime-piece-perl (<< 1.3300)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.29), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.30 (>= 5.30.0-9)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.30 (>= 5.30.0-10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "27049",
+    "Installed-Size": "27051",
     "Origin": "",
     "Package": "libperl5.30",
     "Pre-Depends": "",
@@ -2845,7 +2845,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.30.0-9",
+    "Version": "5.30.0-10",
     "binary:Package": "libperl5.30:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.30.0-9"
+    "source:Version": "5.30.0-10"
   },
   {
     "Architecture": "amd64",
@@ -3335,7 +3335,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-10-base (= 10-20200411-1), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-10-base (= 10-20200418-1), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2351",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10-20200411-1",
+    "Version": "10-20200418-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10-20200411-1"
+    "source:Version": "10-20200418-1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.4-4",
+    "Version": "245.5-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.4-4"
+    "source:Version": "245.5-1"
   },
   {
     "Architecture": "amd64",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.4-4",
+    "Version": "245.5-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.4-4"
+    "source:Version": "245.5-1"
   },
   {
     "Architecture": "amd64",
@@ -4147,7 +4147,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.30.0-1)",
-    "Depends": "perl-base (= 5.30.0-9), perl-modules-5.30 (>= 5.30.0-9), libperl5.30 (= 5.30.0-9)",
+    "Depends": "perl-base (= 5.30.0-10), perl-modules-5.30 (>= 5.30.0-10), libperl5.30 (= 5.30.0-10)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "747",
@@ -4160,8 +4160,8 @@
     "Replace": "",
     "Section": "perl",
     "Status": "install ok installed",
-    "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libb-debug-perl, liblocale-codes-perl",
-    "Version": "5.30.0-9",
+    "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libb-debug-perl, liblocale-codes-perl, libtap-harness-archive-perl",
+    "Version": "5.30.0-10",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -4169,7 +4169,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.30.0-9"
+    "source:Version": "5.30.0-10"
   },
   {
     "Architecture": "amd64",
@@ -4181,7 +4181,7 @@
     "Installed-Size": "10760",
     "Origin": "",
     "Package": "perl-base",
-    "Pre-Depends": "libc6 (>= 2.29), dpkg (>= 1.17.17)",
+    "Pre-Depends": "libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
     "Priority": "required",
     "Provides": "libfile-path-perl (= 2.16), libfile-temp-perl (= 0.2309), libio-socket-ip-perl (= 0.39), libscalar-list-utils-perl (= 1:1.50), libsocket-perl (= 2.027), libxsloader-perl (= 0.30), perlapi-5.30.0",
     "Recommends": "",
@@ -4189,7 +4189,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.30.0-9",
+    "Version": "5.30.0-10",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.30.0-9"
+    "source:Version": "5.30.0-10"
   },
   {
     "Architecture": "all",
@@ -4217,7 +4217,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.30.0-9",
+    "Version": "5.30.0-10",
     "binary:Package": "perl-modules-5.30",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.30.0-9"
+    "source:Version": "5.30.0-10"
   },
   {
     "Architecture": "amd64",

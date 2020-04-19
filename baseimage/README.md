@@ -72,7 +72,7 @@ ii   coreutils               8.30-3+b1                       amd64  GNU core uti
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.68.0-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
-ii   debconf                 1.5.73                          all    Debian configuration management system
+ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.9.1                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
@@ -81,7 +81,7 @@ ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200411-1                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200418-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.26.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.26.1-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -126,8 +126,8 @@ ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libfdisk1               2.34-0.1                        amd64  fdisk partitioning library
 ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
-ii   libfido2-1              1.3.1-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10-20200411-1                   amd64  GCC support library
+ii   libfido2-1              1.4.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
+ii   libgcc-s1               10-20200418-1                   amd64  GCC support library
 ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
@@ -161,7 +161,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.30             5.30.0-9                        amd64  shared Perl library
+ii   libperl5.30             5.30.0-10                       amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-4                      amd64  library for accessing process information from /proc
@@ -179,12 +179,12 @@ ii   libsmartcols1           2.34-0.1                        amd64  smart column
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10-20200411-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.4-4                         amd64  systemd utility library
+ii   libstdc++6              10-20200418-1                   amd64  GNU Standard C++ Library v3
+ii   libsystemd0             245.5-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                         amd64  universal charset detection library - shared library
-ii   libudev1                245.4-4                         amd64  libudev shared library
+ii   libudev1                245.5-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-2                        amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -208,9 +208,9 @@ ii   openssh-server          1:8.2p1-4                       amd64  secure shell
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1f-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.30.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.30.0-9                        amd64  minimal Perl system
-ii   perl-modules-5.30       5.30.0-9                        all    Core Perl modules
+ii   perl                    5.30.0-10                       amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.30.0-10                       amd64  minimal Perl system
+ii   perl-modules-5.30       5.30.0-10                       all    Core Perl modules
 ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
 ii   rsyslog                 8.2002.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
