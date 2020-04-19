@@ -26,7 +26,7 @@ ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.34-0.1           amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-3+b1            amd64  GNU core utilities
 ii   dash                    0.5.10.2-7           amd64  POSIX-compliant shell
-ii   debconf                 1.5.73               all    Debian configuration management system
+ii   debconf                 1.5.74               all    Debian configuration management system
 ii   debian-archive-keyring  2019.1               all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.9.1                amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3              amd64  File comparison utilities
@@ -34,7 +34,7 @@ ii   dpkg                    1.19.7               amd64  Debian package manageme
 ii   e2fsprogs               1.45.6-1             amd64  ext2/ext3/ext4 file system utilities
 ii   fdisk                   2.34-0.1             amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10-20200411-1        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10-20200418-1        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-10             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.20-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
@@ -64,7 +64,7 @@ ii   libelf1                 0.176-1.1            amd64  library to read and wri
 ii   libext2fs2              1.45.6-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libfdisk1               2.34-0.1             amd64  fdisk partitioning library
 ii   libffi7                 3.3-4                amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10-20200411-1        amd64  GCC support library
+ii   libgcc-s1               10-20200418-1        amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-4       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.13-2             amd64  GNU TLS library - main runtime library
@@ -92,11 +92,11 @@ ii   libsemanage1            3.0-1+b3             amd64  SELinux policy manageme
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.34-0.1             amd64  smart column output alignment library
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
-ii   libstdc++6              10-20200411-1        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.4-4              amd64  systemd utility library
+ii   libstdc++6              10-20200418-1        amd64  GNU Standard C++ Library v3
+ii   libsystemd0             245.5-1              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                245.4-4              amd64  libudev shared library
+ii   libudev1                245.5-1              amd64  libudev shared library
 ii   libunistring2           0.9.10-2             amd64  Unicode string library for C
 ii   libuuid1                2.34-0.1             amd64  Universally Unique ID library
 ii   libxtables12            1.8.4-3              amd64  netfilter xtables library
@@ -110,7 +110,7 @@ ii   ncurses-base            6.2-1                all    basic terminal type def
 ii   ncurses-bin             6.2-1                amd64  terminal-related programs and man pages
 ii   netbase                 6.1                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
-ii   perl-base               5.30.0-9             amd64  minimal Perl system
+ii   perl-base               5.30.0-10            amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility
