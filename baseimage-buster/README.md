@@ -82,8 +82,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190209-2         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.3.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.1-2+deb10u2           amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.1-2+deb10u2           all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.1-2+deb10u3           amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.1-2+deb10u3           all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1+deb10u1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
@@ -179,7 +179,7 @@ ii   libsmartcols1           2.33.1-0.1                   amd64  smart column ou
 ii   libsqlite3-0            3.27.2-3                     amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1+deb10u3             amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1d-0+deb10u2             amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1d-0+deb10u3             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7~deb10u3                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
@@ -207,7 +207,7 @@ ii   netbase                 5.6                          all    Basic TCP/IP ne
 ii   openssh-client          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.9p1-10+deb10u2           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1d-0+deb10u2             amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1d-0+deb10u3             amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.28.1-6                     amd64  minimal Perl system
