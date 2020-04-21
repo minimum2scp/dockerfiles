@@ -83,8 +83,8 @@ ii   fdisk                   2.34-0.1                        amd64  collection o
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200418-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.26.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.26.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.26.2-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.26.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-4                        amd64  GNU troff text-formatting system (base system components)
