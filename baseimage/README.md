@@ -95,7 +95,7 @@ ii   init-system-helpers     1.57                            all    helper tools
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-6                        amd64  access control list - shared library
+ii   libacl1                 2.2.53-7                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.0.2                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
@@ -178,7 +178,7 @@ ii   libslang2               2.3.2-4                         amd64  S-Lang progr
 ii   libsmartcols1           2.34-0.1                        amd64  smart column output alignment library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1f-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10-20200418-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0             245.5-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -206,7 +206,7 @@ ii   netbase                 6.1                             all    Basic TCP/IP
 ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.2p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1f-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.0-10                       amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.0-10                       amd64  minimal Perl system
