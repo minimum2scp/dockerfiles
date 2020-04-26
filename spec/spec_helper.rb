@@ -4,6 +4,7 @@ require 'docker'
 require 'timeout'
 require 'socket'
 require 'shellwords'
+require 'json'
 
 ## show debug log
 if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
@@ -76,6 +77,20 @@ def wait_container_file(file, timeout: 60, interval: 1)
         else
           sleep interval
         end
+      end
+    end
+  end
+end
+
+def container_exec(cmd, timeout: 60)
+  container = Specinfra.configuration.docker_container_obj
+  begin
+    Timeout.timeout(timeout) do
+      stdout_messages, stderr_messages, exit_code = container.exec(Shellwords.shellsplit(cmd))
+      if exit_code != 0
+        warn stdout_messages
+        warn stderr_messages
+        raise "#{cmd} failed with exit code #{exit_code}"
       end
     end
   end
