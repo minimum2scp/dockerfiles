@@ -4,6 +4,7 @@ require 'docker'
 require 'timeout'
 require 'socket'
 require 'shellwords'
+require 'json'
 
 ## show debug log
 if ENV['DOCKER_API_DEBUG'] =~ /^1|on|true|yes$/i
