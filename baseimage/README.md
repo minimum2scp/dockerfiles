@@ -82,7 +82,7 @@ ii   etckeeper               1.18.12-1.1                     all    store /etc i
 ii   fdisk                   2.34-0.1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200418-1                   amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-10                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-11                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.26.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.26.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
@@ -101,7 +101,7 @@ ii   libattr1                1:2.4.48-5                      amd64  extended att
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.34-0.1                        amd64  block device ID library
-ii   libbrotli1              1.0.7-6+b1                      amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-6.1                       amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.30-4                          amd64  GNU C Library: Binaries
