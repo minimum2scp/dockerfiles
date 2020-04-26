@@ -19,5 +19,16 @@ describe 'minimum2scp/baseimage-stretch' do
         should_not match /\[upgradable from: /
       }
     end
+
+    packages = JSON.parse(File.read("#{File.basename(__dir__)}/debian-packages.json"))
+    packages.each do |package|
+      name = package["Package"]
+      version = package["Version"]
+      describe package(name) do
+        it {
+          should be_installed.with_version(version)
+        }
+      end
+    end
   end
 end
