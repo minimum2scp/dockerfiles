@@ -7,7 +7,6 @@ describe 'minimum2scp/baseimage' do
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
         'Env' => [ 'APT_LINE=keep' ]
       })
-      container_exec('apt-get update')
     end
 
     after(:all) do
@@ -15,9 +14,11 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe command('apt list --upgradable') do
+      let(:pre_command){ 'sudo apt-get update -qq' }
       its(:stdout) {
         should_not match /\[upgradable from: /
       }
+      its(:exit_status){ should eq 0 }
     end
 
     packages = JSON.parse(File.read("#{File.basename(__dir__)}/debian-packages.json"))
