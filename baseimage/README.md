@@ -142,8 +142,8 @@ ii   libk5crypto3            1.17-7                          amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-7                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-7                          amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.49+dfsg-4                   amd64  OpenLDAP libraries
-ii   libldap-common          2.4.49+dfsg-4                   all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.50+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-common          2.4.50+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
@@ -212,7 +212,7 @@ ii   perl                    5.30.0-10                       amd64  Larry Wall's
 ii   perl-base               5.30.0-10                       amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-10                       all    Core Perl modules
 ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
-ii   rsyslog                 8.2002.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2004.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
