@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.28), libgnutls30 (>= 3.6.12), libsasl2-2 (>= 2.1.27+dfsg), libldap-common",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "531",
+    "Installed-Size": "532",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.49+dfsg-4",
+    "Version": "2.4.50+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.49+dfsg-4"
+    "source:Version": "2.4.50+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -2330,7 +2330,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "114",
+    "Installed-Size": "115",
     "Origin": "",
     "Package": "libldap-common",
     "Pre-Depends": "",
@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.49+dfsg-4",
+    "Version": "2.4.50+dfsg-1",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.49+dfsg-4"
+    "source:Version": "2.4.50+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -4262,7 +4262,7 @@
     "Depends": "libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), liblognorm5 (>= 2.0.3), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1855",
+    "Installed-Size": "1856",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2002.0-2",
+    "Version": "8.2004.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2002.0-2"
+    "source:Version": "8.2004.0-1"
   },
   {
     "Architecture": "all",
