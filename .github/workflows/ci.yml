@@ -3,6 +3,31 @@ name: CI
 on: [push]
 
 jobs:
+  debian:
+    name: debian
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian
+
   baseimage:
     name: baseimage
     runs-on: ubuntu-latest
@@ -416,6 +441,31 @@ jobs:
       - run: docker push minimum2scp/tdiary:latest
         if: github.ref == 'refs/heads/master'
 
+  debian-buster:
+    name: debian-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian-buster
+
   baseimage-buster:
     name: baseimage-buster
     runs-on: ubuntu-latest
@@ -535,6 +585,31 @@ jobs:
         if: github.ref == 'refs/heads/master'
       - run: docker push minimum2scp/systemd-buster:latest
         if: github.ref == 'refs/heads/master'
+
+  debian-stretch:
+    name: debian-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian-stretch
 
   baseimage-stretch:
     name: baseimage-stretch
