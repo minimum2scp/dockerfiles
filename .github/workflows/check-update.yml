@@ -1,9 +1,8 @@
 name: Check upgradable packages
 
 on:
-  push:
-    branches:
-      - features/check-upgradable-packages-by-schedule
+  schedule:
+    - cron: '0 14 * * *'
 
 jobs:
   test:
