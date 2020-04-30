@@ -1,0 +1,733 @@
+name: CI
+
+on: [push]
+
+jobs:
+  debian:
+    name: debian
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian
+
+  baseimage:
+    name: baseimage
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/baseimage:latest baseimage
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/baseimage
+
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: baseimage, path: /tmp/baseimage.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage:latest
+        if: github.ref == 'refs/heads/master'
+
+  ruby:
+    name: ruby
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby:latest ruby
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/ruby
+
+      # save image as artifact
+      - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: ruby, path: /tmp/ruby.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby:latest
+        if: github.ref == 'refs/heads/master'
+
+  nodejs:
+    name: nodejs
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/nodejs:latest nodejs
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/nodejs
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/nodejs:latest
+        if: github.ref == 'refs/heads/master'
+
+  es-kibana:
+    name: es-kibana
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/es-kibana:latest es-kibana
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
+      - run: sudo sysctl -w vm.max_map_count=262144
+
+      # run test
+      - run: bundle exec rspec spec/es-kibana
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/es-kibana:latest
+        if: github.ref == 'refs/heads/master'
+
+  systemd:
+    name: systemd
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd:latest systemd
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd:latest
+        if: github.ref == 'refs/heads/master'
+
+  squid:
+    name: squid
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/squid:latest squid
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/squid
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/squid:latest
+        if: github.ref == 'refs/heads/master'
+
+  norikra:
+    name: norikra
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [ruby]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/norikra:latest norikra
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/norikra
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/norikra:latest
+        if: github.ref == 'refs/heads/master'
+
+  ruby-full:
+    name: ruby-full
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [ruby]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-full:latest ruby-full
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/ruby-full
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-full:latest
+        if: github.ref == 'refs/heads/master'
+
+  rails6:
+    name: rails6
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [ruby]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/rails6:latest rails6
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/rails6
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/rails6:latest
+        if: github.ref == 'refs/heads/master'
+
+  tdiary:
+    name: tdiary
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [ruby]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: ruby, path: /tmp }
+      - run: pigz -c -d /tmp/ruby.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/tdiary:latest tdiary
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/tdiary
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/tdiary:latest
+        if: github.ref == 'refs/heads/master'
+
+  debian-buster:
+    name: debian-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian-buster
+
+  baseimage-buster:
+    name: baseimage-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/baseimage-buster
+
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-buster:latest
+        if: github.ref == 'refs/heads/master'
+
+  ruby-buster:
+    name: ruby-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-buster]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-buster, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-buster:latest ruby-buster
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/ruby-buster
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-buster:latest
+        if: github.ref == 'refs/heads/master'
+
+  systemd-buster:
+    name: systemd-buster
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-buster]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-buster, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd-buster:latest systemd-buster
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd-buster
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd-buster:latest
+        if: github.ref == 'refs/heads/master'
+
+  debian-stretch:
+    name: debian-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/debian-stretch
+
+  baseimage-stretch:
+    name: baseimage-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/baseimage-stretch
+
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
+      - uses: actions/upload-artifact@v1
+        with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-stretch:latest
+        if: github.ref == 'refs/heads/master'
+
+  ruby-stretch:
+    name: ruby-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-stretch]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-stretch, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/ruby-stretch:latest ruby-stretch
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/ruby-stretch
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-stretch:latest
+        if: github.ref == 'refs/heads/master'
+
+  systemd-stretch:
+    name: systemd-stretch
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    needs: [baseimage-stretch]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v1
+        with: { name: baseimage-stretch, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/systemd-stretch:latest systemd-stretch
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: bundle exec rspec spec/systemd-stretch
+
+      # No need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd-stretch:latest
+        if: github.ref == 'refs/heads/master'
+
