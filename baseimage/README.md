@@ -95,7 +95,7 @@ ii   init-system-helpers     1.57                            all    helper tools
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
-ii   libacl1                 2.2.53-7                        amd64  access control list - shared library
+ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.0.2                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
