@@ -49,8 +49,8 @@ jobs:
               "channel": "#gh",
               "attachments": [{
                 "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
-                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<${{ github.event.repository.html_url }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
-                "footer": "<${{ github.event.repository.html_url }}|${{ github.repository }}>",
+                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
+                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
                 "fields": [
                   {
@@ -60,7 +60,7 @@ jobs:
                   },
                   {
                     "title": "github.sha",
-                    "value": "<${{ github.event.repository.html_url }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
+                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
                     "short": true
                   }
                 ]
