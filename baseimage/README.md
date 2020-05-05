@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.0.2                           amd64  commandline package manager
+ii   apt                     2.1.0                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
@@ -78,7 +78,7 @@ ii   debianutils             4.9.1                           amd64  Miscellaneou
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dpkg                    1.19.7                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper               1.18.12-1.1                     all    store /etc in git, mercurial, bzr or darcs
+ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   fdisk                   2.35.1-1                        amd64  collection of partitioning utilities
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10-20200502-1                   amd64  GCC, the GNU Compiler Collection (base package)
@@ -96,7 +96,7 @@ ii   initscripts             2.96-3                          all    scripts for 
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.0.2                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.0                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
@@ -104,9 +104,9 @@ ii   libblkid1               2.35.1-1                        amd64  block device
 ii   libbrotli1              1.0.7-6.1                       amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.30-4                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.30-4                          all    GNU C Library: localization files
-ii   libc6                   2.30-4                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.30-5                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.30-5                          all    GNU C Library: localization files
+ii   libc6                   2.30-5                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b2                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.33-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.33-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -149,6 +149,7 @@ ii   liblz4-1                1.9.2-2                         amd64  Fast LZ comp
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.35.1-1                        amd64  device mounting library
+ii   libmpdec2               2.4.2-3                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2-1                           amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -166,6 +167,10 @@ ii   libpipeline1            1.5.2-2                         amd64  Unix process
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3.8-minimal    3.8.3~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
+ii   libpython3.8-stdlib     3.8.3~rc1-1                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
+ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -176,6 +181,7 @@ ii   libsemanage1            3.0-1+b3                        amd64  SELinux poli
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.35.1-1                        amd64  smart column output alignment library
+ii   libsqlite3-0            3.31.1-5                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -191,13 +197,14 @@ ii   libwrap0                7.6.q-30                        amd64  Wietse Venem
 ii   libxtables12            1.8.4-3                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-3                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.8                         all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.30-4                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.30-5                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.1-1                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
+ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.35.1-1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2-1                           all    basic terminal type definitions
 ii   ncurses-bin             6.2-1                           amd64  terminal-related programs and man pages
@@ -212,6 +219,11 @@ ii   perl                    5.30.0-10                       amd64  Larry Wall's
 ii   perl-base               5.30.0-10                       amd64  minimal Perl system
 ii   perl-modules-5.30       5.30.0-10                       all    Core Perl modules
 ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
+ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
+ii   python3.8               3.8.3~rc1-1                     amd64  Interactive high-level object-oriented language (version 3.8)
+ii   python3.8-minimal       3.8.3~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
+ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2004.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
