@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                all    add and remove users and groups
-ii   apt                     2.0.2                amd64  commandline package manager
+ii   apt                     2.1.0                amd64  commandline package manager
 ii   base-files              11                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47               amd64  Debian base system master password and group files
 ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
@@ -44,15 +44,15 @@ ii   inetutils-ping          2:1.9.4-12           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
 ii   iproute2                5.6.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8             amd64  access control list - shared library
-ii   libapt-pkg6.0           2.0.2                amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.0                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3            all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1         amd64  Dynamic library for security auditing
 ii   libblkid1               2.35.1-1             amd64  block device ID library
 ii   libbsd0                 0.10.0-1             amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-2              amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.30-4               amd64  GNU C Library: Binaries
-ii   libc6                   2.30-4               amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.30-5               amd64  GNU C Library: Binaries
+ii   libc6                   2.30-5               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.1+b2         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.33-1             amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.33-1             amd64  POSIX 1003.1e capabilities (utilities)

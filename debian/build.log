@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Validating apt 2.0.2
-I: Validating libapt-pkg6.0 2.0.2
+I: Retrieving apt 2.1.0
+I: Validating apt 2.1.0
+I: Retrieving libapt-pkg6.0 2.1.0
+I: Validating libapt-pkg6.0 2.1.0
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
 I: Validating libaudit1 1:2.8.5-3+b1
@@ -38,8 +40,10 @@ I: Validating gcc-10-base 10-20200502-1
 I: Validating libgcc-s1 10-20200502-1
 I: Validating libstdc++6 10-20200502-1
 I: Validating gcc-9-base 9.3.0-11
-I: Validating libc-bin 2.30-4
-I: Validating libc6 2.30-4
+I: Retrieving libc-bin 2.30-5
+I: Validating libc-bin 2.30-5
+I: Retrieving libc6 2.30-5
+I: Validating libc6 2.30-5
 I: Validating libgmp10 2:6.2.0+dfsg-4
 I: Validating gpgv 2.2.20-1
 I: Validating libgnutls30 3.6.13-2
@@ -95,23 +99,14 @@ I: Validating libudev1 245.5-2
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Retrieving bsdutils 1:2.35.1-1
 I: Validating bsdutils 1:2.35.1-1
-I: Retrieving fdisk 2.35.1-1
 I: Validating fdisk 2.35.1-1
-I: Retrieving libblkid1 2.35.1-1
 I: Validating libblkid1 2.35.1-1
-I: Retrieving libfdisk1 2.35.1-1
 I: Validating libfdisk1 2.35.1-1
-I: Retrieving libmount1 2.35.1-1
 I: Validating libmount1 2.35.1-1
-I: Retrieving libsmartcols1 2.35.1-1
 I: Validating libsmartcols1 2.35.1-1
-I: Retrieving libuuid1 2.35.1-1
 I: Validating libuuid1 2.35.1-1
-I: Retrieving mount 2.35.1-1
 I: Validating mount 2.35.1-1
-I: Retrieving util-linux 2.35.1-1
 I: Validating util-linux 2.35.1-1
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
@@ -418,14 +413,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.85MB
+Sending build context to Docker daemon  31.86MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4ed2b7fdf570
+ ---> 9f3e1930cc1d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3b997e2f4645
-Removing intermediate container 3b997e2f4645
- ---> 31d6df9ee8d1
-Successfully built 31d6df9ee8d1
+ ---> Running in 0d877e57d255
+Removing intermediate container 0d877e57d255
+ ---> 091bf3345418
+Successfully built 091bf3345418
 Successfully tagged minimum2scp/debian:latest
