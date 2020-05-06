@@ -174,7 +174,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "381",
+    "Installed-Size": "382",
     "Origin": "",
     "Package": "bsdutils",
     "Pre-Depends": "libc6 (>= 2.17), libsystemd0",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.35.1-1",
+    "Version": "1:2.35.1-2",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "all",
@@ -534,34 +534,6 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "util-linux (<< 2.29.2-3~)",
-    "Depends": "libc6 (>= 2.14), libfdisk1 (>= 2.33), libmount1 (>= 2.24.2), libncursesw6 (>= 6), libsmartcols1 (>= 2.28~rc1), libtinfo6 (>= 6)",
-    "Enhances": "",
-    "Essential": "no",
-    "Installed-Size": "496",
-    "Origin": "",
-    "Package": "fdisk",
-    "Pre-Depends": "",
-    "Priority": "important",
-    "Provides": "",
-    "Recommends": "",
-    "Replace": "",
-    "Section": "utils",
-    "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "2.35.1-1",
-    "binary:Package": "fdisk",
-    "binary:Summary": "collection of partitioning utilities",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": "",
     "Breaks": "binstats (<< 1.08-8.1), guilt (<< 0.36-0.2), libpython3.4-minimal (<< 3.4.4-2), libpython3.5-minimal (<< 3.5.1-3), lsat (<< 0.9.7.1-2.1), mc (<< 3:4.8.11-1), switchconf (<< 0.0.9-2.1)",
     "Depends": "",
     "Enhances": "",
@@ -759,7 +731,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "groff (<< 1.22.4~rc2-2), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)",
-    "Depends": "libc6 (>= 2.29), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
+    "Depends": "libc6 (>= 2.29), libgcc-s1 (>= 4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3617",
@@ -773,7 +745,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.4-4",
+    "Version": "1.22.4-5",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.4-4"
+    "source:Version": "1.22.4-5"
   },
   {
     "Architecture": "amd64",
@@ -1126,7 +1098,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "412",
+    "Installed-Size": "413",
     "Origin": "",
     "Package": "libblkid1",
     "Pre-Depends": "",
@@ -1137,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-5",
+    "Version": "2.30-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-5"
+    "source:Version": "2.30-7"
   },
   {
     "Architecture": "all",
@@ -1277,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-5",
+    "Version": "2.30-7",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-5"
+    "source:Version": "2.30-7"
   },
   {
     "Architecture": "amd64",
@@ -1294,7 +1266,7 @@
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12845",
+    "Installed-Size": "12846",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1305,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.30-5",
+    "Version": "2.30-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-5"
+    "source:Version": "2.30-7"
   },
   {
     "Architecture": "amd64",
@@ -1790,34 +1762,6 @@
     "db:Status-Eflag": "ok",
     "source:Package": "libfastjson",
     "source:Version": "0.99.8-2"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": "",
-    "Breaks": "",
-    "Depends": "libblkid1 (>= 2.24.2), libc6 (>= 2.25), libuuid1 (>= 2.16)",
-    "Enhances": "",
-    "Essential": "no",
-    "Installed-Size": "530",
-    "Origin": "",
-    "Package": "libfdisk1",
-    "Pre-Depends": "",
-    "Priority": "optional",
-    "Provides": "",
-    "Recommends": "",
-    "Replace": "",
-    "Section": "libs",
-    "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "2.35.1-1",
-    "binary:Package": "libfdisk1:amd64",
-    "binary:Summary": "fdisk partitioning library",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2470,7 +2414,7 @@
     "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 2.6-3~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "468",
+    "Installed-Size": "469",
     "Origin": "",
     "Package": "libmount1",
     "Pre-Depends": "",
@@ -2481,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3366,7 +3310,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "319",
+    "Installed-Size": "320",
     "Origin": "",
     "Package": "libsmartcols1",
     "Pre-Depends": "",
@@ -3377,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3646,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "120",
+    "Installed-Size": "121",
     "Origin": "",
     "Package": "libuuid1",
     "Pre-Depends": "",
@@ -3713,7 +3657,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3853,7 +3797,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-5",
+    "Version": "2.30-7",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-5"
+    "source:Version": "2.30-7"
   },
   {
     "Architecture": "amd64",
@@ -4066,7 +4010,7 @@
     "Depends": "util-linux (>= 2.29.2-3~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "428",
+    "Installed-Size": "429",
     "Origin": "",
     "Package": "mount",
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)",
@@ -4077,7 +4021,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "all",
@@ -4959,10 +4903,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:2.8), grml-debootstrap (<< 0.68), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.4~)",
-    "Depends": "fdisk, login (>= 1:4.5-1.1~)",
+    "Depends": "login (>= 1:4.5-1.1~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4525",
+    "Installed-Size": "4531",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -4973,7 +4917,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.35.1-1",
+    "Version": "2.35.1-2",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4981,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-1"
+    "source:Version": "2.35.1-2"
   },
   {
     "Architecture": "all",
