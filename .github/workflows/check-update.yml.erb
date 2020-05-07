@@ -1,0 +1,69 @@
+name: Check upgradable packages
+
+on:
+  schedule:
+    - cron: '0 14 * * *'
+
+jobs:
+<% images = %w[debian baseimage debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
+<% images.each do |image| -%>
+  <%= image %>:
+    name: <%= image %>
+    runs-on: ubuntu-latest
+    <%- if image =~ /^baseimage/ -%>
+    needs: <%= image.sub(/^baseimage/, 'debian') %>
+    <%- end -%>
+    steps:
+      - uses: actions/checkout@master
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - run: gem update --system -N
+      - run: gem install bundler --version '>= 2.0.0' -N
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - run: bundle config path vendor/bundle
+      - run: bundle install --jobs 4 --retry 3
+
+      # run test
+      - run: docker pull minimum2scp/<%= image %>:latest
+      - run: bundle exec rspec spec/<%= image %>/01apt_spec.rb
+
+      # notify to slack
+      - uses: k0kubun/action-slack@v2.0.0
+        with:
+          payload: |
+            {
+              "username": "GitHub Actions",
+              "icon_emoji": ":octocat:",
+              "channel": "#gh",
+              "attachments": [{
+                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
+                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "fields": [
+                  {
+                    "title": "image",
+                    "value": "minimum2scp/<%= image %>:latest",
+                    "short": true
+                  },
+                  {
+                    "title": "github.sha",
+                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
+                    "short": true
+                  }
+                ]
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: "failure()"
+
+  <%- end -%>
