@@ -5,18 +5,14 @@ on:
     - cron: '0 14 * * *'
 
 jobs:
-  test:
-    name: Test
+<% images = %w[debian baseimage debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
+<% images.each do |image| -%>
+  <%= image %>:
+    name: <%= image %>
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        image:
-          - debian
-          - baseimage
-          - debian-buster
-          - baseimage-buster
-          - debian-stretch
-          - baseimage-stretch
+    <%- if image =~ /^baseimage/ -%>
+    needs: <%= image.sub(/^baseimage/, 'debian') %>
+    <%- end -%>
     steps:
       - uses: actions/checkout@master
 
@@ -36,8 +32,8 @@ jobs:
       - run: bundle install --jobs 4 --retry 3
 
       # run test
-      - run: docker pull minimum2scp/${{ matrix.image }}:latest
-      - run: bundle exec rspec spec/${{ matrix.image }}/01apt_spec.rb
+      - run: docker pull minimum2scp/<%= image %>:latest
+      - run: bundle exec rspec spec/<%= image %>/01apt_spec.rb
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -55,7 +51,7 @@ jobs:
                 "fields": [
                   {
                     "title": "image",
-                    "value": "minimum2scp/${{ matrix.image }}:latest",
+                    "value": "minimum2scp/<%= image %>:latest",
                     "short": true
                   },
                   {
@@ -69,3 +65,5 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: "failure()"
+
+  <%- end -%>
