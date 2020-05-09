@@ -33,7 +33,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/<%= image %>:latest
-      - run: bundle exec rspec spec/<%= image %>/01apt_spec.rb
+      - run: bundle exec rspec spec/<%= image %>/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0

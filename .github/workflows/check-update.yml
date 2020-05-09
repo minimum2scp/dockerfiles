@@ -28,7 +28,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/debian:latest
-      - run: bundle exec rspec spec/debian/01apt_spec.rb
+      - run: bundle exec rspec spec/debian/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -85,7 +85,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/baseimage:latest
-      - run: bundle exec rspec spec/baseimage/01apt_spec.rb
+      - run: bundle exec rspec spec/baseimage/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -141,7 +141,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/debian-buster:latest
-      - run: bundle exec rspec spec/debian-buster/01apt_spec.rb
+      - run: bundle exec rspec spec/debian-buster/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -198,7 +198,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/baseimage-buster:latest
-      - run: bundle exec rspec spec/baseimage-buster/01apt_spec.rb
+      - run: bundle exec rspec spec/baseimage-buster/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -254,7 +254,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/debian-stretch:latest
-      - run: bundle exec rspec spec/debian-stretch/01apt_spec.rb
+      - run: bundle exec rspec spec/debian-stretch/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
@@ -311,7 +311,7 @@ jobs:
 
       # run test
       - run: docker pull minimum2scp/baseimage-stretch:latest
-      - run: bundle exec rspec spec/baseimage-stretch/01apt_spec.rb
+      - run: bundle exec rspec spec/baseimage-stretch/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
       - uses: k0kubun/action-slack@v2.0.0
