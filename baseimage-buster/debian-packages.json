@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u3",
+    "Version": "10.3+deb10u4",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u3"
+    "source:Version": "10.3+deb10u4"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "767",
+    "Installed-Size": "768",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u3",
+    "Version": "241-7~deb10u4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u3"
+    "source:Version": "241-7~deb10u4"
   },
   {
     "Architecture": "amd64",
@@ -3506,7 +3506,7 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "258",
+    "Installed-Size": "259",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u3",
+    "Version": "241-7~deb10u4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u3"
+    "source:Version": "241-7~deb10u4"
   },
   {
     "Architecture": "amd64",
@@ -4738,7 +4738,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3034",
+    "Installed-Size": "3036",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019c-0+deb10u1",
+    "Version": "2020a-0+deb10u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2019c-0+deb10u1"
+    "source:Version": "2020a-0+deb10u1"
   },
   {
     "Architecture": "all",
