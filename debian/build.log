@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Validating apt 2.1.0
-I: Validating libapt-pkg6.0 2.1.0
+I: Retrieving apt 2.1.1
+I: Validating apt 2.1.1
+I: Retrieving libapt-pkg6.0 2.1.1
+I: Validating libapt-pkg6.0 2.1.1
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
 I: Validating libaudit1 1:2.8.5-3+b1
@@ -34,13 +36,9 @@ I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.176-1.1
 I: Validating findutils 4.7.0-1
-I: Retrieving gcc-10-base 10.1.0-1
 I: Validating gcc-10-base 10.1.0-1
-I: Retrieving libgcc-s1 10.1.0-1
 I: Validating libgcc-s1 10.1.0-1
-I: Retrieving libstdc++6 10.1.0-1
 I: Validating libstdc++6 10.1.0-1
-I: Retrieving gcc-9-base 9.3.0-12
 I: Validating gcc-9-base 9.3.0-12
 I: Validating libc-bin 2.30-7
 I: Validating libc6 2.30-7
@@ -395,20 +393,24 @@ I: Configuring inetutils-ping...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian sid InRelease
+Get:1 http://ftp.jp.debian.org/debian sid InRelease [146 kB]
+Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-09-1408.15.pdiff [6748 B]
+Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-09-1408.15.pdiff [6748 B]
+Fetched 181 kB in 1s (137 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.57MB
+Sending build context to Docker daemon  31.55MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 2c8a838e96f8
+ ---> 619227e1a8e7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9cacc10f2327
-Removing intermediate container 9cacc10f2327
- ---> 97758d454af7
-Successfully built 97758d454af7
+ ---> Running in ad0c017a5549
+Removing intermediate container ad0c017a5549
+ ---> 94483e72cb1a
+Successfully built 94483e72cb1a
 Successfully tagged minimum2scp/debian:latest
