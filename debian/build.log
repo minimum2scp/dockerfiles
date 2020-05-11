@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Retrieving apt 2.1.1
 I: Validating apt 2.1.1
-I: Retrieving libapt-pkg6.0 2.1.1
 I: Validating libapt-pkg6.0 2.1.1
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
@@ -20,7 +18,8 @@ I: Validating base-files 11
 I: Validating base-passwd 3.5.47
 I: Validating bash 5.0-6
 I: Validating libbz2-1.0 1.0.8-2
-I: Validating libdebconfclient0 0.251
+I: Retrieving libdebconfclient0 0.252
+I: Validating libdebconfclient0 0.252
 I: Validating coreutils 8.30-3+b1
 I: Validating dash 0.5.10.2-7
 I: Validating libdb5.3 5.3.28+dfsg1-0.6
@@ -40,8 +39,10 @@ I: Validating gcc-10-base 10.1.0-1
 I: Validating libgcc-s1 10.1.0-1
 I: Validating libstdc++6 10.1.0-1
 I: Validating gcc-9-base 9.3.0-12
-I: Validating libc-bin 2.30-7
-I: Validating libc6 2.30-7
+I: Retrieving libc-bin 2.30-8
+I: Validating libc-bin 2.30-8
+I: Retrieving libc6 2.30-8
+I: Validating libc6 2.30-8
 I: Validating libgmp10 2:6.2.0+dfsg-4
 I: Validating gpgv 2.2.20-1
 I: Validating libgnutls30 3.6.13-2
@@ -96,13 +97,20 @@ I: Validating libudev1 245.5-2
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Validating bsdutils 1:2.35.1-2
-I: Validating libblkid1 2.35.1-2
-I: Validating libmount1 2.35.1-2
-I: Validating libsmartcols1 2.35.1-2
-I: Validating libuuid1 2.35.1-2
-I: Validating mount 2.35.1-2
-I: Validating util-linux 2.35.1-2
+I: Retrieving bsdutils 1:2.35.1-3
+I: Validating bsdutils 1:2.35.1-3
+I: Retrieving libblkid1 2.35.1-3
+I: Validating libblkid1 2.35.1-3
+I: Retrieving libmount1 2.35.1-3
+I: Validating libmount1 2.35.1-3
+I: Retrieving libsmartcols1 2.35.1-3
+I: Validating libsmartcols1 2.35.1-3
+I: Retrieving libuuid1 2.35.1-3
+I: Validating libuuid1 2.35.1-3
+I: Retrieving mount 2.35.1-3
+I: Validating mount 2.35.1-3
+I: Retrieving util-linux 2.35.1-3
+I: Validating util-linux 2.35.1-3
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -393,24 +401,20 @@ I: Configuring inetutils-ping...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [146 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-09-1408.15.pdiff [6748 B]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-09-1408.15.pdiff [6748 B]
-Fetched 181 kB in 1s (137 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.55MB
+Sending build context to Docker daemon  31.56MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 619227e1a8e7
+ ---> 40741820b9fe
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ad0c017a5549
-Removing intermediate container ad0c017a5549
- ---> 94483e72cb1a
-Successfully built 94483e72cb1a
+ ---> Running in 3005d92a431e
+Removing intermediate container 3005d92a431e
+ ---> 11e88c606743
+Successfully built 11e88c606743
 Successfully tagged minimum2scp/debian:latest
