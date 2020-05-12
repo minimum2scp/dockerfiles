@@ -18,7 +18,6 @@ I: Validating base-files 11
 I: Validating base-passwd 3.5.47
 I: Validating bash 5.0-6
 I: Validating libbz2-1.0 1.0.8-2
-I: Retrieving libdebconfclient0 0.252
 I: Validating libdebconfclient0 0.252
 I: Validating coreutils 8.30-3+b1
 I: Validating dash 0.5.10.2-7
@@ -39,9 +38,7 @@ I: Validating gcc-10-base 10.1.0-1
 I: Validating libgcc-s1 10.1.0-1
 I: Validating libstdc++6 10.1.0-1
 I: Validating gcc-9-base 9.3.0-12
-I: Retrieving libc-bin 2.30-8
 I: Validating libc-bin 2.30-8
-I: Retrieving libc6 2.30-8
 I: Validating libc6 2.30-8
 I: Validating libgmp10 2:6.2.0+dfsg-4
 I: Validating gpgv 2.2.20-1
@@ -97,20 +94,20 @@ I: Validating libudev1 245.5-2
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Retrieving bsdutils 1:2.35.1-3
-I: Validating bsdutils 1:2.35.1-3
-I: Retrieving libblkid1 2.35.1-3
-I: Validating libblkid1 2.35.1-3
-I: Retrieving libmount1 2.35.1-3
-I: Validating libmount1 2.35.1-3
-I: Retrieving libsmartcols1 2.35.1-3
-I: Validating libsmartcols1 2.35.1-3
-I: Retrieving libuuid1 2.35.1-3
-I: Validating libuuid1 2.35.1-3
-I: Retrieving mount 2.35.1-3
-I: Validating mount 2.35.1-3
-I: Retrieving util-linux 2.35.1-3
-I: Validating util-linux 2.35.1-3
+I: Retrieving bsdutils 1:2.35.1-4
+I: Validating bsdutils 1:2.35.1-4
+I: Retrieving libblkid1 2.35.1-4
+I: Validating libblkid1 2.35.1-4
+I: Retrieving libmount1 2.35.1-4
+I: Validating libmount1 2.35.1-4
+I: Retrieving libsmartcols1 2.35.1-4
+I: Validating libsmartcols1 2.35.1-4
+I: Retrieving libuuid1 2.35.1-4
+I: Validating libuuid1 2.35.1-4
+I: Retrieving mount 2.35.1-4
+I: Validating mount 2.35.1-4
+I: Retrieving util-linux 2.35.1-4
+I: Validating util-linux 2.35.1-4
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -407,14 +404,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.56MB
+Sending build context to Docker daemon  31.58MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 40741820b9fe
+ ---> 18e1c84f608b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3005d92a431e
-Removing intermediate container 3005d92a431e
- ---> 11e88c606743
-Successfully built 11e88c606743
+ ---> Running in 7735aabf5803
+Removing intermediate container 7735aabf5803
+ ---> 804cd18a7951
+Successfully built 804cd18a7951
 Successfully tagged minimum2scp/debian:latest
