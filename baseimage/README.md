@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.1.1                           amd64  commandline package manager
+ii   apt                     2.1.2                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   initscripts             2.96-3                          all    scripts for 
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.1                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.2                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
@@ -166,8 +166,8 @@ ii   libpopt0                1.16-14                         amd64  lib for pars
 ii   libprocps8              2:3.3.16-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.8-minimal    3.8.3~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
-ii   libpython3.8-stdlib     3.8.3~rc1-1                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
+ii   libpython3.8-minimal    3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
+ii   libpython3.8-stdlib     3.8.3-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)
 ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -219,15 +219,15 @@ ii   perl-modules-5.30       5.30.0-10                       all    Core Perl mo
 ii   procps                  2:3.3.16-4                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.8               3.8.3~rc1-1                     amd64  Interactive high-level object-oriented language (version 3.8)
-ii   python3.8-minimal       3.8.3~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
+ii   python3.8               3.8.3-1                         amd64  Interactive high-level object-oriented language (version 3.8)
+ii   python3.8-minimal       3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2004.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.31p1-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.0-1                         amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-3                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-3                          amd64  System-V-like init utilities
 ii   sysvinit-utils          2.96-3                          amd64  System-V-like utilities

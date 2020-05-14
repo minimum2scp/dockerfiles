@@ -31,7 +31,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.1.1), debian-archive-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.12), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0",
+    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.1.2), debian-archive-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.12), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4139",
@@ -39,13 +39,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 2.1.1)",
+    "Provides": "apt-transport-https (= 2.1.2)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.1.1",
+    "Version": "2.1.2",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.1.1"
+    "source:Version": "2.1.2"
   },
   {
     "Architecture": "amd64",
@@ -986,18 +986,18 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 9), libsystemd0 (>= 221), libudev1 (>= 183), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3326",
+    "Installed-Size": "3320",
     "Origin": "",
     "Package": "libapt-pkg6.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.1.1)",
-    "Recommends": "apt (>= 2.1.1)",
+    "Provides": "libapt-pkg (= 2.1.2)",
+    "Recommends": "apt (>= 2.1.2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.1",
+    "Version": "2.1.2",
     "binary:Package": "libapt-pkg6.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.1.1"
+    "source:Version": "2.1.2"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.3~rc1-1",
+    "Version": "3.8.3-1",
     "binary:Package": "libpython3.8-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -2993,16 +2993,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.3~rc1-1"
+    "source:Version": "3.8.3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.8-testsuite (<< 3.8.0-4)",
-    "Depends": "libpython3.8-minimal (= 3.8.3~rc1-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.8-minimal (= 3.8.3-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "7815",
+    "Installed-Size": "7816",
     "Origin": "",
     "Package": "libpython3.8-stdlib",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.3~rc1-1",
+    "Version": "3.8.3-1",
     "binary:Package": "libpython3.8-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.3~rc1-1"
+    "source:Version": "3.8.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4455,7 +4455,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.8-minimal (= 3.8.3~rc1-1), libpython3.8-stdlib (= 3.8.3~rc1-1), mime-support",
+    "Depends": "python3.8-minimal (= 3.8.3-1), libpython3.8-stdlib (= 3.8.3-1), mime-support",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "491",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.8-venv, python3.8-doc, binutils",
-    "Version": "3.8.3~rc1-1",
+    "Version": "3.8.3-1",
     "binary:Package": "python3.8",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4477,13 +4477,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.3~rc1-1"
+    "source:Version": "3.8.3-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.8-minimal (= 3.8.3~rc1-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.8-minimal (= 3.8.3-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "5449",
@@ -4497,7 +4497,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.8.3~rc1-1",
+    "Version": "3.8.3-1",
     "binary:Package": "python3.8-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.3~rc1-1"
+    "source:Version": "3.8.3-1"
   },
   {
     "Architecture": "all",
@@ -4682,7 +4682,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.65), libpam-modules, lsb-base",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3975",
+    "Installed-Size": "4189",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.31p1-1",
+    "Version": "1.9.0-1",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.8.31p1-1"
+    "source:Version": "1.9.0-1"
   },
   {
     "Architecture": "all",
