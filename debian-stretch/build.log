@@ -16,7 +16,6 @@ I: Validating libapt-pkg5.0 1.4.9
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u12
 I: Validating base-files 9.9+deb9u12
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
@@ -26,18 +25,13 @@ I: Validating coreutils 8.26-3
 I: Validating dash 0.5.8-2.4
 I: Validating libdb5.3 5.3.28-12+deb9u1
 I: Validating debconf 1.5.61
-I: Retrieving debian-archive-keyring 2017.5+deb9u1
 I: Validating debian-archive-keyring 2017.5+deb9u1
 I: Validating debianutils 4.8.1.1
 I: Validating diffutils 1:3.5-3
 I: Validating dpkg 1.18.25
-I: Retrieving e2fslibs 1.43.4-2+deb9u1
 I: Validating e2fslibs 1.43.4-2+deb9u1
-I: Retrieving e2fsprogs 1.43.4-2+deb9u1
 I: Validating e2fsprogs 1.43.4-2+deb9u1
-I: Retrieving libcomerr2 1.43.4-2+deb9u1
 I: Validating libcomerr2 1.43.4-2+deb9u1
-I: Retrieving libss2 1.43.4-2+deb9u1
 I: Validating libss2 1.43.4-2+deb9u1
 I: Validating libelf1 0.168-1
 I: Validating findutils 4.6.0+git+20161106-2
@@ -75,19 +69,15 @@ I: Validating libpam-modules-bin 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3+deb9u6
 I: Validating perl-base 5.24.1-3+deb9u6
 I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
 I: Validating login 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
-I: Retrieving libsystemd0 232-25+deb9u12
 I: Validating libsystemd0 232-25+deb9u12
-I: Retrieving libudev1 232-25+deb9u12
 I: Validating libudev1 232-25+deb9u12
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2019c-0+deb9u1
 I: Validating tzdata 2019c-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
 I: Validating bsdutils 1:2.29.2-1+deb9u1
@@ -345,23 +335,39 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [94.3 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [91.0 kB]
-Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [647 kB]
-Get:7 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [34.1 kB]
-Fetched 866 kB in 0s (2552 kB/s)
+Get:4 http://security.debian.org stretch/updates/main amd64 Packages [667 kB]
+Hit:5 http://ftp.jp.debian.org/debian stretch Release
+Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [33.7 kB]
+Fetched 886 kB in 1s (455 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  apt libapt-pkg5.0
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2149 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 libapt-pkg5.0 amd64 1.4.10 [917 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 apt amd64 1.4.10 [1232 kB]
+Fetched 2149 kB in 2s (840 kB/s)
+(Reading database ... 6491 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg5.0_1.4.10_amd64.deb ...
+Unpacking libapt-pkg5.0:amd64 (1.4.10) over (1.4.9) ...
+Setting up libapt-pkg5.0:amd64 (1.4.10) ...
+(Reading database ... 6491 files and directories currently installed.)
+Preparing to unpack .../archives/apt_1.4.10_amd64.deb ...
+Unpacking apt (1.4.10) over (1.4.9) ...
+Setting up apt (1.4.10) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
 Sending build context to Docker daemon   26.6MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5d4a981b64fb
+ ---> 320240747e16
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b2733765899f
-Removing intermediate container b2733765899f
- ---> 1213206bcbfa
-Successfully built 1213206bcbfa
+ ---> Running in 0df0c0849d3d
+Removing intermediate container 0df0c0849d3d
+ ---> 693da0637a1e
+Successfully built 693da0637a1e
 Successfully tagged minimum2scp/debian-stretch:latest
