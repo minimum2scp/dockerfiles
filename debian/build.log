@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Retrieving apt 2.1.2
 I: Validating apt 2.1.2
-I: Retrieving libapt-pkg6.0 2.1.2
 I: Validating libapt-pkg6.0 2.1.2
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
@@ -54,8 +52,10 @@ I: Validating iproute2 5.6.0-1
 I: Validating libxtables12 1.8.4-3
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.1+b2
-I: Validating libcap2 1:2.34-1
-I: Validating libcap2-bin 1:2.34-1
+I: Retrieving libcap2 1:2.34-2
+I: Validating libcap2 1:2.34-2
+I: Retrieving libcap2-bin 1:2.34-2
+I: Validating libcap2-bin 1:2.34-2
 I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.5-5
 I: Validating libgpg-error0 1.37-1
@@ -393,24 +393,20 @@ I: Configuring inetutils-ping...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [146 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-14-1400.36.pdiff [18.3 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-05-14-1400.36.pdiff [18.3 kB]
-Fetched 193 kB in 6s (34.1 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.56MB
+Sending build context to Docker daemon  31.57MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> cf96da53c1c3
+ ---> af077055dc32
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b10a44659d41
-Removing intermediate container b10a44659d41
- ---> 1675e00f5f66
-Successfully built 1675e00f5f66
+ ---> Running in d0293ac7eb59
+Removing intermediate container d0293ac7eb59
+ ---> 0c733f0bf334
+Successfully built 0c733f0bf334
 Successfully tagged minimum2scp/debian:latest
