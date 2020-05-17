@@ -107,7 +107,7 @@ ii   ncurses-base            6.2-1                all    basic terminal type def
 ii   ncurses-bin             6.2-1                amd64  terminal-related programs and man pages
 ii   netbase                 6.1                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
-ii   perl-base               5.30.0-10            amd64  minimal Perl system
+ii   perl-base               5.30.2-1             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility
