@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Validating apt 2.1.2
-I: Validating libapt-pkg6.0 2.1.2
+I: Retrieving apt 2.1.4
+I: Validating apt 2.1.4
+I: Retrieving libapt-pkg6.0 2.1.4
+I: Validating libapt-pkg6.0 2.1.4
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
 I: Validating libaudit1 1:2.8.5-3+b1
@@ -89,9 +91,7 @@ I: Validating perl-base 5.30.2-1
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 245.5-3
 I: Validating libsystemd0 245.5-3
-I: Retrieving libudev1 245.5-3
 I: Validating libudev1 245.5-3
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
@@ -403,10 +403,10 @@ Sending build context to Docker daemon  31.54MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 992abcf15187
+ ---> 94c2b3537a74
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c1d9aacef829
-Removing intermediate container c1d9aacef829
- ---> 61122a10243c
-Successfully built 61122a10243c
+ ---> Running in d40163945595
+Removing intermediate container d40163945595
+ ---> f3da4ff6da62
+Successfully built f3da4ff6da62
 Successfully tagged minimum2scp/debian:latest
