@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.35.1-5",
+    "Version": "1:2.35.2-1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "all",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "325",
+    "Installed-Size": "329",
     "Origin": "",
     "Package": "libsmartcols1",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3758,7 +3758,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, perl:any, locales, ucf, procps",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "123",
+    "Installed-Size": "122",
     "Origin": "",
     "Package": "localepurge",
     "Pre-Depends": "",
@@ -3769,7 +3769,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debfoster, deborphan, bleachbit",
-    "Version": "0.7.3.8",
+    "Version": "0.7.3.9",
     "binary:Package": "localepurge",
     "binary:Summary": "reclaim disk space by removing unneeded localizations",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "localepurge",
-    "source:Version": "0.7.3.8"
+    "source:Version": "0.7.3.9"
   },
   {
     "Architecture": "all",
@@ -4016,12 +4016,12 @@
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)",
     "Priority": "required",
     "Provides": "",
-    "Recommends": "",
+    "Recommends": "gawk",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "all",
@@ -4861,7 +4861,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0040",
+    "Version": "3.0041",
     "binary:Package": "ucf",
     "binary:Summary": "Update Configuration File(s): preserve user changes to config files",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ucf",
-    "source:Version": "3.0040"
+    "source:Version": "3.0041"
   },
   {
     "Architecture": "amd64",
@@ -4906,7 +4906,7 @@
     "Depends": "login (>= 1:4.5-1.1~)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4534",
+    "Installed-Size": "4540",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -4917,7 +4917,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.35.1-5",
+    "Version": "2.35.2-1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.1-5"
+    "source:Version": "2.35.2-1"
   },
   {
     "Architecture": "all",
