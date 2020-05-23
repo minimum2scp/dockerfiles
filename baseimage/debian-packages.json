@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.35.2-1",
+    "Version": "1:2.35.2-2",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "all",
@@ -398,7 +398,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "230",
+    "Installed-Size": "229",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.1",
+    "Version": "4.9.3",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.9.1"
+    "source:Version": "4.9.3"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "amd64",
@@ -4016,12 +4016,12 @@
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)",
     "Priority": "required",
     "Provides": "",
-    "Recommends": "gawk",
+    "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common (>= 1:1.1.0-13)",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "all",
@@ -4917,7 +4917,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.35.2-1",
+    "Version": "2.35.2-2",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-1"
+    "source:Version": "2.35.2-2"
   },
   {
     "Architecture": "all",
