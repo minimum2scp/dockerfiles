@@ -398,7 +398,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "229",
+    "Installed-Size": "230",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.3",
+    "Version": "4.11",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.9.3"
+    "source:Version": "4.11"
   },
   {
     "Architecture": "amd64",
@@ -3338,7 +3338,7 @@
     "Depends": "libc6 (>= 2.29)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1441",
+    "Installed-Size": "1420",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.32.0-1",
+    "Version": "3.32.0-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.32.0-1"
+    "source:Version": "3.32.0-2"
   },
   {
     "Architecture": "amd64",

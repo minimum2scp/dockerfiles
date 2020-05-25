@@ -74,7 +74,7 @@ ii   curl                    7.68.0-1                        amd64  command line
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.9.3                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.11                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dpkg                    1.19.7                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
@@ -179,7 +179,7 @@ ii   libsemanage1            3.0-1+b3                        amd64  SELinux poli
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.35.2-2                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.32.0-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.32.0-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
