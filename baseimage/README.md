@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.1.4                           amd64  commandline package manager
+ii   apt                     2.1.5                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   initscripts             2.96-3                          all    scripts for 
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.4                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.5                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
@@ -177,9 +177,9 @@ ii   libselinux1             3.0-1+b3                        amd64  SELinux runt
 ii   libsemanage-common      3.0-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.0-1+b3                        amd64  SELinux policy management library
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2               2.3.2-4                         amd64  S-Lang programming library - runtime version
+ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.35.2-2                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.32.0-2                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.32.1-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
