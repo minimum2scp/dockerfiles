@@ -3,7 +3,7 @@
 set -e
 set -x
 
-version="19.03.9"
+version="19.03.10"
 
 cd /tmp
 
