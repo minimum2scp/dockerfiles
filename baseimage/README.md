@@ -164,7 +164,7 @@ ii   libperl5.30             5.30.2-1                        amd64  shared Perl 
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.21.0-1                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.8-minimal    3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   libpython3.8-stdlib     3.8.3-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)

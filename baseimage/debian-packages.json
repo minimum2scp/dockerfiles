@@ -2918,7 +2918,7 @@
     "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "90",
+    "Installed-Size": "91",
     "Origin": "",
     "Package": "libpsl5",
     "Pre-Depends": "",
@@ -2929,7 +2929,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.21.0-1",
+    "Version": "0.21.0-1.1",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.21.0-1"
+    "source:Version": "0.21.0-1.1"
   },
   {
     "Architecture": "amd64",
