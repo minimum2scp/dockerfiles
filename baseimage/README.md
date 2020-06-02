@@ -67,7 +67,7 @@ ii   base-passwd             3.5.47                          amd64  Debian base 
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                       amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.35.2-2                      amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20190110                        all    Common CA certificates
+ii   ca-certificates         20200601                        all    Common CA certificates
 ii   coreutils               8.30-3+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.68.0-1                        amd64  command line tool for transferring data with URL syntax
@@ -82,8 +82,8 @@ ii   etckeeper               1.18.14-1                       all    store /etc i
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.1.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-13                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.27.0~rc2-1                  amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.27.0~rc2-1                  all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.27.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.27.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.30             5.30.2-1                        amd64  shared Perl library
+ii   libperl5.30             5.30.3-1                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
@@ -189,7 +189,7 @@ ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                245.5-3                         amd64  libudev shared library
-ii   libunistring2           0.9.10-3                        amd64  Unicode string library for C
+ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.35.2-2                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.4-3                         amd64  netfilter xtables library
@@ -200,7 +200,7 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.9.1-1                         amd64  tools for reading manual pages
+ii   man-db                  2.9.2-1                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.35.2-2                        amd64  tools for mounting and manipulating filesystems
@@ -213,9 +213,9 @@ ii   openssh-server          1:8.2p1-4                       amd64  secure shell
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.30.2-1                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.30.2-1                        amd64  minimal Perl system
-ii   perl-modules-5.30       5.30.2-1                        all    Core Perl modules
+ii   perl                    5.30.3-1                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.30.3-1                        amd64  minimal Perl system
+ii   perl-modules-5.30       5.30.3-1                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
