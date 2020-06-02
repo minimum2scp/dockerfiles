@@ -94,7 +94,7 @@ ii   libsystemd0             245.5-3              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                245.5-3              amd64  libudev shared library
-ii   libunistring2           0.9.10-3             amd64  Unicode string library for C
+ii   libunistring2           0.9.10-4             amd64  Unicode string library for C
 ii   libuuid1                2.35.2-2             amd64  Universally Unique ID library
 ii   libxtables12            1.8.4-3              amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-3         amd64  fast lossless compression algorithm
@@ -107,7 +107,7 @@ ii   ncurses-base            6.2-1                all    basic terminal type def
 ii   ncurses-bin             6.2-1                amd64  terminal-related programs and man pages
 ii   netbase                 6.1                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
-ii   perl-base               5.30.2-1             amd64  minimal Perl system
+ii   perl-base               5.30.3-1             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility
