@@ -106,7 +106,7 @@ ii   libbz2-1.0              1.0.8-3                         amd64  high-quality
 ii   libc-bin                2.30-8                          amd64  GNU C Library: Binaries
 ii   libc-l10n               2.30-8                          all    GNU C Library: localization files
 ii   libc6                   2.30-8                          amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.1+b2                    amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.2                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.34-2                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.34-2                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
