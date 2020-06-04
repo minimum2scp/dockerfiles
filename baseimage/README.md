@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.1.5                           amd64  commandline package manager
+ii   apt                     2.1.6                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   initscripts             2.96-3                          all    scripts for 
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.5                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.6                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
@@ -152,7 +152,7 @@ ii   libncurses6             6.2-1                           amd64  shared libra
 ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.40.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.41.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.20-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -192,7 +192,7 @@ ii   libudev1                245.5-3                         amd64  libudev shar
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.35.2-2                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.4-3                         amd64  netfilter xtables library
+ii   libxtables12            1.8.5-1                         amd64  netfilter xtables library
 ii   libzstd1                1.4.4+dfsg-3                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.9                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.30-8                          all    GNU C Library: National Language (locale) data [support]
