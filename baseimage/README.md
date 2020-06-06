@@ -93,7 +93,7 @@ ii   inetutils-ping          2:1.9.4-12                      amd64  ICMP echo to
 ii   init-system-helpers     1.57                            all    helper tools for all init systems
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.6.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.7.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.6                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -130,7 +130,7 @@ ii   libgcrypt20             1.8.5-5                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-4                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.13-4                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.14-1                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.37-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-7                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
@@ -160,7 +160,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.30             5.30.3-2                        amd64  shared Perl library
+ii   libperl5.30             5.30.3-3                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
@@ -179,7 +179,7 @@ ii   libsemanage1            3.0-1+b3                        amd64  SELinux poli
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.35.2-2                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.32.1-2                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.32.2-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -213,9 +213,9 @@ ii   openssh-server          1:8.2p1-4                       amd64  secure shell
 ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.30.3-2                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.30.3-2                        amd64  minimal Perl system
-ii   perl-modules-5.30       5.30.3-2                        all    Core Perl modules
+ii   perl                    5.30.3-3                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.30.3-3                        amd64  minimal Perl system
+ii   perl-modules-5.30       5.30.3-3                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
