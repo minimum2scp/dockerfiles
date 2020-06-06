@@ -41,7 +41,7 @@ ii   gzip                    1.10-2               amd64  GNU compression utiliti
 ii   hostname                3.23                 amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-12           amd64  ICMP echo tool
 ii   init-system-helpers     1.57                 all    helper tools for all init systems
-ii   iproute2                5.6.0-1              amd64  networking and traffic control tools
+ii   iproute2                5.7.0-1              amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8             amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.6                amd64  package management runtime library
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
@@ -65,7 +65,7 @@ ii   libffi7                 3.3-4                amd64  Foreign Function Interf
 ii   libgcc-s1               10.1.0-3             amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-4       amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.13-4             amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.14-1             amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.37-1               amd64  GnuPG development runtime library
 ii   libhogweed5             3.5.1+really3.5.1-2  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2             amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -107,7 +107,7 @@ ii   ncurses-base            6.2-1                all    basic terminal type def
 ii   ncurses-bin             6.2-1                amd64  terminal-related programs and man pages
 ii   netbase                 6.1                  all    Basic TCP/IP networking system
 ii   passwd                  1:4.8.1-1            amd64  change and administer password and group data
-ii   perl-base               5.30.3-2             amd64  minimal Perl system
+ii   perl-base               5.30.3-3             amd64  minimal Perl system
 ii   sed                     4.7-1                amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility

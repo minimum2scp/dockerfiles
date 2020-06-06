@@ -42,14 +42,15 @@ I: Validating libc-bin 2.30-8
 I: Validating libc6 2.30-8
 I: Validating libgmp10 2:6.2.0+dfsg-4
 I: Validating gpgv 2.2.20-1
-I: Validating libgnutls30 3.6.13-4
+I: Retrieving libgnutls30 3.6.14-1
+I: Validating libgnutls30 3.6.14-1
 I: Validating grep 3.4-1
 I: Validating gzip 1.10-2
 I: Validating hostname 3.23
 I: Validating inetutils-ping 2:1.9.4-12
 I: Validating init-system-helpers 1.57
-I: Validating iproute2 5.6.0-1
-I: Retrieving libxtables12 1.8.5-1
+I: Retrieving iproute2 5.7.0-1
+I: Validating iproute2 5.7.0-1
 I: Validating libxtables12 1.8.5-1
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.2
@@ -69,7 +70,8 @@ I: Validating libsepol1 3.0-1
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-4
 I: Validating libcrypt1 1:4.4.16-1
-I: Validating libzstd1 1.4.4+dfsg-3
+I: Retrieving libzstd1 1.4.5+dfsg-1
+I: Validating libzstd1 1.4.5+dfsg-1
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
 I: Validating mawk 1.3.4.20200120-2
@@ -86,8 +88,8 @@ I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
 I: Validating libpcre2-8-0 10.34-7
 I: Validating libpcre3 2:8.39-12+b1
-I: Retrieving perl-base 5.30.3-2
-I: Validating perl-base 5.30.3-2
+I: Retrieving perl-base 5.30.3-3
+I: Validating perl-base 5.30.3-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
@@ -393,35 +395,20 @@ I: Configuring inetutils-ping...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [146 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [27.9 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-06-05-1406.52.pdiff [16.6 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages 2020-06-05-1406.52.pdiff [16.6 kB]
-Fetched 191 kB in 1s (128 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-The following packages will be upgraded:
-  libzstd1
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 323 kB of archives.
-After this operation, 209 kB of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian sid/main amd64 libzstd1 amd64 1.4.5+dfsg-1 [323 kB]
-Fetched 323 kB in 0s (827 kB/s)
-(Reading database ... 6763 files and directories currently installed.)
-Preparing to unpack .../libzstd1_1.4.5+dfsg-1_amd64.deb ...
-Unpacking libzstd1:amd64 (1.4.5+dfsg-1) over (1.4.4+dfsg-3) ...
-Setting up libzstd1:amd64 (1.4.5+dfsg-1) ...
-Processing triggers for libc-bin (2.30-8) ...
-Sending build context to Docker daemon  31.65MB
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Sending build context to Docker daemon  31.68MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6b560cd8c085
+ ---> 930248a5a72d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 75d5740919b2
-Removing intermediate container 75d5740919b2
- ---> e28f800b5653
-Successfully built e28f800b5653
+ ---> Running in de0c832e6fa3
+Removing intermediate container de0c832e6fa3
+ ---> 6da8dc2b675e
+Successfully built 6da8dc2b675e
 Successfully tagged minimum2scp/debian:latest
