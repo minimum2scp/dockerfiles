@@ -67,7 +67,7 @@ ii   base-passwd             3.5.46                       amd64  Debian base sys
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
-ii   ca-certificates         20190110                     all    Common CA certificates
+ii   ca-certificates         20200601~deb10u1             all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-134+deb10u1           amd64  process scheduling daemon
 ii   curl                    7.64.0-4+deb10u1             amd64  command line tool for transferring data with URL syntax
@@ -127,7 +127,7 @@ ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto lib
 ii   libgdbm-compat4         1.18.1-4                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4+deb10u3              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.7-4+deb10u4              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-3                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
