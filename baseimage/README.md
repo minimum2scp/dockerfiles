@@ -160,7 +160,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-12+b1                    amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.30             5.30.3-3                        amd64  shared Perl library
+ii   libperl5.30             5.30.3-4                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
@@ -179,7 +179,7 @@ ii   libsemanage1            3.0-1+b3                        amd64  SELinux poli
 ii   libsepol1               3.0-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.35.2-2                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.32.2-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.32.2-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -193,7 +193,7 @@ ii   libunistring2           0.9.10-4                        amd64  Unicode stri
 ii   libuuid1                2.35.2-2                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.5-1                         amd64  netfilter xtables library
-ii   libzstd1                1.4.5+dfsg-1                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.5+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.9                         all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.30-8                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -208,14 +208,14 @@ ii   ncurses-base            6.2-1                           all    basic termin
 ii   ncurses-bin             6.2-1                           amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   netbase                 6.1                             all    Basic TCP/IP networking system
-ii   openssh-client          1:8.2p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.2p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.2p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.3p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.3p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.3p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.30.3-3                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.30.3-3                        amd64  minimal Perl system
-ii   perl-modules-5.30       5.30.3-3                        all    Core Perl modules
+ii   perl                    5.30.3-4                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.30.3-4                        amd64  minimal Perl system
+ii   perl-modules-5.30       5.30.3-4                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
