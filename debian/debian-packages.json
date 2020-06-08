@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.5-3",
+    "Version": "245.6-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.5-3"
+    "source:Version": "245.6-1"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.5-3",
+    "Version": "245.6-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.5-3"
+    "source:Version": "245.6-1"
   },
   {
     "Architecture": "amd64",
@@ -2218,7 +2218,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "917",
+    "Installed-Size": "918",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.5+dfsg-1",
+    "Version": "1.4.5+dfsg-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.5+dfsg-1"
+    "source:Version": "1.4.5+dfsg-2"
   },
   {
     "Architecture": "amd64",
@@ -2509,7 +2509,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.30.3-3",
+    "Version": "5.30.3-4",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.30.3-3"
+    "source:Version": "5.30.3-4"
   },
   {
     "Architecture": "amd64",
