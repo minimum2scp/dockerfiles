@@ -56,7 +56,8 @@ I: Validating libcap2 1:2.34-2
 I: Validating libcap2-bin 1:2.34-2
 I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.5-5
-I: Validating libgpg-error0 1.37-1
+I: Retrieving libgpg-error0 1.38-1
+I: Validating libgpg-error0 1.38-1
 I: Validating libidn11 1.33-2.2
 I: Validating libidn2-0 2.3.0-1
 I: Validating libmnl0 1.0.4-3
@@ -68,7 +69,6 @@ I: Validating libsepol1 3.0-1
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-4
 I: Validating libcrypt1 1:4.4.16-1
-I: Retrieving libzstd1 1.4.5+dfsg-2
 I: Validating libzstd1 1.4.5+dfsg-2
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
@@ -86,14 +86,11 @@ I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
 I: Validating libpcre2-8-0 10.34-7
 I: Validating libpcre3 2:8.39-12+b1
-I: Retrieving perl-base 5.30.3-4
 I: Validating perl-base 5.30.3-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 245.6-1
 I: Validating libsystemd0 245.6-1
-I: Retrieving libudev1 245.6-1
 I: Validating libudev1 245.6-1
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
@@ -405,10 +402,10 @@ Sending build context to Docker daemon  31.67MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 757d1052d960
+ ---> 6595105123ec
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in cfba807dbe8e
-Removing intermediate container cfba807dbe8e
- ---> 703924c993ad
-Successfully built 703924c993ad
+ ---> Running in ae17308c3bd0
+Removing intermediate container ae17308c3bd0
+ ---> 27de7aa0a3a9
+Successfully built 27de7aa0a3a9
 Successfully tagged minimum2scp/debian:latest
