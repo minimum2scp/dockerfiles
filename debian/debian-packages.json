@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.2.0+dfsg-5",
+    "Version": "2:6.2.0+dfsg-6",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.2.0+dfsg-5"
+    "source:Version": "2:6.2.0+dfsg-6"
   },
   {
     "Architecture": "amd64",
