@@ -4682,7 +4682,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.65), libpam-modules, lsb-base",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4189",
+    "Installed-Size": "4290",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.0-1",
+    "Version": "1.9.1-1",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.0-1"
+    "source:Version": "1.9.1-1"
   },
   {
     "Architecture": "all",
