@@ -65,7 +65,7 @@ ii   apt                     2.1.6                           amd64  commandline 
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
-ii   bsdmainutils            12.1.1+b1                       amd64  collection of more utilities from FreeBSD
+ii   bsdmainutils            12.1.2                          amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.35.2-4                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20200601                        all    Common CA certificates
 ii   coreutils               8.30-3+b1                       amd64  GNU core utilities

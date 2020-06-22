@@ -146,7 +146,7 @@
     "Depends": "libbsd0 (>= 0.0), libc6 (>= 2.14), libtinfo6 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "151",
+    "Installed-Size": "146",
     "Origin": "",
     "Package": "bsdmainutils",
     "Pre-Depends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "calendar, wamerican | wordlist, whois, vacation",
-    "Version": "12.1.1+b1",
+    "Version": "12.1.2",
     "binary:Package": "bsdmainutils",
     "binary:Summary": "collection of more utilities from FreeBSD",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bsdmainutils",
-    "source:Version": "12.1.1"
+    "source:Version": "12.1.2"
   },
   {
     "Architecture": "amd64",
