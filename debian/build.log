@@ -19,7 +19,8 @@ I: Validating base-passwd 3.5.47
 I: Validating bash 5.0-6
 I: Validating libbz2-1.0 1.0.8-3
 I: Validating libdebconfclient0 0.252
-I: Validating coreutils 8.30-3+b1
+I: Retrieving coreutils 8.32-2
+I: Validating coreutils 8.32-2
 I: Validating dash 0.5.10.2-7
 I: Validating libdb5.3 5.3.28+dfsg1-0.6
 I: Validating debconf 1.5.74
@@ -52,9 +53,7 @@ I: Validating iproute2 5.7.0-1
 I: Validating libxtables12 1.8.5-1
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.2
-I: Retrieving libcap2 1:2.36-1
 I: Validating libcap2 1:2.36-1
-I: Retrieving libcap2-bin 1:2.36-1
 I: Validating libcap2-bin 1:2.36-1
 I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.5-5
@@ -96,19 +95,12 @@ I: Validating libudev1 245.6-1
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Retrieving bsdutils 1:2.35.2-4
 I: Validating bsdutils 1:2.35.2-4
-I: Retrieving libblkid1 2.35.2-4
 I: Validating libblkid1 2.35.2-4
-I: Retrieving libmount1 2.35.2-4
 I: Validating libmount1 2.35.2-4
-I: Retrieving libsmartcols1 2.35.2-4
 I: Validating libsmartcols1 2.35.2-4
-I: Retrieving libuuid1 2.35.2-4
 I: Validating libuuid1 2.35.2-4
-I: Retrieving mount 2.35.2-4
 I: Validating mount 2.35.2-4
-I: Retrieving util-linux 2.35.2-4
 I: Validating util-linux 2.35.2-4
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
@@ -406,14 +398,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.67MB
+Sending build context to Docker daemon  31.79MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> de682d1dae8f
+ ---> 9b1c21c0f719
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3013907a4f99
-Removing intermediate container 3013907a4f99
- ---> 4fc264e05daa
-Successfully built 4fc264e05daa
+ ---> Running in 67f48ebbd319
+Removing intermediate container 67f48ebbd319
+ ---> 030a6312837c
+Successfully built 030a6312837c
 Successfully tagged minimum2scp/debian:latest
