@@ -65,10 +65,10 @@ ii   apt                     2.1.6                           amd64  commandline 
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47                          amd64  Debian base system master password and group files
 ii   bash                    5.0-6                           amd64  GNU Bourne Again SHell
-ii   bsdmainutils            12.1.2                          amd64  collection of more utilities from FreeBSD
+ii   bsdextrautils           2.35.2-4                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.35.2-4                      amd64  basic utilities from 4.4BSD-Lite
 ii   ca-certificates         20200601                        all    Common CA certificates
-ii   coreutils               8.30-3+b1                       amd64  GNU core utilities
+ii   coreutils               8.32-2                          amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.68.0-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
@@ -200,7 +200,7 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.9.2-1                         amd64  tools for reading manual pages
+ii   man-db                  2.9.3-1                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.35.2-4                        amd64  tools for mounting and manipulating filesystems
