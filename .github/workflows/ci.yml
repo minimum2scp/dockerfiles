@@ -57,7 +57,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2.0.1
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
 
       # push image to docker hub
@@ -101,7 +101,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2.0.1
         with: { name: ruby, path: /tmp/ruby.tar.gz }
 
       # push image to docker hub
@@ -495,7 +495,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2.0.1
         with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
 
       # push image to docker hub
@@ -640,7 +640,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2.0.1
         with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
 
       # push image to docker hub
