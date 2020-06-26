@@ -23,7 +23,7 @@ ii   apt                     2.1.6                amd64  commandline package man
 ii   base-files              11                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.47               amd64  Debian base system master password and group files
 ii   bash                    5.0-6                amd64  GNU Bourne Again SHell
-ii   bsdutils                1:2.35.2-5           amd64  basic utilities from 4.4BSD-Lite
+ii   bsdutils                1:2.35.2-6           amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-2               amd64  GNU core utilities
 ii   dash                    0.5.10.2-7           amd64  POSIX-compliant shell
 ii   debconf                 1.5.74               all    Debian configuration management system
@@ -49,7 +49,7 @@ ii   libargon2-1             0~20171227-0.2       amd64  memory-hard hashing fun
 ii   libattr1                1:2.4.48-5           amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3            all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1         amd64  Dynamic library for security auditing
-ii   libblkid1               2.35.2-5             amd64  block device ID library
+ii   libblkid1               2.35.2-6             amd64  block device ID library
 ii   libbsd0                 0.10.0-1             amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-3              amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.30-8               amd64  GNU C Library: Binaries
@@ -78,7 +78,7 @@ ii   libjson-c4              0.13.1+dfsg-9        amd64  JSON manipulation libra
 ii   liblz4-1                1.9.2-2              amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1           amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3              amd64  minimalistic Netlink communication library
-ii   libmount1               2.35.2-5             amd64  device mounting library
+ii   libmount1               2.35.2-6             amd64  device mounting library
 ii   libnettle7              3.5.1+really3.5.1-2  amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.20-1            amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5              amd64  Pluggable Authentication Modules for PAM
@@ -92,7 +92,7 @@ ii   libselinux1             3.0-1+b3             amd64  SELinux runtime shared 
 ii   libsemanage-common      3.0-1                all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.0-1+b3             amd64  SELinux policy management library
 ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
-ii   libsmartcols1           2.35.2-5             amd64  smart column output alignment library
+ii   libsmartcols1           2.35.2-6             amd64  smart column output alignment library
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1g-1             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.1.0-4             amd64  GNU Standard C++ Library v3
@@ -101,14 +101,14 @@ ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                245.6-1              amd64  libudev shared library
 ii   libunistring2           0.9.10-4             amd64  Unicode string library for C
-ii   libuuid1                2.35.2-5             amd64  Universally Unique ID library
+ii   libuuid1                2.35.2-6             amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-2              amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-2         amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1            amd64  system login tools
 ii   logsave                 1.45.6-1             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2     amd64  Pattern scanning and text processing language
-ii   mount                   2.35.2-5             amd64  tools for mounting and manipulating filesystems
+ii   mount                   2.35.2-6             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2-1                all    basic terminal type definitions
 ii   ncurses-bin             6.2-1                amd64  terminal-related programs and man pages
 ii   netbase                 6.1                  all    Basic TCP/IP networking system
@@ -118,6 +118,6 @@ ii   sed                     4.7-1                amd64  GNU stream editor for f
 ii   sysvinit-utils          2.96-3               amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7          amd64  GNU version of the tar archiving utility
 ii   tzdata                  2020a-1              all    time zone and daylight-saving time data
-ii   util-linux              2.35.2-5             amd64  miscellaneous system utilities
+ii   util-linux              2.35.2-6             amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2      amd64  compression library - runtime
 ```
