@@ -77,7 +77,7 @@ ii   debian-archive-keyring  2019.1                          all    GnuPG archiv
 ii   debianutils             4.11                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dmsetup                 2:1.02.167-1+b1                 amd64  Linux Kernel Device Mapper userspace library
-ii   dpkg                    1.19.7                          amd64  Debian package management system
+ii   dpkg                    1.20.1                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
@@ -167,7 +167,7 @@ ii   libpcre2-8-0            10.34-7                         amd64  New Perl Com
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.3-4                        amd64  shared Perl library
 ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
-ii   libpopt0                1.16-14                         amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.18-1                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)

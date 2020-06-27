@@ -478,11 +478,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "acidbase (<= 1.4.5-4), amule (<< 2.3.1+git1a369e47-3), beep (<< 1.3-4), im (<< 1:151-4), libapt-pkg5.0 (<< 1.7~b), libdpkg-perl (<< 1.18.11), lsb-base (<< 10.2019031300), netselect (<< 0.3.ds1-27), pconsole (<< 1.0-12), phpgacl (<< 3.3.7-7.3), pure-ftpd (<< 1.0.43-1), systemtap (<< 2.8-1), terminatorx (<< 4.0.1-1), xvt (<= 2.1-20.1)",
+    "Breaks": "libapt-pkg5.0 (<< 1.7~b), lsb-base (<< 10.2019031300)",
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6693",
+    "Installed-Size": "6420",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.19.7",
+    "Version": "1.20.1",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.19.7"
+    "source:Version": "1.20.1"
   },
   {
     "Architecture": "amd64",
@@ -3002,7 +3002,7 @@
     "Depends": "libc6 (>= 2.27)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "223",
+    "Installed-Size": "227",
     "Origin": "",
     "Package": "libpopt0",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.16-14",
+    "Version": "1.18-1",
     "binary:Package": "libpopt0:amd64",
     "binary:Summary": "lib for parsing cmdline parameters",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "popt",
-    "source:Version": "1.16-14"
+    "source:Version": "1.18-1"
   },
   {
     "Architecture": "amd64",
