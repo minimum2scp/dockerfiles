@@ -31,7 +31,7 @@ ii   debian-archive-keyring  2019.1               all    GnuPG archive keys of t
 ii   debianutils             4.11                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3              amd64  File comparison utilities
 ii   dmsetup                 2:1.02.167-1+b1      amd64  Linux Kernel Device Mapper userspace library
-ii   dpkg                    1.19.7               amd64  Debian package management system
+ii   dpkg                    1.20.1               amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1             amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.1.0-4             amd64  GCC, the GNU Compiler Collection (base package)
