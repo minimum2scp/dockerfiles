@@ -77,7 +77,7 @@ ii   debian-archive-keyring  2019.1                          all    GnuPG archiv
 ii   debianutils             4.11                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dmsetup                 2:1.02.167-1+b1                 amd64  Linux Kernel Device Mapper userspace library
-ii   dpkg                    1.20.1                          amd64  Debian package management system
+ii   dpkg                    1.20.2                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
@@ -227,7 +227,7 @@ ii   python3-minimal         3.8.2-3                         amd64  minimal subs
 ii   python3.8               3.8.3-1                         amd64  Interactive high-level object-oriented language (version 3.8)
 ii   python3.8-minimal       3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2006.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2006.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
