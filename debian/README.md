@@ -103,7 +103,7 @@ ii   libudev1                245.6-1              amd64  libudev shared library
 ii   libunistring2           0.9.10-4             amd64  Unicode string library for C
 ii   libuuid1                2.35.2-6             amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-2              amd64  netfilter xtables library
-ii   libzstd1                1.4.5+dfsg-2         amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.5+dfsg-3         amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1            amd64  system login tools
 ii   logsave                 1.45.6-1             amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0               all    Linux Standard Base init script functionality
