@@ -70,7 +70,7 @@ ii   libgcc-s1               10.1.0-4             amd64  GCC support library
 ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-6       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.14-2             amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.38-1               amd64  GnuPG development runtime library
+ii   libgpg-error0           1.38-2               amd64  GnuPG development runtime library
 ii   libhogweed5             3.5.1+really3.5.1-2  amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.4             amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.3.0-1              amd64  Internationalized domain names (IDNA2008/TR46) library
