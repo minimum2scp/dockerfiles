@@ -135,7 +135,7 @@ ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm data
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.14-2                        amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.38-1                          amd64  GnuPG development runtime library
+ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-10                         amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.4                        amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -171,8 +171,8 @@ ii   libpopt0                1.18-1                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.8-minimal    3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
-ii   libpython3.8-stdlib     3.8.3-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)
+ii   libpython3.8-minimal    3.8.4~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
+ii   libpython3.8-stdlib     3.8.4~rc1-1                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
 ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -224,8 +224,8 @@ ii   perl-modules-5.30       5.30.3-4                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.8               3.8.3-1                         amd64  Interactive high-level object-oriented language (version 3.8)
-ii   python3.8-minimal       3.8.3-1                         amd64  Minimal subset of the Python language (version 3.8)
+ii   python3.8               3.8.4~rc1-1                     amd64  Interactive high-level object-oriented language (version 3.8)
+ii   python3.8-minimal       3.8.4~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2006.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.8.15                          all    dh-runit implementation detail
