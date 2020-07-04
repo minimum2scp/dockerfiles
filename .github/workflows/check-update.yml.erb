@@ -20,16 +20,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - run: gem update --system -N
-      - run: gem install bundler --version '>= 2.0.0' -N
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gem-
-      - run: bundle config path vendor/bundle
-      - run: bundle install --jobs 4 --retry 3
+          bundler-cache: true
 
       # run test
       - run: docker pull minimum2scp/<%= image %>:latest
