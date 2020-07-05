@@ -91,7 +91,7 @@ ii   groff-base              1.22.4-5                        amd64  GNU troff te
 ii   gzip                    1.10-2                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   inetutils-ping          2:1.9.4-12                      amd64  ICMP echo tool
-ii   init-system-helpers     1.57                            all    helper tools for all init systems
+ii   init-system-helpers     1.58                            all    helper tools for all init systems
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.7.0-1                         amd64  networking and traffic control tools
@@ -205,7 +205,7 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.9.3-1                         amd64  tools for reading manual pages
+ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.35.2-6                        amd64  tools for mounting and manipulating filesystems
