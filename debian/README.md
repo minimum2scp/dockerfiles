@@ -61,7 +61,7 @@ ii   libcom-err2             1.45.6-1             amd64  common error descriptio
 ii   libcrypt1               1:4.4.16-1           amd64  libcrypt shared library
 ii   libcryptsetup12         2:2.3.3-1            amd64  disk encryption support - shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6     amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.252                amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.253                amd64  Debian Configuration Management System (C-implementation library)
 ii   libdevmapper1.02.1      2:1.02.167-1+b1      amd64  Linux Kernel Device Mapper userspace library
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1             amd64  ext2/ext3/ext4 file system libraries
@@ -96,10 +96,10 @@ ii   libsmartcols1           2.35.2-6             amd64  smart column output ali
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1g-1             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.1.0-4             amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.6-1              amd64  systemd utility library
+ii   libsystemd0             245.6-2              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                245.6-1              amd64  libudev shared library
+ii   libudev1                245.6-2              amd64  libudev shared library
 ii   libunistring2           0.9.10-4             amd64  Unicode string library for C
 ii   libuuid1                2.35.2-6             amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-2              amd64  netfilter xtables library
