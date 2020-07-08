@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Validating apt 2.1.6
-I: Validating libapt-pkg6.0 2.1.6
+I: Retrieving apt 2.1.7
+I: Validating apt 2.1.7
+I: Retrieving libapt-pkg6.0 2.1.7
+I: Validating libapt-pkg6.0 2.1.7
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
 I: Validating libaudit1 1:2.8.5-3+b1
@@ -26,8 +28,8 @@ I: Validating debconf 1.5.74
 I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.11
 I: Validating diffutils 1:3.7-3
-I: Retrieving dpkg 1.20.4
-I: Validating dpkg 1.20.4
+I: Retrieving dpkg 1.20.5
+I: Validating dpkg 1.20.5
 I: Validating e2fsprogs 1.45.6-1
 I: Validating libcom-err2 1.45.6-1
 I: Validating libext2fs2 1.45.6-1
@@ -95,19 +97,12 @@ I: Validating libudev1 245.6-2
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Retrieving bsdutils 1:2.35.2-7
 I: Validating bsdutils 1:2.35.2-7
-I: Retrieving libblkid1 2.35.2-7
 I: Validating libblkid1 2.35.2-7
-I: Retrieving libmount1 2.35.2-7
 I: Validating libmount1 2.35.2-7
-I: Retrieving libsmartcols1 2.35.2-7
 I: Validating libsmartcols1 2.35.2-7
-I: Retrieving libuuid1 2.35.2-7
 I: Validating libuuid1 2.35.2-7
-I: Retrieving mount 2.35.2-7
 I: Validating mount 2.35.2-7
-I: Retrieving util-linux 2.35.2-7
 I: Validating util-linux 2.35.2-7
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
@@ -405,14 +400,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.86MB
+Sending build context to Docker daemon  31.88MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 389a3fa88ea1
+ ---> 05c3bad36330
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 81979319eaa1
-Removing intermediate container 81979319eaa1
- ---> 5346c6855e4c
-Successfully built 5346c6855e4c
+ ---> Running in 51745fd78a8b
+Removing intermediate container 51745fd78a8b
+ ---> f5192b3d2c17
+Successfully built f5192b3d2c17
 Successfully tagged minimum2scp/debian:latest
