@@ -19,6 +19,10 @@ jobs:
       # run test
       - run: bundle exec rspec spec/debian
 
+      # no need to save image as artifact
+
+      # no need to push image
+
   baseimage:
     name: baseimage
     runs-on: ubuntu-latest
@@ -107,7 +111,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/nodejs
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -142,7 +146,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/es-kibana
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -174,7 +178,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/systemd
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -206,7 +210,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/squid
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -238,7 +242,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/norikra
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -270,7 +274,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/ruby-full
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -302,7 +306,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/rails6
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -334,7 +338,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/tdiary
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -357,6 +361,10 @@ jobs:
 
       # run test
       - run: bundle exec rspec spec/debian-buster
+
+      # no need to save image as artifact
+
+      # no need to push image
 
   baseimage-buster:
     name: baseimage-buster
@@ -411,7 +419,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/ruby-buster
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -443,7 +451,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/systemd-buster
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -466,6 +474,10 @@ jobs:
 
       # run test
       - run: bundle exec rspec spec/debian-stretch
+
+      # no need to save image as artifact
+
+      # no need to push image
 
   baseimage-stretch:
     name: baseimage-stretch
@@ -520,7 +532,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/ruby-stretch
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
@@ -552,7 +564,7 @@ jobs:
       # run test
       - run: bundle exec rspec spec/systemd-stretch
 
-      # No need to save image as artifact
+      # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
