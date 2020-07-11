@@ -40,9 +40,11 @@ namespace :minimum2scp do
     sh "dot -T svg -o deps.svg deps.dot"
   end
 
-  desc 'create .github/workflows/check-update.yml'
-  file '.github/workflows/check-update.yml' => '.github/workflows/check-update.yml.erb' do |t,args|
-    sh "erb -T - #{t.prerequisites[0]} > #{t.name}"
+  %w[check-update ci].each do |name|
+    desc "create .github/workflows/#{name}.yml"
+    file ".github/workflows/#{name}.yml" => ".github/workflows/#{name}.yml.erb" do |t,args|
+      sh "erb -T - #{t.prerequisites[0]} > #{t.name}"
+    end
   end
 end
 

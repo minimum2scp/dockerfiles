@@ -1,0 +1,99 @@
+name: CI
+
+on: [push]
+
+jobs:
+<%-
+default_conf = {
+  parent:          nil,
+  build_image:     true,
+  save_artifact:   false,
+  push_image:      true,
+  run_before_test: nil,
+}
+images = {
+  debian:      default_conf.merge(build_image: false, push_image: false),
+  baseimage:   default_conf.merge(save_artifact: true),
+  ruby:        default_conf.merge(parent: 'baseimage', save_artifact: true),
+  nodejs:      default_conf.merge(parent: 'baseimage'),
+  'es-kibana': default_conf.merge(parent: 'baseimage',
+                                  run_before_test: {
+                                    comment: '# https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html',
+                                    run: 'sudo sysctl -w vm.max_map_count=262144',
+                                  }),
+  systemd:     default_conf.merge(parent: 'baseimage'),
+  squid:       default_conf.merge(parent: 'baseimage'),
+  norikra:     default_conf.merge(parent: 'ruby'),
+  'ruby-full': default_conf.merge(parent: 'ruby'),
+  rails6:      default_conf.merge(parent: 'ruby'),
+  tdiary:      default_conf.merge(parent: 'ruby'),
+
+  'debian-buster':    default_conf.merge(build_image: false, push_image: false),
+  'baseimage-buster': default_conf.merge(save_artifact: true),
+  'ruby-buster':      default_conf.merge(parent: 'baseimage-buster'),
+  'systemd-buster':   default_conf.merge(parent: 'baseimage-buster'),
+
+  'debian-stretch':    default_conf.merge(build_image: false, push_image: false),
+  'baseimage-stretch': default_conf.merge(save_artifact: true),
+  'ruby-stretch':      default_conf.merge(parent: 'baseimage-stretch'),
+  'systemd-stretch':   default_conf.merge(parent: 'baseimage-stretch'),
+}
+-%>
+<%- images.each do |image, image_conf| -%>
+  <%= image %>:
+    name: <%= image %>
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    <%- if image_conf[:parent] -%>
+    needs: [<%= image_conf[:parent] %>]
+    <%- end -%>
+    steps:
+      <%- if image_conf[:parent] -%>
+      # load parent image
+      - uses: actions/download-artifact@v2
+        with: { name: <%= image_conf[:parent] %>, path: /tmp }
+      - run: pigz -c -d /tmp/<%= image_conf[:parent] %>.tar.gz | docker load
+
+      <%- end -%>
+      <%- if image_conf[:build_image] -%>
+      # build image
+      - uses: actions/checkout@master
+      - run: docker build -t minimum2scp/<%= image %>:latest <%= image %>
+      <%- else -%>
+      - uses: actions/checkout@master
+      <%- end -%>
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      <%- if image_conf[:run_before_test] -%>
+      <%= image_conf[:run_before_test][:comment] %>
+      - run: <%= image_conf[:run_before_test][:run] %>
+
+      <%- end -%>
+      # run test
+      - run: bundle exec rspec spec/<%= image %>
+
+      <%- if image_conf[:save_artifact] -%>
+      # save image as artifact
+      - run: docker save minimum2scp/<%= image %>:latest | pigz -c - > /tmp/<%= image %>.tar.gz
+      - uses: actions/upload-artifact@v2
+        with: { name: <%= image %>, path: /tmp/<%= image %>.tar.gz }
+      <%- else -%>
+      # no need to save image as artifact
+      <%- end -%>
+
+      <%- if image_conf[:push_image] -%>
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/<%= image %>:latest
+        if: github.ref == 'refs/heads/master'
+      <%- else -%>
+      # no need to push image
+      <%- end -%>
+
+<%- end -%>
