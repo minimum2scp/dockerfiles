@@ -437,7 +437,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.3.0-14",
+    "Version": "9.3.0-15",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.3.0-14"
+    "source:Version": "9.3.0-15"
   },
   {
     "Architecture": "amd64",
@@ -899,10 +899,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>> 2.30), libc6 (<< 2.31)",
+    "Depends": "libc6 (>> 2.31), libc6 (<< 2.32)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3534",
+    "Installed-Size": "3547",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -921,16 +921,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.30), locales-all (<< 2.30), nocache (<< 1.1-1~), nscd (<< 2.30), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
+    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), nocache (<< 1.1-1~), nscd (<< 2.31), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12847",
+    "Installed-Size": "12883",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "amd64",
@@ -1235,7 +1235,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-10-base (= 10.1.0-4), libc6 (>= 2.14)",
+    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1243,13 +1243,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:10.1.0-4)",
+    "Provides": "libgcc1 (= 1:10.1.0-5)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1991,7 +1991,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-10-base (= 10.1.0-4), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2351",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
