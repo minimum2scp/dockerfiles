@@ -577,7 +577,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.3.0-14",
+    "Version": "9.3.0-15",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,16 +613,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.3.0-14"
+    "source:Version": "9.3.0-15"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.27.0), git-man (<< 1:2.27.0-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.28.0~rc0), git-man (<< 1:2.28.0~rc0-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "44457",
+    "Installed-Size": "44666",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.27.0-1",
+    "Version": "1:2.28.0~rc0-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.27.0-1"
+    "source:Version": "1:2.28.0~rc0-1"
   },
   {
     "Architecture": "all",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1828",
+    "Installed-Size": "1836",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.27.0-1",
+    "Version": "1:2.28.0~rc0-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.27.0-1"
+    "source:Version": "1:2.28.0~rc0-1"
   },
   {
     "Architecture": "amd64",
@@ -1207,10 +1207,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>> 2.30), libc6 (<< 2.31)",
+    "Depends": "libc6 (>> 2.31), libc6 (<< 2.32)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3534",
+    "Installed-Size": "3547",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "all",
@@ -1238,7 +1238,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4291",
+    "Installed-Size": "4393",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1257,16 +1257,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.30), locales-all (<< 2.30), nocache (<< 1.1-1~), nscd (<< 2.30), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
+    "Breaks": "hurd (<< 1:0.9.git20170910-1), iraf-fitsutil (<< 2018.07.06-4), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), nocache (<< 1.1-1~), nscd (<< 2.31), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12847",
+    "Installed-Size": "12883",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "amd64",
@@ -1823,7 +1823,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-10-base (= 10.1.0-4), libc6 (>= 2.14)",
+    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1831,13 +1831,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:10.1.0-4)",
+    "Provides": "libgcc1 (= 1:10.1.0-5)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
@@ -2985,7 +2985,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.4~rc1-1",
+    "Version": "3.8.4-1",
     "binary:Package": "libpython3.8-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -2993,13 +2993,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4~rc1-1"
+    "source:Version": "3.8.4-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.8-testsuite (<< 3.8.0-4)",
-    "Depends": "libpython3.8-minimal (= 3.8.4~rc1-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.8-minimal (= 3.8.4-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "7822",
@@ -3013,7 +3013,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.4~rc1-1",
+    "Version": "3.8.4-1",
     "binary:Package": "libpython3.8-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4~rc1-1"
+    "source:Version": "3.8.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3447,7 +3447,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-10-base (= 10.1.0-4), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2351",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-4",
+    "Version": "10.1.0-5",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-4"
+    "source:Version": "10.1.0-5"
   },
   {
     "Architecture": "amd64",
@@ -3783,10 +3783,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc-bin (>> 2.30), libc-l10n (>> 2.30), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "libc-bin (>> 2.31), libc-l10n (>> 2.31), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16123",
+    "Installed-Size": "16144",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.30-8",
+    "Version": "2.31-1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.30-8"
+    "source:Version": "2.31-1"
   },
   {
     "Architecture": "amd64",
@@ -4455,10 +4455,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.8-minimal (= 3.8.4~rc1-1), libpython3.8-stdlib (= 3.8.4~rc1-1), mime-support",
+    "Depends": "python3.8-minimal (= 3.8.4-1), libpython3.8-stdlib (= 3.8.4-1), mime-support",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "494",
+    "Installed-Size": "495",
     "Origin": "",
     "Package": "python3.8",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.8-venv, python3.8-doc, binutils",
-    "Version": "3.8.4~rc1-1",
+    "Version": "3.8.4-1",
     "binary:Package": "python3.8",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4477,16 +4477,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4~rc1-1"
+    "source:Version": "3.8.4-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.8-minimal (= 3.8.4~rc1-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.8-minimal (= 3.8.4-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5449",
+    "Installed-Size": "5441",
     "Origin": "",
     "Package": "python3.8-minimal",
     "Pre-Depends": "libc6 (>= 2.29)",
@@ -4497,7 +4497,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.8.4~rc1-1",
+    "Version": "3.8.4-1",
     "binary:Package": "python3.8-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4~rc1-1"
+    "source:Version": "3.8.4-1"
   },
   {
     "Architecture": "all",
