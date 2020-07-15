@@ -33,7 +33,7 @@ ii   diffutils               1:3.7-3              amd64  File comparison utiliti
 ii   dpkg                    1.20.5               amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1             amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0-1              amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.1.0-5             amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.1.0-6             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-15             amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.20-1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                amd64  GNU grep, egrep and fgrep
@@ -62,8 +62,8 @@ ii   libdebconfclient0       0.253                amd64  Debian Configuration Ma
 ii   libelf1                 0.176-1.1            amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1             amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-4                amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10.1.0-5             amd64  GCC support library
-ii   libgcrypt20             1.8.5-5              amd64  LGPL Crypto library - runtime library
+ii   libgcc-s1               10.1.0-6             amd64  GCC support library
+ii   libgcrypt20             1.8.6-2              amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.0+dfsg-6       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.14-2             amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2               amd64  GnuPG development runtime library
@@ -83,13 +83,13 @@ ii   libpam0g                1.3.1-5              amd64  Pluggable Authenticatio
 ii   libpcre2-8-0            10.34-7              amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13            amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.4.3-1+b1           amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.0-1+b3             amd64  SELinux runtime shared libraries
-ii   libsemanage-common      3.0-1                all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.0-1+b3             amd64  SELinux policy management library
-ii   libsepol1               3.0-1                amd64  SELinux library for manipulating binary security policies
+ii   libselinux1             3.1-1                amd64  SELinux runtime shared libraries
+ii   libsemanage-common      3.1-1                all    Common files for SELinux policy management libraries
+ii   libsemanage1            3.1-1                amd64  SELinux policy management library
+ii   libsepol1               3.1-1                amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.35.2-7             amd64  smart column output alignment library
 ii   libss2                  1.45.6-1             amd64  command-line interface parsing library
-ii   libstdc++6              10.1.0-5             amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10.1.0-6             amd64  GNU Standard C++ Library v3
 ii   libsystemd0             245.6-2              amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2             amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                amd64  shared low-level terminfo library for terminal handling

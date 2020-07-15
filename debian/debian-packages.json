@@ -437,7 +437,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-5",
+    "Version": "10.1.0-6",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-5"
+    "source:Version": "10.1.0-6"
   },
   {
     "Architecture": "amd64",
@@ -1235,7 +1235,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.14)",
+    "Depends": "gcc-10-base (= 10.1.0-6), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1243,13 +1243,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:10.1.0-5)",
+    "Provides": "libgcc1 (= 1:10.1.0-6)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-5",
+    "Version": "10.1.0-6",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-5"
+    "source:Version": "10.1.0-6"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1340",
+    "Installed-Size": "1345",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.5-5",
+    "Version": "1.8.6-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.5-5"
+    "source:Version": "1.8.6-2"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.30), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "203",
+    "Installed-Size": "205",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1+b3",
+    "Version": "3.1-1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.0-1"
+    "source:Version": "3.1-1"
   },
   {
     "Architecture": "all",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1",
+    "Version": "3.1-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -1873,13 +1873,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.0-1"
+    "source:Version": "3.1-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 3.0), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)",
-    "Depends": "libsemanage-common (= 3.0-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.0), libsepol1 (>= 3.0)",
+    "Depends": "libsemanage-common (= 3.1-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.1), libsepol1 (>= 3.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "302",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1+b3",
+    "Version": "3.1-1",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.0-1"
+    "source:Version": "3.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "734",
+    "Installed-Size": "743",
     "Origin": "",
     "Package": "libsepol1",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0-1",
+    "Version": "3.1-1",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "3.0-1"
+    "source:Version": "3.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1991,7 +1991,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-10-base (= 10.1.0-5), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-10-base (= 10.1.0-6), libc6 (>= 2.18), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2351",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0-5",
+    "Version": "10.1.0-6",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.1.0-5"
+    "source:Version": "10.1.0-6"
   },
   {
     "Architecture": "amd64",
