@@ -70,7 +70,7 @@ ii   bsdutils                1:2.35.2-7                      amd64  basic utilit
 ii   ca-certificates         20200601                        all    Common CA certificates
 ii   coreutils               8.32-2                          amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
-ii   curl                    7.68.0-1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.68.0-1+b1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
@@ -100,7 +100,7 @@ ii   libattr1                1:2.4.48-5                      amd64  extended att
 ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.35.2-7                        amd64  block device ID library
-ii   libbrotli1              1.0.7-6.1                       amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1              1.0.7-7                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-3                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.31-1                          amd64  GNU C Library: Binaries
@@ -112,8 +112,8 @@ ii   libcap2-bin             1:2.36-1                        amd64  POSIX 1003.1
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.6-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.16-1                      amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.68.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.68.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.68.0-1+b1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.68.0-1+b1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.253                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
@@ -130,17 +130,17 @@ ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.14-2                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.14-2+b1                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-10                         amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed5             3.5.1+really3.5.1-2             amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6             3.6-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.4                        amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.3.0-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-10                         amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-10                         amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-10                         amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.50+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.50+dfsg-1+b1                amd64  OpenLDAP libraries
 ii   libldap-common          2.4.50+dfsg-1                   all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
@@ -150,7 +150,7 @@ ii   libmount1               2.35.2-7                        amd64  device mount
 ii   libmpdec2               2.4.2-3                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2-1                           amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle7              3.5.1+really3.5.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.41.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.20-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -169,7 +169,7 @@ ii   libpython3-stdlib       3.8.2-3                         amd64  interactive 
 ii   libpython3.8-minimal    3.8.4-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   libpython3.8-stdlib     3.8.4-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)
 ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
-ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b1  amd64  toolkit for RTMP streams (shared library)
+ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.4.3-1+b1                      amd64  high level interface to Linux seccomp filter
