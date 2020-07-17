@@ -3170,7 +3170,7 @@
     "Depends": "libc6 (>= 2.30), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "205",
+    "Installed-Size": "204",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-1",
+    "Version": "3.1-2",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.1-1"
+    "source:Version": "3.1-2"
   },
   {
     "Architecture": "all",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.6-2",
+    "Version": "245.6-3",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.6-2"
+    "source:Version": "245.6-3"
   },
   {
     "Architecture": "amd64",
@@ -3601,7 +3601,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "245.6-2",
+    "Version": "245.6-3",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3609,7 +3609,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "245.6-2"
+    "source:Version": "245.6-3"
   },
   {
     "Architecture": "amd64",
