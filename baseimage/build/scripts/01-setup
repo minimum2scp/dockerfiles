@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 ##
 ## packages
 ##
-packages="sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools unzip"
+packages="sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools unzip bzip2 zstd"
 packages="$packages etckeeper"
 packages="$packages locales tzdata"
 packages="$packages localepurge"
