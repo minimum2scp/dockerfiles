@@ -67,6 +67,7 @@ ii   base-passwd             3.5.46                       amd64  Debian base sys
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.33.1-0.1                 amd64  basic utilities from 4.4BSD-Lite
+ii   bzip2                   1.0.6-9.2~deb10u1            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates         20200601~deb10u1             all    Common CA certificates
 ii   coreutils               8.30-3                       amd64  GNU core utilities
 ii   cron                    3.0pl1-134+deb10u1           amd64  process scheduling daemon
@@ -240,4 +241,5 @@ ii   xxd                     2:8.1.0875-5                 amd64  tool to make (o
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
+ii   zstd                    1.3.8+dfsg-3                 amd64  fast lossless compression algorithm -- CLI tool
 ```

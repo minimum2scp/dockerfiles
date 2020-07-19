@@ -67,6 +67,7 @@ ii   base-passwd             3.5.43                             amd64  Debian ba
 ii   bash                    4.4-5                              amd64  GNU Bourne Again SHell
 ii   bsdmainutils            9.0.12+nmu1                        amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1+deb9u1                  amd64  basic utilities from 4.4BSD-Lite
+ii   bzip2                   1.0.6-8.1                          amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates         20200601~deb9u1                    all    Common CA certificates
 ii   coreutils               8.26-3                             amd64  GNU core utilities
 ii   cron                    3.0pl1-128+deb9u1                  amd64  process scheduling daemon
@@ -185,6 +186,7 @@ ii   libunistring0           0.9.6+really0.9.3-0.1              amd64  Unicode s
 ii   libustr-1.0-1           1.0.4-6                            amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1                    amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-26                           amd64  Wietse Venema's TCP wrappers library
+ii   libzstd1                1.1.2-1                            amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                            all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-11+deb9u4                     all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.4-4.1                          amd64  system login tools
@@ -233,4 +235,5 @@ ii   xxd                     2:8.0.0197-4+deb9u3                amd64  tool to m
 ii   zlib1g                  1:1.2.8.dfsg-5                     amd64  compression library - runtime
 ii   zsh                     5.3.1-4+b3                         amd64  shell with lots of features
 ii   zsh-common              5.3.1-4                            all    architecture independent files for Zsh
+ii   zstd                    1.1.2-1                            amd64  fast lossless compression algorithm -- CLI tool
 ```
