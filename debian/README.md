@@ -24,7 +24,7 @@ ii   base-files              11                amd64  Debian base system miscell
 ii   base-passwd             3.5.47            amd64  Debian base system master password and group files
 ii   bash                    5.0-6             amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.35.2-7        amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.32-2            amd64  GNU core utilities
+ii   coreutils               8.32-3            amd64  GNU core utilities
 ii   dash                    0.5.10.2-7        amd64  POSIX-compliant shell
 ii   debconf                 1.5.74            all    Debian configuration management system
 ii   debian-archive-keyring  2019.1            all    GnuPG archive keys of the Debian archive
@@ -49,7 +49,7 @@ ii   libaudit-common         1:2.8.5-3         all    Dynamic library for securi
 ii   libaudit1               1:2.8.5-3+b1      amd64  Dynamic library for security auditing
 ii   libblkid1               2.35.2-7          amd64  block device ID library
 ii   libbsd0                 0.10.0-1          amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0              1.0.8-3           amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.8-4           amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.31-1            amd64  GNU C Library: Binaries
 ii   libc6                   2.31-1            amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2         amd64  An alternate POSIX capabilities library
