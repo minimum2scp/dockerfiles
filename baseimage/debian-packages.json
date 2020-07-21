@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
@@ -180,12 +180,12 @@
     "Pre-Depends": "libc6 (>= 2.17), libsystemd0",
     "Priority": "required",
     "Provides": "",
-    "Recommends": "bsdextrautils, bsdmainutils",
+    "Recommends": "bsdextrautils",
     "Replace": "",
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.35.2-7",
+    "Version": "1:2.35.2-8",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,16 +193,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libbz2-1.0 (= 1.0.8-3), libc6 (>= 2.14)",
+    "Depends": "libbz2-1.0 (= 1.0.8-4), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "200",
+    "Installed-Size": "122",
     "Origin": "",
     "Package": "bzip2",
     "Pre-Depends": "",
@@ -213,7 +213,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2-doc",
-    "Version": "1.0.8-3",
+    "Version": "1.0.8-4",
     "binary:Package": "bzip2",
     "binary:Summary": "high-quality block-sorting file compressor - utilities",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-3"
+    "source:Version": "1.0.8-4"
   },
   {
     "Architecture": "all",
@@ -258,10 +258,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "17259",
+    "Installed-Size": "17256",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libselinux1 (>= 2.1.13)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libgmp10, libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.32-2",
+    "Version": "8.32-3",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.32-2"
+    "source:Version": "8.32-3"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.8-3",
+    "Version": "1.0.8-4",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-3"
+    "source:Version": "1.0.8-4"
   },
   {
     "Architecture": "amd64",
@@ -2439,10 +2439,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 2.6-3~)",
+    "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "475",
+    "Installed-Size": "479",
     "Origin": "",
     "Package": "libmount1",
     "Pre-Depends": "",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
@@ -3013,7 +3013,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.4-1",
+    "Version": "3.8.5-1",
     "binary:Package": "libpython3.8-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -3021,16 +3021,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4-1"
+    "source:Version": "3.8.5-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.8-testsuite (<< 3.8.0-4)",
-    "Depends": "libpython3.8-minimal (= 3.8.4-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.8-minimal (= 3.8.5-1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "7822",
+    "Installed-Size": "7823",
     "Origin": "",
     "Package": "libpython3.8-stdlib",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8.4-1",
+    "Version": "3.8.5-1",
     "binary:Package": "libpython3.8-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4-1"
+    "source:Version": "3.8.5-1"
   },
   {
     "Architecture": "amd64",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "amd64",
@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "all",
@@ -4483,7 +4483,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.8-minimal (= 3.8.4-1), libpython3.8-stdlib (= 3.8.4-1), mime-support",
+    "Depends": "python3.8-minimal (= 3.8.5-1), libpython3.8-stdlib (= 3.8.5-1), mime-support",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "495",
@@ -4497,7 +4497,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.8-venv, python3.8-doc, binutils",
-    "Version": "3.8.4-1",
+    "Version": "3.8.5-1",
     "binary:Package": "python3.8",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4505,16 +4505,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4-1"
+    "source:Version": "3.8.5-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.8-minimal (= 3.8.4-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.8-minimal (= 3.8.5-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5441",
+    "Installed-Size": "5449",
     "Origin": "",
     "Package": "python3.8-minimal",
     "Pre-Depends": "libc6 (>= 2.29)",
@@ -4525,7 +4525,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.8.4-1",
+    "Version": "3.8.5-1",
     "binary:Package": "python3.8-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.8)",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.8",
-    "source:Version": "3.8.4-1"
+    "source:Version": "3.8.5-1"
   },
   {
     "Architecture": "all",
@@ -4598,7 +4598,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "18",
+    "Installed-Size": "19",
     "Origin": "",
     "Package": "runit-helper",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.8.15",
+    "Version": "2.9.0",
     "binary:Package": "runit-helper",
     "binary:Summary": "dh-runit implementation detail",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dh-runit",
-    "source:Version": "2.8.15"
+    "source:Version": "2.9.0"
   },
   {
     "Architecture": "amd64",
@@ -4937,7 +4937,7 @@
     "Installed-Size": "4516",
     "Origin": "",
     "Package": "util-linux",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -4945,7 +4945,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd | console-tools, util-linux-locales",
-    "Version": "2.35.2-7",
+    "Version": "2.35.2-8",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4953,7 +4953,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.35.2-7"
+    "source:Version": "2.35.2-8"
   },
   {
     "Architecture": "all",
