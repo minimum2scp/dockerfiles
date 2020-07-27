@@ -11,14 +11,11 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.52-3+b1
 I: Validating adduser 3.115
-I: Retrieving apt 1.4.10
 I: Validating apt 1.4.10
-I: Retrieving libapt-pkg5.0 1.4.10
 I: Validating libapt-pkg5.0 1.4.10
 I: Validating libattr1 1:2.4.47-2+b2
 I: Validating libaudit-common 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
-I: Retrieving base-files 9.9+deb9u13
 I: Validating base-files 9.9+deb9u13
 I: Validating base-passwd 3.5.43
 I: Validating bash 4.4-5
@@ -72,7 +69,6 @@ I: Validating libpam-modules-bin 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
 I: Validating libpcre3 2:8.39-3
-I: Retrieving perl-base 5.24.1-3+deb9u7
 I: Validating perl-base 5.24.1-3+deb9u7
 I: Validating sed 4.4-1
 I: Validating sensible-utils 0.0.9+deb9u1
@@ -82,7 +78,6 @@ I: Validating libsystemd0 232-25+deb9u12
 I: Validating libudev1 232-25+deb9u12
 I: Validating sysvinit-utils 2.88dsf-59.9
 I: Validating tar 1.29b-1.1
-I: Retrieving tzdata 2020a-0+deb9u1
 I: Validating tzdata 2020a-0+deb9u1
 I: Validating libustr-1.0-1 1.0.4-6
 I: Validating bsdutils 1:2.29.2-1+deb9u1
@@ -340,23 +335,49 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org stretch/updates InRelease [53.0 kB]
 Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
 Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
-Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://security.debian.org stretch/updates/main amd64 Packages [678 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 Packages [681 kB]
+Hit:5 http://ftp.jp.debian.org/debian stretch Release
 Get:6 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [2711 B]
-Fetched 827 kB in 0s (1536 kB/s)
+Fetched 831 kB in 0s (2125 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  26.59MB
+The following packages will be upgraded:
+  e2fslibs e2fsprogs libcomerr2 libss2
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1288 kB of archives.
+After this operation, 4096 B of additional disk space will be used.
+Get:1 http://security.debian.org stretch/updates/main amd64 e2fslibs amd64 1.43.4-2+deb9u2 [208 kB]
+Get:2 http://security.debian.org stretch/updates/main amd64 e2fsprogs amd64 1.43.4-2+deb9u2 [948 kB]
+Get:3 http://security.debian.org stretch/updates/main amd64 libcomerr2 amd64 1.43.4-2+deb9u2 [63.8 kB]
+Get:4 http://security.debian.org stretch/updates/main amd64 libss2 amd64 1.43.4-2+deb9u2 [68.0 kB]
+Fetched 1288 kB in 0s (7271 kB/s)
+(Reading database ... 6494 files and directories currently installed.)
+Preparing to unpack .../e2fslibs_1.43.4-2+deb9u2_amd64.deb ...
+Unpacking e2fslibs:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
+Setting up e2fslibs:amd64 (1.43.4-2+deb9u2) ...
+(Reading database ... 6494 files and directories currently installed.)
+Preparing to unpack .../e2fsprogs_1.43.4-2+deb9u2_amd64.deb ...
+Unpacking e2fsprogs (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
+Setting up e2fsprogs (1.43.4-2+deb9u2) ...
+(Reading database ... 6494 files and directories currently installed.)
+Preparing to unpack .../libcomerr2_1.43.4-2+deb9u2_amd64.deb ...
+Unpacking libcomerr2:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
+Setting up libcomerr2:amd64 (1.43.4-2+deb9u2) ...
+(Reading database ... 6494 files and directories currently installed.)
+Preparing to unpack .../libss2_1.43.4-2+deb9u2_amd64.deb ...
+Unpacking libss2:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
+Setting up libss2:amd64 (1.43.4-2+deb9u2) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Sending build context to Docker daemon  26.61MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 54451a35b948
+ ---> 4b74ddc63d6a
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 0f36b6c16522
-Removing intermediate container 0f36b6c16522
- ---> fec2a86e3568
-Successfully built fec2a86e3568
+ ---> Running in 51f11a2ff852
+Removing intermediate container 51f11a2ff852
+ ---> 4a27cc479773
+Successfully built 4a27cc479773
 Successfully tagged minimum2scp/debian-stretch:latest
