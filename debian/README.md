@@ -59,7 +59,7 @@ ii   libcom-err2             1.45.6-1          amd64  common error description l
 ii   libcrypt1               1:4.4.16-1        amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.253             amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.176-1.1         amd64  library to read and write ELF files
+ii   libelf1                 0.180-1           amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1          amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-4             amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.0-3          amd64  GCC support library
@@ -90,10 +90,10 @@ ii   libsepol1               3.1-1             amd64  SELinux library for manipu
 ii   libsmartcols1           2.36-1            amd64  smart column output alignment library
 ii   libss2                  1.45.6-1          amd64  command-line interface parsing library
 ii   libstdc++6              10.2.0-3          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             245.6-3           amd64  systemd utility library
+ii   libsystemd0             245.7-1           amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                245.6-3           amd64  libudev shared library
+ii   libudev1                245.7-1           amd64  libudev shared library
 ii   libunistring2           0.9.10-4          amd64  Unicode string library for C
 ii   libuuid1                2.36-1            amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-2           amd64  netfilter xtables library
