@@ -5,7 +5,7 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 
 nodenv_root=/opt/nodenv
-node_version=14.6.0
+node_version=14.7.0
 
 ## install nodenv into /opt/nodenv
 git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}
