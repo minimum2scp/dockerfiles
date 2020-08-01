@@ -32,8 +32,8 @@ I: Validating libcom-err2 1.45.6-1
 I: Validating libext2fs2 1.45.6-1
 I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
-I: Retrieving libelf1 0.180-1
-I: Validating libelf1 0.180-1
+I: Retrieving libelf1 0.180-1+b1
+I: Validating libelf1 0.180-1+b1
 I: Validating findutils 4.7.0-1
 I: Validating gcc-10-base 10.2.0-3
 I: Validating libgcc-s1 10.2.0-3
@@ -90,9 +90,7 @@ I: Validating perl-base 5.30.3-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 245.7-1
 I: Validating libsystemd0 245.7-1
-I: Retrieving libudev1 245.7-1
 I: Validating libudev1 245.7-1
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
@@ -404,10 +402,10 @@ Sending build context to Docker daemon  31.89MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3de0fee4d09f
+ ---> f7234186a8c3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b3af7504bc71
-Removing intermediate container b3af7504bc71
- ---> d35b19699c69
-Successfully built d35b19699c69
+ ---> Running in b48af548b031
+Removing intermediate container b48af548b031
+ ---> bd28ac3c4e6b
+Successfully built bd28ac3c4e6b
 Successfully tagged minimum2scp/debian:latest
