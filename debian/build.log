@@ -32,7 +32,6 @@ I: Validating libcom-err2 1.45.6-1
 I: Validating libext2fs2 1.45.6-1
 I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
-I: Retrieving libelf1 0.180-1+b1
 I: Validating libelf1 0.180-1+b1
 I: Validating findutils 4.7.0-1
 I: Validating gcc-10-base 10.2.0-3
@@ -95,13 +94,20 @@ I: Validating libudev1 245.7-1
 I: Validating sysvinit-utils 2.96-3
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Validating bsdutils 1:2.36-1
-I: Validating libblkid1 2.36-1
-I: Validating libmount1 2.36-1
-I: Validating libsmartcols1 2.36-1
-I: Validating libuuid1 2.36-1
-I: Validating mount 2.36-1
-I: Validating util-linux 2.36-1
+I: Retrieving bsdutils 1:2.36-2
+I: Validating bsdutils 1:2.36-2
+I: Retrieving libblkid1 2.36-2
+I: Validating libblkid1 2.36-2
+I: Retrieving libmount1 2.36-2
+I: Validating libmount1 2.36-2
+I: Retrieving libsmartcols1 2.36-2
+I: Validating libsmartcols1 2.36-2
+I: Retrieving libuuid1 2.36-2
+I: Validating libuuid1 2.36-2
+I: Retrieving mount 2.36-2
+I: Validating mount 2.36-2
+I: Retrieving util-linux 2.36-2
+I: Validating util-linux 2.36-2
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -398,14 +404,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.89MB
+Sending build context to Docker daemon  31.88MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f7234186a8c3
+ ---> 319f37685e4c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b48af548b031
-Removing intermediate container b48af548b031
- ---> bd28ac3c4e6b
-Successfully built bd28ac3c4e6b
+ ---> Running in de29950bd780
+Removing intermediate container de29950bd780
+ ---> 4b185dbfc235
+Successfully built 4b185dbfc235
 Successfully tagged minimum2scp/debian:latest
