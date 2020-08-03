@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
 ii   apt                     1.8.2.1                 amd64  commandline package manager
-ii   base-files              10.3+deb10u4            amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u5            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1            amd64  basic utilities from 4.4BSD-Lite
@@ -64,7 +64,7 @@ ii   libffi6                 3.2.1-9                 amd64  Foreign Function Int
 ii   libgcc1                 1:8.3.0-6               amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                 amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4+deb10u4         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.7-4+deb10u5         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                  amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-2.2                amd64  GNU Libidn library, implementation of IETF IDN specifications
@@ -104,7 +104,7 @@ ii   ncurses-base            6.1+20181013-2+deb10u2  all    basic terminal type 
 ii   ncurses-bin             6.1+20181013-2+deb10u2  amd64  terminal-related programs and man pages
 ii   netbase                 5.6                     all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1               amd64  change and administer password and group data
-ii   perl-base               5.28.1-6                amd64  minimal Perl system
+ii   perl-base               5.28.1-6+deb10u1        amd64  minimal Perl system
 ii   sed                     4.7-1                   amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.93-8                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6             amd64  GNU version of the tar archiving utility

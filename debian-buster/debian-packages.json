@@ -38,7 +38,7 @@
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
-    "Priority": "important",
+    "Priority": "required",
     "Provides": "apt-transport-https (= 1.8.2.1)",
     "Recommends": "ca-certificates",
     "Replace": "",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u4",
+    "Version": "10.3+deb10u5",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u4"
+    "source:Version": "10.3+deb10u5"
   },
   {
     "Architecture": "amd64",
@@ -1294,7 +1294,7 @@
     "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2644",
+    "Installed-Size": "2648",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.7-4+deb10u4",
+    "Version": "3.6.7-4+deb10u5",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.7-4+deb10u4"
+    "source:Version": "3.6.7-4+deb10u5"
   },
   {
     "Architecture": "amd64",
@@ -2414,7 +2414,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "10136",
+    "Installed-Size": "10148",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.28), dpkg (>= 1.17.17)",
@@ -2425,7 +2425,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.28.1-6",
+    "Version": "5.28.1-6+deb10u1",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.28.1-6"
+    "source:Version": "5.28.1-6+deb10u1"
   },
   {
     "Architecture": "amd64",
