@@ -108,8 +108,8 @@ ii   libc-bin                2.31-3                          amd64  GNU C Librar
 ii   libc-l10n               2.31-3                          all    GNU C Library: localization files
 ii   libc6                   2.31-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2                       amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.36-1                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.36-1                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.42-2                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.42-2                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.6-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.16-1                      amd64  libcrypt shared library
