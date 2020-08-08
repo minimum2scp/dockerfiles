@@ -193,7 +193,7 @@ ii   libunistring2           0.9.10-4                        amd64  Unicode stri
 ii   libuuid1                2.36-2                          amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.5-2                         amd64  netfilter xtables library
-ii   libzstd1                1.4.5+dfsg-3                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -243,5 +243,5 @@ ii   xxd                     2:8.2.0716-3                    amd64  tool to make
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-5                           amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
-ii   zstd                    1.4.5+dfsg-3                    amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.4.5+dfsg-4                    amd64  fast lossless compression algorithm -- CLI tool
 ```
