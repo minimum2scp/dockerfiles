@@ -2218,7 +2218,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "918",
+    "Installed-Size": "866",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.5+dfsg-3",
+    "Version": "1.4.5+dfsg-4",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.5+dfsg-3"
+    "source:Version": "1.4.5+dfsg-4"
   },
   {
     "Architecture": "amd64",

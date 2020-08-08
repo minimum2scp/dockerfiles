@@ -52,9 +52,7 @@ I: Validating iproute2 5.7.0-1
 I: Validating libxtables12 1.8.5-2
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.2
-I: Retrieving libcap2 1:2.42-2
 I: Validating libcap2 1:2.42-2
-I: Retrieving libcap2-bin 1:2.42-2
 I: Validating libcap2-bin 1:2.42-2
 I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.6-2
@@ -70,7 +68,7 @@ I: Validating libsepol1 3.1-1
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-4
 I: Validating libcrypt1 1:4.4.16-1
-I: Validating libzstd1 1.4.5+dfsg-3
+I: Validating libzstd1 1.4.5+dfsg-4
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
 I: Validating mawk 1.3.4.20200120-2
@@ -399,14 +397,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.93MB
+Sending build context to Docker daemon  31.91MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 089b4d5bfc85
+ ---> e27fac9fc3b6
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d51acbf0ca10
-Removing intermediate container d51acbf0ca10
- ---> 10b5c525637e
-Successfully built 10b5c525637e
+ ---> Running in c76f71186b3e
+Removing intermediate container c76f71186b3e
+ ---> a01851f387c9
+Successfully built a01851f387c9
 Successfully tagged minimum2scp/debian:latest
