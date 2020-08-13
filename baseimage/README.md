@@ -94,7 +94,7 @@ ii   inetutils-ping          2:1.9.4-12                      amd64  ICMP echo to
 ii   init-system-helpers     1.58                            all    helper tools for all init systems
 ii   initscripts             2.96-3                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.7.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.8.0-1                         amd64  networking and traffic control tools
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -161,7 +161,7 @@ ii   libpam0g                1.3.1-5                         amd64  Pluggable Au
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.3-4                        amd64  shared Perl library
-ii   libpipeline1            1.5.2-2                         amd64  Unix process pipeline manipulation library
+ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-1                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
