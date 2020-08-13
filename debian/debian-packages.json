@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "arpd, iproute (<< 20130000-1)",
     "Breaks": "",
-    "Depends": "debconf (>= 0.5) | debconf-2.0, libbsd0 (>= 0.0), libc6 (>= 2.29), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin",
+    "Depends": "debconf (>= 0.5) | debconf-2.0, libbsd0 (>= 0.0), libc6 (>= 2.29), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2740",
+    "Installed-Size": "2814",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "5.7.0-1",
+    "Version": "5.8.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "5.7.0-1"
+    "source:Version": "5.8.0-1"
   },
   {
     "Architecture": "amd64",

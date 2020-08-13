@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-8
 I: Validating adduser 3.118
-I: Retrieving apt 2.1.10
 I: Validating apt 2.1.10
-I: Retrieving libapt-pkg6.0 2.1.10
 I: Validating libapt-pkg6.0 2.1.10
 I: Validating libattr1 1:2.4.48-5
 I: Validating libaudit-common 1:2.8.5-3
@@ -50,7 +48,8 @@ I: Validating gzip 1.10-2
 I: Validating hostname 3.23
 I: Validating inetutils-ping 2:1.9.4-12
 I: Validating init-system-helpers 1.58
-I: Validating iproute2 5.7.0-1
+I: Retrieving iproute2 5.8.0-1
+I: Validating iproute2 5.8.0-1
 I: Validating libxtables12 1.8.5-2
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.2
@@ -399,14 +398,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.91MB
+Sending build context to Docker daemon  31.94MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ca4b09872bc3
+ ---> 59d2bbe45fad
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 6ad5644c7c5e
-Removing intermediate container 6ad5644c7c5e
- ---> 437f42b4be26
-Successfully built 437f42b4be26
+ ---> Running in 7e23679bac74
+Removing intermediate container 7e23679bac74
+ ---> 53f81f627c2b
+Successfully built 53f81f627c2b
 Successfully tagged minimum2scp/debian:latest
