@@ -152,7 +152,7 @@ ii   libncurses6             6.2-1                           amd64  shared libra
 ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.41.0-2                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.20-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -179,16 +179,16 @@ ii   libsemanage1            3.1-1                           amd64  SELinux poli
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36-2                          amd64  smart column output alignment library
-ii   libsqlite3-0            3.32.3-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.33.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.0-5                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246-2                           amd64  systemd utility library
+ii   libsystemd0             246.1-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                246-2                           amd64  libudev shared library
+ii   libudev1                246.1-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-2                          amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
