@@ -89,10 +89,10 @@ I: Validating perl-base 5.30.3-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Retrieving libsystemd0 246.1-1
-I: Validating libsystemd0 246.1-1
-I: Retrieving libudev1 246.1-1
-I: Validating libudev1 246.1-1
+I: Retrieving libsystemd0 246.2-1
+I: Validating libsystemd0 246.2-1
+I: Retrieving libudev1 246.2-1
+I: Validating libudev1 246.2-1
 I: Validating sysvinit-utils 2.96-4
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
@@ -399,14 +399,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.94MB
+Sending build context to Docker daemon  31.92MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7cd2eccb22e7
+ ---> e717262007a7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9bdb56ea0600
-Removing intermediate container 9bdb56ea0600
- ---> af19a0b69437
-Successfully built af19a0b69437
+ ---> Running in 024e0275e4b8
+Removing intermediate container 024e0275e4b8
+ ---> ff8da3a522ab
+Successfully built ff8da3a522ab
 Successfully tagged minimum2scp/debian:latest

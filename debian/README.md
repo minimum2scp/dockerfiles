@@ -90,10 +90,10 @@ ii   libsepol1               3.1-1             amd64  SELinux library for manipu
 ii   libsmartcols1           2.36-2            amd64  smart column output alignment library
 ii   libss2                  1.45.6-1          amd64  command-line interface parsing library
 ii   libstdc++6              10.2.0-5          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.1-1           amd64  systemd utility library
+ii   libsystemd0             246.2-1           amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1             amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                246.1-1           amd64  libudev shared library
+ii   libudev1                246.2-1           amd64  libudev shared library
 ii   libunistring2           0.9.10-4          amd64  Unicode string library for C
 ii   libuuid1                2.36-2            amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-2           amd64  netfilter xtables library
