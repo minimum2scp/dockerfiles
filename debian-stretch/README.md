@@ -39,9 +39,9 @@ ii   gpgv                    2.1.18-8~deb9u4        amd64  GNU privacy guard - s
 ii   grep                    2.27-2                 amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.6-5+b1               amd64  GNU compression utilities
 ii   hostname                3.18+b1                amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-2+b1           amd64  ICMP echo tool
 ii   init-system-helpers     1.48                   all    helper tools for all init systems
 ii   iproute2                4.9.0-1+deb9u1         amd64  networking and traffic control tools
+ii   iputils-ping            3:20161105-1           amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.52-3+b1            amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4.10                 amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2          amd64  Extended attribute shared library
@@ -52,6 +52,7 @@ ii   libbz2-1.0              1.0.6-8.1              amd64  high-quality block-so
 ii   libc-bin                2.24-11+deb9u4         amd64  GNU C Library: Binaries
 ii   libc6                   2.24-11+deb9u4         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.7-3+b1             amd64  An alternate POSIX capabilities library
+ii   libcap2                 1:2.25-1               amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.4-2+deb9u2        amd64  common error description library
 ii   libdb5.3                5.3.28-12+deb9u1       amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                  amd64  Debian Configuration Management System (C-implementation library)
@@ -60,11 +61,13 @@ ii   libfdisk1               2.29.2-1+deb9u1        amd64  fdisk partitioning li
 ii   libgcc1                 1:6.3.0-18+deb9u1      amd64  GCC support library
 ii   libgcrypt20             1.7.6-2+deb9u3         amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                 amd64  library for common error values and messages in GnuPG components
+ii   libidn11                1.33-1+deb9u1          amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   liblz4-1                0.0~r131-2+b1          amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1           amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1+deb9u1        amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1+deb9u2  amd64  shared libraries for terminal handling (wide character support)
+ii   libnettle6              3.3-1+b2               amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules          1.1.8-3.6              amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6              all    Runtime support for the PAM library
@@ -89,7 +92,6 @@ ii   mount                   2.29.2-1+deb9u1        amd64  tools for mounting an
 ii   multiarch-support       2.24-11+deb9u4         amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1+deb9u2  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1+deb9u2  amd64  terminal-related programs and man pages
-ii   netbase                 5.4                    all    Basic TCP/IP networking system
 ii   passwd                  1:4.4-4.1              amd64  change and administer password and group data
 ii   perl-base               5.24.1-3+deb9u7        amd64  minimal Perl system
 ii   sed                     4.4-1                  amd64  GNU stream editor for filtering/transforming text
