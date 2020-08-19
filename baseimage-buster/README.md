@@ -90,11 +90,11 @@ ii   grep                    3.3-1                        amd64  GNU grep, egrep
 ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-7                    amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2                     amd64  networking and traffic control tools
+ii   iputils-ping            3:20180629-2+deb10u1         amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2.1                      amd64  package management runtime library
 ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
@@ -132,7 +132,6 @@ ii   libgnutls30             3.6.7-4+deb10u5              amd64  GNU TLS library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-3                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.33-2.2                     amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-3                       amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
@@ -204,7 +203,6 @@ ii   mount                   2.33.1-0.1                   amd64  tools for mount
 ii   ncurses-base            6.1+20181013-2+deb10u2       all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-2+deb10u2       amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
-ii   netbase                 5.6                          all    Basic TCP/IP networking system
 ii   openssh-client          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.9p1-10+deb10u2           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines

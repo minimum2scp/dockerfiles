@@ -39,9 +39,9 @@ ii   gpgv                    2.2.12-1+deb10u1        amd64  GNU privacy guard - 
 ii   grep                    3.3-1                   amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.9-3                   amd64  GNU compression utilities
 ii   hostname                3.21                    amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-7               amd64  ICMP echo tool
 ii   init-system-helpers     1.56+nmu1               all    helper tools for all init systems
 ii   iproute2                4.20.0-2                amd64  networking and traffic control tools
+ii   iputils-ping            3:20180629-2+deb10u1    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-4                amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2.1                 amd64  package management runtime library
 ii   libattr1                1:2.4.48-4              amd64  extended attribute handling - shared library
@@ -67,7 +67,6 @@ ii   libgmp10                2:6.1.2+dfsg-4          amd64  Multiprecision arith
 ii   libgnutls30             3.6.7-4+deb10u5         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                  amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1                 amd64  low level cryptographic library (public-key cryptos)
-ii   libidn11                1.33-2.2                amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               2.0.5-1+deb10u1         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.3-1                 amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                 amd64  XZ-format compression library
@@ -102,7 +101,6 @@ ii   mawk                    1.3.3-17+b3             amd64  a pattern scanning a
 ii   mount                   2.33.1-0.1              amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.1+20181013-2+deb10u2  all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-2+deb10u2  amd64  terminal-related programs and man pages
-ii   netbase                 5.6                     all    Basic TCP/IP networking system
 ii   passwd                  1:4.5-1.1               amd64  change and administer password and group data
 ii   perl-base               5.28.1-6+deb10u1        amd64  minimal Perl system
 ii   sed                     4.7-1                   amd64  GNU stream editor for filtering/transforming text

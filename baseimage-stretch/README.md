@@ -90,11 +90,11 @@ ii   grep                    2.27-2                             amd64  GNU grep,
 ii   groff-base              1.22.3-9                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.6-5+b1                           amd64  GNU compression utilities
 ii   hostname                3.18+b1                            amd64  utility to set/show the host name or domain name
-ii   inetutils-ping          2:1.9.4-2+b1                       amd64  ICMP echo tool
 ii   init-system-helpers     1.48                               all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.14.0-5.4+b1                      amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.9.0-1+deb9u1                     amd64  networking and traffic control tools
+ii   iputils-ping            3:20161105-1                       amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.52-3+b1                        amd64  Access control list shared library
 ii   libapt-pkg5.0           1.4.10                             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                      amd64  Extended attribute shared library
@@ -200,7 +200,6 @@ ii   multiarch-support       2.24-11+deb9u4                     amd64  Transitio
 ii   ncurses-base            6.0+20161126-1+deb9u2              all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1+deb9u2              amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20161116.90da8a0-1         amd64  NET-3 networking toolkit
-ii   netbase                 5.4                                all    Basic TCP/IP networking system
 ii   openssh-client          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
