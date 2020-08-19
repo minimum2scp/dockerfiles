@@ -24,7 +24,7 @@ desc 'run mkimage.sh'
 task :mkimage  do
   tag_option = ENV['TAG'] ? "-t #{ENV['TAG']}" : ''
   debootstrap_options = %w[
-    --arch=amd64 --variant=minbase --components=main --include=iproute2,inetutils-ping --no-merged-usr
+    --arch=amd64 --variant=minbase --components=main --include=iproute2,iputils-ping --no-merged-usr
   ]
   debootstrap_options << "--cache-dir=#{ENV['DEBOOTSTRAP_CACHE_DIR']}" if ENV['DEBOOTSTRAP_CACHE_DIR']
   debootstrap_options << 'buster' << 'http://ftp.jp.debian.org/debian'
