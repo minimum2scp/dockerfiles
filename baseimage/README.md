@@ -75,7 +75,7 @@ ii   curl                    7.68.0-1+b1                     amd64  command line
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.11                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             4.11.1                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                         amd64  File comparison utilities
 ii   dpkg                    1.20.5                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
