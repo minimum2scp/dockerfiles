@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.18.1-5",
+    "Version": "1.18.1-5.1",
     "binary:Package": "libgdbm-compat4:amd64",
     "binary:Summary": "GNU dbm database routines (legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.18.1-5"
+    "source:Version": "1.18.1-5.1"
   },
   {
     "Architecture": "amd64",
@@ -1948,8 +1948,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.18.1-5)",
-    "Version": "1.18.1-5",
+    "Suggests": "gdbm-l10n (= 1.18.1-5.1)",
+    "Version": "1.18.1-5.1",
     "binary:Package": "libgdbm6:amd64",
     "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.18.1-5"
+    "source:Version": "1.18.1-5.1"
   },
   {
     "Architecture": "amd64",

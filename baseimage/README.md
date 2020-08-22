@@ -128,8 +128,8 @@ ii   libffi7                 3.3-4                           amd64  Foreign Func
 ii   libfido2-1              1.4.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.0-5                        amd64  GCC support library
 ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18.1-5                        amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18.1-5                        amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.14-2+b1                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
