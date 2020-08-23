@@ -94,7 +94,7 @@ ii   init-system-helpers     1.58                            all    helper tools
 ii   initscripts             2.96-4                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.8.0-1                         amd64  networking and traffic control tools
-ii   iputils-ping            3:20190709-3                    amd64  Tools to test the reachability of network hosts
+ii   iputils-ping            3:20200821-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
