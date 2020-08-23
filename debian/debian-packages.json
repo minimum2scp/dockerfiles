@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcap2-bin, libc6 (>= 2.14), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.8.0)",
+    "Depends": "libcap2-bin, libc6 (>= 2.25), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "105",
+    "Installed-Size": "109",
     "Origin": "",
     "Package": "iputils-ping",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3:20190709-3",
+    "Version": "3:20200821-1",
     "binary:Package": "iputils-ping",
     "binary:Summary": "Tools to test the reachability of network hosts",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iputils",
-    "source:Version": "3:20190709-3"
+    "source:Version": "3:20200821-1"
   },
   {
     "Architecture": "amd64",
