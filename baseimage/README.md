@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                         amd64  high-quality
 ii   ca-certificates         20200601                        all    Common CA certificates
 ii   coreutils               8.32-3                          amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
-ii   curl                    7.68.0-1+b1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.72.0-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
@@ -94,7 +94,7 @@ ii   init-system-helpers     1.58                            all    helper tools
 ii   initscripts             2.96-4                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.8.0-1                         amd64  networking and traffic control tools
-ii   iputils-ping            3:20200821-1                    amd64  Tools to test the reachability of network hosts
+ii   iputils-ping            3:20200821-2                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
@@ -108,13 +108,13 @@ ii   libc-bin                2.31-3                          amd64  GNU C Librar
 ii   libc-l10n               2.31-3                          all    GNU C Library: localization files
 ii   libc6                   2.31-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2                       amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.42-2                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.42-2                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.43-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.43-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.6-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.16-1                      amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.68.0-1+b1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.68.0-1+b1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.72.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.72.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.253                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
@@ -152,7 +152,7 @@ ii   libncursesw6            6.2-1                           amd64  shared libra
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libp11-kit0             0.23.20-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.21-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
