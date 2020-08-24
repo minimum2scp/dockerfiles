@@ -41,7 +41,7 @@ ii   gzip                    1.10-2            amd64  GNU compression utilities
 ii   hostname                3.23              amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.58              all    helper tools for all init systems
 ii   iproute2                5.8.0-1           amd64  networking and traffic control tools
-ii   iputils-ping            3:20200821-1      amd64  Tools to test the reachability of network hosts
+ii   iputils-ping            3:20200821-2      amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8          amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10            amd64  package management runtime library
 ii   libattr1                1:2.4.48-5        amd64  extended attribute handling - shared library
@@ -53,8 +53,8 @@ ii   libbz2-1.0              1.0.8-4           amd64  high-quality block-sorting
 ii   libc-bin                2.31-3            amd64  GNU C Library: Binaries
 ii   libc6                   2.31-3            amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2         amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.42-2          amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.42-2          amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.43-1          amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.43-1          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.6-1          amd64  common error description library
 ii   libcrypt1               1:4.4.16-1        amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -74,7 +74,7 @@ ii   liblzma5                5.2.4-1+b1        amd64  XZ-format compression libr
 ii   libmnl0                 1.0.4-3           amd64  minimalistic Netlink communication library
 ii   libmount1               2.36-2            amd64  device mounting library
 ii   libnettle8              3.6-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.23.20-1         amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.23.21-2         amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5           amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5           all    Runtime support for the PAM library

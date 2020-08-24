@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcap2-bin, libc6 (>= 2.25), libcap2 (>= 1:2.10)",
+    "Depends": "libcap2-bin, libc6 (>= 2.25), libcap2 (>= 1:2.10), libidn2-0 (>= 0.6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "109",
+    "Installed-Size": "113",
     "Origin": "",
     "Package": "iputils-ping",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3:20200821-1",
+    "Version": "3:20200821-2",
     "binary:Package": "iputils-ping",
     "binary:Summary": "Tools to test the reachability of network hosts",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iputils",
-    "source:Version": "3:20200821-1"
+    "source:Version": "3:20200821-2"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.42-2",
+    "Version": "1:2.43-1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.42-2"
+    "source:Version": "1:2.43-1"
   },
   {
     "Architecture": "amd64",
@@ -1025,7 +1025,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.42-2",
+    "Version": "1:2.43-1",
     "binary:Package": "libcap2-bin",
     "binary:Summary": "POSIX 1003.1e capabilities (utilities)",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.42-2"
+    "source:Version": "1:2.43-1"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.26), libffi7 (>= 3.3~20180313)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1375",
+    "Installed-Size": "1396",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.23.20-1",
+    "Version": "0.23.21-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.23.20-1"
+    "source:Version": "0.23.21-2"
   },
   {
     "Architecture": "amd64",
