@@ -112,7 +112,7 @@ ii   libcap2                 1:2.43-1                        amd64  POSIX 1003.1
 ii   libcap2-bin             1:2.43-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.6-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.16-1                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.72.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.72.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -191,7 +191,7 @@ ii   libudev1                246.2-1                         amd64  libudev shar
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-2                          amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.5-2                         amd64  netfilter xtables library
+ii   libxtables12            1.8.5-3                         amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-3                          all    GNU C Library: National Language (locale) data [support]
