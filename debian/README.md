@@ -56,7 +56,7 @@ ii   libcap-ng0              0.7.9-2.2         amd64  An alternate POSIX capabil
 ii   libcap2                 1:2.43-1          amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.43-1          amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.6-1          amd64  common error description library
-ii   libcrypt1               1:4.4.16-1        amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.17-1        amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.253             amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.180-1+b1        amd64  library to read and write ELF files
@@ -95,7 +95,7 @@ ii   libtinfo6               6.2-1             amd64  shared low-level terminfo 
 ii   libudev1                246.2-1           amd64  libudev shared library
 ii   libunistring2           0.9.10-4          amd64  Unicode string library for C
 ii   libuuid1                2.36-2            amd64  Universally Unique ID library
-ii   libxtables12            1.8.5-2           amd64  netfilter xtables library
+ii   libxtables12            1.8.5-3           amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-4      amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1         amd64  system login tools
 ii   logsave                 1.45.6-1          amd64  save the output of a command in a log file
