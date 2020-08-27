@@ -160,8 +160,8 @@ ii   libpopt0                1.16-10+b2                         amd64  lib for p
 ii   libprocps6              2:3.3.12-3+deb9u1                  amd64  library for accessing process information from /proc
 ii   libpsl5                 0.17.0-3                           amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.13-2                           amd64  interactive high-level object-oriented language (default python version)
-ii   libpython2.7-minimal    2.7.13-2+deb9u3                    amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.13-2+deb9u3                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.13-2+deb9u4                    amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.13-2+deb9u4                    amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-3                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-1+b1     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27~101-g0780600+dfsg-3+deb9u1  amd64  Cyrus SASL - authentication abstraction library
@@ -172,7 +172,7 @@ ii   libsemanage1            2.6-2                              amd64  SELinux p
 ii   libsepol1               2.6-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1+deb9u1                    amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-5+deb9u1                    amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.16.2-5+deb9u2                    amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2u-1~deb9u1                    amd64  Secure Sockets Layer toolkit - shared libraries
@@ -211,8 +211,8 @@ ii   perl-modules-5.24       5.24.1-3+deb9u7                    all    Core Perl
 ii   procps                  2:3.3.12-3+deb9u1                  amd64  /proc file system utilities
 ii   python                  2.7.13-2                           amd64  interactive high-level object-oriented language (default version)
 ii   python-minimal          2.7.13-2                           amd64  minimal subset of the Python language (default version)
-ii   python2.7               2.7.13-2+deb9u3                    amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.13-2+deb9u3                    amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.13-2+deb9u4                    amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.13-2+deb9u4                    amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                              all    GNU readline and history libraries, common files
 ii   rsyslog                 8.24.0-1                           amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                              amd64  GNU stream editor for filtering/transforming text
