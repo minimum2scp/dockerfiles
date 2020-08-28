@@ -6,7 +6,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 ## packages: ruby2.5, and build tools
 packages="ruby ruby-dev bundler rake pry"
-packages="$packages build-essential autoconf bison ca-certificates libgdbm-dev libncursesw5-dev libncurses5-dev libreadline-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev"
+packages="$packages build-essential autoconf bison ca-certificates libgdbm-dev libncurses-dev libreadline-dev tcl-dev tk-dev zlib1g-dev libssl-dev libffi-dev libyaml-dev libgmp-dev"
 packages="$packages gem2deb"
 
 ## install packages
