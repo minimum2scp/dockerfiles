@@ -48,7 +48,6 @@ I: Validating gzip 1.10-2
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.58
 I: Validating iproute2 5.8.0-1
-I: Retrieving libxtables12 1.8.5-3
 I: Validating libxtables12 1.8.5-3
 I: Validating iputils-ping 3:20200821-2
 I: Validating libbsd0 0.10.0-1
@@ -67,7 +66,6 @@ I: Validating libsemanage1 3.1-1
 I: Validating libsepol1 3.1-1
 I: Validating libtasn1-6 4.16.0-2
 I: Validating libunistring2 0.9.10-4
-I: Retrieving libcrypt1 1:4.4.17-1
 I: Validating libcrypt1 1:4.4.17-1
 I: Validating libzstd1 1.4.5+dfsg-4
 I: Validating lsb-base 11.1.0
@@ -94,13 +92,20 @@ I: Validating libudev1 246.2-1
 I: Validating sysvinit-utils 2.96-4
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Validating bsdutils 1:2.36-2
-I: Validating libblkid1 2.36-2
-I: Validating libmount1 2.36-2
-I: Validating libsmartcols1 2.36-2
-I: Validating libuuid1 2.36-2
-I: Validating mount 2.36-2
-I: Validating util-linux 2.36-2
+I: Retrieving bsdutils 1:2.36-3
+I: Validating bsdutils 1:2.36-3
+I: Retrieving libblkid1 2.36-3
+I: Validating libblkid1 2.36-3
+I: Retrieving libmount1 2.36-3
+I: Validating libmount1 2.36-3
+I: Retrieving libsmartcols1 2.36-3
+I: Validating libsmartcols1 2.36-3
+I: Retrieving libuuid1 2.36-3
+I: Validating libuuid1 2.36-3
+I: Retrieving mount 2.36-3
+I: Validating mount 2.36-3
+I: Retrieving util-linux 2.36-3
+I: Validating util-linux 2.36-3
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -397,10 +402,10 @@ Sending build context to Docker daemon  31.61MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f01b3eb4893b
+ ---> 1a520e52f515
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c25e2aaca0a7
-Removing intermediate container c25e2aaca0a7
- ---> 461beed7038e
-Successfully built 461beed7038e
+ ---> Running in 2e64afac29e6
+Removing intermediate container 2e64afac29e6
+ ---> e18c10bae0ab
+Successfully built e18c10bae0ab
 Successfully tagged minimum2scp/debian:latest
