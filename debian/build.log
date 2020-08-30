@@ -87,24 +87,19 @@ I: Validating perl-base 5.30.3-4
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Validating libsystemd0 246.2-1
-I: Validating libudev1 246.2-1
+I: Retrieving libsystemd0 246.3-1
+I: Validating libsystemd0 246.3-1
+I: Retrieving libudev1 246.3-1
+I: Validating libudev1 246.3-1
 I: Validating sysvinit-utils 2.96-4
 I: Validating tar 1.30+dfsg-7
 I: Validating tzdata 2020a-1
-I: Retrieving bsdutils 1:2.36-3
 I: Validating bsdutils 1:2.36-3
-I: Retrieving libblkid1 2.36-3
 I: Validating libblkid1 2.36-3
-I: Retrieving libmount1 2.36-3
 I: Validating libmount1 2.36-3
-I: Retrieving libsmartcols1 2.36-3
 I: Validating libsmartcols1 2.36-3
-I: Retrieving libuuid1 2.36-3
 I: Validating libuuid1 2.36-3
-I: Retrieving mount 2.36-3
 I: Validating mount 2.36-3
-I: Retrieving util-linux 2.36-3
 I: Validating util-linux 2.36-3
 I: Validating liblzma5 5.2.4-1+b1
 I: Validating zlib1g 1:1.2.11.dfsg-2
@@ -402,10 +397,10 @@ Sending build context to Docker daemon  31.61MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1a520e52f515
+ ---> 61aadf1e9871
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2e64afac29e6
-Removing intermediate container 2e64afac29e6
- ---> e18c10bae0ab
-Successfully built e18c10bae0ab
+ ---> Running in b141199931a2
+Removing intermediate container b141199931a2
+ ---> a979631889af
+Successfully built a979631889af
 Successfully tagged minimum2scp/debian:latest
