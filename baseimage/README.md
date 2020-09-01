@@ -81,7 +81,7 @@ ii   dpkg                    1.20.5                          amd64  Debian packa
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.0-5                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.0-6                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-17                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.28.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.28.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -126,7 +126,7 @@ ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.4.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10.2.0-5                        amd64  GCC support library
+ii   libgcc-s1               10.2.0-6                        amd64  GCC support library
 ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
@@ -181,7 +181,7 @@ ii   libsqlite3-0            3.33.0-1                        amd64  SQLite 3 sha
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.0-5                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10.2.0-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             246.3-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
@@ -219,7 +219,7 @@ ii   python3-minimal         3.8.2-3                         amd64  minimal subs
 ii   python3.8               3.8.5-2                         amd64  Interactive high-level object-oriented language (version 3.8)
 ii   python3.8-minimal       3.8.5-2                         amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2006.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2008.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.9.0                           all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
