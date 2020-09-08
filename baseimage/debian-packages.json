@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.9-1",
+    "Version": "1.0.9-2",
     "binary:Package": "libbrotli1:amd64",
     "binary:Summary": "library implementing brotli encoder and decoder (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "brotli",
-    "source:Version": "1.0.9-1"
+    "source:Version": "1.0.9-2"
   },
   {
     "Architecture": "amd64",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.51+dfsg-1",
+    "Version": "2.4.53+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.51+dfsg-1"
+    "source:Version": "2.4.53+dfsg-1"
   },
   {
     "Architecture": "amd64",
