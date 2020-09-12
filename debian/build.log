@@ -7,141 +7,91 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving libacl1 2.2.53-8
 I: Validating libacl1 2.2.53-8
-I: Retrieving adduser 3.118
 I: Validating adduser 3.118
 I: Validating apt 2.1.10
 I: Validating libapt-pkg6.0 2.1.10
-I: Retrieving libattr1 1:2.4.48-5
 I: Validating libattr1 1:2.4.48-5
-I: Retrieving libaudit-common 1:2.8.5-3
 I: Validating libaudit-common 1:2.8.5-3
-I: Retrieving libaudit1 1:2.8.5-3+b1
 I: Validating libaudit1 1:2.8.5-3+b1
-I: Retrieving base-files 11
 I: Validating base-files 11
-I: Retrieving base-passwd 3.5.47
 I: Validating base-passwd 3.5.47
 I: Validating bash 5.0-7
 I: Validating libbz2-1.0 1.0.8-4
 I: Validating libdebconfclient0 0.253
 I: Validating coreutils 8.32-3
-I: Retrieving dash 0.5.10.2-7
 I: Validating dash 0.5.10.2-7
-I: Retrieving libdb5.3 5.3.28+dfsg1-0.6
 I: Validating libdb5.3 5.3.28+dfsg1-0.6
-I: Retrieving debconf 1.5.74
 I: Validating debconf 1.5.74
-I: Retrieving debian-archive-keyring 2019.1
 I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.11.1
-I: Retrieving diffutils 1:3.7-3
 I: Validating diffutils 1:3.7-3
 I: Validating dpkg 1.20.5
-I: Retrieving e2fsprogs 1.45.6-1
 I: Validating e2fsprogs 1.45.6-1
-I: Retrieving libcom-err2 1.45.6-1
 I: Validating libcom-err2 1.45.6-1
-I: Retrieving libext2fs2 1.45.6-1
 I: Validating libext2fs2 1.45.6-1
-I: Retrieving libss2 1.45.6-1
 I: Validating libss2 1.45.6-1
-I: Retrieving logsave 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.180-1+b1
-I: Retrieving findutils 4.7.0-1
 I: Validating findutils 4.7.0-1
-I: Retrieving gcc-10-base 10.2.0-7
 I: Validating gcc-10-base 10.2.0-7
-I: Retrieving libgcc-s1 10.2.0-7
 I: Validating libgcc-s1 10.2.0-7
-I: Retrieving libstdc++6 10.2.0-7
 I: Validating libstdc++6 10.2.0-7
-I: Validating gcc-9-base 9.3.0-17
+I: Retrieving gcc-9-base 9.3.0-18
+I: Validating gcc-9-base 9.3.0-18
 I: Validating libc-bin 2.31-3
 I: Validating libc6 2.31-3
 I: Validating libgmp10 2:6.2.0+dfsg-6
-I: Retrieving gpgv 2.2.20-1
 I: Validating gpgv 2.2.20-1
 I: Validating libgnutls30 3.6.15-1
-I: Retrieving grep 3.4-1
 I: Validating grep 3.4-1
-I: Retrieving gzip 1.10-2
 I: Validating gzip 1.10-2
-I: Retrieving hostname 3.23
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.58
 I: Validating iproute2 5.8.0-1
 I: Validating libxtables12 1.8.5-3
 I: Validating iputils-ping 3:20200821-2
-I: Retrieving libbsd0 0.10.0-1
 I: Validating libbsd0 0.10.0-1
-I: Retrieving libcap-ng0 0.7.9-2.2
 I: Validating libcap-ng0 0.7.9-2.2
 I: Validating libcap2 1:2.43-1
 I: Validating libcap2-bin 1:2.43-1
-I: Retrieving libffi7 3.3-4
 I: Validating libffi7 3.3-4
 I: Validating libgcrypt20 1.8.6-2
 I: Validating libgpg-error0 1.38-2
-I: Retrieving libidn2-0 2.3.0-1
 I: Validating libidn2-0 2.3.0-1
-I: Retrieving libmnl0 1.0.4-3
 I: Validating libmnl0 1.0.4-3
-I: Retrieving libseccomp2 2.4.3-1+b1
 I: Validating libseccomp2 2.4.3-1+b1
 I: Validating libselinux1 3.1-2
 I: Validating libsemanage-common 3.1-1
 I: Validating libsemanage1 3.1-1
 I: Validating libsepol1 3.1-1
-I: Retrieving libtasn1-6 4.16.0-2
 I: Validating libtasn1-6 4.16.0-2
-I: Retrieving libunistring2 0.9.10-4
 I: Validating libunistring2 0.9.10-4
 I: Validating libcrypt1 1:4.4.17-1
 I: Validating libzstd1 1.4.5+dfsg-4
-I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
-I: Retrieving liblz4-1 1.9.2-2
 I: Validating liblz4-1 1.9.2-2
-I: Retrieving mawk 1.3.4.20200120-2
 I: Validating mawk 1.3.4.20200120-2
-I: Retrieving libtinfo6 6.2-1
 I: Validating libtinfo6 6.2-1
-I: Retrieving ncurses-base 6.2-1
 I: Validating ncurses-base 6.2-1
-I: Retrieving ncurses-bin 6.2-1
 I: Validating ncurses-bin 6.2-1
 I: Validating libhogweed6 3.6-2
 I: Validating libnettle8 3.6-2
 I: Validating libp11-kit0 0.23.21-2
-I: Retrieving libpam-modules 1.3.1-5
 I: Validating libpam-modules 1.3.1-5
-I: Retrieving libpam-modules-bin 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
-I: Retrieving libpam-runtime 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
-I: Retrieving libpam0g 1.3.1-5
 I: Validating libpam0g 1.3.1-5
-I: Retrieving libpcre2-8-0 10.34-7
 I: Validating libpcre2-8-0 10.34-7
 I: Validating libpcre3 2:8.39-13
-I: Retrieving perl-base 5.30.3-4
 I: Validating perl-base 5.30.3-4
-I: Retrieving sed 4.7-1
 I: Validating sed 4.7-1
-I: Retrieving login 1:4.8.1-1
 I: Validating login 1:4.8.1-1
-I: Retrieving passwd 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
 I: Validating libsystemd0 246.4-1
 I: Validating libudev1 246.4-1
-I: Retrieving sysvinit-utils 2.96-5
 I: Validating sysvinit-utils 2.96-5
-I: Retrieving tar 1.30+dfsg-7
 I: Validating tar 1.30+dfsg-7
-I: Retrieving tzdata 2020a-1
 I: Validating tzdata 2020a-1
 I: Validating bsdutils 1:2.36-3
 I: Validating libblkid1 2.36-3
@@ -150,9 +100,7 @@ I: Validating libsmartcols1 2.36-3
 I: Validating libuuid1 2.36-3
 I: Validating mount 2.36-3
 I: Validating util-linux 2.36-3
-I: Retrieving liblzma5 5.2.4-1+b1
 I: Validating liblzma5 5.2.4-1+b1
-I: Retrieving zlib1g 1:1.2.11.dfsg-2
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
@@ -444,14 +392,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.66MB
+Sending build context to Docker daemon  31.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1945e8ccc2bd
+ ---> d5bd69c5375c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3379c934bcb1
-Removing intermediate container 3379c934bcb1
- ---> 7f7b1a351845
-Successfully built 7f7b1a351845
+ ---> Running in 0389d9ced2c4
+Removing intermediate container 0389d9ced2c4
+ ---> 138d75cf1f72
+Successfully built 138d75cf1f72
 Successfully tagged minimum2scp/debian:latest
