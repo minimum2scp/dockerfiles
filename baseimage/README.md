@@ -118,7 +118,7 @@ ii   libcurl4                7.72.0-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.253                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
-ii   libelf1                 0.180-1+b1                      amd64  library to read and write ELF files
+ii   libelf1                 0.181-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.9-1                         amd64  XML parsing C library - runtime library
@@ -131,7 +131,7 @@ ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.15-2                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.15-3                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-10                         amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                           amd64  low level cryptographic library (public-key cryptos)
@@ -164,8 +164,8 @@ ii   libpopt0                1.18-1                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.8-minimal    3.8.6~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
-ii   libpython3.8-stdlib     3.8.6~rc1-1                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
+ii   libpython3.8-minimal    3.8.6~rc1-2                     amd64  Minimal subset of the Python language (version 3.8)
+ii   libpython3.8-stdlib     3.8.6~rc1-2                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
 ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -216,8 +216,8 @@ ii   perl-modules-5.30       5.30.3-4                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.8               3.8.6~rc1-1                     amd64  Interactive high-level object-oriented language (version 3.8)
-ii   python3.8-minimal       3.8.6~rc1-1                     amd64  Minimal subset of the Python language (version 3.8)
+ii   python3.8               3.8.6~rc1-2                     amd64  Interactive high-level object-oriented language (version 3.8)
+ii   python3.8-minimal       3.8.6~rc1-2                     amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2008.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.9.0                           all    dh-runit implementation detail
