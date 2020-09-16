@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "962",
+    "Installed-Size": "961",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.180-1+b1",
+    "Version": "0.181-1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.180-1"
+    "source:Version": "0.181-1"
   },
   {
     "Architecture": "amd64",
@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.15-2",
+    "Version": "3.6.15-3",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.15-2"
+    "source:Version": "3.6.15-3"
   },
   {
     "Architecture": "amd64",
