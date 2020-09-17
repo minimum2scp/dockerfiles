@@ -131,7 +131,7 @@ ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.15-3                        amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.15-4                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-10                         amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                           amd64  low level cryptographic library (public-key cryptos)
