@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "531",
+    "Installed-Size": "535",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2-1",
+    "Version": "6.2+20200912-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2-1"
+    "source:Version": "6.2+20200912-1"
   },
   {
     "Architecture": "amd64",
@@ -2358,7 +2358,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "380",
+    "Installed-Size": "384",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2-1",
+    "Version": "6.2+20200912-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2-1"
+    "source:Version": "6.2+20200912-1"
   },
   {
     "Architecture": "amd64",
@@ -2386,10 +2386,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "636",
+    "Installed-Size": "640",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.2)",
+    "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.2+20200912), libtinfo6 (<< 6.3~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2397,7 +2397,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2-1",
+    "Version": "6.2+20200912-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2-1"
+    "source:Version": "6.2+20200912-1"
   },
   {
     "Architecture": "amd64",
