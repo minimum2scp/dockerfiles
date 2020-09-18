@@ -146,8 +146,8 @@ ii   liblz4-1                1.9.2-2                         amd64  Fast LZ comp
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36-3                          amd64  device mounting library
-ii   libncurses6             6.2-1                           amd64  shared libraries for terminal handling
-ii   libncursesw6            6.2-1                           amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.2+20200912-1                  amd64  shared libraries for terminal handling
+ii   libncursesw6            6.2+20200912-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -184,7 +184,7 @@ ii   libssl1.1               1.1.1g-1                        amd64  Secure Socke
 ii   libstdc++6              10.2.0-8                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             246.5-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2-1                           amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2+20200912-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                246.5-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
@@ -202,8 +202,8 @@ ii   man-db                  2.9.3-2                         amd64  tools for re
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.36-3                          amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2-1                           all    basic terminal type definitions
-ii   ncurses-bin             6.2-1                           amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2+20200912-1                  all    basic terminal type definitions
+ii   ncurses-bin             6.2+20200912-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1      amd64  NET-3 networking toolkit
 ii   openssh-client          1:8.3p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.3p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
