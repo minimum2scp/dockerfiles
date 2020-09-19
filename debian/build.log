@@ -34,9 +34,12 @@ I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.181-1
 I: Validating findutils 4.7.0-1
-I: Validating gcc-10-base 10.2.0-8
-I: Validating libgcc-s1 10.2.0-8
-I: Validating libstdc++6 10.2.0-8
+I: Retrieving gcc-10-base 10.2.0-9
+I: Validating gcc-10-base 10.2.0-9
+I: Retrieving libgcc-s1 10.2.0-9
+I: Validating libgcc-s1 10.2.0-9
+I: Retrieving libstdc++6 10.2.0-9
+I: Validating libstdc++6 10.2.0-9
 I: Validating gcc-9-base 9.3.0-18
 I: Validating libc-bin 2.31-3
 I: Validating libc6 2.31-3
@@ -71,11 +74,8 @@ I: Validating libzstd1 1.4.5+dfsg-4
 I: Validating lsb-base 11.1.0
 I: Validating liblz4-1 1.9.2-2
 I: Validating mawk 1.3.4.20200120-2
-I: Retrieving libtinfo6 6.2+20200912-1
 I: Validating libtinfo6 6.2+20200912-1
-I: Retrieving ncurses-base 6.2+20200912-1
 I: Validating ncurses-base 6.2+20200912-1
-I: Retrieving ncurses-bin 6.2+20200912-1
 I: Validating ncurses-bin 6.2+20200912-1
 I: Validating libhogweed6 3.6-2
 I: Validating libnettle8 3.6-2
@@ -394,14 +394,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.67MB
+Sending build context to Docker daemon  31.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ebef36e2d0a7
+ ---> 6c4d4072d5db
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 64f784030975
-Removing intermediate container 64f784030975
- ---> 21c32a55615d
-Successfully built 21c32a55615d
+ ---> Running in 0a2138cdcbf5
+Removing intermediate container 0a2138cdcbf5
+ ---> d778116495d7
+Successfully built d778116495d7
 Successfully tagged minimum2scp/debian:latest
