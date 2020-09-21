@@ -125,7 +125,7 @@ ii   libexpat1               2.2.9-1                         amd64  XML parsing 
 ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
-ii   libfido2-1              1.4.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.0-9                        amd64  GCC support library
 ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
@@ -170,7 +170,7 @@ ii   libreadline8            8.0-4                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.4.3-1+b1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.4.4-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1                           amd64  SELinux policy management library
