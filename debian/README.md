@@ -24,7 +24,7 @@ ii   base-files              11                amd64  Debian base system miscell
 ii   base-passwd             3.5.47            amd64  Debian base system master password and group files
 ii   bash                    5.0-7             amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36-3          amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.32-3            amd64  GNU core utilities
+ii   coreutils               8.32-4            amd64  GNU core utilities
 ii   dash                    0.5.10.2-7        amd64  POSIX-compliant shell
 ii   debconf                 1.5.74            all    Debian configuration management system
 ii   debian-archive-keyring  2019.1            all    GnuPG archive keys of the Debian archive
@@ -89,10 +89,10 @@ ii   libsepol1               3.1-1             amd64  SELinux library for manipu
 ii   libsmartcols1           2.36-3            amd64  smart column output alignment library
 ii   libss2                  1.45.6-1          amd64  command-line interface parsing library
 ii   libstdc++6              10.2.0-9          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.5-1           amd64  systemd utility library
+ii   libsystemd0             246.6-1           amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1    amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                246.5-1           amd64  libudev shared library
+ii   libudev1                246.6-1           amd64  libudev shared library
 ii   libunistring2           0.9.10-4          amd64  Unicode string library for C
 ii   libuuid1                2.36-3            amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-3           amd64  netfilter xtables library
