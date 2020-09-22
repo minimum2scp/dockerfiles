@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "17256",
+    "Installed-Size": "17477",
     "Origin": "",
     "Package": "coreutils",
     "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libgmp10, libselinux1 (>= 3.1~)",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.32-3",
+    "Version": "8.32-4",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.32-3"
+    "source:Version": "8.32-4"
   },
   {
     "Architecture": "amd64",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "246.5-1",
+    "Version": "246.6-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "246.5-1"
+    "source:Version": "246.6-1"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "246.5-1",
+    "Version": "246.6-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "246.5-1"
+    "source:Version": "246.6-1"
   },
   {
     "Architecture": "amd64",
@@ -4595,10 +4595,10 @@
     "Architecture": "amd64",
     "Conflicts": "sudo-ldap",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.65), libpam-modules, lsb-base",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.0.2), libpam-modules, lsb-base",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4290",
+    "Installed-Size": "4477",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.1-2",
+    "Version": "1.9.3-1",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.1-2"
+    "source:Version": "1.9.3-1"
   },
   {
     "Architecture": "all",

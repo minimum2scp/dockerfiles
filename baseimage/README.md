@@ -69,7 +69,7 @@ ii   bsdextrautils           2.36-3                          amd64  extra utilit
 ii   bsdutils                1:2.36-3                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates         20200601                        all    Common CA certificates
-ii   coreutils               8.32-3                          amd64  GNU core utilities
+ii   coreutils               8.32-4                          amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.72.0-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
@@ -182,11 +182,11 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.0-9                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.5-1                         amd64  systemd utility library
+ii   libsystemd0             246.6-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                246.5-1                         amd64  libudev shared library
+ii   libudev1                246.6-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-3                          amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
@@ -224,7 +224,7 @@ ii   runit-helper            2.9.0                           all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.1-2                         amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.3-1                         amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
