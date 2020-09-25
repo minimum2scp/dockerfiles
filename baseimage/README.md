@@ -164,8 +164,8 @@ ii   libpopt0                1.18-1                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.8-minimal    3.8.6~rc1-2                     amd64  Minimal subset of the Python language (version 3.8)
-ii   libpython3.8-stdlib     3.8.6~rc1-2                     amd64  Interactive high-level object-oriented language (standard library, version 3.8)
+ii   libpython3.8-minimal    3.8.6-1                         amd64  Minimal subset of the Python language (version 3.8)
+ii   libpython3.8-stdlib     3.8.6-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)
 ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -216,15 +216,15 @@ ii   perl-modules-5.30       5.30.3-4                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.2-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.8               3.8.6~rc1-2                     amd64  Interactive high-level object-oriented language (version 3.8)
-ii   python3.8-minimal       3.8.6~rc1-2                     amd64  Minimal subset of the Python language (version 3.8)
+ii   python3.8               3.8.6-1                         amd64  Interactive high-level object-oriented language (version 3.8)
+ii   python3.8-minimal       3.8.6-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2008.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.9.0                           all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.3-1                         amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.3p1-1                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
