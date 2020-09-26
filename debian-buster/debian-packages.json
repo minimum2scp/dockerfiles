@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u5",
+    "Version": "10.3+deb10u6",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u5"
+    "source:Version": "10.3+deb10u6"
   },
   {
     "Architecture": "amd64",
