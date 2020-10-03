@@ -4035,10 +4035,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libselinux1 (>= 1.32)",
+    "Depends": "libc6 (>= 2.14), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "979",
+    "Installed-Size": "991",
     "Origin": "",
     "Package": "net-tools",
     "Pre-Depends": "",
@@ -4049,7 +4049,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.60+git20180626.aebd88e-1",
+    "Version": "1.60+git20181103.0eebece-1",
     "binary:Package": "net-tools",
     "binary:Summary": "NET-3 networking toolkit",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "net-tools",
-    "source:Version": "1.60+git20180626.aebd88e-1"
+    "source:Version": "1.60+git20181103.0eebece-1"
   },
   {
     "Architecture": "amd64",
