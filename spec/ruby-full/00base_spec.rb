@@ -23,8 +23,8 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '2.7.1',
-        desc: 'ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]',
+        ruby: '2.7.2',
+        desc: 'ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux]',
         rubygems_version: '3.1.4',
         gems: [
           {name: 'bundler', version: 'default: 2.1.4, 1.17.3'},
