@@ -99,6 +99,26 @@ describe 'minimum2scp/rails6' do
         end
     end
 
+    describe command('nodenv alias') do
+      let(:login_shell){ true }
+      its(:stdout){
+        should eq <<~ALIASES
+          14 => 14.13.1
+          14.13 => 14.13.1
+        ALIASES
+      }
+    end
+
+    {
+      '14' => '14.13.1',
+      '14.13' => '14.13.1',
+    }.each do |src, dest|
+      describe file("/opt/nodenv/versions/#{src}") do
+        it { should be_symlink }
+        it { should be_linked_to dest }
+      end
+    end
+
     describe 'yarn' do
       describe package('yarn') do
         it { should be_installed.by('apt') }
