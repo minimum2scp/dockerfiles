@@ -63,7 +63,7 @@ describe 'minimum2scp/tdiary' do
       describe command('cd /home/debian/go/src/github.com/tdiary/tdiary-core && bundle check') do
         let(:login_shell){ true }
         its(:exit_status){ should eq 0 }
-        its(:stdout){ should match a_string_ending_with("The Gemfile's dependencies are satisfied\n") }
+        its(:stdout){ should end_with("The Gemfile's dependencies are satisfied\n") }
       end
 
       describe file("/home/debian/go/src/github.com/tdiary/tdiary-core/tdiary.conf") do
