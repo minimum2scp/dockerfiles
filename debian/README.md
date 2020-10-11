@@ -50,8 +50,8 @@ ii   libaudit1               1:2.8.5-3+b1      amd64  Dynamic library for securi
 ii   libblkid1               2.36-3+b1         amd64  block device ID library
 ii   libbsd0                 0.10.0-1          amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4           amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-3            amd64  GNU C Library: Binaries
-ii   libc6                   2.31-3            amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-4            amd64  GNU C Library: Binaries
+ii   libc6                   2.31-4            amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.43-1          amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.43-1          amd64  POSIX 1003.1e capabilities (utilities)
@@ -74,6 +74,8 @@ ii   liblzma5                5.2.4-1+b1        amd64  XZ-format compression libr
 ii   libmnl0                 1.0.4-3           amd64  minimalistic Netlink communication library
 ii   libmount1               2.36-3+b1         amd64  device mounting library
 ii   libnettle8              3.6-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnss-nis              3.1-3             amd64  NSS module for using NIS as a naming service
+ii   libnss-nisplus          1.3-3             amd64  NSS module for using NIS+ as a naming service
 ii   libp11-kit0             0.23.21-2         amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5           amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5           amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -109,7 +111,7 @@ ii   perl-base               5.30.3-4          amd64  minimal Perl system
 ii   sed                     4.7-1             amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-5            amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7       amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020a-1           all    time zone and daylight-saving time data
+ii   tzdata                  2020b-1           all    time zone and daylight-saving time data
 ii   util-linux              2.36-3+b1         amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2   amd64  compression library - runtime
 ```
