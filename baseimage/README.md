@@ -104,9 +104,9 @@ ii   libblkid1               2.36-3+b1                       amd64  block device
 ii   libbrotli1              1.0.9-2                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-3                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-3                          all    GNU C Library: localization files
-ii   libc6                   2.31-3                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-4                          all    GNU C Library: localization files
+ii   libc6                   2.31-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.43-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.43-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -151,6 +151,8 @@ ii   libncursesw6            6.2+20200918-1                  amd64  shared libra
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnss-nis              3.1-3                           amd64  NSS module for using NIS as a naming service
+ii   libnss-nisplus          1.3-3                           amd64  NSS module for using NIS+ as a naming service
 ii   libp11-kit0             0.23.21-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -180,7 +182,7 @@ ii   libsmartcols1           2.36-3+b1                       amd64  smart column
 ii   libsqlite3-0            3.33.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1g-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.0-13                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0             246.6-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -193,7 +195,7 @@ ii   libwrap0                7.6.q-30                        amd64  Wietse Venem
 ii   libxtables12            1.8.5-3                         amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-3                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
@@ -208,7 +210,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.3p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.3p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.3p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1g-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1h-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.3-4                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.30.3-4                        amd64  minimal Perl system
@@ -229,7 +231,7 @@ ii   sysv-rc                 2.96-5                          all    System-V-lik
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-7                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020a-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2020b-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.36-3+b1                       amd64  miscellaneous system utilities
