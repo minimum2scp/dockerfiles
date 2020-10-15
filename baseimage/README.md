@@ -98,8 +98,8 @@ ii   iputils-ping            3:20200821-2                    amd64  Tools to tes
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.5-3                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-3+b1                    amd64  Dynamic library for security auditing
+ii   libaudit-common         1:2.8.5-3.1                     all    Dynamic library for security auditing - common files
+ii   libaudit1               1:2.8.5-3.1                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.36-3+b1                       amd64  block device ID library
 ii   libbrotli1              1.0.9-2+b1                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
@@ -108,8 +108,8 @@ ii   libc-bin                2.31-4                          amd64  GNU C Librar
 ii   libc-l10n               2.31-4                          all    GNU C Library: localization files
 ii   libc6                   2.31-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2                       amd64  An alternate POSIX capabilities library
-ii   libcap2                 1:2.43-1                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.43-1                        amd64  POSIX 1003.1e capabilities (utilities)
+ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.45.6-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
