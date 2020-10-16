@@ -64,7 +64,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     2.1.10                          amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                          amd64  Debian base system master password and group files
-ii   bash                    5.0-7                           amd64  GNU Bourne Again SHell
+ii   bash                    5.1~rc1-2                       amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36-3+b1                       amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.36-3+b1                     amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
@@ -175,7 +175,7 @@ ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL -
 ii   libseccomp2             2.4.4-1+b1                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.1-1                           amd64  SELinux policy management library
+ii   libsemanage1            3.1-1+b1                        amd64  SELinux policy management library
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36-3+b1                       amd64  smart column output alignment library
@@ -184,11 +184,11 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.0-15                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.6-1                         amd64  systemd utility library
+ii   libsystemd0             246.6-2                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                246.6-1                         amd64  libudev shared library
+ii   libudev1                246.6-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-3+b1                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
