@@ -22,7 +22,7 @@ ii   adduser                 3.118             all    add and remove users and g
 ii   apt                     2.1.10            amd64  commandline package manager
 ii   base-files              11                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48            amd64  Debian base system master password and group files
-ii   bash                    5.0-7             amd64  GNU Bourne Again SHell
+ii   bash                    5.1~rc1-2         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36-3+b1       amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1         amd64  GNU core utilities
 ii   dash                    0.5.10.2-7        amd64  POSIX-compliant shell
@@ -86,15 +86,15 @@ ii   libpcre3                2:8.39-13         amd64  Old Perl 5 Compatible Regu
 ii   libseccomp2             2.4.4-1+b1        amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2+b1          amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1             all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.1-1             amd64  SELinux policy management library
+ii   libsemanage1            3.1-1+b1          amd64  SELinux policy management library
 ii   libsepol1               3.1-1             amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.36-3+b1         amd64  smart column output alignment library
 ii   libss2                  1.45.6-1          amd64  command-line interface parsing library
 ii   libstdc++6              10.2.0-15         amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.6-1           amd64  systemd utility library
+ii   libsystemd0             246.6-2           amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2          amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1    amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                246.6-1           amd64  libudev shared library
+ii   libudev1                246.6-2           amd64  libudev shared library
 ii   libunistring2           0.9.10-4          amd64  Unicode string library for C
 ii   libuuid1                2.36-3+b1         amd64  Universally Unique ID library
 ii   libxtables12            1.8.5-3           amd64  netfilter xtables library

@@ -118,10 +118,10 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6471",
+    "Installed-Size": "6389",
     "Origin": "",
     "Package": "bash",
-    "Pre-Depends": "libc6 (>= 2.15), libtinfo6 (>= 6)",
+    "Pre-Depends": "libc6 (>= 2.25), libtinfo6 (>= 6)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "bash-completion (>= 20060301-0)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.0-7",
+    "Version": "5.1~rc1-2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.0-7"
+    "source:Version": "5.1~rc1-2"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libsemanage-common (= 3.1-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 3.1), libsepol1 (>= 3.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "302",
+    "Installed-Size": "307",
     "Origin": "",
     "Package": "libsemanage1",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-1",
+    "Version": "3.1-1+b1",
     "binary:Package": "libsemanage1:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -2050,7 +2050,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "852",
+    "Installed-Size": "853",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "246.6-1",
+    "Version": "246.6-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "246.6-1"
+    "source:Version": "246.6-2"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.30)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "273",
+    "Installed-Size": "274",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "246.6-1",
+    "Version": "246.6-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "246.6-1"
+    "source:Version": "246.6-2"
   },
   {
     "Architecture": "amd64",
