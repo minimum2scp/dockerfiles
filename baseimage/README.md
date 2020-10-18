@@ -151,8 +151,9 @@ ii   libncursesw6            6.2+20200918-1                  amd64  shared libra
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnss-nis              3.1-3                           amd64  NSS module for using NIS as a naming service
-ii   libnss-nisplus          1.3-3                           amd64  NSS module for using NIS+ as a naming service
+ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
+ii   libnss-nis              3.1-4                           amd64  NSS module for using NIS as a naming service
+ii   libnss-nisplus          1.3-4                           amd64  NSS module for using NIS+ as a naming service
 ii   libp11-kit0             0.23.21-2                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -187,6 +188,8 @@ ii   libstdc++6              10.2.0-15                       amd64  GNU Standard
 ii   libsystemd0             246.6-2                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
+ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                246.6-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
