@@ -930,7 +930,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, libbsd0 (>= 0.0), libc6 (>= 2.29), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2814",
+    "Installed-Size": "2822",
     "Origin": "",
     "Package": "iproute2",
     "Pre-Depends": "",
@@ -941,7 +941,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "5.8.0-1",
+    "Version": "5.9.0-1",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "5.8.0-1"
+    "source:Version": "5.9.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.53+dfsg-1",
+    "Version": "2.4.54+dfsg-1",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.53+dfsg-1"
+    "source:Version": "2.4.54+dfsg-1"
   },
   {
     "Architecture": "amd64",

@@ -93,7 +93,7 @@ ii   hostname                3.23                            amd64  utility to s
 ii   init-system-helpers     1.58                            all    helper tools for all init systems
 ii   initscripts             2.96-5                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.8.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.9.0-1                         amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.10                          amd64  package management runtime library
@@ -140,7 +140,7 @@ ii   libk5crypto3            1.17-10                         amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-10                         amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-10                         amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.53+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.54+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
