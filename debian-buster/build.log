@@ -7,177 +7,96 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
-I: Retrieving libacl1 2.2.53-4
 I: Validating libacl1 2.2.53-4
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.2.1
 I: Validating apt 1.8.2.1
-I: Retrieving libapt-pkg5.0 1.8.2.1
 I: Validating libapt-pkg5.0 1.8.2.1
-I: Retrieving libattr1 1:2.4.48-4
 I: Validating libattr1 1:2.4.48-4
-I: Retrieving libaudit-common 1:2.8.4-3
 I: Validating libaudit-common 1:2.8.4-3
-I: Retrieving libaudit1 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
-I: Retrieving base-files 10.3+deb10u6
 I: Validating base-files 10.3+deb10u6
-I: Retrieving base-passwd 3.5.46
 I: Validating base-passwd 3.5.46
-I: Retrieving bash 5.0-4
 I: Validating bash 5.0-4
-I: Retrieving libbz2-1.0 1.0.6-9.2~deb10u1
 I: Validating libbz2-1.0 1.0.6-9.2~deb10u1
-I: Retrieving libdebconfclient0 0.249
 I: Validating libdebconfclient0 0.249
-I: Retrieving coreutils 8.30-3
 I: Validating coreutils 8.30-3
-I: Retrieving dash 0.5.10.2-5
 I: Validating dash 0.5.10.2-5
-I: Retrieving libdb5.3 5.3.28+dfsg1-0.5
 I: Validating libdb5.3 5.3.28+dfsg1-0.5
-I: Retrieving debconf 1.5.71
 I: Validating debconf 1.5.71
 I: Validating debian-archive-keyring 2019.1
-I: Retrieving debianutils 4.8.6.1
 I: Validating debianutils 4.8.6.1
 I: Validating diffutils 1:3.7-3
-I: Retrieving dpkg 1.19.7
 I: Validating dpkg 1.19.7
-I: Retrieving e2fsprogs 1.44.5-1+deb10u3
 I: Validating e2fsprogs 1.44.5-1+deb10u3
-I: Retrieving libcom-err2 1.44.5-1+deb10u3
 I: Validating libcom-err2 1.44.5-1+deb10u3
-I: Retrieving libext2fs2 1.44.5-1+deb10u3
 I: Validating libext2fs2 1.44.5-1+deb10u3
-I: Retrieving libss2 1.44.5-1+deb10u3
 I: Validating libss2 1.44.5-1+deb10u3
-I: Retrieving libelf1 0.176-1.1
 I: Validating libelf1 0.176-1.1
-I: Retrieving findutils 4.6.0+git+20190209-2
 I: Validating findutils 4.6.0+git+20190209-2
-I: Retrieving gcc-8-base 8.3.0-6
 I: Validating gcc-8-base 8.3.0-6
-I: Retrieving libgcc1 1:8.3.0-6
 I: Validating libgcc1 1:8.3.0-6
-I: Retrieving libstdc++6 8.3.0-6
 I: Validating libstdc++6 8.3.0-6
-I: Retrieving libc-bin 2.28-10
 I: Validating libc-bin 2.28-10
-I: Retrieving libc6 2.28-10
 I: Validating libc6 2.28-10
-I: Retrieving libgmp10 2:6.1.2+dfsg-4
 I: Validating libgmp10 2:6.1.2+dfsg-4
-I: Retrieving gpgv 2.2.12-1+deb10u1
 I: Validating gpgv 2.2.12-1+deb10u1
 I: Validating libgnutls30 3.6.7-4+deb10u5
-I: Retrieving grep 3.3-1
 I: Validating grep 3.3-1
-I: Retrieving gzip 1.9-3
 I: Validating gzip 1.9-3
-I: Retrieving hostname 3.21
 I: Validating hostname 3.21
-I: Retrieving init-system-helpers 1.56+nmu1
 I: Validating init-system-helpers 1.56+nmu1
-I: Retrieving iproute2 4.20.0-2
 I: Validating iproute2 4.20.0-2
-I: Retrieving libxtables12 1.8.2-4
 I: Validating libxtables12 1.8.2-4
-I: Retrieving iputils-ping 3:20180629-2+deb10u1
 I: Validating iputils-ping 3:20180629-2+deb10u1
-I: Retrieving libcap-ng0 0.7.9-2
 I: Validating libcap-ng0 0.7.9-2
-I: Retrieving libcap2 1:2.25-2
 I: Validating libcap2 1:2.25-2
-I: Retrieving libcap2-bin 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
-I: Retrieving libffi6 3.2.1-9
 I: Validating libffi6 3.2.1-9
-I: Retrieving libgcrypt20 1.8.4-5
 I: Validating libgcrypt20 1.8.4-5
-I: Retrieving libgpg-error0 1.35-1
 I: Validating libgpg-error0 1.35-1
-I: Retrieving libidn2-0 2.0.5-1+deb10u1
 I: Validating libidn2-0 2.0.5-1+deb10u1
-I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
-I: Retrieving libseccomp2 2.3.3-4
 I: Validating libseccomp2 2.3.3-4
-I: Retrieving libselinux1 2.8-1+b1
 I: Validating libselinux1 2.8-1+b1
-I: Retrieving libsemanage-common 2.8-2
 I: Validating libsemanage-common 2.8-2
-I: Retrieving libsemanage1 2.8-2
 I: Validating libsemanage1 2.8-2
-I: Retrieving libsepol1 2.8-1
 I: Validating libsepol1 2.8-1
-I: Retrieving libtasn1-6 4.13-3
 I: Validating libtasn1-6 4.13-3
-I: Retrieving libunistring2 0.9.10-1
 I: Validating libunistring2 0.9.10-1
-I: Retrieving libzstd1 1.3.8+dfsg-3
 I: Validating libzstd1 1.3.8+dfsg-3
-I: Retrieving liblz4-1 1.8.3-1
 I: Validating liblz4-1 1.8.3-1
-I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
-I: Retrieving libncursesw6 6.1+20181013-2+deb10u2
 I: Validating libncursesw6 6.1+20181013-2+deb10u2
-I: Retrieving libtinfo6 6.1+20181013-2+deb10u2
 I: Validating libtinfo6 6.1+20181013-2+deb10u2
-I: Retrieving ncurses-base 6.1+20181013-2+deb10u2
 I: Validating ncurses-base 6.1+20181013-2+deb10u2
-I: Retrieving ncurses-bin 6.1+20181013-2+deb10u2
 I: Validating ncurses-bin 6.1+20181013-2+deb10u2
-I: Retrieving libhogweed4 3.4.1-1
 I: Validating libhogweed4 3.4.1-1
-I: Retrieving libnettle6 3.4.1-1
 I: Validating libnettle6 3.4.1-1
-I: Retrieving libp11-kit0 0.23.15-2
 I: Validating libp11-kit0 0.23.15-2
 I: Validating libpam-modules 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
 I: Validating libpam0g 1.3.1-5
-I: Retrieving libpcre3 2:8.39-12
 I: Validating libpcre3 2:8.39-12
 I: Validating perl-base 5.28.1-6+deb10u1
 I: Validating sed 4.7-1
-I: Retrieving login 1:4.5-1.1
 I: Validating login 1:4.5-1.1
-I: Retrieving passwd 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
-I: Retrieving libsystemd0 241-7~deb10u4
 I: Validating libsystemd0 241-7~deb10u4
-I: Retrieving libudev1 241-7~deb10u4
 I: Validating libudev1 241-7~deb10u4
-I: Retrieving sysvinit-utils 2.93-8
 I: Validating sysvinit-utils 2.93-8
-I: Retrieving tar 1.30+dfsg-6
 I: Validating tar 1.30+dfsg-6
-I: Retrieving tzdata 2020a-0+deb10u1
 I: Validating tzdata 2020a-0+deb10u1
-I: Retrieving bsdutils 1:2.33.1-0.1
 I: Validating bsdutils 1:2.33.1-0.1
-I: Retrieving fdisk 2.33.1-0.1
 I: Validating fdisk 2.33.1-0.1
-I: Retrieving libblkid1 2.33.1-0.1
 I: Validating libblkid1 2.33.1-0.1
-I: Retrieving libfdisk1 2.33.1-0.1
 I: Validating libfdisk1 2.33.1-0.1
-I: Retrieving libmount1 2.33.1-0.1
 I: Validating libmount1 2.33.1-0.1
-I: Retrieving libsmartcols1 2.33.1-0.1
 I: Validating libsmartcols1 2.33.1-0.1
-I: Retrieving libuuid1 2.33.1-0.1
 I: Validating libuuid1 2.33.1-0.1
-I: Retrieving mount 2.33.1-0.1
 I: Validating mount 2.33.1-0.1
-I: Retrieving util-linux 2.33.1-0.1
 I: Validating util-linux 2.33.1-0.1
-I: Retrieving liblzma5 5.2.4-1
 I: Validating liblzma5 5.2.4-1
-I: Retrieving zlib1g 1:1.2.11.dfsg-1
 I: Validating zlib1g 1:1.2.11.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
@@ -456,24 +375,34 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
-Get:2 http://security.debian.org buster/updates/main amd64 Packages [292 kB]
-Hit:3 http://ftp.jp.debian.org/debian buster InRelease
-Get:4 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [8791 B]
-Fetched 418 kB in 1s (298 kB/s)
+Hit:2 http://ftp.jp.debian.org/debian buster InRelease
+Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [304 kB]
+Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [8728 B]
+Fetched 430 kB in 0s (909 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 264 kB of archives.
+After this operation, 3072 B of additional disk space will be used.
+Get:1 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2020d-0+deb10u1 [264 kB]
+Fetched 264 kB in 0s (961 kB/s)
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../tzdata_2020d-0+deb10u1_all.deb ...
+Unpacking tzdata (2020d-0+deb10u1) over (2020a-0+deb10u1) ...
+Setting up tzdata (2020d-0+deb10u1) ...
 Sending build context to Docker daemon   30.2MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6bfd31df6747
+ ---> 000c1419e565
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3be42e6dafa6
-Removing intermediate container 3be42e6dafa6
- ---> 966e32eebed4
-Successfully built 966e32eebed4
+ ---> Running in 85dba5859d3d
+Removing intermediate container 85dba5859d3d
+ ---> c67e3f735936
+Successfully built c67e3f735936
 Successfully tagged minimum2scp/debian-buster:latest
