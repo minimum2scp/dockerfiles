@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.28.0), git-man (<< 1:2.28.0-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.29.1), git-man (<< 1:2.29.1-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "45485",
+    "Installed-Size": "34252",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.28.0-1",
+    "Version": "1:2.29.1-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.28.0-1"
+    "source:Version": "1:2.29.1-1"
   },
   {
     "Architecture": "all",
@@ -678,7 +678,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1836",
+    "Installed-Size": "1859",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.28.0-1",
+    "Version": "1:2.29.1-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.28.0-1"
+    "source:Version": "1:2.29.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4217,7 +4217,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:8.4p1-1",
+    "Version": "1:8.4p1-2",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4225,13 +4225,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.4p1-1"
+    "source:Version": "1:8.4p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "runit (<< 2.1.2-36~)",
-    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.4p1-1), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.9.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:8.4p1-2), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.9.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1566",
@@ -4245,7 +4245,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:8.4p1-1",
+    "Version": "1:8.4p1-2",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4253,13 +4253,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.4p1-1"
+    "source:Version": "1:8.4p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:8.4p1-1), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
+    "Depends": "openssh-client (= 1:8.4p1-2), libc6 (>= 2.26), libssl1.1 (>= 1.1.0)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "137",
@@ -4273,7 +4273,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:8.4p1-1",
+    "Version": "1:8.4p1-2",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:8.4p1-1"
+    "source:Version": "1:8.4p1-2"
   },
   {
     "Architecture": "amd64",

@@ -83,8 +83,8 @@ ii   etckeeper               1.18.14-1                       all    store /etc i
 ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.0-15                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-18                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.28.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.28.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.29.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.29.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
@@ -210,9 +210,9 @@ ii   mount                   2.36-3+b1                       amd64  tools for mo
 ii   ncurses-base            6.2+20200918-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20200918-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
-ii   openssh-client          1:8.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.4p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.4p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.4p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1h-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.30.3-4                        amd64  Larry Wall's Practical Extraction and Report Language
