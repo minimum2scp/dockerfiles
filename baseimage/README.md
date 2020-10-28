@@ -80,7 +80,7 @@ ii   diffutils               1:3.7-3                         amd64  File compari
 ii   dpkg                    1.20.5                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
-ii   findutils               4.7.0-1                         amd64  utilities for finding files--find, xargs
+ii   findutils               4.7.0+git20201010-2             amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.0-15                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-18                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.29.1-1                      amd64  fast, scalable, distributed revision control system
@@ -127,7 +127,7 @@ ii   libfastjson4            0.99.8-2                        amd64  fast json li
 ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.0-15                       amd64  GCC support library
-ii   libgcrypt20             1.8.6-2                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.0+dfsg-6                  amd64  Multiprecision arithmetic library
@@ -238,10 +238,10 @@ ii   tzdata                  2020d-1                         all    time zone an
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.36-3+b1                       amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.0716-3                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.0716-3                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.1913-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.1913-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4+b2                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.0716-3                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.1913-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-5                           amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh

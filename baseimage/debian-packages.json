@@ -566,10 +566,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1960",
+    "Installed-Size": "1974",
     "Origin": "",
     "Package": "findutils",
-    "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 1.32)",
+    "Pre-Depends": "libc6 (>= 2.17), libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -577,7 +577,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.7.0-1",
+    "Version": "4.7.0+git20201010-2",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.7.0-1"
+    "source:Version": "4.7.0+git20201010-2"
   },
   {
     "Architecture": "amd64",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.15), libgpg-error0 (>= 1.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1345",
+    "Installed-Size": "1354",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.6-2",
+    "Version": "1.8.7-2",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.6-2"
+    "source:Version": "1.8.7-2"
   },
   {
     "Architecture": "amd64",
@@ -4990,7 +4990,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "331",
+    "Installed-Size": "328",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -5001,7 +5001,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.0716-3",
+    "Version": "2:8.2.1913-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -5009,16 +5009,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.0716-3"
+    "source:Version": "2:8.2.1913-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.2.0716-3), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.1913-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1482",
+    "Installed-Size": "1552",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -5029,7 +5029,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.2.0716-3",
+    "Version": "2:8.2.1913-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -5037,7 +5037,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.0716-3"
+    "source:Version": "2:8.2.1913-1"
   },
   {
     "Architecture": "amd64",
@@ -5074,7 +5074,7 @@
     "Depends": "libc6 (>= 2.3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "204",
+    "Installed-Size": "226",
     "Origin": "",
     "Package": "xxd",
     "Pre-Depends": "",
@@ -5085,7 +5085,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.0716-3",
+    "Version": "2:8.2.1913-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -5093,7 +5093,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.0716-3"
+    "source:Version": "2:8.2.1913-1"
   },
   {
     "Architecture": "amd64",
