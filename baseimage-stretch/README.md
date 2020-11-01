@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1+deb9u1                      amd64  MIT Kerbe
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u4               amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u4               all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u5               amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u5               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                      amd64  Fast LZ compression algorithm library - runtime
@@ -223,7 +223,7 @@ ii   sysv-rc                 2.88dsf-59.9                       all    System-V-
 ii   sysvinit-core           2.88dsf-59.9                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                       amd64  System-V-like utilities
 ii   tar                     1.29b-1.1                          amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020a-0+deb9u1                     all    time zone and daylight-saving time data
+ii   tzdata                  2020d-0+deb9u1                     all    time zone and daylight-saving time data
 ii   ucf                     3.0036                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21+deb9u2                      amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1+deb9u1                    amd64  miscellaneous system utilities
