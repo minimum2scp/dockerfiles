@@ -98,7 +98,7 @@ ii   sed                     4.4-1                  amd64  GNU stream editor for
 ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9           amd64  System-V-like utilities
 ii   tar                     1.29b-1.1              amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020a-0+deb9u1         all    time zone and daylight-saving time data
+ii   tzdata                  2020d-0+deb9u1         all    time zone and daylight-saving time data
 ii   util-linux              2.29.2-1+deb9u1        amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-5         amd64  compression library - runtime
 ```
