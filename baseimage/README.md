@@ -163,7 +163,7 @@ ii   libpcre2-8-0            10.34-7                         amd64  New Perl Com
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.30             5.30.3-4                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
-ii   libpopt0                1.18-1                          amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.8.6-1                         amd64  interactive high-level object-oriented language (default python3 version)
