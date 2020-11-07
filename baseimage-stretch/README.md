@@ -127,14 +127,14 @@ ii   libgdbm3                1.8.3-14                           amd64  GNU dbm d
 ii   libgmp10                2:6.1.2+dfsg-1                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-5+deb9u5                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                             amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+b2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1+deb9u1                      amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1+deb9u1                      amd64  Internationalized domain names (IDNA2008) library
-ii   libk5crypto3            1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.15-1+deb9u1                      amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u5               amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-5+deb9u5               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library

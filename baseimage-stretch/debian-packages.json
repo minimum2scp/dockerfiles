@@ -1879,7 +1879,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libgssglue1 (<< 0.2-2)",
-    "Depends": "libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.15-1+deb9u1), libkrb5support0 (>= 1.15~beta1)",
+    "Depends": "libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.15-1+deb9u2), libkrb5support0 (>= 1.15~beta1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "423",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.15-1+deb9u1",
+    "Version": "1.15-1+deb9u2",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.15-1+deb9u1"
+    "source:Version": "1.15-1+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.15-1+deb9u1",
+    "Version": "1.15-1+deb9u2",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.15-1+deb9u1"
+    "source:Version": "1.15-1+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -2047,7 +2047,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.16), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.15-1+deb9u1)",
+    "Depends": "libc6 (>= 2.16), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.15-1+deb9u2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1026",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.15-1+deb9u1",
+    "Version": "1.15-1+deb9u2",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.15-1+deb9u1"
+    "source:Version": "1.15-1+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.15-1+deb9u1",
+    "Version": "1.15-1+deb9u2",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.15-1+deb9u1"
+    "source:Version": "1.15-1+deb9u2"
   },
   {
     "Architecture": "amd64",
