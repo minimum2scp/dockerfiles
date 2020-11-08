@@ -118,7 +118,7 @@ ii   libcurl4                7.72.0-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.255                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
-ii   libelf1                 0.181-1                         amd64  library to read and write ELF files
+ii   libelf1                 0.182-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library

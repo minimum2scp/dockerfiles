@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.181-1",
+    "Version": "0.182-1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.181-1"
+    "source:Version": "0.182-1"
   },
   {
     "Architecture": "all",
