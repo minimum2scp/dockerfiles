@@ -140,7 +140,7 @@ ii   libk5crypto3            1.17-10                         amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-10                         amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-10                         amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.55+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.55+dfsg-1+b1                amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
@@ -161,7 +161,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.30             5.30.3-4                        amd64  shared Perl library
+ii   libperl5.32             5.32.0-4                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
@@ -173,7 +173,7 @@ ii   libreadline8            8.0-4                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.4.4-1+b1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.0-3                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b1                        amd64  SELinux policy management library
@@ -195,7 +195,7 @@ ii   libudev1                246.6-2                         amd64  libudev shar
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-3+b2                       amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.5-3                         amd64  netfilter xtables library
+ii   libxtables12            1.8.6-1                         amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-4                          all    GNU C Library: National Language (locale) data [support]
@@ -215,9 +215,9 @@ ii   openssh-server          1:8.4p1-2                       amd64  secure shell
 ii   openssh-sftp-server     1:8.4p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1h-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.30.3-4                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.30.3-4                        amd64  minimal Perl system
-ii   perl-modules-5.30       5.30.3-4                        all    Core Perl modules
+ii   perl                    5.32.0-4                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.32.0-4                        amd64  minimal Perl system
+ii   perl-modules-5.32       5.32.0-4                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.8.6-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.8.6-1                         amd64  minimal subset of the Python language (default python3 version)
@@ -239,9 +239,9 @@ ii   ucf                     3.0043                          all    Update Confi
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.36-3+b2                       amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.1913-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.1913-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                2:8.2.1913-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4+b2                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.1913-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.1913-1+b1                 amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-5                           amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
