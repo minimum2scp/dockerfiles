@@ -86,7 +86,7 @@ ii   gcc-9-base              9.3.0-18                        amd64  GCC, the GNU
 ii   git                     1:2.29.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.29.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.4-1                           amd64  GNU grep, egrep and fgrep
+ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-2                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
@@ -169,7 +169,7 @@ ii   libpsl5                 0.21.0-1.1                      amd64  Library for 
 ii   libpython3-stdlib       3.8.6-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.8-minimal    3.8.6-1                         amd64  Minimal subset of the Python language (version 3.8)
 ii   libpython3.8-stdlib     3.8.6-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.8)
-ii   libreadline8            8.0-4                           amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8            8.1~rc2-2                       amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -223,7 +223,7 @@ ii   python3                 3.8.6-1                         amd64  interactive 
 ii   python3-minimal         3.8.6-1                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.8               3.8.6-1                         amd64  Interactive high-level object-oriented language (version 3.8)
 ii   python3.8-minimal       3.8.6-1                         amd64  Minimal subset of the Python language (version 3.8)
-ii   readline-common         8.0-4                           all    GNU readline and history libraries, common files
+ii   readline-common         8.1~rc2-2                       all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2010.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.9.0                           all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
