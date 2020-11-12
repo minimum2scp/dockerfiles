@@ -72,7 +72,7 @@ ii   ca-certificates         20200601                        all    Common CA ce
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.72.0-1                        amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.10.2-7                      amd64  POSIX-compliant shell
+ii   dash                    0.5.11+git20200708+dd9ef66-2    amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
@@ -81,7 +81,7 @@ ii   dpkg                    1.20.5                          amd64  Debian packa
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0+git20201010-2             amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.0-16                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.0-17                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-18                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.29.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.29.2-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -124,9 +124,9 @@ ii   libestr0                0.1.10-2.1+b1                   amd64  Helper funct
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
-ii   libffi7                 3.3-4                           amd64  Foreign Function Interface library runtime
+ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10.2.0-16                       amd64  GCC support library
+ii   libgcc-s1               10.2.0-17                       amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
@@ -140,7 +140,7 @@ ii   libk5crypto3            1.17-10                         amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-10                         amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-10                         amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.55+dfsg-1+b1                amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.56+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
@@ -184,7 +184,7 @@ ii   libsqlite3-0            3.33.0-1                        amd64  SQLite 3 sha
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.0-16                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10.2.0-17                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0             246.6-2                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1                  amd64  shared low-level terminfo library for terminal handling
@@ -194,7 +194,7 @@ ii   libuchardet0            0.0.7-1                         amd64  universal ch
 ii   libudev1                246.6-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36-3+b2                       amd64  Universally Unique ID library
-ii   libwrap0                7.6.q-30                        amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.6-1                         amd64  netfilter xtables library
 ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
