@@ -203,9 +203,11 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-7                          amd64  Powerful Multilingual File Viewer
+ii   mailcap                 3.67                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
-ii   mime-support            3.64                            all    MIME files 'mime.types' & 'mailcap', and support programs
+ii   media-types             1.0.1                           all    List of standard media types and their usual file extension
+ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36-3+b2                       amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20200918-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20200918-1                  amd64  terminal-related programs and man pages
