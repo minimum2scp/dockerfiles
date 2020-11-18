@@ -135,7 +135,7 @@ ii   libgnutls30             3.6.15-4                        amd64  GNU TLS libr
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-10                         amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                           amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.3.0-3                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.0-4                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-10                         amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-10                         amd64  MIT Kerberos runtime libraries
@@ -185,13 +185,13 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.0-17                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.6-2                         amd64  systemd utility library
+ii   libsystemd0             246.6-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20200918-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                246.6-2                         amd64  libudev shared library
+ii   libudev1                246.6-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-1                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
