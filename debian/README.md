@@ -33,13 +33,13 @@ ii   diffutils               1:3.7-3                       amd64  File compariso
 ii   dpkg                    1.20.5                        amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0+git20201010-2           amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.0-17                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.0-18                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-18                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.20-1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                         amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-2                        amd64  GNU compression utilities
 ii   hostname                3.23                          amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.58                          all    helper tools for all init systems
+ii   init-system-helpers     1.59                          all    helper tools for all init systems
 ii   iproute2                5.9.0-1                       amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                  amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                      amd64  access control list - shared library
@@ -52,7 +52,7 @@ ii   libbsd0                 0.10.0-1                      amd64  utility functi
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.31-4                        amd64  GNU C Library: Binaries
 ii   libc6                   2.31-4                        amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.2                     amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                      amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.45.6-1                      amd64  common error description library
@@ -62,18 +62,18 @@ ii   libdebconfclient0       0.255                         amd64  Debian Configu
 ii   libelf1                 0.182-1                       amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-5                         amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10.2.0-17                     amd64  GCC support library
+ii   libgcc-s1               10.2.0-18                     amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.15-4                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-10                       amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-1                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-4                       amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-10                       amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-1                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-10                       amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-10                       amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-1                      amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-1                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.2-2                       amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                    amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
@@ -97,13 +97,13 @@ ii   libsepol1               3.1-1                         amd64  SELinux librar
 ii   libsmartcols1           2.36.1-1                      amd64  smart column output alignment library
 ii   libss2                  1.45.6-1                      amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1h-1                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.0-17                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0             246.6-3                       amd64  systemd utility library
+ii   libstdc++6              10.2.0-18                     amd64  GNU Standard C++ Library v3
+ii   libsystemd0             246.6-4                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2+20200918-1                amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2+20201114-1                amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                       all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                       amd64  transport-independent RPC library
-ii   libudev1                246.6-3                       amd64  libudev shared library
+ii   libudev1                246.6-4                       amd64  libudev shared library
 ii   libunistring2           0.9.10-4                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-1                      amd64  Universally Unique ID library
 ii   libxtables12            1.8.6-1                       amd64  netfilter xtables library
@@ -113,8 +113,8 @@ ii   logsave                 1.45.6-1                      amd64  save the outpu
 ii   lsb-base                11.1.0                        all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2              amd64  Pattern scanning and text processing language
 ii   mount                   2.36.1-1                      amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2+20200918-1                all    basic terminal type definitions
-ii   ncurses-bin             6.2+20200918-1                amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2+20201114-1                all    basic terminal type definitions
+ii   ncurses-bin             6.2+20201114-1                amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
 ii   perl-base               5.32.0-5                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
