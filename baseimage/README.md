@@ -133,13 +133,13 @@ ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm data
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.15-4                        amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.18.3-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                           amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-4                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.18.3-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.18.3-1                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.18.3-1                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-2                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-2                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.56+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
@@ -227,7 +227,7 @@ ii   python3.9               3.9.0-5                         amd64  Interactive 
 ii   python3.9-minimal       3.9.0-5                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1~rc2-2                       all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2010.0-1                      amd64  reliable system and kernel logging daemon
-ii   runit-helper            2.10.1                          all    dh-runit implementation detail
+ii   runit-helper            2.10.2                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
