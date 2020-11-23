@@ -64,7 +64,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     2.1.11                          amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                          amd64  Debian base system master password and group files
-ii   bash                    5.1~rc2-1                       amd64  GNU Bourne Again SHell
+ii   bash                    5.1~rc3-1                       amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-1                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.36.1-1                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
@@ -169,7 +169,7 @@ ii   libpsl5                 0.21.0-1.1                      amd64  Library for 
 ii   libpython3-stdlib       3.9.0-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.0-5                         amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib     3.9.0-5                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
-ii   libreadline8            8.1~rc2-2                       amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8            8.1~rc3-1                       amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -225,7 +225,7 @@ ii   python3                 3.9.0-3                         amd64  interactive 
 ii   python3-minimal         3.9.0-3                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.0-5                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.0-5                         amd64  Minimal subset of the Python language (version 3.9)
-ii   readline-common         8.1~rc2-2                       all    GNU readline and history libraries, common files
+ii   readline-common         8.1~rc3-1                       all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2010.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.2                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text

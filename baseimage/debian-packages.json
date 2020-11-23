@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1~rc2-1",
+    "Version": "5.1~rc3-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.1~rc2-1"
+    "source:Version": "5.1~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.1~rc2-2",
+    "Version": "8.1~rc3-1",
     "binary:Package": "libreadline8:amd64",
     "binary:Summary": "GNU readline and history libraries, run-time libraries",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.1~rc2-2"
+    "source:Version": "8.1~rc3-1"
   },
   {
     "Architecture": "amd64",
@@ -4637,7 +4637,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "8.1~rc2-2",
+    "Version": "8.1~rc3-1",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.1~rc2-2"
+    "source:Version": "8.1~rc3-1"
   },
   {
     "Architecture": "amd64",
