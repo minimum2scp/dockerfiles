@@ -31,21 +31,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.1.11), debian-archive-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.14), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0",
+    "Depends": "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.1.12), debian-archive-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.14), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4247",
+    "Installed-Size": "4259",
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 2.1.11)",
+    "Provides": "apt-transport-https (= 2.1.12)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.1.11",
+    "Version": "2.1.12",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.1.11"
+    "source:Version": "2.1.12"
   },
   {
     "Architecture": "amd64",
@@ -711,13 +711,13 @@
     "Package": "libapt-pkg6.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.1.11)",
-    "Recommends": "apt (>= 2.1.11)",
+    "Provides": "libapt-pkg (= 2.1.12)",
+    "Recommends": "apt (>= 2.1.12)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.11",
+    "Version": "2.1.12",
     "binary:Package": "libapt-pkg6.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.1.11"
+    "source:Version": "2.1.12"
   },
   {
     "Architecture": "amd64",
@@ -1375,10 +1375,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "moonshot-gss-eap (<= 1.0)",
-    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.18.3-2), libkrb5support0 (>= 1.15~beta1)",
+    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.18.3-4), libkrb5support0 (>= 1.15~beta1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "450",
+    "Installed-Size": "451",
     "Origin": "",
     "Package": "libgssapi-krb5-2",
     "Pre-Depends": "",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-2",
+    "Version": "1.18.3-4",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-2"
+    "source:Version": "1.18.3-4"
   },
   {
     "Architecture": "amd64",
@@ -1462,7 +1462,7 @@
     "Depends": "libc6 (>= 2.25), libkrb5support0 (>= 1.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "295",
+    "Installed-Size": "296",
     "Origin": "",
     "Package": "libk5crypto3",
     "Pre-Depends": "",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-2",
+    "Version": "1.18.3-4",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-2"
+    "source:Version": "1.18.3-4"
   },
   {
     "Architecture": "amd64",
@@ -1514,11 +1514,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libapache2-mod-auth-kerb, libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.18.3-2), libssl1.1 (>= 1.1.0)",
+    "Breaks": "libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
+    "Depends": "libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.18.3-4), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1107",
+    "Installed-Size": "1108",
     "Origin": "",
     "Package": "libkrb5-3",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-2",
+    "Version": "1.18.3-4",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-2"
+    "source:Version": "1.18.3-4"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "168",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "libkrb5support0",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.18.3-2",
+    "Version": "1.18.3-4",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-2"
+    "source:Version": "1.18.3-4"
   },
   {
     "Architecture": "amd64",
