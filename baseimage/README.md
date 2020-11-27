@@ -167,8 +167,8 @@ ii   libpopt0                1.18-2                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.0-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.0-5                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.0-5                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.1~rc1-1                     amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.1~rc1-1                     amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1~rc3-1                       amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -223,8 +223,8 @@ ii   perl-modules-5.32       5.32.0-5                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.9.0-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.0-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.0-5                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.0-5                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.1~rc1-1                     amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.1~rc1-1                     amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1~rc3-1                       all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2010.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.2                          all    dh-runit implementation detail
