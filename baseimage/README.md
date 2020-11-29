@@ -150,7 +150,7 @@ ii   libncurses6             6.2+20201114-1                  amd64  shared libra
 ii   libncursesw6            6.2+20201114-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b2                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.41.0-3                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.42.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libnss-nis              3.1-4                           amd64  NSS module for using NIS as a naming service
 ii   libnss-nisplus          1.3-4                           amd64  NSS module for using NIS+ as a naming service
