@@ -210,9 +210,9 @@ ii   mount                   2.36.1-2                        amd64  tools for mo
 ii   ncurses-base            6.2+20201114-1                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
-ii   openssh-client          1:8.4p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.4p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.4p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.4p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.4p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.4p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1h-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.0-5                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -229,7 +229,7 @@ ii   runit-helper            2.10.2                          all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.3p1-1                       amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.4-1                         amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
