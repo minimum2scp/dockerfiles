@@ -81,7 +81,7 @@ ii   dpkg                    1.20.5                          amd64  Debian packa
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0+git20201010-2             amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.0-21                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.0-23                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.29.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.29.2-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -126,7 +126,7 @@ ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10.2.0-21                       amd64  GCC support library
+ii   libgcc-s1               10.2.0-23                       amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
@@ -157,7 +157,7 @@ ii   libpam-modules          1.3.1-5                         amd64  Pluggable Au
 ii   libpam-modules-bin      1.3.1-5                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.3.1-5                         all    Runtime support for the PAM library
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.34-7                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.35-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32             5.32.0-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
@@ -182,14 +182,14 @@ ii   libsqlite3-0            3.33.0-1                        amd64  SQLite 3 sha
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                       amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.0-21                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.1-2                         amd64  systemd utility library
+ii   libstdc++6              10.2.0-23                       amd64  GNU Standard C++ Library v3
+ii   libsystemd0             247.1-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.1-2                         amd64  libudev shared library
+ii   libudev1                247.1-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-2                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
