@@ -22,7 +22,7 @@ ii   adduser                 3.118                         all    add and remove
 ii   apt                     2.1.12                        amd64  commandline package manager
 ii   base-files              11                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                        amd64  Debian base system master password and group files
-ii   bash                    5.1~rc3-1                     amd64  GNU Bourne Again SHell
+ii   bash                    5.1-1                         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-2                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
 ii   dash                    0.5.11+git20200708+dd9ef66-2  amd64  POSIX-compliant shell
@@ -33,7 +33,7 @@ ii   diffutils               1:3.7-3                       amd64  File compariso
 ii   dpkg                    1.20.5                        amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0+git20201010-2           amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.0-23                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.1-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-19                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.20-1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                         amd64  GNU grep, egrep and fgrep
@@ -46,7 +46,7 @@ ii   libacl1                 2.2.53-8                      amd64  access control
 ii   libapt-pkg6.0           2.1.12                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                    amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3.1                   all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-3.1                   amd64  Dynamic library for security auditing
+ii   libaudit1               1:2.8.5-3.1+b1                amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-2                      amd64  block device ID library
 ii   libbsd0                 0.10.0-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
@@ -62,10 +62,10 @@ ii   libdebconfclient0       0.255                         amd64  Debian Configu
 ii   libelf1                 0.182-1                       amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-5                         amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               10.2.0-23                     amd64  GCC support library
+ii   libgcc-s1               10.2.1-1                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.15-4                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.0-3                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libhogweed6             3.6-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-4                       amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -81,14 +81,14 @@ ii   libpam-runtime          1.3.1-5                       all    Runtime suppor
 ii   libpam0g                1.3.1-5                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.35-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.5.0-3                       amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.1-2+b1                      amd64  SELinux runtime shared libraries
+ii   libseccomp2             2.5.0-3+b1                    amd64  high level interface to Linux seccomp filter
+ii   libselinux1             3.1-2+b2                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                         all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.1-1+b1                      amd64  SELinux policy management library
+ii   libsemanage1            3.1-1+b2                      amd64  SELinux policy management library
 ii   libsepol1               3.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.36.1-2                      amd64  smart column output alignment library
 ii   libss2                  1.45.6-1                      amd64  command-line interface parsing library
-ii   libstdc++6              10.2.0-23                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10.2.1-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.1-3                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                amd64  shared low-level terminfo library for terminal handling
