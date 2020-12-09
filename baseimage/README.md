@@ -181,7 +181,7 @@ ii   libsmartcols1           2.36.1-2                        amd64  smart column
 ii   libsqlite3-0            3.34.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-1                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1h-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-1                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.1-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -213,7 +213,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1h-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1i-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.0-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.0-5                        amd64  minimal Perl system
@@ -224,7 +224,7 @@ ii   python3-minimal         3.9.0-4                         amd64  minimal subs
 ii   python3.9               3.9.1-1                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.1-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2010.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.2                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
