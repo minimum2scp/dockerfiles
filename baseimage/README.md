@@ -72,7 +72,7 @@ ii   ca-certificates         20200601                        all    Common CA ce
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.72.0-1                        amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.11+git20200708+dd9ef66-2    amd64  POSIX-compliant shell
+ii   dash                    0.5.11+git20200708+dd9ef66-4    amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
