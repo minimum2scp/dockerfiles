@@ -19,13 +19,13 @@ installed packages:
 
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
-ii   apt                     2.1.12                        amd64  commandline package manager
+ii   apt                     2.1.13                        amd64  commandline package manager
 ii   base-files              11                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                        amd64  Debian base system master password and group files
 ii   bash                    5.1-1                         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-2                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
-ii   dash                    0.5.11+git20200708+dd9ef66-4  amd64  POSIX-compliant shell
+ii   dash                    0.5.11+git20200708+dd9ef66-5  amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                        all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                        amd64  Miscellaneous utilities specific to Debian
@@ -43,7 +43,7 @@ ii   init-system-helpers     1.59                          all    helper tools f
 ii   iproute2                5.9.0-1                       amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                  amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                      amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.12                        amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.13                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                    amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3.1                   all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3.1+b1                amd64  Dynamic library for security auditing
