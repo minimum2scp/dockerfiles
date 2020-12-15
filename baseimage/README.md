@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.1.13                          amd64  commandline package manager
+ii   apt                     2.1.14                          amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                          amd64  Debian base system master password and group files
 ii   bash                    5.1-1                           amd64  GNU Bourne Again SHell
@@ -90,13 +90,13 @@ ii   grep                    3.6-1                           amd64  GNU grep, eg
 ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-2                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.59                            all    helper tools for all init systems
+ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-5                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.9.0-1                         amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.13                          amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.14                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3.1                     all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3.1+b1                  amd64  Dynamic library for security auditing
@@ -159,7 +159,7 @@ ii   libpam-runtime          1.3.1-5                         all    Runtime supp
 ii   libpam0g                1.3.1-5                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.32             5.32.0-5                        amd64  shared Perl library
+ii   libperl5.32             5.32.0-6                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
@@ -180,7 +180,7 @@ ii   libslang2               2.3.2-5                         amd64  S-Lang progr
 ii   libsmartcols1           2.36.1-2                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.0-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
-ii   libssh2-1               1.9.0-1                         amd64  SSH2 client-side library
+ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-1                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.1-4                         amd64  systemd utility library
@@ -194,6 +194,7 @@ ii   libunistring2           0.9.10-4                        amd64  Unicode stri
 ii   libuuid1                2.36.1-2                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.6-1                         amd64  netfilter xtables library
+ii   libxxhash0              0.8.0-1                         amd64  shared library for xxhash
 ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-5                          all    GNU C Library: National Language (locale) data [support]
@@ -215,9 +216,9 @@ ii   openssh-server          1:8.4p1-3                       amd64  secure shell
 ii   openssh-sftp-server     1:8.4p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1i-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.32.0-5                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.32.0-5                        amd64  minimal Perl system
-ii   perl-modules-5.32       5.32.0-5                        all    Core Perl modules
+ii   perl                    5.32.0-6                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.32.0-6                        amd64  minimal Perl system
+ii   perl-modules-5.32       5.32.0-6                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.9.0-4                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.0-4                         amd64  minimal subset of the Python language (default python3 version)
