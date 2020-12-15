@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
-ii   apt                     2.1.13                        amd64  commandline package manager
+ii   apt                     2.1.14                        amd64  commandline package manager
 ii   base-files              11                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                        amd64  Debian base system master password and group files
 ii   bash                    5.1-1                         amd64  GNU Bourne Again SHell
@@ -39,11 +39,11 @@ ii   gpgv                    2.2.20-1                      amd64  GNU privacy gu
 ii   grep                    3.6-1                         amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-2                        amd64  GNU compression utilities
 ii   hostname                3.23                          amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.59                          all    helper tools for all init systems
+ii   init-system-helpers     1.60                          all    helper tools for all init systems
 ii   iproute2                5.9.0-1                       amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                  amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                      amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.13                        amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.14                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                    amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.5-3.1                   all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.5-3.1+b1                amd64  Dynamic library for security auditing
@@ -96,6 +96,7 @@ ii   libudev1                247.1-4                       amd64  libudev shared
 ii   libunistring2           0.9.10-4                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-2                      amd64  Universally Unique ID library
 ii   libxtables12            1.8.6-1                       amd64  netfilter xtables library
+ii   libxxhash0              0.8.0-1                       amd64  shared library for xxhash
 ii   libzstd1                1.4.5+dfsg-4                  amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1                     amd64  system login tools
 ii   logsave                 1.45.6-1                      amd64  save the output of a command in a log file
@@ -105,7 +106,7 @@ ii   mount                   2.36.1-2                      amd64  tools for moun
 ii   ncurses-base            6.2+20201114-1                all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-1                amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
-ii   perl-base               5.32.0-5                      amd64  minimal Perl system
+ii   perl-base               5.32.0-6                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-5                        amd64  System-V-like utilities
 ii   tar                     1.32+dfsg-1                   amd64  GNU version of the tar archiving utility
