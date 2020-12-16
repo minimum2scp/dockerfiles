@@ -38,14 +38,14 @@
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
-    "Priority": "required",
-    "Provides": "apt-transport-https (= 1.8.2.1)",
+    "Priority": "important",
+    "Provides": "apt-transport-https (= 1.8.2.2)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "1.8.2.1",
+    "Version": "1.8.2.2",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.8.2.1"
+    "source:Version": "1.8.2.2"
   },
   {
     "Architecture": "amd64",
@@ -1019,13 +1019,13 @@
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 1.8.2.1)",
-    "Recommends": "apt (>= 1.8.2.1)",
+    "Provides": "libapt-pkg (= 1.8.2.2)",
+    "Recommends": "apt (>= 1.8.2.2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.2.1",
+    "Version": "1.8.2.2",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.8.2.1"
+    "source:Version": "1.8.2.2"
   },
   {
     "Architecture": "amd64",
