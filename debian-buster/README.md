@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
-ii   apt                     1.8.2.1                 amd64  commandline package manager
+ii   apt                     1.8.2.2                 amd64  commandline package manager
 ii   base-files              10.3+deb10u7            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
@@ -43,7 +43,7 @@ ii   init-system-helpers     1.56+nmu1               all    helper tools for all
 ii   iproute2                4.20.0-2                amd64  networking and traffic control tools
 ii   iputils-ping            3:20180629-2+deb10u1    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-4                amd64  access control list - shared library
-ii   libapt-pkg5.0           1.8.2.1                 amd64  package management runtime library
+ii   libapt-pkg5.0           1.8.2.2                 amd64  package management runtime library
 ii   libattr1                1:2.4.48-4              amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-3               all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-3               amd64  Dynamic library for security auditing
