@@ -117,7 +117,7 @@ ii   libcurl3-gnutls         7.72.0-1                        amd64  easy-to-use 
 ii   libcurl4                7.72.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.255                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20191231-1                  amd64  BSD editline and history libraries
+ii   libedit2                3.1-20191231-2                  amd64  BSD editline and history libraries
 ii   libelf1                 0.182-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
@@ -142,7 +142,7 @@ ii   libkrb5-3               1.18.3-4                        amd64  MIT Kerberos
 ii   libkrb5support0         1.18.3-4                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.56+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
-ii   liblz4-1                1.9.2-2                         amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.9.3-1                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1+b1                      amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-2                        amd64  device mounting library
