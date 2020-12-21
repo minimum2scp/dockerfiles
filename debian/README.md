@@ -40,13 +40,13 @@ ii   grep                    3.6-1                         amd64  GNU grep, egre
 ii   gzip                    1.10-2                        amd64  GNU compression utilities
 ii   hostname                3.23                          amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                          all    helper tools for all init systems
-ii   iproute2                5.9.0-1                       amd64  networking and traffic control tools
+ii   iproute2                5.10.0-1                      amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                  amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                      amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.14                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                    amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.5-3.1                   all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-3.1+b1                amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-3                      amd64  block device ID library
 ii   libbsd0                 0.10.0-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
@@ -81,7 +81,7 @@ ii   libpam-runtime          1.3.1-5                       all    Runtime suppor
 ii   libpam0g                1.3.1-5                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.5.0-3+b1                    amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2+b2                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                      amd64  SELinux policy management library
@@ -89,10 +89,10 @@ ii   libsepol1               3.1-1                         amd64  SELinux librar
 ii   libsmartcols1           2.36.1-3                      amd64  smart column output alignment library
 ii   libss2                  1.45.6-1                      amd64  command-line interface parsing library
 ii   libstdc++6              10.2.1-1                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.1-4                       amd64  systemd utility library
+ii   libsystemd0             247.2-1                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                247.1-4                       amd64  libudev shared library
+ii   libudev1                247.2-1                       amd64  libudev shared library
 ii   libunistring2           0.9.10-4                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-3                      amd64  Universally Unique ID library
 ii   libxtables12            1.8.6-1                       amd64  netfilter xtables library
