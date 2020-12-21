@@ -93,13 +93,13 @@ ii   hostname                3.23                            amd64  utility to s
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-5                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.9.0-1                         amd64  networking and traffic control tools
+ii   iproute2                5.10.0-1                        amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-8                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.14                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-5                      amd64  extended attribute handling - shared library
-ii   libaudit-common         1:2.8.5-3.1                     all    Dynamic library for security auditing - common files
-ii   libaudit1               1:2.8.5-3.1+b1                  amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0-1                         all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0-1                         amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-3                        amd64  block device ID library
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
@@ -171,7 +171,7 @@ ii   libreadline8            8.1-1                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2                   amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.5.0-3+b1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.1-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-2+b2                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                        amd64  SELinux policy management library
@@ -183,13 +183,13 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-1                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.1-4                         amd64  systemd utility library
+ii   libsystemd0             247.2-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.1-4                         amd64  libudev shared library
+ii   libudev1                247.2-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -230,7 +230,7 @@ ii   runit-helper            2.10.2                          all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.4p1-1                       amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.4p2-1                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
