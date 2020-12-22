@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.115                              all    add and remove users and groups
-ii   apt                     1.4.10                             amd64  commandline package manager
+ii   apt                     1.4.11                             amd64  commandline package manager
 ii   base-files              9.9+deb9u13                        amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.43                             amd64  Debian base system master password and group files
 ii   bash                    4.4-5                              amd64  GNU Bourne Again SHell
@@ -71,7 +71,7 @@ ii   bzip2                   1.0.6-8.1                          amd64  high-qual
 ii   ca-certificates         20200601~deb9u1                    all    Common CA certificates
 ii   coreutils               8.26-3                             amd64  GNU core utilities
 ii   cron                    3.0pl1-128+deb9u1                  amd64  process scheduling daemon
-ii   curl                    7.52.1-5+deb9u12                   amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.52.1-5+deb9u13                   amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                          amd64  POSIX-compliant shell
 ii   debconf                 1.5.61                             all    Debian configuration management system
 ii   debian-archive-keyring  2017.5+deb9u1                      all    GnuPG archive keys of the Debian archive
@@ -96,7 +96,7 @@ ii   insserv                 1.14.0-5.4+b1                      amd64  boot sequ
 ii   iproute2                4.9.0-1+deb9u1                     amd64  networking and traffic control tools
 ii   iputils-ping            3:20161105-1                       amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.52-3+b1                        amd64  Access control list shared library
-ii   libapt-pkg5.0           1.4.10                             amd64  package management runtime library
+ii   libapt-pkg5.0           1.4.11                             amd64  package management runtime library
 ii   libattr1                1:2.4.47-2+b2                      amd64  Extended attribute shared library
 ii   libaudit-common         1:2.6.7-2                          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2                          amd64  Dynamic library for security auditing
@@ -109,8 +109,8 @@ ii   libc6                   2.24-11+deb9u4                     amd64  GNU C Lib
 ii   libcap-ng0              0.7.7-3+b1                         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.4-2+deb9u2                    amd64  common error description library
-ii   libcurl3                7.52.1-5+deb9u12                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.52.1-5+deb9u12                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.52.1-5+deb9u13                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.52.1-5+deb9u13                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+deb9u1                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3                     amd64  BSD editline and history libraries
@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerbe
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u5               amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u5               all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u6               amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u6               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                      amd64  Fast LZ compression algorithm library - runtime
@@ -172,11 +172,11 @@ ii   libsemanage1            2.6-2                              amd64  SELinux p
 ii   libsepol1               2.6-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.1-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.29.2-1+deb9u1                    amd64  smart column output alignment library
-ii   libsqlite3-0            3.16.2-5+deb9u2                    amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.16.2-5+deb9u3                    amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2u-1~deb9u2                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0l-1~deb9u1                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2u-1~deb9u3                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0l-1~deb9u2                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u12                     amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                    amd64  Manage ASN.1 structures (runtime)
@@ -203,7 +203,7 @@ ii   net-tools               1.60+git20161116.90da8a0-1         amd64  NET-3 net
 ii   openssh-client          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0l-1~deb9u1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0l-1~deb9u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                          amd64  change and administer password and group data
 ii   perl                    5.24.1-3+deb9u7                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-3+deb9u7                    amd64  minimal Perl system
@@ -232,7 +232,7 @@ ii   vim-tiny                2:8.0.0197-4+deb9u3                amd64  Vi IMprov
 ii   whiptail                0.52.19-1+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4+deb9u3                amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                     amd64  compression library - runtime
-ii   zsh                     5.3.1-4+b3                         amd64  shell with lots of features
-ii   zsh-common              5.3.1-4                            all    architecture independent files for Zsh
+ii   zsh                     5.3.1-4+deb9u4                     amd64  shell with lots of features
+ii   zsh-common              5.3.1-4+deb9u4                     all    architecture independent files for Zsh
 ii   zstd                    1.1.2-1                            amd64  fast lossless compression algorithm -- CLI tool
 ```

@@ -45,7 +45,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), powermgmt-base, python-apt",
-    "Version": "1.4.10",
+    "Version": "1.4.11",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4.10"
+    "source:Version": "1.4.11"
   },
   {
     "Architecture": "amd64",
@@ -311,10 +311,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u12), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u13), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "346",
+    "Installed-Size": "347",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u12",
+    "Version": "7.52.1-5+deb9u13",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u12"
+    "source:Version": "7.52.1-5+deb9u13"
   },
   {
     "Architecture": "amd64",
@@ -1019,13 +1019,13 @@
     "Package": "libapt-pkg5.0",
     "Pre-Depends": "",
     "Priority": "important",
-    "Provides": "libapt-pkg (= 1.4.10)",
-    "Recommends": "apt (>= 1.4.10)",
+    "Provides": "libapt-pkg (= 1.4.11)",
+    "Recommends": "apt (>= 1.4.11)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.10",
+    "Version": "1.4.11",
     "binary:Package": "libapt-pkg5.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "1.4.10"
+    "source:Version": "1.4.11"
   },
   {
     "Architecture": "amd64",
@@ -1378,7 +1378,7 @@
     "Depends": "libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "624",
+    "Installed-Size": "625",
     "Origin": "",
     "Package": "libcurl3",
     "Pre-Depends": "",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u12",
+    "Version": "7.52.1-5+deb9u13",
     "binary:Package": "libcurl3:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u12"
+    "source:Version": "7.52.1-5+deb9u13"
   },
   {
     "Architecture": "amd64",
@@ -1406,7 +1406,7 @@
     "Depends": "libc6 (>= 2.17), libcomerr2 (>= 1.01), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle6, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "616",
+    "Installed-Size": "617",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.52.1-5+deb9u12",
+    "Version": "7.52.1-5+deb9u13",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.52.1-5+deb9u12"
+    "source:Version": "7.52.1-5+deb9u13"
   },
   {
     "Architecture": "amd64",
@@ -2103,7 +2103,7 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u5)",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "510",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u5",
+    "Version": "2.4.44+dfsg-5+deb9u6",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u5"
+    "source:Version": "2.4.44+dfsg-5+deb9u6"
   },
   {
     "Architecture": "all",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u5",
+    "Version": "2.4.44+dfsg-5+deb9u6",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u5"
+    "source:Version": "2.4.44+dfsg-5+deb9u6"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.16.2-5+deb9u2",
+    "Version": "3.16.2-5+deb9u3",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.16.2-5+deb9u2"
+    "source:Version": "3.16.2-5+deb9u3"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2u-1~deb9u2",
+    "Version": "1.0.2u-1~deb9u3",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2u-1~deb9u2"
+    "source:Version": "1.0.2u-1~deb9u3"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0l-1~deb9u1",
+    "Version": "1.1.0l-1~deb9u2",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u1"
+    "source:Version": "1.1.0l-1~deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -4021,7 +4021,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0l-1~deb9u1",
+    "Version": "1.1.0l-1~deb9u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u1"
+    "source:Version": "1.1.0l-1~deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -4819,10 +4819,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "zsh-common (= 5.3.1-4), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
+    "Depends": "zsh-common (= 5.3.1-4+deb9u4), libc6 (>= 2.15), libcap2 (>= 1:2.10), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2150",
+    "Installed-Size": "2149",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "dpkg (>= 1.17.14)",
@@ -4833,7 +4833,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.3.1-4+b3",
+    "Version": "5.3.1-4+deb9u4",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
@@ -4841,7 +4841,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.3.1-4"
+    "source:Version": "5.3.1-4+deb9u4"
   },
   {
     "Architecture": "all",
@@ -4861,7 +4861,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.3.1-4",
+    "Version": "5.3.1-4+deb9u4",
     "binary:Package": "zsh-common",
     "binary:Summary": "architecture independent files for Zsh",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.3.1-4"
+    "source:Version": "5.3.1-4+deb9u4"
   },
   {
     "Architecture": "amd64",
