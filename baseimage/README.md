@@ -83,8 +83,8 @@ ii   etckeeper               1.18.14-1                       all    store /etc i
 ii   findutils               4.7.0+git20201010-2             amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-1                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.29.2-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.29.2-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.30.0~rc1-1                  amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.30.0~rc1-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
@@ -183,13 +183,13 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-1                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.2-1                         amd64  systemd utility library
+ii   libsystemd0             247.2-2                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.2-1                         amd64  libudev shared library
+ii   libudev1                247.2-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
