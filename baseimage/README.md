@@ -117,7 +117,7 @@ ii   libcurl3-gnutls         7.72.0-1                        amd64  easy-to-use 
 ii   libcurl4                7.72.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.255                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20191231-2                  amd64  BSD editline and history libraries
+ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
 ii   libelf1                 0.182-1                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
@@ -164,7 +164,7 @@ ii   libpipeline1            1.5.3-1                         amd64  Unix process
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib       3.9.0-4                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.1-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib     3.9.1-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
@@ -220,8 +220,8 @@ ii   perl                    5.32.0-6                        amd64  Larry Wall's
 ii   perl-base               5.32.0-6                        amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.0-6                        all    Core Perl modules
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
-ii   python3                 3.9.0-4                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal         3.9.0-4                         amd64  minimal subset of the Python language (default python3 version)
+ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.1-1                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.1-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
@@ -235,7 +235,7 @@ ii   sysv-rc                 2.96-5                          all    System-V-lik
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
 ii   tar                     1.32+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020d-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2020e-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-3                        amd64  miscellaneous system utilities
