@@ -183,19 +183,19 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-3                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.2-2                         amd64  systemd utility library
+ii   libsystemd0             247.2-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.2-2                         amd64  libudev shared library
+ii   libudev1                247.2-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.6-1                         amd64  netfilter xtables library
 ii   libxxhash0              0.8.0-1                         amd64  shared library for xxhash
-ii   libzstd1                1.4.5+dfsg-4                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.8+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -246,5 +246,5 @@ ii   xxd                     2:8.2.1913-1+b2                 amd64  tool to make
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-5                           amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
-ii   zstd                    1.4.5+dfsg-4                    amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.4.8+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
