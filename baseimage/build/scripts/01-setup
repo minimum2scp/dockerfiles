@@ -76,12 +76,6 @@ sed -i -e 's@^\([2-6]:23:respawn:/sbin/getty 38400 tty[2-6]\)$@#\1@'    /etc/ini
 etckeeper commit "inittab: disabled tty1-7"
 
 ##
-## disable hwclock
-##
-sed -i -e 's@^#HWCLOCKACCESS=yes$@HWCLOCKACCESS=no@' /etc/default/hwclock
-etckeeper commit "hwclock: disabled"
-
-##
 ## sudo configuration
 ##
 sed -i -e 's/^%sudo/#%sudo/' /etc/sudoers

@@ -103,10 +103,6 @@ describe 'minimum2scp/baseimage' do
       its(:content) { should match %r!^#[2-6]:23:respawn:/sbin/getty 38400 tty[2-6]$! }
     end
 
-    describe file("/etc/default/hwclock") do
-      its(:content) { should match /^HWCLOCKACCESS=no$/ }
-    end
-
     describe file("/etc/sudoers") do
       it { should be_mode 440 }
       its(:content) { should match /^#%sudo\s+/ }
