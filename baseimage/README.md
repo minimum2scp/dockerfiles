@@ -117,9 +117,9 @@ ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt sha
 ii   libcurl3-gnutls         7.72.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.72.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.255                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.182-1                         amd64  library to read and write ELF files
+ii   libelf1                 0.182-2                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
@@ -187,8 +187,8 @@ ii   libstdc++6              10.2.1-3                        amd64  GNU Standard
 ii   libsystemd0             247.2-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common         1.2.6-3                         all    transport-independent RPC library - common files
-ii   libtirpc3               1.2.6-3                         amd64  transport-independent RPC library
+ii   libtirpc-common         1.3.1-1                         all    transport-independent RPC library - common files
+ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                247.2-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
