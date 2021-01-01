@@ -29,7 +29,7 @@ ii   dash                    0.5.11+git20200708+dd9ef66-5  amd64  POSIX-complian
 ii   debconf                 1.5.74                        all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                        amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.7-3                       amd64  File comparison utilities
+ii   diffutils               1:3.7-4                       amd64  File comparison utilities
 ii   dpkg                    1.20.5                        amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0+git20201010-2           amd64  utilities for finding files--find, xargs
@@ -60,13 +60,13 @@ ii   libcom-err2             1.45.6-1                      amd64  common error d
 ii   libcrypt1               1:4.4.17-1                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                         amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.182-1                       amd64  library to read and write ELF files
+ii   libelf1                 0.182-2                       amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-5                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.1-3                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.0-3                       amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.0-5                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.6-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -76,7 +76,7 @@ ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Mana
 ii   libkrb5-3               1.18.3-4                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.18.3-4                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-1                       amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.4-1+b1                    amd64  XZ-format compression library
+ii   liblzma5                5.2.5-1.0                     amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-4                      amd64  device mounting library
 ii   libnettle8              3.6-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
