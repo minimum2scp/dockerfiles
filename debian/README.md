@@ -29,7 +29,7 @@ ii   dash                    0.5.11+git20200708+dd9ef66-5  amd64  POSIX-complian
 ii   debconf                 1.5.74                        all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                        amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.7-4                       amd64  File comparison utilities
+ii   diffutils               1:3.7-5                       amd64  File comparison utilities
 ii   dpkg                    1.20.5                        amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.7.0+git20201010-2           amd64  utilities for finding files--find, xargs
@@ -99,7 +99,7 @@ ii   libssl1.1               1.1.1i-1                      amd64  Secure Sockets
 ii   libstdc++6              10.2.1-3                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.2-3                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2+20201114-1                amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2+20201114-2                amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                       all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                       amd64  transport-independent RPC library
 ii   libudev1                247.2-3                       amd64  libudev shared library
@@ -113,8 +113,8 @@ ii   logsave                 1.45.6-1                      amd64  save the outpu
 ii   lsb-base                11.1.0                        all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2              amd64  Pattern scanning and text processing language
 ii   mount                   2.36.1-4                      amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2+20201114-1                all    basic terminal type definitions
-ii   ncurses-bin             6.2+20201114-1                amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2+20201114-2                all    basic terminal type definitions
+ii   ncurses-bin             6.2+20201114-2                amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
 ii   perl-base               5.32.0-6                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
