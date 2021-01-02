@@ -465,7 +465,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "diffutils-doc, wdiff",
-    "Version": "1:3.7-4",
+    "Version": "1:3.7-5",
     "binary:Package": "diffutils",
     "binary:Summary": "File comparison utilities",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "diffutils",
-    "source:Version": "1:3.7-4"
+    "source:Version": "1:3.7-5"
   },
   {
     "Architecture": "amd64",
@@ -2439,7 +2439,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cowdancer (<< 0.89~)",
-    "Depends": "libtinfo6 (= 6.2+20201114-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.2+20201114-2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "335",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-1",
+    "Version": "6.2+20201114-2",
     "binary:Package": "libncurses6:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2461,13 +2461,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-1"
+    "source:Version": "6.2+20201114-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.2+20201114-1), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.2+20201114-2), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "420",
@@ -2481,7 +2481,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-1",
+    "Version": "6.2+20201114-2",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-1"
+    "source:Version": "6.2+20201114-2"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-1",
+    "Version": "6.2+20201114-2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-1"
+    "source:Version": "6.2+20201114-2"
   },
   {
     "Architecture": "all",
@@ -4090,11 +4090,11 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "mime-support (<= 3.64)",
+    "Breaks": "mime-support (<< 3.65)",
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "46",
+    "Installed-Size": "48",
     "Origin": "",
     "Package": "media-types",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "1.0.1"
+    "source:Version": "1.1.0"
   },
   {
     "Architecture": "all",
@@ -4189,7 +4189,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-1",
+    "Version": "6.2+20201114-2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-1"
+    "source:Version": "6.2+20201114-2"
   },
   {
     "Architecture": "amd64",
@@ -4217,7 +4217,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-1",
+    "Version": "6.2+20201114-2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-1"
+    "source:Version": "6.2+20201114-2"
   },
   {
     "Architecture": "amd64",

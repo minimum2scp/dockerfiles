@@ -76,7 +76,7 @@ ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compli
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.7-4                         amd64  File comparison utilities
+ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.5                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
@@ -147,8 +147,8 @@ ii   liblz4-1                1.9.3-1                         amd64  Fast LZ comp
 ii   liblzma5                5.2.5-1.0                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-4                        amd64  device mounting library
-ii   libncurses6             6.2+20201114-1                  amd64  shared libraries for terminal handling
-ii   libncursesw6            6.2+20201114-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
+ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.42.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -186,7 +186,7 @@ ii   libssl1.1               1.1.1i-1                        amd64  Secure Socke
 ii   libstdc++6              10.2.1-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.2-3                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2+20201114-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
@@ -206,11 +206,11 @@ ii   lv                      4.51-8                          amd64  Powerful Mul
 ii   mailcap                 3.68                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
-ii   media-types             1.0.1                           all    List of standard media types and their usual file extension
+ii   media-types             1.1.0                           all    List of standard media types and their usual file extension
 ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36.1-4                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2+20201114-1                  all    basic terminal type definitions
-ii   ncurses-bin             6.2+20201114-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
+ii   ncurses-bin             6.2+20201114-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
 ii   openssh-client          1:8.4p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
