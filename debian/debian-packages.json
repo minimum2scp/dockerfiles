@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1-1",
+    "Version": "5.1-2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.1-1"
+    "source:Version": "5.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.2-3",
+    "Version": "247.2-4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.2-3"
+    "source:Version": "247.2-4"
   },
   {
     "Architecture": "amd64",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.2-3",
+    "Version": "247.2-4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.2-3"
+    "source:Version": "247.2-4"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2020e-1",
+    "Version": "2020f-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2020e-1"
+    "source:Version": "2020f-1"
   },
   {
     "Architecture": "amd64",
