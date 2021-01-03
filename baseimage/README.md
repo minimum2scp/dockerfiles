@@ -64,7 +64,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     2.1.15                          amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.48                          amd64  Debian base system master password and group files
-ii   bash                    5.1-1                           amd64  GNU Bourne Again SHell
+ii   bash                    5.1-2                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-4                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.36.1-4                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
@@ -184,13 +184,13 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-3                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.2-3                         amd64  systemd utility library
+ii   libsystemd0             247.2-4                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.2-3                         amd64  libudev shared library
+ii   libudev1                247.2-4                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-4                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -236,7 +236,7 @@ ii   sysv-rc                 2.96-5                          all    System-V-lik
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
 ii   tar                     1.32+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2020e-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2020f-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-4                        amd64  miscellaneous system utilities
