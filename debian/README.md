@@ -48,11 +48,11 @@ ii   libattr1                1:2.4.48-6                    amd64  extended attri
 ii   libaudit-common         1:3.0-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-4                      amd64  block device ID library
-ii   libbpf0                 1:0.2-1                       amd64  eBPF helper library (shared library)
+ii   libbpf0                 1:0.3-1                       amd64  eBPF helper library (shared library)
 ii   libbsd0                 0.10.0-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-6                        amd64  GNU C Library: Binaries
-ii   libc6                   2.31-6                        amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-7                        amd64  GNU C Library: Binaries
+ii   libc6                   2.31-7                        amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                      amd64  POSIX 1003.1e capabilities (utilities)
