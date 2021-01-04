@@ -101,13 +101,13 @@ ii   libattr1                1:2.4.48-6                      amd64  extended att
 ii   libaudit-common         1:3.0-1                         all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-1                         amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-4                        amd64  block device ID library
-ii   libbpf0                 1:0.2-1                         amd64  eBPF helper library (shared library)
+ii   libbpf0                 1:0.3-1                         amd64  eBPF helper library (shared library)
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-6                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-6                          all    GNU C Library: localization files
-ii   libc6                   2.31-6                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-7                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-7                          all    GNU C Library: localization files
+ii   libc6                   2.31-7                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
@@ -198,7 +198,7 @@ ii   libxtables12            1.8.6-1                         amd64  netfilter xt
 ii   libxxhash0              0.8.0-1                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-6                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-7                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.45.6-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
@@ -231,7 +231,7 @@ ii   runit-helper            2.10.3                          all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.4p2-1                       amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.4p2-2                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
