@@ -45,14 +45,14 @@ ii   iputils-ping            3:20200821-2                  amd64  Tools to test 
 ii   libacl1                 2.2.53-9                      amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.15                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                    amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0-2                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-4                      amd64  block device ID library
 ii   libbpf0                 1:0.3-1                       amd64  eBPF helper library (shared library)
 ii   libbsd0                 0.10.0-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-7                        amd64  GNU C Library: Binaries
-ii   libc6                   2.31-7                        amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-9                        amd64  GNU C Library: Binaries
+ii   libc6                   2.31-9                        amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                      amd64  POSIX 1003.1e capabilities (utilities)
@@ -60,7 +60,7 @@ ii   libcom-err2             1.45.6-1                      amd64  common error d
 ii   libcrypt1               1:4.4.17-1                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                         amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.182-2                       amd64  library to read and write ELF files
+ii   libelf1                 0.182-3                       amd64  library to read and write ELF files
 ii   libext2fs2              1.45.6-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-5                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.1-3                      amd64  GCC support library
