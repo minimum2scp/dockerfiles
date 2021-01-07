@@ -98,8 +98,8 @@ ii   iputils-ping            3:20200821-2                    amd64  Tools to tes
 ii   libacl1                 2.2.53-9                        amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.15                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0-1                         all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0-1                         amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-4                        amd64  block device ID library
 ii   libbpf0                 1:0.3-1                         amd64  eBPF helper library (shared library)
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
@@ -119,7 +119,7 @@ ii   libcurl4                7.74.0-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.182-2                         amd64  library to read and write ELF files
+ii   libelf1                 0.182-3                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
@@ -206,7 +206,7 @@ ii   lv                      4.51-8                          amd64  Powerful Mul
 ii   mailcap                 3.68                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
-ii   media-types             1.1.0                           all    List of standard media types and their usual file extension
+ii   media-types             2.0.0                           all    List of standard media types and their usual file extension
 ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36.1-4                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
