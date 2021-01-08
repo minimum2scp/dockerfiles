@@ -77,7 +77,7 @@ ii   debconf                 1.5.74                          all    Debian confi
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
-ii   dpkg                    1.20.5                          amd64  Debian package management system
+ii   dpkg                    1.20.6                          amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.7.0+git20201010-2             amd64  utilities for finding files--find, xargs
@@ -206,7 +206,7 @@ ii   lv                      4.51-8                          amd64  Powerful Mul
 ii   mailcap                 3.68                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
-ii   media-types             2.0.0                           all    List of standard media types and their usual file extension
+ii   media-types             3.0.0                           all    List of standard media types and their usual file extension
 ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36.1-4                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions

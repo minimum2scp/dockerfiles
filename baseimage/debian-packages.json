@@ -482,10 +482,10 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6673",
+    "Installed-Size": "6853",
     "Origin": "",
     "Package": "dpkg",
-    "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)",
+    "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -493,7 +493,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.20.5",
+    "Version": "1.20.6",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.20.5"
+    "source:Version": "1.20.6"
   },
   {
     "Architecture": "amd64",
@@ -4105,7 +4105,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.0",
+    "Version": "3.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "2.0.0"
+    "source:Version": "3.0.0"
   },
   {
     "Architecture": "all",
