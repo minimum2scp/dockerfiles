@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "mlocate | locate",
-    "Version": "4.7.0+git20210106-2",
+    "Version": "4.8.0-1",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.7.0+git20210106-2"
+    "source:Version": "4.8.0-1"
   },
   {
     "Architecture": "amd64",
