@@ -80,7 +80,7 @@ ii   diffutils               1:3.7-5                         amd64  File compari
 ii   dpkg                    1.20.7.1                        amd64  Debian package management system
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
-ii   findutils               4.7.0+git20210106-2             amd64  utilities for finding files--find, xargs
+ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-5                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.30.0-1                      amd64  fast, scalable, distributed revision control system
