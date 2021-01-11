@@ -81,8 +81,8 @@ ii   dpkg                    1.20.7.1                        amd64  Debian packa
 ii   e2fsprogs               1.45.6-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.1-5                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-19                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-20                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.30.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.30.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
@@ -101,7 +101,7 @@ ii   libattr1                1:2.4.48-6                      amd64  extended att
 ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-4                        amd64  block device ID library
-ii   libbpf0                 1:0.3-1                         amd64  eBPF helper library (shared library)
+ii   libbpf0                 1:0.3-2                         amd64  eBPF helper library (shared library)
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.10.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
@@ -127,7 +127,7 @@ ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10.2.1-5                        amd64  GCC support library
+ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
@@ -166,8 +166,8 @@ ii   libpopt0                1.18-2                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.1-1                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.1-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.1-2                         amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.1-2                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -183,7 +183,7 @@ ii   libsqlite3-0            3.34.0-1                        amd64  SQLite 3 sha
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.1-5                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.2-4                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
@@ -223,8 +223,8 @@ ii   perl-modules-5.32       5.32.0-6                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.1-1                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.1-1                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.1-2                         amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.1-2                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
@@ -238,7 +238,7 @@ ii   sysvinit-utils          2.96-5                          amd64  System-V-lik
 ii   tar                     1.32+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2020f-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-25                          amd64  De-archiver for .zip files
+ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-4                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.1913-1                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.2.1913-1+b2                 amd64  Vi IMproved - enhanced vi editor - compact version
