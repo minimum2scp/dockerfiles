@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-9
 I: Validating adduser 3.118
-I: Validating apt 2.1.16
-I: Validating libapt-pkg6.0 2.1.16
+I: Retrieving apt 2.1.17
+I: Validating apt 2.1.17
+I: Retrieving libapt-pkg6.0 2.1.17
+I: Validating libapt-pkg6.0 2.1.17
 I: Validating libattr1 1:2.4.48-6
 I: Validating libaudit-common 1:3.0-2
 I: Validating libaudit1 1:3.0-2
@@ -34,13 +36,9 @@ I: Validating libss2 1.45.6-1
 I: Validating logsave 1.45.6-1
 I: Validating libelf1 0.182-3
 I: Validating findutils 4.8.0-1
-I: Retrieving gcc-10-base 10.2.1-6
 I: Validating gcc-10-base 10.2.1-6
-I: Retrieving libgcc-s1 10.2.1-6
 I: Validating libgcc-s1 10.2.1-6
-I: Retrieving libstdc++6 10.2.1-6
 I: Validating libstdc++6 10.2.1-6
-I: Retrieving gcc-9-base 9.3.0-20
 I: Validating gcc-9-base 9.3.0-20
 I: Validating libc-bin 2.31-9
 I: Validating libc6 2.31-9
@@ -59,7 +57,6 @@ I: Validating libgssapi-krb5-2 1.18.3-4
 I: Validating libk5crypto3 1.18.3-4
 I: Validating libkrb5-3 1.18.3-4
 I: Validating libkrb5support0 1.18.3-4
-I: Retrieving libbpf0 1:0.3-2
 I: Validating libbpf0 1:0.3-2
 I: Validating libbsd0 0.10.0-1
 I: Validating libcap-ng0 0.7.9-2.2+b1
@@ -107,14 +104,22 @@ I: Validating libudev1 247.2-4
 I: Validating sysvinit-utils 2.96-5
 I: Validating tar 1.32+dfsg-1
 I: Validating tzdata 2020f-1
-I: Validating bsdutils 1:2.36.1-4
-I: Validating libblkid1 2.36.1-4
-I: Validating libmount1 2.36.1-4
-I: Validating libsmartcols1 2.36.1-4
-I: Validating libuuid1 2.36.1-4
-I: Validating mount 2.36.1-4
-I: Validating util-linux 2.36.1-4
-I: Validating libxxhash0 0.8.0-1
+I: Retrieving bsdutils 1:2.36.1-5
+I: Validating bsdutils 1:2.36.1-5
+I: Retrieving libblkid1 2.36.1-5
+I: Validating libblkid1 2.36.1-5
+I: Retrieving libmount1 2.36.1-5
+I: Validating libmount1 2.36.1-5
+I: Retrieving libsmartcols1 2.36.1-5
+I: Validating libsmartcols1 2.36.1-5
+I: Retrieving libuuid1 2.36.1-5
+I: Validating libuuid1 2.36.1-5
+I: Retrieving mount 2.36.1-5
+I: Validating mount 2.36.1-5
+I: Retrieving util-linux 2.36.1-5
+I: Validating util-linux 2.36.1-5
+I: Retrieving libxxhash0 0.8.0-2
+I: Validating libxxhash0 0.8.0-2
 I: Validating liblzma5 5.2.5-1.0
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -439,14 +444,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.71MB
+Sending build context to Docker daemon  34.72MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 7f74b3be084e
+ ---> 499624dfeca8
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in df56b319f6ef
-Removing intermediate container df56b319f6ef
- ---> 6fb9bc95a803
-Successfully built 6fb9bc95a803
+ ---> Running in 2dfe010a952b
+Removing intermediate container 2dfe010a952b
+ ---> 3b2336a91545
+Successfully built 3b2336a91545
 Successfully tagged minimum2scp/debian:latest
