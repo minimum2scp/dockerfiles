@@ -229,9 +229,9 @@ ii   readline-common         8.1-1                           all    GNU readline
 ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.12+nmu1                     all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.5-1                         amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.5p1-1                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
