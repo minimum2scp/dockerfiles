@@ -129,8 +129,8 @@ ii   libffi7                 3.3-5                           amd64  Foreign Func
 ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.18.1-5.1                      amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.18.1-5.1                      amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.19-1                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.19-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.0-5                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
@@ -206,7 +206,7 @@ ii   lv                      4.51-8                          amd64  Powerful Mul
 ii   mailcap                 3.68                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
-ii   media-types             3.0.0                           all    List of standard media types and their usual file extension
+ii   media-types             4.0.0                           all    List of standard media types and their usual file extension
 ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36.1-5                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions

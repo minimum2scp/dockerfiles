@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.14), libgdbm6 (>= 1.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "66",
+    "Installed-Size": "67",
     "Origin": "",
     "Package": "libgdbm-compat4",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.18.1-5.1",
+    "Version": "1.19-1",
     "binary:Package": "libgdbm-compat4:amd64",
     "binary:Summary": "GNU dbm database routines (legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.18.1-5.1"
+    "source:Version": "1.19-1"
   },
   {
     "Architecture": "amd64",
@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "113",
+    "Installed-Size": "114",
     "Origin": "",
     "Package": "libgdbm6",
     "Pre-Depends": "",
@@ -1976,8 +1976,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.18.1-5.1)",
-    "Version": "1.18.1-5.1",
+    "Suggests": "gdbm-l10n (= 1.19-1)",
+    "Version": "1.19-1",
     "binary:Package": "libgdbm6:amd64",
     "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.18.1-5.1"
+    "source:Version": "1.19-1"
   },
   {
     "Architecture": "amd64",
@@ -4105,7 +4105,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.0",
+    "Version": "4.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "3.0.0"
+    "source:Version": "4.0.0"
   },
   {
     "Architecture": "all",
