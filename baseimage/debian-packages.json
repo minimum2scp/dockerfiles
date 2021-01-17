@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.0-2",
+    "Version": "1.6.0-2",
     "binary:Package": "libfido2-1:amd64",
     "binary:Summary": "library for generating and verifying FIDO 2.0 objects",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfido2",
-    "source:Version": "1.5.0-2"
+    "source:Version": "1.6.0-2"
   },
   {
     "Architecture": "amd64",
@@ -5186,7 +5186,7 @@
     "Depends": "zsh-common (= 5.8-5), libc6 (>= 2.29), libcap2 (>= 1:2.10), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2442",
+    "Installed-Size": "2467",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "",
@@ -5197,7 +5197,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.8-5",
+    "Version": "5.8-5+b1",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",

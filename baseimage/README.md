@@ -126,7 +126,7 @@ ii   libexpat1               2.2.10-1                        amd64  XML parsing 
 ii   libext2fs2              1.45.6-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                        amd64  fast json library for C
 ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
-ii   libfido2-1              1.5.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.19-1                          amd64  GNU dbm database routines (legacy support runtime version) 
@@ -245,7 +245,7 @@ ii   vim-tiny                2:8.2.2344-2                    amd64  Vi IMproved 
 ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.2.2344-2                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
-ii   zsh                     5.8-5                           amd64  shell with lots of features
+ii   zsh                     5.8-5+b1                        amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
 ii   zstd                    1.4.8+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
