@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.36.1-5",
+    "Version": "1:2.36.1-6",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -941,7 +941,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "5.10.0-2",
+    "Version": "5.10.0-3",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "5.10.0-2"
+    "source:Version": "5.10.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -3422,7 +3422,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4112",
+    "Installed-Size": "4113",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1i-1",
+    "Version": "1.1.1i-2",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1i-1"
+    "source:Version": "1.1.1i-2"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3713,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "amd64",
@@ -3758,7 +3758,7 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "110",
+    "Installed-Size": "111",
     "Origin": "",
     "Package": "libxtables12",
     "Pre-Depends": "",
@@ -3769,7 +3769,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.6-1",
+    "Version": "1.8.7-1",
     "binary:Package": "libxtables12:amd64",
     "binary:Summary": "netfilter xtables library",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iptables",
-    "source:Version": "1.8.6-1"
+    "source:Version": "1.8.7-1"
   },
   {
     "Architecture": "amd64",
@@ -4161,7 +4161,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -4169,7 +4169,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "all",
@@ -4346,7 +4346,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1465",
+    "Installed-Size": "1466",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1i-1",
+    "Version": "1.1.1i-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1i-1"
+    "source:Version": "1.1.1i-2"
   },
   {
     "Architecture": "amd64",
@@ -5029,7 +5029,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.36.1-5",
+    "Version": "2.36.1-6",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -5037,7 +5037,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-5"
+    "source:Version": "2.36.1-6"
   },
   {
     "Architecture": "all",
@@ -5046,7 +5046,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "338",
+    "Installed-Size": "339",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -5057,7 +5057,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2344-2",
+    "Version": "2:8.2.2367-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -5065,13 +5065,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2344-2"
+    "source:Version": "2:8.2.2367-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.2.2344-2), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.2367-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1572",
@@ -5085,7 +5085,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.2.2344-2",
+    "Version": "2:8.2.2367-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -5093,7 +5093,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2344-2"
+    "source:Version": "2:8.2.2367-1"
   },
   {
     "Architecture": "amd64",
@@ -5141,7 +5141,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2344-2",
+    "Version": "2:8.2.2367-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -5149,7 +5149,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2344-2"
+    "source:Version": "2:8.2.2367-1"
   },
   {
     "Architecture": "amd64",
