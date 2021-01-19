@@ -129,8 +129,8 @@ ii   libffi7                 3.3-5                           amd64  Foreign Func
 ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.19-1                          amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.19-1                          amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.0-5                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
@@ -184,13 +184,13 @@ ii   libss2                  1.45.6-1                        amd64  command-line
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.2-4                         amd64  systemd utility library
+ii   libsystemd0             247.2-5                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.2-4                         amd64  libudev shared library
+ii   libudev1                247.2-5                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-6                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
