@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "381",
+    "Installed-Size": "382",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20200601",
+    "Version": "20210119",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20200601"
+    "source:Version": "20210119"
   },
   {
     "Architecture": "amd64",

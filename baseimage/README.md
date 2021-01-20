@@ -68,7 +68,7 @@ ii   bash                    5.1-2                           amd64  GNU Bourne A
 ii   bsdextrautils           2.36.1-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.36.1-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates         20200601                        all    Common CA certificates
+ii   ca-certificates         20210119                        all    Common CA certificates
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
 ii   curl                    7.74.0-1                        amd64  command line tool for transferring data with URL syntax
