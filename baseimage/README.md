@@ -147,6 +147,7 @@ ii   liblz4-1                1.9.3-1                         amd64  Fast LZ comp
 ii   liblzma5                5.2.5-1.0                       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-6                        amd64  device mounting library
+ii   libmpdec3               2.5.1~rc1-2                     amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.6-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -166,8 +167,8 @@ ii   libpopt0                1.18-2                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.1-2                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.1-2                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.1-3                         amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.1-3                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -179,7 +180,7 @@ ii   libsemanage1            3.1-1+b2                        amd64  SELinux poli
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-6                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.34.0-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.34.1-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.6-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-2                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -223,8 +224,8 @@ ii   perl-modules-5.32       5.32.0-6                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.1-2                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.1-2                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.1-3                         amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.1-3                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
