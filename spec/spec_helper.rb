@@ -54,7 +54,7 @@ def stop_container
   Specinfra.backend.set_config(:ssh, nil)
 end
 
-def wait_container_port(port, timeout: 60, interval: 1)
+def wait_container_port(port, timeout: 120, interval: 1)
   Timeout.timeout(timeout) do
     begin
       s = TCPSocket.open(Specinfra.configuration.host, port)
@@ -66,7 +66,7 @@ def wait_container_port(port, timeout: 60, interval: 1)
   end
 end
 
-def wait_container_file(file, timeout: 60, interval: 1)
+def wait_container_file(file, timeout: 120, interval: 1)
   container = Specinfra.configuration.docker_container_obj
   begin
     Timeout.timeout(timeout) do
@@ -82,7 +82,7 @@ def wait_container_file(file, timeout: 60, interval: 1)
   end
 end
 
-def container_exec(cmd, timeout: 60)
+def container_exec(cmd, timeout: 120)
   container = Specinfra.configuration.docker_container_obj
   begin
     Timeout.timeout(timeout) do
