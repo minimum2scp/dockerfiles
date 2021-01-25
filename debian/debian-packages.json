@@ -2873,7 +2873,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2020f-1",
+    "Version": "2021a-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2020f-1"
+    "source:Version": "2021a-1"
   },
   {
     "Architecture": "amd64",
