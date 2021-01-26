@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "68",
+    "Installed-Size": "76",
     "Origin": "",
     "Package": "libfastjson4",
     "Pre-Depends": "",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.99.8-2",
+    "Version": "0.99.9-1",
     "binary:Package": "libfastjson4:amd64",
     "binary:Summary": "fast json library for C",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfastjson",
-    "source:Version": "0.99.8-2"
+    "source:Version": "0.99.9-1"
   },
   {
     "Architecture": "amd64",
