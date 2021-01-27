@@ -87,7 +87,7 @@ ii   git                     1:2.30.0-1                      amd64  fast, scalab
 ii   git-man                 1:2.30.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.4-5                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-2                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
@@ -232,7 +232,7 @@ ii   runit-helper            2.10.3                          all    dh-runit imp
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.9.5p1-1                       amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.9.5p2-1                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
