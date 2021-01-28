@@ -13,7 +13,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -35,7 +35,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -70,7 +70,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -105,7 +105,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -137,7 +137,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
@@ -172,7 +172,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -204,7 +204,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -236,7 +236,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -268,7 +268,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -300,7 +300,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -332,7 +332,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -356,7 +356,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -378,7 +378,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -413,7 +413,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -445,7 +445,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -469,7 +469,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -491,7 +491,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -526,7 +526,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
@@ -558,7 +558,7 @@ jobs:
       # setup ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.0
           bundler-cache: true
 
       # run test
