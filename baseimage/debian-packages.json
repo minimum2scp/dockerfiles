@@ -510,10 +510,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1449",
+    "Installed-Size": "1480",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.45.6-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.45.7-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.45.6-1",
+    "Version": "1.45.7-1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.6-1"
+    "source:Version": "1.45.7-1"
   },
   {
     "Architecture": "all",
@@ -1462,18 +1462,18 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "95",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.45.6-1)",
+    "Provides": "libcomerr2 (= 1.45.7-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.6-1",
+    "Version": "1.45.7-1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.6-1"
+    "source:Version": "1.45.7-1"
   },
   {
     "Architecture": "amd64",
@@ -1770,18 +1770,18 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "556",
+    "Installed-Size": "561",
     "Origin": "",
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.45.6-1)",
+    "Provides": "e2fslibs (= 1.45.7-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.6-1",
+    "Version": "1.45.7-1",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.6-1"
+    "source:Version": "1.45.7-1"
   },
   {
     "Architecture": "amd64",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.1~rc1-2",
+    "Version": "2.5.1-1",
     "binary:Package": "libmpdec3:amd64",
     "binary:Summary": "library for decimal floating point arithmetic (runtime library)",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mpdecimal",
-    "source:Version": "2.5.1~rc1-2"
+    "source:Version": "2.5.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "libcom-err2, libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "107",
+    "Installed-Size": "112",
     "Origin": "",
     "Package": "libss2",
     "Pre-Depends": "",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.6-1",
+    "Version": "1.45.7-1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.6-1"
+    "source:Version": "1.45.7-1"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "91",
+    "Installed-Size": "92",
     "Origin": "",
     "Package": "logsave",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.45.6-1",
+    "Version": "1.45.7-1",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.45.6-1"
+    "source:Version": "1.45.7-1"
   },
   {
     "Architecture": "all",
