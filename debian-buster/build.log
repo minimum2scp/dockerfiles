@@ -377,9 +377,9 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
 Hit:2 http://ftp.jp.debian.org/debian buster InRelease
 Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [324 kB]
-Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [8806 B]
-Fetched 450 kB in 1s (476 kB/s)
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [338 kB]
+Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [8805 B]
+Fetched 464 kB in 1s (796 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -389,11 +389,11 @@ The following packages will be upgraded:
 4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 Need to get 2967 kB of archives.
 After this operation, 1024 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2020e-0+deb10u1 [266 kB]
-Get:2 http://security.debian.org buster/updates/main amd64 libapt-pkg5.0 amd64 1.8.2.2 [966 kB]
+Get:1 http://security.debian.org buster/updates/main amd64 libapt-pkg5.0 amd64 1.8.2.2 [966 kB]
+Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u1 [266 kB]
 Get:3 http://security.debian.org buster/updates/main amd64 apt amd64 1.8.2.2 [1419 kB]
 Get:4 http://security.debian.org buster/updates/main amd64 libp11-kit0 amd64 0.23.15-2+deb10u1 [316 kB]
-Fetched 2967 kB in 2s (1513 kB/s)
+Fetched 2967 kB in 0s (10.1 MB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libapt-pkg5.0_1.8.2.2_amd64.deb ...
 Unpacking libapt-pkg5.0:amd64 (1.8.2.2) over (1.8.2.1) ...
@@ -407,18 +407,18 @@ Preparing to unpack .../libp11-kit0_0.23.15-2+deb10u1_amd64.deb ...
 Unpacking libp11-kit0:amd64 (0.23.15-2+deb10u1) over (0.23.15-2) ...
 Setting up libp11-kit0:amd64 (0.23.15-2+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../tzdata_2020e-0+deb10u1_all.deb ...
-Unpacking tzdata (2020e-0+deb10u1) over (2020d-0+deb10u1) ...
-Setting up tzdata (2020e-0+deb10u1) ...
+Preparing to unpack .../tzdata_2021a-0+deb10u1_all.deb ...
+Unpacking tzdata (2021a-0+deb10u1) over (2020d-0+deb10u1) ...
+Setting up tzdata (2021a-0+deb10u1) ...
 Processing triggers for libc-bin (2.28-10) ...
 Sending build context to Docker daemon  30.21MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1da31ea8651c
+ ---> 0bbcd61eb433
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 5da25cc26182
-Removing intermediate container 5da25cc26182
- ---> 0995ac264adf
-Successfully built 0995ac264adf
+ ---> Running in a018b199ed04
+Removing intermediate container a018b199ed04
+ ---> 7a880f01e16b
+Successfully built 7a880f01e16b
 Successfully tagged minimum2scp/debian-buster:latest
