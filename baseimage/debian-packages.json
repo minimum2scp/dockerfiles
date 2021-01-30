@@ -4833,7 +4833,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.5p2-1",
+    "Version": "1.9.5p2-2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4841,7 +4841,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.5p2-1"
+    "source:Version": "1.9.5p2-2"
   },
   {
     "Architecture": "all",
