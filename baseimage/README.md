@@ -183,7 +183,7 @@ ii   libsmartcols1           2.36.1-6                        amd64  smart column
 ii   libsqlite3-0            3.34.1-1                        amd64  SQLite 3 shared library
 ii   libss2                  1.45.7-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1i-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1i-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.2-5                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -216,7 +216,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1i-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1i-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.0-6                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.0-6                        amd64  minimal Perl system
@@ -241,10 +241,10 @@ ii   tzdata                  2021a-1                         all    time zone an
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-6                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.2367-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.2367-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.2434-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.2434-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.2367-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.2434-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-5+b1                        amd64  shell with lots of features
 ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
