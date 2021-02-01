@@ -42,7 +42,7 @@ ii   hostname                3.23                          amd64  utility to set
 ii   init-system-helpers     1.60                          all    helper tools for all init systems
 ii   iproute2                5.10.0-3                      amd64  networking and traffic control tools
 ii   iputils-ping            3:20200821-2                  amd64  Tools to test the reachability of network hosts
-ii   libacl1                 2.2.53-9                      amd64  access control list - shared library
+ii   libacl1                 2.2.53-10                     amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.18                        amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                    amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0-2                       all    Dynamic library for security auditing - common files
@@ -69,7 +69,7 @@ ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision
 ii   libgnutls30             3.7.0-5                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6             3.6-2                         amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6             3.7-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                       amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.18.3-4                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Management Utilities (library)
@@ -79,7 +79,7 @@ ii   liblz4-1                1.9.3-1                       amd64  Fast LZ compre
 ii   liblzma5                5.2.5-1.0                     amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-6                      amd64  device mounting library
-ii   libnettle8              3.6-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8              3.7-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-2                       amd64  Pluggable Authentication Modules for PAM
