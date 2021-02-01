@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.53-9",
+    "Version": "2.2.53-10",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.2.53-9"
+    "source:Version": "2.2.53-10"
   },
   {
     "Architecture": "amd64",
@@ -2103,10 +2103,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle8",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.1.0), libnettle8",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "448",
+    "Installed-Size": "452",
     "Origin": "",
     "Package": "libhogweed6",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.6-2",
+    "Version": "3.7-2",
     "binary:Package": "libhogweed6:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.6-2"
+    "source:Version": "3.7-2"
   },
   {
     "Architecture": "amd64",
@@ -2526,7 +2526,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "439",
+    "Installed-Size": "477",
     "Origin": "",
     "Package": "libnettle8",
     "Pre-Depends": "",
@@ -2537,7 +2537,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.6-2",
+    "Version": "3.7-2",
     "binary:Package": "libnettle8:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.6-2"
+    "source:Version": "3.7-2"
   },
   {
     "Architecture": "amd64",
