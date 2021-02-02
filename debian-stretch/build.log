@@ -343,8 +343,8 @@ Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
 Get:3 http://security.debian.org stretch/updates InRelease [53.0 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
 Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [2711 B]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [809 kB]
-Fetched 959 kB in 0s (964 kB/s)
+Get:6 http://security.debian.org stretch/updates/main amd64 Packages [820 kB]
+Fetched 970 kB in 0s (994 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -360,8 +360,8 @@ Get:3 http://security.debian.org stretch/updates/main amd64 libapt-pkg5.0 amd64 
 Get:4 http://security.debian.org stretch/updates/main amd64 apt amd64 1.4.11 [1232 kB]
 Get:5 http://security.debian.org stretch/updates/main amd64 libcomerr2 amd64 1.43.4-2+deb9u2 [63.8 kB]
 Get:6 http://security.debian.org stretch/updates/main amd64 libss2 amd64 1.43.4-2+deb9u2 [68.0 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 tzdata all 2020e-0+deb9u1 [280 kB]
-Fetched 3718 kB in 6s (560 kB/s)
+Get:7 http://security.debian.org stretch/updates/main amd64 tzdata all 2021a-0+deb9u1 [281 kB]
+Fetched 3718 kB in 0s (12.9 MB/s)
 (Reading database ... 6505 files and directories currently installed.)
 Preparing to unpack .../e2fslibs_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking e2fslibs:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
@@ -387,18 +387,18 @@ Preparing to unpack .../libss2_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking libss2:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
 Setting up libss2:amd64 (1.43.4-2+deb9u2) ...
 (Reading database ... 6505 files and directories currently installed.)
-Preparing to unpack .../tzdata_2020e-0+deb9u1_all.deb ...
-Unpacking tzdata (2020e-0+deb9u1) over (2020a-0+deb9u1) ...
-Setting up tzdata (2020e-0+deb9u1) ...
+Preparing to unpack .../tzdata_2021a-0+deb9u1_all.deb ...
+Unpacking tzdata (2021a-0+deb9u1) over (2020a-0+deb9u1) ...
+Setting up tzdata (2021a-0+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u4) ...
-Sending build context to Docker daemon  26.73MB
+Sending build context to Docker daemon  26.72MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f02f5d99aff7
+ ---> 347af16f7be1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 78c3eaa94320
-Removing intermediate container 78c3eaa94320
- ---> 3aba29b41dc1
-Successfully built 3aba29b41dc1
+ ---> Running in 97c8d43ec0b1
+Removing intermediate container 97c8d43ec0b1
+ ---> ef9317687229
+Successfully built ef9317687229
 Successfully tagged minimum2scp/debian-stretch:latest
