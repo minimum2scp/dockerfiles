@@ -82,10 +82,10 @@ ii   libmount1               2.36.1-6                      amd64  device mountin
 ii   libnettle8              3.7-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-2                       amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-2                       amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-2                       all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-2                       amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.4.0-3                       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-3                       amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-3                       all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-3                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
@@ -116,7 +116,7 @@ ii   mount                   2.36.1-6                      amd64  tools for moun
 ii   ncurses-base            6.2+20201114-2                all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2                amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
-ii   perl-base               5.32.0-6                      amd64  minimal Perl system
+ii   perl-base               5.32.1-2                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-5                        amd64  System-V-like utilities
 ii   tar                     1.32+dfsg-1                   amd64  GNU version of the tar archiving utility
