@@ -2162,7 +2162,7 @@
     "Depends": "libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libsasl2-2 (>= 2.1.27+dfsg), libldap-common",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "525",
+    "Installed-Size": "526",
     "Origin": "",
     "Package": "libldap-2.4-2",
     "Pre-Depends": "",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.47+dfsg-3+deb10u4",
+    "Version": "2.4.47+dfsg-3+deb10u5",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.47+dfsg-3+deb10u4"
+    "source:Version": "2.4.47+dfsg-3+deb10u5"
   },
   {
     "Architecture": "all",
@@ -2190,7 +2190,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "112",
+    "Installed-Size": "113",
     "Origin": "",
     "Package": "libldap-common",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.47+dfsg-3+deb10u4",
+    "Version": "2.4.47+dfsg-3+deb10u5",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.47+dfsg-3+deb10u4"
+    "source:Version": "2.4.47+dfsg-3+deb10u5"
   },
   {
     "Architecture": "amd64",
