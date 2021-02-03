@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.3.0-20",
+    "Version": "9.3.0-21",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.3.0-20"
+    "source:Version": "9.3.0-21"
   },
   {
     "Architecture": "amd64",
@@ -661,7 +661,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3:20200821-2",
+    "Version": "3:20210202-1",
     "binary:Package": "iputils-ping",
     "binary:Summary": "Tools to test the reachability of network hosts",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iputils",
-    "source:Version": "3:20200821-2"
+    "source:Version": "3:20210202-1"
   },
   {
     "Architecture": "amd64",
