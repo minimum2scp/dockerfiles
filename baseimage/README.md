@@ -82,7 +82,7 @@ ii   e2fsprogs               1.45.7-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-20                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.3.0-21                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.30.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.30.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.20-1                        amd64  GNU privacy guard - signature verification tool
@@ -94,7 +94,7 @@ ii   init-system-helpers     1.60                            all    helper tools
 ii   initscripts             2.96-5                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.10.0-3                        amd64  networking and traffic control tools
-ii   iputils-ping            3:20200821-2                    amd64  Tools to test the reachability of network hosts
+ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.18                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
