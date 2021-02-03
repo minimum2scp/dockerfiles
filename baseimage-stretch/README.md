@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerbe
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u6               amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u6               all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u7               amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u7               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                      amd64  Fast LZ compression algorithm library - runtime
