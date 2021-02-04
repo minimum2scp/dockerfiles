@@ -60,7 +60,7 @@ ii   libcom-err2             1.45.7-1                      amd64  common error d
 ii   libcrypt1               1:4.4.17-1                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.6              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                         amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.182-3                       amd64  library to read and write ELF files
+ii   libelf1                 0.182+20210203-1              amd64  library to read and write ELF files
 ii   libext2fs2              1.45.7-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-5                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.1-6                      amd64  GCC support library
@@ -82,10 +82,10 @@ ii   libmount1               2.36.1-6                      amd64  device mountin
 ii   libnettle8              3.7-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-3                       amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-3                       amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-3                       all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-3                       amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.4.0-4                       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-4                       amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-4                       all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-4                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
@@ -97,12 +97,12 @@ ii   libsmartcols1           2.36.1-6                      amd64  smart column o
 ii   libss2                  1.45.7-1                      amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1i-3                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.2-5                       amd64  systemd utility library
+ii   libsystemd0             247.3-1                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                       all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                       amd64  transport-independent RPC library
-ii   libudev1                247.2-5                       amd64  libudev shared library
+ii   libudev1                247.3-1                       amd64  libudev shared library
 ii   libunistring2           0.9.10-4                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-6                      amd64  Universally Unique ID library
 ii   libxtables12            1.8.7-1                       amd64  netfilter xtables library
