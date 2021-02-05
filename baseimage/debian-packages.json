@@ -538,7 +538,7 @@
     "Depends": "git | mercurial | brz | darcs, debconf (>= 0.5) | debconf-2.0, python3:any",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "162",
+    "Installed-Size": "176",
     "Origin": "",
     "Package": "etckeeper",
     "Pre-Depends": "",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.14-1",
+    "Version": "1.18.16-1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.14-1"
+    "source:Version": "1.18.16-1"
   },
   {
     "Architecture": "amd64",
@@ -1658,7 +1658,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "945",
+    "Installed-Size": "947",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.182+20210203-1",
+    "Version": "0.182+20210203-1.1+b1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.182+20210203-1"
+    "source:Version": "0.182+20210203-1.1"
   },
   {
     "Architecture": "all",
@@ -2946,7 +2946,7 @@
     "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "91",
+    "Installed-Size": "95",
     "Origin": "",
     "Package": "libpsl5",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.21.0-1.1",
+    "Version": "0.21.0-1.2",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.21.0-1.1"
+    "source:Version": "0.21.0-1.2"
   },
   {
     "Architecture": "amd64",

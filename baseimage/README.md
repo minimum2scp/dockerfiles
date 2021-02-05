@@ -79,7 +79,7 @@ ii   debianutils             4.11.2                          amd64  Miscellaneou
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.7.1                        amd64  Debian package management system
 ii   e2fsprogs               1.45.7-1                        amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper               1.18.14-1                       all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-21                        amd64  GCC, the GNU Compiler Collection (base package)
@@ -119,7 +119,7 @@ ii   libcurl4                7.74.0-1                        amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.182+20210203-1                amd64  library to read and write ELF files
+ii   libelf1                 0.182+20210203-1.1+b1           amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
@@ -165,7 +165,7 @@ ii   libperl5.32             5.32.1-2                        amd64  shared Perl 
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
-ii   libpsl5                 0.21.0-1.1                      amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.1-3                         amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib     3.9.1-3                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
