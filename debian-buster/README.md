@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
 ii   apt                     1.8.2.2                 amd64  commandline package manager
-ii   base-files              10.3+deb10u7            amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u8            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1            amd64  basic utilities from 4.4BSD-Lite
@@ -40,7 +40,7 @@ ii   grep                    3.3-1                   amd64  GNU grep, egrep and 
 ii   gzip                    1.9-3                   amd64  GNU compression utilities
 ii   hostname                3.21                    amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.56+nmu1               all    helper tools for all init systems
-ii   iproute2                4.20.0-2                amd64  networking and traffic control tools
+ii   iproute2                4.20.0-2+deb10u1        amd64  networking and traffic control tools
 ii   iputils-ping            3:20180629-2+deb10u1    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-4                amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2.2                 amd64  package management runtime library
@@ -64,7 +64,7 @@ ii   libffi6                 3.2.1-9                 amd64  Foreign Function Int
 ii   libgcc1                 1:8.3.0-6               amd64  GCC support library
 ii   libgcrypt20             1.8.4-5                 amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4+deb10u5         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.7-4+deb10u6         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                  amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -88,10 +88,10 @@ ii   libsepol1               2.8-1                   amd64  SELinux library for 
 ii   libsmartcols1           2.33.1-0.1              amd64  smart column output alignment library
 ii   libss2                  1.44.5-1+deb10u3        amd64  command-line interface parsing library
 ii   libstdc++6              8.3.0-6                 amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-7~deb10u5           amd64  systemd utility library
+ii   libsystemd0             241-7~deb10u6           amd64  systemd utility library
 ii   libtasn1-6              4.13-3                  amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2+deb10u2  amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                241-7~deb10u5           amd64  libudev shared library
+ii   libudev1                241-7~deb10u6           amd64  libudev shared library
 ii   libunistring2           0.9.10-1                amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1              amd64  Universally Unique ID library
 ii   libxtables12            1.8.2-4                 amd64  netfilter xtables library
