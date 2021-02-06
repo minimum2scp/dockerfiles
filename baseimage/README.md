@@ -93,7 +93,7 @@ ii   hostname                3.23                            amd64  utility to s
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-5                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.10.0-3                        amd64  networking and traffic control tools
+ii   iproute2                5.10.0-4                        amd64  networking and traffic control tools
 ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.1.18                          amd64  package management runtime library
@@ -116,10 +116,10 @@ ii   libcom-err2             1.45.7-1                        amd64  common error
 ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                5.3.28+dfsg1-0.6                amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.182+20210203-1.1+b1           amd64  library to read and write ELF files
+ii   libelf1                 0.182+20210205-1                amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
@@ -167,8 +167,8 @@ ii   libpopt0                1.18-2                          amd64  lib for pars
 ii   libprocps8              2:3.3.16-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.1-3                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.1-3                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.1-4                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2                   amd64  Cyrus SASL - authentication abstraction library
@@ -204,11 +204,9 @@ ii   login                   1:4.8.1-1                       amd64  system login
 ii   logsave                 1.45.7-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-8                          amd64  Powerful Multilingual File Viewer
-ii   mailcap                 3.68                            all    Debian's mailcap system, and support programs
 ii   man-db                  2.9.3-2                         amd64  tools for reading manual pages
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   media-types             4.0.0                           all    List of standard media types and their usual file extension
-ii   mime-support            3.66                            all    transitional package
 ii   mount                   2.36.1-6                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2                  amd64  terminal-related programs and man pages
@@ -224,8 +222,8 @@ ii   perl-modules-5.32       5.32.1-2                        all    Core Perl mo
 ii   procps                  2:3.3.16-5                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.1-3                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.1-3                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
@@ -246,7 +244,7 @@ ii   vim-tiny                2:8.2.2434-1                    amd64  Vi IMproved 
 ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.2.2434-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
-ii   zsh                     5.8-5+b1                        amd64  shell with lots of features
-ii   zsh-common              5.8-5                           all    architecture independent files for Zsh
+ii   zsh                     5.8-6                           amd64  shell with lots of features
+ii   zsh-common              5.8-6                           all    architecture independent files for Zsh
 ii   zstd                    1.4.8+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
