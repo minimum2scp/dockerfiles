@@ -633,7 +633,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "iproute2-doc",
-    "Version": "5.10.0-3",
+    "Version": "5.10.0-4",
     "binary:Package": "iproute2",
     "binary:Summary": "networking and traffic control tools",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iproute2",
-    "source:Version": "5.10.0-3"
+    "source:Version": "5.10.0-4"
   },
   {
     "Architecture": "amd64",
@@ -1126,7 +1126,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1802",
+    "Installed-Size": "1818",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg1-0.6",
+    "Version": "5.3.28+dfsg1-0.8",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1145,7 +1145,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg1-0.6"
+    "source:Version": "5.3.28+dfsg1-0.8"
   },
   {
     "Architecture": "amd64",
@@ -1182,7 +1182,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "947",
+    "Installed-Size": "946",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.182+20210203-1.1+b1",
+    "Version": "0.182+20210205-1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.182+20210203-1.1"
+    "source:Version": "0.182+20210205-1"
   },
   {
     "Architecture": "amd64",
