@@ -101,7 +101,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.48",
+    "Version": "3.5.49",
     "binary:Package": "base-passwd",
     "binary:Summary": "Debian base system master password and group files",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-passwd",
-    "source:Version": "3.5.48"
+    "source:Version": "3.5.49"
   },
   {
     "Architecture": "amd64",
@@ -871,10 +871,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.25)",
+    "Depends": "libc6 (>= 2.25), libmd0 (>= 0.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "199",
+    "Installed-Size": "189",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.10.0-1",
+    "Version": "0.11.1-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.10.0-1"
+    "source:Version": "0.11.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1650,6 +1650,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
     "source:Version": "5.2.5-1.0"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "libc6 (>= 2.14)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "76",
+    "Origin": "",
+    "Package": "libmd0",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "1.0.3-1",
+    "binary:Package": "libmd0:amd64",
+    "binary:Summary": "message digest functions from BSD systems - shared library",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "libmd",
+    "source:Version": "1.0.3-1"
   },
   {
     "Architecture": "amd64",

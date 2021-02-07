@@ -21,7 +21,7 @@ installed packages:
 ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     2.1.18                        amd64  commandline package manager
 ii   base-files              11                            amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.48                        amd64  Debian base system master password and group files
+ii   base-passwd             3.5.49                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2                         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-6                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
@@ -49,7 +49,7 @@ ii   libaudit-common         1:3.0-2                       all    Dynamic librar
 ii   libaudit1               1:3.0-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-6                      amd64  block device ID library
 ii   libbpf0                 1:0.3-2                       amd64  eBPF helper library (shared library)
-ii   libbsd0                 0.10.0-1                      amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.11.1-1                      amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.31-9                        amd64  GNU C Library: Binaries
 ii   libc6                   2.31-9                        amd64  GNU C Library: Shared libraries
@@ -77,6 +77,7 @@ ii   libkrb5-3               1.18.3-4                      amd64  MIT Kerberos r
 ii   libkrb5support0         1.18.3-4                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-1                       amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-1.0                     amd64  XZ-format compression library
+ii   libmd0                  1.0.3-1                       amd64  message digest functions from BSD systems - shared library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-6                      amd64  device mounting library
 ii   libnettle8              3.7-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
