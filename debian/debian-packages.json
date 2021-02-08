@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.36.1-6",
+    "Version": "1:2.36.1-7",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.3.0-21",
+    "Version": "9.3.0-22",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.3.0-21"
+    "source:Version": "9.3.0-22"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
@@ -874,7 +874,7 @@
     "Depends": "libc6 (>= 2.25), libmd0 (>= 0.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "189",
+    "Installed-Size": "190",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.11.1-1",
+    "Version": "0.11.2-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.11.1-1"
+    "source:Version": "0.11.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.182+20210205-1",
+    "Version": "0.183-1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.182+20210205-1"
+    "source:Version": "0.183-1"
   },
   {
     "Architecture": "amd64",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
@@ -2677,7 +2677,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "all",
@@ -2929,7 +2929,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.36.1-6",
+    "Version": "2.36.1-7",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-6"
+    "source:Version": "2.36.1-7"
   },
   {
     "Architecture": "amd64",
