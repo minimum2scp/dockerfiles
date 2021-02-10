@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.1.19                          amd64  commandline package manager
+ii   apt                     2.1.20                          amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.49                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2                           amd64  GNU Bourne Again SHell
@@ -78,7 +78,7 @@ ii   debian-archive-keyring  2019.1                          all    GnuPG archiv
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.7.1                        amd64  Debian package management system
-ii   e2fsprogs               1.45.7-1                        amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.46.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
@@ -96,7 +96,7 @@ ii   insserv                 1.21.0-1                        amd64  boot sequenc
 ii   iproute2                5.10.0-4                        amd64  networking and traffic control tools
 ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
-ii   libapt-pkg6.0           2.1.19                          amd64  package management runtime library
+ii   libapt-pkg6.0           2.1.20                          amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
@@ -112,7 +112,7 @@ ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2             1.45.7-1                        amd64  common error description library
+ii   libcom-err2             1.46.1-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -123,7 +123,7 @@ ii   libelf1                 0.183-1                         amd64  library to r
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-1                        amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.45.7-1                        amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.46.1-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
@@ -165,7 +165,7 @@ ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 C
 ii   libperl5.32             5.32.1-2                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.17-1                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.17-2                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
@@ -182,7 +182,7 @@ ii   libsepol1               3.1-1                           amd64  SELinux libr
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-7                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.1-1                        amd64  SQLite 3 shared library
-ii   libss2                  1.45.7-1                        amd64  command-line interface parsing library
+ii   libss2                  1.46.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-3                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
@@ -202,7 +202,7 @@ ii   libzstd1                1.4.8+dfsg-1                    amd64  fast lossles
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
-ii   logsave                 1.45.7-1                        amd64  save the output of a command in a log file
+ii   logsave                 1.46.1-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-8                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.4-1                         amd64  tools for reading manual pages
@@ -220,7 +220,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.32.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-2                        all    Core Perl modules
-ii   procps                  2:3.3.17-1                      amd64  /proc file system utilities
+ii   procps                  2:3.3.17-2                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
