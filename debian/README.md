@@ -66,7 +66,7 @@ ii   libffi7                 3.3-5                         amd64  Foreign Functi
 ii   libgcc-s1               10.2.1-6                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-2                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.0-6                       amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.0-7                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -120,7 +120,7 @@ ii   passwd                  1:4.8.1-1                     amd64  change and adm
 ii   perl-base               5.32.1-2                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-5                        amd64  System-V-like utilities
-ii   tar                     1.32+dfsg-1                   amd64  GNU version of the tar archiving utility
+ii   tar                     1.33+dfsg-1                   amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                       all    time zone and daylight-saving time data
 ii   util-linux              2.36.1-7                      amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2               amd64  compression library - runtime

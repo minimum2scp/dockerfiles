@@ -9,9 +9,7 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-10
 I: Validating adduser 3.118
-I: Retrieving apt 2.1.20
 I: Validating apt 2.1.20
-I: Retrieving libapt-pkg6.0 2.1.20
 I: Validating libapt-pkg6.0 2.1.20
 I: Validating libattr1 1:2.4.48-6
 I: Validating libaudit-common 1:3.0-2
@@ -29,15 +27,10 @@ I: Validating debian-archive-keyring 2019.1
 I: Validating debianutils 4.11.2
 I: Validating diffutils 1:3.7-5
 I: Validating dpkg 1.20.7.1
-I: Retrieving e2fsprogs 1.46.1-1
 I: Validating e2fsprogs 1.46.1-1
-I: Retrieving libcom-err2 1.46.1-1
 I: Validating libcom-err2 1.46.1-1
-I: Retrieving libext2fs2 1.46.1-1
 I: Validating libext2fs2 1.46.1-1
-I: Retrieving libss2 1.46.1-1
 I: Validating libss2 1.46.1-1
-I: Retrieving logsave 1.46.1-1
 I: Validating logsave 1.46.1-1
 I: Validating libelf1 0.183-1
 I: Validating findutils 4.8.0-1
@@ -48,10 +41,9 @@ I: Validating gcc-9-base 9.3.0-22
 I: Validating libc-bin 2.31-9
 I: Validating libc6 2.31-9
 I: Validating libgmp10 2:6.2.1+dfsg-1
-I: Retrieving gpgv 2.2.27-1
 I: Validating gpgv 2.2.27-1
-I: Retrieving libgnutls30 3.7.0-6
-I: Validating libgnutls30 3.7.0-6
+I: Retrieving libgnutls30 3.7.0-7
+I: Validating libgnutls30 3.7.0-7
 I: Validating grep 3.6-1
 I: Validating gzip 1.10-2
 I: Validating hostname 3.23
@@ -65,7 +57,6 @@ I: Validating libk5crypto3 1.18.3-4
 I: Validating libkrb5-3 1.18.3-4
 I: Validating libkrb5support0 1.18.3-4
 I: Validating libbpf0 1:0.3-2
-I: Retrieving libbsd0 0.11.3-1
 I: Validating libbsd0 0.11.3-1
 I: Validating libcap-ng0 0.7.9-2.2+b1
 I: Validating libcap2 1:2.44-1
@@ -74,12 +65,10 @@ I: Validating libffi7 3.3-5
 I: Validating libgcrypt20 1.8.7-2
 I: Validating libgpg-error0 1.38-2
 I: Validating libidn2-0 2.3.0-5
-I: Retrieving libmd0 1.0.3-3
 I: Validating libmd0 1.0.3-3
 I: Validating libmnl0 1.0.4-3
 I: Validating libnsl2 1.3.0-2
 I: Validating libseccomp2 2.5.1-1
-I: Retrieving libselinux1 3.1-3
 I: Validating libselinux1 3.1-3
 I: Validating libsemanage-common 3.1-1
 I: Validating libsemanage1 3.1-1+b2
@@ -113,7 +102,8 @@ I: Validating passwd 1:4.8.1-1
 I: Validating libsystemd0 247.3-1
 I: Validating libudev1 247.3-1
 I: Validating sysvinit-utils 2.96-5
-I: Validating tar 1.32+dfsg-1
+I: Retrieving tar 1.33+dfsg-1
+I: Validating tar 1.33+dfsg-1
 I: Validating tzdata 2021a-1
 I: Validating bsdutils 1:2.36.1-7
 I: Validating libblkid1 2.36.1-7
@@ -449,14 +439,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.83MB
+Sending build context to Docker daemon  34.86MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 223dae6afb94
+ ---> b8fb4eda2fb1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3d3fa3b2293a
-Removing intermediate container 3d3fa3b2293a
- ---> ae902ea2e7bf
-Successfully built ae902ea2e7bf
+ ---> Running in b8b303bfd0f9
+Removing intermediate container b8b303bfd0f9
+ ---> 323830c29941
+Successfully built 323830c29941
 Successfully tagged minimum2scp/debian:latest
