@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                         amd64  high-quality
 ii   ca-certificates         20210119                        all    Common CA certificates
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-136                      amd64  process scheduling daemon
-ii   curl                    7.74.0-1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.74.0-1.1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
@@ -114,8 +114,8 @@ ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.1-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.74.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.74.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
@@ -132,7 +132,7 @@ ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.0-6                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.0-7                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7-2                           amd64  low level cryptographic library (public-key cryptos)
@@ -235,7 +235,7 @@ ii   sudo                    1.9.5p2-2                       amd64  Provide limi
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
-ii   tar                     1.32+dfsg-1                     amd64  GNU version of the tar archiving utility
+ii   tar                     1.33+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
