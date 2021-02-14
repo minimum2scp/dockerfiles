@@ -2610,7 +2610,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "219",
+    "Installed-Size": "217",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.42.0-1",
+    "Version": "1.43.0-1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.42.0-1"
+    "source:Version": "1.43.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.17-2",
+    "Version": "2:3.3.17-3",
     "binary:Package": "libprocps8:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.17-2"
+    "source:Version": "2:3.3.17-3"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.34.1-1",
+    "Version": "3.34.1-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.34.1-1"
+    "source:Version": "3.34.1-2"
   },
   {
     "Architecture": "amd64",
@@ -4481,12 +4481,12 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "pgrep (<< 3.3-5), w-bassman (<< 1.0-3)",
-    "Breaks": "guymager (<= 0.5.9-1), manpages-de (<< 4.9.1-2), manpages-fr (<< 4.9.1-2), manpages-pl (<< 4.9.1-2), open-vm-tools (<= 2011.12.20-562307-1)",
+    "Conflicts": "",
+    "Breaks": "guymager (<= 0.5.9-1), manpages-de (<< 4.9.1-2), manpages-fr (<< 4.9.1-2), manpages-pl (<< 1:4.9.1-2), open-vm-tools (<= 2011.12.20-562307-1)",
     "Depends": "libc6 (>= 2.27), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps8 (>= 2:3.3.16-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1001",
+    "Installed-Size": "1648",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.17-2",
+    "Version": "2:3.3.17-3",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.17-2"
+    "source:Version": "2:3.3.17-3"
   },
   {
     "Architecture": "amd64",

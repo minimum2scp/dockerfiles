@@ -153,7 +153,7 @@ ii   libncurses6             6.2+20201114-2                  amd64  shared libra
 ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.7-2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.42.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-4                         amd64  Pluggable Authentication Modules for PAM
@@ -165,7 +165,7 @@ ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 C
 ii   libperl5.32             5.32.1-2                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.17-2                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.17-3                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
@@ -181,7 +181,7 @@ ii   libsemanage1            3.1-1+b2                        amd64  SELinux poli
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-7                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.34.1-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.34.1-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1i-3                        amd64  Secure Sockets Layer toolkit - shared libraries
@@ -220,7 +220,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.32.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-2                        all    Core Perl modules
-ii   procps                  2:3.3.17-2                      amd64  /proc file system utilities
+ii   procps                  2:3.3.17-3                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
