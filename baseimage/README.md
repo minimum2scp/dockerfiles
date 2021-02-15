@@ -128,7 +128,7 @@ ii   libfastjson4            0.99.9-1                        amd64  fast json li
 ii   libffi7                 3.3-5                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
-ii   libgcrypt20             1.8.7-2                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.7-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
@@ -141,7 +141,7 @@ ii   libk5crypto3            1.18.3-4                        amd64  MIT Kerberos
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.18.3-4                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.18.3-4                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.57+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-2.4-2           2.4.57+dfsg-2                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.3-1                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-1.0                       amd64  XZ-format compression library
@@ -165,7 +165,7 @@ ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 C
 ii   libperl5.32             5.32.1-2                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.17-3                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.17-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
@@ -212,15 +212,15 @@ ii   mount                   2.36.1-7                        amd64  tools for mo
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
-ii   openssh-client          1:8.4p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.4p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.4p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.4p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.4p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.4p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1i-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-2                        all    Core Perl modules
-ii   procps                  2:3.3.17-3                      amd64  /proc file system utilities
+ii   procps                  2:3.3.17-4                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
