@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.30.0), git-man (<< 1:2.30.0-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.30.1), git-man (<< 1:2.30.1-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "35040",
+    "Installed-Size": "35043",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.30.0-1",
+    "Version": "1:2.30.1-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.30.0-1"
+    "source:Version": "1:2.30.1-1"
   },
   {
     "Architecture": "all",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.30.0-1",
+    "Version": "1:2.30.1-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.30.0-1"
+    "source:Version": "1:2.30.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1i-3",
+    "Version": "1.1.1j-1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1i-3"
+    "source:Version": "1.1.1j-1"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1466",
+    "Installed-Size": "1464",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1i-3",
+    "Version": "1.1.1j-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1i-3"
+    "source:Version": "1.1.1j-1"
   },
   {
     "Architecture": "amd64",
@@ -4906,7 +4906,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3151",
+    "Installed-Size": "3152",
     "Origin": "",
     "Package": "tar",
     "Pre-Depends": "libacl1 (>= 2.2.23), libc6 (>= 2.28), libselinux1 (>= 3.1~)",
@@ -4917,7 +4917,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils, tar-scripts, tar-doc",
-    "Version": "1.33+dfsg-1",
+    "Version": "1.34+dfsg-1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.33+dfsg-1"
+    "source:Version": "1.34+dfsg-1"
   },
   {
     "Architecture": "all",

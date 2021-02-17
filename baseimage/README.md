@@ -83,8 +83,8 @@ ii   etckeeper               1.18.16-1                       all    store /etc i
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-22                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.30.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.30.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.30.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.30.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
@@ -184,7 +184,7 @@ ii   libsmartcols1           2.36.1-7                        amd64  smart column
 ii   libsqlite3-0            3.34.1-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1i-3                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1j-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -215,7 +215,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1i-3                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1j-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-2                        amd64  minimal Perl system
@@ -235,7 +235,7 @@ ii   sudo                    1.9.5p2-2                       amd64  Provide limi
 ii   sysv-rc                 2.96-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.96-5                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-5                          amd64  System-V-like utilities
-ii   tar                     1.33+dfsg-1                     amd64  GNU version of the tar archiving utility
+ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
