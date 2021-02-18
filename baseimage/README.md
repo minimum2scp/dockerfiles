@@ -198,7 +198,7 @@ ii   libuuid1                2.36.1-7                        amd64  Universally 
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.7-1                         amd64  netfilter xtables library
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
-ii   libzstd1                1.4.8+dfsg-1                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.8+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -226,7 +226,7 @@ ii   python3-minimal         3.9.1-1                         amd64  minimal subs
 ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2012.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2102.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
@@ -247,5 +247,5 @@ ii   xxd                     2:8.2.2434-1                    amd64  tool to make
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-6                           amd64  shell with lots of features
 ii   zsh-common              5.8-6                           all    architecture independent files for Zsh
-ii   zstd                    1.4.8+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.4.8+dfsg-2                    amd64  fast lossless compression algorithm -- CLI tool
 ```
