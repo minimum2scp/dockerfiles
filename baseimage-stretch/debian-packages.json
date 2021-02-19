@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "163",
+    "Installed-Size": "159",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.3-1",
+    "Version": "0.8.3-1+deb9u1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.3-1"
+    "source:Version": "0.8.3-1+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2u-1~deb9u3",
+    "Version": "1.0.2u-1~deb9u4",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2u-1~deb9u3"
+    "source:Version": "1.0.2u-1~deb9u4"
   },
   {
     "Architecture": "amd64",
