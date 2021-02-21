@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "65",
+    "Installed-Size": "66",
     "Origin": "",
     "Package": "libffi7",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-5",
+    "Version": "3.3-6",
     "binary:Package": "libffi7:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.3-5"
+    "source:Version": "3.3-6"
   },
   {
     "Architecture": "amd64",
@@ -5057,7 +5057,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2434-1",
+    "Version": "2:8.2.2434-2",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -5065,13 +5065,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-1"
+    "source:Version": "2:8.2.2434-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.2.2434-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.2434-2), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1574",
@@ -5085,7 +5085,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.2.2434-1",
+    "Version": "2:8.2.2434-2",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -5093,7 +5093,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-1"
+    "source:Version": "2:8.2.2434-2"
   },
   {
     "Architecture": "amd64",
@@ -5141,7 +5141,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2434-1",
+    "Version": "2:8.2.2434-2",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -5149,7 +5149,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-1"
+    "source:Version": "2:8.2.2434-2"
   },
   {
     "Architecture": "amd64",
