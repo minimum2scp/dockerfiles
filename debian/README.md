@@ -119,7 +119,7 @@ ii   ncurses-bin             6.2+20201114-2                amd64  terminal-relat
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
 ii   perl-base               5.32.1-2                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.96-5                        amd64  System-V-like utilities
+ii   sysvinit-utils          2.96-6                        amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                       all    time zone and daylight-saving time data
 ii   util-linux              2.36.1-7                      amd64  miscellaneous system utilities
