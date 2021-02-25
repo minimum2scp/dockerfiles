@@ -64,7 +64,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     2.2.0                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.49                          amd64  Debian base system master password and group files
-ii   bash                    5.1-2                           amd64  GNU Bourne Again SHell
+ii   bash                    5.1-2+b1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-7                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.36.1-7                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
@@ -74,7 +74,7 @@ ii   cron                    3.0pl1-137                      amd64  process sche
 ii   curl                    7.74.0-1.1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compliant shell
 ii   debconf                 1.5.74                          all    Debian configuration management system
-ii   debian-archive-keyring  2019.1                          all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.7.1                        amd64  Debian package management system
@@ -181,7 +181,7 @@ ii   libsemanage1            3.1-1+b2                        amd64  SELinux poli
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-7                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.34.1-2                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1j-1                        amd64  Secure Sockets Layer toolkit - shared libraries

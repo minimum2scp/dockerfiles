@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6469",
+    "Installed-Size": "6470",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.25), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1-2",
+    "Version": "5.1-2+b1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -398,7 +398,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "198",
+    "Installed-Size": "234",
     "Origin": "",
     "Package": "debian-archive-keyring",
     "Pre-Depends": "",
@@ -409,7 +409,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019.1",
+    "Version": "2021.1.1",
     "binary:Package": "debian-archive-keyring",
     "binary:Summary": "GnuPG archive keys of the Debian archive",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debian-archive-keyring",
-    "source:Version": "2019.1"
+    "source:Version": "2021.1.1"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.34.1-2",
+    "Version": "3.34.1-3",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.34.1-2"
+    "source:Version": "3.34.1-3"
   },
   {
     "Architecture": "amd64",
