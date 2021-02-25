@@ -16,14 +16,16 @@ I: Validating libaudit-common 1:3.0-2
 I: Validating libaudit1 1:3.0-2
 I: Validating base-files 11
 I: Validating base-passwd 3.5.49
-I: Validating bash 5.1-2
+I: Retrieving bash 5.1-2+b1
+I: Validating bash 5.1-2+b1
 I: Validating libbz2-1.0 1.0.8-4
 I: Validating libdebconfclient0 0.256
 I: Validating coreutils 8.32-4+b1
 I: Validating dash 0.5.11+git20200708+dd9ef66-5
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
 I: Validating debconf 1.5.74
-I: Validating debian-archive-keyring 2019.1
+I: Retrieving debian-archive-keyring 2021.1.1
+I: Validating debian-archive-keyring 2021.1.1
 I: Validating debianutils 4.11.2
 I: Validating diffutils 1:3.7-5
 I: Validating dpkg 1.20.7.1
@@ -100,7 +102,6 @@ I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
 I: Validating libsystemd0 247.3-1
 I: Validating libudev1 247.3-1
-I: Retrieving sysvinit-utils 2.96-6
 I: Validating sysvinit-utils 2.96-6
 I: Validating tar 1.34+dfsg-1
 I: Validating tzdata 2021a-1
@@ -438,14 +439,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.82MB
+Sending build context to Docker daemon  34.84MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 77ff6dfb48a6
+ ---> 4e90c5b11095
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2d614a973276
-Removing intermediate container 2d614a973276
- ---> f66cfa6ce821
-Successfully built f66cfa6ce821
+ ---> Running in b9436d880a87
+Removing intermediate container b9436d880a87
+ ---> 02ecdbce3fa1
+Successfully built 02ecdbce3fa1
 Successfully tagged minimum2scp/debian:latest
