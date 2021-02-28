@@ -137,8 +137,8 @@ ii   libk5crypto3            1.17-3+deb10u1               amd64  MIT Kerberos ru
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.17-3+deb10u1               amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.17-3+deb10u1               amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u5        amd64  OpenLDAP libraries
-ii   libldap-common          2.4.47+dfsg-3+deb10u5        all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u6        amd64  OpenLDAP libraries
+ii   libldap-common          2.4.47+dfsg-3+deb10u6        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
 ii   liblz4-1                1.8.3-1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                      amd64  XZ-format compression library
@@ -179,7 +179,7 @@ ii   libsmartcols1           2.33.1-0.1                   amd64  smart column ou
 ii   libsqlite3-0            3.27.2-3+deb10u1             amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1+deb10u3             amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1d-0+deb10u4             amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1d-0+deb10u5             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7~deb10u6                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
@@ -190,7 +190,7 @@ ii   libunistring2           0.9.10-1                     amd64  Unicode string 
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.2-4                      amd64  netfilter xtables library
-ii   libzstd1                1.3.8+dfsg-3+deb10u1         amd64  fast lossless compression algorithm
+ii   libzstd1                1.3.8+dfsg-3+deb10u2         amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.28-10                      all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
@@ -206,7 +206,7 @@ ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networkin
 ii   openssh-client          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.9p1-10+deb10u2           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1d-0+deb10u4             amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1d-0+deb10u5             amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-6+deb10u1             amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.28.1-6+deb10u1             amd64  minimal Perl system
@@ -239,5 +239,5 @@ ii   xxd                     2:8.1.0875-5                 amd64  tool to make (o
 ii   zlib1g                  1:1.2.11.dfsg-1              amd64  compression library - runtime
 ii   zsh                     5.7.1-1                      amd64  shell with lots of features
 ii   zsh-common              5.7.1-1                      all    architecture independent files for Zsh
-ii   zstd                    1.3.8+dfsg-3+deb10u1         amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.3.8+dfsg-3+deb10u2         amd64  fast lossless compression algorithm -- CLI tool
 ```

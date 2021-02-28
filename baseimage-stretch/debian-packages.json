@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "163",
+    "Installed-Size": "159",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.3-1",
+    "Version": "0.8.3-1+deb9u1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.8.3-1"
+    "source:Version": "0.8.3-1+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -2103,7 +2103,7 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u7)",
+    "Depends": "libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libsasl2-2, libldap-common (>= 2.4.44+dfsg-5+deb9u8)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "510",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u7",
+    "Version": "2.4.44+dfsg-5+deb9u8",
     "binary:Package": "libldap-2.4-2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u7"
+    "source:Version": "2.4.44+dfsg-5+deb9u8"
   },
   {
     "Architecture": "all",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.44+dfsg-5+deb9u7",
+    "Version": "2.4.44+dfsg-5+deb9u8",
     "binary:Package": "libldap-common",
     "binary:Summary": "OpenLDAP common files for libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.4.44+dfsg-5+deb9u7"
+    "source:Version": "2.4.44+dfsg-5+deb9u8"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2u-1~deb9u3",
+    "Version": "1.0.2u-1~deb9u4",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2u-1~deb9u3"
+    "source:Version": "1.0.2u-1~deb9u4"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0l-1~deb9u2",
+    "Version": "1.1.0l-1~deb9u3",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u2"
+    "source:Version": "1.1.0l-1~deb9u3"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "549",
+    "Installed-Size": "550",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.2-1",
+    "Version": "1.1.2-1+deb9u1",
     "binary:Package": "libzstd1",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.1.2-1"
+    "source:Version": "1.1.2-1+deb9u1"
   },
   {
     "Architecture": "all",
@@ -4021,7 +4021,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0l-1~deb9u2",
+    "Version": "1.1.0l-1~deb9u3",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u2"
+    "source:Version": "1.1.0l-1~deb9u3"
   },
   {
     "Architecture": "amd64",
@@ -4875,10 +4875,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libzstd1 (= 1.1.2-1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)",
+    "Depends": "libzstd1 (= 1.1.2-1+deb9u1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1217",
+    "Installed-Size": "1218",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -4889,7 +4889,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.2-1",
+    "Version": "1.1.2-1+deb9u1",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4897,6 +4897,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.1.2-1"
+    "source:Version": "1.1.2-1+deb9u1"
   }
 ]

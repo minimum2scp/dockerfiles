@@ -101,7 +101,7 @@ ii   libattr1                1:2.4.47-2+b2                      amd64  Extended 
 ii   libaudit-common         1:2.6.7-2                          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.6.7-2                          amd64  Dynamic library for security auditing
 ii   libblkid1               2.29.2-1+deb9u1                    amd64  block device ID library
-ii   libbsd0                 0.8.3-1                            amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.8.3-1+deb9u1                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-8.1                          amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.24-11+deb9u4                     amd64  GNU C Library: Binaries
 ii   libc-l10n               2.24-11+deb9u4                     all    GNU C Library: localization files
@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerbe
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u7               amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u7               all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u8               amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u8               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+b1                      amd64  Fast LZ compression algorithm library - runtime
@@ -175,8 +175,8 @@ ii   libsmartcols1           2.29.2-1+deb9u1                    amd64  smart col
 ii   libsqlite3-0            3.16.2-5+deb9u3                    amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2u-1~deb9u3                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0l-1~deb9u2                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2u-1~deb9u4                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0l-1~deb9u3                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u12                     amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                    amd64  Manage ASN.1 structures (runtime)
@@ -186,7 +186,7 @@ ii   libunistring0           0.9.6+really0.9.3-0.1              amd64  Unicode s
 ii   libustr-1.0-1           1.0.4-6                            amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1                    amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-26                           amd64  Wietse Venema's TCP wrappers library
-ii   libzstd1                1.1.2-1                            amd64  fast lossless compression algorithm
+ii   libzstd1                1.1.2-1+deb9u1                     amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.4                            all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.24-11+deb9u4                     all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.4-4.1                          amd64  system login tools
@@ -203,7 +203,7 @@ ii   net-tools               1.60+git20161116.90da8a0-1         amd64  NET-3 net
 ii   openssh-client          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0l-1~deb9u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0l-1~deb9u3                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1                          amd64  change and administer password and group data
 ii   perl                    5.24.1-3+deb9u7                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-3+deb9u7                    amd64  minimal Perl system
@@ -234,5 +234,5 @@ ii   xxd                     2:8.0.0197-4+deb9u3                amd64  tool to m
 ii   zlib1g                  1:1.2.8.dfsg-5                     amd64  compression library - runtime
 ii   zsh                     5.3.1-4+deb9u4                     amd64  shell with lots of features
 ii   zsh-common              5.3.1-4+deb9u4                     all    architecture independent files for Zsh
-ii   zstd                    1.1.2-1                            amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.1.2-1+deb9u1                     amd64  fast lossless compression algorithm -- CLI tool
 ```

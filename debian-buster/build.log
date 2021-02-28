@@ -378,8 +378,8 @@ Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
 Hit:2 http://ftp.jp.debian.org/debian buster InRelease
 Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
 Get:4 http://security.debian.org buster/updates/main amd64 Packages [334 kB]
-Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [8805 B]
-Fetched 460 kB in 0s (1206 kB/s)
+Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [10.8 kB]
+Fetched 462 kB in 0s (1202 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -387,23 +387,23 @@ Calculating upgrade...
 The following packages will be upgraded:
   libzstd1
 1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 236 kB of archives.
+Need to get 237 kB of archives.
 After this operation, 4096 B disk space will be freed.
-Get:1 http://security.debian.org buster/updates/main amd64 libzstd1 amd64 1.3.8+dfsg-3+deb10u1 [236 kB]
-Fetched 236 kB in 0s (2335 kB/s)
+Get:1 http://security.debian.org buster/updates/main amd64 libzstd1 amd64 1.3.8+dfsg-3+deb10u2 [237 kB]
+Fetched 237 kB in 0s (2414 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../libzstd1_1.3.8+dfsg-3+deb10u1_amd64.deb ...
-Unpacking libzstd1:amd64 (1.3.8+dfsg-3+deb10u1) over (1.3.8+dfsg-3) ...
-Setting up libzstd1:amd64 (1.3.8+dfsg-3+deb10u1) ...
+Preparing to unpack .../libzstd1_1.3.8+dfsg-3+deb10u2_amd64.deb ...
+Unpacking libzstd1:amd64 (1.3.8+dfsg-3+deb10u2) over (1.3.8+dfsg-3) ...
+Setting up libzstd1:amd64 (1.3.8+dfsg-3+deb10u2) ...
 Processing triggers for libc-bin (2.28-10) ...
 Sending build context to Docker daemon  30.21MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> d16b2f8c5249
+ ---> 702d693d81ac
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b030c5a4cbeb
-Removing intermediate container b030c5a4cbeb
- ---> 68268223b6d2
-Successfully built 68268223b6d2
+ ---> Running in f7ecffa309bb
+Removing intermediate container f7ecffa309bb
+ ---> 5cf14a4fc47a
+Successfully built 5cf14a4fc47a
 Successfully tagged minimum2scp/debian-buster:latest
