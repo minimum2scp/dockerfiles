@@ -73,12 +73,12 @@ ii   coreutils               8.32-4+b1                       amd64  GNU core uti
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
 ii   curl                    7.74.0-1.1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compliant shell
-ii   debconf                 1.5.74                          all    Debian configuration management system
+ii   debconf                 1.5.75                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.7.1                        amd64  Debian package management system
-ii   e2fsprogs               1.46.1-1                        amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.46.2-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
@@ -112,7 +112,7 @@ ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2             1.46.1-1                        amd64  common error description library
+ii   libcom-err2             1.46.2-1                        amd64  common error description library
 ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -123,7 +123,7 @@ ii   libelf1                 0.183-1                         amd64  library to r
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-2                        amd64  XML parsing C library - runtime library
-ii   libext2fs2              1.46.1-1                        amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.46.2-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
@@ -168,8 +168,8 @@ ii   libpopt0                1.18-2                          amd64  lib for pars
 ii   libprocps8              2:3.3.17-4                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.1-4                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.2-1                         amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.2-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
@@ -182,7 +182,7 @@ ii   libsepol1               3.1-1                           amd64  SELinux libr
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-7                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
-ii   libss2                  1.46.1-1                        amd64  command-line interface parsing library
+ii   libss2                  1.46.2-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1j-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
@@ -202,7 +202,7 @@ ii   libzstd1                1.4.8+dfsg-2                    amd64  fast lossles
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
-ii   logsave                 1.46.1-1                        amd64  save the output of a command in a log file
+ii   logsave                 1.46.2-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
 ii   lv                      4.51-8                          amd64  Powerful Multilingual File Viewer
 ii   man-db                  2.9.4-2                         amd64  tools for reading manual pages
@@ -223,8 +223,8 @@ ii   perl-modules-5.32       5.32.1-3                        all    Core Perl mo
 ii   procps                  2:3.3.17-4                      amd64  /proc file system utilities
 ii   python3                 3.9.1-1                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.1-1                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.1-4                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.1-4                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.2-1                         amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.2-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-1                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2102.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
