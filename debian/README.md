@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
-ii   apt                     2.2.0                         amd64  commandline package manager
+ii   apt                     2.2.1                         amd64  commandline package manager
 ii   base-files              11                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.49                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b1                      amd64  GNU Bourne Again SHell
@@ -43,7 +43,7 @@ ii   init-system-helpers     1.60                          all    helper tools f
 ii   iproute2                5.10.0-4                      amd64  networking and traffic control tools
 ii   iputils-ping            3:20210202-1                  amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                     amd64  access control list - shared library
-ii   libapt-pkg6.0           2.2.0                         amd64  package management runtime library
+ii   libapt-pkg6.0           2.2.1                         amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                    amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-2                       amd64  Dynamic library for security auditing
@@ -108,7 +108,7 @@ ii   libunistring2           0.9.10-4                      amd64  Unicode string
 ii   libuuid1                2.36.1-7                      amd64  Universally Unique ID library
 ii   libxtables12            1.8.7-1                       amd64  netfilter xtables library
 ii   libxxhash0              0.8.0-2                       amd64  shared library for xxhash
-ii   libzstd1                1.4.8+dfsg-2                  amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.8+dfsg-2.1                amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-1                     amd64  system login tools
 ii   logsave                 1.46.2-1                      amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                        all    Linux Standard Base init script functionality
