@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.2.0                           amd64  commandline package manager
+ii   apt                     2.2.1                           amd64  commandline package manager
 ii   base-files              11                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.49                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b1                        amd64  GNU Bourne Again SHell
@@ -96,7 +96,7 @@ ii   insserv                 1.21.0-1.1                      amd64  boot sequenc
 ii   iproute2                5.10.0-4                        amd64  networking and traffic control tools
 ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
-ii   libapt-pkg6.0           2.2.0                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.2.1                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
@@ -198,7 +198,7 @@ ii   libuuid1                2.36.1-7                        amd64  Universally 
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxtables12            1.8.7-1                         amd64  netfilter xtables library
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
-ii   libzstd1                1.4.8+dfsg-2                    amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -240,12 +240,12 @@ ii   tzdata                  2021a-1                         all    time zone an
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-7                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.2434-2                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.2434-2                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.2434-3                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.2434-3                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.2434-2                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.2434-3                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-6                           amd64  shell with lots of features
 ii   zsh-common              5.8-6                           all    architecture independent files for Zsh
-ii   zstd                    1.4.8+dfsg-2                    amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm -- CLI tool
 ```
