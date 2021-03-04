@@ -20,7 +20,8 @@ I: Validating bash 5.1-2+b1
 I: Validating libbz2-1.0 1.0.8-4
 I: Validating libdebconfclient0 0.256
 I: Validating coreutils 8.32-4+b1
-I: Validating dash 0.5.11+git20200708+dd9ef66-5
+I: Retrieving dash 0.5.11+git20210120+802ebd4-1
+I: Validating dash 0.5.11+git20210120+802ebd4-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
 I: Validating debconf 1.5.75
 I: Validating debian-archive-keyring 2021.1.1
@@ -44,7 +45,6 @@ I: Validating libgmp10 2:6.2.1+dfsg-1
 I: Validating gpgv 2.2.27-1
 I: Validating libgnutls30 3.7.0-7
 I: Validating grep 3.6-1
-I: Retrieving gzip 1.10-4
 I: Validating gzip 1.10-4
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.60
@@ -438,14 +438,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.85MB
+Sending build context to Docker daemon  34.84MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8f1d6a3d3696
+ ---> 8c361cdaefc5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c6f07d9d4e2e
-Removing intermediate container c6f07d9d4e2e
- ---> 0689ad63f848
-Successfully built 0689ad63f848
+ ---> Running in 96248279f8e9
+Removing intermediate container 96248279f8e9
+ ---> 580afe026c94
+Successfully built 580afe026c94
 Successfully tagged minimum2scp/debian:latest

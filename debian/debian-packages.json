@@ -213,7 +213,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.11+git20200708+dd9ef66-5",
+    "Version": "0.5.11+git20210120+802ebd4-1",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.11+git20200708+dd9ef66-5"
+    "source:Version": "0.5.11+git20210120+802ebd4-1"
   },
   {
     "Architecture": "all",
