@@ -351,7 +351,7 @@ describe 'minimum2scp/baseimage-buster' do
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.19.6-1~buster') }
+      it { should be_installed.with_version('1.19.7-1~buster') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
