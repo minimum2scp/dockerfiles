@@ -76,7 +76,7 @@ ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Mana
 ii   libkrb5-3               1.18.3-4                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.18.3-4                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-1                       amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.5-1.0                     amd64  XZ-format compression library
+ii   liblzma5                5.2.5-2                       amd64  XZ-format compression library
 ii   libmd0                  1.0.3-3                       amd64  message digest functions from BSD systems - shared library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-7                      amd64  device mounting library
