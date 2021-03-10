@@ -647,10 +647,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.30.1), git-man (<< 1:2.30.1-.)",
+    "Depends": "libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.30.2), git-man (<< 1:2.30.2-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "35043",
+    "Installed-Size": "35058",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.30.1-1",
+    "Version": "1:2.30.2-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.30.1-1"
+    "source:Version": "1:2.30.2-1"
   },
   {
     "Architecture": "all",
@@ -678,7 +678,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1874",
+    "Installed-Size": "1875",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.30.1-1",
+    "Version": "1:2.30.2-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.30.1-1"
+    "source:Version": "1:2.30.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.183-1",
+    "Version": "0.183-3",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.183-1"
+    "source:Version": "0.183-3"
   },
   {
     "Architecture": "all",

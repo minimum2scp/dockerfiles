@@ -83,8 +83,8 @@ ii   etckeeper               1.18.16-1                       all    store /etc i
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-22                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.30.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.30.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.30.2-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.30.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
@@ -119,7 +119,7 @@ ii   libcurl4                7.74.0-1.1                      amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.256                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.183-1                         amd64  library to read and write ELF files
+ii   libelf1                 0.183-3                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-2                        amd64  XML parsing C library - runtime library
