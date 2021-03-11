@@ -2022,7 +2022,7 @@
     "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3126",
+    "Installed-Size": "3138",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.0-7",
+    "Version": "3.7.1-1",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.0-7"
+    "source:Version": "3.7.1-1"
   },
   {
     "Architecture": "amd64",
