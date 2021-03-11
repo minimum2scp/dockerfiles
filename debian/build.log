@@ -32,7 +32,6 @@ I: Validating libcom-err2 1.46.2-1
 I: Validating libext2fs2 1.46.2-1
 I: Validating libss2 1.46.2-1
 I: Validating logsave 1.46.2-1
-I: Retrieving libelf1 0.183-3
 I: Validating libelf1 0.183-3
 I: Validating findutils 4.8.0-1
 I: Validating gcc-10-base 10.2.1-6
@@ -43,7 +42,8 @@ I: Validating libc-bin 2.31-9
 I: Validating libc6 2.31-9
 I: Validating libgmp10 2:6.2.1+dfsg-1
 I: Validating gpgv 2.2.27-1
-I: Validating libgnutls30 3.7.0-7
+I: Retrieving libgnutls30 3.7.1-1
+I: Validating libgnutls30 3.7.1-1
 I: Validating grep 3.6-1
 I: Validating gzip 1.10-4
 I: Validating hostname 3.23
@@ -438,14 +438,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.84MB
+Sending build context to Docker daemon  34.81MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1766dd1404df
+ ---> a3f3ac26c6b3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d62846ffc744
-Removing intermediate container d62846ffc744
- ---> 130a3c5b0c9c
-Successfully built 130a3c5b0c9c
+ ---> Running in c26a0405310e
+Removing intermediate container c26a0405310e
+ ---> 6aff8a2614a7
+Successfully built 6aff8a2614a7
 Successfully tagged minimum2scp/debian:latest
