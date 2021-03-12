@@ -9,8 +9,10 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Validating libacl1 2.2.53-10
 I: Validating adduser 3.118
-I: Validating apt 2.2.1
-I: Validating libapt-pkg6.0 2.2.1
+I: Retrieving apt 2.2.2
+I: Validating apt 2.2.2
+I: Retrieving libapt-pkg6.0 2.2.2
+I: Validating libapt-pkg6.0 2.2.2
 I: Validating libattr1 1:2.4.48-6
 I: Validating libaudit-common 1:3.0-2
 I: Validating libaudit1 1:3.0-2
@@ -42,7 +44,6 @@ I: Validating libc-bin 2.31-9
 I: Validating libc6 2.31-9
 I: Validating libgmp10 2:6.2.1+dfsg-1
 I: Validating gpgv 2.2.27-1
-I: Retrieving libgnutls30 3.7.1-1
 I: Validating libgnutls30 3.7.1-1
 I: Validating grep 3.6-1
 I: Validating gzip 1.10-4
@@ -99,8 +100,10 @@ I: Validating perl-base 5.32.1-3
 I: Validating sed 4.7-1
 I: Validating login 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
-I: Validating libsystemd0 247.3-2
-I: Validating libudev1 247.3-2
+I: Retrieving libsystemd0 247.3-3
+I: Validating libsystemd0 247.3-3
+I: Retrieving libudev1 247.3-3
+I: Validating libudev1 247.3-3
 I: Validating sysvinit-utils 2.96-6
 I: Validating tar 1.34+dfsg-1
 I: Validating tzdata 2021a-1
@@ -438,14 +441,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.81MB
+Sending build context to Docker daemon  34.82MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a3f3ac26c6b3
+ ---> 2792fba8ed4d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c26a0405310e
-Removing intermediate container c26a0405310e
- ---> 6aff8a2614a7
-Successfully built 6aff8a2614a7
+ ---> Running in e2fbd9ba9677
+Removing intermediate container e2fbd9ba9677
+ ---> 49f084919eed
+Successfully built 49f084919eed
 Successfully tagged minimum2scp/debian:latest
