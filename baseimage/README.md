@@ -113,7 +113,7 @@ ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.17-1                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.18-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -212,9 +212,9 @@ ii   mount                   2.36.1-7                        amd64  tools for mo
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
-ii   openssh-client          1:8.4p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.4p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.4p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.4p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.4p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.4p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1j-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-3                        amd64  Larry Wall's Practical Extraction and Report Language
