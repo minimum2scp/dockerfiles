@@ -68,7 +68,7 @@ ii   bash                    4.4-5                              amd64  GNU Bourn
 ii   bsdmainutils            9.0.12+nmu1                        amd64  collection of more utilities from FreeBSD
 ii   bsdutils                1:2.29.2-1+deb9u1                  amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.6-8.1                          amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates         20200601~deb9u1                    all    Common CA certificates
+ii   ca-certificates         20200601~deb9u2                    all    Common CA certificates
 ii   coreutils               8.26-3                             amd64  GNU core utilities
 ii   cron                    3.0pl1-128+deb9u1                  amd64  process scheduling daemon
 ii   curl                    7.52.1-5+deb9u13                   amd64  command line tool for transferring data with URL syntax
