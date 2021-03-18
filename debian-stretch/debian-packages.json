@@ -1893,7 +1893,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-4.1",
+    "Version": "1:4.4-4.1+deb9u1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-4.1"
+    "source:Version": "1:4.4-4.1+deb9u1"
   },
   {
     "Architecture": "all",
@@ -2089,7 +2089,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4-4.1",
+    "Version": "1:4.4-4.1+deb9u1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.4-4.1"
+    "source:Version": "1:4.4-4.1+deb9u1"
   },
   {
     "Architecture": "amd64",

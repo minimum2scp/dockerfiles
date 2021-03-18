@@ -85,14 +85,14 @@ ii   libtinfo5               6.0+20161126-1+deb9u2  amd64  shared low-level term
 ii   libudev1                232-25+deb9u12         amd64  libudev shared library
 ii   libustr-1.0-1           1.0.4-6                amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1        amd64  Universally Unique ID library
-ii   login                   1:4.4-4.1              amd64  system login tools
+ii   login                   1:4.4-4.1+deb9u1       amd64  system login tools
 ii   lsb-base                9.20161125             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.3-17+b3            amd64  a pattern scanning and text processing language
 ii   mount                   2.29.2-1+deb9u1        amd64  tools for mounting and manipulating filesystems
 ii   multiarch-support       2.24-11+deb9u4         amd64  Transitional package to ensure multiarch compatibility
 ii   ncurses-base            6.0+20161126-1+deb9u2  all    basic terminal type definitions
 ii   ncurses-bin             6.0+20161126-1+deb9u2  amd64  terminal-related programs and man pages
-ii   passwd                  1:4.4-4.1              amd64  change and administer password and group data
+ii   passwd                  1:4.4-4.1+deb9u1       amd64  change and administer password and group data
 ii   perl-base               5.24.1-3+deb9u7        amd64  minimal Perl system
 ii   sed                     4.4-1                  amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
