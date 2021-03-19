@@ -59,7 +59,7 @@ ii   libcap2-bin             1:2.44-1                      amd64  POSIX 1003.1e 
 ii   libcom-err2             1.46.2-1                      amd64  common error description library
 ii   libcrypt1               1:4.4.18-1                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8              amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.256                         amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.257                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.183-3                       amd64  library to read and write ELF files
 ii   libext2fs2              1.46.2-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-6                         amd64  Foreign Function Interface library runtime

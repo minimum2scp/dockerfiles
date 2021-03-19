@@ -18,7 +18,8 @@ I: Validating base-files 11
 I: Validating base-passwd 3.5.49
 I: Validating bash 5.1-2+b1
 I: Validating libbz2-1.0 1.0.8-4
-I: Validating libdebconfclient0 0.256
+I: Retrieving libdebconfclient0 0.257
+I: Validating libdebconfclient0 0.257
 I: Validating coreutils 8.32-4+b1
 I: Validating dash 0.5.11+git20210120+802ebd4-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
@@ -88,13 +89,9 @@ I: Validating libhogweed6 3.7-2.1
 I: Validating libnettle8 3.7-2.1
 I: Validating libssl1.1 1.1.1j-1
 I: Validating libp11-kit0 0.23.22-1
-I: Retrieving libpam-modules 1.4.0-7
 I: Validating libpam-modules 1.4.0-7
-I: Retrieving libpam-modules-bin 1.4.0-7
 I: Validating libpam-modules-bin 1.4.0-7
-I: Retrieving libpam-runtime 1.4.0-7
 I: Validating libpam-runtime 1.4.0-7
-I: Retrieving libpam0g 1.4.0-7
 I: Validating libpam0g 1.4.0-7
 I: Validating libpcre2-8-0 10.36-2
 I: Validating libpcre3 2:8.39-13
@@ -441,14 +438,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.82MB
+Sending build context to Docker daemon  34.83MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ec9ceada06ae
+ ---> fdfe4e35f062
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 405fe9a2015b
-Removing intermediate container 405fe9a2015b
- ---> 6ba28636867a
-Successfully built 6ba28636867a
+ ---> Running in 9029b5540b52
+Removing intermediate container 9029b5540b52
+ ---> add5dacc6f30
+Successfully built add5dacc6f30
 Successfully tagged minimum2scp/debian:latest
