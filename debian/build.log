@@ -18,12 +18,12 @@ I: Validating base-files 11
 I: Validating base-passwd 3.5.49
 I: Validating bash 5.1-2+b1
 I: Validating libbz2-1.0 1.0.8-4
-I: Retrieving libdebconfclient0 0.257
 I: Validating libdebconfclient0 0.257
 I: Validating coreutils 8.32-4+b1
 I: Validating dash 0.5.11+git20210120+802ebd4-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
-I: Validating debconf 1.5.75
+I: Retrieving debconf 1.5.76
+I: Validating debconf 1.5.76
 I: Validating debian-archive-keyring 2021.1.1
 I: Validating debianutils 4.11.2
 I: Validating diffutils 1:3.7-5
@@ -442,10 +442,10 @@ Sending build context to Docker daemon  34.83MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> fdfe4e35f062
+ ---> 1d3455e8fa3e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9029b5540b52
-Removing intermediate container 9029b5540b52
- ---> add5dacc6f30
-Successfully built add5dacc6f30
+ ---> Running in 4c4225a3282a
+Removing intermediate container 4c4225a3282a
+ ---> dcef54ed6902
+Successfully built dcef54ed6902
 Successfully tagged minimum2scp/debian:latest
