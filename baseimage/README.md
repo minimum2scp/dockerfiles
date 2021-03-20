@@ -73,7 +73,7 @@ ii   coreutils               8.32-4+b1                       amd64  GNU core uti
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
 ii   curl                    7.74.0-1.1                      amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20210120+802ebd4-1    amd64  POSIX-compliant shell
-ii   debconf                 1.5.75                          all    Debian configuration management system
+ii   debconf                 1.5.76                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.11.2                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
