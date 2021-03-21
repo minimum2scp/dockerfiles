@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-9",
+    "Version": "2.31-10",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-9"
+    "source:Version": "2.31-10"
   },
   {
     "Architecture": "amd64",
@@ -958,7 +958,7 @@
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12771",
+    "Installed-Size": "12772",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.31-9",
+    "Version": "2.31-10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-9"
+    "source:Version": "2.31-10"
   },
   {
     "Architecture": "amd64",
