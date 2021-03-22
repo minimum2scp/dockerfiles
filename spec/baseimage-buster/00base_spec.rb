@@ -302,7 +302,7 @@ describe 'minimum2scp/baseimage-buster' do
     end
 
     describe command('docker --version') do
-      its(:stdout){ should start_with('Docker version 19.03.13, ') }
+      its(:stdout){ should start_with('Docker version 20.10.5, ') }
     end
   end
 
