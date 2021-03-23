@@ -96,7 +96,7 @@ describe 'minimum2scp/tdiary' do
       end
 
       describe package('nginx') do
-        it { should be_installed.with_version('1.19.7-1~buster') }
+        it { should be_installed.with_version('1.19.8-1~buster') }
       end
 
       describe file('/etc/nginx/nginx.conf') do
