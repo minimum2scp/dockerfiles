@@ -35,8 +35,6 @@ sed -i -e 's/^#network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elas
 etckeeper commit "elasticsearch: bind 0.0.0.0"
 ( echo ''; echo 'discovery.type: single-node' ) | tee -a /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: single-node configuration"
-sed -i -e 's@#JAVA_HOME=@JAVA_HOME=$ES_HOME/jdk@' /etc/default/elasticsearch
-etckeeper commit "elasticsearch: use bundled jdk"
 
 ##
 ## install kibana
