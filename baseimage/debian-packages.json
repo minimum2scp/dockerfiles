@@ -2481,7 +2481,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.1-1",
+    "Version": "2.5.1-2",
     "binary:Package": "libmpdec3:amd64",
     "binary:Summary": "library for decimal floating point arithmetic (runtime library)",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mpdecimal",
-    "source:Version": "2.5.1-1"
+    "source:Version": "2.5.1-2"
   },
   {
     "Architecture": "amd64",

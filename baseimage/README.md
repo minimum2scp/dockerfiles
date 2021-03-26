@@ -148,7 +148,7 @@ ii   liblzma5                5.2.5-2                         amd64  XZ-format co
 ii   libmd0                  1.0.3-3                         amd64  message digest functions from BSD systems - shared library
 ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-7                        amd64  device mounting library
-ii   libmpdec3               2.5.1-1                         amd64  library for decimal floating point arithmetic (runtime library)
+ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.7-2.1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
