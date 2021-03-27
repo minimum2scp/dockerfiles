@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2.2                      amd64  commandline package manager
-ii   base-files              10.3+deb10u8                 amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u9                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -74,7 +74,7 @@ ii   cron                    3.0pl1-134+deb10u1           amd64  process schedul
 ii   curl                    7.64.0-4+deb10u1             amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.71                       all    Debian configuration management system
-ii   debian-archive-keyring  2019.1                       all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2019.1+deb10u1               all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
 ii   dpkg                    1.19.7                       amd64  Debian package management system
@@ -87,21 +87,21 @@ ii   git                     1:2.20.1-2+deb10u3           amd64  fast, scalable,
 ii   git-man                 1:2.20.1-2+deb10u3           all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1+deb10u1             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.4-3                     amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-3+deb10u1             amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.9-3                        amd64  GNU compression utilities
 ii   hostname                3.21                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.56+nmu1                    all    helper tools for all init systems
 ii   initscripts             2.93-8                       amd64  scripts for initializing and shutting down the system
 ii   insserv                 1.18.0-2                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                4.20.0-2+deb10u1             amd64  networking and traffic control tools
-ii   iputils-ping            3:20180629-2+deb10u1         amd64  Tools to test the reachability of network hosts
+ii   iputils-ping            3:20180629-2+deb10u2         amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-4                     amd64  access control list - shared library
 ii   libapt-pkg5.0           1.8.2.2                      amd64  package management runtime library
 ii   libattr1                1:2.4.48-4                   amd64  extended attribute handling - shared library
 ii   libaudit-common         1:2.8.4-3                    all    Dynamic library for security auditing - common files
 ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1                   amd64  block device ID library
-ii   libbsd0                 0.9.1-2                      amd64  utility functions from BSD systems - shared library
+ii   libbsd0                 0.9.1-2+deb10u1              amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9.2~deb10u1            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.28-10                      amd64  GNU C Library: Binaries
 ii   libc-l10n               2.28-10                      all    GNU C Library: localization files
@@ -181,11 +181,11 @@ ii   libss2                  1.44.5-1+deb10u3             amd64  command-line in
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1d-0+deb10u6             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             241-7~deb10u6                amd64  systemd utility library
+ii   libsystemd0             241-7~deb10u7                amd64  systemd utility library
 ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2+deb10u2       amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
-ii   libudev1                241-7~deb10u6                amd64  libudev shared library
+ii   libudev1                241-7~deb10u7                amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
 ii   libuuid1                2.33.1-0.1                   amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's TCP wrappers library
