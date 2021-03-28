@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u8",
+    "Version": "10.3+deb10u9",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u8"
+    "source:Version": "10.3+deb10u9"
   },
   {
     "Architecture": "amd64",
@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "198",
+    "Installed-Size": "235",
     "Origin": "",
     "Package": "debian-archive-keyring",
     "Pre-Depends": "",
@@ -269,7 +269,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2019.1",
+    "Version": "2019.1+deb10u1",
     "binary:Package": "debian-archive-keyring",
     "binary:Summary": "GnuPG archive keys of the Debian archive",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debian-archive-keyring",
-    "source:Version": "2019.1"
+    "source:Version": "2019.1+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -661,7 +661,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3:20180629-2+deb10u1",
+    "Version": "3:20180629-2+deb10u2",
     "binary:Package": "iputils-ping",
     "binary:Summary": "Tools to test the reachability of network hosts",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "iputils",
-    "source:Version": "3:20180629-2+deb10u1"
+    "source:Version": "3:20180629-2+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u6",
+    "Version": "241-7~deb10u7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u6"
+    "source:Version": "241-7~deb10u7"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "241-7~deb10u6",
+    "Version": "241-7~deb10u7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "241-7~deb10u6"
+    "source:Version": "241-7~deb10u7"
   },
   {
     "Architecture": "amd64",
