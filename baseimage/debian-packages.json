@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.18-1",
+    "Version": "1:4.4.18-2",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.18-1"
+    "source:Version": "1:4.4.18-2"
   },
   {
     "Architecture": "amd64",
@@ -3447,10 +3447,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.14), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "298",
+    "Installed-Size": "346",
     "Origin": "",
     "Package": "libssh2-1",
     "Pre-Depends": "",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.0-2",
+    "Version": "1.9.0-3",
     "binary:Package": "libssh2-1:amd64",
     "binary:Summary": "SSH2 client-side library",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libssh2",
-    "source:Version": "1.9.0-2"
+    "source:Version": "1.9.0-3"
   },
   {
     "Architecture": "amd64",

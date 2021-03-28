@@ -113,7 +113,7 @@ ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.18-1                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.18-2                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -183,7 +183,7 @@ ii   libslang2               2.3.2-5                         amd64  S-Lang progr
 ii   libsmartcols1           2.36.1-7                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.2-1                        amd64  command-line interface parsing library
-ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
+ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-3                         amd64  systemd utility library
