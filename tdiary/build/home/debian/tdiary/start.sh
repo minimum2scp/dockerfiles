@@ -10,5 +10,5 @@ echo ""
 bundle exec gem env
 echo ""
 
-exec bundle exec tdiary server
+exec bundle exec rackup -o 0.0.0.0 -p 19292
 

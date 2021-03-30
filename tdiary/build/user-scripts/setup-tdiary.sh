@@ -29,10 +29,6 @@ for repo in tdiary-core \
   git clone https://github.com/tdiary/${repo}.git $GHQ_ROOT/github.com/tdiary/${repo}
 done
 
-## Checkout tdiary v5.1.4 (workaround)
-cd $GHQ_ROOT/github.com/tdiary/tdiary-core
-git checkout v5.1.4
-
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
