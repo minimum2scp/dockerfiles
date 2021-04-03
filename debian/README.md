@@ -69,7 +69,7 @@ ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision
 ii   libgnutls30             3.7.1-3                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6             3.7-2.1                       amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6             3.7.2-1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                       amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.18.3-4                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Management Utilities (library)
@@ -80,7 +80,7 @@ ii   liblzma5                5.2.5-2                       amd64  XZ-format comp
 ii   libmd0                  1.0.3-3                       amd64  message digest functions from BSD systems - shared library
 ii   libmnl0                 1.0.4-3                       amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-7                      amd64  device mounting library
-ii   libnettle8              3.7-2.1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8              3.7.2-1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-7                       amd64  Pluggable Authentication Modules for PAM
