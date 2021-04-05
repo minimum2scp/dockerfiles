@@ -3013,7 +3013,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.2-2",
+    "Version": "3.9.2-3",
     "binary:Package": "libpython3-stdlib:amd64",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-2"
+    "source:Version": "3.9.2-3"
   },
   {
     "Architecture": "amd64",
@@ -4511,21 +4511,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "python3.9 (>= 3.9.2-0~), libpython3-stdlib (= 3.9.2-2)",
+    "Depends": "python3.9 (>= 3.9.2-0~), libpython3-stdlib (= 3.9.2-3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "90",
+    "Installed-Size": "89",
     "Origin": "",
     "Package": "python3",
-    "Pre-Depends": "python3-minimal (= 3.9.2-2)",
+    "Pre-Depends": "python3-minimal (= 3.9.2-3)",
     "Priority": "optional",
     "Provides": "python3-profiler",
     "Recommends": "",
     "Replace": "",
     "Section": "python",
     "Status": "install ok installed",
-    "Suggests": "python3-doc (>= 3.9.2-2), python3-tk (>= 3.9.2-0~), python3-venv (>= 3.9.2-2)",
-    "Version": "3.9.2-2",
+    "Suggests": "python3-doc (>= 3.9.2-3), python3-tk (>= 3.9.2-0~), python3-venv (>= 3.9.2-3)",
+    "Version": "3.9.2-3",
     "binary:Package": "python3",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-2"
+    "source:Version": "3.9.2-3"
   },
   {
     "Architecture": "amd64",
@@ -4553,7 +4553,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.2-2",
+    "Version": "3.9.2-3",
     "binary:Package": "python3-minimal",
     "binary:Summary": "minimal subset of the Python language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-2"
+    "source:Version": "3.9.2-3"
   },
   {
     "Architecture": "amd64",
