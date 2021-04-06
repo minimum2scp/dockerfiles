@@ -135,7 +135,7 @@ ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecisi
 ii   libgnutls30             3.7.1-3                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6             3.7.2-1                         amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6             3.7.2-3                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.18.3-4                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
@@ -151,7 +151,7 @@ ii   libmount1               2.36.1-7                        amd64  device mount
 ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8              3.7.2-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8              3.7.2-3                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
@@ -165,7 +165,7 @@ ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 C
 ii   libperl5.32             5.32.1-3                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
-ii   libprocps8              2:3.3.17-4                      amd64  library for accessing process information from /proc
+ii   libprocps8              2:3.3.17-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.2-1                         amd64  Minimal subset of the Python language (version 3.9)
@@ -220,7 +220,7 @@ ii   passwd                  1:4.8.1-1                       amd64  change and a
 ii   perl                    5.32.1-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-3                        amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-3                        all    Core Perl modules
-ii   procps                  2:3.3.17-4                      amd64  /proc file system utilities
+ii   procps                  2:3.3.17-5                      amd64  /proc file system utilities
 ii   python3                 3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.2-3                         amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.2-1                         amd64  Interactive high-level object-oriented language (version 3.9)
