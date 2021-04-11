@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     2.2.2                         amd64  commandline package manager
-ii   base-files              11                            amd64  Debian base system miscellaneous files
+ii   base-files              11.1                          amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.49                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b1                      amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-7                    amd64  basic utilities from 4.4BSD-Lite
@@ -68,13 +68,13 @@ ii   libgcrypt20             1.8.7-3                       amd64  LGPL Crypto li
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-3                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.18.3-4                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-5                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.2-3                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                       amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.18.3-4                      amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-5                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.18.3-4                      amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.18.3-4                      amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-5                      amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-5                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-1                       amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2                       amd64  XZ-format compression library
 ii   libmd0                  1.0.3-3                       amd64  message digest functions from BSD systems - shared library
