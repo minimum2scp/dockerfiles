@@ -1486,7 +1486,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libc6 (<< 2.29-4)",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.18-2",
+    "Version": "1:4.4.18-3",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.18-2"
+    "source:Version": "1:4.4.18-3"
   },
   {
     "Architecture": "amd64",
