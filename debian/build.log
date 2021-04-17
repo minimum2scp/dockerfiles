@@ -7,114 +7,217 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
+I: Retrieving libacl1 2.2.53-10
 I: Validating libacl1 2.2.53-10
+I: Retrieving adduser 3.118
 I: Validating adduser 3.118
 I: Retrieving apt 2.2.3
 I: Validating apt 2.2.3
 I: Retrieving libapt-pkg6.0 2.2.3
 I: Validating libapt-pkg6.0 2.2.3
+I: Retrieving libattr1 1:2.4.48-6
 I: Validating libattr1 1:2.4.48-6
+I: Retrieving libaudit-common 1:3.0-2
 I: Validating libaudit-common 1:3.0-2
+I: Retrieving libaudit1 1:3.0-2
 I: Validating libaudit1 1:3.0-2
+I: Retrieving base-files 11.1
 I: Validating base-files 11.1
+I: Retrieving base-passwd 3.5.49
 I: Validating base-passwd 3.5.49
+I: Retrieving bash 5.1-2+b1
 I: Validating bash 5.1-2+b1
+I: Retrieving libbz2-1.0 1.0.8-4
 I: Validating libbz2-1.0 1.0.8-4
+I: Retrieving libdebconfclient0 0.257
 I: Validating libdebconfclient0 0.257
+I: Retrieving coreutils 8.32-4+b1
 I: Validating coreutils 8.32-4+b1
+I: Retrieving dash 0.5.11+git20210120+802ebd4-1
 I: Validating dash 0.5.11+git20210120+802ebd4-1
+I: Retrieving libdb5.3 5.3.28+dfsg1-0.8
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
+I: Retrieving debconf 1.5.76
 I: Validating debconf 1.5.76
+I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
+I: Retrieving debianutils 4.11.2
 I: Validating debianutils 4.11.2
+I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
 I: Retrieving dpkg 1.20.9
 I: Validating dpkg 1.20.9
+I: Retrieving e2fsprogs 1.46.2-1
 I: Validating e2fsprogs 1.46.2-1
+I: Retrieving libcom-err2 1.46.2-1
 I: Validating libcom-err2 1.46.2-1
+I: Retrieving libext2fs2 1.46.2-1
 I: Validating libext2fs2 1.46.2-1
+I: Retrieving libss2 1.46.2-1
 I: Validating libss2 1.46.2-1
+I: Retrieving logsave 1.46.2-1
 I: Validating logsave 1.46.2-1
+I: Retrieving libelf1 0.183-3
 I: Validating libelf1 0.183-3
+I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
+I: Retrieving gcc-10-base 10.2.1-6
 I: Validating gcc-10-base 10.2.1-6
+I: Retrieving libgcc-s1 10.2.1-6
 I: Validating libgcc-s1 10.2.1-6
+I: Retrieving libstdc++6 10.2.1-6
 I: Validating libstdc++6 10.2.1-6
+I: Retrieving gcc-9-base 9.3.0-22
 I: Validating gcc-9-base 9.3.0-22
+I: Retrieving libc-bin 2.31-11
 I: Validating libc-bin 2.31-11
+I: Retrieving libc6 2.31-11
 I: Validating libc6 2.31-11
+I: Retrieving libgmp10 2:6.2.1+dfsg-1
 I: Validating libgmp10 2:6.2.1+dfsg-1
+I: Retrieving gpgv 2.2.27-1
 I: Validating gpgv 2.2.27-1
+I: Retrieving libgnutls30 3.7.1-3
 I: Validating libgnutls30 3.7.1-3
+I: Retrieving grep 3.6-1
 I: Validating grep 3.6-1
+I: Retrieving gzip 1.10-4
 I: Validating gzip 1.10-4
+I: Retrieving hostname 3.23
 I: Validating hostname 3.23
+I: Retrieving init-system-helpers 1.60
 I: Validating init-system-helpers 1.60
+I: Retrieving iproute2 5.10.0-4
 I: Validating iproute2 5.10.0-4
+I: Retrieving libxtables12 1.8.7-1
 I: Validating libxtables12 1.8.7-1
+I: Retrieving iputils-ping 3:20210202-1
 I: Validating iputils-ping 3:20210202-1
+I: Retrieving libkeyutils1 1.6.1-2
 I: Validating libkeyutils1 1.6.1-2
+I: Retrieving libgssapi-krb5-2 1.18.3-5
 I: Validating libgssapi-krb5-2 1.18.3-5
+I: Retrieving libk5crypto3 1.18.3-5
 I: Validating libk5crypto3 1.18.3-5
+I: Retrieving libkrb5-3 1.18.3-5
 I: Validating libkrb5-3 1.18.3-5
+I: Retrieving libkrb5support0 1.18.3-5
 I: Validating libkrb5support0 1.18.3-5
+I: Retrieving libbpf0 1:0.3-2
 I: Validating libbpf0 1:0.3-2
+I: Retrieving libbsd0 0.11.3-1
 I: Validating libbsd0 0.11.3-1
+I: Retrieving libcap-ng0 0.7.9-2.2+b1
 I: Validating libcap-ng0 0.7.9-2.2+b1
+I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
+I: Retrieving libcap2-bin 1:2.44-1
 I: Validating libcap2-bin 1:2.44-1
+I: Retrieving libffi7 3.3-6
 I: Validating libffi7 3.3-6
+I: Retrieving libgcrypt20 1.8.7-3
 I: Validating libgcrypt20 1.8.7-3
+I: Retrieving libgpg-error0 1.38-2
 I: Validating libgpg-error0 1.38-2
+I: Retrieving libidn2-0 2.3.0-5
 I: Validating libidn2-0 2.3.0-5
+I: Retrieving libmd0 1.0.3-3
 I: Validating libmd0 1.0.3-3
+I: Retrieving libmnl0 1.0.4-3
 I: Validating libmnl0 1.0.4-3
+I: Retrieving libnsl2 1.3.0-2
 I: Validating libnsl2 1.3.0-2
+I: Retrieving libseccomp2 2.5.1-1
 I: Validating libseccomp2 2.5.1-1
+I: Retrieving libselinux1 3.1-3
 I: Validating libselinux1 3.1-3
+I: Retrieving libsemanage-common 3.1-1
 I: Validating libsemanage-common 3.1-1
+I: Retrieving libsemanage1 3.1-1+b2
 I: Validating libsemanage1 3.1-1+b2
+I: Retrieving libsepol1 3.1-1
 I: Validating libsepol1 3.1-1
+I: Retrieving libtasn1-6 4.16.0-2
 I: Validating libtasn1-6 4.16.0-2
+I: Retrieving libtirpc-common 1.3.1-1
 I: Validating libtirpc-common 1.3.1-1
+I: Retrieving libtirpc3 1.3.1-1
 I: Validating libtirpc3 1.3.1-1
+I: Retrieving libunistring2 0.9.10-4
 I: Validating libunistring2 0.9.10-4
-I: Validating libcrypt1 1:4.4.18-2
+I: Retrieving libcrypt1 1:4.4.18-3
+I: Validating libcrypt1 1:4.4.18-3
+I: Retrieving libzstd1 1.4.8+dfsg-2.1
 I: Validating libzstd1 1.4.8+dfsg-2.1
+I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
+I: Retrieving liblz4-1 1.9.3-1
 I: Validating liblz4-1 1.9.3-1
+I: Retrieving mawk 1.3.4.20200120-2
 I: Validating mawk 1.3.4.20200120-2
+I: Retrieving libtinfo6 6.2+20201114-2
 I: Validating libtinfo6 6.2+20201114-2
+I: Retrieving ncurses-base 6.2+20201114-2
 I: Validating ncurses-base 6.2+20201114-2
+I: Retrieving ncurses-bin 6.2+20201114-2
 I: Validating ncurses-bin 6.2+20201114-2
+I: Retrieving libhogweed6 3.7.2-3
 I: Validating libhogweed6 3.7.2-3
+I: Retrieving libnettle8 3.7.2-3
 I: Validating libnettle8 3.7.2-3
+I: Retrieving libssl1.1 1.1.1k-1
 I: Validating libssl1.1 1.1.1k-1
+I: Retrieving libp11-kit0 0.23.22-1
 I: Validating libp11-kit0 0.23.22-1
+I: Retrieving libpam-modules 1.4.0-7
 I: Validating libpam-modules 1.4.0-7
+I: Retrieving libpam-modules-bin 1.4.0-7
 I: Validating libpam-modules-bin 1.4.0-7
+I: Retrieving libpam-runtime 1.4.0-7
 I: Validating libpam-runtime 1.4.0-7
+I: Retrieving libpam0g 1.4.0-7
 I: Validating libpam0g 1.4.0-7
+I: Retrieving libpcre2-8-0 10.36-2
 I: Validating libpcre2-8-0 10.36-2
+I: Retrieving libpcre3 2:8.39-13
 I: Validating libpcre3 2:8.39-13
+I: Retrieving perl-base 5.32.1-3
 I: Validating perl-base 5.32.1-3
+I: Retrieving sed 4.7-1
 I: Validating sed 4.7-1
+I: Retrieving login 1:4.8.1-1
 I: Validating login 1:4.8.1-1
+I: Retrieving passwd 1:4.8.1-1
 I: Validating passwd 1:4.8.1-1
+I: Retrieving libsystemd0 247.3-5
 I: Validating libsystemd0 247.3-5
+I: Retrieving libudev1 247.3-5
 I: Validating libudev1 247.3-5
+I: Retrieving sysvinit-utils 2.96-6
 I: Validating sysvinit-utils 2.96-6
+I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
+I: Retrieving tzdata 2021a-1
 I: Validating tzdata 2021a-1
+I: Retrieving bsdutils 1:2.36.1-7
 I: Validating bsdutils 1:2.36.1-7
+I: Retrieving libblkid1 2.36.1-7
 I: Validating libblkid1 2.36.1-7
+I: Retrieving libmount1 2.36.1-7
 I: Validating libmount1 2.36.1-7
+I: Retrieving libsmartcols1 2.36.1-7
 I: Validating libsmartcols1 2.36.1-7
+I: Retrieving libuuid1 2.36.1-7
 I: Validating libuuid1 2.36.1-7
+I: Retrieving mount 2.36.1-7
 I: Validating mount 2.36.1-7
+I: Retrieving util-linux 2.36.1-7
 I: Validating util-linux 2.36.1-7
+I: Retrieving libxxhash0 0.8.0-2
 I: Validating libxxhash0 0.8.0-2
+I: Retrieving liblzma5 5.2.5-2
 I: Validating liblzma5 5.2.5-2
+I: Retrieving zlib1g 1:1.2.11.dfsg-2
 I: Validating zlib1g 1:1.2.11.dfsg-2
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
@@ -440,14 +543,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.88MB
+Sending build context to Docker daemon  34.98MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a9d09cac86ea
+ ---> 9b3114e98dd1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 95b696ce1268
-Removing intermediate container 95b696ce1268
- ---> ea58628f112f
-Successfully built ea58628f112f
+ ---> Running in fa9f51b6f6fb
+Removing intermediate container fa9f51b6f6fb
+ ---> 9584c28f7a2f
+Successfully built 9584c28f7a2f
 Successfully tagged minimum2scp/debian:latest
