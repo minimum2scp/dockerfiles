@@ -57,7 +57,7 @@ ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate P
 ii   libcap2                 1:2.44-1                      amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.44-1                      amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcom-err2             1.46.2-1                      amd64  common error description library
-ii   libcrypt1               1:4.4.18-3                    amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.18-4                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.257                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libelf1                 0.183-3                       amd64  library to read and write ELF files
@@ -119,7 +119,7 @@ ii   ncurses-bin             6.2+20201114-2                amd64  terminal-relat
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
 ii   perl-base               5.32.1-3                      amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          2.96-6                        amd64  System-V-like utilities
+ii   sysvinit-utils          2.96-7                        amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                       all    time zone and daylight-saving time data
 ii   util-linux              2.36.1-7                      amd64  miscellaneous system utilities
