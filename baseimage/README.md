@@ -91,7 +91,7 @@ ii   groff-base              1.22.4-6                        amd64  GNU troff te
 ii   gzip                    1.10-4                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
-ii   initscripts             2.96-6                          all    scripts for initializing and shutting down the system
+ii   initscripts             2.96-7                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
 ii   iproute2                5.10.0-4                        amd64  networking and traffic control tools
 ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
@@ -113,7 +113,7 @@ ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1
 ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.18-3                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.2                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.2                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -232,9 +232,9 @@ ii   sed                     4.7-1                           amd64  GNU stream e
 ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.9.5p2-3                       amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.96-6                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.96-6                          amd64  System-V-like init
-ii   sysvinit-utils          2.96-6                          amd64  System-V-like utilities
+ii   sysv-rc                 2.96-7                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core           2.96-7                          amd64  System-V-like init
+ii   sysvinit-utils          2.96-7                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
