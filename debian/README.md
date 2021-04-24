@@ -35,7 +35,7 @@ ii   e2fsprogs               1.46.2-1                      amd64  ext2/ext3/ext4
 ii   findutils               4.8.0-1                       amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.3.0-22                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.27-1                      amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.27-2                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                         amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                        amd64  GNU compression utilities
 ii   hostname                3.23                          amd64  utility to set/show the host name or domain name
