@@ -9,14 +9,14 @@ nginx_version="1.19.6-1~stretch"
 apt-get install -y --no-install-recommends gnupg
 
 ## install apt key
-curl -sSf http://nginx.org/keys/nginx_signing.key | apt-key --keyring /etc/apt/trusted.gpg.d/nginx.gpg add -
+curl -sSf http://nginx.org/keys/nginx_signing.key | gpg --dearmor -o /usr/share/keyrings/nginx.gpg
 
 ## add apt-line
 (
-  echo "deb     http://nginx.org/packages/debian/ stretch nginx"
-  echo "deb-src http://nginx.org/packages/debian/ stretch nginx"
-  echo "deb     http://nginx.org/packages/mainline/debian/ stretch nginx"
-  echo "deb-src http://nginx.org/packages/mainline/debian/ stretch nginx"
+  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ stretch nginx"
+  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ stretch nginx"
+  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ stretch nginx"
+  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ stretch nginx"
 ) | tee /etc/apt/sources.list.d/nginx.list
 
 ## add apt-preferences
