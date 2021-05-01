@@ -325,7 +325,7 @@ describe 'minimum2scp/baseimage' do
       it { should be_file }
     end
 
-    describe file('/etc/apt/trusted.gpg.d/nginx.gpg') do
+    describe file('/usr/share/keyrings/nginx.gpg') do
       it { should be_file }
     end
 
