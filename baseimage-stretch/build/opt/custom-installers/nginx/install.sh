@@ -28,7 +28,7 @@ EOS
 
 ## etckeeper
 if etckeeper unclean 1>/dev/null 2>/dev/null; then
-  etckeeper commit "apt: added apt-key, apt-line, apt-preferences for nginx"
+  etckeeper commit "apt: added apt-line, apt-preferences for nginx"
 fi
 
 ## install nginx
