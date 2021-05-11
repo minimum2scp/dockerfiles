@@ -12,5 +12,5 @@ bash -l -c "rbenv update"
 
 ## install pre-build binary (see https://github.com/minimum2scp/ruby-binary)
 curl -L --create-dirs -o /tmp/build/ruby-full/tmp/ruby-binary/install.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install.sh
-sh /tmp/build/ruby-full/tmp/ruby-binary/install.sh -t v0.1.144
+sh /tmp/build/ruby-full/tmp/ruby-binary/install.sh -t v0.1.145
 
