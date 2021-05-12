@@ -9,88 +9,171 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
+I: Retrieving libacl1 2.2.52-3+b1
 I: Validating libacl1 2.2.52-3+b1
+I: Retrieving adduser 3.115
 I: Validating adduser 3.115
+I: Retrieving apt 1.4.10
 I: Validating apt 1.4.10
+I: Retrieving libapt-pkg5.0 1.4.10
 I: Validating libapt-pkg5.0 1.4.10
+I: Retrieving libattr1 1:2.4.47-2+b2
 I: Validating libattr1 1:2.4.47-2+b2
+I: Retrieving libaudit-common 1:2.6.7-2
 I: Validating libaudit-common 1:2.6.7-2
+I: Retrieving libaudit1 1:2.6.7-2
 I: Validating libaudit1 1:2.6.7-2
+I: Retrieving base-files 9.9+deb9u13
 I: Validating base-files 9.9+deb9u13
+I: Retrieving base-passwd 3.5.43
 I: Validating base-passwd 3.5.43
+I: Retrieving bash 4.4-5
 I: Validating bash 4.4-5
+I: Retrieving libbz2-1.0 1.0.6-8.1
 I: Validating libbz2-1.0 1.0.6-8.1
+I: Retrieving libdebconfclient0 0.227
 I: Validating libdebconfclient0 0.227
+I: Retrieving coreutils 8.26-3
 I: Validating coreutils 8.26-3
+I: Retrieving dash 0.5.8-2.4
 I: Validating dash 0.5.8-2.4
+I: Retrieving libdb5.3 5.3.28-12+deb9u1
 I: Validating libdb5.3 5.3.28-12+deb9u1
+I: Retrieving debconf 1.5.61
 I: Validating debconf 1.5.61
+I: Retrieving debian-archive-keyring 2017.5+deb9u1
 I: Validating debian-archive-keyring 2017.5+deb9u1
+I: Retrieving debianutils 4.8.1.1
 I: Validating debianutils 4.8.1.1
+I: Retrieving diffutils 1:3.5-3
 I: Validating diffutils 1:3.5-3
+I: Retrieving dpkg 1.18.25
 I: Validating dpkg 1.18.25
+I: Retrieving e2fslibs 1.43.4-2+deb9u1
 I: Validating e2fslibs 1.43.4-2+deb9u1
+I: Retrieving e2fsprogs 1.43.4-2+deb9u1
 I: Validating e2fsprogs 1.43.4-2+deb9u1
+I: Retrieving libcomerr2 1.43.4-2+deb9u1
 I: Validating libcomerr2 1.43.4-2+deb9u1
+I: Retrieving libss2 1.43.4-2+deb9u1
 I: Validating libss2 1.43.4-2+deb9u1
+I: Retrieving libelf1 0.168-1
 I: Validating libelf1 0.168-1
+I: Retrieving findutils 4.6.0+git+20161106-2
 I: Validating findutils 4.6.0+git+20161106-2
+I: Retrieving gcc-6-base 6.3.0-18+deb9u1
 I: Validating gcc-6-base 6.3.0-18+deb9u1
+I: Retrieving libgcc1 1:6.3.0-18+deb9u1
 I: Validating libgcc1 1:6.3.0-18+deb9u1
+I: Retrieving libstdc++6 6.3.0-18+deb9u1
 I: Validating libstdc++6 6.3.0-18+deb9u1
+I: Retrieving libc-bin 2.24-11+deb9u4
 I: Validating libc-bin 2.24-11+deb9u4
+I: Retrieving libc6 2.24-11+deb9u4
 I: Validating libc6 2.24-11+deb9u4
+I: Retrieving multiarch-support 2.24-11+deb9u4
 I: Validating multiarch-support 2.24-11+deb9u4
+I: Retrieving gpgv 2.1.18-8~deb9u4
 I: Validating gpgv 2.1.18-8~deb9u4
+I: Retrieving grep 2.27-2
 I: Validating grep 2.27-2
+I: Retrieving gzip 1.6-5+b1
 I: Validating gzip 1.6-5+b1
+I: Retrieving hostname 3.18+b1
 I: Validating hostname 3.18+b1
+I: Retrieving init-system-helpers 1.48
 I: Validating init-system-helpers 1.48
+I: Retrieving iproute2 4.9.0-1+deb9u1
 I: Validating iproute2 4.9.0-1+deb9u1
+I: Retrieving iputils-ping 3:20161105-1
 I: Validating iputils-ping 3:20161105-1
+I: Retrieving libcap-ng0 0.7.7-3+b1
 I: Validating libcap-ng0 0.7.7-3+b1
+I: Retrieving libcap2 1:2.25-1
 I: Validating libcap2 1:2.25-1
+I: Retrieving libgcrypt20 1.7.6-2+deb9u3
 I: Validating libgcrypt20 1.7.6-2+deb9u3
+I: Retrieving libgpg-error0 1.26-2
 I: Validating libgpg-error0 1.26-2
+I: Retrieving libidn11 1.33-1+deb9u1
 I: Validating libidn11 1.33-1+deb9u1
+I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
+I: Retrieving libselinux1 2.6-3+b3
 I: Validating libselinux1 2.6-3+b3
+I: Retrieving libsemanage-common 2.6-2
 I: Validating libsemanage-common 2.6-2
+I: Retrieving libsemanage1 2.6-2
 I: Validating libsemanage1 2.6-2
+I: Retrieving libsepol1 2.6-2
 I: Validating libsepol1 2.6-2
+I: Retrieving lsb-base 9.20161125
 I: Validating lsb-base 9.20161125
+I: Retrieving liblz4-1 0.0~r131-2+b1
 I: Validating liblz4-1 0.0~r131-2+b1
+I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
+I: Retrieving libncursesw5 6.0+20161126-1+deb9u2
 I: Validating libncursesw5 6.0+20161126-1+deb9u2
+I: Retrieving libtinfo5 6.0+20161126-1+deb9u2
 I: Validating libtinfo5 6.0+20161126-1+deb9u2
+I: Retrieving ncurses-base 6.0+20161126-1+deb9u2
 I: Validating ncurses-base 6.0+20161126-1+deb9u2
+I: Retrieving ncurses-bin 6.0+20161126-1+deb9u2
 I: Validating ncurses-bin 6.0+20161126-1+deb9u2
+I: Retrieving libnettle6 3.3-1+b2
 I: Validating libnettle6 3.3-1+b2
+I: Retrieving libpam-modules 1.1.8-3.6
 I: Validating libpam-modules 1.1.8-3.6
+I: Retrieving libpam-modules-bin 1.1.8-3.6
 I: Validating libpam-modules-bin 1.1.8-3.6
+I: Retrieving libpam-runtime 1.1.8-3.6
 I: Validating libpam-runtime 1.1.8-3.6
+I: Retrieving libpam0g 1.1.8-3.6
 I: Validating libpam0g 1.1.8-3.6
+I: Retrieving libpcre3 2:8.39-3
 I: Validating libpcre3 2:8.39-3
+I: Retrieving perl-base 5.24.1-3+deb9u7
 I: Validating perl-base 5.24.1-3+deb9u7
+I: Retrieving sed 4.4-1
 I: Validating sed 4.4-1
+I: Retrieving sensible-utils 0.0.9+deb9u1
 I: Validating sensible-utils 0.0.9+deb9u1
+I: Retrieving login 1:4.4-4.1
 I: Validating login 1:4.4-4.1
+I: Retrieving passwd 1:4.4-4.1
 I: Validating passwd 1:4.4-4.1
+I: Retrieving libsystemd0 232-25+deb9u12
 I: Validating libsystemd0 232-25+deb9u12
+I: Retrieving libudev1 232-25+deb9u12
 I: Validating libudev1 232-25+deb9u12
+I: Retrieving sysvinit-utils 2.88dsf-59.9
 I: Validating sysvinit-utils 2.88dsf-59.9
+I: Retrieving tar 1.29b-1.1
 I: Validating tar 1.29b-1.1
+I: Retrieving tzdata 2020a-0+deb9u1
 I: Validating tzdata 2020a-0+deb9u1
+I: Retrieving libustr-1.0-1 1.0.4-6
 I: Validating libustr-1.0-1 1.0.4-6
+I: Retrieving bsdutils 1:2.29.2-1+deb9u1
 I: Validating bsdutils 1:2.29.2-1+deb9u1
+I: Retrieving libblkid1 2.29.2-1+deb9u1
 I: Validating libblkid1 2.29.2-1+deb9u1
+I: Retrieving libfdisk1 2.29.2-1+deb9u1
 I: Validating libfdisk1 2.29.2-1+deb9u1
+I: Retrieving libmount1 2.29.2-1+deb9u1
 I: Validating libmount1 2.29.2-1+deb9u1
+I: Retrieving libsmartcols1 2.29.2-1+deb9u1
 I: Validating libsmartcols1 2.29.2-1+deb9u1
+I: Retrieving libuuid1 2.29.2-1+deb9u1
 I: Validating libuuid1 2.29.2-1+deb9u1
+I: Retrieving mount 2.29.2-1+deb9u1
 I: Validating mount 2.29.2-1+deb9u1
+I: Retrieving util-linux 2.29.2-1+deb9u1
 I: Validating util-linux 2.29.2-1+deb9u1
+I: Retrieving liblzma5 5.2.2-1.2+b1
 I: Validating liblzma5 5.2.2-1.2+b1
+I: Retrieving zlib1g 1:1.2.8.dfsg-5
 I: Validating zlib1g 1:1.2.8.dfsg-5
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
@@ -338,32 +421,33 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
-Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
-Get:3 http://security.debian.org stretch/updates InRelease [53.0 kB]
+Get:1 http://security.debian.org stretch/updates InRelease [53.0 kB]
+Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
+Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:5 http://ftp.jp.debian.org/debian stretch-updates/main amd64 Packages [2711 B]
-Get:7 http://security.debian.org stretch/updates/main amd64 Packages [839 kB]
-Fetched 989 kB in 0s (1392 kB/s)
+Get:5 http://security.debian.org stretch/updates/main amd64 Packages [865 kB]
+Fetched 1012 kB in 0s (2776 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  apt e2fslibs e2fsprogs libapt-pkg5.0 libcomerr2 libss2 login passwd tzdata
-9 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 5505 kB of archives.
-After this operation, 8192 B of additional disk space will be used.
+  apt e2fslibs e2fsprogs libapt-pkg5.0 libcomerr2 liblz4-1 libss2 login passwd
+  tzdata
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5538 kB of archives.
+After this operation, 7168 B of additional disk space will be used.
 Get:1 http://security.debian.org stretch/updates/main amd64 e2fslibs amd64 1.43.4-2+deb9u2 [208 kB]
 Get:2 http://security.debian.org stretch/updates/main amd64 e2fsprogs amd64 1.43.4-2+deb9u2 [948 kB]
 Get:3 http://security.debian.org stretch/updates/main amd64 login amd64 1:4.4-4.1+deb9u1 [790 kB]
-Get:4 http://security.debian.org stretch/updates/main amd64 libapt-pkg5.0 amd64 1.4.11 [917 kB]
-Get:5 http://security.debian.org stretch/updates/main amd64 apt amd64 1.4.11 [1232 kB]
-Get:6 http://security.debian.org stretch/updates/main amd64 libcomerr2 amd64 1.43.4-2+deb9u2 [63.8 kB]
-Get:7 http://security.debian.org stretch/updates/main amd64 libss2 amd64 1.43.4-2+deb9u2 [68.0 kB]
-Get:8 http://security.debian.org stretch/updates/main amd64 passwd amd64 1:4.4-4.1+deb9u1 [997 kB]
-Get:9 http://security.debian.org stretch/updates/main amd64 tzdata all 2021a-0+deb9u1 [281 kB]
-Fetched 5505 kB in 0s (14.8 MB/s)
+Get:4 http://security.debian.org stretch/updates/main amd64 liblz4-1 amd64 0.0~r131-2+deb9u1 [33.2 kB]
+Get:5 http://security.debian.org stretch/updates/main amd64 libapt-pkg5.0 amd64 1.4.11 [917 kB]
+Get:6 http://security.debian.org stretch/updates/main amd64 apt amd64 1.4.11 [1232 kB]
+Get:7 http://security.debian.org stretch/updates/main amd64 libcomerr2 amd64 1.43.4-2+deb9u2 [63.8 kB]
+Get:8 http://security.debian.org stretch/updates/main amd64 libss2 amd64 1.43.4-2+deb9u2 [68.0 kB]
+Get:9 http://security.debian.org stretch/updates/main amd64 passwd amd64 1:4.4-4.1+deb9u1 [997 kB]
+Get:10 http://security.debian.org stretch/updates/main amd64 tzdata all 2021a-0+deb9u1 [281 kB]
+Fetched 5538 kB in 0s (17.9 MB/s)
 (Reading database ... 6505 files and directories currently installed.)
 Preparing to unpack .../e2fslibs_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking e2fslibs:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
@@ -378,38 +462,42 @@ Unpacking login (1:4.4-4.1+deb9u1) over (1:4.4-4.1) ...
 Setting up login (1:4.4-4.1+deb9u1) ...
 Installing new version of config file /etc/securetty ...
 (Reading database ... 6505 files and directories currently installed.)
+Preparing to unpack .../liblz4-1_0.0~r131-2+deb9u1_amd64.deb ...
+Unpacking liblz4-1:amd64 (0.0~r131-2+deb9u1) over (0.0~r131-2+b1) ...
+Setting up liblz4-1:amd64 (0.0~r131-2+deb9u1) ...
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../libapt-pkg5.0_1.4.11_amd64.deb ...
 Unpacking libapt-pkg5.0:amd64 (1.4.11) over (1.4.10) ...
 Setting up libapt-pkg5.0:amd64 (1.4.11) ...
-(Reading database ... 6505 files and directories currently installed.)
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../archives/apt_1.4.11_amd64.deb ...
 Unpacking apt (1.4.11) over (1.4.10) ...
 Setting up apt (1.4.11) ...
-(Reading database ... 6505 files and directories currently installed.)
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../libcomerr2_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking libcomerr2:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
 Setting up libcomerr2:amd64 (1.43.4-2+deb9u2) ...
-(Reading database ... 6505 files and directories currently installed.)
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../libss2_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking libss2:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
 Setting up libss2:amd64 (1.43.4-2+deb9u2) ...
-(Reading database ... 6505 files and directories currently installed.)
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../passwd_1%3a4.4-4.1+deb9u1_amd64.deb ...
 Unpacking passwd (1:4.4-4.1+deb9u1) over (1:4.4-4.1) ...
 Setting up passwd (1:4.4-4.1+deb9u1) ...
-(Reading database ... 6505 files and directories currently installed.)
+(Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../tzdata_2021a-0+deb9u1_all.deb ...
 Unpacking tzdata (2021a-0+deb9u1) over (2020a-0+deb9u1) ...
 Setting up tzdata (2021a-0+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u4) ...
-Sending build context to Docker daemon  26.73MB
+Sending build context to Docker daemon  26.87MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b68ee45e4e56
+ ---> bb188c6e2c4b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in dd4bbdc71313
-Removing intermediate container dd4bbdc71313
- ---> 89196bc79007
-Successfully built 89196bc79007
+ ---> Running in 74e37d46020c
+Removing intermediate container 74e37d46020c
+ ---> 21bca713830d
+Successfully built 21bca713830d
 Successfully tagged minimum2scp/debian-stretch:latest

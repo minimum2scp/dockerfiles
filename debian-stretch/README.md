@@ -62,7 +62,7 @@ ii   libgcc1                 1:6.3.0-18+deb9u1      amd64  GCC support library
 ii   libgcrypt20             1.7.6-2+deb9u3         amd64  LGPL Crypto library - runtime library
 ii   libgpg-error0           1.26-2                 amd64  library for common error values and messages in GnuPG components
 ii   libidn11                1.33-1+deb9u1          amd64  GNU Libidn library, implementation of IETF IDN specifications
-ii   liblz4-1                0.0~r131-2+b1          amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                0.0~r131-2+deb9u1      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.2-1.2+b1           amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1+deb9u1        amd64  device mounting library
