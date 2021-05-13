@@ -2,6 +2,7 @@
 ## mkimage.sh wrapper.
 ## usage:
 ##
+##   git clone --branch v19.03.15 --depth 1 https://github.com/docker/docker-ce.git ~/go/src/github.com/docker/docker-ce
 ##   rake mkimage TAG=minimum2scp/debian:latest
 ##
 
