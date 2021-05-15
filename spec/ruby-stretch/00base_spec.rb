@@ -54,6 +54,14 @@ describe 'minimum2scp/ruby-stretch' do
       its(:stdout) { should include 'ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]' }
     end
 
+    describe command('gem --version') do
+      its(:stdout) { should eq "3.2.17\n" }
+    end
+
+    describe command('bundle --version') do
+      its(:stdout) { should eq "Bundler version 2.2.17\n" }
+    end
+
     describe file('/opt/rbenv') do
       it { should be_directory }
     end
