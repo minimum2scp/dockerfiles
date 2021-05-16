@@ -23,8 +23,8 @@ I: Retrieving libaudit1 1:3.0-2
 I: Validating libaudit1 1:3.0-2
 I: Retrieving base-files 11.1
 I: Validating base-files 11.1
-I: Retrieving base-passwd 3.5.49
-I: Validating base-passwd 3.5.49
+I: Retrieving base-passwd 3.5.50
+I: Validating base-passwd 3.5.50
 I: Retrieving bash 5.1-3
 I: Validating bash 5.1-3
 I: Retrieving libbz2-1.0 1.0.8-4
@@ -547,10 +547,10 @@ Sending build context to Docker daemon  34.98MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3e1ef04bc288
+ ---> fbbcdb3a0994
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4a3d7d8d023f
-Removing intermediate container 4a3d7d8d023f
- ---> 5b664bc96d07
-Successfully built 5b664bc96d07
+ ---> Running in 608da94b9f33
+Removing intermediate container 608da94b9f33
+ ---> c0d3be00d1ad
+Successfully built c0d3be00d1ad
 Successfully tagged minimum2scp/debian:latest
