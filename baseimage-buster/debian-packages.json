@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.3-1",
+    "Version": "1.8.3-1+deb10u1",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.8.3-1"
+    "source:Version": "1.8.3-1+deb10u1"
   },
   {
     "Architecture": "amd64",
