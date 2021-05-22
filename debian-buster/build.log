@@ -465,24 +465,29 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian buster InRelease
-Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:3 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [12.3 kB]
-Get:4 http://security.debian.org buster/updates InRelease [65.4 kB]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [341 kB]
-Fetched 471 kB in 1s (561 kB/s)
+Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
+Hit:2 http://ftp.jp.debian.org/debian buster InRelease
+Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [363 kB]
+Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [12.3 kB]
+Fetched 493 kB in 0s (1116 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  apt libapt-pkg5.0
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2385 kB of archives.
+  apt libapt-pkg5.0 liblz4-1
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2439 kB of archives.
 After this operation, 0 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian buster-updates/main amd64 libapt-pkg5.0 amd64 1.8.2.3 [967 kB]
-Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 apt amd64 1.8.2.3 [1418 kB]
-Fetched 2385 kB in 0s (4971 kB/s)
+Get:1 http://security.debian.org buster/updates/main amd64 liblz4-1 amd64 1.8.3-1+deb10u1 [53.3 kB]
+Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 libapt-pkg5.0 amd64 1.8.2.3 [967 kB]
+Get:3 http://ftp.jp.debian.org/debian buster-updates/main amd64 apt amd64 1.8.2.3 [1418 kB]
+Fetched 2439 kB in 1s (3471 kB/s)
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../liblz4-1_1.8.3-1+deb10u1_amd64.deb ...
+Unpacking liblz4-1:amd64 (1.8.3-1+deb10u1) over (1.8.3-1) ...
+Setting up liblz4-1:amd64 (1.8.3-1+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libapt-pkg5.0_1.8.2.3_amd64.deb ...
 Unpacking libapt-pkg5.0:amd64 (1.8.2.3) over (1.8.2.2) ...
@@ -496,10 +501,10 @@ Sending build context to Docker daemon  30.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0f90211cfb22
+ ---> 6add59c693d3
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in eebbc1006af1
-Removing intermediate container eebbc1006af1
- ---> e23a58a16277
-Successfully built e23a58a16277
+ ---> Running in 8ab0044cdafa
+Removing intermediate container 8ab0044cdafa
+ ---> ec8272915ca0
+Successfully built ec8272915ca0
 Successfully tagged minimum2scp/debian-buster:latest
