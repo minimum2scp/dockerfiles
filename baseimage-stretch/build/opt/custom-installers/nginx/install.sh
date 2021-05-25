@@ -9,7 +9,8 @@ nginx_version="1.19.6-1~stretch"
 apt-get install -y --no-install-recommends gnupg
 
 ## install apt key
-curl -sSf http://nginx.org/keys/nginx_signing.key | gpg --dearmor -o /usr/share/keyrings/nginx.gpg
+curl -sSf http://nginx.org/keys/nginx_signing.key | \
+  gpg --no-default-keyring --keyring /usr/share/keyrings/nginx.gpg --import
 
 ## add apt-line
 (
