@@ -35,6 +35,8 @@ sed -i -e 's/^#network.host: .*$/network.host: 0.0.0.0/' /etc/elasticsearch/elas
 etckeeper commit "elasticsearch: bind 0.0.0.0"
 ( echo ''; echo 'discovery.type: single-node' ) | tee -a /etc/elasticsearch/elasticsearch.yml
 etckeeper commit "elasticsearch: single-node configuration"
+sed -i -e 's/^#ES_JAVA_OPTS=/ES_JAVA_OPTS="-Xms512m -Xmx512m"/' /etc/default/elasticsearch
+etckeeper commit "elasticsearch: reduced heap size"
 
 ##
 ## install kibana
