@@ -82,7 +82,7 @@ ii   e2fsprogs               1.46.2-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.3.0-22                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.32.0~rc2-1                  amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.32.0~rc2-1                  all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-2                        amd64  GNU privacy guard - signature verification tool
