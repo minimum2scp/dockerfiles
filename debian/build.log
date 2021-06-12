@@ -161,10 +161,10 @@ I: Retrieving ncurses-base 6.2+20201114-2
 I: Validating ncurses-base 6.2+20201114-2
 I: Retrieving ncurses-bin 6.2+20201114-2
 I: Validating ncurses-bin 6.2+20201114-2
-I: Retrieving libhogweed6 3.7.2-3
-I: Validating libhogweed6 3.7.2-3
-I: Retrieving libnettle8 3.7.2-3
-I: Validating libnettle8 3.7.2-3
+I: Retrieving libhogweed6 3.7.3-1
+I: Validating libhogweed6 3.7.3-1
+I: Retrieving libnettle8 3.7.3-1
+I: Validating libnettle8 3.7.3-1
 I: Retrieving libssl1.1 1.1.1k-1
 I: Validating libssl1.1 1.1.1k-1
 I: Retrieving libp11-kit0 0.23.22-1
@@ -543,14 +543,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.98MB
+Sending build context to Docker daemon  34.97MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f7a150e03de6
+ ---> 6b7e65cbbd92
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e84edd51d792
-Removing intermediate container e84edd51d792
- ---> d5312a6c6680
-Successfully built d5312a6c6680
+ ---> Running in 855642f6d250
+Removing intermediate container 855642f6d250
+ ---> 97925f82152e
+Successfully built 97925f82152e
 Successfully tagged minimum2scp/debian:latest
