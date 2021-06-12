@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7.2-3",
+    "Version": "3.7.3-1",
     "binary:Package": "libhogweed6:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.7.2-3"
+    "source:Version": "3.7.3-1"
   },
   {
     "Architecture": "amd64",
@@ -2565,7 +2565,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7.2-3",
+    "Version": "3.7.3-1",
     "binary:Package": "libnettle8:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.7.2-3"
+    "source:Version": "3.7.3-1"
   },
   {
     "Architecture": "amd64",

@@ -135,7 +135,7 @@ ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecisi
 ii   libgnutls30             3.7.1-5                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6             3.7.2-3                         amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.18.3-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
@@ -151,7 +151,7 @@ ii   libmount1               2.36.1-7                        amd64  device mount
 ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2+20201114-2                  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8              3.7.2-3                         amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8              3.7.3-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
