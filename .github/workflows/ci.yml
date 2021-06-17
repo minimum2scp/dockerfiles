@@ -6,7 +6,6 @@ jobs:
   debian:
     name: debian
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       - uses: actions/checkout@v2
 
@@ -26,7 +25,6 @@ jobs:
   baseimage:
     name: baseimage
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       # build image
       - uses: actions/checkout@v2
@@ -55,7 +53,6 @@ jobs:
   ruby:
     name: ruby
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -90,7 +87,6 @@ jobs:
   nodejs:
     name: nodejs
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -122,7 +118,6 @@ jobs:
   es-kibana:
     name: es-kibana
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -157,7 +152,6 @@ jobs:
   systemd:
     name: systemd
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -189,7 +183,6 @@ jobs:
   squid:
     name: squid
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage]
     steps:
       # load parent image
@@ -221,7 +214,6 @@ jobs:
   norikra:
     name: norikra
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -253,7 +245,6 @@ jobs:
   ruby-full:
     name: ruby-full
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -285,7 +276,6 @@ jobs:
   rails6:
     name: rails6
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -317,7 +307,6 @@ jobs:
   tdiary:
     name: tdiary
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [ruby]
     steps:
       # load parent image
@@ -349,7 +338,6 @@ jobs:
   debian-buster:
     name: debian-buster
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       - uses: actions/checkout@v2
 
@@ -369,7 +357,6 @@ jobs:
   baseimage-buster:
     name: baseimage-buster
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       # build image
       - uses: actions/checkout@v2
@@ -398,7 +385,6 @@ jobs:
   ruby-buster:
     name: ruby-buster
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-buster]
     steps:
       # load parent image
@@ -430,7 +416,6 @@ jobs:
   systemd-buster:
     name: systemd-buster
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-buster]
     steps:
       # load parent image
@@ -462,7 +447,6 @@ jobs:
   debian-stretch:
     name: debian-stretch
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       - uses: actions/checkout@v2
 
@@ -482,7 +466,6 @@ jobs:
   baseimage-stretch:
     name: baseimage-stretch
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
       # build image
       - uses: actions/checkout@v2
@@ -511,7 +494,6 @@ jobs:
   ruby-stretch:
     name: ruby-stretch
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-stretch]
     steps:
       # load parent image
@@ -543,7 +525,6 @@ jobs:
   systemd-stretch:
     name: systemd-stretch
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     needs: [baseimage-stretch]
     steps:
       # load parent image
