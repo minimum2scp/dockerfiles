@@ -11,18 +11,18 @@ I: Retrieving libacl1 2.2.53-4
 I: Validating libacl1 2.2.53-4
 I: Retrieving adduser 3.118
 I: Validating adduser 3.118
-I: Retrieving apt 1.8.2.2
-I: Validating apt 1.8.2.2
-I: Retrieving libapt-pkg5.0 1.8.2.2
-I: Validating libapt-pkg5.0 1.8.2.2
+I: Retrieving apt 1.8.2.3
+I: Validating apt 1.8.2.3
+I: Retrieving libapt-pkg5.0 1.8.2.3
+I: Validating libapt-pkg5.0 1.8.2.3
 I: Retrieving libattr1 1:2.4.48-4
 I: Validating libattr1 1:2.4.48-4
 I: Retrieving libaudit-common 1:2.8.4-3
 I: Validating libaudit-common 1:2.8.4-3
 I: Retrieving libaudit1 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
-I: Retrieving base-files 10.3+deb10u9
-I: Validating base-files 10.3+deb10u9
+I: Retrieving base-files 10.3+deb10u10
+I: Validating base-files 10.3+deb10u10
 I: Retrieving base-passwd 3.5.46
 I: Validating base-passwd 3.5.46
 I: Retrieving bash 5.0-4
@@ -73,8 +73,8 @@ I: Retrieving libgmp10 2:6.1.2+dfsg-4
 I: Validating libgmp10 2:6.1.2+dfsg-4
 I: Retrieving gpgv 2.2.12-1+deb10u1
 I: Validating gpgv 2.2.12-1+deb10u1
-I: Retrieving libgnutls30 3.6.7-4+deb10u6
-I: Validating libgnutls30 3.6.7-4+deb10u6
+I: Retrieving libgnutls30 3.6.7-4+deb10u7
+I: Validating libgnutls30 3.6.7-4+deb10u7
 I: Retrieving grep 3.3-1
 I: Validating grep 3.3-1
 I: Retrieving gzip 1.9-3
@@ -97,8 +97,8 @@ I: Retrieving libcap2-bin 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
 I: Retrieving libffi6 3.2.1-9
 I: Validating libffi6 3.2.1-9
-I: Retrieving libgcrypt20 1.8.4-5
-I: Validating libgcrypt20 1.8.4-5
+I: Retrieving libgcrypt20 1.8.4-5+deb10u1
+I: Validating libgcrypt20 1.8.4-5+deb10u1
 I: Retrieving libgpg-error0 1.35-1
 I: Validating libgpg-error0 1.35-1
 I: Retrieving libidn2-0 2.0.5-1+deb10u1
@@ -121,8 +121,8 @@ I: Retrieving libunistring2 0.9.10-1
 I: Validating libunistring2 0.9.10-1
 I: Retrieving libzstd1 1.3.8+dfsg-3+deb10u2
 I: Validating libzstd1 1.3.8+dfsg-3+deb10u2
-I: Retrieving liblz4-1 1.8.3-1
-I: Validating liblz4-1 1.8.3-1
+I: Retrieving liblz4-1 1.8.3-1+deb10u1
+I: Validating liblz4-1 1.8.3-1+deb10u1
 I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
 I: Retrieving libncursesw6 6.1+20181013-2+deb10u2
@@ -468,43 +468,38 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
 Hit:2 http://ftp.jp.debian.org/debian buster InRelease
 Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [363 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [368 kB]
 Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [12.3 kB]
-Fetched 493 kB in 0s (1116 kB/s)
+Fetched 497 kB in 0s (1004 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  apt libapt-pkg5.0 liblz4-1
-3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 2439 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://security.debian.org buster/updates/main amd64 liblz4-1 amd64 1.8.3-1+deb10u1 [53.3 kB]
-Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 libapt-pkg5.0 amd64 1.8.2.3 [967 kB]
-Get:3 http://ftp.jp.debian.org/debian buster-updates/main amd64 apt amd64 1.8.2.3 [1418 kB]
-Fetched 2439 kB in 1s (3471 kB/s)
+  libhogweed4 libnettle6
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 355 kB of archives.
+After this operation, 1024 B of additional disk space will be used.
+Get:1 http://security.debian.org buster/updates/main amd64 libnettle6 amd64 3.4.1-1+deb10u1 [215 kB]
+Get:2 http://security.debian.org buster/updates/main amd64 libhogweed4 amd64 3.4.1-1+deb10u1 [141 kB]
+Fetched 355 kB in 0s (2733 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../liblz4-1_1.8.3-1+deb10u1_amd64.deb ...
-Unpacking liblz4-1:amd64 (1.8.3-1+deb10u1) over (1.8.3-1) ...
-Setting up liblz4-1:amd64 (1.8.3-1+deb10u1) ...
+Preparing to unpack .../libnettle6_3.4.1-1+deb10u1_amd64.deb ...
+Unpacking libnettle6:amd64 (3.4.1-1+deb10u1) over (3.4.1-1) ...
+Setting up libnettle6:amd64 (3.4.1-1+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../libapt-pkg5.0_1.8.2.3_amd64.deb ...
-Unpacking libapt-pkg5.0:amd64 (1.8.2.3) over (1.8.2.2) ...
-Setting up libapt-pkg5.0:amd64 (1.8.2.3) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../archives/apt_1.8.2.3_amd64.deb ...
-Unpacking apt (1.8.2.3) over (1.8.2.2) ...
-Setting up apt (1.8.2.3) ...
+Preparing to unpack .../libhogweed4_3.4.1-1+deb10u1_amd64.deb ...
+Unpacking libhogweed4:amd64 (3.4.1-1+deb10u1) over (3.4.1-1) ...
+Setting up libhogweed4:amd64 (3.4.1-1+deb10u1) ...
 Processing triggers for libc-bin (2.28-10) ...
-Sending build context to Docker daemon  30.24MB
+Sending build context to Docker daemon  30.26MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6add59c693d3
+ ---> 5e0f4a699a58
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 8ab0044cdafa
-Removing intermediate container 8ab0044cdafa
- ---> ec8272915ca0
-Successfully built ec8272915ca0
+ ---> Running in fcdb135a05e9
+Removing intermediate container fcdb135a05e9
+ ---> 7285a197de55
+Successfully built 7285a197de55
 Successfully tagged minimum2scp/debian-buster:latest

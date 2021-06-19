@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
 ii   apt                     1.8.2.3                 amd64  commandline package manager
-ii   base-files              10.3+deb10u9            amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u10           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1            amd64  basic utilities from 4.4BSD-Lite
@@ -62,18 +62,18 @@ ii   libext2fs2              1.44.5-1+deb10u3        amd64  ext2/ext3/ext4 file 
 ii   libfdisk1               2.33.1-0.1              amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                 amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.3.0-6               amd64  GCC support library
-ii   libgcrypt20             1.8.4-5                 amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-5+deb10u1         amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.1.2+dfsg-4          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4+deb10u6         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.7-4+deb10u7         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                  amd64  GnuPG development runtime library
-ii   libhogweed4             3.4.1-1                 amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4.1-1+deb10u1         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.8.3-1+deb10u1         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.4-1                 amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                 amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1              amd64  device mounting library
 ii   libncursesw6            6.1+20181013-2+deb10u2  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4.1-1                 amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4.1-1+deb10u1         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.23.15-2+deb10u1       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.3.1-5                 amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.3.1-5                 amd64  Pluggable Authentication Modules for PAM - helper binaries

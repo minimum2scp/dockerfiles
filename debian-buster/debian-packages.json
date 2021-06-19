@@ -38,7 +38,7 @@
     "Origin": "",
     "Package": "apt",
     "Pre-Depends": "",
-    "Priority": "important",
+    "Priority": "required",
     "Provides": "apt-transport-https (= 1.8.2.3)",
     "Recommends": "ca-certificates",
     "Replace": "",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u9",
+    "Version": "10.3+deb10u10",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u9"
+    "source:Version": "10.3+deb10u10"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.8.4-5",
+    "Version": "1.8.4-5+deb10u1",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.8.4-5"
+    "source:Version": "1.8.4-5+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -1294,7 +1294,7 @@
     "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2648",
+    "Installed-Size": "2649",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.7-4+deb10u6",
+    "Version": "3.6.7-4+deb10u7",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.7-4+deb10u6"
+    "source:Version": "3.6.7-4+deb10u7"
   },
   {
     "Architecture": "amd64",
@@ -1347,10 +1347,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4.1-1)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4.1-1+deb10u1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "245",
+    "Installed-Size": "246",
     "Origin": "",
     "Package": "libhogweed4",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.1-1",
+    "Version": "3.4.1-1+deb10u1",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.4.1-1"
+    "source:Version": "3.4.1-1+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.1-1",
+    "Version": "3.4.1-1+deb10u1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.4.1-1"
+    "source:Version": "3.4.1-1+deb10u1"
   },
   {
     "Architecture": "amd64",
