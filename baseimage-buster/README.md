@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2.3                      amd64  commandline package manager
-ii   base-files              10.3+deb10u9                 amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u10                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -124,14 +124,14 @@ ii   libfastjson4            0.99.8-2                     amd64  fast json libra
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.3.0-6                    amd64  GCC support library
-ii   libgcrypt20             1.8.4-5                      amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.8.4-5+deb10u1              amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.18.1-4                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.18.1-4                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.6.7-4+deb10u6              amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.6.7-4+deb10u7              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.17-3+deb10u1               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.4.1-1                      amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.4.1-1+deb10u1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.17-3+deb10u1               amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
@@ -146,7 +146,7 @@ ii   libmnl0                 1.0.4-2                      amd64  minimalistic Ne
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
 ii   libncurses6             6.1+20181013-2+deb10u2       amd64  shared libraries for terminal handling
 ii   libncursesw6            6.1+20181013-2+deb10u2       amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.4.1-1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.4.1-1+deb10u1              amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2+deb10u1             amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.15-2+deb10u1            amd64  library for loading and coordinating access to PKCS#11 modules - runtime
