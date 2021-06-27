@@ -36,7 +36,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
-    serverspec (2.41.7)
+    serverspec (2.41.8)
       multi_json
       rspec (~> 3.0)
       rspec-its
