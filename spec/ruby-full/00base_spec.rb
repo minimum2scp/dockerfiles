@@ -79,6 +79,13 @@ describe 'minimum2scp/ruby-full' do
         its(:stdout) { should eq "#{v[:rubygems_version]}\n" }
       end
 
+      describe command("RBENV_VERSION=#{v[:ruby]} gem outdated") do
+        let(:login_shell){ true }
+        let(:env){ Bundler.original_env }
+        its(:stdout) { should_not match /^bundler / }
+        its(:stdout) { should_not match /^rubygems-update / }
+      end
+
       v[:gems].each do |gem|
         gem_list_opt = v[:ruby] =~ /\A2\.3\.\d+\z/ ? '' : '--exact'
         describe command("RBENV_VERSION=#{v[:ruby]} gem list #{gem_list_opt} #{gem[:name]}") do
