@@ -32,7 +32,8 @@ done
 ## run bundle install
 cd $GHQ_ROOT/github.com/tdiary/tdiary-core
 mkdir -p vendor/bundle
-bash -l -c "bundle install --path vendor/bundle --jobs=4"
+bash -l -c "bundle config set --local path vendor/bundle"
+bash -l -c "bundle install --jobs=4"
 
 ## add Gemfile.local
 install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
