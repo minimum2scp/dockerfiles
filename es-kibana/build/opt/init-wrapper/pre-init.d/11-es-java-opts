@@ -1,0 +1,12 @@
+#! /bin/sh
+
+if [ -z "${ES_JAVA_OPTS}" ]; then
+  ES_JAVA_OPTS="-Xms512m -Xmx512m"
+fi
+
+sed -i -e "s/^#ES_JAVA_OPTS=/ES_JAVA_OPTS=\"${ES_JAVA_OPTS}\"/" /etc/default/elasticsearch
+
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  etckeeper commit "elasticsearch: changed ES_JAVA_OPTS"
+fi
+
