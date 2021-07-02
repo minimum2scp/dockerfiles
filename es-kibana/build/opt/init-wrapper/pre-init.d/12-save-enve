@@ -1,0 +1,12 @@
+#! /bin/sh
+
+for v in \
+  ES_JAVA_OPTS
+do
+  sed -i -e "s/^export ${v}=/#export ${v}=/" /etc/profile.d/00docker-env.sh
+done
+
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  etckeeper commit "changed /etc/profile.d/00docker-env.sh" 1>/dev/null 2>/dev/null
+fi
+
