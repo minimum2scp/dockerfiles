@@ -93,15 +93,12 @@ ii   hostname                3.23                            amd64  utility to s
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-7                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
-ii   iproute2                5.10.0-4                        amd64  networking and traffic control tools
-ii   iputils-ping            3:20210202-1                    amd64  Tools to test the reachability of network hosts
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.2.4                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-7                        amd64  block device ID library
-ii   libbpf0                 1:0.3-2                         amd64  eBPF helper library (shared library)
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
@@ -110,7 +107,6 @@ ii   libc-l10n               2.31-12                         all    GNU C Librar
 ii   libc6                   2.31-12                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcap2-bin             1:2.44-1                        amd64  POSIX 1003.1e capabilities (utilities)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt shared library
@@ -119,7 +115,6 @@ ii   libcurl4                7.74.0-1.3                      amd64  easy-to-use 
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.259                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
-ii   libelf1                 0.183-3                         amd64  library to read and write ELF files
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-2                        amd64  XML parsing C library - runtime library
@@ -146,7 +141,6 @@ ii   liblognorm5             2.0.5-1.1                       amd64  log normaliz
 ii   liblz4-1                1.9.3-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2                         amd64  XZ-format compression library
 ii   libmd0                  1.0.3-3                         amd64  message digest functions from BSD systems - shared library
-ii   libmnl0                 1.0.4-3                         amd64  minimalistic Netlink communication library
 ii   libmount1               2.36.1-7                        amd64  device mounting library
 ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20201114-2                  amd64  shared libraries for terminal handling
@@ -196,7 +190,6 @@ ii   libudev1                247.3-5                         amd64  libudev shar
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-7                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
-ii   libxtables12            1.8.7-1                         amd64  netfilter xtables library
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
