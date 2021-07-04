@@ -17,6 +17,15 @@ namespace :minimum2scp do
     sh "cd debian && rake clobber mkimage README.md #{tag} #{env}"
   end
 
+  desc 'build minimum2scp/debian-bullseye image'
+  task :debian_bullseye do
+    tag = ->(env, default){
+      env ? (!env.empty? ? "TAG=#{env}" : "") : "TAG=#{default}"
+    }[ENV['TAG_DEBIAN'], 'minimum2scp/debian-bullseye:latest']
+    env = ENV.select{|k,v| %w[http_proxy].include?(k)}.map{|k,v| "#{k}=#{v}"}.join(" ")
+    sh "cd debian-bullseye && rake clobber mkimage README.md #{tag} #{env}"
+  end
+
   desc 'build minimum2scp/debian-buster image'
   task :debian_buster do
     tag = ->(env, default){
