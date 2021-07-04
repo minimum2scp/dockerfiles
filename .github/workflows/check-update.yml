@@ -100,6 +100,53 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: "failure()"
 
+  debian-bullseye:
+    name: debian-bullseye
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      # run test
+      - run: docker pull minimum2scp/debian-bullseye:latest
+      - run: bundle exec rspec spec/debian-bullseye/01apt_spec.rb -e 'apt list --upgradable'
+
+      # notify to slack
+      - uses: k0kubun/action-slack@v2.0.0
+        with:
+          payload: |
+            {
+              "username": "GitHub Actions",
+              "icon_emoji": ":octocat:",
+              "channel": "#gh",
+              "attachments": [{
+                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
+                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "fields": [
+                  {
+                    "title": "image",
+                    "value": "minimum2scp/debian-bullseye:latest",
+                    "short": true
+                  },
+                  {
+                    "title": "github.sha",
+                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
+                    "short": true
+                  }
+                ]
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: "failure()"
+
   debian-buster:
     name: debian-buster
     runs-on: ubuntu-latest
