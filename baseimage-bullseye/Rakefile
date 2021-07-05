@@ -1,0 +1,36 @@
+require 'erb'
+require 'json'
+require 'rake/clean'
+require 'tempfile'
+
+CLOBBER.include 'README.md', 'debian-packages.json'
+
+task :default => ['README.md']
+
+desc 'update debian-packages.json'
+file 'debian-packages.json' do |t|
+  tag = ENV['TAG'] || 'minimum2scp/baseimage-bullseye:latest'
+  tmpfile = Tempfile.new('packages')
+  tmpfile.close
+  fields = %w[
+    Architecture Conflicts Breaks Depends Enhances Essential Installed-Size Origin Package
+    Pre-Depends Priority Provides Recommends Replace Section Status Suggests Version
+    binary:Package binary:Summary db:Status-Abbrev db:Status-Want db:Status-Status db:Status-Eflag
+    source:Package source:Version
+  ]
+  field_fmt = fields.map{|f| "${#{f}}"}.join("\\t") + "\\n"
+  sh %Q[docker run --rm #{tag} dpkg-query -f '#{field_fmt}' -W > #{tmpfile.path}], :verbose => false
+  packages = File.readlines(tmpfile.path).map(&:chomp).map{|row| Hash[fields.zip(row.split("\t"))]}
+  File.open(t.name, "w") do |fh|
+    fh << JSON.pretty_generate(packages)
+  end
+end
+
+desc 'update README.md'
+file 'README.md' => ['README.md.erb', 'debian-packages.json'] do |t|
+  packages = JSON.parse(File.read('debian-packages.json'))
+  File.open(t.name, "w") do |fh|
+    fh << ERB.new(File.read('README.md.erb'), nil, '-').result(binding)
+  end
+end
+

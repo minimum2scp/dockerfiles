@@ -5,7 +5,7 @@ on:
     - cron: '0 14 * * *'
 
 jobs:
-<% images = %w[debian baseimage debian-bullseye debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
+<% images = %w[debian baseimage debian-bullseye baseimage-bullseye debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
 <% images.each do |image| -%>
   <%= image %>:
     name: <%= image %>

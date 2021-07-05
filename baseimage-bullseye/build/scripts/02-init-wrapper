@@ -1,0 +1,25 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## install custom init scripts
+##
+find /tmp/build/baseimage-bullseye/opt/init-wrapper/sbin \
+     /tmp/build/baseimage-bullseye/opt/init-wrapper/pre-init.d \
+     /tmp/build/baseimage-bullseye/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -executable \
+| while read f; do
+  install -m 755 -o root -g root -p -D ${f} ${f#/tmp/build/baseimage-bullseye}
+done
+
+find /tmp/build/baseimage-bullseye/opt/init-wrapper/sbin \
+     /tmp/build/baseimage-bullseye/opt/init-wrapper/pre-init.d \
+     /tmp/build/baseimage-bullseye/opt/init-wrapper/post-init.d \
+     -maxdepth 1 -mindepth 1 -type f -a -not -executable \
+| while read f; do
+  install -m 644 -o root -g root -p -D ${f} ${f#/tmp/build/baseimage-bullseye}
+done
+
