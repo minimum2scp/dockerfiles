@@ -28,7 +28,8 @@ images = {
   rails6:      default_conf.merge(parent: 'ruby'),
   tdiary:      default_conf.merge(parent: 'ruby'),
 
-  'debian-bullseye':  default_conf.merge(build_image: false, push_image: false),
+  'debian-bullseye':     default_conf.merge(build_image: false, push_image: false),
+  'baseimage-bullseye':  default_conf.merge(save_artifact: true),
 
   'debian-buster':    default_conf.merge(build_image: false, push_image: false),
   'baseimage-buster': default_conf.merge(save_artifact: true),

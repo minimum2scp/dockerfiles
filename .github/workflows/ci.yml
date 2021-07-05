@@ -354,6 +354,34 @@ jobs:
 
       # no need to push image
 
+  baseimage-bullseye:
+    name: baseimage-bullseye
+    runs-on: ubuntu-latest
+    steps:
+      # build image
+      - uses: actions/checkout@v2
+      - run: docker build -t minimum2scp/baseimage-bullseye:latest baseimage-bullseye
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/baseimage-bullseye
+
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage-bullseye:latest | pigz -c - > /tmp/baseimage-bullseye.tar.gz
+      - uses: actions/upload-artifact@v2
+        with: { name: baseimage-bullseye, path: /tmp/baseimage-bullseye.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-bullseye:latest
+        if: github.ref == 'refs/heads/master'
+
   debian-buster:
     name: debian-buster
     runs-on: ubuntu-latest
