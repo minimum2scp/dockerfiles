@@ -113,7 +113,7 @@ ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt sha
 ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.259                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.260                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
