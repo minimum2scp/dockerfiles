@@ -14,9 +14,9 @@ apt-get install --install-recommends -y ${packages}
 
 ## install ruby (see https://github.com/minimum2scp/ruby-binary)
 curl -L --create-dirs -o /tmp/build/rails6/tmp/ruby-binary/install.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install.sh
-sh /tmp/build/rails6/tmp/ruby-binary/install.sh -t v0.1.150 -v 3.0.1
-bash -lc "rbenv global 3.0.1"
+sh /tmp/build/rails6/tmp/ruby-binary/install.sh -t v0.1.151 -v 3.0.2
+bash -lc "rbenv global 3.0.2"
 
 ## install rails (by gem)
-bash -lc "RBENV_VERSION=3.0.1 gem install -N rails --version '~> 6.0'"
+bash -lc "RBENV_VERSION=3.0.2 gem install -N rails --version '~> 6.0'"
 
