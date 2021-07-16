@@ -4,7 +4,7 @@ set -e
 set -x
 
 ## TODO: buster -> bullseye
-nginx_version="1.20.1-1~buster"
+nginx_version="1.21.1-1~buster"
 
 ## install gnupg
 apt-get install -y --no-install-recommends gnupg
