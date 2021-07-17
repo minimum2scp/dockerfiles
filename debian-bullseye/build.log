@@ -23,8 +23,8 @@ I: Retrieving libaudit1 1:3.0-2
 I: Validating libaudit1 1:3.0-2
 I: Retrieving base-files 11.1
 I: Validating base-files 11.1
-I: Retrieving base-passwd 3.5.49
-I: Validating base-passwd 3.5.49
+I: Retrieving base-passwd 3.5.51
+I: Validating base-passwd 3.5.51
 I: Retrieving bash 5.1-2+b2
 I: Validating bash 5.1-2+b2
 I: Retrieving libbz2-1.0 1.0.8-4
@@ -149,14 +149,14 @@ I: Retrieving libssl1.1 1.1.1k-1
 I: Validating libssl1.1 1.1.1k-1
 I: Retrieving libp11-kit0 0.23.22-1
 I: Validating libp11-kit0 0.23.22-1
-I: Retrieving libpam-modules 1.4.0-7
-I: Validating libpam-modules 1.4.0-7
-I: Retrieving libpam-modules-bin 1.4.0-7
-I: Validating libpam-modules-bin 1.4.0-7
-I: Retrieving libpam-runtime 1.4.0-7
-I: Validating libpam-runtime 1.4.0-7
-I: Retrieving libpam0g 1.4.0-7
-I: Validating libpam0g 1.4.0-7
+I: Retrieving libpam-modules 1.4.0-9
+I: Validating libpam-modules 1.4.0-9
+I: Retrieving libpam-modules-bin 1.4.0-9
+I: Validating libpam-modules-bin 1.4.0-9
+I: Retrieving libpam-runtime 1.4.0-9
+I: Validating libpam-runtime 1.4.0-9
+I: Retrieving libpam0g 1.4.0-9
+I: Validating libpam0g 1.4.0-9
 I: Retrieving libpcre2-8-0 10.36-2
 I: Validating libpcre2-8-0 10.36-2
 I: Retrieving libpcre3 2:8.39-13
@@ -505,10 +505,10 @@ Sending build context to Docker daemon  33.48MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 9c3ffb61c9d3
+ ---> 15813885a14b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 5433cd8dc0b8
-Removing intermediate container 5433cd8dc0b8
- ---> 3053f2b388e5
-Successfully built 3053f2b388e5
+ ---> Running in fa447865ff43
+Removing intermediate container fa447865ff43
+ ---> 8b30adc1f2f0
+Successfully built 8b30adc1f2f0
 Successfully tagged minimum2scp/debian-bullseye:latest
