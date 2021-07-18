@@ -21,7 +21,7 @@ installed packages:
 ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     2.2.4                         amd64  commandline package manager
 ii   base-files              11.1                          amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.49                        amd64  Debian base system master password and group files
+ii   base-passwd             3.5.51                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b2                      amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-7                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
@@ -74,10 +74,10 @@ ii   libmount1               2.36.1-7                      amd64  device mountin
 ii   libnettle8              3.7.3-1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-7                       amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-7                       amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-7                       all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-7                       amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.4.0-9                       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-9                       amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-9                       all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-9                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
