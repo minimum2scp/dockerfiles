@@ -465,24 +465,34 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
-Hit:2 http://ftp.jp.debian.org/debian buster InRelease
-Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [368 kB]
-Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [12.3 kB]
-Fetched 497 kB in 0s (1004 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian buster InRelease
+Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
+Get:3 http://security.debian.org buster/updates InRelease [65.4 kB]
+Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [17.5 kB]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [374 kB]
+Fetched 509 kB in 1s (943 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libhogweed4 libnettle6
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 355 kB of archives.
+  libhogweed4 libnettle6 libsystemd0 libudev1
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 838 kB of archives.
 After this operation, 1024 B of additional disk space will be used.
-Get:1 http://security.debian.org buster/updates/main amd64 libnettle6 amd64 3.4.1-1+deb10u1 [215 kB]
-Get:2 http://security.debian.org buster/updates/main amd64 libhogweed4 amd64 3.4.1-1+deb10u1 [141 kB]
-Fetched 355 kB in 0s (2733 kB/s)
+Get:1 http://security.debian.org buster/updates/main amd64 libsystemd0 amd64 241-7~deb10u8 [331 kB]
+Get:2 http://security.debian.org buster/updates/main amd64 libudev1 amd64 241-7~deb10u8 [151 kB]
+Get:3 http://security.debian.org buster/updates/main amd64 libnettle6 amd64 3.4.1-1+deb10u1 [215 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 libhogweed4 amd64 3.4.1-1+deb10u1 [141 kB]
+Fetched 838 kB in 0s (5209 kB/s)
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_241-7~deb10u8_amd64.deb ...
+Unpacking libsystemd0:amd64 (241-7~deb10u8) over (241-7~deb10u7) ...
+Setting up libsystemd0:amd64 (241-7~deb10u8) ...
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../libudev1_241-7~deb10u8_amd64.deb ...
+Unpacking libudev1:amd64 (241-7~deb10u8) over (241-7~deb10u7) ...
+Setting up libudev1:amd64 (241-7~deb10u8) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libnettle6_3.4.1-1+deb10u1_amd64.deb ...
 Unpacking libnettle6:amd64 (3.4.1-1+deb10u1) over (3.4.1-1) ...
@@ -496,10 +506,10 @@ Sending build context to Docker daemon  30.26MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5e0f4a699a58
+ ---> dcbe5172ac9e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in fcdb135a05e9
-Removing intermediate container fcdb135a05e9
- ---> 7285a197de55
-Successfully built 7285a197de55
+ ---> Running in 2e7065d6f757
+Removing intermediate container 2e7065d6f757
+ ---> 273a891752e0
+Successfully built 273a891752e0
 Successfully tagged minimum2scp/debian-buster:latest
