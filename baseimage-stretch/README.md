@@ -178,10 +178,10 @@ ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 clie
 ii   libssl1.0.2             1.0.2u-1~deb9u4                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0l-1~deb9u3                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0             232-25+deb9u12                     amd64  systemd utility library
+ii   libsystemd0             232-25+deb9u13                     amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                    amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo5               6.0+20161126-1+deb9u2              amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                232-25+deb9u12                     amd64  libudev shared library
+ii   libudev1                232-25+deb9u13                     amd64  libudev shared library
 ii   libunistring0           0.9.6+really0.9.3-0.1              amd64  Unicode string library for C
 ii   libustr-1.0-1           1.0.4-6                            amd64  Micro string library: shared library
 ii   libuuid1                2.29.2-1+deb9u1                    amd64  Universally Unique ID library
