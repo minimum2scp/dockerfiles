@@ -47,13 +47,13 @@ ii   libaudit-common         1:3.0-2                       all    Dynamic librar
 ii   libaudit1               1:3.0-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-7                      amd64  block device ID library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-12                       amd64  GNU C Library: Binaries
-ii   libc6                   2.31-12                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13                       amd64  GNU C Library: Binaries
+ii   libc6                   2.31-13                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.46.2-2                      amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8              amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.259                         amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.260                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.2-2                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.1-6                      amd64  GCC support library
