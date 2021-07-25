@@ -102,9 +102,9 @@ ii   libblkid1               2.36.1-7                        amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-12                         amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-12                         all    GNU C Library: localization files
-ii   libc6                   2.31-12                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13                         amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-13                         all    GNU C Library: localization files
+ii   libc6                   2.31-13                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -113,7 +113,7 @@ ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt sha
 ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.259                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.260                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
@@ -193,7 +193,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-12                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-13                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.2-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
