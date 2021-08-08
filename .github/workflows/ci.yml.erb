@@ -30,6 +30,7 @@ images = {
 
   'debian-bullseye':     default_conf.merge(build_image: false, push_image: false),
   'baseimage-bullseye':  default_conf.merge(save_artifact: true),
+  'ruby-bullseye':       default_conf.merge(parent: 'baseimage-bullseye'),
 
   'debian-buster':    default_conf.merge(build_image: false, push_image: false),
   'baseimage-buster': default_conf.merge(save_artifact: true),

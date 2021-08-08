@@ -1,0 +1,11 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## download and run install-rbenv.sh in minimum2scp/ruby-binary repository
+curl -o /tmp/build/ruby-bullseye/tmp/install-rbenv.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install-rbenv.sh
+chmod +x /tmp/build/ruby-bullseye/tmp/install-rbenv.sh
+/tmp/build/ruby-bullseye/tmp/install-rbenv.sh
+
