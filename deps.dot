@@ -22,6 +22,7 @@ digraph deps {
   ruby_stretch       [label = "minimum2scp/ruby-stretch"];
   squid              [label = "minimum2scp/squid"];
   systemd            [label = "minimum2scp/systemd"];
+  systemd_bullseye   [label = "minimum2scp/systemd-bullseye"];
   systemd_buster     [label = "minimum2scp/systemd-buster"];
   systemd_stretch    [label = "minimum2scp/systemd-stretch"];
   tdiary             [label = "minimum2scp/tdiary"];
@@ -31,7 +32,7 @@ digraph deps {
   ruby      -> {norikra, rails6, ruby_full, tdiary};
 
   debian_bullseye -> baseimage_bullseye;
-  baseimage_bullseye -> ruby_bullseye;
+  baseimage_bullseye -> {ruby_bullseye, systemd_bullseye};
 
   debian_buster -> baseimage_buster;
   baseimage_buster -> {ruby_buster, systemd_buster};
