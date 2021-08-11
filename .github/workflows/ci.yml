@@ -413,6 +413,37 @@ jobs:
       - run: docker push minimum2scp/ruby-bullseye:latest
         if: github.ref == 'refs/heads/master'
 
+  systemd-bullseye:
+    name: systemd-bullseye
+    runs-on: ubuntu-latest
+    needs: [baseimage-bullseye]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v2
+        with: { name: baseimage-bullseye, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@v2
+      - run: docker build -t minimum2scp/systemd-bullseye:latest systemd-bullseye
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/systemd-bullseye
+
+      # no need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/systemd-bullseye:latest
+        if: github.ref == 'refs/heads/master'
+
   debian-buster:
     name: debian-buster
     runs-on: ubuntu-latest
