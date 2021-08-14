@@ -1,7 +1,13 @@
 digraph deps {
-  graph        [rankdir = "LR"];
-  ratio = auto;
+  graph [
+    rankdir = "LR"
+  ];
 
+  node [
+    shape = "box"
+  ];
+
+  ratio = auto;
 
   baseimage          [label = "minimum2scp/baseimage"];
   baseimage_bullseye [label = "minimum2scp/baseimage-bullseye"];
