@@ -1,7 +1,7 @@
 I: Target architecture can be executed
 I: Retrieving InRelease 
 I: Checking Release signature
-I: Valid Release signature (key id 0146DC6D4A0B2914BDED34DB648ACFD622F3D138)
+I: Valid Release signature (key id A7236886F3CCCAAD148A27F80E98404D386FA1D9)
 I: Retrieving Packages 
 I: Validating Packages 
 I: Resolving dependencies of required packages...
@@ -11,10 +11,10 @@ I: Retrieving libacl1 2.2.53-10
 I: Validating libacl1 2.2.53-10
 I: Retrieving adduser 3.118
 I: Validating adduser 3.118
-I: Retrieving apt 2.2.4
-I: Validating apt 2.2.4
-I: Retrieving libapt-pkg6.0 2.2.4
-I: Validating libapt-pkg6.0 2.2.4
+I: Retrieving apt 2.3.8
+I: Validating apt 2.3.8
+I: Retrieving libapt-pkg6.0 2.3.8
+I: Validating libapt-pkg6.0 2.3.8
 I: Retrieving libattr1 1:2.4.48-6
 I: Validating libattr1 1:2.4.48-6
 I: Retrieving libaudit-common 1:3.0-2
@@ -501,14 +501,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  33.47MB
+Sending build context to Docker daemon  33.49MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f5c49c9ca955
+ ---> 988bf817b06f
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2ac78b3739a9
-Removing intermediate container 2ac78b3739a9
- ---> 0aacb9ff436f
-Successfully built 0aacb9ff436f
+ ---> Running in a886ade32033
+Removing intermediate container a886ade32033
+ ---> cc30507c0359
+Successfully built cc30507c0359
 Successfully tagged minimum2scp/debian:latest
