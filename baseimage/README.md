@@ -82,6 +82,7 @@ ii   e2fsprogs               1.46.2-2                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-2                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.32.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.32.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -96,8 +97,8 @@ ii   insserv                 1.21.0-1.1                      amd64  boot sequenc
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.8                           amd64  package management runtime library
 ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0-2                         all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0-2                         amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0.5-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0.5-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-8                        amd64  block device ID library
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
@@ -114,15 +115,15 @@ ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use 
 ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
+ii   libedit2                3.1-20210714-1                  amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.10-2                        amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.2-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
-ii   libfido2-1              1.6.0-2                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               10.2.1-6                        amd64  GCC support library
+ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
+ii   libgcc-s1               11.2.0-2                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
@@ -131,7 +132,7 @@ ii   libgnutls30             3.7.1-5                         amd64  GNU TLS libr
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.3.0-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.2-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3            1.18.3-6                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.18.3-6                        amd64  MIT Kerberos runtime libraries
@@ -179,14 +180,14 @@ ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 sha
 ii   libss2                  1.46.2-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.3-6                         amd64  systemd utility library
+ii   libstdc++6              11.2.0-2                        amd64  GNU Standard C++ Library v3
+ii   libsystemd0             247.9-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.3-6                         amd64  libudev shared library
+ii   libudev1                247.9-1                         amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-8                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -219,7 +220,7 @@ ii   python3-minimal         3.9.2-3                         amd64  minimal subs
 ii   python3.9               3.9.2-1                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.2-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2102.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2106.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
