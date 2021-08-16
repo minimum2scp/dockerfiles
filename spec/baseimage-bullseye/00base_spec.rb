@@ -34,14 +34,12 @@ describe 'minimum2scp/baseimage-bullseye' do
         /^#{enabled ? '' : '#'}#{type}\s+#{Regexp.quote(uri)}\s+#{suite}\s+#{components.join('\s+')}$/
       }
       ## bullseye
-      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'bullseye',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'bullseye',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb',     'http://security.debian.org/',  'bullseye/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://security.debian.org/',  'bullseye/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'bullseye-updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'bullseye-updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'bullseye-backports', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'bullseye-backports', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/',              'bullseye',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/',              'bullseye',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/debian-security', 'bullseye-security',  'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/debian-security', 'bullseye-security',  'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
     end
 
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
