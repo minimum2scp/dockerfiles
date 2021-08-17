@@ -83,9 +83,9 @@ ii   etckeeper               1.18.16-1                       all    store /etc i
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-2                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.4.0-1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.32.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.32.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   gcc-9-base              9.4.0-2                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
@@ -110,7 +110,7 @@ ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-2                        amd64  common error description library
-ii   libcrypt1               1:4.4.18-5                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.25-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -188,7 +188,7 @@ ii   libtirpc-common         1.3.1-1                         all    transport-in
 ii   libtirpc3               1.3.1-1                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                247.9-1                         amd64  libudev shared library
-ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
+ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-8                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
