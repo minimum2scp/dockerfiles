@@ -35,7 +35,7 @@ ii   e2fsprogs               1.46.2-2                      amd64  ext2/ext3/ext4
 ii   findutils               4.8.0-1                       amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-2                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.4.0-1                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.4.0-2                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.27-2                      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                         amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                        amd64  GNU compression utilities
@@ -52,7 +52,7 @@ ii   libc-bin                2.31-13                       amd64  GNU C Library:
 ii   libc6                   2.31-13                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.46.2-2                      amd64  common error description library
-ii   libcrypt1               1:4.4.18-5                    amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.25-1                    amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                         amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.2-2                      amd64  ext2/ext3/ext4 file system libraries
@@ -96,7 +96,7 @@ ii   libtinfo6               6.2+20201114-2                amd64  shared low-lev
 ii   libtirpc-common         1.3.1-1                       all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1                       amd64  transport-independent RPC library
 ii   libudev1                247.9-1                       amd64  libudev shared library
-ii   libunistring2           0.9.10-4                      amd64  Unicode string library for C
+ii   libunistring2           0.9.10-6                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-8                      amd64  Universally Unique ID library
 ii   libxxhash0              0.8.0-2                       amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                amd64  fast lossless compression algorithm
