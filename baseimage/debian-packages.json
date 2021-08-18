@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "230",
+    "Installed-Size": "215",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.11.2",
+    "Version": "5.0.1-1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "4.11.2"
+    "source:Version": "5.0.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>> 2.31), libc6 (<< 2.32)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3692",
+    "Installed-Size": "3693",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-13",
+    "Version": "2.31-16",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13"
+    "source:Version": "2.31-16"
   },
   {
     "Architecture": "all",
@@ -1238,7 +1238,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4396",
+    "Installed-Size": "4397",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-13",
+    "Version": "2.31-16",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1257,27 +1257,27 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13"
+    "source:Version": "2.31-16"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "busybox (<< 1.30.1-6), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
-    "Depends": "libgcc-s1, libcrypt1",
+    "Breaks": "busybox (<< 1.30.1-6), hurd (= 1:0.9.git20210404-8), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)",
+    "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12772",
+    "Installed-Size": "12771",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus",
+    "Recommends": "libidn2-0 (>= 2.0.5~)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.31-13",
+    "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
+    "Version": "2.31-16",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13"
+    "source:Version": "2.31-16"
   },
   {
     "Architecture": "amd64",
@@ -3478,7 +3478,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "34",
+    "Installed-Size": "35",
     "Origin": "",
     "Package": "libtirpc-common",
     "Pre-Depends": "",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1-1",
+    "Version": "1.3.2-2",
     "binary:Package": "libtirpc-common",
     "binary:Summary": "transport-independent RPC library - common files",
     "db:Status-Abbrev": "ii ",
@@ -3497,16 +3497,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtirpc",
-    "source:Version": "1.3.1-1"
+    "source:Version": "1.3.2-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "nfs-common (<< 1:1.2.8-7), nfs-kernel-server (<< 1:1.2.8-7)",
-    "Depends": "libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.17), libtirpc-common (>= 1.3.1-1)",
+    "Depends": "libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.17), libtirpc-common (>= 1.3.2-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "225",
+    "Installed-Size": "226",
     "Origin": "",
     "Package": "libtirpc3",
     "Pre-Depends": "",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1-1",
+    "Version": "1.3.2-2",
     "binary:Package": "libtirpc3:amd64",
     "binary:Summary": "transport-independent RPC library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtirpc",
-    "source:Version": "1.3.1-1"
+    "source:Version": "1.3.2-2"
   },
   {
     "Architecture": "amd64",
@@ -3758,7 +3758,7 @@
     "Depends": "libc-bin (>> 2.31), libc-l10n (>> 2.31), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16013",
+    "Installed-Size": "16008",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3769,7 +3769,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-13",
+    "Version": "2.31-16",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13"
+    "source:Version": "2.31-16"
   },
   {
     "Architecture": "amd64",
