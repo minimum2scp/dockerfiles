@@ -28,7 +28,7 @@ ii   coreutils               8.32-4+b1                     amd64  GNU core utili
 ii   dash                    0.5.11+git20210120+802ebd4-1  amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                        all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                      all    GnuPG archive keys of the Debian archive
-ii   debianutils             4.11.2                        amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.0.1-1                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                       amd64  File comparison utilities
 ii   dpkg                    1.20.9                        amd64  Debian package management system
 ii   e2fsprogs               1.46.2-2                      amd64  ext2/ext3/ext4 file system utilities
@@ -48,8 +48,8 @@ ii   libaudit-common         1:3.0.5-1                     all    Dynamic librar
 ii   libaudit1               1:3.0.5-1                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-8                      amd64  block device ID library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-13                       amd64  GNU C Library: Binaries
-ii   libc6                   2.31-13                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-16                       amd64  GNU C Library: Binaries
+ii   libc6                   2.31-16                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.46.2-2                      amd64  common error description library
 ii   libcrypt1               1:4.4.25-1                    amd64  libcrypt shared library
@@ -93,8 +93,8 @@ ii   libstdc++6              11.2.0-2                      amd64  GNU Standard C
 ii   libsystemd0             247.9-1                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common         1.3.1-1                       all    transport-independent RPC library - common files
-ii   libtirpc3               1.3.1-1                       amd64  transport-independent RPC library
+ii   libtirpc-common         1.3.2-2                       all    transport-independent RPC library - common files
+ii   libtirpc3               1.3.2-2                       amd64  transport-independent RPC library
 ii   libudev1                247.9-1                       amd64  libudev shared library
 ii   libunistring2           0.9.10-6                      amd64  Unicode string library for C
 ii   libuuid1                2.36.1-8                      amd64  Universally Unique ID library
