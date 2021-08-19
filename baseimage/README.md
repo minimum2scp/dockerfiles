@@ -75,7 +75,7 @@ ii   curl                    7.74.0-1.3+b1                   amd64  command line
 ii   dash                    0.5.11+git20210120+802ebd4-1    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.0.1-1                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.2-1                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.9                          amd64  Debian package management system
 ii   e2fsprogs               1.46.2-2                        amd64  ext2/ext3/ext4 file system utilities
@@ -206,9 +206,9 @@ ii   mount                   2.36.1-8                        amd64  tools for mo
 ii   ncurses-base            6.2+20201114-2                  all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
-ii   openssh-client          1:8.4p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:8.4p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:8.4p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client          1:8.4p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:8.4p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:8.4p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1k-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -220,7 +220,7 @@ ii   python3-minimal         3.9.2-3                         amd64  minimal subs
 ii   python3.9               3.9.2-1                         amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.2-1                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                           all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2106.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2108.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.14                          all    Utilities for sensible alternative selection
