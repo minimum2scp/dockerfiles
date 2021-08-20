@@ -146,7 +146,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "394",
+    "Installed-Size": "401",
     "Origin": "",
     "Package": "bsdutils",
     "Pre-Depends": "libc6 (>= 2.17), libsystemd0",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.36.1-8",
+    "Version": "1:2.37.2-1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
@@ -282,11 +282,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "x11-common (<< 1:7.7+23~)",
+    "Breaks": "ifupdown (<< 0.8.36+nmu1), x11-common (<< 1:7.7+23~)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "208",
+    "Installed-Size": "209",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.15)",
@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.2-1",
+    "Version": "5.3-1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.2-1"
+    "source:Version": "5.3-1"
   },
   {
     "Architecture": "amd64",
@@ -370,10 +370,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1511",
+    "Installed-Size": "1529",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.2-2), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.14), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.4-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -381,7 +381,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.46.2-2",
+    "Version": "1.46.4-1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.2-2"
+    "source:Version": "1.46.4-1"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "421",
+    "Installed-Size": "437",
     "Origin": "",
     "Package": "libblkid1",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
@@ -930,18 +930,18 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "97",
+    "Installed-Size": "98",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.46.2-2)",
+    "Provides": "libcomerr2 (= 1.46.4-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.2-2",
+    "Version": "1.46.4-1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.2-2"
+    "source:Version": "1.46.4-1"
   },
   {
     "Architecture": "amd64",
@@ -1042,18 +1042,18 @@
     "Depends": "libc6 (>= 2.28)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "578",
+    "Installed-Size": "575",
     "Origin": "",
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.46.2-2)",
+    "Provides": "e2fslibs (= 1.46.4-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.2-2",
+    "Version": "1.46.4-1",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.2-2"
+    "source:Version": "1.46.4-1"
   },
   {
     "Architecture": "amd64",
@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "188",
+    "Installed-Size": "193",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.38-2",
+    "Version": "1.42-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.38-2"
+    "source:Version": "1.42-2"
   },
   {
     "Architecture": "amd64",
@@ -1490,7 +1490,7 @@
     "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "477",
+    "Installed-Size": "485",
     "Origin": "",
     "Package": "libmount1",
     "Pre-Depends": "",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "328",
+    "Installed-Size": "336",
     "Origin": "",
     "Package": "libsmartcols1",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1938,7 +1938,7 @@
     "Depends": "libcom-err2, libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "113",
+    "Installed-Size": "114",
     "Origin": "",
     "Package": "libss2",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.2-2",
+    "Version": "1.46.4-1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.2-2"
+    "source:Version": "1.46.4-1"
   },
   {
     "Architecture": "amd64",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2330,7 +2330,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "93",
+    "Installed-Size": "94",
     "Origin": "",
     "Package": "logsave",
     "Pre-Depends": "",
@@ -2341,7 +2341,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.2-2",
+    "Version": "1.46.4-1",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.2-2"
+    "source:Version": "1.46.4-1"
   },
   {
     "Architecture": "all",
@@ -2411,13 +2411,13 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "util-linux (>= 2.29.2-3~)",
+    "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "438",
+    "Installed-Size": "447",
     "Origin": "",
     "Package": "mount",
-    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)",
+    "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.25), libmount1 (>= 2.37.2), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.33)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2425,7 +2425,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "all",
@@ -2662,14 +2662,14 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "bash-completion (<< 1:2.8), grml-debootstrap (<< 0.68), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.4~)",
-    "Depends": "login (>= 1:4.5-1.1~)",
+    "Breaks": "",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4599",
+    "Installed-Size": "4821",
     "Origin": "",
     "Package": "util-linux",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.37.2), libc6 (>= 2.25), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.37.2), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2677,7 +2677,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.36.1-8",
+    "Version": "2.37.2-1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8"
+    "source:Version": "2.37.2-1"
   },
   {
     "Architecture": "amd64",
