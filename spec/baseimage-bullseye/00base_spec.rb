@@ -326,19 +326,19 @@ describe 'minimum2scp/baseimage-bullseye' do
 
     describe command('apt-cache policy') do
       its(:stdout) {
-        should include " 600 http://nginx.org/packages/mainline/debian buster/nginx amd64 Packages\n" +
-                       "     release v=10.0,o=nginx,a=stable,n=buster,l=nginx,c=nginx,b=amd64\n" +
+        should include " 600 http://nginx.org/packages/mainline/debian bullseye/nginx amd64 Packages\n" +
+                       "     release v=11.0,o=nginx,a=stable,n=bullseye,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
       }
       its(:stdout) {
-        should include " 600 http://nginx.org/packages/debian buster/nginx amd64 Packages\n" +
-                       "     release v=10.0,o=nginx,a=stable,n=buster,l=nginx,c=nginx,b=amd64\n" +
+        should include " 600 http://nginx.org/packages/debian bullseye/nginx amd64 Packages\n" +
+                       "     release v=11.0,o=nginx,a=stable,n=bullseye,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
       }
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.21.1-1~buster') }
+      it { should be_installed.with_version('1.21.1-1~bullseye') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do

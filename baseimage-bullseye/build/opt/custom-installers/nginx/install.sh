@@ -3,8 +3,7 @@
 set -e
 set -x
 
-## TODO: buster -> bullseye
-nginx_version="1.21.1-1~buster"
+nginx_version="1.21.1-1~bullseye"
 
 ## install gnupg
 apt-get install -y --no-install-recommends gnupg
@@ -14,12 +13,11 @@ curl -sSf http://nginx.org/keys/nginx_signing.key | \
   gpg --no-default-keyring --keyring /usr/share/keyrings/nginx.gpg --import
 
 ## add apt-line
-## TODO: buster -> bullseye
 (
-  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ buster nginx"
-  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ buster nginx"
-  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ buster nginx"
-  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ buster nginx"
+  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ bullseye nginx"
+  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/debian/ bullseye nginx"
+  echo "deb     [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ bullseye nginx"
+  echo "deb-src [signed-by=/usr/share/keyrings/nginx.gpg] http://nginx.org/packages/mainline/debian/ bullseye nginx"
 ) | tee /etc/apt/sources.list.d/nginx.list
 
 ## add apt-preferences
