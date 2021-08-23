@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     2.3.8                         amd64  commandline package manager
-ii   base-files              11.1                          amd64  Debian base system miscellaneous files
+ii   base-files              12                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                        amd64  Debian base system master password and group files
 ii   bash                    5.1-3+b1                      amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-1                    amd64  basic utilities from 4.4BSD-Lite
@@ -28,7 +28,7 @@ ii   coreutils               8.32-4+b1                     amd64  GNU core utili
 ii   dash                    0.5.11+git20210120+802ebd4-1  amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                        all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                      all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.3-1                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.4-1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                       amd64  File comparison utilities
 ii   dpkg                    1.20.9                        amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                      amd64  ext2/ext3/ext4 file system utilities
@@ -61,7 +61,7 @@ ii   libgcc-s1               11.2.0-2                      amd64  GCC support li
 ii   libgcrypt20             1.8.7-6                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-5                       amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.42-2                        amd64  GnuPG development runtime library
+ii   libgpg-error0           1.42-3                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                       amd64  Internationalized domain names (IDNA2008/TR46) library
