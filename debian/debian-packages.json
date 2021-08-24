@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4-1",
+    "Version": "5.4-2",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.4-1"
+    "source:Version": "5.4-2"
   },
   {
     "Architecture": "amd64",
@@ -454,7 +454,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "264",
+    "Installed-Size": "263",
     "Origin": "",
     "Package": "gcc-11-base",
     "Pre-Depends": "",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-2",
+    "Version": "11.2.0-3",
     "binary:Package": "gcc-11-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-2"
+    "source:Version": "11.2.0-3"
   },
   {
     "Architecture": "amd64",
@@ -846,7 +846,7 @@
     "Depends": "libc6 (>> 2.31), libc6 (<< 2.32)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3693",
+    "Installed-Size": "3694",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -857,7 +857,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-16",
+    "Version": "2.31-17",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-16"
+    "source:Version": "2.31-17"
   },
   {
     "Architecture": "amd64",
@@ -874,7 +874,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12771",
+    "Installed-Size": "12772",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.31-16",
+    "Version": "2.31-17",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-16"
+    "source:Version": "2.31-17"
   },
   {
     "Architecture": "amd64",
@@ -1095,7 +1095,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-11-base (= 11.2.0-2), libc6 (>= 2.14)",
+    "Depends": "gcc-11-base (= 11.2.0-3), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1103,13 +1103,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:11.2.0-2)",
+    "Provides": "libgcc1 (= 1:11.2.0-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-2",
+    "Version": "11.2.0-3",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-2"
+    "source:Version": "11.2.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1991,7 +1991,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-11-base (= 11.2.0-2), libc6 (>= 2.23), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-11-base (= 11.2.0-3), libc6 (>= 2.23), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2615",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-2",
+    "Version": "11.2.0-3",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-2"
+    "source:Version": "11.2.0-3"
   },
   {
     "Architecture": "amd64",

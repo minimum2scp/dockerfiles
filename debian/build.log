@@ -41,8 +41,8 @@ I: Retrieving debconf 1.5.77
 I: Validating debconf 1.5.77
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
-I: Retrieving debianutils 5.4-1
-I: Validating debianutils 5.4-1
+I: Retrieving debianutils 5.4-2
+I: Validating debianutils 5.4-2
 I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
 I: Retrieving dpkg 1.20.9
@@ -61,18 +61,18 @@ I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
 I: Retrieving gcc-10-base 10.2.1-6
 I: Validating gcc-10-base 10.2.1-6
-I: Retrieving gcc-11-base 11.2.0-2
-I: Validating gcc-11-base 11.2.0-2
-I: Retrieving libgcc-s1 11.2.0-2
-I: Validating libgcc-s1 11.2.0-2
-I: Retrieving libstdc++6 11.2.0-2
-I: Validating libstdc++6 11.2.0-2
+I: Retrieving gcc-11-base 11.2.0-3
+I: Validating gcc-11-base 11.2.0-3
+I: Retrieving libgcc-s1 11.2.0-3
+I: Validating libgcc-s1 11.2.0-3
+I: Retrieving libstdc++6 11.2.0-3
+I: Validating libstdc++6 11.2.0-3
 I: Retrieving gcc-9-base 9.4.0-2
 I: Validating gcc-9-base 9.4.0-2
-I: Retrieving libc-bin 2.31-16
-I: Validating libc-bin 2.31-16
-I: Retrieving libc6 2.31-16
-I: Validating libc6 2.31-16
+I: Retrieving libc-bin 2.31-17
+I: Validating libc-bin 2.31-17
+I: Retrieving libc6 2.31-17
+I: Validating libc6 2.31-17
 I: Retrieving libgmp10 2:6.2.1+dfsg-1
 I: Validating libgmp10 2:6.2.1+dfsg-1
 I: Retrieving gpgv 2.2.27-2
@@ -510,10 +510,10 @@ Sending build context to Docker daemon  33.84MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a0a24f5f615c
+ ---> c516520f4f80
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7e39d0f6e84c
-Removing intermediate container 7e39d0f6e84c
- ---> a6e711fe1541
-Successfully built a6e711fe1541
+ ---> Running in 356ca81a5fb9
+Removing intermediate container 356ca81a5fb9
+ ---> eb421259441b
+Successfully built eb421259441b
 Successfully tagged minimum2scp/debian:latest
