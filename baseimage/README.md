@@ -75,14 +75,14 @@ ii   curl                    7.74.0-1.3+b1                   amd64  command line
 ii   dash                    0.5.11+git20210120+802ebd4-1    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.4-1                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.4-2                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.9                          amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-11-base             11.2.0-2                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-2                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -103,9 +103,9 @@ ii   libblkid1               2.37.2-1                        amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-16                         amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-16                         all    GNU C Library: localization files
-ii   libc6                   2.31-16                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-17                         amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-17                         all    GNU C Library: localization files
+ii   libc6                   2.31-17                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -123,7 +123,7 @@ ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               11.2.0-2                        amd64  GCC support library
+ii   libgcc-s1               11.2.0-3                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
@@ -180,7 +180,7 @@ ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 sha
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              11.2.0-2                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              11.2.0-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
@@ -194,7 +194,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-16                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-17                         all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.4-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
