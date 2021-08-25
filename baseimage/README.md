@@ -75,13 +75,13 @@ ii   curl                    7.74.0-1.3+b1                   amd64  command line
 ii   dash                    0.5.11+git20210120+802ebd4-1    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.4-2                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.4-3                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.9                          amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.1-6                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-2                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
@@ -128,7 +128,7 @@ ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.2-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -159,7 +159,7 @@ ii   libpcre2-8-0            10.36-2                         amd64  New Perl Com
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32             5.32.1-5                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
-ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
+ii   libpopt0                1.18-3                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
@@ -176,10 +176,10 @@ ii   libsemanage1            3.1-1+b2                        amd64  SELinux poli
 ii   libsepol1               3.1-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.37.2-1                        amd64  smart column output alignment library
-ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.36.0-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1k-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-1                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -209,7 +209,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1k-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1l-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-5                        amd64  minimal Perl system
