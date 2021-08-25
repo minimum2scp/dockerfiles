@@ -28,12 +28,12 @@ ii   coreutils               8.32-4+b1                     amd64  GNU core utili
 ii   dash                    0.5.11+git20210120+802ebd4-1  amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                        all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                      all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.4-2                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.4-3                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                       amd64  File comparison utilities
 ii   dpkg                    1.20.9                        amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.8.0-1                       amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.2.1-6                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-7                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-3                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-2                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.27-2                      amd64  GNU privacy guard - signature verification tool
@@ -60,7 +60,7 @@ ii   libffi7                 3.3-6                         amd64  Foreign Functi
 ii   libgcc-s1               11.2.0-3                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5                       amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.2-2                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                       amd64  low level cryptographic library (public-key cryptos)
@@ -88,7 +88,7 @@ ii   libsemanage1            3.1-1+b2                      amd64  SELinux policy
 ii   libsepol1               3.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.37.2-1                      amd64  smart column output alignment library
 ii   libss2                  1.46.4-1                      amd64  command-line interface parsing library
-ii   libssl1.1               1.1.1k-1                      amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1l-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-3                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-1                       amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                      amd64  Manage ASN.1 structures (runtime)
