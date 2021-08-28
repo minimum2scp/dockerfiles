@@ -62,23 +62,23 @@ ii   libgcrypt20             1.8.7-6                       amd64  LGPL Crypto li
 ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                        amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.18.3-6                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-7                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                       amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.18.3-6                      amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-7                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                       amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.18.3-6                      amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.18.3-6                      amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-7                      amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-7                      amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-2                       amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2                       amd64  XZ-format compression library
 ii   libmount1               2.37.2-1                      amd64  device mounting library
 ii   libnettle8              3.7.3-1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-9                       amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-9                       amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-9                       all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-9                       amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.4.0-10                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-10                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-10                      all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-10                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
