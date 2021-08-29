@@ -81,7 +81,7 @@ ii   dpkg                    1.20.9                          amd64  Debian packa
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.3.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-8                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-2                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
@@ -96,7 +96,7 @@ ii   initscripts             2.96-7                          all    scripts for 
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.8                           amd64  package management runtime library
-ii   libattr1                1:2.4.48-6                      amd64  extended attribute handling - shared library
+ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.5-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.5-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.2-1                        amd64  block device ID library
@@ -125,8 +125,8 @@ ii   libffi7                 3.3-6                           amd64  Foreign Func
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-3                        amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.20-1                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.20-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                          amd64  GnuPG development runtime library

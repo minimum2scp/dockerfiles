@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3.0-7",
+    "Version": "10.3.0-8",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.3.0-7"
+    "source:Version": "10.3.0-8"
   },
   {
     "Architecture": "amd64",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.4.48-6",
+    "Version": "1:2.5.1-1",
     "binary:Package": "libattr1:amd64",
     "binary:Summary": "extended attribute handling - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "attr",
-    "source:Version": "1:2.4.48-6"
+    "source:Version": "1:2.5.1-1"
   },
   {
     "Architecture": "all",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.14), libgdbm6 (>= 1.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "67",
+    "Installed-Size": "71",
     "Origin": "",
     "Package": "libgdbm-compat4",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.19-2",
+    "Version": "1.20-1",
     "binary:Package": "libgdbm-compat4:amd64",
     "binary:Summary": "GNU dbm database routines (legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.19-2"
+    "source:Version": "1.20-1"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "114",
+    "Installed-Size": "130",
     "Origin": "",
     "Package": "libgdbm6",
     "Pre-Depends": "",
@@ -1864,8 +1864,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.19-2)",
-    "Version": "1.19-2",
+    "Suggests": "gdbm-l10n (= 1.20-1)",
+    "Version": "1.20-1",
     "binary:Package": "libgdbm6:amd64",
     "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.19-2"
+    "source:Version": "1.20-1"
   },
   {
     "Architecture": "amd64",
