@@ -437,7 +437,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3.0-7",
+    "Version": "10.3.0-8",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.3.0-7"
+    "source:Version": "10.3.0-8"
   },
   {
     "Architecture": "amd64",

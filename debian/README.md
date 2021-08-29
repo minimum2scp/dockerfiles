@@ -33,7 +33,7 @@ ii   diffutils               1:3.7-5                       amd64  File compariso
 ii   dpkg                    1.20.9                        amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                      amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.8.0-1                       amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.3.0-7                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-8                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-3                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-2                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.27-2                      amd64  GNU privacy guard - signature verification tool
