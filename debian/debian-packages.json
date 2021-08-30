@@ -650,7 +650,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "71",
+    "Installed-Size": "70",
     "Origin": "",
     "Package": "libacl1",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.53-10",
+    "Version": "2.3.1-1",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.2.53-10"
+    "source:Version": "2.3.1-1"
   },
   {
     "Architecture": "amd64",
@@ -717,7 +717,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.4.48-6",
+    "Version": "1:2.5.1-1",
     "binary:Package": "libattr1:amd64",
     "binary:Summary": "extended attribute handling - shared library",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "attr",
-    "source:Version": "1:2.4.48-6"
+    "source:Version": "1:2.5.1-1"
   },
   {
     "Architecture": "all",

@@ -41,9 +41,9 @@ ii   grep                    3.6-1                         amd64  GNU grep, egre
 ii   gzip                    1.10-4                        amd64  GNU compression utilities
 ii   hostname                3.23                          amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                          all    helper tools for all init systems
-ii   libacl1                 2.2.53-10                     amd64  access control list - shared library
+ii   libacl1                 2.3.1-1                       amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.8                         amd64  package management runtime library
-ii   libattr1                1:2.4.48-6                    amd64  extended attribute handling - shared library
+ii   libattr1                1:2.5.1-1                     amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.5-1                     all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.5-1                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.2-1                      amd64  block device ID library
