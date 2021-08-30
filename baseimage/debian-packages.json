@@ -958,7 +958,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "71",
+    "Installed-Size": "70",
     "Origin": "",
     "Package": "libacl1",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.53-10",
+    "Version": "2.3.1-1",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.2.53-10"
+    "source:Version": "2.3.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4570,7 +4570,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "58",
+    "Installed-Size": "59",
     "Origin": "",
     "Package": "sensible-utils",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.16",
+    "Version": "0.0.17",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.16"
+    "source:Version": "0.0.17"
   },
   {
     "Architecture": "amd64",

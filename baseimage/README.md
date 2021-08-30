@@ -94,7 +94,7 @@ ii   hostname                3.23                            amd64  utility to s
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-7                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
-ii   libacl1                 2.2.53-10                       amd64  access control list - shared library
+ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.8                           amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.5-1                       all    Dynamic library for security auditing - common files
@@ -223,7 +223,7 @@ ii   readline-common         8.1-2                           all    GNU readline
 ii   rsyslog                 8.2108.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.7-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils          0.0.16                          all    Utilities for sensible alternative selection
+ii   sensible-utils          0.0.17                          all    Utilities for sensible alternative selection
 ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.9.5p2-3                       amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.96-7                          all    System-V-like runlevel change mechanism
