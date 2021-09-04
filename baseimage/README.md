@@ -110,7 +110,7 @@ ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.4-1                        amd64  common error description library
-ii   libcrypt1               1:4.4.25-1                      amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.25-2                      amd64  libcrypt shared library
 ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -124,7 +124,7 @@ ii   libfastjson4            0.99.9-1                        amd64  fast json li
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-4                        amd64  GCC support library
-ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.9.4-2                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.20-1                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.20-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
