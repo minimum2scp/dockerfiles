@@ -83,7 +83,7 @@ ii   etckeeper               1.18.16-1                       all    store /etc i
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-9                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-4                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.4.0-2                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.4.0-2+b1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-2                        amd64  GNU privacy guard - signature verification tool
@@ -169,7 +169,7 @@ ii   libreadline8            8.1-2                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2.1                 amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.5.1-1                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.2-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                        amd64  SELinux policy management library
