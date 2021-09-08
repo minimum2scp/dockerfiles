@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.3.8                           amd64  commandline package manager
+ii   apt                     2.3.9                           amd64  commandline package manager
 ii   base-files              12                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
 ii   bash                    5.1-3+b1                        amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   init-system-helpers     1.60                            all    helper tools
 ii   initscripts             2.96-7                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
-ii   libapt-pkg6.0           2.3.8                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.3.9                           amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.5-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.5-1                       amd64  Dynamic library for security auditing
@@ -103,9 +103,9 @@ ii   libblkid1               2.37.2-2                        amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.32-1                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.32-1                          all    GNU C Library: localization files
-ii   libc6                   2.32-1                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.32-2                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.32-2                          all    GNU C Library: localization files
+ii   libc6                   2.32-2                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -147,7 +147,7 @@ ii   libmpdec3               2.5.1-2                         amd64  library for 
 ii   libncurses6             6.2+20201114-4                  amd64  shared libraries for terminal handling
 ii   libncursesw6            6.2+20201114-4                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.7.3-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52             0.52.21-5                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.24.0-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -194,7 +194,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.32-1                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.32-2                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.4-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
@@ -236,7 +236,7 @@ ii   unzip                   6.0-26                          amd64  De-archiver 
 ii   util-linux              2.37.2-2                        amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.2434-3                    all    Vi IMproved - Common files
 ii   vim-tiny                2:8.2.2434-3                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                0.52.21-5                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.2.2434-3                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-7                           amd64  shell with lots of features
