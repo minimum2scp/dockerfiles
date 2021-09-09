@@ -282,7 +282,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "ifupdown (<< 0.8.36+nmu1), x11-common (<< 1:7.7+23~)",
+    "Breaks": "ifupdown (<< 0.8.36+nmu1), printer-driver-pnm2ppa (<< 1.13-12), x11-common (<< 1:7.7+23~)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4-3",
+    "Version": "5.4-4",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.4-3"
+    "source:Version": "5.4-4"
   },
   {
     "Architecture": "amd64",

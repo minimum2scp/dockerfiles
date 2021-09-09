@@ -41,8 +41,8 @@ I: Retrieving debconf 1.5.77
 I: Validating debconf 1.5.77
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
-I: Retrieving debianutils 5.4-3
-I: Validating debianutils 5.4-3
+I: Retrieving debianutils 5.4-4
+I: Validating debianutils 5.4-4
 I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
 I: Retrieving dpkg 1.20.9
@@ -510,10 +510,10 @@ Sending build context to Docker daemon  33.95MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 1af06d4544f4
+ ---> 2fbe0164b22d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in cb83304f078b
-Removing intermediate container cb83304f078b
- ---> 50717671d5a4
-Successfully built 50717671d5a4
+ ---> Running in 8c69b027940c
+Removing intermediate container 8c69b027940c
+ ---> 8ecedcf15289
+Successfully built 8ecedcf15289
 Successfully tagged minimum2scp/debian:latest
