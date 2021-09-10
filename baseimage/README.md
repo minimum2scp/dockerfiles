@@ -81,14 +81,14 @@ ii   dpkg                    1.20.9                          amd64  Debian packa
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.3.0-9                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-11-base             11.2.0-4                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.4.0-2+b1                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-10                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-5                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.27-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                           amd64  GNU grep, egrep and fgrep
-ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base              1.22.4-7                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                    1.10-4                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
@@ -118,16 +118,16 @@ ii   libdebconfclient0       0.260                           amd64  Debian Confi
 ii   libedit2                3.1-20210714-1                  amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.10-2                        amd64  XML parsing C library - runtime library
+ii   libexpat1               2.4.1-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               11.2.0-4                        amd64  GCC support library
+ii   libgcc-s1               11.2.0-5                        amd64  GCC support library
 ii   libgcrypt20             1.9.4-2                         amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.20-1                          amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.20-1                          amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
+ii   libgdbm-compat4         1.21-1                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.21-1                          amd64  GNU dbm database routines (runtime version) 
+ii   libgmp10                2:6.2.1+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-7                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -144,8 +144,8 @@ ii   liblzma5                5.2.5-2                         amd64  XZ-format co
 ii   libmd0                  1.0.3-3                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.37.2-2                        amd64  device mounting library
 ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
-ii   libncurses6             6.2+20201114-4                  amd64  shared libraries for terminal handling
-ii   libncursesw6            6.2+20201114-4                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.2+20210905-1                  amd64  shared libraries for terminal handling
+ii   libncursesw6            6.2+20210905-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.7.3-1                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-5                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -180,10 +180,10 @@ ii   libsqlite3-0            3.36.0-2                        amd64  SQLite 3 sha
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              11.2.0-4                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              11.2.0-5                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-1                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2+20201114-4                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
@@ -203,8 +203,8 @@ ii   man-db                  2.9.4-2                         amd64  tools for re
 ii   mawk                    1.3.4.20200120-2                amd64  Pattern scanning and text processing language
 ii   media-types             4.0.0                           all    List of standard media types and their usual file extension
 ii   mount                   2.37.2-2                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2+20201114-4                  all    basic terminal type definitions
-ii   ncurses-bin             6.2+20201114-4                  amd64  terminal-related programs and man pages
+ii   ncurses-base            6.2+20210905-1                  all    basic terminal type definitions
+ii   ncurses-bin             6.2+20210905-1                  amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networking toolkit
 ii   openssh-client          1:8.4p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines

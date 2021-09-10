@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3.0-9",
+    "Version": "10.3.0-10",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.3.0-9"
+    "source:Version": "10.3.0-10"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-4",
+    "Version": "11.2.0-5",
     "binary:Package": "gcc-11-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-4"
+    "source:Version": "11.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "265",
+    "Installed-Size": "264",
     "Origin": "",
     "Package": "gcc-9-base",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.4.0-2+b1",
+    "Version": "9.4.0-3",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.4.0-2"
+    "source:Version": "9.4.0-3"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "libc6 (>= 2.29), libgcc-s1 (>= 4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3661",
+    "Installed-Size": "3657",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.22.4-6",
+    "Version": "1.22.4-7",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.22.4-6"
+    "source:Version": "1.22.4-7"
   },
   {
     "Architecture": "amd64",
@@ -1630,7 +1630,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "410",
+    "Installed-Size": "429",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.10-2",
+    "Version": "2.4.1-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.2.10-2"
+    "source:Version": "2.4.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-11-base (= 11.2.0-4), libc6 (>= 2.14)",
+    "Depends": "gcc-11-base (= 11.2.0-5), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1775,13 +1775,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:11.2.0-4)",
+    "Provides": "libgcc1 (= 1:11.2.0-5)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-4",
+    "Version": "11.2.0-5",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-4"
+    "source:Version": "11.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.14), libgdbm6 (>= 1.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "71",
+    "Installed-Size": "75",
     "Origin": "",
     "Package": "libgdbm-compat4",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.20-1",
+    "Version": "1.21-1",
     "binary:Package": "libgdbm-compat4:amd64",
     "binary:Summary": "GNU dbm database routines (legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.20-1"
+    "source:Version": "1.21-1"
   },
   {
     "Architecture": "amd64",
@@ -1854,7 +1854,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "130",
+    "Installed-Size": "138",
     "Origin": "",
     "Package": "libgdbm6",
     "Pre-Depends": "",
@@ -1864,8 +1864,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.20-1)",
-    "Version": "1.20-1",
+    "Suggests": "gdbm-l10n (= 1.21-1)",
+    "Version": "1.21-1",
     "binary:Package": "libgdbm6:amd64",
     "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.20-1"
+    "source:Version": "1.21-1"
   },
   {
     "Architecture": "amd64",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "863",
+    "Installed-Size": "847",
     "Origin": "",
     "Package": "libgmp10",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.2.1+dfsg-1",
+    "Version": "2:6.2.1+dfsg-2",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.2.1+dfsg-1"
+    "source:Version": "2:6.2.1+dfsg-2"
   },
   {
     "Architecture": "amd64",
@@ -2355,7 +2355,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cowdancer (<< 0.89~)",
-    "Depends": "libtinfo6 (= 6.2+20201114-4), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.2+20210905-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "335",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-4",
+    "Version": "6.2+20210905-1",
     "binary:Package": "libncurses6:amd64",
     "binary:Summary": "shared libraries for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2377,13 +2377,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-4"
+    "source:Version": "6.2+20210905-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.2+20201114-4), libc6 (>= 2.14)",
+    "Depends": "libtinfo6 (= 6.2+20210905-1), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "416",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-4",
+    "Version": "6.2+20210905-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-4"
+    "source:Version": "6.2+20210905-1"
   },
   {
     "Architecture": "amd64",
@@ -3363,10 +3363,10 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-11-base (= 11.2.0-4), libc6 (>= 2.23), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-11-base (= 11.2.0-5), libc6 (>= 2.32), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2591",
+    "Installed-Size": "2615",
     "Origin": "",
     "Package": "libstdc++6",
     "Pre-Depends": "",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-4",
+    "Version": "11.2.0-5",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-4"
+    "source:Version": "11.2.0-5"
   },
   {
     "Architecture": "amd64",
@@ -3450,7 +3450,7 @@
     "Depends": "libc6 (>= 2.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "537",
+    "Installed-Size": "554",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-4",
+    "Version": "6.2+20210905-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-4"
+    "source:Version": "6.2+20210905-1"
   },
   {
     "Architecture": "all",
@@ -4010,7 +4010,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "386",
+    "Installed-Size": "391",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-4",
+    "Version": "6.2+20210905-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-4"
+    "source:Version": "6.2+20210905-1"
   },
   {
     "Architecture": "amd64",
@@ -4038,10 +4038,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "646",
+    "Installed-Size": "651",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.2+20200912), libtinfo6 (<< 6.3~)",
+    "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.2+20210905), libtinfo6 (<< 6.3~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -4049,7 +4049,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-4",
+    "Version": "6.2+20210905-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-4"
+    "source:Version": "6.2+20210905-1"
   },
   {
     "Architecture": "amd64",
