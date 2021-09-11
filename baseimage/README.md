@@ -124,7 +124,7 @@ ii   libfastjson4            0.99.9-1                        amd64  fast json li
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-5                        amd64  GCC support library
-ii   libgcrypt20             1.9.4-2                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.9.4-3                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.21-1                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.21-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-2                  amd64  Multiprecision arithmetic library
