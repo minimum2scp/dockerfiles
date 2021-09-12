@@ -1546,7 +1546,7 @@
     "Depends": "libbsd0 (>= 0.1.3), libc6 (>= 2.17), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "258",
+    "Installed-Size": "260",
     "Origin": "",
     "Package": "libedit2",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-20210714-1",
+    "Version": "3.1-20210910-1",
     "binary:Package": "libedit2:amd64",
     "binary:Summary": "BSD editline and history libraries",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libedit",
-    "source:Version": "3.1-20210714-1"
+    "source:Version": "3.1-20210910-1"
   },
   {
     "Architecture": "all",
