@@ -125,10 +125,10 @@ ii   libgcc1                 1:6.3.0-18+deb9u1                  amd64  GCC suppo
 ii   libgcrypt20             1.7.6-2+deb9u4                     amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                           amd64  GNU dbm database routines (runtime version)
 ii   libgmp10                2:6.1.2+dfsg-1                     amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.5.8-5+deb9u5                     amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.5.8-5+deb9u6                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                             amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed4             3.3-1+b2                           amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed4             3.3-1+deb9u1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1+deb9u1                      amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1+deb9u1                      amd64  Internationalized domain names (IDNA2008) library
 ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Crypto Library
@@ -145,7 +145,7 @@ ii   libmnl0                 1.0.4-2                            amd64  minimalis
 ii   libmount1               2.29.2-1+deb9u1                    amd64  device mounting library
 ii   libncurses5             6.0+20161126-1+deb9u2              amd64  shared libraries for terminal handling
 ii   libncursesw5            6.0+20161126-1+deb9u2              amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.3-1+b2                           amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.3-1+deb9u1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.19-1+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.18.1-1+deb9u1                    amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0             0.23.3-2+deb9u1                    amd64  library for loading and coordinating access to PKCS#11 modules - runtime

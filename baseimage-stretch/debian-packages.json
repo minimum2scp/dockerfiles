@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.5.8-5+deb9u5",
+    "Version": "3.5.8-5+deb9u6",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.5.8-5+deb9u5"
+    "source:Version": "3.5.8-5+deb9u6"
   },
   {
     "Architecture": "amd64",
@@ -1907,7 +1907,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-1+b2)",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.3-1+deb9u1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "232",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.3-1+deb9u1",
     "binary:Package": "libhogweed4:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-1"
+    "source:Version": "3.3-1+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "358",
+    "Installed-Size": "357",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.3-1+deb9u1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-1"
+    "source:Version": "3.3-1+deb9u1"
   },
   {
     "Architecture": "amd64",
