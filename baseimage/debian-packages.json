@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4-4",
+    "Version": "5.5-1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.4-4"
+    "source:Version": "5.5-1"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-5",
+    "Version": "11.2.0-7",
     "binary:Package": "gcc-11-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-5"
+    "source:Version": "11.2.0-7"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-11-base (= 11.2.0-5), libc6 (>= 2.14)",
+    "Depends": "gcc-11-base (= 11.2.0-7), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1775,13 +1775,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:11.2.0-5)",
+    "Provides": "libgcc1 (= 1:11.2.0-7)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-5",
+    "Version": "11.2.0-7",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-5"
+    "source:Version": "11.2.0-7"
   },
   {
     "Architecture": "amd64",
@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.25), libgpg-error0 (>= 1.27)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1523",
+    "Installed-Size": "1524",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.9.4-3",
+    "Version": "1.9.4-3+b1",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -3363,7 +3363,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-11-base (= 11.2.0-5), libc6 (>= 2.32), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-11-base (= 11.2.0-7), libc6 (>= 2.32), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2615",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-5",
+    "Version": "11.2.0-7",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-5"
+    "source:Version": "11.2.0-7"
   },
   {
     "Architecture": "amd64",

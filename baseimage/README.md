@@ -75,14 +75,14 @@ ii   curl                    7.74.0-1.3+b1                   amd64  command line
 ii   dash                    0.5.11+git20210120+802ebd4-1    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.4-4                           amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.5-1                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
 ii   dpkg                    1.20.9                          amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-10                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-11-base             11.2.0-5                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -123,8 +123,8 @@ ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               11.2.0-5                        amd64  GCC support library
-ii   libgcrypt20             1.9.4-3                         amd64  LGPL Crypto library - runtime library
+ii   libgcc-s1               11.2.0-7                        amd64  GCC support library
+ii   libgcrypt20             1.9.4-3+b1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.21-1                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.21-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-2                  amd64  Multiprecision arithmetic library
@@ -180,7 +180,7 @@ ii   libsqlite3-0            3.36.0-2                        amd64  SQLite 3 sha
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              11.2.0-5                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              11.2.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-1                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
