@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4-4",
+    "Version": "5.5-1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.4-4"
+    "source:Version": "5.5-1"
   },
   {
     "Architecture": "amd64",
@@ -1126,7 +1126,7 @@
     "Depends": "libc6 (>= 2.25), libgpg-error0 (>= 1.27)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1523",
+    "Installed-Size": "1524",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1137,7 +1137,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.9.4-3",
+    "Version": "1.9.4-3+b1",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",

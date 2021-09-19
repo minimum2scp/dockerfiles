@@ -28,7 +28,7 @@ ii   coreutils               8.32-4+b1                     amd64  GNU core utili
 ii   dash                    0.5.11+git20210120+802ebd4-1  amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                        all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                      all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.4-4                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.5-1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                       amd64  File comparison utilities
 ii   dpkg                    1.20.9                        amd64  Debian package management system
 ii   e2fsprogs               1.46.4-1                      amd64  ext2/ext3/ext4 file system utilities
@@ -58,7 +58,7 @@ ii   libdebconfclient0       0.260                         amd64  Debian Configu
 ii   libext2fs2              1.46.4-1                      amd64  ext2/ext3/ext4 file system libraries
 ii   libffi7                 3.3-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               11.2.0-5                      amd64  GCC support library
-ii   libgcrypt20             1.9.4-3                       amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.9.4-3+b1                    amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-2                amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                        amd64  GnuPG development runtime library

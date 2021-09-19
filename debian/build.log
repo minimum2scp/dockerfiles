@@ -41,8 +41,8 @@ I: Retrieving debconf 1.5.77
 I: Validating debconf 1.5.77
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
-I: Retrieving debianutils 5.4-4
-I: Validating debianutils 5.4-4
+I: Retrieving debianutils 5.5-1
+I: Validating debianutils 5.5-1
 I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
 I: Retrieving dpkg 1.20.9
@@ -101,8 +101,8 @@ I: Retrieving libcap-ng0 0.7.9-2.2+b1
 I: Validating libcap-ng0 0.7.9-2.2+b1
 I: Retrieving libffi7 3.3-6
 I: Validating libffi7 3.3-6
-I: Retrieving libgcrypt20 1.9.4-3
-I: Validating libgcrypt20 1.9.4-3
+I: Retrieving libgcrypt20 1.9.4-3+b1
+I: Validating libgcrypt20 1.9.4-3+b1
 I: Retrieving libgpg-error0 1.42-3
 I: Validating libgpg-error0 1.42-3
 I: Retrieving libidn2-0 2.3.2-2
@@ -510,10 +510,10 @@ Sending build context to Docker daemon  33.96MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 66a71114eac2
+ ---> c90655576729
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 31d5a5bc8eda
-Removing intermediate container 31d5a5bc8eda
- ---> 5be0d6d58eb1
-Successfully built 5be0d6d58eb1
+ ---> Running in 218f08297354
+Removing intermediate container 218f08297354
+ ---> 6d277c513aab
+Successfully built 6d277c513aab
 Successfully tagged minimum2scp/debian:latest
