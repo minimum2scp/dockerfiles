@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.2u-1~deb9u4",
+    "Version": "1.0.2u-1~deb9u5",
     "binary:Package": "libssl1.0.2:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl1.0",
-    "source:Version": "1.0.2u-1~deb9u4"
+    "source:Version": "1.0.2u-1~deb9u5"
   },
   {
     "Architecture": "amd64",
