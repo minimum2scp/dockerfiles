@@ -81,7 +81,7 @@ ii   dpkg                    1.20.9                          amd64  Debian packa
 ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
-ii   gcc-10-base             10.3.0-10                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base             10.3.0-11                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
@@ -103,9 +103,9 @@ ii   libblkid1               2.37.2-2                        amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.32-3                          amd64  GNU C Library: Binaries
-ii   libc-l10n               2.32-3                          all    GNU C Library: localization files
-ii   libc6                   2.32-3                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.32-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n               2.32-4                          all    GNU C Library: localization files
+ii   libc6                   2.32-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -194,7 +194,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.32-3                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.32-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.4-1                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
