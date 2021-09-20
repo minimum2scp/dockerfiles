@@ -1378,7 +1378,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "358",
+    "Installed-Size": "357",
     "Origin": "",
     "Package": "libnettle6",
     "Pre-Depends": "",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.3-1+deb9u1",
     "binary:Package": "libnettle6:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.3-1"
+    "source:Version": "3.3-1+deb9u1"
   },
   {
     "Architecture": "amd64",

@@ -67,7 +67,7 @@ ii   liblzma5                5.2.2-1.2+b1           amd64  XZ-format compression
 ii   libmnl0                 1.0.4-2                amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1+deb9u1        amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1+deb9u2  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle6              3.3-1+b2               amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle6              3.3-1+deb9u1           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules          1.1.8-3.6              amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.1.8-3.6              amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.1.8-3.6              all    Runtime support for the PAM library
