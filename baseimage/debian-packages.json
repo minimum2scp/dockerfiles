@@ -902,7 +902,7 @@
     "Depends": "lsb-base, sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "176",
+    "Installed-Size": "171",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-7",
+    "Version": "3.00-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-7"
+    "source:Version": "3.00-1"
   },
   {
     "Architecture": "amd64",
@@ -3394,10 +3394,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "860",
+    "Installed-Size": "861",
     "Origin": "",
     "Package": "libsystemd0",
-    "Pre-Depends": "libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)",
+    "Pre-Depends": "libc6 (>= 2.32), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.9.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.9-1",
+    "Version": "247.9-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.9-1"
+    "source:Version": "247.9-2"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.30)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "277",
+    "Installed-Size": "278",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.9-1",
+    "Version": "247.9-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.9-1"
+    "source:Version": "247.9-2"
   },
   {
     "Architecture": "amd64",
@@ -4598,7 +4598,7 @@
     "Depends": "libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "59",
     "Origin": "",
     "Package": "startpar",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.64-3",
+    "Version": "0.65-1",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.64-3"
+    "source:Version": "0.65-1"
   },
   {
     "Architecture": "amd64",
@@ -4654,7 +4654,7 @@
     "Depends": "insserv, lsb-base, startpar (>= 0.62-1~), sysvinit-utils (>= 2.86.ds1-62)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "81",
+    "Installed-Size": "82",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "",
@@ -4665,7 +4665,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-7",
+    "Version": "3.00-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-7"
+    "source:Version": "3.00-1"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "2.96-7",
+    "Version": "3.00-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-7"
+    "source:Version": "3.00-1"
   },
   {
     "Architecture": "amd64",
@@ -4710,7 +4710,7 @@
     "Depends": "lsb-base (>= 11.0.0~), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "79",
+    "Installed-Size": "81",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4721,7 +4721,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.96-7",
+    "Version": "3.00-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "2.96-7"
+    "source:Version": "3.00-1"
   },
   {
     "Architecture": "amd64",

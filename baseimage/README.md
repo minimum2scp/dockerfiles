@@ -92,7 +92,7 @@ ii   groff-base              1.22.4-7                        amd64  GNU troff te
 ii   gzip                    1.10-4                          amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
-ii   initscripts             2.96-7                          all    scripts for initializing and shutting down the system
+ii   initscripts             3.00-1                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.9                           amd64  package management runtime library
@@ -181,13 +181,13 @@ ii   libss2                  1.46.4-1                        amd64  command-line
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-7                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.9-1                         amd64  systemd utility library
+ii   libsystemd0             247.9-2                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.9-1                         amd64  libudev shared library
+ii   libudev1                247.9-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -224,11 +224,11 @@ ii   rsyslog                 8.2108.0-1                      amd64  reliable sys
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
 ii   sed                     4.8-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.17                          all    Utilities for sensible alternative selection
-ii   startpar                0.64-3                          amd64  run processes in parallel and multiplex their output
+ii   startpar                0.65-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                    1.9.5p2-3                       amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                 2.96-7                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core           2.96-7                          amd64  System-V-like init
-ii   sysvinit-utils          2.96-7                          amd64  System-V-like utilities
+ii   sysv-rc                 3.00-1                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core           3.00-1                          amd64  System-V-like init
+ii   sysvinit-utils          3.00-1                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
