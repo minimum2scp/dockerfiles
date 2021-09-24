@@ -82,7 +82,7 @@ ii   e2fsprogs               1.46.4-1                        amd64  ext2/ext3/ex
 ii   etckeeper               1.18.16-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils               4.8.0-1                         amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-11                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-11-base             11.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-8                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-3                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                     1:2.33.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                 1:2.33.0-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -93,7 +93,7 @@ ii   gzip                    1.10-4                          amd64  GNU compress
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             3.00-1                          all    scripts for initializing and shutting down the system
-ii   insserv                 1.21.0-1.1                      amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                 1.23.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.9                           amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
@@ -123,7 +123,7 @@ ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ex
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1               11.2.0-7                        amd64  GCC support library
+ii   libgcc-s1               11.2.0-8                        amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                      amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.21-1                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.21-1                          amd64  GNU dbm database routines (runtime version) 
@@ -180,7 +180,7 @@ ii   libsqlite3-0            3.36.0-2                        amd64  SQLite 3 sha
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              11.2.0-7                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6              11.2.0-8                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.9-2                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
