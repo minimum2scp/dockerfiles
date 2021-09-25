@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                 3.118                           all    add and remove users and groups
 ii   apt                     2.3.9                           amd64  commandline package manager
 ii   base-files              12                              amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
+ii   base-passwd             3.5.52                          amd64  Debian base system master password and group files
 ii   bash                    5.1-3+b1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.37.2-3                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.37.2-3                      amd64  basic utilities from 4.4BSD-Lite
@@ -121,7 +121,7 @@ ii   libestr0                0.1.10-2.1+b1                   amd64  Helper funct
 ii   libexpat1               2.4.1-2+b1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
-ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.2-2                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1                         amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-8                        amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                      amd64  LGPL Crypto library - runtime library
@@ -150,21 +150,21 @@ ii   libnettle8              3.7.3-1                         amd64  low level cr
 ii   libnewt0.52             0.52.21-5                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0             0.24.0-2                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.24.0-2+b1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-10                        amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.4.0-10                        amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-10                        all    Runtime support for the PAM library
 ii   libpam0g                1.4.0-10                        amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.32             5.32.1-5                        amd64  shared Perl library
+ii   libperl5.32             5.32.1-6                        amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-3                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                      amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.7-2                         amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.7-2                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.7-4                         amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.7-4                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-2                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
@@ -181,13 +181,13 @@ ii   libss2                  1.46.4-1                        amd64  command-line
 ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.9-2                         amd64  systemd utility library
+ii   libsystemd0             247.9-2+b1                      amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.9-2                         amd64  libudev shared library
+ii   libudev1                247.9-2+b1                      amd64  libudev shared library
 ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -211,14 +211,14 @@ ii   openssh-server          1:8.4p1-6                       amd64  secure shell
 ii   openssh-sftp-server     1:8.4p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1l-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.32.1-5                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.32.1-5                        amd64  minimal Perl system
-ii   perl-modules-5.32       5.32.1-5                        all    Core Perl modules
+ii   perl                    5.32.1-6                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.32.1-6                        amd64  minimal Perl system
+ii   perl-modules-5.32       5.32.1-6                        all    Core Perl modules
 ii   procps                  2:3.3.17-5                      amd64  /proc file system utilities
 ii   python3                 3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.2-3                         amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.7-2                         amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.7-2                         amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.7-4                         amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.7-4                         amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                           all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2108.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                          all    dh-runit implementation detail
