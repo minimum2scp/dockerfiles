@@ -178,16 +178,16 @@ ii   libslang2               2.3.2-5                         amd64  S-Lang progr
 ii   libsmartcols1           2.37.2-3                        amd64  smart column output alignment library
 ii   libsqlite3-0            3.36.0-2                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.4-1                        amd64  command-line interface parsing library
-ii   libssh2-1               1.9.0-3                         amd64  SSH2 client-side library
+ii   libssh2-1               1.10.0-2                        amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.9-2+b1                      amd64  systemd utility library
+ii   libsystemd0             247.9-3                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.9-2+b1                      amd64  libudev shared library
+ii   libudev1                247.9-3                         amd64  libudev shared library
 ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
