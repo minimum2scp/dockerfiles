@@ -230,7 +230,7 @@ ii   sysv-rc                 3.00-1                          all    System-V-lik
 ii   sysvinit-core           3.00-1                          amd64  System-V-like init
 ii   sysvinit-utils          3.00-1                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2021a-2                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.37.2-3                        amd64  miscellaneous system utilities
