@@ -469,22 +469,23 @@ Hit:1 http://ftp.jp.debian.org/debian buster InRelease
 Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
 Get:3 http://security.debian.org buster/updates InRelease [65.4 kB]
 Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [17.5 kB]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [374 kB]
-Fetched 509 kB in 1s (943 kB/s)
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [383 kB]
+Fetched 518 kB in 1s (940 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libhogweed4 libnettle6 libsystemd0 libudev1
-4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 838 kB of archives.
-After this operation, 1024 B of additional disk space will be used.
+  libhogweed4 libnettle6 libsystemd0 libudev1 tzdata
+5 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1104 kB of archives.
+After this operation, 0 B of additional disk space will be used.
 Get:1 http://security.debian.org buster/updates/main amd64 libsystemd0 amd64 241-7~deb10u8 [331 kB]
-Get:2 http://security.debian.org buster/updates/main amd64 libudev1 amd64 241-7~deb10u8 [151 kB]
-Get:3 http://security.debian.org buster/updates/main amd64 libnettle6 amd64 3.4.1-1+deb10u1 [215 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 libhogweed4 amd64 3.4.1-1+deb10u1 [141 kB]
-Fetched 838 kB in 0s (5209 kB/s)
+Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u2 [266 kB]
+Get:3 http://security.debian.org buster/updates/main amd64 libudev1 amd64 241-7~deb10u8 [151 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 libnettle6 amd64 3.4.1-1+deb10u1 [215 kB]
+Get:5 http://security.debian.org buster/updates/main amd64 libhogweed4 amd64 3.4.1-1+deb10u1 [141 kB]
+Fetched 1104 kB in 0s (3741 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libsystemd0_241-7~deb10u8_amd64.deb ...
 Unpacking libsystemd0:amd64 (241-7~deb10u8) over (241-7~deb10u7) ...
@@ -501,15 +502,19 @@ Setting up libnettle6:amd64 (3.4.1-1+deb10u1) ...
 Preparing to unpack .../libhogweed4_3.4.1-1+deb10u1_amd64.deb ...
 Unpacking libhogweed4:amd64 (3.4.1-1+deb10u1) over (3.4.1-1) ...
 Setting up libhogweed4:amd64 (3.4.1-1+deb10u1) ...
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../tzdata_2021a-0+deb10u2_all.deb ...
+Unpacking tzdata (2021a-0+deb10u2) over (2021a-0+deb10u1) ...
+Setting up tzdata (2021a-0+deb10u2) ...
 Processing triggers for libc-bin (2.28-10) ...
-Sending build context to Docker daemon  30.26MB
+Sending build context to Docker daemon  30.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> dcbe5172ac9e
+ ---> 2fad45318327
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2e7065d6f757
-Removing intermediate container 2e7065d6f757
- ---> 273a891752e0
-Successfully built 273a891752e0
+ ---> Running in 10377a193613
+Removing intermediate container 10377a193613
+ ---> 9b908a8c1f7a
+Successfully built 9b908a8c1f7a
 Successfully tagged minimum2scp/debian-buster:latest
