@@ -181,13 +181,13 @@ ii   libss2                  1.46.4-1                        amd64  command-line
 ii   libssh2-1               1.10.0-2                        amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.9-3                         amd64  systemd utility library
+ii   libsystemd0             247.9-4                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.9-3                         amd64  libudev shared library
+ii   libudev1                247.9-4                         amd64  libudev shared library
 ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
@@ -234,10 +234,10 @@ ii   tzdata                  2021b-1                         all    time zone an
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.37.2-3                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.2434-3                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.2434-3                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.3455-1                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.3455-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-5                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.2434-3                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.3455-1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-10                          amd64  shell with lots of features
 ii   zsh-common              5.8-10                          all    architecture independent files for Zsh
