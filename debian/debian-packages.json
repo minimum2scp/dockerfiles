@@ -1602,7 +1602,7 @@
     "Depends": "libc6 (>= 2.26), libffi8 (>= 3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1408",
+    "Installed-Size": "1407",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.24.0-2+b1",
+    "Version": "0.24.0-3",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.24.0-2"
+    "source:Version": "0.24.0-3"
   },
   {
     "Architecture": "amd64",
@@ -2677,7 +2677,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021b-1",
+    "Version": "2021c-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021b-1"
+    "source:Version": "2021c-1"
   },
   {
     "Architecture": "amd64",

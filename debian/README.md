@@ -75,7 +75,7 @@ ii   liblzma5                5.2.5-2                       amd64  XZ-format comp
 ii   libmount1               2.37.2-3                      amd64  device mounting library
 ii   libnettle8              3.7.3-1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                       amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0             0.24.0-2+b1                   amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.24.0-3                      amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-10                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.4.0-10                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-10                      all    Runtime support for the PAM library
@@ -113,7 +113,7 @@ ii   perl-base               5.32.1-6                      amd64  minimal Perl s
 ii   sed                     4.8-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.00-1                        amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021b-1                       all    time zone and daylight-saving time data
+ii   tzdata                  2021c-1                       all    time zone and daylight-saving time data
 ii   util-linux              2.37.2-3                      amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2               amd64  compression library - runtime
 ```
