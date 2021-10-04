@@ -64,7 +64,7 @@ ii   adduser                 3.118                           all    add and remo
 ii   apt                     2.3.9                           amd64  commandline package manager
 ii   base-files              12                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                          amd64  Debian base system master password and group files
-ii   bash                    5.1-3+b1                        amd64  GNU Bourne Again SHell
+ii   bash                    5.1-3+b2                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.37.2-3                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.37.2-3                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
@@ -169,7 +169,7 @@ ii   libreadline8            8.1-2                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2.1                 amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.5.2-1                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.2-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                        amd64  SELinux policy management library
@@ -234,10 +234,10 @@ ii   tzdata                  2021c-1                         all    time zone an
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.37.2-3                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.3455-1                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.3455-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.3455-2                    all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.3455-2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-5                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.3455-1                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.3455-2                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-10                          amd64  shell with lots of features
 ii   zsh-common              5.8-10                          all    architecture independent files for Zsh
