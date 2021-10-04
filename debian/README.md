@@ -22,7 +22,7 @@ ii   adduser                 3.118                         all    add and remove
 ii   apt                     2.3.9                         amd64  commandline package manager
 ii   base-files              12                            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                        amd64  Debian base system master password and group files
-ii   bash                    5.1-3+b1                      amd64  GNU Bourne Again SHell
+ii   bash                    5.1-3+b2                      amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-3                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
 ii   dash                    0.5.11+git20210120+802ebd4-1  amd64  POSIX-compliant shell
@@ -82,7 +82,7 @@ ii   libpam-runtime          1.4.0-10                      all    Runtime suppor
 ii   libpam0g                1.4.0-10                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.5.2-1                       amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.2-2                       amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                         amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                      amd64  SELinux policy management library
