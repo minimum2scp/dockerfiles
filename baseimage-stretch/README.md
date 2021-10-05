@@ -71,7 +71,7 @@ ii   bzip2                   1.0.6-8.1                          amd64  high-qual
 ii   ca-certificates         20200601~deb9u2                    all    Common CA certificates
 ii   coreutils               8.26-3                             amd64  GNU core utilities
 ii   cron                    3.0pl1-128+deb9u1                  amd64  process scheduling daemon
-ii   curl                    7.52.1-5+deb9u15                   amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.52.1-5+deb9u16                   amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.8-2.4                          amd64  POSIX-compliant shell
 ii   debconf                 1.5.61                             all    Debian configuration management system
 ii   debian-archive-keyring  2017.5+deb9u1                      all    GnuPG archive keys of the Debian archive
@@ -109,8 +109,8 @@ ii   libc6                   2.24-11+deb9u4                     amd64  GNU C Lib
 ii   libcap-ng0              0.7.7-3+b1                         amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcomerr2              1.43.4-2+deb9u2                    amd64  common error description library
-ii   libcurl3                7.52.1-5+deb9u15                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libcurl3-gnutls         7.52.1-5+deb9u15                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3                7.52.1-5+deb9u16                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.52.1-5+deb9u16                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3                5.3.28-12+deb9u1                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20160903-3                     amd64  BSD editline and history libraries
@@ -127,14 +127,14 @@ ii   libgdbm3                1.8.3-14                           amd64  GNU dbm d
 ii   libgmp10                2:6.1.2+dfsg-1                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-5+deb9u6                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                             amd64  library for common error values and messages in GnuPG components
-ii   libgssapi-krb5-2        1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.3-1+deb9u1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn11                1.33-1+deb9u1                      amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   libidn2-0               0.16-1+deb9u1                      amd64  Internationalized domain names (IDNA2008) library
-ii   libk5crypto3            1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.15-1+deb9u2                      amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u8               amd64  OpenLDAP libraries
 ii   libldap-common          2.4.44+dfsg-5+deb9u8               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
@@ -175,8 +175,8 @@ ii   libsmartcols1           2.29.2-1+deb9u1                    amd64  smart col
 ii   libsqlite3-0            3.16.2-5+deb9u3                    amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 client-side library
-ii   libssl1.0.2             1.0.2u-1~deb9u5                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0l-1~deb9u3                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.0.2             1.0.2u-1~deb9u6                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0l-1~deb9u4                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u13                     amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                    amd64  Manage ASN.1 structures (runtime)
@@ -203,7 +203,7 @@ ii   net-tools               1.60+git20161116.90da8a0-1         amd64  NET-3 net
 ii   openssh-client          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0l-1~deb9u3                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0l-1~deb9u4                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1+deb9u1                   amd64  change and administer password and group data
 ii   perl                    5.24.1-3+deb9u7                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-3+deb9u7                    amd64  minimal Perl system
