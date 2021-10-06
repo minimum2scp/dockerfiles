@@ -131,8 +131,8 @@ I: Retrieving libunistring2 0.9.10-6
 I: Validating libunistring2 0.9.10-6
 I: Retrieving libcrypt1 1:4.4.25-2
 I: Validating libcrypt1 1:4.4.25-2
-I: Retrieving libzstd1 1.4.8+dfsg-2.1
-I: Validating libzstd1 1.4.8+dfsg-2.1
+I: Retrieving libzstd1 1.4.8+dfsg-3
+I: Validating libzstd1 1.4.8+dfsg-3
 I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
 I: Retrieving liblz4-1 1.9.3-2
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  33.99MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> dcfb717b1b3a
+ ---> 940f1848d705
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in f6641edbd4be
-Removing intermediate container f6641edbd4be
- ---> 6e801140933c
-Successfully built 6e801140933c
+ ---> Running in 9581ce163519
+Removing intermediate container 9581ce163519
+ ---> 0bbf89b2783a
+Successfully built 0bbf89b2783a
 Successfully tagged minimum2scp/debian:latest
