@@ -141,7 +141,7 @@ ii   libldap-2.4-2           2.4.59+dfsg-1                   amd64  OpenLDAP lib
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.3-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2                         amd64  XZ-format compression library
-ii   libmd0                  1.0.3-3                         amd64  message digest functions from BSD systems - shared library
+ii   libmd0                  1.0.4-1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.37.2-3                        amd64  device mounting library
 ii   libmpdec3               2.5.1-2                         amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6             6.2+20210905-1                  amd64  shared libraries for terminal handling
@@ -192,7 +192,7 @@ ii   libunistring2           0.9.10-6                        amd64  Unicode stri
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
-ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.8+dfsg-3                    amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.32-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
@@ -241,5 +241,5 @@ ii   xxd                     2:8.2.3455-2                    amd64  tool to make
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-10                          amd64  shell with lots of features
 ii   zsh-common              5.8-10                          all    architecture independent files for Zsh
-ii   zstd                    1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                    1.4.8+dfsg-3                    amd64  fast lossless compression algorithm -- CLI tool
 ```

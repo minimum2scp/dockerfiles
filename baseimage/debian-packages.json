@@ -2274,7 +2274,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "77",
+    "Installed-Size": "79",
     "Origin": "",
     "Package": "libmd0",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.3-3",
+    "Version": "1.0.4-1",
     "binary:Package": "libmd0:amd64",
     "binary:Summary": "message digest functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libmd",
-    "source:Version": "1.0.3-3"
+    "source:Version": "1.0.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3713,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.8+dfsg-2.1",
+    "Version": "1.4.8+dfsg-3",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.8+dfsg-2.1"
+    "source:Version": "1.4.8+dfsg-3"
   },
   {
     "Architecture": "all",
@@ -5074,7 +5074,7 @@
     "Depends": "libc6 (>= 2.16), libgcc-s1 (>= 3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 6), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1902",
+    "Installed-Size": "1898",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -5085,7 +5085,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.8+dfsg-2.1",
+    "Version": "1.4.8+dfsg-3",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -5093,6 +5093,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.8+dfsg-2.1"
+    "source:Version": "1.4.8+dfsg-3"
   }
 ]
