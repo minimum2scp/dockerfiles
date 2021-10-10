@@ -68,7 +68,7 @@ ii   bash                    5.1-3+b2                        amd64  GNU Bourne A
 ii   bsdextrautils           2.37.2-3                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                1:2.37.2-3                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                         amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates         20210119                        all    Common CA certificates
+ii   ca-certificates         20211004                        all    Common CA certificates
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
 ii   curl                    7.74.0-1.3+b1                   amd64  command line tool for transferring data with URL syntax
@@ -97,8 +97,8 @@ ii   insserv                 1.23.0-1                        amd64  boot sequenc
 ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.9                           amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0.5-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.5-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0.6-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0.6-1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.2-3                        amd64  block device ID library
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
@@ -150,7 +150,7 @@ ii   libnettle8              3.7.3-1                         amd64  low level cr
 ii   libnewt0.52             0.52.21-5                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0             0.24.0-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.24.0-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-10                        amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.4.0-10                        amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-10                        all    Runtime support for the PAM library
