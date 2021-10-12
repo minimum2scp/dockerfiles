@@ -101,8 +101,8 @@ I: Retrieving libcap-ng0 0.7.9-2.2+b1
 I: Validating libcap-ng0 0.7.9-2.2+b1
 I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
-I: Retrieving libffi8 3.4.2-2
-I: Validating libffi8 3.4.2-2
+I: Retrieving libffi8 3.4.2-3
+I: Validating libffi8 3.4.2-3
 I: Retrieving libgcrypt20 1.9.4-3+b1
 I: Validating libgcrypt20 1.9.4-3+b1
 I: Retrieving libgpg-error0 1.42-3
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  33.98MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> cd8acc5e22c4
+ ---> 2a5011cca892
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c08a462439df
-Removing intermediate container c08a462439df
- ---> e5ee1146fa87
-Successfully built e5ee1146fa87
+ ---> Running in 0ba752b85dbe
+Removing intermediate container 0ba752b85dbe
+ ---> 03f90fb71995
+Successfully built 03f90fb71995
 Successfully tagged minimum2scp/debian:latest
