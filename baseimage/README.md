@@ -121,7 +121,7 @@ ii   libestr0                0.1.10-2.1+b1                   amd64  Helper funct
 ii   libexpat1               2.4.1-2+b1                      amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
-ii   libffi8                 3.4.2-2                         amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.2-3                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1              1.8.0-1+b1                      amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-9                        amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                      amd64  LGPL Crypto library - runtime library
@@ -181,13 +181,13 @@ ii   libss2                  1.46.4-1                        amd64  command-line
 ii   libssh2-1               1.10.0-2                        amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-9                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.9-4                         amd64  systemd utility library
+ii   libsystemd0             249.4-2                         amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                         all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                         amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.9-4                         amd64  libudev shared library
+ii   libudev1                249.4-2                         amd64  libudev shared library
 ii   libunistring2           0.9.10-6                        amd64  Unicode string library for C
 ii   libuuid1                2.37.2-3                        amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library

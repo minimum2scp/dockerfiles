@@ -1719,13 +1719,13 @@
     "Package": "libffi8",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libffi8ubuntu1 (= 3.4.2-2)",
+    "Provides": "libffi8ubuntu1 (= 3.4.2-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.2-2",
+    "Version": "3.4.2-3",
     "binary:Package": "libffi8:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.4.2-2"
+    "source:Version": "3.4.2-3"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "861",
+    "Installed-Size": "932",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.32), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.9.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.9-4",
+    "Version": "249.4-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.9-4"
+    "source:Version": "249.4-2"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.30)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "278",
+    "Installed-Size": "288",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.9-4",
+    "Version": "249.4-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.9-4"
+    "source:Version": "249.4-2"
   },
   {
     "Architecture": "amd64",
