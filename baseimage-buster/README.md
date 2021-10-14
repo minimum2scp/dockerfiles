@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2.3                      amd64  commandline package manager
-ii   base-files              10.3+deb10u10                amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u11                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -73,7 +73,7 @@ ii   coreutils               8.30-3                       amd64  GNU core utilit
 ii   cron                    3.0pl1-134+deb10u1           amd64  process scheduling daemon
 ii   curl                    7.64.0-4+deb10u2             amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
-ii   debconf                 1.5.71                       all    Debian configuration management system
+ii   debconf                 1.5.71+deb10u1               all    Debian configuration management system
 ii   debian-archive-keyring  2019.1+deb10u1               all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
@@ -130,13 +130,13 @@ ii   libgdbm6                1.18.1-4                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.2+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.7-4+deb10u7              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-3+deb10u2               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1+deb10u1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-3+deb10u2               amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-3+deb10u2               amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-3+deb10u2               amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u6        amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-3+deb10u6        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
