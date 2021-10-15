@@ -4483,10 +4483,10 @@
     "Architecture": "amd64",
     "Conflicts": "linux-kernel-log-daemon, system-log-daemon",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.29), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.32), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1907",
+    "Installed-Size": "1896",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4497,7 +4497,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2108.0-1",
+    "Version": "8.2108.0-2",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2108.0-1"
+    "source:Version": "8.2108.0-2"
   },
   {
     "Architecture": "all",
