@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
 ii   apt                     2.2.4                           amd64  commandline package manager
-ii   base-files              11.1                            amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u1                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b3                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-8                        amd64  extra utilities from 4.4BSD-Lite
@@ -102,9 +102,9 @@ ii   libblkid1               2.36.1-8                        amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-13                         amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-13                         all    GNU C Library: localization files
-ii   libc6                   2.31-13                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13+deb11u2                 amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-13+deb11u2                 all    GNU C Library: localization files
+ii   libc6                   2.31-13+deb11u2                 amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -129,13 +129,13 @@ ii   libgdbm6                1.19-2                          amd64  GNU dbm data
 ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-5                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.18.3-6                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.18.3-6                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.18.3-6                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.18.3-6                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.57+dfsg-3                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.3-2                         amd64  Fast LZ compression algorithm library - runtime
@@ -150,13 +150,13 @@ ii   libnewt0.52             0.52.21-4+b3                    amd64  Not Erik's W
 ii   libnghttp2-14           1.43.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                       amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-9                         amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-9                         amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-9                         all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-9                         amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.4.0-9+deb11u1                 amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-9+deb11u1                 amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-9+deb11u1                 all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-9+deb11u1                 amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                       amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.32             5.32.1-4+deb11u1                amd64  shared Perl library
+ii   libperl5.32             5.32.1-4+deb11u2                amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                          amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                      amd64  library for accessing process information from /proc
@@ -193,7 +193,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-13                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-13+deb11u2                 all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.2-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
@@ -210,9 +210,9 @@ ii   openssh-server          1:8.4p1-5                       amd64  secure shell
 ii   openssh-sftp-server     1:8.4p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1k-1+deb11u1                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
-ii   perl                    5.32.1-4+deb11u1                amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.32.1-4+deb11u1                amd64  minimal Perl system
-ii   perl-modules-5.32       5.32.1-4+deb11u1                all    Core Perl modules
+ii   perl                    5.32.1-4+deb11u2                amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.32.1-4+deb11u2                amd64  minimal Perl system
+ii   perl-modules-5.32       5.32.1-4+deb11u2                all    Core Perl modules
 ii   procps                  2:3.3.17-5                      amd64  /proc file system utilities
 ii   python3                 3.9.2-3                         amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.2-3                         amd64  minimal subset of the Python language (default python3 version)
@@ -229,7 +229,7 @@ ii   sysv-rc                 2.96-7                          all    System-V-lik
 ii   sysvinit-core           2.96-7                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-7                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2021a-1+deb11u1                 all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-8                        amd64  miscellaneous system utilities

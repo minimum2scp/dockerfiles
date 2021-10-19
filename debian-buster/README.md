@@ -20,13 +20,13 @@ installed packages:
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
 ii   apt                     1.8.2.3                 amd64  commandline package manager
-ii   base-files              10.3+deb10u10           amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u11           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1            amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.30-3                  amd64  GNU core utilities
 ii   dash                    0.5.10.2-5              amd64  POSIX-compliant shell
-ii   debconf                 1.5.71                  all    Debian configuration management system
+ii   debconf                 1.5.71+deb10u1          all    Debian configuration management system
 ii   debian-archive-keyring  2019.1+deb10u1          all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                 amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                 amd64  File comparison utilities
