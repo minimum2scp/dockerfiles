@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
-ii   apt                     2.3.10                          amd64  commandline package manager
+ii   apt                     2.3.11                          amd64  commandline package manager
 ii   base-files              12                              amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                          amd64  Debian base system master password and group files
 ii   bash                    5.1-3+b2                        amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   init-system-helpers     1.60                            all    helper tools
 ii   initscripts             3.00-1                          all    scripts for initializing and shutting down the system
 ii   insserv                 1.23.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                 2.3.1-1                         amd64  access control list - shared library
-ii   libapt-pkg6.0           2.3.10                          amd64  package management runtime library
+ii   libapt-pkg6.0           2.3.11                          amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.6-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.6-1                       amd64  Dynamic library for security auditing
@@ -125,8 +125,8 @@ ii   libffi8                 3.4.2-3                         amd64  Foreign Func
 ii   libfido2-1              1.8.0-1+b1                      amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-9                        amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                      amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4         1.21-1                          amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                1.21-1                          amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4         1.22-1                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.22-1                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                          amd64  GnuPG development runtime library
