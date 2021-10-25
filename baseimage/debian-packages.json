@@ -370,7 +370,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "517",
+    "Installed-Size": "511",
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
@@ -381,7 +381,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.77",
+    "Version": "1.5.78",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.77"
+    "source:Version": "1.5.78"
   },
   {
     "Architecture": "all",
@@ -1625,12 +1625,12 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "wink (<= 1.5.1060-4)",
+    "Conflicts": "",
     "Breaks": "",
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "430",
+    "Installed-Size": "421",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.1-2+b1",
+    "Version": "2.4.1-3",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.4.1-2"
+    "source:Version": "2.4.1-3"
   },
   {
     "Architecture": "amd64",
@@ -4777,7 +4777,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021d-1",
+    "Version": "2021e-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021d-1"
+    "source:Version": "2021e-1"
   },
   {
     "Architecture": "all",

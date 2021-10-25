@@ -73,7 +73,7 @@ ii   coreutils               8.32-4+b1                       amd64  GNU core uti
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
 ii   curl                    7.74.0-1.3+b1                   amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20210120+802ebd4-2    amd64  POSIX-compliant shell
-ii   debconf                 1.5.77                          all    Debian configuration management system
+ii   debconf                 1.5.78                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.5-1                           amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                         amd64  File comparison utilities
@@ -118,7 +118,7 @@ ii   libdebconfclient0       0.260                           amd64  Debian Confi
 ii   libedit2                3.1-20210910-1                  amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.4.1-2+b1                      amd64  XML parsing C library - runtime library
+ii   libexpat1               2.4.1-3                         amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.4-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi8                 3.4.2-3                         amd64  Foreign Function Interface library runtime
@@ -230,7 +230,7 @@ ii   sysv-rc                 3.00-1                          all    System-V-lik
 ii   sysvinit-core           3.00-1                          amd64  System-V-like init
 ii   sysvinit-utils          3.00-1                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021d-1                         all    time zone and daylight-saving time data
+ii   tzdata                  2021e-1                         all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.37.2-4                        amd64  miscellaneous system utilities
