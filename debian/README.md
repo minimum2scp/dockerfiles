@@ -26,7 +26,7 @@ ii   bash                    5.1-3+b2                      amd64  GNU Bourne Aga
 ii   bsdutils                1:2.37.2-4                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4+b1                     amd64  GNU core utilities
 ii   dash                    0.5.11+git20210120+802ebd4-2  amd64  POSIX-compliant shell
-ii   debconf                 1.5.77                        all    Debian configuration management system
+ii   debconf                 1.5.78                        all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                      all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.5-1                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                       amd64  File comparison utilities
@@ -113,7 +113,7 @@ ii   perl-base               5.32.1-6                      amd64  minimal Perl s
 ii   sed                     4.8-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.00-1                        amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021d-1                       all    time zone and daylight-saving time data
+ii   tzdata                  2021e-1                       all    time zone and daylight-saving time data
 ii   util-linux              2.37.2-4                      amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2               amd64  compression library - runtime
 ```

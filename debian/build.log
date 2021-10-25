@@ -37,8 +37,8 @@ I: Retrieving dash 0.5.11+git20210120+802ebd4-2
 I: Validating dash 0.5.11+git20210120+802ebd4-2
 I: Retrieving libdb5.3 5.3.28+dfsg1-0.8
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
-I: Retrieving debconf 1.5.77
-I: Validating debconf 1.5.77
+I: Retrieving debconf 1.5.78
+I: Validating debconf 1.5.78
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
 I: Retrieving debianutils 5.5-1
@@ -181,8 +181,8 @@ I: Retrieving sysvinit-utils 3.00-1
 I: Validating sysvinit-utils 3.00-1
 I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
-I: Retrieving tzdata 2021d-1
-I: Validating tzdata 2021d-1
+I: Retrieving tzdata 2021e-1
+I: Validating tzdata 2021e-1
 I: Retrieving bsdutils 1:2.37.2-4
 I: Validating bsdutils 1:2.37.2-4
 I: Retrieving libblkid1 2.37.2-4
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.03MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 0b89266009ba
+ ---> 728edb1769e1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in af13eeff34d8
-Removing intermediate container af13eeff34d8
- ---> ba2bce8d9ca2
-Successfully built ba2bce8d9ca2
+ ---> Running in 86aed2c584d1
+Removing intermediate container 86aed2c584d1
+ ---> 6d039fe6fba6
+Successfully built 6d039fe6fba6
 Successfully tagged minimum2scp/debian:latest
