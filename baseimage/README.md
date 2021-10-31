@@ -122,7 +122,7 @@ ii   libexpat1               2.4.1-3                            amd64  XML parsi
 ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                           amd64  fast json library for C
 ii   libffi8                 3.4.2-3                            amd64  Foreign Function Interface library runtime
-ii   libfido2-1              1.8.0-1+b1                         amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1              1.9.0-1                            amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1               11.2.0-10                          amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
@@ -167,8 +167,8 @@ ii   libpython3.9-minimal    3.9.7-4                            amd64  Minimal s
 ii   libpython3.9-stdlib     3.9.7-4                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-2                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27+dfsg-2.1                    amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27+dfsg-2.1                    amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27+dfsg-2.2                    amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27+dfsg-2.2                    amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.5.2-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                              all    Common files for SELinux policy management libraries
@@ -234,10 +234,10 @@ ii   tzdata                  2021e-1                            all    time zone
 ii   ucf                     3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                             amd64  De-archiver for .zip files
 ii   util-linux              2.37.2-4                           amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.3455-2                       all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.3455-2                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.3565-1                       all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.3565-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-5                          amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.3455-2                       amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.3565-1                       amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                    amd64  compression library - runtime
 ii   zsh                     5.8-10                             amd64  shell with lots of features
 ii   zsh-common              5.8-10                             all    architecture independent files for Zsh

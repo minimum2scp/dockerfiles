@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.25), libcbor0.8 (>= 0.8.0), libssl1.1 (>= 1.1.1), libudev1 (>= 183), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "207",
+    "Installed-Size": "227",
     "Origin": "",
     "Package": "libfido2-1",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.8.0-1+b1",
+    "Version": "1.9.0-1",
     "binary:Package": "libfido2-1:amd64",
     "binary:Summary": "library for generating and verifying FIDO 2.0 objects",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfido2",
-    "source:Version": "1.8.0-1"
+    "source:Version": "1.9.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2999,7 +2999,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-2.1), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-2.2), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "188",
@@ -3008,12 +3008,12 @@
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-2.1)",
+    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-2.2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-2.1",
+    "Version": "2.1.27+dfsg-2.2",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-2.1"
+    "source:Version": "2.1.27+dfsg-2.2"
   },
   {
     "Architecture": "amd64",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-2.1",
+    "Version": "2.1.27+dfsg-2.2",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-2.1"
+    "source:Version": "2.1.27+dfsg-2.2"
   },
   {
     "Architecture": "amd64",
@@ -4878,7 +4878,7 @@
     "Depends": "xxd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "361",
+    "Installed-Size": "362",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4889,7 +4889,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.3455-2",
+    "Version": "2:8.2.3565-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4897,13 +4897,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.3455-2"
+    "source:Version": "2:8.2.3565-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.2.3455-2), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.3565-1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1665",
@@ -4917,7 +4917,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.2.3455-2",
+    "Version": "2:8.2.3565-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.3455-2"
+    "source:Version": "2:8.2.3565-1"
   },
   {
     "Architecture": "amd64",
@@ -4973,7 +4973,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.3455-2",
+    "Version": "2:8.2.3565-1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4981,7 +4981,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.3455-2"
+    "source:Version": "2:8.2.3565-1"
   },
   {
     "Architecture": "amd64",
