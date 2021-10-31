@@ -421,22 +421,22 @@ I: Configuring apt...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Ign:1 http://ftp.jp.debian.org/debian stretch InRelease
-Get:2 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
-Get:3 http://security.debian.org stretch/updates InRelease [53.0 kB]
+Get:1 http://security.debian.org stretch/updates InRelease [53.0 kB]
+Ign:2 http://ftp.jp.debian.org/debian stretch InRelease
+Get:3 http://ftp.jp.debian.org/debian stretch-updates InRelease [93.6 kB]
 Hit:4 http://ftp.jp.debian.org/debian stretch Release
-Get:6 http://security.debian.org stretch/updates/main amd64 Packages [921 kB]
-Fetched 1067 kB in 1s (634 kB/s)
+Get:6 http://security.debian.org stretch/updates/main amd64 Packages [932 kB]
+Fetched 1078 kB in 1s (796 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  apt e2fslibs e2fsprogs libapt-pkg5.0 libcomerr2 libgcrypt20 liblz4-1
+  apt e2fslibs e2fsprogs libapt-pkg5.0 libcomerr2 libelf1 libgcrypt20 liblz4-1
   libnettle6 libss2 libsystemd0 libudev1 login passwd tzdata
-14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 6661 kB of archives.
-After this operation, 6144 B of additional disk space will be used.
+15 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6818 kB of archives.
+After this operation, 7168 B of additional disk space will be used.
 Get:1 http://security.debian.org stretch/updates/main amd64 e2fslibs amd64 1.43.4-2+deb9u2 [208 kB]
 Get:2 http://security.debian.org stretch/updates/main amd64 e2fsprogs amd64 1.43.4-2+deb9u2 [948 kB]
 Get:3 http://security.debian.org stretch/updates/main amd64 login amd64 1:4.4-4.1+deb9u1 [790 kB]
@@ -450,8 +450,9 @@ Get:10 http://security.debian.org stretch/updates/main amd64 passwd amd64 1:4.4-
 Get:11 http://security.debian.org stretch/updates/main amd64 libudev1 amd64 232-25+deb9u13 [126 kB]
 Get:12 http://security.debian.org stretch/updates/main amd64 libgcrypt20 amd64 1.7.6-2+deb9u4 [523 kB]
 Get:13 http://security.debian.org stretch/updates/main amd64 tzdata all 2021a-0+deb9u2 [281 kB]
-Get:14 http://security.debian.org stretch/updates/main amd64 libnettle6 amd64 3.3-1+deb9u1 [192 kB]
-Fetched 6661 kB in 4s (1409 kB/s)
+Get:14 http://security.debian.org stretch/updates/main amd64 libelf1 amd64 0.168-1+deb9u1 [156 kB]
+Get:15 http://security.debian.org stretch/updates/main amd64 libnettle6 amd64 3.3-1+deb9u1 [192 kB]
+Fetched 6818 kB in 0s (9646 kB/s)
 (Reading database ... 6505 files and directories currently installed.)
 Preparing to unpack .../e2fslibs_1.43.4-2+deb9u2_amd64.deb ...
 Unpacking e2fslibs:amd64 (1.43.4-2+deb9u2) over (1.43.4-2+deb9u1) ...
@@ -504,19 +505,22 @@ Setting up libgcrypt20:amd64 (1.7.6-2+deb9u4) ...
 (Reading database ... 6504 files and directories currently installed.)
 Preparing to unpack .../tzdata_2021a-0+deb9u2_all.deb ...
 Unpacking tzdata (2021a-0+deb9u2) over (2020a-0+deb9u1) ...
+Preparing to unpack .../libelf1_0.168-1+deb9u1_amd64.deb ...
+Unpacking libelf1:amd64 (0.168-1+deb9u1) over (0.168-1) ...
 Preparing to unpack .../libnettle6_3.3-1+deb9u1_amd64.deb ...
 Unpacking libnettle6:amd64 (3.3-1+deb9u1) over (3.3-1+b2) ...
 Setting up libnettle6:amd64 (3.3-1+deb9u1) ...
 Setting up tzdata (2021a-0+deb9u2) ...
+Setting up libelf1:amd64 (0.168-1+deb9u1) ...
 Processing triggers for libc-bin (2.24-11+deb9u4) ...
 Sending build context to Docker daemon  26.88MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 52d43f34da26
+ ---> 0f6d6b0394fe
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d4ae3f53e107
-Removing intermediate container d4ae3f53e107
- ---> 597cd93494ee
-Successfully built 597cd93494ee
+ ---> Running in 21f3eb8c5996
+Removing intermediate container 21f3eb8c5996
+ ---> 82b2fff105c9
+Successfully built 82b2fff105c9
 Successfully tagged minimum2scp/debian-stretch:latest

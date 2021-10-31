@@ -56,7 +56,7 @@ ii   libcap2                 1:2.25-1               amd64  POSIX 1003.1e capabil
 ii   libcomerr2              1.43.4-2+deb9u2        amd64  common error description library
 ii   libdb5.3                5.3.28-12+deb9u1       amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                  amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.168-1                amd64  library to read and write ELF files
+ii   libelf1                 0.168-1+deb9u1         amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1+deb9u1        amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-18+deb9u1      amd64  GCC support library
 ii   libgcrypt20             1.7.6-2+deb9u4         amd64  LGPL Crypto library - runtime library
