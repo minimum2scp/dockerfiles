@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron (>= 2.0-1), logrotate, checksecurity",
-    "Version": "3.0pl1-128+deb9u1",
+    "Version": "3.0pl1-128+deb9u2",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-128+deb9u1"
+    "source:Version": "3.0pl1-128+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "934",
+    "Installed-Size": "935",
     "Origin": "",
     "Package": "libelf1",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.168-1",
+    "Version": "0.168-1+deb9u1",
     "binary:Package": "libelf1:amd64",
     "binary:Summary": "library to read and write ELF files",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "elfutils",
-    "source:Version": "0.168-1"
+    "source:Version": "0.168-1+deb9u1"
   },
   {
     "Architecture": "all",
@@ -4581,7 +4581,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021a-0+deb9u1",
+    "Version": "2021a-0+deb9u2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021a-0+deb9u1"
+    "source:Version": "2021a-0+deb9u2"
   },
   {
     "Architecture": "all",

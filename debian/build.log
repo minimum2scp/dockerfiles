@@ -33,12 +33,12 @@ I: Retrieving libdebconfclient0 0.260
 I: Validating libdebconfclient0 0.260
 I: Retrieving coreutils 8.32-4+b1
 I: Validating coreutils 8.32-4+b1
-I: Retrieving dash 0.5.11+git20210120+802ebd4-2
-I: Validating dash 0.5.11+git20210120+802ebd4-2
+I: Retrieving dash 0.5.11+git20210903+057cd650a4ed-1
+I: Validating dash 0.5.11+git20210903+057cd650a4ed-1
 I: Retrieving libdb5.3 5.3.28+dfsg1-0.8
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
-I: Retrieving debconf 1.5.78
-I: Validating debconf 1.5.78
+I: Retrieving debconf 1.5.79
+I: Validating debconf 1.5.79
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
 I: Retrieving debianutils 5.5-1
@@ -59,8 +59,8 @@ I: Retrieving logsave 1.46.4-1
 I: Validating logsave 1.46.4-1
 I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
-I: Retrieving gcc-10-base 10.3.0-11
-I: Validating gcc-10-base 10.3.0-11
+I: Retrieving gcc-10-base 10.3.0-12
+I: Validating gcc-10-base 10.3.0-12
 I: Retrieving gcc-11-base 11.2.0-10
 I: Validating gcc-11-base 11.2.0-10
 I: Retrieving libgcc-s1 11.2.0-10
@@ -113,8 +113,8 @@ I: Retrieving libnsl2 1.3.0-2
 I: Validating libnsl2 1.3.0-2
 I: Retrieving libseccomp2 2.5.2-2
 I: Validating libseccomp2 2.5.2-2
-I: Retrieving libselinux1 3.1-3
-I: Validating libselinux1 3.1-3
+I: Retrieving libselinux1 3.1-3+b1
+I: Validating libselinux1 3.1-3+b1
 I: Retrieving libsemanage-common 3.1-1
 I: Validating libsemanage-common 3.1-1
 I: Retrieving libsemanage1 3.1-1+b2
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.03MB
+Sending build context to Docker daemon  34.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 728edb1769e1
+ ---> c1b19976f91b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 86aed2c584d1
-Removing intermediate container 86aed2c584d1
- ---> 6d039fe6fba6
-Successfully built 6d039fe6fba6
+ ---> Running in 856c04c9f870
+Removing intermediate container 856c04c9f870
+ ---> 2f39f07df531
+Successfully built 2f39f07df531
 Successfully tagged minimum2scp/debian:latest

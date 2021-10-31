@@ -56,7 +56,7 @@ ii   libcap2                 1:2.25-1               amd64  POSIX 1003.1e capabil
 ii   libcomerr2              1.43.4-2+deb9u2        amd64  common error description library
 ii   libdb5.3                5.3.28-12+deb9u1       amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.227                  amd64  Debian Configuration Management System (C-implementation library)
-ii   libelf1                 0.168-1                amd64  library to read and write ELF files
+ii   libelf1                 0.168-1+deb9u1         amd64  library to read and write ELF files
 ii   libfdisk1               2.29.2-1+deb9u1        amd64  fdisk partitioning library
 ii   libgcc1                 1:6.3.0-18+deb9u1      amd64  GCC support library
 ii   libgcrypt20             1.7.6-2+deb9u4         amd64  LGPL Crypto library - runtime library
@@ -98,7 +98,7 @@ ii   sed                     4.4-1                  amd64  GNU stream editor for
 ii   sensible-utils          0.0.9+deb9u1           all    Utilities for sensible alternative selection
 ii   sysvinit-utils          2.88dsf-59.9           amd64  System-V-like utilities
 ii   tar                     1.29b-1.1              amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-0+deb9u1         all    time zone and daylight-saving time data
+ii   tzdata                  2021a-0+deb9u2         all    time zone and daylight-saving time data
 ii   util-linux              2.29.2-1+deb9u1        amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.8.dfsg-5         amd64  compression library - runtime
 ```

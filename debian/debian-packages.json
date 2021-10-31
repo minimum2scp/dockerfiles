@@ -202,7 +202,7 @@
     "Depends": "debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "221",
+    "Installed-Size": "222",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.14)",
@@ -213,7 +213,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.11+git20210120+802ebd4-2",
+    "Version": "0.5.11+git20210903+057cd650a4ed-1",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.11+git20210120+802ebd4-2"
+    "source:Version": "0.5.11+git20210903+057cd650a4ed-1"
   },
   {
     "Architecture": "all",
@@ -230,7 +230,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "511",
+    "Installed-Size": "512",
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "perl-base (>= 5.20.1-3~)",
@@ -241,7 +241,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.78",
+    "Version": "1.5.79",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.78"
+    "source:Version": "1.5.79"
   },
   {
     "Architecture": "all",
@@ -426,7 +426,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "264",
+    "Installed-Size": "265",
     "Origin": "",
     "Package": "gcc-10-base",
     "Pre-Depends": "",
@@ -437,7 +437,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3.0-11",
+    "Version": "10.3.0-12",
     "binary:Package": "gcc-10-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-10",
-    "source:Version": "10.3.0-11"
+    "source:Version": "10.3.0-12"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.14), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "207",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-3",
+    "Version": "3.1-3+b1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
