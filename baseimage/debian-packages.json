@@ -258,10 +258,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "17478",
+    "Installed-Size": "17372",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libgmp10, libselinux1 (>= 3.1~)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.32), libgmp10 (>= 2:6.2.1+dfsg), libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.32-4+b1",
+    "Version": "8.32-4.1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "8.32-4"
+    "source:Version": "8.32-4.1"
   },
   {
     "Architecture": "amd64",
@@ -342,10 +342,10 @@
     "Depends": "debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "226",
+    "Installed-Size": "222",
     "Origin": "",
     "Package": "dash",
-    "Pre-Depends": "libc6 (>= 2.14), libedit2 (>= 2.11-20080614-0)",
+    "Pre-Depends": "libc6 (>= 2.14)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -353,7 +353,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.11+git20210903+057cd650a4ed-2",
+    "Version": "0.5.11+git20210903+057cd650a4ed-3",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.11+git20210903+057cd650a4ed-2"
+    "source:Version": "0.5.11+git20210903+057cd650a4ed-3"
   },
   {
     "Architecture": "all",
@@ -2859,10 +2859,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpython3.9-stdlib (>= 3.9.2-0~)",
+    "Depends": "libpython3.9-stdlib (>= 3.9.7-0~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "38",
+    "Installed-Size": "39",
     "Origin": "",
     "Package": "libpython3-stdlib",
     "Pre-Depends": "",
@@ -2873,7 +2873,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.2-3",
+    "Version": "3.9.7-1",
     "binary:Package": "libpython3-stdlib:amd64",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-3"
+    "source:Version": "3.9.7-1"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "249.5-1",
+    "Version": "249.5-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "249.5-1"
+    "source:Version": "249.5-2"
   },
   {
     "Architecture": "amd64",
@@ -3573,7 +3573,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "249.5-1",
+    "Version": "249.5-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "249.5-1"
+    "source:Version": "249.5-2"
   },
   {
     "Architecture": "amd64",
@@ -3786,7 +3786,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2335",
+    "Installed-Size": "2299",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)",
@@ -3797,7 +3797,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.8.1-1",
+    "Version": "1:4.8.1-1.1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.8.1-1"
+    "source:Version": "1:4.8.1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -4203,10 +4203,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsemanage1 (>= 2.0.3), libpam-modules",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage1 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2736",
+    "Installed-Size": "2677",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4217,7 +4217,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.8.1-1",
+    "Version": "1:4.8.1-1.1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.8.1-1"
+    "source:Version": "1:4.8.1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -4343,21 +4343,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "python3.9 (>= 3.9.2-0~), libpython3-stdlib (= 3.9.2-3)",
+    "Depends": "python3.9 (>= 3.9.7-0~), libpython3-stdlib (= 3.9.7-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "89",
+    "Installed-Size": "90",
     "Origin": "",
     "Package": "python3",
-    "Pre-Depends": "python3-minimal (= 3.9.2-3)",
+    "Pre-Depends": "python3-minimal (= 3.9.7-1)",
     "Priority": "optional",
     "Provides": "python3-profiler",
     "Recommends": "",
     "Replace": "",
     "Section": "python",
     "Status": "install ok installed",
-    "Suggests": "python3-doc (>= 3.9.2-3), python3-tk (>= 3.9.2-0~), python3-venv (>= 3.9.2-3)",
-    "Version": "3.9.2-3",
+    "Suggests": "python3-doc (>= 3.9.7-1), python3-tk (>= 3.9.7-0~), python3-venv (>= 3.9.7-1)",
+    "Version": "3.9.7-1",
     "binary:Package": "python3",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-3"
+    "source:Version": "3.9.7-1"
   },
   {
     "Architecture": "amd64",
@@ -4374,10 +4374,10 @@
     "Depends": "dpkg (>= 1.13.20)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "121",
+    "Installed-Size": "122",
     "Origin": "",
     "Package": "python3-minimal",
-    "Pre-Depends": "python3.9-minimal (>= 3.9.2-0~)",
+    "Pre-Depends": "python3.9-minimal (>= 3.9.7-0~)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -4385,7 +4385,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.2-3",
+    "Version": "3.9.7-1",
     "binary:Package": "python3-minimal",
     "binary:Summary": "minimal subset of the Python language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.9.2-3"
+    "source:Version": "3.9.7-1"
   },
   {
     "Architecture": "amd64",

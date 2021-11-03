@@ -69,10 +69,10 @@ ii   bsdextrautils           2.37.2-4                           amd64  extra uti
 ii   bsdutils                1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                   1.0.8-4                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates         20211016                           all    Common CA certificates
-ii   coreutils               8.32-4+b1                          amd64  GNU core utilities
+ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   cron                    3.0pl1-137                         amd64  process scheduling daemon
 ii   curl                    7.74.0-1.3+b1                      amd64  command line tool for transferring data with URL syntax
-ii   dash                    0.5.11+git20210903+057cd650a4ed-2  amd64  POSIX-compliant shell
+ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.5-1                              amd64  Miscellaneous utilities specific to Debian
@@ -162,7 +162,7 @@ ii   libpipeline1            1.5.3-1                            amd64  Unix proc
 ii   libpopt0                1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib       3.9.2-3                            amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib       3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal    3.9.7-4                            amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib     3.9.7-4                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-2                              amd64  GNU readline and history libraries, run-time libraries
@@ -181,13 +181,13 @@ ii   libss2                  1.46.4-1                           amd64  command-l
 ii   libssh2-1               1.10.0-2                           amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1l-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-10                          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             249.5-1                            amd64  systemd utility library
+ii   libsystemd0             249.5-2                            amd64  systemd utility library
 ii   libtasn1-6              4.17.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20210905-1                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                249.5-1                            amd64  libudev shared library
+ii   libudev1                249.5-2                            amd64  libudev shared library
 ii   libunistring2           0.9.10-6                           amd64  Unicode string library for C
 ii   libuuid1                2.37.2-4                           amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
@@ -195,7 +195,7 @@ ii   libxxhash0              0.8.0-2                            amd64  shared li
 ii   libzstd1                1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.32-4                             all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.8.1-1                          amd64  system login tools
+ii   login                   1:4.8.1-1.1                        amd64  system login tools
 ii   logsave                 1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                      4.51-8                             amd64  Powerful Multilingual File Viewer
@@ -210,13 +210,13 @@ ii   openssh-client          1:8.4p1-6                          amd64  secure sh
 ii   openssh-server          1:8.4p1-6                          amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-6                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1l-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.8.1-1                          amd64  change and administer password and group data
+ii   passwd                  1:4.8.1-1.1                        amd64  change and administer password and group data
 ii   perl                    5.32.1-6                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-6                           amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-6                           all    Core Perl modules
 ii   procps                  2:3.3.17-5                         amd64  /proc file system utilities
-ii   python3                 3.9.2-3                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal         3.9.2-3                            amd64  minimal subset of the Python language (default python3 version)
+ii   python3                 3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal         3.9.7-1                            amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9               3.9.7-4                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.7-4                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                              all    GNU readline and history libraries, common files
