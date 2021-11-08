@@ -158,13 +158,13 @@ ii   libpam0g                1.4.0-10                           amd64  Pluggable
 ii   libpcre2-8-0            10.36-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32             5.32.1-6                           amd64  shared Perl library
-ii   libpipeline1            1.5.3-1                            amd64  Unix process pipeline manipulation library
+ii   libpipeline1            1.5.4-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                 0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib       3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal    3.9.7-4                            amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib     3.9.7-4                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal    3.9.8-1                            amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib     3.9.8-1                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-2                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.2                    amd64  Cyrus SASL - authentication abstraction library
@@ -217,8 +217,8 @@ ii   perl-modules-5.32       5.32.1-6                           all    Core Perl
 ii   procps                  2:3.3.17-5                         amd64  /proc file system utilities
 ii   python3                 3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.7-1                            amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9               3.9.7-4                            amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal       3.9.7-4                            amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9               3.9.8-1                            amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal       3.9.8-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                              all    GNU readline and history libraries, common files
 ii   rsyslog                 8.2110.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                             all    dh-runit implementation detail
