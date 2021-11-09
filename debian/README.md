@@ -80,11 +80,11 @@ ii   libpam-modules          1.4.0-10                           amd64  Pluggable
 ii   libpam-modules-bin      1.4.0-10                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-10                           all    Runtime support for the PAM library
 ii   libpam0g                1.4.0-10                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.36-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.39-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.2-2                            amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.1-3+b1                           amd64  SELinux runtime shared libraries
-ii   libsemanage-common      3.1-2                              all    Common files for SELinux policy management libraries
+ii   libselinux1             3.3-1                              amd64  SELinux runtime shared libraries
+ii   libsemanage-common      3.3-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-2                              amd64  SELinux policy management library
 ii   libsepol1               3.1-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.37.2-4                           amd64  smart column output alignment library
