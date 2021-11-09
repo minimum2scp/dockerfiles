@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                            amd64  high-qual
 ii   ca-certificates         20211016                           all    Common CA certificates
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   cron                    3.0pl1-137                         amd64  process scheduling daemon
-ii   curl                    7.74.0-1.3+b1                      amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.79.1-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -111,8 +111,8 @@ ii   libcap2                 1:2.44-1                           amd64  POSIX 100
 ii   libcbor0.8              0.8.0-1                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.4-1                           amd64  common error description library
 ii   libcrypt1               1:4.4.25-2                         amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.74.0-1.3+b1                      amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.74.0-1.3+b1                      amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.79.1-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.79.1-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -155,7 +155,7 @@ ii   libpam-modules          1.4.0-10                           amd64  Pluggable
 ii   libpam-modules-bin      1.4.0-10                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-10                           all    Runtime support for the PAM library
 ii   libpam0g                1.4.0-10                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.36-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.39-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32             5.32.1-6                           amd64  shared Perl library
 ii   libpipeline1            1.5.4-1                            amd64  Unix process pipeline manipulation library
@@ -167,11 +167,11 @@ ii   libpython3.9-minimal    3.9.8-1                            amd64  Minimal s
 ii   libpython3.9-stdlib     3.9.8-1                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-2                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27+dfsg-2.2                    amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27+dfsg-2.2                    amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27+dfsg-2.3                    amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27+dfsg-2.3                    amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.5.2-2                            amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.1-3+b1                           amd64  SELinux runtime shared libraries
-ii   libsemanage-common      3.1-2                              all    Common files for SELinux policy management libraries
+ii   libselinux1             3.3-1                              amd64  SELinux runtime shared libraries
+ii   libsemanage-common      3.3-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-2                              amd64  SELinux policy management library
 ii   libsepol1               3.1-1                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                            amd64  S-Lang programming library - runtime version
@@ -220,7 +220,7 @@ ii   python3-minimal         3.9.7-1                            amd64  minimal s
 ii   python3.9               3.9.8-1                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal       3.9.8-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common         8.1-2                              all    GNU readline and history libraries, common files
-ii   rsyslog                 8.2110.0-1                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.2110.0-2                         amd64  reliable system and kernel logging daemon
 ii   runit-helper            2.10.3                             all    dh-runit implementation detail
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.17                             all    Utilities for sensible alternative selection
