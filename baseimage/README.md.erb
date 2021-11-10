@@ -4,7 +4,7 @@
  * Runs [/opt/init-wrapper/sbin/init](https://github.com/minimum2scp/dockerfiles/blob/master/baseimage/build/opt/init-wrapper/sbin/init) by default
    * /opt/init-wrapper/sbin/init invokes all scripts in /opt/init-wrapper/pre-init.d (using run-parts), and exec /sbin/init
    * /sbin/init is replaced by sysvinit-core package
-   * /sbin/init invokes sshd, rsyslogd, cron daemons
+   * /sbin/init invokes sshd, ~rsyslogd~, cron daemons
    * /etc/rc.local invokes all scripts in /opt/init-wrapper/post-init.d (using run-parts)
  * ja_JP.UTF-8 locale supported. (default locale is C)
  * timezone is Asia/Tokyo
@@ -40,15 +40,14 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 2222 debian@l
 ## processes
 
 ```
-UID        PID  PPID  C STIME TTY      STAT   TIME CMD
-root         1     0  0 01:52 ?        Ss     0:00 init [2]
-root        37     1  0 01:52 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root        62     1  0 01:52 ?        Ss     0:00 /usr/sbin/cron
-root        73     1  0 01:52 ?        Ss     0:00 /usr/sbin/sshd
-root        80    73  0 01:52 ?        Ss     0:00  \_ sshd: debian [priv]
-debian      82    80  0 01:52 ?        S      0:00      \_ sshd: debian@pts/0
-debian      83    82  0 01:52 pts/0    Ss     0:00          \_ -bash
-debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
+UID          PID    PPID  C STIME TTY      STAT   TIME CMD
+root           1       0  0 02:17 ?        Ss     0:00 init [2]
+root         527       1  0 02:17 ?        Ss     0:00 /usr/sbin/cron
+root         536       1  0 02:17 ?        Ss     0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+root        1193     536  1 02:33 ?        Ss     0:00  \_ sshd: debian [priv]
+debian      1199    1193  0 02:33 ?        S      0:00      \_ sshd: debian@pts/0
+debian      1200    1199  0 02:33 pts/0    Ss     0:00          \_ -bash
+debian      1203    1200  0 02:33 pts/0    R+     0:00              \_ ps -ef fww
 ```
 
 ## ports

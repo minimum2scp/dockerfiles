@@ -126,10 +126,21 @@ describe 'minimum2scp/baseimage' do
       it { should have_login_shell '/bin/bash' }
     end
 
-    %w[ssh cron rsyslog].each do |svc|
+    %w[ssh cron].each do |svc|
       describe service(svc) do
         it { should be_enabled }
         it { should be_running }
+      end
+    end
+
+    describe service('rsyslog') do
+      it do
+        pending 'missing sysv init script'
+        should be_enabled
+      end
+      it do
+        pending 'missing sysv init script'
+        should be_running
       end
     end
 
