@@ -110,7 +110,7 @@ ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alter
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-1                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.4-1                           amd64  common error description library
-ii   libcrypt1                1:4.4.25-2                         amd64  libcrypt shared library
+ii   libcrypt1                1:4.4.26-1                         amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.79.1-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.79.1-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -172,8 +172,8 @@ ii   libsasl2-modules-db      2.1.27+dfsg-2.3                    amd64  Cyrus SA
 ii   libseccomp2              2.5.2-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1                              amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage1             3.1-2                              amd64  SELinux policy management library
-ii   libsepol1                3.1-1                              amd64  SELinux library for manipulating binary security policies
+ii   libsemanage2             3.3-1                              amd64  SELinux policy management library
+ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.37.2-4                           amd64  smart column output alignment library
 ii   libsqlite3-0             3.36.0-2                           amd64  SQLite 3 shared library
@@ -195,7 +195,7 @@ ii   libxxhash0               0.8.0-2                            amd64  shared l
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.32-4                             all    GNU C Library: National Language (locale) data [support]
-ii   login                    1:4.8.1-1.1                        amd64  system login tools
+ii   login                    1:4.8.1-2                          amd64  system login tools
 ii   logsave                  1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
@@ -210,8 +210,8 @@ ii   openssh-client           1:8.7p1-1                          amd64  secure s
 ii   openssh-server           1:8.7p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:8.7p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1l-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts  0.09                               all    Orphaned System-V-like init scripts
-ii   passwd                   1:4.8.1-1.1                        amd64  change and administer password and group data
+ii   orphan-sysvinit-scripts  0.10                               all    Orphaned System-V-like init scripts
+ii   passwd                   1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl                     5.32.1-6                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.32.1-6                           amd64  minimal Perl system
 ii   perl-modules-5.32        5.32.1-6                           all    Core Perl modules
