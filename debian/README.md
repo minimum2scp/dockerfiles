@@ -53,7 +53,7 @@ ii   libc6                   2.32-4                             amd64  GNU C Lib
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.4-1                           amd64  common error description library
-ii   libcrypt1               1:4.4.25-2                         amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.26-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
@@ -85,8 +85,8 @@ ii   libpcre3                2:8.39-13                          amd64  Old Perl 
 ii   libseccomp2             2.5.2-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.3-1                              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.3-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage1            3.1-2                              amd64  SELinux policy management library
-ii   libsepol1               3.1-1                              amd64  SELinux library for manipulating binary security policies
+ii   libsemanage2            3.3-1                              amd64  SELinux policy management library
+ii   libsepol2               3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.37.2-4                           amd64  smart column output alignment library
 ii   libss2                  1.46.4-1                           amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1l-1                           amd64  Secure Sockets Layer toolkit - shared libraries
@@ -101,14 +101,14 @@ ii   libunistring2           0.9.10-6                           amd64  Unicode s
 ii   libuuid1                2.37.2-4                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.0-2                            amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
-ii   login                   1:4.8.1-1.1                        amd64  system login tools
+ii   login                   1:4.8.1-2                          amd64  system login tools
 ii   logsave                 1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
 ii   mount                   2.37.2-4                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20210905-1                     all    basic terminal type definitions
 ii   ncurses-bin             6.2+20210905-1                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.8.1-1.1                        amd64  change and administer password and group data
+ii   passwd                  1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl-base               5.32.1-6                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.00-1                             amd64  System-V-like utilities
