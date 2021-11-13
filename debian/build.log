@@ -29,8 +29,8 @@ I: Retrieving bash 5.1-3.1
 I: Validating bash 5.1-3.1
 I: Retrieving libbz2-1.0 1.0.8-4
 I: Validating libbz2-1.0 1.0.8-4
-I: Retrieving libdebconfclient0 0.260
-I: Validating libdebconfclient0 0.260
+I: Retrieving libdebconfclient0 0.261
+I: Validating libdebconfclient0 0.261
 I: Retrieving coreutils 8.32-4.1
 I: Validating coreutils 8.32-4.1
 I: Retrieving dash 0.5.11+git20210903+057cd650a4ed-3
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  33.99MB
+Sending build context to Docker daemon  33.98MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> fe409c785f1e
+ ---> 4f3f9d488c1c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3c448c35e5ab
-Removing intermediate container 3c448c35e5ab
- ---> 22fc9756a6ae
-Successfully built 22fc9756a6ae
+ ---> Running in 94bac4734aef
+Removing intermediate container 94bac4734aef
+ ---> 5ff8324c7ffb
+Successfully built 5ff8324c7ffb
 Successfully tagged minimum2scp/debian:latest
