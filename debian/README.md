@@ -60,7 +60,7 @@ ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3
 ii   libffi8                 3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               11.2.0-10                          amd64  GCC support library
 ii   libgcrypt20             1.9.4-3+b1                         amd64  LGPL Crypto library - runtime library
-ii   libgmp10                2:6.2.1+dfsg-2                     amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -93,7 +93,7 @@ ii   libssl1.1               1.1.1l-1                           amd64  Secure So
 ii   libstdc++6              11.2.0-10                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             249.6-2                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.2+20210905-1                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.3-1                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
 ii   libudev1                249.6-2                            amd64  libudev shared library
@@ -106,8 +106,8 @@ ii   logsave                 1.46.4-1                           amd64  save the 
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
 ii   mount                   2.37.2-4                           amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.2+20210905-1                     all    basic terminal type definitions
-ii   ncurses-bin             6.2+20210905-1                     amd64  terminal-related programs and man pages
+ii   ncurses-base            6.3-1                              all    basic terminal type definitions
+ii   ncurses-bin             6.3-1                              amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl-base               5.32.1-6                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
