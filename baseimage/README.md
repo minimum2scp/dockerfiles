@@ -127,7 +127,7 @@ ii   libgcc-s1                11.2.0-10                          amd64  GCC supp
 ii   libgcrypt20              1.9.4-3+b1                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                 2:6.2.1+dfsg-2                     amd64  Multiprecision arithmetic library
+ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.2-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.42-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -144,8 +144,8 @@ ii   liblzma5                 5.2.5-2                            amd64  XZ-forma
 ii   libmd0                   1.0.4-1                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.37.2-4                           amd64  device mounting library
 ii   libmpdec3                2.5.1-2                            amd64  library for decimal floating point arithmetic (runtime library)
-ii   libncurses6              6.2+20210905-1                     amd64  shared libraries for terminal handling
-ii   libncursesw6             6.2+20210905-1                     amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6              6.3-1                              amd64  shared libraries for terminal handling
+ii   libncursesw6             6.3-1                              amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.21-5                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.43.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
@@ -163,8 +163,8 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib        3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal     3.9.8-2                            amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib      3.9.8-2                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal     3.9.9-1                            amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib      3.9.9-1                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8             8.1-2                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.27+dfsg-2.3                    amd64  Cyrus SASL - authentication abstraction library
@@ -183,7 +183,7 @@ ii   libssl1.1                1.1.1l-1                           amd64  Secure S
 ii   libstdc++6               11.2.0-10                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0              249.6-2                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                6.2+20210905-1                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                6.3-1                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
@@ -203,8 +203,8 @@ ii   man-db                   2.9.4-2                            amd64  tools fo
 ii   mawk                     1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
 ii   media-types              4.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.2-4                           amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.2+20210905-1                     all    basic terminal type definitions
-ii   ncurses-bin              6.2+20210905-1                     amd64  terminal-related programs and man pages
+ii   ncurses-base             6.3-1                              all    basic terminal type definitions
+ii   ncurses-bin              6.3-1                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
 ii   openssh-client           1:8.7p1-2                          amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:8.7p1-2                          amd64  secure shell (SSH) server, for secure access from remote machines
@@ -218,8 +218,8 @@ ii   perl-modules-5.32        5.32.1-6                           all    Core Per
 ii   procps                   2:3.3.17-5                         amd64  /proc file system utilities
 ii   python3                  3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal          3.9.7-1                            amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9                3.9.8-2                            amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal        3.9.8-2                            amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9                3.9.9-1                            amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal        3.9.9-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
 ii   rsyslog                  8.2110.0-3                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
