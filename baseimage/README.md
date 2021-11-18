@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.118                              all    add and remove users and groups
-ii   apt                      2.3.11                             amd64  commandline package manager
+ii   apt                      2.3.12                             amd64  commandline package manager
 ii   base-files               12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-3.1                            amd64  GNU Bourne Again SHell
@@ -81,9 +81,9 @@ ii   dpkg                     1.20.9                             amd64  Debian p
 ii   e2fsprogs                1.46.4-1                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
-ii   gcc-10-base              10.3.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-10-base              10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base              11.2.0-10                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base               9.4.0-3                            amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base               9.4.0-4                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.33.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.33.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.27-2                           amd64  GNU privacy guard - signature verification tool
@@ -95,7 +95,7 @@ ii   init-system-helpers      1.60                               all    helper t
 ii   initscripts              3.00-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.3.11                             amd64  package management runtime library
+ii   libapt-pkg6.0            2.3.12                             amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.6-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.6-1                          amd64  Dynamic library for security auditing
@@ -147,7 +147,7 @@ ii   libmpdec3                2.5.1-2                            amd64  library 
 ii   libncurses6              6.3-1                              amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3-1                              amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52              0.52.21-5                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.43.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.0-5                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -155,20 +155,20 @@ ii   libpam-modules           1.4.0-10                           amd64  Pluggabl
 ii   libpam-modules-bin       1.4.0-10                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.4.0-10                           all    Runtime support for the PAM library
 ii   libpam0g                 1.4.0-10                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.39-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32              5.32.1-6                           amd64  shared Perl library
 ii   libpipeline1             1.5.4-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib        3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib        3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal     3.9.9-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib      3.9.9-1                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8             8.1-2                              amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.27+dfsg-2.3                    amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.27+dfsg-2.3                    amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.27+dfsg2-1                     amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.27+dfsg2-1                     amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.2-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1                              amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
@@ -216,8 +216,8 @@ ii   perl                     5.32.1-6                           amd64  Larry Wa
 ii   perl-base                5.32.1-6                           amd64  minimal Perl system
 ii   perl-modules-5.32        5.32.1-6                           all    Core Perl modules
 ii   procps                   2:3.3.17-5                         amd64  /proc file system utilities
-ii   python3                  3.9.7-1                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal          3.9.7-1                            amd64  minimal subset of the Python language (default python3 version)
+ii   python3                  3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9                3.9.9-1                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.9-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
@@ -237,7 +237,7 @@ ii   unzip                    6.0-26                             amd64  De-archi
 ii   util-linux               2.37.2-4                           amd64  miscellaneous system utilities
 ii   vim-common               2:8.2.3565-1                       all    Vi IMproved - Common files
 ii   vim-tiny                 2:8.2.3565-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                 0.52.21-5                          amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.3565-1+b1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-2                    amd64  compression library - runtime
 ii   zsh                      5.8-10                             amd64  shell with lots of features
