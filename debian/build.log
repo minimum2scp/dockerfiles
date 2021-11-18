@@ -11,10 +11,10 @@ I: Retrieving libacl1 2.3.1-1
 I: Validating libacl1 2.3.1-1
 I: Retrieving adduser 3.118
 I: Validating adduser 3.118
-I: Retrieving apt 2.3.11
-I: Validating apt 2.3.11
-I: Retrieving libapt-pkg6.0 2.3.11
-I: Validating libapt-pkg6.0 2.3.11
+I: Retrieving apt 2.3.12
+I: Validating apt 2.3.12
+I: Retrieving libapt-pkg6.0 2.3.12
+I: Validating libapt-pkg6.0 2.3.12
 I: Retrieving libattr1 1:2.5.1-1
 I: Validating libattr1 1:2.5.1-1
 I: Retrieving libaudit-common 1:3.0.6-1
@@ -59,16 +59,16 @@ I: Retrieving logsave 1.46.4-1
 I: Validating logsave 1.46.4-1
 I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
-I: Retrieving gcc-10-base 10.3.0-12
-I: Validating gcc-10-base 10.3.0-12
+I: Retrieving gcc-10-base 10.3.0-13
+I: Validating gcc-10-base 10.3.0-13
 I: Retrieving gcc-11-base 11.2.0-10
 I: Validating gcc-11-base 11.2.0-10
 I: Retrieving libgcc-s1 11.2.0-10
 I: Validating libgcc-s1 11.2.0-10
 I: Retrieving libstdc++6 11.2.0-10
 I: Validating libstdc++6 11.2.0-10
-I: Retrieving gcc-9-base 9.4.0-3
-I: Validating gcc-9-base 9.4.0-3
+I: Retrieving gcc-9-base 9.4.0-4
+I: Validating gcc-9-base 9.4.0-4
 I: Retrieving libc-bin 2.32-4
 I: Validating libc-bin 2.32-4
 I: Retrieving libc6 2.32-4
@@ -161,8 +161,8 @@ I: Retrieving libpam-runtime 1.4.0-10
 I: Validating libpam-runtime 1.4.0-10
 I: Retrieving libpam0g 1.4.0-10
 I: Validating libpam0g 1.4.0-10
-I: Retrieving libpcre2-8-0 10.39-2
-I: Validating libpcre2-8-0 10.39-2
+I: Retrieving libpcre2-8-0 10.39-3
+I: Validating libpcre2-8-0 10.39-3
 I: Retrieving libpcre3 2:8.39-13
 I: Validating libpcre3 2:8.39-13
 I: Retrieving perl-base 5.32.1-6
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.05MB
+Sending build context to Docker daemon  34.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6f0cb3554e73
+ ---> 56247b73dc15
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ff8677ad6a6c
-Removing intermediate container ff8677ad6a6c
- ---> 51003d073ba7
-Successfully built 51003d073ba7
+ ---> Running in 6d88a0e3e004
+Removing intermediate container 6d88a0e3e004
+ ---> 107dd384da26
+Successfully built 107dd384da26
 Successfully tagged minimum2scp/debian:latest
