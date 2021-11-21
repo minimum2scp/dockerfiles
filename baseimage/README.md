@@ -84,8 +84,8 @@ ii   findutils                4.8.0-1                            amd64  utilitie
 ii   gcc-10-base              10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base              11.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-4                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.33.1-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.33.1-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.34.0-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.34.0-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.27-2                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
@@ -172,7 +172,7 @@ ii   libsasl2-modules-db      2.1.27+dfsg2-2                     amd64  Cyrus SA
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage2             3.3-1                              amd64  SELinux policy management library
+ii   libsemanage2             3.3-1+b1                           amd64  SELinux policy management library
 ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.37.2-4                           amd64  smart column output alignment library
@@ -181,13 +181,13 @@ ii   libss2                   1.46.4-1                           amd64  command-
 ii   libssh2-1                1.10.0-2                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1l-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               11.2.0-12                          amd64  GNU Standard C++ Library v3
-ii   libsystemd0              249.6-3                            amd64  systemd utility library
+ii   libsystemd0              249.7-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3-1                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 249.6-3                            amd64  libudev shared library
+ii   libudev1                 249.7-1                            amd64  libudev shared library
 ii   libunistring2            0.9.10-6                           amd64  Unicode string library for C
 ii   libuuid1                 2.37.2-4                           amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
