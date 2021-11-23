@@ -221,7 +221,7 @@ ii   python3-minimal          3.9.8-1                            amd64  minimal 
 ii   python3.9                3.9.9-1                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.9-1                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
-ii   rsyslog                  8.2110.0-3                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2110.0-4                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
