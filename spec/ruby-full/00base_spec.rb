@@ -23,41 +23,41 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '3.0.2',
-        desc: 'ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux]',
-        rubygems_version: '3.2.31',
+        ruby: '3.1.0-preview1',
+        desc: 'ruby 3.1.0preview1 (2021-11-09 master 5a3b2e6141) [x86_64-linux]',
+        rubygems_version: '3.3.0.dev',
         gems: [
-          {name: 'bundler', version: 'default: 2.2.31, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.3.0.dev, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.7.4',
-        desc: 'ruby 2.7.4p191 (2021-07-07 revision a21a3b7d23) [x86_64-linux]',
-        rubygems_version: '3.2.31',
+        ruby: '3.0.3',
+        desc: 'ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]',
+        rubygems_version: '3.2.32',
         gems: [
-          {name: 'bundler', version: 'default: 2.2.31, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.2.32, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.6.8',
-        desc: 'ruby 2.6.8p205 (2021-07-07 revision 67951) [x86_64-linux]',
-        rubygems_version: '3.2.31',
+        ruby: '2.7.5',
+        desc: 'ruby 2.7.5p203 (2021-11-24 revision f69aeb8314) [x86_64-linux]',
+        rubygems_version: '3.2.32',
         gems: [
-          {name: 'bundler', version: 'default: 2.2.31, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.2.32, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
       },
       {
-        ruby: '2.5.9',
-        desc: 'ruby 2.5.9p229 (2021-04-05 revision 67939) [x86_64-linux]',
-        rubygems_version: '3.2.31',
+        ruby: '2.6.9',
+        desc: 'ruby 2.6.9p207 (2021-11-24 revision 67954) [x86_64-linux]',
+        rubygems_version: '3.2.32',
         gems: [
-          {name: 'bundler', version: 'default: 2.2.31, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.2.32, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
