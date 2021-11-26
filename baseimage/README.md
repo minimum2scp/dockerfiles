@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.118                              all    add and remove users and groups
-ii   apt                      2.3.12                             amd64  commandline package manager
+ii   apt                      2.3.13                             amd64  commandline package manager
 ii   base-files               12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-3.1                            amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   init-system-helpers      1.60                               all    helper t
 ii   initscripts              3.00-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.3.12                             amd64  package management runtime library
+ii   libapt-pkg6.0            2.3.13                             amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.6-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
@@ -108,7 +108,7 @@ ii   libc-l10n                2.32-4                             all    GNU C Li
 ii   libc6                    2.32-4                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
-ii   libcbor0.8               0.8.0-1                            amd64  library for parsing and generating CBOR (RFC 7049)
+ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.4-1                           amd64  common error description library
 ii   libcrypt1                1:4.4.26-1                         amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.79.1-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)

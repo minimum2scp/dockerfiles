@@ -11,10 +11,10 @@ I: Retrieving libacl1 2.3.1-1
 I: Validating libacl1 2.3.1-1
 I: Retrieving adduser 3.118
 I: Validating adduser 3.118
-I: Retrieving apt 2.3.12
-I: Validating apt 2.3.12
-I: Retrieving libapt-pkg6.0 2.3.12
-I: Validating libapt-pkg6.0 2.3.12
+I: Retrieving apt 2.3.13
+I: Validating apt 2.3.13
+I: Retrieving libapt-pkg6.0 2.3.13
+I: Validating libapt-pkg6.0 2.3.13
 I: Retrieving libattr1 1:2.5.1-1
 I: Validating libattr1 1:2.5.1-1
 I: Retrieving libaudit-common 1:3.0.6-1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.02MB
+Sending build context to Docker daemon  34.01MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 26ae08433466
+ ---> c2028051baa2
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b747433300bc
-Removing intermediate container b747433300bc
- ---> b77e68a30f2c
-Successfully built b77e68a30f2c
+ ---> Running in 55954cdbd5fe
+Removing intermediate container 55954cdbd5fe
+ ---> bc80a0fe5b9e
+Successfully built bc80a0fe5b9e
 Successfully tagged minimum2scp/debian:latest
