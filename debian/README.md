@@ -22,7 +22,7 @@ ii   adduser                 3.118                              all    add and r
 ii   apt                     2.3.13                             amd64  commandline package manager
 ii   base-files              12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-3.1                            amd64  GNU Bourne Again SHell
+ii   bash                    5.1-5                              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
