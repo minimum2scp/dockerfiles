@@ -4542,7 +4542,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2770",
+    "Installed-Size": "2774",
     "Origin": "",
     "Package": "tar",
     "Pre-Depends": "libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libselinux1 (>= 1.32)",
@@ -4553,7 +4553,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils, tar-scripts",
-    "Version": "1.29b-1.1",
+    "Version": "1.29b-1.1+deb9u1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.29b-1.1"
+    "source:Version": "1.29b-1.1+deb9u1"
   },
   {
     "Architecture": "all",
