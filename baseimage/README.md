@@ -84,8 +84,8 @@ ii   findutils                4.8.0-1                            amd64  utilitie
 ii   gcc-10-base              10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base              11.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-4                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.34.0-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.34.0-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.34.1-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.34.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.27-2                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
