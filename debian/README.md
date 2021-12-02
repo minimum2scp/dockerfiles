@@ -22,7 +22,7 @@ ii   adduser                 3.118                              all    add and r
 ii   apt                     2.3.13                             amd64  commandline package manager
 ii   base-files              12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-3.1                            amd64  GNU Bourne Again SHell
+ii   bash                    5.1-5                              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
@@ -59,7 +59,7 @@ ii   libdebconfclient0       0.261                              amd64  Debian Co
 ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               11.2.0-12                          amd64  GCC support library
-ii   libgcrypt20             1.9.4-3+b1                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20             1.9.4-4                            amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.42-3                             amd64  GnuPG development runtime library

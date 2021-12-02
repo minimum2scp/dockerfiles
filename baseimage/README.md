@@ -64,7 +64,7 @@ ii   adduser                  3.118                              all    add and 
 ii   apt                      2.3.13                             amd64  commandline package manager
 ii   base-files               12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
-ii   bash                     5.1-3.1                            amd64  GNU Bourne Again SHell
+ii   bash                     5.1-5                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.37.2-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-4                            amd64  high-quality block-sorting file compressor - utilities
@@ -84,8 +84,8 @@ ii   findutils                4.8.0-1                            amd64  utilitie
 ii   gcc-10-base              10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base              11.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-4                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.34.0-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.34.0-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.34.1-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.34.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.27-2                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
@@ -124,7 +124,7 @@ ii   libfastjson4             0.99.9-1                           amd64  fast jso
 ii   libffi8                  3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.9.0-1                            amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                11.2.0-12                          amd64  GCC support library
-ii   libgcrypt20              1.9.4-3+b1                         amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20              1.9.4-4                            amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
