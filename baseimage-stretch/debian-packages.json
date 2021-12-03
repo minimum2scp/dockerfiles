@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.1.2+dfsg-1",
+    "Version": "2:6.1.2+dfsg-1+deb9u1",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.1.2+dfsg-1"
+    "source:Version": "2:6.1.2+dfsg-1+deb9u1"
   },
   {
     "Architecture": "amd64",
