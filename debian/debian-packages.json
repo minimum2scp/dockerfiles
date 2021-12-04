@@ -818,7 +818,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "104",
+    "Installed-Size": "105",
     "Origin": "",
     "Package": "libbz2-1.0",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.8-4",
+    "Version": "1.0.8-5",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-4"
+    "source:Version": "1.0.8-5"
   },
   {
     "Architecture": "amd64",
