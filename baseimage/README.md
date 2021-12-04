@@ -67,7 +67,7 @@ ii   base-passwd              3.5.52                             amd64  Debian b
 ii   bash                     5.1-5                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.37.2-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                    1.0.8-4                            amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
@@ -102,7 +102,7 @@ ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic 
 ii   libblkid1                2.37.2-4                           amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.3-1                           amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0               1.0.8-4                            amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.32-4                             amd64  GNU C Library: Binaries
 ii   libc-l10n                2.32-4                             all    GNU C Library: localization files
 ii   libc6                    2.32-4                             amd64  GNU C Library: Shared libraries
