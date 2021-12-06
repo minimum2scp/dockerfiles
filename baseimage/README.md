@@ -77,7 +77,7 @@ ii   debconf                  1.5.79                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.5-1                              amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                     1.20.9                             amd64  Debian package management system
+ii   dpkg                     1.21.0                             amd64  Debian package management system
 ii   e2fsprogs                1.46.4-1                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
@@ -103,9 +103,9 @@ ii   libblkid1                2.37.2-4                           amd64  block de
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.3-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.32-4                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.32-4                             all    GNU C Library: localization files
-ii   libc6                    2.32-4                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.32-5                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.32-5                             all    GNU C Library: localization files
+ii   libc6                    2.32-5                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -194,7 +194,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.0-2                            amd64  shared library for xxhash
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.32-4                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.32-5                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.8.1-2                          amd64  system login tools
 ii   logsave                  1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
@@ -210,7 +210,7 @@ ii   openssh-client           1:8.7p1-2                          amd64  secure s
 ii   openssh-server           1:8.7p1-2                          amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:8.7p1-2                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1l-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts  0.10                               all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl                     5.32.1-6                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.32.1-6                           amd64  minimal Perl system
