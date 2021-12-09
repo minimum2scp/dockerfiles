@@ -91,7 +91,7 @@ ii   grep                     3.7-1                              amd64  GNU grep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.10-4                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.60                               all    helper tools for all init systems
+ii   init-system-helpers      1.61                               all    helper tools for all init systems
 ii   initscripts              3.00-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
