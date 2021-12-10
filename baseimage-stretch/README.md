@@ -124,7 +124,7 @@ ii   libffi6                 3.2.1-6                            amd64  Foreign F
 ii   libgcc1                 1:6.3.0-18+deb9u1                  amd64  GCC support library
 ii   libgcrypt20             1.7.6-2+deb9u4                     amd64  LGPL Crypto library - runtime library
 ii   libgdbm3                1.8.3-14                           amd64  GNU dbm database routines (runtime version)
-ii   libgmp10                2:6.1.2+dfsg-1                     amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-1+deb9u1              amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.5.8-5+deb9u6                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.26-2                             amd64  library for common error values and messages in GnuPG components
 ii   libgssapi-krb5-2        1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -214,7 +214,7 @@ ii   python-minimal          2.7.13-2                           amd64  minimal s
 ii   python2.7               2.7.13-2+deb9u5                    amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.13-2+deb9u5                    amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                              all    GNU readline and history libraries, common files
-ii   rsyslog                 8.24.0-1                           amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.24.0-1+deb9u1                    amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                           amd64  run processes in parallel and multiplex their output

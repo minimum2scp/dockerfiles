@@ -67,7 +67,7 @@ ii   base-passwd              3.5.52                             amd64  Debian b
 ii   bash                     5.1-5                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.37.2-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                    1.0.8-4                            amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
@@ -77,7 +77,7 @@ ii   debconf                  1.5.79                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.5-1                              amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                     1.20.9                             amd64  Debian package management system
+ii   dpkg                     1.21.1                             amd64  Debian package management system
 ii   e2fsprogs                1.46.4-1                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
@@ -91,7 +91,7 @@ ii   grep                     3.7-1                              amd64  GNU grep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.10-4                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.60                               all    helper tools for all init systems
+ii   init-system-helpers      1.61                               all    helper tools for all init systems
 ii   initscripts              3.00-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
@@ -102,10 +102,10 @@ ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic 
 ii   libblkid1                2.37.2-4                           amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.3-1                           amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0               1.0.8-4                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.32-4                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.32-4                             all    GNU C Library: localization files
-ii   libc6                    2.32-4                             amd64  GNU C Library: Shared libraries
+ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
+ii   libc-bin                 2.32-5                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.32-5                             all    GNU C Library: localization files
+ii   libc6                    2.32-5                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -150,11 +150,11 @@ ii   libnettle8               3.7.3-1                            amd64  low leve
 ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.43.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0              0.24.0-5                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules           1.4.0-10                           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.4.0-10                           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.4.0-10                           all    Runtime support for the PAM library
-ii   libpam0g                 1.4.0-10                           amd64  Pluggable Authentication Modules library
+ii   libp11-kit0              0.24.0-6                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libpam-modules           1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.4.0-11                           all    Runtime support for the PAM library
+ii   libpam0g                 1.4.0-11                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32              5.32.1-6                           amd64  shared Perl library
@@ -194,7 +194,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.0-2                            amd64  shared library for xxhash
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.32-4                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.32-5                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.8.1-2                          amd64  system login tools
 ii   logsave                  1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
@@ -210,7 +210,7 @@ ii   openssh-client           1:8.7p1-2                          amd64  secure s
 ii   openssh-server           1:8.7p1-2                          amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:8.7p1-2                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1l-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts  0.10                               all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl                     5.32.1-6                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.32.1-6                           amd64  minimal Perl system
