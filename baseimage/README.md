@@ -64,7 +64,7 @@ ii   adduser                  3.118                              all    add and 
 ii   apt                      2.3.13                             amd64  commandline package manager
 ii   base-files               12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
-ii   bash                     5.1-5                              amd64  GNU Bourne Again SHell
+ii   bash                     5.1-5+b1                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.37.2-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
@@ -92,7 +92,7 @@ ii   groff-base               1.22.4-7                           amd64  GNU trof
 ii   gzip                     1.10-4                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.61                               all    helper tools for all init systems
-ii   initscripts              3.00-1                             all    scripts for initializing and shutting down the system
+ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0            2.3.13                             amd64  package management runtime library
@@ -124,7 +124,7 @@ ii   libfastjson4             0.99.9-1                           amd64  fast jso
 ii   libffi8                  3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.9.0-1                            amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                11.2.0-12                          amd64  GCC support library
-ii   libgcrypt20              1.9.4-4                            amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20              1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
@@ -227,9 +227,9 @@ ii   sed                      4.8-1                              amd64  GNU stre
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.5p2-3                          amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.00-1                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.00-1                             amd64  System-V-like init
-ii   sysvinit-utils           3.00-1                             amd64  System-V-like utilities
+ii   sysv-rc                  3.01-1                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.01-1                             amd64  System-V-like init
+ii   sysvinit-utils           3.01-1                             amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                   2021e-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files
@@ -240,7 +240,7 @@ ii   vim-tiny                 2:8.2.3565-1+b1                    amd64  Vi IMpro
 ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.3565-1+b1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-2                    amd64  compression library - runtime
-ii   zsh                      5.8-10                             amd64  shell with lots of features
+ii   zsh                      5.8-10+b1                          amd64  shell with lots of features
 ii   zsh-common               5.8-10                             all    architecture independent files for Zsh
 ii   zstd                     1.4.8+dfsg-3                       amd64  fast lossless compression algorithm -- CLI tool
 ```
