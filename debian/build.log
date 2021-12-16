@@ -61,12 +61,12 @@ I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
 I: Retrieving gcc-10-base 10.3.0-13
 I: Validating gcc-10-base 10.3.0-13
-I: Retrieving gcc-11-base 11.2.0-12
-I: Validating gcc-11-base 11.2.0-12
-I: Retrieving libgcc-s1 11.2.0-12
-I: Validating libgcc-s1 11.2.0-12
-I: Retrieving libstdc++6 11.2.0-12
-I: Validating libstdc++6 11.2.0-12
+I: Retrieving gcc-11-base 11.2.0-13
+I: Validating gcc-11-base 11.2.0-13
+I: Retrieving libgcc-s1 11.2.0-13
+I: Validating libgcc-s1 11.2.0-13
+I: Retrieving libstdc++6 11.2.0-13
+I: Validating libstdc++6 11.2.0-13
 I: Retrieving gcc-9-base 9.4.0-4+b1
 I: Validating gcc-9-base 9.4.0-4+b1
 I: Retrieving libc-bin 2.33-1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.06MB
+Sending build context to Docker daemon  34.07MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ad6f88da1544
+ ---> 8ead1d8d248f
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 997dcabd57df
-Removing intermediate container 997dcabd57df
- ---> ffd482eaa098
-Successfully built ffd482eaa098
+ ---> Running in 8fe78c47e241
+Removing intermediate container 8fe78c47e241
+ ---> 4350ad765099
+Successfully built 4350ad765099
 Successfully tagged minimum2scp/debian:latest
