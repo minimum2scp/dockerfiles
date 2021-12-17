@@ -2901,7 +2901,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.9-1",
+    "Version": "3.9.9-2",
     "binary:Package": "libpython3.9-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.9)",
     "db:Status-Abbrev": "ii ",
@@ -2909,13 +2909,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.9",
-    "source:Version": "3.9.9-1"
+    "source:Version": "3.9.9-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpython3.9-minimal (= 3.9.9-1), media-types | mime-support, tzdata, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libncursesw6 (>= 6), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.9-minimal (= 3.9.9-2), media-types | mime-support, tzdata, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libncursesw6 (>= 6), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "7893",
@@ -2929,7 +2929,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.9.9-1",
+    "Version": "3.9.9-2",
     "binary:Package": "libpython3.9-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.9)",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.9",
-    "source:Version": "3.9.9-1"
+    "source:Version": "3.9.9-2"
   },
   {
     "Architecture": "amd64",
@@ -4427,7 +4427,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.9-minimal (= 3.9.9-1), libpython3.9-stdlib (= 3.9.9-1), media-types | mime-support",
+    "Depends": "python3.9-minimal (= 3.9.9-2), libpython3.9-stdlib (= 3.9.9-2), media-types | mime-support",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "558",
@@ -4441,7 +4441,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.9-venv, python3.9-doc, binutils",
-    "Version": "3.9.9-1",
+    "Version": "3.9.9-2",
     "binary:Package": "python3.9",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.9)",
     "db:Status-Abbrev": "ii ",
@@ -4449,19 +4449,19 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.9",
-    "source:Version": "3.9.9-1"
+    "source:Version": "3.9.9-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.9-minimal (= 3.9.9-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.9-minimal (= 3.9.9-2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5397",
+    "Installed-Size": "5393",
     "Origin": "",
     "Package": "python3.9-minimal",
-    "Pre-Depends": "libc6 (>= 2.32)",
+    "Pre-Depends": "libc6 (>= 2.33)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "python3.9",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.9.9-1",
+    "Version": "3.9.9-2",
     "binary:Package": "python3.9-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.9)",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.9",
-    "source:Version": "3.9.9-1"
+    "source:Version": "3.9.9-2"
   },
   {
     "Architecture": "all",
