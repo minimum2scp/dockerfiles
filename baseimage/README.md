@@ -86,7 +86,7 @@ ii   gcc-11-base              11.2.0-13                          amd64  GCC, the
 ii   gcc-9-base               9.4.0-4+b1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.34.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.34.1-1                         all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.27-2                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                     2.2.27-3                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-7                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.10-4                             amd64  GNU compression utilities
@@ -226,7 +226,7 @@ ii   runit-helper             2.10.3                             all    dh-runit
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.5p2-3                          amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.8p2-1                          amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.01-1                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.01-1                             amd64  System-V-like init
 ii   sysvinit-utils           3.01-1                             amd64  System-V-like utilities
