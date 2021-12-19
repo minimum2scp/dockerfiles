@@ -36,7 +36,7 @@ ii   findutils               4.8.0-1                            amd64  utilities
 ii   gcc-10-base             10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-4+b1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.27-2                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.27-3                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
@@ -53,7 +53,7 @@ ii   libc6                   2.33-1                             amd64  GNU C Lib
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.4-1                           amd64  common error description library
-ii   libcrypt1               1:4.4.26-1                         amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.27-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.261                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
