@@ -77,8 +77,8 @@ I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3
 I: Validating gpgv 2.2.27-3
-I: Retrieving libgnutls30 3.7.2-2
-I: Validating libgnutls30 3.7.2-2
+I: Retrieving libgnutls30 3.7.2-4
+I: Validating libgnutls30 3.7.2-4
 I: Retrieving grep 3.7-1
 I: Validating grep 3.7-1
 I: Retrieving gzip 1.10-4
@@ -105,8 +105,8 @@ I: Retrieving libffi8 3.4.2-3
 I: Validating libffi8 3.4.2-3
 I: Retrieving libgcrypt20 1.9.4-5
 I: Validating libgcrypt20 1.9.4-5
-I: Retrieving libgpg-error0 1.42-3
-I: Validating libgpg-error0 1.42-3
+I: Retrieving libgpg-error0 1.43-1
+I: Validating libgpg-error0 1.43-1
 I: Retrieving libidn2-0 2.3.2-2
 I: Validating libidn2-0 2.3.2-2
 I: Retrieving libnsl2 1.3.0-2
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.07MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e87eb11b15ab
+ ---> 6812239072fb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 23f1a2820dfa
-Removing intermediate container 23f1a2820dfa
- ---> 107f6b975f65
-Successfully built 107f6b975f65
+ ---> Running in d2ef3a66d607
+Removing intermediate container d2ef3a66d607
+ ---> 92edb6ab71d1
+Successfully built 92edb6ab71d1
 Successfully tagged minimum2scp/debian:latest
