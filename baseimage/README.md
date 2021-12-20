@@ -128,8 +128,8 @@ ii   libgcrypt20              1.9.4-5                            amd64  LGPL Cry
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.2-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0            1.42-3                             amd64  GnuPG development runtime library
+ii   libgnutls30              3.7.2-4                            amd64  GNU TLS library - main runtime library
+ii   libgpg-error0            1.43-1                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -221,7 +221,7 @@ ii   python3-minimal          3.9.8-1                            amd64  minimal 
 ii   python3.9                3.9.9-2                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
-ii   rsyslog                  8.2110.0-4                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2112.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
