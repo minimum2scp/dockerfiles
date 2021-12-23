@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                         all    add and remove users and groups
 ii   apt                     2.2.4                         amd64  commandline package manager
-ii   base-files              11.1+deb11u1                  amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u2                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b3                      amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-8                    amd64  basic utilities from 4.4BSD-Lite
@@ -58,7 +58,7 @@ ii   libext2fs2              1.46.2-2                      amd64  ext2/ext3/ext4
 ii   libffi7                 3.3-6                         amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               10.2.1-6                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                       amd64  LGPL Crypto library - runtime library
-ii   libgmp10                2:6.2.1+dfsg-1                amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.1+dfsg-1+deb11u1        amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-5                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u1              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -80,7 +80,7 @@ ii   libpam-runtime          1.4.0-9+deb11u1               all    Runtime suppor
 ii   libpam0g                1.4.0-9+deb11u1               amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2                       amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                     amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libseccomp2             2.5.1-1                       amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.1-1+deb11u1               amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                         amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                      amd64  SELinux policy management library
@@ -111,7 +111,7 @@ ii   perl-base               5.32.1-4+deb11u2              amd64  minimal Perl s
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-7                        amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1+deb11u1               all    time zone and daylight-saving time data
+ii   tzdata                  2021a-1+deb11u2               all    time zone and daylight-saving time data
 ii   util-linux              2.36.1-8                      amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2               amd64  compression library - runtime
 ```

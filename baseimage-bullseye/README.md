@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
 ii   apt                     2.2.4                           amd64  commandline package manager
-ii   base-files              11.1+deb11u1                    amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u2                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2+b3                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-8                        amd64  extra utilities from 4.4BSD-Lite
@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                         amd64  high-quality
 ii   ca-certificates         20210119                        all    Common CA certificates
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
-ii   curl                    7.74.0-1.3+b1                   amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.74.0-1.3+deb11u1              amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                        all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.74.0-1.3+b1                   amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.74.0-1.3+deb11u1              amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.74.0-1.3+deb11u1              amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
@@ -126,7 +126,7 @@ ii   libgcc-s1               10.2.1-6                        amd64  GCC support 
 ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                2:6.2.1+dfsg-1                  amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.1+dfsg-1+deb11u1          amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-5                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -168,7 +168,7 @@ ii   libreadline8            8.1-1                           amd64  GNU readline
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db     2.1.27+dfsg-2.1                 amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2             2.5.1-1                         amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.1-1+deb11u1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                        amd64  SELinux policy management library
@@ -229,14 +229,14 @@ ii   sysv-rc                 2.96-7                          all    System-V-lik
 ii   sysvinit-core           2.96-7                          amd64  System-V-like init
 ii   sysvinit-utils          2.96-7                          amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1+deb11u1                 all    time zone and daylight-saving time data
+ii   tzdata                  2021a-1+deb11u2                 all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-8                        amd64  miscellaneous system utilities
-ii   vim-common              2:8.2.2434-3                    all    Vi IMproved - Common files
-ii   vim-tiny                2:8.2.2434-3                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.2.2434-3+deb11u1            all    Vi IMproved - Common files
+ii   vim-tiny                2:8.2.2434-3+deb11u1            amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.21-4+b3                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.2.2434-3                    amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.2.2434-3+deb11u1            amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-2                 amd64  compression library - runtime
 ii   zsh                     5.8-6+b2                        amd64  shell with lots of features
 ii   zsh-common              5.8-6                           all    architecture independent files for Zsh

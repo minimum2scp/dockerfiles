@@ -22,7 +22,7 @@ ii   adduser                 3.118                              all    add and r
 ii   apt                     2.3.13                             amd64  commandline package manager
 ii   base-files              12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-5                              amd64  GNU Bourne Again SHell
+ii   bash                    5.1-5+b1                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
@@ -34,9 +34,9 @@ ii   dpkg                    1.21.1                             amd64  Debian pa
 ii   e2fsprogs               1.46.4-1                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.8.0-1                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-11-base             11.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-11-base             11.2.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-4+b1                         amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.27-2                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.27-3                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
@@ -53,16 +53,16 @@ ii   libc6                   2.33-1                             amd64  GNU C Lib
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.4-1                           amd64  common error description library
-ii   libcrypt1               1:4.4.26-1                         amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.27-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.261                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-3                            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               11.2.0-12                          amd64  GCC support library
-ii   libgcrypt20             1.9.4-4                            amd64  LGPL Crypto library - runtime library
+ii   libgcc-s1               11.2.0-13                          amd64  GCC support library
+ii   libgcrypt20             1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.2-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.42-3                             amd64  GnuPG development runtime library
+ii   libgnutls30             3.7.2-4                            amd64  GNU TLS library - main runtime library
+ii   libgpg-error0           1.43-1                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -90,7 +90,7 @@ ii   libsepol2               3.3-1                              amd64  SELinux l
 ii   libsmartcols1           2.37.2-4                           amd64  smart column output alignment library
 ii   libss2                  1.46.4-1                           amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1l-1                           amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              11.2.0-12                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6              11.2.0-13                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             249.7-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3-1                              amd64  shared low-level terminfo library for terminal handling
@@ -111,7 +111,7 @@ ii   ncurses-bin             6.3-1                              amd64  terminal-
 ii   passwd                  1:4.8.1-2                          amd64  change and administer password and group data
 ii   perl-base               5.32.1-6                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.00-1                             amd64  System-V-like utilities
+ii   sysvinit-utils          3.01-1                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021e-1                            all    time zone and daylight-saving time data
 ii   util-linux              2.37.2-4                           amd64  miscellaneous system utilities

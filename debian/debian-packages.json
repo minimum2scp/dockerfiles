@@ -118,10 +118,10 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6450",
+    "Installed-Size": "6451",
     "Origin": "",
     "Package": "bash",
-    "Pre-Depends": "libc6 (>= 2.25), libtinfo6 (>= 6)",
+    "Pre-Depends": "libc6 (>= 2.33), libtinfo6 (>= 6)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "bash-completion (>= 20060301-0)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1-5",
+    "Version": "5.1-5+b1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -454,7 +454,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "265",
+    "Installed-Size": "266",
     "Origin": "",
     "Package": "gcc-11-base",
     "Pre-Depends": "",
@@ -465,7 +465,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-12",
+    "Version": "11.2.0-13",
     "binary:Package": "gcc-11-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-12"
+    "source:Version": "11.2.0-13"
   },
   {
     "Architecture": "amd64",
@@ -507,7 +507,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1), python-debian (<< 0.1.29)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.25), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.38), zlib1g (>= 1:1.1.4)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.33), libgcrypt20 (>= 1.9.0), libgpg-error0 (>= 1.42), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "882",
@@ -521,7 +521,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.27-2",
+    "Version": "2.2.27-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.27-2"
+    "source:Version": "2.2.27-3"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.26-1",
+    "Version": "1:4.4.27-1",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.26-1"
+    "source:Version": "1:4.4.27-1"
   },
   {
     "Architecture": "amd64",
@@ -1123,7 +1123,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-11-base (= 11.2.0-12), libc6 (>= 2.14)",
+    "Depends": "gcc-11-base (= 11.2.0-13), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "116",
@@ -1131,13 +1131,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:11.2.0-12)",
+    "Provides": "libgcc1 (= 1:11.2.0-13)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-12",
+    "Version": "11.2.0-13",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1145,16 +1145,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-12"
+    "source:Version": "11.2.0-13"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.25), libgpg-error0 (>= 1.27)",
+    "Depends": "libc6 (>= 2.33), libgpg-error0 (>= 1.27)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1527",
+    "Installed-Size": "1528",
     "Origin": "",
     "Package": "libgcrypt20",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.9.4-4",
+    "Version": "1.9.4-5",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.9.4-4"
+    "source:Version": "1.9.4-5"
   },
   {
     "Architecture": "amd64",
@@ -1207,10 +1207,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
+    "Depends": "libc6 (>= 2.33), libgmp10 (>= 2:6.2.1+dfsg), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3154",
+    "Installed-Size": "3158",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.2-2",
+    "Version": "3.7.2-4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.2-2"
+    "source:Version": "3.7.2-4"
   },
   {
     "Architecture": "amd64",
@@ -1238,7 +1238,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "193",
+    "Installed-Size": "197",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.42-3",
+    "Version": "1.43-1",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.42-3"
+    "source:Version": "1.43-1"
   },
   {
     "Architecture": "amd64",
@@ -2019,10 +2019,10 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-11-base (= 11.2.0-12), libc6 (>= 2.32), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-11-base (= 11.2.0-13), libc6 (>= 2.33), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2616",
+    "Installed-Size": "2618",
     "Origin": "",
     "Package": "libstdc++6",
     "Pre-Depends": "",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.2.0-12",
+    "Version": "11.2.0-13",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-11",
-    "source:Version": "11.2.0-12"
+    "source:Version": "11.2.0-13"
   },
   {
     "Architecture": "amd64",
@@ -2607,7 +2607,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "lsb-base (>= 11.0.0~), libc6 (>= 2.14)",
+    "Depends": "lsb-base (>= 11.0.0~), libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "81",
@@ -2621,7 +2621,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.00-1",
+    "Version": "3.01-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.00-1"
+    "source:Version": "3.01-1"
   },
   {
     "Architecture": "amd64",
