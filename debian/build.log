@@ -183,20 +183,20 @@ I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2021e-1
 I: Validating tzdata 2021e-1
-I: Retrieving bsdutils 1:2.37.2-4
-I: Validating bsdutils 1:2.37.2-4
-I: Retrieving libblkid1 2.37.2-4
-I: Validating libblkid1 2.37.2-4
-I: Retrieving libmount1 2.37.2-4
-I: Validating libmount1 2.37.2-4
-I: Retrieving libsmartcols1 2.37.2-4
-I: Validating libsmartcols1 2.37.2-4
-I: Retrieving libuuid1 2.37.2-4
-I: Validating libuuid1 2.37.2-4
-I: Retrieving mount 2.37.2-4
-I: Validating mount 2.37.2-4
-I: Retrieving util-linux 2.37.2-4
-I: Validating util-linux 2.37.2-4
+I: Retrieving bsdutils 1:2.37.2-5
+I: Validating bsdutils 1:2.37.2-5
+I: Retrieving libblkid1 2.37.2-5
+I: Validating libblkid1 2.37.2-5
+I: Retrieving libmount1 2.37.2-5
+I: Validating libmount1 2.37.2-5
+I: Retrieving libsmartcols1 2.37.2-5
+I: Validating libsmartcols1 2.37.2-5
+I: Retrieving libuuid1 2.37.2-5
+I: Validating libuuid1 2.37.2-5
+I: Retrieving mount 2.37.2-5
+I: Validating mount 2.37.2-5
+I: Retrieving util-linux 2.37.2-5
+I: Validating util-linux 2.37.2-5
 I: Retrieving libxxhash0 0.8.0-2
 I: Validating libxxhash0 0.8.0-2
 I: Retrieving liblzma5 5.2.5-2
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.07MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e44b2350e314
+ ---> 3b21359c28ab
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b493453bbdc8
-Removing intermediate container b493453bbdc8
- ---> bd496fcaa3f1
-Successfully built bd496fcaa3f1
+ ---> Running in 22e111121af7
+Removing intermediate container 22e111121af7
+ ---> e9566e7d3b47
+Successfully built e9566e7d3b47
 Successfully tagged minimum2scp/debian:latest
