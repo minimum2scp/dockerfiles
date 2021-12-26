@@ -71,7 +71,7 @@ ii   bzip2                    1.0.8-5                            amd64  high-qua
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
-ii   curl                     7.80.0-1                           amd64  command line tool for transferring data with URL syntax
+ii   curl                     7.80.0-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -111,8 +111,8 @@ ii   libcap2                  1:2.44-1                           amd64  POSIX 10
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.4-1                           amd64  common error description library
 ii   libcrypt1                1:4.4.27-1                         amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.80.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.80.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.80.0-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.80.0-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.261                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -199,7 +199,7 @@ ii   login                    1:4.8.1-2                          amd64  system l
 ii   logsave                  1.46.4-1                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.9.4-2                            amd64  tools for reading manual pages
+ii   man-db                   2.9.4-3                            amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
 ii   media-types              4.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.2-5                           amd64  tools for mounting and manipulating filesystems

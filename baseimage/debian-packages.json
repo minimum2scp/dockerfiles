@@ -311,7 +311,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.80.0-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.80.0-2), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "452",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.80.0-1",
+    "Version": "7.80.0-2",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.80.0-1"
+    "source:Version": "7.80.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.80.0-1",
+    "Version": "7.80.0-2",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.80.0-1"
+    "source:Version": "7.80.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.80.0-1",
+    "Version": "7.80.0-2",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.80.0-1"
+    "source:Version": "7.80.0-2"
   },
   {
     "Architecture": "amd64",
@@ -3894,14 +3894,14 @@
   {
     "Architecture": "amd64",
     "Conflicts": "man",
-    "Breaks": "manpages-tr (<< 1.0.5.1-3), manpages-zh (<< 1.5.2-1.1)",
-    "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.28), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
+    "Breaks": "",
+    "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.33), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2874",
+    "Installed-Size": "2870",
     "Origin": "",
     "Package": "man-db",
-    "Pre-Depends": "dpkg (>= 1.16.1~)",
+    "Pre-Depends": "",
     "Priority": "important",
     "Provides": "man, man-browser",
     "Recommends": "",
@@ -3909,7 +3909,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.9.4-2",
+    "Version": "2.9.4-3",
     "binary:Package": "man-db",
     "binary:Summary": "tools for reading manual pages",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.9.4-2"
+    "source:Version": "2.9.4-3"
   },
   {
     "Architecture": "amd64",
