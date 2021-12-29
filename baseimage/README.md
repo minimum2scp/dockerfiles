@@ -158,7 +158,7 @@ ii   libpam0g                 1.4.0-11                           amd64  Pluggabl
 ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.32              5.32.1-6                           amd64  shared Perl library
-ii   libpipeline1             1.5.4-1                            amd64  Unix process pipeline manipulation library
+ii   libpipeline1             1.5.4-2                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
@@ -206,9 +206,9 @@ ii   mount                    2.37.2-5                           amd64  tools fo
 ii   ncurses-base             6.3-1                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-1                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:8.7p1-2                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:8.7p1-2                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:8.7p1-2                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:8.7p1-4                          amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:8.7p1-4                          amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:8.7p1-4                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.8.1-2                          amd64  change and administer password and group data
@@ -221,7 +221,7 @@ ii   python3-minimal          3.9.8-1                            amd64  minimal 
 ii   python3.9                3.9.9-2                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
-ii   rsyslog                  8.2112.0-2                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2112.0-2+b1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
