@@ -174,7 +174,7 @@ ii   libslang2               2.3.1-5                            amd64  S-Lang pr
 ii   libsmartcols1           2.29.2-1+deb9u1                    amd64  smart column output alignment library
 ii   libsqlite3-0            3.16.2-5+deb9u3                    amd64  SQLite 3 shared library
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
-ii   libssh2-1               1.7.0-1+deb9u1                     amd64  SSH2 client-side library
+ii   libssh2-1               1.7.0-1+deb9u2                     amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2u-1~deb9u6                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libssl1.1               1.1.0l-1~deb9u4                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3

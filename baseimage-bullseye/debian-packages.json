@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.1+deb11u1",
+    "Version": "11.1+deb11u2",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "11.1+deb11u1"
+    "source:Version": "11.1+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -311,10 +311,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17), libcurl4 (= 7.74.0-1.3+b1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.17), libcurl4 (= 7.74.0-1.3+deb11u1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "427",
+    "Installed-Size": "426",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.74.0-1.3+b1",
+    "Version": "7.74.0-1.3+deb11u1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.74.0-1.3"
+    "source:Version": "7.74.0-1.3+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1406,7 +1406,7 @@
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.17), libgnutls30 (>= 3.7.0), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnettle8, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "725",
+    "Installed-Size": "724",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.74.0-1.3+b1",
+    "Version": "7.74.0-1.3+deb11u1",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.74.0-1.3"
+    "source:Version": "7.74.0-1.3+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1434,7 +1434,7 @@
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.17), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "733",
+    "Installed-Size": "732",
     "Origin": "",
     "Package": "libcurl4",
     "Pre-Depends": "",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.74.0-1.3+b1",
+    "Version": "7.74.0-1.3+deb11u1",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.74.0-1.3"
+    "source:Version": "7.74.0-1.3+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.2.1+dfsg-1",
+    "Version": "2:6.2.1+dfsg-1+deb11u1",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.2.1+dfsg-1"
+    "source:Version": "2:6.2.1+dfsg-1+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.1-1",
+    "Version": "2.5.1-1+deb11u1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.5.1-1"
+    "source:Version": "2.5.1-1+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -4749,7 +4749,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021a-1+deb11u1",
+    "Version": "2021a-1+deb11u2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021a-1+deb11u1"
+    "source:Version": "2021a-1+deb11u2"
   },
   {
     "Architecture": "all",
@@ -4861,7 +4861,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2434-3",
+    "Version": "2:8.2.2434-3+deb11u1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4869,13 +4869,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-3"
+    "source:Version": "2:8.2.2434-3+deb11u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.2.2434-3), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.2.2434-3+deb11u1), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1574",
@@ -4889,7 +4889,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.2.2434-3",
+    "Version": "2:8.2.2434-3+deb11u1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4897,7 +4897,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-3"
+    "source:Version": "2:8.2.2434-3+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -4945,7 +4945,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.2.2434-3",
+    "Version": "2:8.2.2434-3+deb11u1",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4953,7 +4953,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.2.2434-3"
+    "source:Version": "2:8.2.2434-3+deb11u1"
   },
   {
     "Architecture": "amd64",
