@@ -78,7 +78,7 @@ ii   debian-archive-keyring   2021.1.1                           all    GnuPG ar
 ii   debianutils              5.5-1                              amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                     1.21.1                             amd64  Debian package management system
-ii   e2fsprogs                1.46.4-1                           amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs                1.46.5-1                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base              10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -109,7 +109,7 @@ ii   libc6                    2.33-1                             amd64  GNU C Li
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2              1.46.4-1                           amd64  common error description library
+ii   libcom-err2              1.46.5-1                           amd64  common error description library
 ii   libcrypt1                1:4.4.27-1                         amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.80.0-3                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.80.0-3                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -119,7 +119,7 @@ ii   libedit2                 3.1-20210910-1                     amd64  BSD edit
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
 ii   libexpat1                2.4.2-1                            amd64  XML parsing C library - runtime library
-ii   libext2fs2               1.46.4-1                           amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2               1.46.5-1                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.9.0-1                            amd64  library for generating and verifying FIDO 2.0 objects
@@ -177,7 +177,7 @@ ii   libsepol2                3.3-1                              amd64  SELinux 
 ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.37.2-5                           amd64  smart column output alignment library
 ii   libsqlite3-0             3.36.0-2                           amd64  SQLite 3 shared library
-ii   libss2                   1.46.4-1                           amd64  command-line interface parsing library
+ii   libss2                   1.46.5-1                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-2                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               11.2.0-13                          amd64  GNU Standard C++ Library v3
@@ -196,7 +196,7 @@ ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast los
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.33-1                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.8.1-2                          amd64  system login tools
-ii   logsave                  1.46.4-1                           amd64  save the output of a command in a log file
+ii   logsave                  1.46.5-1                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.9.4-4                            amd64  tools for reading manual pages
