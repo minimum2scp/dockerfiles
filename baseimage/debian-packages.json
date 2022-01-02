@@ -3251,10 +3251,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)",
-    "Depends": "libc6 (>= 2.29)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1555",
+    "Installed-Size": "1644",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.36.0-2",
+    "Version": "3.37.1-1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.36.0-2"
+    "source:Version": "3.37.1-1"
   },
   {
     "Architecture": "amd64",
