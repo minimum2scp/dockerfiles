@@ -31,7 +31,7 @@ ii   debian-archive-keyring  2021.1.1                           all    GnuPG arc
 ii   debianutils             5.5-1                              amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                    1.21.1                             amd64  Debian package management system
-ii   e2fsprogs               1.46.5-1                           amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.8.0-1                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base             11.2.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -52,11 +52,11 @@ ii   libc-bin                2.33-1                             amd64  GNU C Lib
 ii   libc6                   2.33-1                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
-ii   libcom-err2             1.46.5-1                           amd64  common error description library
+ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.261                              amd64  Debian Configuration Management System (C-implementation library)
-ii   libext2fs2              1.46.5-1                           amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-3                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               11.2.0-13                          amd64  GCC support library
 ii   libgcrypt20             1.9.4-5                            amd64  LGPL Crypto library - runtime library
@@ -88,7 +88,7 @@ ii   libsemanage-common      3.3-1                              all    Common fi
 ii   libsemanage2            3.3-1+b1                           amd64  SELinux policy management library
 ii   libsepol2               3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.37.2-5                           amd64  smart column output alignment library
-ii   libss2                  1.46.5-1                           amd64  command-line interface parsing library
+ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-13                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             249.7-1                            amd64  systemd utility library
@@ -102,7 +102,7 @@ ii   libuuid1                2.37.2-5                           amd64  Universal
 ii   libxxhash0              0.8.0-2                            amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-2                          amd64  system login tools
-ii   logsave                 1.46.5-1                           amd64  save the output of a command in a log file
+ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
 ii   mount                   2.37.2-5                           amd64  tools for mounting and manipulating filesystems
