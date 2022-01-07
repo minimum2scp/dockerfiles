@@ -19,10 +19,10 @@ installed packages:
 
 ```
 ii   adduser                 3.118                              all    add and remove users and groups
-ii   apt                     2.3.13                             amd64  commandline package manager
+ii   apt                     2.3.14                             amd64  commandline package manager
 ii   base-files              12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-5+b1                           amd64  GNU Bourne Again SHell
+ii   bash                    5.1-6                              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.37.2-5                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
@@ -42,14 +42,14 @@ ii   gzip                    1.10-4                             amd64  GNU compr
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.61                               all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0           2.3.13                             amd64  package management runtime library
+ii   libapt-pkg6.0           2.3.14                             amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.6-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.2-5                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.33-1                             amd64  GNU C Library: Binaries
-ii   libc6                   2.33-1                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.33-2                             amd64  GNU C Library: Binaries
+ii   libc6                   2.33-2                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
