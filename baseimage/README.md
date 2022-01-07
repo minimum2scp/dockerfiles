@@ -61,10 +61,10 @@ installed packages:
 
 ```
 ii   adduser                  3.118                              all    add and remove users and groups
-ii   apt                      2.3.13                             amd64  commandline package manager
+ii   apt                      2.3.14                             amd64  commandline package manager
 ii   base-files               12                                 amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
-ii   bash                     5.1-5+b1                           amd64  GNU Bourne Again SHell
+ii   bash                     5.1-6                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.37.2-5                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.37.2-5                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
@@ -95,7 +95,7 @@ ii   init-system-helpers      1.61                               all    helper t
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.3.13                             amd64  package management runtime library
+ii   libapt-pkg6.0            2.3.14                             amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.6-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
@@ -103,9 +103,9 @@ ii   libblkid1                2.37.2-5                           amd64  block de
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.3-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.33-1                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.33-1                             all    GNU C Library: localization files
-ii   libc6                    2.33-1                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.33-2                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.33-2                             all    GNU C Library: localization files
+ii   libc6                    2.33-2                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -165,7 +165,7 @@ ii   libpsl5                  0.21.0-1.2                         amd64  Library 
 ii   libpython3-stdlib        3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal     3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
 ii   libpython3.9-stdlib      3.9.9-2                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
-ii   libreadline8             8.1-2                              amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8             8.1.2-1                            amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.27+dfsg2-2                     amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db      2.1.27+dfsg2-2                     amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -176,7 +176,7 @@ ii   libsemanage2             3.3-1+b1                           amd64  SELinux 
 ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.37.2-5                           amd64  smart column output alignment library
-ii   libsqlite3-0             3.37.1-1                           amd64  SQLite 3 shared library
+ii   libsqlite3-0             3.37.2-1                           amd64  SQLite 3 shared library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-2                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
@@ -194,7 +194,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.0-2                            amd64  shared library for xxhash
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.33-1                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.33-2                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.8.1-2                          amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
@@ -220,7 +220,7 @@ ii   python3                  3.9.8-1                            amd64  interact
 ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9                3.9.9-2                            amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
-ii   readline-common          8.1-2                              all    GNU readline and history libraries, common files
+ii   readline-common          8.1.2-1                            all    GNU readline and history libraries, common files
 ii   rsyslog                  8.2112.0-2+b1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
