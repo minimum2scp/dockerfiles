@@ -65,7 +65,7 @@ desc 'update README.md'
 file 'README.md' => ['README.md.erb', 'debian-packages.json'] do |t|
   packages = JSON.parse(File.read('debian-packages.json'))
   File.open(t.name, "w") do |fh|
-    fh << ERB.new(File.read('README.md.erb'), nil, '-').result(binding)
+    fh << ERB.new(File.read('README.md.erb'), trim_mode: '-').result(binding)
   end
 end
 
