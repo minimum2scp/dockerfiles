@@ -163,12 +163,12 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-5                         amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib        3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal     3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib      3.9.9-2                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal     3.9.9-3                            amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib      3.9.9-3                            amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8             8.1.2-1                            amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.27+dfsg2-2                     amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.27+dfsg2-2                     amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.27+dfsg2-3                     amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.27+dfsg2-3                     amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
@@ -191,7 +191,7 @@ ii   libudev1                 249.7-1                            amd64  libudev 
 ii   libunistring2            0.9.10-6                           amd64  Unicode string library for C
 ii   libuuid1                 2.37.2-5                           amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0               0.8.0-2                            amd64  shared library for xxhash
+ii   libxxhash0               0.8.1-0.1                          amd64  shared library for xxhash
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.33-2                             all    GNU C Library: National Language (locale) data [support]
@@ -218,8 +218,8 @@ ii   perl-modules-5.32        5.32.1-6                           all    Core Per
 ii   procps                   2:3.3.17-5                         amd64  /proc file system utilities
 ii   python3                  3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9                3.9.9-2                            amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal        3.9.9-2                            amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9                3.9.9-3                            amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal        3.9.9-3                            amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1.2-1                            all    GNU readline and history libraries, common files
 ii   rsyslog                  8.2112.0-2+b1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
