@@ -99,7 +99,7 @@ ii   libtirpc3               1.3.2-2                            amd64  transport
 ii   libudev1                249.7-1                            amd64  libudev shared library
 ii   libunistring2           0.9.10-6                           amd64  Unicode string library for C
 ii   libuuid1                2.37.2-5                           amd64  Universally Unique ID library
-ii   libxxhash0              0.8.0-2                            amd64  shared library for xxhash
+ii   libxxhash0              0.8.1-0.1                          amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   login                   1:4.8.1-2                          amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file

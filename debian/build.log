@@ -197,8 +197,8 @@ I: Retrieving mount 2.37.2-5
 I: Validating mount 2.37.2-5
 I: Retrieving util-linux 2.37.2-5
 I: Validating util-linux 2.37.2-5
-I: Retrieving libxxhash0 0.8.0-2
-I: Validating libxxhash0 0.8.0-2
+I: Retrieving libxxhash0 0.8.1-0.1
+I: Validating libxxhash0 0.8.1-0.1
 I: Retrieving liblzma5 5.2.5-2
 I: Validating liblzma5 5.2.5-2
 I: Retrieving zlib1g 1:1.2.11.dfsg-2
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.08MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 700f4906782b
+ ---> 4c1b62fd8c57
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ebe2606309d1
-Removing intermediate container ebe2606309d1
- ---> 15d195064744
-Successfully built 15d195064744
+ ---> Running in 6daf5a2c7fca
+Removing intermediate container 6daf5a2c7fca
+ ---> 9129a01bd351
+Successfully built 9129a01bd351
 Successfully tagged minimum2scp/debian:latest
