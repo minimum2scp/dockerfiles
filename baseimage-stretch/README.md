@@ -227,10 +227,10 @@ ii   tzdata                  2021a-0+deb9u2                     all    time zone
 ii   ucf                     3.0036                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21+deb9u2                      amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1+deb9u1                    amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.0197-4+deb9u3                all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0197-4+deb9u3                amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.0197-4+deb9u4                all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.0197-4+deb9u4                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0197-4+deb9u3                amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0197-4+deb9u4                amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5                     amd64  compression library - runtime
 ii   zsh                     5.3.1-4+deb9u4                     amd64  shell with lots of features
 ii   zsh-common              5.3.1-4+deb9u4                     all    architecture independent files for Zsh
