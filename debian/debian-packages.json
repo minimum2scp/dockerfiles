@@ -2103,10 +2103,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.16)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "551",
+    "Installed-Size": "550",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3-1",
+    "Version": "6.3-2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3-1"
+    "source:Version": "6.3-2"
   },
   {
     "Architecture": "all",
@@ -2466,11 +2466,11 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), zsh-static (<< 5.4.2-4)",
+    "Breaks": "bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), neovim (<< 0.6.0), zsh-static (<< 5.4.2-4)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "392",
+    "Installed-Size": "393",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -2481,7 +2481,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3-1",
+    "Version": "6.3-2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3-1"
+    "source:Version": "6.3-2"
   },
   {
     "Architecture": "amd64",
@@ -2501,7 +2501,7 @@
     "Installed-Size": "654",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.14), libtinfo6 (>= 6.3)",
+    "Pre-Depends": "libc6 (>= 2.33), libtinfo6 (>= 6.3)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2509,7 +2509,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3-1",
+    "Version": "6.3-2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3-1"
+    "source:Version": "6.3-2"
   },
   {
     "Architecture": "amd64",
