@@ -69,10 +69,10 @@ I: Retrieving libstdc++6 11.2.0-14
 I: Validating libstdc++6 11.2.0-14
 I: Retrieving gcc-9-base 9.4.0-4+b1
 I: Validating gcc-9-base 9.4.0-4+b1
-I: Retrieving libc-bin 2.33-2
-I: Validating libc-bin 2.33-2
-I: Retrieving libc6 2.33-2
-I: Validating libc6 2.33-2
+I: Retrieving libc-bin 2.33-3
+I: Validating libc-bin 2.33-3
+I: Retrieving libc6 2.33-3
+I: Validating libc6 2.33-3
 I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3
@@ -105,8 +105,8 @@ I: Retrieving libffi8 3.4.2-4
 I: Validating libffi8 3.4.2-4
 I: Retrieving libgcrypt20 1.9.4-5
 I: Validating libgcrypt20 1.9.4-5
-I: Retrieving libgpg-error0 1.43-2
-I: Validating libgpg-error0 1.43-2
+I: Retrieving libgpg-error0 1.43-3
+I: Validating libgpg-error0 1.43-3
 I: Retrieving libidn2-0 2.3.2-2
 I: Validating libidn2-0 2.3.2-2
 I: Retrieving libnsl2 1.3.0-2
@@ -173,10 +173,10 @@ I: Retrieving login 1:4.8.1-2
 I: Validating login 1:4.8.1-2
 I: Retrieving passwd 1:4.8.1-2
 I: Validating passwd 1:4.8.1-2
-I: Retrieving libsystemd0 250.2-3
-I: Validating libsystemd0 250.2-3
-I: Retrieving libudev1 250.2-3
-I: Validating libudev1 250.2-3
+I: Retrieving libsystemd0 250.3-1
+I: Validating libsystemd0 250.3-1
+I: Retrieving libudev1 250.3-1
+I: Validating libudev1 250.3-1
 I: Retrieving sysvinit-utils 3.01-1
 I: Validating sysvinit-utils 3.01-1
 I: Retrieving tar 1.34+dfsg-1
@@ -505,11 +505,7 @@ I: Configuring libc-bin...
 I: Unpacking the base system...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://ftp.jp.debian.org/debian sid InRelease [165 kB]
-Get:2 http://ftp.jp.debian.org/debian sid/main amd64 Packages.diff/Index [63.6 kB]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages T-2022-01-18-1402.02-F-2022-01-18-1402.02.pdiff [6009 B]
-Get:3 http://ftp.jp.debian.org/debian sid/main amd64 Packages T-2022-01-18-1402.02-F-2022-01-18-1402.02.pdiff [6009 B]
-Fetched 235 kB in 1s (224 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian sid InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -519,10 +515,10 @@ Sending build context to Docker daemon  34.03MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 21e1ec3072b4
+ ---> f95519c49413
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 875fc121399e
-Removing intermediate container 875fc121399e
- ---> 16df32b7fc28
-Successfully built 16df32b7fc28
+ ---> Running in ce98e372121b
+Removing intermediate container ce98e372121b
+ ---> fa7dfa2b5a92
+Successfully built fa7dfa2b5a92
 Successfully tagged minimum2scp/debian:latest

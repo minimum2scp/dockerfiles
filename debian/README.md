@@ -48,8 +48,8 @@ ii   libaudit-common         1:3.0.6-1                          all    Dynamic l
 ii   libaudit1               1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.2-6                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.33-2                             amd64  GNU C Library: Binaries
-ii   libc6                   2.33-2                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.33-3                             amd64  GNU C Library: Binaries
+ii   libc6                   2.33-3                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
@@ -62,7 +62,7 @@ ii   libgcc-s1               11.2.0-14                          amd64  GCC suppo
 ii   libgcrypt20             1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.2-5                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.43-2                             amd64  GnuPG development runtime library
+ii   libgpg-error0           1.43-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -91,12 +91,12 @@ ii   libsmartcols1           2.37.2-6                           amd64  smart col
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
 ii   libssl1.1               1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              11.2.0-14                          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             250.2-3                            amd64  systemd utility library
+ii   libsystemd0             250.3-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3-2                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
-ii   libudev1                250.2-3                            amd64  libudev shared library
+ii   libudev1                250.3-1                            amd64  libudev shared library
 ii   libunistring2           0.9.10-6                           amd64  Unicode string library for C
 ii   libuuid1                2.37.2-6                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
