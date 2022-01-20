@@ -62,7 +62,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "339",
+    "Installed-Size": "341",
     "Origin": "",
     "Package": "base-files",
     "Pre-Depends": "awk",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12",
+    "Version": "12.2",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12"
+    "source:Version": "12.2"
   },
   {
     "Architecture": "amd64",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.27-1",
+    "Version": "1:4.4.27-1.1",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.27-1"
+    "source:Version": "1:4.4.27-1.1"
   },
   {
     "Architecture": "amd64",
