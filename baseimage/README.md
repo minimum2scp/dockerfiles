@@ -122,13 +122,13 @@ ii   libexpat1                2.4.3-1                            amd64  XML pars
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
-ii   libfido2-1               1.9.0-2                            amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1               1.10.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                11.2.0-14                          amd64  GCC support library
 ii   libgcrypt20              1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.2-5                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.3-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
