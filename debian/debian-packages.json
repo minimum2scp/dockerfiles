@@ -286,10 +286,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "213",
+    "Installed-Size": "245",
     "Origin": "",
     "Package": "debianutils",
-    "Pre-Depends": "libc6 (>= 2.15)",
+    "Pre-Depends": "libc6 (>= 2.33)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.5-1",
+    "Version": "5.6-0.1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.5-1"
+    "source:Version": "5.6-0.1"
   },
   {
     "Architecture": "amd64",
