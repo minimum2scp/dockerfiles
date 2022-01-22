@@ -75,7 +75,7 @@ ii   curl                     7.81.0-1                           amd64  command 
 ii   dash                     0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.5-1                              amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.6-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                     1.21.1                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
@@ -128,7 +128,7 @@ ii   libgcrypt20              1.9.4-5                            amd64  LGPL Cry
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.3-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.3-3                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
