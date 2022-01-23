@@ -1151,10 +1151,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.25), libmd0 (>= 1.0.3-2)",
+    "Depends": "libc6 (>= 2.33), libmd0 (>= 1.0.3-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "191",
+    "Installed-Size": "195",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.11.3-1",
+    "Version": "0.11.4-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.11.3-1"
+    "source:Version": "0.11.4-1"
   },
   {
     "Architecture": "amd64",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.3-3",
+    "Version": "3.7.3-4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.3-3"
+    "source:Version": "3.7.3-4"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "92",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "media-types",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.0.0",
+    "Version": "5.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "4.0.0"
+    "source:Version": "5.0.0"
   },
   {
     "Architecture": "amd64",

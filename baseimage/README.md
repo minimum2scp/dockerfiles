@@ -101,7 +101,7 @@ ii   libaudit-common          1:3.0.6-1                          all    Dynamic 
 ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1                2.37.2-6                           amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                  0.11.3-1                           amd64  utility functions from BSD systems - shared library
+ii   libbsd0                  0.11.4-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.33-3                             amd64  GNU C Library: Binaries
 ii   libc-l10n                2.33-3                             all    GNU C Library: localization files
@@ -128,7 +128,7 @@ ii   libgcrypt20              1.9.4-5                            amd64  LGPL Cry
 ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.3-3                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.3-4                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
@@ -201,7 +201,7 @@ ii   lsb-base                 11.1.0                             all    Linux St
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.9.4-4                            amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
-ii   media-types              4.0.0                              all    List of standard media types and their usual file extension
+ii   media-types              5.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.2-6                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
