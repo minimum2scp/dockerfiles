@@ -75,7 +75,7 @@ ii   curl                     7.81.0-1                           amd64  command 
 ii   dash                     0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.6-0.1                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                     1.21.1                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
@@ -200,7 +200,7 @@ ii   logsave                  1.46.5-2                           amd64  save the
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.9.4-4                            amd64  tools for reading manual pages
-ii   mawk                     1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
+ii   mawk                     1.3.4.20200120-3                   amd64  Pattern scanning and text processing language
 ii   media-types              5.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.2-6                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
