@@ -41,8 +41,8 @@ I: Retrieving debconf 1.5.79
 I: Validating debconf 1.5.79
 I: Retrieving debian-archive-keyring 2021.1.1
 I: Validating debian-archive-keyring 2021.1.1
-I: Retrieving debianutils 5.6-0.1
-I: Validating debianutils 5.6-0.1
+I: Retrieving debianutils 5.7-0.1
+I: Validating debianutils 5.7-0.1
 I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
 I: Retrieving dpkg 1.21.1
@@ -77,8 +77,8 @@ I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3
 I: Validating gpgv 2.2.27-3
-I: Retrieving libgnutls30 3.7.3-3
-I: Validating libgnutls30 3.7.3-3
+I: Retrieving libgnutls30 3.7.3-4
+I: Validating libgnutls30 3.7.3-4
 I: Retrieving grep 3.7-1
 I: Validating grep 3.7-1
 I: Retrieving gzip 1.10-4
@@ -137,8 +137,8 @@ I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
 I: Retrieving liblz4-1 1.9.3-2
 I: Validating liblz4-1 1.9.3-2
-I: Retrieving mawk 1.3.4.20200120-2
-I: Validating mawk 1.3.4.20200120-2
+I: Retrieving mawk 1.3.4.20200120-3
+I: Validating mawk 1.3.4.20200120-3
 I: Retrieving libtinfo6 6.3-2
 I: Validating libtinfo6 6.3-2
 I: Retrieving ncurses-base 6.3-2
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.08MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8bbcca73dbbf
+ ---> fe8b222a8032
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 71a8a8cead1d
-Removing intermediate container 71a8a8cead1d
- ---> 6b114156df06
-Successfully built 6b114156df06
+ ---> Running in 6bc35a608f37
+Removing intermediate container 6bc35a608f37
+ ---> 3a9b2147cef9
+Successfully built 3a9b2147cef9
 Successfully tagged minimum2scp/debian:latest

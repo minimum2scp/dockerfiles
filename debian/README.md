@@ -28,7 +28,7 @@ ii   coreutils               8.32-4.1                           amd64  GNU core 
 ii   dash                    0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.6-0.1                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                    1.21.1                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
@@ -61,7 +61,7 @@ ii   libffi8                 3.4.2-4                            amd64  Foreign F
 ii   libgcc-s1               11.2.0-14                          amd64  GCC support library
 ii   libgcrypt20             1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.3-3                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.3-4                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.43-3                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
@@ -104,7 +104,7 @@ ii   libzstd1                1.4.8+dfsg-3                       amd64  fast loss
 ii   login                   1:4.8.1-2                          amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
-ii   mawk                    1.3.4.20200120-2                   amd64  Pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-3                   amd64  Pattern scanning and text processing language
 ii   mount                   2.37.2-6                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin             6.3-2                              amd64  terminal-related programs and man pages
