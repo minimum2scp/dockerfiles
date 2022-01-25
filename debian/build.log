@@ -69,10 +69,10 @@ I: Retrieving libstdc++6 11.2.0-14
 I: Validating libstdc++6 11.2.0-14
 I: Retrieving gcc-9-base 9.4.0-4+b1
 I: Validating gcc-9-base 9.4.0-4+b1
-I: Retrieving libc-bin 2.33-3
-I: Validating libc-bin 2.33-3
-I: Retrieving libc6 2.33-3
-I: Validating libc6 2.33-3
+I: Retrieving libc-bin 2.33-4
+I: Validating libc-bin 2.33-4
+I: Retrieving libc6 2.33-4
+I: Validating libc6 2.33-4
 I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3
@@ -183,20 +183,20 @@ I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2021e-1
 I: Validating tzdata 2021e-1
-I: Retrieving bsdutils 1:2.37.2-6
-I: Validating bsdutils 1:2.37.2-6
-I: Retrieving libblkid1 2.37.2-6
-I: Validating libblkid1 2.37.2-6
-I: Retrieving libmount1 2.37.2-6
-I: Validating libmount1 2.37.2-6
-I: Retrieving libsmartcols1 2.37.2-6
-I: Validating libsmartcols1 2.37.2-6
-I: Retrieving libuuid1 2.37.2-6
-I: Validating libuuid1 2.37.2-6
-I: Retrieving mount 2.37.2-6
-I: Validating mount 2.37.2-6
-I: Retrieving util-linux 2.37.2-6
-I: Validating util-linux 2.37.2-6
+I: Retrieving bsdutils 1:2.37.3-1
+I: Validating bsdutils 1:2.37.3-1
+I: Retrieving libblkid1 2.37.3-1
+I: Validating libblkid1 2.37.3-1
+I: Retrieving libmount1 2.37.3-1
+I: Validating libmount1 2.37.3-1
+I: Retrieving libsmartcols1 2.37.3-1
+I: Validating libsmartcols1 2.37.3-1
+I: Retrieving libuuid1 2.37.3-1
+I: Validating libuuid1 2.37.3-1
+I: Retrieving mount 2.37.3-1
+I: Validating mount 2.37.3-1
+I: Retrieving util-linux 2.37.3-1
+I: Validating util-linux 2.37.3-1
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.08MB
+Sending build context to Docker daemon  34.09MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> fe8b222a8032
+ ---> af332ba32529
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 6bc35a608f37
-Removing intermediate container 6bc35a608f37
- ---> 3a9b2147cef9
-Successfully built 3a9b2147cef9
+ ---> Running in 2b8b9b746a49
+Removing intermediate container 2b8b9b746a49
+ ---> 07486fd7f7c3
+Successfully built 07486fd7f7c3
 Successfully tagged minimum2scp/debian:latest
