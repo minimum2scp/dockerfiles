@@ -69,16 +69,16 @@ I: Retrieving libstdc++6 11.2.0-14
 I: Validating libstdc++6 11.2.0-14
 I: Retrieving gcc-9-base 9.4.0-4+b1
 I: Validating gcc-9-base 9.4.0-4+b1
-I: Retrieving libc-bin 2.33-4
-I: Validating libc-bin 2.33-4
-I: Retrieving libc6 2.33-4
-I: Validating libc6 2.33-4
+I: Retrieving libc-bin 2.33-5
+I: Validating libc-bin 2.33-5
+I: Retrieving libc6 2.33-5
+I: Validating libc6 2.33-5
 I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3
 I: Validating gpgv 2.2.27-3
-I: Retrieving libgnutls30 3.7.3-4
-I: Validating libgnutls30 3.7.3-4
+I: Retrieving libgnutls30 3.7.3-4+b1
+I: Validating libgnutls30 3.7.3-4+b1
 I: Retrieving grep 3.7-1
 I: Validating grep 3.7-1
 I: Retrieving gzip 1.10-4
@@ -137,8 +137,8 @@ I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
 I: Retrieving liblz4-1 1.9.3-2
 I: Validating liblz4-1 1.9.3-2
-I: Retrieving mawk 1.3.4.20200120-3
-I: Validating mawk 1.3.4.20200120-3
+I: Retrieving mawk 1.3.4.20200120-3+b1
+I: Validating mawk 1.3.4.20200120-3+b1
 I: Retrieving libtinfo6 6.3-2
 I: Validating libtinfo6 6.3-2
 I: Retrieving ncurses-base 6.3-2
@@ -173,30 +173,30 @@ I: Retrieving login 1:4.8.1-2
 I: Validating login 1:4.8.1-2
 I: Retrieving passwd 1:4.8.1-2
 I: Validating passwd 1:4.8.1-2
-I: Retrieving libsystemd0 250.3-1
-I: Validating libsystemd0 250.3-1
-I: Retrieving libudev1 250.3-1
-I: Validating libudev1 250.3-1
+I: Retrieving libsystemd0 250.3-2
+I: Validating libsystemd0 250.3-2
+I: Retrieving libudev1 250.3-2
+I: Validating libudev1 250.3-2
 I: Retrieving sysvinit-utils 3.01-1
 I: Validating sysvinit-utils 3.01-1
 I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2021e-1
 I: Validating tzdata 2021e-1
-I: Retrieving bsdutils 1:2.37.3-1
-I: Validating bsdutils 1:2.37.3-1
-I: Retrieving libblkid1 2.37.3-1
-I: Validating libblkid1 2.37.3-1
-I: Retrieving libmount1 2.37.3-1
-I: Validating libmount1 2.37.3-1
-I: Retrieving libsmartcols1 2.37.3-1
-I: Validating libsmartcols1 2.37.3-1
-I: Retrieving libuuid1 2.37.3-1
-I: Validating libuuid1 2.37.3-1
-I: Retrieving mount 2.37.3-1
-I: Validating mount 2.37.3-1
-I: Retrieving util-linux 2.37.3-1
-I: Validating util-linux 2.37.3-1
+I: Retrieving bsdutils 1:2.37.3-1+b1
+I: Validating bsdutils 1:2.37.3-1+b1
+I: Retrieving libblkid1 2.37.3-1+b1
+I: Validating libblkid1 2.37.3-1+b1
+I: Retrieving libmount1 2.37.3-1+b1
+I: Validating libmount1 2.37.3-1+b1
+I: Retrieving libsmartcols1 2.37.3-1+b1
+I: Validating libsmartcols1 2.37.3-1+b1
+I: Retrieving libuuid1 2.37.3-1+b1
+I: Validating libuuid1 2.37.3-1+b1
+I: Retrieving mount 2.37.3-1+b1
+I: Validating mount 2.37.3-1+b1
+I: Retrieving util-linux 2.37.3-1+b1
+I: Validating util-linux 2.37.3-1+b1
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.09MB
+Sending build context to Docker daemon  34.08MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> af332ba32529
+ ---> e5b241003f94
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2b8b9b746a49
-Removing intermediate container 2b8b9b746a49
- ---> 07486fd7f7c3
-Successfully built 07486fd7f7c3
+ ---> Running in 0be539dd64af
+Removing intermediate container 0be539dd64af
+ ---> 30a69fd34406
+Successfully built 30a69fd34406
 Successfully tagged minimum2scp/debian:latest
