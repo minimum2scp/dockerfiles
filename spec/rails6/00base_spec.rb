@@ -79,12 +79,12 @@ describe 'minimum2scp/rails6' do
 
       describe command('nodenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "16.13.1\n" }
+        its(:stdout){ should eq "16.13.2\n" }
       end
 
       [
         {
-          nodejs: '16.13.1',
+          nodejs: '16.13.2',
         },
       ].each do |v|
           describe command('nodenv versions --bare --skip-aliases') do
@@ -103,15 +103,15 @@ describe 'minimum2scp/rails6' do
       let(:login_shell){ true }
       its(:stdout){
         should eq <<~ALIASES
-          16 => 16.13.1
-          16.13 => 16.13.1
+          16 => 16.13.2
+          16.13 => 16.13.2
         ALIASES
       }
     end
 
     {
-      '16' => '16.13.1',
-      '16.13' => '16.13.1',
+      '16' => '16.13.2',
+      '16.13' => '16.13.2',
     }.each do |src, dest|
       describe file("/opt/nodenv/versions/#{src}") do
         it { should be_symlink }
