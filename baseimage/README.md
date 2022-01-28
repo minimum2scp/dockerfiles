@@ -118,7 +118,7 @@ ii   libdebconfclient0        0.261                              amd64  Debian C
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.4.3-2+b1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                2.4.3-3                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
