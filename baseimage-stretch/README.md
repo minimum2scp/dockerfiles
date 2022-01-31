@@ -117,7 +117,7 @@ ii   libedit2                3.1-20160903-3                     amd64  BSD editl
 ii   libelf1                 0.168-1+deb9u1                     amd64  library to read and write ELF files
 ii   liberror-perl           0.17024-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2                           amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.0-2+deb9u3                     amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.0-2+deb9u4                     amd64  XML parsing C library - runtime library
 ii   libfastjson4            0.99.4-1                           amd64  fast json library for C
 ii   libfdisk1               2.29.2-1+deb9u1                    amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-6                            amd64  Foreign Function Interface library runtime
