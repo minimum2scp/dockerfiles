@@ -3786,10 +3786,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2300",
+    "Installed-Size": "2313",
     "Origin": "",
     "Package": "login",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3797,7 +3797,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.8.1-2",
+    "Version": "1:4.11.1+dfsg1-1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.8.1-2"
+    "source:Version": "1:4.11.1+dfsg1-1"
   },
   {
     "Architecture": "amd64",
@@ -4231,10 +4231,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.3), libpam-modules",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.3), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2693",
+    "Installed-Size": "2825",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4245,7 +4245,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.8.1-2",
+    "Version": "1:4.11.1+dfsg1-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.8.1-2"
+    "source:Version": "1:4.11.1+dfsg1-1"
   },
   {
     "Architecture": "amd64",
