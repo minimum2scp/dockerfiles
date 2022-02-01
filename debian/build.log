@@ -61,12 +61,12 @@ I: Retrieving findutils 4.8.0-1
 I: Validating findutils 4.8.0-1
 I: Retrieving gcc-10-base 10.3.0-14
 I: Validating gcc-10-base 10.3.0-14
-I: Retrieving gcc-11-base 11.2.0-14
-I: Validating gcc-11-base 11.2.0-14
-I: Retrieving libgcc-s1 11.2.0-14
-I: Validating libgcc-s1 11.2.0-14
-I: Retrieving libstdc++6 11.2.0-14
-I: Validating libstdc++6 11.2.0-14
+I: Retrieving gcc-11-base 11.2.0-16
+I: Validating gcc-11-base 11.2.0-16
+I: Retrieving libgcc-s1 11.2.0-16
+I: Validating libgcc-s1 11.2.0-16
+I: Retrieving libstdc++6 11.2.0-16
+I: Validating libstdc++6 11.2.0-16
 I: Retrieving gcc-9-base 9.4.0-4+b1
 I: Validating gcc-9-base 9.4.0-4+b1
 I: Retrieving libc-bin 2.33-5
@@ -169,10 +169,10 @@ I: Retrieving perl-base 5.32.1-6
 I: Validating perl-base 5.32.1-6
 I: Retrieving sed 4.8-1
 I: Validating sed 4.8-1
-I: Retrieving login 1:4.8.1-2
-I: Validating login 1:4.8.1-2
-I: Retrieving passwd 1:4.8.1-2
-I: Validating passwd 1:4.8.1-2
+I: Retrieving login 1:4.11.1+dfsg1-1
+I: Validating login 1:4.11.1+dfsg1-1
+I: Retrieving passwd 1:4.11.1+dfsg1-1
+I: Validating passwd 1:4.11.1+dfsg1-1
 I: Retrieving libsystemd0 250.3-2
 I: Validating libsystemd0 250.3-2
 I: Retrieving libudev1 250.3-2
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.08MB
+Sending build context to Docker daemon  34.05MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e5b241003f94
+ ---> ecaca1c3e175
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 0be539dd64af
-Removing intermediate container 0be539dd64af
- ---> 30a69fd34406
-Successfully built 30a69fd34406
+ ---> Running in 77936bd5fe4e
+Removing intermediate container 77936bd5fe4e
+ ---> 59318a1bb6fa
+Successfully built 59318a1bb6fa
 Successfully tagged minimum2scp/debian:latest
