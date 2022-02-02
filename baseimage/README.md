@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.118                              all    add and remove users and groups
-ii   apt                      2.3.14                             amd64  commandline package manager
+ii   apt                      2.3.15                             amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-6                              amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   init-system-helpers      1.61                               all    helper t
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.3.14                             amd64  package management runtime library
+ii   libapt-pkg6.0            2.3.15                             amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.6-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.6-1+b1                       amd64  Dynamic library for security auditing
@@ -118,7 +118,7 @@ ii   libdebconfclient0        0.261                              amd64  Debian C
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.4.3-3                            amd64  XML parsing C library - runtime library
+ii   libexpat1                2.4.4-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
