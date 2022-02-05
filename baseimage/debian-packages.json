@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "265",
+    "Installed-Size": "264",
     "Origin": "",
     "Package": "gcc-9-base",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.4.0-4+b1",
+    "Version": "9.4.0-5",
     "binary:Package": "gcc-9-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-9",
-    "source:Version": "9.4.0-4"
+    "source:Version": "9.4.0-5"
   },
   {
     "Architecture": "amd64",
@@ -3898,7 +3898,7 @@
     "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.33), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2872",
+    "Installed-Size": "3009",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "",
@@ -3909,7 +3909,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.9.4-4",
+    "Version": "2.10.0-2",
     "binary:Package": "man-db",
     "binary:Summary": "tools for reading manual pages",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.9.4-4"
+    "source:Version": "2.10.0-2"
   },
   {
     "Architecture": "amd64",

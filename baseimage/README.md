@@ -83,7 +83,7 @@ ii   etckeeper                1.18.16-1                          all    store /e
 ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base              10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-11-base              11.2.0-16                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base               9.4.0-4+b1                         amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.34.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.34.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.27-3                           amd64  GNU privacy guard - signature verification tool
@@ -199,7 +199,7 @@ ii   login                    1:4.11.1+dfsg1-1                   amd64  system l
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.9.4-4                            amd64  tools for reading manual pages
+ii   man-db                   2.10.0-2                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   media-types              5.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.3-1+b1                        amd64  tools for mounting and manipulating filesystems
