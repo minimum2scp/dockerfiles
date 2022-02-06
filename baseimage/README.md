@@ -157,7 +157,7 @@ ii   libpam-runtime           1.4.0-11                           all    Runtime 
 ii   libpam0g                 1.4.0-11                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.32              5.32.1-6                           amd64  shared Perl library
+ii   libperl5.34              5.34.0-3                           amd64  shared Perl library
 ii   libpipeline1             1.5.5-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-6                         amd64  library for accessing process information from /proc
@@ -212,9 +212,9 @@ ii   openssh-sftp-server      1:8.7p1-4                          amd64  secure s
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-1                   amd64  change and administer password and group data
-ii   perl                     5.32.1-6                           amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.32.1-6                           amd64  minimal Perl system
-ii   perl-modules-5.32        5.32.1-6                           all    Core Perl modules
+ii   perl                     5.34.0-3                           amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.34.0-3                           amd64  minimal Perl system
+ii   perl-modules-5.34        5.34.0-3                           all    Core Perl modules
 ii   procps                   2:3.3.17-6                         amd64  /proc file system utilities
 ii   python3                  3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
