@@ -165,8 +165,8 @@ I: Retrieving libpcre2-8-0 10.39-3
 I: Validating libpcre2-8-0 10.39-3
 I: Retrieving libpcre3 2:8.39-13
 I: Validating libpcre3 2:8.39-13
-I: Retrieving perl-base 5.32.1-6
-I: Validating perl-base 5.32.1-6
+I: Retrieving perl-base 5.34.0-3
+I: Validating perl-base 5.34.0-3
 I: Retrieving sed 4.8-1
 I: Validating sed 4.8-1
 I: Retrieving login 1:4.11.1+dfsg1-1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   34.1MB
+Sending build context to Docker daemon  34.11MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 49369f2578ea
+ ---> 07e8f610d22b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 91c2215c9d5f
-Removing intermediate container 91c2215c9d5f
- ---> aaf600a6ff90
-Successfully built aaf600a6ff90
+ ---> Running in aa0a046069f8
+Removing intermediate container aa0a046069f8
+ ---> 5eaa2820bcd8
+Successfully built 5eaa2820bcd8
 Successfully tagged minimum2scp/debian:latest
