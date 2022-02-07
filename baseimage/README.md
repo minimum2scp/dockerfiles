@@ -125,8 +125,8 @@ ii   libffi8                  3.4.2-4                            amd64  Foreign 
 ii   libfido2-1               1.10.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                11.2.0-16                          amd64  GCC support library
 ii   libgcrypt20              1.9.4-5                            amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4          1.22-1                             amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                 1.22-1                             amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.3-4+b1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
@@ -137,7 +137,7 @@ ii   libk5crypto3             1.18.3-7                           amd64  MIT Kerb
 ii   libkeyutils1             1.6.1-2                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.18.3-7                           amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.18.3-7                           amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2            2.4.59+dfsg-1                      amd64  OpenLDAP libraries
+ii   libldap-2.4-2            2.4.59+dfsg-1+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.5-1.1                          amd64  log normalizing library
 ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.2.5-2                            amd64  XZ-format compression library
@@ -188,7 +188,7 @@ ii   libtirpc-common          1.3.2-2                            all    transpor
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
 ii   libudev1                 250.3-2                            amd64  libudev shared library
-ii   libunistring2            0.9.10-6                           amd64  Unicode string library for C
+ii   libunistring2            1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                 2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
@@ -236,9 +236,9 @@ ii   ucf                      3.0043                             all    Update C
 ii   unzip                    6.0-26                             amd64  De-archiver for .zip files
 ii   util-linux               2.37.3-1+b1                        amd64  miscellaneous system utilities
 ii   vim-common               2:8.2.3995-1                       all    Vi IMproved - Common files
-ii   vim-tiny                 2:8.2.3995-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                 2:8.2.3995-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                      2:8.2.3995-1                       amd64  tool to make (or reverse) a hex dump
+ii   xxd                      2:8.2.3995-1+b1                    amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-2                    amd64  compression library - runtime
 ii   zsh                      5.8-10+b1                          amd64  shell with lots of features
 ii   zsh-common               5.8-10                             all    architecture independent files for Zsh
