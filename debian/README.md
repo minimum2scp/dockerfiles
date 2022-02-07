@@ -97,7 +97,7 @@ ii   libtinfo6               6.3-2                              amd64  shared lo
 ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
 ii   libudev1                250.3-2                            amd64  libudev shared library
-ii   libunistring2           0.9.10-6                           amd64  Unicode string library for C
+ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-3                       amd64  fast lossless compression algorithm

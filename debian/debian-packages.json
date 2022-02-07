@@ -2215,10 +2215,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1596",
+    "Installed-Size": "1767",
     "Origin": "",
     "Package": "libunistring2",
     "Pre-Depends": "",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.9.10-6",
+    "Version": "1.0-1",
     "binary:Package": "libunistring2:amd64",
     "binary:Summary": "Unicode string library for C",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libunistring",
-    "source:Version": "0.9.10-6"
+    "source:Version": "1.0-1"
   },
   {
     "Architecture": "amd64",
