@@ -199,7 +199,7 @@ ii   login                    1:4.11.1+dfsg1-1                   amd64  system l
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.10.0-2                           amd64  tools for reading manual pages
+ii   man-db                   2.10.1-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   media-types              5.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.3-1+b1                        amd64  tools for mounting and manipulating filesystems
