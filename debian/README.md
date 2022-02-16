@@ -40,7 +40,7 @@ ii   gpgv                    2.2.27-3                           amd64  GNU priva
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.61                               all    helper tools for all init systems
+ii   init-system-helpers     1.62                               all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.3.15                             amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
@@ -48,8 +48,8 @@ ii   libaudit-common         1:3.0.7-1                          all    Dynamic l
 ii   libaudit1               1:3.0.7-1                          amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.3-1+b1                        amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.33-5                             amd64  GNU C Library: Binaries
-ii   libc6                   2.33-5                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.33-6                             amd64  GNU C Library: Binaries
+ii   libc6                   2.33-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
