@@ -91,7 +91,7 @@ ii   grep                     3.7-1                              amd64  GNU grep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.10-4                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.61                               all    helper tools for all init systems
+ii   init-system-helpers      1.62                               all    helper tools for all init systems
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
@@ -103,9 +103,9 @@ ii   libblkid1                2.37.3-1+b1                        amd64  block de
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.5-1+b1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.33-5                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.33-5                             all    GNU C Library: localization files
-ii   libc6                    2.33-5                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.33-6                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.33-6                             all    GNU C Library: localization files
+ii   libc6                    2.33-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -194,7 +194,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.33-5                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.33-6                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-1                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
@@ -206,9 +206,9 @@ ii   mount                    2.37.3-1+b1                        amd64  tools fo
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:8.7p1-4                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:8.7p1-4                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:8.7p1-4                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:8.8p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:8.8p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:8.8p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-1                   amd64  change and administer password and group data
@@ -221,7 +221,7 @@ ii   python3-minimal          3.9.8-1                            amd64  minimal 
 ii   python3.9                3.9.10-1                           amd64  Interactive high-level object-oriented language (version 3.9)
 ii   python3.9-minimal        3.9.10-1                           amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1.2-1                            all    GNU readline and history libraries, common files
-ii   rsyslog                  8.2112.0-2+b1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2202.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
