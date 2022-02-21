@@ -48,8 +48,8 @@ ii   libaudit-common         1:3.0.7-1                          all    Dynamic l
 ii   libaudit1               1:3.0.7-1                          amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.3-1+b1                        amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.33-6                             amd64  GNU C Library: Binaries
-ii   libc6                   2.33-6                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.33-7                             amd64  GNU C Library: Binaries
+ii   libc6                   2.33-7                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
