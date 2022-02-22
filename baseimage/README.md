@@ -93,7 +93,7 @@ ii   gzip                     1.10-4                             amd64  GNU comp
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.62                               all    helper tools for all init systems
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
-ii   insserv                  1.23.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0            2.3.15                             amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
@@ -118,7 +118,7 @@ ii   libdebconfclient0        0.261                              amd64  Debian C
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.4.5-2                            amd64  XML parsing C library - runtime library
+ii   libexpat1                2.4.6-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
@@ -130,13 +130,13 @@ ii   libgdbm6                 1.23-1                             amd64  GNU dbm 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.3-4+b1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2         1.18.3-7                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2         1.19.2-2                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3             1.18.3-7                           amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3             1.19.2-2                           amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1             1.6.1-2                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                1.18.3-7                           amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0          1.18.3-7                           amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                1.19.2-2                           amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0          1.19.2-2                           amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2            2.4.59+dfsg-1+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.5-1.1                          amd64  log normalizing library
 ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
