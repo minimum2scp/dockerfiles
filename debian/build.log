@@ -89,14 +89,14 @@ I: Retrieving init-system-helpers 1.62
 I: Validating init-system-helpers 1.62
 I: Retrieving libkeyutils1 1.6.1-2
 I: Validating libkeyutils1 1.6.1-2
-I: Retrieving libgssapi-krb5-2 1.18.3-7
-I: Validating libgssapi-krb5-2 1.18.3-7
-I: Retrieving libk5crypto3 1.18.3-7
-I: Validating libk5crypto3 1.18.3-7
-I: Retrieving libkrb5-3 1.18.3-7
-I: Validating libkrb5-3 1.18.3-7
-I: Retrieving libkrb5support0 1.18.3-7
-I: Validating libkrb5support0 1.18.3-7
+I: Retrieving libgssapi-krb5-2 1.19.2-2
+I: Validating libgssapi-krb5-2 1.19.2-2
+I: Retrieving libk5crypto3 1.19.2-2
+I: Validating libk5crypto3 1.19.2-2
+I: Retrieving libkrb5-3 1.19.2-2
+I: Validating libkrb5-3 1.19.2-2
+I: Retrieving libkrb5support0 1.19.2-2
+I: Validating libkrb5support0 1.19.2-2
 I: Retrieving libcap-ng0 0.7.9-2.2+b1
 I: Validating libcap-ng0 0.7.9-2.2+b1
 I: Retrieving libcap2 1:2.44-1
@@ -515,10 +515,10 @@ Sending build context to Docker daemon  34.17MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> de453a3bf4dd
+ ---> 58f447cd34a4
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 8e76b92aedc7
-Removing intermediate container 8e76b92aedc7
- ---> c4a808e0bb66
-Successfully built c4a808e0bb66
+ ---> Running in 6351db149003
+Removing intermediate container 6351db149003
+ ---> 97083c5a16ef
+Successfully built 97083c5a16ef
 Successfully tagged minimum2scp/debian:latest
