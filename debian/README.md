@@ -32,7 +32,7 @@ ii   debianutils             5.7-0.1                            amd64  Miscellan
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                    1.21.1                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
-ii   findutils               4.8.0-1                            amd64  utilities for finding files--find, xargs
+ii   findutils               4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-12-base             12-20220222-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
