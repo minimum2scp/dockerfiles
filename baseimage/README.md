@@ -80,7 +80,7 @@ ii   diffutils                1:3.7-5                            amd64  File com
 ii   dpkg                     1.21.1                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
-ii   findutils                4.8.0-1                            amd64  utilities for finding files--find, xargs
+ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base              10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-12-base              12-20220222-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
@@ -206,9 +206,9 @@ ii   mount                    2.37.3-1+b1                        amd64  tools fo
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:8.8p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:8.8p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:8.8p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:8.9p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:8.9p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:8.9p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-1                   amd64  change and administer password and group data
