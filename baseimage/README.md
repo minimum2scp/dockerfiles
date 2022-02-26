@@ -167,8 +167,8 @@ ii   libpython3.9-minimal     3.9.10-2                           amd64  Minimal 
 ii   libpython3.9-stdlib      3.9.10-2                           amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8             8.1.2-1                            amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.27+dfsg2-3                     amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.27+dfsg2-3                     amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-2                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-2                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
@@ -206,9 +206,9 @@ ii   mount                    2.37.3-1+b1                        amd64  tools fo
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:8.9p1-2                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:8.9p1-2                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:8.9p1-2                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:8.9p1-3                          amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:8.9p1-3                          amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:8.9p1-3                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-1                   amd64  change and administer password and group data
