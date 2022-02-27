@@ -117,7 +117,7 @@ ii   libdebconfclient0       0.260                           amd64  Debian Confi
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.10-2+deb11u1                amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.10-2+deb11u2                amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.2-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
@@ -166,8 +166,8 @@ ii   libpython3.9-minimal    3.9.2-1                         amd64  Minimal subs
 ii   libpython3.9-stdlib     3.9.2-1                         amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8            8.1-1                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27+dfsg-2.1                 amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27+dfsg-2.1                 amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27+dfsg-2.1+deb11u1         amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27+dfsg-2.1+deb11u1         amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.5.1-1+deb11u1                 amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.1-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                           all    Common files for SELinux policy management libraries

@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.10-2+deb11u1",
+    "Version": "2.2.10-2+deb11u2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.2.10-2+deb11u1"
+    "source:Version": "2.2.10-2+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -2971,7 +2971,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-2.1), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27+dfsg-2.1+deb11u1), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "188",
@@ -2980,12 +2980,12 @@
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-2.1)",
+    "Recommends": "libsasl2-modules (>= 2.1.27+dfsg-2.1+deb11u1)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-2.1",
+    "Version": "2.1.27+dfsg-2.1+deb11u1",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-2.1"
+    "source:Version": "2.1.27+dfsg-2.1+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27+dfsg-2.1",
+    "Version": "2.1.27+dfsg-2.1+deb11u1",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27+dfsg-2.1"
+    "source:Version": "2.1.27+dfsg-2.1+deb11u1"
   },
   {
     "Architecture": "amd64",
