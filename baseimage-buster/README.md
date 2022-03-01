@@ -118,7 +118,7 @@ ii   libedit2                3.1-20181209-1               amd64  BSD editline an
 ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.6-2+deb10u2              amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.6-2+deb10u3              amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.5-1+deb10u3             amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
@@ -167,8 +167,8 @@ ii   libpython2.7-minimal    2.7.16-2+deb10u1             amd64  Minimal subset 
 ii   libpython2.7-stdlib     2.7.16-2+deb10u1             amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2              2.1.27+dfsg-1+deb10u1        amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db     2.1.27+dfsg-1+deb10u1        amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2              2.1.27+dfsg-1+deb10u2        amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db     2.1.27+dfsg-1+deb10u2        amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2             2.3.3-4                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1             2.8-1+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common      2.8-2                        all    Common files for SELinux policy management libraries
