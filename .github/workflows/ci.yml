@@ -7,7 +7,7 @@ jobs:
     name: debian
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage:latest baseimage
 
       # setup ruby
@@ -61,7 +61,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/ruby:latest ruby
 
       # setup ruby
@@ -95,7 +95,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/nodejs:latest nodejs
 
       # setup ruby
@@ -126,7 +126,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/es-kibana:latest es-kibana
 
       # setup ruby
@@ -160,7 +160,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/systemd:latest systemd
 
       # setup ruby
@@ -191,7 +191,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/squid:latest squid
 
       # setup ruby
@@ -222,7 +222,7 @@ jobs:
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/norikra:latest norikra
 
       # setup ruby
@@ -253,7 +253,7 @@ jobs:
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/ruby-full:latest ruby-full
 
       # setup ruby
@@ -284,7 +284,7 @@ jobs:
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/rails6:latest rails6
 
       # setup ruby
@@ -315,7 +315,7 @@ jobs:
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/tdiary:latest tdiary
 
       # setup ruby
@@ -339,7 +339,7 @@ jobs:
     name: debian-bullseye
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -359,7 +359,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-bullseye:latest baseimage-bullseye
 
       # setup ruby
@@ -393,7 +393,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/ruby-bullseye:latest ruby-bullseye
 
       # setup ruby
@@ -424,7 +424,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/systemd-bullseye:latest systemd-bullseye
 
       # setup ruby
@@ -448,7 +448,7 @@ jobs:
     name: debian-buster
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -468,7 +468,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
 
       # setup ruby
@@ -502,7 +502,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/ruby-buster:latest ruby-buster
 
       # setup ruby
@@ -533,7 +533,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/systemd-buster:latest systemd-buster
 
       # setup ruby
@@ -557,7 +557,7 @@ jobs:
     name: debian-stretch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -577,7 +577,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
 
       # setup ruby
@@ -611,7 +611,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/ruby-stretch:latest ruby-stretch
 
       # setup ruby
@@ -642,7 +642,7 @@ jobs:
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/systemd-stretch:latest systemd-stretch
 
       # setup ruby

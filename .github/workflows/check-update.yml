@@ -9,7 +9,7 @@ jobs:
     name: debian
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: debian
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -104,7 +104,7 @@ jobs:
     name: debian-bullseye
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -152,7 +152,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: debian-bullseye
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -199,7 +199,7 @@ jobs:
     name: debian-buster
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -247,7 +247,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: debian-buster
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -294,7 +294,7 @@ jobs:
     name: debian-stretch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -342,7 +342,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: debian-stretch
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
