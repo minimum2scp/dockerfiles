@@ -82,7 +82,7 @@ ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base              10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-12-base              12-20220222-1                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base              12-20220302-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.35.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.35.1-1                         all    fast, scalable, distributed revision control system (manual pages)
@@ -123,7 +123,7 @@ ii   libext2fs2               1.46.5-2                           amd64  ext2/ext
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.10.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                12-20220222-1                      amd64  GCC support library
+ii   libgcc-s1                12-20220302-1                      amd64  GCC support library
 ii   libgcrypt20              1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
@@ -178,9 +178,9 @@ ii   libslang2                2.3.2-5                            amd64  S-Lang p
 ii   libsmartcols1            2.37.3-1+b1                        amd64  smart column output alignment library
 ii   libsqlite3-0             3.38.0-1                           amd64  SQLite 3 shared library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
-ii   libssh2-1                1.10.0-2                           amd64  SSH2 client-side library
+ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               12-20220222-1                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6               12-20220302-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0              250.3-2                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3-2                              amd64  shared low-level terminfo library for terminal handling
