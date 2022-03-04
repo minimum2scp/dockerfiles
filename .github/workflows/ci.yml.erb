@@ -61,10 +61,10 @@ images = {
       <%- end -%>
       <%- if image_conf[:build_image] -%>
       # build image
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/<%= image %>:latest <%= image %>
       <%- else -%>
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       <%- end -%>
 
       # setup ruby
