@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                           all    Common C
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
 ii   curl                     7.81.0-1                           amd64  command line tool for transferring data with URL syntax
-ii   dash                     0.5.11+git20210903+057cd650a4ed-3  amd64  POSIX-compliant shell
+ii   dash                     0.5.11+git20210903+057cd650a4ed-7  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
@@ -118,7 +118,7 @@ ii   libdebconfclient0        0.261                              amd64  Debian C
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.4.6-1                            amd64  XML parsing C library - runtime library
+ii   libexpat1                2.4.7-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
@@ -134,7 +134,7 @@ ii   libgssapi-krb5-2         1.19.2-2                           amd64  MIT Kerb
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3             1.19.2-2                           amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1             1.6.1-2                            amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1             1.6.1-3                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.19.2-2                           amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.19.2-2                           amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2            2.4.59+dfsg-1+b1                   amd64  OpenLDAP libraries
@@ -195,7 +195,7 @@ ii   libxxhash0               0.8.1-1                            amd64  shared l
 ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.33-7                             all    GNU C Library: National Language (locale) data [support]
-ii   login                    1:4.11.1+dfsg1-1                   amd64  system login tools
+ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
@@ -211,7 +211,7 @@ ii   openssh-server           1:8.9p1-3                          amd64  secure s
 ii   openssh-sftp-server      1:8.9p1-3                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1m-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
-ii   passwd                   1:4.11.1+dfsg1-1                   amd64  change and administer password and group data
+ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl                     5.34.0-3                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.34.0-3                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-3                           all    Core Perl modules
