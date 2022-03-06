@@ -6,7 +6,7 @@
     "Depends": "passwd, debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "849",
+    "Installed-Size": "846",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl",
-    "Version": "3.118",
+    "Version": "3.120",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.118"
+    "source:Version": "3.120"
   },
   {
     "Architecture": "amd64",
@@ -311,10 +311,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.81.0-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.82.0-1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "449",
+    "Installed-Size": "447",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.81.0-1",
+    "Version": "7.82.0-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.81.0-1"
+    "source:Version": "7.82.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1434,7 +1434,7 @@
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.33), libgnutls30 (>= 3.7.2), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnettle8, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "757",
+    "Installed-Size": "758",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.81.0-1",
+    "Version": "7.82.0-1",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.81.0-1"
+    "source:Version": "7.82.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1462,7 +1462,7 @@
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.33), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.1 (>= 1.1.1), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "769",
+    "Installed-Size": "774",
     "Origin": "",
     "Package": "libcurl4",
     "Pre-Depends": "",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.81.0-1",
+    "Version": "7.82.0-1",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.81.0-1"
+    "source:Version": "7.82.0-1"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "96",
+    "Installed-Size": "97",
     "Origin": "",
     "Package": "media-types",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.0.0",
+    "Version": "6.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "5.0.0"
+    "source:Version": "6.0.0"
   },
   {
     "Architecture": "amd64",
