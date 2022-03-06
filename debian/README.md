@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.118                              all    add and remove users and groups
+ii   adduser                 3.120                              all    add and remove users and groups
 ii   apt                     2.4.0                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files

@@ -6,7 +6,7 @@
     "Depends": "passwd, debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "849",
+    "Installed-Size": "846",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl",
-    "Version": "3.118",
+    "Version": "3.120",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.118"
+    "source:Version": "3.120"
   },
   {
     "Architecture": "amd64",
