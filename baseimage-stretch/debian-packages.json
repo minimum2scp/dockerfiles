@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.2.0-2+deb9u4",
+    "Version": "2.2.0-2+deb9u5",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.2.0-2+deb9u4"
+    "source:Version": "2.2.0-2+deb9u5"
   },
   {
     "Architecture": "amd64",
@@ -2915,21 +2915,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)",
-    "Depends": "libsasl2-modules-db (>= 2.1.27~101-g0780600+dfsg-3+deb9u1), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.27~101-g0780600+dfsg-3+deb9u2), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "183",
+    "Installed-Size": "184",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.27~101-g0780600+dfsg-3+deb9u1)",
+    "Recommends": "libsasl2-modules (>= 2.1.27~101-g0780600+dfsg-3+deb9u2)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "Version": "2.1.27~101-g0780600+dfsg-3+deb9u2",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~101-g0780600+dfsg-3+deb9u1"
+    "source:Version": "2.1.27~101-g0780600+dfsg-3+deb9u2"
   },
   {
     "Architecture": "amd64",
@@ -2946,7 +2946,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "96",
+    "Installed-Size": "97",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.27~101-g0780600+dfsg-3+deb9u1",
+    "Version": "2.1.27~101-g0780600+dfsg-3+deb9u2",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.27~101-g0780600+dfsg-3+deb9u1"
+    "source:Version": "2.1.27~101-g0780600+dfsg-3+deb9u2"
   },
   {
     "Architecture": "amd64",
