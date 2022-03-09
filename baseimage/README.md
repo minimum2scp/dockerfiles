@@ -160,7 +160,7 @@ ii   libpcre3                 2:8.39-13                          amd64  Old Perl
 ii   libperl5.34              5.34.0-3                           amd64  shared Perl library
 ii   libpipeline1             1.5.5-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
-ii   libprocps8               2:3.3.17-7                         amd64  library for accessing process information from /proc
+ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib        3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.9-minimal     3.9.10-2                           amd64  Minimal subset of the Python language (version 3.9)
@@ -215,7 +215,7 @@ ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change a
 ii   perl                     5.34.0-3                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.34.0-3                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-3                           all    Core Perl modules
-ii   procps                   2:3.3.17-7                         amd64  /proc file system utilities
+ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   python3                  3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
 ii   python3.9                3.9.10-2                           amd64  Interactive high-level object-oriented language (version 3.9)
