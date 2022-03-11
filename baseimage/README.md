@@ -170,7 +170,7 @@ ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit 
 ii   libsasl2-2               2.1.28+dfsg-2                      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db      2.1.28+dfsg-2                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
-ii   libselinux1              3.3-1+b1                           amd64  SELinux runtime shared libraries
+ii   libselinux1              3.3-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.3-1+b2                           amd64  SELinux policy management library
 ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
