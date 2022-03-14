@@ -30,13 +30,13 @@ ii   debconf                 1.5.79                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                    1.21.1                             amd64  Debian package management system
+ii   dpkg                    1.21.2                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-10-base             10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-12-base             12-20220302-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.27-3                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.27-3+b1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.10-4                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
@@ -45,7 +45,7 @@ ii   libacl1                 2.3.1-1                            amd64  access co
 ii   libapt-pkg6.0           2.4.1                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.7-1                          all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.7-1                          amd64  Dynamic library for security auditing
+ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.37.3-1+b1                        amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.33-7                             amd64  GNU C Library: Binaries
@@ -63,13 +63,13 @@ ii   libgcrypt20             1.9.4-5                            amd64  LGPL Cryp
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.3-4+b1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.43-3                             amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.19.2-2                           amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.19.2-2                           amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-3                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.19.2-2                           amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.19.2-2                           amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2                            amd64  XZ-format compression library
 ii   libmount1               2.37.3-1+b1                        amd64  device mounting library
