@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                  3.120                              all    add and remove users and groups
+ii   adduser                  3.121                              all    add and remove users and groups
 ii   apt                      2.4.1                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                           all    Common C
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
 ii   curl                     7.82.0-1+b1                        amd64  command line tool for transferring data with URL syntax
-ii   dash                     0.5.11+git20210903+057cd650a4ed-7  amd64  POSIX-compliant shell
+ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
@@ -181,13 +181,13 @@ ii   libss2                   1.46.5-2                           amd64  command-
 ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12-20220313-1                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0              250.3-2                            amd64  systemd utility library
+ii   libsystemd0              250.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3-2                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 250.3-2                            amd64  libudev shared library
+ii   libudev1                 250.4-1                            amd64  libudev shared library
 ii   libunistring2            1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                 2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library

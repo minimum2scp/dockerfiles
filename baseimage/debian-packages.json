@@ -6,7 +6,7 @@
     "Depends": "passwd, debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "846",
+    "Installed-Size": "755",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -16,8 +16,8 @@
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "liblocale-gettext-perl, perl",
-    "Version": "3.120",
+    "Suggests": "liblocale-gettext-perl, perl, cron",
+    "Version": "3.121",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.120"
+    "source:Version": "3.121"
   },
   {
     "Architecture": "amd64",
@@ -339,10 +339,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "debianutils (>= 5.6-0.1), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "debianutils (>= 5.6-0.1), dpkg (>= 1.19.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "215",
+    "Installed-Size": "214",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.33)",
@@ -353,7 +353,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.11+git20210903+057cd650a4ed-7",
+    "Version": "0.5.11+git20210903+057cd650a4ed-8",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.11+git20210903+057cd650a4ed-7"
+    "source:Version": "0.5.11+git20210903+057cd650a4ed-8"
   },
   {
     "Architecture": "all",
@@ -626,7 +626,7 @@
     "Origin": "",
     "Package": "gcc-12-base",
     "Pre-Depends": "",
-    "Priority": "optional",
+    "Priority": "required",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
@@ -3394,7 +3394,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "985",
+    "Installed-Size": "986",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "libc6 (>= 2.33), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.9.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "250.3-2",
+    "Version": "250.4-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "250.3-2"
+    "source:Version": "250.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "297",
+    "Installed-Size": "294",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "250.3-2",
+    "Version": "250.4-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "250.3-2"
+    "source:Version": "250.4-1"
   },
   {
     "Architecture": "amd64",
