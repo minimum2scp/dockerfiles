@@ -33,8 +33,8 @@ I: Retrieving libdebconfclient0 0.261
 I: Validating libdebconfclient0 0.261
 I: Retrieving coreutils 8.32-4.1
 I: Validating coreutils 8.32-4.1
-I: Retrieving dash 0.5.11+git20210903+057cd650a4ed-7
-I: Validating dash 0.5.11+git20210903+057cd650a4ed-7
+I: Retrieving dash 0.5.11+git20210903+057cd650a4ed-8
+I: Validating dash 0.5.11+git20210903+057cd650a4ed-8
 I: Retrieving libdb5.3 5.3.28+dfsg1-0.8
 I: Validating libdb5.3 5.3.28+dfsg1-0.8
 I: Retrieving debconf 1.5.79
@@ -61,12 +61,12 @@ I: Retrieving findutils 4.9.0-2
 I: Validating findutils 4.9.0-2
 I: Retrieving gcc-10-base 10.3.0-14
 I: Validating gcc-10-base 10.3.0-14
-I: Retrieving gcc-12-base 12-20220302-1
-I: Validating gcc-12-base 12-20220302-1
-I: Retrieving libgcc-s1 12-20220302-1
-I: Validating libgcc-s1 12-20220302-1
-I: Retrieving libstdc++6 12-20220302-1
-I: Validating libstdc++6 12-20220302-1
+I: Retrieving gcc-12-base 12-20220313-1
+I: Validating gcc-12-base 12-20220313-1
+I: Retrieving libgcc-s1 12-20220313-1
+I: Validating libgcc-s1 12-20220313-1
+I: Retrieving libstdc++6 12-20220313-1
+I: Validating libstdc++6 12-20220313-1
 I: Retrieving gcc-9-base 9.4.0-5
 I: Validating gcc-9-base 9.4.0-5
 I: Retrieving libc-bin 2.33-7
@@ -480,6 +480,7 @@ I: Configuring tar...
 I: Configuring coreutils...
 I: Configuring dpkg...
 I: Configuring mount...
+I: Configuring dash...
 I: Configuring grep...
 I: Configuring perl-base...
 I: Configuring init-system-helpers...
@@ -488,7 +489,6 @@ I: Configuring debconf...
 I: Configuring tzdata...
 I: Configuring libpam0g:amd64...
 I: Configuring util-linux...
-I: Configuring dash...
 I: Configuring libssl1.1:amd64...
 I: Configuring libpam-modules-bin...
 I: Configuring libkrb5-3:amd64...
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.44MB
+Sending build context to Docker daemon  34.43MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 54ce07924573
+ ---> 5192b7ea2bba
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4563db39efde
-Removing intermediate container 4563db39efde
- ---> a81b6ea04766
-Successfully built a81b6ea04766
+ ---> Running in 02a2c811e84b
+Removing intermediate container 02a2c811e84b
+ ---> 1e7791916db6
+Successfully built 1e7791916db6
 Successfully tagged minimum2scp/debian:latest
