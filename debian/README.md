@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.120                              all    add and remove users and groups
+ii   adduser                 3.121                              all    add and remove users and groups
 ii   apt                     2.4.1                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
@@ -89,14 +89,14 @@ ii   libsemanage2            3.3-1+b2                           amd64  SELinux p
 ii   libsepol2               3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.37.3-1+b1                        amd64  smart column output alignment library
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
-ii   libssl1.1               1.1.1m-1                           amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1n-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              12-20220313-1                      amd64  GNU Standard C++ Library v3
-ii   libsystemd0             250.3-2                            amd64  systemd utility library
+ii   libsystemd0             250.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3-2                              amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
-ii   libudev1                250.3-2                            amd64  libudev shared library
+ii   libudev1                250.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
