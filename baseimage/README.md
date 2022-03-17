@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.121                              all    add and remove users and groups
-ii   apt                      2.4.1                              amd64  commandline package manager
+ii   apt                      2.4.2                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-6                              amd64  GNU Bourne Again SHell
@@ -81,7 +81,6 @@ ii   dpkg                     1.21.2                             amd64  Debian p
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
-ii   gcc-10-base              10.3.0-14                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-12-base              12-20220313-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.35.1-1                         amd64  fast, scalable, distributed revision control system
@@ -95,7 +94,7 @@ ii   init-system-helpers      1.62                               all    helper t
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.4.1                              amd64  package management runtime library
+ii   libapt-pkg6.0            2.4.2                              amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
@@ -163,8 +162,8 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib        3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.9-minimal     3.9.10-2                           amd64  Minimal subset of the Python language (version 3.9)
-ii   libpython3.9-stdlib      3.9.10-2                           amd64  Interactive high-level object-oriented language (standard library, version 3.9)
+ii   libpython3.9-minimal     3.9.11-1                           amd64  Minimal subset of the Python language (version 3.9)
+ii   libpython3.9-stdlib      3.9.11-1                           amd64  Interactive high-level object-oriented language (standard library, version 3.9)
 ii   libreadline8             8.1.2-1                            amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.28+dfsg-2+b1                   amd64  Cyrus SASL - authentication abstraction library
@@ -218,8 +217,8 @@ ii   perl-modules-5.34        5.34.0-3                           all    Core Per
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   python3                  3.9.8-1                            amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal          3.9.8-1                            amd64  minimal subset of the Python language (default python3 version)
-ii   python3.9                3.9.10-2                           amd64  Interactive high-level object-oriented language (version 3.9)
-ii   python3.9-minimal        3.9.10-2                           amd64  Minimal subset of the Python language (version 3.9)
+ii   python3.9                3.9.11-1                           amd64  Interactive high-level object-oriented language (version 3.9)
+ii   python3.9-minimal        3.9.11-1                           amd64  Minimal subset of the Python language (version 3.9)
 ii   readline-common          8.1.2-1                            all    GNU readline and history libraries, common files
 ii   rsyslog                  8.2202.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
