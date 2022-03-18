@@ -198,7 +198,7 @@ ii   login                    1:4.11.1+dfsg1-2                   amd64  system l
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.10.1-1                           amd64  tools for reading manual pages
+ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   media-types              6.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.3-1+b1                        amd64  tools for mounting and manipulating filesystems
@@ -238,7 +238,7 @@ ii   vim-common               2:8.2.3995-1                       all    Vi IMpro
 ii   vim-tiny                 2:8.2.3995-1+b2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.3995-1+b2                    amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                   1:1.2.11.dfsg-2                    amd64  compression library - runtime
+ii   zlib1g                   1:1.2.11.dfsg-3                    amd64  compression library - runtime
 ii   zsh                      5.8.1-1                            amd64  shell with lots of features
 ii   zsh-common               5.8.1-1                            all    architecture independent files for Zsh
 ii   zstd                     1.4.8+dfsg-3                       amd64  fast lossless compression algorithm -- CLI tool

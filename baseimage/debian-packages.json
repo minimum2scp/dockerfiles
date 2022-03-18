@@ -3870,7 +3870,7 @@
     "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.33), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2981",
+    "Installed-Size": "2979",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.10.1-1",
+    "Version": "2.10.2-1",
     "binary:Package": "man-db",
     "binary:Summary": "tools for reading manual pages",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.10.1-1"
+    "source:Version": "2.10.2-1"
   },
   {
     "Architecture": "amd64",
@@ -5001,7 +5001,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.2.11.dfsg-2",
+    "Version": "1:1.2.11.dfsg-3",
     "binary:Package": "zlib1g:amd64",
     "binary:Summary": "compression library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -5009,7 +5009,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zlib",
-    "source:Version": "1:1.2.11.dfsg-2"
+    "source:Version": "1:1.2.11.dfsg-3"
   },
   {
     "Architecture": "amd64",
