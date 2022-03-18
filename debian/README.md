@@ -114,5 +114,5 @@ ii   sysvinit-utils          3.01-1                             amd64  System-V-
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021e-1                            all    time zone and daylight-saving time data
 ii   util-linux              2.37.3-1+b1                        amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.11.dfsg-2                    amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-3                    amd64  compression library - runtime
 ```
