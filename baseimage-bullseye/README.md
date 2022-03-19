@@ -117,7 +117,7 @@ ii   libdebconfclient0       0.260                           amd64  Debian Confi
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
 ii   liberror-perl           0.17029-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1+b1                   amd64  Helper functions for handling strings (lib)
-ii   libexpat1               2.2.10-2+deb11u2                amd64  XML parsing C library - runtime library
+ii   libexpat1               2.2.10-2+deb11u3                amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.46.2-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4            0.99.9-1                        amd64  fast json library for C
 ii   libffi7                 3.3-6                           amd64  Foreign Function Interface library runtime
@@ -178,7 +178,7 @@ ii   libsmartcols1           2.36.1-8+deb11u1                amd64  smart column
 ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.2-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1k-1+deb11u1                amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1k-1+deb11u2                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-6                         amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -208,7 +208,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1k-1+deb11u1                amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1k-1+deb11u2                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-4+deb11u2                amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-4+deb11u2                amd64  minimal Perl system
