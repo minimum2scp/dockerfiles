@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.37.3-1+b1                      amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-137                         amd64  process scheduling daemon
-ii   curl                     7.82.0-1+b1                        amd64  command line tool for transferring data with URL syntax
+ii   cron                     3.0pl1-137.1                       amd64  process scheduling daemon
+ii   curl                     7.82.0-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -81,7 +81,7 @@ ii   dpkg                     1.21.2                             amd64  Debian p
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base              12-20220313-1                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base              12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.35.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.35.1-1                         all    fast, scalable, distributed revision control system (manual pages)
@@ -110,8 +110,8 @@ ii   libcap2                  1:2.44-1                           amd64  POSIX 10
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
 ii   libcrypt1                1:4.4.27-1.1                       amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.82.0-1+b1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.82.0-1+b1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.82.0-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.82.0-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.261                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -122,7 +122,7 @@ ii   libext2fs2               1.46.5-2                           amd64  ext2/ext
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.10.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                12-20220313-1                      amd64  GCC support library
+ii   libgcc-s1                12-20220319-1                      amd64  GCC support library
 ii   libgcrypt20              1.9.4-5                            amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
@@ -179,7 +179,7 @@ ii   libsqlite3-0             3.38.1-1                           amd64  SQLite 3
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1n-1                           amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               12-20220313-1                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6               12-20220319-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0              250.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3-2                              amd64  shared low-level terminfo library for terminal handling
