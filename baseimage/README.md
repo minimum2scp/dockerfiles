@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.121                              all    add and remove users and groups
-ii   apt                      2.4.2                              amd64  commandline package manager
+ii   apt                      2.4.3                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-6                              amd64  GNU Bourne Again SHell
@@ -94,7 +94,7 @@ ii   init-system-helpers      1.62                               all    helper t
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.4.2                              amd64  package management runtime library
+ii   libapt-pkg6.0            2.4.3                              amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
@@ -191,7 +191,7 @@ ii   libunistring2            1.0-1                              amd64  Unicode 
 ii   libuuid1                 2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                 1.4.8+dfsg-3                       amd64  fast lossless compression algorithm
+ii   libzstd1                 1.4.9+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.33-7                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
@@ -200,7 +200,7 @@ ii   lsb-base                 11.1.0                             all    Linux St
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
-ii   media-types              6.0.0                              all    List of standard media types and their usual file extension
+ii   media-types              7.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.3-1+b1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
@@ -225,7 +225,7 @@ ii   runit-helper             2.10.3                             all    dh-runit
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.9-1+b1                         amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.10-2                           amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.01-1                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.01-1                             amd64  System-V-like init
 ii   sysvinit-utils           3.01-1                             amd64  System-V-like utilities
@@ -241,5 +241,5 @@ ii   xxd                      2:8.2.3995-1+b2                    amd64  tool to 
 ii   zlib1g                   1:1.2.11.dfsg-3                    amd64  compression library - runtime
 ii   zsh                      5.8.1-1                            amd64  shell with lots of features
 ii   zsh-common               5.8.1-1                            all    architecture independent files for Zsh
-ii   zstd                     1.4.8+dfsg-3                       amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.4.9+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
 ```
