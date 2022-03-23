@@ -225,12 +225,12 @@ ii   runit-helper             2.10.3                             all    dh-runit
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.10-2                           amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.10-3                           amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.01-1                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.01-1                             amd64  System-V-like init
 ii   sysvinit-utils           3.01-1                             amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
-ii   tzdata                   2021e-1                            all    time zone and daylight-saving time data
+ii   tzdata                   2022a-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-26                             amd64  De-archiver for .zip files
 ii   util-linux               2.37.3-1+b1                        amd64  miscellaneous system utilities
