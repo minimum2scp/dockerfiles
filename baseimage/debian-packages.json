@@ -4637,7 +4637,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.10-2",
+    "Version": "1.9.10-3",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4645,7 +4645,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.10-2"
+    "source:Version": "1.9.10-3"
   },
   {
     "Architecture": "all",
@@ -4766,7 +4766,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3351",
+    "Installed-Size": "3353",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4777,7 +4777,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021e-1",
+    "Version": "2022a-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021e-1"
+    "source:Version": "2022a-1"
   },
   {
     "Architecture": "all",
