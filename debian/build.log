@@ -45,8 +45,8 @@ I: Retrieving debianutils 5.7-0.1
 I: Validating debianutils 5.7-0.1
 I: Retrieving diffutils 1:3.7-5
 I: Validating diffutils 1:3.7-5
-I: Retrieving dpkg 1.21.2
-I: Validating dpkg 1.21.2
+I: Retrieving dpkg 1.21.3
+I: Validating dpkg 1.21.3
 I: Retrieving e2fsprogs 1.46.5-2
 I: Validating e2fsprogs 1.46.5-2
 I: Retrieving libcom-err2 1.46.5-2
@@ -506,14 +506,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.26MB
+Sending build context to Docker daemon  34.27MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 4589f6c17d15
+ ---> b4c0bb584eed
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 00079cb4fa1a
-Removing intermediate container 00079cb4fa1a
- ---> 81bf06bb3cbf
-Successfully built 81bf06bb3cbf
+ ---> Running in 8b6f43174ade
+Removing intermediate container 8b6f43174ade
+ ---> d931c6656c4c
+Successfully built d931c6656c4c
 Successfully tagged minimum2scp/debian:latest
