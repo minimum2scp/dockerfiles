@@ -77,7 +77,7 @@ ii   debconf                  1.5.79                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                     1.21.3                             amd64  Debian package management system
+ii   dpkg                     1.21.4                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
@@ -238,7 +238,7 @@ ii   vim-common               2:8.2.3995-1                       all    Vi IMpro
 ii   vim-tiny                 2:8.2.3995-1+b2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.3995-1+b2                    amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                   1:1.2.11.dfsg-3                    amd64  compression library - runtime
+ii   zlib1g                   1:1.2.11.dfsg-4                    amd64  compression library - runtime
 ii   zsh                      5.8.1-1                            amd64  shell with lots of features
 ii   zsh-common               5.8.1-1                            all    architecture independent files for Zsh
 ii   zstd                     1.4.9+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
