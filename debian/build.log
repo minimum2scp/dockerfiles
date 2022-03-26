@@ -199,8 +199,8 @@ I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2
 I: Validating liblzma5 5.2.5-2
-I: Retrieving zlib1g 1:1.2.11.dfsg-3
-I: Validating zlib1g 1:1.2.11.dfsg-3
+I: Retrieving zlib1g 1:1.2.11.dfsg-4
+I: Validating zlib1g 1:1.2.11.dfsg-4
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting adduser...
@@ -506,14 +506,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.27MB
+Sending build context to Docker daemon  34.28MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b4c0bb584eed
+ ---> d34b4cd0d38e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 8b6f43174ade
-Removing intermediate container 8b6f43174ade
- ---> d931c6656c4c
-Successfully built d931c6656c4c
+ ---> Running in 32a3a8b72644
+Removing intermediate container 32a3a8b72644
+ ---> c95b5dc09eda
+Successfully built c95b5dc09eda
 Successfully tagged minimum2scp/debian:latest
