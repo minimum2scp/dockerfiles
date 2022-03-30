@@ -30,7 +30,7 @@ ii   debconf                 1.5.79                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                    1.21.5                             amd64  Debian package management system
+ii   dpkg                    1.21.6                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
@@ -49,7 +49,7 @@ ii   libblkid1               2.37.3-1+b1                        amd64  block dev
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.33-7                             amd64  GNU C Library: Binaries
 ii   libc6                   2.33-7                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.2+b1                       amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-2.2+b2                       amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1.1                       amd64  libcrypt shared library
