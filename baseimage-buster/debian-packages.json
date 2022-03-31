@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.3+deb10u11",
+    "Version": "10.3+deb10u12",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "10.3+deb10u11"
+    "source:Version": "10.3+deb10u12"
   },
   {
     "Architecture": "amd64",
@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>> 2.28), libc6 (<< 2.29)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3493",
+    "Installed-Size": "3494",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-10",
+    "Version": "2.28-10+deb10u1",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-10"
+    "source:Version": "2.28-10+deb10u1"
   },
   {
     "Architecture": "all",
@@ -1238,7 +1238,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4228",
+    "Installed-Size": "4229",
     "Origin": "",
     "Package": "libc-l10n",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-10",
+    "Version": "2.28-10+deb10u1",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-10"
+    "source:Version": "2.28-10+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libgcc1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12337",
+    "Installed-Size": "12333",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.28-10",
+    "Version": "2.28-10+deb10u1",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-10"
+    "source:Version": "2.28-10+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.1.2+dfsg-4",
+    "Version": "2:6.1.2+dfsg-4+deb10u1",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.1.2+dfsg-4"
+    "source:Version": "2:6.1.2+dfsg-4+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -3338,7 +3338,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4078",
+    "Installed-Size": "4101",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1d-0+deb10u8",
+    "Version": "1.1.1n-0+deb10u1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1d-0+deb10u8"
+    "source:Version": "1.1.1n-0+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3702,7 @@
     "Depends": "libc-bin (>> 2.28), libc-l10n (>> 2.28), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16106",
+    "Installed-Size": "16107",
     "Origin": "",
     "Package": "locales",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.28-10",
+    "Version": "2.28-10+deb10u1",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.28-10"
+    "source:Version": "2.28-10+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -4094,7 +4094,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1461",
+    "Installed-Size": "1466",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1d-0+deb10u8",
+    "Version": "1.1.1n-0+deb10u1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1d-0+deb10u8"
+    "source:Version": "1.1.1n-0+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -4458,7 +4458,7 @@
     "Depends": "libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), liblognorm5 (>= 2.0.3), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1812",
+    "Installed-Size": "1809",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4469,7 +4469,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.1901.0-1",
+    "Version": "8.1901.0-1+deb10u1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.1901.0-1"
+    "source:Version": "8.1901.0-1+deb10u1"
   },
   {
     "Architecture": "amd64",
@@ -4721,7 +4721,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021a-0+deb10u3",
+    "Version": "2021a-0+deb10u4",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021a-0+deb10u3"
+    "source:Version": "2021a-0+deb10u4"
   },
   {
     "Architecture": "all",
@@ -4833,7 +4833,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.1.0875-5",
+    "Version": "2:8.1.0875-5+deb10u2",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4841,13 +4841,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.0875-5"
+    "source:Version": "2:8.1.0875-5+deb10u2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.1.0875-5), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:8.1.0875-5+deb10u2), libacl1 (>= 2.2.23), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1344",
@@ -4861,7 +4861,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.1.0875-5",
+    "Version": "2:8.1.0875-5+deb10u2",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.0875-5"
+    "source:Version": "2:8.1.0875-5+deb10u2"
   },
   {
     "Architecture": "amd64",
@@ -4917,7 +4917,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.1.0875-5",
+    "Version": "2:8.1.0875-5+deb10u2",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.1.0875-5"
+    "source:Version": "2:8.1.0875-5+deb10u2"
   },
   {
     "Architecture": "amd64",
