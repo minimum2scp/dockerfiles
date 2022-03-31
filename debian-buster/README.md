@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                   all    add and remove users and groups
 ii   apt                     1.8.2.3                 amd64  commandline package manager
-ii   base-files              10.3+deb10u11           amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u12           amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                  amd64  Debian base system master password and group files
 ii   bash                    5.0-4                   amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1            amd64  basic utilities from 4.4BSD-Lite
@@ -49,8 +49,8 @@ ii   libaudit-common         1:2.8.4-3               all    Dynamic library for 
 ii   libaudit1               1:2.8.4-3               amd64  Dynamic library for security auditing
 ii   libblkid1               2.33.1-0.1              amd64  block device ID library
 ii   libbz2-1.0              1.0.6-9.2~deb10u1       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-10                 amd64  GNU C Library: Binaries
-ii   libc6                   2.28-10                 amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-10+deb10u1         amd64  GNU C Library: Binaries
+ii   libc6                   2.28-10+deb10u1         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                 amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                amd64  POSIX 1003.1e capabilities (utilities)
@@ -63,7 +63,7 @@ ii   libfdisk1               2.33.1-0.1              amd64  fdisk partitioning l
 ii   libffi6                 3.2.1-9                 amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.3.0-6               amd64  GCC support library
 ii   libgcrypt20             1.8.4-5+deb10u1         amd64  LGPL Crypto library - runtime library
-ii   libgmp10                2:6.1.2+dfsg-4          amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.1.2+dfsg-4+deb10u1  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.7-4+deb10u7         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                  amd64  GnuPG development runtime library
 ii   libhogweed4             3.4.1-1+deb10u1         amd64  low level cryptographic library (public-key cryptos)
@@ -106,7 +106,7 @@ ii   perl-base               5.28.1-6+deb10u1        amd64  minimal Perl system
 ii   sed                     4.7-1                   amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.93-8                  amd64  System-V-like utilities
 ii   tar                     1.30+dfsg-6             amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-0+deb10u3         all    time zone and daylight-saving time data
+ii   tzdata                  2021a-0+deb10u4         all    time zone and daylight-saving time data
 ii   util-linux              2.33.1-0.1              amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-1         amd64  compression library - runtime
 ```
