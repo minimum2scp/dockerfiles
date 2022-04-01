@@ -77,9 +77,9 @@ ii   debconf                  1.5.79                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                     1.21.6                             amd64  Debian package management system
+ii   dpkg                     1.21.7                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper                1.18.16-1                          all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
@@ -100,7 +100,7 @@ ii   libaudit-common          1:3.0.7-1                          all    Dynamic 
 ii   libaudit1                1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1                2.37.3-1+b1                        amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                  0.11.5-1+b1                        amd64  utility functions from BSD systems - shared library
+ii   libbsd0                  0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.33-7                             amd64  GNU C Library: Binaries
 ii   libc-l10n                2.33-7                             all    GNU C Library: localization files
@@ -142,7 +142,6 @@ ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ 
 ii   liblzma5                 5.2.5-2                            amd64  XZ-format compression library
 ii   libmd0                   1.0.4-1                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.37.3-1+b1                        amd64  device mounting library
-ii   libmpdec3                2.5.1-2                            amd64  library for decimal floating point arithmetic (runtime library)
 ii   libncurses6              6.3-2                              amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3-2                              amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -161,10 +160,6 @@ ii   libpipeline1             1.5.5-1                            amd64  Unix pro
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib        3.10.4-1                           amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.10-minimal    3.10.4-1                           amd64  Minimal subset of the Python language (version 3.10)
-ii   libpython3.10-stdlib     3.10.4-1                           amd64  Interactive high-level object-oriented language (standard library, version 3.10)
-ii   libreadline8             8.1.2-1                            amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.28+dfsg-2+b1                   amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db      2.1.28+dfsg-2+b1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -175,7 +170,6 @@ ii   libsemanage2             3.3-1+b2                           amd64  SELinux 
 ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.37.3-1+b1                        amd64  smart column output alignment library
-ii   libsqlite3-0             3.38.2-1                           amd64  SQLite 3 shared library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1n-1                           amd64  Secure Sockets Layer toolkit - shared libraries
@@ -200,7 +194,6 @@ ii   lsb-base                 11.1.0                             all    Linux St
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
-ii   media-types              7.0.0                              all    List of standard media types and their usual file extension
 ii   mount                    2.37.3-1+b1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
@@ -215,11 +208,6 @@ ii   perl                     5.34.0-3                           amd64  Larry Wa
 ii   perl-base                5.34.0-3                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-3                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   python3                  3.10.4-1                           amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal          3.10.4-1                           amd64  minimal subset of the Python language (default python3 version)
-ii   python3.10               3.10.4-1                           amd64  Interactive high-level object-oriented language (version 3.10)
-ii   python3.10-minimal       3.10.4-1                           amd64  Minimal subset of the Python language (version 3.10)
-ii   readline-common          8.1.2-1                            all    GNU readline and history libraries, common files
 ii   rsyslog                  8.2202.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
