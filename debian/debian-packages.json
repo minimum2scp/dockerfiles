@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "669",
+    "Installed-Size": "681",
     "Origin": "",
     "Package": "libpcre3",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.39-13",
+    "Version": "2:8.39-14",
     "binary:Package": "libpcre3:amd64",
     "binary:Summary": "Old Perl 5 Compatible Regular Expression Library - runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre3",
-    "source:Version": "2:8.39-13"
+    "source:Version": "2:8.39-14"
   },
   {
     "Architecture": "amd64",
@@ -2274,7 +2274,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "906",
+    "Installed-Size": "910",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.9+dfsg-1",
+    "Version": "1.4.10+dfsg-1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.9+dfsg-1"
+    "source:Version": "1.4.10+dfsg-1"
   },
   {
     "Architecture": "amd64",

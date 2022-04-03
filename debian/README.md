@@ -80,7 +80,7 @@ ii   libpam-modules-bin      1.4.0-11                           amd64  Pluggable
 ii   libpam-runtime          1.4.0-11                           all    Runtime support for the PAM library
 ii   libpam0g                1.4.0-11                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.3-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.3-1                              all    Common files for SELinux policy management libraries
@@ -99,7 +99,7 @@ ii   libudev1                250.4-1                            amd64  libudev s
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                1.4.9+dfsg-1                       amd64  fast lossless compression algorithm
+ii   libzstd1                1.4.10+dfsg-1                      amd64  fast lossless compression algorithm
 ii   login                   1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
