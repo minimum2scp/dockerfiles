@@ -154,7 +154,7 @@ ii   libpam-modules-bin       1.4.0-11                           amd64  Pluggabl
 ii   libpam-runtime           1.4.0-11                           all    Runtime support for the PAM library
 ii   libpam0g                 1.4.0-11                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libpcre3                 2:8.39-13                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
+ii   libpcre3                 2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.34              5.34.0-3                           amd64  shared Perl library
 ii   libpipeline1             1.5.5-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
@@ -185,7 +185,7 @@ ii   libunistring2            1.0-1                              amd64  Unicode 
 ii   libuuid1                 2.37.3-1+b1                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                 1.4.9+dfsg-1                       amd64  fast lossless compression algorithm
+ii   libzstd1                 1.4.10+dfsg-1                      amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.33-7                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
@@ -229,5 +229,5 @@ ii   xxd                      2:8.2.3995-1+b3                    amd64  tool to 
 ii   zlib1g                   1:1.2.11.dfsg-4                    amd64  compression library - runtime
 ii   zsh                      5.8.1-1                            amd64  shell with lots of features
 ii   zsh-common               5.8.1-1                            all    architecture independent files for Zsh
-ii   zstd                     1.4.9+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.4.10+dfsg-1                      amd64  fast lossless compression algorithm -- CLI tool
 ```
