@@ -101,8 +101,8 @@ I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
 I: Retrieving libffi8 3.4.2-4
 I: Validating libffi8 3.4.2-4
-I: Retrieving libgcrypt20 1.9.4-5
-I: Validating libgcrypt20 1.9.4-5
+I: Retrieving libgcrypt20 1.10.1-2
+I: Validating libgcrypt20 1.10.1-2
 I: Retrieving libgpg-error0 1.43-3
 I: Validating libgpg-error0 1.43-3
 I: Retrieving libidn2-0 2.3.2-2
@@ -506,14 +506,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.29MB
+Sending build context to Docker daemon  34.34MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 318d30e1d82e
+ ---> 02136c7c9f99
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c87ba7077463
-Removing intermediate container c87ba7077463
- ---> a4b6c9c34730
-Successfully built a4b6c9c34730
+ ---> Running in ce3643adc689
+Removing intermediate container ce3643adc689
+ ---> 46e280824702
+Successfully built 46e280824702
 Successfully tagged minimum2scp/debian:latest
