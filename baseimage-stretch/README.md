@@ -223,7 +223,7 @@ ii   sysv-rc                 2.88dsf-59.9                       all    System-V-
 ii   sysvinit-core           2.88dsf-59.9                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.88dsf-59.9                       amd64  System-V-like utilities
 ii   tar                     1.29b-1.1+deb9u1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-0+deb9u2                     all    time zone and daylight-saving time data
+ii   tzdata                  2021a-0+deb9u3                     all    time zone and daylight-saving time data
 ii   ucf                     3.0036                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21+deb9u2                      amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1+deb9u1                    amd64  miscellaneous system utilities
@@ -231,7 +231,7 @@ ii   vim-common              2:8.0.0197-4+deb9u5                all    Vi IMprov
 ii   vim-tiny                2:8.0.0197-4+deb9u5                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.0.0197-4+deb9u5                amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.8.dfsg-5                     amd64  compression library - runtime
+ii   zlib1g                  1:1.2.8.dfsg-5+deb9u1              amd64  compression library - runtime
 ii   zsh                     5.3.1-4+deb9u5                     amd64  shell with lots of features
 ii   zsh-common              5.3.1-4+deb9u5                     all    architecture independent files for Zsh
 ii   zstd                    1.1.2-1+deb9u1                     amd64  fast lossless compression algorithm -- CLI tool
