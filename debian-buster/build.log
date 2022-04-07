@@ -468,32 +468,38 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
 Hit:2 http://ftp.jp.debian.org/debian buster InRelease
 Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [398 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [400 kB]
 Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9733 B]
-Fetched 525 kB in 0s (1206 kB/s)
+Fetched 527 kB in 0s (1113 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  tzdata
-1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 266 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u4 [266 kB]
-Fetched 266 kB in 0s (940 kB/s)
+  tzdata zlib1g
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 357 kB of archives.
+After this operation, 4096 B disk space will be freed.
+Get:1 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
+Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u4 [266 kB]
+Fetched 357 kB in 1s (707 kB/s)
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u1_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) over (1:1.2.11.dfsg-1) ...
+Setting up zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../tzdata_2021a-0+deb10u4_all.deb ...
 Unpacking tzdata (2021a-0+deb10u4) over (2021a-0+deb10u3) ...
 Setting up tzdata (2021a-0+deb10u4) ...
-Sending build context to Docker daemon  30.25MB
+Processing triggers for libc-bin (2.28-10+deb10u1) ...
+Sending build context to Docker daemon  30.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 5d0906a6f0c7
+ ---> a1bf3cf8a9c1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c00525c60487
-Removing intermediate container c00525c60487
- ---> 87771705514a
-Successfully built 87771705514a
+ ---> Running in 9cd4ea37a9a5
+Removing intermediate container 9cd4ea37a9a5
+ ---> ddd749ce3d15
+Successfully built ddd749ce3d15
 Successfully tagged minimum2scp/debian-buster:latest
