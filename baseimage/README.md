@@ -155,7 +155,7 @@ ii   libpam-runtime           1.4.0-11                           all    Runtime 
 ii   libpam0g                 1.4.0-11                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.34              5.34.0-3                           amd64  shared Perl library
+ii   libperl5.34              5.34.0-4                           amd64  shared Perl library
 ii   libpipeline1             1.5.5-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
@@ -204,9 +204,9 @@ ii   openssh-sftp-server      1:8.9p1-3                          amd64  secure s
 ii   openssl                  1.1.1n-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
-ii   perl                     5.34.0-3                           amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.34.0-3                           amd64  minimal Perl system
-ii   perl-modules-5.34        5.34.0-3                           all    Core Perl modules
+ii   perl                     5.34.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.34.0-4                           amd64  minimal Perl system
+ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   rsyslog                  8.2202.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
