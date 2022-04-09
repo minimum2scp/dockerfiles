@@ -2526,7 +2526,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7658",
+    "Installed-Size": "7630",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -2537,7 +2537,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.34.0-3",
+    "Version": "5.34.0-4",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.34.0-3"
+    "source:Version": "5.34.0-4"
   },
   {
     "Architecture": "amd64",
