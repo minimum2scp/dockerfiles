@@ -79,8 +79,8 @@ I: Retrieving libgnutls30 3.7.3-4+b1
 I: Validating libgnutls30 3.7.3-4+b1
 I: Retrieving grep 3.7-1
 I: Validating grep 3.7-1
-I: Retrieving gzip 1.10-4
-I: Validating gzip 1.10-4
+I: Retrieving gzip 1.12-1
+I: Validating gzip 1.12-1
 I: Retrieving hostname 3.23
 I: Validating hostname 3.23
 I: Retrieving init-system-helpers 1.62
@@ -506,14 +506,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.33MB
+Sending build context to Docker daemon  34.34MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f92c0df5feb1
+ ---> 3c6383f398bb
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in b48d6cf0afe4
-Removing intermediate container b48d6cf0afe4
- ---> 3d9ff7c7e155
-Successfully built 3d9ff7c7e155
+ ---> Running in 592c93673f3f
+Removing intermediate container 592c93673f3f
+ ---> 36844894001e
+Successfully built 36844894001e
 Successfully tagged minimum2scp/debian:latest
