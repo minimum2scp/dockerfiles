@@ -88,7 +88,7 @@ ii   git-man                  1:2.35.1-1                         all    fast, sc
 ii   gpgv                     2.2.27-3+b1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
-ii   gzip                     1.10-4                             amd64  GNU compression utilities
+ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.62                               all    helper tools for all init systems
 ii   initscripts              3.01-1                             all    scripts for initializing and shutting down the system
@@ -198,9 +198,9 @@ ii   mount                    2.37.3-1+b1                        amd64  tools fo
 ii   ncurses-base             6.3-2                              all    basic terminal type definitions
 ii   ncurses-bin              6.3-2                              amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:8.9p1-3                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:8.9p1-3                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:8.9p1-3                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:9.0p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:9.0p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:9.0p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  1.1.1n-1                           amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
