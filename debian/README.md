@@ -70,7 +70,7 @@ ii   libkeyutils1            1.6.1-3                            amd64  Linux Key
 ii   libkrb5-3               1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.5-2                            amd64  XZ-format compression library
+ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmount1               2.37.3-1+b1                        amd64  device mounting library
 ii   libnettle8              3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
@@ -79,7 +79,7 @@ ii   libpam-modules          1.4.0-11                           amd64  Pluggable
 ii   libpam-modules-bin      1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-11                           all    Runtime support for the PAM library
 ii   libpam0g                1.4.0-11                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.39-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.39-4                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.3-1+b2                           amd64  SELinux runtime shared libraries

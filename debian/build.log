@@ -159,8 +159,8 @@ I: Retrieving libpam-runtime 1.4.0-11
 I: Validating libpam-runtime 1.4.0-11
 I: Retrieving libpam0g 1.4.0-11
 I: Validating libpam0g 1.4.0-11
-I: Retrieving libpcre2-8-0 10.39-3
-I: Validating libpcre2-8-0 10.39-3
+I: Retrieving libpcre2-8-0 10.39-4
+I: Validating libpcre2-8-0 10.39-4
 I: Retrieving libpcre3 2:8.39-14
 I: Validating libpcre3 2:8.39-14
 I: Retrieving perl-base 5.34.0-4
@@ -197,8 +197,8 @@ I: Retrieving util-linux 2.37.3-1+b1
 I: Validating util-linux 2.37.3-1+b1
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
-I: Retrieving liblzma5 5.2.5-2
-I: Validating liblzma5 5.2.5-2
+I: Retrieving liblzma5 5.2.5-2.1
+I: Validating liblzma5 5.2.5-2.1
 I: Retrieving zlib1g 1:1.2.11.dfsg-4
 I: Validating zlib1g 1:1.2.11.dfsg-4
 I: Chosen extractor for .deb packages: dpkg-deb
@@ -510,10 +510,10 @@ Sending build context to Docker daemon  34.34MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 3c6383f398bb
+ ---> ea09a6cf7901
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 592c93673f3f
-Removing intermediate container 592c93673f3f
- ---> 36844894001e
-Successfully built 36844894001e
+ ---> Running in fc2a34131086
+Removing intermediate container fc2a34131086
+ ---> 7a1ad589ae82
+Successfully built 7a1ad589ae82
 Successfully tagged minimum2scp/debian:latest
