@@ -2215,7 +2215,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "liblzma2 (<< 5.1.1alpha+20110809-3~)",
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.32)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "277",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.2.5-2",
+    "Version": "5.2.5-2.1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.2.5-2"
+    "source:Version": "5.2.5-2.1"
   },
   {
     "Architecture": "amd64",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.39-3",
+    "Version": "10.39-4",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.39-3"
+    "source:Version": "10.39-4"
   },
   {
     "Architecture": "amd64",
