@@ -3506,7 +3506,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "910",
+    "Installed-Size": "773",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.10+dfsg-1",
+    "Version": "1.5.2+dfsg-1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.10+dfsg-1"
+    "source:Version": "1.5.2+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -4738,7 +4738,7 @@
     "Depends": "libc6 (>= 2.33), libgcc-s1 (>= 3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1912",
+    "Installed-Size": "2029",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.4.10+dfsg-1",
+    "Version": "1.5.2+dfsg-1",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4757,6 +4757,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.4.10+dfsg-1"
+    "source:Version": "1.5.2+dfsg-1"
   }
 ]
