@@ -129,8 +129,8 @@ I: Retrieving libunistring2 1.0-1
 I: Validating libunistring2 1.0-1
 I: Retrieving libcrypt1 1:4.4.27-1.1
 I: Validating libcrypt1 1:4.4.27-1.1
-I: Retrieving libzstd1 1.4.10+dfsg-1
-I: Validating libzstd1 1.4.10+dfsg-1
+I: Retrieving libzstd1 1.5.2+dfsg-1
+I: Validating libzstd1 1.5.2+dfsg-1
 I: Retrieving lsb-base 11.1.0
 I: Validating lsb-base 11.1.0
 I: Retrieving liblz4-1 1.9.3-2
@@ -506,14 +506,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.34MB
+Sending build context to Docker daemon  34.29MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ea09a6cf7901
+ ---> c23936899b26
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in fc2a34131086
-Removing intermediate container fc2a34131086
- ---> 7a1ad589ae82
-Successfully built 7a1ad589ae82
+ ---> Running in 42a0d2d4823e
+Removing intermediate container 42a0d2d4823e
+ ---> 7173cb3264ee
+Successfully built 7173cb3264ee
 Successfully tagged minimum2scp/debian:latest
