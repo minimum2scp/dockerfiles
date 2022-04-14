@@ -29,8 +29,8 @@ I: Retrieving bash 5.1-6
 I: Validating bash 5.1-6
 I: Retrieving libbz2-1.0 1.0.8-5
 I: Validating libbz2-1.0 1.0.8-5
-I: Retrieving libdebconfclient0 0.261
-I: Validating libdebconfclient0 0.261
+I: Retrieving libdebconfclient0 0.262
+I: Validating libdebconfclient0 0.262
 I: Retrieving coreutils 8.32-4.1
 I: Validating coreutils 8.32-4.1
 I: Retrieving dash 0.5.11+git20210903+057cd650a4ed-8
@@ -75,8 +75,8 @@ I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
 I: Retrieving gpgv 2.2.27-3+b1
 I: Validating gpgv 2.2.27-3+b1
-I: Retrieving libgnutls30 3.7.3-4+b1
-I: Validating libgnutls30 3.7.3-4+b1
+I: Retrieving libgnutls30 3.7.4-2
+I: Validating libgnutls30 3.7.4-2
 I: Retrieving grep 3.7-1
 I: Validating grep 3.7-1
 I: Retrieving gzip 1.12-1
@@ -181,22 +181,22 @@ I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2022a-1
 I: Validating tzdata 2022a-1
-I: Retrieving bsdutils 1:2.38-2
-I: Validating bsdutils 1:2.38-2
-I: Retrieving libblkid1 2.38-2
-I: Validating libblkid1 2.38-2
-I: Retrieving libmount1 2.38-2
-I: Validating libmount1 2.38-2
-I: Retrieving libsmartcols1 2.38-2
-I: Validating libsmartcols1 2.38-2
-I: Retrieving libuuid1 2.38-2
-I: Validating libuuid1 2.38-2
-I: Retrieving mount 2.38-2
-I: Validating mount 2.38-2
-I: Retrieving util-linux 2.38-2
-I: Validating util-linux 2.38-2
-I: Retrieving util-linux-extra 2.38-2
-I: Validating util-linux-extra 2.38-2
+I: Retrieving bsdutils 1:2.38-4
+I: Validating bsdutils 1:2.38-4
+I: Retrieving libblkid1 2.38-4
+I: Validating libblkid1 2.38-4
+I: Retrieving libmount1 2.38-4
+I: Validating libmount1 2.38-4
+I: Retrieving libsmartcols1 2.38-4
+I: Validating libsmartcols1 2.38-4
+I: Retrieving libuuid1 2.38-4
+I: Validating libuuid1 2.38-4
+I: Retrieving mount 2.38-4
+I: Validating mount 2.38-4
+I: Retrieving util-linux 2.38-4
+I: Validating util-linux 2.38-4
+I: Retrieving util-linux-extra 2.38-4
+I: Validating util-linux-extra 2.38-4
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2.1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.38MB
+Sending build context to Docker daemon  34.39MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 048c86f407c7
+ ---> 41ed8c75bfd1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 3529964f2761
-Removing intermediate container 3529964f2761
- ---> 40ddb6dbc758
-Successfully built 40ddb6dbc758
+ ---> Running in 5c58971e853c
+Removing intermediate container 5c58971e853c
+ ---> b6c17ad9cbce
+Successfully built b6c17ad9cbce
 Successfully tagged minimum2scp/debian:latest
