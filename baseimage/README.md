@@ -148,7 +148,7 @@ ii   libnettle8               3.7.3-1                            amd64  low leve
 ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.43.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0              0.24.0-6                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin       1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.4.0-11                           all    Runtime support for the PAM library
@@ -161,8 +161,8 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-2+b1                   amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-2+b1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-3                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-3                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
