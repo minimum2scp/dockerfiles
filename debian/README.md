@@ -74,7 +74,7 @@ ii   liblzma5                5.2.5-2.1                          amd64  XZ-format
 ii   libmount1               2.38-4                             amd64  device mounting library
 ii   libnettle8              3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnsl2                 1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0             0.24.0-6                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.4.0-11                           all    Runtime support for the PAM library
