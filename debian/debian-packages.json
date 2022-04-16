@@ -2582,7 +2582,7 @@
     "Depends": "lsb-base (>= 11.0.0~), libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "81",
+    "Installed-Size": "83",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2593,7 +2593,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.01-1",
+    "Version": "3.03-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.01-1"
+    "source:Version": "3.03-1"
   },
   {
     "Architecture": "amd64",
