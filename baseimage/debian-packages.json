@@ -874,7 +874,7 @@
     "Depends": "lsb-base, sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "172",
+    "Installed-Size": "173",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.01-1",
+    "Version": "3.03-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.01-1"
+    "source:Version": "3.03-1"
   },
   {
     "Architecture": "amd64",
@@ -4318,7 +4318,7 @@
     "Depends": "insserv, lsb-base, startpar (>= 0.62-1~), sysvinit-utils (>= 2.86.ds1-62)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "82",
+    "Installed-Size": "83",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "",
@@ -4329,7 +4329,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.01-1",
+    "Version": "3.03-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.01-1"
+    "source:Version": "3.03-1"
   },
   {
     "Architecture": "amd64",
@@ -4346,7 +4346,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.33), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "279",
+    "Installed-Size": "280",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.01-1",
+    "Version": "3.03-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.01-1"
+    "source:Version": "3.03-1"
   },
   {
     "Architecture": "amd64",
@@ -4374,7 +4374,7 @@
     "Depends": "lsb-base (>= 11.0.0~), libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "81",
+    "Installed-Size": "83",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.01-1",
+    "Version": "3.03-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.01-1"
+    "source:Version": "3.03-1"
   },
   {
     "Architecture": "amd64",
