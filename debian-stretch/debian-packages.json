@@ -538,7 +538,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "231",
+    "Installed-Size": "230",
     "Origin": "",
     "Package": "gzip",
     "Pre-Depends": "libc6 (>= 2.17)",
@@ -549,7 +549,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.6-5+b1",
+    "Version": "1.6-5+deb9u1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.6-5"
+    "source:Version": "1.6-5+deb9u1"
   },
   {
     "Architecture": "amd64",
@@ -1266,7 +1266,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "339",
+    "Installed-Size": "338",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.2.2-1.2+b1",
+    "Version": "5.2.2-1.2+deb9u1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.2.2-1.2"
+    "source:Version": "5.2.2-1.2+deb9u1"
   },
   {
     "Architecture": "amd64",

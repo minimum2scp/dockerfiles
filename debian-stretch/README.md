@@ -37,7 +37,7 @@ ii   findutils               4.6.0+git+20161106-2   amd64  utilities for finding
 ii   gcc-6-base              6.3.0-18+deb9u1        amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.1.18-8~deb9u4        amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                 amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.6-5+b1               amd64  GNU compression utilities
+ii   gzip                    1.6-5+deb9u1           amd64  GNU compression utilities
 ii   hostname                3.18+b1                amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.48                   all    helper tools for all init systems
 ii   iproute2                4.9.0-1+deb9u1         amd64  networking and traffic control tools
@@ -63,7 +63,7 @@ ii   libgcrypt20             1.7.6-2+deb9u4         amd64  LGPL Crypto library -
 ii   libgpg-error0           1.26-2                 amd64  library for common error values and messages in GnuPG components
 ii   libidn11                1.33-1+deb9u1          amd64  GNU Libidn library, implementation of IETF IDN specifications
 ii   liblz4-1                0.0~r131-2+deb9u1      amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.2+b1           amd64  XZ-format compression library
+ii   liblzma5                5.2.2-1.2+deb9u1       amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1+deb9u1        amd64  device mounting library
 ii   libncursesw5            6.0+20161126-1+deb9u2  amd64  shared libraries for terminal handling (wide character support)
