@@ -88,7 +88,7 @@ ii   git-man                 1:2.11.0-3+deb9u7                  all    fast, sca
 ii   gpgv                    2.1.18-8~deb9u4                    amd64  GNU privacy guard - signature verification tool
 ii   grep                    2.27-2                             amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.3-9                           amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.6-5+b1                           amd64  GNU compression utilities
+ii   gzip                    1.6-5+deb9u1                       amd64  GNU compression utilities
 ii   hostname                3.18+b1                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.48                               all    helper tools for all init systems
 ii   initscripts             2.88dsf-59.9                       amd64  scripts for initializing and shutting down the system
@@ -140,7 +140,7 @@ ii   libldap-common          2.4.44+dfsg-5+deb9u8               all    OpenLDAP 
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+deb9u1                  amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.2-1.2+b1                       amd64  XZ-format compression library
+ii   liblzma5                5.2.2-1.2+deb9u1                   amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                            amd64  minimalistic Netlink communication library
 ii   libmount1               2.29.2-1+deb9u1                    amd64  device mounting library
 ii   libncurses5             6.0+20161126-1+deb9u2              amd64  shared libraries for terminal handling
