@@ -4966,14 +4966,14 @@
     "Origin": "",
     "Package": "zlib1g",
     "Pre-Depends": "",
-    "Priority": "optional",
+    "Priority": "required",
     "Provides": "libz1",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.2.11.dfsg-2",
+    "Version": "1:1.2.11.dfsg-2+deb11u1",
     "binary:Package": "zlib1g:amd64",
     "binary:Summary": "compression library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -4981,7 +4981,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zlib",
-    "source:Version": "1:1.2.11.dfsg-2"
+    "source:Version": "1:1.2.11.dfsg-2+deb11u1"
   },
   {
     "Architecture": "amd64",
