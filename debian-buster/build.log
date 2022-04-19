@@ -465,24 +465,34 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org buster/updates InRelease [65.4 kB]
-Hit:2 http://ftp.jp.debian.org/debian buster InRelease
-Get:3 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [400 kB]
-Get:5 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9733 B]
-Fetched 527 kB in 0s (1113 kB/s)
+Hit:1 http://ftp.jp.debian.org/debian buster InRelease
+Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
+Get:3 http://security.debian.org buster/updates InRelease [65.4 kB]
+Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9733 B]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [401 kB]
+Fetched 528 kB in 1s (879 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  tzdata zlib1g
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 357 kB of archives.
+  gzip liblzma5 tzdata zlib1g
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 638 kB of archives.
 After this operation, 4096 B disk space will be freed.
-Get:1 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
-Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u4 [266 kB]
-Fetched 357 kB in 1s (707 kB/s)
+Get:1 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u4 [266 kB]
+Get:2 http://security.debian.org buster/updates/main amd64 gzip amd64 1.9-3+deb10u1 [128 kB]
+Get:3 http://security.debian.org buster/updates/main amd64 liblzma5 amd64 5.2.4-1+deb10u1 [153 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
+Fetched 638 kB in 1s (891 kB/s)
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../gzip_1.9-3+deb10u1_amd64.deb ...
+Unpacking gzip (1.9-3+deb10u1) over (1.9-3) ...
+Setting up gzip (1.9-3+deb10u1) ...
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../liblzma5_5.2.4-1+deb10u1_amd64.deb ...
+Unpacking liblzma5:amd64 (5.2.4-1+deb10u1) over (5.2.4-1) ...
+Setting up liblzma5:amd64 (5.2.4-1+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u1_amd64.deb ...
 Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) over (1:1.2.11.dfsg-1) ...
@@ -496,10 +506,10 @@ Sending build context to Docker daemon  30.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a1bf3cf8a9c1
+ ---> 9c8292c6c007
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9cd4ea37a9a5
-Removing intermediate container 9cd4ea37a9a5
- ---> ddd749ce3d15
-Successfully built ddd749ce3d15
+ ---> Running in a0ca3692c2fa
+Removing intermediate container a0ca3692c2fa
+ ---> e12c81604544
+Successfully built e12c81604544
 Successfully tagged minimum2scp/debian-buster:latest
