@@ -577,7 +577,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.0-2",
+    "Version": "4.9.0-3",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.9.0-2"
+    "source:Version": "4.9.0-3"
   },
   {
     "Architecture": "amd64",
@@ -2831,21 +2831,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-3), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-4), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "183",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
-    "Priority": "standard",
+    "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-3)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-4)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-3",
+    "Version": "2.1.28+dfsg-4",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-3"
+    "source:Version": "2.1.28+dfsg-4"
   },
   {
     "Architecture": "amd64",
@@ -2866,14 +2866,14 @@
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
-    "Priority": "standard",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-3",
+    "Version": "2.1.28+dfsg-4",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-3"
+    "source:Version": "2.1.28+dfsg-4"
   },
   {
     "Architecture": "amd64",
@@ -4150,7 +4150,7 @@
     "Depends": "libc6 (>= 2.33), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1933",
+    "Installed-Size": "1935",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4161,7 +4161,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2202.0-1",
+    "Version": "8.2204.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4169,7 +4169,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2202.0-1"
+    "source:Version": "8.2204.0-1"
   },
   {
     "Architecture": "all",

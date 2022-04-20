@@ -80,7 +80,7 @@ ii   diffutils                1:3.7-5                            amd64  File com
 ii   dpkg                     1.21.7                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
-ii   findutils                4.9.0-2                            amd64  utilities for finding files--find, xargs
+ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.35.2-1                         amd64  fast, scalable, distributed revision control system
@@ -161,8 +161,8 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-3                      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-3                      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-4                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-4                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.3-2                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
@@ -208,7 +208,7 @@ ii   perl                     5.34.0-4                           amd64  Larry Wa
 ii   perl-base                5.34.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   rsyslog                  8.2202.0-1                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2204.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.10.3                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
