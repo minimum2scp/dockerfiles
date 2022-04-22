@@ -109,8 +109,8 @@ I: Retrieving libidn2-0 2.3.2-2
 I: Validating libidn2-0 2.3.2-2
 I: Retrieving libnsl2 1.3.0-2
 I: Validating libnsl2 1.3.0-2
-I: Retrieving libseccomp2 2.5.3-2
-I: Validating libseccomp2 2.5.3-2
+I: Retrieving libseccomp2 2.5.4-1
+I: Validating libseccomp2 2.5.4-1
 I: Retrieving libselinux1 3.3-1+b2
 I: Validating libselinux1 3.3-1+b2
 I: Retrieving libsemanage-common 3.3-1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon   34.4MB
+Sending build context to Docker daemon  34.41MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> da046818c147
+ ---> 6b263a52a338
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 24a0775a6137
-Removing intermediate container 24a0775a6137
- ---> 0ba6a510b5a3
-Successfully built 0ba6a510b5a3
+ ---> Running in ae4b41868241
+Removing intermediate container ae4b41868241
+ ---> 707cc15240cc
+Successfully built 707cc15240cc
 Successfully tagged minimum2scp/debian:latest
