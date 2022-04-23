@@ -83,9 +83,9 @@ ii   etckeeper                1.18.17-1                          all    store /e
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.35.2-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.35.2-1                         all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.27-3+b1                        amd64  GNU privacy guard - signature verification tool
+ii   git                      1:2.36.0-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.36.0-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   gpgv                     2.2.34-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
