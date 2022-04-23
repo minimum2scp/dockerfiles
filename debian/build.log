@@ -73,8 +73,8 @@ I: Retrieving libc6 2.33-7
 I: Validating libc6 2.33-7
 I: Retrieving libgmp10 2:6.2.1+dfsg-3
 I: Validating libgmp10 2:6.2.1+dfsg-3
-I: Retrieving gpgv 2.2.27-3+b1
-I: Validating gpgv 2.2.27-3+b1
+I: Retrieving gpgv 2.2.34-1
+I: Validating gpgv 2.2.34-1
 I: Retrieving libgnutls30 3.7.4-2
 I: Validating libgnutls30 3.7.4-2
 I: Retrieving grep 3.7-1
@@ -511,14 +511,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  34.41MB
+Sending build context to Docker daemon  34.44MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6b263a52a338
+ ---> d0c138b486f1
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ae4b41868241
-Removing intermediate container ae4b41868241
- ---> 707cc15240cc
-Successfully built 707cc15240cc
+ ---> Running in f0d73a94c71d
+Removing intermediate container f0d73a94c71d
+ ---> 3d817c4fe5ba
+Successfully built 3d817c4fe5ba
 Successfully tagged minimum2scp/debian:latest

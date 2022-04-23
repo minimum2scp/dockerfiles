@@ -479,10 +479,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1), python-debian (<< 0.1.29)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.33), libgcrypt20 (>= 1.9.0), libgpg-error0 (>= 1.42), zlib1g (>= 1:1.1.4)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.33), libgcrypt20 (>= 1.10.0), libgpg-error0 (>= 1.42), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "883",
+    "Installed-Size": "923",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.27-3+b1",
+    "Version": "2.2.34-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.27-3"
+    "source:Version": "2.2.34-1"
   },
   {
     "Architecture": "amd64",
