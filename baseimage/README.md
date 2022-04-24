@@ -156,7 +156,7 @@ ii   libpam0g                 1.4.0-11                           amd64  Pluggabl
 ii   libpcre2-8-0             10.39-4                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.34              5.34.0-4                           amd64  shared Perl library
-ii   libpipeline1             1.5.5-1                            amd64  Unix process pipeline manipulation library
+ii   libpipeline1             1.5.6-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
