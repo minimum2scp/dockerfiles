@@ -7,6 +7,9 @@ export DEBIAN_FRONTEND=noninteractive
 ## packages: build tools
 packages="build-essential"
 
+## helper script dependencies
+packages="${packages} jq"
+
 ## install packages
 apt-get install --no-install-recommends -y ${packages}
 

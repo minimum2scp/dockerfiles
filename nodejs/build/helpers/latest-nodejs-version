@@ -1,0 +1,9 @@
+#! /bin/bash
+
+set -eo pipefail
+
+curl -fsS https://nodejs.org/download/release/index.json | \
+jq -r --arg v "${1}" '.[] | select( .version | startswith("\($ARGS.named.v)") ) | .version | sub("^v"; "")' | \
+sort --version-sort | \
+tail -n 1
+
