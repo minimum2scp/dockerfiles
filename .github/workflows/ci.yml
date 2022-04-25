@@ -56,7 +56,7 @@ jobs:
     needs: [baseimage]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -90,7 +90,7 @@ jobs:
     needs: [baseimage]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -121,7 +121,7 @@ jobs:
     needs: [baseimage]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -155,7 +155,7 @@ jobs:
     needs: [baseimage]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -186,7 +186,7 @@ jobs:
     needs: [baseimage]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -217,7 +217,7 @@ jobs:
     needs: [ruby]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -248,7 +248,7 @@ jobs:
     needs: [ruby]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -279,7 +279,7 @@ jobs:
     needs: [ruby]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -310,7 +310,7 @@ jobs:
     needs: [ruby]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -388,7 +388,7 @@ jobs:
     needs: [baseimage-bullseye]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-bullseye, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
@@ -419,7 +419,7 @@ jobs:
     needs: [baseimage-bullseye]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-bullseye, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
@@ -497,7 +497,7 @@ jobs:
     needs: [baseimage-buster]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-buster, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
@@ -528,7 +528,7 @@ jobs:
     needs: [baseimage-buster]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-buster, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
@@ -606,7 +606,7 @@ jobs:
     needs: [baseimage-stretch]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-stretch, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
@@ -637,7 +637,7 @@ jobs:
     needs: [baseimage-stretch]
     steps:
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: baseimage-stretch, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
