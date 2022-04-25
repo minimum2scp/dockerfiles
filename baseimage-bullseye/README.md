@@ -88,7 +88,7 @@ ii   git-man                 1:2.30.2-1                      all    fast, scalab
 ii   gpgv                    2.2.27-2+deb11u1                amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.6-1                           amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-6                        amd64  GNU troff text-formatting system (base system components)
-ii   gzip                    1.10-4                          amd64  GNU compression utilities
+ii   gzip                    1.10-4+deb11u1                  amd64  GNU compression utilities
 ii   hostname                3.23                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.60                            all    helper tools for all init systems
 ii   initscripts             2.96-7+deb11u1                  all    scripts for initializing and shutting down the system
@@ -139,7 +139,7 @@ ii   libkrb5support0         1.18.3-6+deb11u1                amd64  MIT Kerberos
 ii   libldap-2.4-2           2.4.57+dfsg-3                   amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                       amd64  log normalizing library
 ii   liblz4-1                1.9.3-2                         amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.5-2                         amd64  XZ-format compression library
+ii   liblzma5                5.2.5-2.1~deb11u1               amd64  XZ-format compression library
 ii   libmd0                  1.0.3-3                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.36.1-8+deb11u1                amd64  device mounting library
 ii   libmpdec3               2.5.1-1                         amd64  library for decimal floating point arithmetic (runtime library)
