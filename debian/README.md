@@ -62,24 +62,18 @@ ii   libgcrypt20             1.10.1-2                           amd64  LGPL Cryp
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.4-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.43-3                             amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6.1-3                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmount1               2.38-4                             amd64  device mounting library
 ii   libnettle8              3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnsl2                 1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-11                           all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-11                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.39-4                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpam-modules          1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-13                           amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-13                           all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-13                           amd64  Pluggable Authentication Modules library
+ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.4-1                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.3-1+b2                           amd64  SELinux runtime shared libraries
@@ -88,13 +82,10 @@ ii   libsemanage2            3.3-1+b2                           amd64  SELinux p
 ii   libsepol2               3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38-4                             amd64  smart column output alignment library
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
-ii   libssl1.1               1.1.1n-1                           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              12-20220319-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             250.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3-2                              amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
-ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
 ii   libudev1                250.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.38-4                             amd64  Universally Unique ID library
