@@ -149,11 +149,11 @@ ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik
 ii   libnghttp2-14            1.43.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules           1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.4.0-11                           all    Runtime support for the PAM library
-ii   libpam0g                 1.4.0-11                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.39-4                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpam-modules           1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.4.0-13                           amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.4.0-13                           all    Runtime support for the PAM library
+ii   libpam0g                 1.4.0-13                           amd64  Pluggable Authentication Modules library
+ii   libpcre2-8-0             10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.34              5.34.0-4                           amd64  shared Perl library
 ii   libpipeline1             1.5.6-1                            amd64  Unix process pipeline manipulation library
