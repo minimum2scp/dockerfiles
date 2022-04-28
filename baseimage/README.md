@@ -85,7 +85,7 @@ ii   gcc-12-base              12-20220319-1                      amd64  GCC, the
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.36.0-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.36.0-1                         all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.34-1                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                     2.2.35-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
@@ -128,7 +128,7 @@ ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm 
 ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.4-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0            1.43-3                             amd64  GnuPG development runtime library
+ii   libgpg-error0            1.45-1                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
