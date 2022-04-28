@@ -482,7 +482,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.33), libgcrypt20 (>= 1.10.0), libgpg-error0 (>= 1.42), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "923",
+    "Installed-Size": "926",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.34-1",
+    "Version": "2.2.35-1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.34-1"
+    "source:Version": "2.2.35-1"
   },
   {
     "Architecture": "amd64",
@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "197",
+    "Installed-Size": "202",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.43-3",
+    "Version": "1.45-1",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.43-3"
+    "source:Version": "1.45-1"
   },
   {
     "Architecture": "amd64",
