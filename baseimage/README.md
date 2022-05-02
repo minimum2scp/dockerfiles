@@ -64,7 +64,7 @@ ii   adduser                  3.121                              all    add and 
 ii   apt                      2.4.5                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
-ii   bash                     5.1-6                              amd64  GNU Bourne Again SHell
+ii   bash                     5.1-6+b1                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38-4                             amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38-4                           amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
@@ -75,7 +75,7 @@ ii   curl                     7.83.0-1                           amd64  command 
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.7-0.2                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                     1.21.7                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
@@ -168,7 +168,7 @@ ii   libselinux1              3.3-1+b2                           amd64  SELinux 
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.3-1+b2                           amd64  SELinux policy management library
 ii   libsepol2                3.3-1                              amd64  SELinux library for manipulating binary security policies
-ii   libslang2                2.3.2-5                            amd64  S-Lang programming library - runtime version
+ii   libslang2                2.3.2-5+b1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38-4                             amd64  smart column output alignment library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
@@ -228,7 +228,7 @@ ii   vim-tiny                 2:8.2.4793-1                       amd64  Vi IMpro
 ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.4793-1                       amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-4                    amd64  compression library - runtime
-ii   zsh                      5.8.1-1                            amd64  shell with lots of features
+ii   zsh                      5.8.1-1+b1                         amd64  shell with lots of features
 ii   zsh-common               5.8.1-1                            all    architecture independent files for Zsh
 ii   zstd                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
 ```
