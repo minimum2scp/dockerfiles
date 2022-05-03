@@ -54,7 +54,7 @@ images = {
     steps:
       <%- if image_conf[:parent] -%>
       # load parent image
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with: { name: <%= image_conf[:parent] %>, path: /tmp }
       - run: pigz -c -d /tmp/<%= image_conf[:parent] %>.tar.gz | docker load
 
