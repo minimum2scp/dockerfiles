@@ -84,7 +84,7 @@ images = {
       <%- if image_conf[:save_artifact] -%>
       # save image as artifact
       - run: docker save minimum2scp/<%= image %>:latest | pigz -c - > /tmp/<%= image %>.tar.gz
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with: { name: <%= image %>, path: /tmp/<%= image %>.tar.gz }
       <%- else -%>
       # no need to save image as artifact
