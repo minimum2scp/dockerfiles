@@ -22,20 +22,20 @@ ii   adduser                 3.121                              all    add and r
 ii   apt                     2.4.5                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-6                              amd64  GNU Bourne Again SHell
+ii   bash                    5.1-6+b1                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38-4                           amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.7-0.1                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.7-0.2                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                    1.21.7                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12-20220319-1                      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12-20220428-1                      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base              9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.34-1                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.35-2                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
@@ -57,29 +57,23 @@ ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley 
 ii   libdebconfclient0       0.262                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               12-20220319-1                      amd64  GCC support library
+ii   libgcc-s1               12-20220428-1                      amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.4-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.43-3                             amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1            1.6.1-3                            amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.19.2-2+b1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblz4-1                1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmount1               2.38-4                             amd64  device mounting library
 ii   libnettle8              3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnsl2                 1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.4.0-11                           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.4.0-11                           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.4.0-11                           all    Runtime support for the PAM library
-ii   libpam0g                1.4.0-11                           amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.39-4                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpam-modules          1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.4.0-13                           amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.4.0-13                           all    Runtime support for the PAM library
+ii   libpam0g                1.4.0-13                           amd64  Pluggable Authentication Modules library
+ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libseccomp2             2.5.4-1                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.3-1+b2                           amd64  SELinux runtime shared libraries
@@ -88,13 +82,10 @@ ii   libsemanage2            3.3-1+b2                           amd64  SELinux p
 ii   libsepol2               3.3-1                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38-4                             amd64  smart column output alignment library
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
-ii   libssl1.1               1.1.1n-1                           amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              12-20220319-1                      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              12-20220428-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             250.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.3-2                              amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common         1.3.2-2                            all    transport-independent RPC library - common files
-ii   libtirpc3               1.3.2-2                            amd64  transport-independent RPC library
+ii   libtinfo6               6.3+20220423-1                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                250.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.38-4                             amd64  Universally Unique ID library
@@ -105,8 +96,8 @@ ii   logsave                 1.46.5-2                           amd64  save the 
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   mount                   2.38-4                             amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.3-2                              all    basic terminal type definitions
-ii   ncurses-bin             6.3-2                              amd64  terminal-related programs and man pages
+ii   ncurses-base            6.3+20220423-1                     all    basic terminal type definitions
+ii   ncurses-bin             6.3+20220423-1                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl-base               5.34.0-4                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
