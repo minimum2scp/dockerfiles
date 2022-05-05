@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.33), libgnutls30 (>= 3.7.2), libsasl2-2 (>= 2.1.28+dfsg)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "559",
+    "Installed-Size": "560",
     "Origin": "",
     "Package": "libldap-2.5-0",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.11+dfsg-1",
+    "Version": "2.5.12+dfsg-1",
     "binary:Package": "libldap-2.5-0:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.5.11+dfsg-1"
+    "source:Version": "2.5.12+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -4178,7 +4178,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "20",
+    "Installed-Size": "21",
     "Origin": "",
     "Package": "runit-helper",
     "Pre-Depends": "",
@@ -4189,7 +4189,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.10.3",
+    "Version": "2.13.0",
     "binary:Package": "runit-helper",
     "binary:Summary": "dh-runit implementation detail",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dh-runit",
-    "source:Version": "2.10.3"
+    "source:Version": "2.13.0"
   },
   {
     "Architecture": "amd64",
