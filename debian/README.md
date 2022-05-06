@@ -85,7 +85,7 @@ ii   libss2                  1.46.5-2                           amd64  command-l
 ii   libstdc++6              12-20220428-1                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             250.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.3+20220423-1                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                250.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.38-4                             amd64  Universally Unique ID library
@@ -96,8 +96,8 @@ ii   logsave                 1.46.5-2                           amd64  save the 
 ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   mount                   2.38-4                             amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.3+20220423-1                     all    basic terminal type definitions
-ii   ncurses-bin             6.3+20220423-1                     amd64  terminal-related programs and man pages
+ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
+ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl-base               5.34.0-4                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
