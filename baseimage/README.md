@@ -70,7 +70,7 @@ ii   bsdutils                 1:2.38-4                           amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-137.1                       amd64  process scheduling daemon
+ii   cron                     3.0pl1-138                         amd64  process scheduling daemon
 ii   curl                     7.83.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
@@ -83,8 +83,8 @@ ii   etckeeper                1.18.17-1                          all    store /e
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.1.0-1                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.36.0-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.36.0-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.36.1-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.36.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.35-2                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
@@ -208,7 +208,7 @@ ii   perl                     5.34.0-4                           amd64  Larry Wa
 ii   perl-base                5.34.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   rsyslog                  8.2204.0-1                         amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2204.1-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.13.0                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
