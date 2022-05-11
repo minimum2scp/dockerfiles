@@ -121,7 +121,7 @@ ii   libexpat1                2.4.8-1                            amd64  XML pars
 ii   libext2fs2               1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-1                           amd64  fast json library for C
 ii   libffi8                  3.4.2-4                            amd64  Foreign Function Interface library runtime
-ii   libfido2-1               1.10.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1               1.11.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                12.1.0-1                           amd64  GCC support library
 ii   libgcrypt20              1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
