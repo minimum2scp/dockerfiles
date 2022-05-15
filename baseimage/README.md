@@ -112,7 +112,7 @@ ii   libcom-err2              1.46.5-2                           amd64  common e
 ii   libcrypt1                1:4.4.27-1.1                       amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.83.1-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.83.1-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                 5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                 5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.262                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
@@ -146,7 +146,7 @@ ii   libncurses6              6.3+20220423-2                     amd64  shared l
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14            1.47.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14            1.47.0-1+b1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
@@ -161,8 +161,8 @@ ii   libpopt0                 1.18-3                             amd64  lib for 
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-4+b1                   amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-4+b1                   amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-5                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-5                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1                            amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.3-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.3-1                              all    Common files for SELinux policy management libraries
@@ -173,7 +173,7 @@ ii   libsmartcols1            2.38-4                             amd64  smart co
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
 ii   libssl1.1                1.1.1o-1                           amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl3                  3.0.3-2                            amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.3-3                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.1.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0              250.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
@@ -199,10 +199,10 @@ ii   mount                    2.38-4                             amd64  tools fo
 ii   ncurses-base             6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin              6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
-ii   openssh-client           1:9.0p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:9.0p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:9.0p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.3-2                            amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client           1:9.0p1-1+b1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:9.0p1-1+b1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:9.0p1-1+b1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                  3.0.3-3                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl                     5.34.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
