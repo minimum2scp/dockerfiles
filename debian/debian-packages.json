@@ -983,10 +983,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1818",
+    "Installed-Size": "1810",
     "Origin": "",
     "Package": "libdb5.3",
     "Pre-Depends": "",
@@ -997,7 +997,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg1-0.8",
+    "Version": "5.3.28+dfsg1-0.9",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg1-0.8"
+    "source:Version": "5.3.28+dfsg1-0.9"
   },
   {
     "Architecture": "amd64",

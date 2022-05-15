@@ -53,7 +53,7 @@ ii   libcap-ng0              0.7.9-2.2+b2                       amd64  An altern
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1.1                       amd64  libcrypt shared library
-ii   libdb5.3                5.3.28+dfsg1-0.8                   amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.262                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
