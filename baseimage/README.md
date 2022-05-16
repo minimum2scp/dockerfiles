@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.38-4                           amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-138                         amd64  process scheduling daemon
-ii   curl                     7.83.1-1                           amd64  command line tool for transferring data with URL syntax
+ii   cron                     3.0pl1-139                         amd64  process scheduling daemon
+ii   curl                     7.83.1-1+b1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                  1:2.44-1                           amd64  POSIX 10
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
 ii   libcrypt1                1:4.4.27-1.1                       amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.83.1-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.83.1-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.262                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -171,8 +171,7 @@ ii   libsepol2                3.3-1                              amd64  SELinux 
 ii   libslang2                2.3.2-5+b1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38-4                             amd64  smart column output alignment library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
-ii   libssh2-1                1.10.0-3                           amd64  SSH2 client-side library
-ii   libssl1.1                1.1.1o-1                           amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.3-3                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.1.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0              250.4-1                            amd64  systemd utility library
@@ -209,8 +208,8 @@ ii   perl                     5.34.0-4                           amd64  Larry Wa
 ii   perl-base                5.34.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   rsyslog                  8.2204.1-1                         amd64  reliable system and kernel logging daemon
-ii   runit-helper             2.13.0                             all    dh-runit implementation detail
+ii   rsyslog                  8.2204.1-1+b1                      amd64  reliable system and kernel logging daemon
+ii   runit-helper             2.13.1                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
