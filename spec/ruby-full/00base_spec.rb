@@ -112,7 +112,10 @@ describe 'minimum2scp/ruby-full' do
 
       describe command("RBENV_VERSION=#{v[:ruby]} ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^OpenSSL #{Regexp.quote(v[:openssl_version])}/ }
+        its(:stdout){
+          pending 'openssl 3.0 transition'
+          should match /^OpenSSL #{Regexp.quote(v[:openssl_version])}/
+        }
       end
     end
 
