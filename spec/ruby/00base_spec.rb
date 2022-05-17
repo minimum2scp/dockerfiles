@@ -31,7 +31,7 @@ describe 'minimum2scp/ruby' do
       end
     end
 
-    %w[libssl1.1].each do |pkg|
+    %w[libssl3].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
