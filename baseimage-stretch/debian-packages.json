@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.17), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3565",
+    "Installed-Size": "3566",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.0l-1~deb9u5",
+    "Version": "1.1.0l-1~deb9u6",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u5"
+    "source:Version": "1.1.0l-1~deb9u6"
   },
   {
     "Architecture": "amd64",
@@ -4010,7 +4010,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1315",
+    "Installed-Size": "1316",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.0l-1~deb9u5",
+    "Version": "1.1.0l-1~deb9u6",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.0l-1~deb9u5"
+    "source:Version": "1.1.0l-1~deb9u6"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-4+deb9u5",
+    "Version": "2:8.0.0197-4+deb9u6",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4701,13 +4701,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-4+deb9u5"
+    "source:Version": "2:8.0.0197-4+deb9u6"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:8.0.0197-4+deb9u5), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
+    "Depends": "vim-common (= 2:8.0.0197-4+deb9u6), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1067",
@@ -4721,7 +4721,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:8.0.0197-4+deb9u5",
+    "Version": "2:8.0.0197-4+deb9u6",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-4+deb9u5"
+    "source:Version": "2:8.0.0197-4+deb9u6"
   },
   {
     "Architecture": "amd64",
@@ -4777,7 +4777,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:8.0.0197-4+deb9u5",
+    "Version": "2:8.0.0197-4+deb9u6",
     "binary:Package": "xxd",
     "binary:Summary": "tool to make (or reverse) a hex dump",
     "db:Status-Abbrev": "ii ",
@@ -4785,7 +4785,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:8.0.0197-4+deb9u5"
+    "source:Version": "2:8.0.0197-4+deb9u6"
   },
   {
     "Architecture": "amd64",

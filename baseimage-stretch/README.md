@@ -176,7 +176,7 @@ ii   libsqlite3-0            3.16.2-5+deb9u3                    amd64  SQLite 3 
 ii   libss2                  1.43.4-2+deb9u2                    amd64  command-line interface parsing library
 ii   libssh2-1               1.7.0-1+deb9u2                     amd64  SSH2 client-side library
 ii   libssl1.0.2             1.0.2u-1~deb9u7                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libssl1.1               1.1.0l-1~deb9u5                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.0l-1~deb9u6                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              6.3.0-18+deb9u1                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             232-25+deb9u13                     amd64  systemd utility library
 ii   libtasn1-6              4.10-1.1+deb9u1                    amd64  Manage ASN.1 structures (runtime)
@@ -203,7 +203,7 @@ ii   net-tools               1.60+git20161116.90da8a0-1         amd64  NET-3 net
 ii   openssh-client          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:7.4p1-10+deb9u7                  amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.0l-1~deb9u5                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.0l-1~deb9u6                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.4-4.1+deb9u1                   amd64  change and administer password and group data
 ii   perl                    5.24.1-3+deb9u7                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.24.1-3+deb9u7                    amd64  minimal Perl system
@@ -227,10 +227,10 @@ ii   tzdata                  2021a-0+deb9u3                     all    time zone
 ii   ucf                     3.0036                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-21+deb9u2                      amd64  De-archiver for .zip files
 ii   util-linux              2.29.2-1+deb9u1                    amd64  miscellaneous system utilities
-ii   vim-common              2:8.0.0197-4+deb9u5                all    Vi IMproved - Common files
-ii   vim-tiny                2:8.0.0197-4+deb9u5                amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.0.0197-4+deb9u6                all    Vi IMproved - Common files
+ii   vim-tiny                2:8.0.0197-4+deb9u6                amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.19-1+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.0.0197-4+deb9u5                amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.0.0197-4+deb9u6                amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.8.dfsg-5+deb9u1              amd64  compression library - runtime
 ii   zsh                     5.3.1-4+deb9u5                     amd64  shell with lots of features
 ii   zsh-common              5.3.1-4+deb9u5                     all    architecture independent files for Zsh
