@@ -2831,7 +2831,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-5), libc6 (>= 2.15)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-6), libc6 (>= 2.15)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "185",
@@ -2840,12 +2840,12 @@
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-5)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-6)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-5",
+    "Version": "2.1.28+dfsg-6",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-5"
+    "source:Version": "2.1.28+dfsg-6"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-5",
+    "Version": "2.1.28+dfsg-6",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-5"
+    "source:Version": "2.1.28+dfsg-6"
   },
   {
     "Architecture": "amd64",
