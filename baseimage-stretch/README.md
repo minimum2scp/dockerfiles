@@ -135,8 +135,8 @@ ii   libk5crypto3            1.15-1+deb9u3                      amd64  MIT Kerbe
 ii   libkeyutils1            1.5.9-9                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3               1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0         1.15-1+deb9u3                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u8               amd64  OpenLDAP libraries
-ii   libldap-common          2.4.44+dfsg-5+deb9u8               all    OpenLDAP common files for libraries
+ii   libldap-2.4-2           2.4.44+dfsg-5+deb9u9               amd64  OpenLDAP libraries
+ii   libldap-common          2.4.44+dfsg-5+deb9u9               all    OpenLDAP common files for libraries
 ii   liblogging-stdlog0      1.0.5-2+b2                         amd64  easy to use and lightweight logging library
 ii   liblognorm5             2.0.1-1.1+b1                       amd64  log normalizing library
 ii   liblz4-1                0.0~r131-2+deb9u1                  amd64  Fast LZ compression algorithm library - runtime
@@ -214,7 +214,7 @@ ii   python-minimal          2.7.13-2                           amd64  minimal s
 ii   python2.7               2.7.13-2+deb9u6                    amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.13-2+deb9u6                    amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-3                              all    GNU readline and history libraries, common files
-ii   rsyslog                 8.24.0-1+deb9u1                    amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.24.0-1+deb9u3                    amd64  reliable system and kernel logging daemon
 ii   sed                     4.4-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.9+deb9u1                       all    Utilities for sensible alternative selection
 ii   startpar                0.59-3.1                           amd64  run processes in parallel and multiplex their output
