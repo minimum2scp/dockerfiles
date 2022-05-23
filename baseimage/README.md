@@ -174,13 +174,13 @@ ii   libss2                   1.46.5-2                           amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.3-5                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.1.0-2                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0              250.4-1                            amd64  systemd utility library
+ii   libsystemd0              251-2                              amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 250.4-1                            amd64  libudev shared library
+ii   libudev1                 251-2                              amd64  libudev shared library
 ii   libunistring2            1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                 2.38-4                             amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
@@ -190,7 +190,7 @@ ii   localepurge              0.7.3.10                           all    reclaim 
 ii   locales                  2.33-7                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
-ii   lsb-base                 11.1.0                             all    Linux Standard Base init script functionality
+ii   lsb-base                 11.2                               all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
