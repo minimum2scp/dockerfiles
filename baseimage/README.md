@@ -90,7 +90,7 @@ ii   grep                     3.7-1                              amd64  GNU grep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.62                               all    helper tools for all init systems
+ii   init-system-helpers      1.63                               all    helper tools for all init systems
 ii   initscripts              3.03-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
@@ -136,7 +136,7 @@ ii   libk5crypto3             1.19.2-2+b2                        amd64  MIT Kerb
 ii   libkeyutils1             1.6.1-3                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0            2.5.12+dfsg-1                      amd64  OpenLDAP libraries
+ii   libldap-2.5-0            2.5.12+dfsg-2                      amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.5-1.1                          amd64  log normalizing library
 ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.2.5-2.1                          amd64  XZ-format compression library
