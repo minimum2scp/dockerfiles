@@ -39,7 +39,7 @@ ii   gpgv                    2.2.35-2                           amd64  GNU priva
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.62                               all    helper tools for all init systems
+ii   init-system-helpers     1.63                               all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.0                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
@@ -83,17 +83,17 @@ ii   libsepol2               3.3-1                              amd64  SELinux l
 ii   libsmartcols1           2.38-4                             amd64  smart column output alignment library
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
 ii   libstdc++6              12.1.0-2                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             250.4-1                            amd64  systemd utility library
+ii   libsystemd0             251-2                              amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                250.4-1                            amd64  libudev shared library
+ii   libudev1                251-2                              amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                2.38-4                             amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   login                   1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
-ii   lsb-base                11.1.0                             all    Linux Standard Base init script functionality
+ii   lsb-base                11.2                               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
 ii   mount                   2.38-4                             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
