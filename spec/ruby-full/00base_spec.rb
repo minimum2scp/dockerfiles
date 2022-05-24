@@ -25,19 +25,19 @@ describe 'minimum2scp/ruby-full' do
       {
         ruby: '3.1.2',
         desc: 'ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]',
-        rubygems_version: '3.3.13',
+        rubygems_version: '3.3.14',
         gems: [
-          {name: 'bundler', version: 'default: 2.3.13, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.3.14, 1.17.3'},
           {name: 'pry'}
         ],
-        openssl_version: '1.1.1'
+        openssl_version: '3.0.3'
       },
       {
         ruby: '3.0.4',
         desc: 'ruby 3.0.4p208 (2022-04-12 revision 3fa771dded) [x86_64-linux]',
-        rubygems_version: '3.3.13',
+        rubygems_version: '3.3.14',
         gems: [
-          {name: 'bundler', version: 'default: 2.3.13, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.3.14, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
@@ -45,19 +45,9 @@ describe 'minimum2scp/ruby-full' do
       {
         ruby: '2.7.6',
         desc: 'ruby 2.7.6p219 (2022-04-12 revision c9c2245c0a) [x86_64-linux]',
-        rubygems_version: '3.3.13',
+        rubygems_version: '3.3.14',
         gems: [
-          {name: 'bundler', version: 'default: 2.3.13, 1.17.3'},
-          {name: 'pry'}
-        ],
-        openssl_version: '1.1.1'
-      },
-      {
-        ruby: '2.6.10',
-        desc: 'ruby 2.6.10p210 (2022-04-12 revision 67958) [x86_64-linux]',
-        rubygems_version: '3.3.13',
-        gems: [
-          {name: 'bundler', version: 'default: 2.3.13, 1.17.3'},
+          {name: 'bundler', version: 'default: 2.3.14, 1.17.3'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
@@ -112,10 +102,7 @@ describe 'minimum2scp/ruby-full' do
 
       describe command("RBENV_VERSION=#{v[:ruby]} ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'") do
         let(:login_shell){ true }
-        its(:stdout){
-          pending 'openssl 3.0 transition'
-          should match /^OpenSSL #{Regexp.quote(v[:openssl_version])}/
-        }
+        its(:stdout){ should match /^OpenSSL #{Regexp.quote(v[:openssl_version])}/ }
       end
     end
 
