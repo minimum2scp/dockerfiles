@@ -50,7 +50,6 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
 ```
 % docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "rbenv versions"
 * system (set by /opt/rbenv/version)
-  2.6.10
   2.7.6
   3.0.4
   3.1.2
