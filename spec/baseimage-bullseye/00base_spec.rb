@@ -338,7 +338,7 @@ describe 'minimum2scp/baseimage-bullseye' do
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.21.6-1~bullseye') }
+      it { should be_installed.with_version('1.22.0-1~bullseye') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
