@@ -77,7 +77,7 @@ ii   debconf                 1.5.71+deb10u1               all    Debian configur
 ii   debian-archive-keyring  2019.1+deb10u1               all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
-ii   dpkg                    1.19.7                       amd64  Debian package management system
+ii   dpkg                    1.19.8                       amd64  Debian package management system
 ii   e2fsprogs               1.44.5-1+deb10u3             amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper               1.18.10-1                    all    store /etc in git, mercurial, bzr or darcs
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
