@@ -64,7 +64,7 @@ ii   adduser                  3.121                              all    add and 
 ii   apt                      2.5.0                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
-ii   bash                     5.1-6+b1                           amd64  GNU Bourne Again SHell
+ii   bash                     5.1-6.1                            amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38-4                             amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38-4                           amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
@@ -82,7 +82,7 @@ ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext
 ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.1.0-2                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base               9.4.0-5                            amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base               9.5.0-1                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.36.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.36.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.35-2                           amd64  GNU privacy guard - signature verification tool
