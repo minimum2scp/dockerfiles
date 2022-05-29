@@ -219,7 +219,7 @@ ii   python2-minimal         2.7.16-1                     amd64  minimal subset 
 ii   python2.7               2.7.16-2+deb10u1             amd64  Interactive high-level object-oriented language (version 2.7)
 ii   python2.7-minimal       2.7.16-2+deb10u1             amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
-ii   rsyslog                 8.1901.0-1+deb10u1           amd64  reliable system and kernel logging daemon
+ii   rsyslog                 8.1901.0-1+deb10u2           amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
