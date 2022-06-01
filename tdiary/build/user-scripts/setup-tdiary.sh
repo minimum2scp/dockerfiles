@@ -39,7 +39,7 @@ bash -l -c "bundle install --jobs=4"
 install -m 644 -p /tmp/build/tdiary/$GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local $GHQ_ROOT/github.com/tdiary/tdiary-core/Gemfile.local
 
 ## run bundle install again
-bash -l -c "bundle lock --update=faraday"
+bash -l -c "bundle lock --update faraday octokit"
 bash -l -c "bundle install"
 bash -l -c "bundle clean"
 
