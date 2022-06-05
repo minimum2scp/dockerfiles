@@ -2946,7 +2946,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "36",
+    "Installed-Size": "37",
     "Origin": "",
     "Package": "libsemanage-common",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1",
+    "Version": "3.4-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -2965,16 +2965,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 3.0)",
-    "Depends": "libsemanage-common (>= 3.3-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.33), libselinux1 (>= 3.3), libsepol2 (>= 3.3)",
+    "Depends": "libsemanage-common (>= 3.4-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.33), libselinux1 (>= 3.4), libsepol2 (>= 3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "308",
+    "Installed-Size": "311",
     "Origin": "",
     "Package": "libsemanage2",
     "Pre-Depends": "",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.4-1",
     "binary:Package": "libsemanage2:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.3-5",
+    "Version": "3.0.3-6",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.3-5"
+    "source:Version": "3.0.3-6"
   },
   {
     "Architecture": "amd64",
@@ -3954,7 +3954,7 @@
     "Depends": "libc6 (>= 2.33), libssl3 (>= 3.0.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2287",
+    "Installed-Size": "2288",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.3-5",
+    "Version": "3.0.3-6",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.3-5"
+    "source:Version": "3.0.3-6"
   },
   {
     "Architecture": "all",
