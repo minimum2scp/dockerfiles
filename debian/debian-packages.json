@@ -1630,7 +1630,7 @@
     "Depends": "libc6 (>= 2.33), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "208",
+    "Installed-Size": "220",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.4-1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "all",
@@ -1658,7 +1658,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "36",
+    "Installed-Size": "37",
     "Origin": "",
     "Package": "libsemanage-common",
     "Pre-Depends": "",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1",
+    "Version": "3.4-1",
     "binary:Package": "libsemanage-common",
     "binary:Summary": "Common files for SELinux policy management libraries",
     "db:Status-Abbrev": "ii ",
@@ -1677,16 +1677,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "policycoreutils (<< 3.0)",
-    "Depends": "libsemanage-common (>= 3.3-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.33), libselinux1 (>= 3.3), libsepol2 (>= 3.3)",
+    "Depends": "libsemanage-common (>= 3.4-1), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.33), libselinux1 (>= 3.4), libsepol2 (>= 3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "308",
+    "Installed-Size": "311",
     "Origin": "",
     "Package": "libsemanage2",
     "Pre-Depends": "",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1+b2",
+    "Version": "3.4-1",
     "binary:Package": "libsemanage2:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -1705,16 +1705,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsemanage",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "779",
+    "Installed-Size": "780",
     "Origin": "",
     "Package": "libsepol2",
     "Pre-Depends": "",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3-1",
+    "Version": "3.4-1",
     "binary:Package": "libsepol2:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "3.3-1"
+    "source:Version": "3.4-1"
   },
   {
     "Architecture": "amd64",
