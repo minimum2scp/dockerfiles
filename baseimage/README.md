@@ -70,7 +70,8 @@ ii   bsdutils                 1:2.38-4                           amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-139                         amd64  process scheduling daemon
+ii   cron                     3.0pl1-143                         amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-143                         all    process scheduling daemon's configuration files
 ii   curl                     7.83.1-1+b1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
@@ -172,7 +173,7 @@ ii   libslang2                2.3.2-5+b1                         amd64  S-Lang p
 ii   libsmartcols1            2.38-4                             amd64  smart column output alignment library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
-ii   libssl3                  3.0.3-6                            amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.3-7                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.1.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0              251.2-2                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
@@ -201,7 +202,7 @@ ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 ne
 ii   openssh-client           1:9.0p1-1+b1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.0p1-1+b1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.0p1-1+b1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.3-6                            amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                  3.0.3-7                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl                     5.34.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
