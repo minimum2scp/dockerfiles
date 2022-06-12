@@ -468,9 +468,9 @@ Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit:1 http://ftp.jp.debian.org/debian buster InRelease
 Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [51.9 kB]
 Get:3 http://security.debian.org buster/updates InRelease [65.4 kB]
-Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9733 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [412 kB]
-Fetched 539 kB in 1s (979 kB/s)
+Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9792 B]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [415 kB]
+Fetched 542 kB in 1s (922 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -481,11 +481,11 @@ The following packages will be upgraded:
 Need to get 2848 kB of archives.
 After this operation, 3072 B disk space will be freed.
 Get:1 http://security.debian.org buster/updates/main amd64 dpkg amd64 1.19.8 [2210 kB]
-Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u4 [266 kB]
+Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u5 [266 kB]
 Get:3 http://security.debian.org buster/updates/main amd64 gzip amd64 1.9-3+deb10u1 [128 kB]
 Get:4 http://security.debian.org buster/updates/main amd64 liblzma5 amd64 5.2.4-1+deb10u1 [153 kB]
 Get:5 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
-Fetched 2848 kB in 0s (6076 kB/s)
+Fetched 2848 kB in 3s (1136 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../archives/dpkg_1.19.8_amd64.deb ...
 Unpacking dpkg (1.19.8) over (1.19.7) ...
@@ -503,18 +503,18 @@ Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u1_amd64.deb ...
 Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) over (1:1.2.11.dfsg-1) ...
 Setting up zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../tzdata_2021a-0+deb10u4_all.deb ...
-Unpacking tzdata (2021a-0+deb10u4) over (2021a-0+deb10u3) ...
-Setting up tzdata (2021a-0+deb10u4) ...
+Preparing to unpack .../tzdata_2021a-0+deb10u5_all.deb ...
+Unpacking tzdata (2021a-0+deb10u5) over (2021a-0+deb10u3) ...
+Setting up tzdata (2021a-0+deb10u5) ...
 Processing triggers for libc-bin (2.28-10+deb10u1) ...
-Sending build context to Docker daemon  30.25MB
+Sending build context to Docker daemon  30.24MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e9ddb7108b21
+ ---> cbd3b920217d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in e04d49d2e025
-Removing intermediate container e04d49d2e025
- ---> 306687a02d4d
-Successfully built 306687a02d4d
+ ---> Running in 34e67bb6faa2
+Removing intermediate container 34e67bb6faa2
+ ---> 84d3a6bb262f
+Successfully built 84d3a6bb262f
 Successfully tagged minimum2scp/debian-buster:latest
