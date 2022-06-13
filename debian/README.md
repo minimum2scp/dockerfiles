@@ -54,12 +54,12 @@ ii   libcap2                 1:2.44-1                           amd64  POSIX 100
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1.1                       amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.262                              amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.1.0-2                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
-ii   libgmp10                2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
+ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.4-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
