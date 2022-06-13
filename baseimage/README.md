@@ -114,7 +114,7 @@ ii   libcrypt1                1:4.4.27-1.1                       amd64  libcrypt
 ii   libcurl3-gnutls          7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0        0.262                              amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0        0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.10-2.1+b1                      amd64  Helper functions for handling strings (lib)
@@ -127,7 +127,7 @@ ii   libgcc-s1                12.1.0-2                           amd64  GCC supp
 ii   libgcrypt20              1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                 2:6.2.1+dfsg-3                     amd64  Multiprecision arithmetic library
+ii   libgmp10                 2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.4-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.45-2                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
