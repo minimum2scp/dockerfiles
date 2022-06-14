@@ -281,7 +281,7 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "",
+    "Conflicts": "bcron, cronie, systemd-cron",
     "Breaks": "",
     "Depends": "libc6 (>= 2.33), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, adduser, lsb-base, libpam-runtime",
     "Enhances": "",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-143",
+    "Version": "3.0pl1-144",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,11 +305,11 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-143"
+    "source:Version": "3.0pl1-144"
   },
   {
     "Architecture": "all",
-    "Conflicts": "cron (<< 3.0pl1-140), cronie (<< 1.6.1-4)",
+    "Conflicts": "bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-4), systemd-cron (<< 1.15.18-1.1)",
     "Breaks": "",
     "Depends": "",
     "Enhances": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-143",
+    "Version": "3.0pl1-144",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-143"
+    "source:Version": "3.0pl1-144"
   },
   {
     "Architecture": "amd64",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.3-7",
+    "Version": "3.0.3-8",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.3-7"
+    "source:Version": "3.0.3-8"
   },
   {
     "Architecture": "amd64",
@@ -3993,7 +3993,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.3-7",
+    "Version": "3.0.3-8",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.3-7"
+    "source:Version": "3.0.3-8"
   },
   {
     "Architecture": "all",
