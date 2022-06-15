@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                           all    Common C
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-144                         amd64  process scheduling daemon
 ii   cron-daemon-common       3.0pl1-144                         all    process scheduling daemon's configuration files
-ii   curl                     7.83.1-1+b1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                     7.83.1-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -111,8 +111,8 @@ ii   libcap2                  1:2.44-1                           amd64  POSIX 10
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
 ii   libcrypt1                1:4.4.27-1.1                       amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.83.1-1+b1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.83.1-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.83.1-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -168,7 +168,7 @@ ii   libseccomp2              2.5.4-1                            amd64  high lev
 ii   libselinux1              3.4-1                              amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.4-1                              amd64  SELinux policy management library
-ii   libsepol2                3.4-1                              amd64  SELinux library for manipulating binary security policies
+ii   libsepol2                3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5+b1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38-4                             amd64  smart column output alignment library
 ii   libss2                   1.46.5-2                           amd64  command-line interface parsing library
@@ -209,7 +209,7 @@ ii   perl                     5.34.0-4                           amd64  Larry Wa
 ii   perl-base                5.34.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   rsyslog                  8.2204.1-1+b1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2206.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.13.1                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
