@@ -622,7 +622,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "263",
+    "Installed-Size": "264",
     "Origin": "",
     "Package": "gcc-12-base",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-2",
+    "Version": "12.1.0-4",
     "binary:Package": "gcc-12-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-2"
+    "source:Version": "12.1.0-4"
   },
   {
     "Architecture": "amd64",
@@ -1602,18 +1602,18 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "33",
+    "Installed-Size": "32",
     "Origin": "",
     "Package": "libestr0",
     "Pre-Depends": "",
-    "Priority": "extra",
+    "Priority": "optional",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.1.10-2.1+b1",
+    "Version": "0.1.11-1",
     "binary:Package": "libestr0:amd64",
     "binary:Summary": "Helper functions for handling strings (lib)",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libestr",
-    "source:Version": "0.1.10-2.1"
+    "source:Version": "0.1.11-1"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-12-base (= 12.1.0-2), libc6 (>= 2.14)",
+    "Depends": "gcc-12-base (= 12.1.0-4), libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "140",
@@ -1775,13 +1775,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:12.1.0-2)",
+    "Provides": "libgcc1 (= 1:12.1.0-4)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-2",
+    "Version": "12.1.0-4",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-2"
+    "source:Version": "12.1.0-4"
   },
   {
     "Architecture": "amd64",
@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "169",
+    "Installed-Size": "172",
     "Origin": "",
     "Package": "liblognorm5",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.5-1.1",
+    "Version": "2.0.6-1",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.0.5-1.1"
+    "source:Version": "2.0.6-1"
   },
   {
     "Architecture": "amd64",
@@ -3195,7 +3195,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-12-base (= 12.1.0-2), libc6 (>= 2.33), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-12-base (= 12.1.0-4), libc6 (>= 2.33), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2686",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-2",
+    "Version": "12.1.0-4",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-2"
+    "source:Version": "12.1.0-4"
   },
   {
     "Architecture": "amd64",
