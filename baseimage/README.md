@@ -106,7 +106,7 @@ ii   libbz2-1.0               1.0.8-5                            amd64  high-qua
 ii   libc-bin                 2.33-7                             amd64  GNU C Library: Binaries
 ii   libc-l10n                2.33-7                             all    GNU C Library: localization files
 ii   libc6                    2.33-7                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0               0.7.9-2.2+b2                       amd64  An alternate POSIX capabilities library
+ii   libcap-ng0               0.7.9-4                            amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
@@ -128,7 +128,7 @@ ii   libgcrypt20              1.10.1-2                           amd64  LGPL Cry
 ii   libgdbm-compat4          1.23-1                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-1                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.4-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.6-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.45-2                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
@@ -194,7 +194,7 @@ ii   logsave                  1.46.5-2                           amd64  save the
 ii   lsb-base                 11.2                               all    Linux Standard Base init script functionality
 ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
-ii   mawk                     1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
+ii   mawk                     1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                    2.38-4                             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin              6.3+20220423-2                     amd64  terminal-related programs and man pages
