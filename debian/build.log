@@ -85,8 +85,8 @@ I: Retrieving hostname 3.23
 I: Validating hostname 3.23
 I: Retrieving init-system-helpers 1.63
 I: Validating init-system-helpers 1.63
-I: Retrieving libcap-ng0 0.7.9-2.2+b2
-I: Validating libcap-ng0 0.7.9-2.2+b2
+I: Retrieving libcap-ng0 0.7.9-3
+I: Validating libcap-ng0 0.7.9-3
 I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
 I: Retrieving libffi8 3.4.2-4
@@ -119,8 +119,8 @@ I: Retrieving lsb-base 11.2
 I: Validating lsb-base 11.2
 I: Retrieving liblz4-1 1.9.3-2
 I: Validating liblz4-1 1.9.3-2
-I: Retrieving mawk 1.3.4.20200120-3+b1
-I: Validating mawk 1.3.4.20200120-3+b1
+I: Retrieving mawk 1.3.4.20200120-3.1
+I: Validating mawk 1.3.4.20200120-3.1
 I: Retrieving libtinfo6 6.3+20220423-2
 I: Validating libtinfo6 6.3+20220423-2
 I: Retrieving ncurses-base 6.3+20220423-2
@@ -466,14 +466,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  32.07MB
+Sending build context to Docker daemon  32.06MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b498c8b47723
+ ---> 446ea515b9d0
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 079fee597b73
-Removing intermediate container 079fee597b73
- ---> 84f57c061f7b
-Successfully built 84f57c061f7b
+ ---> Running in cbdbe0365e0a
+Removing intermediate container cbdbe0365e0a
+ ---> 3cc111113afc
+Successfully built 3cc111113afc
 Successfully tagged minimum2scp/debian:latest

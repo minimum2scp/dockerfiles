@@ -49,7 +49,7 @@ ii   libblkid1               2.38-4                             amd64  block dev
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.33-7                             amd64  GNU C Library: Binaries
 ii   libc6                   2.33-7                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-2.2+b2                       amd64  An alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-3                            amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1.1                       amd64  libcrypt shared library
@@ -94,7 +94,7 @@ ii   libzstd1                1.5.2+dfsg-1                       amd64  fast loss
 ii   login                   1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                11.2                               all    Linux Standard Base init script functionality
-ii   mawk                    1.3.4.20200120-3+b1                amd64  Pattern scanning and text processing language
+ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38-4                             amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
