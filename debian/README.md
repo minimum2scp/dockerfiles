@@ -49,7 +49,7 @@ ii   libblkid1               2.38-4                             amd64  block dev
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.33-7                             amd64  GNU C Library: Binaries
 ii   libc6                   2.33-7                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.7.9-3                            amd64  alternate POSIX capabilities library
+ii   libcap-ng0              0.7.9-4                            amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.27-1.1                       amd64  libcrypt shared library
@@ -60,7 +60,7 @@ ii   libffi8                 3.4.2-4                            amd64  Foreign F
 ii   libgcc-s1               12.1.0-4                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.4-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.6-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
