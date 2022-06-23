@@ -85,8 +85,8 @@ I: Retrieving hostname 3.23
 I: Validating hostname 3.23
 I: Retrieving init-system-helpers 1.63
 I: Validating init-system-helpers 1.63
-I: Retrieving libcap-ng0 0.7.9-4
-I: Validating libcap-ng0 0.7.9-4
+I: Retrieving libcap-ng0 0.8.3-1
+I: Validating libcap-ng0 0.8.3-1
 I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
 I: Retrieving libffi8 3.4.2-4
@@ -470,10 +470,10 @@ Sending build context to Docker daemon  32.09MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f45e56e7e1a2
+ ---> e90a720149c8
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 76cd8a012d68
-Removing intermediate container 76cd8a012d68
- ---> f107be647f56
-Successfully built f107be647f56
+ ---> Running in 61a1136875e4
+Removing intermediate container 61a1136875e4
+ ---> 81ca7bc13eaf
+Successfully built 81ca7bc13eaf
 Successfully tagged minimum2scp/debian:latest
