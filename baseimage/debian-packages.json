@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "172",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "liblognorm5",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.6-1",
+    "Version": "2.0.6-2",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.0.6-1"
+    "source:Version": "2.0.6-2"
   },
   {
     "Architecture": "amd64",
@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.2-5",
+    "Version": "251.2-6",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.2-5"
+    "source:Version": "251.2-6"
   },
   {
     "Architecture": "amd64",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.2-5",
+    "Version": "251.2-6",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.2-5"
+    "source:Version": "251.2-6"
   },
   {
     "Architecture": "amd64",
