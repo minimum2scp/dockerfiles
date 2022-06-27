@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1n-0+deb11u2",
+    "Version": "1.1.1n-0+deb11u3",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb11u2"
+    "source:Version": "1.1.1n-0+deb11u3"
   },
   {
     "Architecture": "amd64",
@@ -4161,7 +4161,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1n-0+deb11u2",
+    "Version": "1.1.1n-0+deb11u3",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4169,7 +4169,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb11u2"
+    "source:Version": "1.1.1n-0+deb11u3"
   },
   {
     "Architecture": "amd64",
