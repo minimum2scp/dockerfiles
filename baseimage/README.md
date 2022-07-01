@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.121                              all    add and remove users and groups
-ii   apt                      2.5.0                              amd64  commandline package manager
+ii   apt                      2.5.1                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
 ii   bash                     5.1-6.1                            amd64  GNU Bourne Again SHell
@@ -78,7 +78,7 @@ ii   debconf                  1.5.79                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.2                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
-ii   dpkg                     1.21.8                             amd64  Debian package management system
+ii   dpkg                     1.21.9                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -86,7 +86,7 @@ ii   gcc-12-base              12.1.0-5                           amd64  GCC, the
 ii   gcc-9-base               9.5.0-1                            amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.36.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.36.1-1                         all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.35-2                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                     2.2.35-3                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
@@ -95,7 +95,7 @@ ii   init-system-helpers      1.63                               all    helper t
 ii   initscripts              3.03-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0            2.5.0                              amd64  package management runtime library
+ii   libapt-pkg6.0            2.5.1                              amd64  package management runtime library
 ii   libattr1                 1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
@@ -113,7 +113,7 @@ ii   libcom-err2              1.46.5-2                           amd64  common e
 ii   libcrypt1                1:4.4.28-1                         amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.84.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.84.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                 5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                 5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
