@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.121                              all    add and remove users and groups
-ii   apt                     2.5.0                              amd64  commandline package manager
+ii   apt                     2.5.1                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
 ii   bash                    5.1-6.1                            amd64  GNU Bourne Again SHell
@@ -41,7 +41,7 @@ ii   gzip                    1.12-1                             amd64  GNU compr
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.63                               all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0           2.5.0                              amd64  package management runtime library
+ii   libapt-pkg6.0           2.5.1                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
@@ -53,7 +53,7 @@ ii   libcap-ng0              0.8.3-1                            amd64  alternate
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
 ii   libcrypt1               1:4.4.28-1                         amd64  libcrypt shared library
-ii   libdb5.3                5.3.28+dfsg1-0.9                   amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
