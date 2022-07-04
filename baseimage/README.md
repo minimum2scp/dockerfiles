@@ -192,7 +192,7 @@ ii   locales                  2.33-7                             all    GNU C Li
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.2                               all    Linux Standard Base init script functionality
-ii   lv                       4.51-8                             amd64  Powerful Multilingual File Viewer
+ii   lv                       4.51-9                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.10.2-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                    2.38-4                             amd64  tools for mounting and manipulating filesystems
