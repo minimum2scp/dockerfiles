@@ -91,7 +91,7 @@ ii   grep                     3.7-1                              amd64  GNU grep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.63                               all    helper tools for all init systems
+ii   init-system-helpers      1.64                               all    helper tools for all init systems
 ii   initscripts              3.03-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
@@ -156,7 +156,7 @@ ii   libpam-runtime           1.4.0-13                           all    Runtime 
 ii   libpam0g                 1.4.0-13                           amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                 2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.34              5.34.0-4                           amd64  shared Perl library
+ii   libperl5.34              5.34.0-5                           amd64  shared Perl library
 ii   libpipeline1             1.5.6-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
@@ -205,9 +205,9 @@ ii   openssh-sftp-server      1:9.0p1-1+b1                       amd64  secure s
 ii   openssl                  3.0.4-2                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
-ii   perl                     5.34.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.34.0-4                           amd64  minimal Perl system
-ii   perl-modules-5.34        5.34.0-4                           all    Core Perl modules
+ii   perl                     5.34.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.34.0-5                           amd64  minimal Perl system
+ii   perl-modules-5.34        5.34.0-5                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   rsyslog                  8.2206.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.13.1                             all    dh-runit implementation detail
