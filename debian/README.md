@@ -39,7 +39,7 @@ ii   gpgv                    2.2.35-3                           amd64  GNU priva
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.63                               all    helper tools for all init systems
+ii   init-system-helpers     1.64                               all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.1                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
@@ -99,7 +99,7 @@ ii   mount                   2.38-4                             amd64  tools for
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
-ii   perl-base               5.34.0-4                           amd64  minimal Perl system
+ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.03-1                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility

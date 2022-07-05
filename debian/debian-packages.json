@@ -594,7 +594,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "139",
+    "Installed-Size": "140",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -605,7 +605,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.63",
+    "Version": "1.64",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.63"
+    "source:Version": "1.64"
   },
   {
     "Architecture": "amd64",
@@ -2285,7 +2285,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.34.0-4",
+    "Version": "5.34.0-5",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.34.0-4"
+    "source:Version": "5.34.0-5"
   },
   {
     "Architecture": "amd64",
