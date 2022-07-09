@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.1+deb11u3",
+    "Version": "11.1+deb11u4",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "11.1+deb11u3"
+    "source:Version": "11.1+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 2.15)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6470",
+    "Installed-Size": "6469",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.25), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1-2+b3",
+    "Version": "5.1-2+deb11u1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.1-2"
+    "source:Version": "5.1-2+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -342,7 +342,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6874",
+    "Installed-Size": "6973",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.20.9",
+    "Version": "1.20.11",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.20.9"
+    "source:Version": "1.20.11"
   },
   {
     "Architecture": "amd64",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.27-2+deb11u1",
+    "Version": "2.2.27-2+deb11u2",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.27-2+deb11u1"
+    "source:Version": "2.2.27-2+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -549,7 +549,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.10-4",
+    "Version": "1.10-4+deb11u1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.10-4"
+    "source:Version": "1.10-4+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3142",
+    "Installed-Size": "3143",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.1-5",
+    "Version": "3.7.1-5+deb11u1",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.1-5"
+    "source:Version": "3.7.1-5+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.2.5-2",
+    "Version": "5.2.5-2.1~deb11u1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.2.5-2"
+    "source:Version": "5.2.5-2.1~deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1n-0+deb11u1",
+    "Version": "1.1.1n-0+deb11u3",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb11u1"
+    "source:Version": "1.1.1n-0+deb11u3"
   },
   {
     "Architecture": "amd64",
@@ -2621,7 +2621,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021a-1+deb11u2",
+    "Version": "2021a-1+deb11u4",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021a-1+deb11u2"
+    "source:Version": "2021a-1+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.2.11.dfsg-2",
+    "Version": "1:1.2.11.dfsg-2+deb11u1",
     "binary:Package": "zlib1g:amd64",
     "binary:Summary": "compression library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2685,6 +2685,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zlib",
-    "source:Version": "1:1.2.11.dfsg-2"
+    "source:Version": "1:1.2.11.dfsg-2+deb11u1"
   }
 ]
