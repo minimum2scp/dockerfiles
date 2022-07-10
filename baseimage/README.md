@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.38-4                           amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-144                         amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-144                         all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-145                         amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-145                         all    process scheduling daemon's configuration files
 ii   curl                     7.84.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
@@ -141,7 +141,7 @@ ii   libldap-2.5-0            2.5.12+dfsg-2                      amd64  OpenLDAP
 ii   liblognorm5              2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.2.5-2.1                          amd64  XZ-format compression library
-ii   libmd0                   1.0.4-1                            amd64  message digest functions from BSD systems - shared library
+ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38-4                             amd64  device mounting library
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)

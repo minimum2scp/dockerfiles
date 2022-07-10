@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.33), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, adduser, lsb-base, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "242",
+    "Installed-Size": "243",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-144",
+    "Version": "3.0pl1-145",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-144"
+    "source:Version": "3.0pl1-145"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "64",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-144",
+    "Version": "3.0pl1-145",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-144"
+    "source:Version": "3.0pl1-145"
   },
   {
     "Architecture": "amd64",
@@ -2271,7 +2271,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "79",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.4-1",
+    "Version": "1.0.4-2",
     "binary:Package": "libmd0:amd64",
     "binary:Summary": "message digest functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libmd",
-    "source:Version": "1.0.4-1"
+    "source:Version": "1.0.4-2"
   },
   {
     "Architecture": "amd64",
