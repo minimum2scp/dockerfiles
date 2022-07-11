@@ -67,10 +67,10 @@ I: Retrieving libstdc++6 12.1.0-5
 I: Validating libstdc++6 12.1.0-5
 I: Retrieving gcc-9-base 9.5.0-1
 I: Validating gcc-9-base 9.5.0-1
-I: Retrieving libc-bin 2.33-7
-I: Validating libc-bin 2.33-7
-I: Retrieving libc6 2.33-7
-I: Validating libc6 2.33-7
+I: Retrieving libc-bin 2.33-8
+I: Validating libc-bin 2.33-8
+I: Retrieving libc6 2.33-8
+I: Validating libc6 2.33-8
 I: Retrieving libgmp10 2:6.2.1+dfsg1-1
 I: Validating libgmp10 2:6.2.1+dfsg1-1
 I: Retrieving gpgv 2.2.35-3
@@ -111,8 +111,8 @@ I: Retrieving libtasn1-6 4.18.0-4
 I: Validating libtasn1-6 4.18.0-4
 I: Retrieving libunistring2 1.0-1
 I: Validating libunistring2 1.0-1
-I: Retrieving libcrypt1 1:4.4.28-1
-I: Validating libcrypt1 1:4.4.28-1
+I: Retrieving libcrypt1 1:4.4.28-2
+I: Validating libcrypt1 1:4.4.28-2
 I: Retrieving libzstd1 1.5.2+dfsg-1
 I: Validating libzstd1 1.5.2+dfsg-1
 I: Retrieving lsb-base 11.2
@@ -466,14 +466,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  32.09MB
+Sending build context to Docker daemon   32.1MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 604bec011839
+ ---> eeba7d266023
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 2c81d402ed02
-Removing intermediate container 2c81d402ed02
- ---> 297ea49be0d6
-Successfully built 297ea49be0d6
+ ---> Running in 13526cbb5d32
+Removing intermediate container 13526cbb5d32
+ ---> 0713f95f72dc
+Successfully built 0713f95f72dc
 Successfully tagged minimum2scp/debian:latest

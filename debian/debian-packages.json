@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.33-7",
+    "Version": "2.33-8",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.33-7"
+    "source:Version": "2.33-8"
   },
   {
     "Architecture": "amd64",
@@ -846,7 +846,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12878",
+    "Installed-Size": "12876",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -857,7 +857,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.33-7",
+    "Version": "2.33-8",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.33-7"
+    "source:Version": "2.33-8"
   },
   {
     "Architecture": "amd64",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.28-1",
+    "Version": "1:4.4.28-2",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.28-1"
+    "source:Version": "1:4.4.28-2"
   },
   {
     "Architecture": "amd64",
