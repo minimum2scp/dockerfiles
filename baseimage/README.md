@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.38-4                           amd64  basic ut
 ii   bzip2                    1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-145                         amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-145                         all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-147                         amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-147                         all    process scheduling daemon's configuration files
 ii   curl                     7.84.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
@@ -103,14 +103,14 @@ ii   libblkid1                2.38-4                             amd64  block de
 ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.33-7                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.33-7                             all    GNU C Library: localization files
-ii   libc6                    2.33-7                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.33-8                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.33-8                             all    GNU C Library: localization files
+ii   libc6                    2.33-8                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1                            amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
-ii   libcrypt1                1:4.4.28-1                         amd64  libcrypt shared library
+ii   libcrypt1                1:4.4.28-2                         amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.84.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.84.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -188,7 +188,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                 1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.33-7                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.33-8                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.2                               all    Linux Standard Base init script functionality
