@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.84.0-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.33), libcurl4 (= 7.84.0-2), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "452",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.84.0-1",
+    "Version": "7.84.0-2",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.84.0-1"
+    "source:Version": "7.84.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.84.0-1",
+    "Version": "7.84.0-2",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.84.0-1"
+    "source:Version": "7.84.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.84.0-1",
+    "Version": "7.84.0-2",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.84.0-1"
+    "source:Version": "7.84.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2019,10 +2019,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libunistring2 (>= 0.9.7)",
+    "Depends": "sgml-base (>= 1.28), libc6 (>= 2.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "349",
+    "Installed-Size": "438",
     "Origin": "",
     "Package": "libidn2-0",
     "Pre-Depends": "",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.2-2",
+    "Version": "2.3.3-1",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2",
-    "source:Version": "2.3.2-2"
+    "source:Version": "2.3.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4282,6 +4282,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
     "source:Version": "0.0.17"
+  },
+  {
+    "Architecture": "all",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "70",
+    "Origin": "",
+    "Package": "sgml-base",
+    "Pre-Depends": "dpkg (>= 1.16.4)",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "text",
+    "Status": "install ok installed",
+    "Suggests": "sgml-base-doc",
+    "Version": "1.30",
+    "binary:Package": "sgml-base",
+    "binary:Summary": "SGML infrastructure and SGML catalog file support",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "sgml-base",
+    "source:Version": "1.30"
   },
   {
     "Architecture": "amd64",

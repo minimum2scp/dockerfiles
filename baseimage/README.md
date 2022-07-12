@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                           all    Common C
 ii   coreutils                8.32-4.1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-147                         amd64  process scheduling daemon
 ii   cron-daemon-common       3.0pl1-147                         all    process scheduling daemon's configuration files
-ii   curl                     7.84.0-1                           amd64  command line tool for transferring data with URL syntax
+ii   curl                     7.84.0-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -111,8 +111,8 @@ ii   libcap2                  1:2.44-1                           amd64  POSIX 10
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
 ii   libcrypt1                1:4.4.28-2                         amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.84.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.84.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.84.0-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.84.0-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.263                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20210910-1                     amd64  BSD editline and history libraries
@@ -132,7 +132,7 @@ ii   libgnutls30              3.7.6-2                            amd64  GNU TLS 
 ii   libgpg-error0            1.45-2                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                2.3.3-1                            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3             1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1             1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.19.2-2+b2                        amd64  MIT Kerberos runtime libraries
@@ -213,6 +213,7 @@ ii   rsyslog                  8.2206.0-1                         amd64  reliable
 ii   runit-helper             2.13.1                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
+ii   sgml-base                1.30                               all    SGML infrastructure and SGML catalog file support
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.10-3                           amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.03-1                             all    System-V-like runlevel change mechanism
