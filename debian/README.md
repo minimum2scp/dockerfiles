@@ -63,7 +63,7 @@ ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprec
 ii   libgnutls30             3.7.6-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.7.3-1                            amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.3.2-2                            amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.3-1                            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmount1               2.38-4                             amd64  device mounting library
@@ -101,6 +101,7 @@ ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
+ii   sgml-base               1.30                               all    SGML infrastructure and SGML catalog file support
 ii   sysvinit-utils          3.03-1                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022a-1                            all    time zone and daylight-saving time data
