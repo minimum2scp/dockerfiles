@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                  3.121                              all    add and remove users and groups
+ii   adduser                  3.122                              all    add and remove users and groups
 ii   apt                      2.5.1                              amd64  commandline package manager
 ii   base-files               12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.5.52                             amd64  Debian base system master password and group files
@@ -175,13 +175,13 @@ ii   libss2                   1.46.5-2                           amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.4-2                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.1.0-5                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0              251.2-8                            amd64  systemd utility library
+ii   libsystemd0              251.3-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 251.2-8                            amd64  libudev shared library
+ii   libudev1                 251.3-1                            amd64  libudev shared library
 ii   libunistring2            1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                 2.38-4                             amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
