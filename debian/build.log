@@ -165,22 +165,22 @@ I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2022a-1
 I: Validating tzdata 2022a-1
-I: Retrieving bsdutils 1:2.38-4
-I: Validating bsdutils 1:2.38-4
-I: Retrieving libblkid1 2.38-4
-I: Validating libblkid1 2.38-4
-I: Retrieving libmount1 2.38-4
-I: Validating libmount1 2.38-4
-I: Retrieving libsmartcols1 2.38-4
-I: Validating libsmartcols1 2.38-4
-I: Retrieving libuuid1 2.38-4
-I: Validating libuuid1 2.38-4
-I: Retrieving mount 2.38-4
-I: Validating mount 2.38-4
-I: Retrieving util-linux 2.38-4
-I: Validating util-linux 2.38-4
-I: Retrieving util-linux-extra 2.38-4
-I: Validating util-linux-extra 2.38-4
+I: Retrieving bsdutils 1:2.38-5
+I: Validating bsdutils 1:2.38-5
+I: Retrieving libblkid1 2.38-5
+I: Validating libblkid1 2.38-5
+I: Retrieving libmount1 2.38-5
+I: Validating libmount1 2.38-5
+I: Retrieving libsmartcols1 2.38-5
+I: Validating libsmartcols1 2.38-5
+I: Retrieving libuuid1 2.38-5
+I: Validating libuuid1 2.38-5
+I: Retrieving mount 2.38-5
+I: Validating mount 2.38-5
+I: Retrieving util-linux 2.38-5
+I: Validating util-linux 2.38-5
+I: Retrieving util-linux-extra 2.38-5
+I: Validating util-linux-extra 2.38-5
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2.1
@@ -471,14 +471,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  32.05MB
+Sending build context to Docker daemon  32.04MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> fc302a9c0851
+ ---> 194e21ff40d9
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 79b946fd07d6
-Removing intermediate container 79b946fd07d6
- ---> feed2737fa81
-Successfully built feed2737fa81
+ ---> Running in d07ecb7f2083
+Removing intermediate container d07ecb7f2083
+ ---> cd794644d3be
+Successfully built cd794644d3be
 Successfully tagged minimum2scp/debian:latest
