@@ -39,7 +39,7 @@ describe 'minimum2scp/rails7' do
 
       describe command("RBENV_VERSION=3.1.2 gem list") do
         let(:login_shell){ true }
-        its(:stdout){ should match /^rails \(6(?:\.\d+){2,3}\)$/ }
+        its(:stdout){ should match /^rails \(7(?:\.\d+){2,3}\)$/ }
       end
     end
 

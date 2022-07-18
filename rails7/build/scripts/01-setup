@@ -18,5 +18,5 @@ sh /tmp/build/rails7/tmp/ruby-binary/install.sh -t v0.1.182 -v 3.1.2
 bash -lc "rbenv global 3.1.2"
 
 ## install rails (by gem)
-bash -lc "RBENV_VERSION=3.1.2 gem install -N rails --version '~> 6.0'"
+bash -lc "RBENV_VERSION=3.1.2 gem install -N rails --version '~> 7.0'"
 
