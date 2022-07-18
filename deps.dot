@@ -20,7 +20,7 @@ digraph deps {
   es_kibana          [label = "minimum2scp/es-kibana"];
   nodejs             [label = "minimum2scp/nodejs"];
   norikra            [label = "minimum2scp/norikra"];
-  rails6             [label = "minimum2scp/rails6"];
+  rails7             [label = "minimum2scp/rails7"];
   ruby               [label = "minimum2scp/ruby"];
   ruby_bullseye      [label = "minimum2scp/ruby-bullseye"];
   ruby_buster        [label = "minimum2scp/ruby-buster"];
@@ -35,7 +35,7 @@ digraph deps {
 
   debian    -> baseimage;
   baseimage -> {es_kibana, nodejs, ruby, squid, systemd};
-  ruby      -> {norikra, rails6, ruby_full, tdiary};
+  ruby      -> {norikra, rails7, ruby_full, tdiary};
 
   debian_bullseye -> baseimage_bullseye;
   baseimage_bullseye -> {ruby_bullseye, systemd_bullseye};

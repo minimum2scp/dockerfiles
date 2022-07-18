@@ -1,4 +1,4 @@
-# about minimum2scp/rails6 image
+# about minimum2scp/rails7 image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * Ruby on Rails 6.x is installed by gem (1)
@@ -12,7 +12,7 @@
 ## start container
 
 ```
-docker run -d  minimum2scp/rails6
+docker run -d  minimum2scp/rails7
 ```
 
 ## ssh login to container

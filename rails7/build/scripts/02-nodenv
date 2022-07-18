@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 nodenv_root=/opt/nodenv
 
 ## get latest nodejs version (18.x.x) from https://nodejs.org/download/release/index.json
-node_version=$(python3 /tmp/build/rails6/helpers/latest-nodejs-version.py v18.)
+node_version=$(python3 /tmp/build/rails7/helpers/latest-nodejs-version.py v18.)
 
 ## install nodenv into /opt/nodenv
 git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}

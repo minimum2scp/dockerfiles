@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'minimum2scp/rails6' do
+describe 'minimum2scp/rails7' do
   context 'with env [APT_LINE=keep]' do
     before(:all) do
       start_container({
@@ -21,7 +21,7 @@ describe 'minimum2scp/rails6' do
       it { should_not be_directory }
     end
 
-    describe 'rails6' do
+    describe 'rails7' do
       %w[
         sqlite3 libsqlite3-dev
         mysql-client libmysqlclient-dev
