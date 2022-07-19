@@ -59,12 +59,12 @@ I: Retrieving logsave 1.46.5-2
 I: Validating logsave 1.46.5-2
 I: Retrieving findutils 4.9.0-3
 I: Validating findutils 4.9.0-3
-I: Retrieving gcc-12-base 12.1.0-5
-I: Validating gcc-12-base 12.1.0-5
-I: Retrieving libgcc-s1 12.1.0-5
-I: Validating libgcc-s1 12.1.0-5
-I: Retrieving libstdc++6 12.1.0-5
-I: Validating libstdc++6 12.1.0-5
+I: Retrieving gcc-12-base 12.1.0-7
+I: Validating gcc-12-base 12.1.0-7
+I: Retrieving libgcc-s1 12.1.0-7
+I: Validating libgcc-s1 12.1.0-7
+I: Retrieving libstdc++6 12.1.0-7
+I: Validating libstdc++6 12.1.0-7
 I: Retrieving gcc-9-base 9.5.0-1
 I: Validating gcc-9-base 9.5.0-1
 I: Retrieving libc-bin 2.33-8
@@ -471,14 +471,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  32.04MB
+Sending build context to Docker daemon  31.98MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 194e21ff40d9
+ ---> 161ff189e65c
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d07ecb7f2083
-Removing intermediate container d07ecb7f2083
- ---> cd794644d3be
-Successfully built cd794644d3be
+ ---> Running in 4482c246236c
+Removing intermediate container 4482c246236c
+ ---> c89289c3bdc6
+Successfully built c89289c3bdc6
 Successfully tagged minimum2scp/debian:latest
