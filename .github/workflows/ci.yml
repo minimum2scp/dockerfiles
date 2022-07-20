@@ -273,8 +273,8 @@ jobs:
       - run: docker push minimum2scp/ruby-full:latest
         if: github.ref == 'refs/heads/master'
 
-  rails6:
-    name: rails6
+  rails7:
+    name: rails7
     runs-on: ubuntu-latest
     needs: [ruby]
     steps:
@@ -285,7 +285,7 @@ jobs:
 
       # build image
       - uses: actions/checkout@v3
-      - run: docker build -t minimum2scp/rails6:latest rails6
+      - run: docker build -t minimum2scp/rails7:latest rails7
 
       # setup ruby
       - uses: ruby/setup-ruby@v1
@@ -294,14 +294,14 @@ jobs:
           bundler-cache: true
 
       # run test
-      - run: bundle exec rspec spec/rails6
+      - run: bundle exec rspec spec/rails7
 
       # no need to save image as artifact
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
         if: github.ref == 'refs/heads/master'
-      - run: docker push minimum2scp/rails6:latest
+      - run: docker push minimum2scp/rails7:latest
         if: github.ref == 'refs/heads/master'
 
   tdiary:

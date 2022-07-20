@@ -1,7 +1,7 @@
-# about minimum2scp/rails6 image
+# about minimum2scp/rails7 image
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
- * Ruby on Rails 6.x is installed by gem (1)
+ * Ruby on Rails 7.x is installed by gem (1)
  * RDBMS client, headers packages are installed
    * SQLite3: sqlite3, libsqlite3-dev
    * MySQL: mysql-client, libmysqlclient-dev
@@ -12,7 +12,7 @@
 ## start container
 
 ```
-docker run -d  minimum2scp/rails6
+docker run -d  minimum2scp/rails7
 ```
 
 ## ssh login to container
