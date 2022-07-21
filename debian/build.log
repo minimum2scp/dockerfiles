@@ -9,8 +9,8 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://ftp.jp.debian.org/debian...
 I: Retrieving libacl1 2.3.1-1
 I: Validating libacl1 2.3.1-1
-I: Retrieving adduser 3.122
-I: Validating adduser 3.122
+I: Retrieving adduser 3.123
+I: Validating adduser 3.123
 I: Retrieving apt 2.5.1
 I: Validating apt 2.5.1
 I: Retrieving libapt-pkg6.0 2.5.1
@@ -471,14 +471,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.98MB
+Sending build context to Docker daemon  31.99MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 161ff189e65c
+ ---> 81b2eb61700d
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4482c246236c
-Removing intermediate container 4482c246236c
- ---> c89289c3bdc6
-Successfully built c89289c3bdc6
+ ---> Running in 808ab270e24a
+Removing intermediate container 808ab270e24a
+ ---> 1e8be641d044
+Successfully built 1e8be641d044
 Successfully tagged minimum2scp/debian:latest
