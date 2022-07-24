@@ -100,13 +100,13 @@ ii   libattr1                 1:2.5.1-1                          amd64  extended
 ii   libaudit-common          1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1                2.38-5                             amd64  block device ID library
-ii   libbrotli1               1.0.9-2+b3                         amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1               1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.33-8                             amd64  GNU C Library: Binaries
 ii   libc-l10n                2.33-8                             all    GNU C Library: localization files
 ii   libc6                    2.33-8                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0               0.8.3-1                            amd64  alternate POSIX capabilities library
+ii   libcap-ng0               0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.5-2                           amd64  common error description library
@@ -146,8 +146,8 @@ ii   libmount1                2.38-5                             amd64  device m
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.7.3-1                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52              0.52.21-5+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14            1.47.0-1+b1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnewt0.52              0.52.21-5+b2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnghttp2-14            1.48.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
@@ -164,10 +164,10 @@ ii   libpsl5                  0.21.0-1.2                         amd64  Library 
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.28+dfsg-6                      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db      2.1.28+dfsg-6                      amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2              2.5.4-1                            amd64  high level interface to Linux seccomp filter
-ii   libselinux1              3.4-1                              amd64  SELinux runtime shared libraries
+ii   libseccomp2              2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
+ii   libselinux1              3.4-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage2             3.4-1                              amd64  SELinux policy management library
+ii   libsemanage2             3.4-1+b1                           amd64  SELinux policy management library
 ii   libsepol2                3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                2.3.2-5+b1                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38-5                             amd64  smart column output alignment library
@@ -227,7 +227,7 @@ ii   util-linux               2.38-5                             amd64  miscella
 ii   util-linux-extra         2.38-5                             amd64  interactive login tools
 ii   vim-common               2:8.2.4793-1                       all    Vi IMproved - Common files
 ii   vim-tiny                 2:8.2.4793-1                       amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                 0.52.21-5+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                 0.52.21-5+b2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                      2:8.2.4793-1                       amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-4                    amd64  compression library - runtime
 ii   zsh                      5.9-1                              amd64  shell with lots of features
