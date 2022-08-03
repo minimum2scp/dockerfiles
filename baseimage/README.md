@@ -92,7 +92,7 @@ ii   groff-base               1.22.4-8                           amd64  GNU trof
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.64                               all    helper tools for all init systems
-ii   initscripts              3.03-1                             all    scripts for initializing and shutting down the system
+ii   initscripts              3.04-1                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0            2.5.2                              amd64  package management runtime library
@@ -210,19 +210,19 @@ ii   perl-base                5.34.0-5                           amd64  minimal 
 ii   perl-modules-5.34        5.34.0-5                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   rsyslog                  8.2206.0-1                         amd64  reliable system and kernel logging daemon
-ii   runit-helper             2.13.1                             all    dh-runit implementation detail
+ii   runit-helper             2.14.1                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   sgml-base                1.30                               all    SGML infrastructure and SGML catalog file support
 ii   startpar                 0.65-1                             amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.10-3                           amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.03-1                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.03-1                             amd64  System-V-like init
-ii   sysvinit-utils           3.03-1                             amd64  System-V-like utilities
+ii   sysv-rc                  3.04-1                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.04-1                             amd64  System-V-like init
+ii   sysvinit-utils           3.04-1                             amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                   2022a-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                    6.0-26                             amd64  De-archiver for .zip files
+ii   unzip                    6.0-27                             amd64  De-archiver for .zip files
 ii   usr-is-merged            29                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38-6                             amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38-6                             amd64  interactive login tools
