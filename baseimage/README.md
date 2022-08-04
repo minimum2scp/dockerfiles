@@ -226,10 +226,9 @@ ii   unzip                    6.0-27                             amd64  De-archi
 ii   usr-is-merged            29                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38-6                             amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38-6                             amd64  interactive login tools
-ii   vim-common               2:8.2.4793-1                       all    Vi IMproved - Common files
-ii   vim-tiny                 2:8.2.4793-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common               2:9.0.0135-1                       all    Vi IMproved - Common files
+ii   vim-tiny                 2:9.0.0135-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-5+b2                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                      2:8.2.4793-1                       amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                   1:1.2.11.dfsg-4                    amd64  compression library - runtime
 ii   zsh                      5.9-1                              amd64  shell with lots of features
 ii   zsh-common               5.9-1                              all    architecture independent files for Zsh
