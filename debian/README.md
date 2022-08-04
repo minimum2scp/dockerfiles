@@ -102,7 +102,7 @@ ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change an
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sgml-base               1.30                               all    SGML infrastructure and SGML catalog file support
-ii   sysvinit-utils          3.03-1                             amd64  System-V-like utilities
+ii   sysvinit-utils          3.04-1                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022a-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           29                                 all    Transitional package to assert a merged-/usr system

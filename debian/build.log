@@ -159,8 +159,8 @@ I: Retrieving libsystemd0 251.3-1
 I: Validating libsystemd0 251.3-1
 I: Retrieving libudev1 251.3-1
 I: Validating libudev1 251.3-1
-I: Retrieving sysvinit-utils 3.03-1
-I: Validating sysvinit-utils 3.03-1
+I: Retrieving sysvinit-utils 3.04-1
+I: Validating sysvinit-utils 3.04-1
 I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
 I: Retrieving tzdata 2022a-1
@@ -481,10 +481,10 @@ Sending build context to Docker daemon  32.02MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 146b10a92fa0
+ ---> 0e8d2559109e
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 96e55edad2aa
-Removing intermediate container 96e55edad2aa
- ---> e80a69bf37e7
-Successfully built e80a69bf37e7
+ ---> Running in fc0e4a806bd5
+Removing intermediate container fc0e4a806bd5
+ ---> cb10a4643a5d
+Successfully built cb10a4643a5d
 Successfully tagged minimum2scp/debian:latest
