@@ -76,7 +76,7 @@ ii   curl                     7.84.0-2                           amd64  command 
 ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.7-0.2                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.7-5                            amd64  File comparison utilities
 ii   dpkg                     1.21.9                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
@@ -178,8 +178,8 @@ ii   libstdc++6               12.1.0-7                           amd64  GNU Stan
 ii   libsystemd0              251.3-1                            amd64  systemd utility library
 ii   libtasn1-6               4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common          1.3.2-2                            all    transport-independent RPC library - common files
-ii   libtirpc3                1.3.2-2                            amd64  transport-independent RPC library
+ii   libtirpc-common          1.3.2-2.1                          all    transport-independent RPC library - common files
+ii   libtirpc3                1.3.2-2.1                          amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
 ii   libudev1                 251.3-1                            amd64  libudev shared library
 ii   libunistring2            1.0-1                              amd64  Unicode string library for C
