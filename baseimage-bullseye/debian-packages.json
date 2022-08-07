@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1-1",
+    "Version": "1.3.1-1+deb11u1",
     "binary:Package": "libtirpc-common",
     "binary:Summary": "transport-independent RPC library - common files",
     "db:Status-Abbrev": "ii ",
@@ -3469,16 +3469,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtirpc",
-    "source:Version": "1.3.1-1"
+    "source:Version": "1.3.1-1+deb11u1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "nfs-common (<< 1:1.2.8-7), nfs-kernel-server (<< 1:1.2.8-7)",
-    "Depends": "libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.17), libtirpc-common (>= 1.3.1-1)",
+    "Depends": "libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.17), libtirpc-common (>= 1.3.1-1+deb11u1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "225",
+    "Installed-Size": "229",
     "Origin": "",
     "Package": "libtirpc3",
     "Pre-Depends": "",
@@ -3489,7 +3489,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.1-1",
+    "Version": "1.3.1-1+deb11u1",
     "binary:Package": "libtirpc3:amd64",
     "binary:Summary": "transport-independent RPC library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtirpc",
-    "source:Version": "1.3.1-1"
+    "source:Version": "1.3.1-1+deb11u1"
   },
   {
     "Architecture": "amd64",
