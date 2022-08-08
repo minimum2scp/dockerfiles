@@ -67,10 +67,10 @@ I: Retrieving libstdc++6 12.1.0-7
 I: Validating libstdc++6 12.1.0-7
 I: Retrieving gcc-9-base 9.5.0-1
 I: Validating gcc-9-base 9.5.0-1
-I: Retrieving libc-bin 2.33-8
-I: Validating libc-bin 2.33-8
-I: Retrieving libc6 2.33-8
-I: Validating libc6 2.33-8
+I: Retrieving libc-bin 2.34-1
+I: Validating libc-bin 2.34-1
+I: Retrieving libc6 2.34-1
+I: Validating libc6 2.34-1
 I: Retrieving libgmp10 2:6.2.1+dfsg1-1
 I: Validating libgmp10 2:6.2.1+dfsg1-1
 I: Retrieving gpgv 2.2.35-3
@@ -477,14 +477,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  32.03MB
+Sending build context to Docker daemon  31.99MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 52dac00da79c
+ ---> ecda9a5657bd
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9ebce1238b04
-Removing intermediate container 9ebce1238b04
- ---> 9ff63186f2a4
-Successfully built 9ff63186f2a4
+ ---> Running in d24d40468cc7
+Removing intermediate container d24d40468cc7
+ ---> 9f80f11f2d9c
+Successfully built 9f80f11f2d9c
 Successfully tagged minimum2scp/debian:latest
