@@ -34,7 +34,7 @@ ii   dpkg                    1.21.9                             amd64  Debian pa
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.1.0-7                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base              9.5.0-1                            amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base              9.5.0-1+b1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.35-3                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.7-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -47,8 +47,8 @@ ii   libaudit-common         1:3.0.7-1                          all    Dynamic l
 ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.34-1                             amd64  GNU C Library: Binaries
-ii   libc6                   2.34-1                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.34-3                             amd64  GNU C Library: Binaries
+ii   libc6                   2.34-3                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library

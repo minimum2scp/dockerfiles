@@ -65,12 +65,12 @@ I: Retrieving libgcc-s1 12.1.0-7
 I: Validating libgcc-s1 12.1.0-7
 I: Retrieving libstdc++6 12.1.0-7
 I: Validating libstdc++6 12.1.0-7
-I: Retrieving gcc-9-base 9.5.0-1
-I: Validating gcc-9-base 9.5.0-1
-I: Retrieving libc-bin 2.34-1
-I: Validating libc-bin 2.34-1
-I: Retrieving libc6 2.34-1
-I: Validating libc6 2.34-1
+I: Retrieving gcc-9-base 9.5.0-1+b1
+I: Validating gcc-9-base 9.5.0-1+b1
+I: Retrieving libc-bin 2.34-3
+I: Validating libc-bin 2.34-3
+I: Retrieving libc6 2.34-3
+I: Validating libc6 2.34-3
 I: Retrieving libgmp10 2:6.2.1+dfsg1-1
 I: Validating libgmp10 2:6.2.1+dfsg1-1
 I: Retrieving gpgv 2.2.35-3
@@ -481,10 +481,10 @@ Sending build context to Docker daemon  31.99MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> ecda9a5657bd
+ ---> 3e42f9b5d482
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d24d40468cc7
-Removing intermediate container d24d40468cc7
- ---> 9f80f11f2d9c
-Successfully built 9f80f11f2d9c
+ ---> Running in bbc4da4f39f5
+Removing intermediate container bbc4da4f39f5
+ ---> 6323bc607d46
+Successfully built 6323bc607d46
 Successfully tagged minimum2scp/debian:latest
