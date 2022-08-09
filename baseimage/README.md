@@ -83,7 +83,7 @@ ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext
 ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.1.0-7                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gcc-9-base               9.5.0-1                            amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-9-base               9.5.0-1+b1                         amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.36.1-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.36.1-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.35-3                           amd64  GNU privacy guard - signature verification tool
@@ -103,9 +103,9 @@ ii   libblkid1                2.38.1-1                           amd64  block de
 ii   libbrotli1               1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.34-1                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.34-1                             all    GNU C Library: localization files
-ii   libc6                    2.34-1                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.34-3                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.34-3                             all    GNU C Library: localization files
+ii   libc6                    2.34-3                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -137,7 +137,7 @@ ii   libk5crypto3             1.20-1                             amd64  MIT Kerb
 ii   libkeyutils1             1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.20-1                             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.20-1                             amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0            2.5.12+dfsg-2                      amd64  OpenLDAP libraries
+ii   libldap-2.5-0            2.5.12+dfsg-2+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                 1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.2.5-2.1                          amd64  XZ-format compression library
@@ -188,7 +188,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                 1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.34-1                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.34-3                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                  1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                 11.2                               all    Linux Standard Base init script functionality
