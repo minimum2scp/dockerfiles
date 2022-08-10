@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.1-5+deb11u1",
+    "Version": "3.7.1-5+deb11u2",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.1-5+deb11u1"
+    "source:Version": "3.7.1-5+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -4794,7 +4794,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "385",
+    "Installed-Size": "384",
     "Origin": "",
     "Package": "unzip",
     "Pre-Depends": "",
@@ -4805,7 +4805,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-26",
+    "Version": "6.0-26+deb11u1",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -4813,7 +4813,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "unzip",
-    "source:Version": "6.0-26"
+    "source:Version": "6.0-26+deb11u1"
   },
   {
     "Architecture": "amd64",

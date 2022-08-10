@@ -127,7 +127,7 @@ ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1+deb11u1          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5+deb11u1                 amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.1-5+deb11u2                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -231,7 +231,7 @@ ii   sysvinit-utils          2.96-7+deb11u1                  amd64  System-V-lik
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-1+deb11u4                 all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                   6.0-26                          amd64  De-archiver for .zip files
+ii   unzip                   6.0-26+deb11u1                  amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-8+deb11u1                amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.2434-3+deb11u1            all    Vi IMproved - Common files
 ii   vim-tiny                2:8.2.2434-3+deb11u1            amd64  Vi IMproved - enhanced vi editor - compact version
