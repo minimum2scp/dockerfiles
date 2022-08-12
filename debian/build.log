@@ -125,10 +125,10 @@ I: Retrieving ncurses-base 6.3+20220423-2
 I: Validating ncurses-base 6.3+20220423-2
 I: Retrieving ncurses-bin 6.3+20220423-2
 I: Validating ncurses-bin 6.3+20220423-2
-I: Retrieving libhogweed6 3.7.3-1
-I: Validating libhogweed6 3.7.3-1
-I: Retrieving libnettle8 3.7.3-1
-I: Validating libnettle8 3.7.3-1
+I: Retrieving libhogweed6 3.8.1-2
+I: Validating libhogweed6 3.8.1-2
+I: Retrieving libnettle8 3.8.1-2
+I: Validating libnettle8 3.8.1-2
 I: Retrieving libp11-kit0 0.24.1-1
 I: Validating libp11-kit0 0.24.1-1
 I: Retrieving libpam-modules 1.4.0-13
@@ -161,8 +161,8 @@ I: Retrieving sysvinit-utils 3.04-1
 I: Validating sysvinit-utils 3.04-1
 I: Retrieving tar 1.34+dfsg-1
 I: Validating tar 1.34+dfsg-1
-I: Retrieving tzdata 2022a-1
-I: Validating tzdata 2022a-1
+I: Retrieving tzdata 2022b-1
+I: Validating tzdata 2022b-1
 I: Retrieving usr-is-merged 29
 I: Validating usr-is-merged 29
 I: Retrieving bsdutils 1:2.38.1-1
@@ -472,14 +472,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.85MB
+Sending build context to Docker daemon  32.05MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> a8de54ffaad9
+ ---> f3f22d443945
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c25c9d0f894e
-Removing intermediate container c25c9d0f894e
- ---> 3b170e0444b4
-Successfully built 3b170e0444b4
+ ---> Running in ff409c8b6550
+Removing intermediate container ff409c8b6550
+ ---> 5c67b0107ed5
+Successfully built 5c67b0107ed5
 Successfully tagged minimum2scp/debian:latest

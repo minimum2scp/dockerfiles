@@ -1207,10 +1207,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.1.0), libnettle8",
+    "Depends": "libc6 (>= 2.14), libgmp10 (>= 2:6.2.1+dfsg1), libnettle8",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "455",
+    "Installed-Size": "463",
     "Origin": "",
     "Package": "libhogweed6",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7.3-1",
+    "Version": "3.8.1-2",
     "binary:Package": "libhogweed6:amd64",
     "binary:Summary": "low level cryptographic library (public-key cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.7.3-1"
+    "source:Version": "3.8.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1350,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "480",
+    "Installed-Size": "520",
     "Origin": "",
     "Package": "libnettle8",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7.3-1",
+    "Version": "3.8.1-2",
     "binary:Package": "libnettle8:amd64",
     "binary:Summary": "low level cryptographic library (symmetric and one-way cryptos)",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nettle",
-    "source:Version": "3.7.3-1"
+    "source:Version": "3.8.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2386,7 +2386,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3353",
+    "Installed-Size": "3315",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2022a-1",
+    "Version": "2022b-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2022a-1"
+    "source:Version": "2022b-1"
   },
   {
     "Architecture": "all",
