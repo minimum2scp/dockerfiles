@@ -3139,10 +3139,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6028",
+    "Installed-Size": "5992",
     "Origin": "",
     "Package": "libssl3",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.5-1",
+    "Version": "3.0.5-2",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.5-1"
+    "source:Version": "3.0.5-2"
   },
   {
     "Architecture": "amd64",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.3-2",
+    "Version": "251.4-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.3-2"
+    "source:Version": "251.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.3-2",
+    "Version": "251.4-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.3-2"
+    "source:Version": "251.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3951,10 +3951,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33), libssl3 (>= 3.0.3)",
+    "Depends": "libc6 (>= 2.34), libssl3 (>= 3.0.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2293",
+    "Installed-Size": "2285",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3965,7 +3965,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.5-1",
+    "Version": "3.0.5-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.5-1"
+    "source:Version": "3.0.5-2"
   },
   {
     "Architecture": "all",
