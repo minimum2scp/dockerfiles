@@ -77,7 +77,7 @@ ii   dash                     0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-co
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
-ii   diffutils                1:3.7-5                            amd64  File comparison utilities
+ii   diffutils                1:3.8-1                            amd64  File comparison utilities
 ii   dpkg                     1.21.9                             amd64  Debian package management system
 ii   e2fsprogs                1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.17-1                          all    store /etc in git, mercurial, brz or darcs
