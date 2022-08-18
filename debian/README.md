@@ -21,8 +21,8 @@ installed packages:
 ii   adduser                 3.123                              all    add and remove users and groups
 ii   apt                     2.5.2                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
-ii   base-passwd             3.5.52                             amd64  Debian base system master password and group files
-ii   bash                    5.1-6.1                            amd64  GNU Bourne Again SHell
+ii   base-passwd             3.6.0                              amd64  Debian base system master password and group files
+ii   bash                    5.1-6.1+b1                         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-1                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
@@ -107,5 +107,5 @@ ii   tzdata                  2022c-1                            all    time zone
 ii   usr-is-merged           29                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1                           amd64  interactive login tools
-ii   zlib1g                  1:1.2.11.dfsg-4                    amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
 ```
