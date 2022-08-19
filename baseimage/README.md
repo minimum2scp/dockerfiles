@@ -149,20 +149,20 @@ ii   libnewt0.52                  0.52.21-5+b2                       amd64  Not 
 ii   libnghttp2-14                1.48.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.4.0-13                           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.4.0-13                           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.4.0-13                           all    Runtime support for the PAM library
-ii   libpam0g                     1.4.0-13                           amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.5.2-2                            amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.5.2-2                            all    Runtime support for the PAM library
+ii   libpam0g                     1.5.2-2                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                     2:8.39-14                          amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
 ii   libperl5.34                  5.34.0-5                           amd64  shared Perl library
-ii   libpipeline1                 1.5.6-1                            amd64  Unix process pipeline manipulation library
+ii   libpipeline1                 1.5.6-2                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.18-3                             amd64  lib for parsing cmdline parameters
 ii   libprocps8                   2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg-6                      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg-6                      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg-7                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg-7                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.4-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.4-1                              all    Common files for SELinux policy management libraries
@@ -192,7 +192,7 @@ ii   login                        1:4.11.1+dfsg1-2                   amd64  syst
 ii   logsave                      1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                     11.2                               all    Linux Standard Base init script functionality
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.10.2-1                           amd64  tools for reading manual pages
+ii   man-db                       2.10.2-2                           amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                        2.38.1-1                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.3+20220423-2                     all    basic terminal type definitions
