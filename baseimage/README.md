@@ -146,7 +146,7 @@ ii   libncurses6                  6.3+20220423-2                     amd64  shar
 ii   libncursesw6                 6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.21-5+b2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.48.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.48.0-2                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
@@ -226,8 +226,8 @@ ii   unzip                        6.0-27                             amd64  De-a
 ii   usr-is-merged                29                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
-ii   vim-common                   2:9.0.0135-1                       all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.0135-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.0229-1                       all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.0229-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.21-5+b2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
 ii   zsh                          5.9-1+b1                           amd64  shell with lots of features
