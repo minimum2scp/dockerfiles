@@ -88,8 +88,7 @@ etckeeper commit "sudo: allow sudo group without asking password"
 ##
 ## setup user (username: debian, password: debian)
 ##
-addgroup --gid 2000 debian
-adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash --uid 2000 --ingroup debian debian
+adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash --firstuid 2000 --firstgid 2000 debian
 adduser debian sudo
 adduser debian adm
 ## NOTE: To encrypt password, use chpasswd -e option.
