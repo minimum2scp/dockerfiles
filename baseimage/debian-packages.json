@@ -3,10 +3,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "passwd, debconf (>= 0.5) | debconf-2.0",
+    "Depends": "passwd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "646",
+    "Installed-Size": "642",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron",
-    "Version": "3.123",
+    "Version": "3.127",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.123"
+    "source:Version": "3.127"
   },
   {
     "Architecture": "amd64",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.263",
+    "Version": "0.264",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.263"
+    "source:Version": "0.264"
   },
   {
     "Architecture": "amd64",

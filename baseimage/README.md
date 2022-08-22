@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.123                              all    add and remove users and groups
+ii   adduser                      3.127                              all    add and remove users and groups
 ii   apt                          2.5.2                              amd64  commandline package manager
 ii   base-files                   12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.0                              amd64  Debian base system master password and group files
@@ -113,7 +113,7 @@ ii   libcrypt1                    1:4.4.28-2                         amd64  libc
 ii   libcurl3-gnutls              7.84.0-2                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     7.84.0-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.263                              amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20210910-1                     amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                           amd64  Helper functions for handling strings (lib)
