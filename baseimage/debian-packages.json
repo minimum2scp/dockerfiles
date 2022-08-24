@@ -3,10 +3,10 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "passwd, debconf (>= 0.5) | debconf-2.0",
+    "Depends": "passwd",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "646",
+    "Installed-Size": "648",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron",
-    "Version": "3.123",
+    "Version": "3.128",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.123"
+    "source:Version": "3.128"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-8",
+    "Version": "12.2.0-1",
     "binary:Package": "gcc-12-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-8"
+    "source:Version": "12.2.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.263",
+    "Version": "0.264",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.263"
+    "source:Version": "0.264"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-12-base (= 12.1.0-8), libc6 (>= 2.34)",
+    "Depends": "gcc-12-base (= 12.2.0-1), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "140",
@@ -1747,13 +1747,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:12.1.0-8)",
+    "Provides": "libgcc1 (= 1:12.2.0-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-8",
+    "Version": "12.2.0-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-8"
+    "source:Version": "12.2.0-1"
   },
   {
     "Architecture": "amd64",
@@ -3167,7 +3167,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-12-base (= 12.1.0-8), libc6 (>= 2.34), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-12-base (= 12.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2686",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.1.0-8",
+    "Version": "12.2.0-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.1.0-8"
+    "source:Version": "12.2.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4654,7 +4654,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "300",
+    "Installed-Size": "302",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4665,7 +4665,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.0.0229-1",
+    "Version": "2:9.0.0242-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4673,16 +4673,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.0.0229-1"
+    "source:Version": "2:9.0.0242-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.0.0229-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.0.0242-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1660",
+    "Installed-Size": "1662",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4693,7 +4693,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.0.0229-1",
+    "Version": "2:9.0.0242-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.0.0229-1"
+    "source:Version": "2:9.0.0242-1"
   },
   {
     "Architecture": "amd64",
