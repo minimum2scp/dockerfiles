@@ -102,9 +102,9 @@ ii   libblkid1                    2.38.1-1                           amd64  bloc
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.34-4                             amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.34-4                             all    GNU C Library: localization files
-ii   libc6                        2.34-4                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.34-5                             amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.34-5                             all    GNU C Library: localization files
+ii   libc6                        2.34-5                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -146,7 +146,7 @@ ii   libncurses6                  6.3+20220423-2                     amd64  shar
 ii   libncursesw6                 6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.21-5+b2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.48.0-2                           amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.49.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
@@ -187,7 +187,7 @@ ii   libwrap0                     7.6.q-31                           amd64  Wiet
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.34-4                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.34-5                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                      1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                     11.2                               all    Linux Standard Base init script functionality
