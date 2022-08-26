@@ -22,7 +22,7 @@ ii   adduser                 3.128                              all    add and r
 ii   apt                     2.5.2                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.0                              amd64  Debian base system master password and group files
-ii   bash                    5.1-6.1+b1                         amd64  GNU Bourne Again SHell
+ii   bash                    5.2~rc2-2                          amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-1                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               8.32-4.1                           amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-8  amd64  POSIX-compliant shell
@@ -46,8 +46,8 @@ ii   libaudit-common         1:3.0.7-1                          all    Dynamic l
 ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.34-5                             amd64  GNU C Library: Binaries
-ii   libc6                   2.34-5                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.34-6                             amd64  GNU C Library: Binaries
+ii   libc6                   2.34-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.5-2                           amd64  common error description library
