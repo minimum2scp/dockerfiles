@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6454",
+    "Installed-Size": "7190",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.1-6.1+b1",
+    "Version": "5.2~rc2-2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.1-6.1"
+    "source:Version": "5.2~rc2-2"
   },
   {
     "Architecture": "amd64",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-5",
+    "Version": "2.34-6",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-5"
+    "source:Version": "2.34-6"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-5",
+    "Version": "2.34-6",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-5"
+    "source:Version": "2.34-6"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.34-5",
+    "Version": "2.34-6",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-5"
+    "source:Version": "2.34-6"
   },
   {
     "Architecture": "amd64",
@@ -3573,7 +3573,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-5",
+    "Version": "2.34-6",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-5"
+    "source:Version": "2.34-6"
   },
   {
     "Architecture": "amd64",
