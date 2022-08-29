@@ -6,7 +6,7 @@ I: Retrieving Packages
 I: Validating Packages 
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
-I: Checking component main on http://ftp.jp.debian.org/debian...
+I: Checking component main on http://deb.debian.org/debian...
 I: Retrieving libacl1 2.2.53-4
 I: Validating libacl1 2.2.53-4
 I: Retrieving adduser 3.118
@@ -465,12 +465,12 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://ftp.jp.debian.org/debian buster InRelease
-Get:2 http://ftp.jp.debian.org/debian buster-updates InRelease [56.6 kB]
-Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
-Get:4 http://ftp.jp.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [433 kB]
-Fetched 534 kB in 1s (929 kB/s)
+Hit:1 http://deb.debian.org/debian buster InRelease
+Get:2 http://security.debian.org buster/updates InRelease [34.8 kB]
+Get:3 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 Packages [438 kB]
+Get:5 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
+Fetched 539 kB in 0s (1308 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -481,13 +481,13 @@ The following packages will be upgraded:
 Need to get 4557 kB of archives.
 After this operation, 6144 B disk space will be freed.
 Get:1 http://security.debian.org buster/updates/main amd64 dpkg amd64 1.19.8 [2210 kB]
-Get:2 http://ftp.jp.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u6 [265 kB]
+Get:2 http://deb.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u6 [265 kB]
 Get:3 http://security.debian.org buster/updates/main amd64 gzip amd64 1.9-3+deb10u1 [128 kB]
 Get:4 http://security.debian.org buster/updates/main amd64 liblzma5 amd64 5.2.4-1+deb10u1 [153 kB]
 Get:5 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
 Get:6 http://security.debian.org buster/updates/main amd64 gpgv amd64 2.2.12-1+deb10u2 [584 kB]
 Get:7 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
-Fetched 4557 kB in 2s (2971 kB/s)
+Fetched 4557 kB in 0s (11.7 MB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../archives/dpkg_1.19.8_amd64.deb ...
 Unpacking dpkg (1.19.8) over (1.19.7) ...
@@ -517,14 +517,14 @@ Preparing to unpack .../tzdata_2021a-0+deb10u6_all.deb ...
 Unpacking tzdata (2021a-0+deb10u6) over (2021a-0+deb10u3) ...
 Setting up tzdata (2021a-0+deb10u6) ...
 Processing triggers for libc-bin (2.28-10+deb10u1) ...
-Sending build context to Docker daemon  30.24MB
+Sending build context to Docker daemon  30.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 31a4b084aaac
+ ---> 28a69f3fd71b
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 17dd63a7f6fb
-Removing intermediate container 17dd63a7f6fb
- ---> d1dbc7fda686
-Successfully built d1dbc7fda686
+ ---> Running in ce1d3f5cde15
+Removing intermediate container ce1d3f5cde15
+ ---> b09a8e492613
+Successfully built b09a8e492613
 Successfully tagged minimum2scp/debian-buster:latest
