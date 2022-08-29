@@ -28,7 +28,7 @@ task :mkimage  do
     --arch=amd64 --variant=minbase --components=main --no-merged-usr
   ]
   debootstrap_options << "--cache-dir=#{ENV['DEBOOTSTRAP_CACHE_DIR']}" if ENV['DEBOOTSTRAP_CACHE_DIR']
-  debootstrap_options << 'bullseye' << 'http://ftp.jp.debian.org/debian'
+  debootstrap_options << 'bullseye' << 'http://deb.debian.org/debian'
   debootstrap_options = debootstrap_options.join(' ')
   env = ENV.select{|k,v| ['TMPDIR', 'http_proxy'].include?(k) }.map{|k,v| "#{k}=#{v}"}.join(' ')
   mkimage_sh = [
