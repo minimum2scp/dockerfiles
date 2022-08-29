@@ -19,7 +19,7 @@ fi
 
 change_apt_line (){
   uri=$1
-  sed -i -e "s@http://httpredir\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
+  sed -i -e "s@http://deb\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
   if etckeeper unclean; then
     etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
   fi
