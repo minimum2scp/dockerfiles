@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-6",
+    "Version": "2.34-7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-6"
+    "source:Version": "2.34-7"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-6",
+    "Version": "2.34-7",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-6"
+    "source:Version": "2.34-7"
   },
   {
     "Architecture": "amd64",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.34-6",
+    "Version": "2.34-7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-6"
+    "source:Version": "2.34-7"
   },
   {
     "Architecture": "amd64",
@@ -1991,10 +1991,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "sgml-base (>= 1.28), libc6 (>= 2.14), libunistring2 (>= 0.9.7)",
+    "Depends": "libc6 (>= 2.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "438",
+    "Installed-Size": "439",
     "Origin": "",
     "Package": "libidn2-0",
     "Pre-Depends": "",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.3-1",
+    "Version": "2.3.3-1+b1",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -2190,7 +2190,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "157",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.3-2",
+    "Version": "1.9.4-1",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.9.3-2"
+    "source:Version": "1.9.4-1"
   },
   {
     "Architecture": "amd64",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.4-1",
+    "Version": "251.4-3",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.4-1"
+    "source:Version": "251.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.4-1",
+    "Version": "251.4-3",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.4-1"
+    "source:Version": "251.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3573,7 +3573,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-6",
+    "Version": "2.34-7",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-6"
+    "source:Version": "2.34-7"
   },
   {
     "Architecture": "amd64",
@@ -4256,34 +4256,6 @@
     "source:Version": "0.0.17"
   },
   {
-    "Architecture": "all",
-    "Conflicts": "",
-    "Breaks": "",
-    "Depends": "",
-    "Enhances": "",
-    "Essential": "no",
-    "Installed-Size": "70",
-    "Origin": "",
-    "Package": "sgml-base",
-    "Pre-Depends": "dpkg (>= 1.16.4)",
-    "Priority": "optional",
-    "Provides": "",
-    "Recommends": "",
-    "Replace": "",
-    "Section": "text",
-    "Status": "install ok installed",
-    "Suggests": "sgml-base-doc",
-    "Version": "1.30",
-    "binary:Package": "sgml-base",
-    "binary:Summary": "SGML infrastructure and SGML catalog file support",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "sgml-base",
-    "source:Version": "1.30"
-  },
-  {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "sysvinit-utils (<< 2.88dsf-52)",
@@ -4351,13 +4323,13 @@
     "Package": "systemd-standalone-tmpfiles",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-tmpfiles (= 251.4-1)",
+    "Provides": "systemd-tmpfiles (= 251.4-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "251.4-1",
+    "Version": "251.4-3",
     "binary:Package": "systemd-standalone-tmpfiles",
     "binary:Summary": "standalone tmpfiles binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "251.4-1"
+    "source:Version": "251.4-3"
   },
   {
     "Architecture": "all",

@@ -102,9 +102,9 @@ ii   libblkid1                    2.38.1-1                           amd64  bloc
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.34-6                             amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.34-6                             all    GNU C Library: localization files
-ii   libc6                        2.34-6                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.34-7                             amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.34-7                             all    GNU C Library: localization files
+ii   libc6                        2.34-7                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -131,14 +131,14 @@ ii   libgnutls30                  3.7.7-2                            amd64  GNU 
 ii   libgpg-error0                1.45-2                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20-1                             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.3-1                            amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.20-1                             amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20-1                             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.20-1                             amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.12+dfsg-2+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                            amd64  log normalizing library
-ii   liblz4-1                     1.9.3-2                            amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                     1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmd0                       1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.38.1-1                           amd64  device mounting library
@@ -174,20 +174,20 @@ ii   libss2                       1.46.5-2                           amd64  comm
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.5-2                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   12.2.0-1                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  251.4-1                            amd64  systemd utility library
+ii   libsystemd0                  251.4-3                            amd64  systemd utility library
 ii   libtasn1-6                   4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                     251.4-1                            amd64  libudev shared library
+ii   libudev1                     251.4-3                            amd64  libudev shared library
 ii   libunistring2                1.0-1                              amd64  Unicode string library for C
 ii   libuuid1                     2.38.1-1                           amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.34-6                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.34-7                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                      1.46.5-2                           amd64  save the output of a command in a log file
 ii   lsb-base                     11.2                               all    Linux Standard Base init script functionality
@@ -212,10 +212,9 @@ ii   rsyslog                      8.2208.0-1                         amd64  reli
 ii   runit-helper                 2.14.1                             all    dh-runit implementation detail
 ii   sed                          4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.17                             all    Utilities for sensible alternative selection
-ii   sgml-base                    1.30                               all    SGML infrastructure and SGML catalog file support
 ii   startpar                     0.65-1                             amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.11p3-1                         amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-tmpfiles  251.4-1                            amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-standalone-tmpfiles  251.4-3                            amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.04-1                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.04-1                             amd64  System-V-like init
 ii   sysvinit-utils               3.04-1                             amd64  System-V-like utilities
