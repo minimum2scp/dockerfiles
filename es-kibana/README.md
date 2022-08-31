@@ -38,17 +38,17 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p <published ss
 
 ```
 UID          PID    PPID  C STIME TTY      STAT   TIME CMD
-root           1       0  0 00:14 ?        Ss     0:00 init [2]
-elastic+     766       1 99 00:14 ?        Sl     0:31 /usr/share/elasticsearch/jdk/bin/java -Xshare:auto -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -XX:+ShowCodeDetailsInExceptionMessages -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dio.netty.allocator.numDirectArenas=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j2.formatMsgNoLookups=true -Djava.locale.providers=SPI,COMPAT --add-opens=java.base/java.io=ALL-UNNAMED -Djava.security.manager=allow -XX:+UseG1GC -Djava.io.tmpdir=/tmp/elasticsearch-57069045202130349 -XX:+HeapDumpOnOutOfMemoryError -XX:+ExitOnOutOfMemoryError -XX:HeapDumpPath=/var/lib/elasticsearch -XX:ErrorFile=/var/log/elasticsearch/hs_err_pid%p.log -Xlog:gc*,gc+age=trace,safepoint:file=/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m -Xms512m -Xmx512m -XX:MaxDirectMemorySize=268435456 -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=30 -XX:G1ReservePercent=15 -Des.path.home=/usr/share/elasticsearch -Des.path.conf=/etc/elasticsearch -Des.distribution.flavor=default -Des.distribution.type=deb -Des.bundled_jdk=true -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid
-elastic+     798     766  0 00:14 ?        Sl     0:00  \_ /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/controller
-root         816       1  2 00:14 ?        Ssl    0:00 /usr/sbin/rsyslogd
-root         841       1  0 00:14 ?        Ss     0:00 /usr/sbin/cron
-kibana       847       1 99 00:14 ?        Rl     0:05 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli/dist --logging.dest=/var/log/kibana/kibana.log --deprecation.skip_deprecated_settings[0]=logging.dest
-root         862       1  0 00:14 ?        Ss     0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
-root         888     862  0 00:14 ?        Ss     0:00  \_ sshd: debian [priv]
-debian       894     888  0 00:14 ?        S      0:00      \_ sshd: debian@pts/0
-debian       895     894  0 00:14 pts/0    Ss     0:00          \_ -bash
-debian       913     895  0 00:14 pts/0    R+     0:00              \_ ps -ef fww
+root           1       0  0 00:13 ?        Ss     0:00 init [2]
+elastic+     837       1 99 00:13 ?        Sl     0:39 /usr/share/elasticsearch/jdk/bin/java -Xshare:auto -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -XX:+ShowCodeDetailsInExceptionMessages -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dio.netty.allocator.numDirectArenas=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j2.formatMsgNoLookups=true -Djava.locale.providers=SPI,COMPAT --add-opens=java.base/java.io=ALL-UNNAMED -Djava.security.manager=allow -XX:+UseG1GC -Djava.io.tmpdir=/tmp/elasticsearch-1945160935719682631 -XX:+HeapDumpOnOutOfMemoryError -XX:+ExitOnOutOfMemoryError -XX:HeapDumpPath=/var/lib/elasticsearch -XX:ErrorFile=/var/log/elasticsearch/hs_err_pid%p.log -Xlog:gc*,gc+age=trace,safepoint:file=/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m -Xms512m -Xmx512m -XX:MaxDirectMemorySize=268435456 -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=30 -XX:G1ReservePercent=15 -Des.path.home=/usr/share/elasticsearch -Des.path.conf=/etc/elasticsearch -Des.distribution.flavor=default -Des.distribution.type=deb -Des.bundled_jdk=true -cp /usr/share/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch -d -p /var/run/elasticsearch/elasticsearch.pid
+elastic+     869     837  0 00:13 ?        Sl     0:00  \_ /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/controller
+root         886       1  1 00:13 ?        Ssl    0:00 /usr/sbin/rsyslogd
+root         911       1  0 00:13 ?        Ss     0:00 /usr/sbin/cron
+kibana       917       1 99 00:13 ?        Rl     0:07 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli/dist --logging.dest=/var/log/kibana/kibana.log --deprecation.skip_deprecated_settings[0]=logging.dest
+root         932       1  0 00:13 ?        Ss     0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+root         949     932  0 00:13 ?        Ss     0:00  \_ sshd: debian [priv]
+debian       967     949  0 00:13 ?        S      0:00      \_ sshd: debian@pts/0
+debian       968     967  0 00:13 pts/0    Ss     0:00          \_ -bash
+debian       993     968  0 00:13 pts/0    R+     0:00              \_ ps -ef fww
 ```
 
 ## ports
