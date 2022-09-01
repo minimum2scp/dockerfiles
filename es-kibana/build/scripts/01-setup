@@ -4,8 +4,8 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-elasticsearch_version=7.17.4
-kibana_version=7.17.4
+elasticsearch_version=7.17.6
+kibana_version=7.17.6
 
 ##
 ## install deps
