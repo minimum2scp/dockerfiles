@@ -209,7 +209,7 @@ ii   perl-base                    5.34.0-5                           amd64  mini
 ii   perl-modules-5.34            5.34.0-5                           all    Core Perl modules
 ii   procps                       2:3.3.17-7+b1                      amd64  /proc file system utilities
 ii   rsyslog                      8.2208.0-1                         amd64  reliable system and kernel logging daemon
-ii   runit-helper                 2.14.1                             all    dh-runit implementation detail
+ii   runit-helper                 2.14.2                             all    dh-runit implementation detail
 ii   sed                          4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1                             amd64  run processes in parallel and multiplex their output

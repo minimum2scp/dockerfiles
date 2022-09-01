@@ -4189,7 +4189,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.14.1",
+    "Version": "2.14.2",
     "binary:Package": "runit-helper",
     "binary:Summary": "dh-runit implementation detail",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dh-runit",
-    "source:Version": "2.14.1"
+    "source:Version": "2.14.2"
   },
   {
     "Architecture": "amd64",
