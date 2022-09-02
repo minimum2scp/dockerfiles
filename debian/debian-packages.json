@@ -205,7 +205,7 @@
     "Installed-Size": "214",
     "Origin": "",
     "Package": "dash",
-    "Pre-Depends": "libc6 (>= 2.33)",
+    "Pre-Depends": "libc6 (>= 2.34)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -213,7 +213,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.11+git20210903+057cd650a4ed-8",
+    "Version": "0.5.11+git20210903+057cd650a4ed-9",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.11+git20210903+057cd650a4ed-8"
+    "source:Version": "0.5.11+git20210903+057cd650a4ed-9"
   },
   {
     "Architecture": "all",
