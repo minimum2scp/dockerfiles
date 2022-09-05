@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.33), libgdbm6 (>= 1.16)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "81",
+    "Installed-Size": "80",
     "Origin": "",
     "Package": "libgdbm-compat4",
     "Pre-Depends": "",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.23-1+b1",
+    "Version": "1.23-2",
     "binary:Package": "libgdbm-compat4:amd64",
     "binary:Summary": "GNU dbm database routines (legacy support runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.23-1"
+    "source:Version": "1.23-2"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "140",
+    "Installed-Size": "139",
     "Origin": "",
     "Package": "libgdbm6",
     "Pre-Depends": "",
@@ -1836,8 +1836,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "gdbm-l10n (= 1.23-1)",
-    "Version": "1.23-1+b1",
+    "Suggests": "gdbm-l10n (= 1.23-2)",
+    "Version": "1.23-2",
     "binary:Package": "libgdbm6:amd64",
     "binary:Summary": "GNU dbm database routines (runtime version) ",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gdbm",
-    "source:Version": "1.23-1"
+    "source:Version": "1.23-2"
   },
   {
     "Architecture": "amd64",
@@ -3699,10 +3699,10 @@
     "Architecture": "amd64",
     "Conflicts": "man",
     "Breaks": "",
-    "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, systemd | systemd-tmpfiles, libc6 (>= 2.34), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2983",
+    "Installed-Size": "2984",
     "Origin": "",
     "Package": "man-db",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "apparmor, groff, less, www-browser",
-    "Version": "2.10.2-2",
+    "Version": "2.10.2-3",
     "binary:Package": "man-db",
     "binary:Summary": "tools for reading manual pages",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "man-db",
-    "source:Version": "2.10.2-2"
+    "source:Version": "2.10.2-3"
   },
   {
     "Architecture": "amd64",
