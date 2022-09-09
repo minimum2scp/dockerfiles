@@ -437,7 +437,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-1",
+    "Version": "12.2.0-2",
     "binary:Package": "gcc-12-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-1"
+    "source:Version": "12.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1067,7 +1067,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "cryptsetup-initramfs (<< 2:2.2.2-3~)",
-    "Depends": "gcc-12-base (= 12.2.0-1), libc6 (>= 2.34)",
+    "Depends": "gcc-12-base (= 12.2.0-2), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "140",
@@ -1075,13 +1075,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:12.2.0-1)",
+    "Provides": "libgcc1 (= 1:12.2.0-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-1",
+    "Version": "12.2.0-2",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-1"
+    "source:Version": "12.2.0-2"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-12-base (= 12.2.0-1), libc6 (>= 2.34), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-12-base (= 12.2.0-2), libc6 (>= 2.34), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2686",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-1",
+    "Version": "12.2.0-2",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-1"
+    "source:Version": "12.2.0-2"
   },
   {
     "Architecture": "amd64",

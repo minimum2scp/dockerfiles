@@ -33,7 +33,7 @@ ii   diffutils               1:3.8-1                            amd64  File comp
 ii   dpkg                    1.21.9                             amd64  Debian package management system
 ii   e2fsprogs               1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12.2.0-1                           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12.2.0-2                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.39-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-1                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -56,7 +56,7 @@ ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley 
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               12.2.0-1                           amd64  GCC support library
+ii   libgcc-s1               12.2.0-2                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.7-2                            amd64  GNU TLS library - main runtime library
@@ -80,7 +80,7 @@ ii   libsemanage2            3.4-1+b1                           amd64  SELinux p
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                  1.46.5-2                           amd64  command-line interface parsing library
-ii   libstdc++6              12.2.0-1                           amd64  GNU Standard C++ Library v3
+ii   libstdc++6              12.2.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             251.4-3                            amd64  systemd utility library
 ii   libtasn1-6              4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
