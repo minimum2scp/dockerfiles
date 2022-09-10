@@ -91,7 +91,6 @@ ii   libxxhash0              0.8.1-1                            amd64  shared li
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   login                   1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                 1.46.5-2                           amd64  save the output of a command in a log file
-ii   lsb-base                11.2                               all    Linux Standard Base init script functionality
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-1                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
@@ -99,7 +98,7 @@ ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.04-1                             amd64  System-V-like utilities
+ii   sysvinit-utils          3.05-2                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022c-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           29                                 all    Transitional package to assert a merged-/usr system
