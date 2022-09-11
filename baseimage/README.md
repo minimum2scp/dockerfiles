@@ -102,9 +102,9 @@ ii   libblkid1                    2.38.1-1                           amd64  bloc
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.34-7                             amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.34-7                             all    GNU C Library: localization files
-ii   libc6                        2.34-7                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.34-8                             amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.34-8                             all    GNU C Library: localization files
+ii   libc6                        2.34-8                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
@@ -174,7 +174,7 @@ ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2
 ii   libssl3                      3.0.5-2                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   12.2.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  251.4-3                            amd64  systemd utility library
-ii   libtasn1-6                   4.18.0-4                           amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6                   4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.3+ds-1                         amd64  transport-independent RPC library
@@ -186,7 +186,7 @@ ii   libwrap0                     7.6.q-31                           amd64  Wiet
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.34-7                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.34-8                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                      1.46.5-2                           amd64  save the output of a command in a log file
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
