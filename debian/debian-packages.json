@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.34-7",
+    "Version": "2.34-8",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-7"
+    "source:Version": "2.34-8"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.34-7",
+    "Version": "2.34-8",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.34-7"
+    "source:Version": "2.34-8"
   },
   {
     "Architecture": "amd64",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.18.0-4",
+    "Version": "4.19.0-2",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.18.0-4"
+    "source:Version": "4.19.0-2"
   },
   {
     "Architecture": "amd64",
