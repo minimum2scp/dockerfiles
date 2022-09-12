@@ -220,7 +220,7 @@ ii   tar                          1.34+dfsg-1                        amd64  GNU 
 ii   tzdata                       2022c-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
-ii   usr-is-merged                29                                 all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged                30                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files

@@ -4497,7 +4497,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "29",
+    "Version": "30",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "29"
+    "source:Version": "30"
   },
   {
     "Architecture": "amd64",
