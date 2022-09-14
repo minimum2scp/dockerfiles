@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118                    all    add and remove users and groups
 ii   apt                     1.8.2.3                  amd64  commandline package manager
-ii   base-files              10.3+deb10u12            amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u13            amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                   amd64  Debian base system master password and group files
 ii   bash                    5.0-4                    amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.33.1-0.1             amd64  basic utilities from 4.4BSD-Lite
@@ -108,5 +108,5 @@ ii   sysvinit-utils          2.93-8                   amd64  System-V-like utili
 ii   tar                     1.30+dfsg-6              amd64  GNU version of the tar archiving utility
 ii   tzdata                  2021a-0+deb10u6          all    time zone and daylight-saving time data
 ii   util-linux              2.33.1-0.1               amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.2.11.dfsg-1+deb10u1  amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-1+deb10u2  amd64  compression library - runtime
 ```

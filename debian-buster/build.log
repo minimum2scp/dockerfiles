@@ -21,8 +21,8 @@ I: Retrieving libaudit-common 1:2.8.4-3
 I: Validating libaudit-common 1:2.8.4-3
 I: Retrieving libaudit1 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
-I: Retrieving base-files 10.3+deb10u12
-I: Validating base-files 10.3+deb10u12
+I: Retrieving base-files 10.3+deb10u13
+I: Validating base-files 10.3+deb10u13
 I: Retrieving base-passwd 3.5.46
 I: Validating base-passwd 3.5.46
 I: Retrieving bash 5.0-4
@@ -45,8 +45,8 @@ I: Retrieving debianutils 4.8.6.1
 I: Validating debianutils 4.8.6.1
 I: Retrieving diffutils 1:3.7-3
 I: Validating diffutils 1:3.7-3
-I: Retrieving dpkg 1.19.7
-I: Validating dpkg 1.19.7
+I: Retrieving dpkg 1.19.8
+I: Validating dpkg 1.19.8
 I: Retrieving e2fsprogs 1.44.5-1+deb10u3
 I: Validating e2fsprogs 1.44.5-1+deb10u3
 I: Retrieving libcom-err2 1.44.5-1+deb10u3
@@ -71,14 +71,14 @@ I: Retrieving libc6 2.28-10+deb10u1
 I: Validating libc6 2.28-10+deb10u1
 I: Retrieving libgmp10 2:6.1.2+dfsg-4+deb10u1
 I: Validating libgmp10 2:6.1.2+dfsg-4+deb10u1
-I: Retrieving gpgv 2.2.12-1+deb10u1
-I: Validating gpgv 2.2.12-1+deb10u1
-I: Retrieving libgnutls30 3.6.7-4+deb10u7
-I: Validating libgnutls30 3.6.7-4+deb10u7
+I: Retrieving gpgv 2.2.12-1+deb10u2
+I: Validating gpgv 2.2.12-1+deb10u2
+I: Retrieving libgnutls30 3.6.7-4+deb10u8
+I: Validating libgnutls30 3.6.7-4+deb10u8
 I: Retrieving grep 3.3-1
 I: Validating grep 3.3-1
-I: Retrieving gzip 1.9-3
-I: Validating gzip 1.9-3
+I: Retrieving gzip 1.9-3+deb10u1
+I: Validating gzip 1.9-3+deb10u1
 I: Retrieving hostname 3.21
 I: Validating hostname 3.21
 I: Retrieving init-system-helpers 1.56+nmu1
@@ -165,8 +165,8 @@ I: Retrieving sysvinit-utils 2.93-8
 I: Validating sysvinit-utils 2.93-8
 I: Retrieving tar 1.30+dfsg-6
 I: Validating tar 1.30+dfsg-6
-I: Retrieving tzdata 2021a-0+deb10u3
-I: Validating tzdata 2021a-0+deb10u3
+I: Retrieving tzdata 2021a-0+deb10u6
+I: Validating tzdata 2021a-0+deb10u6
 I: Retrieving bsdutils 1:2.33.1-0.1
 I: Validating bsdutils 1:2.33.1-0.1
 I: Retrieving fdisk 2.33.1-0.1
@@ -185,10 +185,10 @@ I: Retrieving mount 2.33.1-0.1
 I: Validating mount 2.33.1-0.1
 I: Retrieving util-linux 2.33.1-0.1
 I: Validating util-linux 2.33.1-0.1
-I: Retrieving liblzma5 5.2.4-1
-I: Validating liblzma5 5.2.4-1
-I: Retrieving zlib1g 1:1.2.11.dfsg-1
-I: Validating zlib1g 1:1.2.11.dfsg-1
+I: Retrieving liblzma5 5.2.4-1+deb10u1
+I: Validating liblzma5 5.2.4-1+deb10u1
+I: Retrieving zlib1g 1:1.2.11.dfsg-1+deb10u1
+I: Validating zlib1g 1:1.2.11.dfsg-1+deb10u1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting libacl1...
 I: Extracting adduser...
@@ -466,65 +466,40 @@ I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit:1 http://deb.debian.org/debian buster InRelease
-Get:2 http://security.debian.org buster/updates InRelease [34.8 kB]
-Get:3 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 Packages [438 kB]
-Get:5 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Fetched 539 kB in 0s (1308 kB/s)
+Get:2 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
+Get:4 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [446 kB]
+Fetched 547 kB in 1s (665 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  dpkg gpgv gzip libgnutls30 liblzma5 tzdata zlib1g
-7 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 4557 kB of archives.
-After this operation, 6144 B disk space will be freed.
-Get:1 http://security.debian.org buster/updates/main amd64 dpkg amd64 1.19.8 [2210 kB]
-Get:2 http://deb.debian.org/debian buster-updates/main amd64 tzdata all 2021a-0+deb10u6 [265 kB]
-Get:3 http://security.debian.org buster/updates/main amd64 gzip amd64 1.9-3+deb10u1 [128 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 liblzma5 amd64 5.2.4-1+deb10u1 [153 kB]
-Get:5 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u1 [90.8 kB]
-Get:6 http://security.debian.org buster/updates/main amd64 gpgv amd64 2.2.12-1+deb10u2 [584 kB]
-Get:7 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
-Fetched 4557 kB in 0s (11.7 MB/s)
+  libgnutls30 zlib1g
+2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1217 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u2 [90.9 kB]
+Get:2 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
+Fetched 1217 kB in 3s (360 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../archives/dpkg_1.19.8_amd64.deb ...
-Unpacking dpkg (1.19.8) over (1.19.7) ...
-Setting up dpkg (1.19.8) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../gzip_1.9-3+deb10u1_amd64.deb ...
-Unpacking gzip (1.9-3+deb10u1) over (1.9-3) ...
-Setting up gzip (1.9-3+deb10u1) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../liblzma5_5.2.4-1+deb10u1_amd64.deb ...
-Unpacking liblzma5:amd64 (5.2.4-1+deb10u1) over (5.2.4-1) ...
-Setting up liblzma5:amd64 (5.2.4-1+deb10u1) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u1_amd64.deb ...
-Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) over (1:1.2.11.dfsg-1) ...
-Setting up zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u1) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../gpgv_2.2.12-1+deb10u2_amd64.deb ...
-Unpacking gpgv (2.2.12-1+deb10u2) over (2.2.12-1+deb10u1) ...
-Setting up gpgv (2.2.12-1+deb10u2) ...
+Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u2_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u2) over (1:1.2.11.dfsg-1+deb10u1) ...
+Setting up zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u2) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libgnutls30_3.6.7-4+deb10u9_amd64.deb ...
-Unpacking libgnutls30:amd64 (3.6.7-4+deb10u9) over (3.6.7-4+deb10u7) ...
+Unpacking libgnutls30:amd64 (3.6.7-4+deb10u9) over (3.6.7-4+deb10u8) ...
 Setting up libgnutls30:amd64 (3.6.7-4+deb10u9) ...
-(Reading database ... 6679 files and directories currently installed.)
-Preparing to unpack .../tzdata_2021a-0+deb10u6_all.deb ...
-Unpacking tzdata (2021a-0+deb10u6) over (2021a-0+deb10u3) ...
-Setting up tzdata (2021a-0+deb10u6) ...
 Processing triggers for libc-bin (2.28-10+deb10u1) ...
 Sending build context to Docker daemon  30.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 28a69f3fd71b
+ ---> 6d51d6dd0ea7
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ce1d3f5cde15
-Removing intermediate container ce1d3f5cde15
- ---> b09a8e492613
-Successfully built b09a8e492613
+ ---> Running in 36c8191c3127
+Removing intermediate container 36c8191c3127
+ ---> a1b2125d6c50
+Successfully built a1b2125d6c50
 Successfully tagged minimum2scp/debian-buster:latest
