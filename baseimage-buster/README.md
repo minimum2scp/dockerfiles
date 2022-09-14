@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                        all    add and remove users and groups
 ii   apt                     1.8.2.3                      amd64  commandline package manager
-ii   base-files              10.3+deb10u12                amd64  Debian base system miscellaneous files
+ii   base-files              10.3+deb10u13                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.46                       amd64  Debian base system master password and group files
 ii   bash                    5.0-4                        amd64  GNU Bourne Again SHell
 ii   bsdmainutils            11.1.2+b1                    amd64  collection of more utilities from FreeBSD
@@ -130,13 +130,13 @@ ii   libgdbm6                1.18.1-4                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.2+dfsg-4+deb10u1       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.7-4+deb10u9              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1+deb10u1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-3+deb10u3               amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u7        amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-3+deb10u7        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
@@ -176,7 +176,7 @@ ii   libsemanage1            2.8-2                        amd64  SELinux policy 
 ii   libsepol1               2.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.33.1-0.1                   amd64  smart column output alignment library
-ii   libsqlite3-0            3.27.2-3+deb10u1             amd64  SQLite 3 shared library
+ii   libsqlite3-0            3.27.2-3+deb10u2             amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1+deb10u3             amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1n-0+deb10u3             amd64  Secure Sockets Layer toolkit - shared libraries
@@ -236,7 +236,7 @@ ii   vim-common              2:8.1.0875-5+deb10u2         all    Vi IMproved - C
 ii   vim-tiny                2:8.1.0875-5+deb10u2         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   xxd                     2:8.1.0875-5+deb10u2         amd64  tool to make (or reverse) a hex dump
-ii   zlib1g                  1:1.2.11.dfsg-1+deb10u1      amd64  compression library - runtime
+ii   zlib1g                  1:1.2.11.dfsg-1+deb10u2      amd64  compression library - runtime
 ii   zsh                     5.7.1-1+deb10u1              amd64  shell with lots of features
 ii   zsh-common              5.7.1-1+deb10u1              all    architecture independent files for Zsh
 ii   zstd                    1.3.8+dfsg-3+deb10u2         amd64  fast lossless compression algorithm -- CLI tool
