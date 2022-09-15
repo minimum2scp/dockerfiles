@@ -79,19 +79,19 @@ ii   debian-archive-keyring       2021.1.1                           all    GnuP
 ii   debianutils                  5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.8-1                            amd64  File comparison utilities
 ii   dpkg                         1.21.9                             amd64  Debian package management system
-ii   e2fsprogs                    1.46.5-2                           amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs                    1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.18-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base                  12.2.0-2                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.37.2-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.37.2-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.39-1                           amd64  GNU privacy guard - signature verification tool
-ii   grep                         3.8-1                              amd64  GNU grep, egrep and fgrep
+ii   grep                         3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                             amd64  GNU compression utilities
 ii   hostname                     3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.64                               all    helper tools for all init systems
-ii   initscripts                  3.05-2                             all    scripts for initializing and shutting down the system
+ii   initscripts                  3.05-5                             all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0                2.5.2                              amd64  package management runtime library
@@ -108,7 +108,7 @@ ii   libc6                        2.34-8                             amd64  GNU 
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.46.5-2                           amd64  common error description library
+ii   libcom-err2                  1.46.6~rc1-1                       amd64  common error description library
 ii   libcrypt1                    1:4.4.28-2                         amd64  libcrypt shared library
 ii   libcurl3-gnutls              7.85.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     7.85.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -118,7 +118,7 @@ ii   libedit2                     3.1-20210910-1                     amd64  BSD 
 ii   liberror-perl                0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                           amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.4.8-1                            amd64  XML parsing C library - runtime library
-ii   libext2fs2                   1.46.5-2                           amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2                   1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 0.99.9-2                           amd64  fast json library for C
 ii   libffi8                      3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.11.0-1+b1                        amd64  library for generating and verifying FIDO 2.0 objects
@@ -169,7 +169,7 @@ ii   libsemanage2                 3.4-1+b1                           amd64  SELi
 ii   libsepol2                    3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-1                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.38.1-1                           amd64  smart column output alignment library
-ii   libss2                       1.46.5-2                           amd64  command-line interface parsing library
+ii   libss2                       1.46.6~rc1-1                       amd64  command-line interface parsing library
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.5-2                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   12.2.0-2                           amd64  GNU Standard C++ Library v3
@@ -188,7 +188,7 @@ ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.34-8                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
-ii   logsave                      1.46.5-2                           amd64  save the output of a command in a log file
+ii   logsave                      1.46.6~rc1-1                       amd64  save the output of a command in a log file
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.10.2-3                           amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
@@ -213,9 +213,9 @@ ii   sensible-utils               0.0.17                             all    Util
 ii   startpar                     0.65-1                             amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.11p3-1                         amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-tmpfiles  251.4-3                            amd64  standalone tmpfiles binary for use in non-systemd systems
-ii   sysv-rc                      3.05-2                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.05-2                             amd64  System-V-like init
-ii   sysvinit-utils               3.05-2                             amd64  System-V-like utilities
+ii   sysv-rc                      3.05-5                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.05-5                             amd64  System-V-like init
+ii   sysvinit-utils               3.05-5                             amd64  System-V-like utilities
 ii   tar                          1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                       2022c-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
