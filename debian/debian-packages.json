@@ -370,10 +370,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1531",
+    "Installed-Size": "1528",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.5-2), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.6~rc1-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -381,7 +381,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.46.5-2",
+    "Version": "1.46.6~rc1-1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.5-2"
+    "source:Version": "1.46.6~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -482,7 +482,7 @@
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1252",
+    "Installed-Size": "1255",
     "Origin": "",
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.34), libpcre2-8-0 (>= 10.32)",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8-1",
+    "Version": "3.8-2",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "3.8-1"
+    "source:Version": "3.8-2"
   },
   {
     "Architecture": "amd64",
@@ -907,13 +907,13 @@
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.46.5-2)",
+    "Provides": "libcomerr2 (= 1.46.6~rc1-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.5-2",
+    "Version": "1.46.6~rc1-1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.5-2"
+    "source:Version": "1.46.6~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -1011,7 +1011,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "e2fslibs (<< 1.43.9-1~)",
-    "Depends": "libc6 (>= 2.33)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "576",
@@ -1019,13 +1019,13 @@
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.46.5-2)",
+    "Provides": "e2fslibs (= 1.46.6~rc1-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.5-2",
+    "Version": "1.46.6~rc1-1",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.5-2"
+    "source:Version": "1.46.6~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -1711,7 +1711,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libcom-err2, libc6 (>= 2.17)",
+    "Depends": "libcom-err2, libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "115",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.5-2",
+    "Version": "1.46.6~rc1-1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.5-2"
+    "source:Version": "1.46.6~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -2019,7 +2019,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "e2fsprogs (<< 1.45.3-1)",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "96",
@@ -2033,7 +2033,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.5-2",
+    "Version": "1.46.6~rc1-1",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.5-2"
+    "source:Version": "1.46.6~rc1-1"
   },
   {
     "Architecture": "amd64",
@@ -2241,12 +2241,12 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "lsb-base",
+    "Conflicts": "lsb-base (<< 11.3~)",
     "Breaks": "",
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "100",
+    "Installed-Size": "101",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-2",
+    "Version": "3.05-5",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-2"
+    "source:Version": "3.05-5"
   },
   {
     "Architecture": "amd64",
