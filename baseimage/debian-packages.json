@@ -1602,7 +1602,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "432",
+    "Installed-Size": "392",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.4.8-1",
+    "Version": "2.4.8-2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.4.8-1"
+    "source:Version": "2.4.8-2"
   },
   {
     "Architecture": "amd64",
