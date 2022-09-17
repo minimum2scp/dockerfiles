@@ -2999,7 +2999,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2396",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.3-1",
+    "Version": "2.3.3-2",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.3-1"
+    "source:Version": "2.3.3-2"
   },
   {
     "Architecture": "amd64",
@@ -4497,7 +4497,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "30",
+    "Version": "30+nmu1",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "30"
+    "source:Version": "30+nmu1"
   },
   {
     "Architecture": "amd64",

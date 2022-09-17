@@ -167,7 +167,7 @@ ii   libselinux1                  3.4-1+b1                           amd64  SELi
 ii   libsemanage-common           3.4-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.4-1+b1                           amd64  SELinux policy management library
 ii   libsepol2                    3.4-2                              amd64  SELinux library for manipulating binary security policies
-ii   libslang2                    2.3.3-1                            amd64  S-Lang programming library - runtime version
+ii   libslang2                    2.3.3-2                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                       1.46.6~rc1-1                       amd64  command-line interface parsing library
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
@@ -220,7 +220,7 @@ ii   tar                          1.34+dfsg-1                        amd64  GNU 
 ii   tzdata                       2022c-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
-ii   usr-is-merged                30                                 all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged                30+nmu1                            all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files
