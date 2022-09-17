@@ -101,7 +101,7 @@ ii   sed                     4.8-1                              amd64  GNU strea
 ii   sysvinit-utils          3.05-5                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022c-1                            all    time zone and daylight-saving time data
-ii   usr-is-merged           30                                 all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged           30+nmu1                            all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1                           amd64  interactive login tools
 ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
