@@ -38,7 +38,7 @@ ii   gpgv                    2.2.39-1                           amd64  GNU priva
 ii   grep                    3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers     1.64                               all    helper tools for all init systems
+ii   init-system-helpers     1.65.2                             all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.2                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
@@ -56,8 +56,11 @@ ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley 
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
+ii   libfile-find-rule-perl  0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1               12.2.0-2                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
+ii   libgdbm-compat4         1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                1.23-2                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.7-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
@@ -67,12 +70,14 @@ ii   liblz4-1                1.9.4-1                            amd64  Fast LZ c
 ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
 ii   libmount1               2.38.1-1                           amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnumber-compare-perl  0.03-2                             all    module for performing numeric comparisons in Perl
 ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.5.2-2                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-2                            all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-2                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libperl5.34             5.34.0-5                           amd64  shared Perl library
 ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
@@ -83,6 +88,7 @@ ii   libss2                  1.46.6~rc1-1                       amd64  command-l
 ii   libstdc++6              12.2.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             251.4-3                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
+ii   libtext-glob-perl       0.11-2                             all    Perl module for matching globbing patterns against text
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                251.4-3                            amd64  libudev shared library
 ii   libunistring2           1.0-1                              amd64  Unicode string library for C
@@ -96,12 +102,15 @@ ii   mount                   2.38.1-1                           amd64  tools for
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
+ii   perl                    5.34.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
+ii   perl-modules-5.34       5.34.0-5                           all    Core Perl modules
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-5                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022c-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           30+nmu1                            all    Transitional package to assert a merged-/usr system
+ii   usrmerge                30+nmu1                            all    Convert the system to the merged /usr directories scheme
 ii   util-linux              2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1                           amd64  interactive login tools
 ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
