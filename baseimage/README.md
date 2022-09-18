@@ -90,7 +90,7 @@ ii   grep                         3.8-2                              amd64  GNU 
 ii   groff-base                   1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                             amd64  GNU compression utilities
 ii   hostname                     3.23                               amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.64                               all    helper tools for all init systems
+ii   init-system-helpers          1.65.2                             all    helper tools for all init systems
 ii   initscripts                  3.05-5                             all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-1                            amd64  access control list - shared library
@@ -122,6 +122,7 @@ ii   libext2fs2                   1.46.6~rc1-1                       amd64  ext2
 ii   libfastjson4                 0.99.9-2                           amd64  fast json library for C
 ii   libffi8                      3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.11.0-1+b1                        amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfile-find-rule-perl       0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1                    12.2.0-2                           amd64  GCC support library
 ii   libgcrypt20                  1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
@@ -148,6 +149,7 @@ ii   libnettle8                   3.8.1-2                            amd64  low 
 ii   libnewt0.52                  0.52.21-5+b2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.49.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
+ii   libnumber-compare-perl       0.03-2                             all    module for performing numeric comparisons in Perl
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.2-2                            amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -175,6 +177,7 @@ ii   libssl3                      3.0.5-2                            amd64  Secu
 ii   libstdc++6                   12.2.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  251.4-3                            amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
+ii   libtext-glob-perl            0.11-2                             all    Perl module for matching globbing patterns against text
 ii   libtinfo6                    6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.3+ds-1                         amd64  transport-independent RPC library
@@ -221,6 +224,7 @@ ii   tzdata                       2022c-1                            all    time
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
 ii   usr-is-merged                30+nmu1                            all    Transitional package to assert a merged-/usr system
+ii   usrmerge                     30+nmu1                            all    Convert the system to the merged /usr directories scheme
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files
