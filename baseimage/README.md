@@ -67,7 +67,7 @@ ii   base-passwd                  3.6.0                              amd64  Debi
 ii   bash                         5.2~rc2-2                          amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.38.1-1                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.38.1-1                         amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                        1.0.8-5                            amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                        1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20211016                           all    Common CA certificates
 ii   coreutils                    8.32-4.1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-149                         amd64  process scheduling daemon
@@ -91,7 +91,7 @@ ii   groff-base                   1.22.4-8                           amd64  GNU 
 ii   gzip                         1.12-1                             amd64  GNU compression utilities
 ii   hostname                     3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.65.2                             all    helper tools for all init systems
-ii   initscripts                  3.05-5                             all    scripts for initializing and shutting down the system
+ii   initscripts                  3.05-6                             all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0                2.5.2                              amd64  package management runtime library
@@ -101,13 +101,13 @@ ii   libaudit1                    1:3.0.7-1+b1                       amd64  Dyna
 ii   libblkid1                    2.38.1-1                           amd64  block device ID library
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0                   1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0                   1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.34-8                             amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.34-8                             all    GNU C Library: localization files
 ii   libc6                        2.34-8                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
-ii   libcbor0.8                   0.8.0-2                            amd64  library for parsing and generating CBOR (RFC 7049)
+ii   libcbor0.8                   0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.46.6~rc1-1                       amd64  common error description library
 ii   libcrypt1                    1:4.4.28-2                         amd64  libcrypt shared library
 ii   libcurl3-gnutls              7.85.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -137,7 +137,7 @@ ii   libk5crypto3                 1.20-1                             amd64  MIT 
 ii   libkeyutils1                 1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20-1                             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.20-1                             amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.12+dfsg-2+b1                   amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.13+dfsg-1                      amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.2.5-2.1                          amd64  XZ-format compression library
@@ -173,7 +173,7 @@ ii   libslang2                    2.3.3-2                            amd64  S-La
 ii   libsmartcols1                2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                       1.46.6~rc1-1                       amd64  command-line interface parsing library
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
-ii   libssl3                      3.0.5-2                            amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                      3.0.5-4                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   12.2.0-2                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  251.4-3                            amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
@@ -202,7 +202,7 @@ ii   net-tools                    1.60+git20181103.0eebece-1         amd64  NET-
 ii   openssh-client               1:9.0p1-1+b1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.0p1-1+b1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.0p1-1+b1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.0.5-2                            amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.0.5-4                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.11                               all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
 ii   perl                         5.34.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
@@ -213,18 +213,18 @@ ii   rsyslog                      8.2208.0-1                         amd64  reli
 ii   runit-helper                 2.14.2                             all    dh-runit implementation detail
 ii   sed                          4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.17                             all    Utilities for sensible alternative selection
-ii   startpar                     0.65-1                             amd64  run processes in parallel and multiplex their output
+ii   startpar                     0.65-1+b1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.11p3-1                         amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-tmpfiles  251.4-3                            amd64  standalone tmpfiles binary for use in non-systemd systems
-ii   sysv-rc                      3.05-5                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.05-5                             amd64  System-V-like init
-ii   sysvinit-utils               3.05-5                             amd64  System-V-like utilities
+ii   sysv-rc                      3.05-6                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.05-6                             amd64  System-V-like init
+ii   sysvinit-utils               3.05-6                             amd64  System-V-like utilities
 ii   tar                          1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                       2022c-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
-ii   usr-is-merged                30+nmu1                            all    Transitional package to assert a merged-/usr system
-ii   usrmerge                     30+nmu1                            all    Convert the system to the merged /usr directories scheme
+ii   usr-is-merged                31                                 all    Transitional package to assert a merged-/usr system
+ii   usrmerge                     31                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files
