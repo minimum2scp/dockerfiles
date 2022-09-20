@@ -45,7 +45,7 @@ ii   libattr1                1:2.5.1-1                          amd64  extended 
 ii   libaudit-common         1:3.0.7-1                          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1                           amd64  block device ID library
-ii   libbz2-1.0              1.0.8-5                            amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.34-8                             amd64  GNU C Library: Binaries
 ii   libc6                   2.34-8                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
@@ -106,11 +106,11 @@ ii   perl                    5.34.0-5                           amd64  Larry Wal
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   perl-modules-5.34       5.34.0-5                           all    Core Perl modules
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.05-5                             amd64  System-V-like utilities
+ii   sysvinit-utils          3.05-6                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022c-1                            all    time zone and daylight-saving time data
-ii   usr-is-merged           30+nmu1                            all    Transitional package to assert a merged-/usr system
-ii   usrmerge                30+nmu1                            all    Convert the system to the merged /usr directories scheme
+ii   usr-is-merged           31                                 all    Transitional package to assert a merged-/usr system
+ii   usrmerge                31                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux              2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1                           amd64  interactive login tools
 ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime

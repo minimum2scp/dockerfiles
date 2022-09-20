@@ -762,7 +762,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "105",
+    "Installed-Size": "106",
     "Origin": "",
     "Package": "libbz2-1.0",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.8-5",
+    "Version": "1.0.8-5+b1",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2481,7 +2481,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-5",
+    "Version": "3.05-6",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-5"
+    "source:Version": "3.05-6"
   },
   {
     "Architecture": "amd64",
@@ -2565,7 +2565,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "30+nmu1",
+    "Version": "31",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "30+nmu1"
+    "source:Version": "31"
   },
   {
     "Architecture": "all",
@@ -2593,7 +2593,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "30+nmu1",
+    "Version": "31",
     "binary:Package": "usrmerge",
     "binary:Summary": "Convert the system to the merged /usr directories scheme",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "30+nmu1"
+    "source:Version": "31"
   },
   {
     "Architecture": "amd64",
