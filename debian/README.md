@@ -21,10 +21,10 @@ installed packages:
 ii   adduser                 3.129                              all    add and remove users and groups
 ii   apt                     2.5.2                              amd64  commandline package manager
 ii   base-files              12.2                               amd64  Debian base system miscellaneous files
-ii   base-passwd             3.6.0                              amd64  Debian base system master password and group files
+ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
 ii   bash                    5.2~rc2-2                          amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-1                         amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               8.32-4.1+b1                        amd64  GNU core utilities
+ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
@@ -33,7 +33,7 @@ ii   diffutils               1:3.8-1                            amd64  File comp
 ii   dpkg                    1.21.9                             amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12.2.0-2                           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12.2.0-3                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.39-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -42,8 +42,8 @@ ii   init-system-helpers     1.65.2                             all    helper to
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.2                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0.7-1                          all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.7-1+b1                       amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0.7-1.1                        all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0.7-1.1                        amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.34-8                             amd64  GNU C Library: Binaries
@@ -57,7 +57,7 @@ ii   libdebconfclient0       0.264                              amd64  Debian Co
 ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
 ii   libfile-find-rule-perl  0.34-2                             all    module to search for files based on rules
-ii   libgcc-s1               12.2.0-2                           amd64  GCC support library
+ii   libgcc-s1               12.2.0-3                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.23-2                             amd64  GNU dbm database routines (runtime version) 
@@ -85,7 +85,7 @@ ii   libsemanage2            3.4-1+b1                           amd64  SELinux p
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1                       amd64  command-line interface parsing library
-ii   libstdc++6              12.2.0-2                           amd64  GNU Standard C++ Library v3
+ii   libstdc++6              12.2.0-3                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             251.4-3                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtext-glob-perl       0.11-2                             all    Perl module for matching globbing patterns against text
