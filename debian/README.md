@@ -55,7 +55,7 @@ ii   libcrypt1               1:4.4.28-2                         amd64  libcrypt 
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
-ii   libffi8                 3.4.2-4                            amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.3-1                            amd64  Foreign Function Interface library runtime
 ii   libfile-find-rule-perl  0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1               12.2.0-3                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
