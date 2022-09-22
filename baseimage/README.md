@@ -117,10 +117,10 @@ ii   libdebconfclient0            0.264                              amd64  Debi
 ii   libedit2                     3.1-20210910-1+b1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-1                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                           amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.4.8-2                            amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.4.9-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2                   1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 0.99.9-2                           amd64  fast json library for C
-ii   libffi8                      3.4.2-4                            amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.4.3-1                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.11.0-1+b1                        amd64  library for generating and verifying FIDO 2.0 objects
 ii   libfile-find-rule-perl       0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1                    12.2.0-3                           amd64  GCC support library
