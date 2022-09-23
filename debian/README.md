@@ -46,8 +46,8 @@ ii   libaudit-common         1:3.0.7-1.1                        all    Dynamic l
 ii   libaudit1               1:3.0.7-1.1                        amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1                           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.34-8                             amd64  GNU C Library: Binaries
-ii   libc6                   2.34-8                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.35-1                             amd64  GNU C Library: Binaries
+ii   libc6                   2.35-1                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.6~rc1-1                       amd64  common error description library
@@ -55,7 +55,7 @@ ii   libcrypt1               1:4.4.28-2                         amd64  libcrypt 
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
-ii   libffi8                 3.4.3-1                            amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libfile-find-rule-perl  0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1               12.2.0-3                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
@@ -79,7 +79,7 @@ ii   libpam0g                1.5.2-2                            amd64  Pluggable
 ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.34             5.34.0-5                           amd64  shared Perl library
 ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.4-1+b1                           amd64  SELinux runtime shared libraries
+ii   libselinux1             3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2            3.4-1+b1                           amd64  SELinux policy management library
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
