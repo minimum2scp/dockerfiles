@@ -102,9 +102,9 @@ ii   libblkid1                    2.38.1-1                           amd64  bloc
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.34-8                             amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.34-8                             all    GNU C Library: localization files
-ii   libc6                        2.34-8                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.35-1                             amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.35-1                             all    GNU C Library: localization files
+ii   libc6                        2.35-1                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
@@ -120,7 +120,7 @@ ii   libestr0                     0.1.11-1                           amd64  Help
 ii   libexpat1                    2.4.9-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2                   1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 0.99.9-2                           amd64  fast json library for C
-ii   libffi8                      3.4.3-1                            amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.11.0-1+b1                        amd64  library for generating and verifying FIDO 2.0 objects
 ii   libfile-find-rule-perl       0.34-2                             all    module to search for files based on rules
 ii   libgcc-s1                    12.2.0-3                           amd64  GCC support library
@@ -165,7 +165,7 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2     amd64  tool
 ii   libsasl2-2                   2.1.28+dfsg-8                      amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg-8                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.4-1+b1                           amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.4-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.4-1+b1                           amd64  SELinux policy management library
 ii   libsepol2                    3.4-2                              amd64  SELinux library for manipulating binary security policies
@@ -189,7 +189,7 @@ ii   libwrap0                     7.6.q-31                           amd64  Wiet
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.34-8                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.35-1                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                      1.46.6~rc1-1                       amd64  save the output of a command in a log file
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
