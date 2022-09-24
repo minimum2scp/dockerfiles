@@ -81,7 +81,7 @@ ii   libperl5.34             5.34.0-5                           amd64  shared Pe
 ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage2            3.4-1+b1                           amd64  SELinux policy management library
+ii   libsemanage2            3.4-1+b2                           amd64  SELinux policy management library
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1                       amd64  command-line interface parsing library
