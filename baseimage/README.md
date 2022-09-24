@@ -167,7 +167,7 @@ ii   libsasl2-modules-db          2.1.28+dfsg-8                      amd64  Cyru
 ii   libseccomp2                  2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.4-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.4-1+b1                           amd64  SELinux policy management library
+ii   libsemanage2                 3.4-1+b2                           amd64  SELinux policy management library
 ii   libsepol2                    3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-2                            amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.38.1-1                           amd64  smart column output alignment library
