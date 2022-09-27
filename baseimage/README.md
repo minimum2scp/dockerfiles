@@ -147,7 +147,7 @@ ii   libncurses6                  6.3+20220423-2                     amd64  shar
 ii   libncursesw6                 6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.21-6                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.49.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.50.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libnumber-compare-perl       0.03-2                             all    module for performing numeric comparisons in Perl
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -220,7 +220,7 @@ ii   sysv-rc                      3.05-6                             all    Syst
 ii   sysvinit-core                3.05-6                             amd64  System-V-like init
 ii   sysvinit-utils               3.05-6                             amd64  System-V-like utilities
 ii   tar                          1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
-ii   tzdata                       2022c-1                            all    time zone and daylight-saving time data
+ii   tzdata                       2022d-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
 ii   usr-is-merged                31                                 all    Transitional package to assert a merged-/usr system
