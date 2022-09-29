@@ -61,10 +61,10 @@ installed packages:
 
 ```
 ii   adduser                      3.129                              all    add and remove users and groups
-ii   apt                          2.5.2                              amd64  commandline package manager
+ii   apt                          2.5.3                              amd64  commandline package manager
 ii   base-files                   12.2                               amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.1                              amd64  Debian base system master password and group files
-ii   bash                         5.2~rc2-2                          amd64  GNU Bourne Again SHell
+ii   bash                         5.2-1                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.38.1-1                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.38.1-1                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
@@ -94,7 +94,7 @@ ii   init-system-helpers          1.65.2                             all    help
 ii   initscripts                  3.05-6                             all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0                2.5.2                              amd64  package management runtime library
+ii   libapt-pkg6.0                2.5.3                              amd64  package management runtime library
 ii   libattr1                     1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.0.7-1.1                        all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.0.7-1.1                        amd64  Dynamic library for security auditing
@@ -137,7 +137,7 @@ ii   libk5crypto3                 1.20-1                             amd64  MIT 
 ii   libkeyutils1                 1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20-1                             amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.20-1                             amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.13+dfsg-1                      amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.13+dfsg-2                      amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.2.5-2.1                          amd64  XZ-format compression library
@@ -223,8 +223,8 @@ ii   tar                          1.34+dfsg-1                        amd64  GNU 
 ii   tzdata                       2022d-1                            all    time zone and daylight-saving time data
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
-ii   usr-is-merged                31                                 all    Transitional package to assert a merged-/usr system
-ii   usrmerge                     31                                 all    Convert the system to the merged /usr directories scheme
+ii   usr-is-merged                32                                 all    Transitional package to assert a merged-/usr system
+ii   usrmerge                     32                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files
