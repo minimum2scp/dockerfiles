@@ -227,8 +227,8 @@ ii   usr-is-merged                32                                 all    Tran
 ii   usrmerge                     32                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
-ii   vim-common                   2:9.0.0242-1                       all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.0242-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.0626-1                       all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.0626-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.21-6                          amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
 ii   zsh                          5.9-1+b1                           amd64  shell with lots of features
