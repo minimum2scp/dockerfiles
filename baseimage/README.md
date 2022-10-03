@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.38.1-1                         amd64  basi
 ii   bzip2                        1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20211016                           all    Common CA certificates
 ii   coreutils                    9.1-1                              amd64  GNU core utilities
-ii   cron                         3.0pl1-149                         amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-149                         all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-150                         amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-150                         all    process scheduling daemon's configuration files
 ii   curl                         7.85.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                      1.5.79                             all    Debian configuration management system
@@ -82,7 +82,7 @@ ii   dpkg                         1.21.9                             amd64  Debi
 ii   e2fsprogs                    1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.18-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base                  12.2.0-3                           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base                  12.2.0-4                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.37.2-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.37.2-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.39-1                           amd64  GNU privacy guard - signature verification tool
@@ -123,12 +123,12 @@ ii   libfastjson4                 0.99.9-2                           amd64  fast
 ii   libffi8                      3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.12.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libfile-find-rule-perl       0.34-2                             all    module to search for files based on rules
-ii   libgcc-s1                    12.2.0-3                           amd64  GCC support library
+ii   libgcc-s1                    12.2.0-4                           amd64  GCC support library
 ii   libgcrypt20                  1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-2                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
-ii   libgnutls30                  3.7.7-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30                  3.7.8-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.45-2                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20-1                             amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
@@ -174,16 +174,16 @@ ii   libsmartcols1                2.38.1-1                           amd64  smar
 ii   libss2                       1.46.6~rc1-1                       amd64  command-line interface parsing library
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.5-4                            amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   12.2.0-3                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  251.4-3                            amd64  systemd utility library
+ii   libstdc++6                   12.2.0-4                           amd64  GNU Standard C++ Library v3
+ii   libsystemd0                  251.5-1                            amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtext-glob-perl            0.11-2                             all    Perl module for matching globbing patterns against text
 ii   libtinfo6                    6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                     251.4-3                            amd64  libudev shared library
-ii   libunistring2                1.0-1                              amd64  Unicode string library for C
+ii   libudev1                     251.5-1                            amd64  libudev shared library
+ii   libunistring2                1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                     2.38.1-1                           amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
@@ -215,7 +215,7 @@ ii   sed                          4.8-1                              amd64  GNU 
 ii   sensible-utils               0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.11p3-1                         amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-tmpfiles  251.4-3                            amd64  standalone tmpfiles binary for use in non-systemd systems
+ii   systemd-standalone-tmpfiles  251.5-1                            amd64  standalone tmpfiles binary for use in non-systemd systems
 ii   sysv-rc                      3.05-6                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.05-6                             amd64  System-V-like init
 ii   sysvinit-utils               3.05-6                             amd64  System-V-like utilities
@@ -224,7 +224,6 @@ ii   tzdata                       2022d-1                            all    time
 ii   ucf                          3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-27                             amd64  De-archiver for .zip files
 ii   usr-is-merged                32                                 all    Transitional package to assert a merged-/usr system
-ii   usrmerge                     32                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux                   2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra             2.38.1-1                           amd64  interactive login tools
 ii   vim-common                   2:9.0.0626-1                       all    Vi IMproved - Common files
