@@ -33,7 +33,7 @@ ii   diffutils               1:3.8-1                            amd64  File comp
 ii   dpkg                    1.21.9                             amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12.2.0-3                           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12.2.0-4                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.39-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -57,12 +57,12 @@ ii   libdebconfclient0       0.264                              amd64  Debian Co
 ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libfile-find-rule-perl  0.34-2                             all    module to search for files based on rules
-ii   libgcc-s1               12.2.0-3                           amd64  GCC support library
+ii   libgcc-s1               12.2.0-4                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4         1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.23-2                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg1-1                    amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.7-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.8-2                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -85,13 +85,13 @@ ii   libsemanage2            3.4-1+b2                           amd64  SELinux p
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1                       amd64  command-line interface parsing library
-ii   libstdc++6              12.2.0-3                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             251.4-3                            amd64  systemd utility library
+ii   libstdc++6              12.2.0-4                           amd64  GNU Standard C++ Library v3
+ii   libsystemd0             251.5-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtext-glob-perl       0.11-2                             all    Perl module for matching globbing patterns against text
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                251.4-3                            amd64  libudev shared library
-ii   libunistring2           1.0-1                              amd64  Unicode string library for C
+ii   libudev1                251.5-1                            amd64  libudev shared library
+ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-1                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
@@ -110,7 +110,6 @@ ii   sysvinit-utils          3.05-6                             amd64  System-V-
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022d-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           32                                 all    Transitional package to assert a merged-/usr system
-ii   usrmerge                32                                 all    Convert the system to the merged /usr directories scheme
 ii   util-linux              2.38.1-1                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1                           amd64  interactive login tools
 ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
