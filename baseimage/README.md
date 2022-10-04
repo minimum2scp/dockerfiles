@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                      3.129                              all    add and remove users and groups
 ii   apt                          2.5.3                              amd64  commandline package manager
-ii   base-files                   12.2                               amd64  Debian base system miscellaneous files
+ii   base-files                   12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.1                              amd64  Debian base system master password and group files
 ii   bash                         5.2-1                              amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.38.1-1                           amd64  extra utilities from 4.4BSD-Lite
@@ -82,7 +82,7 @@ ii   dpkg                         1.21.9                             amd64  Debi
 ii   e2fsprogs                    1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.18-1                          all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base                  12.2.0-4                           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base                  12.2.0-5                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.37.2-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.37.2-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.39-1                           amd64  GNU privacy guard - signature verification tool
@@ -102,9 +102,9 @@ ii   libblkid1                    2.38.1-1                           amd64  bloc
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.35-1                             amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.35-1                             all    GNU C Library: localization files
-ii   libc6                        2.35-1                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.35-2                             amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.35-2                             all    GNU C Library: localization files
+ii   libc6                        2.35-2                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8                   0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
@@ -123,7 +123,7 @@ ii   libfastjson4                 0.99.9-2                           amd64  fast
 ii   libffi8                      3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.12.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libfile-find-rule-perl       0.34-2                             all    module to search for files based on rules
-ii   libgcc-s1                    12.2.0-4                           amd64  GCC support library
+ii   libgcc-s1                    12.2.0-5                           amd64  GCC support library
 ii   libgcrypt20                  1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-2                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-2                             amd64  GNU dbm database routines (runtime version) 
@@ -174,7 +174,7 @@ ii   libsmartcols1                2.38.1-1                           amd64  smar
 ii   libss2                       1.46.6~rc1-1                       amd64  command-line interface parsing library
 ii   libssh2-1                    1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.5-4                            amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   12.2.0-4                           amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   12.2.0-5                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  251.5-1                            amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtext-glob-perl            0.11-2                             all    Perl module for matching globbing patterns against text
@@ -189,7 +189,7 @@ ii   libwrap0                     7.6.q-31                           amd64  Wiet
 ii   libxxhash0                   0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.35-1                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.35-2                             all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
 ii   logsave                      1.46.6~rc1-1                       amd64  save the output of a command in a log file
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
