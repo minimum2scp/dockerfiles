@@ -95,13 +95,13 @@ ii   libunistring2           1.0-2                              amd64  Unicode s
 ii   libuuid1                2.38.1-1                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
-ii   login                   1:4.11.1+dfsg1-2                   amd64  system login tools
+ii   login                   1:4.12.3+dfsg1-1                   amd64  system login tools
 ii   logsave                 1.46.6~rc1-1                       amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-1                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
+ii   passwd                  1:4.12.3+dfsg1-1                   amd64  change and administer password and group data
 ii   perl                    5.34.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.34.0-5                           amd64  minimal Perl system
 ii   perl-modules-5.34       5.34.0-5                           all    Core Perl modules
