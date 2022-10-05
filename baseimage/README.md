@@ -190,7 +190,7 @@ ii   libxxhash0                   0.8.1-1                            amd64  shar
 ii   libzstd1                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.35-2                             all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.11.1+dfsg1-2                   amd64  system login tools
+ii   login                        1:4.12.3+dfsg1-1                   amd64  system login tools
 ii   logsave                      1.46.6~rc1-1                       amd64  save the output of a command in a log file
 ii   lv                           4.51-9                             amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.10.2-3                           amd64  tools for reading manual pages
@@ -204,7 +204,7 @@ ii   openssh-server               1:9.0p1-1+b1                       amd64  secu
 ii   openssh-sftp-server          1:9.0p1-1+b1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.0.5-4                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.11                               all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.11.1+dfsg1-2                   amd64  change and administer password and group data
+ii   passwd                       1:4.12.3+dfsg1-1                   amd64  change and administer password and group data
 ii   perl                         5.34.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.34.0-5                           amd64  minimal Perl system
 ii   perl-modules-5.34            5.34.0-5                           all    Core Perl modules
