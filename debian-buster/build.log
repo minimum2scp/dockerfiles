@@ -469,21 +469,22 @@ Hit:1 http://deb.debian.org/debian buster InRelease
 Get:2 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
 Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
 Get:4 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [456 kB]
-Fetched 557 kB in 1s (1079 kB/s)
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [465 kB]
+Fetched 566 kB in 1s (881 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libbz2-1.0 libgnutls30 zlib1g
-3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 1262 kB of archives.
-After this operation, 0 B of additional disk space will be used.
+  libbz2-1.0 libgnutls30 tzdata zlib1g
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1528 kB of archives.
+After this operation, 1024 B of additional disk space will be used.
 Get:1 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u2 [90.9 kB]
 Get:2 http://security.debian.org buster/updates/main amd64 libbz2-1.0 amd64 1.0.6-9.2~deb10u2 [45.4 kB]
 Get:3 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
-Fetched 1262 kB in 0s (6297 kB/s)
+Get:4 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u7 [266 kB]
+Fetched 1528 kB in 1s (1990 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-1+deb10u2_amd64.deb ...
 Unpacking zlib1g:amd64 (1:1.2.11.dfsg-1+deb10u2) over (1:1.2.11.dfsg-1+deb10u1) ...
@@ -496,15 +497,19 @@ Setting up libbz2-1.0:amd64 (1.0.6-9.2~deb10u2) ...
 Preparing to unpack .../libgnutls30_3.6.7-4+deb10u9_amd64.deb ...
 Unpacking libgnutls30:amd64 (3.6.7-4+deb10u9) over (3.6.7-4+deb10u8) ...
 Setting up libgnutls30:amd64 (3.6.7-4+deb10u9) ...
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../tzdata_2021a-0+deb10u7_all.deb ...
+Unpacking tzdata (2021a-0+deb10u7) over (2021a-0+deb10u6) ...
+Setting up tzdata (2021a-0+deb10u7) ...
 Processing triggers for libc-bin (2.28-10+deb10u1) ...
-Sending build context to Docker daemon  30.26MB
+Sending build context to Docker daemon  30.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> e30c215febe7
+ ---> 536551d28631
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in c0530917c163
-Removing intermediate container c0530917c163
- ---> a14c3b39290b
-Successfully built a14c3b39290b
+ ---> Running in 5d4681e2ff41
+Removing intermediate container 5d4681e2ff41
+ ---> e08efd1308d5
+Successfully built e08efd1308d5
 Successfully tagged minimum2scp/debian-buster:latest
