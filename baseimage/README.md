@@ -100,7 +100,7 @@ ii   libaudit-common              1:3.0.7-1.1                        all    Dyna
 ii   libaudit1                    1:3.0.7-1.1                        amd64  Dynamic library for security auditing
 ii   libblkid1                    2.38.1-1                           amd64  block device ID library
 ii   libbrotli1                   1.0.9-2+b4                         amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                      0.11.6-1                           amd64  utility functions from BSD systems - shared library
+ii   libbsd0                      0.11.7-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.35-2                             amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.35-2                             all    GNU C Library: localization files
@@ -151,10 +151,10 @@ ii   libnghttp2-14                1.50.0-1                           amd64  libr
 ii   libnsl2                      1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libnumber-compare-perl       0.03-2                             all    module for performing numeric comparisons in Perl
 ii   libp11-kit0                  0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.5.2-2                            amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.5.2-2                            all    Runtime support for the PAM library
-ii   libpam0g                     1.5.2-2                            amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.5.2-5                            all    Runtime support for the PAM library
+ii   libpam0g                     1.5.2-5                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.34                  5.34.0-5                           amd64  shared Perl library
 ii   libpipeline1                 1.5.6-3                            amd64  Unix process pipeline manipulation library
