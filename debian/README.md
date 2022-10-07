@@ -72,10 +72,10 @@ ii   libmount1               2.38.1-1                           amd64  device mo
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnumber-compare-perl  0.03-2                             all    module for performing numeric comparisons in Perl
 ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.5.2-2                            amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.5.2-2                            amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.5.2-2                            all    Runtime support for the PAM library
-ii   libpam0g                1.5.2-2                            amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
+ii   libpam0g                1.5.2-5                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.34             5.34.0-5                           amd64  shared Perl library
 ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter

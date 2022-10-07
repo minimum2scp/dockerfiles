@@ -1518,10 +1518,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1064",
+    "Installed-Size": "1063",
     "Origin": "",
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-2)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-5)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": "",
@@ -1529,7 +1529,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-2",
+    "Version": "1.5.2-5",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-2"
+    "source:Version": "1.5.2-5"
   },
   {
     "Architecture": "amd64",
@@ -1546,7 +1546,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "259",
+    "Installed-Size": "260",
     "Origin": "",
     "Package": "libpam-modules-bin",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-2",
+    "Version": "1.5.2-5",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-2"
+    "source:Version": "1.5.2-5"
   },
   {
     "Architecture": "all",
@@ -1585,7 +1585,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-2",
+    "Version": "1.5.2-5",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-2"
+    "source:Version": "1.5.2-5"
   },
   {
     "Architecture": "amd64",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.5.2-2",
+    "Version": "1.5.2-5",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-2"
+    "source:Version": "1.5.2-5"
   },
   {
     "Architecture": "amd64",
