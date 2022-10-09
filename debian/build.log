@@ -69,10 +69,10 @@ I: Retrieving libgdbm-compat4 1.23-2
 I: Validating libgdbm-compat4 1.23-2
 I: Retrieving libgdbm6 1.23-2
 I: Validating libgdbm6 1.23-2
-I: Retrieving libc-bin 2.35-2
-I: Validating libc-bin 2.35-2
-I: Retrieving libc6 2.35-2
-I: Validating libc6 2.35-2
+I: Retrieving libc-bin 2.35-3
+I: Validating libc-bin 2.35-3
+I: Retrieving libc6 2.35-3
+I: Validating libc6 2.35-3
 I: Retrieving libgmp10 2:6.2.1+dfsg1-1.1
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
 I: Retrieving gpgv 2.2.39-1
@@ -175,22 +175,22 @@ I: Retrieving tzdata 2022d-1
 I: Validating tzdata 2022d-1
 I: Retrieving usr-is-merged 32
 I: Validating usr-is-merged 32
-I: Retrieving bsdutils 1:2.38.1-1
-I: Validating bsdutils 1:2.38.1-1
-I: Retrieving libblkid1 2.38.1-1
-I: Validating libblkid1 2.38.1-1
-I: Retrieving libmount1 2.38.1-1
-I: Validating libmount1 2.38.1-1
-I: Retrieving libsmartcols1 2.38.1-1
-I: Validating libsmartcols1 2.38.1-1
-I: Retrieving libuuid1 2.38.1-1
-I: Validating libuuid1 2.38.1-1
-I: Retrieving mount 2.38.1-1
-I: Validating mount 2.38.1-1
-I: Retrieving util-linux 2.38.1-1
-I: Validating util-linux 2.38.1-1
-I: Retrieving util-linux-extra 2.38.1-1
-I: Validating util-linux-extra 2.38.1-1
+I: Retrieving bsdutils 1:2.38.1-1.1
+I: Validating bsdutils 1:2.38.1-1.1
+I: Retrieving libblkid1 2.38.1-1.1
+I: Validating libblkid1 2.38.1-1.1
+I: Retrieving libmount1 2.38.1-1.1
+I: Validating libmount1 2.38.1-1.1
+I: Retrieving libsmartcols1 2.38.1-1.1
+I: Validating libsmartcols1 2.38.1-1.1
+I: Retrieving libuuid1 2.38.1-1.1
+I: Validating libuuid1 2.38.1-1.1
+I: Retrieving mount 2.38.1-1.1
+I: Validating mount 2.38.1-1.1
+I: Retrieving util-linux 2.38.1-1.1
+I: Validating util-linux 2.38.1-1.1
+I: Retrieving util-linux-extra 2.38.1-1.1
+I: Validating util-linux-extra 2.38.1-1.1
 I: Retrieving libxxhash0 0.8.1-1
 I: Validating libxxhash0 0.8.1-1
 I: Retrieving liblzma5 5.2.5-2.1
@@ -497,14 +497,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  39.33MB
+Sending build context to Docker daemon  38.93MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b9cda190daa0
+ ---> 3487f77ce215
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ae2e1b2f2327
-Removing intermediate container ae2e1b2f2327
- ---> 505340d57fc2
-Successfully built 505340d57fc2
+ ---> Running in b1233f9c1dab
+Removing intermediate container b1233f9c1dab
+ ---> c4d3fdb3e8ac
+Successfully built c4d3fdb3e8ac
 Successfully tagged minimum2scp/debian:latest
