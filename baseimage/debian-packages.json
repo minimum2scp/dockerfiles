@@ -2747,10 +2747,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.27)",
+    "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "227",
+    "Installed-Size": "245",
     "Origin": "",
     "Package": "libpopt0",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.18-3",
+    "Version": "1.19+dfsg-1",
     "binary:Package": "libpopt0:amd64",
     "binary:Summary": "lib for parsing cmdline parameters",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "popt",
-    "source:Version": "1.18-3"
+    "source:Version": "1.19+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "24",
+    "Installed-Size": "22",
     "Origin": "",
     "Package": "libtext-glob-perl",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.11-2",
+    "Version": "0.11-3",
     "binary:Package": "libtext-glob-perl",
     "binary:Summary": "Perl module for matching globbing patterns against text",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtext-glob-perl",
-    "source:Version": "0.11-2"
+    "source:Version": "0.11-3"
   },
   {
     "Architecture": "amd64",

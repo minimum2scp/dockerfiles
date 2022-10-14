@@ -158,7 +158,7 @@ ii   libpam0g                 1.5.2-5                            amd64  Pluggabl
 ii   libpcre2-8-0             10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.34              5.34.0-5                           amd64  shared Perl library
 ii   libpipeline1             1.5.6-3                            amd64  Unix process pipeline manipulation library
-ii   libpopt0                 1.18-3                             amd64  lib for parsing cmdline parameters
+ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7+b1                      amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
@@ -177,7 +177,7 @@ ii   libssl3                  3.0.5-4                            amd64  Secure S
 ii   libstdc++6               12.2.0-5                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0              251.5-3                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
-ii   libtext-glob-perl        0.11-2                             all    Perl module for matching globbing patterns against text
+ii   libtext-glob-perl        0.11-3                             all    Perl module for matching globbing patterns against text
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
