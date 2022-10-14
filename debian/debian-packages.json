@@ -1966,7 +1966,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "24",
+    "Installed-Size": "22",
     "Origin": "",
     "Package": "libtext-glob-perl",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.11-2",
+    "Version": "0.11-3",
     "binary:Package": "libtext-glob-perl",
     "binary:Summary": "Perl module for matching globbing patterns against text",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtext-glob-perl",
-    "source:Version": "0.11-2"
+    "source:Version": "0.11-3"
   },
   {
     "Architecture": "amd64",
