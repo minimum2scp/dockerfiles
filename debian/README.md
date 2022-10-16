@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   adduser                 3.129                              all    add and remove users and groups
-ii   apt                     2.5.3                              amd64  commandline package manager
+ii   apt                     2.5.3+b1                           amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
 ii   bash                    5.2-1                              amd64  GNU Bourne Again SHell
@@ -30,31 +30,31 @@ ii   debconf                 1.5.79                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-1                            amd64  File comparison utilities
-ii   dpkg                    1.21.9                             amd64  Debian package management system
-ii   e2fsprogs               1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system utilities
+ii   dpkg                    1.21.9+b1                          amd64  Debian package management system
+ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-5                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.39-1                           amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.39-1+b1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.65.2                             all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0           2.5.3                              amd64  package management runtime library
+ii   libapt-pkg6.0           2.5.3+b1                           amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.7-1.1                        all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.7-1.1                        amd64  Dynamic library for security auditing
+ii   libaudit1               1:3.0.7-1.1+b1                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1.1                         amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.35-3                             amd64  GNU C Library: Binaries
 ii   libc6                   2.35-3                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
-ii   libcom-err2             1.46.6~rc1-1                       amd64  common error description library
+ii   libcom-err2             1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1               1:4.4.28-2                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
-ii   libext2fs2              1.46.6~rc1-1                       amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.3-2                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.2.0-5                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
@@ -79,7 +79,7 @@ ii   libsemanage-common      3.4-1                              all    Common fi
 ii   libsemanage2            3.4-1+b2                           amd64  SELinux policy management library
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1.1                         amd64  smart column output alignment library
-ii   libss2                  1.46.6~rc1-1                       amd64  command-line interface parsing library
+ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
 ii   libstdc++6              12.2.0-5                           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             251.6-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
@@ -90,7 +90,7 @@ ii   libuuid1                2.38.1-1.1                         amd64  Universal
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   login                   1:4.12.3+dfsg1-1                   amd64  system login tools
-ii   logsave                 1.46.6~rc1-1                       amd64  save the output of a command in a log file
+ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-1.1                         amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions

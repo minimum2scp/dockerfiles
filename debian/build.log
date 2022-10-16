@@ -9,8 +9,8 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Retrieving adduser 3.129
 I: Validating adduser 3.129
-I: Retrieving apt 2.5.3
-I: Validating apt 2.5.3
+I: Retrieving apt 2.5.3+b1
+I: Validating apt 2.5.3+b1
 I: Retrieving base-files 12.3
 I: Validating base-files 12.3
 I: Retrieving base-passwd 3.6.1
@@ -31,16 +31,16 @@ I: Retrieving debianutils 5.7-0.3
 I: Validating debianutils 5.7-0.3
 I: Retrieving diffutils 1:3.8-1
 I: Validating diffutils 1:3.8-1
-I: Retrieving dpkg 1.21.9
-I: Validating dpkg 1.21.9
-I: Retrieving e2fsprogs 1.46.6~rc1-1
-I: Validating e2fsprogs 1.46.6~rc1-1
+I: Retrieving dpkg 1.21.9+b1
+I: Validating dpkg 1.21.9+b1
+I: Retrieving e2fsprogs 1.46.6~rc1-1+b1
+I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Retrieving findutils 4.9.0-3
 I: Validating findutils 4.9.0-3
 I: Retrieving gcc-12-base 12.2.0-5
 I: Validating gcc-12-base 12.2.0-5
-I: Retrieving gpgv 2.2.39-1
-I: Validating gpgv 2.2.39-1
+I: Retrieving gpgv 2.2.39-1+b1
+I: Validating gpgv 2.2.39-1+b1
 I: Retrieving grep 3.8-2
 I: Validating grep 3.8-2
 I: Retrieving gzip 1.12-1
@@ -51,14 +51,14 @@ I: Retrieving init-system-helpers 1.65.2
 I: Validating init-system-helpers 1.65.2
 I: Retrieving libacl1 2.3.1-1
 I: Validating libacl1 2.3.1-1
-I: Retrieving libapt-pkg6.0 2.5.3
-I: Validating libapt-pkg6.0 2.5.3
+I: Retrieving libapt-pkg6.0 2.5.3+b1
+I: Validating libapt-pkg6.0 2.5.3+b1
 I: Retrieving libattr1 1:2.5.1-1
 I: Validating libattr1 1:2.5.1-1
 I: Retrieving libaudit-common 1:3.0.7-1.1
 I: Validating libaudit-common 1:3.0.7-1.1
-I: Retrieving libaudit1 1:3.0.7-1.1
-I: Validating libaudit1 1:3.0.7-1.1
+I: Retrieving libaudit1 1:3.0.7-1.1+b1
+I: Validating libaudit1 1:3.0.7-1.1+b1
 I: Retrieving libblkid1 2.38.1-1.1
 I: Validating libblkid1 2.38.1-1.1
 I: Retrieving libbz2-1.0 1.0.8-5+b1
@@ -71,16 +71,16 @@ I: Retrieving libcap-ng0 0.8.3-1+b1
 I: Validating libcap-ng0 0.8.3-1+b1
 I: Retrieving libcap2 1:2.44-1
 I: Validating libcap2 1:2.44-1
-I: Retrieving libcom-err2 1.46.6~rc1-1
-I: Validating libcom-err2 1.46.6~rc1-1
+I: Retrieving libcom-err2 1.46.6~rc1-1+b1
+I: Validating libcom-err2 1.46.6~rc1-1+b1
 I: Retrieving libcrypt1 1:4.4.28-2
 I: Validating libcrypt1 1:4.4.28-2
 I: Retrieving libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Retrieving libdebconfclient0 0.264
 I: Validating libdebconfclient0 0.264
-I: Retrieving libext2fs2 1.46.6~rc1-1
-I: Validating libext2fs2 1.46.6~rc1-1
+I: Retrieving libext2fs2 1.46.6~rc1-1+b1
+I: Validating libext2fs2 1.46.6~rc1-1+b1
 I: Retrieving libffi8 3.4.3-2
 I: Validating libffi8 3.4.3-2
 I: Retrieving libgcc-s1 12.2.0-5
@@ -129,8 +129,8 @@ I: Retrieving libsepol2 3.4-2
 I: Validating libsepol2 3.4-2
 I: Retrieving libsmartcols1 2.38.1-1.1
 I: Validating libsmartcols1 2.38.1-1.1
-I: Retrieving libss2 1.46.6~rc1-1
-I: Validating libss2 1.46.6~rc1-1
+I: Retrieving libss2 1.46.6~rc1-1+b1
+I: Validating libss2 1.46.6~rc1-1+b1
 I: Retrieving libstdc++6 12.2.0-5
 I: Validating libstdc++6 12.2.0-5
 I: Retrieving libsystemd0 251.6-1
@@ -151,8 +151,8 @@ I: Retrieving libzstd1 1.5.2+dfsg-1
 I: Validating libzstd1 1.5.2+dfsg-1
 I: Retrieving login 1:4.12.3+dfsg1-1
 I: Validating login 1:4.12.3+dfsg1-1
-I: Retrieving logsave 1.46.6~rc1-1
-I: Validating logsave 1.46.6~rc1-1
+I: Retrieving logsave 1.46.6~rc1-1+b1
+I: Validating logsave 1.46.6~rc1-1+b1
 I: Retrieving mawk 1.3.4.20200120-3.1
 I: Validating mawk 1.3.4.20200120-3.1
 I: Retrieving mount 2.38.1-1.1
@@ -457,14 +457,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  31.67MB
+Sending build context to Docker daemon  31.23MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 73a6579d2179
+ ---> 02028219cc48
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d841e24ab8cb
-Removing intermediate container d841e24ab8cb
- ---> 0762eca6b34f
-Successfully built 0762eca6b34f
+ ---> Running in b1ced7ff1cd7
+Removing intermediate container b1ced7ff1cd7
+ ---> e7f8f0a5e70c
+Successfully built e7f8f0a5e70c
 Successfully tagged minimum2scp/debian:latest
