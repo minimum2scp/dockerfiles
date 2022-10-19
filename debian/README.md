@@ -96,7 +96,7 @@ ii   mount                   2.38.1-1.1+b1                      amd64  tools for
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.12.3+dfsg1-1                   amd64  change and administer password and group data
-ii   perl-base               5.34.0-5                           amd64  minimal Perl system
+ii   perl-base               5.36.0-4                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-6                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
