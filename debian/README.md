@@ -34,7 +34,7 @@ ii   dpkg                    1.21.9+b1                          amd64  Debian pa
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-5                           amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.39-1+b1                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
@@ -55,16 +55,16 @@ ii   libcrypt1               1:4.4.28-2                         amd64  libcrypt 
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
-ii   libffi8                 3.4.3-2                            amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.3-3                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.2.0-5                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.8-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.45-2                             amd64  GnuPG development runtime library
+ii   libgpg-error0           1.46-1                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.5-2.1                          amd64  XZ-format compression library
+ii   liblzma5                5.2.7-0.0                          amd64  XZ-format compression library
 ii   libmount1               2.38.1-1.1+b1                      amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
