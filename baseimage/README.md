@@ -85,7 +85,7 @@ ii   findutils                4.9.0-3                            amd64  utilitie
 ii   gcc-12-base              12.2.0-5                           amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.37.2-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.37.2-1                         all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                     2.2.39-1+b1                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                     2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-2                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-8                           amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
@@ -120,7 +120,7 @@ ii   libestr0                 0.1.11-1                           amd64  Helper f
 ii   libexpat1                2.4.9-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-2                           amd64  fast json library for C
-ii   libffi8                  3.4.3-2                            amd64  Foreign Function Interface library runtime
+ii   libffi8                  3.4.3-3                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.12.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                12.2.0-5                           amd64  GCC support library
 ii   libgcrypt20              1.10.1-2                           amd64  LGPL Crypto library - runtime library
@@ -128,7 +128,7 @@ ii   libgdbm-compat4          1.23-3                             amd64  GNU dbm 
 ii   libgdbm6                 1.23-3                             amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.7.8-2                            amd64  GNU TLS library - main runtime library
-ii   libgpg-error0            1.45-2                             amd64  GnuPG development runtime library
+ii   libgpg-error0            1.46-1                             amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20-1+b1                          amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -136,10 +136,10 @@ ii   libk5crypto3             1.20-1+b1                          amd64  MIT Kerb
 ii   libkeyutils1             1.6.3-1                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.20-1+b1                          amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.20-1+b1                          amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0            2.5.13+dfsg-2                      amd64  OpenLDAP libraries
+ii   libldap-2.5-0            2.5.13+dfsg-2+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.2.5-2.1                          amd64  XZ-format compression library
+ii   liblzma5                 5.2.7-0.0                          amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-1.1+b1                      amd64  device mounting library
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
@@ -206,7 +206,7 @@ ii   perl                     5.36.0-4                           amd64  Larry Wa
 ii   perl-base                5.36.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-4                           all    Core Perl modules
 ii   procps                   2:3.3.17-7+b1                      amd64  /proc file system utilities
-ii   rsyslog                  8.2208.0-1+b1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2210.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.14.2                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
@@ -223,7 +223,7 @@ ii   usr-is-merged            33                                 all    Transiti
 ii   util-linux               2.38.1-1.1+b1                      amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-1.1+b1                      amd64  interactive login tools
 ii   vim-common               2:9.0.0626-1                       all    Vi IMproved - Common files
-ii   vim-tiny                 2:9.0.0626-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                 2:9.0.0626-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-6                          amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
 ii   zsh                      5.9-1+b1                           amd64  shell with lots of features
