@@ -2719,10 +2719,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33), libsystemd0 (>= 209)",
+    "Depends": "libc6 (>= 2.34), libsystemd0 (>= 209)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "133",
+    "Installed-Size": "114",
     "Origin": "",
     "Package": "libprocps8",
     "Pre-Depends": "",
@@ -2733,7 +2733,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.17-7+b1",
+    "Version": "2:3.3.17-7.1",
     "binary:Package": "libprocps8:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.17-7"
+    "source:Version": "2:3.3.17-7.1"
   },
   {
     "Architecture": "amd64",
@@ -4063,10 +4063,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "guymager (<= 0.5.9-1), manpages-de (<< 4.9.1-2), manpages-fr (<< 4.9.1-2), manpages-fr-extra (<< 20151231+nmu1), manpages-pl (<< 1:4.9.1-2), open-vm-tools (<= 2011.12.20-562307-1)",
-    "Depends": "libc6 (>= 2.33), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps8 (>= 2:3.3.16-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)",
+    "Depends": "libc6 (>= 2.34), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps8 (>= 2:3.3.16-1), libtinfo6 (>= 6), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1656",
+    "Installed-Size": "1637",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4077,7 +4077,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:3.3.17-7+b1",
+    "Version": "2:3.3.17-7.1",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4085,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:3.3.17-7"
+    "source:Version": "2:3.3.17-7.1"
   },
   {
     "Architecture": "amd64",
