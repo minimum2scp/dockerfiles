@@ -1047,13 +1047,13 @@
     "Package": "libffi8",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libffi8ubuntu1 (= 3.4.3-3)",
+    "Provides": "libffi8ubuntu1 (= 3.4.3-4)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.3-3",
+    "Version": "3.4.3-4",
     "binary:Package": "libffi8:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.4.3-3"
+    "source:Version": "3.4.3-4"
   },
   {
     "Architecture": "amd64",
@@ -1515,10 +1515,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "686",
+    "Installed-Size": "680",
     "Origin": "",
     "Package": "libpcre2-8-0",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.40-1",
+    "Version": "10.40-2",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.40-1"
+    "source:Version": "10.40-2"
   },
   {
     "Architecture": "amd64",

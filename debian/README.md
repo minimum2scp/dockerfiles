@@ -55,7 +55,7 @@ ii   libcrypt1               1:4.4.28-2                         amd64  libcrypt 
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.264                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
-ii   libffi8                 3.4.3-3                            amd64  Foreign Function Interface library runtime
+ii   libffi8                 3.4.3-4                            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.2.0-7                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
@@ -72,7 +72,7 @@ ii   libpam-modules          1.5.2-5                            amd64  Pluggable
 ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.40-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
