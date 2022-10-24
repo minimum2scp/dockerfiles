@@ -120,7 +120,7 @@ ii   libestr0                 0.1.11-1                           amd64  Helper f
 ii   libexpat1                2.4.9-1                            amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             0.99.9-2                           amd64  fast json library for C
-ii   libffi8                  3.4.3-3                            amd64  Foreign Function Interface library runtime
+ii   libffi8                  3.4.3-4                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.12.0-1                           amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                12.2.0-7                           amd64  GCC support library
 ii   libgcrypt20              1.10.1-2                           amd64  LGPL Crypto library - runtime library
@@ -153,7 +153,7 @@ ii   libpam-modules           1.5.2-5                            amd64  Pluggabl
 ii   libpam-modules-bin       1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.40-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.40-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-4                           amd64  shared Perl library
 ii   libpipeline1             1.5.6-3                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
