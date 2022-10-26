@@ -11,7 +11,6 @@ I: Validating adduser 3.129
 I: Validating apt 2.5.3+b1
 I: Validating base-files 12.3
 I: Validating base-passwd 3.6.1
-I: Retrieving bash 5.2-2
 I: Validating bash 5.2-2
 I: Validating bsdutils 1:2.38.1-1.1+b1
 I: Validating coreutils 9.1-1
@@ -25,7 +24,8 @@ I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Validating findutils 4.9.0-3
 I: Validating gcc-12-base 12.2.0-7
 I: Validating gpgv 2.2.40-1
-I: Validating grep 3.8-2
+I: Retrieving grep 3.8-3
+I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.65.2
@@ -36,9 +36,7 @@ I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b1
 I: Validating libblkid1 2.38.1-1.1+b1
 I: Validating libbz2-1.0 1.0.8-5+b1
-I: Retrieving libc-bin 2.35-4
 I: Validating libc-bin 2.35-4
-I: Retrieving libc6 2.35-4
 I: Validating libc6 2.35-4
 I: Validating libcap-ng0 0.8.3-1+b1
 I: Validating libcap2 1:2.44-1
@@ -47,7 +45,6 @@ I: Validating libcrypt1 1:4.4.28-2
 I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdebconfclient0 0.264
 I: Validating libext2fs2 1.46.6~rc1-1+b1
-I: Retrieving libffi8 3.4.4-1
 I: Validating libffi8 3.4.4-1
 I: Validating libgcc-s1 12.2.0-7
 I: Validating libgcrypt20 1.10.1-2
@@ -374,14 +371,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.87MB
+Sending build context to Docker daemon  30.86MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 99bb3dfe8efe
+ ---> a44d26d7dc05
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7b8fb964d0e5
-Removing intermediate container 7b8fb964d0e5
- ---> ebb8e5e0832b
-Successfully built ebb8e5e0832b
+ ---> Running in ba628c7cb977
+Removing intermediate container ba628c7cb977
+ ---> ad22d1ca89b9
+Successfully built ad22d1ca89b9
 Successfully tagged minimum2scp/debian:latest
