@@ -53,7 +53,6 @@ I: Validating libgpg-error0 1.46-1
 I: Validating libhogweed6 3.8.1-2
 I: Validating libidn2-0 2.3.3-1+b1
 I: Validating liblz4-1 1.9.4-1
-I: Retrieving liblzma5 5.2.7-0.1
 I: Validating liblzma5 5.2.7-0.1
 I: Validating libmount1 2.38.1-1.1+b1
 I: Validating libnettle8 3.8.1-2
@@ -71,10 +70,12 @@ I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-1.1+b1
 I: Validating libss2 1.46.6~rc1-1+b1
 I: Validating libstdc++6 12.2.0-7
-I: Validating libsystemd0 251.6-1
+I: Retrieving libsystemd0 252~rc3-2
+I: Validating libsystemd0 252~rc3-2
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.3+20220423-2
-I: Validating libudev1 251.6-1
+I: Retrieving libudev1 252~rc3-2
+I: Validating libudev1 252~rc3-2
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-1.1+b1
 I: Validating libxxhash0 0.8.1-1
@@ -371,14 +372,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.86MB
+Sending build context to Docker daemon  30.87MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 772a369193cf
+ ---> 13c7a5bbaedd
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 4dec3ce8afe2
-Removing intermediate container 4dec3ce8afe2
- ---> 9c4ec645bd3e
-Successfully built 9c4ec645bd3e
+ ---> Running in f2dd94c2c726
+Removing intermediate container f2dd94c2c726
+ ---> ea8be223b532
+Successfully built ea8be223b532
 Successfully tagged minimum2scp/debian:latest
