@@ -100,7 +100,7 @@ ii   perl-base               5.36.0-4                           amd64  minimal P
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-6                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
-ii   tzdata                  2022e-1                            all    time zone and daylight-saving time data
+ii   tzdata                  2022f-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           33                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-1.1+b1                      amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1.1+b1                      amd64  interactive login tools
