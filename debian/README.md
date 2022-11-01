@@ -18,8 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.129                              all    add and remove users and groups
-ii   apt                     2.5.3+b1                           amd64  commandline package manager
+ii   apt                     2.5.4                              amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
 ii   bash                    5.2-2                              amd64  GNU Bourne Again SHell
@@ -40,7 +39,7 @@ ii   gzip                    1.12-1                             amd64  GNU compr
 ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.65.2                             all    helper tools for all init systems
 ii   libacl1                 2.3.1-1                            amd64  access control list - shared library
-ii   libapt-pkg6.0           2.5.3+b1                           amd64  package management runtime library
+ii   libapt-pkg6.0           2.5.4                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.7-1.1                        all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.0.7-1.1+b1                     amd64  Dynamic library for security auditing
@@ -59,7 +58,7 @@ ii   libffi8                 3.4.4-1                            amd64  Foreign F
 ii   libgcc-s1               12.2.0-7                           amd64  GCC support library
 ii   libgcrypt20             1.10.1-2                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.8-2                            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.8-4                            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.46-1                             amd64  GnuPG development runtime library
 ii   libhogweed6             3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -81,10 +80,10 @@ ii   libsepol2               3.4-2                              amd64  SELinux l
 ii   libsmartcols1           2.38.1-1.1+b1                      amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
 ii   libstdc++6              12.2.0-7                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             252~rc3-2                          amd64  systemd utility library
+ii   libsystemd0             252-1                              amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                252~rc3-2                          amd64  libudev shared library
+ii   libudev1                252-1                              amd64  libudev shared library
 ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-1.1+b1                      amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
