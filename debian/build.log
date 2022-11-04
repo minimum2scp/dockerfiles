@@ -21,7 +21,8 @@ I: Validating diffutils 1:3.8-1
 I: Validating dpkg 1.21.9+b1
 I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Validating findutils 4.9.0-3
-I: Validating gcc-12-base 12.2.0-7
+I: Retrieving gcc-12-base 12.2.0-9
+I: Validating gcc-12-base 12.2.0-9
 I: Validating gpgv 2.2.40-1
 I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
@@ -34,20 +35,18 @@ I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b1
 I: Validating libblkid1 2.38.1-1.1+b1
 I: Validating libbz2-1.0 1.0.8-5+b1
-I: Retrieving libc-bin 2.36-4
 I: Validating libc-bin 2.36-4
-I: Retrieving libc6 2.36-4
 I: Validating libc6 2.36-4
 I: Validating libcap-ng0 0.8.3-1+b1
 I: Validating libcap2 1:2.44-1
 I: Validating libcom-err2 1.46.6~rc1-1+b1
-I: Retrieving libcrypt1 1:4.4.30-1
 I: Validating libcrypt1 1:4.4.30-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdebconfclient0 0.264
 I: Validating libext2fs2 1.46.6~rc1-1+b1
 I: Validating libffi8 3.4.4-1
-I: Validating libgcc-s1 12.2.0-7
+I: Retrieving libgcc-s1 12.2.0-9
+I: Validating libgcc-s1 12.2.0-9
 I: Validating libgcrypt20 1.10.1-2
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
 I: Validating libgnutls30 3.7.8-4
@@ -71,7 +70,8 @@ I: Validating libsemanage2 3.4-1+b2
 I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-1.1+b1
 I: Validating libss2 1.46.6~rc1-1+b1
-I: Validating libstdc++6 12.2.0-7
+I: Retrieving libstdc++6 12.2.0-9
+I: Validating libstdc++6 12.2.0-9
 I: Validating libsystemd0 252-2
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.3+20220423-2
@@ -373,10 +373,10 @@ Sending build context to Docker daemon  30.69MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 65cf5b610248
+ ---> 7754ba9e3e96
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d54af9a816ba
-Removing intermediate container d54af9a816ba
- ---> a26ea81de38f
-Successfully built a26ea81de38f
+ ---> Running in 8122db8c1701
+Removing intermediate container 8122db8c1701
+ ---> 59f017592d6b
+Successfully built 59f017592d6b
 Successfully tagged minimum2scp/debian:latest
