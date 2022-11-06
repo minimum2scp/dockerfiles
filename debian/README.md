@@ -21,13 +21,13 @@ installed packages:
 ii   apt                     2.5.4                              amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
-ii   bash                    5.2-2                              amd64  GNU Bourne Again SHell
+ii   bash                    5.2-2+b1                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-1.1+b1                    amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                 1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-1                            amd64  File comparison utilities
 ii   dpkg                    1.21.9+b1                          amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
@@ -88,13 +88,13 @@ ii   libunistring2           1.0-2                              amd64  Unicode s
 ii   libuuid1                2.38.1-1.1+b1                      amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
-ii   login                   1:4.12.3+dfsg1-2                   amd64  system login tools
+ii   login                   1:4.12.3+dfsg1-3                   amd64  system login tools
 ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-1.1+b1                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.12.3+dfsg1-2                   amd64  change and administer password and group data
+ii   passwd                  1:4.12.3+dfsg1-3                   amd64  change and administer password and group data
 ii   perl-base               5.36.0-4                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-6                             amd64  System-V-like utilities
@@ -103,5 +103,5 @@ ii   tzdata                  2022f-1                            all    time zone
 ii   usr-is-merged           33                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-1.1+b1                      amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-1.1+b1                      amd64  interactive login tools
-ii   zlib1g                  1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
+ii   zlib1g                  1:1.2.13.dfsg-1                    amd64  compression library - runtime
 ```
