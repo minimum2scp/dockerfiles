@@ -64,7 +64,7 @@ ii   adduser                  3.129                              all    add and 
 ii   apt                      2.5.4                              amd64  commandline package manager
 ii   base-files               12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                              amd64  Debian base system master password and group files
-ii   bash                     5.2-2                              amd64  GNU Bourne Again SHell
+ii   bash                     5.2-2+b1                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-1.1+b1                      amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-1.1+b1                    amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
@@ -76,7 +76,7 @@ ii   curl                     7.86.0-1                           amd64  command 
 ii   dash                     0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.7-0.3                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-1                            amd64  File comparison utilities
 ii   dpkg                     1.21.9+b1                          amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
@@ -187,7 +187,7 @@ ii   libxxhash0               0.8.1-1                            amd64  shared l
 ii   libzstd1                 1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-4                             all    GNU C Library: National Language (locale) data [support]
-ii   login                    1:4.12.3+dfsg1-2                   amd64  system login tools
+ii   login                    1:4.12.3+dfsg1-3                   amd64  system login tools
 ii   logsave                  1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   lv                       4.51-9                             amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.11.0-1+b1                        amd64  tools for reading manual pages
@@ -201,7 +201,7 @@ ii   openssh-server           1:9.0p1-1+b2                       amd64  secure s
 ii   openssh-sftp-server      1:9.0p1-1+b2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.11                               all    Orphaned System-V-like init scripts
-ii   passwd                   1:4.12.3+dfsg1-2                   amd64  change and administer password and group data
+ii   passwd                   1:4.12.3+dfsg1-3                   amd64  change and administer password and group data
 ii   perl                     5.36.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.36.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-4                           all    Core Perl modules
@@ -225,8 +225,8 @@ ii   util-linux-extra         2.38.1-1.1+b1                      amd64  interact
 ii   vim-common               2:9.0.0813-1                       all    Vi IMproved - Common files
 ii   vim-tiny                 2:9.0.0813-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-6                          amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                   1:1.2.11.dfsg-4.1                  amd64  compression library - runtime
-ii   zsh                      5.9-1+b1                           amd64  shell with lots of features
+ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
+ii   zsh                      5.9-1+b2                           amd64  shell with lots of features
 ii   zsh-common               5.9-1                              all    architecture independent files for Zsh
 ii   zstd                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
 ```
