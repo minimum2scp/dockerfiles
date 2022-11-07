@@ -10,14 +10,12 @@ I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 2.5.4
 I: Validating base-files 12.3
 I: Validating base-passwd 3.6.1
-I: Retrieving bash 5.2-2+b1
 I: Validating bash 5.2-2+b1
 I: Validating bsdutils 1:2.38.1-1.1+b1
 I: Validating coreutils 9.1-1
 I: Validating dash 0.5.11+git20210903+057cd650a4ed-9
 I: Validating debconf 1.5.79
 I: Validating debian-archive-keyring 2021.1.1
-I: Retrieving debianutils 5.7-0.4
 I: Validating debianutils 5.7-0.4
 I: Validating diffutils 1:3.8-1
 I: Validating dpkg 1.21.9+b1
@@ -71,22 +69,22 @@ I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-1.1+b1
 I: Validating libss2 1.46.6~rc1-1+b1
 I: Validating libstdc++6 12.2.0-9
-I: Validating libsystemd0 252-2
+I: Retrieving libsystemd0 252-3
+I: Validating libsystemd0 252-3
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.3+20220423-2
-I: Validating libudev1 252-2
+I: Retrieving libudev1 252-3
+I: Validating libudev1 252-3
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-1.1+b1
 I: Validating libxxhash0 0.8.1-1
 I: Validating libzstd1 1.5.2+dfsg-1
-I: Retrieving login 1:4.12.3+dfsg1-3
 I: Validating login 1:4.12.3+dfsg1-3
 I: Validating logsave 1.46.6~rc1-1+b1
 I: Validating mawk 1.3.4.20200120-3.1
 I: Validating mount 2.38.1-1.1+b1
 I: Validating ncurses-base 6.3+20220423-2
 I: Validating ncurses-bin 6.3+20220423-2
-I: Retrieving passwd 1:4.12.3+dfsg1-3
 I: Validating passwd 1:4.12.3+dfsg1-3
 I: Validating perl-base 5.36.0-4
 I: Validating sed 4.8-1
@@ -96,7 +94,6 @@ I: Validating tzdata 2022f-1
 I: Validating usr-is-merged 33
 I: Validating util-linux 2.38.1-1.1+b1
 I: Validating util-linux-extra 2.38.1-1.1+b1
-I: Retrieving zlib1g 1:1.2.13.dfsg-1
 I: Validating zlib1g 1:1.2.13.dfsg-1
 I: Chosen extractor for .deb packages: dpkg-deb
 W: Upgrading non-merged-/usr environments post-bookworm is unsupported. Only do this for CI/QA infrastructure that will be re-bootstrapped rather than upgraded.
@@ -375,10 +372,10 @@ Sending build context to Docker daemon  30.69MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> cde9a268777b
+ ---> 5a6bc9b39e71
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in d2333c800fd2
-Removing intermediate container d2333c800fd2
- ---> 21c7ee95ffe9
-Successfully built 21c7ee95ffe9
+ ---> Running in 5ed723d55864
+Removing intermediate container 5ed723d55864
+ ---> fd1f10776de6
+Successfully built fd1f10776de6
 Successfully tagged minimum2scp/debian:latest
