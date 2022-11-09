@@ -91,7 +91,7 @@ ii   groff-base               1.22.4-8                           amd64  GNU trof
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.65.2                             all    helper tools for all init systems
-ii   initscripts              3.05-6                             all    scripts for initializing and shutting down the system
+ii   initscripts              3.05-7                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-1                            amd64  access control list - shared library
 ii   libapt-pkg6.0            2.5.4                              amd64  package management runtime library
@@ -173,13 +173,13 @@ ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-9                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252-3                              amd64  systemd utility library
+ii   libsystemd0              252.1-1                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 252-3                              amd64  libudev shared library
+ii   libudev1                 252.1-1                            amd64  libudev shared library
 ii   libunistring2            1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-1.1+b1                      amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
@@ -212,9 +212,9 @@ ii   sed                      4.8-1                              amd64  GNU stre
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.11p3-2                         amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.05-6                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.05-6                             amd64  System-V-like init
-ii   sysvinit-utils           3.05-6                             amd64  System-V-like utilities
+ii   sysv-rc                  3.05-7                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.05-7                             amd64  System-V-like init
+ii   sysvinit-utils           3.05-7                             amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
 ii   tzdata                   2022f-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files

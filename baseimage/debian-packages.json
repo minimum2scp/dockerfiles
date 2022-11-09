@@ -874,7 +874,7 @@
     "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "178",
+    "Installed-Size": "177",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-6",
+    "Version": "3.05-7",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-6"
+    "source:Version": "3.05-7"
   },
   {
     "Architecture": "amd64",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252-3",
+    "Version": "252.1-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252-3"
+    "source:Version": "252.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252-3",
+    "Version": "252.1-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252-3"
+    "source:Version": "252.1-1"
   },
   {
     "Architecture": "amd64",
@@ -4262,7 +4262,7 @@
     "Depends": "insserv, startpar (>= 0.62-1~), sysvinit-utils (>= 3.05-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "86",
+    "Installed-Size": "85",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-6",
+    "Version": "3.05-7",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-6"
+    "source:Version": "3.05-7"
   },
   {
     "Architecture": "amd64",
@@ -4290,7 +4290,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "386",
+    "Installed-Size": "315",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.05-6",
+    "Version": "3.05-7",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-6"
+    "source:Version": "3.05-7"
   },
   {
     "Architecture": "amd64",
@@ -4318,7 +4318,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "101",
+    "Installed-Size": "100",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4329,7 +4329,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-6",
+    "Version": "3.05-7",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-6"
+    "source:Version": "3.05-7"
   },
   {
     "Architecture": "amd64",
