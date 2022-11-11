@@ -22,7 +22,7 @@ describe 'minimum2scp/norikra' do
     end
 
     describe package('norikra') do
-      let(:path){ '/opt/rbenv/versions/jruby-9.2.19.0/bin:$PATH' }
+      let(:path){ '/opt/rbenv/versions/jruby-9.3.9.0/bin:$PATH' }
       it { should be_installed.by('gem') }
     end
   end
