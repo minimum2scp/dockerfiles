@@ -160,8 +160,8 @@ ii   libpopt0                 1.19+dfsg-1                        amd64  lib for 
 ii   libprocps8               2:3.3.17-7.1                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-8                      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-8                      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-9                      amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-9                      amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.4-1+b2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                              all    Common files for SELinux policy management libraries
