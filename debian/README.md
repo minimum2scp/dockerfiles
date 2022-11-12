@@ -47,7 +47,7 @@ ii   libblkid1               2.38.1-1.1+b1                      amd64  block dev
 ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.36-4                             amd64  GNU C Library: Binaries
 ii   libc6                   2.36-4                             amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.8.3-1+b1                         amd64  alternate POSIX capabilities library
+ii   libcap-ng0              0.8.3-1+b2                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1               1:4.4.30-1                         amd64  libcrypt shared library
@@ -72,8 +72,8 @@ ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable
 ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-5                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.40-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libseccomp2             2.5.4-1+b1                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.4-1+b2                           amd64  SELinux runtime shared libraries
+ii   libseccomp2             2.5.4-1+b2                         amd64  high level interface to Linux seccomp filter
+ii   libselinux1             3.4-1+b3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
 ii   libsemanage2            3.4-1+b2                           amd64  SELinux policy management library
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
@@ -88,13 +88,13 @@ ii   libunistring2           1.0-2                              amd64  Unicode s
 ii   libuuid1                2.38.1-1.1+b1                      amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
-ii   login                   1:4.12.3+dfsg1-3                   amd64  system login tools
+ii   login                   1:4.13+dfsg1-1                     amd64  system login tools
 ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-1.1+b1                      amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.12.3+dfsg1-3                   amd64  change and administer password and group data
+ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
 ii   perl-base               5.36.0-4                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-7                             amd64  System-V-like utilities
