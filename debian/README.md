@@ -42,11 +42,11 @@ ii   libacl1                 2.3.1-1                            amd64  access co
 ii   libapt-pkg6.0           2.5.4                              amd64  package management runtime library
 ii   libattr1                1:2.5.1-1                          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.0.7-1.1                        all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.7-1.1+b1                     amd64  Dynamic library for security auditing
+ii   libaudit1               1:3.0.7-1.1+b2                     amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-1.1+b1                      amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.36-4                             amd64  GNU C Library: Binaries
-ii   libc6                   2.36-4                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.36-5                             amd64  GNU C Library: Binaries
+ii   libc6                   2.36-5                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b2                         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.6~rc1-1+b1                    amd64  common error description library
@@ -75,7 +75,7 @@ ii   libpcre2-8-0            10.40-2                            amd64  New Perl 
 ii   libseccomp2             2.5.4-1+b2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
-ii   libsemanage2            3.4-1+b2                           amd64  SELinux policy management library
+ii   libsemanage2            3.4-1+b3                           amd64  SELinux policy management library
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-1.1+b1                      amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
