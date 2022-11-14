@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "220",
+    "Installed-Size": "219",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-150+b1",
+    "Version": "3.0pl1-151",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,16 +305,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-150"
+    "source:Version": "3.0pl1-151"
   },
   {
     "Architecture": "all",
-    "Conflicts": "bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-4), systemd-cron (<< 1.15.18-1.1)",
+    "Conflicts": "bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-5), systemd-cron (<< 1.15.18-1.1)",
     "Breaks": "",
     "Depends": "adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "64",
+    "Installed-Size": "39",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-150",
+    "Version": "3.0pl1-151",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-150"
+    "source:Version": "3.0pl1-151"
   },
   {
     "Architecture": "amd64",
@@ -2666,7 +2666,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "97",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "libpipeline1",
     "Pre-Depends": "",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.6-3",
+    "Version": "1.5.7-1",
     "binary:Package": "libpipeline1:amd64",
     "binary:Summary": "Unix process pipeline manipulation library",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpipeline",
-    "source:Version": "1.5.6-3"
+    "source:Version": "1.5.7-1"
   },
   {
     "Architecture": "amd64",
@@ -4651,10 +4651,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "zsh-common (= 5.9-1), libc6 (>= 2.34), libcap2 (>= 1:2.10), libtinfo6 (>= 6)",
+    "Depends": "zsh-common (= 5.9-2), libc6 (>= 2.34), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2434",
+    "Installed-Size": "2436",
     "Origin": "",
     "Package": "zsh",
     "Pre-Depends": "",
@@ -4665,7 +4665,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-1+b2",
+    "Version": "5.9-2",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
@@ -4673,7 +4673,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.9-1"
+    "source:Version": "5.9-2"
   },
   {
     "Architecture": "all",
@@ -4682,7 +4682,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "16465",
+    "Installed-Size": "16422",
     "Origin": "",
     "Package": "zsh-common",
     "Pre-Depends": "",
@@ -4693,7 +4693,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-1",
+    "Version": "5.9-2",
     "binary:Package": "zsh-common",
     "binary:Summary": "architecture independent files for Zsh",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zsh",
-    "source:Version": "5.9-1"
+    "source:Version": "5.9-2"
   },
   {
     "Architecture": "amd64",

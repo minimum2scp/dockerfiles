@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.38.1-1.1+b1                    amd64  basic ut
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                9.1-1                              amd64  GNU core utilities
-ii   cron                     3.0pl1-150+b1                      amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-150                         all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-151                         amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-151                         all    process scheduling daemon's configuration files
 ii   curl                     7.86.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                  1.5.79                             all    Debian configuration management system
@@ -155,7 +155,7 @@ ii   libpam-runtime           1.5.2-5                            all    Runtime 
 ii   libpam0g                 1.5.2-5                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.40-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-4                           amd64  shared Perl library
-ii   libpipeline1             1.5.6-3                            amd64  Unix process pipeline manipulation library
+ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
 ii   libprocps8               2:3.3.17-7.1                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
@@ -226,7 +226,7 @@ ii   vim-common               2:9.0.0813-1                       all    Vi IMpro
 ii   vim-tiny                 2:9.0.0813-1                       amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.21-6+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
-ii   zsh                      5.9-1+b2                           amd64  shell with lots of features
-ii   zsh-common               5.9-1                              all    architecture independent files for Zsh
+ii   zsh                      5.9-2                              amd64  shell with lots of features
+ii   zsh-common               5.9-2                              all    architecture independent files for Zsh
 ii   zstd                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
 ```
