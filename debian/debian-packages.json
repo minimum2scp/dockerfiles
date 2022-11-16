@@ -129,7 +129,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.38.1-1.1+b1",
+    "Version": "1:2.38.1-2",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -717,7 +717,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "78",
+    "Installed-Size": "82",
     "Origin": "",
     "Package": "libuuid1",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "all",
@@ -2330,7 +2330,7 @@
     "Depends": "util-linux-extra",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4980",
+    "Installed-Size": "4976",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libblkid1 (>= 2.37.2), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.38), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -2341,7 +2341,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2358,7 +2358,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libsmartcols1 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "362",
+    "Installed-Size": "366",
     "Origin": "",
     "Package": "util-linux-extra",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-1.1+b1",
+    "Version": "2.38.1-2",
     "binary:Package": "util-linux-extra",
     "binary:Summary": "interactive login tools",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-1.1"
+    "source:Version": "2.38.1-2"
   },
   {
     "Architecture": "amd64",
