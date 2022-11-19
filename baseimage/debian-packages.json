@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.30-1",
+    "Version": "1:4.4.33-1",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.30-1"
+    "source:Version": "1:4.4.33-1"
   },
   {
     "Architecture": "amd64",
@@ -3926,7 +3926,7 @@
     "Depends": "ucf",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "64",
+    "Installed-Size": "68",
     "Origin": "",
     "Package": "orphan-sysvinit-scripts",
     "Pre-Depends": "",
@@ -3937,7 +3937,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.11",
+    "Version": "0.12",
     "binary:Package": "orphan-sysvinit-scripts",
     "binary:Summary": "Orphaned System-V-like init scripts",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "orphan-sysvinit-scripts",
-    "source:Version": "0.11"
+    "source:Version": "0.12"
   },
   {
     "Architecture": "amd64",
