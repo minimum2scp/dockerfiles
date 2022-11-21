@@ -215,7 +215,7 @@ ii   sudo                     1.9.11p3-2                         amd64  Provide 
 ii   sysv-rc                  3.05-7                             all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.05-7                             amd64  System-V-like init
 ii   sysvinit-utils           3.05-7                             amd64  System-V-like utilities
-ii   tar                      1.34+dfsg-1                        amd64  GNU version of the tar archiving utility
+ii   tar                      1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
 ii   tzdata                   2022f-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-27                             amd64  De-archiver for .zip files
