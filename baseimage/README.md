@@ -145,7 +145,7 @@ ii   libmount1                2.38.1-3                           amd64  device m
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52              0.52.21-6+b1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52              0.52.22-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.50.0-1+b1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -160,8 +160,8 @@ ii   libpopt0                 1.19+dfsg-1                        amd64  lib for 
 ii   libprocps8               2:3.3.17-7.1                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-9                      amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-9                      amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-10                     amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-10                     amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1+b2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.4-1+b3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                              all    Common files for SELinux policy management libraries
@@ -224,7 +224,7 @@ ii   util-linux               2.38.1-3                           amd64  miscella
 ii   util-linux-extra         2.38.1-3                           amd64  interactive login tools
 ii   vim-common               2:9.0.0813-1                       all    Vi IMproved - Common files
 ii   vim-tiny                 2:9.0.0813-1                       amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                 0.52.21-6+b1                       amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                 0.52.22-1                          amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
 ii   zsh                      5.9-2                              amd64  shell with lots of features
 ii   zsh-common               5.9-2                              all    architecture independent files for Zsh

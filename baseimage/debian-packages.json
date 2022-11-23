@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.34), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "365",
+    "Installed-Size": "364",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-6+b1",
+    "Version": "0.52.22-1",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.21-6"
+    "source:Version": "0.52.22-1"
   },
   {
     "Architecture": "amd64",
@@ -2803,7 +2803,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-9), libc6 (>= 2.34)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-10), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "167",
@@ -2812,12 +2812,12 @@
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-9)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-10)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-9",
+    "Version": "2.1.28+dfsg-10",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-9"
+    "source:Version": "2.1.28+dfsg-10"
   },
   {
     "Architecture": "amd64",
@@ -2845,7 +2845,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-9",
+    "Version": "2.1.28+dfsg-10",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-9"
+    "source:Version": "2.1.28+dfsg-10"
   },
   {
     "Architecture": "amd64",
@@ -4595,10 +4595,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libnewt0.52 (>= 0.52.21), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
+    "Depends": "libc6 (>= 2.34), libnewt0.52 (>= 0.52.22), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "57",
+    "Installed-Size": "56",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4609,7 +4609,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.21-6+b1",
+    "Version": "0.52.22-1",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.21-6"
+    "source:Version": "0.52.22-1"
   },
   {
     "Architecture": "amd64",
