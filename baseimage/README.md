@@ -114,7 +114,7 @@ ii   libcurl3-gnutls          7.86.0-2                           amd64  easy-to-
 ii   libcurl4                 7.86.0-2                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.265                              amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                 3.1-20221030-1                     amd64  BSD editline and history libraries
+ii   libedit2                 3.1-20221030-2                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                           amd64  Helper functions for handling strings (lib)
 ii   libexpat1                2.5.0-1                            amd64  XML parsing C library - runtime library
