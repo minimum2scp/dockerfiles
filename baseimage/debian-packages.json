@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "219",
+    "Installed-Size": "220",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-151",
+    "Version": "3.0pl1-152",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-151"
+    "source:Version": "3.0pl1-152"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "39",
+    "Installed-Size": "40",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-151",
+    "Version": "3.0pl1-152",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-151"
+    "source:Version": "3.0pl1-152"
   },
   {
     "Architecture": "amd64",
@@ -393,23 +393,23 @@
   },
   {
     "Architecture": "all",
-    "Conflicts": "apt (<< 0.3.12.1), cdebconf (<< 0.96), debconf-tiny, debconf-utils (<< 1.3.22), dialog (<< 0.9b-20020814-1), menu (<= 2.1.3-1), whiptail (<< 0.51.4-11), whiptail-utf8 (<= 0.50.17-13)",
-    "Breaks": "apt-listchanges (<< 3.14), ubiquity (<< 17.10.2), update-notifier-common (<< 3.187~)",
+    "Conflicts": "debconf-tiny, whiptail-utf8 (<= 0.50.17-13)",
+    "Breaks": "",
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "512",
+    "Installed-Size": "491",
     "Origin": "",
     "Package": "debconf",
-    "Pre-Depends": "perl-base (>= 5.20.1-3~)",
+    "Pre-Depends": "",
     "Priority": "required",
     "Provides": "debconf-2.0",
-    "Recommends": "apt-utils (>= 0.5.1), debconf-i18n",
+    "Recommends": "apt-utils, debconf-i18n",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-perl, libgtk3-perl, libnet-ldap-perl, perl, debconf-kde-helper (>= 0.1+git20110702)",
-    "Version": "1.5.79",
+    "Suggests": "debconf-doc, debconf-kde-helper, debconf-utils, libgtk3-perl, libnet-ldap-perl, libterm-readline-gnu-perl, perl, whiptail | dialog",
+    "Version": "1.5.80",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.79"
+    "source:Version": "1.5.80"
   },
   {
     "Architecture": "all",
