@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.38.1-4                         amd64  basic ut
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20211016                           all    Common CA certificates
 ii   coreutils                9.1-1                              amd64  GNU core utilities
-ii   cron                     3.0pl1-152                         amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-152                         all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-153                         amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-153                         all    process scheduling daemon's configuration files
 ii   curl                     7.86.0-2                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
 ii   debconf                  1.5.80                             all    Debian configuration management system
@@ -102,9 +102,9 @@ ii   libblkid1                2.38.1-4                           amd64  block de
 ii   libbrotli1               1.0.9-2+b5                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.7-1                           amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5+b1                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.36-5                             amd64  GNU C Library: Binaries
-ii   libc-l10n                2.36-5                             all    GNU C Library: localization files
-ii   libc6                    2.36-5                             amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.36-6                             amd64  GNU C Library: Binaries
+ii   libc-l10n                2.36-6                             all    GNU C Library: localization files
+ii   libc6                    2.36-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b2                         amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
@@ -186,7 +186,7 @@ ii   libwrap0                 7.6.q-31                           amd64  Wietse V
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
 ii   libzstd1                 1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.36-5                             all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.36-6                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1                     amd64  system login tools
 ii   logsave                  1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   lv                       4.51-9                             amd64  Powerful Multilingual File Viewer
@@ -195,7 +195,7 @@ ii   mawk                     1.3.4.20200120-3.1                 amd64  Pattern 
 ii   mount                    2.38.1-4                           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin              6.3+20220423-2                     amd64  terminal-related programs and man pages
-ii   net-tools                1.60+git20181103.0eebece-1         amd64  NET-3 networking toolkit
+ii   net-tools                2.10-0.1                           amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.1p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.1p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.1p1-1                          amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
