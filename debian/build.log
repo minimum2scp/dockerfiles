@@ -34,9 +34,7 @@ I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b2
 I: Validating libblkid1 2.38.1-4
 I: Validating libbz2-1.0 1.0.8-5+b1
-I: Retrieving libc-bin 2.36-6
 I: Validating libc-bin 2.36-6
-I: Retrieving libc6 2.36-6
 I: Validating libc6 2.36-6
 I: Validating libcap-ng0 0.8.3-1+b2
 I: Validating libcap2 1:2.44-1
@@ -71,10 +69,12 @@ I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-4
 I: Validating libss2 1.46.6~rc1-1+b1
 I: Validating libstdc++6 12.2.0-9
-I: Validating libsystemd0 252.1-1
+I: Retrieving libsystemd0 252.2-1
+I: Validating libsystemd0 252.2-1
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.3+20220423-2
-I: Validating libudev1 252.1-1
+I: Retrieving libudev1 252.2-1
+I: Validating libudev1 252.2-1
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-4
 I: Validating libxxhash0 0.8.1-1
@@ -372,10 +372,10 @@ Sending build context to Docker daemon  30.58MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 257d08b8cb61
+ ---> 3b7dbd3fa4f0
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 9b9cd4682bda
-Removing intermediate container 9b9cd4682bda
- ---> 9df04003627b
-Successfully built 9df04003627b
+ ---> Running in 1de513ac0e32
+Removing intermediate container 1de513ac0e32
+ ---> e23f6ba37f05
+Successfully built e23f6ba37f05
 Successfully tagged minimum2scp/debian:latest
