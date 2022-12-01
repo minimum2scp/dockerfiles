@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.22-1",
+    "Version": "0.52.23-1",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.22-1"
+    "source:Version": "0.52.23-1"
   },
   {
     "Architecture": "amd64",
@@ -4570,7 +4570,7 @@
     "Depends": "vim-common (= 2:9.0.0813-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1648",
+    "Installed-Size": "1649",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.0.0813-1",
+    "Version": "2:9.0.0813-1+b1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4595,7 +4595,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libnewt0.52 (>= 0.52.22), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
+    "Depends": "libc6 (>= 2.34), libnewt0.52 (>= 0.52.23), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "56",
@@ -4609,7 +4609,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.22-1",
+    "Version": "0.52.23-1",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.22-1"
+    "source:Version": "0.52.23-1"
   },
   {
     "Architecture": "amd64",

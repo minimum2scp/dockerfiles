@@ -145,7 +145,7 @@ ii   libmount1                2.38.1-4                           amd64  device m
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52              0.52.22-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52              0.52.23-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.50.0-1+b1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -223,8 +223,8 @@ ii   usr-is-merged            33                                 all    Transiti
 ii   util-linux               2.38.1-4                           amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-4                           amd64  interactive login tools
 ii   vim-common               2:9.0.0813-1                       all    Vi IMproved - Common files
-ii   vim-tiny                 2:9.0.0813-1                       amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                 0.52.22-1                          amd64  Displays user-friendly dialog boxes from shell scripts
+ii   vim-tiny                 2:9.0.0813-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   whiptail                 0.52.23-1                          amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
 ii   zsh                      5.9-2                              amd64  shell with lots of features
 ii   zsh-common               5.9-2                              all    architecture independent files for Zsh
