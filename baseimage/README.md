@@ -78,7 +78,7 @@ ii   debconf                  1.5.80                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-1                            amd64  File comparison utilities
-ii   dpkg                     1.21.10                            amd64  Debian package management system
+ii   dpkg                     1.21.11                            amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -139,7 +139,7 @@ ii   libkrb5support0          1.20.1-1                           amd64  MIT Kerb
 ii   libldap-2.5-0            2.5.13+dfsg-2+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.2.8-0.0                          amd64  XZ-format compression library
+ii   liblzma5                 5.2.9-0.0                          amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-4                           amd64  device mounting library
 ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
@@ -153,7 +153,7 @@ ii   libpam-modules           1.5.2-5                            amd64  Pluggabl
 ii   libpam-modules-bin       1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.40-2                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.40-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-4                           amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
