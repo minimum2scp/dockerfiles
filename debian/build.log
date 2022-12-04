@@ -18,7 +18,6 @@ I: Validating debconf 1.5.80
 I: Validating debian-archive-keyring 2021.1.1
 I: Validating debianutils 5.7-0.4
 I: Validating diffutils 1:3.8-1
-I: Retrieving dpkg 1.21.11
 I: Validating dpkg 1.21.11
 I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Validating findutils 4.9.0-3
@@ -28,9 +27,11 @@ I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.65.2
-I: Validating libacl1 2.3.1-1
+I: Retrieving libacl1 2.3.1-2
+I: Validating libacl1 2.3.1-2
 I: Validating libapt-pkg6.0 2.5.4
-I: Validating libattr1 1:2.5.1-1
+I: Retrieving libattr1 1:2.5.1-2
+I: Validating libattr1 1:2.5.1-2
 I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b2
 I: Validating libblkid1 2.38.1-4
@@ -53,7 +54,6 @@ I: Validating libgpg-error0 1.46-1
 I: Validating libhogweed6 3.8.1-2
 I: Validating libidn2-0 2.3.3-1+b1
 I: Validating liblz4-1 1.9.4-1
-I: Retrieving liblzma5 5.2.9-0.0
 I: Validating liblzma5 5.2.9-0.0
 I: Validating libmd0 1.0.4-2
 I: Validating libmount1 2.38.1-4
@@ -63,7 +63,6 @@ I: Validating libpam-modules 1.5.2-5
 I: Validating libpam-modules-bin 1.5.2-5
 I: Validating libpam-runtime 1.5.2-5
 I: Validating libpam0g 1.5.2-5
-I: Retrieving libpcre2-8-0 10.40-3
 I: Validating libpcre2-8-0 10.40-3
 I: Validating libseccomp2 2.5.4-1+b2
 I: Validating libselinux1 3.4-1+b3
@@ -373,14 +372,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.66MB
+Sending build context to Docker daemon  30.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> f52814360bd5
+ ---> 6e120854ec84
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 7d57779b68b6
-Removing intermediate container 7d57779b68b6
- ---> d5a25baff75f
-Successfully built d5a25baff75f
+ ---> Running in ef1bc7564f77
+Removing intermediate container ef1bc7564f77
+ ---> 87f9b950ce48
+Successfully built 87f9b950ce48
 Successfully tagged minimum2scp/debian:latest
