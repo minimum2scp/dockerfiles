@@ -27,11 +27,10 @@ I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
 I: Validating hostname 3.23
 I: Validating init-system-helpers 1.65.2
-I: Retrieving libacl1 2.3.1-2
 I: Validating libacl1 2.3.1-2
 I: Validating libapt-pkg6.0 2.5.4
-I: Retrieving libattr1 1:2.5.1-2
-I: Validating libattr1 1:2.5.1-2
+I: Retrieving libattr1 1:2.5.1-3
+I: Validating libattr1 1:2.5.1-3
 I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b2
 I: Validating libblkid1 2.38.1-4
@@ -376,10 +375,10 @@ Sending build context to Docker daemon  30.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 6e120854ec84
+ ---> b40536fe820f
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in ef1bc7564f77
-Removing intermediate container ef1bc7564f77
- ---> 87f9b950ce48
-Successfully built 87f9b950ce48
+ ---> Running in 3d379c168d14
+Removing intermediate container 3d379c168d14
+ ---> 87fd63be3ae5
+Successfully built 87fd63be3ae5
 Successfully tagged minimum2scp/debian:latest
