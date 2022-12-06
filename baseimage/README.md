@@ -78,7 +78,7 @@ ii   debconf                  1.5.80                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-1                            amd64  File comparison utilities
-ii   dpkg                     1.21.11                            amd64  Debian package management system
+ii   dpkg                     1.21.12                            amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -142,7 +142,6 @@ ii   liblz4-1                 1.9.4-1                            amd64  Fast LZ 
 ii   liblzma5                 5.2.9-0.0                          amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-4                           amd64  device mounting library
-ii   libncurses6              6.3+20220423-2                     amd64  shared libraries for terminal handling
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -157,7 +156,7 @@ ii   libpcre2-8-0             10.40-3                            amd64  New Perl
 ii   libperl5.36              5.36.0-4                           amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
-ii   libprocps8               2:3.3.17-7.1                       amd64  library for accessing process information from /proc
+ii   libproc2-0               2:4.0.2-1                          amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.28+dfsg-10                     amd64  Cyrus SASL - authentication abstraction library
@@ -205,7 +204,7 @@ ii   passwd                   1:4.13+dfsg1-1                     amd64  change a
 ii   perl                     5.36.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.36.0-4                           amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-4                           all    Core Perl modules
-ii   procps                   2:3.3.17-7.1                       amd64  /proc file system utilities
+ii   procps                   2:4.0.2-1                          amd64  /proc file system utilities
 ii   rsyslog                  8.2210.0-3                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.0                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
