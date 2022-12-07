@@ -153,7 +153,7 @@ ii   libpam-modules-bin       1.5.2-5                            amd64  Pluggabl
 ii   libpam-runtime           1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-5                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.40-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.36              5.36.0-4                           amd64  shared Perl library
+ii   libperl5.36              5.36.0-5                           amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
 ii   libproc2-0               2:4.0.2-1                          amd64  library for accessing process information from /proc
@@ -172,13 +172,13 @@ ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-9                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.2-1                            amd64  systemd utility library
+ii   libsystemd0              252.2-2                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 252.2-1                            amd64  libudev shared library
+ii   libudev1                 252.2-2                            amd64  libudev shared library
 ii   libunistring2            1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-4                           amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
@@ -201,9 +201,9 @@ ii   openssh-sftp-server      1:9.1p1-1                          amd64  secure s
 ii   openssl                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.12                               all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1                     amd64  change and administer password and group data
-ii   perl                     5.36.0-4                           amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.36.0-4                           amd64  minimal Perl system
-ii   perl-modules-5.36        5.36.0-4                           all    Core Perl modules
+ii   perl                     5.36.0-5                           amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.36.0-5                           amd64  minimal Perl system
+ii   perl-modules-5.36        5.36.0-5                           all    Core Perl modules
 ii   procps                   2:4.0.2-1                          amd64  /proc file system utilities
 ii   rsyslog                  8.2210.0-3                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.0                             all    dh-runit implementation detail
