@@ -81,10 +81,10 @@ ii   libsepol2               3.4-2                              amd64  SELinux l
 ii   libsmartcols1           2.38.1-4                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
 ii   libstdc++6              12.2.0-9                           amd64  GNU Standard C++ Library v3
-ii   libsystemd0             252.2-1                            amd64  systemd utility library
+ii   libsystemd0             252.2-2                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                252.2-1                            amd64  libudev shared library
+ii   libudev1                252.2-2                            amd64  libudev shared library
 ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-4                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
@@ -96,7 +96,7 @@ ii   mount                   2.38.1-4                           amd64  tools for
 ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
-ii   perl-base               5.36.0-4                           amd64  minimal Perl system
+ii   perl-base               5.36.0-5                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.05-7                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
