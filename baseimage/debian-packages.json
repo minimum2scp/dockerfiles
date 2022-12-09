@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-153",
+    "Version": "3.0pl1-154",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-153"
+    "source:Version": "3.0pl1-154"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "40",
+    "Installed-Size": "42",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-153",
+    "Version": "3.0pl1-154",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-153"
+    "source:Version": "3.0pl1-154"
   },
   {
     "Architecture": "amd64",
