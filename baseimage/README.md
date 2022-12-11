@@ -106,7 +106,7 @@ ii   libc-bin                 2.36-6                             amd64  GNU C Li
 ii   libc-l10n                2.36-6                             all    GNU C Library: localization files
 ii   libc6                    2.36-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b2                         amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.44-1                           amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.63-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1                1:4.4.33-1                         amd64  libcrypt shared library
@@ -145,7 +145,7 @@ ii   libmount1                2.38.1-4                           amd64  device m
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14            1.50.0-1+b1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14            1.51.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
@@ -172,13 +172,13 @@ ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-9.1                         amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.2-2                            amd64  systemd utility library
+ii   libsystemd0              252.3-1                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 252.2-2                            amd64  libudev shared library
+ii   libudev1                 252.3-1                            amd64  libudev shared library
 ii   libunistring2            1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-4                           amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
