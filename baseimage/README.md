@@ -83,8 +83,8 @@ ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-10                          amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.38.1-1                         amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.38.1-1                         all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.39.0-1                         amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.39.0-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-3                              amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-9                           amd64  GNU troff text-formatting system (base system components)
@@ -106,7 +106,7 @@ ii   libc-bin                 2.36-6                             amd64  GNU C Li
 ii   libc-l10n                2.36-6                             all    GNU C Library: localization files
 ii   libc6                    2.36-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b2                         amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.63-1                           amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.66-1                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1                1:4.4.33-1                         amd64  libcrypt shared library
@@ -172,13 +172,13 @@ ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-10                          amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.3-1                            amd64  systemd utility library
+ii   libsystemd0              252.3-2                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
-ii   libudev1                 252.3-1                            amd64  libudev shared library
+ii   libudev1                 252.3-2                            amd64  libudev shared library
 ii   libunistring2            1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-4                           amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
