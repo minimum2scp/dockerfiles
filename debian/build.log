@@ -21,7 +21,6 @@ I: Validating diffutils 1:3.8-1
 I: Validating dpkg 1.21.12
 I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Validating findutils 4.9.0-3
-I: Retrieving gcc-12-base 12.2.0-10
 I: Validating gcc-12-base 12.2.0-10
 I: Validating gpgv 2.2.40-1
 I: Validating grep 3.8-3
@@ -38,14 +37,14 @@ I: Validating libbz2-1.0 1.0.8-5+b1
 I: Validating libc-bin 2.36-6
 I: Validating libc6 2.36-6
 I: Validating libcap-ng0 0.8.3-1+b2
-I: Validating libcap2 1:2.63-1
+I: Retrieving libcap2 1:2.66-1
+I: Validating libcap2 1:2.66-1
 I: Validating libcom-err2 1.46.6~rc1-1+b1
 I: Validating libcrypt1 1:4.4.33-1
 I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdebconfclient0 0.265
 I: Validating libext2fs2 1.46.6~rc1-1+b1
 I: Validating libffi8 3.4.4-1
-I: Retrieving libgcc-s1 12.2.0-10
 I: Validating libgcc-s1 12.2.0-10
 I: Validating libgcrypt20 1.10.1-3
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
@@ -71,12 +70,13 @@ I: Validating libsemanage2 3.4-1+b3
 I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-4
 I: Validating libss2 1.46.6~rc1-1+b1
-I: Retrieving libstdc++6 12.2.0-10
 I: Validating libstdc++6 12.2.0-10
-I: Validating libsystemd0 252.3-1
+I: Retrieving libsystemd0 252.3-2
+I: Validating libsystemd0 252.3-2
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.3+20220423-2
-I: Validating libudev1 252.3-1
+I: Retrieving libudev1 252.3-2
+I: Validating libudev1 252.3-2
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-4
 I: Validating libxxhash0 0.8.1-1
@@ -93,7 +93,6 @@ I: Validating sed 4.8-1
 I: Validating sysvinit-utils 3.05-7
 I: Validating tar 1.34+dfsg-1.1
 I: Validating tzdata 2022f-1
-I: Retrieving usr-is-merged 35
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.38.1-4
 I: Validating util-linux-extra 2.38.1-4
@@ -378,10 +377,10 @@ Sending build context to Docker daemon  30.65MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 58904677d90a
+ ---> 678beb33b3d5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 65602255b98e
-Removing intermediate container 65602255b98e
- ---> 19ba1cfa0830
-Successfully built 19ba1cfa0830
+ ---> Running in 58bc7b34add1
+Removing intermediate container 58bc7b34add1
+ ---> d10994887cd6
+Successfully built d10994887cd6
 Successfully tagged minimum2scp/debian:latest
