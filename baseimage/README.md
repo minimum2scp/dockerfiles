@@ -106,7 +106,7 @@ ii   libc-bin                 2.36-6                             amd64  GNU C Li
 ii   libc-l10n                2.36-6                             all    GNU C Library: localization files
 ii   libc6                    2.36-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b2                         amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.66-1                           amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.66-2                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                         amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1                1:4.4.33-1                         amd64  libcrypt shared library
@@ -139,7 +139,7 @@ ii   libkrb5support0          1.20.1-1                           amd64  MIT Kerb
 ii   libldap-2.5-0            2.5.13+dfsg-2+b1                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                            amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.2.9-0.0                          amd64  XZ-format compression library
+ii   liblzma5                 5.2.10-0.0                         amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-4                           amd64  device mounting library
 ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
