@@ -48,7 +48,7 @@ ii   libbz2-1.0              1.0.8-5+b1                         amd64  high-qual
 ii   libc-bin                2.36-6                             amd64  GNU C Library: Binaries
 ii   libc6                   2.36-6                             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b2                         amd64  alternate POSIX capabilities library
-ii   libcap2                 1:2.66-1                           amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                 1:2.66-2                           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1               1:4.4.33-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -63,7 +63,7 @@ ii   libgpg-error0           1.46-1                             amd64  GnuPG dev
 ii   libhogweed6             3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.9-0.0                          amd64  XZ-format compression library
+ii   liblzma5                5.2.10-0.0                         amd64  XZ-format compression library
 ii   libmd0                  1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.38.1-4                           amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
