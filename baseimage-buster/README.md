@@ -83,8 +83,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.33.1-0.1                   amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190209-2         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.3.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.1-2+deb10u4           amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.1-2+deb10u4           all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.1-2+deb10u6           amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.1-2+deb10u6           all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1+deb10u2             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3+deb10u1             amd64  GNU troff text-formatting system (base system components)
@@ -130,13 +130,13 @@ ii   libgdbm6                1.18.1-4                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.2+dfsg-4+deb10u1       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.7-4+deb10u9              amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1+deb10u1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-3+deb10u4               amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u7        amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-3+deb10u7        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
