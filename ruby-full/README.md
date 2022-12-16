@@ -2,7 +2,7 @@
 
  * based on minimum2scp/ruby (see https://github.com/minimum2scp/dockerfiles/tree/master/ruby)
  * ruby ruby 2.6.10, ruby 2.7.6, ruby 3.0.4, ruby 3.1.2 is installed by rbenv
- * ruby 3.0.4 is installed by debian package
+ * ruby 3.1.2 is installed by debian package
 
 ## ssh login to container
 
@@ -54,7 +54,7 @@ rbenv gloabl (/opt/rbenv/version) is not defined, and some rubies are built.
   3.0.4
   3.1.2
 % docker run --rm -t minimum2scp/ruby-full:latest /bin/bash -l -c "ruby -v"
-ruby 3.0.4p208 (2022-04-12 revision 3fa771dded) [x86_64-linux-gnu]
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux-gnu]
 ```
 
 
