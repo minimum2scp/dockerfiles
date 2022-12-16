@@ -28,7 +28,7 @@ ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-com
 ii   debconf                 1.5.80                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.8-1                            amd64  File comparison utilities
+ii   diffutils               1:3.8-2                            amd64  File comparison utilities
 ii   dpkg                    1.21.12                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -63,7 +63,7 @@ ii   libgpg-error0           1.46-1                             amd64  GnuPG dev
 ii   libhogweed6             3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1                            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.2.10-0.0                         amd64  XZ-format compression library
+ii   liblzma5                5.4.0-0.1                          amd64  XZ-format compression library
 ii   libmd0                  1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.38.1-4                           amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
