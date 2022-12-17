@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118                           all    add and remove users and groups
 ii   apt                     2.2.4                           amd64  commandline package manager
-ii   base-files              11.1+deb11u5                    amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u6                    amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2+deb11u1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-8+deb11u1                amd64  extra utilities from 4.4BSD-Lite
@@ -102,9 +102,9 @@ ii   libblkid1               2.36.1-8+deb11u1                amd64  block device
 ii   libbrotli1              1.0.9-2+b2                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-13+deb11u4                 amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-13+deb11u4                 all    GNU C Library: localization files
-ii   libc6                   2.31-13+deb11u4                 amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13+deb11u5                 amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-13+deb11u5                 all    GNU C Library: localization files
+ii   libc6                   2.31-13+deb11u5                 amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                    amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
@@ -181,7 +181,7 @@ ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-
 ii   libssl1.1               1.1.1n-0+deb11u3                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-7+deb11u1                 amd64  systemd utility library
-ii   libtasn1-6              4.16.0-2                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.16.0-2+deb11u1                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1+deb11u1                 all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1+deb11u1                 amd64  transport-independent RPC library
@@ -193,7 +193,7 @@ ii   libwrap0                7.6.q-31                        amd64  Wietse Venem
 ii   libxxhash0              0.8.0-2                         amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                  amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-13+deb11u4                 all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-13+deb11u5                 all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1                       amd64  system login tools
 ii   logsave                 1.46.2-2                        amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                          all    Linux Standard Base init script functionality
@@ -229,7 +229,7 @@ ii   sysv-rc                 2.96-7+deb11u1                  all    System-V-lik
 ii   sysvinit-core           2.96-7+deb11u1                  amd64  System-V-like init
 ii   sysvinit-utils          2.96-7+deb11u1                  amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1                     amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1+deb11u5                 all    time zone and daylight-saving time data
+ii   tzdata                  2021a-1+deb11u8                 all    time zone and daylight-saving time data
 ii   ucf                     3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26+deb11u1                  amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-8+deb11u1                amd64  miscellaneous system utilities
