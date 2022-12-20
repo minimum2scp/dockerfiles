@@ -29,7 +29,7 @@ ii   debconf                 1.5.80                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-2                            amd64  File comparison utilities
-ii   dpkg                    1.21.12                            amd64  Debian package management system
+ii   dpkg                    1.21.13                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-10                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -98,7 +98,7 @@ ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-
 ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
 ii   perl-base               5.36.0-6                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.05-7                             amd64  System-V-like utilities
+ii   sysvinit-utils          3.06-2                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022f-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           35                                 all    Transitional package to assert a merged-/usr system
