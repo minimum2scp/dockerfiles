@@ -78,7 +78,7 @@ ii   debconf                  1.5.80                             all    Debian c
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-2                            amd64  File comparison utilities
-ii   dpkg                     1.21.12                            amd64  Debian package management system
+ii   dpkg                     1.21.13                            amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -91,7 +91,7 @@ ii   groff-base               1.22.4-9                           amd64  GNU trof
 ii   gzip                     1.12-1                             amd64  GNU compression utilities
 ii   hostname                 3.23                               amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.65.2                             all    helper tools for all init systems
-ii   initscripts              3.05-7                             all    scripts for initializing and shutting down the system
+ii   initscripts              3.06-2                             all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                           amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-2                            amd64  access control list - shared library
 ii   libapt-pkg6.0            2.5.4                              amd64  package management runtime library
@@ -133,7 +133,7 @@ ii   libgssapi-krb5-2         1.20.1-1                           amd64  MIT Kerb
 ii   libhogweed6              3.8.1-2                            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.3-1+b1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3             1.20.1-1                           amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1             1.6.3-1                            amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1             1.6.3-2                            amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.20.1-1                           amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.20.1-1                           amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0            2.5.13+dfsg-2+b1                   amd64  OpenLDAP libraries
@@ -156,7 +156,7 @@ ii   libpcre2-8-0             10.40-3                            amd64  New Perl
 ii   libperl5.36              5.36.0-6                           amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
-ii   libproc2-0               2:4.0.2-2                          amd64  library for accessing process information from /proc
+ii   libproc2-0               2:4.0.2-3                          amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.0-1.2                         amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2     amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2               2.1.28+dfsg-10                     amd64  Cyrus SASL - authentication abstraction library
@@ -204,16 +204,16 @@ ii   passwd                   1:4.13+dfsg1-1                     amd64  change a
 ii   perl                     5.36.0-6                           amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                5.36.0-6                           amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-6                           all    Core Perl modules
-ii   procps                   2:4.0.2-2                          amd64  /proc file system utilities
+ii   procps                   2:4.0.2-3                          amd64  /proc file system utilities
 ii   rsyslog                  8.2212.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.0                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.11p3-2                         amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.05-7                             all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.05-7                             amd64  System-V-like init
-ii   sysvinit-utils           3.05-7                             amd64  System-V-like utilities
+ii   sysv-rc                  3.06-2                             all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.06-2                             amd64  System-V-like init
+ii   sysvinit-utils           3.06-2                             amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
 ii   tzdata                   2022f-1                            all    time zone and daylight-saving time data
 ii   ucf                      3.0043                             all    Update Configuration File(s): preserve user changes to config files

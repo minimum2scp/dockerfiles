@@ -510,10 +510,10 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6870",
+    "Installed-Size": "6881",
     "Origin": "",
     "Package": "dpkg",
-    "Pre-Depends": "libbz2-1.0, libc6 (>= 2.34), liblzma5 (>= 5.2.2), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)",
+    "Pre-Depends": "libbz2-1.0, libc6 (>= 2.34), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.21.12",
+    "Version": "1.21.13",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.21.12"
+    "source:Version": "1.21.13"
   },
   {
     "Architecture": "amd64",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-7",
+    "Version": "3.06-2",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-7"
+    "source:Version": "3.06-2"
   },
   {
     "Architecture": "amd64",
@@ -2050,7 +2050,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "47",
+    "Installed-Size": "40",
     "Origin": "",
     "Package": "libkeyutils1",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.6.3-1",
+    "Version": "1.6.3-2",
     "binary:Package": "libkeyutils1:amd64",
     "binary:Summary": "Linux Key Management Utilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "keyutils",
-    "source:Version": "1.6.3-1"
+    "source:Version": "1.6.3-2"
   },
   {
     "Architecture": "amd64",
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.2-2",
+    "Version": "2:4.0.2-3",
     "binary:Package": "libproc2-0:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.2-2"
+    "source:Version": "2:4.0.2-3"
   },
   {
     "Architecture": "amd64",
@@ -4038,7 +4038,7 @@
     "Depends": "libc6 (>= 2.34), libncursesw6 (>= 6), libproc2-0 (>= 2:4.0.2), libtinfo6 (>= 6), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2093",
+    "Installed-Size": "2091",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.2-2",
+    "Version": "2:4.0.2-3",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.2-2"
+    "source:Version": "2:4.0.2-3"
   },
   {
     "Architecture": "amd64",
@@ -4245,7 +4245,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-7",
+    "Version": "3.06-2",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4253,16 +4253,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-7"
+    "source:Version": "3.06-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "runit-init, systemd-sysv",
-    "Breaks": "manpages-es (<< 4.15.0-9~), manpages-fr (<< 4.15.0-9~), manpages-hu (<< 1:4.15.0-9~), manpages-pl (<< 1:4.15.0-9~)",
+    "Breaks": "manpages-de (<< 4.15.0-9~), manpages-es (<< 4.15.0-9~), manpages-fr (<< 4.15.0-9~), manpages-hu (<< 1:4.15.0-9~), manpages-pl (<< 1:4.15.0-9~)",
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "315",
+    "Installed-Size": "342",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.05-7",
+    "Version": "3.06-2",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-7"
+    "source:Version": "3.06-2"
   },
   {
     "Architecture": "amd64",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.05-7",
+    "Version": "3.06-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.05-7"
+    "source:Version": "3.06-2"
   },
   {
     "Architecture": "amd64",
