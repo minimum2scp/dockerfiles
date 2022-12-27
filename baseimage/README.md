@@ -64,7 +64,7 @@ ii   adduser                  3.130                              all    add and 
 ii   apt                      2.5.4                              amd64  commandline package manager
 ii   base-files               12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                              amd64  Debian base system master password and group files
-ii   bash                     5.2-2+b1                           amd64  GNU Bourne Again SHell
+ii   bash                     5.2-2+b2                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
@@ -82,7 +82,7 @@ ii   dpkg                     1.21.13                            amd64  Debian p
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base              12.2.0-10                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base              12.2.0-11                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.39.0-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.39.0-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                           amd64  GNU privacy guard - signature verification tool
@@ -122,7 +122,7 @@ ii   libext2fs2               1.46.6~rc1-1+b1                    amd64  ext2/ext
 ii   libfastjson4             0.99.9-2                           amd64  fast json library for C
 ii   libffi8                  3.4.4-1                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.12.0-2                           amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                12.2.0-10                          amd64  GCC support library
+ii   libgcc-s1                12.2.0-11                          amd64  GCC support library
 ii   libgcrypt20              1.10.1-3                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-3                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                             amd64  GNU dbm database routines (runtime version) 
@@ -147,7 +147,7 @@ ii   libnettle8               3.8.1-2                            amd64  low leve
 ii   libnewt0.52              0.52.23-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.51.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                            amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0              0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0              0.24.1-2                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin       1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-5                            all    Runtime support for the PAM library
@@ -171,7 +171,7 @@ ii   libsmartcols1            2.38.1-4                           amd64  smart co
 ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               12.2.0-10                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6               12.2.0-11                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
@@ -225,7 +225,7 @@ ii   vim-common               2:9.0.0813-1                       all    Vi IMpro
 ii   vim-tiny                 2:9.0.0813-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1                          amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
-ii   zsh                      5.9-2                              amd64  shell with lots of features
+ii   zsh                      5.9-2+b1                           amd64  shell with lots of features
 ii   zsh-common               5.9-2                              all    architecture independent files for Zsh
 ii   zstd                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
 ```
