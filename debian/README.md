@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     2.5.4                              amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
-ii   bash                    5.2-2+b1                           amd64  GNU Bourne Again SHell
+ii   bash                    5.2-2+b2                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
@@ -32,7 +32,7 @@ ii   diffutils               1:3.8-3                            amd64  File comp
 ii   dpkg                    1.21.13                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12.2.0-10                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12.2.0-11                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-3                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -55,7 +55,7 @@ ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley 
 ii   libdebconfclient0       0.265                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1                            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               12.2.0-10                          amd64  GCC support library
+ii   libgcc-s1               12.2.0-11                          amd64  GCC support library
 ii   libgcrypt20             1.10.1-3                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.8-4                            amd64  GNU TLS library - main runtime library
@@ -67,7 +67,7 @@ ii   liblzma5                5.4.0-0.1                          amd64  XZ-format
 ii   libmd0                  1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.38.1-4                           amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.24.1-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.24.1-2                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
@@ -80,7 +80,7 @@ ii   libsemanage2            3.4-1+b4                           amd64  SELinux p
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-4                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
-ii   libstdc++6              12.2.0-10                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6              12.2.0-11                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             252.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
