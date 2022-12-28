@@ -142,7 +142,7 @@ ii   liblz4-1                 1.9.4-1                            amd64  Fast LZ 
 ii   liblzma5                 5.4.0-0.1                          amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                            amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-4                           amd64  device mounting library
-ii   libncursesw6             6.3+20220423-2                     amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6             6.3+20221224-2                     amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1                          amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.51.0-1                           amd64  library implementing HTTP/2 protocol (shared library)
@@ -174,16 +174,16 @@ ii   libssl3                  3.0.7-1                            amd64  Secure S
 ii   libstdc++6               12.2.0-11                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                6.3+20221224-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                         all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                         amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                            amd64  universal charset detection library - shared library
 ii   libudev1                 252.4-1                            amd64  libudev shared library
 ii   libunistring2            1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-4                           amd64  Universally Unique ID library
-ii   libwrap0                 7.6.q-31                           amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                 7.6.q-32                           amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                 1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.2+dfsg2-2                      amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                           all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-7                             all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1                     amd64  system login tools
@@ -192,8 +192,8 @@ ii   lv                       4.51-9                             amd64  Powerful
 ii   man-db                   2.11.1-1                           amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-4                           amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.3+20220423-2                     all    basic terminal type definitions
-ii   ncurses-bin              6.3+20220423-2                     amd64  terminal-related programs and man pages
+ii   ncurses-base             6.3+20221224-2                     all    basic terminal type definitions
+ii   ncurses-bin              6.3+20221224-2                     amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                           amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.1p1-1                          amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.1p1-1                          amd64  secure shell (SSH) server, for secure access from remote machines
@@ -206,7 +206,7 @@ ii   perl-base                5.36.0-6                           amd64  minimal 
 ii   perl-modules-5.36        5.36.0-6                           all    Core Perl modules
 ii   procps                   2:4.0.2-3                          amd64  /proc file system utilities
 ii   rsyslog                  8.2212.0-1                         amd64  reliable system and kernel logging daemon
-ii   runit-helper             2.15.0                             all    dh-runit implementation detail
+ii   runit-helper             2.15.2                             all    dh-runit implementation detail
 ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                          amd64  run processes in parallel and multiplex their output
@@ -227,5 +227,5 @@ ii   whiptail                 0.52.23-1                          amd64  Displays
 ii   zlib1g                   1:1.2.13.dfsg-1                    amd64  compression library - runtime
 ii   zsh                      5.9-2+b1                           amd64  shell with lots of features
 ii   zsh-common               5.9-2                              all    architecture independent files for Zsh
-ii   zstd                     1.5.2+dfsg-1                       amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.5.2+dfsg2-2                      amd64  fast lossless compression algorithm -- CLI tool
 ```
