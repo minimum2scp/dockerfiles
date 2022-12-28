@@ -83,18 +83,18 @@ ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-l
 ii   libstdc++6              12.2.0-11                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             252.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.3+20220423-2                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.3+20221224-2                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                252.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-4                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                1.5.2+dfsg-1                       amd64  fast lossless compression algorithm
+ii   libzstd1                1.5.2+dfsg2-2                      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1                     amd64  system login tools
 ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-4                           amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.3+20220423-2                     all    basic terminal type definitions
-ii   ncurses-bin             6.3+20220423-2                     amd64  terminal-related programs and man pages
+ii   ncurses-base            6.3+20221224-2                     all    basic terminal type definitions
+ii   ncurses-bin             6.3+20221224-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
 ii   perl-base               5.36.0-6                           amd64  minimal Perl system
 ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text

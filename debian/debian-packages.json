@@ -1823,10 +1823,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.33)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "553",
+    "Installed-Size": "536",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3+20220423-2",
+    "Version": "6.3+20221224-2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3+20220423-2"
+    "source:Version": "6.3+20221224-2"
   },
   {
     "Architecture": "amd64",
@@ -1963,10 +1963,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "773",
+    "Installed-Size": "771",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2+dfsg-1",
+    "Version": "1.5.2+dfsg2-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.2+dfsg-1"
+    "source:Version": "1.5.2+dfsg2-2"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "399",
+    "Installed-Size": "378",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3+20220423-2",
+    "Version": "6.3+20221224-2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3+20220423-2"
+    "source:Version": "6.3+20221224-2"
   },
   {
     "Architecture": "amd64",
@@ -2134,10 +2134,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "655",
+    "Installed-Size": "635",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.33), libtinfo6 (>= 6.3)",
+    "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.3)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2145,7 +2145,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.3+20220423-2",
+    "Version": "6.3+20221224-2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.3+20220423-2"
+    "source:Version": "6.3+20221224-2"
   },
   {
     "Architecture": "amd64",
