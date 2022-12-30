@@ -36,7 +36,7 @@ ii   gcc-12-base             12.2.0-11                          amd64  GCC, the 
 ii   gpgv                    2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-3                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
-ii   hostname                3.23                               amd64  utility to set/show the host name or domain name
+ii   hostname                3.23+nmu1                          amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.65.2                             all    helper tools for all init systems
 ii   libacl1                 2.3.1-2                            amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.4                              amd64  package management runtime library
@@ -88,7 +88,7 @@ ii   libudev1                252.4-1                            amd64  libudev s
 ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-4                           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1                            amd64  shared library for xxhash
-ii   libzstd1                1.5.2+dfsg2-2                      amd64  fast lossless compression algorithm
+ii   libzstd1                1.5.2+dfsg2-3                      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1                     amd64  system login tools
 ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language

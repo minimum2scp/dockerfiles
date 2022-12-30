@@ -510,10 +510,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "50",
+    "Installed-Size": "46",
     "Origin": "",
     "Package": "hostname",
-    "Pre-Depends": "libc6 (>= 2.4)",
+    "Pre-Depends": "libc6 (>= 2.34)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.23",
+    "Version": "3.23+nmu1",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.23"
+    "source:Version": "3.23+nmu1"
   },
   {
     "Architecture": "all",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2+dfsg2-2",
+    "Version": "1.5.2+dfsg2-3",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.2+dfsg2-2"
+    "source:Version": "1.5.2+dfsg2-3"
   },
   {
     "Architecture": "amd64",
