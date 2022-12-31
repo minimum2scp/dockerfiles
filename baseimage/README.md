@@ -64,7 +64,7 @@ ii   adduser                  3.130                              all    add and 
 ii   apt                      2.5.4                              amd64  commandline package manager
 ii   base-files               12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                              amd64  Debian base system master password and group files
-ii   bash                     5.2-2+b2                           amd64  GNU Bourne Again SHell
+ii   bash                     5.2+dfsg-0.1                       amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
