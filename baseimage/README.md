@@ -64,7 +64,7 @@ ii   adduser                  3.130                              all    add and 
 ii   apt                      2.5.4                              amd64  commandline package manager
 ii   base-files               12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                              amd64  Debian base system master password and group files
-ii   bash                     5.2+dfsg-0.1                       amd64  GNU Bourne Again SHell
+ii   bash                     5.2.15-1                           amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-4                           amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                 1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                    1.0.8-5+b1                         amd64  high-quality block-sorting file compressor - utilities
@@ -82,7 +82,7 @@ ii   dpkg                     1.21.13                            amd64  Debian p
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base              12.2.0-11                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base              12.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.39.0-1                         amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.39.0-1                         all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                           amd64  GNU privacy guard - signature verification tool
@@ -113,7 +113,7 @@ ii   libcrypt1                1:4.4.33-1                         amd64  libcrypt
 ii   libcurl3-gnutls          7.87.0-1                           amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.87.0-1                           amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0        0.265                              amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0        0.266                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                     amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                          all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                           amd64  Helper functions for handling strings (lib)
@@ -122,7 +122,7 @@ ii   libext2fs2               1.46.6~rc1-1+b1                    amd64  ext2/ext
 ii   libfastjson4             0.99.9-2                           amd64  fast json library for C
 ii   libffi8                  3.4.4-1                            amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.12.0-2                           amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                12.2.0-11                          amd64  GCC support library
+ii   libgcc-s1                12.2.0-12                          amd64  GCC support library
 ii   libgcrypt20              1.10.1-3                           amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-3                             amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                             amd64  GNU dbm database routines (runtime version) 
@@ -171,7 +171,7 @@ ii   libsmartcols1            2.38.1-4                           amd64  smart co
 ii   libss2                   1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-1                            amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               12.2.0-11                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6               12.2.0-12                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.4-1                            amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.3+20221224-2                     amd64  shared low-level terminfo library for terminal handling
@@ -207,7 +207,7 @@ ii   perl-modules-5.36        5.36.0-6                           all    Core Per
 ii   procps                   2:4.0.2-3                          amd64  /proc file system utilities
 ii   rsyslog                  8.2212.0-1                         amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                             all    dh-runit implementation detail
-ii   sed                      4.8-1                              amd64  GNU stream editor for filtering/transforming text
+ii   sed                      4.8-1.1                            amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17                             all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.11p3-2                         amd64  Provide limited super user privileges to specific users
