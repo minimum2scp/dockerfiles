@@ -90,7 +90,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7161",
+    "Installed-Size": "7163",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.36), libtinfo6 (>= 6)",
@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2+dfsg-0.1",
+    "Version": "5.2.15-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.2+dfsg-0.1"
+    "source:Version": "5.2.15-1"
   },
   {
     "Architecture": "amd64",
@@ -409,7 +409,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-11",
+    "Version": "12.2.0-12",
     "binary:Package": "gcc-12-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-11"
+    "source:Version": "12.2.0-12"
   },
   {
     "Architecture": "amd64",
@@ -958,7 +958,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "32",
+    "Installed-Size": "36",
     "Origin": "",
     "Package": "libdebconfclient0",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.265",
+    "Version": "0.266",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.265"
+    "source:Version": "0.266"
   },
   {
     "Architecture": "amd64",
@@ -1039,7 +1039,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-12-base (= 12.2.0-11), libc6 (>= 2.35)",
+    "Depends": "gcc-12-base (= 12.2.0-12), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "140",
@@ -1047,13 +1047,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:12.2.0-11)",
+    "Provides": "libgcc1 (= 1:12.2.0-12)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-11",
+    "Version": "12.2.0-12",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-11"
+    "source:Version": "12.2.0-12"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-12-base (= 12.2.0-11), libc6 (>= 2.36), libgcc-s1 (>= 4.2)",
+    "Depends": "gcc-12-base (= 12.2.0-12), libc6 (>= 2.36), libgcc-s1 (>= 4.2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2686",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.2.0-11",
+    "Version": "12.2.0-12",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-12",
-    "source:Version": "12.2.0-11"
+    "source:Version": "12.2.0-12"
   },
   {
     "Architecture": "amd64",
@@ -2218,10 +2218,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "912",
+    "Installed-Size": "914",
     "Origin": "",
     "Package": "sed",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libc6 (>= 2.14), libselinux1 (>= 3.1~)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -2229,7 +2229,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.8-1",
+    "Version": "4.8-1.1",
     "binary:Package": "sed",
     "binary:Summary": "GNU stream editor for filtering/transforming text",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sed",
-    "source:Version": "4.8-1"
+    "source:Version": "4.8-1.1"
   },
   {
     "Architecture": "amd64",

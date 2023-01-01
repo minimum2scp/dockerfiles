@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     2.5.4                              amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
-ii   bash                    5.2+dfsg-0.1                       amd64  GNU Bourne Again SHell
+ii   bash                    5.2.15-1                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
@@ -32,7 +32,7 @@ ii   diffutils               1:3.8-3                            amd64  File comp
 ii   dpkg                    1.21.13                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
-ii   gcc-12-base             12.2.0-11                          amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-12-base             12.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1                           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-3                              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1                             amd64  GNU compression utilities
@@ -52,10 +52,10 @@ ii   libcap2                 1:2.66-3                           amd64  POSIX 100
 ii   libcom-err2             1.46.6~rc1-1+b1                    amd64  common error description library
 ii   libcrypt1               1:4.4.33-1                         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg1-0.10                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.265                              amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.266                              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1                            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               12.2.0-11                          amd64  GCC support library
+ii   libgcc-s1               12.2.0-12                          amd64  GCC support library
 ii   libgcrypt20             1.10.1-3                           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1                  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.8-4                            amd64  GNU TLS library - main runtime library
@@ -80,7 +80,7 @@ ii   libsemanage2            3.4-1+b4                           amd64  SELinux p
 ii   libsepol2               3.4-2                              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-4                           amd64  smart column output alignment library
 ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-line interface parsing library
-ii   libstdc++6              12.2.0-11                          amd64  GNU Standard C++ Library v3
+ii   libstdc++6              12.2.0-12                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             252.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.3+20221224-2                     amd64  shared low-level terminfo library for terminal handling
@@ -97,7 +97,7 @@ ii   ncurses-base            6.3+20221224-2                     all    basic ter
 ii   ncurses-bin             6.3+20221224-2                     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
 ii   perl-base               5.36.0-6                           amd64  minimal Perl system
-ii   sed                     4.8-1                              amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.8-1.1                            amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.06-2                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
 ii   tzdata                  2022f-1                            all    time zone and daylight-saving time data
