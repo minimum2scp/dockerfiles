@@ -25,11 +25,11 @@ ii   bash                    5.2.15-1                           amd64  GNU Bourn
 ii   bsdutils                1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
-ii   debconf                 1.5.80                             all    Debian configuration management system
+ii   debconf                 1.5.81                             all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-3                            amd64  File comparison utilities
-ii   dpkg                    1.21.13                            amd64  Debian package management system
+ii   dpkg                    1.21.14                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -72,7 +72,7 @@ ii   libpam-modules          1.5.2-5                            amd64  Pluggable
 ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.40-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.42-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+b2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b4                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.4-1                              all    Common files for SELinux policy management libraries
