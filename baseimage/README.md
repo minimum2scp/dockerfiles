@@ -74,11 +74,11 @@ ii   cron                     3.0pl1-154                         amd64  process 
 ii   cron-daemon-common       3.0pl1-154                         all    process scheduling daemon's configuration files
 ii   curl                     7.87.0-1                           amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
-ii   debconf                  1.5.80                             all    Debian configuration management system
+ii   debconf                  1.5.81                             all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-3                            amd64  File comparison utilities
-ii   dpkg                     1.21.13                            amd64  Debian package management system
+ii   dpkg                     1.21.14                            amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-3                            amd64  utilities for finding files--find, xargs
@@ -152,7 +152,7 @@ ii   libpam-modules           1.5.2-5                            amd64  Pluggabl
 ii   libpam-modules-bin       1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-5                            all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-5                            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.40-3                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.42-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-6                           amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                            amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                        amd64  lib for parsing cmdline parameters
