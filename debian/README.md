@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     2.5.4                              amd64  commandline package manager
 ii   base-files              12.3                               amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1                              amd64  Debian base system master password and group files
-ii   bash                    5.2.15-1                           amd64  GNU Bourne Again SHell
+ii   bash                    5.2.15-2                           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-4                         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1                              amd64  GNU core utilities
 ii   dash                    0.5.11+git20210903+057cd650a4ed-9  amd64  POSIX-compliant shell
@@ -29,7 +29,7 @@ ii   debconf                 1.5.81                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-3                            amd64  File comparison utilities
-ii   dpkg                    1.21.14                            amd64  Debian package management system
+ii   dpkg                    1.21.15                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-12                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -83,7 +83,7 @@ ii   libss2                  1.46.6~rc1-1+b1                    amd64  command-l
 ii   libstdc++6              12.2.0-12                          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             252.4-1                            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2                           amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.3+20221224-2                     amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.4-1                              amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                252.4-1                            amd64  libudev shared library
 ii   libunistring2           1.0-2                              amd64  Unicode string library for C
 ii   libuuid1                2.38.1-4                           amd64  Universally Unique ID library
@@ -93,14 +93,14 @@ ii   login                   1:4.13+dfsg1-1                     amd64  system lo
 ii   logsave                 1.46.6~rc1-1+b1                    amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1                 amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-4                           amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.3+20221224-2                     all    basic terminal type definitions
-ii   ncurses-bin             6.3+20221224-2                     amd64  terminal-related programs and man pages
+ii   ncurses-base            6.4-1                              all    basic terminal type definitions
+ii   ncurses-bin             6.4-1                              amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-1                     amd64  change and administer password and group data
 ii   perl-base               5.36.0-6                           amd64  minimal Perl system
 ii   sed                     4.8-1.1                            amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.06-2                             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.1                      amd64  GNU version of the tar archiving utility
-ii   tzdata                  2022f-1                            all    time zone and daylight-saving time data
+ii   tzdata                  2022g-1                            all    time zone and daylight-saving time data
 ii   usr-is-merged           35                                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-4                           amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-4                           amd64  interactive login tools
