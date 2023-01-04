@@ -10,7 +10,6 @@ I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 2.5.4
 I: Validating base-files 12.3
 I: Validating base-passwd 3.6.1
-I: Retrieving bash 5.2.15-2
 I: Validating bash 5.2.15-2
 I: Validating bsdutils 1:2.38.1-4
 I: Validating coreutils 9.1-1
@@ -19,11 +18,11 @@ I: Validating debconf 1.5.81
 I: Validating debian-archive-keyring 2021.1.1
 I: Validating debianutils 5.7-0.4
 I: Validating diffutils 1:3.8-3
-I: Retrieving dpkg 1.21.15
 I: Validating dpkg 1.21.15
 I: Validating e2fsprogs 1.46.6~rc1-1+b1
 I: Validating findutils 4.9.0-3
-I: Validating gcc-12-base 12.2.0-12
+I: Retrieving gcc-12-base 12.2.0-13
+I: Validating gcc-12-base 12.2.0-13
 I: Validating gpgv 2.2.40-1
 I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
@@ -46,7 +45,8 @@ I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdebconfclient0 0.266
 I: Validating libext2fs2 1.46.6~rc1-1+b1
 I: Validating libffi8 3.4.4-1
-I: Validating libgcc-s1 12.2.0-12
+I: Retrieving libgcc-s1 12.2.0-13
+I: Validating libgcc-s1 12.2.0-13
 I: Validating libgcrypt20 1.10.1-3
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
 I: Validating libgnutls30 3.7.8-4
@@ -71,10 +71,10 @@ I: Validating libsemanage2 3.4-1+b4
 I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-4
 I: Validating libss2 1.46.6~rc1-1+b1
-I: Validating libstdc++6 12.2.0-12
+I: Retrieving libstdc++6 12.2.0-13
+I: Validating libstdc++6 12.2.0-13
 I: Validating libsystemd0 252.4-1
 I: Validating libtasn1-6 4.19.0-2
-I: Retrieving libtinfo6 6.4-1
 I: Validating libtinfo6 6.4-1
 I: Validating libudev1 252.4-1
 I: Validating libunistring2 1.0-2
@@ -85,16 +85,13 @@ I: Validating login 1:4.13+dfsg1-1
 I: Validating logsave 1.46.6~rc1-1+b1
 I: Validating mawk 1.3.4.20200120-3.1
 I: Validating mount 2.38.1-4
-I: Retrieving ncurses-base 6.4-1
 I: Validating ncurses-base 6.4-1
-I: Retrieving ncurses-bin 6.4-1
 I: Validating ncurses-bin 6.4-1
 I: Validating passwd 1:4.13+dfsg1-1
 I: Validating perl-base 5.36.0-6
 I: Validating sed 4.8-1.1
 I: Validating sysvinit-utils 3.06-2
 I: Validating tar 1.34+dfsg-1.1
-I: Retrieving tzdata 2022g-1
 I: Validating tzdata 2022g-1
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.38.1-4
@@ -376,14 +373,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  30.63MB
+Sending build context to Docker daemon  30.64MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> 8e4f88264d5f
+ ---> fc481a6a8608
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 522592a9c69c
-Removing intermediate container 522592a9c69c
- ---> a9495e851c18
-Successfully built a9495e851c18
+ ---> Running in 3ae1ef17e566
+Removing intermediate container 3ae1ef17e566
+ ---> 8449beebd5a7
+Successfully built 8449beebd5a7
 Successfully tagged minimum2scp/debian:latest
