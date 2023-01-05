@@ -29,7 +29,7 @@ ii   debconf                 1.5.81                             all    Debian co
 ii   debian-archive-keyring  2021.1.1                           all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-3                            amd64  File comparison utilities
-ii   dpkg                    1.21.15                            amd64  Debian package management system
+ii   dpkg                    1.21.16                            amd64  Debian package management system
 ii   e2fsprogs               1.46.6~rc1-1+b1                    amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-3                            amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-13                          amd64  GCC, the GNU Compiler Collection (base package)
@@ -68,10 +68,10 @@ ii   libmd0                  1.0.4-2                            amd64  message d
 ii   libmount1               2.38.1-4                           amd64  device mounting library
 ii   libnettle8              3.8.1-2                            amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.24.1-2                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.5.2-5                            amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.5.2-5                            amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.5.2-5                            all    Runtime support for the PAM library
-ii   libpam0g                1.5.2-5                            amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.5.2-6                            amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.5.2-6                            amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.5.2-6                            all    Runtime support for the PAM library
+ii   libpam0g                1.5.2-6                            amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-1                            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+b2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.4-1+b4                           amd64  SELinux runtime shared libraries
