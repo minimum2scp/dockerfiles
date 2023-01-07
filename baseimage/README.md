@@ -109,7 +109,7 @@ ii   libcap-ng0               0.8.3-1+b2                      amd64  alternate P
 ii   libcap2                  1:2.66-3                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.46.6~rc1-1+b1                 amd64  common error description library
-ii   libcrypt1                1:4.4.33-1                      amd64  libcrypt shared library
+ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.87.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.87.0-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg1-0.10               amd64  Berkeley v5.3 Database Libraries [runtime]
