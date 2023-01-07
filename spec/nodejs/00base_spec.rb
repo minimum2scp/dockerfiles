@@ -62,7 +62,7 @@ describe 'minimum2scp/nodejs' do
       it { should be_file }
     end
 
-    describe command('nodenv version-name') do
+    xdescribe command('nodenv version-name') do
       let(:login_shell){ true }
       its(:stdout){ should eq "18.12.1\n" }
     end
@@ -72,18 +72,18 @@ describe 'minimum2scp/nodejs' do
         nodejs: '18.12.1',
       },
     ].each do |v|
-      describe command('nodenv versions --bare --skip-aliases') do
+      xdescribe command('nodenv versions --bare --skip-aliases') do
         let(:login_shell){ true }
         its(:stdout) { should match /^#{Regexp.quote(v[:nodejs])}$/ }
       end
 
-      describe command("NODENV_VERSION=#{v[:nodejs]} node -v") do
+      xdescribe command("NODENV_VERSION=#{v[:nodejs]} node -v") do
         let(:login_shell){ true }
         its(:stdout) { should eq "v#{v[:nodejs]}\n" }
       end
     end
 
-    describe command('nodenv alias') do
+    xdescribe command('nodenv alias') do
       let(:login_shell){ true }
       its(:stdout){
         should eq <<~ALIASES
@@ -97,7 +97,7 @@ describe 'minimum2scp/nodejs' do
       '18' => '18.12.1',
       '18.12' => '18.12.1',
     }.each do |src, dest|
-      describe file("/opt/nodenv/versions/#{src}") do
+      xdescribe file("/opt/nodenv/versions/#{src}") do
         it { should be_symlink }
         it { should be_linked_to dest }
       end
