@@ -320,24 +320,35 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe file('/etc/apt/sources.list.d/nginx.list') do
-      it { should be_file }
+      it {
+        pending 'Switched nginx package to debian.org ones'
+        should be_file
+      }
     end
 
     describe file('/usr/share/keyrings/nginx.gpg') do
-      it { should be_file }
+      it {
+        pending 'Switched nginx package to debian.org ones'
+        should be_file
+      }
     end
 
     describe file('/etc/apt/preferences.d/nginx') do
-      it { should be_file }
+      it {
+        pending 'Switched nginx package to debian.org ones'
+        should be_file
+      }
     end
 
     describe command('apt-cache policy') do
       its(:stdout) {
+        pending 'Switched nginx package to debian.org ones'
         should include " 600 http://nginx.org/packages/mainline/debian bullseye/nginx amd64 Packages\n" +
                        "     release v=11.0,o=nginx,a=stable,n=bullseye,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
       }
       its(:stdout) {
+        pending 'Switched nginx package to debian.org ones'
         should include " 600 http://nginx.org/packages/debian bullseye/nginx amd64 Packages\n" +
                        "     release v=11.0,o=nginx,a=stable,n=bullseye,l=nginx,c=nginx,b=amd64\n" +
                        "     origin nginx.org\n"
@@ -345,7 +356,11 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe package('nginx') do
-      it { should be_installed.with_version('1.22.1-1~bullseye') }
+      it {
+        pending 'Switched nginx package to debian.org ones'
+        should be_installed.with_version('1.22.1-1~bullseye')
+      }
+      it { should be_installed.with_version('1.22.1-5') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do

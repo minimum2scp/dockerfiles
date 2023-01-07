@@ -44,6 +44,7 @@ etckeeper commit "supervisor: add tdiary"
 ## configure nginx
 ##
 install -m 644 -o root -g root -p /tmp/build/tdiary/etc/nginx/conf.d/tdiary.conf /etc/nginx/conf.d/tdiary.conf
-rm /etc/nginx/conf.d/default.conf
+#rm /etc/nginx/conf.d/default.conf
+rm /etc/nginx/sites-enabled/default
 etckeeper commit "nginx: configured for tdiary"
 
