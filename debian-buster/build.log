@@ -374,21 +374,21 @@ I: Configuring iproute2...
 I: Configuring libc-bin...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Get:1 http://security.debian.org buster/updates InRelease [34.8 kB]
-Hit:2 http://deb.debian.org/debian buster InRelease
-Get:3 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+Hit:1 http://deb.debian.org/debian buster InRelease
+Get:2 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
 Get:4 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [485 kB]
-Fetched 586 kB in 1s (429 kB/s)
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [536 kB]
+Fetched 637 kB in 1s (1014 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  libbz2-1.0 libc-bin libc6 libgnutls30 libncursesw6 libtinfo6 ncurses-base
-  ncurses-bin tzdata zlib1g
-10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 6313 kB of archives.
+  libbz2-1.0 libc-bin libc6 libgnutls30 libncursesw6 libtasn1-6 libtinfo6
+  ncurses-base ncurses-bin tzdata zlib1g
+11 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 6365 kB of archives.
 After this operation, 1024 B disk space will be freed.
 Get:1 http://security.debian.org buster/updates/main amd64 ncurses-bin amd64 6.1+20181013-2+deb10u3 [407 kB]
 Get:2 http://security.debian.org buster/updates/main amd64 libc6 amd64 2.28-10+deb10u2 [2869 kB]
@@ -396,11 +396,12 @@ Get:3 http://security.debian.org buster/updates/main amd64 libc-bin amd64 2.28-1
 Get:4 http://security.debian.org buster/updates/main amd64 ncurses-base all 6.1+20181013-2+deb10u3 [259 kB]
 Get:5 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u2 [90.9 kB]
 Get:6 http://security.debian.org buster/updates/main amd64 libbz2-1.0 amd64 1.0.6-9.2~deb10u2 [45.4 kB]
-Get:7 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
-Get:8 http://security.debian.org buster/updates/main amd64 libtinfo6 amd64 6.1+20181013-2+deb10u3 [326 kB]
-Get:9 http://security.debian.org buster/updates/main amd64 libncursesw6 amd64 6.1+20181013-2+deb10u3 [132 kB]
-Get:10 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u8 [266 kB]
-Fetched 6313 kB in 1s (6880 kB/s)
+Get:7 http://security.debian.org buster/updates/main amd64 libtasn1-6 amd64 4.13-3+deb10u1 [52.0 kB]
+Get:8 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u9 [1126 kB]
+Get:9 http://security.debian.org buster/updates/main amd64 libtinfo6 amd64 6.1+20181013-2+deb10u3 [326 kB]
+Get:10 http://security.debian.org buster/updates/main amd64 libncursesw6 amd64 6.1+20181013-2+deb10u3 [132 kB]
+Get:11 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u8 [266 kB]
+Fetched 6365 kB in 0s (14.6 MB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../ncurses-bin_6.1+20181013-2+deb10u3_amd64.deb ...
 Unpacking ncurses-bin (6.1+20181013-2+deb10u3) over (6.1+20181013-2+deb10u2) ...
@@ -426,6 +427,10 @@ Preparing to unpack .../libbz2-1.0_1.0.6-9.2~deb10u2_amd64.deb ...
 Unpacking libbz2-1.0:amd64 (1.0.6-9.2~deb10u2) over (1.0.6-9.2~deb10u1) ...
 Setting up libbz2-1.0:amd64 (1.0.6-9.2~deb10u2) ...
 (Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../libtasn1-6_4.13-3+deb10u1_amd64.deb ...
+Unpacking libtasn1-6:amd64 (4.13-3+deb10u1) over (4.13-3) ...
+Setting up libtasn1-6:amd64 (4.13-3+deb10u1) ...
+(Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libgnutls30_3.6.7-4+deb10u9_amd64.deb ...
 Unpacking libgnutls30:amd64 (3.6.7-4+deb10u9) over (3.6.7-4+deb10u8) ...
 Setting up libgnutls30:amd64 (3.6.7-4+deb10u9) ...
@@ -442,14 +447,14 @@ Preparing to unpack .../tzdata_2021a-0+deb10u8_all.deb ...
 Unpacking tzdata (2021a-0+deb10u8) over (2021a-0+deb10u6) ...
 Setting up tzdata (2021a-0+deb10u8) ...
 Processing triggers for libc-bin (2.28-10+deb10u2) ...
-Sending build context to Docker daemon  30.24MB
+Sending build context to Docker daemon  30.25MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> bddb4d94f3e7
+ ---> 94136a90c1b5
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 441a4bfebe15
-Removing intermediate container 441a4bfebe15
- ---> 389751a43627
-Successfully built 389751a43627
+ ---> Running in 5cf32630bd5b
+Removing intermediate container 5cf32630bd5b
+ ---> adeab8e98478
+Successfully built adeab8e98478
 Successfully tagged minimum2scp/debian-buster:latest

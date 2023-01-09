@@ -1998,14 +1998,14 @@
     "Origin": "",
     "Package": "libtasn1-6",
     "Pre-Depends": "",
-    "Priority": "optional",
+    "Priority": "standard",
     "Provides": "",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.13-3",
+    "Version": "4.13-3+deb10u1",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.13-3"
+    "source:Version": "4.13-3+deb10u1"
   },
   {
     "Architecture": "amd64",
