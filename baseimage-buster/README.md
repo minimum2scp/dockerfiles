@@ -182,7 +182,7 @@ ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-sid
 ii   libssl1.1               1.1.1n-0+deb10u3             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7~deb10u8                amd64  systemd utility library
-ii   libtasn1-6              4.13-3                       amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.13-3+deb10u1               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.1+20181013-2+deb10u3       amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                241-7~deb10u8                amd64  libudev shared library
