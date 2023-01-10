@@ -14,14 +14,17 @@ I: Validating bash 5.2.15-2
 I: Validating bsdutils 1:2.38.1-4
 I: Validating coreutils 9.1-1
 I: Validating dash 0.5.12-2
-I: Validating debconf 1.5.81
+I: Retrieving debconf 1.5.82
+I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2021.1.1
 I: Validating debianutils 5.7-0.4
 I: Validating diffutils 1:3.8-3
 I: Validating dpkg 1.21.17
 I: Validating e2fsprogs 1.46.6~rc1-1+b1
-I: Validating findutils 4.9.0-3
-I: Validating gcc-12-base 12.2.0-13
+I: Retrieving findutils 4.9.0-4
+I: Validating findutils 4.9.0-4
+I: Retrieving gcc-12-base 12.2.0-14
+I: Validating gcc-12-base 12.2.0-14
 I: Validating gpgv 2.2.40-1
 I: Validating grep 3.8-3
 I: Validating gzip 1.12-1
@@ -34,9 +37,7 @@ I: Validating libaudit-common 1:3.0.7-1.1
 I: Validating libaudit1 1:3.0.7-1.1+b2
 I: Validating libblkid1 2.38.1-4
 I: Validating libbz2-1.0 1.0.8-5+b1
-I: Retrieving libc-bin 2.36-8
 I: Validating libc-bin 2.36-8
-I: Retrieving libc6 2.36-8
 I: Validating libc6 2.36-8
 I: Validating libcap-ng0 0.8.3-1+b2
 I: Validating libcap2 1:2.66-3
@@ -46,7 +47,8 @@ I: Validating libdb5.3 5.3.28+dfsg1-0.10
 I: Validating libdebconfclient0 0.266
 I: Validating libext2fs2 1.46.6~rc1-1+b1
 I: Validating libffi8 3.4.4-1
-I: Validating libgcc-s1 12.2.0-13
+I: Retrieving libgcc-s1 12.2.0-14
+I: Validating libgcc-s1 12.2.0-14
 I: Validating libgcrypt20 1.10.1-3
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
 I: Validating libgnutls30 3.7.8-4
@@ -71,7 +73,8 @@ I: Validating libsemanage2 3.4-1+b4
 I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-4
 I: Validating libss2 1.46.6~rc1-1+b1
-I: Validating libstdc++6 12.2.0-13
+I: Retrieving libstdc++6 12.2.0-14
+I: Validating libstdc++6 12.2.0-14
 I: Validating libsystemd0 252.4-1
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.4-1
@@ -87,7 +90,8 @@ I: Validating mount 2.38.1-4
 I: Validating ncurses-base 6.4-1
 I: Validating ncurses-bin 6.4-1
 I: Validating passwd 1:4.13+dfsg1-1
-I: Validating perl-base 5.36.0-6
+I: Retrieving perl-base 5.36.0-7
+I: Validating perl-base 5.36.0-7
 I: Validating sed 4.9-1
 I: Validating sysvinit-utils 3.06-2
 I: Validating tar 1.34+dfsg-1.1
@@ -372,14 +376,14 @@ Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Sending build context to Docker daemon  29.68MB
+Sending build context to Docker daemon  29.62MB
 Step 1/3 : FROM scratch
  ---> 
 Step 2/3 : ADD rootfs.tar.xz /
- ---> b49e3855078c
+ ---> bc44ea88fdb2
 Step 3/3 : CMD ["/bin/bash"]
- ---> Running in 49354fba538a
-Removing intermediate container 49354fba538a
- ---> de7799722fcd
-Successfully built de7799722fcd
+ ---> Running in 5adf1b4bdddf
+Removing intermediate container 5adf1b4bdddf
+ ---> 25644a2d6454
+Successfully built 25644a2d6454
 Successfully tagged minimum2scp/debian:latest
