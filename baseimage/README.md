@@ -78,7 +78,7 @@ ii   debconf                  1.5.82                          all    Debian conf
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-3                         amd64  File comparison utilities
-ii   dpkg                     1.21.17                         amd64  Debian package management system
+ii   dpkg                     1.21.18                         amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1+b1                 amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                     all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
@@ -215,14 +215,14 @@ ii   sysv-rc                  3.06-2                          all    System-V-li
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                   2022g-1                         all    time zone and daylight-saving time data
+ii   tzdata                   2022g-2                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-27                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38.1-4                        amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-4                        amd64  interactive login tools
-ii   vim-common               2:9.0.1000-3                    all    Vi IMproved - Common files
-ii   vim-tiny                 2:9.0.1000-3                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common               2:9.0.1000-4                    all    Vi IMproved - Common files
+ii   vim-tiny                 2:9.0.1000-4                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
 ii   zsh                      5.9-2+b1                        amd64  shell with lots of features
