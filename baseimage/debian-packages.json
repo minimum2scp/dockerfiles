@@ -538,10 +538,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1470",
+    "Installed-Size": "1480",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.6~rc1-1+b1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.46.6~rc1-1.1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.46.6~rc1-1+b1",
+    "Version": "1.46.6~rc1-1.1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.6~rc1-1"
+    "source:Version": "1.46.6~rc1-1.1"
   },
   {
     "Architecture": "all",
@@ -1350,18 +1350,18 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "41",
+    "Installed-Size": "45",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.46.6~rc1-1+b1)",
+    "Provides": "libcomerr2 (= 1.46.6~rc1-1.1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.6~rc1-1+b1",
+    "Version": "1.46.6~rc1-1.1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.6~rc1-1"
+    "source:Version": "1.46.6~rc1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -1630,18 +1630,18 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "518",
+    "Installed-Size": "528",
     "Origin": "",
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.46.6~rc1-1+b1)",
+    "Provides": "e2fslibs (= 1.46.6~rc1-1.1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.6~rc1-1+b1",
+    "Version": "1.46.6~rc1-1.1",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.6~rc1-1"
+    "source:Version": "1.46.6~rc1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.34), libgnutls30 (>= 3.7.5), libsasl2-2 (>= 2.1.28+dfsg)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "554",
+    "Installed-Size": "553",
     "Origin": "",
     "Package": "libldap-2.5-0",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.13+dfsg-2+b1",
+    "Version": "2.5.13+dfsg-3",
     "binary:Package": "libldap-2.5-0:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.5.13+dfsg-2"
+    "source:Version": "2.5.13+dfsg-3"
   },
   {
     "Architecture": "amd64",
@@ -3030,7 +3030,7 @@
     "Depends": "libcom-err2, libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "57",
+    "Installed-Size": "56",
     "Origin": "",
     "Package": "libss2",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.6~rc1-1+b1",
+    "Version": "1.46.6~rc1-1.1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.6~rc1-1"
+    "source:Version": "1.46.6~rc1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "38",
+    "Installed-Size": "48",
     "Origin": "",
     "Package": "logsave",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.46.6~rc1-1+b1",
+    "Version": "1.46.6~rc1-1.1",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.46.6~rc1-1"
+    "source:Version": "1.46.6~rc1-1.1"
   },
   {
     "Architecture": "amd64",
