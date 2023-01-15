@@ -208,7 +208,7 @@ ii   procps                   2:4.0.2-3                       amd64  /proc file 
 ii   rsyslog                  8.2212.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                          all    dh-runit implementation detail
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils           0.0.17                          all    Utilities for sensible alternative selection
+ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.11p3-2                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-2                          all    System-V-like runlevel change mechanism
