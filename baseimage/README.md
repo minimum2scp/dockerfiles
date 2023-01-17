@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.11p3-2                      amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.12p1-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-2                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
