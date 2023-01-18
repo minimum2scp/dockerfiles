@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.130                           all    add and remove users and groups
-ii   apt                      2.5.4                           amd64  commandline package manager
+ii   apt                      2.5.5                           amd64  commandline package manager
 ii   base-files               12.3                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2                        amd64  GNU Bourne Again SHell
@@ -93,9 +93,9 @@ ii   hostname                 3.23+nmu1                       amd64  utility to 
 ii   init-system-helpers      1.65.2                          all    helper tools for all init systems
 ii   initscripts              3.06-2                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   libacl1                  2.3.1-2                         amd64  access control list - shared library
-ii   libapt-pkg6.0            2.5.4                           amd64  package management runtime library
-ii   libattr1                 1:2.5.1-3                       amd64  extended attribute handling - shared library
+ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
+ii   libapt-pkg6.0            2.5.5                           amd64  package management runtime library
+ii   libattr1                 1:2.5.1-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.7-1.1                     all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1.1+b2                  amd64  Dynamic library for security auditing
 ii   libblkid1                2.38.1-4                        amd64  block device ID library
