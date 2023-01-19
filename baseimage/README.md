@@ -112,7 +112,7 @@ ii   libcom-err2              1.46.6~rc1-1.1                  amd64  common erro
 ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.87.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.87.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                 5.3.28+dfsg1-0.10               amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.266                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.12p1-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.12p2-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-2                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
