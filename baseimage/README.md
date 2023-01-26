@@ -78,13 +78,13 @@ ii   debconf                  1.5.82                          all    Debian conf
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-3                         amd64  File comparison utilities
-ii   dpkg                     1.21.18                         amd64  Debian package management system
+ii   dpkg                     1.21.19                         amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1.1                  amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.18-1.1                     all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.39.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.39.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.39.1-0.1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.39.1-0.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-3                           amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-9                        amd64  GNU troff text-formatting system (base system components)
@@ -142,7 +142,7 @@ ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ com
 ii   liblzma5                 5.4.1-0.0                       amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-4                        amd64  device mounting library
-ii   libncursesw6             6.4-1                           amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6             6.4-2                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.51.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -174,7 +174,7 @@ ii   libssl3                  3.0.7-2                         amd64  Secure Sock
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.4-2                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                6.4-1                           amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                6.4-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
@@ -192,8 +192,8 @@ ii   lv                       4.51-9                          amd64  Powerful Mu
 ii   man-db                   2.11.2-1                        amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3.1              amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-4                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.4-1                           all    basic terminal type definitions
-ii   ncurses-bin              6.4-1                           amd64  terminal-related programs and man pages
+ii   ncurses-base             6.4-2                           all    basic terminal type definitions
+ii   ncurses-bin              6.4-2                           amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.1p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.1p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
