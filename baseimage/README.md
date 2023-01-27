@@ -80,13 +80,13 @@ ii   debianutils              5.7-0.4                         amd64  Miscellaneo
 ii   diffutils                1:3.8-3                         amd64  File comparison utilities
 ii   dpkg                     1.21.19                         amd64  Debian package management system
 ii   e2fsprogs                1.46.6~rc1-1.1                  amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper                1.18.18-1.1                     all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.39.1-0.1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.39.1-0.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                        amd64  GNU privacy guard - signature verification tool
-ii   grep                     3.8-3                           amd64  GNU grep, egrep and fgrep
+ii   grep                     3.8-5                           amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                          amd64  GNU compression utilities
 ii   hostname                 3.23+nmu1                       amd64  utility to set/show the host name or domain name

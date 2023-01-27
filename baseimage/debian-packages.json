@@ -566,7 +566,7 @@
     "Depends": "git | mercurial | brz | darcs, debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "163",
+    "Installed-Size": "164",
     "Origin": "",
     "Package": "etckeeper",
     "Pre-Depends": "",
@@ -577,7 +577,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.18-1.1",
+    "Version": "1.18.20-1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.18-1.1"
+    "source:Version": "1.18.20-1"
   },
   {
     "Architecture": "amd64",
@@ -745,7 +745,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8-3",
+    "Version": "3.8-5",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "3.8-3"
+    "source:Version": "3.8-5"
   },
   {
     "Architecture": "amd64",
