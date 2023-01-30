@@ -100,7 +100,7 @@ ii   libaudit-common          1:3.0.7-1.1                     all    Dynamic lib
 ii   libaudit1                1:3.0.7-1.1+b2                  amd64  Dynamic library for security auditing
 ii   libblkid1                2.38.1-4                        amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b5                      amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                  0.11.7-1                        amd64  utility functions from BSD systems - shared library
+ii   libbsd0                  0.11.7-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.36-8                          amd64  GNU C Library: Binaries
 ii   libc-l10n                2.36-8                          all    GNU C Library: localization files
@@ -172,13 +172,13 @@ ii   libss2                   1.46.6~rc1-1.1                  amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.7-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.4-2                         amd64  systemd utility library
+ii   libsystemd0              252.5-2                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 252.4-2                         amd64  libudev shared library
+ii   libudev1                 252.5-2                         amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-4                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -225,7 +225,7 @@ ii   vim-common               2:9.0.1000-4                    all    Vi IMproved
 ii   vim-tiny                 2:9.0.1000-4                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
-ii   zsh                      5.9-2+b1                        amd64  shell with lots of features
-ii   zsh-common               5.9-2                           all    architecture independent files for Zsh
+ii   zsh                      5.9-3                           amd64  shell with lots of features
+ii   zsh-common               5.9-3                           all    architecture independent files for Zsh
 ii   zstd                     1.5.2+dfsg2-3                   amd64  fast lossless compression algorithm -- CLI tool
 ```
