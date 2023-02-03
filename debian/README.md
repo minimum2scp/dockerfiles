@@ -30,7 +30,7 @@ ii   debian-archive-keyring  2021.1.1            all    GnuPG archive keys of th
 ii   debianutils             5.7-0.4             amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-3             amd64  File comparison utilities
 ii   dpkg                    1.21.19             amd64  Debian package management system
-ii   e2fsprogs               1.46.6~rc1-1.1      amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.46.6-1            amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-4             amd64  utilities for finding files--find, xargs
 ii   gcc-12-base             12.2.0-14           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1            amd64  GNU privacy guard - signature verification tool
@@ -49,11 +49,11 @@ ii   libc-bin                2.36-8              amd64  GNU C Library: Binaries
 ii   libc6                   2.36-8              amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b3          amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-3            amd64  POSIX 1003.1e capabilities (library)
-ii   libcom-err2             1.46.6~rc1-1.1      amd64  common error description library
+ii   libcom-err2             1.46.6-1            amd64  common error description library
 ii   libcrypt1               1:4.4.33-2          amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg2-1      amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.266               amd64  Debian Configuration Management System (C-implementation library)
-ii   libext2fs2              1.46.6~rc1-1.1      amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2              1.46.6-1            amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1             amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.2.0-14           amd64  GCC support library
 ii   libgcrypt20             1.10.1-3            amd64  LGPL Crypto library - runtime library
@@ -79,7 +79,7 @@ ii   libsemanage-common      3.4-1               all    Common files for SELinux
 ii   libsemanage2            3.4-1+b5            amd64  SELinux policy management library
 ii   libsepol2               3.4-2               amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-4            amd64  smart column output alignment library
-ii   libss2                  1.46.6~rc1-1.1      amd64  command-line interface parsing library
+ii   libss2                  1.46.6-1            amd64  command-line interface parsing library
 ii   libstdc++6              12.2.0-14           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             252.5-2             amd64  systemd utility library
 ii   libtasn1-6              4.19.0-2            amd64  Manage ASN.1 structures (runtime)
@@ -90,7 +90,7 @@ ii   libuuid1                2.38.1-4            amd64  Universally Unique ID li
 ii   libxxhash0              0.8.1-1             amd64  shared library for xxhash
 ii   libzstd1                1.5.2+dfsg2-3       amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1      amd64  system login tools
-ii   logsave                 1.46.6~rc1-1.1      amd64  save the output of a command in a log file
+ii   logsave                 1.46.6-1            amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1  amd64  Pattern scanning and text processing language
 ii   mount                   2.38.1-4            amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.4-2               all    basic terminal type definitions
