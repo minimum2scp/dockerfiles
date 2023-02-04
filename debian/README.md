@@ -28,7 +28,7 @@ ii   dash                    0.5.12-2            amd64  POSIX-compliant shell
 ii   debconf                 1.5.82              all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1            all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.7-0.4             amd64  Miscellaneous utilities specific to Debian
-ii   diffutils               1:3.8-3             amd64  File comparison utilities
+ii   diffutils               1:3.8-4             amd64  File comparison utilities
 ii   dpkg                    1.21.19             amd64  Debian package management system
 ii   e2fsprogs               1.46.6-1            amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-4             amd64  utilities for finding files--find, xargs
