@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                  3.130                           all    add and remove users and groups
+ii   adduser                  3.131                           all    add and remove users and groups
 ii   apt                      2.5.5                           amd64  commandline package manager
 ii   base-files               12.3                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
@@ -78,7 +78,7 @@ ii   debconf                  1.5.82                          all    Debian conf
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-4                         amd64  File comparison utilities
-ii   dpkg                     1.21.19                         amd64  Debian package management system
+ii   dpkg                     1.21.20                         amd64  Debian package management system
 ii   e2fsprogs                1.47.0-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
@@ -136,7 +136,7 @@ ii   libk5crypto3             1.20.1-1                        amd64  MIT Kerbero
 ii   libkeyutils1             1.6.3-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.20.1-1                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0          1.20.1-1                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0            2.5.13+dfsg-4                   amd64  OpenLDAP libraries
+ii   libldap-2.5-0            2.5.13+dfsg-5                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.4.1-0.1                       amd64  XZ-format compression library
@@ -170,7 +170,7 @@ ii   libslang2                2.3.3-2                         amd64  S-Lang prog
 ii   libsmartcols1            2.38.1-4                        amd64  smart column output alignment library
 ii   libss2                   1.47.0-1                        amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
-ii   libssl3                  3.0.7-2                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.5-2                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ ii   net-tools                2.10-0.1                        amd64  NET-3 netwo
 ii   openssh-client           1:9.1p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.1p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.1p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.7-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.12                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1                  amd64  change and administer password and group data
 ii   perl                     5.36.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -215,7 +215,7 @@ ii   sysv-rc                  3.06-2                          all    System-V-li
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                   2022g-3                         all    time zone and daylight-saving time data
+ii   tzdata                   2022g-4                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-27                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
