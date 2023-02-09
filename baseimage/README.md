@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.131                           all    add and remove users and groups
-ii   apt                      2.5.5                           amd64  commandline package manager
+ii   apt                      2.5.6                           amd64  commandline package manager
 ii   base-files               12.3                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2                        amd64  GNU Bourne Again SHell
@@ -94,7 +94,7 @@ ii   init-system-helpers      1.65.2                          all    helper tool
 ii   initscripts              3.06-2                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
-ii   libapt-pkg6.0            2.5.5                           amd64  package management runtime library
+ii   libapt-pkg6.0            2.5.6                           amd64  package management runtime library
 ii   libattr1                 1:2.5.1-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.7-1.1                     all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.7-1.1+b3                  amd64  Dynamic library for security auditing
@@ -195,9 +195,9 @@ ii   mount                    2.38.1-4                        amd64  tools for m
 ii   ncurses-base             6.4-2                           all    basic terminal type definitions
 ii   ncurses-bin              6.4-2                           amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client           1:9.1p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:9.1p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:9.1p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:9.2p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:9.2p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:9.2p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.12                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1                  amd64  change and administer password and group data
