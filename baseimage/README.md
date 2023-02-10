@@ -96,8 +96,8 @@ ii   insserv                  1.24.0-1                        amd64  boot sequen
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
 ii   libapt-pkg6.0            2.5.6                           amd64  package management runtime library
 ii   libattr1                 1:2.5.1-4                       amd64  extended attribute handling - shared library
-ii   libaudit-common          1:3.0.7-1.1                     all    Dynamic library for security auditing - common files
-ii   libaudit1                1:3.0.7-1.1+b3                  amd64  Dynamic library for security auditing
+ii   libaudit-common          1:3.0.9-1                       all    Dynamic library for security auditing - common files
+ii   libaudit1                1:3.0.9-1                       amd64  Dynamic library for security auditing
 ii   libblkid1                2.38.1-4                        amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.7-2                        amd64  utility functions from BSD systems - shared library
