@@ -41,8 +41,8 @@ ii   init-system-helpers     1.65.2              all    helper tools for all ini
 ii   libacl1                 2.3.1-3             amd64  access control list - shared library
 ii   libapt-pkg6.0           2.5.6               amd64  package management runtime library
 ii   libattr1                1:2.5.1-4           amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.0.7-1.1         all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.0.7-1.1+b3      amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.0.9-1           all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.0.9-1           amd64  Dynamic library for security auditing
 ii   libblkid1               2.38.1-4            amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1          amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.36-8              amd64  GNU C Library: Binaries
