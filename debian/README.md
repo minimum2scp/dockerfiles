@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     2.5.6               amd64  commandline package manager
 ii   base-files              12.3                amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1               amd64  Debian base system master password and group files
-ii   bash                    5.2.15-2            amd64  GNU Bourne Again SHell
+ii   bash                    5.2.15-2+b1         amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.38.1-4          amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.1-1               amd64  GNU core utilities
 ii   dash                    0.5.12-2            amd64  POSIX-compliant shell
@@ -63,7 +63,7 @@ ii   libgpg-error0           1.46-1              amd64  GnuPG development runtim
 ii   libhogweed6             3.8.1-2             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.3-1+b1          amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1             amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.4.1-0.1           amd64  XZ-format compression library
+ii   liblzma5                5.4.1-0.2           amd64  XZ-format compression library
 ii   libmd0                  1.0.4-2             amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.38.1-4            amd64  device mounting library
 ii   libnettle8              3.8.1-2             amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -88,7 +88,7 @@ ii   libudev1                252.5-2             amd64  libudev shared library
 ii   libunistring2           1.0-2               amd64  Unicode string library for C
 ii   libuuid1                2.38.1-4            amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1             amd64  shared library for xxhash
-ii   libzstd1                1.5.2+dfsg2-3       amd64  fast lossless compression algorithm
+ii   libzstd1                1.5.4+dfsg2-2       amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1      amd64  system login tools
 ii   logsave                 1.47.0-1            amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20200120-3.1  amd64  Pattern scanning and text processing language

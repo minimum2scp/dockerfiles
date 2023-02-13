@@ -90,7 +90,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7163",
+    "Installed-Size": "7164",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.36), libtinfo6 (>= 6)",
@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.15-2",
+    "Version": "5.2.15-2+b1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.4.1-0.1",
+    "Version": "5.4.1-0.2",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.4.1-0.1"
+    "source:Version": "5.4.1-0.2"
   },
   {
     "Architecture": "amd64",
@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "771",
+    "Installed-Size": "784",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2+dfsg2-3",
+    "Version": "1.5.4+dfsg2-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.2+dfsg2-3"
+    "source:Version": "1.5.4+dfsg2-2"
   },
   {
     "Architecture": "amd64",
