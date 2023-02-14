@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "220",
+    "Installed-Size": "217",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-156",
+    "Version": "3.0pl1-160",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-156"
+    "source:Version": "3.0pl1-160"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "42",
+    "Installed-Size": "44",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-156",
+    "Version": "3.0pl1-160",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-156"
+    "source:Version": "3.0pl1-160"
   },
   {
     "Architecture": "amd64",
@@ -2719,10 +2719,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)",
+    "Depends": "libidn2-0 (>= 0.16), libc6 (>= 2.33), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "95",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "libpsl5",
     "Pre-Depends": "",
@@ -2733,7 +2733,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.21.0-1.2",
+    "Version": "0.21.2-1",
     "binary:Package": "libpsl5:amd64",
     "binary:Summary": "Library for Public Suffix List (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libpsl",
-    "source:Version": "0.21.0-1.2"
+    "source:Version": "0.21.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.4+dfsg2-2",
+    "Version": "1.5.4+dfsg2-3",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.4+dfsg2-2"
+    "source:Version": "1.5.4+dfsg2-3"
   },
   {
     "Architecture": "all",
@@ -4693,7 +4693,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.4+dfsg2-2",
+    "Version": "1.5.4+dfsg2-3",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4701,6 +4701,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.4+dfsg2-2"
+    "source:Version": "1.5.4+dfsg2-3"
   }
 ]
