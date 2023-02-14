@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.4+dfsg2-2",
+    "Version": "1.5.4+dfsg2-3",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.4+dfsg2-2"
+    "source:Version": "1.5.4+dfsg2-3"
   },
   {
     "Architecture": "amd64",
