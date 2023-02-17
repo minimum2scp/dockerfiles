@@ -215,7 +215,7 @@ ii   sysv-rc                  3.06-2                          all    System-V-li
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                   2022g-5                         all    time zone and daylight-saving time data
+ii   tzdata                   2022g-6                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-27                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
