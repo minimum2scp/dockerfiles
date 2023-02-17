@@ -41,7 +41,6 @@ I: Validating libcap2 1:2.66-3
 I: Validating libcom-err2 1.47.0-1
 I: Validating libcrypt1 1:4.4.33-2
 I: Validating libdb5.3 5.3.28+dfsg2-1
-I: Retrieving libdebconfclient0 0.267
 I: Validating libdebconfclient0 0.267
 I: Validating libext2fs2 1.47.0-1
 I: Validating libffi8 3.4.4-1
@@ -90,7 +89,8 @@ I: Validating perl-base 5.36.0-7
 I: Validating sed 4.9-1
 I: Validating sysvinit-utils 3.06-2
 I: Validating tar 1.34+dfsg-1.1
-I: Validating tzdata 2022g-5
+I: Retrieving tzdata 2022g-6
+I: Validating tzdata 2022g-6
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.38.1-5
 I: Validating util-linux-extra 2.38.1-5
