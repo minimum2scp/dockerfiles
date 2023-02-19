@@ -127,7 +127,7 @@ ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1+deb11u1          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5+deb11u2                 amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.1-5+deb11u3                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u3                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -178,7 +178,7 @@ ii   libsmartcols1           2.36.1-8+deb11u1                amd64  smart column
 ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.2-2                        amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1n-0+deb11u3                amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1n-0+deb11u4                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-7+deb11u1                 amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2+deb11u1                amd64  Manage ASN.1 structures (runtime)
@@ -208,7 +208,7 @@ ii   net-tools               1.60+git20181103.0eebece-1      amd64  NET-3 networ
 ii   openssh-client          1:8.4p1-5+deb11u1               amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-5+deb11u1               amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-5+deb11u1               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1n-0+deb11u3                amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1n-0+deb11u4                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                       amd64  change and administer password and group data
 ii   perl                    5.32.1-4+deb11u2                amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-4+deb11u2                amd64  minimal Perl system
