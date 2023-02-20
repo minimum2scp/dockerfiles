@@ -1910,7 +1910,7 @@
     "Depends": "libgmp10 (>= 2:6.0.0), libc6 (>= 2.25), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2649",
+    "Installed-Size": "2645",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.6.7-4+deb10u9",
+    "Version": "3.6.7-4+deb10u10",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.6.7-4+deb10u9"
+    "source:Version": "3.6.7-4+deb10u10"
   },
   {
     "Architecture": "amd64",
@@ -3338,7 +3338,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4101",
+    "Installed-Size": "4105",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1n-0+deb10u3",
+    "Version": "1.1.1n-0+deb10u4",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb10u3"
+    "source:Version": "1.1.1n-0+deb10u4"
   },
   {
     "Architecture": "amd64",
@@ -4105,7 +4105,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1n-0+deb10u3",
+    "Version": "1.1.1n-0+deb10u4",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb10u3"
+    "source:Version": "1.1.1n-0+deb10u4"
   },
   {
     "Architecture": "amd64",
