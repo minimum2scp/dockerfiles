@@ -4,6 +4,11 @@ set -e
 set -x
 
 apt-get install -y --no-install-recommends -t unstable nginx
+if invoke-rc.d --quiet nginx status >/dev/null; then
+  :
+else
+  invoke-rc.d nginx start
+fi
 
 install -m 644 -o root -g root -p /opt/custom-installers/nginx/etc/nginx/conf.d/misc.conf /etc/nginx/conf.d/misc.conf
 if etckeeper unclean 1>/dev/null 2>/dev/null; then
