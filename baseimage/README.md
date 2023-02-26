@@ -78,7 +78,7 @@ ii   debconf                  1.5.82                          all    Debian conf
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-4                         amd64  File comparison utilities
-ii   dpkg                     1.21.20                         amd64  Debian package management system
+ii   dpkg                     1.21.21                         amd64  Debian package management system
 ii   e2fsprogs                1.47.0-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
@@ -166,7 +166,7 @@ ii   libselinux1              3.4-1+b5                        amd64  SELinux run
 ii   libsemanage-common       3.4-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.4-1+b5                        amd64  SELinux policy management library
 ii   libsepol2                3.4-2                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2                2.3.3-2                         amd64  S-Lang programming library - runtime version
+ii   libslang2                2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1            2.38.1-5                        amd64  smart column output alignment library
 ii   libss2                   1.47.0-1                        amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library

@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.21.20",
+    "Version": "1.21.21",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.21.20"
+    "source:Version": "1.21.21"
   },
   {
     "Architecture": "amd64",
@@ -2971,10 +2971,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2396",
+    "Installed-Size": "2386",
     "Origin": "",
     "Package": "libslang2",
     "Pre-Depends": "",
@@ -2985,7 +2985,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.3-2",
+    "Version": "2.3.3-3",
     "binary:Package": "libslang2:amd64",
     "binary:Summary": "S-Lang programming library - runtime version",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "slang2",
-    "source:Version": "2.3.3-2"
+    "source:Version": "2.3.3-3"
   },
   {
     "Architecture": "amd64",
