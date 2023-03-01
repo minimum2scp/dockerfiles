@@ -83,8 +83,8 @@ ii   e2fsprogs                1.47.0-1                        amd64  ext2/ext3/e
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.39.2-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.39.2-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.39.2-1.1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.39.2-1.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-5                           amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-9                        amd64  GNU troff text-formatting system (base system components)
@@ -159,8 +159,8 @@ ii   libpopt0                 1.19+dfsg-1                     amd64  lib for par
 ii   libproc2-0               2:4.0.3-1                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.2-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg-10                  amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg-10                  amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg-11                  amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg-11                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1+b3                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.4-1+b5                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.4-1                           all    Common files for SELinux policy management libraries
@@ -172,13 +172,13 @@ ii   libss2                   1.47.0-1                        amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.5-2                         amd64  systemd utility library
+ii   libsystemd0              252.6-1                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 252.5-2                         amd64  libudev shared library
+ii   libudev1                 252.6-1                         amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library

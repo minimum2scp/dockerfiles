@@ -650,7 +650,7 @@
     "Depends": "libc6 (>= 2.34), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.39.2), git-man (<< 1:2.39.2-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "44476",
+    "Installed-Size": "44477",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.39.2-1",
+    "Version": "1:2.39.2-1.1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.39.2-1"
+    "source:Version": "1:2.39.2-1.1"
   },
   {
     "Architecture": "all",
@@ -678,7 +678,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2102",
+    "Installed-Size": "2103",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.39.2-1",
+    "Version": "1:2.39.2-1.1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.39.2-1"
+    "source:Version": "1:2.39.2-1.1"
   },
   {
     "Architecture": "amd64",
@@ -2775,21 +2775,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-10), libc6 (>= 2.34)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg-11), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "167",
+    "Installed-Size": "166",
     "Origin": "",
     "Package": "libsasl2-2",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-10)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg-11)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-10",
+    "Version": "2.1.28+dfsg-11",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-10"
+    "source:Version": "2.1.28+dfsg-11"
   },
   {
     "Architecture": "amd64",
@@ -2806,7 +2806,7 @@
     "Depends": "libc6 (>= 2.14), libdb5.3",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "77",
+    "Installed-Size": "76",
     "Origin": "",
     "Package": "libsasl2-modules-db",
     "Pre-Depends": "",
@@ -2817,7 +2817,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg-10",
+    "Version": "2.1.28+dfsg-11",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg-10"
+    "source:Version": "2.1.28+dfsg-11"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.5-2",
+    "Version": "252.6-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.5-2"
+    "source:Version": "252.6-1"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.5-2",
+    "Version": "252.6-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.5-2"
+    "source:Version": "252.6-1"
   },
   {
     "Architecture": "amd64",
