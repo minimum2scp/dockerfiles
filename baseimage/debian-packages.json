@@ -282,7 +282,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "bcron, cronie, systemd-cron",
-    "Breaks": "systemd-cron (<< 1.15.19-5~)",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-161",
+    "Version": "3.0pl1-162",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,12 +305,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-161"
+    "source:Version": "3.0pl1-162"
   },
   {
     "Architecture": "all",
     "Conflicts": "bcron (<< 0.11-9.1), cron (<< 3.0pl1-140), cronie (<< 1.6.1-5), systemd-cron (<< 1.15.18-1.1)",
-    "Breaks": "",
+    "Breaks": "systemd-cron (<< 1.15.19-5~)",
     "Depends": "adduser",
     "Enhances": "",
     "Essential": "no",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-161",
+    "Version": "3.0pl1-162",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-161"
+    "source:Version": "3.0pl1-162"
   },
   {
     "Architecture": "amd64",
