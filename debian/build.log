@@ -8,7 +8,8 @@ I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 2.5.6
-I: Validating base-files 12.3
+I: Retrieving base-files 12.4
+I: Validating base-files 12.4
 I: Validating base-passwd 3.6.1
 I: Validating bash 5.2.15-2+b1
 I: Validating bsdutils 1:2.38.1-5
@@ -70,11 +71,9 @@ I: Validating libsepol2 3.4-2
 I: Validating libsmartcols1 2.38.1-5
 I: Validating libss2 1.47.0-1
 I: Validating libstdc++6 12.2.0-14
-I: Retrieving libsystemd0 252.6-1
 I: Validating libsystemd0 252.6-1
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.4-2
-I: Retrieving libudev1 252.6-1
 I: Validating libudev1 252.6-1
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-5
