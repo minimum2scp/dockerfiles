@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                  3.131                           all    add and remove users and groups
 ii   apt                      2.5.6                           amd64  commandline package manager
-ii   base-files               12.3                            amd64  Debian base system miscellaneous files
+ii   base-files               12.4                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2+b1                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-5                        amd64  extra utilities from 4.4BSD-Lite
@@ -100,7 +100,7 @@ ii   libaudit-common          1:3.0.9-1                       all    Dynamic lib
 ii   libaudit1                1:3.0.9-1                       amd64  Dynamic library for security auditing
 ii   libblkid1                2.38.1-5                        amd64  block device ID library
 ii   libbrotli1               1.0.9-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                  0.11.7-2                        amd64  utility functions from BSD systems - shared library
+ii   libbsd0                  0.11.7-3                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.36-8                          amd64  GNU C Library: Binaries
 ii   libc-l10n                2.36-8                          all    GNU C Library: localization files
