@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                  3.131                           all    add and remove users and groups
-ii   apt                      2.5.6                           amd64  commandline package manager
+ii   apt                      2.6.0                           amd64  commandline package manager
 ii   base-files               12.4                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2+b1                     amd64  GNU Bourne Again SHell
@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                        all    Common CA c
 ii   coreutils                9.1-1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-162                      amd64  process scheduling daemon
 ii   cron-daemon-common       3.0pl1-162                      all    process scheduling daemon's configuration files
-ii   curl                     7.88.1-2                        amd64  command line tool for transferring data with URL syntax
+ii   curl                     7.88.1-5                        amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.12-2                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
@@ -94,7 +94,7 @@ ii   init-system-helpers      1.65.2                          all    helper tool
 ii   initscripts              3.06-2                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
-ii   libapt-pkg6.0            2.5.6                           amd64  package management runtime library
+ii   libapt-pkg6.0            2.6.0                           amd64  package management runtime library
 ii   libattr1                 1:2.5.1-4                       amd64  extended attribute handling - shared library
 ii   libaudit-common          1:3.0.9-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                1:3.0.9-1                       amd64  Dynamic library for security auditing
@@ -110,8 +110,8 @@ ii   libcap2                  1:2.66-3                        amd64  POSIX 1003.
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.47.0-2                        amd64  common error description library
 ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.88.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.88.1-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.88.1-5                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.88.1-5                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.267                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
