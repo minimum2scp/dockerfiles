@@ -72,7 +72,7 @@ ii   ca-certificates          20211016                        all    Common CA c
 ii   coreutils                9.1-1                           amd64  GNU core utilities
 ii   cron                     3.0pl1-162                      amd64  process scheduling daemon
 ii   cron-daemon-common       3.0pl1-162                      all    process scheduling daemon's configuration files
-ii   curl                     7.88.1-5                        amd64  command line tool for transferring data with URL syntax
+ii   curl                     7.88.1-6                        amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.12-2                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring   2021.1.1                        all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                  1:2.66-3                        amd64  POSIX 1003.
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.47.0-2                        amd64  common error description library
 ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt shared library
-ii   libcurl3-gnutls          7.88.1-5                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                 7.88.1-5                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls          7.88.1-6                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                 7.88.1-6                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.267                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
@@ -183,7 +183,7 @@ ii   libunistring2            1.0-2                           amd64  Unicode str
 ii   libuuid1                 2.38.1-5                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                         amd64  shared library for xxhash
-ii   libzstd1                 1.5.4+dfsg2-3                   amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.4+dfsg2-4                   amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-8                          all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1                  amd64  system login tools
@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.13p1-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.13p3-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-2                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-2                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
@@ -227,5 +227,5 @@ ii   whiptail                 0.52.23-1+b1                    amd64  Displays us
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
 ii   zsh                      5.9-4                           amd64  shell with lots of features
 ii   zsh-common               5.9-4                           all    architecture independent files for Zsh
-ii   zstd                     1.5.4+dfsg2-3                   amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.5.4+dfsg2-4                   amd64  fast lossless compression algorithm -- CLI tool
 ```
