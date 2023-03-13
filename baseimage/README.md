@@ -189,7 +189,7 @@ ii   locales                  2.36-8                          all    GNU C Libra
 ii   login                    1:4.13+dfsg1-1                  amd64  system login tools
 ii   logsave                  1.47.0-2                        amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.11.2-1                        amd64  tools for reading manual pages
+ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3.1              amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-5                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.4-2                           all    basic terminal type definitions
