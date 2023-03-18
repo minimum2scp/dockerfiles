@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                  3.131                           all    add and remove users and groups
+ii   adduser                  3.132                           all    add and remove users and groups
 ii   apt                      2.6.0                           amd64  commandline package manager
 ii   base-files               12.4                            amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
@@ -75,7 +75,7 @@ ii   cron-daemon-common       3.0pl1-162                      all    process sch
 ii   curl                     7.88.1-6                        amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.12-2                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
-ii   debian-archive-keyring   2023.1                          all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring   2023.2                          all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-4                         amd64  File comparison utilities
 ii   dpkg                     1.21.21                         amd64  Debian package management system
