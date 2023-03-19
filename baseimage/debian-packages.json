@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.4+dfsg2-4",
+    "Version": "1.5.4+dfsg2-5",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.4+dfsg2-4"
+    "source:Version": "1.5.4+dfsg2-5"
   },
   {
     "Architecture": "all",
@@ -4693,7 +4693,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.4+dfsg2-4",
+    "Version": "1.5.4+dfsg2-5",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4701,6 +4701,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.4+dfsg2-4"
+    "source:Version": "1.5.4+dfsg2-5"
   }
 ]
