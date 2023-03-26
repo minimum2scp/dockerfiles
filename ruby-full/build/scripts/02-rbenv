@@ -12,10 +12,10 @@ bash -l -c "rbenv update"
 
 ## install pre-build binary (see https://github.com/minimum2scp/ruby-binary)
 curl -L --create-dirs -o /tmp/build/ruby-full/tmp/ruby-binary/install.sh https://raw.githubusercontent.com/minimum2scp/ruby-binary/master/install.sh
-sh /tmp/build/ruby-full/tmp/ruby-binary/install.sh -t v0.1.197
+sh /tmp/build/ruby-full/tmp/ruby-binary/install.sh -t v0.1.203
 
 ## install openssl 1.1 series into /opt/openssl-<version>
-openssl_version=1.1.1s
+openssl_version=1.1.1t
 curl -sSf -o /tmp/build/openssl-${openssl_version}.tar.gz https://www.openssl.org/source/openssl-${openssl_version}.tar.gz
 cd /tmp/build
 tar xf openssl-${openssl_version}.tar.gz
