@@ -91,7 +91,7 @@ ii   groff-base               1.22.4-10                       amd64  GNU troff t
 ii   gzip                     1.12-1                          amd64  GNU compression utilities
 ii   hostname                 3.23+nmu1                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.65.2                          all    helper tools for all init systems
-ii   initscripts              3.06-2                          all    scripts for initializing and shutting down the system
+ii   initscripts              3.06-3                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
 ii   libapt-pkg6.0            2.6.0                           amd64  package management runtime library
@@ -113,7 +113,7 @@ ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt sh
 ii   libcurl3-gnutls          7.88.1-8                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.88.1-8                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0        0.267                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0        0.268                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                        amd64  Helper functions for handling strings (lib)
@@ -211,11 +211,11 @@ ii   sed                      4.9-1                           amd64  GNU stream 
 ii   sensible-utils           0.0.17+nmu1                     all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.13p3-1                      amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.06-2                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.06-2                          amd64  System-V-like init
-ii   sysvinit-utils           3.06-2                          amd64  System-V-like utilities
+ii   sysv-rc                  3.06-3                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.06-3                          amd64  System-V-like init
+ii   sysvinit-utils           3.06-3                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                   2023b-1                         all    time zone and daylight-saving time data
+ii   tzdata                   2023c-2                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
