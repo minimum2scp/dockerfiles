@@ -52,7 +52,7 @@ ii   libcap2                 1:2.66-3            amd64  POSIX 1003.1e capabiliti
 ii   libcom-err2             1.47.0-2            amd64  common error description library
 ii   libcrypt1               1:4.4.33-2          amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg2-1      amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.267               amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.268               amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2            amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1             amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               12.2.0-14           amd64  GCC support library
@@ -100,7 +100,7 @@ ii   perl-base               5.36.0-7            amd64  minimal Perl system
 ii   sed                     4.9-1               amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.06-2              amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.1       amd64  GNU version of the tar archiving utility
-ii   tzdata                  2023b-1             all    time zone and daylight-saving time data
+ii   tzdata                  2023c-2             all    time zone and daylight-saving time data
 ii   usr-is-merged           35                  all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.38.1-5+b1         amd64  miscellaneous system utilities
 ii   util-linux-extra        2.38.1-5+b1         amd64  interactive login tools
