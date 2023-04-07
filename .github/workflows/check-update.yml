@@ -22,7 +22,7 @@ jobs:
       - run: bundle exec rspec spec/debian/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -70,7 +70,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -117,7 +117,7 @@ jobs:
       - run: bundle exec rspec spec/debian-bullseye/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -165,7 +165,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage-bullseye/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -212,7 +212,7 @@ jobs:
       - run: bundle exec rspec spec/debian-buster/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -260,7 +260,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage-buster/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -307,7 +307,7 @@ jobs:
       - run: bundle exec rspec spec/debian-stretch/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
@@ -355,7 +355,7 @@ jobs:
       - run: bundle exec rspec spec/baseimage-stretch/01apt_spec.rb -e 'apt list --upgradable'
 
       # notify to slack
-      - uses: k0kubun/action-slack@v2.0.0
+      - uses: ruby/action-slack@v3.2.1
         with:
           payload: |
             {
