@@ -55,7 +55,7 @@ describe 'minimum2scp/baseimage' do
 
     %w[
       sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools unzip bzip2 zstd
-      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron orphan-sysvinit-scripts
+      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron orphan-sysvinit-scripts tree
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
