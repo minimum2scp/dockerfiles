@@ -57,7 +57,7 @@ describe 'minimum2scp/baseimage-buster' do
 
     %w[
       sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools unzip bzip2 zstd
-      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron
+      etckeeper locales tzdata localepurge sysvinit-core openssh-server rsyslog cron tree
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }

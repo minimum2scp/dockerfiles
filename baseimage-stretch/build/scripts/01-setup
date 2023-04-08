@@ -13,6 +13,7 @@ packages="$packages locales tzdata"
 packages="$packages localepurge"
 packages="$packages sysvinit-core systemd-sysv- systemd-"
 packages="$packages openssh-server rsyslog cron"
+packages="$packages tree"
 
 ##
 ## install packages
