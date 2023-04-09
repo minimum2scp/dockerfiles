@@ -87,9 +87,9 @@ I: Validating ncurses-bin 6.4-2
 I: Validating passwd 1:4.13+dfsg1-1+b1
 I: Validating perl-base 5.36.0-7
 I: Validating sed 4.9-1
-I: Retrieving sysvinit-utils 3.06-4
 I: Validating sysvinit-utils 3.06-4
-I: Validating tar 1.34+dfsg-1.1
+I: Retrieving tar 1.34+dfsg-1.2
+I: Validating tar 1.34+dfsg-1.2
 I: Validating tzdata 2023c-2
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.38.1-5+b1
