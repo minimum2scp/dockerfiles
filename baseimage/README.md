@@ -216,7 +216,7 @@ ii   sysvinit-core            3.06-4                          amd64  System-V-li
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.0-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                   2023c-2                         all    time zone and daylight-saving time data
+ii   tzdata                   2023c-3                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
