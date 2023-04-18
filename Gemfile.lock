@@ -47,9 +47,7 @@ GEM
       net-ssh (>= 2.7)
       net-telnet (= 0.1.1)
       sfl
-    webrick (1.7.0)
-    yard (0.9.28)
-      webrick (~> 1.7.0)
+    yard (0.9.34)
 
 PLATFORMS
   ruby
