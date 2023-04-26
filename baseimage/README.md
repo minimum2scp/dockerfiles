@@ -83,8 +83,8 @@ ii   e2fsprogs                1.47.0-2                        amd64  ext2/ext3/e
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
 ii   gcc-12-base              12.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                      1:2.40.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                  1:2.40.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                      1:2.40.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                  1:2.40.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-5                           amd64  GNU grep, egrep and fgrep
 ii   groff-base               1.22.4-10                       amd64  GNU troff text-formatting system (base system components)
@@ -113,7 +113,7 @@ ii   libcrypt1                1:4.4.33-2                      amd64  libcrypt sh
 ii   libcurl3-gnutls          7.88.1-9                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.88.1-9                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0        0.268                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0        0.269                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                        amd64  Helper functions for handling strings (lib)
