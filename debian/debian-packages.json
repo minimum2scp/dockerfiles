@@ -958,7 +958,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "36",
+    "Installed-Size": "37",
     "Origin": "",
     "Package": "libdebconfclient0",
     "Pre-Depends": "",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.268",
+    "Version": "0.269",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.268"
+    "source:Version": "0.269"
   },
   {
     "Architecture": "amd64",
