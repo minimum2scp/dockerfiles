@@ -30,7 +30,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -38,12 +38,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/debian:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -78,7 +73,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -86,12 +81,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/baseimage:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -125,7 +115,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -133,12 +123,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/debian-bullseye:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -173,7 +158,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -181,12 +166,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/baseimage-bullseye:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -220,7 +200,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -228,12 +208,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/debian-buster:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -268,7 +243,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -276,12 +251,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/baseimage-buster:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -315,7 +285,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -323,12 +293,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/debian-stretch:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
@@ -363,7 +328,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -371,12 +336,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/baseimage-stretch:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
