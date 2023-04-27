@@ -35,7 +35,7 @@ jobs:
               "icon_emoji": ":octocat:",
               "channel": "#gh",
               "attachments": [{
-                "color": ("${{ job.status }}" == "Success" ? "good" : "danger"),
+                "color": "danger",
                 "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
                 "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
                 "footer_icon": "https://github.githubassets.com/favicon.ico",
@@ -43,12 +43,7 @@ jobs:
                   {
                     "title": "image",
                     "value": "minimum2scp/<%= image %>:latest",
-                    "short": true
-                  },
-                  {
-                    "title": "github.sha",
-                    "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|" + "${{ github.sha }}".substring(0, 10) + ">",
-                    "short": true
+                    "short": false
                   }
                 ]
               }]
