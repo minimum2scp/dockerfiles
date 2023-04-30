@@ -6,8 +6,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 nodenv_root=/opt/nodenv
 
-## get latest nodejs version (18.x.x) from https://nodejs.org/download/release/index.json
-node_version=$(/bin/bash /tmp/build/nodejs/helpers/latest-nodejs-version v18.)
+## get latest nodejs version (20.x.x) from https://nodejs.org/download/release/index.json
+node_version=$(/bin/bash /tmp/build/nodejs/helpers/latest-nodejs-version v20.)
 
 ## install nodenv into /opt/nodenv
 git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}
