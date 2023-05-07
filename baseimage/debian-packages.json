@@ -2299,7 +2299,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.4-2), libc6 (>= 2.34)",
+    "Depends": "libtinfo6 (= 6.4-3), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "412",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-2",
+    "Version": "6.4-3",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-2"
+    "source:Version": "6.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3198,7 +3198,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "536",
+    "Installed-Size": "541",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-2",
+    "Version": "6.4-3",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-2"
+    "source:Version": "6.4-3"
   },
   {
     "Architecture": "all",
@@ -3702,7 +3702,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "378",
+    "Installed-Size": "379",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-2",
+    "Version": "6.4-3",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-2"
+    "source:Version": "6.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3730,7 +3730,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "635",
+    "Installed-Size": "636",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.3)",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-2",
+    "Version": "6.4-3",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-2"
+    "source:Version": "6.4-3"
   },
   {
     "Architecture": "amd64",
