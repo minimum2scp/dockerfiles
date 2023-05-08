@@ -142,7 +142,7 @@ ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ com
 ii   liblzma5                 5.4.1-0.2                       amd64  XZ-format compression library
 ii   libmd0                   1.0.4-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-5+b1                     amd64  device mounting library
-ii   libncursesw6             6.4-3                           amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6             6.4-4                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.52.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -174,7 +174,7 @@ ii   libssl3                  3.0.8-1                         amd64  Secure Sock
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.6-1                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                6.4-3                           amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
@@ -192,8 +192,8 @@ ii   lv                       4.51-9                          amd64  Powerful Mu
 ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20200120-3.1              amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-5+b1                     amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.4-3                           all    basic terminal type definitions
-ii   ncurses-bin              6.4-3                           amd64  terminal-related programs and man pages
+ii   ncurses-base             6.4-4                           all    basic terminal type definitions
+ii   ncurses-bin              6.4-4                           amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.2p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.2p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
