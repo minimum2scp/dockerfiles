@@ -3,7 +3,7 @@
 set -e
 set -x
 
-version="23.0.5"
+version="23.0.6"
 
 cd /tmp
 
