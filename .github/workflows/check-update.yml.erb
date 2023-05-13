@@ -3,6 +3,7 @@ name: Check upgradable packages
 on:
   schedule:
     - cron: '0 14 * * *'
+  workflow_dispatch:
 
 jobs:
 <% images = %w[debian baseimage debian-bullseye baseimage-bullseye debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
