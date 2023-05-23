@@ -18,7 +18,6 @@ I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2023.3
 I: Validating debianutils 5.7-0.4
 I: Validating diffutils 1:3.8-4
-I: Retrieving dpkg 1.21.22
 I: Validating dpkg 1.21.22
 I: Validating e2fsprogs 1.47.0-2
 I: Validating findutils 4.9.0-4
@@ -42,7 +41,8 @@ I: Validating libcap2 1:2.66-4
 I: Validating libcom-err2 1.47.0-2
 I: Validating libcrypt1 1:4.4.33-2
 I: Validating libdb5.3 5.3.28+dfsg2-1
-I: Validating libdebconfclient0 0.269
+I: Retrieving libdebconfclient0 0.270
+I: Validating libdebconfclient0 0.270
 I: Validating libext2fs2 1.47.0-2
 I: Validating libffi8 3.4.4-1
 I: Validating libgcc-s1 12.2.0-14
