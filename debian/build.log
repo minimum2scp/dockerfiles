@@ -64,10 +64,10 @@ I: Validating libpam-runtime 1.5.2-6
 I: Validating libpam0g 1.5.2-6
 I: Validating libpcre2-8-0 10.42-1
 I: Validating libseccomp2 2.5.4-1+b3
-I: Validating libselinux1 3.4-1+b5
+I: Retrieving libselinux1 3.4-1+b6
+I: Validating libselinux1 3.4-1+b6
 I: Validating libsemanage-common 3.4-1
 I: Validating libsemanage2 3.4-1+b5
-I: Retrieving libsepol2 3.4-2.1
 I: Validating libsepol2 3.4-2.1
 I: Validating libsmartcols1 2.38.1-5+b1
 I: Validating libss2 1.47.0-2
