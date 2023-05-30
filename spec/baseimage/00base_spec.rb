@@ -296,7 +296,7 @@ describe 'minimum2scp/baseimage' do
     end
 
     describe command('docker --version') do
-      its(:stdout){ should start_with('Docker version 24.0.1, ') }
+      its(:stdout){ should start_with('Docker version 24.0.2, ') }
     end
   end
 
