@@ -170,7 +170,7 @@ ii   libslang2                2.3.3-3                         amd64  S-Lang prog
 ii   libsmartcols1            2.38.1-5+b1                     amd64  smart column output alignment library
 ii   libss2                   1.47.0-2                        amd64  command-line interface parsing library
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
-ii   libssl3                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.6-1                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ ii   net-tools                2.10-0.1                        amd64  NET-3 netwo
 ii   openssh-client           1:9.2p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.2p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.2p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.8-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
 ii   perl                     5.36.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
