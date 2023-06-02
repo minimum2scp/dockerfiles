@@ -30,7 +30,7 @@ describe 'minimum2scp/ruby-full' do
           {name: 'bundler', version: 'default: 2.4.13'},
           {name: 'pry'}
         ],
-        openssl_version: '3.0.8'
+        openssl_version: '3.0.9'
       },
       {
         ruby: '3.1.4',
@@ -40,7 +40,7 @@ describe 'minimum2scp/ruby-full' do
           {name: 'bundler', version: 'default: 2.4.13'},
           {name: 'pry'}
         ],
-        openssl_version: '3.0.8'
+        openssl_version: '3.0.9'
       },
       {
         ruby: '3.0.6',
