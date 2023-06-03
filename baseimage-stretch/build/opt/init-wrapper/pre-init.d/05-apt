@@ -14,7 +14,7 @@ set -e
 post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
 
 if [ -z "${APT_LINE}" ]; then
-  APT_LINE=jp
+  APT_LINE=keep
 fi
 
 change_apt_line (){
