@@ -1,11 +1,10 @@
 require 'spec_helper'
 
 describe 'minimum2scp/es-kibana' do
-  context 'with env [APT_LINE=keep]' do
+  context 'without env' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep' ]
       })
     end
 
@@ -45,11 +44,11 @@ describe 'minimum2scp/es-kibana' do
     end
   end
 
-  context 'with env [APT_LINE=keep, ES_JAVA_OPTS="-Xms1024m -Xmx1024m"]' do
+  context 'with env [ES_JAVA_OPTS="-Xms1024m -Xmx1024m"]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep', 'ES_JAVA_OPTS=-Xms1024m -Xmx1024m' ]
+        'Env' => [ 'ES_JAVA_OPTS=-Xms1024m -Xmx1024m' ]
       })
     end
 
