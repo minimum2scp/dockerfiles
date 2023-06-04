@@ -5,7 +5,6 @@ describe 'minimum2scp/baseimage-stretch' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep' ]
       })
     end
 

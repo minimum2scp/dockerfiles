@@ -1,11 +1,10 @@
 require 'spec_helper'
 
 describe 'minimum2scp/baseimage-bullseye' do
-  context 'with env [APT_LINE=keep]' do
+  context 'without env' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep' ]
       })
     end
 
@@ -180,11 +179,11 @@ describe 'minimum2scp/baseimage-bullseye' do
   end
 
 
-  context 'with env [APT_LINE=keep, APT_HTTP_PROXY=http://x.x.x.x:3142/ DEFAULT_LANG=en_US.UTF-8, DEFAULT_TZ=UTC]' do
+  context 'with env [APT_HTTP_PROXY=http://x.x.x.x:3142/ DEFAULT_LANG=en_US.UTF-8, DEFAULT_TZ=UTC]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep', 'APT_HTTP_PROXY=http://x.x.x.x:3142/', 'DEFAULT_LANG=en_US.UTF-8', 'DEFAULT_TZ=UTC' ]
+        'Env' => [ 'APT_HTTP_PROXY=http://x.x.x.x:3142/', 'DEFAULT_LANG=en_US.UTF-8', 'DEFAULT_TZ=UTC' ]
       })
     end
 
@@ -211,11 +210,11 @@ describe 'minimum2scp/baseimage-bullseye' do
     end
   end
 
-  context 'with env [APT_LINE=keep, CUSTOM_USER=testuser]' do
+  context 'with env [CUSTOM_USER=testuser]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep', 'CUSTOM_USER=testuser' ]
+        'Env' => [ 'CUSTOM_USER=testuser' ]
       })
     end
 
@@ -234,12 +233,11 @@ describe 'minimum2scp/baseimage-bullseye' do
     end
   end
 
-  context 'with env [APT_LINE=keep, CUSTOM_USER=testuser, CUSTOM_USER_UID=1999, CUSTOM_USER_SHELL=/bin/false, CUSTOM_GROUP=testgrp, CUSTOM_GROUP_GID=1999]' do
+  context 'with env [CUSTOM_USER=testuser, CUSTOM_USER_UID=1999, CUSTOM_USER_SHELL=/bin/false, CUSTOM_GROUP=testgrp, CUSTOM_GROUP_GID=1999]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
         'Env' => [
-          'APT_LINE=keep',
           'CUSTOM_USER=testuser',
           'CUSTOM_USER_UID=1999',
           'CUSTOM_USER_SHELL=/bin/false',
@@ -266,11 +264,11 @@ describe 'minimum2scp/baseimage-bullseye' do
     end
   end
 
-  context 'with env [APT_LINE=keep, INSTALL_DOCKER_CE_CLI=yes]' do
+  context 'with env [INSTALL_DOCKER_CE_CLI=yes]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep', 'INSTALL_DOCKER_CE_CLI=yes' ]
+        'Env' => [ 'INSTALL_DOCKER_CE_CLI=yes' ]
       })
       # wait /opt/init-wrapper/post-init.d/07-docker-ce-cli
       wait_container_file('/usr/local/bin/docker')
@@ -293,11 +291,11 @@ describe 'minimum2scp/baseimage-bullseye' do
     end
   end
 
-  context 'with env [APT_LINE=keep, INSTALL_NGINX=yes]' do
+  context 'with env [INSTALL_NGINX=yes]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep', 'INSTALL_NGINX=yes' ]
+        'Env' => [ 'INSTALL_NGINX=yes' ]
       })
 
       # wait for nignx in container start

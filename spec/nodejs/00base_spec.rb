@@ -1,11 +1,10 @@
 require 'spec_helper'
 
 describe 'minimum2scp/nodejs' do
-  context 'with env [APT_LINE=keep]' do
+  context 'without env' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_LINE=keep' ]
       })
     end
 
