@@ -196,17 +196,45 @@ describe 'minimum2scp/baseimage-stretch' do
   end
 
 
-  context 'with env [APT_HTTP_PROXY=http://x.x.x.x:3142/ DEFAULT_LANG=en_US.UTF-8, DEFAULT_TZ=UTC]' do
+  context 'with env [APT_LINE=jp APT_HTTP_PROXY=http://x.x.x.x:3142/ DEFAULT_LANG=en_US.UTF-8, DEFAULT_TZ=UTC]' do
     before(:all) do
       start_container({
         'Image' => ENV['DOCKER_IMAGE'] || "minimum2scp/#{File.basename(__dir__)}:latest",
-        'Env' => [ 'APT_HTTP_PROXY=http://x.x.x.x:3142/', 'DEFAULT_LANG=en_US.UTF-8', 'DEFAULT_TZ=UTC' ]
+        'Env' => [ 'APT_LINE=jp', 'APT_HTTP_PROXY=http://x.x.x.x:3142/', 'DEFAULT_LANG=en_US.UTF-8', 'DEFAULT_TZ=UTC' ]
       })
     end
 
     after(:all) do
       stop_container
     end
+
+    describe file('/etc/apt/sources.list') do
+      apt_line_re = ->(enabled, type, uri, suite, *components) {
+        /^#{enabled ? '' : '#'}#{type}\s+#{Regexp.quote(uri)}\s+#{suite}\s+#{components.join('\s+')}$/
+      }
+      ## stable
+      its(:content) { should match apt_line_re[true,  'deb',      'http://ftp.jp.debian.org/debian/',           'stretch',                   'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb-src',  'http://ftp.jp.debian.org/debian/',           'stretch',                   'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',      'http://archive.debian.org/debian-security/',  'stretch/updates',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb-src',  'http://archive.debian.org/debian-security/',  'stretch/updates',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb',      'http://ftp.jp.debian.org/debian/',           'stretch-updates',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb-src',  'http://ftp.jp.debian.org/debian/',           'stretch-updates',           'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',      'http://ftp.jp.debian.org/debian/',           'stretch-proposed-updates',  'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb-src',  'http://ftp.jp.debian.org/debian/',           'stretch-proposed-updates',  'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',      'http://ftp.jp.debian.org/debian/',           'stretch-backports',         'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb-src',  'http://ftp.jp.debian.org/debian/',           'stretch-backports',         'main', 'contrib', 'non-free'] }
+      ## testing
+      its(:content) { should_not match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'testing',        'main', 'contrib', 'non-free'] }
+      its(:content) { should_not match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'testing',        'main', 'contrib', 'non-free'] }
+      ## sid
+      its(:content) { should_not match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'sid',            'main', 'contrib', 'non-free'] }
+      its(:content) { should_not match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'sid',            'main', 'contrib', 'non-free'] }
+      ## experimental
+      its(:content) { should_not match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/', 'experimental',   'main', 'contrib', 'non-free'] }
+      its(:content) { should_not match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/', 'experimental',   'main', 'contrib', 'non-free'] }
+    end
+
+
 
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
       it { should be_exist }
