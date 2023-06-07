@@ -38,14 +38,14 @@ describe 'minimum2scp/baseimage' do
       its(:content) { should match apt_line_re[false, 'deb',     'http://security.debian.org/debian-security', 'stable-security', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[false, 'deb-src', 'http://security.debian.org/debian-security', 'stable-security', 'main', 'contrib', 'non-free'] }
       ## testing
-      its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free', 'non-free-firmware'] }
       ## sid
-      its(:content) { should match apt_line_re[true,  'deb',     'http://deb.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',     'http://deb.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free', 'non-free-firmware'] }
       ## experimental
-      its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb',     'http://deb.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://deb.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free', 'non-free-firmware'] }
     end
 
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
@@ -208,14 +208,14 @@ describe 'minimum2scp/baseimage' do
       its(:content) { should match apt_line_re[false, 'deb',     'http://security.debian.org/debian-security', 'stable-security', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[false, 'deb-src', 'http://security.debian.org/debian-security', 'stable-security', 'main', 'contrib', 'non-free'] }
       ## testing
-      its(:content) { should match apt_line_re[false, 'deb',     'http://ftp.jp.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb',     'http://ftp.jp.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'testing',         'main', 'contrib', 'non-free', 'non-free-firmware'] }
       ## sid
-      its(:content) { should match apt_line_re[true,  'deb',     'http://ftp.jp.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true,  'deb',     'http://ftp.jp.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'sid',             'main', 'contrib', 'non-free', 'non-free-firmware'] }
       ## experimental
-      its(:content) { should match apt_line_re[false, 'deb',     'http://ftp.jp.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[false, 'deb',     'http://ftp.jp.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free', 'non-free-firmware'] }
+      its(:content) { should match apt_line_re[false, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'experimental',    'main', 'contrib', 'non-free', 'non-free-firmware'] }
     end
 
 
