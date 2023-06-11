@@ -335,6 +335,25 @@ jobs:
       - run: docker push minimum2scp/tdiary:latest
         if: github.ref == 'refs/heads/master'
 
+  debian-bookworm:
+    name: debian-bookworm
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/debian-bookworm
+
+      # no need to save image as artifact
+
+      # no need to push image
+
   debian-bullseye:
     name: debian-bullseye
     runs-on: ubuntu-latest
