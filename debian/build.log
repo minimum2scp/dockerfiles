@@ -9,13 +9,13 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Validating adduser 3.134
 I: Validating apt 2.6.1
-I: Retrieving base-files 13
 I: Validating base-files 13
 I: Validating base-passwd 3.6.1
 I: Validating bash 5.2.15-2+b2
 I: Validating bsdutils 1:2.38.1-5+b1
 I: Validating coreutils 9.1-1
-I: Validating dash 0.5.12-2
+I: Retrieving dash 0.5.12-4
+I: Validating dash 0.5.12-4
 I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2023.3
 I: Validating debianutils 5.7-0.4
@@ -23,7 +23,6 @@ I: Validating diffutils 1:3.8-4
 I: Validating dpkg 1.21.22
 I: Validating e2fsprogs 1.47.0-2
 I: Validating findutils 4.9.0-4
-I: Retrieving gcc-13-base 13.1.0-5
 I: Validating gcc-13-base 13.1.0-5
 I: Validating gpgv 2.2.40-1.1
 I: Validating grep 3.8-5
@@ -42,15 +41,12 @@ I: Validating libc6 2.36-9
 I: Validating libcap-ng0 0.8.3-1+b3
 I: Validating libcap2 1:2.66-4
 I: Validating libcom-err2 1.47.0-2
-I: Retrieving libcrypt1 1:4.4.35-1
 I: Validating libcrypt1 1:4.4.35-1
 I: Validating libdb5.3 5.3.28+dfsg2-1
 I: Validating libdebconfclient0 0.270
 I: Validating libext2fs2 1.47.0-2
 I: Validating libffi8 3.4.4-1
-I: Retrieving libgcc-s1 13.1.0-5
 I: Validating libgcc-s1 13.1.0-5
-I: Retrieving libgcrypt20 1.10.2-2
 I: Validating libgcrypt20 1.10.2-2
 I: Validating libgmp10 2:6.2.1+dfsg1-1.1
 I: Validating libgnutls30 3.7.9-2
@@ -75,13 +71,10 @@ I: Validating libsemanage2 3.4-1+b5
 I: Validating libsepol2 3.4-2.1
 I: Validating libsmartcols1 2.38.1-5+b1
 I: Validating libss2 1.47.0-2
-I: Retrieving libstdc++6 13.1.0-5
 I: Validating libstdc++6 13.1.0-5
-I: Retrieving libsystemd0 252.11-1
 I: Validating libsystemd0 252.11-1
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.4-4
-I: Retrieving libudev1 252.11-1
 I: Validating libudev1 252.11-1
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-5+b1
@@ -98,7 +91,6 @@ I: Validating perl-base 5.36.0-7
 I: Validating sed 4.9-1
 I: Validating sysvinit-utils 3.06-4
 I: Validating tar 1.34+dfsg-1.2
-I: Retrieving tzdata 2023c-6
 I: Validating tzdata 2023c-6
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.38.1-5+b1
