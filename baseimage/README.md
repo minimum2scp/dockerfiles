@@ -140,7 +140,7 @@ ii   libldap-2.5-0            2.5.13+dfsg-5                   amd64  OpenLDAP li
 ii   liblognorm5              2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.4.1-0.2                       amd64  XZ-format compression library
-ii   libmd0                   1.0.4-2                         amd64  message digest functions from BSD systems - shared library
+ii   libmd0                   1.1.0-1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-5+b1                     amd64  device mounting library
 ii   libncursesw6             6.4-4                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
