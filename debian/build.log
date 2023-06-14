@@ -14,7 +14,6 @@ I: Validating base-passwd 3.6.1
 I: Validating bash 5.2.15-2+b2
 I: Validating bsdutils 1:2.38.1-5+b1
 I: Validating coreutils 9.1-1
-I: Retrieving dash 0.5.12-4
 I: Validating dash 0.5.12-4
 I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2023.3
@@ -55,7 +54,8 @@ I: Validating libhogweed6 3.8.1-2
 I: Validating libidn2-0 2.3.3-1+b1
 I: Validating liblz4-1 1.9.4-1
 I: Validating liblzma5 5.4.1-0.2
-I: Validating libmd0 1.0.4-2
+I: Retrieving libmd0 1.1.0-1
+I: Validating libmd0 1.1.0-1
 I: Validating libmount1 2.38.1-5+b1
 I: Validating libnettle8 3.8.1-2
 I: Validating libp11-kit0 0.24.1-2
