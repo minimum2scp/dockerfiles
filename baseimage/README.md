@@ -117,7 +117,7 @@ ii   libdebconfclient0        0.270                           amd64  Debian Conf
 ii   libedit2                 3.1-20221030-2                  amd64  BSD editline and history libraries
 ii   liberror-perl            0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                 0.1.11-1                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                2.5.0-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                2.5.0-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2               1.47.0-2                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4             1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                  3.4.4-1                         amd64  Foreign Function Interface library runtime
@@ -190,7 +190,7 @@ ii   login                    1:4.13+dfsg1-1+b1               amd64  system logi
 ii   logsave                  1.47.0-2                        amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
-ii   mawk                     1.3.4.20200120-3.1              amd64  Pattern scanning and text processing language
+ii   mawk                     1.3.4.20230525-1                amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-5+b1                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.4-4                           all    basic terminal type definitions
 ii   ncurses-bin              6.4-4                           amd64  terminal-related programs and man pages
