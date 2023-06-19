@@ -10,6 +10,7 @@ digraph deps {
   ratio = auto;
 
   baseimage          [label = "minimum2scp/baseimage"];
+  baseimage_bookworm [label = "minimum2scp/baseimage-bookworm"];
   baseimage_bullseye [label = "minimum2scp/baseimage-bullseye"];
   baseimage_buster   [label = "minimum2scp/baseimage-buster"];
   baseimage_stretch  [label = "minimum2scp/baseimage-stretch"];
@@ -37,6 +38,8 @@ digraph deps {
   debian    -> baseimage;
   baseimage -> {es_kibana, nodejs, ruby, squid, systemd};
   ruby      -> {norikra, rails7, ruby_full, tdiary};
+
+  debian_bookworm -> baseimage_bookworm;
 
   debian_bullseye -> baseimage_bullseye;
   baseimage_bullseye -> {ruby_bullseye, systemd_bullseye};

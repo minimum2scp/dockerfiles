@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-<% images = %w[debian baseimage debian-bookworm debian-bullseye baseimage-bullseye debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
+<% images = %w[debian baseimage debian-bookworm baseimage-bookworm debian-bullseye baseimage-bullseye debian-buster baseimage-buster debian-stretch baseimage-stretch] -%>
 <% images.each do |image| -%>
   <%= image %>:
     name: <%= image %>

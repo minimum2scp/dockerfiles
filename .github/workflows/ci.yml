@@ -354,6 +354,31 @@ jobs:
 
       # no need to push image
 
+  baseimage-bookworm:
+    name: baseimage-bookworm
+    runs-on: ubuntu-latest
+    steps:
+      # build image
+      - uses: actions/checkout@v3
+      - run: docker build -t minimum2scp/baseimage-bookworm:latest baseimage-bookworm
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/baseimage-bookworm
+
+      # no need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-bookworm:latest
+        if: github.ref == 'refs/heads/master'
+
   debian-bullseye:
     name: debian-bullseye
     runs-on: ubuntu-latest
