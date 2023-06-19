@@ -133,6 +133,49 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: "failure()"
 
+  baseimage-bookworm:
+    name: baseimage-bookworm
+    runs-on: ubuntu-latest
+    needs: debian-bookworm
+    steps:
+      - uses: actions/checkout@v3
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      # run test
+      - run: docker pull minimum2scp/baseimage-bookworm:latest
+      - run: bundle exec rspec spec/baseimage-bookworm/01apt_spec.rb -e 'apt list --upgradable'
+
+      # notify to slack
+      - uses: ruby/action-slack@v3.2.1
+        with:
+          payload: |
+            {
+              "username": "GitHub Actions",
+              "icon_emoji": ":octocat:",
+              "channel": "#gh",
+              "attachments": [{
+                "color": "danger",
+                "text": "${{ job.status }}: Workflow ${{ github.workflow }} (<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|#${{ github.run_number }}>)",
+                "footer": "<https://github.com/${{ github.repository }}|${{ github.repository }}>",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "fields": [
+                  {
+                    "title": "image",
+                    "value": "minimum2scp/baseimage-bookworm:latest",
+                    "short": false
+                  }
+                ]
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: "failure()"
+
   debian-bullseye:
     name: debian-bullseye
     runs-on: ubuntu-latest
