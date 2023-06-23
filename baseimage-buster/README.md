@@ -120,7 +120,7 @@ ii   liberror-perl           0.17027-2                    all    Perl module for
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-2+deb10u6              amd64  XML parsing C library - runtime library
 ii   libext2fs2              1.44.5-1+deb10u3             amd64  ext2/ext3/ext4 file system libraries
-ii   libfastjson4            0.99.8-2                     amd64  fast json library for C
+ii   libfastjson4            0.99.8-2+deb10u1             amd64  fast json library for C
 ii   libfdisk1               2.33.1-0.1                   amd64  fdisk partitioning library
 ii   libffi6                 3.2.1-9                      amd64  Foreign Function Interface library runtime
 ii   libgcc1                 1:8.3.0-6                    amd64  GCC support library

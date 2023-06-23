@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.99.8-2",
+    "Version": "0.99.8-2+deb10u1",
     "binary:Package": "libfastjson4:amd64",
     "binary:Summary": "fast json library for C",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfastjson",
-    "source:Version": "0.99.8-2"
+    "source:Version": "0.99.8-2+deb10u1"
   },
   {
     "Architecture": "amd64",
