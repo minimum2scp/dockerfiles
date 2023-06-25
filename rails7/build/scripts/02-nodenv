@@ -13,9 +13,7 @@ node_version=$(python3 /tmp/build/rails7/helpers/latest-nodejs-version.py v20.)
 git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}
 
 ## install nodenv plugins
-#git clone https://github.com/nodenv/node-build.git               ${nodenv_root}/plugins/node-build
-git clone -b latest-scraped-definitions \
-          https://github.com/minimum2scp/node-build.git          ${nodenv_root}/plugins/node-build
+git clone https://github.com/nodenv/node-build.git               ${nodenv_root}/plugins/node-build
 git clone https://github.com/nodenv/nodenv-update.git            ${nodenv_root}/plugins/nodenv-update
 git clone https://github.com/nodenv/nodenv-aliases.git           ${nodenv_root}/plugins/nodenv-aliases
 
