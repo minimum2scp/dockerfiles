@@ -172,18 +172,18 @@ ii   libss2                   1.47.0-2                        amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               13.1.0-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0              253-3                           amd64  systemd utility library
+ii   libsystemd0              253-4                           amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 253-3                           amd64  libudev shared library
+ii   libudev1                 253-4                           amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5+b1                     amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                         amd64  shared library for xxhash
-ii   libzstd1                 1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                  2.36-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1+b1               amd64  system login tools
@@ -222,11 +222,11 @@ ii   unzip                    6.0-28                          amd64  De-archiver
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38.1-5+b1                     amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-5+b1                     amd64  interactive login tools
-ii   vim-common               2:9.0.1378-2                    all    Vi IMproved - Common files
-ii   vim-tiny                 2:9.0.1378-2                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common               2:9.0.1658-1                    all    Vi IMproved - Common files
+ii   vim-tiny                 2:9.0.1658-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
 ii   zsh                      5.9-4+b2                        amd64  shell with lots of features
 ii   zsh-common               5.9-4                           all    architecture independent files for Zsh
-ii   zstd                     1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm -- CLI tool
 ```
