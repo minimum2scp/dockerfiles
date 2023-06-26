@@ -3055,10 +3055,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.14), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.25), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "357",
+    "Installed-Size": "404",
     "Origin": "",
     "Package": "libssh2-1",
     "Pre-Depends": "",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.10.0-3+b1",
+    "Version": "1.11.0-2",
     "binary:Package": "libssh2-1:amd64",
     "binary:Summary": "SSH2 client-side library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libssh2",
-    "source:Version": "1.10.0-3"
+    "source:Version": "1.11.0-2"
   },
   {
     "Architecture": "amd64",
