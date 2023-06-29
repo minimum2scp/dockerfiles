@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating adduser 3.134
+I: Retrieving adduser 3.137
+I: Validating adduser 3.137
 I: Validating apt 2.6.1
 I: Validating base-files 13
 I: Validating base-passwd 3.6.1
@@ -71,16 +72,13 @@ I: Validating libsepol2 3.4-2.1
 I: Validating libsmartcols1 2.38.1-5+b1
 I: Validating libss2 1.47.0-2
 I: Validating libstdc++6 13.1.0-6
-I: Retrieving libsystemd0 253-4
 I: Validating libsystemd0 253-4
 I: Validating libtasn1-6 4.19.0-2
 I: Validating libtinfo6 6.4-4
-I: Retrieving libudev1 253-4
 I: Validating libudev1 253-4
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.38.1-5+b1
 I: Validating libxxhash0 0.8.1-1
-I: Retrieving libzstd1 1.5.5+dfsg2-1
 I: Validating libzstd1 1.5.5+dfsg2-1
 I: Validating login 1:4.13+dfsg1-1+b1
 I: Validating logsave 1.47.0-2
