@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                  3.134                           all    add and remove users and groups
+ii   adduser                  3.137                           all    add and remove users and groups
 ii   apt                      2.6.1                           amd64  commandline package manager
 ii   base-files               13                              amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.13p3-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.13p3-3                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.06-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-4                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
