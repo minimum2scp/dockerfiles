@@ -82,7 +82,7 @@ ii   dpkg                     1.21.22                         amd64  Debian pack
 ii   e2fsprogs                1.47.0-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
-ii   gcc-13-base              13.1.0-6                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-13-base              13.1.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.40.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.40.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
@@ -91,7 +91,7 @@ ii   groff-base               1.22.4-10                       amd64  GNU troff t
 ii   gzip                     1.12-1                          amd64  GNU compression utilities
 ii   hostname                 3.23+nmu1                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.65.2                          all    helper tools for all init systems
-ii   initscripts              3.06-4                          all    scripts for initializing and shutting down the system
+ii   initscripts              3.07-1                          all    scripts for initializing and shutting down the system
 ii   insserv                  1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                  2.3.1-3                         amd64  access control list - shared library
 ii   libapt-pkg6.0            2.6.1                           amd64  package management runtime library
@@ -122,7 +122,7 @@ ii   libext2fs2               1.47.0-2                        amd64  ext2/ext3/e
 ii   libfastjson4             1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                  3.4.4-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1               1.13.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                13.1.0-6                        amd64  GCC support library
+ii   libgcc-s1                13.1.0-7                        amd64  GCC support library
 ii   libgcrypt20              1.10.2-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
@@ -142,7 +142,7 @@ ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ com
 ii   liblzma5                 5.4.1-0.2                       amd64  XZ-format compression library
 ii   libmd0                   1.1.0-1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.38.1-5+b1                     amd64  device mounting library
-ii   libncursesw6             6.4-4                           amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6             6.4+20230625-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14            1.54.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -171,14 +171,14 @@ ii   libsmartcols1            2.38.1-5+b1                     amd64  smart colum
 ii   libss2                   1.47.0-2                        amd64  command-line interface parsing library
 ii   libssh2-1                1.11.0-2                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               13.1.0-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0              253-4                           amd64  systemd utility library
+ii   libstdc++6               13.1.0-7                        amd64  GNU Standard C++ Library v3
+ii   libsystemd0              253.5-1                         amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                6.4+20230625-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 253-4                           amd64  libudev shared library
+ii   libudev1                 253.5-1                         amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5+b1                     amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -192,8 +192,8 @@ ii   lv                       4.51-9                          amd64  Powerful Mu
 ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20230525-1                amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-5+b1                     amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.4-4                           all    basic terminal type definitions
-ii   ncurses-bin              6.4-4                           amd64  terminal-related programs and man pages
+ii   ncurses-base             6.4+20230625-1                  all    basic terminal type definitions
+ii   ncurses-bin              6.4+20230625-1                  amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.3p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.3p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
@@ -211,9 +211,9 @@ ii   sed                      4.9-1                           amd64  GNU stream 
 ii   sensible-utils           0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                     1.9.13p3-3                      amd64  Provide limited super user privileges to specific users
-ii   sysv-rc                  3.06-4                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core            3.06-4                          amd64  System-V-like init
-ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
+ii   sysv-rc                  3.07-1                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core            3.07-1                          amd64  System-V-like init
+ii   sysvinit-utils           3.07-1                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                   2023c-6                         all    time zone and daylight-saving time data

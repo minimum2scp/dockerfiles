@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "13.1.0-6",
+    "Version": "13.1.0-7",
     "binary:Package": "gcc-13-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-13",
-    "source:Version": "13.1.0-6"
+    "source:Version": "13.1.0-7"
   },
   {
     "Architecture": "amd64",
@@ -874,7 +874,7 @@
     "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "177",
+    "Installed-Size": "178",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.06-4",
+    "Version": "3.07-1",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.06-4"
+    "source:Version": "3.07-1"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-13-base (= 13.1.0-6), libc6 (>= 2.35)",
+    "Depends": "gcc-13-base (= 13.1.0-7), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "156",
@@ -1747,13 +1747,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:13.1.0-6)",
+    "Provides": "libgcc1 (= 1:13.1.0-7)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "13.1.0-6",
+    "Version": "13.1.0-7",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-13",
-    "source:Version": "13.1.0-6"
+    "source:Version": "13.1.0-7"
   },
   {
     "Architecture": "amd64",
@@ -2299,10 +2299,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.4-4), libc6 (>= 2.34)",
+    "Depends": "libtinfo6 (= 6.4+20230625-1), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "412",
+    "Installed-Size": "413",
     "Origin": "",
     "Package": "libncursesw6",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-4",
+    "Version": "6.4+20230625-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-4"
+    "source:Version": "6.4+20230625-1"
   },
   {
     "Architecture": "amd64",
@@ -3111,7 +3111,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-13-base (= 13.1.0-6), libc6 (>= 2.36), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-13-base (= 13.1.0-7), libc6 (>= 2.36), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2946",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "13.1.0-6",
+    "Version": "13.1.0-7",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3133,16 +3133,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-13",
-    "source:Version": "13.1.0-6"
+    "source:Version": "13.1.0-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.35), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.5.2)",
+    "Depends": "libc6 (>= 2.35), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.5.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "930",
+    "Installed-Size": "934",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "253-4",
+    "Version": "253.5-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "253-4"
+    "source:Version": "253.5-1"
   },
   {
     "Architecture": "amd64",
@@ -3194,11 +3194,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "tmux (<< 3.3a-4)",
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "541",
+    "Installed-Size": "558",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-4",
+    "Version": "6.4+20230625-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-4"
+    "source:Version": "6.4+20230625-1"
   },
   {
     "Architecture": "all",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "253-4",
+    "Version": "253.5-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "253-4"
+    "source:Version": "253.5-1"
   },
   {
     "Architecture": "amd64",
@@ -3698,7 +3698,7 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), neovim (<< 0.6.0), vim-common (<< 2:9.0.1000-2), zsh-static (<< 5.4.2-4)",
+    "Breaks": "cryptsetup-initramfs (<< 2:2.6.1), ncurses-term (<< 6.4+20230625), neovim (<< 0.6.0), vim-common (<< 2:9.0.1000-2)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-4",
+    "Version": "6.4+20230625-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-4"
+    "source:Version": "6.4+20230625-1"
   },
   {
     "Architecture": "amd64",
@@ -3730,10 +3730,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "636",
+    "Installed-Size": "641",
     "Origin": "",
     "Package": "ncurses-bin",
-    "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.3)",
+    "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.4+20230603)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4-4",
+    "Version": "6.4+20230625-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4-4"
+    "source:Version": "6.4+20230625-1"
   },
   {
     "Architecture": "amd64",
@@ -4234,7 +4234,7 @@
     "Depends": "insserv, startpar (>= 0.62-1~), sysvinit-utils (>= 3.05-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "85",
+    "Installed-Size": "86",
     "Origin": "",
     "Package": "sysv-rc",
     "Pre-Depends": "",
@@ -4245,7 +4245,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.06-4",
+    "Version": "3.07-1",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.06-4"
+    "source:Version": "3.07-1"
   },
   {
     "Architecture": "amd64",
@@ -4262,7 +4262,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "343",
+    "Installed-Size": "369",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.06-4",
+    "Version": "3.07-1",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.06-4"
+    "source:Version": "3.07-1"
   },
   {
     "Architecture": "amd64",
@@ -4290,7 +4290,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "100",
+    "Installed-Size": "101",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.06-4",
+    "Version": "3.07-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.06-4"
+    "source:Version": "3.07-1"
   },
   {
     "Architecture": "amd64",
