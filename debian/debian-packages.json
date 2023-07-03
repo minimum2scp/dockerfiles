@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.7-0.4",
+    "Version": "5.7-0.5",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.7-0.4"
+    "source:Version": "5.7-0.5"
   },
   {
     "Architecture": "amd64",
@@ -409,7 +409,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.9.0-4",
+    "Version": "4.9.0-5",
     "binary:Package": "findutils",
     "binary:Summary": "utilities for finding files--find, xargs",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "findutils",
-    "source:Version": "4.9.0-4"
+    "source:Version": "4.9.0-5"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "124",
+    "Installed-Size": "116",
     "Origin": "",
     "Package": "libtasn1-6",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.19.0-2",
+    "Version": "4.19.0-3",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.19.0-2"
+    "source:Version": "4.19.0-3"
   },
   {
     "Architecture": "amd64",

@@ -28,11 +28,11 @@ ii   coreutils               9.1-1              amd64  GNU core utilities
 ii   dash                    0.5.12-6           amd64  POSIX-compliant shell
 ii   debconf                 1.5.82             all    Debian configuration management system
 ii   debian-archive-keyring  2023.3             all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.7-0.4            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.7-0.5            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-4            amd64  File comparison utilities
 ii   dpkg                    1.21.22            amd64  Debian package management system
 ii   e2fsprogs               1.47.0-2           amd64  ext2/ext3/ext4 file system utilities
-ii   findutils               4.9.0-4            amd64  utilities for finding files--find, xargs
+ii   findutils               4.9.0-5            amd64  utilities for finding files--find, xargs
 ii   gcc-13-base             13.1.0-7           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1.1         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-5              amd64  GNU grep, egrep and fgrep
@@ -83,7 +83,7 @@ ii   libsmartcols1           2.38.1-5+b1        amd64  smart column output align
 ii   libss2                  1.47.0-2           amd64  command-line interface parsing library
 ii   libstdc++6              13.1.0-7           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             253.5-1            amd64  systemd utility library
-ii   libtasn1-6              4.19.0-2           amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6              4.19.0-3           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.4+20230625-1     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                253.5-1            amd64  libudev shared library
 ii   libunistring2           1.0-2              amd64  Unicode string library for C
