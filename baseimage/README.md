@@ -76,12 +76,12 @@ ii   curl                     7.88.1-10                       amd64  command lin
 ii   dash                     0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring   2023.3                          all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.7-0.4                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.7-0.5                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.8-4                         amd64  File comparison utilities
 ii   dpkg                     1.21.22                         amd64  Debian package management system
 ii   e2fsprogs                1.47.0-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
-ii   findutils                4.9.0-4                         amd64  utilities for finding files--find, xargs
+ii   findutils                4.9.0-5                         amd64  utilities for finding files--find, xargs
 ii   gcc-13-base              13.1.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                      1:2.40.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                  1:2.40.1-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -173,7 +173,7 @@ ii   libssh2-1                1.11.0-2                        amd64  SSH2 client
 ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               13.1.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0              253.5-1                         amd64  systemd utility library
-ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6               4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4+20230625-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
