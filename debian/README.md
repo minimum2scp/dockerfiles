@@ -68,7 +68,7 @@ ii   liblzma5                5.4.1-0.2          amd64  XZ-format compression lib
 ii   libmd0                  1.1.0-1            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.38.1-5+b1        amd64  device mounting library
 ii   libnettle8              3.8.1-2            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.24.1-2           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.25.0-2           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.5.2-6            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.5.2-6            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-6            all    Runtime support for the PAM library

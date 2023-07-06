@@ -1406,7 +1406,7 @@
     "Depends": "libc6 (>= 2.34), libffi8 (>= 3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1408",
+    "Installed-Size": "1819",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.24.1-2",
+    "Version": "0.25.0-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.24.1-2"
+    "source:Version": "0.25.0-2"
   },
   {
     "Architecture": "amd64",
