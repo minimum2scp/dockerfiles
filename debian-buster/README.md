@@ -27,7 +27,7 @@ ii   bsdutils                1:2.33.1-0.1             amd64  basic utilities fro
 ii   coreutils               8.30-3                   amd64  GNU core utilities
 ii   dash                    0.5.10.2-5               amd64  POSIX-compliant shell
 ii   debconf                 1.5.71+deb10u1           all    Debian configuration management system
-ii   debian-archive-keyring  2019.1+deb10u1           all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2019.1+deb10u2           all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                  amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                  amd64  File comparison utilities
 ii   dpkg                    1.19.8                   amd64  Debian package management system
