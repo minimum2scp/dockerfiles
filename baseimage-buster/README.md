@@ -74,7 +74,7 @@ ii   cron                    3.0pl1-134+deb10u1           amd64  process schedul
 ii   curl                    7.64.0-4+deb10u6             amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.10.2-5                   amd64  POSIX-compliant shell
 ii   debconf                 1.5.71+deb10u1               all    Debian configuration management system
-ii   debian-archive-keyring  2019.1+deb10u1               all    GnuPG archive keys of the Debian archive
+ii   debian-archive-keyring  2019.1+deb10u2               all    GnuPG archive keys of the Debian archive
 ii   debianutils             4.8.6.1                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.7-3                      amd64  File comparison utilities
 ii   dpkg                    1.19.8                       amd64  Debian package management system
