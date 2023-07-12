@@ -131,7 +131,7 @@ ii   libgnutls30              3.7.9-2                         amd64  GNU TLS lib
 ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.8.1-2                         amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                2.3.3-1+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                2.3.4-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3             1.20.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1             1.6.3-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                1.20.1-2                        amd64  MIT Kerberos runtime libraries
@@ -152,7 +152,7 @@ ii   libpam-modules           1.5.2-6                         amd64  Pluggable A
 ii   libpam-modules-bin       1.5.2-6                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.2-6                         all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-6                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.42-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.42-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7                        amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
