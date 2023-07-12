@@ -62,7 +62,7 @@ ii   libgmp10                2:6.2.1+dfsg1-1.1  amd64  Multiprecision arithmetic
 ii   libgnutls30             3.7.9-2            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.46-1             amd64  GnuPG development runtime library
 ii   libhogweed6             3.8.1-2            amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.3.3-1+b1         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.4-1            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.4.1-0.2          amd64  XZ-format compression library
 ii   libmd0                  1.1.0-1            amd64  message digest functions from BSD systems - shared library
@@ -73,7 +73,7 @@ ii   libpam-modules          1.5.2-6            amd64  Pluggable Authentication 
 ii   libpam-modules-bin      1.5.2-6            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-6            all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-6            amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0            10.42-1            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0            10.42-2            amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+b3         amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.5-1              amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.5-1              all    Common files for SELinux policy management libraries
