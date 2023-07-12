@@ -371,12 +371,46 @@ jobs:
       # run test
       - run: bundle exec rspec spec/baseimage-bookworm
 
-      # no need to save image as artifact
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage-bookworm:latest | pigz -c - > /tmp/baseimage-bookworm.tar.gz
+      - uses: actions/upload-artifact@v3
+        with: { name: baseimage-bookworm, path: /tmp/baseimage-bookworm.tar.gz }
 
       # push image to docker hub
       - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
         if: github.ref == 'refs/heads/master'
       - run: docker push minimum2scp/baseimage-bookworm:latest
+        if: github.ref == 'refs/heads/master'
+
+  ruby-bookworm:
+    name: ruby-bookworm
+    runs-on: ubuntu-latest
+    needs: [baseimage-bookworm]
+    steps:
+      # load parent image
+      - uses: actions/download-artifact@v3
+        with: { name: baseimage-bookworm, path: /tmp }
+      - run: pigz -c -d /tmp/baseimage-bookworm.tar.gz | docker load
+
+      # build image
+      - uses: actions/checkout@v3
+      - run: docker build -t minimum2scp/ruby-bookworm:latest ruby-bookworm
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/ruby-bookworm
+
+      # no need to save image as artifact
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/ruby-bookworm:latest
         if: github.ref == 'refs/heads/master'
 
   debian-bullseye:
