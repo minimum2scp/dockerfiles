@@ -18,8 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   adduser                 3.137              all    add and remove users and groups
-ii   apt                     2.6.1              amd64  commandline package manager
+ii   apt                     2.7.2              amd64  commandline package manager
 ii   base-files              13                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.1              amd64  Debian base system master password and group files
 ii   bash                    5.2.15-2+b2        amd64  GNU Bourne Again SHell
@@ -33,14 +32,14 @@ ii   diffutils               1:3.8-4            amd64  File comparison utilities
 ii   dpkg                    1.21.22            amd64  Debian package management system
 ii   e2fsprogs               1.47.0-2           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-5            amd64  utilities for finding files--find, xargs
-ii   gcc-13-base             13.1.0-7           amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-13-base             13.1.0-8           amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1.1         amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.8-5              amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1             amd64  GNU compression utilities
 ii   hostname                3.23+nmu1          amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.65.2             all    helper tools for all init systems
 ii   libacl1                 2.3.1-3            amd64  access control list - shared library
-ii   libapt-pkg6.0           2.6.1              amd64  package management runtime library
+ii   libapt-pkg6.0           2.7.2              amd64  package management runtime library
 ii   libattr1                1:2.5.1-4          amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.1.1-1          all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.1.1-1          amd64  Dynamic library for security auditing
@@ -56,7 +55,7 @@ ii   libdb5.3                5.3.28+dfsg2-1     amd64  Berkeley v5.3 Database Li
 ii   libdebconfclient0       0.270              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2           amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               13.1.0-7           amd64  GCC support library
+ii   libgcc-s1               13.1.0-8           amd64  GCC support library
 ii   libgcrypt20             1.10.2-2           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg1-1.1  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.9-2            amd64  GNU TLS library - main runtime library
@@ -81,7 +80,7 @@ ii   libsemanage2            3.5-1              amd64  SELinux policy management
 ii   libsepol2               3.5-1              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.38.1-6           amd64  smart column output alignment library
 ii   libss2                  1.47.0-2           amd64  command-line interface parsing library
-ii   libstdc++6              13.1.0-7           amd64  GNU Standard C++ Library v3
+ii   libstdc++6              13.1.0-8           amd64  GNU Standard C++ Library v3
 ii   libsystemd0             253.5-1            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.4+20230625-1     amd64  shared low-level terminfo library for terminal handling
