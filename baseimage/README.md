@@ -87,7 +87,7 @@ ii   git                      1:2.40.1-1                      amd64  fast, scala
 ii   git-man                  1:2.40.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                     2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.8-5                           amd64  GNU grep, egrep and fgrep
-ii   groff-base               1.23.0-1                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base               1.23.0-2                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                     1.12-1                          amd64  GNU compression utilities
 ii   hostname                 3.23+nmu1                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.65.2                          all    helper tools for all init systems
@@ -102,9 +102,9 @@ ii   libblkid1                2.38.1-6                        amd64  block devic
 ii   libbrotli1               1.0.9-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.7-4                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.37-5                          amd64  GNU C Library: Binaries
-ii   libc-l10n                2.37-5                          all    GNU C Library: localization files
-ii   libc6                    2.37-5                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.37-6                          amd64  GNU C Library: Binaries
+ii   libc-l10n                2.37-6                          all    GNU C Library: localization files
+ii   libc6                    2.37-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b3                      amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -185,7 +185,7 @@ ii   libwrap0                 7.6.q-32                        amd64  Wietse Vene
 ii   libxxhash0               0.8.1-1                         amd64  shared library for xxhash
 ii   libzstd1                 1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.37-5                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.37-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1+b1               amd64  system login tools
 ii   logsave                  1.47.0-2                        amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
