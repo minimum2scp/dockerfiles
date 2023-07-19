@@ -451,10 +451,10 @@
     "Architecture": "amd64",
     "Conflicts": "rgrep",
     "Breaks": "",
-    "Depends": "dpkg (>= 1.15.4) | install-info",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1245",
+    "Installed-Size": "1267",
     "Origin": "",
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.34), libpcre2-8-0 (>= 10.32)",
@@ -465,7 +465,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.8-5",
+    "Version": "3.11-1",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "3.8-5"
+    "source:Version": "3.11-1"
   },
   {
     "Architecture": "amd64",
