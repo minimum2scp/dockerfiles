@@ -145,7 +145,7 @@ ii   libmount1                2.38.1-6                        amd64  device moun
 ii   libncursesw6             6.4+20230625-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8               3.8.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14            1.54.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14            1.55.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.25.0-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules           1.5.2-6                         amd64  Pluggable Authentication Modules for PAM
@@ -195,9 +195,9 @@ ii   mount                    2.38.1-6                        amd64  tools for m
 ii   ncurses-base             6.4+20230625-1                  all    basic terminal type definitions
 ii   ncurses-bin              6.4+20230625-1                  amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client           1:9.3p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:9.3p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:9.3p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:9.3p2-1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:9.3p2-1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:9.3p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
@@ -210,7 +210,7 @@ ii   runit-helper             2.15.2                          all    dh-runit im
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                 0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                     1.9.13p3-3                      amd64  Provide limited super user privileges to specific users
+ii   sudo                     1.9.14p2-1                      amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                  3.07-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.07-1                          amd64  System-V-like init
 ii   sysvinit-utils           3.07-1                          amd64  System-V-like utilities
