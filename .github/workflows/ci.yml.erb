@@ -31,6 +31,7 @@ images = {
   'debian-bookworm':     default_conf.merge(build_image: false, push_image: false),
   'baseimage-bookworm':  default_conf.merge(save_artifact: true),
   'ruby-bookworm':       default_conf.merge(parent: 'baseimage-bookworm'),
+  'systemd-bookworm':    default_conf.merge(parent: 'baseimage-bookworm'),
 
   'debian-bullseye':     default_conf.merge(build_image: false, push_image: false),
   'baseimage-bullseye':  default_conf.merge(save_artifact: true),
