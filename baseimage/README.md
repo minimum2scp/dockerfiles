@@ -109,7 +109,7 @@ ii   libcap-ng0               0.8.3-1+b3                      amd64  alternate P
 ii   libcap2                  1:2.66-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2              1.47.0-2                        amd64  common error description library
-ii   libcrypt1                1:4.4.35-1                      amd64  libcrypt shared library
+ii   libcrypt1                1:4.4.36-1                      amd64  libcrypt shared library
 ii   libcurl3-gnutls          7.88.1-10                       amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                 7.88.1-10                       amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                 5.3.28+dfsg2-1                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -172,13 +172,13 @@ ii   libss2                   1.47.0-2                        amd64  command-lin
 ii   libssh2-1                1.11.0-2                        amd64  SSH2 client-side library
 ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               13.1.0-9                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0              254~rc2-3                       amd64  systemd utility library
+ii   libsystemd0              254~rc3-3                       amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4+20230625-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 254~rc2-3                       amd64  libudev shared library
+ii   libudev1                 254~rc3-3                       amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-6                        amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -189,7 +189,7 @@ ii   locales                  2.37-6                          all    GNU C Libra
 ii   login                    1:4.13+dfsg1-1+b1               amd64  system login tools
 ii   logsave                  1.47.0-2                        amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                   2.11.2-2                        amd64  tools for reading manual pages
+ii   man-db                   2.11.2-3                        amd64  tools for reading manual pages
 ii   mawk                     1.3.4.20230525-1                amd64  Pattern scanning and text processing language
 ii   mount                    2.38.1-6                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.4+20230625-2                  all    basic terminal type definitions
