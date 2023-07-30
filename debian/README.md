@@ -50,7 +50,7 @@ ii   libc6                   2.37-6             amd64  GNU C Library: Shared lib
 ii   libcap-ng0              0.8.3-1+b3         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-4           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2           amd64  common error description library
-ii   libcrypt1               1:4.4.36-1         amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.36-2         amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg2-1     amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.270              amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2           amd64  ext2/ext3/ext4 file system libraries
@@ -67,7 +67,7 @@ ii   liblzma5                5.4.1-0.2          amd64  XZ-format compression lib
 ii   libmd0                  1.1.0-1            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.39.1-3           amd64  device mounting library
 ii   libnettle8              3.9.1-2            amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libp11-kit0             0.25.0-3           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0             0.25.0-4           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.5.2-6            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.5.2-6            amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime          1.5.2-6            all    Runtime support for the PAM library
