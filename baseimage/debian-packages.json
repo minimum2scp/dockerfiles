@@ -1850,11 +1850,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libmath-gmp-perl (<< 2.20-1), libmath-prime-util-gmp-perl (<< 0.51-2), postgresql-pgmp (<< 1.0.3-1)",
+    "Breaks": "postgresql-pgmp (<< 1.0.3-1)",
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "855",
+    "Installed-Size": "858",
     "Origin": "",
     "Package": "libgmp10",
     "Pre-Depends": "",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.2.1+dfsg1-1.1",
+    "Version": "2:6.3.0+dfsg-2",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.2.1+dfsg1-1.1"
+    "source:Version": "2:6.3.0+dfsg-2"
   },
   {
     "Architecture": "amd64",
