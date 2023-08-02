@@ -159,8 +159,8 @@ ii   libpopt0                 1.19+dfsg-1                     amd64  lib for par
 ii   libproc2-0               2:4.0.3-1                       amd64  library for accessing process information from /proc
 ii   libpsl5                  0.21.2-1                        amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                 2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2               2.1.28+dfsg1-1                  amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db      2.1.28+dfsg1-1                  amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2               2.1.28+dfsg1-2                  amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db      2.1.28+dfsg1-2                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2              2.5.4-1+b3                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.5-1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.5-1                           all    Common files for SELinux policy management libraries
@@ -170,7 +170,7 @@ ii   libslang2                2.3.3-3                         amd64  S-Lang prog
 ii   libsmartcols1            2.39.1-3                        amd64  smart column output alignment library
 ii   libss2                   1.47.0-2                        amd64  command-line interface parsing library
 ii   libssh2-1                1.11.0-2                        amd64  SSH2 client-side library
-ii   libssl3                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                  3.0.10-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               13.2.0-1                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0              254-1                           amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ ii   net-tools                2.10-0.1                        amd64  NET-3 netwo
 ii   openssh-client           1:9.3p2-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.3p2-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.3p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                  3.0.9-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                  3.0.10-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
 ii   perl                     5.36.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
