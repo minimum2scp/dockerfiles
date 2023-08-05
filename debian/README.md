@@ -45,8 +45,8 @@ ii   libaudit-common         1:3.1.1-1          all    Dynamic library for secur
 ii   libaudit1               1:3.1.1-1          amd64  Dynamic library for security auditing
 ii   libblkid1               2.39.1-3           amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.37-6             amd64  GNU C Library: Binaries
-ii   libc6                   2.37-6             amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.37-7             amd64  GNU C Library: Binaries
+ii   libc6                   2.37-7             amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.3-1+b3         amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-4           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2           amd64  common error description library
@@ -91,7 +91,7 @@ ii   libxxhash0              0.8.1-1            amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-1      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1+b1  amd64  system login tools
 ii   logsave                 1.47.0-2           amd64  save the output of a command in a log file
-ii   mawk                    1.3.4.20230525-1   amd64  Pattern scanning and text processing language
+ii   mawk                    1.3.4.20230730-1   amd64  Pattern scanning and text processing language
 ii   mount                   2.39.1-3           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.4+20230625-2     all    basic terminal type definitions
 ii   ncurses-bin             6.4+20230625-2     amd64  terminal-related programs and man pages
