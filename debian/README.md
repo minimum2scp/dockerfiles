@@ -58,7 +58,7 @@ ii   libffi8                 3.4.4-1            amd64  Foreign Function Interfac
 ii   libgcc-s1               13.2.0-1           amd64  GCC support library
 ii   libgcrypt20             1.10.2-2           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2     amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.8.1-2            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.8.1-3            amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.46-1             amd64  GnuPG development runtime library
 ii   libhogweed6             3.9.1-2            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.4-1            amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -100,7 +100,7 @@ ii   perl-base               5.36.0-7           amd64  minimal Perl system
 ii   sed                     4.9-1              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.07-1             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.2      amd64  GNU version of the tar archiving utility
-ii   tzdata                  2023c-7            all    time zone and daylight-saving time data
+ii   tzdata                  2023c-8            all    time zone and daylight-saving time data
 ii   usr-is-merged           35                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.39.1-3           amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.13.dfsg-1    amd64  compression library - runtime
