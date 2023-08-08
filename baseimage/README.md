@@ -127,7 +127,7 @@ ii   libgcrypt20              1.10.2-2                        amd64  LGPL Crypto
 ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.8.1-2                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.8.1-3                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -216,7 +216,7 @@ ii   sysvinit-core            3.07-1                          amd64  System-V-li
 ii   sysvinit-utils           3.07-1                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                   2023c-7                         all    time zone and daylight-saving time data
+ii   tzdata                   2023c-8                         all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
