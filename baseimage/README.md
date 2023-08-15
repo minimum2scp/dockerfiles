@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.39.1-4                      amd64  basic utili
 ii   bzip2                    1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20230311                        all    Common CA certificates
 ii   coreutils                9.1-1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-164                      amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-164                      all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-165                      amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-165                      all    process scheduling daemon's configuration files
 ii   curl                     8.2.1-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
@@ -128,14 +128,14 @@ ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm dat
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30              3.8.1-3                         amd64  GNU TLS library - main runtime library
-ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2         1.20.1-2                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgpg-error0            1.47-2                          amd64  GnuPG development runtime library
+ii   libgssapi-krb5-2         1.20.1-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.4-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3             1.20.1-2                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3             1.20.1-3                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1             1.6.3-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                1.20.1-2                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0          1.20.1-2                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                1.20.1-3                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0          1.20.1-3                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0            2.5.13+dfsg-5                   amd64  OpenLDAP libraries
 ii   liblognorm5              2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                 1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
@@ -224,7 +224,7 @@ ii   util-linux               2.39.1-4                        amd64  miscellaneo
 ii   vim-common               2:9.0.1672-1                    all    Vi IMproved - Common files
 ii   vim-tiny                 2:9.0.1672-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                 0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                   1:1.2.13.dfsg-1                 amd64  compression library - runtime
+ii   zlib1g                   1:1.2.13.dfsg-2                 amd64  compression library - runtime
 ii   zsh                      5.9-4+b4                        amd64  shell with lots of features
 ii   zsh-common               5.9-4                           all    architecture independent files for Zsh
 ii   zstd                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm -- CLI tool
