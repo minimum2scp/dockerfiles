@@ -57,10 +57,14 @@ I: Validating libmd0 1.1.0-1
 I: Validating libmount1 2.39.1-4
 I: Validating libnettle8 3.9.1-2
 I: Validating libp11-kit0 0.25.0-4
-I: Validating libpam-modules 1.5.2-6
-I: Validating libpam-modules-bin 1.5.2-6
-I: Validating libpam-runtime 1.5.2-6
-I: Validating libpam0g 1.5.2-6
+I: Retrieving libpam-modules 1.5.2-7
+I: Validating libpam-modules 1.5.2-7
+I: Retrieving libpam-modules-bin 1.5.2-7
+I: Validating libpam-modules-bin 1.5.2-7
+I: Retrieving libpam-runtime 1.5.2-7
+I: Validating libpam-runtime 1.5.2-7
+I: Retrieving libpam0g 1.5.2-7
+I: Validating libpam0g 1.5.2-7
 I: Validating libpcre2-8-0 10.42-2
 I: Validating libseccomp2 2.5.4-1+b3
 I: Validating libselinux1 3.5-1
@@ -92,7 +96,6 @@ I: Validating tar 1.34+dfsg-1.2
 I: Validating tzdata 2023c-10
 I: Validating usr-is-merged 35
 I: Validating util-linux 2.39.1-4
-I: Retrieving zlib1g 1:1.2.13.dfsg-3
 I: Validating zlib1g 1:1.2.13.dfsg-3
 I: Chosen extractor for .deb packages: dpkg-deb
 W: Upgrading non-merged-/usr environments post-bookworm is unsupported. Only do this for CI/QA infrastructure that will be re-bootstrapped rather than upgraded.
