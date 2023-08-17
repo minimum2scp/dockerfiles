@@ -70,8 +70,8 @@ ii   bsdutils                 1:2.39.1-4                      amd64  basic utili
 ii   bzip2                    1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates          20230311                        all    Common CA certificates
 ii   coreutils                9.1-1                           amd64  GNU core utilities
-ii   cron                     3.0pl1-165                      amd64  process scheduling daemon
-ii   cron-daemon-common       3.0pl1-165                      all    process scheduling daemon's configuration files
+ii   cron                     3.0pl1-166                      amd64  process scheduling daemon
+ii   cron-daemon-common       3.0pl1-166                      all    process scheduling daemon's configuration files
 ii   curl                     8.2.1-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                     0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                  1.5.82                          all    Debian configuration management system
@@ -148,10 +148,10 @@ ii   libnewt0.52              0.52.23-1+b1                    amd64  Not Erik's 
 ii   libnghttp2-14            1.55.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                  1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0              0.25.0-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules           1.5.2-6                         amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.5.2-6                         amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.5.2-6                         all    Runtime support for the PAM library
-ii   libpam0g                 1.5.2-6                         amd64  Pluggable Authentication Modules library
+ii   libpam-modules           1.5.2-7                         amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.5.2-7                         amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.5.2-7                         all    Runtime support for the PAM library
+ii   libpam0g                 1.5.2-7                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36              5.36.0-7                        amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
@@ -205,7 +205,7 @@ ii   perl                     5.36.0-7                        amd64  Larry Wall'
 ii   perl-base                5.36.0-7                        amd64  minimal Perl system
 ii   perl-modules-5.36        5.36.0-7                        all    Core Perl modules
 ii   procps                   2:4.0.3-1                       amd64  /proc file system utilities
-ii   rsyslog                  8.2306.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                  8.2308.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                          all    dh-runit implementation detail
 ii   sed                      4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils           0.0.20                          all    Utilities for sensible alternative selection
