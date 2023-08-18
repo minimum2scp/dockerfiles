@@ -179,7 +179,7 @@ ii   libsmartcols1           2.33.1-0.1                   amd64  smart column ou
 ii   libsqlite3-0            3.27.2-3+deb10u2             amd64  SQLite 3 shared library
 ii   libss2                  1.44.5-1+deb10u3             amd64  command-line interface parsing library
 ii   libssh2-1               1.8.0-2.1                    amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1n-0+deb10u5             amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1n-0+deb10u6             amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7~deb10u10               amd64  systemd utility library
 ii   libtasn1-6              4.13-3+deb10u1               amd64  Manage ASN.1 structures (runtime)
@@ -203,10 +203,10 @@ ii   mount                   2.33.1-0.1                   amd64  tools for mount
 ii   ncurses-base            6.1+20181013-2+deb10u3       all    basic terminal type definitions
 ii   ncurses-bin             6.1+20181013-2+deb10u3       amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
-ii   openssh-client          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server          1:7.9p1-10+deb10u2           amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server     1:7.9p1-10+deb10u2           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1n-0+deb10u5             amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client          1:7.9p1-10+deb10u3           amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server          1:7.9p1-10+deb10u3           amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server     1:7.9p1-10+deb10u3           amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                 1.1.1n-0+deb10u6             amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.5-1.1                    amd64  change and administer password and group data
 ii   perl                    5.28.1-6+deb10u1             amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.28.1-6+deb10u1             amd64  minimal Perl system
