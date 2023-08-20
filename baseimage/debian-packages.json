@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "273",
+    "Installed-Size": "274",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-168",
+    "Version": "3.0pl1-169",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-168"
+    "source:Version": "3.0pl1-169"
   },
   {
     "Architecture": "all",
@@ -314,7 +314,7 @@
     "Depends": "systemd | systemd-standalone-sysusers | systemd-sysusers, adduser",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "51",
+    "Installed-Size": "52",
     "Origin": "",
     "Package": "cron-daemon-common",
     "Pre-Depends": "",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-168",
+    "Version": "3.0pl1-169",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-168"
+    "source:Version": "3.0pl1-169"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.8.1-3",
+    "Version": "3.8.1-4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.8.1-3"
+    "source:Version": "3.8.1-4"
   },
   {
     "Architecture": "amd64",

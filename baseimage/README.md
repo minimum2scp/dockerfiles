@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.39.1-4                      amd64  basic u
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.1-1                           amd64  GNU core utilities
-ii   cron                         3.0pl1-168                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-168                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-169                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-169                      all    process scheduling daemon's configuration files
 ii   curl                         8.2.1-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
@@ -127,7 +127,7 @@ ii   libgcrypt20                  1.10.2-2                        amd64  LGPL Cr
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30                  3.8.1-3                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30                  3.8.1-4                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
