@@ -146,7 +146,7 @@
     "Depends": "libc6 (>= 2.34), libsmartcols1 (>= 2.39.1), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "338",
+    "Installed-Size": "339",
     "Origin": "",
     "Package": "bsdextrautils",
     "Pre-Depends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -174,7 +174,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "355",
+    "Installed-Size": "356",
     "Origin": "",
     "Package": "bsdutils",
     "Pre-Depends": "libc6 (>= 2.34), libsystemd0",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.39.1-4",
+    "Version": "1:2.39.2-1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -286,7 +286,7 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "274",
+    "Installed-Size": "275",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-169",
+    "Version": "3.0pl1-170",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-169"
+    "source:Version": "3.0pl1-170"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-169",
+    "Version": "3.0pl1-170",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-169"
+    "source:Version": "3.0pl1-170"
   },
   {
     "Architecture": "amd64",
@@ -1070,7 +1070,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "415",
+    "Installed-Size": "416",
     "Origin": "",
     "Package": "libblkid1",
     "Pre-Depends": "",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2274,7 +2274,7 @@
     "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.36), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "510",
+    "Installed-Size": "511",
     "Origin": "",
     "Package": "libmount1",
     "Pre-Depends": "",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2607,10 +2607,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libfilter-perl (<< 1.60), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-7)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "28862",
+    "Installed-Size": "28835",
     "Origin": "",
     "Package": "libperl5.36",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.36.0-7",
+    "Version": "5.36.0-8",
     "binary:Package": "libperl5.36:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7"
+    "source:Version": "5.36.0-8"
   },
   {
     "Architecture": "amd64",
@@ -3002,7 +3002,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "306",
+    "Installed-Size": "307",
     "Origin": "",
     "Package": "libsmartcols1",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3366,7 +3366,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "79",
+    "Installed-Size": "80",
     "Origin": "",
     "Package": "libuuid1",
     "Pre-Depends": "",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "interpreters",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.4.20230730-1",
+    "Version": "1.3.4.20230808-1",
     "binary:Package": "mawk",
     "binary:Summary": "Pattern scanning and text processing language",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mawk",
-    "source:Version": "1.3.4.20230730-1"
+    "source:Version": "1.3.4.20230808-1"
   },
   {
     "Architecture": "amd64",
@@ -3674,7 +3674,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "415",
+    "Installed-Size": "416",
     "Origin": "",
     "Package": "mount",
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.34), libmount1 (>= 2.39.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.33)",
@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "all",
@@ -3951,7 +3951,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.36.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.36.0-7), perl-modules-5.36 (>= 5.36.0-7), libperl5.36 (= 5.36.0-7)",
+    "Depends": "perl-base (= 5.36.0-8), perl-modules-5.36 (>= 5.36.0-8), libperl5.36 (= 5.36.0-8)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "669",
@@ -3965,7 +3965,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.36.0-7",
+    "Version": "5.36.0-8",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7"
+    "source:Version": "5.36.0-8"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7638",
+    "Installed-Size": "7603",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -3993,7 +3993,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.36.0-7",
+    "Version": "5.36.0-8",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7"
+    "source:Version": "5.36.0-8"
   },
   {
     "Architecture": "all",
@@ -4021,7 +4021,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.36.0-7",
+    "Version": "5.36.0-8",
     "binary:Package": "perl-modules-5.36",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7"
+    "source:Version": "5.36.0-8"
   },
   {
     "Architecture": "amd64",
@@ -4514,7 +4514,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "5242",
+    "Installed-Size": "5247",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libblkid1 (>= 2.37.2), libc6 (>= 2.36), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.39.1), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.38), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-extra, util-linux-locales",
-    "Version": "2.39.1-4",
+    "Version": "2.39.2-1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.39.1-4"
+    "source:Version": "2.39.2-1"
   },
   {
     "Architecture": "all",
