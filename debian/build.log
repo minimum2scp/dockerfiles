@@ -23,7 +23,8 @@ I: Validating e2fsprogs 1.47.0-2
 I: Validating findutils 4.9.0-5
 I: Validating gcc-13-base 13.2.0-2
 I: Validating gpgv 2.2.40-1.1
-I: Validating grep 3.11-2
+I: Retrieving grep 3.11-3
+I: Validating grep 3.11-3
 I: Validating gzip 1.12-1
 I: Validating hostname 3.23+nmu1
 I: Validating init-system-helpers 1.65.2
@@ -61,7 +62,6 @@ I: Validating libpam-modules 1.5.2-7
 I: Validating libpam-modules-bin 1.5.2-7
 I: Validating libpam-runtime 1.5.2-7
 I: Validating libpam0g 1.5.2-7
-I: Retrieving libpcre2-8-0 10.42-3
 I: Validating libpcre2-8-0 10.42-3
 I: Validating libseccomp2 2.5.4-1+b3
 I: Validating libselinux1 3.5-1
