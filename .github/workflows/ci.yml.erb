@@ -57,6 +57,11 @@ images = {
     needs: [<%= image_conf[:parent] %>]
     <%- end -%>
     steps:
+      <%- if image_conf[:parent] || image_conf[:save_artifact] -%>
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+      <%- end -%>
+
       <%- if image_conf[:parent] -%>
       # load parent image
       - uses: actions/download-artifact@v3

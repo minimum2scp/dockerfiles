@@ -7,6 +7,7 @@ jobs:
     name: debian
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
 
       # setup ruby
@@ -26,6 +27,9 @@ jobs:
     name: baseimage
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # build image
       - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage:latest baseimage
@@ -55,6 +59,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
@@ -89,6 +96,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
@@ -120,6 +130,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
@@ -154,6 +167,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
@@ -185,6 +201,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage, path: /tmp }
@@ -216,6 +235,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ruby]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
@@ -247,6 +269,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ruby]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
@@ -278,6 +303,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ruby]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
@@ -309,6 +337,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [ruby]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: ruby, path: /tmp }
@@ -339,6 +370,7 @@ jobs:
     name: debian-bookworm
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
 
       # setup ruby
@@ -358,6 +390,9 @@ jobs:
     name: baseimage-bookworm
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # build image
       - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-bookworm:latest baseimage-bookworm
@@ -387,6 +422,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-bookworm]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-bookworm, path: /tmp }
@@ -418,6 +456,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-bookworm]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-bookworm, path: /tmp }
@@ -448,6 +489,7 @@ jobs:
     name: debian-bullseye
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
 
       # setup ruby
@@ -467,6 +509,9 @@ jobs:
     name: baseimage-bullseye
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # build image
       - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-bullseye:latest baseimage-bullseye
@@ -496,6 +541,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-bullseye]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-bullseye, path: /tmp }
@@ -527,6 +575,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-bullseye]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-bullseye, path: /tmp }
@@ -557,6 +608,7 @@ jobs:
     name: debian-buster
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
 
       # setup ruby
@@ -576,6 +628,9 @@ jobs:
     name: baseimage-buster
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # build image
       - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-buster:latest baseimage-buster
@@ -605,6 +660,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-buster]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-buster, path: /tmp }
@@ -636,6 +694,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-buster]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-buster, path: /tmp }
@@ -666,6 +727,7 @@ jobs:
     name: debian-stretch
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
 
       # setup ruby
@@ -685,6 +747,9 @@ jobs:
     name: baseimage-stretch
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # build image
       - uses: actions/checkout@v3
       - run: docker build -t minimum2scp/baseimage-stretch:latest baseimage-stretch
@@ -714,6 +779,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-stretch]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-stretch, path: /tmp }
@@ -745,6 +813,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [baseimage-stretch]
     steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
       # load parent image
       - uses: actions/download-artifact@v3
         with: { name: baseimage-stretch, path: /tmp }
