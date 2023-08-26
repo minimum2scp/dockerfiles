@@ -23,7 +23,6 @@ I: Validating e2fsprogs 1.47.0-2
 I: Validating findutils 4.9.0-5
 I: Validating gcc-13-base 13.2.0-2
 I: Validating gpgv 2.2.40-1.1
-I: Retrieving grep 3.11-3
 I: Validating grep 3.11-3
 I: Validating gzip 1.12-1
 I: Validating hostname 3.23+nmu1
@@ -71,10 +70,12 @@ I: Validating libsepol2 3.5-1
 I: Validating libsmartcols1 2.39.2-1
 I: Validating libss2 1.47.0-2
 I: Validating libstdc++6 13.2.0-2
-I: Validating libsystemd0 254.1-2
+I: Retrieving libsystemd0 254.1-3
+I: Validating libsystemd0 254.1-3
 I: Validating libtasn1-6 4.19.0-3
 I: Validating libtinfo6 6.4+20230625-2
-I: Validating libudev1 254.1-2
+I: Retrieving libudev1 254.1-3
+I: Validating libudev1 254.1-3
 I: Validating libunistring2 1.0-2
 I: Validating libuuid1 2.39.2-1
 I: Validating libxxhash0 0.8.1-1
