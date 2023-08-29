@@ -76,7 +76,7 @@ ii   curl                         8.2.1-2                         amd64  command
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
-ii   debianutils                  5.9                             amd64  Miscellaneous utilities specific to Debian
+ii   debianutils                  5.11                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.8-4                         amd64  File comparison utilities
 ii   dpkg                         1.21.22                         amd64  Debian package management system
 ii   e2fsprogs                    1.47.0-2                        amd64  ext2/ext3/ext4 file system utilities
@@ -220,7 +220,7 @@ ii   tree                         2.1.1-1                         amd64  display
 ii   tzdata                       2023c-10                        all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
-ii   usr-is-merged                36                              all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged                37                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.2-1                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.0.1672-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.0.1672-1                    amd64  Vi IMproved - enhanced vi editor - compact version
