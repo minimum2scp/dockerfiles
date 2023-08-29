@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "243",
+    "Installed-Size": "244",
     "Origin": "",
     "Package": "debianutils",
     "Pre-Depends": "libc6 (>= 2.34)",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.9",
+    "Version": "5.11",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.9"
+    "source:Version": "5.11"
   },
   {
     "Architecture": "amd64",
@@ -2341,7 +2341,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "36",
+    "Version": "37",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "36"
+    "source:Version": "37"
   },
   {
     "Architecture": "amd64",
