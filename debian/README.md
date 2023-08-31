@@ -29,7 +29,7 @@ ii   debconf                 1.5.82             all    Debian configuration mana
 ii   debian-archive-keyring  2023.4             all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.11               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.8-4            amd64  File comparison utilities
-ii   dpkg                    1.21.22            amd64  Debian package management system
+ii   dpkg                    1.22.0             amd64  Debian package management system
 ii   e2fsprogs               1.47.0-2           amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-5            amd64  utilities for finding files--find, xargs
 ii   gcc-13-base             13.2.0-2           amd64  GCC, the GNU Compiler Collection (base package)
@@ -63,7 +63,7 @@ ii   libgpg-error0           1.47-2             amd64  GnuPG development runtime
 ii   libhogweed6             3.9.1-2            amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.4-1            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1            amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.4.1-0.2          amd64  XZ-format compression library
+ii   liblzma5                5.4.4-0.1          amd64  XZ-format compression library
 ii   libmd0                  1.1.0-1            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.39.2-1           amd64  device mounting library
 ii   libnettle8              3.9.1-2            amd64  low level cryptographic library (symmetric and one-way cryptos)
