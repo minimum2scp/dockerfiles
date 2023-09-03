@@ -82,7 +82,7 @@ ii   dpkg                         1.22.0                          amd64  Debian 
 ii   e2fsprogs                    1.47.0-2                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
-ii   gcc-13-base                  13.2.0-2                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-13-base                  13.2.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.40.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.40.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
@@ -122,7 +122,7 @@ ii   libext2fs2                   1.47.0-2                        amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.4-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.13.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    13.2.0-2                        amd64  GCC support library
+ii   libgcc-s1                    13.2.0-3                        amd64  GCC support library
 ii   libgcrypt20                  1.10.2-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-3                          amd64  GNU dbm database routines (runtime version) 
@@ -171,7 +171,7 @@ ii   libsmartcols1                2.39.2-1                        amd64  smart c
 ii   libss2                       1.47.0-2                        amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   13.2.0-2                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   13.2.0-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  254.1-3                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20230625-2                  amd64  shared low-level terminfo library for terminal handling
@@ -195,9 +195,9 @@ ii   mount                        2.39.2-1                        amd64  tools f
 ii   ncurses-base                 6.4+20230625-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.4+20230625-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:9.3p2-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.3p2-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.3p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
