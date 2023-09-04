@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.39.2-1                      amd64  basic u
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.1-1                           amd64  GNU core utilities
-ii   cron                         3.0pl1-174                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-174                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-175                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-175                      all    process scheduling daemon's configuration files
 ii   curl                         8.2.1-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
@@ -199,7 +199,7 @@ ii   openssh-client               1:9.4p1-1                       amd64  secure 
 ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.14                            all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
 ii   perl                         5.36.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.36.0-8                        amd64  minimal Perl system
