@@ -127,11 +127,11 @@ ii   libgcrypt20                  1.10.2-2                        amd64  LGPL Cr
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30                  3.8.1-4                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30                  3.8.1-4+b1                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.4-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.4-1+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.20.1-3                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-2                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20.1-3                        amd64  MIT Kerberos runtime libraries
@@ -157,7 +157,7 @@ ii   libperl5.36                  5.36.0-8                        amd64  shared 
 ii   libpipeline1                 1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.3-1                       amd64  library for accessing process information from /proc
-ii   libpsl5                      0.21.2-1                        amd64  Library for Public Suffix List (shared libraries)
+ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-3                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-3                  amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -179,7 +179,7 @@ ii   libtirpc-common              1.3.3+ds-1                      all    transpo
 ii   libtirpc3                    1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.7-1                         amd64  universal charset detection library - shared library
 ii   libudev1                     254.1-3                         amd64  libudev shared library
-ii   libunistring2                1.0-2                           amd64  Unicode string library for C
+ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.1-1                         amd64  shared library for xxhash
@@ -226,7 +226,7 @@ ii   vim-common                   2:9.0.1672-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.0.1672-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
-ii   zsh                          5.9-4+b4                        amd64  shell with lots of features
-ii   zsh-common                   5.9-4                           all    architecture independent files for Zsh
+ii   zsh                          5.9-5                           amd64  shell with lots of features
+ii   zsh-common                   5.9-5                           all    architecture independent files for Zsh
 ii   zstd                         1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm -- CLI tool
 ```
