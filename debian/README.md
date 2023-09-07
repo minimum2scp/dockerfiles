@@ -58,10 +58,10 @@ ii   libffi8                 3.4.4-1            amd64  Foreign Function Interfac
 ii   libgcc-s1               13.2.0-3           amd64  GCC support library
 ii   libgcrypt20             1.10.2-2           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2     amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.8.1-4            amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.8.1-4+b1         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.47-2             amd64  GnuPG development runtime library
 ii   libhogweed6             3.9.1-2            amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0               2.3.4-1            amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0               2.3.4-1+b1         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1            amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.4.4-0.1          amd64  XZ-format compression library
 ii   libmd0                  1.1.0-1            amd64  message digest functions from BSD systems - shared library
@@ -85,7 +85,7 @@ ii   libsystemd0             254.1-3            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3           amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.4+20230625-2     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                254.1-3            amd64  libudev shared library
-ii   libunistring2           1.0-2              amd64  Unicode string library for C
+ii   libunistring5           1.1-2              amd64  Unicode string library for C
 ii   libuuid1                2.39.2-1           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.1-1            amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-1      amd64  fast lossless compression algorithm
