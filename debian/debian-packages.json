@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "99",
+    "Installed-Size": "92",
     "Origin": "",
     "Package": "libxxhash0",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.1-1",
+    "Version": "0.8.2-1",
     "binary:Package": "libxxhash0:amd64",
     "binary:Summary": "shared library for xxhash",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xxhash",
-    "source:Version": "0.8.1-1"
+    "source:Version": "0.8.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2190,7 +2190,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7603",
+    "Installed-Size": "7612",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -2201,7 +2201,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.36.0-8",
+    "Version": "5.36.0-9",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-8"
+    "source:Version": "5.36.0-9"
   },
   {
     "Architecture": "amd64",

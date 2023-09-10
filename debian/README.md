@@ -87,7 +87,7 @@ ii   libtinfo6               6.4+20230625-2     amd64  shared low-level terminfo
 ii   libudev1                254.1-3            amd64  libudev shared library
 ii   libunistring5           1.1-2              amd64  Unicode string library for C
 ii   libuuid1                2.39.2-1           amd64  Universally Unique ID library
-ii   libxxhash0              0.8.1-1            amd64  shared library for xxhash
+ii   libxxhash0              0.8.2-1            amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-1      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1+b1  amd64  system login tools
 ii   logsave                 1.47.0-2+b1        amd64  save the output of a command in a log file
@@ -96,7 +96,7 @@ ii   mount                   2.39.2-1           amd64  tools for mounting and ma
 ii   ncurses-base            6.4+20230625-2     all    basic terminal type definitions
 ii   ncurses-bin             6.4+20230625-2     amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-1+b1  amd64  change and administer password and group data
-ii   perl-base               5.36.0-8           amd64  minimal Perl system
+ii   perl-base               5.36.0-9           amd64  minimal Perl system
 ii   sed                     4.9-1              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.07-1             amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.2      amd64  GNU version of the tar archiving utility
