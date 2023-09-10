@@ -2607,10 +2607,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libfilter-perl (<< 1.60), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-8)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "28835",
+    "Installed-Size": "28850",
     "Origin": "",
     "Package": "libperl5.36",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.36.0-8",
+    "Version": "5.36.0-9",
     "binary:Package": "libperl5.36:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-8"
+    "source:Version": "5.36.0-9"
   },
   {
     "Architecture": "amd64",
@@ -3422,7 +3422,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "99",
+    "Installed-Size": "92",
     "Origin": "",
     "Package": "libxxhash0",
     "Pre-Depends": "",
@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.1-1",
+    "Version": "0.8.2-1",
     "binary:Package": "libxxhash0:amd64",
     "binary:Summary": "shared library for xxhash",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xxhash",
-    "source:Version": "0.8.1-1"
+    "source:Version": "0.8.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3951,10 +3951,10 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.36.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.36.0-8), perl-modules-5.36 (>= 5.36.0-8), libperl5.36 (= 5.36.0-8)",
+    "Depends": "perl-base (= 5.36.0-9), perl-modules-5.36 (>= 5.36.0-9), libperl5.36 (= 5.36.0-9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "669",
+    "Installed-Size": "670",
     "Origin": "",
     "Package": "perl",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -3965,7 +3965,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.36.0-8",
+    "Version": "5.36.0-9",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-8"
+    "source:Version": "5.36.0-9"
   },
   {
     "Architecture": "amd64",
@@ -3982,7 +3982,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7603",
+    "Installed-Size": "7612",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -3993,7 +3993,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.36.0-8",
+    "Version": "5.36.0-9",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-8"
+    "source:Version": "5.36.0-9"
   },
   {
     "Architecture": "all",
@@ -4010,7 +4010,7 @@
     "Depends": "perl-base (>= 5.36.0-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "17816",
+    "Installed-Size": "17817",
     "Origin": "",
     "Package": "perl-modules-5.36",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -4021,7 +4021,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.36.0-8",
+    "Version": "5.36.0-9",
     "binary:Package": "perl-modules-5.36",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-8"
+    "source:Version": "5.36.0-9"
   },
   {
     "Architecture": "amd64",

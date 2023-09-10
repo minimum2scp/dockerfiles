@@ -153,7 +153,7 @@ ii   libpam-modules-bin           1.5.2-7                         amd64  Pluggab
 ii   libpam-runtime               1.5.2-7                         all    Runtime support for the PAM library
 ii   libpam0g                     1.5.2-7                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.36                  5.36.0-8                        amd64  shared Perl library
+ii   libperl5.36                  5.36.0-9                        amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.3-1                       amd64  library for accessing process information from /proc
@@ -182,7 +182,7 @@ ii   libudev1                     254.1-3                         amd64  libudev
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0                   0.8.1-1                         amd64  shared library for xxhash
+ii   libxxhash0                   0.8.2-1                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.37-8                          all    GNU C Library: National Language (locale) data [support]
@@ -201,9 +201,9 @@ ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure 
 ii   openssl                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
-ii   perl                         5.36.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.36.0-8                        amd64  minimal Perl system
-ii   perl-modules-5.36            5.36.0-8                        all    Core Perl modules
+ii   perl                         5.36.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.36.0-9                        amd64  minimal Perl system
+ii   perl-modules-5.36            5.36.0-9                        all    Core Perl modules
 ii   procps                       2:4.0.3-1                       amd64  /proc file system utilities
 ii   rsyslog                      8.2308.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
