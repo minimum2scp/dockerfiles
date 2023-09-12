@@ -87,7 +87,7 @@ ii   libtinfo6               6.4+20230625-2     amd64  shared low-level terminfo
 ii   libudev1                254.1-3            amd64  libudev shared library
 ii   libunistring5           1.1-2              amd64  Unicode string library for C
 ii   libuuid1                2.39.2-1           amd64  Universally Unique ID library
-ii   libxxhash0              0.8.2-1            amd64  shared library for xxhash
+ii   libxxhash0              0.8.2-2            amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-1      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-1+b1  amd64  system login tools
 ii   logsave                 1.47.0-2+b1        amd64  save the output of a command in a log file
