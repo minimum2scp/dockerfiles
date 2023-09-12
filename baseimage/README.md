@@ -182,7 +182,7 @@ ii   libudev1                     254.1-3                         amd64  libudev
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0                   0.8.2-1                         amd64  shared library for xxhash
+ii   libxxhash0                   0.8.2-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.37-8                          all    GNU C Library: National Language (locale) data [support]
@@ -222,8 +222,8 @@ ii   ucf                          3.0043+nmu1                     all    Update 
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                37                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.2-1                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.0.1672-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.1672-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.1894-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.1894-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
 ii   zsh                          5.9-5                           amd64  shell with lots of features

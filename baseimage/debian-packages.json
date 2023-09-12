@@ -3433,7 +3433,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.2-1",
+    "Version": "0.8.2-2",
     "binary:Package": "libxxhash0:amd64",
     "binary:Summary": "shared library for xxhash",
     "db:Status-Abbrev": "ii ",
@@ -3441,7 +3441,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xxhash",
-    "source:Version": "0.8.2-1"
+    "source:Version": "0.8.2-2"
   },
   {
     "Architecture": "amd64",
@@ -4542,7 +4542,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1518",
+    "Installed-Size": "1520",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.0.1672-1",
+    "Version": "2:9.0.1894-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4561,16 +4561,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.0.1672-1"
+    "source:Version": "2:9.0.1894-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.0.1672-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.0.1894-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1704",
+    "Installed-Size": "1711",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.0.1672-1",
+    "Version": "2:9.0.1894-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.0.1672-1"
+    "source:Version": "2:9.0.1894-1"
   },
   {
     "Architecture": "amd64",
