@@ -72,7 +72,7 @@ ii   ca-certificates              20230311                        all    Common 
 ii   coreutils                    9.1-1                           amd64  GNU core utilities
 ii   cron                         3.0pl1-175                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-175                      all    process scheduling daemon's configuration files
-ii   curl                         8.2.1-2                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.3.0-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -102,16 +102,16 @@ ii   libblkid1                    2.39.2-1                        amd64  block d
 ii   libbrotli1                   1.0.9-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.7-4                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.37-8                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.37-8                          all    GNU C Library: localization files
-ii   libc6                        2.37-8                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.37-9                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.37-9                          all    GNU C Library: localization files
+ii   libc6                        2.37-9                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.3-1+b3                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-1                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.36-2                      amd64  libcrypt shared library
-ii   libcurl3-gnutls              8.2.1-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                     8.2.1-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls              8.3.0-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                     8.3.0-1                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-2                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.270                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
@@ -129,13 +129,13 @@ ii   libgdbm6                     1.23-3                          amd64  GNU dbm
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30                  3.8.1-4+b1                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-2                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2             1.20.1-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.20.1-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.4-1+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.20.1-3                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.20.1-4                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.20.1-3                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.20.1-3                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.20.1-4                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.20.1-4                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.13+dfsg-5                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
@@ -185,7 +185,7 @@ ii   libwrap0                     7.6.q-32                        amd64  Wietse 
 ii   libxxhash0                   0.8.2-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.37-8                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.37-9                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.13+dfsg1-1+b1               amd64  system login tools
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
