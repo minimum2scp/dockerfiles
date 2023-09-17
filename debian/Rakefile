@@ -25,7 +25,7 @@ desc 'run mkimage.sh'
 task :mkimage  do
   tag_option = ENV['TAG'] ? "-t #{ENV['TAG']}" : ''
   debootstrap_options = %w[
-    --arch=amd64 --variant=minbase --components=main --no-merged-usr
+    --arch=amd64 --variant=minbase --components=main
   ]
   debootstrap_options << "--cache-dir=#{ENV['DEBOOTSTRAP_CACHE_DIR']}" if ENV['DEBOOTSTRAP_CACHE_DIR']
   debootstrap_options << 'sid' << 'http://deb.debian.org/debian'
