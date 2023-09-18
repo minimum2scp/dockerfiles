@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "801",
+    "Installed-Size": "805",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.5+dfsg2-1",
+    "Version": "1.5.5+dfsg2-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.5+dfsg2-1"
+    "source:Version": "1.5.5+dfsg2-2"
   },
   {
     "Architecture": "amd64",
@@ -2246,7 +2246,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "101",
+    "Installed-Size": "102",
     "Origin": "",
     "Package": "sysvinit-utils",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.07-1",
+    "Version": "3.08-1",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.07-1"
+    "source:Version": "3.08-1"
   },
   {
     "Architecture": "amd64",
