@@ -91,7 +91,7 @@ ii   groff-base                   1.23.0-2                        amd64  GNU tro
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
 ii   hostname                     3.23+nmu1                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.65.2                          all    helper tools for all init systems
-ii   initscripts                  3.07-1                          all    scripts for initializing and shutting down the system
+ii   initscripts                  3.08-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-3                         amd64  access control list - shared library
 ii   libapt-pkg6.0                2.7.5                           amd64  package management runtime library
@@ -183,7 +183,7 @@ ii   libunistring5                1.1-2                           amd64  Unicode
 ii   libuuid1                     2.39.2-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2                         amd64  shared library for xxhash
-ii   libzstd1                     1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.37-10                         all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.13+dfsg1-1+b1               amd64  system login tools
@@ -212,9 +212,9 @@ ii   sensible-utils               0.0.20                          all    Utiliti
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.14p2-1                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  254.3-1                         amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.07-1                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.07-1                          amd64  System-V-like init
-ii   sysvinit-utils               3.07-1                          amd64  System-V-like utilities
+ii   sysv-rc                      3.08-1                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.08-1                          amd64  System-V-like init
+ii   sysvinit-utils               3.08-1                          amd64  System-V-like utilities
 ii   tar                          1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2023c-10                        all    time zone and daylight-saving time data
@@ -228,5 +228,5 @@ ii   whiptail                     0.52.23-1+b1                    amd64  Display
 ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
 ii   zsh                          5.9-5                           amd64  shell with lots of features
 ii   zsh-common                   5.9-5                           all    architecture independent files for Zsh
-ii   zstd                         1.5.5+dfsg2-1                   amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm -- CLI tool
 ```
