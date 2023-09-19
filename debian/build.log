@@ -16,7 +16,8 @@ I: Validating coreutils 9.1-1
 I: Validating dash 0.5.12-6
 I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2023.4
-I: Validating debianutils 5.12
+I: Retrieving debianutils 5.13
+I: Validating debianutils 5.13
 I: Validating diffutils 1:3.8-4
 I: Validating dpkg 1.22.0
 I: Validating e2fsprogs 1.47.0-2+b1
@@ -77,7 +78,6 @@ I: Validating libudev1 254.3-1
 I: Validating libunistring5 1.1-2
 I: Validating libuuid1 2.39.2-1
 I: Validating libxxhash0 0.8.2-2
-I: Retrieving libzstd1 1.5.5+dfsg2-2
 I: Validating libzstd1 1.5.5+dfsg2-2
 I: Validating login 1:4.13+dfsg1-1+b1
 I: Validating logsave 1.47.0-2+b1
@@ -88,7 +88,6 @@ I: Validating ncurses-bin 6.4+20230625-2
 I: Validating passwd 1:4.13+dfsg1-1+b1
 I: Validating perl-base 5.36.0-9
 I: Validating sed 4.9-1
-I: Retrieving sysvinit-utils 3.08-1
 I: Validating sysvinit-utils 3.08-1
 I: Validating tar 1.34+dfsg-1.2
 I: Validating tzdata 2023c-10
