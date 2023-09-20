@@ -123,7 +123,7 @@ ii   libfastjson4                 1.2304.0-1                      amd64  fast js
 ii   libffi8                      3.4.4-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.13.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    13.2.0-4                        amd64  GCC support library
-ii   libgcrypt20                  1.10.2-2                        amd64  LGPL Crypto library - runtime library
+ii   libgcrypt20                  1.10.2-3                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
@@ -170,7 +170,7 @@ ii   libslang2                    2.3.3-3                         amd64  S-Lang 
 ii   libsmartcols1                2.39.2-1                        amd64  smart column output alignment library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
-ii   libssl3                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                      3.0.11-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-4                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  254.3-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ ii   net-tools                    2.10-0.1                        amd64  NET-3 n
 ii   openssh-client               1:9.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.0.10-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.0.11-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
 ii   perl                         5.36.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
