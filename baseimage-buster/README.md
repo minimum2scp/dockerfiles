@@ -115,7 +115,7 @@ ii   libcurl4                7.64.0-4+deb10u6             amd64  easy-to-use cli
 ii   libdb5.3                5.3.28+dfsg1-0.5             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.249                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20181209-1               amd64  BSD editline and history libraries
-ii   libelf1                 0.176-1.1                    amd64  library to read and write ELF files
+ii   libelf1                 0.176-1.1+deb10u1            amd64  library to read and write ELF files
 ii   liberror-perl           0.17027-2                    all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                0.1.10-2.1                   amd64  Helper functions for handling strings (lib)
 ii   libexpat1               2.2.6-2+deb10u6              amd64  XML parsing C library - runtime library
@@ -163,8 +163,8 @@ ii   libprocps7              2:3.3.15-2                   amd64  library for acc
 ii   libpsl5                 0.20.2-2                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython-stdlib        2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
 ii   libpython2-stdlib       2.7.16-1                     amd64  interactive high-level object-oriented language (Python2)
-ii   libpython2.7-minimal    2.7.16-2+deb10u2             amd64  Minimal subset of the Python language (version 2.7)
-ii   libpython2.7-stdlib     2.7.16-2+deb10u2             amd64  Interactive high-level object-oriented language (standard library, version 2.7)
+ii   libpython2.7-minimal    2.7.16-2+deb10u3             amd64  Minimal subset of the Python language (version 2.7)
+ii   libpython2.7-stdlib     2.7.16-2+deb10u3             amd64  Interactive high-level object-oriented language (standard library, version 2.7)
 ii   libreadline7            7.0-5                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                2.4+20151223.gitfa8646d.1-2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2              2.1.27+dfsg-1+deb10u2        amd64  Cyrus SASL - authentication abstraction library
@@ -216,8 +216,8 @@ ii   python                  2.7.16-1                     amd64  interactive hig
 ii   python-minimal          2.7.16-1                     amd64  minimal subset of the Python2 language
 ii   python2                 2.7.16-1                     amd64  interactive high-level object-oriented language (Python2 version)
 ii   python2-minimal         2.7.16-1                     amd64  minimal subset of the Python2 language
-ii   python2.7               2.7.16-2+deb10u2             amd64  Interactive high-level object-oriented language (version 2.7)
-ii   python2.7-minimal       2.7.16-2+deb10u2             amd64  Minimal subset of the Python language (version 2.7)
+ii   python2.7               2.7.16-2+deb10u3             amd64  Interactive high-level object-oriented language (version 2.7)
+ii   python2.7-minimal       2.7.16-2+deb10u3             amd64  Minimal subset of the Python language (version 2.7)
 ii   readline-common         7.0-5                        all    GNU readline and history libraries, common files
 ii   rsyslog                 8.1901.0-1+deb10u2           amd64  reliable system and kernel logging daemon
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
