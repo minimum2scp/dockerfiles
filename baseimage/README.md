@@ -113,7 +113,7 @@ ii   libcrypt1                    1:4.4.36-2                      amd64  libcryp
 ii   libcurl3-gnutls              8.3.0-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     8.3.0-1                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-2                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.270                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.271                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
@@ -189,7 +189,7 @@ ii   locales                      2.37-10                         all    GNU C L
 ii   login                        1:4.13+dfsg1-1+b1               amd64  system login tools
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.11.2-3                        amd64  tools for reading manual pages
+ii   man-db                       2.12.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20230808-1                amd64  Pattern scanning and text processing language
 ii   mount                        2.39.2-1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.4+20230625-2                  all    basic terminal type definitions
