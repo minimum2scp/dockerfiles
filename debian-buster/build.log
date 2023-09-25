@@ -376,20 +376,20 @@ I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
 Hit:1 http://deb.debian.org/debian buster InRelease
 Get:2 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
-Get:3 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Get:4 http://security.debian.org buster/updates InRelease [34.8 kB]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [684 kB]
-Fetched 785 kB in 2s (389 kB/s)
+Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
+Get:4 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [708 kB]
+Fetched 809 kB in 2s (362 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Calculating upgrade...
 The following packages will be upgraded:
-  debian-archive-keyring libbz2-1.0 libc-bin libc6 libgnutls30 libncursesw6
-  libsystemd0 libtasn1-6 libtinfo6 libudev1 ncurses-base ncurses-bin tzdata
-  zlib1g
-14 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 6959 kB of archives.
+  debian-archive-keyring libbz2-1.0 libc-bin libc6 libelf1 libgnutls30
+  libncursesw6 libsystemd0 libtasn1-6 libtinfo6 libudev1 ncurses-base
+  ncurses-bin tzdata zlib1g
+15 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 7119 kB of archives.
 After this operation, 56.3 kB of additional disk space will be used.
 Get:1 http://security.debian.org buster/updates/main amd64 ncurses-bin amd64 6.1+20181013-2+deb10u3 [407 kB]
 Get:2 http://security.debian.org buster/updates/main amd64 libc6 amd64 2.28-10+deb10u2 [2869 kB]
@@ -405,7 +405,8 @@ Get:11 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.
 Get:12 http://security.debian.org buster/updates/main amd64 libtinfo6 amd64 6.1+20181013-2+deb10u3 [326 kB]
 Get:13 http://security.debian.org buster/updates/main amd64 libncursesw6 amd64 6.1+20181013-2+deb10u3 [132 kB]
 Get:14 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u11 [267 kB]
-Fetched 6959 kB in 0s (20.4 MB/s)
+Get:15 http://security.debian.org buster/updates/main amd64 libelf1 amd64 0.176-1.1+deb10u1 [161 kB]
+Fetched 7119 kB in 0s (16.9 MB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../ncurses-bin_6.1+20181013-2+deb10u3_amd64.deb ...
 Unpacking ncurses-bin (6.1+20181013-2+deb10u3) over (6.1+20181013-2+deb10u2) ...
@@ -461,5 +462,8 @@ Setting up libncursesw6:amd64 (6.1+20181013-2+deb10u3) ...
 (Reading database ... 6685 files and directories currently installed.)
 Preparing to unpack .../tzdata_2021a-0+deb10u11_all.deb ...
 Unpacking tzdata (2021a-0+deb10u11) over (2021a-0+deb10u6) ...
+Preparing to unpack .../libelf1_0.176-1.1+deb10u1_amd64.deb ...
+Unpacking libelf1:amd64 (0.176-1.1+deb10u1) over (0.176-1.1) ...
 Setting up tzdata (2021a-0+deb10u11) ...
+Setting up libelf1:amd64 (0.176-1.1+deb10u1) ...
 Processing triggers for libc-bin (2.28-10+deb10u2) ...
