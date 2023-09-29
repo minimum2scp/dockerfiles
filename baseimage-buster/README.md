@@ -144,8 +144,8 @@ ii   liblz4-1                1.8.3-1+deb10u1              amd64  Fast LZ compres
 ii   liblzma5                5.2.4-1+deb10u1              amd64  XZ-format compression library
 ii   libmnl0                 1.0.4-2                      amd64  minimalistic Netlink communication library
 ii   libmount1               2.33.1-0.1                   amd64  device mounting library
-ii   libncurses6             6.1+20181013-2+deb10u3       amd64  shared libraries for terminal handling
-ii   libncursesw6            6.1+20181013-2+deb10u3       amd64  shared libraries for terminal handling (wide character support)
+ii   libncurses6             6.1+20181013-2+deb10u4       amd64  shared libraries for terminal handling
+ii   libncursesw6            6.1+20181013-2+deb10u4       amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle6              3.4.1-1+deb10u1              amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.20-8                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14           1.36.0-2+deb10u1             amd64  library implementing HTTP/2 protocol (shared library)
@@ -183,7 +183,7 @@ ii   libssl1.1               1.1.1n-0+deb10u6             amd64  Secure Sockets 
 ii   libstdc++6              8.3.0-6                      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             241-7~deb10u10               amd64  systemd utility library
 ii   libtasn1-6              4.13-3+deb10u1               amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.1+20181013-2+deb10u3       amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.1+20181013-2+deb10u4       amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0            0.0.6-3                      amd64  universal charset detection library - shared library
 ii   libudev1                241-7~deb10u10               amd64  libudev shared library
 ii   libunistring2           0.9.10-1                     amd64  Unicode string library for C
@@ -200,8 +200,8 @@ ii   man-db                  2.8.5-2                      amd64  on-line manual 
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.1+20181013-2+deb10u3       all    basic terminal type definitions
-ii   ncurses-bin             6.1+20181013-2+deb10u3       amd64  terminal-related programs and man pages
+ii   ncurses-base            6.1+20181013-2+deb10u4       all    basic terminal type definitions
+ii   ncurses-bin             6.1+20181013-2+deb10u4       amd64  terminal-related programs and man pages
 ii   net-tools               1.60+git20180626.aebd88e-1   amd64  NET-3 networking toolkit
 ii   openssh-client          1:7.9p1-10+deb10u3           amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:7.9p1-10+deb10u3           amd64  secure shell (SSH) server, for secure access from remote machines
@@ -233,10 +233,10 @@ ii   tzdata                  2021a-0+deb10u11             all    time zone and d
 ii   ucf                     3.0038+nmu1                  all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-23+deb10u3               amd64  De-archiver for .zip files
 ii   util-linux              2.33.1-0.1                   amd64  miscellaneous system utilities
-ii   vim-common              2:8.1.0875-5+deb10u5         all    Vi IMproved - Common files
-ii   vim-tiny                2:8.1.0875-5+deb10u5         amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common              2:8.1.0875-5+deb10u6         all    Vi IMproved - Common files
+ii   vim-tiny                2:8.1.0875-5+deb10u6         amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                0.52.20-8                    amd64  Displays user-friendly dialog boxes from shell scripts
-ii   xxd                     2:8.1.0875-5+deb10u5         amd64  tool to make (or reverse) a hex dump
+ii   xxd                     2:8.1.0875-5+deb10u6         amd64  tool to make (or reverse) a hex dump
 ii   zlib1g                  1:1.2.11.dfsg-1+deb10u2      amd64  compression library - runtime
 ii   zsh                     5.7.1-1+deb10u1              amd64  shell with lots of features
 ii   zsh-common              5.7.1-1+deb10u1              all    architecture independent files for Zsh
