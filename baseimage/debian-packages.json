@@ -1333,7 +1333,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.10.2-1",
+    "Version": "0.10.2-1.1",
     "binary:Package": "libcbor0.10:amd64",
     "binary:Summary": "library for parsing and generating CBOR (RFC 7049)",
     "db:Status-Abbrev": "ii ",
@@ -1341,7 +1341,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcbor",
-    "source:Version": "0.10.2-1"
+    "source:Version": "0.10.2-1.1"
   },
   {
     "Architecture": "amd64",
