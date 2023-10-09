@@ -156,7 +156,7 @@ ii   libpcre2-8-0                 10.42-4                         amd64  New Per
 ii   libperl5.36                  5.36.0-9                        amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.3-1                       amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-2                       amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-3                  amd64  Cyrus SASL - authentication abstraction library
@@ -204,7 +204,7 @@ ii   passwd                       1:4.13+dfsg1-2                  amd64  change 
 ii   perl                         5.36.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.36.0-9                        amd64  minimal Perl system
 ii   perl-modules-5.36            5.36.0-9                        all    Core Perl modules
-ii   procps                       2:4.0.3-1                       amd64  /proc file system utilities
+ii   procps                       2:4.0.4-2                       amd64  /proc file system utilities
 ii   rsyslog                      8.2308.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
 ii   sed                          4.9-1                           amd64  GNU stream editor for filtering/transforming text
