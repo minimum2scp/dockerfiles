@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.4+deb12u1",
+    "Version": "12.4+deb12u2",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12.4+deb12u1"
+    "source:Version": "12.4+deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "270",
+    "Installed-Size": "272",
     "Origin": "",
     "Package": "debian-archive-keyring",
     "Pre-Depends": "",
@@ -269,7 +269,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2023.3",
+    "Version": "2023.3+deb12u1",
     "binary:Package": "debian-archive-keyring",
     "binary:Summary": "GnuPG archive keys of the Debian archive",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debian-archive-keyring",
-    "source:Version": "2023.3"
+    "source:Version": "2023.3+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -297,7 +297,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.7-0.4",
+    "Version": "5.7-0.5~deb12u1",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.7-0.4"
+    "source:Version": "5.7-0.5~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36-9+deb12u1",
+    "Version": "2.36-9+deb12u2",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u1"
+    "source:Version": "2.36-9+deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.36-9+deb12u1",
+    "Version": "2.36-9+deb12u2",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u1"
+    "source:Version": "2.36-9+deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -1434,10 +1434,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1030",
+    "Installed-Size": "1031",
     "Origin": "",
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-6)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-6+deb12u1)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": "",
@@ -1445,7 +1445,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-6",
+    "Version": "1.5.2-6+deb12u1",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-6"
+    "source:Version": "1.5.2-6+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-6",
+    "Version": "1.5.2-6+deb12u1",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-6"
+    "source:Version": "1.5.2-6+deb12u1"
   },
   {
     "Architecture": "all",
@@ -1501,7 +1501,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-6",
+    "Version": "1.5.2-6+deb12u1",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-6"
+    "source:Version": "1.5.2-6+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.5.2-6",
+    "Version": "1.5.2-6+deb12u1",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-6"
+    "source:Version": "1.5.2-6+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1798,7 +1798,7 @@
     "Depends": "libc6 (>= 2.34), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.5.2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "907",
+    "Installed-Size": "908",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.12-1~deb12u1",
+    "Version": "252.17-1~deb12u1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.12-1~deb12u1"
+    "source:Version": "252.17-1~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "238",
+    "Installed-Size": "239",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.12-1~deb12u1",
+    "Version": "252.17-1~deb12u1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.12-1~deb12u1"
+    "source:Version": "252.17-1~deb12u1"
   },
   {
     "Architecture": "amd64",
