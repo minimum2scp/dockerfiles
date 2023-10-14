@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl",
-    "Version": "3.118",
+    "Version": "3.118+deb11u1",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.118"
+    "source:Version": "3.118+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.1+deb11u7",
+    "Version": "11.1+deb11u8",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "11.1+deb11u7"
+    "source:Version": "11.1+deb11u8"
   },
   {
     "Architecture": "amd64",
@@ -342,7 +342,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6980",
+    "Installed-Size": "6982",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.15), liblzma5 (>= 5.2.2), libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)",
@@ -353,7 +353,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.20.12",
+    "Version": "1.20.13",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.20.12"
+    "source:Version": "1.20.13"
   },
   {
     "Architecture": "amd64",
@@ -1207,7 +1207,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "moonshot-gss-eap (<= 1.0)",
-    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.18.3-6+deb11u3), libkrb5support0 (>= 1.15~beta1)",
+    "Depends": "libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.18.3-6+deb11u4), libkrb5support0 (>= 1.15~beta1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "451",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-6+deb11u3",
+    "Version": "1.18.3-6+deb11u4",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-6+deb11u3"
+    "source:Version": "1.18.3-6+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-6+deb11u3",
+    "Version": "1.18.3-6+deb11u4",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-6+deb11u3"
+    "source:Version": "1.18.3-6+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -1347,7 +1347,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.18.3-6+deb11u3), libssl1.1 (>= 1.1.0)",
+    "Depends": "libc6 (>= 2.25), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.18.3-6+deb11u4), libssl1.1 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1108",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.18.3-6+deb11u3",
+    "Version": "1.18.3-6+deb11u4",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-6+deb11u3"
+    "source:Version": "1.18.3-6+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -1389,7 +1389,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.18.3-6+deb11u3",
+    "Version": "1.18.3-6+deb11u4",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.18.3-6+deb11u3"
+    "source:Version": "1.18.3-6+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4124",
+    "Installed-Size": "4128",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1n-0+deb11u4",
+    "Version": "1.1.1w-0+deb11u1",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1n-0+deb11u4"
+    "source:Version": "1.1.1w-0+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.3-7+deb11u2",
+    "Version": "247.3-7+deb11u4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.3-7+deb11u2"
+    "source:Version": "247.3-7+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-2+deb11u1",
+    "Version": "6.2+20201114-2+deb11u2",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-2+deb11u1"
+    "source:Version": "6.2+20201114-2+deb11u2"
   },
   {
     "Architecture": "all",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.3-7+deb11u2",
+    "Version": "247.3-7+deb11u4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.3-7+deb11u2"
+    "source:Version": "247.3-7+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-2+deb11u1",
+    "Version": "6.2+20201114-2+deb11u2",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-2+deb11u1"
+    "source:Version": "6.2+20201114-2+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -2453,7 +2453,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.2+20201114-2+deb11u1",
+    "Version": "6.2+20201114-2+deb11u2",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.2+20201114-2+deb11u1"
+    "source:Version": "6.2+20201114-2+deb11u2"
   },
   {
     "Architecture": "amd64",
