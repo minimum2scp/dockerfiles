@@ -83,7 +83,7 @@ ii   libss2                  1.47.0-2+b1       amd64  command-line interface par
 ii   libstdc++6              13.2.0-5          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             254.5-1           amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.4+20230625-2    amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6               6.4+20231007-1    amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                254.5-1           amd64  libudev shared library
 ii   libunistring5           1.1-2             amd64  Unicode string library for C
 ii   libuuid1                2.39.2-2.2        amd64  Universally Unique ID library
@@ -93,8 +93,8 @@ ii   login                   1:4.13+dfsg1-2    amd64  system login tools
 ii   logsave                 1.47.0-2+b1       amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20230808-1  amd64  Pattern scanning and text processing language
 ii   mount                   2.39.2-2.2        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.4+20230625-2    all    basic terminal type definitions
-ii   ncurses-bin             6.4+20230625-2    amd64  terminal-related programs and man pages
+ii   ncurses-base            6.4+20231007-1    all    basic terminal type definitions
+ii   ncurses-bin             6.4+20231007-1    amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-2    amd64  change and administer password and group data
 ii   perl-base               5.36.0-9          amd64  minimal Perl system
 ii   sed                     4.9-1             amd64  GNU stream editor for filtering/transforming text
