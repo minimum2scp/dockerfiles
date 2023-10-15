@@ -72,7 +72,7 @@ ii   ca-certificates              20230311                        all    Common 
 ii   coreutils                    9.1-1                           amd64  GNU core utilities
 ii   cron                         3.0pl1-175                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-175                      all    process scheduling daemon's configuration files
-ii   curl                         8.3.0-3                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.4.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                      1:2.66-4                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.36-2                      amd64  libcrypt shared library
-ii   libcurl3-gnutls              8.3.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                     8.3.0-3                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls              8.4.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                     8.4.0-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-2                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
@@ -142,7 +142,7 @@ ii   liblz4-1                     1.9.4-1                         amd64  Fast LZ
 ii   liblzma5                     5.4.4-0.1                       amd64  XZ-format compression library
 ii   libmd0                       1.1.0-1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.2-2.2                      amd64  device mounting library
-ii   libncursesw6                 6.4+20230625-2                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.4+20231007-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.9.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.23-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.56.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -174,7 +174,7 @@ ii   libssl3                      3.0.11-1                        amd64  Secure 
 ii   libstdc++6                   13.2.0-5                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  254.5-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                    6.4+20230625-2                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.4+20231007-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.7-1                         amd64  universal charset detection library - shared library
@@ -192,8 +192,8 @@ ii   lv                           4.51-9                          amd64  Powerfu
 ii   man-db                       2.12.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20230808-1                amd64  Pattern scanning and text processing language
 ii   mount                        2.39.2-2.2                      amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base                 6.4+20230625-2                  all    basic terminal type definitions
-ii   ncurses-bin                  6.4+20230625-2                  amd64  terminal-related programs and man pages
+ii   ncurses-base                 6.4+20231007-1                  all    basic terminal type definitions
+ii   ncurses-bin                  6.4+20231007-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   openssh-client               1:9.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
@@ -223,8 +223,8 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                37                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.2-2.2                      amd64  miscellaneous system utilities
 ii   util-linux-extra             2.39.2-2.2                      amd64  interactive login tools
-ii   vim-common                   2:9.0.1894-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.1894-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.2018-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.2018-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.23-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
 ii   zsh                          5.9-5+b1                        amd64  shell with lots of features
