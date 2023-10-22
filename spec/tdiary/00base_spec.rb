@@ -99,7 +99,7 @@ describe 'minimum2scp/tdiary' do
           pending 'Switched nginx package to debian.org ones'
           should be_installed.with_version('1.22.1-1~bullseye')
         }
-        it { should be_installed.with_version('1.24.0-1') }
+        it { should be_installed.with_version('1.24.0-2') }
       end
 
       describe file('/etc/nginx/nginx.conf') do
