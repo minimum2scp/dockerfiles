@@ -129,13 +129,13 @@ ii   libgdbm6                     1.23-3                          amd64  GNU dbm
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
 ii   libgnutls30                  3.8.1-4+b1                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-2                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2             1.20.1-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.20.1-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.4-1+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.20.1-4                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.20.1-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-2                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.20.1-4                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.20.1-4                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.20.1-5                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.20.1-5                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.13+dfsg-5                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
@@ -148,10 +148,10 @@ ii   libnewt0.52                  0.52.23-1+b1                    amd64  Not Eri
 ii   libnghttp2-14                1.57.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-2                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.0-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.5.2-7                         amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.5.2-7                         amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.5.2-7                         all    Runtime support for the PAM library
-ii   libpam0g                     1.5.2-7                         amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.5.2-9.1                       amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.5.2-9.1                       amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.5.2-9.1                       all    Runtime support for the PAM library
+ii   libpam0g                     1.5.2-9.1                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.36                  5.36.0-9                        amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1                         amd64  Unix process pipeline manipulation library
@@ -170,7 +170,7 @@ ii   libslang2                    2.3.3-3                         amd64  S-Lang 
 ii   libsmartcols1                2.39.2-4                        amd64  smart column output alignment library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
-ii   libssl3                      3.0.11-1                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                      3.0.12-1                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-5                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  254.5-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
@@ -198,7 +198,7 @@ ii   net-tools                    2.10-0.1                        amd64  NET-3 n
 ii   openssh-client               1:9.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.0.11-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.0.12-1                        amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3                  amd64  change and administer password and group data
 ii   perl                         5.36.0-9                        amd64  Larry Wall's Practical Extraction and Report Language

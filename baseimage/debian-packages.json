@@ -1935,7 +1935,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "moonshot-gss-eap (<= 1.0)",
-    "Depends": "libkrb5-3 (= 1.20.1-4), libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkrb5support0 (= 1.20.1-4)",
+    "Depends": "libkrb5-3 (= 1.20.1-5), libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkrb5support0 (= 1.20.1-5)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "425",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-4",
+    "Version": "1.20.1-5",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-4"
+    "source:Version": "1.20.1-5"
   },
   {
     "Architecture": "amd64",
@@ -2019,7 +2019,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libgssapi-krb5-2 (<= 1.18~), libkrb5-3 (<= 1.18~)",
-    "Depends": "libc6 (>= 2.33), libkrb5support0 (= 1.20.1-4)",
+    "Depends": "libc6 (>= 2.33), libkrb5support0 (= 1.20.1-5)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "261",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-4",
+    "Version": "1.20.1-5",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-4"
+    "source:Version": "1.20.1-5"
   },
   {
     "Architecture": "amd64",
@@ -2075,7 +2075,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libkrb5support0 (= 1.20.1-4), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkeyutils1 (>= 1.5.9), libssl3 (>= 3.0.0)",
+    "Depends": "libkrb5support0 (= 1.20.1-5), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkeyutils1 (>= 1.5.9), libssl3 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1085",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-4",
+    "Version": "1.20.1-5",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-4"
+    "source:Version": "1.20.1-5"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.20.1-4",
+    "Version": "1.20.1-5",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-4"
+    "source:Version": "1.20.1-5"
   },
   {
     "Architecture": "amd64",
@@ -2470,10 +2470,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1006",
+    "Installed-Size": "1005",
     "Origin": "",
     "Package": "libpam-modules",
-    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-7)",
+    "Pre-Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libdb5.3, libpam0g (>= 1.4.1), libselinux1 (>= 3.1~), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.5.2-9.1)",
     "Priority": "required",
     "Provides": "libpam-mkhomedir, libpam-motd, libpam-umask",
     "Recommends": "",
@@ -2481,7 +2481,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-7",
+    "Version": "1.5.2-9.1",
     "binary:Package": "libpam-modules:amd64",
     "binary:Summary": "Pluggable Authentication Modules for PAM",
     "db:Status-Abbrev": "ii ",
@@ -2489,7 +2489,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-7"
+    "source:Version": "1.5.2-9.1"
   },
   {
     "Architecture": "amd64",
@@ -2498,7 +2498,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcrypt1 (>= 1:4.3.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "206",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "libpam-modules-bin",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-7",
+    "Version": "1.5.2-9.1",
     "binary:Package": "libpam-modules-bin",
     "binary:Summary": "Pluggable Authentication Modules for PAM - helper binaries",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-7"
+    "source:Version": "1.5.2-9.1"
   },
   {
     "Architecture": "all",
@@ -2526,7 +2526,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "851",
+    "Installed-Size": "850",
     "Origin": "",
     "Package": "libpam-runtime",
     "Pre-Depends": "",
@@ -2537,7 +2537,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.2-7",
+    "Version": "1.5.2-9.1",
     "binary:Package": "libpam-runtime",
     "binary:Summary": "Runtime support for the PAM library",
     "db:Status-Abbrev": "ii ",
@@ -2545,7 +2545,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-7"
+    "source:Version": "1.5.2-9.1"
   },
   {
     "Architecture": "amd64",
@@ -2554,7 +2554,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "190",
+    "Installed-Size": "189",
     "Origin": "",
     "Package": "libpam0g",
     "Pre-Depends": "",
@@ -2565,7 +2565,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libpam-doc",
-    "Version": "1.5.2-7",
+    "Version": "1.5.2-9.1",
     "binary:Package": "libpam0g:amd64",
     "binary:Summary": "Pluggable Authentication Modules library",
     "db:Status-Abbrev": "ii ",
@@ -2573,7 +2573,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pam",
-    "source:Version": "1.5.2-7"
+    "source:Version": "1.5.2-9.1"
   },
   {
     "Architecture": "amd64",
@@ -3086,7 +3086,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6034",
+    "Installed-Size": "6026",
     "Origin": "",
     "Package": "libssl3",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.11-1",
+    "Version": "3.0.12-1",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.11-1"
+    "source:Version": "3.0.12-1"
   },
   {
     "Architecture": "amd64",
@@ -3870,7 +3870,7 @@
     "Depends": "libc6 (>= 2.34), libssl3 (>= 3.0.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2291",
+    "Installed-Size": "2290",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.11-1",
+    "Version": "3.0.12-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.11-1"
+    "source:Version": "3.0.12-1"
   },
   {
     "Architecture": "all",
