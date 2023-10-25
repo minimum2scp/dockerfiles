@@ -68,10 +68,10 @@ ii   libmd0                  1.1.0-1           amd64  message digest functions f
 ii   libmount1               2.39.2-4          amd64  device mounting library
 ii   libnettle8              3.9.1-2           amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.25.0-5          amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules          1.5.2-7           amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin      1.5.2-7           amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime          1.5.2-7           all    Runtime support for the PAM library
-ii   libpam0g                1.5.2-7           amd64  Pluggable Authentication Modules library
+ii   libpam-modules          1.5.2-9.1         amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin      1.5.2-9.1         amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime          1.5.2-9.1         all    Runtime support for the PAM library
+ii   libpam0g                1.5.2-9.1         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-4           amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.4-1+b3        amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.5-1             amd64  SELinux runtime shared libraries
