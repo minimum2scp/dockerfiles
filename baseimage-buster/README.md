@@ -130,13 +130,13 @@ ii   libgdbm6                1.18.1-4                     amd64  GNU dbm databas
 ii   libgmp10                2:6.1.2+dfsg-4+deb10u1       amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.6.7-4+deb10u10             amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.35-1                       amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.17-3+deb10u6               amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed4             3.4.1-1+deb10u1              amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.0.5-1+deb10u1              amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.17-3+deb10u6               amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6-6                        amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.17-3+deb10u5               amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.17-3+deb10u6               amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.17-3+deb10u6               amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.47+dfsg-3+deb10u7        amd64  OpenLDAP libraries
 ii   libldap-common          2.4.47+dfsg-3+deb10u7        all    OpenLDAP common files for libraries
 ii   liblognorm5             2.0.5-1                      amd64  log normalizing library
