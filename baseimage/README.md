@@ -112,7 +112,7 @@ ii   libcom-err2                  1.47.0-2+b1                     amd64  common 
 ii   libcrypt1                    1:4.4.36-2                      amd64  libcrypt shared library
 ii   libcurl3-gnutls              8.4.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     8.4.0-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3                     5.3.28+dfsg2-2                  amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                     5.3.28+dfsg2-3                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
@@ -145,7 +145,7 @@ ii   libmount1                    2.39.2-5                        amd64  device 
 ii   libncursesw6                 6.4+20231016-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.9.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-1                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.57.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.58.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.0-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.2-9.1                       amd64  Pluggable Authentication Modules for PAM
@@ -223,8 +223,8 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                38                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.2-5                        amd64  miscellaneous system utilities
 ii   util-linux-extra             2.39.2-5                        amd64  interactive login tools
-ii   vim-common                   2:9.0.2018-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.2018-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.2087-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.2087-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
 ii   zsh                          5.9-5+b1                        amd64  shell with lots of features
