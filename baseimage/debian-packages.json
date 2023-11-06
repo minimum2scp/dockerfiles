@@ -1098,7 +1098,7 @@
     "Depends": "libc6 (>= 2.29)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "783",
+    "Installed-Size": "852",
     "Origin": "",
     "Package": "libbrotli1",
     "Pre-Depends": "",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.9-2+b6",
+    "Version": "1.1.0-1",
     "binary:Package": "libbrotli1:amd64",
     "binary:Summary": "library implementing brotli encoder and decoder (shared libraries)",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "brotli",
-    "source:Version": "1.0.9-2"
+    "source:Version": "1.1.0-1"
   },
   {
     "Architecture": "amd64",
