@@ -12,7 +12,8 @@ I: Validating base-files 13
 I: Validating base-passwd 3.6.2
 I: Validating bash 5.2.15-2+b6
 I: Validating bsdutils 1:2.39.2-5
-I: Validating coreutils 9.1-1
+I: Retrieving coreutils 9.4-1+b1
+I: Validating coreutils 9.4-1+b1
 I: Validating dash 0.5.12-6
 I: Validating debconf 1.5.82
 I: Validating debian-archive-keyring 2023.4
@@ -40,7 +41,6 @@ I: Validating libcap-ng0 0.8.3-1+b3
 I: Validating libcap2 1:2.66-4
 I: Validating libcom-err2 1.47.0-2+b1
 I: Validating libcrypt1 1:4.4.36-2
-I: Retrieving libdb5.3 5.3.28+dfsg2-3
 I: Validating libdb5.3 5.3.28+dfsg2-3
 I: Validating libdebconfclient0 0.271
 I: Validating libext2fs2 1.47.0-2+b1
