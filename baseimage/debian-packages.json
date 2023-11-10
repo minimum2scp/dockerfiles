@@ -258,10 +258,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "18062",
+    "Installed-Size": "18424",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.34), libgmp10 (>= 2:6.2.1+dfsg1), libselinux1 (>= 3.1~)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.34), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.1-1",
+    "Version": "9.4-1+b1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "9.1-1"
+    "source:Version": "9.4-1"
   },
   {
     "Architecture": "amd64",
