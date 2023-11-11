@@ -146,10 +146,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "18424",
+    "Installed-Size": "18306",
     "Origin": "",
     "Package": "coreutils",
-    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.34), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~)",
+    "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.34), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.4-1+b1",
+    "Version": "9.4-2+b1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "9.4-1"
+    "source:Version": "9.4-2"
   },
   {
     "Architecture": "amd64",
@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg2-3",
+    "Version": "5.3.28+dfsg2-4",
     "binary:Package": "libdb5.3:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg2-3"
+    "source:Version": "5.3.28+dfsg2-4"
   },
   {
     "Architecture": "amd64",
@@ -1734,6 +1734,34 @@
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
     "source:Version": "1.47.0-2"
+  },
+  {
+    "Architecture": "amd64",
+    "Conflicts": "",
+    "Breaks": "",
+    "Depends": "libc6 (>= 2.34)",
+    "Enhances": "",
+    "Essential": "no",
+    "Installed-Size": "6026",
+    "Origin": "",
+    "Package": "libssl3",
+    "Pre-Depends": "",
+    "Priority": "optional",
+    "Provides": "",
+    "Recommends": "",
+    "Replace": "",
+    "Section": "libs",
+    "Status": "install ok installed",
+    "Suggests": "",
+    "Version": "3.0.12-2",
+    "binary:Package": "libssl3:amd64",
+    "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
+    "db:Status-Abbrev": "ii ",
+    "db:Status-Want": "install",
+    "db:Status-Status": "installed",
+    "db:Status-Eflag": "ok",
+    "source:Package": "openssl",
+    "source:Version": "3.0.12-2"
   },
   {
     "Architecture": "amd64",

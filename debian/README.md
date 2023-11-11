@@ -23,7 +23,7 @@ ii   base-files              13                amd64  Debian base system miscell
 ii   base-passwd             3.6.2             amd64  Debian base system master password and group files
 ii   bash                    5.2.15-2+b6       amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.39.2-5        amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               9.4-1+b1          amd64  GNU core utilities
+ii   coreutils               9.4-2+b1          amd64  GNU core utilities
 ii   dash                    0.5.12-6          amd64  POSIX-compliant shell
 ii   debconf                 1.5.82            all    Debian configuration management system
 ii   debian-archive-keyring  2023.4            all    GnuPG archive keys of the Debian archive
@@ -51,7 +51,7 @@ ii   libcap-ng0              0.8.3-1+b3        amd64  alternate POSIX capabiliti
 ii   libcap2                 1:2.66-4          amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2+b1       amd64  common error description library
 ii   libcrypt1               1:4.4.36-2        amd64  libcrypt shared library
-ii   libdb5.3                5.3.28+dfsg2-3    amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3                5.3.28+dfsg2-4    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.271             amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2+b1       amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.4-1           amd64  Foreign Function Interface library runtime
@@ -80,6 +80,7 @@ ii   libsemanage2            3.5-1             amd64  SELinux policy management 
 ii   libsepol2               3.5-1             amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.39.2-5          amd64  smart column output alignment library
 ii   libss2                  1.47.0-2+b1       amd64  command-line interface parsing library
+ii   libssl3                 3.0.12-2          amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              13.2.0-6          amd64  GNU Standard C++ Library v3
 ii   libsystemd0             254.5-1           amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3          amd64  Manage ASN.1 structures (runtime)
