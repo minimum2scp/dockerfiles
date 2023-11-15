@@ -190,7 +190,7 @@ ii   login                        1:4.13+dfsg1-3                  amd64  system 
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.0-1                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20230808-1                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20231102-1                amd64  Pattern scanning and text processing language
 ii   mount                        2.39.2-6                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.4+20231016-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.4+20231016-1                  amd64  terminal-related programs and man pages
