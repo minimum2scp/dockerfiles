@@ -172,13 +172,13 @@ ii   libss2                       1.47.0-2+b1                     amd64  command
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.12-2                        amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  254.5-1                         amd64  systemd utility library
+ii   libsystemd0                  255~rc2-1                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20231016-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                     254.5-1                         amd64  libudev shared library
+ii   libudev1                     255~rc2-1                       amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.2-6                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -211,7 +211,7 @@ ii   sed                          4.9-1                           amd64  GNU str
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.14p2-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  254.5-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  255~rc2-1                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-3                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-3                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-3                          amd64  System-V-like utilities
