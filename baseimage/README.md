@@ -226,7 +226,7 @@ ii   util-linux-extra             2.39.2-6                        amd64  interac
 ii   vim-common                   2:9.0.2103-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.0.2103-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.2.13.dfsg-3                 amd64  compression library - runtime
+ii   zlib1g                       1:1.3.dfsg-2                    amd64  compression library - runtime
 ii   zsh                          5.9-5+b1                        amd64  shell with lots of features
 ii   zsh-common                   5.9-5                           all    architecture independent files for Zsh
 ii   zstd                         1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm -- CLI tool
