@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.39.2-6                      amd64  basic u
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.4-2+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-178                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-178                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-179                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-179                      all    process scheduling daemon's configuration files
 ii   curl                         8.4.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
