@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 2.7.6
+I: Retrieving apt 2.7.7
+I: Validating apt 2.7.7
 I: Validating base-files 13
 I: Validating base-passwd 3.6.2
 I: Validating bash 5.2.15-2+b6
@@ -28,7 +29,8 @@ I: Validating gzip 1.12-1
 I: Validating hostname 3.23+nmu1
 I: Validating init-system-helpers 1.65.2
 I: Validating libacl1 2.3.1-3
-I: Validating libapt-pkg6.0 2.7.6
+I: Retrieving libapt-pkg6.0 2.7.7
+I: Validating libapt-pkg6.0 2.7.7
 I: Validating libattr1 1:2.5.1-4
 I: Validating libaudit-common 1:3.1.1-1
 I: Validating libaudit1 1:3.1.1-1
@@ -71,13 +73,13 @@ I: Validating libsmartcols1 2.39.2-6
 I: Validating libss2 1.47.0-2+b1
 I: Validating libssl3 3.0.12-2
 I: Validating libstdc++6 13.2.0-6
-I: Retrieving libsystemd0 255~rc2-3
-I: Validating libsystemd0 255~rc2-3
+I: Retrieving libsystemd0 255~rc3-2
+I: Validating libsystemd0 255~rc3-2
 I: Validating libtasn1-6 4.19.0-3
-I: Retrieving libtinfo6 6.4+20231118-1
-I: Validating libtinfo6 6.4+20231118-1
-I: Retrieving libudev1 255~rc2-3
-I: Validating libudev1 255~rc2-3
+I: Retrieving libtinfo6 6.4+20231121-1
+I: Validating libtinfo6 6.4+20231121-1
+I: Retrieving libudev1 255~rc3-2
+I: Validating libudev1 255~rc3-2
 I: Validating libunistring5 1.1-2
 I: Validating libuuid1 2.39.2-6
 I: Validating libxxhash0 0.8.2-2
@@ -86,10 +88,10 @@ I: Validating login 1:4.13+dfsg1-3
 I: Validating logsave 1.47.0-2+b1
 I: Validating mawk 1.3.4.20231102-1
 I: Validating mount 2.39.2-6
-I: Retrieving ncurses-base 6.4+20231118-1
-I: Validating ncurses-base 6.4+20231118-1
-I: Retrieving ncurses-bin 6.4+20231118-1
-I: Validating ncurses-bin 6.4+20231118-1
+I: Retrieving ncurses-base 6.4+20231121-1
+I: Validating ncurses-base 6.4+20231121-1
+I: Retrieving ncurses-bin 6.4+20231121-1
+I: Validating ncurses-bin 6.4+20231121-1
 I: Validating passwd 1:4.13+dfsg1-3
 I: Validating perl-base 5.36.0-9
 I: Validating sed 4.9-1
