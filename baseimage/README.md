@@ -99,7 +99,7 @@ ii   libattr1                     1:2.5.1-4                       amd64  extende
 ii   libaudit-common              1:3.1.1-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.1-1                       amd64  Dynamic library for security auditing
 ii   libblkid1                    2.39.2-6                        amd64  block device ID library
-ii   libbrotli1                   1.1.0-1                         amd64  library implementing brotli encoder and decoder (shared libraries)
+ii   libbrotli1                   1.1.0-2                         amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.11.7-4                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.37-12                         amd64  GNU C Library: Binaries
@@ -139,7 +139,7 @@ ii   libkrb5support0              1.20.1-5                        amd64  MIT Ker
 ii   libldap-2.5-0                2.5.13+dfsg-5                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1                         amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.4.4-0.1                       amd64  XZ-format compression library
+ii   liblzma5                     5.4.5-0.1                       amd64  XZ-format compression library
 ii   libmd0                       1.1.0-1                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.2-6                        amd64  device mounting library
 ii   libncursesw6                 6.4+20231121-1                  amd64  shared libraries for terminal handling (wide character support)
@@ -226,7 +226,7 @@ ii   util-linux-extra             2.39.2-6                        amd64  interac
 ii   vim-common                   2:9.0.2116-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.0.2116-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.3.dfsg-2                    amd64  compression library - runtime
+ii   zlib1g                       1:1.3.dfsg-3                    amd64  compression library - runtime
 ii   zsh                          5.9-5+b1                        amd64  shell with lots of features
 ii   zsh-common                   5.9-5                           all    architecture independent files for Zsh
 ii   zstd                         1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm -- CLI tool
