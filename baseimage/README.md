@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.7.7                           amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.2                           amd64  Debian base system master password and group files
-ii   bash                         5.2.15-2+b6                     amd64  GNU Bourne Again SHell
+ii   bash                         5.2.21-1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.39.2-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.39.2-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
@@ -82,7 +82,7 @@ ii   dpkg                         1.22.1                          amd64  Debian 
 ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
-ii   gcc-13-base                  13.2.0-6                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-13-base                  13.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.42.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.42.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
@@ -120,9 +120,9 @@ ii   libestr0                     0.1.11-1                        amd64  Helper 
 ii   libexpat1                    2.5.0-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2                   1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
-ii   libffi8                      3.4.4-1                         amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.4.4-2                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.13.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    13.2.0-6                        amd64  GCC support library
+ii   libgcc-s1                    13.2.0-7                        amd64  GCC support library
 ii   libgcrypt20                  1.10.2-3                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-3                          amd64  GNU dbm database routines (runtime version) 
@@ -165,13 +165,13 @@ ii   libseccomp2                  2.5.4-2                         amd64  high le
 ii   libselinux1                  3.5-1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1                           amd64  SELinux policy management library
-ii   libsepol2                    3.5-1                           amd64  SELinux library for manipulating binary security policies
+ii   libsepol2                    3.5-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.2-6                        amd64  smart column output alignment library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
 ii   libssl3                      3.0.12-2                        amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   13.2.0-6                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   13.2.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255~rc3-2                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20231121-1                  amd64  shared low-level terminfo library for terminal handling
