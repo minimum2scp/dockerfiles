@@ -121,7 +121,7 @@ ii   libexpat1                    2.5.0-2                         amd64  XML par
 ii   libext2fs2                   1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.4-2                         amd64  Foreign Function Interface library runtime
-ii   libfido2-1                   1.13.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1                   1.14.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    13.2.0-7                        amd64  GCC support library
 ii   libgcrypt20                  1.10.2-3                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
@@ -153,7 +153,7 @@ ii   libpam-modules-bin           1.5.2-9.1                       amd64  Pluggab
 ii   libpam-runtime               1.5.2-9.1                       all    Runtime support for the PAM library
 ii   libpam0g                     1.5.2-9.1                       amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.36                  5.36.0-9                        amd64  shared Perl library
+ii   libperl5.36                  5.36.0-10                       amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-2                       amd64  library for accessing process information from /proc
@@ -170,7 +170,7 @@ ii   libslang2                    2.3.3-3                         amd64  S-Lang 
 ii   libsmartcols1                2.39.2-6                        amd64  smart column output alignment library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
-ii   libssl3                      3.0.12-2                        amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255~rc3-2                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3                        amd64  Manage ASN.1 structures (runtime)
@@ -195,15 +195,15 @@ ii   mount                        2.39.2-6                        amd64  tools f
 ii   ncurses-base                 6.4+20231121-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.4+20231121-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:9.4p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.4p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.4p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.0.12-2                        amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client               1:9.5p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.5p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.5p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3                  amd64  change and administer password and group data
-ii   perl                         5.36.0-9                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.36.0-9                        amd64  minimal Perl system
-ii   perl-modules-5.36            5.36.0-9                        all    Core Perl modules
+ii   perl                         5.36.0-10                       amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.36.0-10                       amd64  minimal Perl system
+ii   perl-modules-5.36            5.36.0-10                       all    Core Perl modules
 ii   procps                       2:4.0.4-2                       amd64  /proc file system utilities
 ii   rsyslog                      8.2310.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail

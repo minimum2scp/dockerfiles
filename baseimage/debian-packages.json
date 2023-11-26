@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.13.0-1+b1",
+    "Version": "1.14.0-1",
     "binary:Package": "libfido2-1:amd64",
     "binary:Summary": "library for generating and verifying FIDO 2.0 objects",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libfido2",
-    "source:Version": "1.13.0-1"
+    "source:Version": "1.14.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2607,7 +2607,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libfilter-perl (<< 1.60), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-9)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-10)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "28850",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.36.0-9",
+    "Version": "5.36.0-10",
     "binary:Package": "libperl5.36:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-9"
+    "source:Version": "5.36.0-10"
   },
   {
     "Architecture": "amd64",
@@ -3082,11 +3082,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6026",
+    "Installed-Size": "6750",
     "Origin": "",
     "Package": "libssl3",
     "Pre-Depends": "",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.12-2",
+    "Version": "3.1.4-2",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.12-2"
+    "source:Version": "3.1.4-2"
   },
   {
     "Architecture": "amd64",
@@ -3783,10 +3783,10 @@
     "Architecture": "amd64",
     "Conflicts": "sftp",
     "Breaks": "openssh-sk-helper",
-    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.10), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.12), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5814",
+    "Installed-Size": "5821",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:9.4p1-1",
+    "Version": "1:9.5p1-2",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3805,16 +3805,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.4p1-1"
+    "source:Version": "1:9.5p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.4p1-1), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.10), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.5p1-2), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.12), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1948",
+    "Installed-Size": "1955",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:9.4p1-1",
+    "Version": "1:9.5p1-2",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.4p1-1"
+    "source:Version": "1:9.5p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:9.4p1-1), libc6 (>= 2.34)",
+    "Depends": "openssh-client (= 1:9.5p1-2), libc6 (>= 2.34)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "217",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.4p1-1",
+    "Version": "1:9.5p1-2",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.4p1-1"
+    "source:Version": "1:9.5p1-2"
   },
   {
     "Architecture": "amd64",
@@ -3870,7 +3870,7 @@
     "Depends": "libc6 (>= 2.34), libssl3 (>= 3.0.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2290",
+    "Installed-Size": "2294",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.12-2",
+    "Version": "3.1.4-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.12-2"
+    "source:Version": "3.1.4-2"
   },
   {
     "Architecture": "all",
@@ -3951,7 +3951,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.36.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.36.0-9), perl-modules-5.36 (>= 5.36.0-9), libperl5.36 (= 5.36.0-9)",
+    "Depends": "perl-base (= 5.36.0-10), perl-modules-5.36 (>= 5.36.0-10), libperl5.36 (= 5.36.0-10)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "670",
@@ -3965,7 +3965,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.36.0-9",
+    "Version": "5.36.0-10",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-9"
+    "source:Version": "5.36.0-10"
   },
   {
     "Architecture": "amd64",
@@ -3993,7 +3993,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.36.0-9",
+    "Version": "5.36.0-10",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-9"
+    "source:Version": "5.36.0-10"
   },
   {
     "Architecture": "all",
@@ -4021,7 +4021,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.36.0-9",
+    "Version": "5.36.0-10",
     "binary:Package": "perl-modules-5.36",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-9"
+    "source:Version": "5.36.0-10"
   },
   {
     "Architecture": "amd64",
