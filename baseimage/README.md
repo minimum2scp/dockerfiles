@@ -64,14 +64,14 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.7.7                           amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.2                           amd64  Debian base system master password and group files
-ii   bash                         5.2.21-1                        amd64  GNU Bourne Again SHell
+ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.39.2-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.39.2-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.4-2+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-179                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-179                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-180                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-180                      all    process scheduling daemon's configuration files
 ii   curl                         8.4.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.82                          all    Debian configuration management system
@@ -83,14 +83,14 @@ ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ex
 ii   etckeeper                    1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
 ii   gcc-13-base                  13.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.42.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.42.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-3                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
 ii   hostname                     3.23+nmu1                       amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.65.2                          all    helper tools for all init systems
+ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.08-3                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-3                         amd64  access control list - shared library
