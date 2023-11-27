@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.21-1",
+    "Version": "5.2.21-2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.2.21-1"
+    "source:Version": "5.2.21-2"
   },
   {
     "Architecture": "amd64",
@@ -538,7 +538,7 @@
     "Depends": "usrmerge | usr-is-merged",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "140",
+    "Installed-Size": "130",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.65.2",
+    "Version": "1.66",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.65.2"
+    "source:Version": "1.66"
   },
   {
     "Architecture": "amd64",
