@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                      3.137                           all    add and remove users and groups
 ii   apt                          2.7.7                           amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
-ii   base-passwd                  3.6.2                           amd64  Debian base system master password and group files
+ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.39.2-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.39.2-6                      amd64  basic utilities from 4.4BSD-Lite
@@ -127,7 +127,7 @@ ii   libgcrypt20                  1.10.2-3                        amd64  LGPL Cr
 ii   libgdbm-compat4              1.23-5                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-5                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30                  3.8.1-4+b1                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30                  3.8.2-1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -169,7 +169,7 @@ ii   libsepol2                    3.5-2                           amd64  SELinux
 ii   libslang2                    2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.2-6                        amd64  smart column output alignment library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
-ii   libssh2-1                    1.11.0-2                        amd64  SSH2 client-side library
+ii   libssh2-1                    1.11.0-3                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255~rc3-2                       amd64  systemd utility library
@@ -177,7 +177,7 @@ ii   libtasn1-6                   4.19.0-3                        amd64  Manage 
 ii   libtinfo6                    6.4+20231121-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
-ii   libuchardet0                 0.0.7-1                         amd64  universal charset detection library - shared library
+ii   libuchardet0                 0.0.8-1                         amd64  universal charset detection library - shared library
 ii   libudev1                     255~rc3-2                       amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.2-6                        amd64  Universally Unique ID library
