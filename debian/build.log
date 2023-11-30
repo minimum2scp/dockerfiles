@@ -9,7 +9,8 @@ I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 2.7.7
 I: Validating base-files 13
-I: Validating base-passwd 3.6.2
+I: Retrieving base-passwd 3.6.3
+I: Validating base-passwd 3.6.3
 I: Validating bash 5.2.21-2
 I: Validating bsdutils 1:2.39.2-6
 I: Validating coreutils 9.4-2+b1
@@ -47,7 +48,8 @@ I: Validating libffi8 3.4.4-2
 I: Validating libgcc-s1 13.2.0-7
 I: Validating libgcrypt20 1.10.2-3
 I: Validating libgmp10 2:6.3.0+dfsg-2
-I: Validating libgnutls30 3.8.1-4+b1
+I: Retrieving libgnutls30 3.8.2-1
+I: Validating libgnutls30 3.8.2-1
 I: Validating libgpg-error0 1.47-3
 I: Validating libhogweed6 3.9.1-2
 I: Validating libidn2-0 2.3.4-1+b1
@@ -90,7 +92,6 @@ I: Validating perl-base 5.36.0-10
 I: Validating sed 4.9-1
 I: Validating sysvinit-utils 3.08-3
 I: Validating tar 1.34+dfsg-1.2
-I: Retrieving tzdata 2023c-11
 I: Validating tzdata 2023c-11
 I: Validating usr-is-merged 38
 I: Validating util-linux 2.39.2-6
