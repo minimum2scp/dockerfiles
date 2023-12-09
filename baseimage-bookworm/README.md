@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                  3.134                           all    add and remove users and groups
 ii   apt                      2.6.1                           amd64  commandline package manager
-ii   base-files               12.4+deb12u2                    amd64  Debian base system miscellaneous files
+ii   base-files               12.4+deb12u3                    amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2+b2                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-5+b1                     amd64  extra utilities from 4.4BSD-Lite
@@ -127,7 +127,7 @@ ii   libgcrypt20              1.10.1-3                        amd64  LGPL Crypto
 ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg1-1.1               amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.9-2                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.9-2+deb12u1                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20.1-2+deb12u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.8.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -153,7 +153,7 @@ ii   libpam-modules-bin       1.5.2-6+deb12u1                 amd64  Pluggable A
 ii   libpam-runtime           1.5.2-6+deb12u1                 all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-6+deb12u1                 amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.36              5.36.0-7                        amd64  shared Perl library
+ii   libperl5.36              5.36.0-7+deb12u1                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0               2:4.0.2-3                       amd64  library for accessing process information from /proc
@@ -172,13 +172,13 @@ ii   libss2                   1.47.0-2                        amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.11-1~deb12u2                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.17-1~deb12u1                amd64  systemd utility library
+ii   libsystemd0              252.19-1~deb12u1                amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 252.17-1~deb12u1                amd64  libudev shared library
+ii   libudev1                 252.19-1~deb12u1                amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5+b1                     amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -201,9 +201,9 @@ ii   openssh-sftp-server      1:9.2p1-2+deb12u1               amd64  secure shel
 ii   openssl                  3.0.11-1~deb12u2                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
-ii   perl                     5.36.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.36.0-7                        amd64  minimal Perl system
-ii   perl-modules-5.36        5.36.0-7                        all    Core Perl modules
+ii   perl                     5.36.0-7+deb12u1                amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.36.0-7+deb12u1                amd64  minimal Perl system
+ii   perl-modules-5.36        5.36.0-7+deb12u1                all    Core Perl modules
 ii   procps                   2:4.0.2-3                       amd64  /proc file system utilities
 ii   rsyslog                  8.2302.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                          all    dh-runit implementation detail
@@ -216,7 +216,7 @@ ii   sysvinit-core            3.06-4                          amd64  System-V-li
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
 ii   tar                      1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.0-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                   2023c-5                         all    time zone and daylight-saving time data
+ii   tzdata                   2023c-5+deb12u1                 all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
