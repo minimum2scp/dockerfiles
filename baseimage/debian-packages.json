@@ -339,10 +339,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl4 (= 8.4.0-2), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl4 (= 8.5.0-1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "505",
+    "Installed-Size": "518",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.4.0-2",
+    "Version": "8.5.0-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.4.0-2"
+    "source:Version": "8.5.0-1"
   },
   {
     "Architecture": "amd64",
@@ -871,21 +871,21 @@
     "Architecture": "all",
     "Conflicts": "",
     "Breaks": "udev (<< 254.3-1), util-linux-extra (<< 2.39.2-2.1~)",
-    "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc, util-linux-extra",
+    "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "197",
+    "Installed-Size": "198",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "e2fsprogs, psmisc",
+    "Recommends": "e2fsprogs, psmisc, util-linux-extra",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.08-3",
+    "Version": "3.08-5",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.08-3"
+    "source:Version": "3.08-5"
   },
   {
     "Architecture": "amd64",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:3.1.1-1",
+    "Version": "1:3.1.2-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1033,16 +1033,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:3.1.1-1"
+    "source:Version": "1:3.1.2-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:3.1.1-1), libc6 (>= 2.33), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:3.1.2-1), libc6 (>= 2.33), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "157",
+    "Installed-Size": "160",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:3.1.1-1+b1",
+    "Version": "1:3.1.2-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1061,7 +1061,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:3.1.1-1"
+    "source:Version": "1:3.1.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1403,10 +1403,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.36), libgnutls30 (>= 3.8.1), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8, libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.11.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
+    "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.36), libgnutls30 (>= 3.8.2), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8, libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.11.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "892",
+    "Installed-Size": "903",
     "Origin": "",
     "Package": "libcurl3-gnutls",
     "Pre-Depends": "",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.4.0-2",
+    "Version": "8.5.0-1",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,16 +1425,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.4.0-2"
+    "source:Version": "8.5.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
     "Breaks": "",
-    "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.36), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.11.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
+    "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.11.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "904",
+    "Installed-Size": "927",
     "Origin": "",
     "Package": "libcurl4",
     "Pre-Depends": "",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.4.0-2",
+    "Version": "8.5.0-1",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.4.0-2"
+    "source:Version": "8.5.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2299,7 +2299,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.4+20231121-1), libc6 (>= 2.34)",
+    "Depends": "libtinfo6 (= 6.4+20231209-1), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "416",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231121-1",
+    "Version": "6.4+20231209-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2321,7 +2321,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231121-1"
+    "source:Version": "6.4+20231209-1"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255~rc4-2",
+    "Version": "255-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255~rc4-2"
+    "source:Version": "255-1"
   },
   {
     "Architecture": "amd64",
@@ -3198,7 +3198,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "558",
+    "Installed-Size": "560",
     "Origin": "",
     "Package": "libtinfo6",
     "Pre-Depends": "",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231121-1",
+    "Version": "6.4+20231209-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231121-1"
+    "source:Version": "6.4+20231209-1"
   },
   {
     "Architecture": "all",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255~rc4-2",
+    "Version": "255-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255~rc4-2"
+    "source:Version": "255-1"
   },
   {
     "Architecture": "amd64",
@@ -3702,7 +3702,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "382",
+    "Installed-Size": "384",
     "Origin": "",
     "Package": "ncurses-base",
     "Pre-Depends": "",
@@ -3713,7 +3713,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231121-1",
+    "Version": "6.4+20231209-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231121-1"
+    "source:Version": "6.4+20231209-1"
   },
   {
     "Architecture": "amd64",
@@ -3730,7 +3730,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "644",
+    "Installed-Size": "646",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.4+20230603)",
@@ -3741,7 +3741,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231121-1",
+    "Version": "6.4+20231209-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231121-1"
+    "source:Version": "6.4+20231209-1"
   },
   {
     "Architecture": "amd64",
@@ -4203,10 +4203,10 @@
     "Architecture": "amd64",
     "Conflicts": "sudo-ldap",
     "Breaks": "",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), zlib1g (>= 1:1.2.0.2), libpam-modules",
+    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.0.2), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6222",
+    "Installed-Size": "6539",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4217,7 +4217,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.14p2-1",
+    "Version": "1.9.15p2-2",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.14p2-1"
+    "source:Version": "1.9.15p2-2"
   },
   {
     "Architecture": "amd64",
@@ -4239,13 +4239,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 255~rc4-2)",
+    "Provides": "systemd-sysusers (= 255-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255~rc4-2",
+    "Version": "255-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255~rc4-2"
+    "source:Version": "255-1"
   },
   {
     "Architecture": "all",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.08-3",
+    "Version": "3.08-5",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.08-3"
+    "source:Version": "3.08-5"
   },
   {
     "Architecture": "amd64",
@@ -4290,7 +4290,7 @@
     "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "371",
+    "Installed-Size": "373",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4301,7 +4301,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.08-3",
+    "Version": "3.08-5",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.08-3"
+    "source:Version": "3.08-5"
   },
   {
     "Architecture": "amd64",
@@ -4329,7 +4329,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.08-3",
+    "Version": "3.08-5",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.08-3"
+    "source:Version": "3.08-5"
   },
   {
     "Architecture": "amd64",
@@ -4528,34 +4528,6 @@
     "Version": "2.39.3-2",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
-    "db:Status-Abbrev": "ii ",
-    "db:Status-Want": "install",
-    "db:Status-Status": "installed",
-    "db:Status-Eflag": "ok",
-    "source:Package": "util-linux",
-    "source:Version": "2.39.3-2"
-  },
-  {
-    "Architecture": "amd64",
-    "Conflicts": "",
-    "Breaks": "initscripts (<< 3.08-2~), util-linux (<< 2.38~)",
-    "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libsmartcols1 (>= 2.38)",
-    "Enhances": "",
-    "Essential": "no",
-    "Installed-Size": "594",
-    "Origin": "",
-    "Package": "util-linux-extra",
-    "Pre-Depends": "",
-    "Priority": "standard",
-    "Provides": "",
-    "Recommends": "",
-    "Replace": "",
-    "Section": "utils",
-    "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "2.39.3-2",
-    "binary:Package": "util-linux-extra",
-    "binary:Summary": "interactive login tools",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
