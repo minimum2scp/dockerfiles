@@ -41,8 +41,8 @@ ii   init-system-helpers     1.66              all    helper tools for all init 
 ii   libacl1                 2.3.1-3           amd64  access control list - shared library
 ii   libapt-pkg6.0           2.7.7             amd64  package management runtime library
 ii   libattr1                1:2.5.1-4         amd64  extended attribute handling - shared library
-ii   libaudit-common         1:3.1.1-1         all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.1.1-1+b1      amd64  Dynamic library for security auditing
+ii   libaudit-common         1:3.1.2-1         all    Dynamic library for security auditing - common files
+ii   libaudit1               1:3.1.2-1         amd64  Dynamic library for security auditing
 ii   libblkid1               2.39.3-2          amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5+b1        amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.37-13           amd64  GNU C Library: Binaries
@@ -82,10 +82,10 @@ ii   libsmartcols1           2.39.3-2          amd64  smart column output alignm
 ii   libss2                  1.47.0-2+b1       amd64  command-line interface parsing library
 ii   libssl3                 3.1.4-2           amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              13.2.0-8          amd64  GNU Standard C++ Library v3
-ii   libsystemd0             255~rc4-2         amd64  systemd utility library
+ii   libsystemd0             255-1             amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3          amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6               6.4+20231121-1    amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                255~rc4-2         amd64  libudev shared library
+ii   libtinfo6               6.4+20231209-1    amd64  shared low-level terminfo library for terminal handling
+ii   libudev1                255-1             amd64  libudev shared library
 ii   libunistring5           1.1-2             amd64  Unicode string library for C
 ii   libuuid1                2.39.3-2          amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2           amd64  shared library for xxhash
@@ -94,12 +94,12 @@ ii   login                   1:4.13+dfsg1-3    amd64  system login tools
 ii   logsave                 1.47.0-2+b1       amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20231126-1  amd64  Pattern scanning and text processing language
 ii   mount                   2.39.3-2          amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base            6.4+20231121-1    all    basic terminal type definitions
-ii   ncurses-bin             6.4+20231121-1    amd64  terminal-related programs and man pages
+ii   ncurses-base            6.4+20231209-1    all    basic terminal type definitions
+ii   ncurses-bin             6.4+20231209-1    amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-3    amd64  change and administer password and group data
 ii   perl-base               5.36.0-10         amd64  minimal Perl system
 ii   sed                     4.9-1             amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.08-3            amd64  System-V-like utilities
+ii   sysvinit-utils          3.08-5            amd64  System-V-like utilities
 ii   tar                     1.34+dfsg-1.2     amd64  GNU version of the tar archiving utility
 ii   tzdata                  2023c-11          all    time zone and daylight-saving time data
 ii   usr-is-merged           38                all    Transitional package to assert a merged-/usr system
