@@ -45,7 +45,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
 
       # push image to docker hub
@@ -82,7 +82,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: ruby, path: /tmp/ruby.tar.gz }
 
       # push image to docker hub
@@ -408,7 +408,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-bookworm:latest | pigz -c - > /tmp/baseimage-bookworm.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-bookworm, path: /tmp/baseimage-bookworm.tar.gz }
 
       # push image to docker hub
@@ -527,7 +527,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-bullseye:latest | pigz -c - > /tmp/baseimage-bullseye.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-bullseye, path: /tmp/baseimage-bullseye.tar.gz }
 
       # push image to docker hub
@@ -646,7 +646,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
 
       # push image to docker hub
@@ -765,7 +765,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
 
       # push image to docker hub
