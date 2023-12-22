@@ -147,7 +147,7 @@ ii   libnettle8                   3.9.1-2                         amd64  low lev
 ii   libnewt0.52                  0.52.24-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.58.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0                  0.25.3-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.2-9.1                       amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.2-9.1                       amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.5.2-9.1                       all    Runtime support for the PAM library
@@ -195,9 +195,9 @@ ii   mount                        2.39.3-2                        amd64  tools f
 ii   ncurses-base                 6.4+20231209-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.4+20231209-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:9.6p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.6p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.6p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3                  amd64  change and administer password and group data
