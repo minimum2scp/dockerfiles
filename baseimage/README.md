@@ -70,9 +70,9 @@ ii   bsdutils                     1:2.39.3-2                      amd64  basic u
 ii   bzip2                        1.0.8-5+b1                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.4-2+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-181                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-181                      all    process scheduling daemon's configuration files
-ii   curl                         8.5.0-1                         amd64  command line tool for transferring data with URL syntax
+ii   cron                         3.0pl1-182                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-182                      all    process scheduling daemon's configuration files
+ii   curl                         8.5.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.83                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -80,7 +80,7 @@ ii   debianutils                  5.14                            amd64  Miscell
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
 ii   dpkg                         1.22.2                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper                    1.18.20-1                       all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.20-1.1                     all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
 ii   gcc-13-base                  13.2.0-9                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
@@ -94,6 +94,7 @@ ii   init-system-helpers          1.66                            all    helper 
 ii   initscripts                  3.08-5                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-4                         amd64  access control list - shared library
+ii   libapparmor1                 3.0.12-1+b1                     amd64  changehat AppArmor library
 ii   libapt-pkg6.0                2.7.7                           amd64  package management runtime library
 ii   libattr1                     1:2.5.1-5                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-1                       all    Dynamic library for security auditing - common files
@@ -110,8 +111,8 @@ ii   libcap2                      1:2.66-4                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.36-2                      amd64  libcrypt shared library
-ii   libcurl3-gnutls              8.5.0-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                     8.5.0-1                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls              8.5.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                     8.5.0-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-4                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
@@ -210,12 +211,12 @@ ii   runit-helper                 2.15.2                          all    dh-runi
 ii   sed                          4.9-1                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.15p3-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.15p4-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  255.2-2                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-5                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-5                          amd64  System-V-like utilities
-ii   tar                          1.34+dfsg-1.4                   amd64  GNU version of the tar archiving utility
+ii   tar                          1.35+dfsg-2                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2023c-11                        all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
