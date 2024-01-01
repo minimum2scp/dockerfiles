@@ -12,7 +12,7 @@ GEM
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
     net-ssh (7.2.1)
-    net-telnet (0.1.1)
+    net-telnet (0.2.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -42,10 +42,10 @@ GEM
       rspec-its
       specinfra (~> 2.72)
     sfl (2.3)
-    specinfra (2.87.0)
+    specinfra (2.87.2)
       net-scp
       net-ssh (>= 2.7)
-      net-telnet (= 0.1.1)
+      net-telnet
       sfl
     yard (0.9.34)
 
