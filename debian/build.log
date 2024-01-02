@@ -39,7 +39,8 @@ I: Validating libc6 2.37-13
 I: Validating libcap-ng0 0.8.4-1
 I: Validating libcap2 1:2.66-4
 I: Validating libcom-err2 1.47.0-2+b1
-I: Validating libcrypt1 1:4.4.36-2
+I: Retrieving libcrypt1 1:4.4.36-4
+I: Validating libcrypt1 1:4.4.36-4
 I: Validating libdb5.3 5.3.28+dfsg2-4
 I: Validating libdebconfclient0 0.271
 I: Validating libext2fs2 1.47.0-2+b1
@@ -87,9 +88,9 @@ I: Validating ncurses-base 6.4+20231209-1
 I: Validating ncurses-bin 6.4+20231209-1
 I: Validating passwd 1:4.13+dfsg1-3
 I: Validating perl-base 5.36.0-10
-I: Validating sed 4.9-1
+I: Retrieving sed 4.9-2
+I: Validating sed 4.9-2
 I: Validating sysvinit-utils 3.08-5
-I: Retrieving tar 1.35+dfsg-2
 I: Validating tar 1.35+dfsg-2
 I: Validating tzdata 2023c-11
 I: Validating usr-is-merged 38

@@ -50,7 +50,7 @@ ii   libc6                   2.37-13           amd64  GNU C Library: Shared libr
 ii   libcap-ng0              0.8.4-1           amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-4          amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2+b1       amd64  common error description library
-ii   libcrypt1               1:4.4.36-2        amd64  libcrypt shared library
+ii   libcrypt1               1:4.4.36-4        amd64  libcrypt shared library
 ii   libdb5.3                5.3.28+dfsg2-4    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.271             amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2+b1       amd64  ext2/ext3/ext4 file system libraries
@@ -98,7 +98,7 @@ ii   ncurses-base            6.4+20231209-1    all    basic terminal type defini
 ii   ncurses-bin             6.4+20231209-1    amd64  terminal-related programs and man pages
 ii   passwd                  1:4.13+dfsg1-3    amd64  change and administer password and group data
 ii   perl-base               5.36.0-10         amd64  minimal Perl system
-ii   sed                     4.9-1             amd64  GNU stream editor for filtering/transforming text
+ii   sed                     4.9-2             amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.08-5            amd64  System-V-like utilities
 ii   tar                     1.35+dfsg-2       amd64  GNU version of the tar archiving utility
 ii   tzdata                  2023c-11          all    time zone and daylight-saving time data
