@@ -110,7 +110,7 @@ ii   libcap-ng0                   0.8.4-1                         amd64  alterna
 ii   libcap2                      1:2.66-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-1.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
-ii   libcrypt1                    1:4.4.36-2                      amd64  libcrypt shared library
+ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
 ii   libcurl3-gnutls              8.5.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     8.5.0-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-4                  amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -206,9 +206,9 @@ ii   perl                         5.36.0-10                       amd64  Larry W
 ii   perl-base                    5.36.0-10                       amd64  minimal Perl system
 ii   perl-modules-5.36            5.36.0-10                       all    Core Perl modules
 ii   procps                       2:4.0.4-2                       amd64  /proc file system utilities
-ii   rsyslog                      8.2312.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2312.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
-ii   sed                          4.9-1                           amd64  GNU stream editor for filtering/transforming text
+ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p4-2                      amd64  Provide limited super user privileges to specific users
@@ -223,8 +223,8 @@ ii   ucf                          3.0043+nmu1                     all    Update 
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                38                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-2                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.0.2116-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.0.2116-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.0.2189-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.0.2189-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3                    amd64  compression library - runtime
 ii   zsh                          5.9-5+b1                        amd64  shell with lots of features
