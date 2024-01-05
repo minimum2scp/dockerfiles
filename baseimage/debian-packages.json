@@ -734,7 +734,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "1267",
+    "Installed-Size": "1266",
     "Origin": "",
     "Package": "grep",
     "Pre-Depends": "libc6 (>= 2.34), libpcre2-8-0 (>= 10.32)",
@@ -745,7 +745,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.11-3",
+    "Version": "3.11-4",
     "binary:Package": "grep",
     "binary:Summary": "GNU grep, egrep and fgrep",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "grep",
-    "source:Version": "3.11-3"
+    "source:Version": "3.11-4"
   },
   {
     "Architecture": "amd64",
@@ -2873,7 +2873,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.4-2+b1",
+    "Version": "2.5.5-1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -2881,7 +2881,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.5.4-2"
+    "source:Version": "2.5.5-1"
   },
   {
     "Architecture": "amd64",

@@ -86,7 +86,7 @@ ii   gcc-13-base                  13.2.0-9                        amd64  GCC, th
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
-ii   grep                         3.11-3                          amd64  GNU grep, egrep and fgrep
+ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
 ii   hostname                     3.23+nmu1                       amd64  utility to set/show the host name or domain name
@@ -162,7 +162,7 @@ ii   libpsl5                      0.21.2-1+b1                     amd64  Library
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-4                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-4                  amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2                  2.5.4-2+b1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2                  2.5.5-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.5-1+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1+b1                        amd64  SELinux policy management library
