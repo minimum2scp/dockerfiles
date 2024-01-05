@@ -34,7 +34,7 @@ ii   e2fsprogs               1.47.0-2+b1       amd64  ext2/ext3/ext4 file system
 ii   findutils               4.9.0-5           amd64  utilities for finding files--find, xargs
 ii   gcc-13-base             13.2.0-9          amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1.1        amd64  GNU privacy guard - signature verification tool
-ii   grep                    3.11-3            amd64  GNU grep, egrep and fgrep
+ii   grep                    3.11-4            amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1            amd64  GNU compression utilities
 ii   hostname                3.23+nmu1         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.66              all    helper tools for all init systems
@@ -73,7 +73,7 @@ ii   libpam-modules-bin      1.5.2-9.1         amd64  Pluggable Authentication M
 ii   libpam-runtime          1.5.2-9.1         all    Runtime support for the PAM library
 ii   libpam0g                1.5.2-9.1         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-4           amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libseccomp2             2.5.4-2+b1        amd64  high level interface to Linux seccomp filter
+ii   libseccomp2             2.5.5-1           amd64  high level interface to Linux seccomp filter
 ii   libselinux1             3.5-1+b1          amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.5-1             all    Common files for SELinux policy management libraries
 ii   libsemanage2            3.5-1+b1          amd64  SELinux policy management library
