@@ -258,7 +258,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "18306",
+    "Installed-Size": "18307",
     "Origin": "",
     "Package": "coreutils",
     "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.34), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0)",
@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.4-3",
+    "Version": "9.4-3+b1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255.2-3",
+    "Version": "255.2-4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255.2-3"
+    "source:Version": "255.2-4"
   },
   {
     "Architecture": "amd64",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255.2-3",
+    "Version": "255.2-4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255.2-3"
+    "source:Version": "255.2-4"
   },
   {
     "Architecture": "amd64",
@@ -4094,7 +4094,7 @@
     "Depends": "libc6 (>= 2.34), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1973",
+    "Installed-Size": "1974",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2312.0-2",
+    "Version": "8.2312.0-2+b1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4267,13 +4267,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 255.2-3)",
+    "Provides": "systemd-sysusers (= 255.2-4)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "255.2-3",
+    "Version": "255.2-4",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "255.2-3"
+    "source:Version": "255.2-4"
   },
   {
     "Architecture": "all",

@@ -69,7 +69,7 @@ ii   bsdextrautils                2.39.3-6                        amd64  extra u
 ii   bsdutils                     1:2.39.3-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b2                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
-ii   coreutils                    9.4-3                           amd64  GNU core utilities
+ii   coreutils                    9.4-3+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-182                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-182                      all    process scheduling daemon's configuration files
 ii   curl                         8.5.0-2                         amd64  command line tool for transferring data with URL syntax
@@ -173,13 +173,13 @@ ii   libss2                       1.47.0-2+b1                     amd64  command
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   13.2.0-9                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  255.2-3                         amd64  systemd utility library
+ii   libsystemd0                  255.2-4                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20231209-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1                         amd64  universal charset detection library - shared library
-ii   libudev1                     255.2-3                         amd64  libudev shared library
+ii   libudev1                     255.2-4                         amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-6                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -206,13 +206,13 @@ ii   perl                         5.36.0-10+b1                    amd64  Larry W
 ii   perl-base                    5.36.0-10+b1                    amd64  minimal Perl system
 ii   perl-modules-5.36            5.36.0-10                       all    Core Perl modules
 ii   procps                       2:4.0.4-2+b1                    amd64  /proc file system utilities
-ii   rsyslog                      8.2312.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2312.0-2+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  255.2-3                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  255.2-4                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-5                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-5                          amd64  System-V-like utilities
