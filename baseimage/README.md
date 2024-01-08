@@ -85,7 +85,7 @@ ii   findutils                    4.9.0-5                         amd64  utiliti
 ii   gcc-13-base                  13.2.0-9                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                         2.2.40-1.1                      amd64  GNU privacy guard - signature verification tool
+ii   gpgv                         2.2.40-1.1+b1                   amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
@@ -101,7 +101,7 @@ ii   libaudit-common              1:3.1.2-1                       all    Dynamic
 ii   libaudit1                    1:3.1.2-1                       amd64  Dynamic library for security auditing
 ii   libblkid1                    2.39.3-6                        amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b3                      amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                      0.11.7-4                        amd64  utility functions from BSD systems - shared library
+ii   libbsd0                      0.11.8-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.37-13                         amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.37-13                         all    GNU C Library: localization files
