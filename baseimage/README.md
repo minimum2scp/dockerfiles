@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.7.8                           amd64  commandline package manager
+ii   apt                          2.7.9                           amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
@@ -80,7 +80,7 @@ ii   debianutils                  5.16                            amd64  Miscell
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
 ii   dpkg                         1.22.2                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper                    1.18.20-1.1                     all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.20-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
 ii   gcc-13-base                  13.2.0-9                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
@@ -92,10 +92,10 @@ ii   gzip                         1.12-1                          amd64  GNU com
 ii   hostname                     3.23+nmu1                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.08-5                          all    scripts for initializing and shutting down the system
-ii   insserv                      1.24.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-4                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
-ii   libapt-pkg6.0                2.7.8                           amd64  package management runtime library
+ii   libapt-pkg6.0                2.7.9                           amd64  package management runtime library
 ii   libattr1                     1:2.5.1-5                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-1                       amd64  Dynamic library for security auditing
@@ -137,7 +137,7 @@ ii   libk5crypto3                 1.20.1-5                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-2+b2                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20.1-5                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.20.1-5                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.13+dfsg-5+b2                amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.13+dfsg-5+b3                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.4.5-0.3                       amd64  XZ-format compression library
@@ -159,6 +159,10 @@ ii   libpipeline1                 1.5.7-1+b2                      amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-2+b1                    amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
+ii   libpython3-stdlib            3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3.11-minimal        3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
+ii   libpython3.11-stdlib         3.11.7-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
+ii   libreadline8                 8.2-3                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -169,6 +173,7 @@ ii   libsemanage2                 3.5-1+b2                        amd64  SELinux
 ii   libsepol2                    3.5-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.3-6                        amd64  smart column output alignment library
+ii   libsqlite3-0                 3.44.2-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
@@ -190,12 +195,14 @@ ii   locales                      2.37-13                         all    GNU C L
 ii   login                        1:4.13+dfsg1-3+b1               amd64  system login tools
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.12.0-1                        amd64  tools for reading manual pages
+ii   man-db                       2.12.0-3                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20231126-1                amd64  Pattern scanning and text processing language
+ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.39.3-6                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.4+20231209-1                  all    basic terminal type definitions
 ii   ncurses-bin                  6.4+20231209-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
+ii   netbase                      6.4                             all    Basic TCP/IP networking system
 ii   openssh-client               1:9.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -206,6 +213,11 @@ ii   perl                         5.38.2-2                        amd64  Larry W
 ii   perl-base                    5.38.2-2                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-2                        all    Core Perl modules
 ii   procps                       2:4.0.4-2+b1                    amd64  /proc file system utilities
+ii   python3                      3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.11.6-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3.11                   3.11.7-2                        amd64  Interactive high-level object-oriented language (version 3.11)
+ii   python3.11-minimal           3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
+ii   readline-common              8.2-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2312.0-2+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
@@ -224,7 +236,7 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                38                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-6                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0-1                       all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0-1                       amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.1.0-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3                    amd64  compression library - runtime
 ii   zsh                          5.9-6                           amd64  shell with lots of features
