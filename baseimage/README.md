@@ -218,7 +218,7 @@ ii   python3-minimal              3.11.6-1                        amd64  minimal
 ii   python3.11                   3.11.7-2                        amd64  Interactive high-level object-oriented language (version 3.11)
 ii   python3.11-minimal           3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-3                           all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2312.0-2+b1                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2312.0-3                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
@@ -228,15 +228,15 @@ ii   systemd-standalone-sysusers  255.2-4                         amd64  standal
 ii   sysv-rc                      3.08-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-5                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-5                          amd64  System-V-like utilities
-ii   tar                          1.35+dfsg-2                     amd64  GNU version of the tar archiving utility
+ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2023d-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                38                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-6                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.0-1                       all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0-1+b1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.0016-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.0016-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3                    amd64  compression library - runtime
 ii   zsh                          5.9-6                           amd64  shell with lots of features
