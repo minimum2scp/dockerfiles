@@ -100,7 +100,7 @@ ii   passwd                  1:4.13+dfsg1-3+b1  amd64  change and administer pas
 ii   perl-base               5.38.2-2           amd64  minimal Perl system
 ii   sed                     4.9-2              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.08-5             amd64  System-V-like utilities
-ii   tar                     1.35+dfsg-2        amd64  GNU version of the tar archiving utility
+ii   tar                     1.35+dfsg-3        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2023d-1            all    time zone and daylight-saving time data
 ii   usr-is-merged           38                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.39.3-6           amd64  miscellaneous system utilities
