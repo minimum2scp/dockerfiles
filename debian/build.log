@@ -86,10 +86,10 @@ I: Validating mount 2.39.3-6
 I: Validating ncurses-base 6.4+20231209-1
 I: Validating ncurses-bin 6.4+20231209-1
 I: Validating passwd 1:4.13+dfsg1-3+b1
-I: Validating perl-base 5.38.2-2
+I: Retrieving perl-base 5.38.2-3
+I: Validating perl-base 5.38.2-3
 I: Validating sed 4.9-2
 I: Validating sysvinit-utils 3.08-5
-I: Retrieving tar 1.35+dfsg-3
 I: Validating tar 1.35+dfsg-3
 I: Validating tzdata 2023d-1
 I: Validating usr-is-merged 38
