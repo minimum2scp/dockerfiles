@@ -89,7 +89,7 @@ ii   gpgv                         2.2.40-1.1+b1                   amd64  GNU pri
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
-ii   hostname                     3.23+nmu1                       amd64  utility to set/show the host name or domain name
+ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.08-5                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
@@ -207,7 +207,7 @@ ii   openssh-client               1:9.6p1-2                       amd64  secure 
 ii   openssh-server               1:9.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.15                            all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3+b1               amd64  change and administer password and group data
 ii   perl                         5.38.2-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-3                        amd64  minimal Perl system
@@ -223,7 +223,7 @@ ii   runit-helper                 2.15.2                          all    dh-runi
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.15p5-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.15p5-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  255.2-4                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-5                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-5                          amd64  System-V-like init
