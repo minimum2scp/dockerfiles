@@ -104,5 +104,5 @@ ii   tar                     1.35+dfsg-3        amd64  GNU version of the tar ar
 ii   tzdata                  2023d-1            all    time zone and daylight-saving time data
 ii   usr-is-merged           38                 all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.39.3-6           amd64  miscellaneous system utilities
-ii   zlib1g                  1:1.3.dfsg-3       amd64  compression library - runtime
+ii   zlib1g                  1:1.3.dfsg-3+b1    amd64  compression library - runtime
 ```
