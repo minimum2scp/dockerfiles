@@ -93,7 +93,7 @@ ii   hostname                     3.23+nmu2                       amd64  utility
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.08-5                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   libacl1                      2.3.1-4                         amd64  access control list - shared library
+ii   libacl1                      2.3.1-6                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
 ii   libapt-pkg6.0                2.7.9                           amd64  package management runtime library
 ii   libattr1                     1:2.5.1-5                       amd64  extended attribute handling - shared library
@@ -143,9 +143,9 @@ ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ
 ii   liblzma5                     5.4.5-0.3                       amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.3-6                        amd64  device mounting library
-ii   libncursesw6                 6.4+20231209-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.9.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libnewt0.52                  0.52.24-1+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
+ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.58.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -180,7 +180,7 @@ ii   libssl3                      3.1.4-2                         amd64  Secure 
 ii   libstdc++6                   13.2.0-9                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255.2-4                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
-ii   libtinfo6                    6.4+20231209-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1                         amd64  universal charset detection library - shared library
@@ -199,8 +199,8 @@ ii   man-db                       2.12.0-3                        amd64  tools f
 ii   mawk                         1.3.4.20231126-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.39.3-6                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base                 6.4+20231209-1                  all    basic terminal type definitions
-ii   ncurses-bin                  6.4+20231209-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base                 6.4+20240113-1                  all    basic terminal type definitions
+ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
 ii   openssh-client               1:9.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
@@ -237,7 +237,7 @@ ii   usr-is-merged                38                              all    Transit
 ii   util-linux                   2.39.3-6                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0016-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.0016-1                    amd64  Vi IMproved - enhanced vi editor - compact version
-ii   whiptail                     0.52.24-1+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
+ii   whiptail                     0.52.24-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3+b1                 amd64  compression library - runtime
 ii   zsh                          5.9-6                           amd64  shell with lots of features
 ii   zsh-common                   5.9-6                           all    architecture independent files for Zsh

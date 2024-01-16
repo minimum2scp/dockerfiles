@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.1-4",
+    "Version": "2.3.1-6",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.3.1-4"
+    "source:Version": "2.3.1-6"
   },
   {
     "Architecture": "amd64",
@@ -2327,7 +2327,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libtinfo6 (= 6.4+20231209-1), libc6 (>= 2.34)",
+    "Depends": "libtinfo6 (= 6.4+20240113-1), libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "416",
@@ -2341,7 +2341,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231209-1",
+    "Version": "6.4+20240113-1",
     "binary:Package": "libncursesw6:amd64",
     "binary:Summary": "shared libraries for terminal handling (wide character support)",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231209-1"
+    "source:Version": "6.4+20240113-1"
   },
   {
     "Architecture": "amd64",
@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.34), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "365",
+    "Installed-Size": "364",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.24-1+b1",
+    "Version": "0.52.24-2",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.24-1"
+    "source:Version": "0.52.24-2"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231209-1",
+    "Version": "6.4+20240113-1",
     "binary:Package": "libtinfo6:amd64",
     "binary:Summary": "shared low-level terminfo library for terminal handling",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231209-1"
+    "source:Version": "6.4+20240113-1"
   },
   {
     "Architecture": "all",
@@ -3909,7 +3909,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231209-1",
+    "Version": "6.4+20240113-1",
     "binary:Package": "ncurses-base",
     "binary:Summary": "basic terminal type definitions",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231209-1"
+    "source:Version": "6.4+20240113-1"
   },
   {
     "Architecture": "amd64",
@@ -3926,7 +3926,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "646",
+    "Installed-Size": "647",
     "Origin": "",
     "Package": "ncurses-bin",
     "Pre-Depends": "libc6 (>= 2.34), libtinfo6 (>= 6.4+20230603)",
@@ -3937,7 +3937,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4+20231209-1",
+    "Version": "6.4+20240113-1",
     "binary:Package": "ncurses-bin",
     "binary:Summary": "terminal-related programs and man pages",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ncurses",
-    "source:Version": "6.4+20231209-1"
+    "source:Version": "6.4+20240113-1"
   },
   {
     "Architecture": "amd64",
@@ -4962,7 +4962,7 @@
     "Depends": "libc6 (>= 2.34), libnewt0.52 (>= 0.52.24), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "57",
+    "Installed-Size": "56",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4973,7 +4973,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.24-1+b1",
+    "Version": "0.52.24-2",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4981,7 +4981,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.24-1"
+    "source:Version": "0.52.24-2"
   },
   {
     "Architecture": "amd64",
