@@ -128,7 +128,7 @@ ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Cr
 ii   libgdbm-compat4              1.23-5                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-5                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
-ii   libgnutls30                  3.8.2-1                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30                  3.8.3-1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -203,9 +203,9 @@ ii   ncurses-base                 6.4+20240113-1                  all    basic t
 ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.6p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.6p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.6p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.6p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.6p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3+b1               amd64  change and administer password and group data
@@ -219,7 +219,7 @@ ii   python3.11                   3.11.7-2                        amd64  Interac
 ii   python3.11-minimal           3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2312.0-3                      amd64  reliable system and kernel logging daemon
-ii   runit-helper                 2.15.2                          all    dh-runit implementation detail
+ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
