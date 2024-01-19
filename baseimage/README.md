@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.7.9                           amd64  commandline package manager
+ii   apt                          2.7.10                          amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   initscripts                  3.08-5                          all    scripts
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.1-6                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
-ii   libapt-pkg6.0                2.7.9                           amd64  package management runtime library
+ii   libapt-pkg6.0                2.7.10                          amd64  package management runtime library
 ii   libattr1                     1:2.5.1-5                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-1                       amd64  Dynamic library for security auditing
