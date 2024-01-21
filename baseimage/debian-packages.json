@@ -286,18 +286,18 @@
     "Depends": "libc6 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), sensible-utils, libpam-runtime",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "239",
+    "Installed-Size": "241",
     "Origin": "",
     "Package": "cron",
     "Pre-Depends": "init-system-helpers (>= 1.54~), cron-daemon-common",
     "Priority": "important",
     "Provides": "cron-daemon",
-    "Recommends": "default-mta | mail-transport-agent, supercat",
+    "Recommends": "default-mta | mail-transport-agent",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "anacron, logrotate, checksecurity",
-    "Version": "3.0pl1-183",
+    "Suggests": "anacron, logrotate, checksecurity, supercat",
+    "Version": "3.0pl1-184",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-183"
+    "source:Version": "3.0pl1-184"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-183",
+    "Version": "3.0pl1-184",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-183"
+    "source:Version": "3.0pl1-184"
   },
   {
     "Architecture": "amd64",
@@ -3170,7 +3170,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1760",
+    "Installed-Size": "1783",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.44.2-1",
+    "Version": "3.45.0-1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.44.2-1"
+    "source:Version": "3.45.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4861,7 +4861,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "38",
+    "Version": "39",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "38"
+    "source:Version": "39"
   },
   {
     "Architecture": "amd64",

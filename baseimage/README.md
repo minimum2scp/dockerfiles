@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.39.3-6                      amd64  basic u
 ii   bzip2                        1.0.8-5+b2                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20230311                        all    Common CA certificates
 ii   coreutils                    9.4-3+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-183                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-183                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-184                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-184                      all    process scheduling daemon's configuration files
 ii   curl                         8.5.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.83                          all    Debian configuration management system
@@ -173,7 +173,7 @@ ii   libsemanage2                 3.5-1+b2                        amd64  SELinux
 ii   libsepol2                    3.5-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-3                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.3-6                        amd64  smart column output alignment library
-ii   libsqlite3-0                 3.44.2-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.45.0-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
@@ -233,7 +233,7 @@ ii   tree                         2.1.1-2                         amd64  display
 ii   tzdata                       2023d-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
-ii   usr-is-merged                38                              all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-6                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0016-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.0016-1                    amd64  Vi IMproved - enhanced vi editor - compact version
