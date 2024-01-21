@@ -2369,7 +2369,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "38",
+    "Version": "39",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "38"
+    "source:Version": "39"
   },
   {
     "Architecture": "amd64",
