@@ -25,7 +25,7 @@ ii   bash                    5.2.21-2           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.39.3-6         amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.4-3+b1           amd64  GNU core utilities
 ii   dash                    0.5.12-6           amd64  POSIX-compliant shell
-ii   debconf                 1.5.84             all    Debian configuration management system
+ii   debconf                 1.5.85             all    Debian configuration management system
 ii   debian-archive-keyring  2023.4             all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.16               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1           amd64  File comparison utilities
@@ -99,7 +99,7 @@ ii   ncurses-bin             6.4+20240113-1     amd64  terminal-related programs
 ii   passwd                  1:4.13+dfsg1-3+b1  amd64  change and administer password and group data
 ii   perl-base               5.38.2-3           amd64  minimal Perl system
 ii   sed                     4.9-2              amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.08-5             amd64  System-V-like utilities
+ii   sysvinit-utils          3.08-6             amd64  System-V-like utilities
 ii   tar                     1.35+dfsg-3        amd64  GNU version of the tar archiving utility
 ii   tzdata                  2023d-1            all    time zone and daylight-saving time data
 ii   usr-is-merged           39                 all    Transitional package to assert a merged-/usr system

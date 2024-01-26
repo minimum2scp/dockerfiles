@@ -202,7 +202,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "493",
+    "Installed-Size": "492",
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "",
@@ -213,7 +213,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-kde-helper, debconf-utils, libgtk3-perl, libnet-ldap-perl, libterm-readline-gnu-perl, perl, whiptail | dialog",
-    "Version": "1.5.84",
+    "Version": "1.5.85",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -221,7 +221,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.84"
+    "source:Version": "1.5.85"
   },
   {
     "Architecture": "all",
@@ -2285,7 +2285,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.08-5",
+    "Version": "3.08-6",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.08-5"
+    "source:Version": "3.08-6"
   },
   {
     "Architecture": "amd64",
