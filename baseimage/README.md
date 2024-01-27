@@ -82,7 +82,7 @@ ii   dpkg                         1.22.4                          amd64  Debian 
 ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.20-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
-ii   gcc-13-base                  13.2.0-10                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14-20240127-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1+b1                   amd64  GNU privacy guard - signature verification tool
@@ -123,7 +123,7 @@ ii   libext2fs2                   1.47.0-2+b1                     amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.4-2                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.14.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    13.2.0-10                       amd64  GCC support library
+ii   libgcc-s1                    14-20240127-1                   amd64  GCC support library
 ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-5                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-5                          amd64  GNU dbm database routines (runtime version) 
@@ -132,7 +132,7 @@ ii   libgnutls30                  3.8.3-1                         amd64  GNU TLS
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.4-1+b2                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.7-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.20.1-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-2+b2                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20.1-5                        amd64  MIT Kerberos runtime libraries
@@ -177,7 +177,7 @@ ii   libsqlite3-0                 3.45.0-1                        amd64  SQLite 
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   13.2.0-10                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14-20240127-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255.3-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
@@ -196,7 +196,7 @@ ii   login                        1:4.13+dfsg1-3+b1               amd64  system 
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.0-3                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20231126-1                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20240123-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.39.3-6                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.4+20240113-1                  all    basic terminal type definitions
@@ -223,7 +223,7 @@ ii   runit-helper                 2.16.2                          all    dh-runi
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.15p5-2                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.15p5-3                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  255.3-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-6                          amd64  System-V-like init
