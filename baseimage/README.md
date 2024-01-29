@@ -157,7 +157,7 @@ ii   libpcre2-8-0                 10.42-4                         amd64  New Per
 ii   libperl5.38                  5.38.2-3                        amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1+b2                      amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-2+b1                    amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.11-minimal        3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
@@ -178,13 +178,13 @@ ii   libss2                       1.47.0-2+b1                     amd64  command
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14-20240127-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  255.3-1                         amd64  systemd utility library
+ii   libsystemd0                  255.3-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1                         amd64  universal charset detection library - shared library
-ii   libudev1                     255.3-1                         amd64  libudev shared library
+ii   libudev1                     255.3-2                         amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-6                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -212,7 +212,7 @@ ii   passwd                       1:4.13+dfsg1-3+b1               amd64  change 
 ii   perl                         5.38.2-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-3                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-3                        all    Core Perl modules
-ii   procps                       2:4.0.4-2+b1                    amd64  /proc file system utilities
+ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
 ii   python3                      3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.11.6-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.11                   3.11.7-2                        amd64  Interactive high-level object-oriented language (version 3.11)
@@ -224,7 +224,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  255.3-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  255.3-2                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-6                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-6                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-6                          amd64  System-V-like utilities
