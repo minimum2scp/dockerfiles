@@ -68,7 +68,7 @@ ii   bash                         5.2.21-2                        amd64  GNU Bou
 ii   bsdextrautils                2.39.3-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.39.3-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b2                      amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates              20230311                        all    Common CA certificates
+ii   ca-certificates              20240203                        all    Common CA certificates
 ii   coreutils                    9.4-3+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-184                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-184                      all    process scheduling daemon's configuration files
@@ -176,7 +176,7 @@ ii   libsmartcols1                2.39.3-6                        amd64  smart c
 ii   libsqlite3-0                 3.45.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
-ii   libssl3                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3                      3.1.5-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14-20240201-3                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255.3-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
@@ -206,7 +206,7 @@ ii   netbase                      6.4                             all    Basic T
 ii   openssh-client               1:9.6p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.6p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.1.4-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.1.5-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-3+b1               amd64  change and administer password and group data
 ii   perl                         5.38.2-3                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -230,7 +230,7 @@ ii   sysvinit-core                3.08-6                          amd64  System-
 ii   sysvinit-utils               3.08-6                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2023d-1                         all    time zone and daylight-saving time data
+ii   tzdata                       2024a-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
