@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6750",
+    "Installed-Size": "6759",
     "Origin": "",
     "Package": "libssl3",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1.4-2",
+    "Version": "3.1.5-1",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.1.4-2"
+    "source:Version": "3.1.5-1"
   },
   {
     "Architecture": "amd64",
@@ -2330,7 +2330,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1382",
+    "Installed-Size": "1378",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2341,7 +2341,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2023d-1",
+    "Version": "2024a-1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2349,7 +2349,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2023d-1"
+    "source:Version": "2024a-1"
   },
   {
     "Architecture": "all",
