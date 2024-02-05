@@ -4514,7 +4514,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "58",
+    "Installed-Size": "63",
     "Origin": "",
     "Package": "sensible-utils",
     "Pre-Depends": "",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.20",
+    "Version": "0.0.22",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.20"
+    "source:Version": "0.0.22"
   },
   {
     "Architecture": "amd64",

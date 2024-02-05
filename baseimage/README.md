@@ -221,7 +221,7 @@ ii   readline-common              8.2-3                           all    GNU rea
 ii   rsyslog                      8.2312.0-3                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils               0.0.20                          all    Utilities for sensible alternative selection
+ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  255.3-2                         amd64  standalone sysusers binary for use in non-systemd systems
