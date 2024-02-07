@@ -37,7 +37,8 @@ I: Validating libbz2-1.0 1.0.8-5+b2
 I: Validating libc-bin 2.37-15
 I: Validating libc6 2.37-15
 I: Validating libcap-ng0 0.8.4-1
-I: Validating libcap2 1:2.66-4+b2
+I: Retrieving libcap2 1:2.66-5
+I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.0-2+b1
 I: Validating libcrypt1 1:4.4.36-4
 I: Validating libdb5.3 5.3.28+dfsg2-4+b1
@@ -69,7 +70,6 @@ I: Validating libsemanage2 3.5-1+b2
 I: Validating libsepol2 3.5-2
 I: Validating libsmartcols1 2.39.3-6
 I: Validating libss2 1.47.0-2+b1
-I: Retrieving libssl3 3.1.5-1
 I: Validating libssl3 3.1.5-1
 I: Validating libstdc++6 14-20240201-3
 I: Validating libsystemd0 255.3-2
@@ -91,7 +91,6 @@ I: Validating perl-base 5.38.2-3
 I: Validating sed 4.9-2
 I: Validating sysvinit-utils 3.08-6
 I: Validating tar 1.35+dfsg-3
-I: Retrieving tzdata 2024a-1
 I: Validating tzdata 2024a-1
 I: Validating usr-is-merged 39
 I: Validating util-linux 2.39.3-6
