@@ -106,7 +106,7 @@ ii   libbz2-1.0                   1.0.8-5+b2                      amd64  high-qu
 ii   libc-bin                     2.37-15                         amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.37-15                         all    GNU C Library: localization files
 ii   libc6                        2.37-15                         amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                   0.8.4-1                         amd64  alternate POSIX capabilities library
+ii   libcap-ng0                   0.8.4-2                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-1.1                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
@@ -160,8 +160,8 @@ ii   libpopt0                     1.19+dfsg-1                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.11-minimal        3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
-ii   libpython3.11-stdlib         3.11.7-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
+ii   libpython3.11-minimal        3.11.8-1                        amd64  Minimal subset of the Python language (version 3.11)
+ii   libpython3.11-stdlib         3.11.8-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8                 8.2-3                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - authentication abstraction library
@@ -215,8 +215,8 @@ ii   perl-modules-5.38            5.38.2-3                        all    Core Pe
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
 ii   python3                      3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.11.6-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.11                   3.11.7-2                        amd64  Interactive high-level object-oriented language (version 3.11)
-ii   python3.11-minimal           3.11.7-2                        amd64  Minimal subset of the Python language (version 3.11)
+ii   python3.11                   3.11.8-1                        amd64  Interactive high-level object-oriented language (version 3.11)
+ii   python3.11-minimal           3.11.8-1                        amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-3                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2312.0-3                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail

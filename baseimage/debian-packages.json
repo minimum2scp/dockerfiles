@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.4-1",
+    "Version": "0.8.4-2",
     "binary:Package": "libcap-ng0:amd64",
     "binary:Summary": "alternate POSIX capabilities library",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap-ng",
-    "source:Version": "0.8.4-1"
+    "source:Version": "0.8.4-2"
   },
   {
     "Architecture": "amd64",
@@ -2806,7 +2806,7 @@
     "Depends": "libc6 (>= 2.14), libssl3 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5217",
+    "Installed-Size": "5221",
     "Origin": "",
     "Package": "libpython3.11-minimal",
     "Pre-Depends": "",
@@ -2817,7 +2817,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.11.7-2",
+    "Version": "3.11.8-1",
     "binary:Package": "libpython3.11-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.11)",
     "db:Status-Abbrev": "ii ",
@@ -2825,16 +2825,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.11",
-    "source:Version": "3.11.7-2"
+    "source:Version": "3.11.8-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.11-testsuite (<< 3.11.6-1~), python3-gdbm (<< 3.9.9-1~)",
-    "Depends": "libpython3.11-minimal (= 3.11.7-2), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.11-minimal (= 3.11.8-1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8435",
+    "Installed-Size": "8460",
     "Origin": "",
     "Package": "libpython3.11-stdlib",
     "Pre-Depends": "",
@@ -2845,7 +2845,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.11.7-2",
+    "Version": "3.11.8-1",
     "binary:Package": "libpython3.11-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.11)",
     "db:Status-Abbrev": "ii ",
@@ -2853,7 +2853,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.11",
-    "source:Version": "3.11.7-2"
+    "source:Version": "3.11.8-1"
   },
   {
     "Architecture": "amd64",
@@ -4343,10 +4343,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.11-minimal (= 3.11.7-2), libpython3.11-stdlib (= 3.11.7-2), media-types | mime-support",
+    "Depends": "python3.11-minimal (= 3.11.8-1), libpython3.11-stdlib (= 3.11.8-1), media-types | mime-support",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "667",
+    "Installed-Size": "673",
     "Origin": "",
     "Package": "python3.11",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.11-venv, python3.11-doc, binutils",
-    "Version": "3.11.7-2",
+    "Version": "3.11.8-1",
     "binary:Package": "python3.11",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.11)",
     "db:Status-Abbrev": "ii ",
@@ -4365,16 +4365,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.11",
-    "source:Version": "3.11.7-2"
+    "source:Version": "3.11.8-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.11-minimal (= 3.11.7-2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.11-minimal (= 3.11.8-1), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6716",
+    "Installed-Size": "6717",
     "Origin": "",
     "Package": "python3.11-minimal",
     "Pre-Depends": "libc6 (>= 2.35)",
@@ -4385,7 +4385,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.11.7-2",
+    "Version": "3.11.8-1",
     "binary:Package": "python3.11-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.11)",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.11",
-    "source:Version": "3.11.7-2"
+    "source:Version": "3.11.8-1"
   },
   {
     "Architecture": "all",
