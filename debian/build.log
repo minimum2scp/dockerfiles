@@ -36,8 +36,8 @@ I: Validating libblkid1 2.39.3-6
 I: Validating libbz2-1.0 1.0.8-5+b2
 I: Validating libc-bin 2.37-15
 I: Validating libc6 2.37-15
-I: Validating libcap-ng0 0.8.4-1
-I: Retrieving libcap2 1:2.66-5
+I: Retrieving libcap-ng0 0.8.4-2
+I: Validating libcap-ng0 0.8.4-2
 I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.0-2+b1
 I: Validating libcrypt1 1:4.4.36-4
