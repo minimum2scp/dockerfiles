@@ -125,18 +125,18 @@ ii   libffi8                      3.4.4-2                         amd64  Foreign
 ii   libfido2-1                   1.14.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14-20240201-3                   amd64  GCC support library
 ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4              1.23-5                          amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6                     1.23-5                          amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                     2:6.3.0+dfsg-2                  amd64  Multiprecision arithmetic library
+ii   libgdbm-compat4              1.23-5+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6                     1.23-5+b1                       amd64  GNU dbm database routines (runtime version) 
+ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30                  3.8.3-1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2             1.20.1-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.20.1-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.20.1-5                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.20.1-5                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.13+dfsg-5+b3                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
