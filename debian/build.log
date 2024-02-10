@@ -36,7 +36,6 @@ I: Validating libblkid1 2.39.3-6
 I: Validating libbz2-1.0 1.0.8-5+b2
 I: Validating libc-bin 2.37-15
 I: Validating libc6 2.37-15
-I: Retrieving libcap-ng0 0.8.4-2
 I: Validating libcap-ng0 0.8.4-2
 I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.0-2+b1
@@ -47,7 +46,8 @@ I: Validating libext2fs2 1.47.0-2+b1
 I: Validating libffi8 3.4.4-2
 I: Validating libgcc-s1 14-20240201-3
 I: Validating libgcrypt20 1.10.3-2
-I: Validating libgmp10 2:6.3.0+dfsg-2
+I: Retrieving libgmp10 2:6.3.0+dfsg-2+b1
+I: Validating libgmp10 2:6.3.0+dfsg-2+b1
 I: Validating libgnutls30 3.8.3-1
 I: Validating libgpg-error0 1.47-3
 I: Validating libhogweed6 3.9.1-2
