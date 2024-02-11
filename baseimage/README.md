@@ -171,7 +171,7 @@ ii   libselinux1                  3.5-2                           amd64  SELinux
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1+b2                        amd64  SELinux policy management library
 ii   libsepol2                    3.5-2                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2                    2.3.3-3                         amd64  S-Lang programming library - runtime version
+ii   libslang2                    2.3.3-3+b1                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.3-6                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.45.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
@@ -183,12 +183,12 @@ ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage 
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
-ii   libuchardet0                 0.0.8-1                         amd64  universal charset detection library - shared library
+ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
 ii   libudev1                     255.3-2                         amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-6                        amd64  Universally Unique ID library
-ii   libwrap0                     7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0                   0.8.2-2                         amd64  shared library for xxhash
+ii   libwrap0                     7.6.q-32+b1                     amd64  Wietse Venema's TCP wrappers library
+ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.37-15                         all    GNU C Library: National Language (locale) data [support]
