@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                  3.134                           all    add and remove users and groups
 ii   apt                      2.6.1                           amd64  commandline package manager
-ii   base-files               12.4+deb12u4                    amd64  Debian base system miscellaneous files
+ii   base-files               12.4+deb12u5                    amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.1                           amd64  Debian base system master password and group files
 ii   bash                     5.2.15-2+b2                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils            2.38.1-5+b1                     amd64  extra utilities from 4.4BSD-Lite
@@ -102,9 +102,9 @@ ii   libblkid1                2.38.1-5+b1                     amd64  block devic
 ii   libbrotli1               1.0.9-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                  0.11.7-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-5+b1                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.36-9+deb12u3                  amd64  GNU C Library: Binaries
-ii   libc-l10n                2.36-9+deb12u3                  all    GNU C Library: localization files
-ii   libc6                    2.36-9+deb12u3                  amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.36-9+deb12u4                  amd64  GNU C Library: Binaries
+ii   libc-l10n                2.36-9+deb12u4                  all    GNU C Library: localization files
+ii   libc6                    2.36-9+deb12u4                  amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.3-1+b3                      amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.8               0.8.0-2+b1                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -127,7 +127,7 @@ ii   libgcrypt20              1.10.1-3                        amd64  LGPL Crypto
 ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg1-1.1               amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.9-2+deb12u1                 amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.9-2+deb12u2                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20.1-2+deb12u1                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.8.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -172,20 +172,20 @@ ii   libss2                   1.47.0-2                        amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.11-1~deb12u2                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.19-1~deb12u1                amd64  systemd utility library
+ii   libsystemd0              252.22-1~deb12u1                amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 252.19-1~deb12u1                amd64  libudev shared library
+ii   libudev1                 252.22-1~deb12u1                amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5+b1                     amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0               0.8.1-1                         amd64  shared library for xxhash
 ii   libzstd1                 1.5.4+dfsg2-5                   amd64  fast lossless compression algorithm
 ii   localepurge              0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                  2.36-9+deb12u3                  all    GNU C Library: National Language (locale) data [support]
+ii   locales                  2.36-9+deb12u4                  all    GNU C Library: National Language (locale) data [support]
 ii   login                    1:4.13+dfsg1-1+b1               amd64  system login tools
 ii   logsave                  1.47.0-2                        amd64  save the output of a command in a log file
 ii   lv                       4.51-9                          amd64  Powerful Multilingual File Viewer
@@ -214,12 +214,12 @@ ii   sudo                     1.9.13p3-1+deb12u1              amd64  Provide lim
 ii   sysv-rc                  3.06-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core            3.06-4                          amd64  System-V-like init
 ii   sysvinit-utils           3.06-4                          amd64  System-V-like utilities
-ii   tar                      1.34+dfsg-1.2                   amd64  GNU version of the tar archiving utility
+ii   tar                      1.34+dfsg-1.2+deb12u1           amd64  GNU version of the tar archiving utility
 ii   tree                     2.1.0-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                   2023c-5+deb12u1                 all    time zone and daylight-saving time data
+ii   tzdata                   2024a-0+deb12u1                 all    time zone and daylight-saving time data
 ii   ucf                      3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                    6.0-28                          amd64  De-archiver for .zip files
-ii   usr-is-merged            35                              all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged            37~deb12u1                      all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.38.1-5+b1                     amd64  miscellaneous system utilities
 ii   util-linux-extra         2.38.1-5+b1                     amd64  interactive login tools
 ii   vim-common               2:9.0.1378-2                    all    Vi IMproved - Common files
