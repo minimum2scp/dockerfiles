@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   adduser                 3.118+deb11u1                 all    add and remove users and groups
 ii   apt                     2.2.4                         amd64  commandline package manager
-ii   base-files              11.1+deb11u8                  amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u9                  amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                        amd64  Debian base system master password and group files
 ii   bash                    5.1-2+deb11u1                 amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.36.1-8+deb11u1            amd64  basic utilities from 4.4BSD-Lite
@@ -47,8 +47,8 @@ ii   libaudit-common         1:3.0-2                       all    Dynamic librar
 ii   libaudit1               1:3.0-2                       amd64  Dynamic library for security auditing
 ii   libblkid1               2.36.1-8+deb11u1              amd64  block device ID library
 ii   libbz2-1.0              1.0.8-4                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-13+deb11u6               amd64  GNU C Library: Binaries
-ii   libc6                   2.31-13+deb11u6               amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13+deb11u8               amd64  GNU C Library: Binaries
+ii   libc6                   2.31-13+deb11u8               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                  amd64  An alternate POSIX capabilities library
 ii   libcom-err2             1.46.2-2                      amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                    amd64  libcrypt shared library
@@ -59,7 +59,7 @@ ii   libffi7                 3.3-6                         amd64  Foreign Functi
 ii   libgcc-s1               10.2.1-6                      amd64  GCC support library
 ii   libgcrypt20             1.8.7-6                       amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.2.1+dfsg-1+deb11u1        amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5+deb11u3               amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.1-5+deb11u4               amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                        amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u4              amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                       amd64  low level cryptographic library (public-key cryptos)
@@ -107,11 +107,11 @@ ii   mount                   2.36.1-8+deb11u1              amd64  tools for moun
 ii   ncurses-base            6.2+20201114-2+deb11u2        all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2+deb11u2        amd64  terminal-related programs and man pages
 ii   passwd                  1:4.8.1-1                     amd64  change and administer password and group data
-ii   perl-base               5.32.1-4+deb11u2              amd64  minimal Perl system
+ii   perl-base               5.32.1-4+deb11u3              amd64  minimal Perl system
 ii   sed                     4.7-1                         amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          2.96-7+deb11u1                amd64  System-V-like utilities
-ii   tar                     1.34+dfsg-1                   amd64  GNU version of the tar archiving utility
-ii   tzdata                  2021a-1+deb11u10              all    time zone and daylight-saving time data
+ii   tar                     1.34+dfsg-1+deb11u1           amd64  GNU version of the tar archiving utility
+ii   tzdata                  2024a-0+deb11u1               all    time zone and daylight-saving time data
 ii   util-linux              2.36.1-8+deb11u1              amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.2.11.dfsg-2+deb11u2       amd64  compression library - runtime
 ```

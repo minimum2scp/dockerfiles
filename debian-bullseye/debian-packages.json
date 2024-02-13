@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.1+deb11u8",
+    "Version": "11.1+deb11u9",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "11.1+deb11u8"
+    "source:Version": "11.1+deb11u9"
   },
   {
     "Architecture": "amd64",
@@ -818,7 +818,7 @@
     "Depends": "libc6 (>> 2.31), libc6 (<< 2.32)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "3732",
+    "Installed-Size": "3733",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-13+deb11u6",
+    "Version": "2.31-13+deb11u8",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13+deb11u6"
+    "source:Version": "2.31-13+deb11u8"
   },
   {
     "Architecture": "amd64",
@@ -846,7 +846,7 @@
     "Depends": "libgcc-s1, libcrypt1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12833",
+    "Installed-Size": "12834",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -857,7 +857,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.31-13+deb11u6",
+    "Version": "2.31-13+deb11u8",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13+deb11u6"
+    "source:Version": "2.31-13+deb11u8"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.1-5+deb11u3",
+    "Version": "3.7.1-5+deb11u4",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.1-5+deb11u3"
+    "source:Version": "3.7.1-5+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -2509,7 +2509,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.32.1-4+deb11u2",
+    "Version": "5.32.1-4+deb11u3",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.32.1-4+deb11u2"
+    "source:Version": "5.32.1-4+deb11u3"
   },
   {
     "Architecture": "amd64",
@@ -2593,7 +2593,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils, tar-scripts, tar-doc",
-    "Version": "1.34+dfsg-1",
+    "Version": "1.34+dfsg-1+deb11u1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -2601,7 +2601,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.34+dfsg-1"
+    "source:Version": "1.34+dfsg-1+deb11u1"
   },
   {
     "Architecture": "all",
@@ -2610,7 +2610,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3413",
+    "Installed-Size": "3454",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2021a-1+deb11u10",
+    "Version": "2024a-0+deb11u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2021a-1+deb11u10"
+    "source:Version": "2024a-0+deb11u1"
   },
   {
     "Architecture": "amd64",
