@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.7.10                          amd64  commandline package manager
+ii   apt                          2.7.11                          amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
@@ -74,7 +74,7 @@ ii   cron                         3.0pl1-184                      amd64  process
 ii   cron-daemon-common           3.0pl1-184                      all    process scheduling daemon's configuration files
 ii   curl                         8.6.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
-ii   debconf                      1.5.85                          all    Debian configuration management system
+ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.16                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
@@ -95,7 +95,7 @@ ii   initscripts                  3.08-6                          all    scripts
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-1                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
-ii   libapt-pkg6.0                2.7.10                          amd64  package management runtime library
+ii   libapt-pkg6.0                2.7.11                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-2                       amd64  Dynamic library for security auditing
