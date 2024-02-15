@@ -196,7 +196,7 @@ ii   locales                 2.28-10+deb10u2              all    GNU C Library: 
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
-ii   man-db                  2.8.5-2                      amd64  on-line manual pager
+ii   man-db                  2.8.5-2+deb10u1              amd64  on-line manual pager
 ii   mawk                    1.3.3-17+b3                  amd64  a pattern scanning and text processing language
 ii   mime-support            3.62                         all    MIME files 'mime.types' & 'mailcap', and support programs
 ii   mount                   2.33.1-0.1                   amd64  tools for mounting and manipulating filesystems
@@ -223,7 +223,7 @@ ii   rsyslog                 8.1901.0-1+deb10u2           amd64  reliable system
 ii   sed                     4.7-1                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils          0.0.12                       all    Utilities for sensible alternative selection
 ii   startpar                0.61-1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                    1.8.27-1+deb10u5             amd64  Provide limited super user privileges to specific users
+ii   sudo                    1.8.27-1+deb10u6             amd64  Provide limited super user privileges to specific users
 ii   sysv-rc                 2.93-8                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core           2.93-8                       amd64  System-V-like init utilities
 ii   sysvinit-utils          2.93-8                       amd64  System-V-like utilities
