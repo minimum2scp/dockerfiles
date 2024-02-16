@@ -108,7 +108,7 @@ ii   libc-l10n                    2.37-15                         all    GNU C L
 ii   libc6                        2.37-15                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.4-2                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5                        amd64  POSIX 1003.1e capabilities (library)
-ii   libcbor0.10                  0.10.2-1.1                      amd64  library for parsing and generating CBOR (RFC 7049)
+ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
 ii   libcurl3-gnutls              8.6.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
