@@ -6,6 +6,7 @@ set -x
 nginx_version="1.22.0-1~buster"
 
 ## install gnupg
+apt-get update
 apt-get install -y --no-install-recommends gnupg
 
 ## install apt key
