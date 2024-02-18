@@ -3,6 +3,7 @@
 set -e
 set -x
 
+apt-get update
 apt-get install -y --no-install-recommends -t unstable nginx
 if invoke-rc.d --quiet nginx status >/dev/null; then
   :
