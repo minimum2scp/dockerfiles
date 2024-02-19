@@ -192,7 +192,7 @@ ii   libxxhash0                   0.8.2-2+b1                      amd64  shared 
 ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.37-15                         all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.13+dfsg1-3+b1               amd64  system login tools
+ii   login                        1:4.13+dfsg1-4                  amd64  system login tools
 ii   logsave                      1.47.0-2+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.0-3                        amd64  tools for reading manual pages
@@ -208,7 +208,7 @@ ii   openssh-server               1:9.6p1-3                       amd64  secure 
 ii   openssh-sftp-server          1:9.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.5-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.13+dfsg1-3+b1               amd64  change and administer password and group data
+ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
 ii   perl                         5.38.2-3                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-3                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-3                        all    Core Perl modules
