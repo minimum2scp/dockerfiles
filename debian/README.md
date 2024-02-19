@@ -90,13 +90,13 @@ ii   libunistring5           1.1-2              amd64  Unicode string library fo
 ii   libuuid1                2.39.3-6           amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1         amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-2      amd64  fast lossless compression algorithm
-ii   login                   1:4.13+dfsg1-3+b1  amd64  system login tools
+ii   login                   1:4.13+dfsg1-4     amd64  system login tools
 ii   logsave                 1.47.0-2+b1        amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20240123-1   amd64  Pattern scanning and text processing language
 ii   mount                   2.39.3-6           amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.4+20240113-1     all    basic terminal type definitions
 ii   ncurses-bin             6.4+20240113-1     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.13+dfsg1-3+b1  amd64  change and administer password and group data
+ii   passwd                  1:4.13+dfsg1-4     amd64  change and administer password and group data
 ii   perl-base               5.38.2-3           amd64  minimal Perl system
 ii   sed                     4.9-2              amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.08-6             amd64  System-V-like utilities
