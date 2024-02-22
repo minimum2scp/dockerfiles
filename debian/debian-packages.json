@@ -1019,13 +1019,13 @@
     "Package": "libffi8",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libffi8ubuntu1 (= 3.4.4-2)",
+    "Provides": "libffi8ubuntu1 (= 3.4.6-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.4-2",
+    "Version": "3.4.6-1",
     "binary:Package": "libffi8:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.4.4-2"
+    "source:Version": "3.4.6-1"
   },
   {
     "Architecture": "amd64",
