@@ -114,7 +114,7 @@ ii   libcrypt1                    1:4.4.36-4                      amd64  libcryp
 ii   libcurl3-gnutls              8.6.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4                     8.6.0-3                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                     5.3.28+dfsg2-4+b1               amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.271                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.271+b1                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
@@ -131,7 +131,7 @@ ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multipr
 ii   libgnutls30                  3.8.3-1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6                  3.9.1-2                         amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6                  3.9.1-2+b1                      amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.20.1-5+b1                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
@@ -144,7 +144,7 @@ ii   liblzma5                     5.4.5-0.3                       amd64  XZ-form
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.3-6                        amd64  device mounting library
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8                   3.9.1-2                         amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8                   3.9.1-2+b1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.59.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
@@ -153,16 +153,16 @@ ii   libpam-modules               1.5.2-9.1+b1                    amd64  Pluggab
 ii   libpam-modules-bin           1.5.2-9.1+b1                    amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.5.2-9.1                       all    Runtime support for the PAM library
 ii   libpam0g                     1.5.2-9.1+b1                    amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.42-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.42-4+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.38                  5.38.2-3                        amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1+b2                      amd64  Unix process pipeline manipulation library
-ii   libpopt0                     1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
+ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5                      0.21.2-1+b1                     amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.11.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.11-minimal        3.11.8-1                        amd64  Minimal subset of the Python language (version 3.11)
 ii   libpython3.11-stdlib         3.11.8-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
-ii   libreadline8                 8.2-3                           amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8                 8.2-3+b1                        amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - pluggable authentication modules (DB)
