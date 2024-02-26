@@ -140,7 +140,7 @@ ii   libkrb5support0              1.20.1-5+b1                     amd64  MIT Ker
 ii   libldap-2.5-0                2.5.13+dfsg-5+b3                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.4.5-0.3                       amd64  XZ-format compression library
+ii   liblzma5                     5.6.0-0.1                       amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.3-6                        amd64  device mounting library
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
@@ -203,9 +203,9 @@ ii   ncurses-base                 6.4+20240113-1                  all    basic t
 ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.6p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.6p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.6p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.6p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.6p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.6p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.5-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
