@@ -78,11 +78,11 @@ ii   debconf                      1.5.86                          all    Debian 
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.16                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
-ii   dpkg                         1.22.4                          amd64  Debian package management system
+ii   dpkg                         1.22.5                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.0-2+b1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.20-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14-20240201-3                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14-20240221-2.1                 amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1+b1                   amd64  GNU privacy guard - signature verification tool
@@ -101,7 +101,7 @@ ii   libaudit-common              1:3.1.2-2                       all    Dynamic
 ii   libaudit1                    1:3.1.2-2                       amd64  Dynamic library for security auditing
 ii   libblkid1                    2.39.3-6                        amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b3                      amd64  library implementing brotli encoder and decoder (shared libraries)
-ii   libbsd0                      0.11.8-1                        amd64  utility functions from BSD systems - shared library
+ii   libbsd0                      0.12.0-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5+b2                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.37-15                         amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.37-15                         all    GNU C Library: localization files
@@ -123,7 +123,7 @@ ii   libext2fs2                   1.47.0-2+b1                     amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.14.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14-20240201-3                   amd64  GCC support library
+ii   libgcc-s1                    14-20240221-2.1                 amd64  GCC support library
 ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4              1.23-5+b1                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                     1.23-5+b1                       amd64  GNU dbm database routines (runtime version) 
@@ -177,7 +177,7 @@ ii   libsqlite3-0                 3.45.1-1                        amd64  SQLite 
 ii   libss2                       1.47.0-2+b1                     amd64  command-line interface parsing library
 ii   libssh2-1                    1.11.0-4                        amd64  SSH2 client-side library
 ii   libssl3                      3.1.5-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14-20240201-3                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14-20240221-2.1                 amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255.3-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
