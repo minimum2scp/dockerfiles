@@ -29,10 +29,10 @@ ii   debconf                 1.5.86             all    Debian configuration mana
 ii   debian-archive-keyring  2023.4             all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.16               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1           amd64  File comparison utilities
-ii   dpkg                    1.22.4             amd64  Debian package management system
+ii   dpkg                    1.22.5             amd64  Debian package management system
 ii   e2fsprogs               1.47.0-2+b1        amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-5            amd64  utilities for finding files--find, xargs
-ii   gcc-14-base             14-20240201-3      amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base             14-20240221-2.1    amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-1.1+b1      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.11-4             amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1             amd64  GNU compression utilities
@@ -55,7 +55,7 @@ ii   libdb5.3                5.3.28+dfsg2-4+b1  amd64  Berkeley v5.3 Database Li
 ii   libdebconfclient0       0.271+b1           amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2              1.47.0-2+b1        amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.6-1            amd64  Foreign Function Interface library runtime
-ii   libgcc-s1               14-20240201-3      amd64  GCC support library
+ii   libgcc-s1               14-20240221-2.1    amd64  GCC support library
 ii   libgcrypt20             1.10.3-2           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2+b1  amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.8.3-1            amd64  GNU TLS library - main runtime library
@@ -81,7 +81,7 @@ ii   libsepol2               3.5-2              amd64  SELinux library for manip
 ii   libsmartcols1           2.39.3-6           amd64  smart column output alignment library
 ii   libss2                  1.47.0-2+b1        amd64  command-line interface parsing library
 ii   libssl3                 3.1.5-1            amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6              14-20240201-3      amd64  GNU Standard C++ Library v3
+ii   libstdc++6              14-20240221-2.1    amd64  GNU Standard C++ Library v3
 ii   libsystemd0             255.3-2            amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2        amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.4+20240113-1     amd64  shared low-level terminfo library for terminal handling
