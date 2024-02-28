@@ -47,7 +47,7 @@ GEM
       net-ssh (>= 2.7)
       net-telnet
       sfl
-    yard (0.9.34)
+    yard (0.9.35)
 
 PLATFORMS
   ruby
