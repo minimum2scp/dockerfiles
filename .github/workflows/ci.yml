@@ -45,7 +45,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage:latest | pigz -c - > /tmp/baseimage.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage, path: /tmp/baseimage.tar.gz }
 
       # push image to docker hub
@@ -63,7 +63,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -82,7 +82,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/ruby:latest | pigz -c - > /tmp/ruby.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: ruby, path: /tmp/ruby.tar.gz }
 
       # push image to docker hub
@@ -100,7 +100,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -134,7 +134,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -171,7 +171,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -205,7 +205,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage, path: /tmp }
       - run: pigz -c -d /tmp/baseimage.tar.gz | docker load
 
@@ -239,7 +239,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -273,7 +273,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -307,7 +307,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -341,7 +341,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: ruby, path: /tmp }
       - run: pigz -c -d /tmp/ruby.tar.gz | docker load
 
@@ -408,7 +408,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-bookworm:latest | pigz -c - > /tmp/baseimage-bookworm.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-bookworm, path: /tmp/baseimage-bookworm.tar.gz }
 
       # push image to docker hub
@@ -426,7 +426,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-bookworm, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bookworm.tar.gz | docker load
 
@@ -460,7 +460,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-bookworm, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bookworm.tar.gz | docker load
 
@@ -527,7 +527,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-bullseye:latest | pigz -c - > /tmp/baseimage-bullseye.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-bullseye, path: /tmp/baseimage-bullseye.tar.gz }
 
       # push image to docker hub
@@ -545,7 +545,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-bullseye, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
@@ -579,7 +579,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-bullseye, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-bullseye.tar.gz | docker load
 
@@ -646,7 +646,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-buster:latest | pigz -c - > /tmp/baseimage-buster.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-buster, path: /tmp/baseimage-buster.tar.gz }
 
       # push image to docker hub
@@ -664,7 +664,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-buster, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
@@ -698,7 +698,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-buster, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-buster.tar.gz | docker load
 
@@ -765,7 +765,7 @@ jobs:
 
       # save image as artifact
       - run: docker save minimum2scp/baseimage-stretch:latest | pigz -c - > /tmp/baseimage-stretch.tar.gz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: baseimage-stretch, path: /tmp/baseimage-stretch.tar.gz }
 
       # push image to docker hub
@@ -783,7 +783,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-stretch, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
@@ -817,7 +817,7 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends pigz
 
       # load parent image
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with: { name: baseimage-stretch, path: /tmp }
       - run: pigz -c -d /tmp/baseimage-stretch.tar.gz | docker load
 
