@@ -90,7 +90,6 @@ images = {
       <%- end -%>
       # run test
       - run: bundle exec rspec spec/<%= image %>
-        continue-on-error: true
 
       <%- if image_conf[:save_artifact] -%>
       # save image as artifact
