@@ -118,7 +118,7 @@ ii   libdebconfclient0            0.271+b1                        amd64  Debian 
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.0-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.1-1                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.0-2.3+b1                   amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
@@ -203,9 +203,9 @@ ii   ncurses-base                 6.4+20240113-1                  all    basic t
 ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.6p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.6p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.6p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.6p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.6p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.6p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
