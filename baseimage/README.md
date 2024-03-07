@@ -69,9 +69,9 @@ ii   bsdextrautils                2.39.3-10                       amd64  extra u
 ii   bsdutils                     1:2.39.3-10                     amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5+b2                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20240203                        all    Common CA certificates
-ii   coreutils                    9.4-3+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-187                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-187                      all    process scheduling daemon's configuration files
+ii   coreutils                    9.4-3+b2                        amd64  GNU core utilities
+ii   cron                         3.0pl1-188                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-188                      all    process scheduling daemon's configuration files
 ii   curl                         8.6.0-3.2                       amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
@@ -152,9 +152,9 @@ ii   libp11-kit0                  0.25.3-4                        amd64  library
 ii   libpam-modules               1.5.3-6                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-6                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.5.3-6                         all    Runtime support for the PAM library
-ii   libpam0t64                   1.5.3-4                         amd64  Pluggable Authentication Modules library
+ii   libpam0g                     1.5.3-6                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.38t64               5.38.2-3.1                      amd64  shared Perl library
+ii   libperl5.38t64               5.38.2-3.2                      amd64  shared Perl library
 ii   libpipeline1                 1.5.7-1+b2                      amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
@@ -209,9 +209,9 @@ ii   openssh-sftp-server          1:9.6p1-5                       amd64  secure 
 ii   openssl                      3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
-ii   perl                         5.38.2-3.1                      amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.38.2-3.1                      amd64  minimal Perl system
-ii   perl-modules-5.38            5.38.2-3.1                      all    Core Perl modules
+ii   perl                         5.38.2-3.2                      amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.38.2-3.2                      amd64  minimal Perl system
+ii   perl-modules-5.38            5.38.2-3.2                      all    Core Perl modules
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
 ii   python3                      3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.11.8-1                        amd64  minimal subset of the Python language (default python3 version)
