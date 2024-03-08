@@ -137,7 +137,7 @@ ii   libk5crypto3                 1.20.1-5.1                      amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.20.1-5.1                      amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.13+dfsg-5+b3                amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.13+dfsg-5+b4                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.0-0.2                       amd64  XZ-format compression library
@@ -236,7 +236,7 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-10                       amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0016-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0016-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.1.0016-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3.1                  amd64  compression library - runtime
 ii   zsh                          5.9-6                           amd64  shell with lots of features
