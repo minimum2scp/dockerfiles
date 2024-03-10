@@ -2453,7 +2453,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "bzip2, ncompress, xz-utils, tar-scripts, tar-doc",
-    "Version": "1.30+dfsg-6",
+    "Version": "1.30+dfsg-6+deb10u1",
     "binary:Package": "tar",
     "binary:Summary": "GNU version of the tar archiving utility",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tar",
-    "source:Version": "1.30+dfsg-6"
+    "source:Version": "1.30+dfsg-6+deb10u1"
   },
   {
     "Architecture": "all",

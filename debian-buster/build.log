@@ -7,96 +7,187 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
+I: Retrieving adduser 3.118
 I: Validating adduser 3.118
+I: Retrieving apt 1.8.2.3
 I: Validating apt 1.8.2.3
+I: Retrieving base-files 10.3+deb10u13
 I: Validating base-files 10.3+deb10u13
+I: Retrieving base-passwd 3.5.46
 I: Validating base-passwd 3.5.46
+I: Retrieving bash 5.0-4
 I: Validating bash 5.0-4
+I: Retrieving bsdutils 1:2.33.1-0.1
 I: Validating bsdutils 1:2.33.1-0.1
+I: Retrieving coreutils 8.30-3
 I: Validating coreutils 8.30-3
+I: Retrieving dash 0.5.10.2-5
 I: Validating dash 0.5.10.2-5
+I: Retrieving debconf 1.5.71+deb10u1
 I: Validating debconf 1.5.71+deb10u1
+I: Retrieving debian-archive-keyring 2019.1+deb10u1
 I: Validating debian-archive-keyring 2019.1+deb10u1
+I: Retrieving debianutils 4.8.6.1
 I: Validating debianutils 4.8.6.1
+I: Retrieving diffutils 1:3.7-3
 I: Validating diffutils 1:3.7-3
+I: Retrieving dpkg 1.19.8
 I: Validating dpkg 1.19.8
+I: Retrieving e2fsprogs 1.44.5-1+deb10u3
 I: Validating e2fsprogs 1.44.5-1+deb10u3
+I: Retrieving fdisk 2.33.1-0.1
 I: Validating fdisk 2.33.1-0.1
+I: Retrieving findutils 4.6.0+git+20190209-2
 I: Validating findutils 4.6.0+git+20190209-2
+I: Retrieving gcc-8-base 8.3.0-6
 I: Validating gcc-8-base 8.3.0-6
+I: Retrieving gpgv 2.2.12-1+deb10u2
 I: Validating gpgv 2.2.12-1+deb10u2
+I: Retrieving grep 3.3-1
 I: Validating grep 3.3-1
+I: Retrieving gzip 1.9-3+deb10u1
 I: Validating gzip 1.9-3+deb10u1
+I: Retrieving hostname 3.21
 I: Validating hostname 3.21
+I: Retrieving init-system-helpers 1.56+nmu1
 I: Validating init-system-helpers 1.56+nmu1
+I: Retrieving iproute2 4.20.0-2+deb10u1
 I: Validating iproute2 4.20.0-2+deb10u1
+I: Retrieving iputils-ping 3:20180629-2+deb10u2
 I: Validating iputils-ping 3:20180629-2+deb10u2
+I: Retrieving libacl1 2.2.53-4
 I: Validating libacl1 2.2.53-4
+I: Retrieving libapt-pkg5.0 1.8.2.3
 I: Validating libapt-pkg5.0 1.8.2.3
+I: Retrieving libattr1 1:2.4.48-4
 I: Validating libattr1 1:2.4.48-4
+I: Retrieving libaudit-common 1:2.8.4-3
 I: Validating libaudit-common 1:2.8.4-3
+I: Retrieving libaudit1 1:2.8.4-3
 I: Validating libaudit1 1:2.8.4-3
+I: Retrieving libblkid1 2.33.1-0.1
 I: Validating libblkid1 2.33.1-0.1
+I: Retrieving libbz2-1.0 1.0.6-9.2~deb10u1
 I: Validating libbz2-1.0 1.0.6-9.2~deb10u1
+I: Retrieving libc-bin 2.28-10+deb10u1
 I: Validating libc-bin 2.28-10+deb10u1
+I: Retrieving libc6 2.28-10+deb10u1
 I: Validating libc6 2.28-10+deb10u1
+I: Retrieving libcap-ng0 0.7.9-2
 I: Validating libcap-ng0 0.7.9-2
+I: Retrieving libcap2 1:2.25-2
 I: Validating libcap2 1:2.25-2
+I: Retrieving libcap2-bin 1:2.25-2
 I: Validating libcap2-bin 1:2.25-2
+I: Retrieving libcom-err2 1.44.5-1+deb10u3
 I: Validating libcom-err2 1.44.5-1+deb10u3
+I: Retrieving libdb5.3 5.3.28+dfsg1-0.5
 I: Validating libdb5.3 5.3.28+dfsg1-0.5
+I: Retrieving libdebconfclient0 0.249
 I: Validating libdebconfclient0 0.249
+I: Retrieving libelf1 0.176-1.1
 I: Validating libelf1 0.176-1.1
+I: Retrieving libext2fs2 1.44.5-1+deb10u3
 I: Validating libext2fs2 1.44.5-1+deb10u3
+I: Retrieving libfdisk1 2.33.1-0.1
 I: Validating libfdisk1 2.33.1-0.1
+I: Retrieving libffi6 3.2.1-9
 I: Validating libffi6 3.2.1-9
+I: Retrieving libgcc1 1:8.3.0-6
 I: Validating libgcc1 1:8.3.0-6
+I: Retrieving libgcrypt20 1.8.4-5+deb10u1
 I: Validating libgcrypt20 1.8.4-5+deb10u1
+I: Retrieving libgmp10 2:6.1.2+dfsg-4+deb10u1
 I: Validating libgmp10 2:6.1.2+dfsg-4+deb10u1
+I: Retrieving libgnutls30 3.6.7-4+deb10u8
 I: Validating libgnutls30 3.6.7-4+deb10u8
+I: Retrieving libgpg-error0 1.35-1
 I: Validating libgpg-error0 1.35-1
+I: Retrieving libhogweed4 3.4.1-1+deb10u1
 I: Validating libhogweed4 3.4.1-1+deb10u1
+I: Retrieving libidn2-0 2.0.5-1+deb10u1
 I: Validating libidn2-0 2.0.5-1+deb10u1
+I: Retrieving liblz4-1 1.8.3-1+deb10u1
 I: Validating liblz4-1 1.8.3-1+deb10u1
+I: Retrieving liblzma5 5.2.4-1+deb10u1
 I: Validating liblzma5 5.2.4-1+deb10u1
+I: Retrieving libmnl0 1.0.4-2
 I: Validating libmnl0 1.0.4-2
+I: Retrieving libmount1 2.33.1-0.1
 I: Validating libmount1 2.33.1-0.1
+I: Retrieving libncursesw6 6.1+20181013-2+deb10u2
 I: Validating libncursesw6 6.1+20181013-2+deb10u2
+I: Retrieving libnettle6 3.4.1-1+deb10u1
 I: Validating libnettle6 3.4.1-1+deb10u1
+I: Retrieving libp11-kit0 0.23.15-2+deb10u1
 I: Validating libp11-kit0 0.23.15-2+deb10u1
+I: Retrieving libpam-modules 1.3.1-5
 I: Validating libpam-modules 1.3.1-5
+I: Retrieving libpam-modules-bin 1.3.1-5
 I: Validating libpam-modules-bin 1.3.1-5
+I: Retrieving libpam-runtime 1.3.1-5
 I: Validating libpam-runtime 1.3.1-5
+I: Retrieving libpam0g 1.3.1-5
 I: Validating libpam0g 1.3.1-5
+I: Retrieving libpcre3 2:8.39-12
 I: Validating libpcre3 2:8.39-12
+I: Retrieving libseccomp2 2.3.3-4
 I: Validating libseccomp2 2.3.3-4
+I: Retrieving libselinux1 2.8-1+b1
 I: Validating libselinux1 2.8-1+b1
+I: Retrieving libsemanage-common 2.8-2
 I: Validating libsemanage-common 2.8-2
+I: Retrieving libsemanage1 2.8-2
 I: Validating libsemanage1 2.8-2
+I: Retrieving libsepol1 2.8-1
 I: Validating libsepol1 2.8-1
+I: Retrieving libsmartcols1 2.33.1-0.1
 I: Validating libsmartcols1 2.33.1-0.1
+I: Retrieving libss2 1.44.5-1+deb10u3
 I: Validating libss2 1.44.5-1+deb10u3
+I: Retrieving libstdc++6 8.3.0-6
 I: Validating libstdc++6 8.3.0-6
+I: Retrieving libsystemd0 241-7~deb10u8
 I: Validating libsystemd0 241-7~deb10u8
+I: Retrieving libtasn1-6 4.13-3
 I: Validating libtasn1-6 4.13-3
+I: Retrieving libtinfo6 6.1+20181013-2+deb10u2
 I: Validating libtinfo6 6.1+20181013-2+deb10u2
+I: Retrieving libudev1 241-7~deb10u8
 I: Validating libudev1 241-7~deb10u8
+I: Retrieving libunistring2 0.9.10-1
 I: Validating libunistring2 0.9.10-1
+I: Retrieving libuuid1 2.33.1-0.1
 I: Validating libuuid1 2.33.1-0.1
+I: Retrieving libxtables12 1.8.2-4
 I: Validating libxtables12 1.8.2-4
+I: Retrieving libzstd1 1.3.8+dfsg-3+deb10u2
 I: Validating libzstd1 1.3.8+dfsg-3+deb10u2
+I: Retrieving login 1:4.5-1.1
 I: Validating login 1:4.5-1.1
+I: Retrieving mawk 1.3.3-17+b3
 I: Validating mawk 1.3.3-17+b3
+I: Retrieving mount 2.33.1-0.1
 I: Validating mount 2.33.1-0.1
+I: Retrieving ncurses-base 6.1+20181013-2+deb10u2
 I: Validating ncurses-base 6.1+20181013-2+deb10u2
+I: Retrieving ncurses-bin 6.1+20181013-2+deb10u2
 I: Validating ncurses-bin 6.1+20181013-2+deb10u2
+I: Retrieving passwd 1:4.5-1.1
 I: Validating passwd 1:4.5-1.1
+I: Retrieving perl-base 5.28.1-6+deb10u1
 I: Validating perl-base 5.28.1-6+deb10u1
+I: Retrieving sed 4.7-1
 I: Validating sed 4.7-1
+I: Retrieving sysvinit-utils 2.93-8
 I: Validating sysvinit-utils 2.93-8
+I: Retrieving tar 1.30+dfsg-6
 I: Validating tar 1.30+dfsg-6
+I: Retrieving tzdata 2021a-0+deb10u6
 I: Validating tzdata 2021a-0+deb10u6
+I: Retrieving util-linux 2.33.1-0.1
 I: Validating util-linux 2.33.1-0.1
+I: Retrieving zlib1g 1:1.2.11.dfsg-1+deb10u1
 I: Validating zlib1g 1:1.2.11.dfsg-1+deb10u1
 I: Chosen extractor for .deb packages: dpkg-deb
 I: Extracting adduser...
@@ -378,8 +469,8 @@ Hit:1 http://deb.debian.org/debian buster InRelease
 Get:2 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
 Get:3 http://security.debian.org buster/updates InRelease [34.8 kB]
 Get:4 http://deb.debian.org/debian buster-updates/main amd64 Packages [9745 B]
-Get:5 http://security.debian.org buster/updates/main amd64 Packages [762 kB]
-Fetched 864 kB in 1s (924 kB/s)
+Get:5 http://security.debian.org buster/updates/main amd64 Packages [766 kB]
+Fetched 867 kB in 2s (432 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -387,30 +478,35 @@ Calculating upgrade...
 The following packages will be upgraded:
   debian-archive-keyring libbz2-1.0 libc-bin libc6 libelf1 libgnutls30
   libncursesw6 libsystemd0 libtasn1-6 libtinfo6 libudev1 ncurses-base
-  ncurses-bin tzdata zlib1g
-15 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 7120 kB of archives.
+  ncurses-bin tar tzdata zlib1g
+16 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 7899 kB of archives.
 After this operation, 60.4 kB of additional disk space will be used.
 Get:1 http://security.debian.org buster/updates/main amd64 ncurses-bin amd64 6.1+20181013-2+deb10u5 [407 kB]
-Get:2 http://security.debian.org buster/updates/main amd64 libc6 amd64 2.28-10+deb10u2 [2869 kB]
-Get:3 http://security.debian.org buster/updates/main amd64 libc-bin amd64 2.28-10+deb10u2 [793 kB]
-Get:4 http://security.debian.org buster/updates/main amd64 ncurses-base all 6.1+20181013-2+deb10u5 [259 kB]
-Get:5 http://security.debian.org buster/updates/main amd64 libsystemd0 amd64 241-7~deb10u10 [332 kB]
-Get:6 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u2 [90.9 kB]
-Get:7 http://security.debian.org buster/updates/main amd64 debian-archive-keyring all 2019.1+deb10u2 [110 kB]
-Get:8 http://security.debian.org buster/updates/main amd64 libbz2-1.0 amd64 1.0.6-9.2~deb10u2 [45.4 kB]
-Get:9 http://security.debian.org buster/updates/main amd64 libudev1 amd64 241-7~deb10u10 [151 kB]
-Get:10 http://security.debian.org buster/updates/main amd64 libtasn1-6 amd64 4.13-3+deb10u1 [52.0 kB]
-Get:11 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u12 [1125 kB]
-Get:12 http://security.debian.org buster/updates/main amd64 libtinfo6 amd64 6.1+20181013-2+deb10u5 [326 kB]
-Get:13 http://security.debian.org buster/updates/main amd64 libncursesw6 amd64 6.1+20181013-2+deb10u5 [131 kB]
-Get:14 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u12 [268 kB]
-Get:15 http://security.debian.org buster/updates/main amd64 libelf1 amd64 0.176-1.1+deb10u1 [161 kB]
-Fetched 7120 kB in 1s (8745 kB/s)
+Get:2 http://security.debian.org buster/updates/main amd64 tar amd64 1.30+dfsg-6+deb10u1 [779 kB]
+Get:3 http://security.debian.org buster/updates/main amd64 libc6 amd64 2.28-10+deb10u2 [2869 kB]
+Get:4 http://security.debian.org buster/updates/main amd64 libc-bin amd64 2.28-10+deb10u2 [793 kB]
+Get:5 http://security.debian.org buster/updates/main amd64 ncurses-base all 6.1+20181013-2+deb10u5 [259 kB]
+Get:6 http://security.debian.org buster/updates/main amd64 libsystemd0 amd64 241-7~deb10u10 [332 kB]
+Get:7 http://security.debian.org buster/updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-1+deb10u2 [90.9 kB]
+Get:8 http://security.debian.org buster/updates/main amd64 debian-archive-keyring all 2019.1+deb10u2 [110 kB]
+Get:9 http://security.debian.org buster/updates/main amd64 libbz2-1.0 amd64 1.0.6-9.2~deb10u2 [45.4 kB]
+Get:10 http://security.debian.org buster/updates/main amd64 libudev1 amd64 241-7~deb10u10 [151 kB]
+Get:11 http://security.debian.org buster/updates/main amd64 libtasn1-6 amd64 4.13-3+deb10u1 [52.0 kB]
+Get:12 http://security.debian.org buster/updates/main amd64 libgnutls30 amd64 3.6.7-4+deb10u12 [1125 kB]
+Get:13 http://security.debian.org buster/updates/main amd64 libtinfo6 amd64 6.1+20181013-2+deb10u5 [326 kB]
+Get:14 http://security.debian.org buster/updates/main amd64 libncursesw6 amd64 6.1+20181013-2+deb10u5 [131 kB]
+Get:15 http://security.debian.org buster/updates/main amd64 tzdata all 2021a-0+deb10u12 [268 kB]
+Get:16 http://security.debian.org buster/updates/main amd64 libelf1 amd64 0.176-1.1+deb10u1 [161 kB]
+Fetched 7899 kB in 4s (1954 kB/s)
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../ncurses-bin_6.1+20181013-2+deb10u5_amd64.deb ...
 Unpacking ncurses-bin (6.1+20181013-2+deb10u5) over (6.1+20181013-2+deb10u2) ...
 Setting up ncurses-bin (6.1+20181013-2+deb10u5) ...
+(Reading database ... 6679 files and directories currently installed.)
+Preparing to unpack .../tar_1.30+dfsg-6+deb10u1_amd64.deb ...
+Unpacking tar (1.30+dfsg-6+deb10u1) over (1.30+dfsg-6) ...
+Setting up tar (1.30+dfsg-6+deb10u1) ...
 (Reading database ... 6679 files and directories currently installed.)
 Preparing to unpack .../libc6_2.28-10+deb10u2_amd64.deb ...
 Unpacking libc6:amd64 (2.28-10+deb10u2) over (2.28-10+deb10u1) ...
