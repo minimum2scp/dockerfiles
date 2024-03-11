@@ -78,7 +78,7 @@ ii   debconf                      1.5.86                          all    Debian 
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.17                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
-ii   dpkg                         1.22.5                          amd64  Debian package management system
+ii   dpkg                         1.22.6                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.0-2.3+b1                   amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.20-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
@@ -114,15 +114,15 @@ ii   libcrypt1                    1:4.4.36-4                      amd64  libcryp
 ii   libcurl3-gnutls              8.6.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.6.0-3.2                       amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-5                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.271+b1                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.271+b2                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.1-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.1-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.0-2.3+b1                   amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
-ii   libfido2-1                   1.14.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
+ii   libfido2-1                   1.14.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14-20240303-1                   amd64  GCC support library
 ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.23-5.1                        amd64  GNU dbm database routines (legacy support runtime version) 
@@ -146,7 +146,7 @@ ii   libmount1                    2.39.3-10                       amd64  device 
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8                   3.9.1-2+b1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.59.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.59.0-1+b1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-6                         amd64  Pluggable Authentication Modules for PAM
@@ -164,8 +164,8 @@ ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal
 ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-3.1                         amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-4+b1               amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.5-2                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
@@ -175,16 +175,16 @@ ii   libslang2                    2.3.3-3+b1                      amd64  S-Lang 
 ii   libsmartcols1                2.39.3-10                       amd64  smart column output alignment library
 ii   libsqlite3-0                 3.45.1-1                        amd64  SQLite 3 shared library
 ii   libss2t64                    1.47.0-2.3+b1                   amd64  command-line interface parsing library
-ii   libssh2-1t64                 1.11.0-4.1                      amd64  SSH2 client-side library
+ii   libssh2-1t64                 1.11.0-4.1+b1                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14-20240303-1                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  255.4-1                         amd64  systemd utility library
+ii   libsystemd0                  255.4-1+b1                      amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.1                    all    transport-independent RPC library - common files
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     255.4-1                         amd64  libudev shared library
+ii   libudev1                     255.4-1+b1                      amd64  libudev shared library
 ii   libunistring5                1.1-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-10                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32+b1                     amd64  Wietse Venema's TCP wrappers library
@@ -218,13 +218,13 @@ ii   python3-minimal              3.11.8-1                        amd64  minimal
 ii   python3.11                   3.11.8-3                        amd64  Interactive high-level object-oriented language (version 3.11)
 ii   python3.11-minimal           3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-3.1                         all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2402.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2402.0-1+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  255.4-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  255.4-1+b1                      amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-7                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-7                          amd64  System-V-like init
 ii   sysvinit-utils               3.08-7                          amd64  System-V-like utilities
