@@ -87,7 +87,7 @@ ii   git                          1:2.43.0-1                      amd64  fast, s
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.40-1.1+b1                   amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-3                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.23.0-3+b1                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
 ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
@@ -131,7 +131,7 @@ ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multipr
 ii   libgnutls30t64               3.8.3-1.1                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6                  3.9.1-2+b1                      amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
@@ -144,7 +144,7 @@ ii   liblzma5                     5.6.0-0.2                       amd64  XZ-form
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.3-10                       amd64  device mounting library
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8                   3.9.1-2+b1                      amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.59.0-1+b1                     amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
@@ -163,7 +163,7 @@ ii   libpython3-stdlib            3.11.8-1                        amd64  interac
 ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
 ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-3.1                         amd64  GNU readline and history libraries, run-time libraries
-ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b2  amd64  toolkit for RTMP streams (shared library)
+ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1                         amd64  high level interface to Linux seccomp filter
@@ -223,7 +223,7 @@ ii   runit-helper                 2.16.2                          all    dh-runi
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.15p5-3                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  255.4-1+b1                      amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.08-7                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.08-7                          amd64  System-V-like init
