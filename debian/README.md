@@ -30,10 +30,10 @@ ii   debian-archive-keyring  2023.4             all    GnuPG archive keys of the
 ii   debianutils             5.17               amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1           amd64  File comparison utilities
 ii   dpkg                    1.22.6             amd64  Debian package management system
-ii   e2fsprogs               1.47.0-2.3+b1      amd64  ext2/ext3/ext4 file system utilities
+ii   e2fsprogs               1.47.0-2.4         amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-5            amd64  utilities for finding files--find, xargs
 ii   gcc-14-base             14-20240303-1      amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.40-1.1+b1      amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.40-1.1+b3      amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.11-4             amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1             amd64  GNU compression utilities
 ii   hostname                3.23+nmu2          amd64  utility to set/show the host name or domain name
@@ -49,10 +49,10 @@ ii   libc-bin                2.37-15.1          amd64  GNU C Library: Binaries
 ii   libc6                   2.37-15.1          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.4-2            amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5           amd64  POSIX 1003.1e capabilities (library)
-ii   libcom-err2t64          1.47.0-2.3+b1      amd64  common error description library
+ii   libcom-err2             1.47.0-2.4         amd64  common error description library
 ii   libcrypt1               1:4.4.36-4         amd64  libcrypt shared library
 ii   libdebconfclient0       0.271+b2           amd64  Debian Configuration Management System (C-implementation library)
-ii   libext2fs2t64           1.47.0-2.3+b1      amd64  ext2/ext3/ext4 file system libraries
+ii   libext2fs2t64           1.47.0-2.4         amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.6-1            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               14-20240303-1      amd64  GCC support library
 ii   libgcrypt20             1.10.3-2           amd64  LGPL Crypto library - runtime library
@@ -78,7 +78,7 @@ ii   libsemanage-common      3.5-1              all    Common files for SELinux 
 ii   libsemanage2            3.5-1+b2           amd64  SELinux policy management library
 ii   libsepol2               3.5-2              amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.39.3-10          amd64  smart column output alignment library
-ii   libss2t64               1.47.0-2.3+b1      amd64  command-line interface parsing library
+ii   libss2                  1.47.0-2.4         amd64  command-line interface parsing library
 ii   libssl3t64              3.1.5-1.1          amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14-20240303-1      amd64  GNU Standard C++ Library v3
 ii   libsystemd0             255.4-1+b1         amd64  systemd utility library
@@ -90,7 +90,7 @@ ii   libuuid1                2.39.3-10          amd64  Universally Unique ID lib
 ii   libxxhash0              0.8.2-2+b1         amd64  shared library for xxhash
 ii   libzstd1                1.5.5+dfsg2-2      amd64  fast lossless compression algorithm
 ii   login                   1:4.13+dfsg1-4     amd64  system login tools
-ii   logsave                 1.47.0-2.3+b1      amd64  save the output of a command in a log file
+ii   logsave                 1.47.0-2.4         amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20240123-1   amd64  Pattern scanning and text processing language
 ii   mount                   2.39.3-10          amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.4+20240113-1     all    basic terminal type definitions
