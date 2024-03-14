@@ -85,7 +85,7 @@ ii   findutils                    4.9.0-5                         amd64  utiliti
 ii   gcc-14-base                  14-20240303-1                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.43.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                         2.2.40-1.1+b3                   amd64  GNU privacy guard - signature verification tool
+ii   gpgv                         2.2.40-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3+b1                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1                          amd64  GNU compression utilities
@@ -118,7 +118,7 @@ ii   libdebconfclient0            0.271+b2                        amd64  Debian 
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.1-2                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.2-1                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.0-2.4                      amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
@@ -130,13 +130,13 @@ ii   libgdbm6t64                  1.23-5.1                        amd64  GNU dbm
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.3-1.1                       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2             1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.20.1-6                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.20.1-6                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.20.1-5.1                      amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.20.1-5.1                      amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.20.1-6                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.20.1-6                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.16+dfsg-2                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
@@ -173,7 +173,7 @@ ii   libsemanage2                 3.5-1+b2                        amd64  SELinux
 ii   libsepol2                    3.5-2                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-4                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.39.3-10                       amd64  smart column output alignment library
-ii   libsqlite3-0                 3.45.1-1+b1                     amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.45.2-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2.4                      amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-4.1+b1                   amd64  SSH2 client-side library
 ii   libssl3t64                   3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - shared libraries
