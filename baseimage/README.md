@@ -67,9 +67,9 @@ ii   base-passwd                  3.6.3                           amd64  Debian 
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.39.3-10                       amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.39.3-10                     amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                        1.0.8-5+b2                      amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                        1.0.8-5.1                       amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20240203                        all    Common CA certificates
-ii   coreutils                    9.4-3+b2                        amd64  GNU core utilities
+ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-188                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-188                      all    process scheduling daemon's configuration files
 ii   curl                         8.6.0-3.2                       amd64  command line tool for transferring data with URL syntax
@@ -88,7 +88,7 @@ ii   git-man                      1:2.43.0-1                      all    fast, s
 ii   gpgv                         2.2.40-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-3+b1                     amd64  GNU troff text-formatting system (base system components)
-ii   gzip                         1.12-1                          amd64  GNU compression utilities
+ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
 ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.08-7                          all    scripts for initializing and shutting down the system
@@ -102,7 +102,7 @@ ii   libaudit1                    1:3.1.2-2.1                     amd64  Dynamic
 ii   libblkid1                    2.39.3-10                       amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b3                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.1-1                        amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0                   1.0.8-5+b2                      amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0                   1.0.8-5.1                       amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.37-15.1                       amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.37-15.1                       all    GNU C Library: localization files
 ii   libc6                        2.37-15.1                       amd64  GNU C Library: Shared libraries
@@ -203,9 +203,9 @@ ii   ncurses-base                 6.4+20240113-1                  all    basic t
 ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.6p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.6p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.6p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.7p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.7p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
