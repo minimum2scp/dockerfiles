@@ -23,7 +23,7 @@ ii   base-files              13                 amd64  Debian base system miscel
 ii   base-passwd             3.6.3              amd64  Debian base system master password and group files
 ii   bash                    5.2.21-2           amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.39.3-10        amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils               9.4-3+b2           amd64  GNU core utilities
+ii   coreutils               9.4-3.1            amd64  GNU core utilities
 ii   dash                    0.5.12-6           amd64  POSIX-compliant shell
 ii   debconf                 1.5.86             all    Debian configuration management system
 ii   debian-archive-keyring  2023.4             all    GnuPG archive keys of the Debian archive
@@ -35,7 +35,7 @@ ii   findutils               4.9.0-5            amd64  utilities for finding fil
 ii   gcc-14-base             14-20240303-1      amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                    2.2.40-2           amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.11-4             amd64  GNU grep, egrep and fgrep
-ii   gzip                    1.12-1             amd64  GNU compression utilities
+ii   gzip                    1.12-1.1           amd64  GNU compression utilities
 ii   hostname                3.23+nmu2          amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.66               all    helper tools for all init systems
 ii   libacl1                 2.3.2-1            amd64  access control list - shared library
@@ -44,7 +44,7 @@ ii   libattr1                1:2.5.2-1          amd64  extended attribute handli
 ii   libaudit-common         1:3.1.2-2.1        all    Dynamic library for security auditing - common files
 ii   libaudit1               1:3.1.2-2.1        amd64  Dynamic library for security auditing
 ii   libblkid1               2.39.3-10          amd64  block device ID library
-ii   libbz2-1.0              1.0.8-5+b2         amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0              1.0.8-5.1          amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.37-15.1          amd64  GNU C Library: Binaries
 ii   libc6                   2.37-15.1          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.4-2            amd64  alternate POSIX capabilities library

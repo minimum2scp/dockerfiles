@@ -142,11 +142,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "",
+    "Breaks": "usrmerge (<< 39)",
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "18306",
+    "Installed-Size": "18302",
     "Origin": "",
     "Package": "coreutils",
     "Pre-Depends": "libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.34), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "9.4-3+b2",
+    "Version": "9.4-3.1",
     "binary:Package": "coreutils",
     "binary:Summary": "GNU core utilities",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "coreutils",
-    "source:Version": "9.4-3"
+    "source:Version": "9.4-3.1"
   },
   {
     "Architecture": "amd64",
@@ -477,15 +477,15 @@
   },
   {
     "Architecture": "amd64",
-    "Conflicts": "",
+    "Conflicts": "zutils (<< 1.13-2~)",
     "Breaks": "",
     "Depends": "dpkg (>= 1.15.4) | install-info",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "252",
+    "Installed-Size": "246",
     "Origin": "",
     "Package": "gzip",
-    "Pre-Depends": "libc6 (>= 2.33)",
+    "Pre-Depends": "libc6 (>= 2.34)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.12-1",
+    "Version": "1.12-1.1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.12-1"
+    "source:Version": "1.12-1.1"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "97",
+    "Installed-Size": "96",
     "Origin": "",
     "Package": "libbz2-1.0",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.0.8-5+b2",
+    "Version": "1.0.8-5.1",
     "binary:Package": "libbz2-1.0:amd64",
     "binary:Summary": "high-quality block-sorting file compressor library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bzip2",
-    "source:Version": "1.0.8-5"
+    "source:Version": "1.0.8-5.1"
   },
   {
     "Architecture": "amd64",
