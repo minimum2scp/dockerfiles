@@ -57,15 +57,15 @@ ii   libffi8                 3.4.6-1            amd64  Foreign Function Interfac
 ii   libgcc-s1               14-20240303-1      amd64  GCC support library
 ii   libgcrypt20             1.10.3-2           amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2+b1  amd64  Multiprecision arithmetic library
-ii   libgnutls30t64          3.8.3-1.1          amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64          3.8.3-1.1+b1       amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.47-3             amd64  GnuPG development runtime library
-ii   libhogweed6             3.9.1-2+b1         amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64          3.9.1-2.2          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2            amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-1+b2         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.6.0-0.2          amd64  XZ-format compression library
 ii   libmd0                  1.1.0-2            amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.39.3-10          amd64  device mounting library
-ii   libnettle8              3.9.1-2+b1         amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64           3.9.1-2.2          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libp11-kit0             0.25.3-4           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.5.3-6            amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin      1.5.3-6            amd64  Pluggable Authentication Modules for PAM - helper binaries
