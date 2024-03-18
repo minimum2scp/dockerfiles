@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240303-1",
+    "Version": "14-20240315-1",
     "binary:Package": "gcc-14-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240303-1"
+    "source:Version": "14-20240315-1"
   },
   {
     "Architecture": "amd64",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.40-2",
+    "Version": "2.2.40-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.40-2"
+    "source:Version": "2.2.40-3"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.34), libmd0 (>= 1.0.3-2)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "209",
+    "Installed-Size": "210",
     "Origin": "",
     "Package": "libbsd0",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.12.1-1",
+    "Version": "0.12.2-1",
     "binary:Package": "libbsd0:amd64",
     "binary:Summary": "utility functions from BSD systems - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libbsd",
-    "source:Version": "0.12.1-1"
+    "source:Version": "0.12.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-14-base (= 14-20240303-1), libc6 (>= 2.35)",
+    "Depends": "gcc-14-base (= 14-20240315-1), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "197",
@@ -1775,13 +1775,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:14-20240303-1)",
+    "Provides": "libgcc1 (= 1:14-20240315-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240303-1",
+    "Version": "14-20240315-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240303-1"
+    "source:Version": "14-20240315-1"
   },
   {
     "Architecture": "amd64",
@@ -3002,7 +3002,7 @@
     "Depends": "libc6 (>= 2.34), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "207",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5-2",
+    "Version": "3.5-2+b1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5-1+b2",
+    "Version": "3.5-1+b3",
     "binary:Package": "libsemanage2:amd64",
     "binary:Summary": "SELinux policy management library",
     "db:Status-Abbrev": "ii ",
@@ -3279,7 +3279,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-14-base (= 14-20240303-1), libc6 (>= 2.36), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-14-base (= 14-20240315-1), libc6 (>= 2.36), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3014",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240303-1",
+    "Version": "14-20240315-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240303-1"
+    "source:Version": "14-20240315-1"
   },
   {
     "Architecture": "amd64",
@@ -4945,7 +4945,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.1.0016-1+b1",
+    "Version": "2:9.1.0016-1+b2",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
