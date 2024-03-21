@@ -113,7 +113,7 @@ ii   libcom-err2                  1.47.0-2.4                      amd64  common 
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
 ii   libcurl3-gnutls              8.6.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.6.0-4                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3t64                  5.3.28+dfsg2-5+b1               amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64                  5.3.28+dfsg2-6                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271+b2                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
@@ -164,8 +164,8 @@ ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal
 ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-3.1                         amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-4+b2               amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-5                  amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-5                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.5-2+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
