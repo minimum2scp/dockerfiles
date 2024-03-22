@@ -164,8 +164,8 @@ ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal
 ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-3.1                         amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-5                  amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-5                  amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-6                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.5-2+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
