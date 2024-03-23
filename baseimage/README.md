@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.7.13+b1                       amd64  commandline package manager
+ii   apt                          2.7.14                          amd64  commandline package manager
 ii   base-files                   13                              amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
@@ -95,7 +95,7 @@ ii   initscripts                  3.08-7                          all    scripts
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-1                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.7.13+b1                       amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.7.14                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-2.1                     all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-2.1                     amd64  Dynamic library for security auditing
@@ -162,7 +162,7 @@ ii   libpsl5t64                   0.21.2-1.1                      amd64  Library
 ii   libpython3-stdlib            3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
 ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
-ii   libreadline8t64              8.2-3.1                         amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-6                  amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -217,7 +217,7 @@ ii   python3                      3.11.8-1                        amd64  interac
 ii   python3-minimal              3.11.8-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.11                   3.11.8-3                        amd64  Interactive high-level object-oriented language (version 3.11)
 ii   python3.11-minimal           3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
-ii   readline-common              8.2-3.1                         all    GNU readline and history libraries, common files
+ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2402.0-1+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
