@@ -185,7 +185,7 @@ ii   libtirpc-common              1.3.4+ds-1.1                    all    transpo
 ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
 ii   libudev1                     255.4-1+b1                      amd64  libudev shared library
-ii   libunistring5                1.1-2                           amd64  Unicode string library for C
+ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-10                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-32+b1                     amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash

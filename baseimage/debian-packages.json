@@ -3506,7 +3506,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1782",
+    "Installed-Size": "1788",
     "Origin": "",
     "Package": "libunistring5",
     "Pre-Depends": "",
@@ -3517,7 +3517,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1-2",
+    "Version": "1.2-1",
     "binary:Package": "libunistring5:amd64",
     "binary:Summary": "Unicode string library for C",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libunistring",
-    "source:Version": "1.1-2"
+    "source:Version": "1.2-1"
   },
   {
     "Architecture": "amd64",
