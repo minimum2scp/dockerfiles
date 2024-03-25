@@ -51,7 +51,7 @@ ii   libcap-ng0              0.8.4-2            amd64  alternate POSIX capabilit
 ii   libcap2                 1:2.66-5           amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.0-2.4         amd64  common error description library
 ii   libcrypt1               1:4.4.36-4         amd64  libcrypt shared library
-ii   libdebconfclient0       0.271+b2           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.271+b3           amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2t64           1.47.0-2.4         amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.6-1            amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               14-20240315-1      amd64  GCC support library
