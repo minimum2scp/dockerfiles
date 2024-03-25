@@ -114,7 +114,7 @@ ii   libcrypt1                    1:4.4.36-4                      amd64  libcryp
 ii   libcurl3-gnutls              8.6.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.6.0-4                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-6                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.271+b2                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.271+b3                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1                        amd64  Helper functions for handling strings (lib)
@@ -125,8 +125,8 @@ ii   libffi8                      3.4.6-1                         amd64  Foreign
 ii   libfido2-1                   1.14.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14-20240315-1                   amd64  GCC support library
 ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4t64           1.23-5.1                        amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6t64                  1.23-5.1                        amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.3-1.1+b1                    amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
@@ -160,8 +160,8 @@ ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.11-minimal        3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
-ii   libpython3.11-stdlib         3.11.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
+ii   libpython3.11-minimal        3.11.8-3+b1                     amd64  Minimal subset of the Python language (version 3.11)
+ii   libpython3.11-stdlib         3.11.8-3+b1                     amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
@@ -203,9 +203,9 @@ ii   ncurses-base                 6.4+20240113-1                  all    basic t
 ii   ncurses-bin                  6.4+20240113-1                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-0.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.7p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.7p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.7p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.7p1-2+b1                    amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.7p1-2+b1                    amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.7p1-2+b1                    amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
@@ -215,8 +215,8 @@ ii   perl-modules-5.38            5.38.2-3.2                      all    Core Pe
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
 ii   python3                      3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.11.8-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.11                   3.11.8-3                        amd64  Interactive high-level object-oriented language (version 3.11)
-ii   python3.11-minimal           3.11.8-3                        amd64  Minimal subset of the Python language (version 3.11)
+ii   python3.11                   3.11.8-3+b1                     amd64  Interactive high-level object-oriented language (version 3.11)
+ii   python3.11-minimal           3.11.8-3+b1                     amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2402.0-1+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
@@ -235,8 +235,8 @@ ii   ucf                          3.0043+nmu1                     all    Update 
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.39.3-10                       amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.0016-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0016-1+b2                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.0199-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.0199-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg-3.1                  amd64  compression library - runtime
 ii   zsh                          5.9-6                           amd64  shell with lots of features
