@@ -94,7 +94,7 @@ ii   init-system-helpers          1.66                            all    helper 
 ii   initscripts                  3.08-7                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-1                         amd64  access control list - shared library
-ii   libapparmor1                 3.0.12-1+b2                     amd64  changehat AppArmor library
+ii   libapparmor1                 3.0.13-2                        amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.7.14                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-2.1                     all    Dynamic library for security auditing - common files
@@ -147,7 +147,7 @@ ii   libncursesw6                 6.4+20240113-1                  amd64  shared 
 ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.59.0-1+b1                     amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnsl2                      1.3.0-3                         amd64  Public client interface for NIS(YP) and NIS+
+ii   libnsl2                      1.3.0-3+b1                      amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-6                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-6                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -160,8 +160,8 @@ ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.11-minimal        3.11.8-3+b1                     amd64  Minimal subset of the Python language (version 3.11)
-ii   libpython3.11-stdlib         3.11.8-3+b1                     amd64  Interactive high-level object-oriented language (standard library, version 3.11)
+ii   libpython3.11-minimal        3.11.8-3+b2                     amd64  Minimal subset of the Python language (version 3.11)
+ii   libpython3.11-stdlib         3.11.8-3+b2                     amd64  Interactive high-level object-oriented language (standard library, version 3.11)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b3  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
@@ -181,8 +181,8 @@ ii   libstdc++6                   14-20240315-1                   amd64  GNU Sta
 ii   libsystemd0                  255.4-1+b1                      amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common              1.3.4+ds-1.1                    all    transport-independent RPC library - common files
-ii   libtirpc3                    1.3.4+ds-1                      amd64  transport-independent RPC library
+ii   libtirpc-common              1.3.4+ds-1.2                    all    transport-independent RPC library - common files
+ii   libtirpc3t64                 1.3.4+ds-1.2                    amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
 ii   libudev1                     255.4-1+b1                      amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
@@ -195,7 +195,7 @@ ii   locales                      2.37-15.1                       all    GNU C L
 ii   login                        1:4.13+dfsg1-4                  amd64  system login tools
 ii   logsave                      1.47.0-2.4                      amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.12.0-3                        amd64  tools for reading manual pages
+ii   man-db                       2.12.0-3+b1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20240123-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.39.3-10                       amd64  tools for mounting and manipulating filesystems
@@ -215,8 +215,8 @@ ii   perl-modules-5.38            5.38.2-3.2                      all    Core Pe
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
 ii   python3                      3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.11.8-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.11                   3.11.8-3+b1                     amd64  Interactive high-level object-oriented language (version 3.11)
-ii   python3.11-minimal           3.11.8-3+b1                     amd64  Minimal subset of the Python language (version 3.11)
+ii   python3.11                   3.11.8-3+b2                     amd64  Interactive high-level object-oriented language (version 3.11)
+ii   python3.11-minimal           3.11.8-3+b2                     amd64  Minimal subset of the Python language (version 3.11)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2402.0-1+b1                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
