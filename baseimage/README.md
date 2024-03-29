@@ -140,7 +140,7 @@ ii   libkrb5support0              1.20.1-6+b1                     amd64  MIT Ker
 ii   libldap-2.5-0                2.5.16+dfsg-2                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4                         amd64  log normalizing library
 ii   liblz4-1                     1.9.4-1+b2                      amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.6.1-1                         amd64  XZ-format compression library
+ii   liblzma5                     5.6.1+really5.4.5-1             amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.39.3-11                       amd64  device mounting library
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
