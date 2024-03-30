@@ -128,7 +128,7 @@ ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Cr
 ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.3-1.1+b1                    amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.4-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
@@ -146,7 +146,7 @@ ii   libmount1                    2.39.3-11                       amd64  device 
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.59.0-1+b1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.60.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                      1.3.0-3+b1                      amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-6                         amd64  Pluggable Authentication Modules for PAM
