@@ -46,12 +46,12 @@ I: Validating libffi8 3.4.6-1
 I: Validating libgcc-s1 14-20240315-1
 I: Validating libgcrypt20 1.10.3-2
 I: Validating libgmp10 2:6.3.0+dfsg-2+b1
-I: Validating libgnutls30t64 3.8.3-1.1+b1
+I: Retrieving libgnutls30t64 3.8.4-2
+I: Validating libgnutls30t64 3.8.4-2
 I: Validating libgpg-error0 1.47-3
 I: Validating libhogweed6t64 3.9.1-2.2
 I: Validating libidn2-0 2.3.7-2
 I: Validating liblz4-1 1.9.4-1+b2
-I: Retrieving liblzma5 5.6.1+really5.4.5-1
 I: Validating liblzma5 5.6.1+really5.4.5-1
 I: Validating libmd0 1.1.0-2
 I: Validating libmount1 2.39.3-11
