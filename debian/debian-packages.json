@@ -1210,7 +1210,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "168",
+    "Installed-Size": "167",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.4-1+b2",
+    "Version": "1.9.4-2",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.9.4-1"
+    "source:Version": "1.9.4-2"
   },
   {
     "Architecture": "amd64",
