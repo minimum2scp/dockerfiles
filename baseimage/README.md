@@ -146,8 +146,7 @@ ii   libmount1                    2.39.3-11                       amd64  device 
 ii   libncursesw6                 6.4+20240113-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.60.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnsl2                      1.3.0-3+b1                      amd64  Public client interface for NIS(YP) and NIS+
+ii   libnghttp2-14                1.61.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0                  0.25.3-4                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-6                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-6                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -176,18 +175,16 @@ ii   libsmartcols1                2.39.3-11                       amd64  smart c
 ii   libsqlite3-0                 3.45.2-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.0-2.4                      amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-4.1+b1                   amd64  SSH2 client-side library
-ii   libssl3t64                   3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.2.1-3                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14-20240330-1                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  255.4-1+b1                      amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.4+20240113-1                  amd64  shared low-level terminfo library for terminal handling
-ii   libtirpc-common              1.3.4+ds-1.2                    all    transport-independent RPC library - common files
-ii   libtirpc3t64                 1.3.4+ds-1.2                    amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
 ii   libudev1                     255.4-1+b1                      amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.39.3-11                       amd64  Universally Unique ID library
-ii   libwrap0                     7.6.q-32+b1                     amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
@@ -206,7 +203,7 @@ ii   netbase                      6.4                             all    Basic T
 ii   openssh-client               1:9.7p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.7p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.7p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.1.5-1.1                       amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.2.1-3                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.13+dfsg1-4                  amd64  change and administer password and group data
 ii   perl                         5.38.2-3.2                      amd64  Larry Wall's Practical Extraction and Report Language
