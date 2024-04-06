@@ -128,7 +128,7 @@ ii   libgcrypt20                  1.10.3-2                        amd64  LGPL Cr
 ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.4-2                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.5-1                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.47-3                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
@@ -192,7 +192,7 @@ ii   locales                      2.37-15.1                       all    GNU C L
 ii   login                        1:4.13+dfsg1-4                  amd64  system login tools
 ii   logsave                      1.47.0-2.4                      amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.12.0-4                        amd64  tools for reading manual pages
+ii   man-db                       2.12.1-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20240123-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.39.3-11                       amd64  tools for mounting and manipulating filesystems
@@ -227,7 +227,7 @@ ii   sysvinit-core                3.08-7                          amd64  System-
 ii   sysvinit-utils               3.08-7                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2024a-1                         all    time zone and daylight-saving time data
+ii   tzdata                       2024a-2                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
