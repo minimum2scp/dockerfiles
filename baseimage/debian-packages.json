@@ -566,7 +566,7 @@
     "Depends": "git | mercurial | brz | darcs, debconf (>= 0.5) | debconf-2.0, python3:any",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "168",
+    "Installed-Size": "169",
     "Origin": "",
     "Package": "etckeeper",
     "Pre-Depends": "",
@@ -577,7 +577,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.20-2",
+    "Version": "1.18.21-1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.20-2"
+    "source:Version": "1.18.21-1"
   },
   {
     "Architecture": "amd64",
