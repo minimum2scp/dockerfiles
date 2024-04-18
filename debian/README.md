@@ -99,7 +99,7 @@ ii   ncurses-bin             6.4+20240414-1       amd64  terminal-related progra
 ii   passwd                  1:4.13+dfsg1-4       amd64  change and administer password and group data
 ii   perl-base               5.38.2-3.2+b2        amd64  minimal Perl system
 ii   sed                     4.9-2                amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils          3.08-7               amd64  System-V-like utilities
+ii   sysvinit-utils          3.09-1               amd64  System-V-like utilities
 ii   tar                     1.35+dfsg-3          amd64  GNU version of the tar archiving utility
 ii   tzdata                  2024a-2              all    time zone and daylight-saving time data
 ii   usr-is-merged           39                   all    Transitional package to assert a merged-/usr system
