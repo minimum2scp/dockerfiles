@@ -72,7 +72,7 @@ ii   ca-certificates              20240203                        all    Common 
 ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
-ii   curl                         8.7.1-2                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.7.1-3                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -111,8 +111,8 @@ ii   libcap2                      1:2.66-5                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.0-2.4                      amd64  common error description library
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.7.1-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.7.1-2                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.7.1-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.7.1-3                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-7                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271+b3                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20230828-1                  amd64  BSD editline and history libraries
@@ -227,7 +227,7 @@ ii   sysvinit-core                3.09-1                          amd64  System-
 ii   sysvinit-utils               3.09-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2024a-2                         all    time zone and daylight-saving time data
+ii   tzdata                       2024a-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
