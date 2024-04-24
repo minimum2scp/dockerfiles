@@ -19,7 +19,7 @@ fi
 
 change_apt_line (){
   uri=$1
-  sed -i -e "s@http://deb\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
+  sed -i -e "s@http://archive\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
   if etckeeper unclean; then
     etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
   fi
@@ -71,7 +71,7 @@ write_post_init (){
 if [ -n "${APT_LINE}" ]; then
   case "${APT_LINE}" in
   keep)
-    # do nothing (use deb.debian.org)
+    # do nothing (use archive.debian.org)
     :
     ;;
   jp)
