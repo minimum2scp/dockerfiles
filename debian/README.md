@@ -38,7 +38,7 @@ ii   grep                    3.11-4               amd64  GNU grep, egrep and fgr
 ii   gzip                    1.12-1.1             amd64  GNU compression utilities
 ii   hostname                3.23+nmu2            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers     1.66                 all    helper tools for all init systems
-ii   libacl1                 2.3.2-1              amd64  access control list - shared library
+ii   libacl1                 2.3.2-2              amd64  access control list - shared library
 ii   libapt-pkg6.0t64        2.9.2                amd64  package management runtime library
 ii   libattr1                1:2.5.2-1            amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.1.2-2.1          all    Dynamic library for security auditing - common files
@@ -101,7 +101,7 @@ ii   perl-base               5.38.2-4             amd64  minimal Perl system
 ii   sed                     4.9-2                amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.09-1               amd64  System-V-like utilities
 ii   tar                     1.35+dfsg-3          amd64  GNU version of the tar archiving utility
-ii   tzdata                  2024a-3              all    time zone and daylight-saving time data
+ii   tzdata                  2024a-4              all    time zone and daylight-saving time data
 ii   usr-is-merged           39                   all    Transitional package to assert a merged-/usr system
 ii   util-linux              2.40-8               amd64  miscellaneous system utilities
 ii   zlib1g                  1:1.3.dfsg-3.1       amd64  compression library - runtime
