@@ -941,7 +941,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.2-1",
+    "Version": "2.3.2-2",
     "binary:Package": "libacl1:amd64",
     "binary:Summary": "access control list - shared library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "acl",
-    "source:Version": "2.3.2-1"
+    "source:Version": "2.3.2-2"
   },
   {
     "Architecture": "amd64",
@@ -4693,7 +4693,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2024a-3",
+    "Version": "2024a-4",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4701,7 +4701,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2024a-3"
+    "source:Version": "2024a-4"
   },
   {
     "Architecture": "all",

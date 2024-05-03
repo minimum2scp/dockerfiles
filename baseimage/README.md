@@ -93,7 +93,7 @@ ii   hostname                     3.23+nmu2                       amd64  utility
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.09-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
-ii   libacl1                      2.3.2-1                         amd64  access control list - shared library
+ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.0.13-2                        amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.2                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
@@ -227,7 +227,7 @@ ii   sysvinit-core                3.09-1                          amd64  System-
 ii   sysvinit-utils               3.09-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.1-2                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2024a-3                         all    time zone and daylight-saving time data
+ii   tzdata                       2024a-4                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
