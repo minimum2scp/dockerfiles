@@ -8,7 +8,8 @@ I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 2.9.2
-I: Validating base-files 13.1
+I: Retrieving base-files 13.2
+I: Validating base-files 13.2
 I: Validating base-passwd 3.6.3
 I: Validating bash 5.2.21-2
 I: Validating bsdutils 1:2.40-8
@@ -27,7 +28,6 @@ I: Validating grep 3.11-4
 I: Validating gzip 1.12-1.1
 I: Validating hostname 3.23+nmu2
 I: Validating init-system-helpers 1.66
-I: Retrieving libacl1 2.3.2-2
 I: Validating libacl1 2.3.2-2
 I: Validating libapt-pkg6.0t64 2.9.2
 I: Validating libattr1 1:2.5.2-1
@@ -35,8 +35,10 @@ I: Validating libaudit-common 1:3.1.2-2.1
 I: Validating libaudit1 1:3.1.2-2.1
 I: Validating libblkid1 2.40-8
 I: Validating libbz2-1.0 1.0.8-5.1
-I: Validating libc-bin 2.37-19
-I: Validating libc6 2.37-19
+I: Retrieving libc-bin 2.38-7
+I: Validating libc-bin 2.38-7
+I: Retrieving libc6 2.38-7
+I: Validating libc6 2.38-7
 I: Validating libcap-ng0 0.8.5-1
 I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.1~rc2-1
@@ -91,7 +93,6 @@ I: Validating perl-base 5.38.2-4
 I: Validating sed 4.9-2
 I: Validating sysvinit-utils 3.09-1
 I: Validating tar 1.35+dfsg-3
-I: Retrieving tzdata 2024a-4
 I: Validating tzdata 2024a-4
 I: Validating usr-is-merged 39
 I: Validating util-linux 2.40-8
@@ -365,7 +366,11 @@ I: Configuring libc-bin...
 I: Unpacking the base system...
 I: Base system installed successfully.
 Adding 'local diversion of /sbin/initctl to /sbin/initctl.distrib'
-Hit:1 http://deb.debian.org/debian sid InRelease
+Get:1 http://deb.debian.org/debian sid InRelease [198 kB]
+Get:2 http://deb.debian.org/debian sid/main amd64 Packages.diff/Index [63.6 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2024-05-04-1412.09-F-2024-05-04-1412.09.pdiff [27.5 kB]
+Get:3 http://deb.debian.org/debian sid/main amd64 Packages T-2024-05-04-1412.09-F-2024-05-04-1412.09.pdiff [27.5 kB]
+Fetched 289 kB in 3s (99.1 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...

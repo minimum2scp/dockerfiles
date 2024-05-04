@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   apt                     2.9.2                amd64  commandline package manager
-ii   base-files              13.1                 amd64  Debian base system miscellaneous files
+ii   base-files              13.2                 amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.3                amd64  Debian base system master password and group files
 ii   bash                    5.2.21-2             amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.40-8             amd64  basic utilities from 4.4BSD-Lite
@@ -45,8 +45,8 @@ ii   libaudit-common         1:3.1.2-2.1          all    Dynamic library for sec
 ii   libaudit1               1:3.1.2-2.1          amd64  Dynamic library for security auditing
 ii   libblkid1               2.40-8               amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5.1            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.37-19              amd64  GNU C Library: Binaries
-ii   libc6                   2.37-19              amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.38-7               amd64  GNU C Library: Binaries
+ii   libc6                   2.38-7               amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.5-1              amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5             amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.1~rc2-1         amd64  common error description library
