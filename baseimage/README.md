@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.9.2                           amd64  commandline package manager
 ii   base-files                   13.2                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
-ii   bash                         5.2.21-2                        amd64  GNU Bourne Again SHell
+ii   bash                         5.2.21-2+b1                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40-8                          amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40-8                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5.1                       amd64  high-quality block-sorting file compressor - utilities
@@ -103,9 +103,9 @@ ii   libblkid1                    2.40-8                          amd64  block d
 ii   libbrotli1                   1.1.0-2+b3                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.38-8                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.38-8                          all    GNU C Library: localization files
-ii   libc6                        2.38-8                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.38-10                         amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.38-10                         all    GNU C Library: localization files
+ii   libc6                        2.38-10                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-1                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -129,7 +129,7 @@ ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm
 ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.5-2                         amd64  GNU TLS library - main runtime library
-ii   libgpg-error0                1.47-3+b1                       amd64  GnuPG development runtime library
+ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -170,7 +170,7 @@ ii   libselinux1                  3.5-2+b2                        amd64  SELinux
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1+b3                        amd64  SELinux policy management library
 ii   libsepol2                    3.5-2+b1                        amd64  SELinux library for manipulating binary security policies
-ii   libslang2                    2.3.3-4                         amd64  S-Lang programming library - runtime version
+ii   libslang2                    2.3.3-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40-8                          amd64  smart column output alignment library
 ii   libsqlite3-0                 3.45.3-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1~rc2-1                    amd64  command-line interface parsing library
@@ -188,7 +188,7 @@ ii   libwrap0                     7.6.q-33                        amd64  Wietse 
 ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.38-8                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.38-10                         all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.13+dfsg1-4                  amd64  system login tools
 ii   logsave                      1.47.1~rc2-1                    amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
@@ -235,8 +235,8 @@ ii   util-linux                   2.40-8                          amd64  miscell
 ii   vim-common                   2:9.1.0377-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.0377-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2                       amd64  Displays user-friendly dialog boxes from shell scripts
-ii   zlib1g                       1:1.3.dfsg-3.1                  amd64  compression library - runtime
-ii   zsh                          5.9-6                           amd64  shell with lots of features
+ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
+ii   zsh                          5.9-6+b1                        amd64  shell with lots of features
 ii   zsh-common                   5.9-6                           all    architecture independent files for Zsh
 ii   zstd                         1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm -- CLI tool
 ```
