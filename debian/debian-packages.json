@@ -90,10 +90,10 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7175",
+    "Installed-Size": "7176",
     "Origin": "",
     "Package": "bash",
-    "Pre-Depends": "libc6 (>= 2.36), libtinfo6 (>= 6)",
+    "Pre-Depends": "libc6 (>= 2.38), libtinfo6 (>= 6)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "bash-completion",
@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.21-2",
+    "Version": "5.2.21-2+b1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38-8",
+    "Version": "2.38-10",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.38-8"
+    "source:Version": "2.38-10"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12997",
+    "Installed-Size": "12698",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.38-8",
+    "Version": "2.38-10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.38-8"
+    "source:Version": "2.38-10"
   },
   {
     "Architecture": "amd64",
@@ -1151,10 +1151,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "197",
+    "Installed-Size": "198",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47-3+b1",
+    "Version": "1.49-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.47-3"
+    "source:Version": "1.49-2"
   },
   {
     "Architecture": "amd64",
@@ -2425,7 +2425,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:1.3.dfsg-3.1",
+    "Version": "1:1.3.dfsg+really1.3.1-1",
     "binary:Package": "zlib1g:amd64",
     "binary:Summary": "compression library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2433,6 +2433,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "zlib",
-    "source:Version": "1:1.3.dfsg-3.1"
+    "source:Version": "1:1.3.dfsg+really1.3.1-1"
   }
 ]
