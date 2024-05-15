@@ -622,7 +622,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "106",
+    "Installed-Size": "107",
     "Origin": "",
     "Package": "gcc-14-base",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240429-1",
+    "Version": "14.1.0-1",
     "binary:Package": "gcc-14-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240429-1"
+    "source:Version": "14.1.0-1"
   },
   {
     "Architecture": "amd64",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.43-1",
+    "Version": "2.2.43-3",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.43-1"
+    "source:Version": "2.2.43-3"
   },
   {
     "Architecture": "amd64",
@@ -1767,7 +1767,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-14-base (= 14-20240429-1), libc6 (>= 2.35)",
+    "Depends": "gcc-14-base (= 14.1.0-1), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "197",
@@ -1775,13 +1775,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:14-20240429-1)",
+    "Provides": "libgcc1 (= 1:14.1.0-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240429-1",
+    "Version": "14.1.0-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1789,13 +1789,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240429-1"
+    "source:Version": "14.1.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libgpg-error0 (>= 1.27)",
+    "Depends": "libc6 (>= 2.38), libgpg-error0 (>= 1.27)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1607",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "rng-tools",
-    "Version": "1.10.3-2+b1",
+    "Version": "1.10.3-3",
     "binary:Package": "libgcrypt20:amd64",
     "binary:Summary": "LGPL Crypto library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgcrypt20",
-    "source:Version": "1.10.3-2"
+    "source:Version": "1.10.3-3"
   },
   {
     "Architecture": "amd64",
@@ -3251,7 +3251,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-14-base (= 14-20240429-1), libc6 (>= 2.36), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-14-base (= 14.1.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3018",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14-20240429-1",
+    "Version": "14.1.0-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14-20240429-1"
+    "source:Version": "14.1.0-1"
   },
   {
     "Architecture": "amd64",
