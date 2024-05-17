@@ -426,7 +426,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.38), libgcrypt20 (>= 1.10.3), libgpg-error0 (>= 1.48), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "956",
+    "Installed-Size": "501",
     "Origin": "",
     "Package": "gpgv",
     "Pre-Depends": "",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.43-3",
+    "Version": "2.2.43-6",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.43-3"
+    "source:Version": "2.2.43-6"
   },
   {
     "Architecture": "amd64",
@@ -1804,12 +1804,12 @@
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libgcrypt20",
+    "Recommends": "libzstd1",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "256~rc2-1",
+    "Suggests": "libgcrypt20, liblz4-1, liblzma5",
+    "Version": "256~rc2-3",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256~rc2-1"
+    "source:Version": "256~rc2-3"
   },
   {
     "Architecture": "amd64",
@@ -1892,8 +1892,8 @@
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
-    "Suggests": "",
-    "Version": "256~rc2-1",
+    "Suggests": "libidn2-0",
+    "Version": "256~rc2-3",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256~rc2-1"
+    "source:Version": "256~rc2-3"
   },
   {
     "Architecture": "amd64",

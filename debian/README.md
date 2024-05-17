@@ -33,7 +33,7 @@ ii   dpkg                    1.22.6                    amd64  Debian package man
 ii   e2fsprogs               1.47.1~rc2-1              amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.9.0-5                   amd64  utilities for finding files--find, xargs
 ii   gcc-14-base             14.1.0-1                  amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                    2.2.43-3                  amd64  GNU privacy guard - signature verification tool
+ii   gpgv                    2.2.43-6                  amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.11-4                    amd64  GNU grep, egrep and fgrep
 ii   gzip                    1.12-1.1                  amd64  GNU compression utilities
 ii   hostname                3.23+nmu2                 amd64  utility to set/show the host name or domain name
@@ -82,10 +82,10 @@ ii   libsmartcols1           2.40.1-1                  amd64  smart column outpu
 ii   libss2                  1.47.1~rc2-1              amd64  command-line interface parsing library
 ii   libssl3t64              3.2.1-3                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.1.0-1                  amd64  GNU Standard C++ Library v3
-ii   libsystemd0             256~rc2-1                 amd64  systemd utility library
+ii   libsystemd0             256~rc2-3                 amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.5-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                256~rc2-1                 amd64  libudev shared library
+ii   libudev1                256~rc2-3                 amd64  libudev shared library
 ii   libunistring5           1.2-1                     amd64  Unicode string library for C
 ii   libuuid1                2.40.1-1                  amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                amd64  shared library for xxhash
