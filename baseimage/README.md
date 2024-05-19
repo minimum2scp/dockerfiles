@@ -73,7 +73,7 @@ ii   coreutils                    9.4-3.1                         amd64  GNU cor
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.7.1-5                         amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-6                        amd64  POSIX-compliant shell
+ii   dash                         0.5.12-7                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.17                            amd64  Miscellaneous utilities specific to Debian
