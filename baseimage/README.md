@@ -73,7 +73,7 @@ ii   coreutils                    9.4-3.1                         amd64  GNU cor
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.7.1-5                         amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-7                        amd64  POSIX-compliant shell
+ii   dash                         0.5.12-8                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.17                            amd64  Miscellaneous utilities specific to Debian
@@ -83,8 +83,8 @@ ii   e2fsprogs                    1.47.1~rc2-1                    amd64  ext2/ex
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.9.0-5                         amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.1.0-1                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.43.0-1+b1                   amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.43.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.45.1-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.45.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-6                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-4                        amd64  GNU troff text-formatting system (base system components)
