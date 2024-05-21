@@ -538,10 +538,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1516",
+    "Installed-Size": "1524",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2t64 (= 1.47.1~rc2-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.38), libcom-err2 (>= 1.43.9), libext2fs2t64 (= 1.47.1-1), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.47.1~rc2-1",
+    "Version": "1.47.1-1",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.1~rc2-1"
+    "source:Version": "1.47.1-1"
   },
   {
     "Architecture": "all",
@@ -1375,7 +1375,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcom-err2t64 (<< 1.47.0-2.4~exp1~), libcomerr2 (<< 1.43.9-1~)",
-    "Depends": "libc6 (>= 2.17)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "60",
@@ -1383,13 +1383,13 @@
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcom-err2t64 (= 1.47.1~rc2-1), libcomerr2 (= 1.47.1~rc2-1)",
+    "Provides": "libcom-err2t64 (= 1.47.1-1), libcomerr2 (= 1.47.1-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.1~rc2-1",
+    "Version": "1.47.1-1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.1~rc2-1"
+    "source:Version": "1.47.1-1"
   },
   {
     "Architecture": "amd64",
@@ -1654,8 +1654,8 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "e2fslibs (<< 1.43.9-1~), libext2fs2 (<< 1.47.1~rc2-1)",
-    "Depends": "libc6 (>= 2.34)",
+    "Breaks": "e2fslibs (<< 1.43.9-1~), libext2fs2 (<< 1.47.1-1)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "549",
@@ -1663,13 +1663,13 @@
     "Package": "libext2fs2t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.47.1~rc2-1), libext2fs2 (= 1.47.1~rc2-1)",
+    "Provides": "e2fslibs (= 1.47.1-1), libext2fs2 (= 1.47.1-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.1~rc2-1",
+    "Version": "1.47.1-1",
     "binary:Package": "libext2fs2t64:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.1~rc2-1"
+    "source:Version": "1.47.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3175,13 +3175,13 @@
     "Package": "libss2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libss2t64 (= 1.47.1~rc2-1)",
+    "Provides": "libss2t64 (= 1.47.1-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.1~rc2-1",
+    "Version": "1.47.1-1",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.1~rc2-1"
+    "source:Version": "1.47.1-1"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.1~rc2-1",
+    "Version": "1.47.1-1",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "e2fsprogs",
-    "source:Version": "1.47.1~rc2-1"
+    "source:Version": "1.47.1-1"
   },
   {
     "Architecture": "amd64",
