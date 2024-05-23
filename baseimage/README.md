@@ -72,7 +72,7 @@ ii   ca-certificates              20240203                        all    Common 
 ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
-ii   curl                         8.7.1-5                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.8.0-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-8                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -111,11 +111,11 @@ ii   libcap2                      1:2.66-5                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.1-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.7.1-5                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.7.1-5                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.8.0-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.8.0-1                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-7                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.271+b3                        amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                     3.1-20230828-1+b1               amd64  BSD editline and history libraries
+ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.6.2-1                         amd64  XML parsing C library - runtime library
@@ -174,14 +174,14 @@ ii   libslang2                    2.3.3-5                         amd64  S-Lang 
 ii   libsmartcols1                2.40.1-1                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.45.3-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
-ii   libssh2-1t64                 1.11.0-4.1+b2                   amd64  SSH2 client-side library
+ii   libssh2-1t64                 1.11.0-5                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.2.1-3                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.1.0-1                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  256~rc2-3                       amd64  systemd utility library
+ii   libsystemd0                  256~rc3-1                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     256~rc2-3                       amd64  libudev shared library
+ii   libudev1                     256~rc3-1                       amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.1-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
@@ -221,7 +221,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  256~rc2-3                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  256~rc3-1                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.09-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.09-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.09-1                          amd64  System-V-like utilities
