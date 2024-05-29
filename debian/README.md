@@ -52,7 +52,7 @@ ii   libcap2                 1:2.66-5                  amd64  POSIX 1003.1e capa
 ii   libcom-err2             1.47.1-1                  amd64  common error description library
 ii   libcrypt1               1:4.4.36-4                amd64  libcrypt shared library
 ii   libdb5.3t64             5.3.28+dfsg2-7            amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0       0.271+b3                  amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0       0.272                     amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2t64           1.47.1-1                  amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                 3.4.6-1                   amd64  Foreign Function Interface library runtime
 ii   libgcc-s1               14.1.0-1                  amd64  GCC support library
@@ -82,10 +82,10 @@ ii   libsmartcols1           2.40.1-2                  amd64  smart column outpu
 ii   libss2                  1.47.1-1                  amd64  command-line interface parsing library
 ii   libssl3t64              3.2.1-3                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.1.0-1                  amd64  GNU Standard C++ Library v3
-ii   libsystemd0             256~rc3-4                 amd64  systemd utility library
+ii   libsystemd0             256~rc3-5                 amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.5-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                256~rc3-4                 amd64  libudev shared library
+ii   libudev1                256~rc3-5                 amd64  libudev shared library
 ii   libunistring5           1.2-1                     amd64  Unicode string library for C
 ii   libuuid1                2.40.1-2                  amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                amd64  shared library for xxhash
