@@ -1515,10 +1515,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.4)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "38",
+    "Installed-Size": "37",
     "Origin": "",
     "Package": "libdebconfclient0",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.271+b3",
+    "Version": "0.272",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.271"
+    "source:Version": "0.272"
   },
   {
     "Architecture": "amd64",
@@ -3282,7 +3282,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1014",
+    "Installed-Size": "1015",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "256~rc3-4",
+    "Version": "256~rc3-5",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256~rc3-4"
+    "source:Version": "256~rc3-5"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "338",
+    "Installed-Size": "339",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "256~rc3-4",
+    "Version": "256~rc3-5",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256~rc3-4"
+    "source:Version": "256~rc3-5"
   },
   {
     "Architecture": "amd64",
@@ -4514,18 +4514,18 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10), libcrypt1 (>= 1:4.4.0), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "316",
+    "Installed-Size": "317",
     "Origin": "",
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 256~rc3-4)",
+    "Provides": "systemd-sysusers (= 256~rc3-5)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libtss2-rc0t64",
-    "Version": "256~rc3-4",
+    "Version": "256~rc3-5",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256~rc3-4"
+    "source:Version": "256~rc3-5"
   },
   {
     "Architecture": "all",
