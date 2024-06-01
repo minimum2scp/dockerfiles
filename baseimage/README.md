@@ -85,7 +85,7 @@ ii   findutils                    4.9.0-6                         amd64  utiliti
 ii   gcc-14-base                  14.1.0-1                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.1-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                         2.2.43-6                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                         2.2.43-7                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-4                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
@@ -128,7 +128,7 @@ ii   libgcrypt20                  1.10.3-3                        amd64  LGPL Cr
 ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.5-2                         amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.5-3                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
@@ -172,16 +172,16 @@ ii   libsemanage2                 3.5-1+b3                        amd64  SELinux
 ii   libsepol2                    3.5-2+b1                        amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.1-4                        amd64  smart column output alignment library
-ii   libsqlite3-0                 3.45.3-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.46.0-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-5                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.2.1-3                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.1.0-1                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  256~rc3-6                       amd64  systemd utility library
+ii   libsystemd0                  256~rc3-7                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     256~rc3-6                       amd64  libudev shared library
+ii   libudev1                     256~rc3-7                       amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.1-4                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
@@ -221,7 +221,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  256~rc3-6                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  256~rc3-7                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.09-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.09-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.09-1                          amd64  System-V-like utilities
