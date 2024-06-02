@@ -45,8 +45,8 @@ ii   libaudit-common         1:3.1.2-2.1               all    Dynamic library fo
 ii   libaudit1               1:3.1.2-2.1               amd64  Dynamic library for security auditing
 ii   libblkid1               2.40.1-4                  amd64  block device ID library
 ii   libbz2-1.0              1.0.8-5.1                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.38-11                   amd64  GNU C Library: Binaries
-ii   libc6                   2.38-11                   amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.38-12                   amd64  GNU C Library: Binaries
+ii   libc6                   2.38-12                   amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.5-1                   amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.1-1                  amd64  common error description library
@@ -58,7 +58,7 @@ ii   libffi8                 3.4.6-1                   amd64  Foreign Function I
 ii   libgcc-s1               14.1.0-1                  amd64  GCC support library
 ii   libgcrypt20             1.10.3-3                  amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2+b1         amd64  Multiprecision arithmetic library
-ii   libgnutls30t64          3.8.5-2                   amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64          3.8.5-3                   amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.49-2                    amd64  GnuPG development runtime library
 ii   libhogweed6t64          3.9.1-2.2                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2                   amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -82,10 +82,10 @@ ii   libsmartcols1           2.40.1-4                  amd64  smart column outpu
 ii   libss2                  1.47.1-1                  amd64  command-line interface parsing library
 ii   libssl3t64              3.2.1-3                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.1.0-1                  amd64  GNU Standard C++ Library v3
-ii   libsystemd0             256~rc3-6                 amd64  systemd utility library
+ii   libsystemd0             256~rc3-7                 amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2               amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.5-2                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                256~rc3-6                 amd64  libudev shared library
+ii   libudev1                256~rc3-7                 amd64  libudev shared library
 ii   libunistring5           1.2-1                     amd64  Unicode string library for C
 ii   libuuid1                2.40.1-4                  amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                amd64  shared library for xxhash
