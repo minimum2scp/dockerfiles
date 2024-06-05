@@ -80,7 +80,7 @@ ii   libsemanage2            3.5-1+b3                  amd64  SELinux policy man
 ii   libsepol2               3.5-2+b1                  amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.40.1-8                  amd64  smart column output alignment library
 ii   libss2                  1.47.1-1                  amd64  command-line interface parsing library
-ii   libssl3t64              3.2.1-3                   amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64              3.2.2-1                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.1.0-1                  amd64  GNU Standard C++ Library v3
 ii   libsystemd0             256~rc3-7                 amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2               amd64  Manage ASN.1 structures (runtime)
