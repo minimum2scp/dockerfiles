@@ -3222,22 +3222,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libssl3 (<< 3.2.1-3), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
-    "Depends": "libc6 (>= 2.34), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
+    "Breaks": "libssl3 (<< 3.2.2-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
+    "Depends": "libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "7302",
+    "Installed-Size": "7306",
     "Origin": "",
     "Package": "libssl3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libssl3 (= 3.2.1-3)",
+    "Provides": "libssl3 (= 3.2.2-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.2.1-3",
+    "Version": "3.2.2-1",
     "binary:Package": "libssl3t64:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.2.1-3"
+    "source:Version": "3.2.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4010,7 +4010,7 @@
     "Depends": "libc6 (>= 2.34), libssl3t64 (>= 3.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2279",
+    "Installed-Size": "2280",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.2.1-3",
+    "Version": "3.2.2-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.2.1-3"
+    "source:Version": "3.2.2-1"
   },
   {
     "Architecture": "all",
