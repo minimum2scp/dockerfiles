@@ -81,7 +81,7 @@ ii   diffutils                    1:3.10-1                        amd64  File co
 ii   dpkg                         1.22.6                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
-ii   findutils                    4.9.0-6                         amd64  utilities for finding files--find, xargs
+ii   findutils                    4.10.0-2                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.1.0-1                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.1-1                      all    fast, scalable, distributed revision control system (manual pages)
@@ -146,7 +146,7 @@ ii   libmount1                    2.40.1-8.1                      amd64  device 
 ii   libncursesw6                 6.5-2                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.61.0-1+b1                     amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.62.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0                  0.25.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-7                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-7                         amd64  Pluggable Authentication Modules for PAM - helper binaries
