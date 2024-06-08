@@ -16,12 +16,12 @@ I: Validating coreutils 9.4-3.1
 I: Validating dash 0.5.12-9
 I: Validating debconf 1.5.86
 I: Validating debian-archive-keyring 2023.4
-I: Retrieving debianutils 5.18
 I: Validating debianutils 5.18
 I: Validating diffutils 1:3.10-1
 I: Validating dpkg 1.22.6
 I: Validating e2fsprogs 1.47.1-1
-I: Validating findutils 4.9.0-6
+I: Retrieving findutils 4.10.0-2
+I: Validating findutils 4.10.0-2
 I: Validating gcc-14-base 14.1.0-1
 I: Validating gpgv 2.2.43-7
 I: Validating grep 3.11-4
@@ -72,11 +72,9 @@ I: Validating libsmartcols1 2.40.1-8.1
 I: Validating libss2 1.47.1-1
 I: Validating libssl3t64 3.2.2-1
 I: Validating libstdc++6 14.1.0-1
-I: Retrieving libsystemd0 256~rc4-1
 I: Validating libsystemd0 256~rc4-1
 I: Validating libtasn1-6 4.19.0-3+b2
 I: Validating libtinfo6 6.5-2
-I: Retrieving libudev1 256~rc4-1
 I: Validating libudev1 256~rc4-1
 I: Validating libunistring5 1.2-1
 I: Validating libuuid1 2.40.1-8.1
