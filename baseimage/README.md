@@ -76,7 +76,7 @@ ii   curl                         8.8.0-1                         amd64  command
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
-ii   debianutils                  5.18                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils                  5.19                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
 ii   dpkg                         1.22.6                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
@@ -125,8 +125,8 @@ ii   libffi8                      3.4.6-1                         amd64  Foreign
 ii   libfido2-1                   1.14.0-1+b2                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14.1.0-1                        amd64  GCC support library
 ii   libgcrypt20                  1.10.3-3                        amd64  LGPL Crypto library - runtime library
-ii   libgdbm-compat4t64           1.23-5.1+b1                     amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6t64                  1.23-5.1+b1                     amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4t64           1.23-6                          amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6t64                  1.23-6                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.5-4                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
