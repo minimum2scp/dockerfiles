@@ -2159,10 +2159,10 @@
     "Architecture": "amd64",
     "Conflicts": "ldap-utils (<= 2.1.23-1)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libgnutls30t64 (>= 3.8.4), libsasl2-2 (>= 2.1.28+dfsg1)",
+    "Depends": "libc6 (>= 2.38), libgnutls30t64 (>= 3.8.4), libsasl2-2 (>= 2.1.28+dfsg1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "559",
+    "Installed-Size": "560",
     "Origin": "",
     "Package": "libldap-2.5-0",
     "Pre-Depends": "",
@@ -2173,7 +2173,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.17+dfsg-1",
+    "Version": "2.5.18+dfsg-1",
     "binary:Package": "libldap-2.5-0:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2181,7 +2181,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.5.17+dfsg-1"
+    "source:Version": "2.5.18+dfsg-1"
   },
   {
     "Architecture": "amd64",
