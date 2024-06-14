@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.4                           amd64  commandline package manager
+ii   apt                          2.9.5                           amd64  commandline package manager
 ii   base-files                   13.3                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2.1                      amd64  GNU Bourne Again SHell
@@ -94,8 +94,8 @@ ii   init-system-helpers          1.66                            all    helper 
 ii   initscripts                  3.09-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.24.0-2                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
-ii   libapparmor1                 3.0.13-2                        amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.4                           amd64  package management runtime library
+ii   libapparmor1                 3.1.7-1                         amd64  changehat AppArmor library
+ii   libapt-pkg6.0t64             2.9.5                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-4                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-4                       amd64  Dynamic library for security auditing
@@ -186,7 +186,7 @@ ii   libunistring5                1.2-1                           amd64  Unicode
 ii   libuuid1                     2.40.1-8.1                      amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash
-ii   libzstd1                     1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.6+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.38-13                         all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.13+dfsg1-5                  amd64  system login tools
@@ -219,7 +219,7 @@ ii   rsyslog                      8.2404.0-2                      amd64  reliabl
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
-ii   startpar                     0.65-1+b1                       amd64  run processes in parallel and multiplex their output
+ii   startpar                     0.65-2                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  256-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.09-1                          all    System-V-like runlevel change mechanism
@@ -238,5 +238,5 @@ ii   whiptail                     0.52.24-2                       amd64  Display
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
 ii   zsh                          5.9-6+b1                        amd64  shell with lots of features
 ii   zsh-common                   5.9-6                           all    architecture independent files for Zsh
-ii   zstd                         1.5.5+dfsg2-2                   amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.6+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```

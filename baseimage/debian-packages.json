@@ -31,7 +31,7 @@
     "Architecture": "amd64",
     "Conflicts": "apt-verify, libnettle8 (<< 3.9.1-2.2~)",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.4), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0",
+    "Depends": "base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.5), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4391",
@@ -39,13 +39,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 2.9.4)",
+    "Provides": "apt-transport-https (= 2.9.5)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.9.4",
+    "Version": "2.9.5",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.4"
+    "source:Version": "2.9.5"
   },
   {
     "Architecture": "amd64",
@@ -955,7 +955,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libapparmor-perl (<< 3.0.3-3)",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "110",
@@ -969,7 +969,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.13-2",
+    "Version": "3.1.7-1",
     "binary:Package": "libapparmor1:amd64",
     "binary:Summary": "changehat AppArmor library",
     "db:Status-Abbrev": "ii ",
@@ -977,27 +977,27 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apparmor",
-    "source:Version": "3.0.13-2"
+    "source:Version": "3.1.7-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libnettle8 (<< 3.9.1-2.2~)",
-    "Breaks": "appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.4)",
+    "Breaks": "appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.5)",
     "Depends": "libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 13.1), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3677",
+    "Installed-Size": "3682",
     "Origin": "",
     "Package": "libapt-pkg6.0t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.9.4), libapt-pkg6.0 (= 2.9.4)",
-    "Recommends": "apt (>= 2.9.4)",
+    "Provides": "libapt-pkg (= 2.9.5), libapt-pkg6.0 (= 2.9.5)",
+    "Recommends": "apt (>= 2.9.5)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9.4",
+    "Version": "2.9.5",
     "binary:Package": "libapt-pkg6.0t64:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1005,7 +1005,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.4"
+    "source:Version": "2.9.5"
   },
   {
     "Architecture": "amd64",
@@ -3534,7 +3534,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "805",
+    "Installed-Size": "834",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.5+dfsg2-2",
+    "Version": "1.5.6+dfsg-1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.5+dfsg2-2"
+    "source:Version": "1.5.6+dfsg-1"
   },
   {
     "Architecture": "all",
@@ -4455,10 +4455,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "sysvinit-utils (<< 2.88dsf-52)",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "63",
+    "Installed-Size": "60",
     "Origin": "",
     "Package": "startpar",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.65-1+b1",
+    "Version": "0.65-2",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.65-1"
+    "source:Version": "0.65-2"
   },
   {
     "Architecture": "amd64",
@@ -4990,7 +4990,7 @@
     "Depends": "libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblz4-1 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2158",
+    "Installed-Size": "2247",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -5001,7 +5001,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.5+dfsg2-2",
+    "Version": "1.5.6+dfsg-1",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -5009,6 +5009,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.5+dfsg2-2"
+    "source:Version": "1.5.6+dfsg-1"
   }
 ]
