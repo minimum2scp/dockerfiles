@@ -63,7 +63,7 @@ ii   libgpg-error0           1.49-2                    amd64  GnuPG development 
 ii   libhogweed6t64          3.9.1-2.2                 amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2                   amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-2                   amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                5.6.1+really5.4.5-1       amd64  XZ-format compression library
+ii   liblzma5                5.6.2-1                   amd64  XZ-format compression library
 ii   libmd0                  1.1.0-2                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.40.1-8.1                amd64  device mounting library
 ii   libnettle8t64           3.9.1-2.2                 amd64  low level cryptographic library (symmetric and one-way cryptos)
