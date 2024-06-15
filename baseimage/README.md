@@ -140,7 +140,7 @@ ii   libkrb5support0              1.20.1-6+b1                     amd64  MIT Ker
 ii   libldap-2.5-0                2.5.18+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-2                         amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.6.1+really5.4.5-1             amd64  XZ-format compression library
+ii   liblzma5                     5.6.2-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.1-8.1                      amd64  device mounting library
 ii   libncursesw6                 6.5-2                           amd64  shared libraries for terminal handling (wide character support)
@@ -219,7 +219,7 @@ ii   rsyslog                      8.2404.0-2                      amd64  reliabl
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
-ii   startpar                     0.65-2                          amd64  run processes in parallel and multiplex their output
+ii   startpar                     0.65-3                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  256-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.09-1                          all    System-V-like runlevel change mechanism

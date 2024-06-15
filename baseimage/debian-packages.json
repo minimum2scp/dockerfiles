@@ -2246,7 +2246,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "369",
+    "Installed-Size": "380",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -2257,7 +2257,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.6.1+really5.4.5-1",
+    "Version": "5.6.2-1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2265,7 +2265,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.6.1+really5.4.5-1"
+    "source:Version": "5.6.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4454,11 +4454,11 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "sysvinit-utils (<< 2.88dsf-52)",
+    "Breaks": "",
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "60",
+    "Installed-Size": "56",
     "Origin": "",
     "Package": "startpar",
     "Pre-Depends": "",
@@ -4469,7 +4469,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.65-2",
+    "Version": "0.65-3",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.65-2"
+    "source:Version": "0.65-3"
   },
   {
     "Architecture": "amd64",
