@@ -885,7 +885,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.09-1",
+    "Version": "3.09-2",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -893,7 +893,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.09-1"
+    "source:Version": "3.09-2"
   },
   {
     "Architecture": "amd64",
@@ -4553,7 +4553,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.09-1",
+    "Version": "3.09-2",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4561,16 +4561,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.09-1"
+    "source:Version": "3.09-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "molly-guard (<< 0.8.3~), runit-init, systemd-sysv",
     "Breaks": "manpages-de (<< 4.15.0-9~), manpages-es (<< 4.15.0-9~), manpages-fr (<< 4.15.0-9~), manpages-hu (<< 1:4.15.0-9~), manpages-pl (<< 1:4.15.0-9~)",
-    "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, libc6 (>= 2.34), libselinux1 (>= 3.1~)",
+    "Depends": "initscripts, sysv-rc | file-rc | openrc, sysvinit-utils (>= 2.86.ds1-66), mount, libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "364",
+    "Installed-Size": "365",
     "Origin": "",
     "Package": "sysvinit-core",
     "Pre-Depends": "",
@@ -4581,7 +4581,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.09-1",
+    "Version": "3.09-2",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4589,13 +4589,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.09-1"
+    "source:Version": "3.09-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "lsb-base (<< 11.3~)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "102",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.09-1",
+    "Version": "3.09-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.09-1"
+    "source:Version": "3.09-2"
   },
   {
     "Architecture": "amd64",
