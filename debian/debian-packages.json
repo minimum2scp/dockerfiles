@@ -2271,7 +2271,7 @@
     "Architecture": "amd64",
     "Conflicts": "lsb-base (<< 11.3~)",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "102",
@@ -2285,7 +2285,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.09-1",
+    "Version": "3.09-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.09-1"
+    "source:Version": "3.09-2"
   },
   {
     "Architecture": "amd64",
