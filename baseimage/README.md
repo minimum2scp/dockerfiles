@@ -83,8 +83,8 @@ ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ex
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-2                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.1.0-1                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.45.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.45.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-7                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-4                        amd64  GNU troff text-formatting system (base system components)
@@ -218,7 +218,7 @@ ii   readline-common              8.2-4                           all    GNU rea
 ii   rsyslog                      8.2404.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils               0.0.22                          all    Utilities for sensible alternative selection
+ii   sensible-utils               0.0.23                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-3                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  256-1                           amd64  standalone sysusers binary for use in non-systemd systems
