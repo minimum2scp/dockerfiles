@@ -130,13 +130,13 @@ ii   libgdbm6t64                  1.23-6                          amd64  GNU dbm
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.5-4                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2             1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.21.2-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.21.2-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.20.1-6+b1                     amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.21.2-1                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.21.2-1                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.18+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-2                         amd64  Fast LZ compression algorithm library - runtime
