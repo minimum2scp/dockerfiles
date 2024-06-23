@@ -131,7 +131,7 @@ ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multipr
 ii   libgnutls30t64               3.8.5-4                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.21.2-1                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6t64               3.9.1-2.2                       amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64               3.10-1                          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.2-1                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
@@ -144,7 +144,7 @@ ii   liblzma5                     5.6.2-1                         amd64  XZ-form
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.1-8.1                      amd64  device mounting library
 ii   libncursesw6                 6.5-2                           amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8t64                3.9.1-2.2                       amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64                3.10-1                          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.62.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libp11-kit0                  0.25.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
@@ -189,7 +189,7 @@ ii   libxxhash0                   0.8.2-2+b1                      amd64  shared 
 ii   libzstd1                     1.5.6+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.38-13                         all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.13+dfsg1-5                  amd64  system login tools
+ii   login                        1:4.15.2-1                      amd64  system login tools
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.1-2                        amd64  tools for reading manual pages
@@ -205,7 +205,7 @@ ii   openssh-server               1:9.7p1-5                       amd64  secure 
 ii   openssh-sftp-server          1:9.7p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.13+dfsg1-5                  amd64  change and administer password and group data
+ii   passwd                       1:4.15.2-1                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
