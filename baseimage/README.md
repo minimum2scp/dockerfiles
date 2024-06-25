@@ -158,9 +158,9 @@ ii   libpipeline1                 1.5.7-2                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.11-minimal        3.11.9-1                        amd64  Minimal subset of the Python language (version 3.11)
-ii   libpython3.11-stdlib         3.11.9-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.11)
+ii   libpython3-stdlib            3.12.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3.12-minimal        3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.4-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
@@ -210,15 +210,15 @@ ii   perl                         5.38.2-5                        amd64  Larry W
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
-ii   python3                      3.11.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.11.8-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.11                   3.11.9-1                        amd64  Interactive high-level object-oriented language (version 3.11)
-ii   python3.11-minimal           3.11.9-1                        amd64  Minimal subset of the Python language (version 3.11)
+ii   python3                      3.12.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.2-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3.12                   3.12.4-1                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2404.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils               0.0.23                          all    Utilities for sensible alternative selection
+ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  256.1-2                         amd64  standalone sysusers binary for use in non-systemd systems
@@ -233,7 +233,7 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.1-9                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0496-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0496-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.1.0496-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
 ii   zsh                          5.9-6+b1                        amd64  shell with lots of features
