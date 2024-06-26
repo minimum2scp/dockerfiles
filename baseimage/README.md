@@ -189,23 +189,23 @@ ii   libxxhash0                   0.8.2-2+b1                      amd64  shared 
 ii   libzstd1                     1.5.6+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.38-13                         all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.15.2-1                      amd64  system login tools
+ii   login                        1:4.15.2-3                      amd64  system login tools
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.1-2                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20240123-1                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20240622-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.1-9                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5-2                           all    basic terminal type definitions
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.7p1-5                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.7p1-5                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.7p1-5                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.7p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.7p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.7p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.15.2-1                      amd64  change and administer password and group data
+ii   passwd                       1:4.15.2-3                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
