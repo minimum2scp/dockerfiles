@@ -83,8 +83,8 @@ ii   etckeeper               1.18.10-1                    all    store /etc in g
 ii   fdisk                   2.33.1-0.1+deb10u1           amd64  collection of partitioning utilities
 ii   findutils               4.6.0+git+20190209-2         amd64  utilities for finding files--find, xargs
 ii   gcc-8-base              8.3.0-6                      amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                     1:2.20.1-2+deb10u8           amd64  fast, scalable, distributed revision control system
-ii   git-man                 1:2.20.1-2+deb10u8           all    fast, scalable, distributed revision control system (manual pages)
+ii   git                     1:2.20.1-2+deb10u9           amd64  fast, scalable, distributed revision control system
+ii   git-man                 1:2.20.1-2+deb10u9           all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                    2.2.12-1+deb10u2             amd64  GNU privacy guard - signature verification tool
 ii   grep                    3.3-1                        amd64  GNU grep, egrep and fgrep
 ii   groff-base              1.22.4-3+deb10u1             amd64  GNU troff text-formatting system (base system components)
