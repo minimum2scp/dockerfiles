@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.4+deb12u5",
+    "Version": "12.4+deb12u6",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12.4+deb12u5"
+    "source:Version": "12.4+deb12u6"
   },
   {
     "Architecture": "amd64",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.15-2+b2",
+    "Version": "5.2.15-2+b7",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -146,7 +146,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "356",
+    "Installed-Size": "355",
     "Origin": "",
     "Package": "bsdutils",
     "Pre-Depends": "libc6 (>= 2.34), libsystemd0",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.38.1-5+b1",
+    "Version": "1:2.38.1-5+deb12u1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -734,7 +734,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "399",
+    "Installed-Size": "398",
     "Origin": "",
     "Package": "libblkid1",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "libc6 (>> 2.36), libc6 (<< 2.37)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2035",
+    "Installed-Size": "2039",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36-9+deb12u4",
+    "Version": "2.36-9+deb12u7",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u4"
+    "source:Version": "2.36-9+deb12u7"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.36-9+deb12u4",
+    "Version": "2.36-9+deb12u7",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u4"
+    "source:Version": "2.36-9+deb12u7"
   },
   {
     "Architecture": "amd64",
@@ -1154,7 +1154,7 @@
     "Depends": "libc6 (>= 2.34), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8 (>= 3.7~), libp11-kit0 (>= 0.23.18.1), libtasn1-6 (>= 4.14), libunistring2 (>= 0.9.7)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3381",
+    "Installed-Size": "3382",
     "Origin": "",
     "Package": "libgnutls30",
     "Pre-Depends": "",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.9-2+deb12u2",
+    "Version": "3.7.9-2+deb12u3",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.9-2+deb12u2"
+    "source:Version": "3.7.9-2+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -1350,7 +1350,7 @@
     "Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.34), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "455",
+    "Installed-Size": "454",
     "Origin": "",
     "Package": "libmount1",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "149",
+    "Installed-Size": "148",
     "Origin": "",
     "Package": "libseccomp2",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.4-1+b3",
+    "Version": "2.5.4-1+deb12u1",
     "binary:Package": "libseccomp2:amd64",
     "binary:Summary": "high level interface to Linux seccomp filter",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libseccomp",
-    "source:Version": "2.5.4-1"
+    "source:Version": "2.5.4-1+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1714,7 +1714,7 @@
     "Depends": "libc6 (>= 2.33)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "290",
+    "Installed-Size": "289",
     "Origin": "",
     "Package": "libsmartcols1",
     "Pre-Depends": "",
@@ -1725,7 +1725,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -1809,7 +1809,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.22-1~deb12u1",
+    "Version": "252.26-1~deb12u2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1817,7 +1817,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.22-1~deb12u1"
+    "source:Version": "252.26-1~deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.22-1~deb12u1",
+    "Version": "252.26-1~deb12u2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.22-1~deb12u1"
+    "source:Version": "252.26-1~deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "80",
+    "Installed-Size": "79",
     "Origin": "",
     "Package": "libuuid1",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "394",
+    "Installed-Size": "393",
     "Origin": "",
     "Package": "mount",
     "Pre-Depends": "libblkid1 (>= 2.17.2), libc6 (>= 2.34), libmount1 (>= 2.38), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.33)",
@@ -2117,7 +2117,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "all",
@@ -2386,7 +2386,7 @@
     "Depends": "util-linux-extra",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4975",
+    "Installed-Size": "4978",
     "Origin": "",
     "Package": "util-linux",
     "Pre-Depends": "libblkid1 (>= 2.37.2), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.38), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)",
@@ -2397,7 +2397,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -2414,7 +2414,7 @@
     "Depends": "libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libsmartcols1 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "367",
+    "Installed-Size": "366",
     "Origin": "",
     "Package": "util-linux-extra",
     "Pre-Depends": "",
@@ -2425,7 +2425,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+b1",
+    "Version": "2.38.1-5+deb12u1",
     "binary:Package": "util-linux-extra",
     "binary:Summary": "interactive login tools",
     "db:Status-Abbrev": "ii ",
@@ -2433,7 +2433,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5"
+    "source:Version": "2.38.1-5+deb12u1"
   },
   {
     "Architecture": "amd64",
