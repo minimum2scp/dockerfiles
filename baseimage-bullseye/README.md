@@ -62,7 +62,7 @@ installed packages:
 ```
 ii   adduser                 3.118+deb11u1                   all    add and remove users and groups
 ii   apt                     2.2.4                           amd64  commandline package manager
-ii   base-files              11.1+deb11u9                    amd64  Debian base system miscellaneous files
+ii   base-files              11.1+deb11u10                   amd64  Debian base system miscellaneous files
 ii   base-passwd             3.5.51                          amd64  Debian base system master password and group files
 ii   bash                    5.1-2+deb11u1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils           2.36.1-8+deb11u2                amd64  extra utilities from 4.4BSD-Lite
@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                         amd64  high-quality
 ii   ca-certificates         20210119                        all    Common CA certificates
 ii   coreutils               8.32-4+b1                       amd64  GNU core utilities
 ii   cron                    3.0pl1-137                      amd64  process scheduling daemon
-ii   curl                    7.74.0-1.3+deb11u11             amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.74.0-1.3+deb11u12             amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5    amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                          all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1+deb11u1                all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                 1:2.44-1                        amd64  POSIX 1003.1
 ii   libcbor0                0.5.0+dfsg-2                    amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-2                        amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                      amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.74.0-1.3+deb11u11             amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.74.0-1.3+deb11u11             amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.74.0-1.3+deb11u12             amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.74.0-1.3+deb11u12             amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1               amd64  BSD editline and history libraries
@@ -127,7 +127,7 @@ ii   libgcrypt20             1.8.7-6                         amd64  LGPL Crypto 
 ii   libgdbm-compat4         1.19-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                1.19-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                2:6.2.1+dfsg-1+deb11u1          amd64  Multiprecision arithmetic library
-ii   libgnutls30             3.7.1-5+deb11u4                 amd64  GNU TLS library - main runtime library
+ii   libgnutls30             3.7.1-5+deb11u5                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2        1.18.3-6+deb11u4                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                         amd64  low level cryptographic library (public-key cryptos)
@@ -177,16 +177,16 @@ ii   libslang2               2.3.2-5                         amd64  S-Lang progr
 ii   libsmartcols1           2.36.1-8+deb11u2                amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.1-3                        amd64  SQLite 3 shared library
 ii   libss2                  1.46.2-2                        amd64  command-line interface parsing library
-ii   libssh2-1               1.9.0-2                         amd64  SSH2 client-side library
+ii   libssh2-1               1.9.0-2+deb11u1                 amd64  SSH2 client-side library
 ii   libssl1.1               1.1.1w-0+deb11u1                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0             247.3-7+deb11u4                 amd64  systemd utility library
+ii   libsystemd0             247.3-7+deb11u5                 amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2+deb11u1                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.2+20201114-2+deb11u2          amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common         1.3.1-1+deb11u1                 all    transport-independent RPC library - common files
 ii   libtirpc3               1.3.1-1+deb11u1                 amd64  transport-independent RPC library
 ii   libuchardet0            0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                247.3-7+deb11u4                 amd64  libudev shared library
+ii   libudev1                247.3-7+deb11u5                 amd64  libudev shared library
 ii   libunistring2           0.9.10-4                        amd64  Unicode string library for C
 ii   libuuid1                2.36.1-8+deb11u2                amd64  Universally Unique ID library
 ii   libwrap0                7.6.q-31                        amd64  Wietse Venema's TCP wrappers library
