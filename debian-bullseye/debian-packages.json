@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "11.1+deb11u9",
+    "Version": "11.1+deb11u10",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "11.1+deb11u9"
+    "source:Version": "11.1+deb11u10"
   },
   {
     "Architecture": "amd64",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.36.1-8+deb11u1",
+    "Version": "1:2.36.1-8+deb11u2",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.31-13+deb11u8",
+    "Version": "2.31-13+deb11u10",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13+deb11u8"
+    "source:Version": "2.31-13+deb11u10"
   },
   {
     "Architecture": "amd64",
@@ -857,7 +857,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales",
-    "Version": "2.31-13+deb11u8",
+    "Version": "2.31-13+deb11u10",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.31-13+deb11u8"
+    "source:Version": "2.31-13+deb11u10"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.7.1-5+deb11u4",
+    "Version": "3.7.1-5+deb11u5",
     "binary:Package": "libgnutls30:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.7.1-5+deb11u4"
+    "source:Version": "3.7.1-5+deb11u5"
   },
   {
     "Architecture": "amd64",
@@ -1473,7 +1473,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.3-7+deb11u4",
+    "Version": "247.3-7+deb11u5",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.3-7+deb11u4"
+    "source:Version": "247.3-7+deb11u5"
   },
   {
     "Architecture": "amd64",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "247.3-7+deb11u4",
+    "Version": "247.3-7+deb11u5",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "247.3-7+deb11u4"
+    "source:Version": "247.3-7+deb11u5"
   },
   {
     "Architecture": "amd64",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -2397,7 +2397,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "all",
@@ -2649,7 +2649,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.36.1-8+deb11u1",
+    "Version": "2.36.1-8+deb11u2",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -2657,7 +2657,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.36.1-8+deb11u1"
+    "source:Version": "2.36.1-8+deb11u2"
   },
   {
     "Architecture": "amd64",
