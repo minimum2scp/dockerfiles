@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                      3.137                           all    add and remove users and groups
 ii   apt                          2.9.5                           amd64  commandline package manager
 ii   base-files                   13.3                            amd64  Debian base system miscellaneous files
-ii   base-passwd                  3.6.3                           amd64  Debian base system master password and group files
+ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2.1                      amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.1-9                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.1-9                      amd64  basic utilities from 4.4BSD-Lite
@@ -82,7 +82,7 @@ ii   dpkg                         1.22.6                          amd64  Debian 
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-2                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.1.0-2                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.1.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-7                        amd64  GNU privacy guard - signature verification tool
@@ -123,7 +123,7 @@ ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-1+b1                   amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.1.0-2                        amd64  GCC support library
+ii   libgcc-s1                    14.1.0-3                        amd64  GCC support library
 ii   libgcrypt20                  1.10.3-3                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.23-6                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.23-6                          amd64  GNU dbm database routines (runtime version) 
@@ -176,7 +176,7 @@ ii   libsqlite3-0                 3.46.0-1                        amd64  SQLite 
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-5                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.2.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.1.0-2                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.1.0-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.1-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
@@ -200,9 +200,9 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.7p1-6                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.7p1-6                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.7p1-6                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.7p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.7p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.7p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.15.2-3                      amd64  change and administer password and group data
