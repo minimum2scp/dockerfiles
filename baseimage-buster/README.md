@@ -103,9 +103,9 @@ ii   libaudit1               1:2.8.4-3                    amd64  Dynamic library
 ii   libblkid1               2.33.1-0.1+deb10u1           amd64  block device ID library
 ii   libbsd0                 0.9.1-2+deb10u1              amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.6-9.2~deb10u2            amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.28-10+deb10u3              amd64  GNU C Library: Binaries
-ii   libc-l10n               2.28-10+deb10u3              all    GNU C Library: localization files
-ii   libc6                   2.28-10+deb10u3              amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.28-10+deb10u4              amd64  GNU C Library: Binaries
+ii   libc-l10n               2.28-10+deb10u4              all    GNU C Library: localization files
+ii   libc6                   2.28-10+deb10u4              amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2                      amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.25-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcap2-bin             1:2.25-2                     amd64  POSIX 1003.1e capabilities (utilities)
@@ -192,7 +192,7 @@ ii   libwrap0                7.6.q-28                     amd64  Wietse Venema's
 ii   libxtables12            1.8.2-4                      amd64  netfilter xtables library
 ii   libzstd1                1.3.8+dfsg-3+deb10u2         amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.5                      all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.28-10+deb10u3              all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.28-10+deb10u4              all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.5-1.1                    amd64  system login tools
 ii   lsb-base                10.2019051400                all    Linux Standard Base init script functionality
 ii   lv                      4.51-5+b1                    amd64  Powerful Multilingual File Viewer
