@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.5                           amd64  commandline package manager
+ii   apt                          2.9.6                           amd64  commandline package manager
 ii   base-files                   13.3                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
 ii   bash                         5.2.21-2.1                      amd64  GNU Bourne Again SHell
@@ -72,7 +72,7 @@ ii   ca-certificates              20240203                        all    Common 
 ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
-ii   curl                         8.8.0-1                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.8.0-2                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.86                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -87,7 +87,7 @@ ii   git                          1:2.45.2-1                      amd64  fast, s
 ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-7                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-4                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.23.0-5                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
 ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
@@ -95,7 +95,7 @@ ii   initscripts                  3.09-2                          all    scripts
 ii   insserv                      1.24.0-3                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1                         amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.5                           amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.6                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:3.1.2-4                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:3.1.2-4                       amd64  Dynamic library for security auditing
@@ -111,8 +111,7 @@ ii   libcap2                      1:2.66-5                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.1-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.8.0-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.8.0-1                         amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.8.0-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-7                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.272                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
@@ -140,13 +139,16 @@ ii   libkrb5support0              1.21.2-1                        amd64  MIT Ker
 ii   libldap-2.5-0                2.5.18+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-2                         amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.6.2-1                         amd64  XZ-format compression library
+ii   liblzma5                     5.6.2-2                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2                         amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.1-9                        amd64  device mounting library
 ii   libncursesw6                 6.5-2                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10-1                          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.62.1-1                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp3-9                 1.3.0-2                         amd64  HTTP/3 library with QUIC and QPACK (library)
+ii   libngtcp2-16                 1.5.0-2                         amd64  implementation of QUIC protocol (library)
+ii   libngtcp2-crypto-gnutls8     1.5.0-2                         amd64  implementation of QUIC protocol (library)
 ii   libp11-kit0                  0.25.3-5                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-7                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-7                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -215,7 +217,7 @@ ii   python3-minimal              3.12.2-1                        amd64  minimal
 ii   python3.12                   3.12.4-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2404.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2406.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.2                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
