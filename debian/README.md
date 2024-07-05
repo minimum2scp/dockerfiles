@@ -27,7 +27,7 @@ ii   coreutils               9.4-3.1                   amd64  GNU core utilities
 ii   dash                    0.5.12-9                  amd64  POSIX-compliant shell
 ii   debconf                 1.5.86                    all    Debian configuration management system
 ii   debian-archive-keyring  2023.4                    all    GnuPG archive keys of the Debian archive
-ii   debianutils             5.19                      amd64  Miscellaneous utilities specific to Debian
+ii   debianutils             5.20                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1                  amd64  File comparison utilities
 ii   dpkg                    1.22.6                    amd64  Debian package management system
 ii   e2fsprogs               1.47.1-1                  amd64  ext2/ext3/ext4 file system utilities
@@ -46,8 +46,8 @@ ii   libaudit1               1:3.1.2-4                 amd64  Dynamic library fo
 ii   libblkid1               2.40.1-9                  amd64  block device ID library
 ii   libbsd0                 0.12.2-1                  amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-5.1                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.38-13                   amd64  GNU C Library: Binaries
-ii   libc6                   2.38-13                   amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.38-14                   amd64  GNU C Library: Binaries
+ii   libc6                   2.38-14                   amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.5-1                   amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.1-1                  amd64  common error description library
