@@ -179,11 +179,11 @@ ii   libss2                       1.47.1-1                        amd64  command
 ii   libssh2-1t64                 1.11.0-5                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.2.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.1.0-3                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  256.1-2                         amd64  systemd utility library
+ii   libsystemd0                  256.2-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     256.1-2                         amd64  libudev shared library
+ii   libudev1                     256.2-1                         amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.1-9                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
@@ -223,7 +223,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  256.1-2                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  256.2-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.09-2                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.09-2                          amd64  System-V-like init
 ii   sysvinit-utils               3.09-2                          amd64  System-V-like utilities
