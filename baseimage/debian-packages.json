@@ -143,7 +143,7 @@
     "Architecture": "amd64",
     "Conflicts": "nwrite",
     "Breaks": "bsdmainutils (<< 12.1.3), nwrite",
-    "Depends": "libc6 (>= 2.38), libsmartcols1 (= 2.40.1-9), libsystemd0 (>= 254), libtinfo6 (>= 6)",
+    "Depends": "libc6 (>= 2.38), libsmartcols1 (= 2.40.2-1), libsystemd0 (>= 254), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "367",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.40.1-9",
+    "Version": "1:2.40.2-1",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -339,10 +339,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.8.0-2), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.8.0-3), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "552",
+    "Installed-Size": "555",
     "Origin": "",
     "Package": "curl",
     "Pre-Depends": "",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.8.0-2",
+    "Version": "8.8.0-3",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.8.0-2"
+    "source:Version": "8.8.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1109,7 +1109,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1117,7 +1117,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -1430,7 +1430,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.8.0-2)",
+    "Breaks": "libcurl3-gnutls (<< 8.8.0-3)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.36), libgnutls30t64 (>= 3.8.4), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1439,13 +1439,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.8.0-2)",
+    "Provides": "libcurl3-gnutls (= 8.8.0-3)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.8.0-2",
+    "Version": "8.8.0-3",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.8.0-2"
+    "source:Version": "8.8.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1878,22 +1878,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libgnutls30 (<< 3.8.5-4)",
-    "Depends": "libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8t64 (>= 3.9~), libp11-kit0 (>= 0.25.1), libtasn1-6 (>= 4.14), libunistring5 (>= 1.1)",
+    "Breaks": "libgnutls30 (<< 3.8.6-2)",
+    "Depends": "libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64 (>= 3.10), libidn2-0 (>= 2.0.0), libnettle8t64 (>= 3.10), libp11-kit0 (>= 0.25.1), libtasn1-6 (>= 4.14), libunistring5 (>= 1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3447",
+    "Installed-Size": "3456",
     "Origin": "",
     "Package": "libgnutls30t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgnutls30 (= 3.8.5-4)",
+    "Provides": "libgnutls30 (= 3.8.6-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.8.5-4",
+    "Version": "3.8.6-2",
     "binary:Package": "libgnutls30t64:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.8.5-4"
+    "source:Version": "3.8.6-2"
   },
   {
     "Architecture": "amd64",
@@ -2271,7 +2271,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libblkid1 (= 2.40.1-9), libc6 (>= 2.38), libselinux1 (>= 3.1~)",
+    "Depends": "libblkid1 (= 2.40.2-1), libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "534",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -2495,10 +2495,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libffi8 (>= 3.4)",
+    "Depends": "libc6 (>= 2.38), libffi8 (>= 3.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1864",
+    "Installed-Size": "1874",
     "Origin": "",
     "Package": "libp11-kit0",
     "Pre-Depends": "",
@@ -2509,7 +2509,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.25.3-5",
+    "Version": "0.25.5-2",
     "binary:Package": "libp11-kit0:amd64",
     "binary:Summary": "library for loading and coordinating access to PKCS#11 modules - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2517,7 +2517,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "p11-kit",
-    "source:Version": "0.25.3-5"
+    "source:Version": "0.25.5-2"
   },
   {
     "Architecture": "amd64",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3502,7 +3502,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libuuid1t64 (<< 2.40.1-9)",
+    "Breaks": "libuuid1t64 (<< 2.40.2-1)",
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
@@ -3511,13 +3511,13 @@
     "Package": "libuuid1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libuuid1t64 (= 2.40.1-9)",
+    "Provides": "libuuid1t64 (= 2.40.2-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "uuid-runtime",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.2-3",
+    "Version": "1:4.15.3-1",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.2-3"
+    "source:Version": "1:4.15.3-1"
   },
   {
     "Architecture": "amd64",
@@ -3842,10 +3842,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "428",
+    "Installed-Size": "460",
     "Origin": "",
     "Package": "mount",
-    "Pre-Depends": "libblkid1 (= 2.40.1-9), libc6 (>= 2.38), libmount1 (= 2.40.1-9), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.1-9)",
+    "Pre-Depends": "libblkid1 (= 2.40.2-1), libc6 (>= 2.38), libmount1 (= 2.40.2-1), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.2-1)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3853,7 +3853,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "all",
@@ -4119,10 +4119,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpam-modules, login, libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
+    "Depends": "base-passwd (>= 3.6.4), libpam-modules, login, libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2949",
+    "Installed-Size": "2954",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4133,7 +4133,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.2-3",
+    "Version": "1:4.15.3-1",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4141,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.2-3"
+    "source:Version": "1:4.15.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4850,10 +4850,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "4914",
+    "Installed-Size": "4926",
     "Origin": "",
     "Package": "util-linux",
-    "Pre-Depends": "libpam-modules, libpam-runtime, libblkid1 (= 2.40.1-9), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (= 2.40.1-9), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.1-9), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (= 2.40.1-9)",
+    "Pre-Depends": "libpam-modules, libpam-runtime, libblkid1 (= 2.40.2-1), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (= 2.40.2-1), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.2-1), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (= 2.40.2-1)",
     "Priority": "required",
     "Provides": "hardlink",
     "Recommends": "sensible-utils",
@@ -4861,7 +4861,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-extra, util-linux-locales, wtmpdb",
-    "Version": "2.40.1-9",
+    "Version": "2.40.2-1",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4869,7 +4869,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.1-9"
+    "source:Version": "2.40.2-1"
   },
   {
     "Architecture": "all",
