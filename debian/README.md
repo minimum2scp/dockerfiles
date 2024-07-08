@@ -59,7 +59,7 @@ ii   libffi8                 3.4.6-1                   amd64  Foreign Function I
 ii   libgcc-s1               14.1.0-3                  amd64  GCC support library
 ii   libgcrypt20             1.10.3-3                  amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2+b1         amd64  Multiprecision arithmetic library
-ii   libgnutls30t64          3.8.5-4                   amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64          3.8.6-2                   amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.49-2                    amd64  GnuPG development runtime library
 ii   libhogweed6t64          3.10-1                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2                   amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -91,13 +91,13 @@ ii   libunistring5           1.2-1                     amd64  Unicode string lib
 ii   libuuid1                2.40.2-1                  amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                amd64  shared library for xxhash
 ii   libzstd1                1.5.6+dfsg-1              amd64  fast lossless compression algorithm
-ii   login                   1:4.15.3-1                amd64  system login tools
+ii   login                   1:4.15.3-2                amd64  system login tools
 ii   logsave                 1.47.1-1                  amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20240622-1          amd64  Pattern scanning and text processing language
 ii   mount                   2.40.2-1                  amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.5-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.5-2                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.15.3-1                amd64  change and administer password and group data
+ii   passwd                  1:4.15.3-2                amd64  change and administer password and group data
 ii   perl-base               5.38.2-5                  amd64  minimal Perl system
 ii   sed                     4.9-2                     amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.09-2                    amd64  System-V-like utilities

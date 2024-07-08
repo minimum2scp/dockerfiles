@@ -1150,22 +1150,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libgnutls30 (<< 3.8.5-4)",
-    "Depends": "libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64 (>= 3.6), libidn2-0 (>= 2.0.0), libnettle8t64 (>= 3.9~), libp11-kit0 (>= 0.25.1), libtasn1-6 (>= 4.14), libunistring5 (>= 1.1)",
+    "Breaks": "libgnutls30 (<< 3.8.6-2)",
+    "Depends": "libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64 (>= 3.10), libidn2-0 (>= 2.0.0), libnettle8t64 (>= 3.10), libp11-kit0 (>= 0.25.1), libtasn1-6 (>= 4.14), libunistring5 (>= 1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "3447",
+    "Installed-Size": "3456",
     "Origin": "",
     "Package": "libgnutls30t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgnutls30 (= 3.8.5-4)",
+    "Provides": "libgnutls30 (= 3.8.6-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "gnutls-bin",
-    "Version": "3.8.5-4",
+    "Version": "3.8.6-2",
     "binary:Package": "libgnutls30t64:amd64",
     "binary:Summary": "GNU TLS library - main runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnutls28",
-    "source:Version": "3.8.5-4"
+    "source:Version": "3.8.6-2"
   },
   {
     "Architecture": "amd64",
@@ -2050,7 +2050,7 @@
     "Depends": "libpam-modules, libpam-runtime, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsystemd0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2433",
+    "Installed-Size": "2430",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "",
@@ -2061,7 +2061,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.3-1",
+    "Version": "1:4.15.3-2",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.3-1"
+    "source:Version": "1:4.15.3-2"
   },
   {
     "Architecture": "amd64",
@@ -2218,7 +2218,7 @@
     "Depends": "base-passwd (>= 3.6.4), libpam-modules, login, libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2954",
+    "Installed-Size": "2868",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -2229,7 +2229,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.3-1",
+    "Version": "1:4.15.3-2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.3-1"
+    "source:Version": "1:4.15.3-2"
   },
   {
     "Architecture": "amd64",
