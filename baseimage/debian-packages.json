@@ -3674,7 +3674,7 @@
     "Depends": "libpam-modules, libpam-runtime, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsystemd0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2433",
+    "Installed-Size": "2430",
     "Origin": "",
     "Package": "login",
     "Pre-Depends": "",
@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.3-1",
+    "Version": "1:4.15.3-2",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.3-1"
+    "source:Version": "1:4.15.3-2"
   },
   {
     "Architecture": "amd64",
@@ -4122,7 +4122,7 @@
     "Depends": "base-passwd (>= 3.6.4), libpam-modules, login, libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.11.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsemanage2 (>= 2.0.32)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2954",
+    "Installed-Size": "2868",
     "Origin": "",
     "Package": "passwd",
     "Pre-Depends": "",
@@ -4133,7 +4133,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.15.3-1",
+    "Version": "1:4.15.3-2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -4141,7 +4141,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.15.3-1"
+    "source:Version": "1:4.15.3-2"
   },
   {
     "Architecture": "amd64",
