@@ -74,7 +74,7 @@ ii   cron                         3.0pl1-189                      amd64  process
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.8.0-3                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
-ii   debconf                      1.5.86                          all    Debian configuration management system
+ii   debconf                      1.5.87                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.20                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
@@ -160,7 +160,7 @@ ii   libpipeline1                 1.5.7-2                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-4                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.12.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.4-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
@@ -212,8 +212,8 @@ ii   perl                         5.38.2-5                        amd64  Larry W
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
 ii   procps                       2:4.0.4-4                       amd64  /proc file system utilities
-ii   python3                      3.12.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.12.2-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.3-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.4-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files

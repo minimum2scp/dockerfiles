@@ -409,7 +409,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-kde-helper, debconf-utils, libgtk3-perl, libnet-ldap-perl, libterm-readline-gnu-perl, perl, whiptail | dialog",
-    "Version": "1.5.86",
+    "Version": "1.5.87",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.86"
+    "source:Version": "1.5.87"
   },
   {
     "Architecture": "all",
@@ -2803,7 +2803,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpython3.12-stdlib (>= 3.12.2-2~)",
+    "Depends": "libpython3.12-stdlib (>= 3.12.3-1~)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "27",
@@ -2817,7 +2817,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.2-1",
+    "Version": "3.12.3-1",
     "binary:Package": "libpython3-stdlib:amd64",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -2825,7 +2825,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.12.2-1"
+    "source:Version": "3.12.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4259,21 +4259,21 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "python3.12 (>= 3.12.2-2~), libpython3-stdlib (= 3.12.2-1)",
+    "Depends": "python3.12 (>= 3.12.3-1~), libpython3-stdlib (= 3.12.3-1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "82",
     "Origin": "",
     "Package": "python3",
-    "Pre-Depends": "python3-minimal (= 3.12.2-1)",
+    "Pre-Depends": "python3-minimal (= 3.12.3-1)",
     "Priority": "optional",
-    "Provides": "python3-profiler, python3-supported-max (= 3.12), python3-supported-min (= 3.11)",
+    "Provides": "python3-profiler, python3-supported-max (= 3.12), python3-supported-min (= 3.12)",
     "Recommends": "",
     "Replace": "",
     "Section": "python",
     "Status": "install ok installed",
-    "Suggests": "python3-doc (>= 3.12.2-1), python3-tk (>= 3.11.5-1~), python3-venv (>= 3.12.2-1)",
-    "Version": "3.12.2-1",
+    "Suggests": "python3-doc (>= 3.12.3-1), python3-tk (>= 3.12.3-3~), python3-venv (>= 3.12.3-1)",
+    "Version": "3.12.3-1",
     "binary:Package": "python3",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.12.2-1"
+    "source:Version": "3.12.3-1"
   },
   {
     "Architecture": "amd64",
@@ -4293,7 +4293,7 @@
     "Installed-Size": "111",
     "Origin": "",
     "Package": "python3-minimal",
-    "Pre-Depends": "python3.12-minimal (>= 3.12.2-2~)",
+    "Pre-Depends": "python3.12-minimal (>= 3.12.3-1~)",
     "Priority": "optional",
     "Provides": "",
     "Recommends": "",
@@ -4301,7 +4301,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.2-1",
+    "Version": "3.12.3-1",
     "binary:Package": "python3-minimal",
     "binary:Summary": "minimal subset of the Python language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.12.2-1"
+    "source:Version": "3.12.3-1"
   },
   {
     "Architecture": "amd64",
