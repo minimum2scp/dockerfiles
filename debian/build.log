@@ -14,7 +14,6 @@ I: Validating bash 5.2.21-2.1
 I: Validating bsdutils 1:2.40.2-1
 I: Validating coreutils 9.4-3.1
 I: Validating dash 0.5.12-9
-I: Retrieving debconf 1.5.87
 I: Validating debconf 1.5.87
 I: Validating debian-archive-keyring 2023.4
 I: Validating debianutils 5.20
@@ -47,7 +46,8 @@ I: Validating libdebconfclient0 0.272
 I: Validating libext2fs2t64 1.47.1-1
 I: Validating libffi8 3.4.6-1
 I: Validating libgcc-s1 14.1.0-3
-I: Validating libgcrypt20 1.10.3-3
+I: Retrieving libgcrypt20 1.11.0-2
+I: Validating libgcrypt20 1.11.0-2
 I: Validating libgmp10 2:6.3.0+dfsg-2+b1
 I: Validating libgnutls30t64 3.8.6-2
 I: Validating libgpg-error0 1.49-2
