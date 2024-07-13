@@ -42,13 +42,13 @@ ii   libacl1                 2.3.2-2                   amd64  access control lis
 ii   libapt-pkg6.0t64        2.9.6                     amd64  package management runtime library
 ii   libattr1                1:2.5.2-1                 amd64  extended attribute handling - shared library
 ii   libaudit-common         1:3.1.2-4                 all    Dynamic library for security auditing - common files
-ii   libaudit1               1:3.1.2-4                 amd64  Dynamic library for security auditing
+ii   libaudit1               1:3.1.2-4+b1              amd64  Dynamic library for security auditing
 ii   libblkid1               2.40.2-1                  amd64  block device ID library
 ii   libbsd0                 0.12.2-1                  amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-5.1                 amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                2.38-14                   amd64  GNU C Library: Binaries
 ii   libc6                   2.38-14                   amd64  GNU C Library: Shared libraries
-ii   libcap-ng0              0.8.5-1                   amd64  alternate POSIX capabilities library
+ii   libcap-ng0              0.8.5-1+b1                amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.1-1                  amd64  common error description library
 ii   libcrypt1               1:4.4.36-4                amd64  libcrypt shared library
@@ -75,7 +75,7 @@ ii   libpam-runtime          1.5.3-7                   all    Runtime support fo
 ii   libpam0g                1.5.3-7                   amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-4+b1                amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.5-1+b1                amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.5-2+b2                  amd64  SELinux runtime shared libraries
+ii   libselinux1             3.5-2+b3                  amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.5-1                     all    Common files for SELinux policy management libraries
 ii   libsemanage2            3.5-1+b4                  amd64  SELinux policy management library
 ii   libsepol2               3.5-2+b1                  amd64  SELinux library for manipulating binary security policies
