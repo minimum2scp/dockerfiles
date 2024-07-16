@@ -103,9 +103,9 @@ ii   libblkid1                    2.40.2-1                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b4                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-1                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-5.1                       amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.38-14                         amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.38-14                         all    GNU C Library: localization files
-ii   libc6                        2.38-14                         amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.39-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.39-4                          all    GNU C Library: localization files
+ii   libc6                        2.39-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-1+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
@@ -136,7 +136,7 @@ ii   libk5crypto3                 1.21.3-3                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.18+dfsg-1                   amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.18+dfsg-2                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-2                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.2-2                         amd64  XZ-format compression library
@@ -161,8 +161,8 @@ ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.4-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.4-3                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.4-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-6                  amd64  Cyrus SASL - authentication abstraction library
@@ -190,7 +190,7 @@ ii   libwrap0                     7.6.q-33                        amd64  Wietse 
 ii   libxxhash0                   0.8.2-2+b1                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.38-14                         all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.39-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.15.3-2                      amd64  system login tools
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
@@ -214,8 +214,8 @@ ii   perl-modules-5.38            5.38.2-5                        all    Core Pe
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
 ii   python3                      3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.3-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.4-1                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.4-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.4-3                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.4-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2406.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
@@ -228,7 +228,7 @@ ii   sysv-rc                      3.09-2                          all    System-
 ii   sysvinit-core                3.09-2                          amd64  System-V-like init
 ii   sysvinit-utils               3.09-2                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
-ii   tree                         2.1.2-1                         amd64  displays an indented directory tree, in color
+ii   tree                         2.1.3-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024a-4                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
