@@ -29,7 +29,7 @@ ii   debconf                 1.5.87                    all    Debian configurati
 ii   debian-archive-keyring  2023.4                    all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.20                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1                  amd64  File comparison utilities
-ii   dpkg                    1.22.6                    amd64  Debian package management system
+ii   dpkg                    1.22.7                    amd64  Debian package management system
 ii   e2fsprogs               1.47.1-1                  amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.10.0-2                  amd64  utilities for finding files--find, xargs
 ii   gcc-14-base             14.1.0-4                  amd64  GCC, the GNU Compiler Collection (base package)
