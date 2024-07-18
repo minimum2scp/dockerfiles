@@ -1,7 +1,7 @@
 # about minimum2scp/nodejs image
 
  * based on minimum2scp/baseimage (see https://github.com/minimum2scp/dockerfiles/tree/master/baseimage)
- * node.js v20.15.0 is installed with [nodenv](https://github.com/nodenv/nodenv)
+ * node.js v20.15.1 is installed with [nodenv](https://github.com/nodenv/nodenv)
  * nodenv is installed in /opt/nodenv
  * [yarn](https://yarnpkg.com/) is installed with deb package
 
@@ -56,7 +56,7 @@ If you need root privilege, use `sudo bash -lc "..."`.
 For example, install LTS version of nodejs:
 
 ```
-sudo bash -lc "nodenv install 18.20.3"
+sudo bash -lc "nodenv install 18.20.4"
 ```
 
 
