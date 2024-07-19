@@ -7,8 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 nodenv_root=/opt/nodenv
 
 ## get latest nodejs version (20.x.x) from https://nodejs.org/download/release/index.json
-apt-get install -y python3-packaging
-node_version=$(python3 /tmp/build/rails7/helpers/latest-nodejs-version.py v20.)
+node_version=$(/bin/bash /tmp/build/rails7/helpers/latest-nodejs-version v20.)
 
 ## install nodenv into /opt/nodenv
 git clone https://github.com/nodenv/nodenv.git                   ${nodenv_root}
