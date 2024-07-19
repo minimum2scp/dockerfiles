@@ -8,6 +8,7 @@ export DEBIAN_FRONTEND=noninteractive
 packages="sqlite3 libsqlite3-dev"
 packages="$packages mysql-client libmysqlclient-dev"
 packages="$packages postgresql-client libpq-dev"
+packages="$packages jq"
 
 ## install packages
 apt-get install --install-recommends -y ${packages}
