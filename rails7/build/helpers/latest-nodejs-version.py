@@ -4,7 +4,7 @@ import sys
 import json
 import re
 import urllib.request
-from distutils.version import StrictVersion
+from packaging.version import Version
 
 url = 'https://nodejs.org/download/release/index.json'
 req = urllib.request.Request(url)
@@ -13,7 +13,7 @@ with urllib.request.urlopen(req) as res:
 
 versions = [re.sub(r"^v", "", v["version"])
             for v in index if v["version"].startswith(sys.argv[1])]
-versions.sort(key=lambda v: StrictVersion(v), reverse=True)
+versions.sort(key=lambda v: Version(v), reverse=True)
 latest = versions[0]
 
 print(latest)
