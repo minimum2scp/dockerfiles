@@ -22,41 +22,41 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '3.3.0',
-        desc: 'ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [x86_64-linux]',
-        rubygems_version: '3.5.6',
+        ruby: '3.3.4',
+        desc: 'ruby 3.3.4 (2024-07-09 revision be1089c8ec) [x86_64-linux]',
+        rubygems_version: '3.5.16',
         gems: [
-          {name: 'bundler', version: 'default: 2.5.6'},
+          {name: 'bundler', version: 'default: 2.5.16'},
           {name: 'pry'}
         ],
-        openssl_version: '3.1.5'
+        openssl_version: '3.2.2'
       },
       {
-        ruby: '3.2.3',
-        desc: 'ruby 3.2.3 (2024-01-18 revision 52bb2ac0a6) [x86_64-linux]',
-        rubygems_version: '3.5.6',
+        ruby: '3.2.4',
+        desc: 'ruby 3.2.4 (2024-04-23 revision af471c0e01) [x86_64-linux]',
+        rubygems_version: '3.5.16',
         gems: [
-          {name: 'bundler', version: 'default: 2.5.6'},
+          {name: 'bundler', version: 'default: 2.5.16'},
           {name: 'pry'}
         ],
-        openssl_version: '3.1.5'
+        openssl_version: '3.2.2'
       },
       {
-        ruby: '3.1.4',
-        desc: 'ruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [x86_64-linux]',
-        rubygems_version: '3.5.6',
+        ruby: '3.1.6',
+        desc: 'ruby 3.1.6p260 (2024-05-29 revision a777087be6) [x86_64-linux]',
+        rubygems_version: '3.5.16',
         gems: [
-          {name: 'bundler', version: 'default: 2.5.6'},
+          {name: 'bundler', version: 'default: 2.5.16'},
           {name: 'pry'}
         ],
-        openssl_version: '3.1.5'
+        openssl_version: '3.2.2'
       },
       {
-        ruby: '3.0.6',
-        desc: 'ruby 3.0.6p216 (2023-03-30 revision 23a532679b) [x86_64-linux]',
-        rubygems_version: '3.5.6',
+        ruby: '3.0.7',
+        desc: 'ruby 3.0.7p220 (2024-04-23 revision 724a071175) [x86_64-linux]',
+        rubygems_version: '3.5.16',
         gems: [
-          {name: 'bundler', version: 'default: 2.5.6'},
+          {name: 'bundler', version: 'default: 2.5.16'},
           {name: 'pry'}
         ],
         openssl_version: '1.1.1'
