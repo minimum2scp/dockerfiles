@@ -82,7 +82,7 @@ ii   dpkg                         1.22.7                          amd64  Debian 
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-2                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.1.0-4                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.1.0-5                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-7                        amd64  GNU privacy guard - signature verification tool
@@ -122,7 +122,7 @@ ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-1+b1                   amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.1.0-4                        amd64  GCC support library
+ii   libgcc-s1                    14.1.0-5                        amd64  GCC support library
 ii   libgcrypt20                  1.11.0-2                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.23-6                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.23-6                          amd64  GNU dbm database routines (runtime version) 
@@ -160,7 +160,7 @@ ii   libpipeline1                 1.5.7-2                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.12.4-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.4-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.4-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
@@ -178,7 +178,7 @@ ii   libsqlite3-0                 3.46.0-1                        amd64  SQLite 
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-5                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.2.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.1.0-4                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.1.0-5                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.2-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
@@ -195,7 +195,7 @@ ii   login                        1:4.15.3-2                      amd64  system 
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.1-2                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20240622-1                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20240622-2                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.2-1                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5-2                           all    basic terminal type definitions
@@ -212,8 +212,8 @@ ii   perl                         5.38.2-5                        amd64  Larry W
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
-ii   python3                      3.12.3-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.12.3-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.12.4-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.4-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.4-3                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.4-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
