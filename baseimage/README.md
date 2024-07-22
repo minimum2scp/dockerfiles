@@ -78,7 +78,7 @@ ii   debconf                      1.5.87                          all    Debian 
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.20                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
-ii   dpkg                         1.22.7                          amd64  Debian package management system
+ii   dpkg                         1.22.8                          amd64  Debian package management system
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-2                        amd64  utilities for finding files--find, xargs
@@ -191,7 +191,7 @@ ii   libxxhash0                   0.8.2-2+b1                      amd64  shared 
 ii   libzstd1                     1.5.6+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.39-4                          all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.15.3-2                      amd64  system login tools
+ii   login                        1:4.15.3-3                      amd64  system login tools
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.1-2                        amd64  tools for reading manual pages
@@ -207,7 +207,7 @@ ii   openssh-server               1:9.7p1-7                       amd64  secure 
 ii   openssh-sftp-server          1:9.7p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.15.3-2                      amd64  change and administer password and group data
+ii   passwd                       1:4.15.3-3                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
