@@ -29,7 +29,7 @@ ii   debconf                 1.5.87                    all    Debian configurati
 ii   debian-archive-keyring  2023.4                    all    GnuPG archive keys of the Debian archive
 ii   debianutils             5.20                      amd64  Miscellaneous utilities specific to Debian
 ii   diffutils               1:3.10-1                  amd64  File comparison utilities
-ii   dpkg                    1.22.7                    amd64  Debian package management system
+ii   dpkg                    1.22.8                    amd64  Debian package management system
 ii   e2fsprogs               1.47.1-1                  amd64  ext2/ext3/ext4 file system utilities
 ii   findutils               4.10.0-2                  amd64  utilities for finding files--find, xargs
 ii   gcc-14-base             14.1.0-5                  amd64  GCC, the GNU Compiler Collection (base package)
@@ -91,13 +91,13 @@ ii   libunistring5           1.2-1                     amd64  Unicode string lib
 ii   libuuid1                2.40.2-1                  amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                amd64  shared library for xxhash
 ii   libzstd1                1.5.6+dfsg-1              amd64  fast lossless compression algorithm
-ii   login                   1:4.15.3-2                amd64  system login tools
+ii   login                   1:4.15.3-3                amd64  system login tools
 ii   logsave                 1.47.1-1                  amd64  save the output of a command in a log file
 ii   mawk                    1.3.4.20240622-2          amd64  Pattern scanning and text processing language
 ii   mount                   2.40.2-1                  amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.5-2                     all    basic terminal type definitions
 ii   ncurses-bin             6.5-2                     amd64  terminal-related programs and man pages
-ii   passwd                  1:4.15.3-2                amd64  change and administer password and group data
+ii   passwd                  1:4.15.3-3                amd64  change and administer password and group data
 ii   perl-base               5.38.2-5                  amd64  minimal Perl system
 ii   sed                     4.9-2                     amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils          3.09-2                    amd64  System-V-like utilities
