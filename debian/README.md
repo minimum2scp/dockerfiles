@@ -46,8 +46,8 @@ ii   libaudit1               1:3.1.2-4+b1              amd64  Dynamic library fo
 ii   libblkid1               2.40.2-1                  amd64  block device ID library
 ii   libbsd0                 0.12.2-1                  amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-5.1                 amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.39-4                    amd64  GNU C Library: Binaries
-ii   libc6                   2.39-4                    amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.39-5                    amd64  GNU C Library: Binaries
+ii   libc6                   2.39-5                    amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.8.5-1+b1                amd64  alternate POSIX capabilities library
 ii   libcap2                 1:2.66-5                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2             1.47.1-1                  amd64  common error description library
@@ -63,7 +63,7 @@ ii   libgnutls30t64          3.8.6-2                   amd64  GNU TLS library - 
 ii   libgpg-error0           1.49-2                    amd64  GnuPG development runtime library
 ii   libhogweed6t64          3.10-1                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2                   amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   liblz4-1                1.9.4-2                   amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                1.9.4-3                   amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                5.6.2-2                   amd64  XZ-format compression library
 ii   libmd0                  1.1.0-2                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1               2.40.2-1                  amd64  device mounting library

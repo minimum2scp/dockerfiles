@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.39-4",
+    "Version": "2.39-5",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.39-4"
+    "source:Version": "2.39-5"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.39-4",
+    "Version": "2.39-5",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.39-4"
+    "source:Version": "2.39-5"
   },
   {
     "Architecture": "amd64",
@@ -1263,10 +1263,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "liblz4-1a",
-    "Depends": "libc6 (>= 2.14)",
+    "Depends": "libc6 (>= 2.14), libxxhash0 (>= 0.6.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "167",
+    "Installed-Size": "159",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.4-2",
+    "Version": "1.9.4-3",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.9.4-2"
+    "source:Version": "1.9.4-3"
   },
   {
     "Architecture": "amd64",
