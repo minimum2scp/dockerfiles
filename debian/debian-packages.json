@@ -314,7 +314,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6445",
+    "Installed-Size": "6401",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.8",
+    "Version": "1.22.9",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.8"
+    "source:Version": "1.22.9"
   },
   {
     "Architecture": "amd64",
@@ -423,7 +423,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python-debian (<< 0.1.29)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.38), libgcrypt20 (>= 1.10.3), libgpg-error0 (>= 1.48), zlib1g (>= 1:1.1.4)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.38), libgcrypt20 (>= 1.11.0), libgpg-error0 (>= 1.48), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "501",
@@ -437,7 +437,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.43-7",
+    "Version": "2.2.43-8",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -445,7 +445,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.43-7"
+    "source:Version": "2.2.43-8"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1017",
+    "Installed-Size": "1025",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "256.2-1",
+    "Version": "256.4-2",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256.2-1"
+    "source:Version": "256.4-2"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "341",
+    "Installed-Size": "345",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "256.2-1",
+    "Version": "256.4-2",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "256.2-1"
+    "source:Version": "256.4-2"
   },
   {
     "Architecture": "amd64",
