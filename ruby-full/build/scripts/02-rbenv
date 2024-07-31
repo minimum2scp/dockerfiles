@@ -16,7 +16,8 @@ sh /tmp/build/ruby-full/tmp/ruby-binary/install.sh -t v0.1.231
 
 ## install openssl 1.1 series into /opt/openssl-<version>
 openssl_version=1.1.1w
-curl -sSf -o /tmp/build/openssl-${openssl_version}.tar.gz https://www.openssl.org/source/openssl-${openssl_version}.tar.gz
+openssl_tarball_url=https://github.com/openssl/openssl/releases/download/OpenSSL_1_1_1w/openssl-1.1.1w.tar.gz
+curl -sSfL -o /tmp/build/openssl-${openssl_version}.tar.gz ${openssl_tarball_url}
 cd /tmp/build
 tar xf openssl-${openssl_version}.tar.gz
 cd openssl-${openssl_version}
