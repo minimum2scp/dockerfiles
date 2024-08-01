@@ -72,7 +72,7 @@ ii   ca-certificates              20240203                        all    Common 
 ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
-ii   curl                         8.9.0-3                         amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.9.1-1                         amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.87                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -111,7 +111,7 @@ ii   libcap2                      1:2.66-5                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-1.2                      amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.1-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.36-4                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.9.0-3                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3t64-gnutls           8.9.1-1                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-7                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.272                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
@@ -202,9 +202,9 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.7p1-7                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.7p1-7                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.7p1-7                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.8p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.8p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.8p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.15.3-3                      amd64  change and administer password and group data
