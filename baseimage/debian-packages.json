@@ -62,7 +62,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "348",
+    "Installed-Size": "350",
     "Origin": "",
     "Package": "base-files",
     "Pre-Depends": "awk",
@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "13.3",
+    "Version": "13.4",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "13.3"
+    "source:Version": "13.4"
   },
   {
     "Architecture": "amd64",
@@ -510,7 +510,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6410",
+    "Installed-Size": "6411",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.10",
+    "Version": "1.22.11",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.10"
+    "source:Version": "1.22.11"
   },
   {
     "Architecture": "amd64",
@@ -633,7 +633,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.1.0-5",
+    "Version": "14.2.0-1",
     "binary:Package": "gcc-14-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.1.0-5"
+    "source:Version": "14.2.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1739,7 +1739,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-14-base (= 14.1.0-5), libc6 (>= 2.35)",
+    "Depends": "gcc-14-base (= 14.2.0-1), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "197",
@@ -1747,13 +1747,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:14.1.0-5)",
+    "Provides": "libgcc1 (= 1:14.2.0-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.1.0-5",
+    "Version": "14.2.0-1",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.1.0-5"
+    "source:Version": "14.2.0-1"
   },
   {
     "Architecture": "amd64",
@@ -3307,7 +3307,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-14-base (= 14.1.0-5), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-14-base (= 14.2.0-1), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3018",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.1.0-5",
+    "Version": "14.2.0-1",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.1.0-5"
+    "source:Version": "14.2.0-1"
   },
   {
     "Architecture": "amd64",
