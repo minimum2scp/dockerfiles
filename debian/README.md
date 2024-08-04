@@ -60,7 +60,7 @@ ii   libgcc-s1               14.2.0-1                  amd64  GCC support librar
 ii   libgcrypt20             1.11.0-5                  amd64  LGPL Crypto library - runtime library
 ii   libgmp10                2:6.3.0+dfsg-2+b1         amd64  Multiprecision arithmetic library
 ii   libgnutls30t64          3.8.6-2                   amd64  GNU TLS library - main runtime library
-ii   libgpg-error0           1.49-2                    amd64  GnuPG development runtime library
+ii   libgpg-error0           1.50-2                    amd64  GnuPG development runtime library
 ii   libhogweed6t64          3.10-1                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.7-2                   amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                1.9.4-3                   amd64  Fast LZ compression algorithm library - runtime
@@ -81,7 +81,7 @@ ii   libsemanage2            3.5-1+b4                  amd64  SELinux policy man
 ii   libsepol2               3.5-2+b1                  amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1           2.40.2-1                  amd64  smart column output alignment library
 ii   libss2                  1.47.1-1                  amd64  command-line interface parsing library
-ii   libssl3t64              3.2.2-1                   amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64              3.3.1-2                   amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.2.0-1                  amd64  GNU Standard C++ Library v3
 ii   libsystemd0             256.4-2                   amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2               amd64  Manage ASN.1 structures (runtime)
