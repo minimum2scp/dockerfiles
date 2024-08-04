@@ -913,7 +913,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.24.0-3",
+    "Version": "1.24.0-4",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.24.0-3"
+    "source:Version": "1.24.0-4"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "198",
+    "Installed-Size": "208",
     "Origin": "",
     "Package": "libgpg-error0",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.49-2",
+    "Version": "1.50-2",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.49-2"
+    "source:Version": "1.50-2"
   },
   {
     "Architecture": "amd64",
@@ -3250,7 +3250,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libssh2-1 (<< 1.11.0-6)",
+    "Breaks": "libssh2-1 (<< 1.11.0-7)",
     "Depends": "libc6 (>= 2.25), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
@@ -3259,13 +3259,13 @@
     "Package": "libssh2-1t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libssh2-1 (= 1.11.0-6)",
+    "Provides": "libssh2-1 (= 1.11.0-7)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.11.0-6",
+    "Version": "1.11.0-7",
     "binary:Package": "libssh2-1t64:amd64",
     "binary:Summary": "SSH2 client-side library",
     "db:Status-Abbrev": "ii ",
@@ -3273,27 +3273,27 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libssh2",
-    "source:Version": "1.11.0-6"
+    "source:Version": "1.11.0-7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libssl3 (<< 3.2.2-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
+    "Breaks": "libssl3 (<< 3.3.1-2), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
     "Depends": "libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "7306",
+    "Installed-Size": "7428",
     "Origin": "",
     "Package": "libssl3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libssl3 (= 3.2.2-1)",
+    "Provides": "libssl3 (= 3.3.1-2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.2.2-1",
+    "Version": "3.3.1-2",
     "binary:Package": "libssl3t64:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.2.2-1"
+    "source:Version": "3.3.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3993,7 +3993,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:9.8p1-1",
+    "Version": "1:9.8p1-2",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4001,13 +4001,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.8p1-1"
+    "source:Version": "1:9.8p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.8p1-1), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.8p1-2), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "2334",
@@ -4021,7 +4021,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:9.8p1-1",
+    "Version": "1:9.8p1-2",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4029,13 +4029,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.8p1-1"
+    "source:Version": "1:9.8p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:9.8p1-1), libc6 (>= 2.38)",
+    "Depends": "openssh-client (= 1:9.8p1-2), libc6 (>= 2.38)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "173",
@@ -4049,7 +4049,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.8p1-1",
+    "Version": "1:9.8p1-2",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -4057,16 +4057,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.8p1-1"
+    "source:Version": "1:9.8p1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libssl3t64 (>= 3.2.0)",
+    "Depends": "libc6 (>= 2.34), libssl3t64 (>= 3.3.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2280",
+    "Installed-Size": "2307",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4077,7 +4077,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.2.2-1",
+    "Version": "3.3.1-2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4085,7 +4085,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.2.2-1"
+    "source:Version": "3.3.1-2"
   },
   {
     "Architecture": "all",

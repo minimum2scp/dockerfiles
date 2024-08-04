@@ -92,7 +92,7 @@ ii   gzip                         1.12-1.1                        amd64  GNU com
 ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.09-2                          all    scripts for initializing and shutting down the system
-ii   insserv                      1.24.0-3                        amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                      1.24.0-4                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b1                      amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.7                           amd64  package management runtime library
@@ -128,7 +128,7 @@ ii   libgdbm-compat4t64           1.23-6                          amd64  GNU dbm
 ii   libgdbm6t64                  1.23-6                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.6-2                         amd64  GNU TLS library - main runtime library
-ii   libgpg-error0                1.49-2                          amd64  GnuPG development runtime library
+ii   libgpg-error0                1.50-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.21.3-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10-1                          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -176,8 +176,8 @@ ii   libslang2                    2.3.3-5                         amd64  S-Lang 
 ii   libsmartcols1                2.40.2-1                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.0-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
-ii   libssh2-1t64                 1.11.0-6                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.2.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssh2-1t64                 1.11.0-7                        amd64  SSH2 client-side library
+ii   libssl3t64                   3.3.1-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-1                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.4-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
@@ -202,10 +202,10 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.8p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.8p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.8p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.2.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client               1:9.8p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.8p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.8p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                      3.3.1-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.15.3-3                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
