@@ -21,7 +21,7 @@ installed packages:
 ii   apt                     2.9.7                      amd64  commandline package manager
 ii   base-files              13.5                       amd64  Debian base system miscellaneous files
 ii   base-passwd             3.6.4                      amd64  Debian base system master password and group files
-ii   bash                    5.2.21-2.1                 amd64  GNU Bourne Again SHell
+ii   bash                    5.2.21-2.1+b1              amd64  GNU Bourne Again SHell
 ii   bsdutils                1:2.40.2-6                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils               9.4-3.1                    amd64  GNU core utilities
 ii   dash                    0.5.12-9                   amd64  POSIX-compliant shell
@@ -75,7 +75,7 @@ ii   libpam-runtime          1.5.3-7                    all    Runtime support f
 ii   libpam0g                1.5.3-7                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.42-4+b1                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2             2.5.5-1+b1                 amd64  high level interface to Linux seccomp filter
-ii   libselinux1             3.5-2+b3                   amd64  SELinux runtime shared libraries
+ii   libselinux1             3.5-2+b4                   amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.5-1                      all    Common files for SELinux policy management libraries
 ii   libsemanage2            3.5-1+b4                   amd64  SELinux policy management library
 ii   libsepol2               3.7-1                      amd64  SELinux library for manipulating binary security policies
@@ -83,10 +83,10 @@ ii   libsmartcols1           2.40.2-6                   amd64  smart column outp
 ii   libss2                  1.47.1-1                   amd64  command-line interface parsing library
 ii   libssl3t64              3.3.1-2                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              14.2.0-2                   amd64  GNU Standard C++ Library v3
-ii   libsystemd0             256.4-2                    amd64  systemd utility library
+ii   libsystemd0             256.4-3                    amd64  systemd utility library
 ii   libtasn1-6              4.19.0-3+b2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6               6.5-2                      amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                256.4-2                    amd64  libudev shared library
+ii   libudev1                256.4-3                    amd64  libudev shared library
 ii   libunistring5           1.2-1                      amd64  Unicode string library for C
 ii   libuuid1                2.40.2-6                   amd64  Universally Unique ID library
 ii   libxxhash0              0.8.2-2+b1                 amd64  shared library for xxhash
