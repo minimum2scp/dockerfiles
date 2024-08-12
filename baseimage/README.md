@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.9.7                           amd64  commandline package manager
 ii   base-files                   13.5                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
-ii   bash                         5.2.21-2.1                      amd64  GNU Bourne Again SHell
+ii   bash                         5.2.21-2.1+b1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-6                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-6                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-5.1                       amd64  high-quality block-sorting file compressor - utilities
@@ -169,7 +169,7 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit
 ii   libsasl2-2                   2.1.28+dfsg1-7                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-7                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1+b1                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.5-2+b3                        amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.5-2+b4                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1+b4                        amd64  SELinux policy management library
 ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
@@ -180,13 +180,13 @@ ii   libss2                       1.47.1-1                        amd64  command
 ii   libssh2-1t64                 1.11.0-7                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.1-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-2                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  256.4-2                         amd64  systemd utility library
+ii   libsystemd0                  256.4-3                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3                    amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b1                      amd64  universal charset detection library - shared library
-ii   libudev1                     256.4-2                         amd64  libudev shared library
+ii   libudev1                     256.4-3                         amd64  libudev shared library
 ii   libunistring5                1.2-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-6                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33                        amd64  Wietse Venema's TCP wrappers library
@@ -227,7 +227,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  256.4-2                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  256.4-3                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.10-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.10-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.10-1                          amd64  System-V-like utilities
