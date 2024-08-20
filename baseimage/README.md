@@ -67,7 +67,7 @@ ii   base-passwd                  3.6.4                           amd64  Debian 
 ii   bash                         5.2.21-2.1+b1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-7                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-7                      amd64  basic utilities from 4.4BSD-Lite
-ii   bzip2                        1.0.8-5.1                       amd64  high-quality block-sorting file compressor - utilities
+ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20240203                        all    Common CA certificates
 ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
@@ -102,7 +102,7 @@ ii   libaudit1                    1:4.0.1-1                       amd64  Dynamic
 ii   libblkid1                    2.40.2-7                        amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b4                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-1                        amd64  utility functions from BSD systems - shared library
-ii   libbz2-1.0                   1.0.8-5.1                       amd64  high-quality block-sorting file compressor library - runtime
+ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                     2.39-7                          amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.39-7                          all    GNU C Library: localization files
 ii   libc6                        2.39-7                          amd64  GNU C Library: Shared libraries
@@ -178,7 +178,7 @@ ii   libsmartcols1                2.40.2-7                        amd64  smart c
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-7                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.3.1-6                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.3.1-7                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-3                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.5-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
@@ -209,7 +209,8 @@ ii   netbase                      6.4                             all    Basic T
 ii   openssh-client               1:9.8p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.8p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.8p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.3.1-6                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
