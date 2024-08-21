@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7195",
+    "Installed-Size": "7194",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.38), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.21-2.1+b1",
+    "Version": "5.2.32-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.2.21-2.1"
+    "source:Version": "5.2.32-1"
   },
   {
     "Architecture": "amd64",
@@ -2914,22 +2914,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libreadline8 (<< 8.2-4)",
-    "Depends": "readline-common, libc6 (>= 2.33), libtinfo6 (>= 6)",
+    "Breaks": "libreadline8 (<< 8.2-5)",
+    "Depends": "readline-common, libc6 (>= 2.38), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "477",
+    "Installed-Size": "485",
     "Origin": "",
     "Package": "libreadline8t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libreadline8 (= 8.2-4)",
+    "Provides": "libreadline8 (= 8.2-5)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.2-4",
+    "Version": "8.2-5",
     "binary:Package": "libreadline8t64:amd64",
     "binary:Summary": "GNU readline and history libraries, run-time libraries",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.2-4"
+    "source:Version": "8.2-5"
   },
   {
     "Architecture": "amd64",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "8.2-4",
+    "Version": "8.2-5",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.2-4"
+    "source:Version": "8.2-5"
   },
   {
     "Architecture": "amd64",
@@ -4542,7 +4542,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1982",
+    "Installed-Size": "1999",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4553,7 +4553,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2406.0-1",
+    "Version": "8.2408.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2406.0-1"
+    "source:Version": "8.2408.0-1"
   },
   {
     "Architecture": "all",

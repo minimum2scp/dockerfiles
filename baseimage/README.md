@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.9.8                           amd64  commandline package manager
 ii   base-files                   13.5                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
-ii   bash                         5.2.21-2.1+b1                   amd64  GNU Bourne Again SHell
+ii   bash                         5.2.32-1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-7                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-7                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -164,7 +164,7 @@ ii   libpsl5t64                   0.21.2-1.1                      amd64  Library
 ii   libpython3-stdlib            3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.5-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.5-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
-ii   libreadline8t64              8.2-4                           amd64  GNU readline and history libraries, run-time libraries
+ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-7                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-7                  amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -221,8 +221,8 @@ ii   python3                      3.12.5-1                        amd64  interac
 ii   python3-minimal              3.12.5-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.5-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.5-1                        amd64  Minimal subset of the Python language (version 3.12)
-ii   readline-common              8.2-4                           all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2406.0-1                      amd64  reliable system and kernel logging daemon
+ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
+ii   rsyslog                      8.2408.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
