@@ -75,7 +75,7 @@ ii   libpam-runtime           1.5.3-7                    all    Runtime support 
 ii   libpam0g                 1.5.3-7                    amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-4+b1                 amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2              2.5.5-1+b1                 amd64  high level interface to Linux seccomp filter
-ii   libselinux1              3.5-2+b4                   amd64  SELinux runtime shared libraries
+ii   libselinux1              3.7-1+b1                   amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.5-1                      all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.5-1+b4                   amd64  SELinux policy management library
 ii   libsepol2                3.7-1                      amd64  SELinux library for manipulating binary security policies
@@ -94,7 +94,7 @@ ii   libzstd1                 1.5.6+dfsg-1               amd64  fast lossless co
 ii   login                    1:4.16.0-2+really2.40.2-7  amd64  system login tools
 ii   login.defs               1:4.16.0-4                 all    system user management configuration
 ii   logsave                  1.47.1-1                   amd64  save the output of a command in a log file
-ii   mawk                     1.3.4.20240622-2           amd64  Pattern scanning and text processing language
+ii   mawk                     1.3.4.20240819-2           amd64  Pattern scanning and text processing language
 ii   mount                    2.40.2-7                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5-2                      all    basic terminal type definitions
 ii   ncurses-bin              6.5-2                      amd64  terminal-related programs and man pages
