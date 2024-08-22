@@ -92,7 +92,7 @@ ii   gzip                         1.12-1.1                        amd64  GNU com
 ii   hostname                     3.23+nmu2                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.66                            all    helper tools for all init systems
 ii   initscripts                  3.10-1                          all    scripts for initializing and shutting down the system
-ii   insserv                      1.24.0-4                        amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                      1.25.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b1                      amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.8                           amd64  package management runtime library
@@ -136,7 +136,7 @@ ii   libk5crypto3                 1.21.3-3                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.18+dfsg-2                   amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.18+dfsg-3                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-3                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.2-2                         amd64  XZ-format compression library
@@ -162,14 +162,14 @@ ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.5-1                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.5-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.5-3                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.5-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-7                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-7                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1+b1                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.5-2+b4                        amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.7-1+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.5-1                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.5-1+b4                        amd64  SELinux policy management library
 ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
@@ -199,7 +199,7 @@ ii   login.defs                   1:4.16.0-4                      all    system 
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.12.1-3                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20240622-2                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20240819-2                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.2-7                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5-2                           all    basic terminal type definitions
@@ -219,8 +219,8 @@ ii   perl-modules-5.38            5.38.2-5                        all    Core Pe
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
 ii   python3                      3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.5-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.5-1                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.5-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.5-3                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.5-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2408.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
