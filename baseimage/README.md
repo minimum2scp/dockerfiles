@@ -239,8 +239,8 @@ ii   ucf                          3.0043+nmu1                     all    Update 
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.2-7                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.0496-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0496-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.0698-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.0698-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
 ii   zsh                          5.9-8                           amd64  shell with lots of features
