@@ -198,7 +198,7 @@ ii   login                        1:4.16.0-2+really2.40.2-7       amd64  system 
 ii   login.defs                   1:4.16.0-4                      all    system user management configuration
 ii   logsave                      1.47.1-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.12.1-3                        amd64  tools for reading manual pages
+ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20240819-3                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.2-7                        amd64  tools for mounting and manipulating filesystems
