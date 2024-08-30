@@ -169,9 +169,9 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit
 ii   libsasl2-2                   2.1.28+dfsg1-7                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-7                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1+b1                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.7-1+b1                        amd64  SELinux runtime shared libraries
-ii   libsemanage-common           3.7-1                           all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.7-1                           amd64  SELinux policy management library
+ii   libselinux1                  3.7-3                           amd64  SELinux runtime shared libraries
+ii   libsemanage-common           3.7-2                           all    Common files for SELinux policy management libraries
+ii   libsemanage2                 3.7-2                           amd64  SELinux policy management library
 ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5                         amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.2-7                        amd64  smart column output alignment library
@@ -206,9 +206,9 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.8p1-4                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.8p1-4                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.8p1-4                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.8p1-8                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.8p1-8                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.8p1-8                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
