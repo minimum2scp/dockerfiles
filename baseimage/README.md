@@ -82,7 +82,7 @@ ii   dpkg                         1.22.11                         amd64  Debian 
 ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.2.0-3                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.2.0-4                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.43-8                        amd64  GNU privacy guard - signature verification tool
@@ -117,12 +117,12 @@ ii   libdebconfclient0            0.272                           amd64  Debian 
 ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.2-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.2-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1+b1                   amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.2.0-3                        amd64  GCC support library
+ii   libgcc-s1                    14.2.0-4                        amd64  GCC support library
 ii   libgcrypt20                  1.11.0-6                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
@@ -179,7 +179,7 @@ ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-7                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.1-7                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.2.0-3                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.2.0-4                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.5-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2                           amd64  shared low-level terminfo library for terminal handling
