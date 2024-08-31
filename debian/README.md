@@ -32,7 +32,7 @@ ii   diffutils                1:3.10-1                   amd64  File comparison 
 ii   dpkg                     1.22.11                    amd64  Debian package management system
 ii   e2fsprogs                1.47.1-1                   amd64  ext2/ext3/ext4 file system utilities
 ii   findutils                4.10.0-3                   amd64  utilities for finding files--find, xargs
-ii   gcc-14-base              14.2.0-3                   amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base              14.2.0-4                   amd64  GCC, the GNU Compiler Collection (base package)
 ii   gpgv                     2.2.43-8                   amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.11-4                     amd64  GNU grep, egrep and fgrep
 ii   gzip                     1.12-1.1                   amd64  GNU compression utilities
@@ -56,7 +56,7 @@ ii   libdb5.3t64              5.3.28+dfsg2-7             amd64  Berkeley v5.3 Da
 ii   libdebconfclient0        0.272                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2t64            1.47.1-1                   amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                  3.4.6-1                    amd64  Foreign Function Interface library runtime
-ii   libgcc-s1                14.2.0-3                   amd64  GCC support library
+ii   libgcc-s1                14.2.0-4                   amd64  GCC support library
 ii   libgcrypt20              1.11.0-6                   amd64  LGPL Crypto library - runtime library
 ii   libgmp10                 2:6.3.0+dfsg-2+b1          amd64  Multiprecision arithmetic library
 ii   libgnutls30t64           3.8.6-2                    amd64  GNU TLS library - main runtime library
@@ -82,7 +82,7 @@ ii   libsepol2                3.7-1                      amd64  SELinux library 
 ii   libsmartcols1            2.40.2-7                   amd64  smart column output alignment library
 ii   libss2                   1.47.1-1                   amd64  command-line interface parsing library
 ii   libssl3t64               3.3.1-7                    amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               14.2.0-3                   amd64  GNU Standard C++ Library v3
+ii   libstdc++6               14.2.0-4                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0              256.5-1                    amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3+b2                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.5-2                      amd64  shared low-level terminfo library for terminal handling
