@@ -145,7 +145,7 @@ ii   libmount1                    2.40.2-7                        amd64  device 
 ii   libncursesw6                 6.5-2                           amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10-1                          amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-2+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14                1.62.1-2                        amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14                1.63.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.4.0-1                         amd64  HTTP/3 library with QUIC and QPACK (library)
 ii   libngtcp2-16                 1.6.0-1                         amd64  implementation of QUIC protocol (library)
 ii   libngtcp2-crypto-gnutls8     1.6.0-1                         amd64  implementation of QUIC protocol (library)
