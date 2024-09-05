@@ -1602,7 +1602,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "393",
+    "Installed-Size": "394",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.2-2",
+    "Version": "2.6.3-1",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.6.2-2"
+    "source:Version": "2.6.3-1"
   },
   {
     "Architecture": "amd64",
@@ -2971,7 +2971,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-7), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
+    "Depends": "libsasl2-modules-db (>= 2.1.28+dfsg1-8), libc6 (>= 2.38), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "156",
@@ -2980,12 +2980,12 @@
     "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "",
-    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-7)",
+    "Recommends": "libsasl2-modules (>= 2.1.28+dfsg1-8)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-7",
+    "Version": "2.1.28+dfsg1-8",
     "binary:Package": "libsasl2-2:amd64",
     "binary:Summary": "Cyrus SASL - authentication abstraction library",
     "db:Status-Abbrev": "ii ",
@@ -2993,7 +2993,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-7"
+    "source:Version": "2.1.28+dfsg1-8"
   },
   {
     "Architecture": "amd64",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.1.28+dfsg1-7",
+    "Version": "2.1.28+dfsg1-8",
     "binary:Package": "libsasl2-modules-db:amd64",
     "binary:Summary": "Cyrus SASL - pluggable authentication modules (DB)",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cyrus-sasl2",
-    "source:Version": "2.1.28+dfsg1-7"
+    "source:Version": "2.1.28+dfsg1-8"
   },
   {
     "Architecture": "amd64",
@@ -3306,7 +3306,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libssl3 (<< 3.3.1-7), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
+    "Breaks": "libssl3 (<< 3.3.2-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
     "Depends": "libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), openssl-provider-legacy",
     "Enhances": "",
     "Essential": "no",
@@ -3315,13 +3315,13 @@
     "Package": "libssl3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libssl3 (= 3.3.1-7)",
+    "Provides": "libssl3 (= 3.3.2-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3.1-7",
+    "Version": "3.3.2-1",
     "binary:Package": "libssl3t64:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.3.1-7"
+    "source:Version": "3.3.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4189,7 +4189,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.3.1-7",
+    "Version": "3.3.2-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.3.1-7"
+    "source:Version": "3.3.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4217,7 +4217,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.3.1-7",
+    "Version": "3.3.2-1",
     "binary:Package": "openssl-provider-legacy",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.3.1-7"
+    "source:Version": "3.3.2-1"
   },
   {
     "Architecture": "all",
@@ -5029,7 +5029,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.1.0698-1",
+    "Version": "2:9.1.0709-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -5037,13 +5037,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.0698-1"
+    "source:Version": "2:9.1.0709-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.1.0698-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.1.0709-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1800",
@@ -5057,7 +5057,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.1.0698-1",
+    "Version": "2:9.1.0709-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -5065,7 +5065,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.0698-1"
+    "source:Version": "2:9.1.0709-1"
   },
   {
     "Architecture": "amd64",

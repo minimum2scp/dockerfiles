@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.272                           amd64  Debian 
 ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.2-2                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.3-1                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-1+b1                   amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
@@ -166,8 +166,8 @@ ii   libpython3.12-minimal        3.12.5-4                        amd64  Minimal
 ii   libpython3.12-stdlib         3.12.5-4                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-7                  amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-7                  amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-8                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-1+b1                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.7-3                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.7-2                           all    Common files for SELinux policy management libraries
@@ -178,7 +178,7 @@ ii   libsmartcols1                2.40.2-7                        amd64  smart c
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.0-7                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.3.1-7                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.3.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-4                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.5-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
@@ -209,8 +209,8 @@ ii   netbase                      6.4                             all    Basic T
 ii   openssh-client               1:9.8p1-8                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.8p1-8                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.8p1-8                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.3.1-7                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
@@ -239,8 +239,8 @@ ii   ucf                          3.0043+nmu1                     all    Update 
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.2-7                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.0698-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0698-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.0709-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.0709-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
 ii   zsh                          5.9-8                           amd64  shell with lots of features
