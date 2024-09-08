@@ -85,7 +85,7 @@ ii   findutils                    4.10.0-3                        amd64  utiliti
 ii   gcc-14-base                  14.2.0-4                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                         2.2.43-8                        amd64  GNU privacy guard - signature verification tool
+ii   gpgv                         2.2.43-8+b1                     amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-5                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
@@ -114,7 +114,7 @@ ii   libcrypt1                    1:4.4.36-5                      amd64  libcryp
 ii   libcurl3t64-gnutls           8.9.1-2                         amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-7                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.272                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                     3.1-20240517-1                  amd64  BSD editline and history libraries
+ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.6.3-1                         amd64  XML parsing C library - runtime library
@@ -162,8 +162,8 @@ ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.5-4                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.5-4                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.6-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b4  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
@@ -219,8 +219,8 @@ ii   perl-modules-5.38            5.38.2-5                        all    Core Pe
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
 ii   python3                      3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.5-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.5-4                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.5-4                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.6-1                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2408.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
