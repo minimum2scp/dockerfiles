@@ -373,7 +373,7 @@ describe 'minimum2scp/baseimage' do
         pending 'Switched nginx package to debian.org ones'
         should be_installed.with_version('1.22.1-1~bullseye')
       }
-      it { should be_installed.with_version('1.26.0-1') }
+      it { should be_installed.with_version('1.26.0-2') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
