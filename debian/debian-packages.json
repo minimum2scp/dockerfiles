@@ -2369,7 +2369,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.10-1",
+    "Version": "3.10-2",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.10-1"
+    "source:Version": "3.10-2"
   },
   {
     "Architecture": "amd64",

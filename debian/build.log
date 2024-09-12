@@ -72,11 +72,9 @@ I: Validating libsmartcols1 2.40.2-8
 I: Validating libss2 1.47.1-1
 I: Validating libssl3t64 3.3.2-1
 I: Validating libstdc++6 14.2.0-4
-I: Retrieving libsystemd0 256.6-1
 I: Validating libsystemd0 256.6-1
 I: Validating libtasn1-6 4.19.0-3+b2
 I: Validating libtinfo6 6.5-2
-I: Retrieving libudev1 256.6-1
 I: Validating libudev1 256.6-1
 I: Validating libunistring5 1.2-1
 I: Validating libuuid1 2.40.2-8
@@ -93,7 +91,8 @@ I: Validating openssl-provider-legacy 3.3.2-1
 I: Validating passwd 1:4.16.0-4
 I: Validating perl-base 5.38.2-5
 I: Validating sed 4.9-2
-I: Validating sysvinit-utils 3.10-1
+I: Retrieving sysvinit-utils 3.10-2
+I: Validating sysvinit-utils 3.10-2
 I: Validating tar 1.35+dfsg-3
 I: Validating tzdata 2024a-4
 I: Validating usr-is-merged 39
