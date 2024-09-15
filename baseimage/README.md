@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.9.8                           amd64  commandline package manager
 ii   base-files                   13.5                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
-ii   bash                         5.2.32-1                        amd64  GNU Bourne Again SHell
+ii   bash                         5.2.32-1+b1                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-8                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-8                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -161,7 +161,7 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.12.5-1+b1                     amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.6-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
@@ -217,8 +217,8 @@ ii   perl                         5.38.2-5                        amd64  Larry W
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
-ii   python3                      3.12.5-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.12.5-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.12.5-1+b1                     amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.5-1+b1                     amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.6-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
@@ -243,7 +243,7 @@ ii   vim-common                   2:9.1.0709-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.0709-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
-ii   zsh                          5.9-8                           amd64  shell with lots of features
+ii   zsh                          5.9-8+b1                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.6+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
