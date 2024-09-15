@@ -21,7 +21,7 @@ installed packages:
 ii   apt                      2.9.8                      amd64  commandline package manager
 ii   base-files               13.5                       amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.4                      amd64  Debian base system master password and group files
-ii   bash                     5.2.32-1                   amd64  GNU Bourne Again SHell
+ii   bash                     5.2.32-1+b1                amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.2-8                 amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.4-3.1                    amd64  GNU core utilities
 ii   dash                     0.5.12-9                   amd64  POSIX-compliant shell
