@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.50-3",
+    "Version": "1.50-4",
     "binary:Package": "libgpg-error0:amd64",
     "binary:Summary": "GnuPG development runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libgpg-error",
-    "source:Version": "1.50-3"
+    "source:Version": "1.50-4"
   },
   {
     "Architecture": "amd64",
