@@ -128,7 +128,7 @@ ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b1               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.6-2                         amd64  GNU TLS library - main runtime library
-ii   libgpg-error0                1.50-3                          amd64  GnuPG development runtime library
+ii   libgpg-error0                1.50-4                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.21.3-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10-1                          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -161,7 +161,7 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.12.5-1+b1                     amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.6-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
@@ -217,8 +217,8 @@ ii   perl                         5.38.2-5                        amd64  Larry W
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
 ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
-ii   python3                      3.12.5-1+b1                     amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.12.5-1+b1                     amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.6-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.6-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
