@@ -37,7 +37,7 @@ ii   gpgv                     2.2.43-8+b1                amd64  GNU privacy guar
 ii   grep                     3.11-4                     amd64  GNU grep, egrep and fgrep
 ii   gzip                     1.12-1.1                   amd64  GNU compression utilities
 ii   hostname                 3.23+nmu2                  amd64  utility to set/show the host name or domain name
-ii   init-system-helpers      1.66                       all    helper tools for all init systems
+ii   init-system-helpers      1.67                       all    helper tools for all init systems
 ii   libacl1                  2.3.2-2                    amd64  access control list - shared library
 ii   libapt-pkg6.0t64         2.9.8                      amd64  package management runtime library
 ii   libattr1                 1:2.5.2-1                  amd64  extended attribute handling - shared library

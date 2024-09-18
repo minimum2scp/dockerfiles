@@ -538,7 +538,7 @@
     "Depends": "usrmerge | usr-is-merged",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "130",
+    "Installed-Size": "129",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.66",
+    "Version": "1.67",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.66"
+    "source:Version": "1.67"
   },
   {
     "Architecture": "amd64",
