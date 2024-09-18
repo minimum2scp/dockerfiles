@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.10.0-2), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.10.1-1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "470",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.10.0-2",
+    "Version": "8.10.1-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.10.0-2"
+    "source:Version": "8.10.1-1"
   },
   {
     "Architecture": "amd64",
@@ -846,7 +846,7 @@
     "Depends": "usrmerge | usr-is-merged",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "130",
+    "Installed-Size": "129",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -857,7 +857,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.66",
+    "Version": "1.67",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.66"
+    "source:Version": "1.67"
   },
   {
     "Architecture": "all",
@@ -1430,7 +1430,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.10.0-2)",
+    "Breaks": "libcurl3-gnutls (<< 8.10.1-1)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1439,13 +1439,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.10.0-2)",
+    "Provides": "libcurl3-gnutls (= 8.10.1-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.10.0-2",
+    "Version": "8.10.1-1",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.10.0-2"
+    "source:Version": "8.10.1-1"
   },
   {
     "Architecture": "amd64",
