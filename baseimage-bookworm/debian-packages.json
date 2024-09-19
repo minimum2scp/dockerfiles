@@ -1599,7 +1599,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.25)",
+    "Depends": "libc6 (>= 2.36)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "387",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.0-1",
+    "Version": "2.5.0-1+deb12u1",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.5.0-1"
+    "source:Version": "2.5.0-1+deb12u1"
   },
   {
     "Architecture": "amd64",
