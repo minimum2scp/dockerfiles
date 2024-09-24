@@ -206,9 +206,9 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.8p1-8                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.8p1-8                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.8p1-8                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.9p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.9p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.9p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
@@ -222,7 +222,7 @@ ii   python3-minimal              3.12.6-1                        amd64  minimal
 ii   python3.12                   3.12.6-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2408.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2408.0-2                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
