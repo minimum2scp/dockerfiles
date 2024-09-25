@@ -46,8 +46,8 @@ ii   libaudit1                1:4.0.1-1                  amd64  Dynamic library 
 ii   libblkid1                2.40.2-8                   amd64  block device ID library
 ii   libbsd0                  0.12.2-1                   amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                    amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.40-2                     amd64  GNU C Library: Binaries
-ii   libc6                    2.40-2                     amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.40-3                     amd64  GNU C Library: Binaries
+ii   libc6                    2.40-3                     amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-2                    amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-5                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.1-1                   amd64  common error description library

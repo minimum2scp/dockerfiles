@@ -26,7 +26,6 @@ I: Validating gpgv 2.2.43-8+b1
 I: Validating grep 3.11-4
 I: Validating gzip 1.12-1.1
 I: Validating hostname 3.23+nmu2
-I: Retrieving init-system-helpers 1.67
 I: Validating init-system-helpers 1.67
 I: Validating libacl1 2.3.2-2
 I: Validating libapt-pkg6.0t64 2.9.8
@@ -36,8 +35,10 @@ I: Validating libaudit1 1:4.0.1-1
 I: Validating libblkid1 2.40.2-8
 I: Validating libbsd0 0.12.2-1
 I: Validating libbz2-1.0 1.0.8-6
-I: Validating libc-bin 2.40-2
-I: Validating libc6 2.40-2
+I: Retrieving libc-bin 2.40-3
+I: Validating libc-bin 2.40-3
+I: Retrieving libc6 2.40-3
+I: Validating libc6 2.40-3
 I: Validating libcap-ng0 0.8.5-2
 I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.1-1
