@@ -119,7 +119,7 @@ ii   liberror-perl                0.17029-2                       all    Perl mo
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.6.3-1                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ext3/ext4 file system libraries
-ii   libfastjson4                 1.2304.0-1+b1                   amd64  fast json library for C
+ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1                        amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14.2.0-5                        amd64  GCC support library
