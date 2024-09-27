@@ -2453,7 +2453,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.43.0-1+deb11u1",
+    "Version": "1.43.0-1+deb11u2",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -2461,7 +2461,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "nghttp2",
-    "source:Version": "1.43.0-1+deb11u1"
+    "source:Version": "1.43.0-1+deb11u2"
   },
   {
     "Architecture": "amd64",

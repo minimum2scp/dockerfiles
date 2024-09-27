@@ -147,7 +147,7 @@ ii   libncurses6             6.2+20201114-2+deb11u2              amd64  shared l
 ii   libncursesw6            6.2+20201114-2+deb11u2              amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8              3.7.3-1                             amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52             0.52.21-4+b3                        amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
-ii   libnghttp2-14           1.43.0-1+deb11u1                    amd64  library implementing HTTP/2 protocol (shared library)
+ii   libnghttp2-14           1.43.0-1+deb11u2                    amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnsl2                 1.3.0-2                             amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0             0.23.22-1                           amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules          1.4.0-9+deb11u1                     amd64  Pluggable Authentication Modules for PAM
