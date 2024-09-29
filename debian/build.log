@@ -22,7 +22,8 @@ I: Validating dpkg 1.22.11
 I: Validating e2fsprogs 1.47.1-1
 I: Validating findutils 4.10.0-3
 I: Validating gcc-14-base 14.2.0-5
-I: Validating gpgv 2.2.43-8+b1
+I: Retrieving gpgv 2.2.44-1
+I: Validating gpgv 2.2.44-1
 I: Validating grep 3.11-4
 I: Validating gzip 1.12-1.1
 I: Validating hostname 3.23+nmu2
@@ -35,9 +36,7 @@ I: Validating libaudit1 1:4.0.1-1
 I: Validating libblkid1 2.40.2-8
 I: Validating libbsd0 0.12.2-1
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.40-3
 I: Validating libc-bin 2.40-3
-I: Retrieving libc6 2.40-3
 I: Validating libc6 2.40-3
 I: Validating libcap-ng0 0.8.5-2
 I: Validating libcap2 1:2.66-5
