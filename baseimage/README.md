@@ -159,7 +159,7 @@ ii   libpcre2-8-0                 10.42-4+b1                      amd64  New Per
 ii   libperl5.38t64               5.38.2-5                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-5                       amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1                      amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.6-1                        amd64  Minimal subset of the Python language (version 3.12)
@@ -216,7 +216,7 @@ ii   passwd                       1:4.16.0-4                      amd64  change 
 ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
 ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
-ii   procps                       2:4.0.4-5                       amd64  /proc file system utilities
+ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.6-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.6-1                        amd64  Interactive high-level object-oriented language (version 3.12)
