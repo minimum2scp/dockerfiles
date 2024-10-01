@@ -3237,7 +3237,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.34.1-3",
+    "Version": "3.34.1-3+deb11u1",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3245,7 +3245,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.34.1-3"
+    "source:Version": "3.34.1-3+deb11u1"
   },
   {
     "Architecture": "amd64",
