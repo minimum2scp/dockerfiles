@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.24",
+    "Version": "3.25",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.24"
+    "source:Version": "3.25"
   },
   {
     "Architecture": "all",
@@ -954,8 +954,8 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-7)",
-    "Depends": "libc6 (>= 2.34)",
+    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-8)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1838",
@@ -963,13 +963,13 @@
     "Package": "libdb5.3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libdb5.3 (= 5.3.28+dfsg2-7)",
+    "Provides": "libdb5.3 (= 5.3.28+dfsg2-8)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg2-7",
+    "Version": "5.3.28+dfsg2-8",
     "binary:Package": "libdb5.3t64:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg2-7"
+    "source:Version": "5.3.28+dfsg2-8"
   },
   {
     "Architecture": "amd64",

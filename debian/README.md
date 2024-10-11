@@ -36,7 +36,7 @@ ii   gcc-14-base              14.2.0-6                   amd64  GCC, the GNU Com
 ii   gpgv                     2.2.44-1                   amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.11-4                     amd64  GNU grep, egrep and fgrep
 ii   gzip                     1.12-1.1                   amd64  GNU compression utilities
-ii   hostname                 3.24                       amd64  utility to set/show the host name or domain name
+ii   hostname                 3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.67                       all    helper tools for all init systems
 ii   libacl1                  2.3.2-2                    amd64  access control list - shared library
 ii   libapt-pkg6.0t64         2.9.8                      amd64  package management runtime library
@@ -52,7 +52,7 @@ ii   libcap-ng0               0.8.5-2                    amd64  alternate POSIX 
 ii   libcap2                  1:2.66-5                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.1-1                   amd64  common error description library
 ii   libcrypt1                1:4.4.36-5                 amd64  libcrypt shared library
-ii   libdb5.3t64              5.3.28+dfsg2-7             amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64              5.3.28+dfsg2-8             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.272                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2t64            1.47.1-1                   amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                  3.4.6-1                    amd64  Foreign Function Interface library runtime
