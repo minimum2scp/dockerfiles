@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.10.1-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.10.1-2), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "470",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.10.1-1",
+    "Version": "8.10.1-2",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.10.1-1"
+    "source:Version": "8.10.1-2"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.24",
+    "Version": "3.25",
     "binary:Package": "hostname",
     "binary:Summary": "utility to set/show the host name or domain name",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "hostname",
-    "source:Version": "3.24"
+    "source:Version": "3.25"
   },
   {
     "Architecture": "all",
@@ -1430,7 +1430,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.10.1-1)",
+    "Breaks": "libcurl3-gnutls (<< 8.10.1-2)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap-2.5-0 (>= 2.5.4), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1439,13 +1439,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.10.1-1)",
+    "Provides": "libcurl3-gnutls (= 8.10.1-2)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.10.1-1",
+    "Version": "8.10.1-2",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,13 +1453,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.10.1-1"
+    "source:Version": "8.10.1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-7)",
-    "Depends": "libc6 (>= 2.34)",
+    "Breaks": "libdb5.3 (<< 5.3.28+dfsg2-8)",
+    "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1838",
@@ -1467,13 +1467,13 @@
     "Package": "libdb5.3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libdb5.3 (= 5.3.28+dfsg2-7)",
+    "Provides": "libdb5.3 (= 5.3.28+dfsg2-8)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.3.28+dfsg2-7",
+    "Version": "5.3.28+dfsg2-8",
     "binary:Package": "libdb5.3t64:amd64",
     "binary:Summary": "Berkeley v5.3 Database Libraries [runtime]",
     "db:Status-Abbrev": "ii ",
@@ -1481,7 +1481,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "db5.3",
-    "source:Version": "5.3.28+dfsg2-7"
+    "source:Version": "5.3.28+dfsg2-8"
   },
   {
     "Architecture": "amd64",
