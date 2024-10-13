@@ -1014,7 +1014,7 @@
     "Depends": "libc6 (>= 2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "59",
+    "Installed-Size": "60",
     "Origin": "",
     "Package": "libattr1",
     "Pre-Depends": "",
@@ -1025,7 +1025,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.5.2-1",
+    "Version": "1:2.5.2-2",
     "binary:Package": "libattr1:amd64",
     "binary:Summary": "extended attribute handling - shared library",
     "db:Status-Abbrev": "ii ",
@@ -1033,7 +1033,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "attr",
-    "source:Version": "1:2.5.2-1"
+    "source:Version": "1:2.5.2-2"
   },
   {
     "Architecture": "all",

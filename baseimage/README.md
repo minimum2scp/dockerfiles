@@ -96,7 +96,7 @@ ii   insserv                      1.25.0-1                        amd64  boot se
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b1                      amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.8                           amd64  package management runtime library
-ii   libattr1                     1:2.5.2-1                       amd64  extended attribute handling - shared library
+ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.1-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.1-1                       amd64  Dynamic library for security auditing
 ii   libblkid1                    2.40.2-9                        amd64  block device ID library
