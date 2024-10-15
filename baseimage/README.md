@@ -112,7 +112,7 @@ ii   libcbor0.10                  0.10.2-2                        amd64  library
 ii   libcom-err2                  1.47.1-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.36-5                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.10.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libdb5.3t64                  5.3.28+dfsg2-8                  amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.272                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
@@ -136,7 +136,7 @@ ii   libk5crypto3                 1.21.3-3                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.18+dfsg-3                   amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.18+dfsg-3+b1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b1                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-3                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.2-2                         amd64  XZ-format compression library
@@ -156,7 +156,7 @@ ii   libpam-modules-bin           1.5.3-7                         amd64  Pluggab
 ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
 ii   libpam0g                     1.5.3-7                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4+b1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.38t64               5.38.2-5                        amd64  shared Perl library
+ii   libperl5.40                  5.40.0-6                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-1+b1                  amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
@@ -213,9 +213,9 @@ ii   openssl                      3.3.2-1                         amd64  Secure 
 ii   openssl-provider-legacy      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
-ii   perl                         5.38.2-5                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.38.2-5                        amd64  minimal Perl system
-ii   perl-modules-5.38            5.38.2-5                        all    Core Perl modules
+ii   perl                         5.40.0-6                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.40.0-6                        amd64  minimal Perl system
+ii   perl-modules-5.40            5.40.0-6                        all    Core Perl modules
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.6-1                        amd64  minimal subset of the Python language (default python3 version)
@@ -240,7 +240,7 @@ ii   unzip                        6.0-28                          amd64  De-arch
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.2-9                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0777-1                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0777-1                    amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-tiny                     2:9.1.0777-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
 ii   zsh                          5.9-8+b1                        amd64  shell with lots of features
