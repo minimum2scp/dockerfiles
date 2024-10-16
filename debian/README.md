@@ -52,7 +52,7 @@ ii   libcap-ng0               0.8.5-2                    amd64  alternate POSIX 
 ii   libcap2                  1:2.66-5                   amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.1-1                   amd64  common error description library
 ii   libcrypt1                1:4.4.36-5                 amd64  libcrypt shared library
-ii   libdb5.3t64              5.3.28+dfsg2-8             amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64              5.3.28+dfsg2-9             amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.272                      amd64  Debian Configuration Management System (C-implementation library)
 ii   libext2fs2t64            1.47.1-1                   amd64  ext2/ext3/ext4 file system libraries
 ii   libffi8                  3.4.6-1                    amd64  Foreign Function Interface library runtime
@@ -102,7 +102,7 @@ ii   openssl-provider-legacy  3.3.2-1                    amd64  Secure Sockets L
 ii   passwd                   1:4.16.0-4                 amd64  change and administer password and group data
 ii   perl-base                5.40.0-6                   amd64  minimal Perl system
 ii   sed                      4.9-2                      amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils           3.10-2                     amd64  System-V-like utilities
+ii   sysvinit-utils           3.10-3                     amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2024b-3                    all    time zone and daylight-saving time data
 ii   usr-is-merged            39                         all    Transitional package to assert a merged-/usr system

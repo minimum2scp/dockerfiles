@@ -41,7 +41,8 @@ I: Validating libcap-ng0 0.8.5-2
 I: Validating libcap2 1:2.66-5
 I: Validating libcom-err2 1.47.1-1
 I: Validating libcrypt1 1:4.4.36-5
-I: Validating libdb5.3t64 5.3.28+dfsg2-8
+I: Retrieving libdb5.3t64 5.3.28+dfsg2-9
+I: Validating libdb5.3t64 5.3.28+dfsg2-9
 I: Validating libdebconfclient0 0.272
 I: Validating libext2fs2t64 1.47.1-1
 I: Validating libffi8 3.4.6-1
@@ -89,10 +90,10 @@ I: Validating ncurses-base 6.5-2
 I: Validating ncurses-bin 6.5-2
 I: Validating openssl-provider-legacy 3.3.2-1
 I: Validating passwd 1:4.16.0-4
-I: Retrieving perl-base 5.40.0-6
 I: Validating perl-base 5.40.0-6
 I: Validating sed 4.9-2
-I: Validating sysvinit-utils 3.10-2
+I: Retrieving sysvinit-utils 3.10-3
+I: Validating sysvinit-utils 3.10-3
 I: Validating tar 1.35+dfsg-3
 I: Validating tzdata 2024b-3
 I: Validating usr-is-merged 39
