@@ -133,7 +133,7 @@ ii   libgssapi-krb5-2             1.21.3-3                        amd64  MIT Ker
 ii   libhogweed6t64               3.10-1                          amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-3                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1                 1.6.3-3                         amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1                 1.6.3-3.1                       amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.18+dfsg-3+b1                amd64  OpenLDAP libraries
@@ -243,7 +243,7 @@ ii   vim-common                   2:9.1.0777-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.0777-1+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-2+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1        amd64  compression library - runtime
-ii   zsh                          5.9-8+b1                        amd64  shell with lots of features
+ii   zsh                          5.9-8+b2                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.6+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```

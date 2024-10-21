@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.6.3-3",
+    "Version": "1.6.3-3.1",
     "binary:Package": "libkeyutils1:amd64",
     "binary:Summary": "Linux Key Management Utilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "keyutils",
-    "source:Version": "1.6.3-3"
+    "source:Version": "1.6.3-3.1"
   },
   {
     "Architecture": "amd64",
@@ -5141,7 +5141,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-8+b1",
+    "Version": "5.9-8+b2",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
