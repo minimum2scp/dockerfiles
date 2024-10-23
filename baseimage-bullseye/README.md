@@ -156,7 +156,7 @@ ii   libpam-runtime          1.4.0-9+deb11u1                     all    Runtime 
 ii   libpam0g                1.4.0-9+deb11u1                     amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0            10.36-2+deb11u1                     amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libpcre3                2:8.39-13                           amd64  Old Perl 5 Compatible Regular Expression Library - runtime files
-ii   libperl5.32             5.32.1-4+deb11u3                    amd64  shared Perl library
+ii   libperl5.32             5.32.1-4+deb11u4                    amd64  shared Perl library
 ii   libpipeline1            1.5.3-1                             amd64  Unix process pipeline manipulation library
 ii   libpopt0                1.18-2                              amd64  lib for parsing cmdline parameters
 ii   libprocps8              2:3.3.17-5                          amd64  library for accessing process information from /proc
@@ -172,7 +172,7 @@ ii   libseccomp2             2.5.1-1+deb11u1                     amd64  high lev
 ii   libselinux1             3.1-3                               amd64  SELinux runtime shared libraries
 ii   libsemanage-common      3.1-1                               all    Common files for SELinux policy management libraries
 ii   libsemanage1            3.1-1+b2                            amd64  SELinux policy management library
-ii   libsepol1               3.1-1                               amd64  SELinux library for manipulating binary security policies
+ii   libsepol1               3.1-1+deb11u1                       amd64  SELinux library for manipulating binary security policies
 ii   libslang2               2.3.2-5                             amd64  S-Lang programming library - runtime version
 ii   libsmartcols1           2.36.1-8+deb11u2                    amd64  smart column output alignment library
 ii   libsqlite3-0            3.34.1-3+deb11u1                    amd64  SQLite 3 shared library
@@ -210,9 +210,9 @@ ii   openssh-server          1:8.4p1-5+deb11u3                   amd64  secure s
 ii   openssh-sftp-server     1:8.4p1-5+deb11u3                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1w-0+deb11u1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1                           amd64  change and administer password and group data
-ii   perl                    5.32.1-4+deb11u3                    amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base               5.32.1-4+deb11u3                    amd64  minimal Perl system
-ii   perl-modules-5.32       5.32.1-4+deb11u3                    all    Core Perl modules
+ii   perl                    5.32.1-4+deb11u4                    amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base               5.32.1-4+deb11u4                    amd64  minimal Perl system
+ii   perl-modules-5.32       5.32.1-4+deb11u4                    all    Core Perl modules
 ii   procps                  2:3.3.17-5                          amd64  /proc file system utilities
 ii   python3                 3.9.2-3                             amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal         3.9.2-3                             amd64  minimal subset of the Python language (default python3 version)

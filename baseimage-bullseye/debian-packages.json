@@ -2691,10 +2691,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.093), libcompress-raw-zlib-perl (<< 2.093), libcompress-zlib-perl (<< 2.093), libdigest-md5-perl (<< 2.55.01), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.06), libfilter-perl (<< 1.59), libio-compress-base-perl (<< 2.093), libio-compress-bzip2-perl (<< 2.093), libio-compress-perl (<< 2.093), libio-compress-zlib-perl (<< 2.093), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.21), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.25), libthreads-shared-perl (<< 1.61), libtime-hires-perl (<< 1.9764), libtime-piece-perl (<< 1.3401)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.32 (>= 5.32.1-4+deb11u3)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.32 (>= 5.32.1-4+deb11u4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "27869",
+    "Installed-Size": "27875",
     "Origin": "",
     "Package": "libperl5.32",
     "Pre-Depends": "",
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.32.1-4+deb11u3",
+    "Version": "5.32.1-4+deb11u4",
     "binary:Package": "libperl5.32:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.32.1-4+deb11u3"
+    "source:Version": "5.32.1-4+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -3142,7 +3142,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "743",
+    "Installed-Size": "755",
     "Origin": "",
     "Package": "libsepol1",
     "Pre-Depends": "",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1-1",
+    "Version": "3.1-1+deb11u1",
     "binary:Package": "libsepol1:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "3.1-1"
+    "source:Version": "3.1-1+deb11u1"
   },
   {
     "Architecture": "amd64",
@@ -4203,10 +4203,10 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.32.1-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.32.1-4+deb11u3), perl-modules-5.32 (>= 5.32.1-4+deb11u3), libperl5.32 (= 5.32.1-4+deb11u3)",
+    "Depends": "perl-base (= 5.32.1-4+deb11u4), perl-modules-5.32 (>= 5.32.1-4+deb11u4), libperl5.32 (= 5.32.1-4+deb11u4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "705",
+    "Installed-Size": "706",
     "Origin": "",
     "Package": "perl",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -4217,7 +4217,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.32.1-4+deb11u3",
+    "Version": "5.32.1-4+deb11u4",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -4225,7 +4225,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.32.1-4+deb11u3"
+    "source:Version": "5.32.1-4+deb11u4"
   },
   {
     "Architecture": "amd64",
@@ -4234,7 +4234,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7664",
+    "Installed-Size": "7665",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -4245,7 +4245,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.32.1-4+deb11u3",
+    "Version": "5.32.1-4+deb11u4",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.32.1-4+deb11u3"
+    "source:Version": "5.32.1-4+deb11u4"
   },
   {
     "Architecture": "all",
@@ -4262,7 +4262,7 @@
     "Depends": "perl-base (>= 5.32.1-1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "17455",
+    "Installed-Size": "17459",
     "Origin": "",
     "Package": "perl-modules-5.32",
     "Pre-Depends": "dpkg (>= 1.17.17)",
@@ -4273,7 +4273,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.32.1-4+deb11u3",
+    "Version": "5.32.1-4+deb11u4",
     "binary:Package": "perl-modules-5.32",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.32.1-4+deb11u3"
+    "source:Version": "5.32.1-4+deb11u4"
   },
   {
     "Architecture": "amd64",
