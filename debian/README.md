@@ -18,12 +18,12 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.9                      amd64  commandline package manager
+ii   apt                      2.9.10                     amd64  commandline package manager
 ii   base-files               13.5                       amd64  Debian base system miscellaneous files
-ii   base-passwd              3.6.4                      amd64  Debian base system master password and group files
+ii   base-passwd              3.6.5                      amd64  Debian base system master password and group files
 ii   bash                     5.2.32-1+b2                amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.2-9                 amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils                9.4-3.1                    amd64  GNU core utilities
+ii   coreutils                9.5-1+b1                   amd64  GNU core utilities
 ii   dash                     0.5.12-9                   amd64  POSIX-compliant shell
 ii   debconf                  1.5.87                     all    Debian configuration management system
 ii   debian-archive-keyring   2023.4                     all    GnuPG archive keys of the Debian archive
@@ -39,7 +39,7 @@ ii   gzip                     1.12-1.1                   amd64  GNU compression 
 ii   hostname                 3.25                       amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.67                       all    helper tools for all init systems
 ii   libacl1                  2.3.2-2                    amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.9                      amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.10                     amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                  amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.1-1                  all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.1-1                  amd64  Dynamic library for security auditing
@@ -102,7 +102,7 @@ ii   openssl-provider-legacy  3.3.2-1                    amd64  Secure Sockets L
 ii   passwd                   1:4.16.0-4                 amd64  change and administer password and group data
 ii   perl-base                5.40.0-6                   amd64  minimal Perl system
 ii   sed                      4.9-2                      amd64  GNU stream editor for filtering/transforming text
-ii   sysvinit-utils           3.10-3                     amd64  System-V-like utilities
+ii   sysvinit-utils           3.11-1                     amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2024b-3                    all    time zone and daylight-saving time data
 ii   usr-is-merged            39                         all    Transitional package to assert a merged-/usr system
