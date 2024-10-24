@@ -61,15 +61,15 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.9                           amd64  commandline package manager
+ii   apt                          2.9.10                          amd64  commandline package manager
 ii   base-files                   13.5                            amd64  Debian base system miscellaneous files
-ii   base-passwd                  3.6.4                           amd64  Debian base system master password and group files
+ii   base-passwd                  3.6.5                           amd64  Debian base system master password and group files
 ii   bash                         5.2.32-1+b2                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-9                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-9                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20240203                        all    Common CA certificates
-ii   coreutils                    9.4-3.1                         amd64  GNU core utilities
+ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.10.1-2                        amd64  command line tool for transferring data with URL syntax
@@ -83,19 +83,19 @@ ii   e2fsprogs                    1.47.1-1                        amd64  ext2/ex
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.45.2-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.45.2-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.45.2-1.1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.45.2-1.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.44-1                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-5                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.67                            all    helper tools for all init systems
-ii   initscripts                  3.10-3                          all    scripts for initializing and shutting down the system
+ii   initscripts                  3.11-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.25.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2                         amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b1                      amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.9                           amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.10                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.1-1                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.1-1                       amd64  Dynamic library for security auditing
@@ -206,9 +206,9 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.9p1-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.9p1-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.9p1-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.9p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.9p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.9p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
@@ -222,16 +222,16 @@ ii   python3-minimal              3.12.6-1                        amd64  minimal
 ii   python3.12                   3.12.7-1                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.7-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
-ii   rsyslog                      8.2408.0-2                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2410.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.3                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.15p5-3+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  256.7-2                         amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.10-3                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.10-3                          amd64  System-V-like init
-ii   sysvinit-utils               3.10-3                          amd64  System-V-like utilities
+ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.11-1                          amd64  System-V-like init
+ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.1.3-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024b-3                         all    time zone and daylight-saving time data
