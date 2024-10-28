@@ -81,7 +81,7 @@ ii   libsemanage2             3.7-2                      amd64  SELinux policy m
 ii   libsepol2                3.7-1                      amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.40.2-9                   amd64  smart column output alignment library
 ii   libss2                   1.47.1-1                   amd64  command-line interface parsing library
-ii   libssl3t64               3.3.2-1                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64               3.3.2-2                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-7                   amd64  GNU Standard C++ Library v3
 ii   libsystemd0              256.7-2                    amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3+b2                amd64  Manage ASN.1 structures (runtime)
@@ -98,7 +98,7 @@ ii   mawk                     1.3.4.20240905-1           amd64  Pattern scanning
 ii   mount                    2.40.2-9                   amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5-2                      all    basic terminal type definitions
 ii   ncurses-bin              6.5-2                      amd64  terminal-related programs and man pages
-ii   openssl-provider-legacy  3.3.2-1                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy  3.3.2-2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.16.0-4                 amd64  change and administer password and group data
 ii   perl-base                5.40.0-6                   amd64  minimal Perl system
 ii   sed                      4.9-2                      amd64  GNU stream editor for filtering/transforming text
