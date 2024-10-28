@@ -117,7 +117,7 @@ ii   libdebconfclient0            0.272                           amd64  Debian 
 ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b1                     amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.6.3-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.6.3-2                         amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.1-1                        amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
@@ -178,7 +178,7 @@ ii   libsmartcols1                2.40.2-9                        amd64  smart c
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.1-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.3.2-1                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-7                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  256.7-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b2                     amd64  Manage ASN.1 structures (runtime)
@@ -206,11 +206,11 @@ ii   ncurses-base                 6.5-2                           all    basic t
 ii   ncurses-bin                  6.5-2                           amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.9p1-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.9p1-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.9p1-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.3.2-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssh-client               1:9.9p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.9p1-3                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.9p1-3                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssl                      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
 ii   perl                         5.40.0-6                        amd64  Larry Wall's Practical Extraction and Report Language
