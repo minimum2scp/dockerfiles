@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.0.1-1",
+    "Version": "1:4.0.1-2",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1061,13 +1061,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.0.1-1"
+    "source:Version": "1:4.0.1-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:4.0.1-1), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:4.0.1-2), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "177",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.0.1-1",
+    "Version": "1:4.0.1-2",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.0.1-1"
+    "source:Version": "1:4.0.1-2"
   },
   {
     "Architecture": "amd64",
@@ -2750,7 +2750,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "246",
+    "Installed-Size": "245",
     "Origin": "",
     "Package": "libpopt0",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.19+dfsg-1+b2",
+    "Version": "1.19+dfsg-2",
     "binary:Package": "libpopt0:amd64",
     "binary:Summary": "lib for parsing cmdline parameters",
     "db:Status-Abbrev": "ii ",
@@ -2769,7 +2769,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "popt",
-    "source:Version": "1.19+dfsg-1"
+    "source:Version": "1.19+dfsg-2"
   },
   {
     "Architecture": "amd64",

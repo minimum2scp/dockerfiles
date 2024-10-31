@@ -97,8 +97,8 @@ ii   libacl1                      2.3.2-2+b1                      amd64  access 
 ii   libapparmor1                 3.1.7-1+b2                      amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.10                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
-ii   libaudit-common              1:4.0.1-1                       all    Dynamic library for security auditing - common files
-ii   libaudit1                    1:4.0.1-1                       amd64  Dynamic library for security auditing
+ii   libaudit-common              1:4.0.1-2                       all    Dynamic library for security auditing - common files
+ii   libaudit1                    1:4.0.1-2                       amd64  Dynamic library for security auditing
 ii   libblkid1                    2.40.2-9                        amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b5                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
@@ -158,7 +158,7 @@ ii   libpam0g                     1.5.3-7+b1                      amd64  Pluggab
 ii   libpcre2-8-0                 10.42-4+b2                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.0-6                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
-ii   libpopt0                     1.19+dfsg-1+b2                  amd64  lib for parsing cmdline parameters
+ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
