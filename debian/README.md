@@ -33,7 +33,7 @@ ii   dpkg                     1.22.11                      amd64  Debian package
 ii   e2fsprogs                1.47.1-1+b1                  amd64  ext2/ext3/ext4 file system utilities
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-7                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   gpgv                     2.2.45-1                     amd64  GNU privacy guard - signature verification tool
+ii   gpgv                     2.2.45-2                     amd64  GNU privacy guard - signature verification tool
 ii   grep                     3.11-4                       amd64  GNU grep, egrep and fgrep
 ii   gzip                     1.12-1.1                     amd64  GNU compression utilities
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
