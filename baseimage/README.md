@@ -82,7 +82,7 @@ ii   dpkg                         1.22.11                         amd64  Debian 
 ii   e2fsprogs                    1.47.1-1+b1                     amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.2.0-7                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.2.0-8                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1.1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.45-2                        amd64  GNU privacy guard - signature verification tool
@@ -113,7 +113,7 @@ ii   libcom-err2                  1.47.1-1+b1                     amd64  common 
 ii   libcrypt1                    1:4.4.36-5                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.10.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.272+b1                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.273                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b2                     amd64  Helper functions for handling strings (lib)
@@ -122,7 +122,7 @@ ii   libext2fs2t64                1.47.1-1+b1                     amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.2.0-7                        amd64  GCC support library
+ii   libgcc-s1                    14.2.0-8                        amd64  GCC support library
 ii   libgcrypt20                  1.11.0-6                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
@@ -179,14 +179,14 @@ ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 
 ii   libss2                       1.47.1-1+b1                     amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.2.0-7                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  256.7-2                         amd64  systemd utility library
+ii   libstdc++6                   14.2.0-8                        amd64  GNU Standard C++ Library v3
+ii   libsystemd0                  256.7-3                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     256.7-2                         amd64  libudev shared library
+ii   libudev1                     256.7-3                         amd64  libudev shared library
 ii   libunistring5                1.2-1+b1                        amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-9                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse Venema's TCP wrappers library
@@ -228,7 +228,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16-2                        amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  256.7-2                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  256.7-3                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
