@@ -3310,7 +3310,7 @@
     "Depends": "libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4128",
+    "Installed-Size": "4129",
     "Origin": "",
     "Package": "libssl1.1",
     "Pre-Depends": "",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.1.1w-0+deb11u1",
+    "Version": "1.1.1w-0+deb11u2",
     "binary:Package": "libssl1.1:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1w-0+deb11u1"
+    "source:Version": "1.1.1w-0+deb11u2"
   },
   {
     "Architecture": "amd64",
@@ -4150,7 +4150,7 @@
     "Depends": "libc6 (>= 2.15), libssl1.1 (>= 1.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1471",
+    "Installed-Size": "1472",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -4161,7 +4161,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "1.1.1w-0+deb11u1",
+    "Version": "1.1.1w-0+deb11u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -4169,7 +4169,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "1.1.1w-0+deb11u1"
+    "source:Version": "1.1.1w-0+deb11u2"
   },
   {
     "Architecture": "amd64",
