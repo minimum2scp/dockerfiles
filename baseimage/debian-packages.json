@@ -2691,7 +2691,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libfilter-perl (<< 1.64), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.0-6)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.0-7)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "29357",
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.40.0-6",
+    "Version": "5.40.0-7",
     "binary:Package": "libperl5.40:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-6"
+    "source:Version": "5.40.0-7"
   },
   {
     "Architecture": "amd64",
@@ -2862,7 +2862,7 @@
     "Depends": "libc6 (>= 2.14), libssl3t64 (>= 3.3.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5177",
+    "Installed-Size": "5179",
     "Origin": "",
     "Package": "libpython3.12-minimal",
     "Pre-Depends": "",
@@ -2873,7 +2873,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.7-1",
+    "Version": "3.12.7-2",
     "binary:Package": "libpython3.12-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -2881,16 +2881,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.7-1"
+    "source:Version": "3.12.7-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.12-testsuite (<< 3.12.0-3~), python3-gdbm (<< 3.9.9-1~)",
-    "Depends": "libpython3.12-minimal (= 3.12.7-1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3t64 (>= 1.0.2), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.12-minimal (= 3.12.7-2), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3t64 (>= 1.0.2), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9060",
+    "Installed-Size": "9068",
     "Origin": "",
     "Package": "libpython3.12-stdlib",
     "Pre-Depends": "",
@@ -2901,7 +2901,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.7-1",
+    "Version": "3.12.7-2",
     "binary:Package": "libpython3.12-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -2909,7 +2909,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.7-1"
+    "source:Version": "3.12.7-2"
   },
   {
     "Architecture": "amd64",
@@ -4287,7 +4287,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.40.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.40.0-6), perl-modules-5.40 (>= 5.40.0-6), libperl5.40 (= 5.40.0-6)",
+    "Depends": "perl-base (= 5.40.0-7), perl-modules-5.40 (>= 5.40.0-7), libperl5.40 (= 5.40.0-7)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "843",
@@ -4301,7 +4301,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.40.0-6",
+    "Version": "5.40.0-7",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-6"
+    "source:Version": "5.40.0-7"
   },
   {
     "Architecture": "amd64",
@@ -4318,7 +4318,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7854",
+    "Installed-Size": "7858",
     "Origin": "",
     "Package": "perl-base",
     "Pre-Depends": "libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
@@ -4329,7 +4329,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.40.0-6",
+    "Version": "5.40.0-7",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-6"
+    "source:Version": "5.40.0-7"
   },
   {
     "Architecture": "all",
@@ -4357,7 +4357,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.40.0-6",
+    "Version": "5.40.0-7",
     "binary:Package": "perl-modules-5.40",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-6"
+    "source:Version": "5.40.0-7"
   },
   {
     "Architecture": "amd64",
@@ -4455,7 +4455,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.12-minimal (= 3.12.7-1), libpython3.12-stdlib (= 3.12.7-1), media-types | mime-support, tzdata",
+    "Depends": "python3.12-minimal (= 3.12.7-2), libpython3.12-stdlib (= 3.12.7-2), media-types | mime-support, tzdata",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "746",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.12-venv, python3.12-doc, binutils",
-    "Version": "3.12.7-1",
+    "Version": "3.12.7-2",
     "binary:Package": "python3.12",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -4477,13 +4477,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.7-1"
+    "source:Version": "3.12.7-2"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.12-minimal (= 3.12.7-1), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.12-minimal (= 3.12.7-2), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "7960",
@@ -4497,7 +4497,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.12.7-1",
+    "Version": "3.12.7-2",
     "binary:Package": "python3.12-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.7-1"
+    "source:Version": "3.12.7-2"
   },
   {
     "Architecture": "all",

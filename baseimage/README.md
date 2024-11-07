@@ -156,14 +156,14 @@ ii   libpam-modules-bin           1.5.3-7+b1                      amd64  Pluggab
 ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
 ii   libpam0g                     1.5.3-7+b1                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.42-4+b2                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.40                  5.40.0-6                        amd64  shared Perl library
+ii   libperl5.40                  5.40.0-7                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.7-1                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.7-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.7-2                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.7-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
@@ -213,14 +213,14 @@ ii   openssl                      3.3.2-2                         amd64  Secure 
 ii   openssl-provider-legacy      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.16                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
-ii   perl                         5.40.0-6                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.40.0-6                        amd64  minimal Perl system
-ii   perl-modules-5.40            5.40.0-6                        all    Core Perl modules
+ii   perl                         5.40.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.40.0-7                        amd64  minimal Perl system
+ii   perl-modules-5.40            5.40.0-7                        all    Core Perl modules
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.6-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.6-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.7-1                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.7-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.7-2                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.7-2                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2410.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
