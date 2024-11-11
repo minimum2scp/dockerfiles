@@ -127,7 +127,7 @@ ii   libgcrypt20                  1.11.0-6                        amd64  LGPL Cr
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-2+b2               amd64  Multiprecision arithmetic library
-ii   libgnutls30t64               3.8.6-2+b1                      amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64               3.8.8-2                         amd64  GNU TLS library - main runtime library
 ii   libgpg-error0                1.50-4                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.21.3-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10-1+b1                       amd64  low level cryptographic library (public-key cryptos)
@@ -192,7 +192,7 @@ ii   libuuid1                     2.40.2-10                       amd64  Univers
 ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-1+b1                 amd64  fast lossless compression algorithm
-ii   localepurge                  0.7.3.10                        all    reclaim disk space by removing unneeded localizations
+ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.40-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.2-10      amd64  system login tools
 ii   login.defs                   1:4.16.0-4                      all    system user management configuration
