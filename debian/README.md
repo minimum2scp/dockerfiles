@@ -59,7 +59,7 @@ ii   libffi8                  3.4.6-1                      amd64  Foreign Functi
 ii   libgcc-s1                14.2.0-8                     amd64  GCC support library
 ii   libgcrypt20              1.11.0-6                     amd64  LGPL Crypto library - runtime library
 ii   libgmp10                 2:6.3.0+dfsg-2+b2            amd64  Multiprecision arithmetic library
-ii   libgnutls30t64           3.8.6-2+b1                   amd64  GNU TLS library - main runtime library
+ii   libgnutls30t64           3.8.8-2                      amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.50-4                       amd64  GnuPG development runtime library
 ii   libhogweed6t64           3.10-1+b1                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.7-2+b1                   amd64  Internationalized domain names (IDNA2008/TR46) library

@@ -48,7 +48,8 @@ I: Validating libffi8 3.4.6-1
 I: Validating libgcc-s1 14.2.0-8
 I: Validating libgcrypt20 1.11.0-6
 I: Validating libgmp10 2:6.3.0+dfsg-2+b2
-I: Validating libgnutls30t64 3.8.6-2+b1
+I: Retrieving libgnutls30t64 3.8.8-2
+I: Validating libgnutls30t64 3.8.8-2
 I: Validating libgpg-error0 1.50-4
 I: Validating libhogweed6t64 3.10-1+b1
 I: Validating libidn2-0 2.3.7-2+b1
@@ -72,11 +73,9 @@ I: Validating libsmartcols1 2.40.2-10
 I: Validating libss2 1.47.1-1+b1
 I: Validating libssl3t64 3.3.2-2
 I: Validating libstdc++6 14.2.0-8
-I: Retrieving libsystemd0 257~rc1-4
 I: Validating libsystemd0 257~rc1-4
 I: Validating libtasn1-6 4.19.0-3+b3
 I: Validating libtinfo6 6.5-2+b1
-I: Retrieving libudev1 257~rc1-4
 I: Validating libudev1 257~rc1-4
 I: Validating libunistring5 1.2-1+b1
 I: Validating libuuid1 2.40.2-10
