@@ -1042,7 +1042,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "24",
+    "Installed-Size": "25",
     "Origin": "",
     "Package": "libaudit-common",
     "Pre-Depends": "",
@@ -1053,7 +1053,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.0.1-3",
+    "Version": "1:4.0.2-1",
     "binary:Package": "libaudit-common",
     "binary:Summary": "Dynamic library for security auditing - common files",
     "db:Status-Abbrev": "ii ",
@@ -1061,16 +1061,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.0.1-3"
+    "source:Version": "1:4.0.2-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libaudit-common (>= 1:4.0.1-3), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
+    "Depends": "libaudit-common (>= 1:4.0.2-1), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "177",
+    "Installed-Size": "178",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.0.1-3",
+    "Version": "1:4.0.2-1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "audit",
-    "source:Version": "1:4.0.1-3"
+    "source:Version": "1:4.0.2-1"
   },
   {
     "Architecture": "amd64",
