@@ -48,7 +48,7 @@ ii   libbsd0                  0.12.2-2                     amd64  utility functi
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.40-3                       amd64  GNU C Library: Binaries
 ii   libc6                    2.40-3                       amd64  GNU C Library: Shared libraries
-ii   libcap-ng0               0.8.5-3                      amd64  alternate POSIX capabilities library
+ii   libcap-ng0               0.8.5-3+b1                   amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-5+b1                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.1-1+b1                  amd64  common error description library
 ii   libcrypt1                1:4.4.36-5                   amd64  libcrypt shared library
@@ -74,8 +74,8 @@ ii   libpam-modules-bin       1.5.3-7+b1                   amd64  Pluggable Auth
 ii   libpam-runtime           1.5.3-7                      all    Runtime support for the PAM library
 ii   libpam0g                 1.5.3-7+b1                   amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-4+b2                   amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libseccomp2              2.5.5-1+b2                   amd64  high level interface to Linux seccomp filter
-ii   libselinux1              3.7-3                        amd64  SELinux runtime shared libraries
+ii   libseccomp2              2.5.5-1+b3                   amd64  high level interface to Linux seccomp filter
+ii   libselinux1              3.7-3+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.7-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.7-2                        amd64  SELinux policy management library
 ii   libsepol2                3.7-1                        amd64  SELinux library for manipulating binary security policies
