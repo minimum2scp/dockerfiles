@@ -71,7 +71,7 @@ ii   bzip2                   1.0.8-4                             amd64  high-qua
 ii   ca-certificates         20210119                            all    Common CA certificates
 ii   coreutils               8.32-4+b1                           amd64  GNU core utilities
 ii   cron                    3.0pl1-137                          amd64  process scheduling daemon
-ii   curl                    7.74.0-1.3+deb11u13                 amd64  command line tool for transferring data with URL syntax
+ii   curl                    7.74.0-1.3+deb11u14                 amd64  command line tool for transferring data with URL syntax
 ii   dash                    0.5.11+git20200708+dd9ef66-5        amd64  POSIX-compliant shell
 ii   debconf                 1.5.77                              all    Debian configuration management system
 ii   debian-archive-keyring  2021.1.1+deb11u1                    all    GnuPG archive keys of the Debian archive
@@ -110,8 +110,8 @@ ii   libcap2                 1:2.44-1                            amd64  POSIX 10
 ii   libcbor0                0.5.0+dfsg-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2             1.46.2-2+deb11u1                    amd64  common error description library
 ii   libcrypt1               1:4.4.18-4                          amd64  libcrypt shared library
-ii   libcurl3-gnutls         7.74.0-1.3+deb11u13                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4                7.74.0-1.3+deb11u13                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3-gnutls         7.74.0-1.3+deb11u14                 amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4                7.74.0-1.3+deb11u14                 amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3                5.3.28+dfsg1-0.8                    amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0       0.260                               amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                3.1-20191231-2+b1                   amd64  BSD editline and history libraries
