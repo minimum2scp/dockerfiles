@@ -27,7 +27,7 @@ ii   coreutils                9.5-1+b1                     amd64  GNU core utili
 ii   dash                     0.5.12-9                     amd64  POSIX-compliant shell
 ii   debconf                  1.5.87                       all    Debian configuration management system
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
-ii   debianutils              5.20                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-1                     amd64  File comparison utilities
 ii   dpkg                     1.22.11                      amd64  Debian package management system
 ii   e2fsprogs                1.47.1-1+b1                  amd64  ext2/ext3/ext4 file system utilities
@@ -73,7 +73,7 @@ ii   libpam-modules           1.5.3-7+b1                   amd64  Pluggable Auth
 ii   libpam-modules-bin       1.5.3-7+b1                   amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.5.3-7                      all    Runtime support for the PAM library
 ii   libpam0g                 1.5.3-7+b1                   amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.44-2                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.44-4                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2              2.5.5-1+b3                   amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.7-3+b1                     amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.7-2                        all    Common files for SELinux policy management libraries
@@ -83,23 +83,23 @@ ii   libsmartcols1            2.40.2-11                    amd64  smart column o
 ii   libss2                   1.47.1-1+b1                  amd64  command-line interface parsing library
 ii   libssl3t64               3.3.2-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-8                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257~rc1-4                    amd64  systemd utility library
+ii   libsystemd0              257~rc2-3                    amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3+b3                  amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257~rc1-4                    amd64  libudev shared library
+ii   libudev1                 257~rc2-3                    amd64  libudev shared library
 ii   libunistring5            1.2-1+b1                     amd64  Unicode string library for C
 ii   libuuid1                 2.40.2-11                    amd64  Universally Unique ID library
 ii   libxxhash0               0.8.2-2+b2                   amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-1+b1              amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.2-11   amd64  system login tools
-ii   login.defs               1:4.16.0-4                   all    system user management configuration
+ii   login.defs               1:4.16.0-5                   all    system user management configuration
 ii   logsave                  1.47.1-1+b1                  amd64  save the output of a command in a log file
 ii   mawk                     1.3.4.20240905-1             amd64  Pattern scanning and text processing language
 ii   mount                    2.40.2-11                    amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5-2                        all    basic terminal type definitions
 ii   ncurses-bin              6.5-2+b1                     amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.3.2-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                   1:4.16.0-4                   amd64  change and administer password and group data
+ii   passwd                   1:4.16.0-5                   amd64  change and administer password and group data
 ii   perl-base                5.40.0-7                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils           3.11-1                       amd64  System-V-like utilities
