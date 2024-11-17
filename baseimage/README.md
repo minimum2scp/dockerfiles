@@ -76,7 +76,7 @@ ii   curl                         8.11.0-1                        amd64  command
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.87                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
-ii   debianutils                  5.20                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
 ii   dpkg                         1.22.11                         amd64  Debian package management system
 ii   e2fsprogs                    1.47.1-1+b1                     amd64  ext2/ext3/ext4 file system utilities
@@ -155,7 +155,7 @@ ii   libpam-modules               1.5.3-7+b1                      amd64  Pluggab
 ii   libpam-modules-bin           1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
 ii   libpam0g                     1.5.3-7+b1                      amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.44-2                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.44-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.0-7                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
@@ -180,13 +180,13 @@ ii   libss2                       1.47.1-1+b1                     amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257~rc1-4                       amd64  systemd utility library
+ii   libsystemd0                  257~rc2-3                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257~rc1-4                       amd64  libudev shared library
+ii   libudev1                     257~rc2-3                       amd64  libudev shared library
 ii   libunistring5                1.2-1+b1                        amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-11                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse Venema's TCP wrappers library
@@ -195,7 +195,7 @@ ii   libzstd1                     1.5.6+dfsg-1+b1                 amd64  fast lo
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.40-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.2-11      amd64  system login tools
-ii   login.defs                   1:4.16.0-4                      all    system user management configuration
+ii   login.defs                   1:4.16.0-5                      all    system user management configuration
 ii   logsave                      1.47.1-1+b1                     amd64  save the output of a command in a log file
 ii   lv                           4.51-9                          amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
@@ -212,7 +212,7 @@ ii   openssh-sftp-server          1:9.9p1-3                       amd64  secure 
 ii   openssl                      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.17                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.16.0-4                      amd64  change and administer password and group data
+ii   passwd                       1:4.16.0-5                      amd64  change and administer password and group data
 ii   perl                         5.40.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.0-7                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.0-7                        all    Core Perl modules
@@ -228,7 +228,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257~rc1-4                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257~rc2-3                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
