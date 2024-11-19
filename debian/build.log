@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 2.9.11
+I: Retrieving apt 2.9.12
+I: Validating apt 2.9.12
 I: Validating base-files 13.5
 I: Validating base-passwd 3.6.5
 I: Validating bash 5.2.32-1+b2
@@ -16,7 +17,6 @@ I: Validating coreutils 9.5-1+b1
 I: Validating dash 0.5.12-9
 I: Validating debconf 1.5.87
 I: Validating debian-archive-keyring 2023.4
-I: Retrieving debianutils 5.21
 I: Validating debianutils 5.21
 I: Validating diffutils 1:3.10-1
 I: Validating dpkg 1.22.11
@@ -29,7 +29,8 @@ I: Validating gzip 1.12-1.1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.67
 I: Validating libacl1 2.3.2-2+b1
-I: Validating libapt-pkg6.0t64 2.9.11
+I: Retrieving libapt-pkg6.0t64 2.9.12
+I: Validating libapt-pkg6.0t64 2.9.12
 I: Validating libattr1 1:2.5.2-2
 I: Validating libaudit-common 1:4.0.2-2
 I: Validating libaudit1 1:4.0.2-2
@@ -63,7 +64,6 @@ I: Validating libpam-modules 1.5.3-7+b1
 I: Validating libpam-modules-bin 1.5.3-7+b1
 I: Validating libpam-runtime 1.5.3-7
 I: Validating libpam0g 1.5.3-7+b1
-I: Retrieving libpcre2-8-0 10.44-4
 I: Validating libpcre2-8-0 10.44-4
 I: Validating libseccomp2 2.5.5-1+b3
 I: Validating libselinux1 3.7-3+b1
@@ -74,18 +74,15 @@ I: Validating libsmartcols1 2.40.2-11
 I: Validating libss2 1.47.1-1+b1
 I: Validating libssl3t64 3.3.2-2
 I: Validating libstdc++6 14.2.0-8
-I: Retrieving libsystemd0 257~rc2-3
 I: Validating libsystemd0 257~rc2-3
 I: Validating libtasn1-6 4.19.0-3+b3
 I: Validating libtinfo6 6.5-2+b1
-I: Retrieving libudev1 257~rc2-3
 I: Validating libudev1 257~rc2-3
 I: Validating libunistring5 1.2-1+b1
 I: Validating libuuid1 2.40.2-11
 I: Validating libxxhash0 0.8.2-2+b2
 I: Validating libzstd1 1.5.6+dfsg-1+b1
 I: Validating login 1:4.16.0-2+really2.40.2-11
-I: Retrieving login.defs 1:4.16.0-5
 I: Validating login.defs 1:4.16.0-5
 I: Validating logsave 1.47.1-1+b1
 I: Validating mawk 1.3.4.20240905-1
@@ -93,7 +90,6 @@ I: Validating mount 2.40.2-11
 I: Validating ncurses-base 6.5-2
 I: Validating ncurses-bin 6.5-2+b1
 I: Validating openssl-provider-legacy 3.3.2-2
-I: Retrieving passwd 1:4.16.0-5
 I: Validating passwd 1:4.16.0-5
 I: Validating perl-base 5.40.0-7
 I: Validating sed 4.9-2
