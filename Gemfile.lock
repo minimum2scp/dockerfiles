@@ -43,7 +43,7 @@ GEM
       rspec-its
       specinfra (~> 2.72)
     sfl (2.3)
-    specinfra (2.90.1)
+    specinfra (2.91.0)
       base64
       net-scp
       net-ssh (>= 2.7)
