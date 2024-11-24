@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40-3",
+    "Version": "2.40-4",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-3"
+    "source:Version": "2.40-4"
   },
   {
     "Architecture": "all",
@@ -1249,7 +1249,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40-3",
+    "Version": "2.40-4",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-3"
+    "source:Version": "2.40-4"
   },
   {
     "Architecture": "amd64",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.40-3",
+    "Version": "2.40-4",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-3"
+    "source:Version": "2.40-4"
   },
   {
     "Architecture": "amd64",
@@ -2691,7 +2691,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.212), libcompress-raw-zlib-perl (<< 2.212), libcompress-zlib-perl (<< 2.212), libdigest-md5-perl (<< 2.58.01), libdigest-sha-perl (<< 6.04), libencode-perl (<< 3.21), libfilter-perl (<< 1.64), libio-compress-base-perl (<< 2.212), libio-compress-bzip2-perl (<< 2.212), libio-compress-perl (<< 2.212), libio-compress-zlib-perl (<< 2.212), libmime-base64-perl (<< 3.16.01), libstorable-perl (<< 3.32), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.40), libthreads-shared-perl (<< 1.69), libtime-hires-perl (<< 1.9777), libtime-piece-perl (<< 1.3401.01)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.0-7)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libgdbm-compat4t64 (>= 1.18-3), libgdbm6t64 (>= 1.21), zlib1g (>= 1:1.2.3.3), perl-modules-5.40 (>= 5.40.0-8)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "29357",
@@ -2705,7 +2705,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.40.0-7",
+    "Version": "5.40.0-8",
     "binary:Package": "libperl5.40:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2713,7 +2713,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-7"
+    "source:Version": "5.40.0-8"
   },
   {
     "Architecture": "amd64",
@@ -3741,7 +3741,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40-3",
+    "Version": "2.40-4",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3749,7 +3749,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-3"
+    "source:Version": "2.40-4"
   },
   {
     "Architecture": "amd64",
@@ -4287,13 +4287,13 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.40.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.40.0-7), perl-modules-5.40 (>= 5.40.0-7), libperl5.40 (= 5.40.0-7)",
+    "Depends": "perl-base (= 5.40.0-8), perl-modules-5.40 (>= 5.40.0-8), libperl5.40 (= 5.40.0-8)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "843",
+    "Installed-Size": "840",
     "Origin": "",
     "Package": "perl",
-    "Pre-Depends": "dpkg (>= 1.17.17)",
+    "Pre-Depends": "",
     "Priority": "standard",
     "Provides": "libansicolor-perl (= 5.01), libarchive-tar-perl (= 3.02.001), libattribute-handlers-perl (= 1.03), libautodie-perl (= 2.37), libcompress-raw-bzip2-perl (= 2.212), libcompress-raw-zlib-perl (= 2.212), libcompress-zlib-perl (= 2.212), libcpan-meta-perl (= 2.150010), libcpan-meta-requirements-perl (= 2.143), libcpan-meta-yaml-perl (= 0.018), libdigest-md5-perl (= 2.58.01), libdigest-perl (= 1.20), libdigest-sha-perl (= 6.04), libencode-perl (= 3.21), libexperimental-perl (= 0.032), libextutils-cbuilder-perl (= 0.280240), libextutils-command-perl (= 7.70), libextutils-install-perl (= 2.22), libextutils-parsexs-perl (= 3.510000), libfile-spec-perl (= 3.9000), libhttp-tiny-perl (= 0.088), libi18n-langtags-perl (= 0.45), libio-compress-base-perl (= 2.212), libio-compress-bzip2-perl (= 2.212), libio-compress-perl (= 2.212), libio-compress-zlib-perl (= 2.212), libio-zlib-perl (= 1.15), libjson-pp-perl (= 4.16000), liblocale-maketext-perl (= 1.33), liblocale-maketext-simple-perl (= 0.21.01), libmath-bigint-perl (= 2.003002), libmath-complex-perl (= 1.6200), libmime-base64-perl (= 3.16.01), libmodule-corelist-perl (= 5.20240609), libmodule-load-conditional-perl (= 0.74), libmodule-load-perl (= 0.36), libmodule-metadata-perl (= 1.000038), libnet-perl (= 1:3.15), libnet-ping-perl (= 2.76), libparams-check-perl (= 0.38), libparent-perl (= 0.241), libparse-cpan-meta-perl (= 2.150010), libperl-ostype-perl (= 1.010), libpod-escapes-perl (= 1.07), libpod-simple-perl (= 3.45), libstorable-perl (= 3.32), libsys-syslog-perl (= 0.36), libterm-table-perl (= 0.018), libtest-harness-perl (= 3.48), libtest-simple-perl (= 1.302199), libtest-tester-perl (= 1.302199), libtest-use-ok-perl (= 1.302199), libtext-balanced-perl (= 2.06), libthread-queue-perl (= 3.14), libthreads-perl (= 2.40), libthreads-shared-perl (= 1.69), libtime-hires-perl (= 1.9777), libtime-local-perl (= 1.3500), libtime-piece-perl (= 1.3401.01), libunicode-collate-perl (= 1.31), libversion-perl (= 1:0.9930), libversion-requirements-perl, podlators-perl (= 5.01.02)",
     "Recommends": "netbase",
@@ -4301,7 +4301,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.40.0-7",
+    "Version": "5.40.0-8",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-7"
+    "source:Version": "5.40.0-8"
   },
   {
     "Architecture": "amd64",
@@ -4318,10 +4318,10 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7858",
+    "Installed-Size": "7854",
     "Origin": "",
     "Package": "perl-base",
-    "Pre-Depends": "libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), dpkg (>= 1.17.17)",
+    "Pre-Depends": "libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0)",
     "Priority": "required",
     "Provides": "libfile-path-perl (= 2.18), libfile-temp-perl (= 0.2311), libio-socket-ip-perl (= 0.42), libscalar-list-utils-perl (= 1:1.63), libsocket-perl (= 2.038), libxsloader-perl (= 0.32), perlapi-5.40.0",
     "Recommends": "",
@@ -4329,7 +4329,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.40.0-7",
+    "Version": "5.40.0-8",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4337,7 +4337,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-7"
+    "source:Version": "5.40.0-8"
   },
   {
     "Architecture": "all",
@@ -4349,7 +4349,7 @@
     "Installed-Size": "19943",
     "Origin": "",
     "Package": "perl-modules-5.40",
-    "Pre-Depends": "dpkg (>= 1.17.17)",
+    "Pre-Depends": "",
     "Priority": "optional",
     "Provides": "perl-modules",
     "Recommends": "perl (>= 5.40.0-1)",
@@ -4357,7 +4357,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.40.0-7",
+    "Version": "5.40.0-8",
     "binary:Package": "perl-modules-5.40",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4365,7 +4365,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.40.0-7"
+    "source:Version": "5.40.0-8"
   },
   {
     "Architecture": "amd64",

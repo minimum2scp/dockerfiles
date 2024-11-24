@@ -103,9 +103,9 @@ ii   libblkid1                    2.40.2-11                       amd64  block d
 ii   libbrotli1                   1.1.0-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.40-3                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.40-3                          all    GNU C Library: localization files
-ii   libc6                        2.40-3                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.40-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.40-4                          all    GNU C Library: localization files
+ii   libc6                        2.40-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-3+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -156,7 +156,7 @@ ii   libpam-modules-bin           1.5.3-7+b1                      amd64  Pluggab
 ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
 ii   libpam0g                     1.5.3-7+b1                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.44-4                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.40                  5.40.0-7                        amd64  shared Perl library
+ii   libperl5.40                  5.40.0-8                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
@@ -193,7 +193,7 @@ ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse 
 ii   libxxhash0                   0.8.2-2+b2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-1+b1                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.40-3                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.40-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.2-11      amd64  system login tools
 ii   login.defs                   1:4.16.0-5                      all    system user management configuration
 ii   logsave                      1.47.1-1+b1                     amd64  save the output of a command in a log file
@@ -213,9 +213,9 @@ ii   openssl                      3.3.2-2                         amd64  Secure 
 ii   openssl-provider-legacy      3.3.2-2                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.17                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-5                      amd64  change and administer password and group data
-ii   perl                         5.40.0-7                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.40.0-7                        amd64  minimal Perl system
-ii   perl-modules-5.40            5.40.0-7                        all    Core Perl modules
+ii   perl                         5.40.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.40.0-8                        amd64  minimal Perl system
+ii   perl-modules-5.40            5.40.0-8                        all    Core Perl modules
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.7-1                        amd64  minimal subset of the Python language (default python3 version)
