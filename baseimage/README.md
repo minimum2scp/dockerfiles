@@ -168,7 +168,7 @@ ii   libreadline8t64              8.2-5                           amd64  GNU rea
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-8                  amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2                  2.5.5-1+b3                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2                  2.5.5-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.7-3+b1                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.7-2                           all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.7-2+b1                        amd64  SELinux policy management library
