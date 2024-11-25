@@ -35,9 +35,7 @@ I: Validating libaudit1 1:4.0.2-2
 I: Validating libblkid1 2.40.2-11
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.40-4
 I: Validating libc-bin 2.40-4
-I: Retrieving libc6 2.40-4
 I: Validating libc6 2.40-4
 I: Validating libcap-ng0 0.8.5-3+b1
 I: Validating libcap2 1:2.66-5+b1
@@ -65,7 +63,8 @@ I: Validating libpam-modules-bin 1.5.3-7+b1
 I: Validating libpam-runtime 1.5.3-7
 I: Validating libpam0g 1.5.3-7+b1
 I: Validating libpcre2-8-0 10.44-4
-I: Validating libseccomp2 2.5.5-1+b3
+I: Retrieving libseccomp2 2.5.5-2
+I: Validating libseccomp2 2.5.5-2
 I: Validating libselinux1 3.7-3+b1
 I: Validating libsemanage-common 3.7-2
 I: Validating libsemanage2 3.7-2+b1
@@ -91,7 +90,6 @@ I: Validating ncurses-base 6.5-2
 I: Validating ncurses-bin 6.5-2+b1
 I: Validating openssl-provider-legacy 3.3.2-2
 I: Validating passwd 1:4.16.0-5
-I: Retrieving perl-base 5.40.0-8
 I: Validating perl-base 5.40.0-8
 I: Validating sed 4.9-2
 I: Validating sysvinit-utils 3.11-1
