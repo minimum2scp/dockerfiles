@@ -233,7 +233,7 @@ ii   sysv-rc                      3.11-1                          all    System-
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
-ii   tree                         2.1.3-1                         amd64  displays an indented directory tree, in color
+ii   tree                         2.2.0-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024b-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
