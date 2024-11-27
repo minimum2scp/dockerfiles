@@ -146,9 +146,9 @@ ii   libncursesw6                 6.5-2+b1                        amd64  shared 
 ii   libnettle8t64                3.10-1+b1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnghttp3-9                 1.4.0-1+b1                      amd64  HTTP/3 library with QUIC and QPACK (library)
-ii   libngtcp2-16                 1.6.0-1                         amd64  implementation of QUIC protocol (library)
-ii   libngtcp2-crypto-gnutls8     1.6.0-1                         amd64  implementation of QUIC protocol (library)
+ii   libnghttp3-9                 1.6.0-1                         amd64  HTTP/3 library with QUIC and QPACK (library)
+ii   libngtcp2-16                 1.9.1-1                         amd64  implementation of QUIC protocol (library)
+ii   libngtcp2-crypto-gnutls8     1.9.1-1                         amd64  implementation of QUIC protocol (library)
 ii   libnsl2                      1.3.0-3+b3                      amd64  Public client interface for NIS(YP) and NIS+
 ii   libp11-kit0                  0.25.5-2+b1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM
@@ -233,7 +233,7 @@ ii   sysv-rc                      3.11-1                          all    System-
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
-ii   tree                         2.2.0-1                         amd64  displays an indented directory tree, in color
+ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024b-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
