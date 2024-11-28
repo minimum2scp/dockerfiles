@@ -106,7 +106,7 @@ ii   libbz2-1.0                   1.0.8-6                         amd64  high-qu
 ii   libc-bin                     2.40-4                          amd64  GNU C Library: Binaries
 ii   libc-l10n                    2.40-4                          all    GNU C Library: localization files
 ii   libc6                        2.40-4                          amd64  GNU C Library: Shared libraries
-ii   libcap-ng0                   0.8.5-3+b1                      amd64  alternate POSIX capabilities library
+ii   libcap-ng0                   0.8.5-4                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.1-1+b1                     amd64  common error description library
@@ -180,13 +180,13 @@ ii   libss2                       1.47.1-1+b1                     amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257~rc2-3                       amd64  systemd utility library
+ii   libsystemd0                  257~rc3-1                       amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257~rc2-3                       amd64  libudev shared library
+ii   libudev1                     257~rc3-1                       amd64  libudev shared library
 ii   libunistring5                1.2-1+b1                        amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-11                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse Venema's TCP wrappers library
@@ -228,7 +228,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257~rc2-3                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257~rc3-1                       amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
