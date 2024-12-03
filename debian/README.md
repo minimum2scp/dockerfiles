@@ -58,9 +58,9 @@ ii   libext2fs2t64            1.47.2~rc1-1                 amd64  ext2/ext3/ext4
 ii   libffi8                  3.4.6-1                      amd64  Foreign Function Interface library runtime
 ii   libgcc-s1                14.2.0-8                     amd64  GCC support library
 ii   libgcrypt20              1.11.0-6                     amd64  LGPL Crypto library - runtime library
-ii   libgmp10                 2:6.3.0+dfsg-2+b2            amd64  Multiprecision arithmetic library
+ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64           3.8.8-2                      amd64  GNU TLS library - main runtime library
-ii   libgpg-error0            1.50-4                       amd64  GnuPG development runtime library
+ii   libgpg-error0            1.51-2                       amd64  GnuPG development runtime library
 ii   libhogweed6t64           3.10-1+b1                    amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                2.3.7-2+b1                   amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   liblz4-1                 1.9.4-3+b1                   amd64  Fast LZ compression algorithm library - runtime
@@ -104,7 +104,7 @@ ii   perl-base                5.40.0-8                     amd64  minimal Perl s
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sysvinit-utils           3.11-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3                  amd64  GNU version of the tar archiving utility
-ii   tzdata                   2024b-3                      all    time zone and daylight-saving time data
+ii   tzdata                   2024b-4                      all    time zone and daylight-saving time data
 ii   usr-is-merged            39                           all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.40.2-11                    amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
