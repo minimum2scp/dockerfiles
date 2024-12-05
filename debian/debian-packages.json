@@ -90,7 +90,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7195",
+    "Installed-Size": "7199",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.38), libtinfo6 (>= 6)",
@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.32-1+b2",
+    "Version": "5.2.37-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -109,7 +109,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.2.32-1"
+    "source:Version": "5.2.37-1"
   },
   {
     "Architecture": "amd64",
@@ -1938,7 +1938,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1797",
+    "Installed-Size": "2092",
     "Origin": "",
     "Package": "libunistring5",
     "Pre-Depends": "",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.2-1+b1",
+    "Version": "1.3-1",
     "binary:Package": "libunistring5:amd64",
     "binary:Summary": "Unicode string library for C",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libunistring",
-    "source:Version": "1.2-1"
+    "source:Version": "1.3-1"
   },
   {
     "Architecture": "amd64",
