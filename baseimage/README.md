@@ -64,7 +64,7 @@ ii   adduser                      3.137                           all    add and
 ii   apt                          2.9.16                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.5                           amd64  Debian base system master password and group files
-ii   bash                         5.2.32-1+b2                     amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-11                       amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-11                     amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -162,8 +162,8 @@ ii   libpopt0                     1.19+dfsg-2                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.7-3                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.7-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.8-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.8-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
@@ -187,7 +187,7 @@ ii   libtirpc-common              1.3.4+ds-1.3                    all    transpo
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
 ii   libudev1                     257~rc3-1                       amd64  libudev shared library
-ii   libunistring5                1.2-1+b1                        amd64  Unicode string library for C
+ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-11                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-33+b1                     amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b2                      amd64  shared library for xxhash
@@ -219,8 +219,8 @@ ii   perl-modules-5.40            5.40.0-8                        all    Core Pe
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.7-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.7-3                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.7-3                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.8-1                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.8-1                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2410.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
@@ -235,7 +235,7 @@ ii   sysvinit-utils               3.11-1                          amd64  System-
 ii   tar                          1.35+dfsg-3                     amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024b-4                         all    time zone and daylight-saving time data
-ii   ucf                          3.0043+nmu1                     all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                          3.0045                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   usr-is-merged                39                              all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.2-11                       amd64  miscellaneous system utilities
