@@ -87,7 +87,7 @@ ii   git                          1:2.45.2-1.2                    amd64  fast, s
 ii   git-man                      1:2.45.2-1.2                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.45-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-5                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.23.0-6                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.67                            all    helper tools for all init systems

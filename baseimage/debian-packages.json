@@ -762,7 +762,7 @@
     "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "4143",
+    "Installed-Size": "4164",
     "Origin": "",
     "Package": "groff-base",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "text",
     "Status": "install ok installed",
     "Suggests": "groff",
-    "Version": "1.23.0-5",
+    "Version": "1.23.0-6",
     "binary:Package": "groff-base",
     "binary:Summary": "GNU troff text-formatting system (base system components)",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "groff",
-    "source:Version": "1.23.0-5"
+    "source:Version": "1.23.0-6"
   },
   {
     "Architecture": "amd64",
