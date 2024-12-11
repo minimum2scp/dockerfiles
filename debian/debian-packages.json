@@ -479,13 +479,13 @@
     "Architecture": "amd64",
     "Conflicts": "zutils (<< 1.13-2~)",
     "Breaks": "",
-    "Depends": "dpkg (>= 1.15.4) | install-info",
+    "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "246",
+    "Installed-Size": "251",
     "Origin": "",
     "Package": "gzip",
-    "Pre-Depends": "libc6 (>= 2.34)",
+    "Pre-Depends": "libc6 (>= 2.38)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -493,7 +493,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.12-1.1",
+    "Version": "1.12-1.2",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -501,7 +501,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.12-1.1"
+    "source:Version": "1.12-1.2"
   },
   {
     "Architecture": "amd64",
@@ -1826,7 +1826,7 @@
     "Depends": "libc6 (>= 2.39), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1213",
+    "Installed-Size": "1214",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -1837,7 +1837,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257~rc3-1",
+    "Version": "257-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1845,7 +1845,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257~rc3-1"
+    "source:Version": "257-1"
   },
   {
     "Architecture": "amd64",
@@ -1910,7 +1910,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "351",
+    "Installed-Size": "352",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1921,7 +1921,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257~rc3-1",
+    "Version": "257-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1929,7 +1929,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257~rc3-1"
+    "source:Version": "257-1"
   },
   {
     "Architecture": "amd64",
