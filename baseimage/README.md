@@ -88,7 +88,7 @@ ii   git-man                      1:2.45.2-1.2                    all    fast, s
 ii   gpgv                         2.2.45-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-6                        amd64  GNU troff text-formatting system (base system components)
-ii   gzip                         1.12-1.1                        amd64  GNU compression utilities
+ii   gzip                         1.12-1.2                        amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.67                            all    helper tools for all init systems
 ii   initscripts                  3.11-1                          all    scripts for initializing and shutting down the system
@@ -180,13 +180,13 @@ ii   libss2                       1.47.2~rc1-2                    amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-8                        amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257~rc3-1                       amd64  systemd utility library
+ii   libsystemd0                  257-1                           amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257~rc3-1                       amd64  libudev shared library
+ii   libudev1                     257-1                           amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-12                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
@@ -228,7 +228,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257~rc3-1                       amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257-1                           amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
