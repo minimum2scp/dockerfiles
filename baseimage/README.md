@@ -72,7 +72,7 @@ ii   ca-certificates              20240203                        all    Common 
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
-ii   curl                         8.11.0-1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.11.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
 ii   debconf                      1.5.87                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -111,7 +111,7 @@ ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2~rc1-2                    amd64  common error description library
 ii   libcrypt1                    1:4.4.36-5                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.11.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3t64-gnutls           8.11.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.274                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
@@ -162,8 +162,8 @@ ii   libpopt0                     1.19+dfsg-2                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.12-minimal        3.12.8-1                        amd64  Minimal subset of the Python language (version 3.12)
-ii   libpython3.12-stdlib         3.12.8-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
+ii   libpython3.12-minimal        3.12.8-2                        amd64  Minimal subset of the Python language (version 3.12)
+ii   libpython3.12-stdlib         3.12.8-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-5                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8                  amd64  Cyrus SASL - authentication abstraction library
@@ -219,8 +219,8 @@ ii   perl-modules-5.40            5.40.0-8                        all    Core Pe
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
 ii   python3                      3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.12.7-1                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.12                   3.12.8-1                        amd64  Interactive high-level object-oriented language (version 3.12)
-ii   python3.12-minimal           3.12.8-1                        amd64  Minimal subset of the Python language (version 3.12)
+ii   python3.12                   3.12.8-2                        amd64  Interactive high-level object-oriented language (version 3.12)
+ii   python3.12-minimal           3.12.8-2                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-5                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2410.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
