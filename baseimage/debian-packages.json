@@ -2873,7 +2873,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.8-2",
+    "Version": "3.12.8-3",
     "binary:Package": "libpython3.12-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -2881,13 +2881,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.8-2"
+    "source:Version": "3.12.8-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libpython3.12-testsuite (<< 3.12.0-3~), python3-gdbm (<< 3.9.9-1~)",
-    "Depends": "libpython3.12-minimal (= 3.12.8-2), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3t64 (>= 1.0.2), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.12-minimal (= 3.12.8-3), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3t64 (>= 1.0.2), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "9087",
@@ -2901,7 +2901,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.12.8-2",
+    "Version": "3.12.8-3",
     "binary:Package": "libpython3.12-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -2909,12 +2909,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.8-2"
+    "source:Version": "3.12.8-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libreadline8 (<< 8.2-5)",
+    "Breaks": "libreadline8 (<< 8.2-6)",
     "Depends": "readline-common, libc6 (>= 2.38), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
@@ -2923,13 +2923,13 @@
     "Package": "libreadline8t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libreadline8 (= 8.2-5)",
+    "Provides": "libreadline8 (= 8.2-6)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.2-5",
+    "Version": "8.2-6",
     "binary:Package": "libreadline8t64:amd64",
     "binary:Summary": "GNU readline and history libraries, run-time libraries",
     "db:Status-Abbrev": "ii ",
@@ -2937,7 +2937,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.2-5"
+    "source:Version": "8.2-6"
   },
   {
     "Architecture": "amd64",
@@ -4455,7 +4455,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.12-minimal (= 3.12.8-2), libpython3.12-stdlib (= 3.12.8-2), media-types | mime-support, tzdata",
+    "Depends": "python3.12-minimal (= 3.12.8-3), libpython3.12-stdlib (= 3.12.8-3), media-types | mime-support, tzdata",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "752",
@@ -4469,7 +4469,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.12-venv, python3.12-doc, binutils",
-    "Version": "3.12.8-2",
+    "Version": "3.12.8-3",
     "binary:Package": "python3.12",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -4477,16 +4477,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.8-2"
+    "source:Version": "3.12.8-3"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.12-minimal (= 3.12.8-2), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.12-minimal (= 3.12.8-3), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "7965",
+    "Installed-Size": "7961",
     "Origin": "",
     "Package": "python3.12-minimal",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -4497,7 +4497,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.12.8-2",
+    "Version": "3.12.8-3",
     "binary:Package": "python3.12-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.12)",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.12",
-    "source:Version": "3.12.8-2"
+    "source:Version": "3.12.8-3"
   },
   {
     "Architecture": "all",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "readline-doc",
-    "Version": "8.2-5",
+    "Version": "8.2-6",
     "binary:Package": "readline-common",
     "binary:Summary": "GNU readline and history libraries, common files",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "readline",
-    "source:Version": "8.2-5"
+    "source:Version": "8.2-6"
   },
   {
     "Architecture": "amd64",
