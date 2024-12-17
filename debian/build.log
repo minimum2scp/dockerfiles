@@ -21,7 +21,8 @@ I: Validating diffutils 1:3.10-1
 I: Validating dpkg 1.22.11
 I: Validating e2fsprogs 1.47.2~rc1-2
 I: Validating findutils 4.10.0-3
-I: Validating gcc-14-base 14.2.0-8
+I: Retrieving gcc-14-base 14.2.0-11
+I: Validating gcc-14-base 14.2.0-11
 I: Validating gpgv 2.2.45-2
 I: Validating grep 3.11-4
 I: Validating gzip 1.12-1.2
@@ -45,7 +46,8 @@ I: Validating libdb5.3t64 5.3.28+dfsg2-9
 I: Validating libdebconfclient0 0.274
 I: Validating libext2fs2t64 1.47.2~rc1-2
 I: Validating libffi8 3.4.6-1
-I: Validating libgcc-s1 14.2.0-8
+I: Retrieving libgcc-s1 14.2.0-11
+I: Validating libgcc-s1 14.2.0-11
 I: Validating libgcrypt20 1.11.0-6
 I: Validating libgmp10 2:6.3.0+dfsg-3
 I: Validating libgnutls30t64 3.8.8-2
@@ -71,12 +73,11 @@ I: Validating libsepol2 3.7-1
 I: Validating libsmartcols1 2.40.2-12
 I: Validating libss2 1.47.2~rc1-2
 I: Validating libssl3t64 3.3.2-2
-I: Validating libstdc++6 14.2.0-8
-I: Retrieving libsystemd0 257-2
+I: Retrieving libstdc++6 14.2.0-11
+I: Validating libstdc++6 14.2.0-11
 I: Validating libsystemd0 257-2
 I: Validating libtasn1-6 4.19.0-3+b3
 I: Validating libtinfo6 6.5-2+b1
-I: Retrieving libudev1 257-2
 I: Validating libudev1 257-2
 I: Validating libunistring5 1.3-1
 I: Validating libuuid1 2.40.2-12
