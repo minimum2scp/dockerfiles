@@ -16,12 +16,15 @@ apt-get install --no-install-recommends -y gnupg
 ## install GPG key
 ##
 curl -sSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | \
-  gpg --no-default-keyring --keyring /usr/share/keyrings/elasticsearch.gpg --import
+  gpg --no-default-keyring --keyring /tmp/elasticsearch.gpg --import
+gpg --no-default-keyring --keyring /tmp/elasticsearch.gpg \
+  --export --output /etc/apt/keyrings/elasticsearch.gpg
+rm /tmp/elasticsearch.gpg
 
 ##
 ## add apt-line for elasticsearch, kibana
 ##
-echo "deb [signed-by=/usr/share/keyrings/elasticsearch.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" > /etc/apt/sources.list.d/elastic-7.x.list
+echo "deb [signed-by=/etc/apt/keyrings/elasticsearch.gpg] https://artifacts.elastic.co/packages/7.x/apt stable main" > /etc/apt/sources.list.d/elastic-7.x.list
 etckeeper commit "apt: Added apt-line for elasticsearch"
 apt-get update
 
