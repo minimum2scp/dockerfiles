@@ -332,7 +332,7 @@ describe 'minimum2scp/baseimage-stretch' do
     end
 
     describe command('docker --version') do
-      its(:stdout){ should start_with('Docker version 24.0.7, ') }
+      its(:stdout){ should start_with('Docker version 27.4.0, ') }
     end
   end
 
