@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.17                       amd64  commandline package manager
+ii   apt                      2.9.18                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.5                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -39,7 +39,7 @@ ii   gzip                     1.12-1.2                     amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.67                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.17                       amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.18                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2                    amd64  Dynamic library for security auditing
@@ -83,10 +83,10 @@ ii   libsmartcols1            2.40.2-12                    amd64  smart column o
 ii   libss2                   1.47.2~rc1-2                 amd64  command-line interface parsing library
 ii   libssl3t64               3.3.2-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-11                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257-2                        amd64  systemd utility library
+ii   libsystemd0              257.1-1                      amd64  systemd utility library
 ii   libtasn1-6               4.19.0-3+b3                  amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257-2                        amd64  libudev shared library
+ii   libudev1                 257.1-1                      amd64  libudev shared library
 ii   libunistring5            1.3-1                        amd64  Unicode string library for C
 ii   libuuid1                 2.40.2-12                    amd64  Universally Unique ID library
 ii   libxxhash0               0.8.2-2+b2                   amd64  shared library for xxhash
