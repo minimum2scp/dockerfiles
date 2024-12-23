@@ -68,7 +68,7 @@ ii   bash                         5.2.37-1                        amd64  GNU Bou
 ii   bsdextrautils                2.40.2-12                       amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-12                     amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
-ii   ca-certificates              20240203                        all    Common CA certificates
+ii   ca-certificates              20241223                        all    Common CA certificates
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
@@ -80,11 +80,11 @@ ii   debianutils                  5.21                            amd64  Miscell
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
 ii   dpkg                         1.22.11                         amd64  Debian package management system
 ii   e2fsprogs                    1.47.2~rc1-2                    amd64  ext2/ext3/ext4 file system utilities
-ii   etckeeper                    1.18.21-1                       all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-11                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.45.2-1.2                    amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.45.2-1.2                    all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.45.2-1.3                    amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.45.2-1.3                    all    fast, scalable, distributed revision control system (manual pages)
 ii   gpgv                         2.2.45-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-6                        amd64  GNU troff text-formatting system (base system components)
@@ -92,7 +92,7 @@ ii   gzip                         1.12-1.2                        amd64  GNU com
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.67                            all    helper tools for all init systems
 ii   initscripts                  3.11-1                          all    scripts for initializing and shutting down the system
-ii   insserv                      1.25.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b3                      amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.18                          amd64  package management runtime library
@@ -180,13 +180,13 @@ ii   libss2                       1.47.2~rc1-2                    amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-11                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.1-3                         amd64  systemd utility library
+ii   libsystemd0                  257.1-4                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.1-3                         amd64  libudev shared library
+ii   libudev1                     257.1-4                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-12                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
@@ -228,7 +228,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.1-3                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.1-4                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities

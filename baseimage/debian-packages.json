@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "386",
+    "Installed-Size": "397",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20240203",
+    "Version": "20241223",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20240203"
+    "source:Version": "20241223"
   },
   {
     "Architecture": "amd64",
@@ -577,7 +577,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.21-1",
+    "Version": "1.18.22-1",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -585,7 +585,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.21-1"
+    "source:Version": "1.18.22-1"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": "libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.2), git-man (<< 1:2.45.2-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "48427",
+    "Installed-Size": "48431",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.45.2-1.2",
+    "Version": "1:2.45.2-1.3",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.45.2-1.2"
+    "source:Version": "1:2.45.2-1.3"
   },
   {
     "Architecture": "all",
@@ -678,7 +678,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2207",
+    "Installed-Size": "2206",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -689,7 +689,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.45.2-1.2",
+    "Version": "1:2.45.2-1.3",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -697,7 +697,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.45.2-1.2"
+    "source:Version": "1:2.45.2-1.3"
   },
   {
     "Architecture": "amd64",
@@ -913,7 +913,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "bootchart2",
-    "Version": "1.25.0-1",
+    "Version": "1.26.0-1",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.25.0-1"
+    "source:Version": "1.26.0-1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.1-3",
+    "Version": "257.1-4",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-3"
+    "source:Version": "257.1-4"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.1-3",
+    "Version": "257.1-4",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-3"
+    "source:Version": "257.1-4"
   },
   {
     "Architecture": "amd64",
@@ -4715,13 +4715,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 257.1-3)",
+    "Provides": "systemd-sysusers (= 257.1-4)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "257.1-3",
+    "Version": "257.1-4",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4729,7 +4729,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-3"
+    "source:Version": "257.1-4"
   },
   {
     "Architecture": "all",
