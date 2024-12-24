@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.18                          amd64  commandline package manager
+ii   apt                          2.9.19                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.5                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
@@ -74,7 +74,7 @@ ii   cron                         3.0pl1-189                      amd64  process
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.11.1-1                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
-ii   debconf                      1.5.87                          all    Debian configuration management system
+ii   debconf                      1.5.88                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
@@ -85,7 +85,6 @@ ii   findutils                    4.10.0-3                        amd64  utiliti
 ii   gcc-14-base                  14.2.0-11                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.45.2-1.3                    amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.45.2-1.3                    all    fast, scalable, distributed revision control system (manual pages)
-ii   gpgv                         2.2.45-2                        amd64  GNU privacy guard - signature verification tool
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-6                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.2                        amd64  GNU compression utilities
@@ -95,7 +94,7 @@ ii   initscripts                  3.11-1                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b3                      amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.18                          amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.19                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2                       amd64  Dynamic library for security auditing
@@ -113,7 +112,7 @@ ii   libcom-err2                  1.47.2~rc1-2                    amd64  common 
 ii   libcrypt1                    1:4.4.36-5                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.11.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.274                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.275                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b2                     amd64  Helper functions for handling strings (lib)
@@ -123,12 +122,10 @@ ii   libfastjson4                 1.2304.0-2                      amd64  fast js
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14.2.0-11                       amd64  GCC support library
-ii   libgcrypt20                  1.11.0-6                        amd64  LGPL Crypto library - runtime library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.8-2                         amd64  GNU TLS library - main runtime library
-ii   libgpg-error0                1.51-2                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2             1.21.3-3                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10-1+b1                       amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.7-2+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
@@ -136,7 +133,7 @@ ii   libk5crypto3                 1.21.3-3                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-4                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap-2.5-0                2.5.18+dfsg-3+b1                amd64  OpenLDAP libraries
+ii   libldap-2.5-0                2.5.19+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b2                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-3+b1                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
@@ -161,7 +158,7 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.12.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.12-minimal        3.12.8-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   libpython3.12-stdlib         3.12.8-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.12)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
@@ -217,8 +214,8 @@ ii   perl                         5.40.0-8                        amd64  Larry W
 ii   perl-base                    5.40.0-8                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.0-8                        all    Core Perl modules
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
-ii   python3                      3.12.7-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.12.7-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.12.8-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.12.8-1                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.12                   3.12.8-3                        amd64  Interactive high-level object-oriented language (version 3.12)
 ii   python3.12-minimal           3.12.8-3                        amd64  Minimal subset of the Python language (version 3.12)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
@@ -226,6 +223,7 @@ ii   rsyslog                      8.2410.0-1                      amd64  reliabl
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
+ii   sqv                          1.2.1-4                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.1-4                         amd64  standalone sysusers binary for use in non-systemd systems
