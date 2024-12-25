@@ -147,7 +147,7 @@ ii   libnghttp3-9                 1.6.0-2                         amd64  HTTP/3 
 ii   libngtcp2-16                 1.9.1-1                         amd64  implementation of QUIC protocol (library)
 ii   libngtcp2-crypto-gnutls8     1.9.1-1                         amd64  implementation of QUIC protocol (library)
 ii   libnsl2                      1.3.0-3+b3                      amd64  Public client interface for NIS(YP) and NIS+
-ii   libp11-kit0                  0.25.5-2+b1                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.25.5-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
