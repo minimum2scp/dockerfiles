@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.19                       amd64  commandline package manager
+ii   apt                      2.9.20                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.5                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -38,7 +38,7 @@ ii   gzip                     1.12-1.2                     amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.67                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.19                       amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.20                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2                    amd64  Dynamic library for security auditing
@@ -97,7 +97,7 @@ ii   sqv                      1.2.1-5                      amd64  Simple OpenPGP
 ii   sysvinit-utils           3.11-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2024b-4                      all    time zone and daylight-saving time data
-ii   usr-is-merged            39                           all    Transitional package to assert a merged-/usr system
+ii   usr-is-merged            39+nmu1                      all    Transitional package to assert a merged-/usr system
 ii   util-linux               2.40.2-13                    amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
