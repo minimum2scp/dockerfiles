@@ -31,7 +31,7 @@
     "Architecture": "amd64",
     "Conflicts": "apt-verify, libnettle8 (<< 3.9.1-2.2~)",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv, libapt-pkg6.0t64 (>= 2.9.19), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
+    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv, libapt-pkg6.0t64 (>= 2.9.20), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4265",
@@ -39,13 +39,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 2.9.19)",
+    "Provides": "apt-transport-https (= 2.9.20)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.9.19",
+    "Version": "2.9.20",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.19"
+    "source:Version": "2.9.20"
   },
   {
     "Architecture": "amd64",
@@ -954,7 +954,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "libnettle8 (<< 3.9.1-2.2~)",
-    "Breaks": "appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.19)",
+    "Breaks": "appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.20)",
     "Depends": "libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)",
     "Enhances": "",
     "Essential": "no",
@@ -963,13 +963,13 @@
     "Package": "libapt-pkg6.0t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.9.19), libapt-pkg6.0 (= 2.9.19)",
-    "Recommends": "apt (>= 2.9.19)",
+    "Provides": "libapt-pkg (= 2.9.20), libapt-pkg6.0 (= 2.9.20)",
+    "Recommends": "apt (>= 2.9.20)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9.19",
+    "Version": "2.9.20",
     "binary:Package": "libapt-pkg6.0t64:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -977,7 +977,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.19"
+    "source:Version": "2.9.20"
   },
   {
     "Architecture": "amd64",
@@ -4906,7 +4906,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "13",
+    "Installed-Size": "16",
     "Origin": "",
     "Package": "usr-is-merged",
     "Pre-Depends": "",
@@ -4917,7 +4917,7 @@
     "Section": "oldlibs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "39",
+    "Version": "39+nmu1",
     "binary:Package": "usr-is-merged",
     "binary:Summary": "Transitional package to assert a merged-/usr system",
     "db:Status-Abbrev": "ii ",
@@ -4925,7 +4925,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "usrmerge",
-    "source:Version": "39"
+    "source:Version": "39+nmu1"
   },
   {
     "Architecture": "amd64",
@@ -4962,7 +4962,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1860",
+    "Installed-Size": "1862",
     "Origin": "",
     "Package": "vim-common",
     "Pre-Depends": "",
@@ -4973,7 +4973,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:9.1.0861-1",
+    "Version": "2:9.1.0967-1",
     "binary:Package": "vim-common",
     "binary:Summary": "Vi IMproved - Common files",
     "db:Status-Abbrev": "ii ",
@@ -4981,16 +4981,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.0861-1"
+    "source:Version": "2:9.1.0967-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "vim-common (= 2:9.1.0861-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
+    "Depends": "vim-common (= 2:9.1.0967-1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1806",
+    "Installed-Size": "1810",
     "Origin": "",
     "Package": "vim-tiny",
     "Pre-Depends": "",
@@ -5001,7 +5001,7 @@
     "Section": "editors",
     "Status": "install ok installed",
     "Suggests": "indent",
-    "Version": "2:9.1.0861-1",
+    "Version": "2:9.1.0967-1",
     "binary:Package": "vim-tiny",
     "binary:Summary": "Vi IMproved - enhanced vi editor - compact version",
     "db:Status-Abbrev": "ii ",
@@ -5009,7 +5009,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "vim",
-    "source:Version": "2:9.1.0861-1"
+    "source:Version": "2:9.1.0967-1"
   },
   {
     "Architecture": "amd64",
