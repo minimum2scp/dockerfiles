@@ -63,7 +63,7 @@ installed packages:
 ii   adduser                      3.137                           all    add and remove users and groups
 ii   apt                          2.9.20                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
-ii   base-passwd                  3.6.5                           amd64  Debian base system master password and group files
+ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.2-13                       amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.2-13                     amd64  basic utilities from 4.4BSD-Lite
@@ -89,7 +89,7 @@ ii   grep                         3.11-4                          amd64  GNU gre
 ii   groff-base                   1.23.0-7                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.12-1.2                        amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.67                            all    helper tools for all init systems
+ii   init-system-helpers          1.68                            all    helper tools for all init systems
 ii   initscripts                  3.11-1                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
@@ -188,7 +188,7 @@ ii   libunistring5                1.3-1                           amd64  Unicode
 ii   libuuid1                     2.40.2-13                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.2-2+b2                      amd64  shared library for xxhash
-ii   libzstd1                     1.5.6+dfsg-1+b1                 amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.40-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.2-13      amd64  system login tools
@@ -235,7 +235,6 @@ ii   tree                         2.2.1-1                         amd64  display
 ii   tzdata                       2024b-4                         all    time zone and daylight-saving time data
 ii   ucf                          3.0046                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
-ii   usr-is-merged                39+nmu1                         all    Transitional package to assert a merged-/usr system
 ii   util-linux                   2.40.2-13                       amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0967-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.0967-1                    amd64  Vi IMproved - enhanced vi editor - compact version
@@ -243,5 +242,5 @@ ii   whiptail                     0.52.24-4                       amd64  Display
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
 ii   zsh                          5.9-8+b2                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
-ii   zstd                         1.5.6+dfsg-1+b1                 amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.6+dfsg-2                    amd64  fast lossless compression algorithm -- CLI tool
 ```
