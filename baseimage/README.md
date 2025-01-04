@@ -73,12 +73,12 @@ ii   coreutils                    9.5-1+b1                        amd64  GNU cor
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.11.1-1                        amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-9                        amd64  POSIX-compliant shell
+ii   dash                         0.5.12-10                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.89                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-1                        amd64  File comparison utilities
-ii   dpkg                         1.22.12                         amd64  Debian package management system
+ii   dpkg                         1.22.13                         amd64  Debian package management system
 ii   e2fsprogs                    1.47.2-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
@@ -102,9 +102,9 @@ ii   libblkid1                    2.40.2-13                       amd64  block d
 ii   libbrotli1                   1.1.0-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.40-4                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.40-4                          all    GNU C Library: localization files
-ii   libc6                        2.40-4                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.40-5                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.40-5                          all    GNU C Library: localization files
+ii   libc6                        2.40-5                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -177,20 +177,20 @@ ii   libss2                       1.47.2-1                        amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.3.2-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-12                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.1-5                         amd64  systemd utility library
+ii   libsystemd0                  257.1-7                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common              1.3.4+ds-1.3                    all    transport-independent RPC library - common files
 ii   libtirpc3t64                 1.3.4+ds-1.3+b1                 amd64  transport-independent RPC library
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.1-5                         amd64  libudev shared library
+ii   libudev1                     257.1-7                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-13                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0                   0.8.2-2+b2                      amd64  shared library for xxhash
+ii   libxxhash0                   0.8.3-1                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.40-4                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.40-5                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.2-13      amd64  system login tools
 ii   login.defs                   1:4.16.0-7                      all    system user management configuration
 ii   logsave                      1.47.2-1                        amd64  save the output of a command in a log file
@@ -226,7 +226,7 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-5                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.1-5                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.1-7                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.11-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.11-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.11-1                          amd64  System-V-like utilities
