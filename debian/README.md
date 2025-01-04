@@ -24,12 +24,12 @@ ii   base-passwd              3.6.6                        amd64  Debian base sy
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.2-13                  amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
-ii   dash                     0.5.12-9                     amd64  POSIX-compliant shell
+ii   dash                     0.5.12-10                    amd64  POSIX-compliant shell
 ii   debconf                  1.5.89                       all    Debian configuration management system
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-1                     amd64  File comparison utilities
-ii   dpkg                     1.22.12                      amd64  Debian package management system
+ii   dpkg                     1.22.13                      amd64  Debian package management system
 ii   e2fsprogs                1.47.2-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-12                    amd64  GCC, the GNU Compiler Collection (base package)
@@ -45,8 +45,8 @@ ii   libaudit1                1:4.0.2-2                    amd64  Dynamic librar
 ii   libblkid1                2.40.2-13                    amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.40-4                       amd64  GNU C Library: Binaries
-ii   libc6                    2.40-4                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.40-5                       amd64  GNU C Library: Binaries
+ii   libc6                    2.40-5                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4                      amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-5+b1                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.2-1                     amd64  common error description library
@@ -76,11 +76,11 @@ ii   libsmartcols1            2.40.2-13                    amd64  smart column o
 ii   libss2                   1.47.2-1                     amd64  command-line interface parsing library
 ii   libssl3t64               3.3.2-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-12                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.1-5                      amd64  systemd utility library
+ii   libsystemd0              257.1-7                      amd64  systemd utility library
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.1-5                      amd64  libudev shared library
+ii   libudev1                 257.1-7                      amd64  libudev shared library
 ii   libuuid1                 2.40.2-13                    amd64  Universally Unique ID library
-ii   libxxhash0               0.8.2-2+b2                   amd64  shared library for xxhash
+ii   libxxhash0               0.8.3-1                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.2-13   amd64  system login tools
 ii   login.defs               1:4.16.0-7                   all    system user management configuration

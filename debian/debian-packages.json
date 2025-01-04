@@ -171,10 +171,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "debianutils (>= 5.6-0.1)",
+    "Depends": "debianutils (>= 5.6-0.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "194",
+    "Installed-Size": "199",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -185,7 +185,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.12-9",
+    "Version": "0.5.12-10",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.12-9"
+    "source:Version": "0.5.12-10"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.12",
+    "Version": "1.22.13",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.12"
+    "source:Version": "1.22.13"
   },
   {
     "Architecture": "amd64",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40-4",
+    "Version": "2.40-5",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-4"
+    "source:Version": "2.40-5"
   },
   {
     "Architecture": "amd64",
@@ -790,7 +790,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "13130",
+    "Installed-Size": "13144",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.40-4",
+    "Version": "2.40-5",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.40-4"
+    "source:Version": "2.40-5"
   },
   {
     "Architecture": "amd64",
@@ -1641,7 +1641,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.1-5",
+    "Version": "257.1-7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-5"
+    "source:Version": "257.1-7"
   },
   {
     "Architecture": "amd64",
@@ -1697,7 +1697,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.1-5",
+    "Version": "257.1-7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-5"
+    "source:Version": "257.1-7"
   },
   {
     "Architecture": "amd64",
@@ -1742,7 +1742,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "93",
+    "Installed-Size": "92",
     "Origin": "",
     "Package": "libxxhash0",
     "Pre-Depends": "",
@@ -1753,7 +1753,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.2-2+b2",
+    "Version": "0.8.3-1",
     "binary:Package": "libxxhash0:amd64",
     "binary:Summary": "shared library for xxhash",
     "db:Status-Abbrev": "ii ",
@@ -1761,7 +1761,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xxhash",
-    "source:Version": "0.8.2-2"
+    "source:Version": "0.8.3-1"
   },
   {
     "Architecture": "amd64",
