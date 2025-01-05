@@ -80,7 +80,7 @@ ii   libsystemd0              257.1-7                      amd64  systemd utilit
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                 257.1-7                      amd64  libudev shared library
 ii   libuuid1                 2.40.2-13                    amd64  Universally Unique ID library
-ii   libxxhash0               0.8.3-1                      amd64  shared library for xxhash
+ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.2-13   amd64  system login tools
 ii   login.defs               1:4.16.0-7                   all    system user management configuration
