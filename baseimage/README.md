@@ -134,7 +134,7 @@ ii   libkeyutils1                 1.6.3-4                         amd64  Linux K
 ii   libkrb5-3                    1.21.3-3                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-3                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.5-0                2.5.19+dfsg-1                   amd64  OpenLDAP libraries
-ii   liblognorm5                  2.0.6-4+b2                      amd64  log normalizing library
+ii   liblognorm5                  2.0.6-4+b3                      amd64  log normalizing library
 ii   liblz4-1                     1.9.4-4                         amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
@@ -187,7 +187,7 @@ ii   libudev1                     257.1-7                         amd64  libudev
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-13                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
-ii   libxxhash0                   0.8.3-1                         amd64  shared library for xxhash
+ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.40-5                          all    GNU C Library: National Language (locale) data [support]

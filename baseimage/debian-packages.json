@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.6-4+b2",
+    "Version": "2.0.6-4+b3",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -3573,7 +3573,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.8.3-1",
+    "Version": "0.8.3-2",
     "binary:Package": "libxxhash0:amd64",
     "binary:Summary": "shared library for xxhash",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xxhash",
-    "source:Version": "0.8.3-1"
+    "source:Version": "0.8.3-2"
   },
   {
     "Architecture": "amd64",
