@@ -3545,7 +3545,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.6.q-34",
+    "Version": "7.6.q-35",
     "binary:Package": "libwrap0:amd64",
     "binary:Summary": "Wietse Venema's TCP wrappers library",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tcp-wrappers",
-    "source:Version": "7.6.q-34"
+    "source:Version": "7.6.q-35"
   },
   {
     "Architecture": "amd64",

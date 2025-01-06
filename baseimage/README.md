@@ -186,7 +186,7 @@ ii   libuchardet0                 0.0.8-1+b2                      amd64  univers
 ii   libudev1                     257.1-7                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-13                       amd64  Universally Unique ID library
-ii   libwrap0                     7.6.q-34                        amd64  Wietse Venema's TCP wrappers library
+ii   libwrap0                     7.6.q-35                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
