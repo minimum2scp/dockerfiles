@@ -367,7 +367,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "debianutils (>= 5.6-0.1), debconf (>= 0.5) | debconf-2.0",
+    "Depends": "debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
     "Installed-Size": "199",
@@ -381,7 +381,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.12-10",
+    "Version": "0.5.12-11",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.12-10"
+    "source:Version": "0.5.12-11"
   },
   {
     "Architecture": "all",
@@ -2733,7 +2733,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.13.1-1",
+    "Version": "3.13.1-2",
     "binary:Package": "libpython3-stdlib:amd64",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -2741,7 +2741,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.13.1-1"
+    "source:Version": "3.13.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.1-7",
+    "Version": "257.2-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-7"
+    "source:Version": "257.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.1-7",
+    "Version": "257.2-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-7"
+    "source:Version": "257.2-1"
   },
   {
     "Architecture": "amd64",
@@ -4231,21 +4231,21 @@
     "Architecture": "amd64",
     "Conflicts": "python3-distutils",
     "Breaks": "",
-    "Depends": "python3.13 (>= 3.13.1-1~), libpython3-stdlib (= 3.13.1-1)",
+    "Depends": "python3.13 (>= 3.13.1-1~), libpython3-stdlib (= 3.13.1-2)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "82",
     "Origin": "",
     "Package": "python3",
-    "Pre-Depends": "python3-minimal (= 3.13.1-1)",
+    "Pre-Depends": "python3-minimal (= 3.13.1-2)",
     "Priority": "optional",
     "Provides": "python3-profiler, python3-supported-max (= 3.13), python3-supported-min (= 3.12)",
     "Recommends": "",
     "Replace": "",
     "Section": "python",
     "Status": "install ok installed",
-    "Suggests": "python3-doc (>= 3.13.1-1), python3-tk (>= 3.13.1-1~), python3-venv (>= 3.13.1-1)",
-    "Version": "3.13.1-1",
+    "Suggests": "python3-doc (>= 3.13.1-2), python3-tk (>= 3.13.1-1~), python3-venv (>= 3.13.1-2)",
+    "Version": "3.13.1-2",
     "binary:Package": "python3",
     "binary:Summary": "interactive high-level object-oriented language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.13.1-1"
+    "source:Version": "3.13.1-2"
   },
   {
     "Architecture": "amd64",
@@ -4273,7 +4273,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.13.1-1",
+    "Version": "3.13.1-2",
     "binary:Package": "python3-minimal",
     "binary:Summary": "minimal subset of the Python language (default python3 version)",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3-defaults",
-    "source:Version": "3.13.1-1"
+    "source:Version": "3.13.1-2"
   },
   {
     "Architecture": "amd64",
@@ -4575,13 +4575,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 257.1-7)",
+    "Provides": "systemd-sysusers (= 257.2-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "257.1-7",
+    "Version": "257.2-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.1-7"
+    "source:Version": "257.2-1"
   },
   {
     "Architecture": "all",
@@ -4738,7 +4738,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1347",
+    "Installed-Size": "1349",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2024b-4",
+    "Version": "2024b-5",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2024b-4"
+    "source:Version": "2024b-5"
   },
   {
     "Architecture": "all",

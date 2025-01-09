@@ -73,7 +73,7 @@ ii   coreutils                    9.5-1+b1                        amd64  GNU cor
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.11.1-1                        amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-10                       amd64  POSIX-compliant shell
+ii   dash                         0.5.12-11                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.89                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
@@ -157,7 +157,7 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.13.1-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.13-minimal        3.13.1-3                        amd64  Minimal subset of the Python language (version 3.13)
 ii   libpython3.13-stdlib         3.13.1-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
@@ -176,11 +176,11 @@ ii   libss2                       1.47.2-1                        amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-12                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.1-7                         amd64  systemd utility library
+ii   libsystemd0                  257.2-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.1-7                         amd64  libudev shared library
+ii   libudev1                     257.2-1                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.2-14                       amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-35                        amd64  Wietse Venema's TCP wrappers library
@@ -211,8 +211,8 @@ ii   perl                         5.40.0-8                        amd64  Larry W
 ii   perl-base                    5.40.0-8                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.0-8                        all    Core Perl modules
 ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
-ii   python3                      3.13.1-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.13.1-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.13.1-2                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.13                   3.13.1-3                        amd64  Interactive high-level object-oriented language (version 3.13)
 ii   python3.13-minimal           3.13.1-3                        amd64  Minimal subset of the Python language (version 3.13)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
@@ -223,13 +223,13 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-5                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.1-7                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.2-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.13-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.13-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.13-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2024b-4                         all    time zone and daylight-saving time data
+ii   tzdata                       2024b-5                         all    time zone and daylight-saving time data
 ii   ucf                          3.0046                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.2-14                       amd64  miscellaneous system utilities
