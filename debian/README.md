@@ -24,7 +24,7 @@ ii   base-passwd              3.6.6                        amd64  Debian base sy
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.2-14                  amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
-ii   dash                     0.5.12-10                    amd64  POSIX-compliant shell
+ii   dash                     0.5.12-11                    amd64  POSIX-compliant shell
 ii   debconf                  1.5.89                       all    Debian configuration management system
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
@@ -76,9 +76,9 @@ ii   libsmartcols1            2.40.2-14                    amd64  smart column o
 ii   libss2                   1.47.2-1                     amd64  command-line interface parsing library
 ii   libssl3t64               3.4.0-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-12                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.1-7                      amd64  systemd utility library
+ii   libsystemd0              257.2-1                      amd64  systemd utility library
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.1-7                      amd64  libudev shared library
+ii   libudev1                 257.2-1                      amd64  libudev shared library
 ii   libuuid1                 2.40.2-14                    amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
@@ -96,7 +96,7 @@ ii   sed                      4.9-2                        amd64  GNU stream edi
 ii   sqv                      1.2.1-5                      amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.13-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tzdata                   2024b-4                      all    time zone and daylight-saving time data
+ii   tzdata                   2024b-5                      all    time zone and daylight-saving time data
 ii   util-linux               2.40.2-14                    amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
