@@ -22,7 +22,7 @@ ii   apt                      2.9.21                       amd64  commandline pa
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
-ii   bsdutils                 1:2.40.2-14                  amd64  basic utilities from 4.4BSD-Lite
+ii   bsdutils                 1:2.40.3-1                   amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
 ii   dash                     0.5.12-11                    amd64  POSIX-compliant shell
 ii   debconf                  1.5.89                       all    Debian configuration management system
@@ -42,7 +42,7 @@ ii   libapt-pkg6.0t64         2.9.21                       amd64  package manage
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2                    amd64  Dynamic library for security auditing
-ii   libblkid1                2.40.2-14                    amd64  block device ID library
+ii   libblkid1                2.40.3-1                     amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.40-5                       amd64  GNU C Library: Binaries
@@ -60,7 +60,7 @@ ii   libhogweed6t64           3.10-1+b1                    amd64  low level cryp
 ii   liblz4-1                 1.9.4-4                      amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.6.3-1+b1                   amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
-ii   libmount1                2.40.2-14                    amd64  device mounting library
+ii   libmount1                2.40.3-1                     amd64  device mounting library
 ii   libnettle8t64            3.10-1+b1                    amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules           1.5.3-7+b1                   amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin       1.5.3-7+b1                   amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -72,21 +72,21 @@ ii   libselinux1              3.7-3+b1                     amd64  SELinux runtim
 ii   libsemanage-common       3.7-2                        all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.7-2+b1                     amd64  SELinux policy management library
 ii   libsepol2                3.7-1                        amd64  SELinux library for manipulating binary security policies
-ii   libsmartcols1            2.40.2-14                    amd64  smart column output alignment library
+ii   libsmartcols1            2.40.3-1                     amd64  smart column output alignment library
 ii   libss2                   1.47.2-1                     amd64  command-line interface parsing library
 ii   libssl3t64               3.4.0-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-12                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.2-1                      amd64  systemd utility library
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                 257.2-1                      amd64  libudev shared library
-ii   libuuid1                 2.40.2-14                    amd64  Universally Unique ID library
+ii   libuuid1                 2.40.3-1                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
-ii   login                    1:4.16.0-2+really2.40.2-14   amd64  system login tools
+ii   login                    1:4.16.0-2+really2.40.3-1    amd64  system login tools
 ii   login.defs               1:4.16.0-7                   all    system user management configuration
 ii   logsave                  1.47.2-1                     amd64  save the output of a command in a log file
 ii   mawk                     1.3.4.20240905-1             amd64  Pattern scanning and text processing language
-ii   mount                    2.40.2-14                    amd64  tools for mounting and manipulating filesystems
+ii   mount                    2.40.3-1                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5-2                        all    basic terminal type definitions
 ii   ncurses-bin              6.5-2+b1                     amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.4.0-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
@@ -97,6 +97,6 @@ ii   sqv                      1.2.1-5                      amd64  Simple OpenPGP
 ii   sysvinit-utils           3.13-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2024b-5                      all    time zone and daylight-saving time data
-ii   util-linux               2.40.2-14                    amd64  miscellaneous system utilities
+ii   util-linux               2.40.3-1                     amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
