@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.4+deb12u8",
+    "Version": "12.4+deb12u9",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12.4+deb12u8"
+    "source:Version": "12.4+deb12u9"
   },
   {
     "Architecture": "amd64",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.38.1-5+deb12u2",
+    "Version": "1:2.38.1-5+deb12u3",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -2285,7 +2285,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2293,7 +2293,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -3013,7 +3013,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3021,7 +3021,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.31-1~deb12u1",
+    "Version": "252.33-1~deb12u1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.31-1~deb12u1"
+    "source:Version": "252.33-1~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.31-1~deb12u1",
+    "Version": "252.33-1~deb12u1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.31-1~deb12u1"
+    "source:Version": "252.33-1~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -3377,7 +3377,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3385,7 +3385,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -3685,7 +3685,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3693,7 +3693,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "all",
@@ -3783,10 +3783,10 @@
     "Architecture": "amd64",
     "Conflicts": "sftp",
     "Breaks": "openssh-sk-helper",
-    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.13), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.15), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5780",
+    "Installed-Size": "5792",
     "Origin": "",
     "Package": "openssh-client",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:9.2p1-2+deb12u3",
+    "Version": "1:9.2p1-2+deb12u4",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3805,16 +3805,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u3"
+    "source:Version": "1:9.2p1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.2p1-2+deb12u3), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.13), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.2p1-2+deb12u4), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.15), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1926",
+    "Installed-Size": "1930",
     "Origin": "",
     "Package": "openssh-server",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:9.2p1-2+deb12u3",
+    "Version": "1:9.2p1-2+deb12u4",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u3"
+    "source:Version": "1:9.2p1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:9.2p1-2+deb12u3), libc6 (>= 2.34)",
+    "Depends": "openssh-client (= 1:9.2p1-2+deb12u4), libc6 (>= 2.34)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "217",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.2p1-2+deb12u3",
+    "Version": "1:9.2p1-2+deb12u4",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u3"
+    "source:Version": "1:9.2p1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
@@ -4374,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2554",
+    "Installed-Size": "2555",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2024a-0+deb12u1",
+    "Version": "2024b-0+deb12u1",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2024a-0+deb12u1"
+    "source:Version": "2024b-0+deb12u1"
   },
   {
     "Architecture": "all",
@@ -4413,7 +4413,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0043+nmu1",
+    "Version": "3.0043+nmu1+deb12u1",
     "binary:Package": "ucf",
     "binary:Summary": "Update Configuration File(s): preserve user changes to config files",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ucf",
-    "source:Version": "3.0043+nmu1"
+    "source:Version": "3.0043+nmu1+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -4497,7 +4497,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-locales",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.38.1-5+deb12u2",
+    "Version": "2.38.1-5+deb12u3",
     "binary:Package": "util-linux-extra",
     "binary:Summary": "interactive login tools",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.38.1-5+deb12u2"
+    "source:Version": "2.38.1-5+deb12u3"
   },
   {
     "Architecture": "all",
