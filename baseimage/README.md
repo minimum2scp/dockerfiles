@@ -78,11 +78,11 @@ ii   debconf                      1.5.89                          all    Debian 
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-2                        amd64  File comparison utilities
-ii   dpkg                         1.22.13                         amd64  Debian package management system
+ii   dpkg                         1.22.14                         amd64  Debian package management system
 ii   e2fsprogs                    1.47.2-1                        amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.2.0-13                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.47.1-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.47.1-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
@@ -121,7 +121,7 @@ ii   libext2fs2t64                1.47.2-1                        amd64  ext2/ex
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.6-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.2.0-13                       amd64  GCC support library
+ii   libgcc-s1                    14.2.0-14                       amd64  GCC support library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multiprecision arithmetic library
@@ -175,7 +175,7 @@ ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 
 ii   libss2                       1.47.2-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.2.0-13                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.2-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
@@ -232,7 +232,7 @@ ii   sysvinit-utils               3.13-1                          amd64  System-
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2024b-6                         all    time zone and daylight-saving time data
-ii   ucf                          3.0047                          all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                          3.0048                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-1                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0967-2                    all    Vi IMproved - Common files
