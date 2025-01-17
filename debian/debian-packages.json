@@ -454,7 +454,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "251",
+    "Installed-Size": "256",
     "Origin": "",
     "Package": "gzip",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -465,7 +465,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "less",
-    "Version": "1.12-1.2",
+    "Version": "1.13-1",
     "binary:Package": "gzip",
     "binary:Summary": "GNU compression utilities",
     "db:Status-Abbrev": "ii ",
@@ -473,7 +473,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gzip",
-    "source:Version": "1.12-1.2"
+    "source:Version": "1.13-1"
   },
   {
     "Architecture": "amd64",
@@ -650,7 +650,7 @@
     "Depends": "libaudit-common (>= 1:4.0.2-2), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "178",
+    "Installed-Size": "179",
     "Origin": "",
     "Package": "libaudit1",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.0.2-2",
+    "Version": "1:4.0.2-2+b1",
     "binary:Package": "libaudit1:amd64",
     "binary:Summary": "Dynamic library for security auditing",
     "db:Status-Abbrev": "ii ",
@@ -902,7 +902,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "233",
+    "Installed-Size": "234",
     "Origin": "",
     "Package": "libcrypt1",
     "Pre-Depends": "",
@@ -913,7 +913,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.4.36-5",
+    "Version": "1:4.4.38-1",
     "binary:Package": "libcrypt1:amd64",
     "binary:Summary": "libcrypt shared library",
     "db:Status-Abbrev": "ii ",
@@ -921,7 +921,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libxcrypt",
-    "source:Version": "1:4.4.36-5"
+    "source:Version": "1:4.4.38-1"
   },
   {
     "Architecture": "amd64",
