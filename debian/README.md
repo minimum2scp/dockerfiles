@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.22                       amd64  commandline package manager
+ii   apt                      2.9.23                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -38,7 +38,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.22                       amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.23                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b1                 amd64  Dynamic library for security auditing
@@ -76,9 +76,9 @@ ii   libsmartcols1            2.40.4-1                     amd64  smart column o
 ii   libss2                   1.47.2-1                     amd64  command-line interface parsing library
 ii   libssl3t64               3.4.0-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-14                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.2-1                      amd64  systemd utility library
+ii   libsystemd0              257.2-2                      amd64  systemd utility library
 ii   libtinfo6                6.5-2+b1                     amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.2-1                      amd64  libudev shared library
+ii   libudev1                 257.2-2                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-1                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
@@ -96,7 +96,7 @@ ii   sed                      4.9-2                        amd64  GNU stream edi
 ii   sqv                      1.2.1-5                      amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.13-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tzdata                   2024b-6                      all    time zone and daylight-saving time data
+ii   tzdata                   2025a-1                      all    time zone and daylight-saving time data
 ii   util-linux               2.40.4-1                     amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
