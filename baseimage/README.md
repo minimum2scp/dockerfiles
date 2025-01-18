@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.22                          amd64  commandline package manager
+ii   apt                          2.9.23                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
@@ -94,7 +94,7 @@ ii   initscripts                  3.13-1                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b3                      amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.22                          amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.23                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b1                    amd64  Dynamic library for security auditing
@@ -113,7 +113,7 @@ ii   libcrypt1                    1:4.4.38-1                      amd64  libcryp
 ii   libcurl3t64-gnutls           8.11.1-1+b1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.277                           amd64  Debian Configuration Management System (C-implementation library)
-ii   libedit2                     3.1-20240808-1                  amd64  BSD editline and history libraries
+ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17029-2                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-1+b2                     amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.6.4-1                         amd64  XML parsing C library - runtime library
@@ -176,13 +176,13 @@ ii   libss2                       1.47.2-1                        amd64  command
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-14                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.2-1                         amd64  systemd utility library
+ii   libsystemd0                  257.2-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.2-1                         amd64  libudev shared library
+ii   libudev1                     257.2-2                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-1                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-35                        amd64  Wietse Venema's TCP wrappers library
@@ -225,13 +225,13 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-5                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1+b1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.2-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.2-2                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.13-1                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.13-1                          amd64  System-V-like init
 ii   sysvinit-utils               3.13-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2024b-6                         all    time zone and daylight-saving time data
+ii   tzdata                       2025a-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0048                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-1                        amd64  miscellaneous system utilities
