@@ -231,7 +231,7 @@ ii   sysvinit-utils          2.96-7+deb11u1                      amd64  System-V
 ii   tar                     1.34+dfsg-1+deb11u1                 amd64  GNU version of the tar archiving utility
 ii   tree                    1.8.0-1+b1                          amd64  displays an indented directory tree, in color
 ii   tzdata                  2024b-0+deb11u1                     all    time zone and daylight-saving time data
-ii   ucf                     3.0043                              all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                     3.0043+deb11u2                      all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                   6.0-26+deb11u1                      amd64  De-archiver for .zip files
 ii   util-linux              2.36.1-8+deb11u2                    amd64  miscellaneous system utilities
 ii   vim-common              2:8.2.2434-3+deb11u1                all    Vi IMproved - Common files

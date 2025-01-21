@@ -4794,7 +4794,7 @@
     "Depends": "debconf (>= 1.5.19), coreutils (>= 5.91), sensible-utils",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "232",
+    "Installed-Size": "233",
     "Origin": "",
     "Package": "ucf",
     "Pre-Depends": "",
@@ -4805,7 +4805,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0043",
+    "Version": "3.0043+deb11u2",
     "binary:Package": "ucf",
     "binary:Summary": "Update Configuration File(s): preserve user changes to config files",
     "db:Status-Abbrev": "ii ",
@@ -4813,7 +4813,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ucf",
-    "source:Version": "3.0043"
+    "source:Version": "3.0043+deb11u2"
   },
   {
     "Architecture": "amd64",
