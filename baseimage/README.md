@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.23                          amd64  commandline package manager
+ii   apt                          2.9.24                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
@@ -83,8 +83,8 @@ ii   e2fsprogs                    1.47.2-1                        amd64  ext2/ex
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-14                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.47.1-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.47.1-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.47.2-0.1                    amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.47.2-0.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-7                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
@@ -94,7 +94,7 @@ ii   initscripts                  3.13-1                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b3                      amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.23                          amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.24                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b1                    amd64  Dynamic library for security auditing
