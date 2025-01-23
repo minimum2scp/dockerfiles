@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.24                       amd64  commandline package manager
+ii   apt                      2.9.25                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -38,15 +38,15 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.24                       amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.25                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b1                 amd64  Dynamic library for security auditing
 ii   libblkid1                2.40.4-1                     amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.40-5                       amd64  GNU C Library: Binaries
-ii   libc6                    2.40-5                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.40-6                       amd64  GNU C Library: Binaries
+ii   libc6                    2.40-6                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4                      amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.66-5+b1                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.2-1                     amd64  common error description library
