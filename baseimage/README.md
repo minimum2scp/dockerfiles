@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.137                           all    add and remove users and groups
-ii   apt                          2.9.24                          amd64  commandline package manager
+ii   apt                          2.9.25                          amd64  commandline package manager
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
@@ -94,7 +94,7 @@ ii   initscripts                  3.13-1                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 3.1.7-1+b3                      amd64  changehat AppArmor library
-ii   libapt-pkg6.0t64             2.9.24                          amd64  package management runtime library
+ii   libapt-pkg6.0t64             2.9.25                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b1                    amd64  Dynamic library for security auditing
@@ -102,9 +102,9 @@ ii   libblkid1                    2.40.4-1                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.40-5                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.40-5                          all    GNU C Library: localization files
-ii   libc6                        2.40-5                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.40-6                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.40-6                          all    GNU C Library: localization files
+ii   libc6                        2.40-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -189,7 +189,7 @@ ii   libwrap0                     7.6.q-35                        amd64  Wietse 
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.40-5                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.40-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-1       amd64  system login tools
 ii   login.defs                   1:4.16.0-7                      all    system user management configuration
 ii   logsave                      1.47.2-1                        amd64  save the output of a command in a log file
