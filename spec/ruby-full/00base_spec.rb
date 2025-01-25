@@ -125,14 +125,14 @@ describe 'minimum2scp/ruby-full' do
       end
     end
 
-    %w[ruby3.1 ruby3.1-dev].each do |pkg|
+    %w[ruby3.3 ruby3.3-dev].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
     end
 
-    describe command('ruby3.1 -v') do
-      its(:stdout) { should start_with('ruby 3.1.2p') }
+    describe command('ruby3.3 -v') do
+      its(:stdout) { should start_with('ruby 3.3.6 ') }
     end
   end
 end
