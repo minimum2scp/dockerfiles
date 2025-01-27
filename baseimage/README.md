@@ -135,7 +135,7 @@ ii   libkrb5-3                    1.21.3-4                        amd64  MIT Ker
 ii   libkrb5support0              1.21.3-4                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.9+dfsg-1                    amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b3                      amd64  log normalizing library
-ii   liblz4-1                     1.9.4-4                         amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.4-1                        amd64  device mounting library
@@ -155,7 +155,7 @@ ii   libpcre2-8-0                 10.44-5                         amd64  New Per
 ii   libperl5.40                  5.40.0-8                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-6                       amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.13-minimal        3.13.1-3                        amd64  Minimal subset of the Python language (version 3.13)
@@ -212,7 +212,7 @@ ii   passwd                       1:4.16.0-7                      amd64  change 
 ii   perl                         5.40.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.0-8                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.0-8                        all    Core Perl modules
-ii   procps                       2:4.0.4-6                       amd64  /proc file system utilities
+ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
 ii   python3                      3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.13.1-2                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.13                   3.13.1-3                        amd64  Interactive high-level object-oriented language (version 3.13)

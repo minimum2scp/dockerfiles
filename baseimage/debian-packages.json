@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.14), libxxhash0 (>= 0.6.5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "168",
+    "Installed-Size": "173",
     "Origin": "",
     "Package": "liblz4-1",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.4-4",
+    "Version": "1.10.0-3",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.9.4-4"
+    "source:Version": "1.10.0-3"
   },
   {
     "Architecture": "amd64",
@@ -2666,7 +2666,7 @@
     "Depends": "libc6 (>= 2.38), libsystemd0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "236",
+    "Installed-Size": "237",
     "Origin": "",
     "Package": "libproc2-0",
     "Pre-Depends": "",
@@ -2677,7 +2677,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.4-6",
+    "Version": "2:4.0.4-7",
     "binary:Package": "libproc2-0:amd64",
     "binary:Summary": "library for accessing process information from /proc",
     "db:Status-Abbrev": "ii ",
@@ -2685,7 +2685,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.4-6"
+    "source:Version": "2:4.0.4-7"
   },
   {
     "Architecture": "amd64",
@@ -4262,7 +4262,7 @@
     "Depends": "libc6 (>= 2.38), libncursesw6 (>= 6), libproc2-0 (>= 2:4.0.4), libsystemd0 (>= 254), libtinfo6 (>= 6), init-system-helpers (>= 1.29~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2390",
+    "Installed-Size": "2391",
     "Origin": "",
     "Package": "procps",
     "Pre-Depends": "",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:4.0.4-6",
+    "Version": "2:4.0.4-7",
     "binary:Package": "procps",
     "binary:Summary": "/proc file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "procps",
-    "source:Version": "2:4.0.4-6"
+    "source:Version": "2:4.0.4-7"
   },
   {
     "Architecture": "amd64",
