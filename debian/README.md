@@ -57,7 +57,7 @@ ii   libext2fs2t64            1.47.2-1                     amd64  ext2/ext3/ext4
 ii   libgcc-s1                14.2.0-14                    amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10-1+b1                    amd64  low level cryptographic library (public-key cryptos)
-ii   liblz4-1                 1.9.4-4                      amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                 1.10.0-3                     amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.6.3-1+b1                   amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.40.4-1                     amd64  device mounting library

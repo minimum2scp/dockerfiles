@@ -46,7 +46,8 @@ I: Validating libext2fs2t64 1.47.2-1
 I: Validating libgcc-s1 14.2.0-14
 I: Validating libgmp10 2:6.3.0+dfsg-3
 I: Validating libhogweed6t64 3.10-1+b1
-I: Validating liblz4-1 1.9.4-4
+I: Retrieving liblz4-1 1.10.0-3
+I: Validating liblz4-1 1.10.0-3
 I: Validating liblzma5 5.6.3-1+b1
 I: Validating libmd0 1.1.0-2+b1
 I: Validating libmount1 2.40.4-1
@@ -65,10 +66,8 @@ I: Validating libsmartcols1 2.40.4-1
 I: Validating libss2 1.47.2-1
 I: Validating libssl3t64 3.4.0-2
 I: Validating libstdc++6 14.2.0-14
-I: Retrieving libsystemd0 257.2-3
 I: Validating libsystemd0 257.2-3
 I: Validating libtinfo6 6.5-2+b1
-I: Retrieving libudev1 257.2-3
 I: Validating libudev1 257.2-3
 I: Validating libuuid1 2.40.4-1
 I: Validating libxxhash0 0.8.3-2
