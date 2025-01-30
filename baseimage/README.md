@@ -147,10 +147,10 @@ ii   libnghttp3-9                 1.6.0-2                         amd64  HTTP/3 
 ii   libngtcp2-16                 1.9.1-1                         amd64  implementation of QUIC protocol (library)
 ii   libngtcp2-crypto-gnutls8     1.9.1-1                         amd64  implementation of QUIC protocol (library)
 ii   libp11-kit0                  0.25.5-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.5.3-7+b1                      amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.5.3-7                         all    Runtime support for the PAM library
-ii   libpam0g                     1.5.3-7+b1                      amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.7.0-2                         amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-2                         amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.7.0-2                         all    Runtime support for the PAM library
+ii   libpam0g                     1.7.0-2                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.44-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.0-8                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
