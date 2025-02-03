@@ -139,7 +139,7 @@ ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ
 ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.4-2                        amd64  device mounting library
-ii   libncursesw6                 6.5-2+b1                        amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.5+20250125-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10-1+b1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -158,8 +158,8 @@ ii   libpopt0                     1.19+dfsg-2                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.13-minimal        3.13.1-3                        amd64  Minimal subset of the Python language (version 3.13)
-ii   libpython3.13-stdlib         3.13.1-3                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
+ii   libpython3.13-minimal        3.13.1-3+b1                     amd64  Minimal subset of the Python language (version 3.13)
+ii   libpython3.13-stdlib         3.13.1-3+b1                     amd64  Interactive high-level object-oriented language (standard library, version 3.13)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8+b1               amd64  Cyrus SASL - authentication abstraction library
@@ -169,7 +169,7 @@ ii   libselinux1                  3.7-3.1                         amd64  SELinux
 ii   libsemanage-common           3.7-2.1                         all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.7-2.1                         amd64  SELinux policy management library
 ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
-ii   libslang2                    2.3.3-5+b1                      amd64  S-Lang programming library - runtime version
+ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-2                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.2-1                        amd64  command-line interface parsing library
@@ -180,7 +180,7 @@ ii   libsystemd0                  257.2-3                         amd64  systemd
 ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
-ii   libtinfo6                    6.5-2+b1                        amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.5+20250125-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
 ii   libudev1                     257.2-3                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
@@ -198,8 +198,8 @@ ii   man-db                       2.13.0-1                        amd64  tools f
 ii   mawk                         1.3.4.20240905-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.4-2                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base                 6.5-2                           all    basic terminal type definitions
-ii   ncurses-bin                  6.5-2+b1                        amd64  terminal-related programs and man pages
+ii   ncurses-base                 6.5+20250125-2                  all    basic terminal type definitions
+ii   ncurses-bin                  6.5+20250125-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
 ii   openssh-client               1:9.9p1-3                       amd64  secure shell (SSH) client, for secure access to remote machines
@@ -215,8 +215,8 @@ ii   perl-modules-5.40            5.40.0-8                        all    Core Pe
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
 ii   python3                      3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.13.1-2                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.13                   3.13.1-3                        amd64  Interactive high-level object-oriented language (version 3.13)
-ii   python3.13-minimal           3.13.1-3                        amd64  Minimal subset of the Python language (version 3.13)
+ii   python3.13                   3.13.1-3+b1                     amd64  Interactive high-level object-oriented language (version 3.13)
+ii   python3.13-minimal           3.13.1-3+b1                     amd64  Minimal subset of the Python language (version 3.13)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2412.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
