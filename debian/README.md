@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.26                       amd64  commandline package manager
+ii   apt                      2.9.27                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -29,7 +29,7 @@ ii   debconf                  1.5.89                       all    Debian configu
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-2                     amd64  File comparison utilities
-ii   dpkg                     1.22.14                      amd64  Debian package management system
+ii   dpkg                     1.22.15                      amd64  Debian package management system
 ii   e2fsprogs                1.47.2-1                     amd64  ext2/ext3/ext4 file system utilities
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-16                    amd64  GCC, the GNU Compiler Collection (base package)
@@ -38,7 +38,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.26                       amd64  package management runtime library
+ii   libapt-pkg6.0t64         2.9.27                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b1                 amd64  Dynamic library for security auditing
@@ -68,7 +68,7 @@ ii   libpam-runtime           1.7.0-2                      all    Runtime suppor
 ii   libpam0g                 1.7.0-2                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.44-5                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2              2.5.5-2                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1              3.7-3.1                      amd64  SELinux runtime shared libraries
+ii   libselinux1              3.7-4                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.7-2.1                      all    Common files for SELinux policy management libraries
 ii   libsemanage2             3.7-2.1                      amd64  SELinux policy management library
 ii   libsepol2                3.7-1                        amd64  SELinux library for manipulating binary security policies
