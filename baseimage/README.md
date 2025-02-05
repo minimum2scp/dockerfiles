@@ -65,15 +65,15 @@ ii   apt                          2.9.27                          amd64  command
 ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1                        amd64  GNU Bourne Again SHell
-ii   bsdextrautils                2.40.4-2                        amd64  extra utilities from 4.4BSD-Lite
-ii   bsdutils                     1:2.40.4-2                      amd64  basic utilities from 4.4BSD-Lite
+ii   bsdextrautils                2.40.4-3                        amd64  extra utilities from 4.4BSD-Lite
+ii   bsdutils                     1:2.40.4-3                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20241223                        all    Common CA certificates
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
 ii   curl                         8.11.1-1+b1                     amd64  command line tool for transferring data with URL syntax
-ii   dash                         0.5.12-11                       amd64  POSIX-compliant shell
+ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.89                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
@@ -98,7 +98,7 @@ ii   libapt-pkg6.0t64             2.9.27                          amd64  package
 ii   libattr1                     1:2.5.2-2                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b1                    amd64  Dynamic library for security auditing
-ii   libblkid1                    2.40.4-2                        amd64  block device ID library
+ii   libblkid1                    2.40.4-3                        amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
@@ -138,7 +138,7 @@ ii   liblognorm5                  2.0.6-4+b3                      amd64  log nor
 ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
-ii   libmount1                    2.40.4-2                        amd64  device mounting library
+ii   libmount1                    2.40.4-3                        amd64  device mounting library
 ii   libncursesw6                 6.5+20250125-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10-1+b1                       amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-4                       amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -158,8 +158,8 @@ ii   libpopt0                     1.19+dfsg-2                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.13-minimal        3.13.1-3+b1                     amd64  Minimal subset of the Python language (version 3.13)
-ii   libpython3.13-stdlib         3.13.1-3+b1                     amd64  Interactive high-level object-oriented language (standard library, version 3.13)
+ii   libpython3.13-minimal        3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
+ii   libpython3.13-stdlib         3.13.2-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-8+b1               amd64  Cyrus SASL - authentication abstraction library
@@ -170,7 +170,7 @@ ii   libsemanage-common           3.7-2.1                         all    Common 
 ii   libsemanage2                 3.7-2.1                         amd64  SELinux policy management library
 ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
-ii   libsmartcols1                2.40.4-2                        amd64  smart column output alignment library
+ii   libsmartcols1                2.40.4-3                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
 ii   libss2                       1.47.2-1                        amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
@@ -184,20 +184,20 @@ ii   libtinfo6                    6.5+20250125-2                  amd64  shared 
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
 ii   libudev1                     257.2-3                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
-ii   libuuid1                     2.40.4-2                        amd64  Universally Unique ID library
+ii   libuuid1                     2.40.4-3                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-35                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.40-6                          all    GNU C Library: National Language (locale) data [support]
-ii   login                        1:4.16.0-2+really2.40.4-2       amd64  system login tools
+ii   login                        1:4.16.0-2+really2.40.4-3       amd64  system login tools
 ii   login.defs                   1:4.16.0-7                      all    system user management configuration
 ii   logsave                      1.47.2-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
-ii   mawk                         1.3.4.20240905-1                amd64  Pattern scanning and text processing language
+ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
 ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
-ii   mount                        2.40.4-2                        amd64  tools for mounting and manipulating filesystems
+ii   mount                        2.40.4-3                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250125-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250125-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
@@ -215,8 +215,8 @@ ii   perl-modules-5.40            5.40.0-8                        all    Core Pe
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
 ii   python3                      3.13.1-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.13.1-2                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.13                   3.13.1-3+b1                     amd64  Interactive high-level object-oriented language (version 3.13)
-ii   python3.13-minimal           3.13.1-3+b1                     amd64  Minimal subset of the Python language (version 3.13)
+ii   python3.13                   3.13.2-1                        amd64  Interactive high-level object-oriented language (version 3.13)
+ii   python3.13-minimal           3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2412.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
@@ -234,7 +234,7 @@ ii   tree                         2.2.1-1                         amd64  display
 ii   tzdata                       2025a-1                         all    time zone and daylight-saving time data
 ii   ucf                          3.0049                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
-ii   util-linux                   2.40.4-2                        amd64  miscellaneous system utilities
+ii   util-linux                   2.40.4-3                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.0967-2                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.0967-2+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-4                       amd64  Displays user-friendly dialog boxes from shell scripts

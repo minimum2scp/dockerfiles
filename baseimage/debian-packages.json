@@ -143,7 +143,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bsdmainutils (<< 12.1.3)",
-    "Depends": "libc6 (>= 2.38), libsmartcols1 (= 2.40.4-2), libtinfo6 (>= 6)",
+    "Depends": "libc6 (>= 2.38), libsmartcols1 (= 2.40.4-3), libtinfo6 (>= 6)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "338",
@@ -157,7 +157,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "bsdextrautils",
     "binary:Summary": "extra utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -165,7 +165,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -185,7 +185,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.40.4-2",
+    "Version": "1:2.40.4-3",
     "binary:Package": "bsdutils",
     "binary:Summary": "basic utilities from 4.4BSD-Lite",
     "db:Status-Abbrev": "ii ",
@@ -193,7 +193,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -370,7 +370,7 @@
     "Depends": "debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "199",
+    "Installed-Size": "207",
     "Origin": "",
     "Package": "dash",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -381,7 +381,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.5.12-11",
+    "Version": "0.5.12-12",
     "binary:Package": "dash",
     "binary:Summary": "POSIX-compliant shell",
     "db:Status-Abbrev": "ii ",
@@ -389,7 +389,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dash",
-    "source:Version": "0.5.12-11"
+    "source:Version": "0.5.12-12"
   },
   {
     "Architecture": "all",
@@ -1081,7 +1081,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "libblkid1:amd64",
     "binary:Summary": "block device ID library",
     "db:Status-Abbrev": "ii ",
@@ -1089,7 +1089,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -2187,7 +2187,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libblkid1 (= 2.40.4-2), libc6 (>= 2.38), libselinux1 (>= 3.1~)",
+    "Depends": "libblkid1 (= 2.40.4-3), libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "535",
@@ -2201,7 +2201,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "cryptsetup-bin",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "libmount1:amd64",
     "binary:Summary": "device mounting library",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -2750,7 +2750,7 @@
     "Depends": "libc6 (>= 2.14), libssl3t64 (>= 3.4.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "5430",
+    "Installed-Size": "5434",
     "Origin": "",
     "Package": "libpython3.13-minimal",
     "Pre-Depends": "",
@@ -2761,7 +2761,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.13.1-3+b1",
+    "Version": "3.13.2-1",
     "binary:Package": "libpython3.13-minimal:amd64",
     "binary:Summary": "Minimal subset of the Python language (version 3.13)",
     "db:Status-Abbrev": "ii ",
@@ -2769,16 +2769,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.13",
-    "source:Version": "3.13.1-3"
+    "source:Version": "3.13.2-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libpython3.13-minimal (= 3.13.1-3+b1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
+    "Depends": "libpython3.13-minimal (= 3.13.2-1), media-types | mime-support, netbase, tzdata, libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libreadline8t64 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "9152",
+    "Installed-Size": "9168",
     "Origin": "",
     "Package": "libpython3.13-stdlib",
     "Pre-Depends": "",
@@ -2789,7 +2789,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.13.1-3+b1",
+    "Version": "3.13.2-1",
     "binary:Package": "libpython3.13-stdlib:amd64",
     "binary:Summary": "Interactive high-level object-oriented language (standard library, version 3.13)",
     "db:Status-Abbrev": "ii ",
@@ -2797,7 +2797,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.13",
-    "source:Version": "3.13.1-3"
+    "source:Version": "3.13.2-1"
   },
   {
     "Architecture": "amd64",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "libsmartcols1:amd64",
     "binary:Summary": "smart column output alignment library",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3474,7 +3474,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libuuid1t64 (<< 2.40.4-2)",
+    "Breaks": "libuuid1t64 (<< 2.40.4-3)",
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
@@ -3483,13 +3483,13 @@
     "Package": "libuuid1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libuuid1t64 (= 2.40.4-2)",
+    "Provides": "libuuid1t64 (= 2.40.4-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "uuid-runtime",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "libuuid1:amd64",
     "binary:Summary": "Universally Unique ID library",
     "db:Status-Abbrev": "ii ",
@@ -3497,7 +3497,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "amd64",
@@ -3657,7 +3657,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.16.0-2+really2.40.4-2",
+    "Version": "1:4.16.0-2+really2.40.4-3",
     "binary:Package": "login",
     "binary:Summary": "system login tools",
     "db:Status-Abbrev": "ii ",
@@ -3665,7 +3665,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "all",
@@ -3786,7 +3786,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "287",
+    "Installed-Size": "292",
     "Origin": "",
     "Package": "mawk",
     "Pre-Depends": "",
@@ -3797,7 +3797,7 @@
     "Section": "interpreters",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.4.20240905-1",
+    "Version": "1.3.4.20250131-1",
     "binary:Package": "mawk",
     "binary:Summary": "Pattern scanning and text processing language",
     "db:Status-Abbrev": "ii ",
@@ -3805,7 +3805,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "mawk",
-    "source:Version": "1.3.4.20240905-1"
+    "source:Version": "1.3.4.20250131-1"
   },
   {
     "Architecture": "all",
@@ -3845,7 +3845,7 @@
     "Installed-Size": "465",
     "Origin": "",
     "Package": "mount",
-    "Pre-Depends": "libblkid1 (= 2.40.4-2), libc6 (>= 2.38), libmount1 (= 2.40.4-2), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.4-2)",
+    "Pre-Depends": "libblkid1 (= 2.40.4-3), libc6 (>= 2.38), libmount1 (= 2.40.4-3), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.4-3)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "",
@@ -3853,7 +3853,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "nfs-common",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "mount",
     "binary:Summary": "tools for mounting and manipulating filesystems",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "all",
@@ -4343,10 +4343,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)",
-    "Depends": "python3.13-minimal (= 3.13.1-3+b1), libpython3.13-stdlib (= 3.13.1-3+b1), media-types | mime-support, tzdata",
+    "Depends": "python3.13-minimal (= 3.13.2-1), libpython3.13-stdlib (= 3.13.2-1), media-types | mime-support, tzdata",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "814",
+    "Installed-Size": "819",
     "Origin": "",
     "Package": "python3.13",
     "Pre-Depends": "",
@@ -4357,7 +4357,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "python3.13-venv, python3.13-doc, binutils",
-    "Version": "3.13.1-3+b1",
+    "Version": "3.13.2-1",
     "binary:Package": "python3.13",
     "binary:Summary": "Interactive high-level object-oriented language (version 3.13)",
     "db:Status-Abbrev": "ii ",
@@ -4365,16 +4365,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.13",
-    "source:Version": "3.13.1-3"
+    "source:Version": "3.13.2-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "binfmt-support (<< 1.1.2)",
     "Breaks": "",
-    "Depends": "libpython3.13-minimal (= 3.13.1-3+b1), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
+    "Depends": "libpython3.13-minimal (= 3.13.2-1), libexpat1 (>= 2.6.0), zlib1g (>= 1:1.2.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6719",
+    "Installed-Size": "6727",
     "Origin": "",
     "Package": "python3.13-minimal",
     "Pre-Depends": "libc6 (>= 2.38)",
@@ -4385,7 +4385,7 @@
     "Section": "python",
     "Status": "install ok installed",
     "Suggests": "binfmt-support",
-    "Version": "3.13.1-3+b1",
+    "Version": "3.13.2-1",
     "binary:Package": "python3.13-minimal",
     "binary:Summary": "Minimal subset of the Python language (version 3.13)",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "python3.13",
-    "source:Version": "3.13.1-3"
+    "source:Version": "3.13.2-1"
   },
   {
     "Architecture": "all",
@@ -4881,7 +4881,7 @@
     "Installed-Size": "4883",
     "Origin": "",
     "Package": "util-linux",
-    "Pre-Depends": "libpam-modules, libpam-runtime, libblkid1 (= 2.40.4-2), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (= 2.40.4-2), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.4-2), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (= 2.40.4-2)",
+    "Pre-Depends": "libpam-modules, libpam-runtime, libblkid1 (= 2.40.4-3), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (= 2.40.4-3), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (= 2.40.4-3), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (= 2.40.4-3)",
     "Priority": "required",
     "Provides": "hardlink",
     "Recommends": "sensible-utils",
@@ -4889,7 +4889,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "dosfstools, kbd, util-linux-extra, util-linux-locales, wtmpdb",
-    "Version": "2.40.4-2",
+    "Version": "2.40.4-3",
     "binary:Package": "util-linux",
     "binary:Summary": "miscellaneous system utilities",
     "db:Status-Abbrev": "ii ",
@@ -4897,7 +4897,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "util-linux",
-    "source:Version": "2.40.4-2"
+    "source:Version": "2.40.4-3"
   },
   {
     "Architecture": "all",
