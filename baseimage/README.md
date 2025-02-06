@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.40.4-3                      amd64  basic u
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20241223                        all    Common CA certificates
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-189                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-189                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-192                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-192                      all    process scheduling daemon's configuration files
 ii   curl                         8.11.1-1+b1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.89                          all    Debian configuration management system
@@ -151,7 +151,7 @@ ii   libpam-modules               1.7.0-2                         amd64  Pluggab
 ii   libpam-modules-bin           1.7.0-2                         amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-2                         all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-2                         amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0                 10.44-5                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0                 10.45-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.0-8                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
@@ -222,7 +222,7 @@ ii   rsyslog                      8.2412.0-1                      amd64  reliabl
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
-ii   sqv                          1.2.1-5                         amd64  Simple OpenPGP signature verification program
+ii   sqv                          1.2.1-6                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.2-3                         amd64  standalone sysusers binary for use in non-systemd systems
@@ -231,7 +231,7 @@ ii   sysvinit-core                3.13-1                          amd64  System-
 ii   sysvinit-utils               3.13-1                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2025a-1                         all    time zone and daylight-saving time data
+ii   tzdata                       2025a-2                         all    time zone and daylight-saving time data
 ii   ucf                          3.0049                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-3                        amd64  miscellaneous system utilities
