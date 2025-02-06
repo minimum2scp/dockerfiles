@@ -1350,7 +1350,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "722",
+    "Installed-Size": "774",
     "Origin": "",
     "Package": "libpcre2-8-0",
     "Pre-Depends": "",
@@ -1361,7 +1361,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.44-5",
+    "Version": "10.45-1",
     "binary:Package": "libpcre2-8-0:amd64",
     "binary:Summary": "New Perl Compatible Regular Expression Library- 8 bit runtime files",
     "db:Status-Abbrev": "ii ",
@@ -1369,7 +1369,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "pcre2",
-    "source:Version": "10.44-5"
+    "source:Version": "10.45-1"
   },
   {
     "Architecture": "amd64",
@@ -2106,7 +2106,7 @@
     "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.2), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64, libnettle8t64 (>= 3.9~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1704",
+    "Installed-Size": "1732",
     "Origin": "",
     "Package": "sqv",
     "Pre-Depends": "",
@@ -2117,7 +2117,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.2.1-5",
+    "Version": "1.2.1-6",
     "binary:Package": "sqv",
     "binary:Summary": "Simple OpenPGP signature verification program",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rust-sequoia-sqv",
-    "source:Version": "1.2.1-5"
+    "source:Version": "1.2.1-6"
   },
   {
     "Architecture": "amd64",
@@ -2201,7 +2201,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2025a-1",
+    "Version": "2025a-2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -2209,7 +2209,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2025a-1"
+    "source:Version": "2025a-2"
   },
   {
     "Architecture": "amd64",

@@ -66,7 +66,7 @@ ii   libpam-modules           1.7.0-2                      amd64  Pluggable Auth
 ii   libpam-modules-bin       1.7.0-2                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.7.0-2                      all    Runtime support for the PAM library
 ii   libpam0g                 1.7.0-2                      amd64  Pluggable Authentication Modules library
-ii   libpcre2-8-0             10.44-5                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii   libpcre2-8-0             10.45-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2              2.5.5-2                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.7-4                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.7-2.1                      all    Common files for SELinux policy management libraries
@@ -93,10 +93,10 @@ ii   openssl-provider-legacy  3.4.0-2                      amd64  Secure Sockets
 ii   passwd                   1:4.16.0-7                   amd64  change and administer password and group data
 ii   perl-base                5.40.0-8                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
-ii   sqv                      1.2.1-5                      amd64  Simple OpenPGP signature verification program
+ii   sqv                      1.2.1-6                      amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.13-1                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tzdata                   2025a-1                      all    time zone and daylight-saving time data
+ii   tzdata                   2025a-2                      all    time zone and daylight-saving time data
 ii   util-linux               2.40.4-3                     amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
