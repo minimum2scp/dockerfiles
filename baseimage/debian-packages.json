@@ -2946,7 +2946,7 @@
     "Depends": "libc6 (>= 2.38), libpcre2-8-0 (>= 10.22)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "212",
+    "Installed-Size": "224",
     "Origin": "",
     "Package": "libselinux1",
     "Pre-Depends": "",
@@ -2957,7 +2957,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7-4",
+    "Version": "3.8-1",
     "binary:Package": "libselinux1:amd64",
     "binary:Summary": "SELinux runtime shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -2965,7 +2965,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libselinux",
-    "source:Version": "3.7-4"
+    "source:Version": "3.8-1"
   },
   {
     "Architecture": "all",
@@ -3030,7 +3030,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "827",
+    "Installed-Size": "835",
     "Origin": "",
     "Package": "libsepol2",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.7-1",
+    "Version": "3.8-1",
     "binary:Package": "libsepol2:amd64",
     "binary:Summary": "SELinux library for manipulating binary security policies",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libsepol",
-    "source:Version": "3.7-1"
+    "source:Version": "3.8-1"
   },
   {
     "Architecture": "amd64",
@@ -3814,7 +3814,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "93",
+    "Installed-Size": "95",
     "Origin": "",
     "Package": "media-types",
     "Pre-Depends": "",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "10.1.0",
+    "Version": "11.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -3833,7 +3833,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "10.1.0"
+    "source:Version": "11.0.0"
   },
   {
     "Architecture": "amd64",
@@ -4581,7 +4581,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.65-4",
+    "Version": "0.66-1",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.65-4"
+    "source:Version": "0.66-1"
   },
   {
     "Architecture": "amd64",

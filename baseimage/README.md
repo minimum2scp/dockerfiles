@@ -165,10 +165,10 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit
 ii   libsasl2-2                   2.1.28+dfsg1-8+b1               amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-8+b1               amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-2                         amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.7-4                           amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.8-1                           amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.7-2.1                         all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.7-2.1                         amd64  SELinux policy management library
-ii   libsepol2                    3.7-1                           amd64  SELinux library for manipulating binary security policies
+ii   libsepol2                    3.8-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-3                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
@@ -196,7 +196,7 @@ ii   logsave                      1.47.2-1                        amd64  save th
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
-ii   media-types                  10.1.0                          all    List of standard media types and their usual file extension
+ii   media-types                  11.0.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.4-3                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250125-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250125-2                  amd64  terminal-related programs and man pages
@@ -223,7 +223,7 @@ ii   runit-helper                 2.16.4                          all    dh-runi
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
 ii   sqv                          1.2.1-6                         amd64  Simple OpenPGP signature verification program
-ii   startpar                     0.65-4                          amd64  run processes in parallel and multiplex their output
+ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p1-1+b1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.2-3                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.13-1                          all    System-V-like runlevel change mechanism
