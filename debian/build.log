@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 2.9.27
+I: Retrieving apt 2.9.28
+I: Validating apt 2.9.28
 I: Validating base-files 13.6
 I: Validating base-passwd 3.6.6
 I: Validating bash 5.2.37-1
@@ -27,7 +28,8 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.68
 I: Validating libacl1 2.3.2-2+b1
-I: Validating libapt-pkg6.0t64 2.9.27
+I: Retrieving libapt-pkg6.0t64 2.9.28
+I: Validating libapt-pkg6.0t64 2.9.28
 I: Validating libattr1 1:2.5.2-2
 I: Validating libaudit-common 1:4.0.2-2
 I: Validating libaudit1 1:4.0.2-2+b1
@@ -57,11 +59,9 @@ I: Validating libpam-runtime 1.7.0-2
 I: Validating libpam0g 1.7.0-2
 I: Validating libpcre2-8-0 10.45-1
 I: Validating libseccomp2 2.5.5-2
-I: Retrieving libselinux1 3.8-1
 I: Validating libselinux1 3.8-1
 I: Validating libsemanage-common 3.7-2.1
 I: Validating libsemanage2 3.7-2.1
-I: Retrieving libsepol2 3.8-1
 I: Validating libsepol2 3.8-1
 I: Validating libsmartcols1 2.40.4-3
 I: Validating libss2 1.47.2-1
