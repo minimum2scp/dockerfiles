@@ -177,7 +177,7 @@ ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 cl
 ii   libssl3t64                   3.4.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-16                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.2-3                         amd64  systemd utility library
-ii   libtasn1-6                   4.19.0-3+b3                     amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6                   4.20.0-1                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250125-2                  amd64  shared low-level terminfo library for terminal handling
