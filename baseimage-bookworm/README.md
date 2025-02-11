@@ -173,7 +173,7 @@ ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client
 ii   libssl3                  3.0.15-1~deb12u1                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0              252.33-1~deb12u1                amd64  systemd utility library
-ii   libtasn1-6               4.19.0-2                        amd64  Manage ASN.1 structures (runtime)
+ii   libtasn1-6               4.19.0-2+deb12u1                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library

@@ -3170,7 +3170,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "124",
+    "Installed-Size": "116",
     "Origin": "",
     "Package": "libtasn1-6",
     "Pre-Depends": "",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "4.19.0-2",
+    "Version": "4.19.0-2+deb12u1",
     "binary:Package": "libtasn1-6:amd64",
     "binary:Summary": "Manage ASN.1 structures (runtime)",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libtasn1-6",
-    "source:Version": "4.19.0-2"
+    "source:Version": "4.19.0-2+deb12u1"
   },
   {
     "Architecture": "amd64",
