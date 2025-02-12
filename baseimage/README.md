@@ -93,7 +93,7 @@ ii   init-system-helpers          1.68                             all    helper
 ii   initscripts                  3.14-1                           all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                         amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                       amd64  access control list - shared library
-ii   libapparmor1                 3.1.7-1+b3                       amd64  changehat AppArmor library
+ii   libapparmor1                 3.1.7-2                          amd64  changehat AppArmor library
 ii   libapt-pkg6.0t64             2.9.28                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-2                        amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                        all    Dynamic library for security auditing - common files
@@ -147,10 +147,10 @@ ii   libnghttp3-9                 1.6.0-2                          amd64  HTTP/3
 ii   libngtcp2-16                 1.9.1-1                          amd64  implementation of QUIC protocol (library)
 ii   libngtcp2-crypto-gnutls8     1.9.1-1                          amd64  implementation of QUIC protocol (library)
 ii   libp11-kit0                  0.25.5-3                         amd64  library for loading and coordinating access to PKCS#11 modules - runtime
-ii   libpam-modules               1.7.0-2                          amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin           1.7.0-2                          amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime               1.7.0-2                          all    Runtime support for the PAM library
-ii   libpam0g                     1.7.0-2                          amd64  Pluggable Authentication Modules library
+ii   libpam-modules               1.7.0-3                          amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin           1.7.0-3                          amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime               1.7.0-3                          all    Runtime support for the PAM library
+ii   libpam0g                     1.7.0-3                          amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.45-1                          amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libperl5.40                  5.40.0-8                         amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                          amd64  Unix process pipeline manipulation library
@@ -165,7 +165,7 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5   amd64  toolki
 ii   libsasl2-2                   2.1.28+dfsg1-8+b1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-8+b1                amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-2                          amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.8-1                            amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.8-2                            amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.7-2.1                          all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.7-2.1                          amd64  SELinux policy management library
 ii   libsepol2                    3.8-1                            amd64  SELinux library for manipulating binary security policies
@@ -174,7 +174,7 @@ ii   libsmartcols1                2.40.4-3                         amd64  smart 
 ii   libsqlite3-0                 3.46.1-1                         amd64  SQLite 3 shared library
 ii   libss2                       1.47.2-1                         amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                         amd64  SSH2 client-side library
-ii   libssl3t64                   3.4.0-2                          amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.4.1-1                          amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-16                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.2-3                          amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-1                         amd64  Manage ASN.1 structures (runtime)
@@ -205,8 +205,8 @@ ii   netbase                      6.4                              all    Basic 
 ii   openssh-client               1:9.9p1-3                        amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.9p1-3                        amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.9p1-3                        amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.4.0-2                          amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.4.0-2                          amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.4.1-1                          amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.4.1-1                          amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.17                             all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.16.0-7                       amd64  change and administer password and group data
 ii   perl                         5.40.0-8                         amd64  Larry Wall's Practical Extraction and Report Language
@@ -222,7 +222,7 @@ ii   rsyslog                      8.2412.0-1                       amd64  reliab
 ii   runit-helper                 2.16.4                           all    dh-runit implementation detail
 ii   sed                          4.9-2                            amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                           all    Utilities for sensible alternative selection
-ii   sqv                          1.2.1-6                          amd64  Simple OpenPGP signature verification program
+ii   sqv                          1.2.1-6+b1                       amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                           amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                       amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.2-3                          amd64  standalone sysusers binary for use in non-systemd systems
@@ -239,7 +239,7 @@ ii   vim-common                   2:9.1.0967-2                     all    Vi IMp
 ii   vim-tiny                     2:9.1.0967-2+b1                  amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-4                        amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1      amd64  compression library - runtime
-ii   zsh                          5.9-8+b4                         amd64  shell with lots of features
+ii   zsh                          5.9-8+b5                         amd64  shell with lots of features
 ii   zsh-common                   5.9-8                            all    architecture independent files for Zsh
 ii   zstd                         1.5.6+dfsg-2                     amd64  fast lossless compression algorithm -- CLI tool
 ```
