@@ -82,7 +82,7 @@ ii   dpkg                         1.22.15                          amd64  Debian
 ii   e2fsprogs                    1.47.2-1                         amd64  ext2/ext3/ext4 file system utilities
 ii   etckeeper                    1.18.22-1                        all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                         amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.2.0-16                        amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.2.0-17                        amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.47.2-0.1                     amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.47.2-0.1                     all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                           amd64  GNU grep, egrep and fgrep
@@ -119,9 +119,9 @@ ii   libestr0                     0.1.11-1+b2                      amd64  Helper
 ii   libexpat1                    2.6.4-1                          amd64  XML parsing C library - runtime library
 ii   libext2fs2t64                1.47.2-1                         amd64  ext2/ext3/ext4 file system libraries
 ii   libfastjson4                 1.2304.0-2                       amd64  fast json library for C
-ii   libffi8                      3.4.6-1                          amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.4.7-1                          amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                      amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.2.0-16                        amd64  GCC support library
+ii   libgcc-s1                    14.2.0-17                        amd64  GCC support library
 ii   libgdbm-compat4t64           1.24-2                           amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                           amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                   amd64  Multiprecision arithmetic library
@@ -165,9 +165,9 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5   amd64  toolki
 ii   libsasl2-2                   2.1.28+dfsg1-8+b1                amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-8+b1                amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-2                          amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.8-2                            amd64  SELinux runtime shared libraries
+ii   libselinux1                  3.8-3                            amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.7-2.1                          all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.7-2.1                          amd64  SELinux policy management library
+ii   libsemanage2                 3.7-2.1+b1                       amd64  SELinux policy management library
 ii   libsepol2                    3.8-1                            amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                       amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-3                         amd64  smart column output alignment library
@@ -175,7 +175,7 @@ ii   libsqlite3-0                 3.46.1-1                         amd64  SQLite
 ii   libss2                       1.47.2-1                         amd64  command-line interface parsing library
 ii   libssh2-1t64                 1.11.1-1                         amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                          amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.2.0-16                        amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.2.0-17                        amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.2-3                          amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-1                         amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                       amd64  get display widths of characters on the terminal
