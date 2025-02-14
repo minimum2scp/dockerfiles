@@ -76,9 +76,9 @@ ii   libsmartcols1            2.40.4-3                     amd64  smart column o
 ii   libss2                   1.47.2-1                     amd64  command-line interface parsing library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-17                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.2-3                      amd64  systemd utility library
+ii   libsystemd0              257.3-1                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250125-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.2-3                      amd64  libudev shared library
+ii   libudev1                 257.3-1                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-3                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
