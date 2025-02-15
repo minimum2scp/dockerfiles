@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 2.9.28
+I: Retrieving apt 2.9.29
+I: Validating apt 2.9.29
 I: Validating base-files 13.6
 I: Validating base-passwd 3.6.6
 I: Validating bash 5.2.37-1
@@ -27,7 +28,8 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.68
 I: Validating libacl1 2.3.2-2+b1
-I: Validating libapt-pkg6.0t64 2.9.28
+I: Retrieving libapt-pkg6.0t64 2.9.29
+I: Validating libapt-pkg6.0t64 2.9.29
 I: Validating libattr1 1:2.5.2-2
 I: Validating libaudit-common 1:4.0.2-2
 I: Validating libaudit1 1:4.0.2-2+b1
@@ -58,17 +60,17 @@ I: Validating libpam0g 1.7.0-3
 I: Validating libpcre2-8-0 10.45-1
 I: Validating libseccomp2 2.5.5-2
 I: Validating libselinux1 3.8-3
-I: Validating libsemanage-common 3.7-2.1
-I: Validating libsemanage2 3.7-2.1+b1
+I: Retrieving libsemanage-common 3.8-1
+I: Validating libsemanage-common 3.8-1
+I: Retrieving libsemanage2 3.8-1
+I: Validating libsemanage2 3.8-1
 I: Validating libsepol2 3.8-1
 I: Validating libsmartcols1 2.40.4-3
 I: Validating libss2 1.47.2-1
 I: Validating libssl3t64 3.4.1-1
 I: Validating libstdc++6 14.2.0-17
-I: Retrieving libsystemd0 257.3-1
 I: Validating libsystemd0 257.3-1
 I: Validating libtinfo6 6.5+20250125-2
-I: Retrieving libudev1 257.3-1
 I: Validating libudev1 257.3-1
 I: Validating libuuid1 2.40.4-3
 I: Validating libxxhash0 0.8.3-2
