@@ -102,9 +102,9 @@ ii   libblkid1                    2.40.4-3                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b6                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.40-6                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.40-6                          all    GNU C Library: localization files
-ii   libc6                        2.40-6                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.40-7                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.40-7                          all    GNU C Library: localization files
+ii   libc6                        2.40-7                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4                         amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.66-5+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -189,9 +189,9 @@ ii   libwrap0                     7.6.q-35                        amd64  Wietse 
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.40-6                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.40-7                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-3       amd64  system login tools
-ii   login.defs                   1:4.16.0-7                      all    system user management configuration
+ii   login.defs                   1:4.17.2-2                      all    system user management configuration
 ii   logsave                      1.47.2-1                        amd64  save the output of a command in a log file
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
@@ -208,7 +208,7 @@ ii   openssh-sftp-server          1:9.9p1-3                       amd64  secure 
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.17                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.16.0-7                      amd64  change and administer password and group data
+ii   passwd                       1:4.17.2-2                      amd64  change and administer password and group data
 ii   perl                         5.40.0-8                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.0-8                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.0-8                        all    Core Perl modules
@@ -235,8 +235,8 @@ ii   tzdata                       2025a-2                         all    time zo
 ii   ucf                          3.0049                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-3                        amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.0967-2                    all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.0967-2+b1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.1113-1                    all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.1113-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-4                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
 ii   zsh                          5.9-8+b5                        amd64  shell with lots of features
