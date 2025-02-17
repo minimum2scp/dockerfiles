@@ -7,7 +7,8 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Validating apt 2.9.29
+I: Retrieving apt 2.9.30
+I: Validating apt 2.9.30
 I: Validating base-files 13.6
 I: Validating base-passwd 3.6.6
 I: Validating bash 5.2.37-1
@@ -27,19 +28,19 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.68
 I: Validating libacl1 2.3.2-2+b1
-I: Validating libapt-pkg6.0t64 2.9.29
+I: Retrieving libapt-pkg7.0 2.9.30
+I: Validating libapt-pkg7.0 2.9.30
 I: Validating libattr1 1:2.5.2-2
 I: Validating libaudit-common 1:4.0.2-2
 I: Validating libaudit1 1:4.0.2-2+b1
 I: Validating libblkid1 2.40.4-3
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.40-7
 I: Validating libc-bin 2.40-7
-I: Retrieving libc6 2.40-7
 I: Validating libc6 2.40-7
 I: Validating libcap-ng0 0.8.5-4
-I: Validating libcap2 1:2.66-5+b1
+I: Retrieving libcap2 1:2.73-2
+I: Validating libcap2 1:2.73-2
 I: Validating libcom-err2 1.47.2-1
 I: Validating libcrypt1 1:4.4.38-1
 I: Validating libdb5.3t64 5.3.28+dfsg2-9
@@ -47,12 +48,14 @@ I: Validating libdebconfclient0 0.277
 I: Validating libext2fs2t64 1.47.2-1
 I: Validating libgcc-s1 14.2.0-17
 I: Validating libgmp10 2:6.3.0+dfsg-3
-I: Validating libhogweed6t64 3.10-1+b1
+I: Retrieving libhogweed6t64 3.10.1-1
+I: Validating libhogweed6t64 3.10.1-1
 I: Validating liblz4-1 1.10.0-3
 I: Validating liblzma5 5.6.3-1+b1
 I: Validating libmd0 1.1.0-2+b1
 I: Validating libmount1 2.40.4-3
-I: Validating libnettle8t64 3.10-1+b1
+I: Retrieving libnettle8t64 3.10.1-1
+I: Validating libnettle8t64 3.10.1-1
 I: Validating libpam-modules 1.7.0-3
 I: Validating libpam-modules-bin 1.7.0-3
 I: Validating libpam-runtime 1.7.0-3
@@ -74,17 +77,18 @@ I: Validating libuuid1 2.40.4-3
 I: Validating libxxhash0 0.8.3-2
 I: Validating libzstd1 1.5.6+dfsg-2
 I: Validating login 1:4.16.0-2+really2.40.4-3
-I: Retrieving login.defs 1:4.17.2-2
-I: Validating login.defs 1:4.17.2-2
+I: Retrieving login.defs 1:4.17.2-4
+I: Validating login.defs 1:4.17.2-4
 I: Validating logsave 1.47.2-1
 I: Validating mawk 1.3.4.20250131-1
 I: Validating mount 2.40.4-3
 I: Validating ncurses-base 6.5+20250125-2
 I: Validating ncurses-bin 6.5+20250125-2
 I: Validating openssl-provider-legacy 3.4.1-1
-I: Retrieving passwd 1:4.17.2-2
-I: Validating passwd 1:4.17.2-2
-I: Validating perl-base 5.40.0-8
+I: Retrieving passwd 1:4.17.2-4
+I: Validating passwd 1:4.17.2-4
+I: Retrieving perl-base 5.40.1-2
+I: Validating perl-base 5.40.1-2
 I: Validating sed 4.9-2
 I: Validating sqv 1.2.1-6+b1
 I: Validating sysvinit-utils 3.14-1
@@ -113,7 +117,7 @@ I: Extracting gzip...
 I: Extracting hostname...
 I: Extracting init-system-helpers...
 I: Extracting libacl1...
-I: Extracting libapt-pkg6.0t64...
+I: Extracting libapt-pkg7.0...
 I: Extracting libattr1...
 I: Extracting libaudit-common...
 I: Extracting libaudit1...
@@ -196,7 +200,7 @@ I: Unpacking gzip...
 I: Unpacking hostname...
 I: Unpacking init-system-helpers...
 I: Unpacking libacl1:amd64...
-I: Unpacking libapt-pkg6.0t64:amd64...
+I: Unpacking libapt-pkg7.0:amd64...
 I: Unpacking libattr1:amd64...
 I: Unpacking libaudit-common...
 I: Unpacking libaudit1:amd64...
@@ -325,7 +329,7 @@ I: Configuring sed...
 I: Configuring findutils...
 I: Configuring libmount1:amd64...
 I: Configuring libsemanage2:amd64...
-I: Configuring libapt-pkg6.0t64:amd64...
+I: Configuring libapt-pkg7.0:amd64...
 I: Configuring base-passwd...
 I: Configuring apt...
 I: Configuring bsdutils...

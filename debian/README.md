@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.29                       amd64  commandline package manager
+ii   apt                      2.9.30                       amd64  commandline package manager
 ii   base-files               13.6                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1                     amd64  GNU Bourne Again SHell
@@ -38,7 +38,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg6.0t64         2.9.29                       amd64  package management runtime library
+ii   libapt-pkg7.0            2.9.30                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-2                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b1                 amd64  Dynamic library for security auditing
@@ -48,7 +48,7 @@ ii   libbz2-1.0               1.0.8-6                      amd64  high-quality b
 ii   libc-bin                 2.40-7                       amd64  GNU C Library: Binaries
 ii   libc6                    2.40-7                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4                      amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.66-5+b1                  amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.73-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcom-err2              1.47.2-1                     amd64  common error description library
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -56,12 +56,12 @@ ii   libdebconfclient0        0.277                        amd64  Debian Configu
 ii   libext2fs2t64            1.47.2-1                     amd64  ext2/ext3/ext4 file system libraries
 ii   libgcc-s1                14.2.0-17                    amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
-ii   libhogweed6t64           3.10-1+b1                    amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblz4-1                 1.10.0-3                     amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.6.3-1+b1                   amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.40.4-3                     amd64  device mounting library
-ii   libnettle8t64            3.10-1+b1                    amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules           1.7.0-3                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin       1.7.0-3                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.7.0-3                      all    Runtime support for the PAM library
@@ -83,15 +83,15 @@ ii   libuuid1                 2.40.4-3                     amd64  Universally Un
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.4-3    amd64  system login tools
-ii   login.defs               1:4.17.2-2                   all    system user management configuration
+ii   login.defs               1:4.17.2-4                   all    system user management configuration
 ii   logsave                  1.47.2-1                     amd64  save the output of a command in a log file
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
 ii   mount                    2.40.4-3                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5+20250125-2               all    basic terminal type definitions
 ii   ncurses-bin              6.5+20250125-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.4.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                   1:4.17.2-2                   amd64  change and administer password and group data
-ii   perl-base                5.40.0-8                     amd64  minimal Perl system
+ii   passwd                   1:4.17.2-4                   amd64  change and administer password and group data
+ii   perl-base                5.40.1-2                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.2.1-6+b1                   amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.14-1                       amd64  System-V-like utilities
