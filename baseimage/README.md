@@ -106,7 +106,7 @@ ii   libc-bin                     2.40-7                          amd64  GNU C L
 ii   libc-l10n                    2.40-7                          all    GNU C Library: localization files
 ii   libc6                        2.40-7                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4                         amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.73-3                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.73-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
@@ -232,7 +232,7 @@ ii   sysvinit-utils               3.14-1                          amd64  System-
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2025a-2                         all    time zone and daylight-saving time data
-ii   ucf                          3.0049                          all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                          3.0050                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-4                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.1113-1                    all    Vi IMproved - Common files
