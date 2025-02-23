@@ -127,7 +127,7 @@ ii   libgcrypt20              1.10.1-3                        amd64  LGPL Crypto
 ii   libgdbm-compat4          1.23-3                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6                 1.23-3                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                 2:6.2.1+dfsg1-1.1               amd64  Multiprecision arithmetic library
-ii   libgnutls30              3.7.9-2+deb12u3                 amd64  GNU TLS library - main runtime library
+ii   libgnutls30              3.7.9-2+deb12u4                 amd64  GNU TLS library - main runtime library
 ii   libgpg-error0            1.46-1                          amd64  GnuPG development runtime library
 ii   libgssapi-krb5-2         1.20.1-2+deb12u2                amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6              3.8.1-2                         amd64  low level cryptographic library (public-key cryptos)
@@ -195,9 +195,9 @@ ii   mount                    2.38.1-5+deb12u3                amd64  tools for m
 ii   ncurses-base             6.4-4                           all    basic terminal type definitions
 ii   ncurses-bin              6.4-4                           amd64  terminal-related programs and man pages
 ii   net-tools                2.10-0.1                        amd64  NET-3 networking toolkit
-ii   openssh-client           1:9.2p1-2+deb12u4               amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server           1:9.2p1-2+deb12u4               amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server      1:9.2p1-2+deb12u4               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client           1:9.2p1-2+deb12u5               amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server           1:9.2p1-2+deb12u5               amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server      1:9.2p1-2+deb12u5               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                  3.0.15-1~deb12u1                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
