@@ -40,13 +40,13 @@ ii   libacl1                  2.3.2-2+b1                   amd64  access control
 ii   libapt-pkg7.0            2.9.30                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
-ii   libaudit1                1:4.0.2-2+b1                 amd64  Dynamic library for security auditing
+ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic library for security auditing
 ii   libblkid1                2.40.4-5                     amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
 ii   libc-bin                 2.40-7                       amd64  GNU C Library: Binaries
 ii   libc6                    2.40-7                       amd64  GNU C Library: Shared libraries
-ii   libcap-ng0               0.8.5-4                      amd64  alternate POSIX capabilities library
+ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.73-4                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
@@ -64,10 +64,10 @@ ii   libpam-modules-bin       1.7.0-3                      amd64  Pluggable Auth
 ii   libpam-runtime           1.7.0-3                      all    Runtime support for the PAM library
 ii   libpam0g                 1.7.0-3                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.45-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libseccomp2              2.5.5-2                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2              2.5.5-2+b1                   amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.8-4                        amd64  SELinux runtime shared libraries
 ii   libsemanage-common       3.8-1                        all    Common files for SELinux policy management libraries
-ii   libsemanage2             3.8-1                        amd64  SELinux policy management library
+ii   libsemanage2             3.8-1+b1                     amd64  SELinux policy management library
 ii   libsepol2                3.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
