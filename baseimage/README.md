@@ -203,7 +203,7 @@ ii   openssh-server               1:9.9p2-1                       amd64  secure 
 ii   openssh-sftp-server          1:9.9p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.18                            all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.19                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.3-1                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
