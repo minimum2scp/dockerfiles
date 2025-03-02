@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.40.4-5                      amd64  basic u
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20241223                        all    Common CA certificates
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
-ii   cron                         3.0pl1-192                      amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-192                      all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-194                      amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-194                      all    process scheduling daemon's configuration files
 ii   curl                         8.12.1-3                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.89                          all    Debian configuration management system
@@ -101,9 +101,9 @@ ii   libblkid1                    2.40.4-5                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b7                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.41-2                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.41-2                          all    GNU C Library: localization files
-ii   libc6                        2.41-2                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.41-3                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.41-3                          all    GNU C Library: localization files
+ii   libc6                        2.41-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.73-4                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -134,16 +134,16 @@ ii   libkrb5support0              1.21.3-4                        amd64  MIT Ker
 ii   libldap2                     2.6.9+dfsg-1                    amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-4+b3                      amd64  log normalizing library
 ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.6.3-1+b1                      amd64  XZ-format compression library
+ii   liblzma5                     5.6.4-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.4-5                        amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-1                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.1-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnghttp3-9                 1.6.0-2                         amd64  HTTP/3 library with QUIC and QPACK (library)
-ii   libngtcp2-16                 1.9.1-1                         amd64  implementation of QUIC protocol (library)
-ii   libngtcp2-crypto-gnutls8     1.9.1-1                         amd64  implementation of QUIC protocol (library)
+ii   libnghttp3-9                 1.8.0-1                         amd64  HTTP/3 library with QUIC and QPACK (library)
+ii   libngtcp2-16                 1.11.0-1                        amd64  implementation of QUIC protocol (library)
+ii   libngtcp2-crypto-gnutls8     1.11.0-1                        amd64  implementation of QUIC protocol (library)
 ii   libp11-kit0                  0.25.5-3                        amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-3                         amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-3                         amd64  Pluggable Authentication Modules for PAM - helper binaries
@@ -186,7 +186,7 @@ ii   libwrap0                     7.6.q-36                        amd64  Wietse 
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.41-2                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.41-3                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-5       amd64  system login tools
 ii   login.defs                   1:4.17.3-1                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
