@@ -44,8 +44,8 @@ ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic librar
 ii   libblkid1                2.40.4-5                     amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.41-2                       amd64  GNU C Library: Binaries
-ii   libc6                    2.41-2                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.41-3                       amd64  GNU C Library: Binaries
+ii   libc6                    2.41-3                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.73-4                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
@@ -55,7 +55,7 @@ ii   libgcc-s1                14.2.0-17                    amd64  GCC support li
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblz4-1                 1.10.0-3                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.6.3-1+b1                   amd64  XZ-format compression library
+ii   liblzma5                 5.6.4-1                      amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.40.4-5                     amd64  device mounting library
 ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)

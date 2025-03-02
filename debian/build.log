@@ -7,7 +7,6 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Retrieving apt 2.9.31
 I: Validating apt 2.9.31
 I: Validating base-files 13.6
 I: Validating base-passwd 3.6.6
@@ -27,7 +26,6 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.68
 I: Validating libacl1 2.3.2-2+b1
-I: Retrieving libapt-pkg7.0 2.9.31
 I: Validating libapt-pkg7.0 2.9.31
 I: Validating libattr1 1:2.5.2-3
 I: Validating libaudit-common 1:4.0.2-2
@@ -35,10 +33,10 @@ I: Validating libaudit1 1:4.0.2-2+b2
 I: Validating libblkid1 2.40.4-5
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.41-2
-I: Validating libc-bin 2.41-2
-I: Retrieving libc6 2.41-2
-I: Validating libc6 2.41-2
+I: Retrieving libc-bin 2.41-3
+I: Validating libc-bin 2.41-3
+I: Retrieving libc6 2.41-3
+I: Validating libc6 2.41-3
 I: Validating libcap-ng0 0.8.5-4+b1
 I: Validating libcap2 1:2.73-4
 I: Validating libcrypt1 1:4.4.38-1
@@ -48,7 +46,8 @@ I: Validating libgcc-s1 14.2.0-17
 I: Validating libgmp10 2:6.3.0+dfsg-3
 I: Validating libhogweed6t64 3.10.1-1
 I: Validating liblz4-1 1.10.0-3
-I: Validating liblzma5 5.6.3-1+b1
+I: Retrieving liblzma5 5.6.4-1
+I: Validating liblzma5 5.6.4-1
 I: Validating libmd0 1.1.0-2+b1
 I: Validating libmount1 2.40.4-5
 I: Validating libnettle8t64 3.10.1-1
