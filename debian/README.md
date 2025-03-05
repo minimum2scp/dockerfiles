@@ -19,7 +19,7 @@ installed packages:
 
 ```
 ii   apt                      2.9.31                       amd64  commandline package manager
-ii   base-files               13.6                         amd64  Debian base system miscellaneous files
+ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1.1                   amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.4-5                   amd64  basic utilities from 4.4BSD-Lite
