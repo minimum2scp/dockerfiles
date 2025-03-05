@@ -60,9 +60,9 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.143                           all    add and remove users and groups
+ii   adduser                      3.144                           all    add and remove users and groups
 ii   apt                          2.9.31                          amd64  commandline package manager
-ii   base-files                   13.6                            amd64  Debian base system miscellaneous files
+ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1                      amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.4-5                        amd64  extra utilities from 4.4BSD-Lite
@@ -92,7 +92,7 @@ ii   init-system-helpers          1.68                            all    helper 
 ii   initscripts                  3.14-3                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
-ii   libapparmor1                 4.1.0~beta5-2+b1                amd64  changehat AppArmor library
+ii   libapparmor1                 4.1.0~beta5-3                   amd64  changehat AppArmor library
 ii   libapt-pkg7.0                2.9.31                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
@@ -155,7 +155,7 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.13.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   libpython3-stdlib            3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   libpython3.13-minimal        3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
 ii   libpython3.13-stdlib         3.13.2-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
@@ -209,8 +209,8 @@ ii   perl                         5.40.1-2                        amd64  Larry W
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
-ii   python3                      3.13.2-1                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.13.2-1                        amd64  minimal subset of the Python language (default python3 version)
+ii   python3                      3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
+ii   python3-minimal              3.13.2-2                        amd64  minimal subset of the Python language (default python3 version)
 ii   python3.13                   3.13.2-1                        amd64  Interactive high-level object-oriented language (version 3.13)
 ii   python3.13-minimal           3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
