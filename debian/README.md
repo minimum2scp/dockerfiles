@@ -29,7 +29,7 @@ ii   debconf                  1.5.89                       all    Debian configu
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-2                     amd64  File comparison utilities
-ii   dpkg                     1.22.15                      amd64  Debian package management system
+ii   dpkg                     1.22.16                      amd64  Debian package management system
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-17                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                     3.11-4                       amd64  GNU grep, egrep and fgrep
@@ -72,9 +72,9 @@ ii   libsepol2                3.8-1                        amd64  SELinux librar
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-17                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.3-1                      amd64  systemd utility library
-ii   libtinfo6                6.5+20250216-1               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.3-1                      amd64  libudev shared library
+ii   libsystemd0              257.4-1                      amd64  systemd utility library
+ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
+ii   libudev1                 257.4-1                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-5                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
@@ -82,8 +82,8 @@ ii   login                    1:4.16.0-2+really2.40.4-5    amd64  system login t
 ii   login.defs               1:4.17.3-1                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
 ii   mount                    2.40.4-5                     amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base             6.5+20250216-1               all    basic terminal type definitions
-ii   ncurses-bin              6.5+20250216-1               amd64  terminal-related programs and man pages
+ii   ncurses-base             6.5+20250216-2               all    basic terminal type definitions
+ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.4.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.17.3-1                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-2                     amd64  minimal Perl system
