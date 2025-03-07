@@ -78,7 +78,7 @@ ii   debconf                      1.5.89                          all    Debian 
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-2                        amd64  File comparison utilities
-ii   dpkg                         1.22.15                         amd64  Debian package management system
+ii   dpkg                         1.22.16                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-17                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -137,7 +137,7 @@ ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ
 ii   liblzma5                     5.6.4-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.4-5                        amd64  device mounting library
-ii   libncursesw6                 6.5+20250216-1                  amd64  shared libraries for terminal handling (wide character support)
+ii   libncursesw6                 6.5+20250216-2                  amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.1-1                        amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.24-4+b1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1                        amd64  library implementing HTTP/2 protocol (shared library)
@@ -173,13 +173,13 @@ ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-17                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.3-1                         amd64  systemd utility library
+ii   libsystemd0                  257.4-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
-ii   libtinfo6                    6.5+20250216-1                  amd64  shared low-level terminfo library for terminal handling
+ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.3-1                         amd64  libudev shared library
+ii   libudev1                     257.4-1                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-5                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
@@ -194,8 +194,8 @@ ii   man-db                       2.13.0-1                        amd64  tools f
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
 ii   media-types                  12.0.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.4-5                        amd64  tools for mounting and manipulating filesystems
-ii   ncurses-base                 6.5+20250216-1                  all    basic terminal type definitions
-ii   ncurses-bin                  6.5+20250216-1                  amd64  terminal-related programs and man pages
+ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
+ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.4                             all    Basic TCP/IP networking system
 ii   openssh-client               1:9.9p2-1                       amd64  secure shell (SSH) client, for secure access to remote machines
@@ -221,7 +221,7 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-6+b1                      amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.3-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.4-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-3                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-3                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-3                          amd64  System-V-like utilities
