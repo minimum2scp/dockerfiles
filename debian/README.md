@@ -25,11 +25,11 @@ ii   bash                     5.2.37-1.1                   amd64  GNU Bourne Aga
 ii   bsdutils                 1:2.40.4-5                   amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
-ii   debconf                  1.5.89                       all    Debian configuration management system
+ii   debconf                  1.5.90                       all    Debian configuration management system
 ii   debian-archive-keyring   2023.4                       all    GnuPG archive keys of the Debian archive
 ii   debianutils              5.21                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-2                     amd64  File comparison utilities
-ii   dpkg                     1.22.16                      amd64  Debian package management system
+ii   dpkg                     1.22.17                      amd64  Debian package management system
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-17                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                     3.11-4                       amd64  GNU grep, egrep and fgrep
@@ -47,14 +47,14 @@ ii   libbz2-1.0               1.0.8-6                      amd64  high-quality b
 ii   libc-bin                 2.41-3                       amd64  GNU C Library: Binaries
 ii   libc6                    2.41-3                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.73-4                     amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.75-1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.277                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                14.2.0-17                    amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
-ii   liblz4-1                 1.10.0-3                     amd64  Fast LZ compression algorithm library - runtime
+ii   liblz4-1                 1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.6.4-1                      amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.40.4-5                     amd64  device mounting library
