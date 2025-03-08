@@ -74,11 +74,11 @@ ii   cron                         3.0pl1-194                      amd64  process
 ii   cron-daemon-common           3.0pl1-194                      all    process scheduling daemon's configuration files
 ii   curl                         8.12.1-3                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
-ii   debconf                      1.5.89                          all    Debian configuration management system
+ii   debconf                      1.5.90                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-2                        amd64  File comparison utilities
-ii   dpkg                         1.22.16                         amd64  Debian package management system
+ii   dpkg                         1.22.17                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-17                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -105,7 +105,7 @@ ii   libc-bin                     2.41-3                          amd64  GNU C L
 ii   libc-l10n                    2.41-3                          all    GNU C Library: localization files
 ii   libc6                        2.41-3                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.73-4                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
@@ -114,7 +114,7 @@ ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkele
 ii   libdebconfclient0            0.277                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
-ii   libestr0                     0.1.11-1+b2                     amd64  Helper functions for handling strings (lib)
+ii   libestr0                     0.1.11-2                        amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.6.4-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.7-1                         amd64  Foreign Function Interface library runtime
@@ -132,8 +132,8 @@ ii   libkeyutils1                 1.6.3-4                         amd64  Linux K
 ii   libkrb5-3                    1.21.3-4                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-4                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.9+dfsg-1                    amd64  OpenLDAP libraries
-ii   liblognorm5                  2.0.6-4+b3                      amd64  log normalizing library
-ii   liblz4-1                     1.10.0-3                        amd64  Fast LZ compression algorithm library - runtime
+ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
+ii   liblz4-1                     1.10.0-4                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.4-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.40.4-5                        amd64  device mounting library
@@ -169,7 +169,7 @@ ii   libsemanage2                 3.8-1+b1                        amd64  SELinux
 ii   libsepol2                    3.8-1                           amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-5                        amd64  smart column output alignment library
-ii   libsqlite3-0                 3.46.1-1                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-17                       amd64  GNU Standard C++ Library v3
@@ -192,7 +192,7 @@ ii   login.defs                   1:4.17.3-1                      all    system 
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
-ii   media-types                  12.0.0                          all    List of standard media types and their usual file extension
+ii   media-types                  13.0.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.4-5                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
@@ -203,7 +203,7 @@ ii   openssh-server               1:9.9p2-1                       amd64  secure 
 ii   openssh-sftp-server          1:9.9p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   orphan-sysvinit-scripts      0.19                            all    Orphaned System-V-like init scripts
+ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.3-1                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system

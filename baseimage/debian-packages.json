@@ -398,7 +398,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "494",
+    "Installed-Size": "497",
     "Origin": "",
     "Package": "debconf",
     "Pre-Depends": "",
@@ -409,7 +409,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "debconf-doc, debconf-kde-helper, debconf-utils, libgtk3-perl, libnet-ldap-perl, libterm-readline-gnu-perl, perl, whiptail | dialog",
-    "Version": "1.5.89",
+    "Version": "1.5.90",
     "binary:Package": "debconf",
     "binary:Summary": "Debian configuration management system",
     "db:Status-Abbrev": "ii ",
@@ -417,7 +417,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debconf",
-    "source:Version": "1.5.89"
+    "source:Version": "1.5.90"
   },
   {
     "Architecture": "all",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.16",
+    "Version": "1.22.17",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.16"
+    "source:Version": "1.22.17"
   },
   {
     "Architecture": "all",
@@ -1277,7 +1277,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.73-4",
+    "Version": "1:2.75-1",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1285,7 +1285,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.73-4"
+    "source:Version": "1:2.75-1"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.14)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "32",
+    "Installed-Size": "31",
     "Origin": "",
     "Package": "libestr0",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.1.11-1+b2",
+    "Version": "0.1.11-2",
     "binary:Package": "libestr0:amd64",
     "binary:Summary": "Helper functions for handling strings (lib)",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libestr",
-    "source:Version": "0.1.11-1"
+    "source:Version": "0.1.11-2"
   },
   {
     "Architecture": "amd64",
@@ -2022,7 +2022,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "172",
+    "Installed-Size": "173",
     "Origin": "",
     "Package": "liblognorm5",
     "Pre-Depends": "",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.0.6-4+b3",
+    "Version": "2.0.6-5",
     "binary:Package": "liblognorm5:amd64",
     "binary:Summary": "log normalizing library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "liblognorm",
-    "source:Version": "2.0.6-4"
+    "source:Version": "2.0.6-5"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.10.0-3",
+    "Version": "1.10.0-4",
     "binary:Package": "liblz4-1:amd64",
     "binary:Summary": "Fast LZ compression algorithm library - runtime",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "lz4",
-    "source:Version": "1.10.0-3"
+    "source:Version": "1.10.0-4"
   },
   {
     "Architecture": "amd64",
@@ -3069,7 +3069,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.46.1-1",
+    "Version": "3.46.1-2",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.46.1-1"
+    "source:Version": "3.46.1-2"
   },
   {
     "Architecture": "amd64",
@@ -3713,7 +3713,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.0.0",
+    "Version": "13.0.0",
     "binary:Package": "media-types",
     "binary:Summary": "List of standard media types and their usual file extension",
     "db:Status-Abbrev": "ii ",
@@ -3721,7 +3721,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "media-types",
-    "source:Version": "12.0.0"
+    "source:Version": "13.0.0"
   },
   {
     "Architecture": "amd64",
@@ -4010,7 +4010,7 @@
     "Depends": "ucf",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "112",
+    "Installed-Size": "104",
     "Origin": "",
     "Package": "orphan-sysvinit-scripts",
     "Pre-Depends": "",
@@ -4021,7 +4021,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.19",
+    "Version": "0.20",
     "binary:Package": "orphan-sysvinit-scripts",
     "binary:Summary": "Orphaned System-V-like init scripts",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "orphan-sysvinit-scripts",
-    "source:Version": "0.19"
+    "source:Version": "0.20"
   },
   {
     "Architecture": "amd64",
