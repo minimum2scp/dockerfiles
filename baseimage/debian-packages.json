@@ -6,7 +6,7 @@
     "Depends": "passwd (>= 1:4.17.2-5)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "314",
+    "Installed-Size": "315",
     "Origin": "",
     "Package": "adduser",
     "Pre-Depends": "",
@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron, quota",
-    "Version": "3.144",
+    "Version": "3.145",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.144"
+    "source:Version": "3.145"
   },
   {
     "Architecture": "amd64",
