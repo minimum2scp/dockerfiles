@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.145                           all    add and remove users and groups
-ii   apt                          2.9.31                          amd64  commandline package manager
+ii   apt                          2.9.32                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1                      amd64  GNU Bourne Again SHell
@@ -74,11 +74,11 @@ ii   cron                         3.0pl1-194                      amd64  process
 ii   cron-daemon-common           3.0pl1-194                      all    process scheduling daemon's configuration files
 ii   curl                         8.12.1-3                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
-ii   debconf                      1.5.90                          all    Debian configuration management system
+ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-2                        amd64  File comparison utilities
-ii   dpkg                         1.22.17                         amd64  Debian package management system
+ii   dpkg                         1.22.18                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-17                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-3                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.0~beta5-3                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                2.9.31                          amd64  package management runtime library
+ii   libapt-pkg7.0                2.9.32                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b2                    amd64  Dynamic library for security auditing
@@ -101,9 +101,9 @@ ii   libblkid1                    2.40.4-5                        amd64  block d
 ii   libbrotli1                   1.1.0-2+b7                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.41-3                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.41-3                          all    GNU C Library: localization files
-ii   libc6                        2.41-3                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.41-4                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.41-4                          all    GNU C Library: localization files
+ii   libc6                        2.41-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-1                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -126,7 +126,7 @@ ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multipr
 ii   libgnutls30t64               3.8.9-2                         amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.7-2+b1                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.8-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-4                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-4                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-4                        amd64  MIT Kerberos runtime libraries
@@ -186,7 +186,7 @@ ii   libwrap0                     7.6.q-36                        amd64  Wietse 
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.41-3                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.41-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-5       amd64  system login tools
 ii   login.defs                   1:4.17.3-1                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
