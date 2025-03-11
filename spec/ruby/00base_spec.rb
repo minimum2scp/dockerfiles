@@ -42,7 +42,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe command('ruby3.3 -v') do
-      its(:stdout) { should start_with('ruby 3.3.6 ') }
+      its(:stdout) { should start_with('ruby 3.3.7 ') }
     end
 
     describe file('/opt/rbenv') do
