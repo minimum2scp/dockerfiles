@@ -814,11 +814,11 @@
   {
     "Architecture": "all",
     "Conflicts": "",
-    "Breaks": "udev (<< 254.3-1), util-linux-extra (<< 2.39.2-2.1~)",
+    "Breaks": "kmod (<< 34.1-1), udev (<< 254.3-1), util-linux-extra (<< 2.39.2-2.1~)",
     "Depends": "sysvinit-utils (>= 3.05-1), sysv-rc | file-rc | openrc",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "201",
+    "Installed-Size": "203",
     "Origin": "",
     "Package": "initscripts",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.14-3",
+    "Version": "3.14-4",
     "binary:Package": "initscripts",
     "binary:Summary": "scripts for initializing and shutting down the system",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.14-3"
+    "source:Version": "3.14-4"
   },
   {
     "Architecture": "amd64",
@@ -1994,7 +1994,7 @@
     "Depends": "libc6 (>= 2.38), libsasl2-2 (>= 2.1.28+dfsg1), libssl3t64 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "567",
+    "Installed-Size": "576",
     "Origin": "",
     "Package": "libldap2",
     "Pre-Depends": "",
@@ -2005,7 +2005,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.9+dfsg-1",
+    "Version": "2.6.9+dfsg-2",
     "binary:Package": "libldap2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2013,7 +2013,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.6.9+dfsg-1"
+    "source:Version": "2.6.9+dfsg-2"
   },
   {
     "Architecture": "amd64",
@@ -4553,7 +4553,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.14-3",
+    "Version": "3.14-4",
     "binary:Package": "sysv-rc",
     "binary:Summary": "System-V-like runlevel change mechanism",
     "db:Status-Abbrev": "ii ",
@@ -4561,7 +4561,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.14-3"
+    "source:Version": "3.14-4"
   },
   {
     "Architecture": "amd64",
@@ -4581,7 +4581,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "bootlogd",
-    "Version": "3.14-3",
+    "Version": "3.14-4",
     "binary:Package": "sysvinit-core",
     "binary:Summary": "System-V-like init",
     "db:Status-Abbrev": "ii ",
@@ -4589,7 +4589,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.14-3"
+    "source:Version": "3.14-4"
   },
   {
     "Architecture": "amd64",
@@ -4609,7 +4609,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.14-3",
+    "Version": "3.14-4",
     "binary:Package": "sysvinit-utils",
     "binary:Summary": "System-V-like utilities",
     "db:Status-Abbrev": "ii ",
@@ -4617,7 +4617,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sysvinit",
-    "source:Version": "3.14-3"
+    "source:Version": "3.14-4"
   },
   {
     "Architecture": "amd64",
@@ -4738,7 +4738,7 @@
     "Depends": "libbz2-1.0, libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "379",
+    "Installed-Size": "387",
     "Origin": "",
     "Package": "unzip",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "zip",
-    "Version": "6.0-28",
+    "Version": "6.0-29",
     "binary:Package": "unzip",
     "binary:Summary": "De-archiver for .zip files",
     "db:Status-Abbrev": "ii ",
@@ -4757,7 +4757,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "unzip",
-    "source:Version": "6.0-28"
+    "source:Version": "6.0-29"
   },
   {
     "Architecture": "amd64",

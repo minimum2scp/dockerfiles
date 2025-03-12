@@ -89,7 +89,7 @@ ii   groff-base                   1.23.0-7                        amd64  GNU tro
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.68                            all    helper tools for all init systems
-ii   initscripts                  3.14-3                          all    scripts for initializing and shutting down the system
+ii   initscripts                  3.14-4                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.0~beta5-3                   amd64  changehat AppArmor library
@@ -131,7 +131,7 @@ ii   libk5crypto3                 1.21.3-4                        amd64  MIT Ker
 ii   libkeyutils1                 1.6.3-4                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-4                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-4                        amd64  MIT Kerberos runtime libraries - Support library
-ii   libldap2                     2.6.9+dfsg-1                    amd64  OpenLDAP libraries
+ii   libldap2                     2.6.9+dfsg-2                    amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.6.4-1                         amd64  XZ-format compression library
@@ -222,14 +222,14 @@ ii   sqv                          1.2.1-6+b1                      amd64  Simple 
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.4-1                         amd64  standalone sysusers binary for use in non-systemd systems
-ii   sysv-rc                      3.14-3                          all    System-V-like runlevel change mechanism
-ii   sysvinit-core                3.14-3                          amd64  System-V-like init
-ii   sysvinit-utils               3.14-3                          amd64  System-V-like utilities
+ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
+ii   sysvinit-core                3.14-4                          amd64  System-V-like init
+ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2025a-2                         all    time zone and daylight-saving time data
 ii   ucf                          3.0050                          all    Update Configuration File(s): preserve user changes to config files
-ii   unzip                        6.0-28                          amd64  De-archiver for .zip files
+ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.40.4-5                        amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.1113-1                    all    Vi IMproved - Common files
 ii   vim-tiny                     2:9.1.1113-1                    amd64  Vi IMproved - enhanced vi editor - compact version
