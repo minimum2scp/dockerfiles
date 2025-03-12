@@ -7,7 +7,6 @@ I: Validating Packages
 I: Resolving dependencies of required packages...
 I: Resolving dependencies of base packages...
 I: Checking component main on http://deb.debian.org/debian...
-I: Retrieving apt 2.9.32
 I: Validating apt 2.9.32
 I: Validating base-files 13.7
 I: Validating base-passwd 3.6.6
@@ -15,12 +14,10 @@ I: Validating bash 5.2.37-1.1
 I: Validating bsdutils 1:2.40.4-5
 I: Validating coreutils 9.5-1+b1
 I: Validating dash 0.5.12-12
-I: Retrieving debconf 1.5.91
 I: Validating debconf 1.5.91
 I: Validating debian-archive-keyring 2023.4
 I: Validating debianutils 5.21
 I: Validating diffutils 1:3.10-2
-I: Retrieving dpkg 1.22.18
 I: Validating dpkg 1.22.18
 I: Validating findutils 4.10.0-3
 I: Validating gcc-14-base 14.2.0-17
@@ -29,7 +26,6 @@ I: Validating gzip 1.13-1
 I: Validating hostname 3.25
 I: Validating init-system-helpers 1.68
 I: Validating libacl1 2.3.2-2+b1
-I: Retrieving libapt-pkg7.0 2.9.32
 I: Validating libapt-pkg7.0 2.9.32
 I: Validating libattr1 1:2.5.2-3
 I: Validating libaudit-common 1:4.0.2-2
@@ -37,9 +33,7 @@ I: Validating libaudit1 1:4.0.2-2+b2
 I: Validating libblkid1 2.40.4-5
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.41-4
 I: Validating libc-bin 2.41-4
-I: Retrieving libc6 2.41-4
 I: Validating libc6 2.41-4
 I: Validating libcap-ng0 0.8.5-4+b1
 I: Validating libcap2 1:2.75-1
@@ -84,7 +78,8 @@ I: Validating passwd 1:4.17.3-1
 I: Validating perl-base 5.40.1-2
 I: Validating sed 4.9-2
 I: Validating sqv 1.2.1-6+b1
-I: Validating sysvinit-utils 3.14-3
+I: Retrieving sysvinit-utils 3.14-4
+I: Validating sysvinit-utils 3.14-4
 I: Validating tar 1.35+dfsg-3.1
 I: Validating tzdata 2025a-2
 I: Validating util-linux 2.40.4-5
