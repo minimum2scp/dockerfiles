@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.32                       amd64  commandline package manager
+ii   apt                      2.9.33                       amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1.1                   amd64  GNU Bourne Again SHell
@@ -31,13 +31,13 @@ ii   debianutils              5.21                         amd64  Miscellaneous 
 ii   diffutils                1:3.10-2                     amd64  File comparison utilities
 ii   dpkg                     1.22.18                      amd64  Debian package management system
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
-ii   gcc-14-base              14.2.0-17                    amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base              14.2.0-18                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                     3.11-4                       amd64  GNU grep, egrep and fgrep
 ii   gzip                     1.13-1                       amd64  GNU compression utilities
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg7.0            2.9.32                       amd64  package management runtime library
+ii   libapt-pkg7.0            2.9.33                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic library for security auditing
@@ -51,7 +51,7 @@ ii   libcap2                  1:2.75-1                     amd64  POSIX 1003.1e 
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.277                        amd64  Debian Configuration Management System (C-implementation library)
-ii   libgcc-s1                14.2.0-17                    amd64  GCC support library
+ii   libgcc-s1                14.2.0-18                    amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblz4-1                 1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
@@ -71,7 +71,7 @@ ii   libsemanage2             3.8-1+b1                     amd64  SELinux policy
 ii   libsepol2                3.8-1                        amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6               14.2.0-17                    amd64  GNU Standard C++ Library v3
+ii   libstdc++6               14.2.0-18                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.4-1                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
 ii   libudev1                 257.4-1                      amd64  libudev shared library
