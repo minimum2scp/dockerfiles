@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.145                           all    add and remove users and groups
-ii   apt                          2.9.32                          amd64  commandline package manager
+ii   apt                          2.9.33                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1                      amd64  GNU Bourne Again SHell
@@ -81,7 +81,7 @@ ii   diffutils                    1:3.10-2                        amd64  File co
 ii   dpkg                         1.22.18                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
-ii   gcc-14-base                  14.2.0-17                       amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-14-base                  14.2.0-18                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.47.2-0.1                    amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.47.2-0.1                    all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.0~beta5-3                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                2.9.32                          amd64  package management runtime library
+ii   libapt-pkg7.0                2.9.33                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b2                    amd64  Dynamic library for security auditing
@@ -119,18 +119,18 @@ ii   libexpat1                    2.6.4-1                         amd64  XML par
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.7-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    14.2.0-17                       amd64  GCC support library
+ii   libgcc-s1                    14.2.0-18                       amd64  GCC support library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.24-2                          amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-3                  amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.9-2                         amd64  GNU TLS library - main runtime library
-ii   libgssapi-krb5-2             1.21.3-4                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2             1.21.3-5                        amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-1                         amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3                 1.21.3-4                        amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3                 1.21.3-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-4                         amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3                    1.21.3-4                        amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0              1.21.3-4                        amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3                    1.21.3-5                        amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0              1.21.3-5                        amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap2                     2.6.9+dfsg-2                    amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                        amd64  Fast LZ compression algorithm library - runtime
@@ -172,7 +172,7 @@ ii   libsmartcols1                2.40.4-5                        amd64  smart c
 ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   14.2.0-17                       amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   14.2.0-18                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.4-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
