@@ -90,7 +90,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7199",
+    "Installed-Size": "7196",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.38), libtinfo6 (>= 6)",
@@ -101,7 +101,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.37-1.1",
+    "Version": "5.2.37-1.1+b1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -818,7 +818,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "90",
+    "Installed-Size": "91",
     "Origin": "",
     "Package": "libcap2",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.75-1",
+    "Version": "1:2.75-2",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.75-1"
+    "source:Version": "1:2.75-2"
   },
   {
     "Architecture": "amd64",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.4-1",
+    "Version": "257.4-3",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-1"
+    "source:Version": "257.4-3"
   },
   {
     "Architecture": "amd64",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.4-1",
+    "Version": "257.4-3",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-1"
+    "source:Version": "257.4-3"
   },
   {
     "Architecture": "amd64",
@@ -1658,7 +1658,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "835",
+    "Installed-Size": "847",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -1669,7 +1669,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.6+dfsg-2",
+    "Version": "1.5.7+dfsg-1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.6+dfsg-2"
+    "source:Version": "1.5.7+dfsg-1"
   },
   {
     "Architecture": "amd64",

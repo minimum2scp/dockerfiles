@@ -21,7 +21,7 @@ installed packages:
 ii   apt                      2.9.33                       amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
-ii   bash                     5.2.37-1.1                   amd64  GNU Bourne Again SHell
+ii   bash                     5.2.37-1.1+b1                amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.4-5                   amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
@@ -47,7 +47,7 @@ ii   libbz2-1.0               1.0.8-6                      amd64  high-quality b
 ii   libc-bin                 2.41-4                       amd64  GNU C Library: Binaries
 ii   libc6                    2.41-4                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.75-1                     amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.75-2                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.277                        amd64  Debian Configuration Management System (C-implementation library)
@@ -72,12 +72,12 @@ ii   libsepol2                3.8-1                        amd64  SELinux librar
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-18                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.4-1                      amd64  systemd utility library
+ii   libsystemd0              257.4-3                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.4-1                      amd64  libudev shared library
+ii   libudev1                 257.4-3                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-5                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                 1.5.6+dfsg-2                 amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.4-5    amd64  system login tools
 ii   login.defs               1:4.17.3-1                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
