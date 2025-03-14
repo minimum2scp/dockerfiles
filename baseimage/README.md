@@ -64,7 +64,7 @@ ii   adduser                      3.145                           all    add and
 ii   apt                          2.9.33                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
-ii   bash                         5.2.37-1.1                      amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-1.1+b1                   amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.40.4-5                        amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.40.4-5                      amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -105,7 +105,7 @@ ii   libc-bin                     2.41-4                          amd64  GNU C L
 ii   libc-l10n                    2.41-4                          all    GNU C Library: localization files
 ii   libc6                        2.41-4                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-1                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-2                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1                        amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
@@ -156,8 +156,8 @@ ii   libpopt0                     1.19+dfsg-2                     amd64  lib for
 ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   libpython3-stdlib            3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.13-minimal        3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
-ii   libpython3.13-stdlib         3.13.2-1                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
+ii   libpython3.13-minimal        3.13.2-2                        amd64  Minimal subset of the Python language (version 3.13)
+ii   libpython3.13-stdlib         3.13.2-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
 ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-9                  amd64  Cyrus SASL - authentication abstraction library
@@ -173,18 +173,18 @@ ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-18                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.4-1                         amd64  systemd utility library
+ii   libsystemd0                  257.4-3                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.4-1                         amd64  libudev shared library
+ii   libudev1                     257.4-3                         amd64  libudev shared library
 ii   libunistring5                1.3-1                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-5                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
-ii   libzstd1                     1.5.6+dfsg-2                    amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-4                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-5       amd64  system login tools
@@ -211,8 +211,8 @@ ii   perl-modules-5.40            5.40.1-2                        all    Core Pe
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
 ii   python3                      3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
 ii   python3-minimal              3.13.2-2                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.13                   3.13.2-1                        amd64  Interactive high-level object-oriented language (version 3.13)
-ii   python3.13-minimal           3.13.2-1                        amd64  Minimal subset of the Python language (version 3.13)
+ii   python3.13                   3.13.2-2                        amd64  Interactive high-level object-oriented language (version 3.13)
+ii   python3.13-minimal           3.13.2-2                        amd64  Minimal subset of the Python language (version 3.13)
 ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2502.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
@@ -221,7 +221,7 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-6+b1                      amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.4-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.4-3                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
@@ -235,7 +235,7 @@ ii   vim-common                   2:9.1.1113-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1113-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.24-4+b1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b5                        amd64  shell with lots of features
+ii   zsh                          5.9-8+b6                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
-ii   zstd                         1.5.6+dfsg-2                    amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
