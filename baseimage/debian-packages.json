@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.2.0-18",
+    "Version": "14.2.0-19",
     "binary:Package": "gcc-14-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,16 +613,16 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.2.0-18"
+    "source:Version": "14.2.0-19"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)",
-    "Depends": "libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.47.2), git-man (<< 1:2.47.2-.)",
+    "Depends": "libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.49.0), git-man (<< 1:2.49.0-.)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "48910",
+    "Installed-Size": "49656",
     "Origin": "",
     "Package": "git",
     "Pre-Depends": "",
@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.47.2-0.1",
+    "Version": "1:2.49.0-1",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.47.2-0.1"
+    "source:Version": "1:2.49.0-1"
   },
   {
     "Architecture": "all",
@@ -650,7 +650,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2249",
+    "Installed-Size": "2281",
     "Origin": "",
     "Package": "git-man",
     "Pre-Depends": "",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.47.2-0.1",
+    "Version": "1:2.49.0-1",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.47.2-0.1"
+    "source:Version": "1:2.49.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1165,7 +1165,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.41-4",
+    "Version": "2.41-6",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1173,7 +1173,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-4"
+    "source:Version": "2.41-6"
   },
   {
     "Architecture": "all",
@@ -1193,7 +1193,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.41-4",
+    "Version": "2.41-6",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-4"
+    "source:Version": "2.41-6"
   },
   {
     "Architecture": "amd64",
@@ -1221,7 +1221,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.41-4",
+    "Version": "2.41-6",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-4"
+    "source:Version": "2.41-6"
   },
   {
     "Architecture": "amd64",
@@ -1322,18 +1322,18 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "63",
+    "Installed-Size": "64",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcom-err2t64 (= 1.47.2-1), libcomerr2 (= 1.47.2-1)",
+    "Provides": "libcom-err2t64 (= 1.47.2-1+b1), libcomerr2 (= 1.47.2-1+b1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.2-1",
+    "Version": "1.47.2-1+b1",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1546,7 +1546,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "394",
+    "Installed-Size": "399",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1557,7 +1557,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.4-1",
+    "Version": "2.7.0-1",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1565,7 +1565,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.6.4-1"
+    "source:Version": "2.7.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1655,7 +1655,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-14-base (= 14.2.0-18), libc6 (>= 2.35)",
+    "Depends": "gcc-14-base (= 14.2.0-19), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "197",
@@ -1663,13 +1663,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:14.2.0-18)",
+    "Provides": "libgcc1 (= 1:14.2.0-19)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.2.0-18",
+    "Version": "14.2.0-19",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1677,7 +1677,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.2.0-18"
+    "source:Version": "14.2.0-19"
   },
   {
     "Architecture": "amd64",
@@ -1865,7 +1865,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.8-1",
+    "Version": "2.3.8-2",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -1873,7 +1873,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2",
-    "source:Version": "2.3.8-1"
+    "source:Version": "2.3.8-2"
   },
   {
     "Architecture": "amd64",
@@ -3139,7 +3139,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-14-base (= 14.2.0-18), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-14-base (= 14.2.0-19), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3019",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "14.2.0-18",
+    "Version": "14.2.0-19",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-14",
-    "source:Version": "14.2.0-18"
+    "source:Version": "14.2.0-19"
   },
   {
     "Architecture": "amd64",
@@ -3545,7 +3545,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.41-4",
+    "Version": "2.41-6",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3553,7 +3553,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-4"
+    "source:Version": "2.41-6"
   },
   {
     "Architecture": "amd64",
@@ -3842,7 +3842,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "36",
+    "Installed-Size": "35",
     "Origin": "",
     "Package": "netbase",
     "Pre-Depends": "",
@@ -3853,7 +3853,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "6.4",
+    "Version": "6.5",
     "binary:Package": "netbase",
     "binary:Summary": "Basic TCP/IP networking system",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "netbase",
-    "source:Version": "6.4"
+    "source:Version": "6.5"
   },
   {
     "Architecture": "amd64",
