@@ -163,10 +163,10 @@ ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit
 ii   libsasl2-2                   2.1.28+dfsg1-9                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-9                  amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.5.5-2+b1                      amd64  high level interface to Linux seccomp filter
-ii   libselinux1                  3.8-4                           amd64  SELinux runtime shared libraries
-ii   libsemanage-common           3.8-1                           all    Common files for SELinux policy management libraries
-ii   libsemanage2                 3.8-1+b1                        amd64  SELinux policy management library
-ii   libsepol2                    3.8-1                           amd64  SELinux library for manipulating binary security policies
+ii   libselinux1                  3.8.1-1                         amd64  SELinux runtime shared libraries
+ii   libsemanage-common           3.8.1-1                         all    Common files for SELinux policy management libraries
+ii   libsemanage2                 3.8.1-1                         amd64  SELinux policy management library
+ii   libsepol2                    3.8.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-5                        amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 3 shared library
@@ -188,7 +188,7 @@ ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lo
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-5       amd64  system login tools
-ii   login.defs                   1:4.17.3-1                      all    system user management configuration
+ii   login.defs                   1:4.17.3-2                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
@@ -204,7 +204,7 @@ ii   openssh-sftp-server          1:9.9p2-1                       amd64  secure 
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.17.3-1                      amd64  change and administer password and group data
+ii   passwd                       1:4.17.3-2                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
