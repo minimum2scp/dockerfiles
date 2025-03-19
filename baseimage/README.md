@@ -77,7 +77,7 @@ ii   dash                         0.5.12-12                       amd64  POSIX-c
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
-ii   diffutils                    1:3.10-2                        amd64  File comparison utilities
+ii   diffutils                    1:3.10-3                        amd64  File comparison utilities
 ii   dpkg                         1.22.18                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
