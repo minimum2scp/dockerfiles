@@ -366,7 +366,7 @@ describe 'minimum2scp/baseimage-bookworm' do
         pending 'Switched nginx package to debian.org ones'
         should be_installed.with_version('1.22.1-1~bullseye')
       }
-      it { should be_installed.with_version('1.22.1-9') }
+      it { should be_installed.with_version('1.22.1-9+deb12u1') }
     end
 
     describe file('/etc/nginx/conf.d/misc.conf') do
