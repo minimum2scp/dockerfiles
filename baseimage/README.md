@@ -60,8 +60,8 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.145                           all    add and remove users and groups
-ii   apt                          2.9.33                          amd64  commandline package manager
+ii   adduser                      3.146                           all    add and remove users and groups
+ii   apt                          2.9.34                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1+b1                   amd64  GNU Bourne Again SHell
@@ -92,8 +92,8 @@ ii   init-system-helpers          1.68                            all    helper 
 ii   initscripts                  3.14-4                          all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
-ii   libapparmor1                 4.1.0~beta5-4                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                2.9.33                          amd64  package management runtime library
+ii   libapparmor1                 4.1.0~beta5-5                   amd64  changehat AppArmor library
+ii   libapt-pkg7.0                2.9.34                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b2                    amd64  Dynamic library for security auditing
@@ -105,7 +105,7 @@ ii   libc-bin                     2.41-6                          amd64  GNU C L
 ii   libc-l10n                    2.41-6                          all    GNU C Library: localization files
 ii   libc6                        2.41-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-2                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-3                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
@@ -162,7 +162,7 @@ ii   libreadline8t64              8.2-6                           amd64  GNU rea
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-9                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-9                  amd64  Cyrus SASL - pluggable authentication modules (DB)
-ii   libseccomp2                  2.5.5-2+b1                      amd64  high level interface to Linux seccomp filter
+ii   libseccomp2                  2.6.0-2                         amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.8.1-1                         amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.8.1-1                         all    Common files for SELinux policy management libraries
 ii   libsemanage2                 3.8.1-1                         amd64  SELinux policy management library
@@ -198,9 +198,9 @@ ii   ncurses-base                 6.5+20250216-2                  all    basic t
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
 ii   netbase                      6.5                             all    Basic TCP/IP networking system
-ii   openssh-client               1:9.9p2-1                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.9p2-1                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.9p2-1                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:9.9p2-2                       amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:9.9p2-2                       amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
