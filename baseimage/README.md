@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.146                           all    add and remove users and groups
+ii   adduser                      3.149                           all    add and remove users and groups
 ii   apt                          2.9.34                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.6                           amd64  Debian base system master password and group files
@@ -72,7 +72,7 @@ ii   ca-certificates              20241223                        all    Common 
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-194                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-194                      all    process scheduling daemon's configuration files
-ii   curl                         8.13.0~rc2-1                    amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.13.0~rc2-2                    amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -109,7 +109,7 @@ ii   libcap2                      1:2.75-3                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.13.0~rc2-1                    amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3t64-gnutls           8.13.0~rc2-2                    amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.277                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
@@ -180,7 +180,7 @@ ii   libtext-wrapi18n-perl        0.06-10                         all    interna
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
 ii   libudev1                     257.4-3                         amd64  libudev shared library
-ii   libunistring5                1.3-1                           amd64  Unicode string library for C
+ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-5                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
