@@ -20,7 +20,7 @@ installed packages:
 ```
 ii   apt                      2.9.34                       amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
-ii   base-passwd              3.6.6                        amd64  Debian base system master password and group files
+ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1.1+b1                amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.4-5                   amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
@@ -91,7 +91,7 @@ ii   sed                      4.9-2                        amd64  GNU stream edi
 ii   sqv                      1.2.1-6+b1                   amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.14-4                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
-ii   tzdata                   2025a-2                      all    time zone and daylight-saving time data
+ii   tzdata                   2025b-1                      all    time zone and daylight-saving time data
 ii   util-linux               2.40.4-5                     amd64  miscellaneous system utilities
 ii   zlib1g                   1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ```
