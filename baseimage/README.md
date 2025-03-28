@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.149                           all    add and remove users and groups
-ii   apt                          2.9.34                          amd64  commandline package manager
+ii   apt                          2.9.35                          amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1+b1                   amd64  GNU Bourne Again SHell
@@ -72,7 +72,7 @@ ii   ca-certificates              20241223                        all    Common 
 ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
 ii   cron                         3.0pl1-194                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-194                      all    process scheduling daemon's configuration files
-ii   curl                         8.13.0~rc2-2                    amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.13.0~rc3-1                    amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2023.4                          all    GnuPG archive keys of the Debian archive
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.0~beta5-5                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                2.9.34                          amd64  package management runtime library
+ii   libapt-pkg7.0                2.9.35                          amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b2                    amd64  Dynamic library for security auditing
@@ -109,13 +109,13 @@ ii   libcap2                      1:2.75-4                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.13.0~rc2-2                    amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3t64-gnutls           8.13.0~rc3-1                    amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.277                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2                        amd64  Helper functions for handling strings (lib)
-ii   libexpat1                    2.7.0-1                         amd64  XML parsing C library - runtime library
+ii   libexpat1                    2.7.1-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
 ii   libffi8                      3.4.7-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
@@ -173,13 +173,13 @@ ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.4-3                         amd64  systemd utility library
+ii   libsystemd0                  257.4-5                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.4-3                         amd64  libudev shared library
+ii   libudev1                     257.4-5                         amd64  libudev shared library
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-5                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
@@ -188,7 +188,7 @@ ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lo
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.40.4-5       amd64  system login tools
-ii   login.defs                   1:4.17.3-2                      all    system user management configuration
+ii   login.defs                   1:4.17.3-3                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
@@ -204,7 +204,7 @@ ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure 
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.17.3-2                      amd64  change and administer password and group data
+ii   passwd                       1:4.17.3-3                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
@@ -221,7 +221,7 @@ ii   sensible-utils               0.0.24                          all    Utiliti
 ii   sqv                          1.2.1-6+b1                      amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.4-3                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.4-5                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
