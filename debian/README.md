@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      2.9.34                       amd64  commandline package manager
+ii   apt                      2.9.35                       amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-1.1+b1                amd64  GNU Bourne Again SHell
@@ -37,7 +37,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg7.0            2.9.34                       amd64  package management runtime library
+ii   libapt-pkg7.0            2.9.35                       amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic library for security auditing
@@ -72,20 +72,20 @@ ii   libsepol2                3.8.1-1                      amd64  SELinux librar
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.4-3                      amd64  systemd utility library
+ii   libsystemd0              257.4-5                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.4-3                      amd64  libudev shared library
+ii   libudev1                 257.4-5                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-5                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.40.4-5    amd64  system login tools
-ii   login.defs               1:4.17.3-2                   all    system user management configuration
+ii   login.defs               1:4.17.3-3                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
 ii   mount                    2.40.4-5                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.4.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                   1:4.17.3-2                   amd64  change and administer password and group data
+ii   passwd                   1:4.17.3-3                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-2                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.2.1-6+b1                   amd64  Simple OpenPGP signature verification program

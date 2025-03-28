@@ -3,7 +3,7 @@
     "Architecture": "amd64",
     "Conflicts": "apt-verify, libnettle8 (<< 3.9.1-2.2~)",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv, libapt-pkg7.0 (>= 2.9.34), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
+    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv, libapt-pkg7.0 (>= 2.9.35), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4458",
@@ -11,13 +11,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 2.9.34)",
+    "Provides": "apt-transport-https (= 2.9.35)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "2.9.34",
+    "Version": "2.9.35",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.34"
+    "source:Version": "2.9.35"
   },
   {
     "Architecture": "amd64",
@@ -543,13 +543,13 @@
     "Package": "libapt-pkg7.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 2.9.34)",
-    "Recommends": "apt (>= 2.9.34)",
+    "Provides": "libapt-pkg (= 2.9.35)",
+    "Recommends": "apt (>= 2.9.35)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.9.34",
+    "Version": "2.9.35",
     "binary:Package": "libapt-pkg7.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "2.9.34"
+    "source:Version": "2.9.35"
   },
   {
     "Architecture": "amd64",
@@ -1518,7 +1518,7 @@
     "Depends": "libc6 (>= 2.39), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1220",
+    "Installed-Size": "1221",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.4-3",
+    "Version": "257.4-5",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-3"
+    "source:Version": "257.4-5"
   },
   {
     "Architecture": "amd64",
@@ -1574,7 +1574,7 @@
     "Depends": "libc6 (>= 2.38), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "354",
+    "Installed-Size": "355",
     "Origin": "",
     "Package": "libudev1",
     "Pre-Depends": "",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.4-3",
+    "Version": "257.4-5",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-3"
+    "source:Version": "257.4-5"
   },
   {
     "Architecture": "amd64",
@@ -1725,7 +1725,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.3-2",
+    "Version": "1:4.17.3-3",
     "binary:Package": "login.defs",
     "binary:Summary": "system user management configuration",
     "db:Status-Abbrev": "ii ",
@@ -1733,7 +1733,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.3-2"
+    "source:Version": "1:4.17.3-3"
   },
   {
     "Architecture": "amd64",
@@ -1893,7 +1893,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.3-2",
+    "Version": "1:4.17.3-3",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.3-2"
+    "source:Version": "1:4.17.3-3"
   },
   {
     "Architecture": "amd64",
