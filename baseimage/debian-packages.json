@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron, quota",
-    "Version": "3.149",
+    "Version": "3.150",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.149"
+    "source:Version": "3.150"
   },
   {
     "Architecture": "amd64",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.37-1.1+b1",
+    "Version": "5.2.37-1.1+b2",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -3181,7 +3181,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.4-5",
+    "Version": "257.4-6",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3189,7 +3189,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-5"
+    "source:Version": "257.4-6"
   },
   {
     "Architecture": "amd64",
@@ -3349,7 +3349,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.4-5",
+    "Version": "257.4-6",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3357,7 +3357,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-5"
+    "source:Version": "257.4-6"
   },
   {
     "Architecture": "amd64",
@@ -4519,13 +4519,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 257.4-5)",
+    "Provides": "systemd-sysusers (= 257.4-6)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "257.4-5",
+    "Version": "257.4-6",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-5"
+    "source:Version": "257.4-6"
   },
   {
     "Architecture": "all",
@@ -4917,7 +4917,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-8+b6",
+    "Version": "5.9-8+b7",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
