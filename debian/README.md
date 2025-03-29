@@ -21,7 +21,7 @@ installed packages:
 ii   apt                      2.9.35                       amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
-ii   bash                     5.2.37-1.1+b1                amd64  GNU Bourne Again SHell
+ii   bash                     5.2.37-1.1+b2                amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.40.4-5                   amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.5-1+b1                     amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
@@ -72,9 +72,9 @@ ii   libsepol2                3.8.1-1                      amd64  SELinux librar
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.4-5                      amd64  systemd utility library
+ii   libsystemd0              257.4-6                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.4-5                      amd64  libudev shared library
+ii   libudev1                 257.4-6                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-5                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
