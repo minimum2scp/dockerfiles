@@ -1529,7 +1529,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.4-6",
+    "Version": "257.4-7",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -1537,7 +1537,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-6"
+    "source:Version": "257.4-7"
   },
   {
     "Architecture": "amd64",
@@ -1585,7 +1585,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.4-6",
+    "Version": "257.4-7",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -1593,7 +1593,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-6"
+    "source:Version": "257.4-7"
   },
   {
     "Architecture": "amd64",
@@ -1966,7 +1966,7 @@
     "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 4.2), libgmp10 (>= 2:6.3.0+dfsg), libhogweed6t64, libnettle8t64 (>= 3.9~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1729",
+    "Installed-Size": "1854",
     "Origin": "",
     "Package": "sqv",
     "Pre-Depends": "",
@@ -1977,7 +1977,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.2.1-6+b1",
+    "Version": "1.3.0-1",
     "binary:Package": "sqv",
     "binary:Summary": "Simple OpenPGP signature verification program",
     "db:Status-Abbrev": "ii ",
@@ -1985,7 +1985,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rust-sequoia-sqv",
-    "source:Version": "1.2.1-6"
+    "source:Version": "1.3.0-1"
   },
   {
     "Architecture": "amd64",
