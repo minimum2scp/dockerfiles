@@ -79,7 +79,7 @@ ii   debian-archive-keyring       2023.4                          all    GnuPG a
 ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-3                        amd64  File comparison utilities
 ii   dpkg                         1.22.18                         amd64  Debian package management system
-ii   etckeeper                    1.18.22-1                       all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-19                       amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.49.0-1                      amd64  fast, scalable, distributed revision control system
@@ -155,10 +155,6 @@ ii   libpipeline1                 1.5.8-1                         amd64  Unix pr
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
-ii   libpython3-stdlib            3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   libpython3.13-minimal        3.13.2-2                        amd64  Minimal subset of the Python language (version 3.13)
-ii   libpython3.13-stdlib         3.13.2-2                        amd64  Interactive high-level object-oriented language (standard library, version 3.13)
-ii   libreadline8t64              8.2-6                           amd64  GNU readline and history libraries, run-time libraries
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-9                  amd64  Cyrus SASL - authentication abstraction library
 ii   libsasl2-modules-db          2.1.28+dfsg1-9                  amd64  Cyrus SASL - pluggable authentication modules (DB)
@@ -169,17 +165,16 @@ ii   libsemanage2                 3.8.1-1                         amd64  SELinux
 ii   libsepol2                    3.8.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.40.4-5                        amd64  smart column output alignment library
-ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.4-6                         amd64  systemd utility library
+ii   libsystemd0                  257.4-7                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.4-6                         amd64  libudev shared library
+ii   libudev1                     257.4-7                         amd64  libudev shared library
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.40.4-5                        amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
@@ -192,12 +187,10 @@ ii   login.defs                   1:4.17.3-3                      all    system 
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
-ii   media-types                  13.0.0                          all    List of standard media types and their usual file extension
 ii   mount                        2.40.4-5                        amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
-ii   netbase                      6.5                             all    Basic TCP/IP networking system
 ii   openssh-client               1:9.9p2-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.9p2-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -209,19 +202,14 @@ ii   perl                         5.40.1-2                        amd64  Larry W
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
-ii   python3                      3.13.2-2                        amd64  interactive high-level object-oriented language (default python3 version)
-ii   python3-minimal              3.13.2-2                        amd64  minimal subset of the Python language (default python3 version)
-ii   python3.13                   3.13.2-2                        amd64  Interactive high-level object-oriented language (version 3.13)
-ii   python3.13-minimal           3.13.2-2                        amd64  Minimal subset of the Python language (version 3.13)
-ii   readline-common              8.2-6                           all    GNU readline and history libraries, common files
 ii   rsyslog                      8.2502.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
-ii   sqv                          1.2.1-6+b1                      amd64  Simple OpenPGP signature verification program
+ii   sqv                          1.3.0-1                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.4-6                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.4-7                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
