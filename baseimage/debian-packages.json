@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.13.0~rc3-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl3t64-gnutls (= 8.13.0-1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "497",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.13.0~rc3-1",
+    "Version": "8.13.0-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.13.0~rc3-1"
+    "source:Version": "8.13.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1374,7 +1374,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.13.0~rc3-1)",
+    "Breaks": "libcurl3-gnutls (<< 8.13.0-1)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1383,13 +1383,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.13.0~rc3-1)",
+    "Provides": "libcurl3-gnutls (= 8.13.0-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.13.0~rc3-1",
+    "Version": "8.13.0-1",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,7 +1397,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.13.0~rc3-1"
+    "source:Version": "8.13.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.277",
+    "Version": "0.278",
     "binary:Package": "libdebconfclient0:amd64",
     "binary:Summary": "Debian Configuration Management System (C-implementation library)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cdebconf",
-    "source:Version": "0.277"
+    "source:Version": "0.278"
   },
   {
     "Architecture": "amd64",
@@ -2218,7 +2218,7 @@
     "Depends": "libc6 (>= 2.38), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "366",
+    "Installed-Size": "365",
     "Origin": "",
     "Package": "libnewt0.52",
     "Pre-Depends": "",
@@ -2229,7 +2229,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.24-4+b1",
+    "Version": "0.52.25-1",
     "binary:Package": "libnewt0.52:amd64",
     "binary:Summary": "Not Erik's Windowing Toolkit - text mode windowing with slang",
     "db:Status-Abbrev": "ii ",
@@ -2237,7 +2237,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.24-4"
+    "source:Version": "0.52.25-1"
   },
   {
     "Architecture": "amd64",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.4-7",
+    "Version": "257.4-9",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3049,7 +3049,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-7"
+    "source:Version": "257.4-9"
   },
   {
     "Architecture": "amd64",
@@ -3209,7 +3209,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.4-7",
+    "Version": "257.4-9",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3217,7 +3217,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-7"
+    "source:Version": "257.4-9"
   },
   {
     "Architecture": "amd64",
@@ -4183,13 +4183,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 257.4-7)",
+    "Provides": "systemd-sysusers (= 257.4-9)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "257.4-7",
+    "Version": "257.4-9",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.4-7"
+    "source:Version": "257.4-9"
   },
   {
     "Architecture": "all",
@@ -4374,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, libtext-wrapi18n-perl, procps, sensible-utils",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "146",
+    "Installed-Size": "147",
     "Origin": "",
     "Package": "ucf",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0050",
+    "Version": "3.0051",
     "binary:Package": "ucf",
     "binary:Summary": "Update Configuration File(s): preserve user changes to config files",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ucf",
-    "source:Version": "3.0050"
+    "source:Version": "3.0051"
   },
   {
     "Architecture": "amd64",
@@ -4511,10 +4511,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.38), libnewt0.52 (>= 0.52.24), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
+    "Depends": "libc6 (>= 2.38), libnewt0.52 (>= 0.52.25), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "62",
+    "Installed-Size": "61",
     "Origin": "",
     "Package": "whiptail",
     "Pre-Depends": "",
@@ -4525,7 +4525,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.52.24-4+b1",
+    "Version": "0.52.25-1",
     "binary:Package": "whiptail",
     "binary:Summary": "Displays user-friendly dialog boxes from shell scripts",
     "db:Status-Abbrev": "ii ",
@@ -4533,7 +4533,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "newt",
-    "source:Version": "0.52.24-4"
+    "source:Version": "0.52.25-1"
   },
   {
     "Architecture": "amd64",
