@@ -50,7 +50,7 @@ ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSI
 ii   libcap2                  1:2.75-4                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0        0.277                        amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0        0.278                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                14.2.0-19                    amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-3               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
@@ -72,9 +72,9 @@ ii   libsepol2                3.8.1-1                      amd64  SELinux librar
 ii   libsmartcols1            2.40.4-5                     amd64  smart column output alignment library
 ii   libssl3t64               3.4.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
-ii   libsystemd0              257.4-7                      amd64  systemd utility library
+ii   libsystemd0              257.4-9                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 257.4-7                      amd64  libudev shared library
+ii   libudev1                 257.4-9                      amd64  libudev shared library
 ii   libuuid1                 2.40.4-5                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
