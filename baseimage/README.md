@@ -69,7 +69,7 @@ ii   bsdextrautils                2.41-3                          amd64  extra u
 ii   bsdutils                     1:2.41-3                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20241223                        all    Common CA certificates
-ii   coreutils                    9.5-1+b1                        amd64  GNU core utilities
+ii   coreutils                    9.6-1                           amd64  GNU core utilities
 ii   cron                         3.0pl1-195                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-195                      all    process scheduling daemon's configuration files
 ii   curl                         8.13.0-1                        amd64  command line tool for transferring data with URL syntax
@@ -128,14 +128,14 @@ ii   libgssapi-krb5-2             1.21.3-5                        amd64  MIT Ker
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1                 1.6.3-4                         amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1                 1.6.3-5                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-5                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-5                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblastlog2-2                2.41-3                          amd64  lastlog2 database shared library
 ii   libldap2                     2.6.9+dfsg-2                    amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                        amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.6.4-1                         amd64  XZ-format compression library
+ii   liblzma5                     5.8.1-1                         amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                      amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41-3                          amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-2                  amd64  shared libraries for terminal handling (wide character support)
