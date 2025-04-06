@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.150                           all    add and remove users and groups
-ii   apt                          2.9.35                          amd64  commandline package manager
+ii   apt                          3.0.0                           amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
 ii   bash                         5.2.37-1.1+b2                   amd64  GNU Bourne Again SHell
@@ -69,7 +69,7 @@ ii   bsdextrautils                2.41-3                          amd64  extra u
 ii   bsdutils                     1:2.41-3                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20241223                        all    Common CA certificates
-ii   coreutils                    9.6-1                           amd64  GNU core utilities
+ii   coreutils                    9.6-2                           amd64  GNU core utilities
 ii   cron                         3.0pl1-195                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-195                      all    process scheduling daemon's configuration files
 ii   curl                         8.13.0-1                        amd64  command line tool for transferring data with URL syntax
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                          all    scripts
 ii   insserv                      1.26.0-1                        amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                      amd64  access control list - shared library
 ii   libapparmor1                 4.1.0~beta5-6                   amd64  changehat AppArmor library
-ii   libapt-pkg7.0                2.9.35                          amd64  package management runtime library
+ii   libapt-pkg7.0                3.0.0                           amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                       amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.2-2                       all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.2-2+b2                    amd64  Dynamic library for security auditing
@@ -185,7 +185,7 @@ ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lo
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-6                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41-3         amd64  system login tools
-ii   login.defs                   1:4.17.3-3                      all    system user management configuration
+ii   login.defs                   1:4.17.4-1                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
@@ -199,7 +199,7 @@ ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure 
 ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.17.3-3                      amd64  change and administer password and group data
+ii   passwd                       1:4.17.4-1                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
