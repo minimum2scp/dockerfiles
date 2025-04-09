@@ -168,7 +168,7 @@ ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang 
 ii   libsmartcols1                2.41-3                          amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-2                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
-ii   libssl3t64                   3.4.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.5.0-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  257.5-2                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
@@ -196,8 +196,8 @@ ii   net-tools                    2.10-1.1                        amd64  NET-3 n
 ii   openssh-client               1:9.9p2-2                       amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:9.9p2-2                       amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.4.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.20                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.4-1                      amd64  change and administer password and group data
 ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
