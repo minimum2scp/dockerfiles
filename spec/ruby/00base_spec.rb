@@ -42,7 +42,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe command('ruby3.3 -v') do
-      its(:stdout) { should start_with('ruby 3.3.7 ') }
+      its(:stdout) { should start_with('ruby 3.3.8 ') }
     end
 
     describe file('/opt/rbenv') do
@@ -87,7 +87,7 @@ describe 'minimum2scp/ruby' do
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('2.6.6-1') }
+      it { should be_installed.with_version('2.6.7-2') }
     end
   end
 end
