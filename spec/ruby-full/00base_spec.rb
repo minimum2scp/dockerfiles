@@ -132,7 +132,7 @@ describe 'minimum2scp/ruby-full' do
     end
 
     describe command('ruby3.3 -v') do
-      its(:stdout) { should start_with('ruby 3.3.7 ') }
+      its(:stdout) { should start_with('ruby 3.3.8 ') }
     end
   end
 end
