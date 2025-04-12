@@ -76,7 +76,7 @@ ii   curl                         8.13.0-1                        amd64  command
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
-ii   debianutils                  5.21                            amd64  Miscellaneous utilities specific to Debian
+ii   debianutils                  5.22                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-3                        amd64  File comparison utilities
 ii   dpkg                         1.22.18                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
@@ -105,7 +105,7 @@ ii   libc-bin                     2.41-6                          amd64  GNU C L
 ii   libc-l10n                    2.41-6                          all    GNU C Library: localization files
 ii   libc6                        2.41-6                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-5                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-6                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
@@ -193,9 +193,9 @@ ii   mount                        2.41-4                          amd64  tools f
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:9.9p2-2                       amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:9.9p2-2                       amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:9.9p2-2                       amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.0p1-1                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.0p1-1                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.0p1-1                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21                            all    Orphaned System-V-like init scripts
