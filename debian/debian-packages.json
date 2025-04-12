@@ -269,7 +269,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.21",
+    "Version": "5.22",
     "binary:Package": "debianutils",
     "binary:Summary": "Miscellaneous utilities specific to Debian",
     "db:Status-Abbrev": "ii ",
@@ -277,7 +277,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "debianutils",
-    "source:Version": "5.21"
+    "source:Version": "5.22"
   },
   {
     "Architecture": "amd64",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.75-5",
+    "Version": "1:2.75-6",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.75-5"
+    "source:Version": "1:2.75-6"
   },
   {
     "Architecture": "amd64",
