@@ -204,7 +204,7 @@ ii   perl                         5.40.1-2                        amd64  Larry W
 ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
 ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
-ii   rsyslog                      8.2502.0-1                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2502.0-3                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
@@ -217,7 +217,7 @@ ii   sysvinit-core                3.14-4                          amd64  System-
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2025b-1                         all    time zone and daylight-saving time data
+ii   tzdata                       2025b-2                         all    time zone and daylight-saving time data
 ii   ucf                          3.0051                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41-4                          amd64  miscellaneous system utilities

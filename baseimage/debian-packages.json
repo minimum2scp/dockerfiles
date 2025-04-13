@@ -4049,7 +4049,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2502.0-1",
+    "Version": "8.2502.0-3",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4057,7 +4057,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2502.0-1"
+    "source:Version": "8.2502.0-3"
   },
   {
     "Architecture": "all",
@@ -4402,7 +4402,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1357",
+    "Installed-Size": "1356",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4413,7 +4413,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2025b-1",
+    "Version": "2025b-2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4421,7 +4421,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2025b-1"
+    "source:Version": "2025b-2"
   },
   {
     "Architecture": "all",
