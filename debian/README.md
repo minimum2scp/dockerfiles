@@ -44,8 +44,8 @@ ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic librar
 ii   libblkid1                2.41-4                       amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                 2.41-6                       amd64  GNU C Library: Binaries
-ii   libc6                    2.41-6                       amd64  GNU C Library: Shared libraries
+ii   libc-bin                 2.41-7                       amd64  GNU C Library: Binaries
+ii   libc6                    2.41-7                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
 ii   libcap2                  1:2.75-6                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
@@ -88,7 +88,7 @@ ii   ncurses-base             6.5+20250216-2               all    basic terminal
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.5.0-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.17.4-1                   amd64  change and administer password and group data
-ii   perl-base                5.40.1-2                     amd64  minimal Perl system
+ii   perl-base                5.40.1-3                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.3.0-1                      amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.14-4                       amd64  System-V-like utilities
