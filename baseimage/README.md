@@ -101,9 +101,9 @@ ii   libblkid1                    2.41-4                          amd64  block d
 ii   libbrotli1                   1.1.0-2+b7                      amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                        amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0                   1.0.8-6                         amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                     2.41-6                          amd64  GNU C Library: Binaries
-ii   libc-l10n                    2.41-6                          all    GNU C Library: localization files
-ii   libc6                        2.41-6                          amd64  GNU C Library: Shared libraries
+ii   libc-bin                     2.41-7                          amd64  GNU C Library: Binaries
+ii   libc-l10n                    2.41-7                          all    GNU C Library: localization files
+ii   libc6                        2.41-7                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-6                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -128,7 +128,7 @@ ii   libgssapi-krb5-2             1.21.3-5                        amd64  MIT Ker
 ii   libhogweed6t64               3.10.1-1                        amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-2                         amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-5                        amd64  MIT Kerberos runtime libraries - Crypto Library
-ii   libkeyutils1                 1.6.3-5                         amd64  Linux Key Management Utilities (library)
+ii   libkeyutils1                 1.6.3-6                         amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-5                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-5                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblastlog2-2                2.41-4                          amd64  lastlog2 database shared library
@@ -151,10 +151,10 @@ ii   libpam-modules-bin           1.7.0-3                         amd64  Pluggab
 ii   libpam-runtime               1.7.0-3                         all    Runtime support for the PAM library
 ii   libpam0g                     1.7.0-3                         amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0                 10.45-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.40                  5.40.1-2                        amd64  shared Perl library
+ii   libperl5.40                  5.40.1-3                        amd64  shared Perl library
 ii   libpipeline1                 1.5.8-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                     1.19+dfsg-2                     amd64  lib for parsing cmdline parameters
-ii   libproc2-0                   2:4.0.4-7                       amd64  library for accessing process information from /proc
+ii   libproc2-0                   2:4.0.4-8                       amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                   amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-2+b5  amd64  toolkit for RTMP streams (shared library)
 ii   libsasl2-2                   2.1.28+dfsg1-9                  amd64  Cyrus SASL - authentication abstraction library
@@ -183,7 +183,7 @@ ii   libwrap0                     7.6.q-36                        amd64  Wietse 
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
-ii   locales                      2.41-6                          all    GNU C Library: National Language (locale) data [support]
+ii   locales                      2.41-7                          all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41-4         amd64  system login tools
 ii   login.defs                   1:4.17.4-1                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
@@ -200,11 +200,11 @@ ii   openssl                      3.5.0-1                         amd64  Secure 
 ii   openssl-provider-legacy      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21                            all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.17.4-1                      amd64  change and administer password and group data
-ii   perl                         5.40.1-2                        amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                    5.40.1-2                        amd64  minimal Perl system
-ii   perl-modules-5.40            5.40.1-2                        all    Core Perl modules
-ii   procps                       2:4.0.4-7                       amd64  /proc file system utilities
-ii   rsyslog                      8.2502.0-3                      amd64  reliable system and kernel logging daemon
+ii   perl                         5.40.1-3                        amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                    5.40.1-3                        amd64  minimal Perl system
+ii   perl-modules-5.40            5.40.1-3                        all    Core Perl modules
+ii   procps                       2:4.0.4-8                       amd64  /proc file system utilities
+ii   rsyslog                      8.2502.0-5                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
