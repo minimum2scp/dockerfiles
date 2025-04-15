@@ -153,7 +153,7 @@ ii   libpam-modules-bin       1.5.2-6+deb12u1                 amd64  Pluggable A
 ii   libpam-runtime           1.5.2-6+deb12u1                 all    Runtime support for the PAM library
 ii   libpam0g                 1.5.2-6+deb12u1                 amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.42-1                         amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
-ii   libperl5.36              5.36.0-7+deb12u1                amd64  shared Perl library
+ii   libperl5.36              5.36.0-7+deb12u2                amd64  shared Perl library
 ii   libpipeline1             1.5.7-1                         amd64  Unix process pipeline manipulation library
 ii   libpopt0                 1.19+dfsg-1                     amd64  lib for parsing cmdline parameters
 ii   libproc2-0               2:4.0.2-3                       amd64  library for accessing process information from /proc
@@ -201,9 +201,9 @@ ii   openssh-sftp-server      1:9.2p1-2+deb12u5               amd64  secure shel
 ii   openssl                  3.0.15-1~deb12u1                amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts  0.14                            all    Orphaned System-V-like init scripts
 ii   passwd                   1:4.13+dfsg1-1+b1               amd64  change and administer password and group data
-ii   perl                     5.36.0-7+deb12u1                amd64  Larry Wall's Practical Extraction and Report Language
-ii   perl-base                5.36.0-7+deb12u1                amd64  minimal Perl system
-ii   perl-modules-5.36        5.36.0-7+deb12u1                all    Core Perl modules
+ii   perl                     5.36.0-7+deb12u2                amd64  Larry Wall's Practical Extraction and Report Language
+ii   perl-base                5.36.0-7+deb12u2                amd64  minimal Perl system
+ii   perl-modules-5.36        5.36.0-7+deb12u2                all    Core Perl modules
 ii   procps                   2:4.0.2-3                       amd64  /proc file system utilities
 ii   rsyslog                  8.2302.0-1+deb12u1              amd64  reliable system and kernel logging daemon
 ii   runit-helper             2.15.2                          all    dh-runit implementation detail
