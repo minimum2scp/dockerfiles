@@ -72,7 +72,7 @@ ii   ca-certificates              20241223                        all    Common 
 ii   coreutils                    9.7-1                           amd64  GNU core utilities
 ii   cron                         3.0pl1-196                      amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-196                      all    process scheduling daemon's configuration files
-ii   curl                         8.13.0-1                        amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.13.0-2                        amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                       amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                          all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
@@ -109,7 +109,8 @@ ii   libcap2                      1:2.75-6                        amd64  POSIX 1
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.13.0-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl3t64-gnutls           8.13.0-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.13.0-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.278                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
@@ -180,6 +181,7 @@ ii   libudev1                     257.5-2                         amd64  libudev
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.41-4                          amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
+ii   libwtmpdb0                   0.73.0-2                        amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
@@ -193,9 +195,9 @@ ii   mount                        2.41-4                          amd64  tools f
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.0p1-1                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.0p1-1                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.0p1-1                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.0p1-2                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.0p1-2                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.0p1-2                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21                            all    Orphaned System-V-like init scripts
