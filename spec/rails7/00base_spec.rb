@@ -78,12 +78,12 @@ describe 'minimum2scp/rails7' do
 
       describe command('nodenv version-name') do
         let(:login_shell){ true }
-        its(:stdout){ should eq "20.18.1\n" }
+        its(:stdout){ should eq "20.19.0\n" }
       end
 
       [
         {
-          nodejs: '20.18.1',
+          nodejs: '20.19.0',
         },
       ].each do |v|
           describe command('nodenv versions --bare --skip-aliases') do
@@ -102,15 +102,15 @@ describe 'minimum2scp/rails7' do
       let(:login_shell){ true }
       its(:stdout){
         should eq <<~ALIASES
-          20 => 20.18.1
-          20.18 => 20.18.1
+          20 => 20.19.0
+          20.19 => 20.19.0
         ALIASES
       }
     end
 
     {
-      '20' => '20.18.1',
-      '20.18' => '20.18.1',
+      '20' => '20.19.0',
+      '20.19' => '20.19.0',
     }.each do |src, dest|
       describe file("/opt/nodenv/versions/#{src}") do
         it { should be_symlink }
