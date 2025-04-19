@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "397",
+    "Installed-Size": "390",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20241223",
+    "Version": "20250419",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20241223"
+    "source:Version": "20250419"
   },
   {
     "Architecture": "amd64",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.4-1",
+    "Version": "1:4.17.4-2",
     "binary:Package": "login.defs",
     "binary:Summary": "system user management configuration",
     "db:Status-Abbrev": "ii ",
@@ -3581,7 +3581,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.4-1"
+    "source:Version": "1:4.17.4-2"
   },
   {
     "Architecture": "amd64",
@@ -3965,7 +3965,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.4-1",
+    "Version": "1:4.17.4-2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.4-1"
+    "source:Version": "1:4.17.4-2"
   },
   {
     "Architecture": "amd64",
@@ -4104,8 +4104,8 @@
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
-    "Suggests": "rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-doc, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2502.0-5",
+    "Suggests": "rsyslog-doc, rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
+    "Version": "8.2502.0-6",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2502.0-5"
+    "source:Version": "8.2502.0-6"
   },
   {
     "Architecture": "all",
