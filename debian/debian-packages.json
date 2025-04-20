@@ -1781,7 +1781,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.4-1",
+    "Version": "1:4.17.4-2",
     "binary:Package": "login.defs",
     "binary:Summary": "system user management configuration",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.4-1"
+    "source:Version": "1:4.17.4-2"
   },
   {
     "Architecture": "amd64",
@@ -1949,7 +1949,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:4.17.4-1",
+    "Version": "1:4.17.4-2",
     "binary:Package": "passwd",
     "binary:Summary": "change and administer password and group data",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "shadow",
-    "source:Version": "1:4.17.4-1"
+    "source:Version": "1:4.17.4-2"
   },
   {
     "Architecture": "amd64",
