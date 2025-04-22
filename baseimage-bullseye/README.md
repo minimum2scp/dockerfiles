@@ -194,7 +194,7 @@ ii   libxxhash0              0.8.0-2                             amd64  shared l
 ii   libzstd1                1.4.8+dfsg-2.1                      amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                            all    reclaim disk space by removing unneeded localizations
 ii   locales                 2.31-13+deb11u11                    all    GNU C Library: National Language (locale) data [support]
-ii   login                   1:4.8.1-1                           amd64  system login tools
+ii   login                   1:4.8.1-1+deb11u1                   amd64  system login tools
 ii   logsave                 1.46.2-2+deb11u1                    amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                              all    Linux Standard Base init script functionality
 ii   lv                      4.51-8                              amd64  Powerful Multilingual File Viewer
@@ -209,7 +209,7 @@ ii   openssh-client          1:8.4p1-5+deb11u4                   amd64  secure s
 ii   openssh-server          1:8.4p1-5+deb11u4                   amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-5+deb11u4                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                 1.1.1w-0+deb11u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                  1:4.8.1-1                           amd64  change and administer password and group data
+ii   passwd                  1:4.8.1-1+deb11u1                   amd64  change and administer password and group data
 ii   perl                    5.32.1-4+deb11u4                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-4+deb11u4                    amd64  minimal Perl system
 ii   perl-modules-5.32       5.32.1-4+deb11u4                    all    Core Perl modules
