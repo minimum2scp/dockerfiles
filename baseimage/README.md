@@ -118,7 +118,7 @@ ii   liberror-perl                0.17030-1                       all    Perl mo
 ii   libestr0                     0.1.11-2                        amd64  Helper functions for handling strings (lib)
 ii   libexpat1                    2.7.1-1                         amd64  XML parsing C library - runtime library
 ii   libfastjson4                 1.2304.0-2                      amd64  fast json library for C
-ii   libffi8                      3.4.7-1                         amd64  Foreign Function Interface library runtime
+ii   libffi8                      3.4.8-1                         amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.15.0-1+b1                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    14.2.0-19                       amd64  GCC support library
 ii   libgdbm-compat4t64           1.24-2                          amd64  GNU dbm database routines (legacy support runtime version) 
@@ -209,7 +209,7 @@ ii   procps                       2:4.0.4-8                       amd64  /proc f
 ii   rsyslog                      8.2502.0-6                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils               0.0.24                          all    Utilities for sensible alternative selection
+ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-1                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users

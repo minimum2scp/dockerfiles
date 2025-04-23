@@ -1635,13 +1635,13 @@
     "Package": "libffi8",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libffi8ubuntu1 (= 3.4.7-1)",
+    "Provides": "libffi8ubuntu1 (= 3.4.8-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.4.7-1",
+    "Version": "3.4.8-1",
     "binary:Package": "libffi8:amd64",
     "binary:Summary": "Foreign Function Interface library runtime",
     "db:Status-Abbrev": "ii ",
@@ -1649,7 +1649,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libffi",
-    "source:Version": "3.4.7-1"
+    "source:Version": "3.4.8-1"
   },
   {
     "Architecture": "amd64",
@@ -4189,7 +4189,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.24",
+    "Version": "0.0.25",
     "binary:Package": "sensible-utils",
     "binary:Summary": "Utilities for sensible alternative selection",
     "db:Status-Abbrev": "ii ",
@@ -4197,7 +4197,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sensible-utils",
-    "source:Version": "0.0.24"
+    "source:Version": "0.0.25"
   },
   {
     "Architecture": "amd64",
