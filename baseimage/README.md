@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.150                           all    add and remove users and groups
+ii   adduser                      3.151                           all    add and remove users and groups
 ii   apt                          3.0.1                           amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
@@ -189,7 +189,7 @@ ii   locales                      2.41-7                          all    GNU C L
 ii   login                        1:4.16.0-2+really2.41-4         amd64  system login tools
 ii   login.defs                   1:4.17.4-2                      all    system user management configuration
 ii   lv                           4.51-10                         amd64  Powerful Multilingual File Viewer
-ii   man-db                       2.13.0-1                        amd64  tools for reading manual pages
+ii   man-db                       2.13.1-1                        amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1                amd64  Pattern scanning and text processing language
 ii   mount                        2.41-4                          amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
@@ -219,7 +219,7 @@ ii   sysvinit-core                3.14-4                          amd64  System-
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
-ii   tzdata                       2025b-2                         all    time zone and daylight-saving time data
+ii   tzdata                       2025b-3                         all    time zone and daylight-saving time data
 ii   ucf                          3.0051                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41-4                          amd64  miscellaneous system utilities
