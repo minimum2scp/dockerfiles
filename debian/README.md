@@ -71,7 +71,7 @@ ii   libsemanage-common       3.8.1-1                      all    Common files f
 ii   libsemanage2             3.8.1-1                      amd64  SELinux policy management library
 ii   libsepol2                3.8.1-1                      amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.41-4                       amd64  smart column output alignment library
-ii   libsqlite3-0             3.46.1-3                     amd64  SQLite 3 shared library
+ii   libsqlite3-0             3.46.1-4                     amd64  SQLite 3 shared library
 ii   libssl3t64               3.5.0-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.5-2                      amd64  systemd utility library
