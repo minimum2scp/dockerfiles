@@ -85,7 +85,7 @@ ii   gcc-14-base                  14.2.0-19                       amd64  GCC, th
 ii   git                          1:2.49.0-1                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.49.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-7                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.23.0-8                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.68                            all    helper tools for all init systems
@@ -167,7 +167,7 @@ ii   libsemanage2                 3.8.1-1                         amd64  SELinux
 ii   libsepol2                    3.8.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41-4                          amd64  smart column output alignment library
-ii   libsqlite3-0                 3.46.1-3                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.46.1-4                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.0-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
@@ -181,7 +181,7 @@ ii   libudev1                     257.5-2                         amd64  libudev
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.41-4                          amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
-ii   libwtmpdb0                   0.73.0-2                        amd64  wtmp database shared library
+ii   libwtmpdb0                   0.73.0-3                        amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                         amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1                    amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                        all    reclaim disk space by removing unneeded localizations
@@ -212,7 +212,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-1                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.16p2-1                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.5-2                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
