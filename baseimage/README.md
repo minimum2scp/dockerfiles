@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.151                           all    add and remove users and groups
+ii   adduser                      3.152                           all    add and remove users and groups
 ii   apt                          3.0.1                           amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
@@ -206,7 +206,7 @@ ii   perl                         5.40.1-3                        amd64  Larry W
 ii   perl-base                    5.40.1-3                        amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-3                        all    Core Perl modules
 ii   procps                       2:4.0.4-8                       amd64  /proc file system utilities
-ii   rsyslog                      8.2502.0-6                      amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2504.0-1                      amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection

@@ -17,7 +17,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "liblocale-gettext-perl, perl, cron, quota",
-    "Version": "3.151",
+    "Version": "3.152",
     "binary:Package": "adduser",
     "binary:Summary": "add and remove users and groups",
     "db:Status-Abbrev": "ii ",
@@ -25,7 +25,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "adduser",
-    "source:Version": "3.151"
+    "source:Version": "3.152"
   },
   {
     "Architecture": "amd64",
@@ -4094,7 +4094,7 @@
     "Depends": "libc6 (>= 2.38), libestr0 (>= 0.1.9), libfastjson4 (>= 0.99.8), liblognorm5 (>= 2.0.3), libsystemd0 (>= 246), libuuid1 (>= 2.16), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2010",
+    "Installed-Size": "1999",
     "Origin": "",
     "Package": "rsyslog",
     "Pre-Depends": "",
@@ -4105,7 +4105,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "rsyslog-doc, rsyslog-mysql | rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-hiredis, rsyslog-snmp, rsyslog-kubernetes, rsyslog-docker, rsyslog-clickhouse, rsyslog-openssl | rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp",
-    "Version": "8.2502.0-6",
+    "Version": "8.2504.0-1",
     "binary:Package": "rsyslog",
     "binary:Summary": "reliable system and kernel logging daemon",
     "db:Status-Abbrev": "ii ",
@@ -4113,7 +4113,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rsyslog",
-    "source:Version": "8.2502.0-6"
+    "source:Version": "8.2504.0-1"
   },
   {
     "Architecture": "all",
