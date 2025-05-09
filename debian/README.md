@@ -21,7 +21,7 @@ installed packages:
 ii   apt                      3.0.1                        amd64  commandline package manager
 ii   base-files               13.7                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
-ii   bash                     5.2.37-2                     amd64  GNU Bourne Again SHell
+ii   bash                     5.2.37-2+b1                  amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.41-4                     amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.7-2                        amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
@@ -90,7 +90,7 @@ ii   openssl-provider-legacy  3.5.0-1                      amd64  Secure Sockets
 ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-3                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
-ii   sqv                      1.3.0-1                      amd64  Simple OpenPGP signature verification program
+ii   sqv                      1.3.0-1+b1                   amd64  Simple OpenPGP signature verification program
 ii   sysvinit-utils           3.14-4                       amd64  System-V-like utilities
 ii   tar                      1.35+dfsg-3.1                amd64  GNU version of the tar archiving utility
 ii   tzdata                   2025b-3                      all    time zone and daylight-saving time data
