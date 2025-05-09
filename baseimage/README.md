@@ -64,7 +64,7 @@ ii   adduser                      3.152                           all    add and
 ii   apt                          3.0.1                           amd64  commandline package manager
 ii   base-files                   13.7                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
-ii   bash                         5.2.37-2                        amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-2+b1                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41-4                          amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.41-4                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -195,9 +195,9 @@ ii   mount                        2.41-4                          amd64  tools f
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.1                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.0p1-2                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.0p1-2                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.0p1-2                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.0p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.0p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.0p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.0-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21                            all    Orphaned System-V-like init scripts
@@ -210,7 +210,7 @@ ii   rsyslog                      8.2504.0-1                      amd64  reliabl
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-1                         amd64  Simple OpenPGP signature verification program
+ii   sqv                          1.3.0-1+b1                      amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.5-2                         amd64  standalone sysusers binary for use in non-systemd systems
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1230-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1230-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b7                        amd64  shell with lots of features
+ii   zsh                          5.9-8+b8                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
