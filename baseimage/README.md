@@ -210,7 +210,7 @@ ii   rsyslog                      8.2504.0-1                      amd64  reliabl
 ii   runit-helper                 2.16.4                          all    dh-runit implementation detail
 ii   sed                          4.9-2                           amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
-ii   sqv                          1.3.0-1+b1                      amd64  Simple OpenPGP signature verification program
+ii   sqv                          1.3.0-2                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.5-2                         amd64  standalone sysusers binary for use in non-systemd systems
