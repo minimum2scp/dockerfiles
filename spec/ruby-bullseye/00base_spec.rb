@@ -87,7 +87,7 @@ describe 'minimum2scp/ruby-bullseye' do
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('2.2.5-2') }
+      it { should be_installed.with_version('2.2.5-2+deb11u1') }
     end
   end
 end
