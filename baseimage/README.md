@@ -78,7 +78,7 @@ ii   debconf                      1.5.91                          all    Debian 
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.22                            amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-4                        amd64  File comparison utilities
-ii   dpkg                         1.22.18                         amd64  Debian package management system
+ii   dpkg                         1.22.19                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-19                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -220,7 +220,7 @@ ii   sysvinit-utils               3.14-4                          amd64  System-
 ii   tar                          1.35+dfsg-3.1                   amd64  GNU version of the tar archiving utility
 ii   tree                         2.2.1-1                         amd64  displays an indented directory tree, in color
 ii   tzdata                       2025b-3                         all    time zone and daylight-saving time data
-ii   ucf                          3.0051                          all    Update Configuration File(s): preserve user changes to config files
+ii   ucf                          3.0052                          all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                          amd64  De-archiver for .zip files
 ii   util-linux                   2.41-5                          amd64  miscellaneous system utilities
 ii   vim-common                   2:9.1.1230-1                    all    Vi IMproved - Common files

@@ -510,7 +510,7 @@
     "Depends": "tar (>= 1.28-1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "6569",
+    "Installed-Size": "6582",
     "Origin": "",
     "Package": "dpkg",
     "Pre-Depends": "libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.4.0), libmd0 (>= 0.0.0), libselinux1 (>= 3.1~), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)",
@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.18",
+    "Version": "1.22.19",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.18"
+    "source:Version": "1.22.19"
   },
   {
     "Architecture": "all",
@@ -4486,7 +4486,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0, libtext-wrapi18n-perl, procps, sensible-utils",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "147",
+    "Installed-Size": "148",
     "Origin": "",
     "Package": "ucf",
     "Pre-Depends": "",
@@ -4497,7 +4497,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0051",
+    "Version": "3.0052",
     "binary:Package": "ucf",
     "binary:Summary": "Update Configuration File(s): preserve user changes to config files",
     "db:Status-Abbrev": "ii ",
@@ -4505,7 +4505,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ucf",
-    "source:Version": "3.0051"
+    "source:Version": "3.0052"
   },
   {
     "Architecture": "amd64",
