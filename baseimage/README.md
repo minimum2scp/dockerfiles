@@ -64,7 +64,7 @@ ii   adduser                      3.152                           all    add and
 ii   apt                          3.0.1                           amd64  commandline package manager
 ii   base-files                   13.8                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
-ii   bash                         5.2.37-2+b1                     amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-2+b2                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41-5                          amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.41-5                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1230-1                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1230-1                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b8                        amd64  shell with lots of features
+ii   zsh                          5.9-8+b9                        amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
