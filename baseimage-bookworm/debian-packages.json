@@ -3769,7 +3769,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.10-0.1",
+    "Version": "2.10-0.1+deb12u1",
     "binary:Package": "net-tools",
     "binary:Summary": "NET-3 networking toolkit",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "net-tools",
-    "source:Version": "2.10-0.1"
+    "source:Version": "2.10-0.1+deb12u1"
   },
   {
     "Architecture": "amd64",
