@@ -194,7 +194,7 @@ ii   mawk                         1.3.4.20250131-1                amd64  Pattern
 ii   mount                        2.41-5                          amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
-ii   net-tools                    2.10-1.2                        amd64  NET-3 networking toolkit
+ii   net-tools                    2.10-1.3                        amd64  NET-3 networking toolkit
 ii   openssh-client               1:10.0p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.0p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.0p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines

@@ -3758,7 +3758,7 @@
     "Depends": "libc6 (>= 2.38), libselinux1 (>= 3.1~)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "983",
+    "Installed-Size": "988",
     "Origin": "",
     "Package": "net-tools",
     "Pre-Depends": "",
@@ -3769,7 +3769,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.10-1.2",
+    "Version": "2.10-1.3",
     "binary:Package": "net-tools",
     "binary:Summary": "NET-3 networking toolkit",
     "db:Status-Abbrev": "ii ",
@@ -3777,7 +3777,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "net-tools",
-    "source:Version": "2.10-1.2"
+    "source:Version": "2.10-1.3"
   },
   {
     "Architecture": "amd64",
