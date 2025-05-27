@@ -1490,7 +1490,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1834",
+    "Installed-Size": "1838",
     "Origin": "",
     "Package": "libsqlite3-0",
     "Pre-Depends": "",
@@ -1501,7 +1501,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.46.1-4",
+    "Version": "3.46.1-5",
     "binary:Package": "libsqlite3-0:amd64",
     "binary:Summary": "SQLite 3 shared library",
     "db:Status-Abbrev": "ii ",
@@ -1509,7 +1509,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sqlite3",
-    "source:Version": "3.46.1-4"
+    "source:Version": "3.46.1-5"
   },
   {
     "Architecture": "amd64",
