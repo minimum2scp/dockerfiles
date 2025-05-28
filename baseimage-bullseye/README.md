@@ -102,9 +102,9 @@ ii   libblkid1               2.36.1-8+deb11u2                    amd64  block de
 ii   libbrotli1              1.0.9-2+b2                          amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                 0.11.3-1+deb11u1                    amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0              1.0.8-4                             amd64  high-quality block-sorting file compressor library - runtime
-ii   libc-bin                2.31-13+deb11u12                    amd64  GNU C Library: Binaries
-ii   libc-l10n               2.31-13+deb11u12                    all    GNU C Library: localization files
-ii   libc6                   2.31-13+deb11u12                    amd64  GNU C Library: Shared libraries
+ii   libc-bin                2.31-13+deb11u13                    amd64  GNU C Library: Binaries
+ii   libc-l10n               2.31-13+deb11u13                    all    GNU C Library: localization files
+ii   libc6                   2.31-13+deb11u13                    amd64  GNU C Library: Shared libraries
 ii   libcap-ng0              0.7.9-2.2+b1                        amd64  An alternate POSIX capabilities library
 ii   libcap2                 1:2.44-1+deb11u1                    amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0                0.5.0+dfsg-2                        amd64  library for parsing and generating CBOR (RFC 7049)
@@ -178,7 +178,7 @@ ii   libsmartcols1           2.36.1-8+deb11u2                    amd64  smart co
 ii   libsqlite3-0            3.34.1-3+deb11u1                    amd64  SQLite 3 shared library
 ii   libss2                  1.46.2-2+deb11u1                    amd64  command-line interface parsing library
 ii   libssh2-1               1.9.0-2+deb11u1                     amd64  SSH2 client-side library
-ii   libssl1.1               1.1.1w-0+deb11u2                    amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl1.1               1.1.1w-0+deb11u3                    amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6              10.2.1-6                            amd64  GNU Standard C++ Library v3
 ii   libsystemd0             247.3-7+deb11u6                     amd64  systemd utility library
 ii   libtasn1-6              4.16.0-2+deb11u2                    amd64  Manage ASN.1 structures (runtime)
@@ -193,7 +193,7 @@ ii   libwrap0                7.6.q-31                            amd64  Wietse V
 ii   libxxhash0              0.8.0-2                             amd64  shared library for xxhash
 ii   libzstd1                1.4.8+dfsg-2.1                      amd64  fast lossless compression algorithm
 ii   localepurge             0.7.3.10                            all    reclaim disk space by removing unneeded localizations
-ii   locales                 2.31-13+deb11u12                    all    GNU C Library: National Language (locale) data [support]
+ii   locales                 2.31-13+deb11u13                    all    GNU C Library: National Language (locale) data [support]
 ii   login                   1:4.8.1-1+deb11u1                   amd64  system login tools
 ii   logsave                 1.46.2-2+deb11u1                    amd64  save the output of a command in a log file
 ii   lsb-base                11.1.0                              all    Linux Standard Base init script functionality
@@ -208,7 +208,7 @@ ii   net-tools               1.60+git20181103.0eebece-1+deb11u1  amd64  NET-3 ne
 ii   openssh-client          1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                 1.1.1w-0+deb11u2                    amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                 1.1.1w-0+deb11u3                    amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                  1:4.8.1-1+deb11u1                   amd64  change and administer password and group data
 ii   perl                    5.32.1-4+deb11u4                    amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base               5.32.1-4+deb11u4                    amd64  minimal Perl system
