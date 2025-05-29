@@ -71,8 +71,8 @@ ii   libsemanage-common       3.8.1-1                      all    Common files f
 ii   libsemanage2             3.8.1-1                      amd64  SELinux policy management library
 ii   libsepol2                3.8.1-1                      amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.41-5                       amd64  smart column output alignment library
-ii   libsqlite3-0             3.46.1-5                     amd64  SQLite 3 shared library
-ii   libssl3t64               3.5.0-1                      amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libsqlite3-0             3.46.1-6                     amd64  SQLite 3 shared library
+ii   libssl3t64               3.5.0-2                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.5-2                      amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
@@ -86,7 +86,7 @@ ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanni
 ii   mount                    2.41-5                       amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
-ii   openssl-provider-legacy  3.5.0-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy  3.5.0-2                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-3                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
