@@ -82,8 +82,8 @@ ii   dpkg                         1.22.19                         amd64  Debian 
 ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-19                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.49.0-1                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.49.0-1                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.49.0-2                      amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.49.0-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-8                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
@@ -133,7 +133,7 @@ ii   libkeyutils1                 1.6.3-6                         amd64  Linux K
 ii   libkrb5-3                    1.21.3-5                        amd64  MIT Kerberos runtime libraries
 ii   libkrb5support0              1.21.3-5                        amd64  MIT Kerberos runtime libraries - Support library
 ii   liblastlog2-2                2.41-5                          amd64  lastlog2 database shared library
-ii   libldap2                     2.6.9+dfsg-2                    amd64  OpenLDAP libraries
+ii   libldap2                     2.6.10+dfsg-1                   amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                         amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                        amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                     5.8.1-1                         amd64  XZ-format compression library
@@ -171,13 +171,13 @@ ii   libsqlite3-0                 3.46.1-6                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.5-2                         amd64  systemd utility library
+ii   libsystemd0                  257.6-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.5-2                         amd64  libudev shared library
+ii   libudev1                     257.6-1                         amd64  libudev shared library
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.41-5                          amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.25                          all    Utiliti
 ii   sqv                          1.3.0-2                         amd64  Simple OpenPGP signature verification program
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.5-2                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.6-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities

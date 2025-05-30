@@ -633,7 +633,7 @@
     "Section": "vcs",
     "Status": "install ok installed",
     "Suggests": "gettext-base, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn",
-    "Version": "1:2.49.0-1",
+    "Version": "1:2.49.0-2",
     "binary:Package": "git",
     "binary:Summary": "fast, scalable, distributed revision control system",
     "db:Status-Abbrev": "ii ",
@@ -641,7 +641,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.49.0-1"
+    "source:Version": "1:2.49.0-2"
   },
   {
     "Architecture": "all",
@@ -661,7 +661,7 @@
     "Section": "doc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.49.0-1",
+    "Version": "1:2.49.0-2",
     "binary:Package": "git-man",
     "binary:Summary": "fast, scalable, distributed revision control system (manual pages)",
     "db:Status-Abbrev": "ii ",
@@ -669,7 +669,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "git",
-    "source:Version": "1:2.49.0-1"
+    "source:Version": "1:2.49.0-2"
   },
   {
     "Architecture": "amd64",
@@ -2061,7 +2061,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.6.9+dfsg-2",
+    "Version": "2.6.10+dfsg-1",
     "binary:Package": "libldap2:amd64",
     "binary:Summary": "OpenLDAP libraries",
     "db:Status-Abbrev": "ii ",
@@ -2069,7 +2069,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openldap",
-    "source:Version": "2.6.9+dfsg-2"
+    "source:Version": "2.6.10+dfsg-1"
   },
   {
     "Architecture": "amd64",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "257.5-2",
+    "Version": "257.6-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3133,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.5-2"
+    "source:Version": "257.6-1"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "257.5-2",
+    "Version": "257.6-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.5-2"
+    "source:Version": "257.6-1"
   },
   {
     "Architecture": "amd64",
@@ -4295,13 +4295,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 257.5-2)",
+    "Provides": "systemd-sysusers (= 257.6-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "257.5-2",
+    "Version": "257.6-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "257.5-2"
+    "source:Version": "257.6-1"
   },
   {
     "Architecture": "all",
