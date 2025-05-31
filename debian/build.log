@@ -63,10 +63,8 @@ I: Validating libsmartcols1 2.41-5
 I: Validating libsqlite3-0 3.46.1-6
 I: Validating libssl3t64 3.5.0-2
 I: Validating libstdc++6 14.2.0-19
-I: Retrieving libsystemd0 257.6-1
 I: Validating libsystemd0 257.6-1
 I: Validating libtinfo6 6.5+20250216-2
-I: Retrieving libudev1 257.6-1
 I: Validating libudev1 257.6-1
 I: Validating libuuid1 2.41-5
 I: Validating libxxhash0 0.8.3-2
@@ -81,7 +79,8 @@ I: Validating openssl-provider-legacy 3.5.0-2
 I: Validating passwd 1:4.17.4-2
 I: Validating perl-base 5.40.1-3
 I: Validating sed 4.9-2
-I: Validating sqv 1.3.0-2
+I: Retrieving sqv 1.3.0-3
+I: Validating sqv 1.3.0-3
 I: Validating sysvinit-utils 3.14-4
 I: Validating tar 1.35+dfsg-3.1
 I: Validating tzdata 2025b-3

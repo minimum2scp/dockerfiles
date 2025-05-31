@@ -2033,15 +2033,15 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.3.0-2",
+    "Version": "1.3.0-3",
     "binary:Package": "sqv",
-    "binary:Summary": "Simple OpenPGP signature verification program",
+    "binary:Summary": "OpenPGP signature verification program from Sequoia",
     "db:Status-Abbrev": "ii ",
     "db:Status-Want": "install",
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "rust-sequoia-sqv",
-    "source:Version": "1.3.0-2"
+    "source:Version": "1.3.0-3"
   },
   {
     "Architecture": "amd64",
