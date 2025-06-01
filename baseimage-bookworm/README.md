@@ -172,13 +172,13 @@ ii   libss2                   1.47.0-2                        amd64  command-lin
 ii   libssh2-1                1.10.0-3+b1                     amd64  SSH2 client-side library
 ii   libssl3                  3.0.16-1~deb12u1                amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               12.2.0-14+deb12u1               amd64  GNU Standard C++ Library v3
-ii   libsystemd0              252.36-1~deb12u1                amd64  systemd utility library
+ii   libsystemd0              252.38-1~deb12u1                amd64  systemd utility library
 ii   libtasn1-6               4.19.0-2+deb12u1                amd64  Manage ASN.1 structures (runtime)
 ii   libtinfo6                6.4-4                           amd64  shared low-level terminfo library for terminal handling
 ii   libtirpc-common          1.3.3+ds-1                      all    transport-independent RPC library - common files
 ii   libtirpc3                1.3.3+ds-1                      amd64  transport-independent RPC library
 ii   libuchardet0             0.0.7-1                         amd64  universal charset detection library - shared library
-ii   libudev1                 252.36-1~deb12u1                amd64  libudev shared library
+ii   libudev1                 252.38-1~deb12u1                amd64  libudev shared library
 ii   libunistring2            1.0-2                           amd64  Unicode string library for C
 ii   libuuid1                 2.38.1-5+deb12u3                amd64  Universally Unique ID library
 ii   libwrap0                 7.6.q-32                        amd64  Wietse Venema's TCP wrappers library
@@ -194,7 +194,7 @@ ii   mawk                     1.3.4.20200120-3.1              amd64  Pattern sca
 ii   mount                    2.38.1-5+deb12u3                amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.4-4                           all    basic terminal type definitions
 ii   ncurses-bin              6.4-4                           amd64  terminal-related programs and man pages
-ii   net-tools                2.10-0.1+deb12u1                amd64  NET-3 networking toolkit
+ii   net-tools                2.10-0.1+deb12u2                amd64  NET-3 networking toolkit
 ii   openssh-client           1:9.2p1-2+deb12u6               amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server           1:9.2p1-2+deb12u6               amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server      1:9.2p1-2+deb12u6               amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
