@@ -129,13 +129,13 @@ ii   libgdbm6                1.19-2                              amd64  GNU dbm 
 ii   libgmp10                2:6.2.1+dfsg-1+deb11u1              amd64  Multiprecision arithmetic library
 ii   libgnutls30             3.7.1-5+deb11u7                     amd64  GNU TLS library - main runtime library
 ii   libgpg-error0           1.38-2                              amd64  GnuPG development runtime library
-ii   libgssapi-krb5-2        1.18.3-6+deb11u6                    amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii   libgssapi-krb5-2        1.18.3-6+deb11u7                    amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6             3.7.3-1                             amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0               2.3.0-5                             amd64  Internationalized domain names (IDNA2008/TR46) library
-ii   libk5crypto3            1.18.3-6+deb11u6                    amd64  MIT Kerberos runtime libraries - Crypto Library
+ii   libk5crypto3            1.18.3-6+deb11u7                    amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1            1.6.1-2                             amd64  Linux Key Management Utilities (library)
-ii   libkrb5-3               1.18.3-6+deb11u6                    amd64  MIT Kerberos runtime libraries
-ii   libkrb5support0         1.18.3-6+deb11u6                    amd64  MIT Kerberos runtime libraries - Support library
+ii   libkrb5-3               1.18.3-6+deb11u7                    amd64  MIT Kerberos runtime libraries
+ii   libkrb5support0         1.18.3-6+deb11u7                    amd64  MIT Kerberos runtime libraries - Support library
 ii   libldap-2.4-2           2.4.57+dfsg-3+deb11u1               amd64  OpenLDAP libraries
 ii   liblognorm5             2.0.5-1.1                           amd64  log normalizing library
 ii   liblz4-1                1.9.3-2                             amd64  Fast LZ compression algorithm library - runtime
@@ -204,7 +204,7 @@ ii   media-types             4.0.0                               all    List of 
 ii   mount                   2.36.1-8+deb11u2                    amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base            6.2+20201114-2+deb11u2              all    basic terminal type definitions
 ii   ncurses-bin             6.2+20201114-2+deb11u2              amd64  terminal-related programs and man pages
-ii   net-tools               1.60+git20181103.0eebece-1+deb11u1  amd64  NET-3 networking toolkit
+ii   net-tools               1.60+git20181103.0eebece-1+deb11u2  amd64  NET-3 networking toolkit
 ii   openssh-client          1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server          1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server     1:8.4p1-5+deb11u5                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
