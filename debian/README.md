@@ -47,7 +47,7 @@ ii   libbz2-1.0               1.0.8-6                      amd64  high-quality b
 ii   libc-bin                 2.41-8                       amd64  GNU C Library: Binaries
 ii   libc6                    2.41-8                       amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.75-7                     amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.75-8                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.278                        amd64  Debian Configuration Management System (C-implementation library)
