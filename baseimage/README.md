@@ -85,7 +85,7 @@ ii   gcc-14-base                  14.2.0-19                       amd64  GCC, th
 ii   git                          1:2.49.0-2                      amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.49.0-2                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
-ii   groff-base                   1.23.0-8                        amd64  GNU troff text-formatting system (base system components)
+ii   groff-base                   1.23.0-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
 ii   hostname                     3.25                            amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.68                            all    helper tools for all init systems
