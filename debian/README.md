@@ -23,13 +23,13 @@ ii   base-files               13.8                         amd64  Debian base sy
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-2+b2                  amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.41-5                     amd64  basic utilities from 4.4BSD-Lite
-ii   coreutils                9.7-2                        amd64  GNU core utilities
+ii   coreutils                9.7-3                        amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                  1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring   2025.1                       all    OpenPGP archive certificates of the Debian archive
 ii   debianutils              5.22                         amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-4                     amd64  File comparison utilities
-ii   dpkg                     1.22.19                      amd64  Debian package management system
+ii   dpkg                     1.22.20                      amd64  Debian package management system
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-14-base              14.2.0-19                    amd64  GCC, the GNU Compiler Collection (base package)
 ii   grep                     3.11-4                       amd64  GNU grep, egrep and fgrep
