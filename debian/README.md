@@ -27,7 +27,7 @@ ii   coreutils                9.7-3                        amd64  GNU core utili
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                  1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring   2025.1                       all    OpenPGP archive certificates of the Debian archive
-ii   debianutils              5.22                         amd64  Miscellaneous utilities specific to Debian
+ii   debianutils              5.23.1                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                1:3.10-4                     amd64  File comparison utilities
 ii   dpkg                     1.22.20                      amd64  Debian package management system
 ii   findutils                4.10.0-3                     amd64  utilities for finding files--find, xargs

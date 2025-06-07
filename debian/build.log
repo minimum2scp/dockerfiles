@@ -12,14 +12,13 @@ I: Validating base-files 13.8
 I: Validating base-passwd 3.6.7
 I: Validating bash 5.2.37-2+b2
 I: Validating bsdutils 1:2.41-5
-I: Retrieving coreutils 9.7-3
 I: Validating coreutils 9.7-3
 I: Validating dash 0.5.12-12
 I: Validating debconf 1.5.91
 I: Validating debian-archive-keyring 2025.1
-I: Validating debianutils 5.22
+I: Retrieving debianutils 5.23.1
+I: Validating debianutils 5.23.1
 I: Validating diffutils 1:3.10-4
-I: Retrieving dpkg 1.22.20
 I: Validating dpkg 1.22.20
 I: Validating findutils 4.10.0-3
 I: Validating gcc-14-base 14.2.0-19
