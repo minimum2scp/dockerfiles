@@ -10,8 +10,6 @@ updates:
     time: '10:00'
     timezone: Asia/Tokyo
   open-pull-requests-limit: 10
-  reviewers:
-  - minimum2scp
   allow:
     - dependency-type: all
 - package-ecosystem: github-actions
@@ -21,6 +19,4 @@ updates:
     time: '10:00'
     timezone: Asia/Tokyo
   open-pull-requests-limit: 10
-  reviewers:
-  - minimum2scp
 
