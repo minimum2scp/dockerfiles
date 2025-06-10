@@ -107,7 +107,7 @@ ii   libc6                        2.41-8                          amd64  GNU C L
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
 ii   libcap2                      1:2.75-8                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.2-1+b1                     amd64  common error description library
+ii   libcom-err2                  1.47.2-2                        amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.14.1-1                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.14.1-1                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1230-2                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1230-2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b9                        amd64  shell with lots of features
+ii   zsh                          5.9-8+b10                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
