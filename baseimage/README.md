@@ -82,8 +82,8 @@ ii   dpkg                         1.22.20                         amd64  Debian 
 ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-19                       amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.49.0-2                      amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.49.0-2                      all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.50.0-1                      amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.50.0-1                      all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                          amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-9                        amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                          amd64  GNU compression utilities
