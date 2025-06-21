@@ -4,7 +4,7 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get install --no-install-recommends -y systemd systemd-sysv dbus libpam-systemd less
+apt-get install --no-install-recommends -y systemd dbus less
 
 ## use less for systemctl, journalctl
 echo '#export SYSTEMD_EDITOR='     >  /etc/profile.d/systemd-vars.sh
