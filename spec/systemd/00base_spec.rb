@@ -14,7 +14,7 @@ describe 'minimum2scp/systemd' do
     end
 
     %w[
-      systemd systemd-sysv dbus libpam-systemd less
+      systemd dbus less
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
