@@ -10,7 +10,8 @@ I: Checking component main on http://deb.debian.org/debian...
 I: Validating apt 3.0.2
 I: Validating base-files 13.8
 I: Validating base-passwd 3.6.7
-I: Validating bash 5.2.37-2+b2
+I: Retrieving bash 5.2.37-2+b3
+I: Validating bash 5.2.37-2+b3
 I: Validating bsdutils 1:2.41-5
 I: Validating coreutils 9.7-3
 I: Validating dash 0.5.12-12
@@ -33,9 +34,7 @@ I: Validating libaudit1 1:4.0.2-2+b2
 I: Validating libblkid1 2.41-5
 I: Validating libbsd0 0.12.2-2
 I: Validating libbz2-1.0 1.0.8-6
-I: Retrieving libc-bin 2.41-9
 I: Validating libc-bin 2.41-9
-I: Retrieving libc6 2.41-9
 I: Validating libc6 2.41-9
 I: Validating libcap-ng0 0.8.5-4+b1
 I: Validating libcap2 1:2.75-8
