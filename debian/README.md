@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      3.0.2                        amd64  commandline package manager
+ii   apt                      3.0.3                        amd64  commandline package manager
 ii   base-files               13.8                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-2+b3                  amd64  GNU Bourne Again SHell
@@ -37,7 +37,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.68                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg7.0            3.0.2                        amd64  package management runtime library
+ii   libapt-pkg7.0            3.0.3                        amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic library for security auditing
