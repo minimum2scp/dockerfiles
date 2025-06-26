@@ -105,14 +105,14 @@ ii   libc-bin                     2.41-9                          amd64  GNU C L
 ii   libc-l10n                    2.41-9                          all    GNU C Library: localization files
 ii   libc6                        2.41-9                          amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-8                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-9                        amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b1                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.14.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.14.1-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9                  amd64  Berkeley v5.3 Database Libraries [runtime]
-ii   libdebconfclient0            0.278                           amd64  Debian Configuration Management System (C-implementation library)
+ii   libdebconfclient0            0.279                           amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1                  amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                       all    Perl module for error/exception handling in an OO-ish way
 ii   libestr0                     0.1.11-2                        amd64  Helper functions for handling strings (lib)
@@ -171,13 +171,13 @@ ii   libsqlite3-0                 3.46.1-6                        amd64  SQLite 
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.0-2                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  257.6-1                         amd64  systemd utility library
+ii   libsystemd0                  257.7-1                         amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                        amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                      amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                         all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2                  amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-1+b2                      amd64  universal charset detection library - shared library
-ii   libudev1                     257.6-1                         amd64  libudev shared library
+ii   libudev1                     257.7-1                         amd64  libudev shared library
 ii   libunistring5                1.3-2                           amd64  Unicode string library for C
 ii   libuuid1                     2.41-5                          amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                        amd64  Wietse Venema's TCP wrappers library
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.25                          all    Utiliti
 ii   sqv                          1.3.0-3                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  257.6-1                         amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  257.7-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                          amd64  System-V-like utilities
