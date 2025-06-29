@@ -4469,7 +4469,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2025b-3",
+    "Version": "2025b-4",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4477,7 +4477,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2025b-3"
+    "source:Version": "2025b-4"
   },
   {
     "Architecture": "all",
