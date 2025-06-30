@@ -39,8 +39,8 @@ ii   init-system-helpers      1.68                         all    helper tools f
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapt-pkg7.0            3.0.3                        amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
-ii   libaudit-common          1:4.0.2-2                    all    Dynamic library for security auditing - common files
-ii   libaudit1                1:4.0.2-2+b2                 amd64  Dynamic library for security auditing
+ii   libaudit-common          1:4.0.5-1                    all    Dynamic library for security auditing - common files
+ii   libaudit1                1:4.0.5-1                    amd64  Dynamic library for security auditing
 ii   libblkid1                2.41-5                       amd64  block device ID library
 ii   libbsd0                  0.12.2-2                     amd64  utility functions from BSD systems - shared library
 ii   libbz2-1.0               1.0.8-6                      amd64  high-quality block-sorting file compressor library - runtime
@@ -60,10 +60,10 @@ ii   liblzma5                 5.8.1-1                      amd64  XZ-format comp
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.41-5                       amd64  device mounting library
 ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
-ii   libpam-modules           1.7.0-3                      amd64  Pluggable Authentication Modules for PAM
-ii   libpam-modules-bin       1.7.0-3                      amd64  Pluggable Authentication Modules for PAM - helper binaries
-ii   libpam-runtime           1.7.0-3                      all    Runtime support for the PAM library
-ii   libpam0g                 1.7.0-3                      amd64  Pluggable Authentication Modules library
+ii   libpam-modules           1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
+ii   libpam-modules-bin       1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
+ii   libpam-runtime           1.7.0-5                      all    Runtime support for the PAM library
+ii   libpam0g                 1.7.0-5                      amd64  Pluggable Authentication Modules library
 ii   libpcre2-8-0             10.45-1                      amd64  New Perl Compatible Regular Expression Library- 8 bit runtime files
 ii   libseccomp2              2.6.0-2                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1              3.8.1-1                      amd64  SELinux runtime shared libraries
