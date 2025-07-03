@@ -78,7 +78,7 @@ ii   debconf                      1.5.91                          all    Debian 
 ii   debian-archive-keyring       2025.1                          all    OpenPGP archive certificates of the Debian archive
 ii   debianutils                  5.23.1                          amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-4                        amd64  File comparison utilities
-ii   dpkg                         1.22.20                         amd64  Debian package management system
+ii   dpkg                         1.22.21                         amd64  Debian package management system
 ii   etckeeper                    1.18.22-2                       all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                        amd64  utilities for finding files--find, xargs
 ii   gcc-14-base                  14.2.0-19                       amd64  GCC, the GNU Compiler Collection (base package)
@@ -212,7 +212,7 @@ ii   sed                          4.9-2                           amd64  GNU str
 ii   sensible-utils               0.0.25                          all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-3                         amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                          amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.16p2-2                      amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.16p2-3                      amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  257.7-1                         amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                          all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                          amd64  System-V-like init

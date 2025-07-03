@@ -521,7 +521,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt, debsig-verify",
-    "Version": "1.22.20",
+    "Version": "1.22.21",
     "binary:Package": "dpkg",
     "binary:Summary": "Debian package management system",
     "db:Status-Abbrev": "ii ",
@@ -529,7 +529,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "dpkg",
-    "source:Version": "1.22.20"
+    "source:Version": "1.22.21"
   },
   {
     "Architecture": "all",
@@ -4262,7 +4262,7 @@
     "Depends": "libapparmor1 (>= 2.7.0~beta1+bzr1772), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0), zlib1g (>= 1:1.2.0.2), libpam-modules",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "6700",
+    "Installed-Size": "6704",
     "Origin": "",
     "Package": "sudo",
     "Pre-Depends": "init-system-helpers (>= 1.54~)",
@@ -4273,7 +4273,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.9.16p2-2",
+    "Version": "1.9.16p2-3",
     "binary:Package": "sudo",
     "binary:Summary": "Provide limited super user privileges to specific users",
     "db:Status-Abbrev": "ii ",
@@ -4281,7 +4281,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "sudo",
-    "source:Version": "1.9.16p2-2"
+    "source:Version": "1.9.16p2-3"
   },
   {
     "Architecture": "amd64",
