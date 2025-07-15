@@ -35,8 +35,8 @@ describe 'minimum2scp/baseimage-buster' do
       ## stable
       its(:content) { should match apt_line_re[true, 'deb',     'http://archive.debian.org/debian/', 'buster',         'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://archive.debian.org/debian/', 'buster',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',   'buster/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',   'buster/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://archive.debian.org/debian-security/',   'buster/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://archive.debian.org/debian-security/',   'buster/updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://archive.debian.org/debian/', 'buster-updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://archive.debian.org/debian/', 'buster-updates', 'main', 'contrib', 'non-free'] }
       ## testing
@@ -211,8 +211,8 @@ describe 'minimum2scp/baseimage-buster' do
       ## stable
       its(:content) { should match apt_line_re[true, 'deb',     'http://ftp.jp.debian.org/debian/', 'buster',         'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://ftp.jp.debian.org/debian/', 'buster',         'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/',      'buster/updates', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/',      'buster/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb',     'http://archive.debian.org/debian-security/',      'buster/updates', 'main', 'contrib', 'non-free'] }
+      its(:content) { should match apt_line_re[true, 'deb-src', 'http://archive.debian.org/debian-security/',      'buster/updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://ftp.jp.debian.org/debian/', 'buster-updates', 'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://ftp.jp.debian.org/debian/', 'buster-updates', 'main', 'contrib', 'non-free'] }
       ## testing
