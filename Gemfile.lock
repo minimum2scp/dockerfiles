@@ -11,7 +11,7 @@ GEM
       logger
     logger (1.7.0)
     method_source (1.1.0)
-    multi_json (1.16.0)
+    multi_json (1.17.0)
     net-scp (4.1.0)
       net-ssh (>= 2.6.5, < 8.0.0)
     net-ssh (7.3.0)
