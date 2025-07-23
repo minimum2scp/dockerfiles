@@ -22,31 +22,31 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '3.4.4',
-        desc: 'ruby 3.4.4 (2025-05-14 revision a38531fd3f) +PRISM [x86_64-linux]',
-        rubygems_version: '3.6.9',
+        ruby: '3.4.5',
+        desc: 'ruby 3.4.5 (2025-07-16 revision 20cda200d3) +PRISM [x86_64-linux]',
+        rubygems_version: '3.7.1',
         gems: [
-          {name: 'bundler', version: 'default: 2.6.9'},
+          {name: 'bundler', version: 'default: 2.7.1'},
         ],
-        openssl_version: '3.5.0'
+        openssl_version: '3.5.1'
       },
       {
         ruby: '3.3.8',
         desc: 'ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux]',
-        rubygems_version: '3.6.9',
+        rubygems_version: '3.7.1',
         gems: [
-          {name: 'bundler', version: 'default: 2.6.9'},
+          {name: 'bundler', version: 'default: 2.7.1'},
         ],
-        openssl_version: '3.5.0'
+        openssl_version: '3.5.1'
       },
       {
         ruby: '3.2.8',
         desc: 'ruby 3.2.8 (2025-03-26 revision 13f495dc2c) [x86_64-linux]',
-        rubygems_version: '3.6.9',
+        rubygems_version: '3.7.1',
         gems: [
-          {name: 'bundler', version: 'default: 2.6.9'},
+          {name: 'bundler', version: 'default: 2.7.1'},
         ],
-        openssl_version: '3.5.0'
+        openssl_version: '3.5.1'
       },
       {
         ruby: '3.1.7',
@@ -55,7 +55,7 @@ describe 'minimum2scp/ruby-full' do
         gems: [
           {name: 'bundler', version: 'default: 2.6.9'},
         ],
-        openssl_version: '3.5.0'
+        openssl_version: '3.5.1'
       },
       {
         ruby: '3.0.7',
