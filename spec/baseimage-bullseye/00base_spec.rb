@@ -37,8 +37,6 @@ describe 'minimum2scp/baseimage-bullseye' do
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/',              'bullseye',           'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/debian-security', 'bullseye-security',  'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/debian-security', 'bullseye-security',  'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://deb.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://deb.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
     end
 
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
@@ -199,8 +197,6 @@ describe 'minimum2scp/baseimage-bullseye' do
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'bullseye',           'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb',     'http://security.debian.org/debian-security',    'bullseye-security',  'main', 'contrib', 'non-free'] }
       its(:content) { should match apt_line_re[true, 'deb-src', 'http://security.debian.org/debian-security',    'bullseye-security',  'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb',     'http://ftp.jp.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
-      its(:content) { should match apt_line_re[true, 'deb-src', 'http://ftp.jp.debian.org/debian/',              'bullseye-backports', 'main', 'contrib', 'non-free'] }
     end
 
     describe file('/etc/apt/apt.conf.d/proxy.conf') do
