@@ -21,7 +21,7 @@ installed packages:
 ii   apt                      3.0.3                        amd64  commandline package manager
 ii   base-files               13.8                         amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
-ii   bash                     5.2.37-2+b3                  amd64  GNU Bourne Again SHell
+ii   bash                     5.2.37-2+b4                  amd64  GNU Bourne Again SHell
 ii   bsdutils                 1:2.41-5                     amd64  basic utilities from 4.4BSD-Lite
 ii   coreutils                9.7-3                        amd64  GNU core utilities
 ii   dash                     0.5.12-12                    amd64  POSIX-compliant shell
@@ -47,7 +47,7 @@ ii   libbz2-1.0               1.0.8-6                      amd64  high-quality b
 ii   libc-bin                 2.41-10                      amd64  GNU C Library: Binaries
 ii   libc6                    2.41-10                      amd64  GNU C Library: Shared libraries
 ii   libcap-ng0               0.8.5-4+b1                   amd64  alternate POSIX capabilities library
-ii   libcap2                  1:2.75-9                     amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                  1:2.75-9+b1                  amd64  POSIX 1003.1e capabilities (library)
 ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt shared library
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.280                        amd64  Debian Configuration Management System (C-implementation library)
@@ -71,7 +71,7 @@ ii   libsemanage-common       3.8.1-1                      all    Common files f
 ii   libsemanage2             3.8.1-1                      amd64  SELinux policy management library
 ii   libsepol2                3.8.1-1                      amd64  SELinux library for manipulating binary security policies
 ii   libsmartcols1            2.41-5                       amd64  smart column output alignment library
-ii   libsqlite3-0             3.46.1-6                     amd64  SQLite 3 shared library
+ii   libsqlite3-0             3.46.1-7                     amd64  SQLite 3 shared library
 ii   libssl3t64               3.5.1-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               14.2.0-19                    amd64  GNU Standard C++ Library v3
 ii   libsystemd0              257.7-1                      amd64  systemd utility library
