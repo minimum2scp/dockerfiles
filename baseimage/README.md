@@ -64,7 +64,7 @@ ii   adduser                      3.152                           all    add and
 ii   apt                          3.0.3                           amd64  commandline package manager
 ii   base-files                   13.8                            amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                           amd64  Debian base system master password and group files
-ii   bash                         5.2.37-2+b3                     amd64  GNU Bourne Again SHell
+ii   bash                         5.2.37-2+b4                     amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41-5                          amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.41-5                        amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                         amd64  high-quality block-sorting file compressor - utilities
@@ -105,9 +105,9 @@ ii   libc-bin                     2.41-10                         amd64  GNU C L
 ii   libc-l10n                    2.41-10                         all    GNU C Library: localization files
 ii   libc6                        2.41-10                         amd64  GNU C Library: Shared libraries
 ii   libcap-ng0                   0.8.5-4+b1                      amd64  alternate POSIX capabilities library
-ii   libcap2                      1:2.75-9                        amd64  POSIX 1003.1e capabilities (library)
+ii   libcap2                      1:2.75-9+b1                     amd64  POSIX 1003.1e capabilities (library)
 ii   libcbor0.10                  0.10.2-2                        amd64  library for parsing and generating CBOR (RFC 7049)
-ii   libcom-err2                  1.47.2-3+b1                     amd64  common error description library
+ii   libcom-err2                  1.47.2-3+b2                     amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                      amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.14.1-2                        amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.14.1-2                        amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -167,7 +167,7 @@ ii   libsemanage2                 3.8.1-1                         amd64  SELinux
 ii   libsepol2                    3.8.1-1                         amd64  SELinux library for manipulating binary security policies
 ii   libslang2                    2.3.3-5+b2                      amd64  S-Lang programming library - runtime version
 ii   libsmartcols1                2.41-5                          amd64  smart column output alignment library
-ii   libsqlite3-0                 3.46.1-6                        amd64  SQLite 3 shared library
+ii   libsqlite3-0                 3.46.1-7                        amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                        amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.1-1                         amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   14.2.0-19                       amd64  GNU Standard C++ Library v3
@@ -227,7 +227,7 @@ ii   vim-common                   2:9.1.1230-2                    all    Vi IMpr
 ii   vim-tiny                     2:9.1.1230-2                    amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                       amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1     amd64  compression library - runtime
-ii   zsh                          5.9-8+b12                       amd64  shell with lots of features
+ii   zsh                          5.9-8+b13                       amd64  shell with lots of features
 ii   zsh-common                   5.9-8                           all    architecture independent files for Zsh
 ii   zstd                         1.5.7+dfsg-1                    amd64  fast lossless compression algorithm -- CLI tool
 ```
