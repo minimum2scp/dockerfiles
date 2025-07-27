@@ -734,7 +734,7 @@
     "Depends": "libc6 (>> 2.41), libc6 (<< 2.42)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "2120",
+    "Installed-Size": "2121",
     "Origin": "",
     "Package": "libc-bin",
     "Pre-Depends": "",
@@ -745,7 +745,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.41-10",
+    "Version": "2.41-11",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -753,7 +753,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-10"
+    "source:Version": "2.41-11"
   },
   {
     "Architecture": "amd64",
@@ -762,7 +762,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "13231",
+    "Installed-Size": "13232",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -773,7 +773,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.41-10",
+    "Version": "2.41-11",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -781,7 +781,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.41-10"
+    "source:Version": "2.41-11"
   },
   {
     "Architecture": "amd64",
@@ -818,7 +818,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "92",
+    "Installed-Size": "91",
     "Origin": "",
     "Package": "libcap2",
     "Pre-Depends": "",
@@ -829,7 +829,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.75-9+b1",
+    "Version": "1:2.75-10",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -837,7 +837,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.75-9"
+    "source:Version": "1:2.75-10"
   },
   {
     "Architecture": "amd64",
