@@ -195,9 +195,9 @@ ii   mount                        2.41-5                          amd64  tools f
 ii   ncurses-base                 6.5+20250216-2                  all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2                  amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-1.3                        amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.0p1-5                      amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.0p1-5                      amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.0p1-5                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.0p1-6                      amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.0p1-6                      amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.0p1-6                      amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.1-1                         amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.21                            all    Orphaned System-V-like init scripts
