@@ -88,7 +88,7 @@ ii   ncurses-base             6.5+20250216-2               all    basic terminal
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.5.1-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
-ii   perl-base                5.40.1-5                     amd64  minimal Perl system
+ii   perl-base                5.40.1-6                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   sysvinit-utils           3.14-4                       amd64  System-V-like utilities
