@@ -1,8 +1,0 @@
-#! /bin/sh
-
-set -e
-set -x
-export DEBIAN_FRONTEND=noninteractive
-
-cp -a /tmp/build/baseimage-stretch/opt/custom-installers /opt/custom-installers
-
