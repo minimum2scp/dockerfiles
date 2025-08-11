@@ -42,11 +42,6 @@ images = {
   'baseimage-buster': default_conf.merge(save_artifact: true),
   'ruby-buster':      default_conf.merge(parent: 'baseimage-buster'),
   'systemd-buster':   default_conf.merge(parent: 'baseimage-buster'),
-
-  'debian-stretch':    default_conf.merge(build_image: false, push_image: false),
-  'baseimage-stretch': default_conf.merge(save_artifact: true),
-  'ruby-stretch':      default_conf.merge(parent: 'baseimage-stretch'),
-  'systemd-stretch':   default_conf.merge(parent: 'baseimage-stretch'),
 }
 -%>
 <%- images.each do |image, image_conf| -%>
