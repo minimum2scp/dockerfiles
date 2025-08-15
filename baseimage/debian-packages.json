@@ -2302,7 +2302,7 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "229",
+    "Installed-Size": "230",
     "Origin": "",
     "Package": "libnghttp2-14",
     "Pre-Depends": "",
@@ -2313,7 +2313,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.64.0-1.1",
+    "Version": "1.64.0-1.1+b1",
     "binary:Package": "libnghttp2-14:amd64",
     "binary:Summary": "library implementing HTTP/2 protocol (shared library)",
     "db:Status-Abbrev": "ii ",
@@ -3937,7 +3937,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.21",
+    "Version": "0.22",
     "binary:Package": "orphan-sysvinit-scripts",
     "binary:Summary": "Orphaned System-V-like init scripts",
     "db:Status-Abbrev": "ii ",
@@ -3945,7 +3945,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "orphan-sysvinit-scripts",
-    "source:Version": "0.21"
+    "source:Version": "0.22"
   },
   {
     "Architecture": "amd64",
