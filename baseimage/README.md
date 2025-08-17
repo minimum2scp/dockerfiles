@@ -88,7 +88,7 @@ ii   grep                         3.11-4                       amd64  GNU grep, 
 ii   groff-base                   1.23.0-9                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                       amd64  GNU compression utilities
 ii   hostname                     3.25                         amd64  utility to set/show the host name or domain name
-ii   init-system-helpers          1.68                         all    helper tools for all init systems
+ii   init-system-helpers          1.69                         all    helper tools for all init systems
 ii   initscripts                  3.14-4                       all    scripts for initializing and shutting down the system
 ii   insserv                      1.26.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
@@ -127,7 +127,7 @@ ii   libgmp10                     2:6.3.0+dfsg-3               amd64  Multipreci
 ii   libgnutls30t64               3.8.10-2                     amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.8-2                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.8-3                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-5                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-5                     amd64  MIT Kerberos runtime libraries

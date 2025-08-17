@@ -790,7 +790,7 @@
     "Depends": "",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "129",
+    "Installed-Size": "133",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -801,7 +801,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.68",
+    "Version": "1.69",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -809,7 +809,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.68"
+    "source:Version": "1.69"
   },
   {
     "Architecture": "all",
@@ -1882,7 +1882,7 @@
     "Depends": "libc6 (>= 2.14), libunistring5 (>= 1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "446",
+    "Installed-Size": "447",
     "Origin": "",
     "Package": "libidn2-0",
     "Pre-Depends": "",
@@ -1893,7 +1893,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.3.8-2",
+    "Version": "2.3.8-3",
     "binary:Package": "libidn2-0:amd64",
     "binary:Summary": "Internationalized domain names (IDNA2008/TR46) library",
     "db:Status-Abbrev": "ii ",
@@ -1901,7 +1901,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libidn2",
-    "source:Version": "2.3.8-2"
+    "source:Version": "2.3.8-3"
   },
   {
     "Architecture": "amd64",
