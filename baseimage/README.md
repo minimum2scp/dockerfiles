@@ -206,13 +206,13 @@ ii   perl                         5.40.1-6                     amd64  Larry Wall
 ii   perl-base                    5.40.1-6                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-6                     all    Core Perl modules
 ii   procps                       2:4.0.4-9                    amd64  /proc file system utilities
-ii   rsyslog                      8.2506.0-2                   amd64  reliable system and kernel logging daemon
+ii   rsyslog                      8.2506.0-3                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.25                       all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                       amd64  run processes in parallel and multiplex their output
-ii   sudo                         1.9.16p2-3                   amd64  Provide limited super user privileges to specific users
+ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  258~rc2-2                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                       amd64  System-V-like init
