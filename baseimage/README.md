@@ -79,7 +79,7 @@ ii   debian-archive-keyring       2025.1                       all    OpenPGP ar
 ii   debianutils                  5.23.2                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-4                     amd64  File comparison utilities
 ii   dpkg                         1.22.21                      amd64  Debian package management system
-ii   etckeeper                    1.18.22-2                    all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.23-1                    all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-15-base                  15.2.0-1                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.50.1-0.1                 amd64  fast, scalable, distributed revision control system
@@ -127,7 +127,7 @@ ii   libgmp10                     2:6.3.0+dfsg-3               amd64  Multipreci
 ii   libgnutls30t64               3.8.10-2                     amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
-ii   libidn2-0                    2.3.8-3                      amd64  Internationalized domain names (IDNA2008/TR46) library
+ii   libidn2-0                    2.3.8-4                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-5                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6                      amd64  Linux Key Management Utilities (library)
 ii   libkrb5-3                    1.21.3-5                     amd64  MIT Kerberos runtime libraries
