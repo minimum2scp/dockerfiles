@@ -209,7 +209,7 @@ ii   procps                       2:4.0.4-9                    amd64  /proc file
 ii   rsyslog                      8.2506.0-3                   amd64  reliable system and kernel logging daemon
 ii   runit-helper                 2.16.4                       all    dh-runit implementation detail
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
-ii   sensible-utils               0.0.25                       all    Utilities for sensible alternative selection
+ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.66-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
