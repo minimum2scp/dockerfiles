@@ -41,7 +41,8 @@ I: Validating libcrypt1 1:4.4.38-1
 I: Validating libdb5.3t64 5.3.28+dfsg2-9
 I: Validating libdebconfclient0 0.280
 I: Validating libgcc-s1 15.2.0-1
-I: Validating libgmp10 2:6.3.0+dfsg-3
+I: Retrieving libgmp10 2:6.3.0+dfsg-4
+I: Validating libgmp10 2:6.3.0+dfsg-4
 I: Validating libhogweed6t64 3.10.1-1
 I: Validating liblastlog2-2 2.41.1-1
 I: Validating liblz4-1 1.10.0-4
@@ -63,10 +64,8 @@ I: Validating libsmartcols1 2.41.1-1
 I: Validating libsqlite3-0 3.46.1-7
 I: Validating libssl3t64 3.5.2-1
 I: Validating libstdc++6 15.2.0-1
-I: Retrieving libsystemd0 258~rc3-1
 I: Validating libsystemd0 258~rc3-1
 I: Validating libtinfo6 6.5+20250216-2
-I: Retrieving libudev1 258~rc3-1
 I: Validating libudev1 258~rc3-1
 I: Validating libuuid1 2.41.1-1
 I: Validating libxxhash0 0.8.3-2
