@@ -121,8 +121,8 @@ ii   libfastjson4                 1.2304.0-2                   amd64  fast json 
 ii   libffi8                      3.4.8-2                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2                     amd64  library for generating and verifying FIDO 2.0 objects
 ii   libgcc-s1                    15.2.0-1                     amd64  GCC support library
-ii   libgdbm-compat4t64           1.24-2                       amd64  GNU dbm database routines (legacy support runtime version) 
-ii   libgdbm6t64                  1.24-2                       amd64  GNU dbm database routines (runtime version) 
+ii   libgdbm-compat4t64           1.26-1                       amd64  GNU dbm database routines (legacy support runtime version) 
+ii   libgdbm6t64                  1.26-1                       amd64  GNU dbm database routines (runtime version) 
 ii   libgmp10                     2:6.3.0+dfsg-4               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.10-2                     amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
