@@ -18,7 +18,7 @@ $ rake mkimage TAG=minimum2scp/debian:latest
 installed packages:
 
 ```
-ii   apt                      3.1.4                        amd64  commandline package manager
+ii   apt                      3.1.5                        amd64  commandline package manager
 ii   base-files               14                           amd64  Debian base system miscellaneous files
 ii   base-passwd              3.6.7                        amd64  Debian base system master password and group files
 ii   bash                     5.2.37-2+b5                  amd64  GNU Bourne Again SHell
@@ -37,7 +37,7 @@ ii   gzip                     1.13-1                       amd64  GNU compressio
 ii   hostname                 3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers      1.69                         all    helper tools for all init systems
 ii   libacl1                  2.3.2-2+b1                   amd64  access control list - shared library
-ii   libapt-pkg7.0            3.1.4                        amd64  package management runtime library
+ii   libapt-pkg7.0            3.1.5                        amd64  package management runtime library
 ii   libattr1                 1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common          1:4.0.5-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                1:4.0.5-1                    amd64  Dynamic library for security auditing
@@ -81,13 +81,13 @@ ii   libuuid1                 2.41.1-1                     amd64  Universally Un
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.41.1-1    amd64  system login tools
-ii   login.defs               1:4.17.4-2                   all    system user management configuration
+ii   login.defs               1:4.18.0-1                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
 ii   mount                    2.41.1-1                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base             6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin              6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   openssl-provider-legacy  3.5.2-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   passwd                   1:4.17.4-2                   amd64  change and administer password and group data
+ii   passwd                   1:4.18.0-1                   amd64  change and administer password and group data
 ii   perl-base                5.40.1-6                     amd64  minimal Perl system
 ii   sed                      4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sqv                      1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
