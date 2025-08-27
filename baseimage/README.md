@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.152                        all    add and remove users and groups
-ii   apt                          3.1.4                        amd64  commandline package manager
+ii   apt                          3.1.5                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
 ii   bash                         5.2.37-2+b5                  amd64  GNU Bourne Again SHell
@@ -82,8 +82,8 @@ ii   dpkg                         1.22.21                      amd64  Debian pac
 ii   etckeeper                    1.18.23-1                    all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                     amd64  utilities for finding files--find, xargs
 ii   gcc-15-base                  15.2.0-1                     amd64  GCC, the GNU Compiler Collection (base package)
-ii   git                          1:2.50.1-0.1                 amd64  fast, scalable, distributed revision control system
-ii   git-man                      1:2.50.1-0.1                 all    fast, scalable, distributed revision control system (manual pages)
+ii   git                          1:2.51.0-1                   amd64  fast, scalable, distributed revision control system
+ii   git-man                      1:2.51.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                       amd64  GNU grep, egrep and fgrep
 ii   groff-base                   1.23.0-9                     amd64  GNU troff text-formatting system (base system components)
 ii   gzip                         1.13-1                       amd64  GNU compression utilities
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                       all    scripts fo
 ii   insserv                      1.26.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.4                        amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.5                        amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.0.5-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.0.5-1                    amd64  Dynamic library for security auditing
@@ -187,7 +187,7 @@ ii   libzstd1                     1.5.7+dfsg-1                 amd64  fast lossl
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-12                      all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.1-1    amd64  system login tools
-ii   login.defs                   1:4.17.4-2                   all    system user management configuration
+ii   login.defs                   1:4.18.0-1                   all    system user management configuration
 ii   lv                           4.51-10                      amd64  Powerful Multilingual File Viewer
 ii   man-db                       2.13.1-1                     amd64  tools for reading manual pages
 ii   mawk                         1.3.4.20250131-1             amd64  Pattern scanning and text processing language
@@ -201,7 +201,7 @@ ii   openssh-sftp-server          1:10.0p1-8                   amd64  secure she
 ii   openssl                      3.5.2-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.2-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.22                         all    Orphaned System-V-like init scripts
-ii   passwd                       1:4.17.4-2                   amd64  change and administer password and group data
+ii   passwd                       1:4.18.0-1                   amd64  change and administer password and group data
 ii   perl                         5.40.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
 ii   perl-base                    5.40.1-6                     amd64  minimal Perl system
 ii   perl-modules-5.40            5.40.1-6                     all    Core Perl modules
