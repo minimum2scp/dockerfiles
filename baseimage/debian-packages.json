@@ -118,7 +118,7 @@
     "Depends": "base-files (>= 2.1.12), debianutils (>= 5.6-0.1)",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "7196",
+    "Installed-Size": "7273",
     "Origin": "",
     "Package": "bash",
     "Pre-Depends": "libc6 (>= 2.38), libtinfo6 (>= 6)",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.37-2+b5",
+    "Version": "5.3-1",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -137,7 +137,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "bash",
-    "source:Version": "5.2.37-2"
+    "source:Version": "5.3-1"
   },
   {
     "Architecture": "amd64",
@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity, supercat, bat",
-    "Version": "3.0pl1-197",
+    "Version": "3.0pl1-198",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-197"
+    "source:Version": "3.0pl1-198"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-197",
+    "Version": "3.0pl1-198",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-197"
+    "source:Version": "3.0pl1-198"
   },
   {
     "Architecture": "amd64",
@@ -3254,7 +3254,7 @@
     "Depends": "libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "216",
+    "Installed-Size": "215",
     "Origin": "",
     "Package": "libuchardet0",
     "Pre-Depends": "",
@@ -3265,7 +3265,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.0.8-1+b2",
+    "Version": "0.0.8-2",
     "binary:Package": "libuchardet0:amd64",
     "binary:Summary": "universal charset detection library - shared library",
     "db:Status-Abbrev": "ii ",
@@ -3273,7 +3273,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "uchardet",
-    "source:Version": "0.0.8-1"
+    "source:Version": "0.0.8-2"
   },
   {
     "Architecture": "amd64",

@@ -64,14 +64,14 @@ ii   adduser                      3.152                        all    add and re
 ii   apt                          3.1.5                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
-ii   bash                         5.2.37-2+b5                  amd64  GNU Bourne Again SHell
+ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
 ii   bsdextrautils                2.41.1-2                     amd64  extra utilities from 4.4BSD-Lite
 ii   bsdutils                     1:2.41.1-2                   amd64  basic utilities from 4.4BSD-Lite
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-197                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-197                   all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-198                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-198                   all    process scheduling daemon's configuration files
 ii   curl                         8.16.0~rc2-2                 amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
@@ -176,7 +176,7 @@ ii   libtasn1-6                   4.20.0-2                     amd64  Manage ASN
 ii   libtext-charwidth-perl       0.04-11+b4                   amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                      all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libuchardet0                 0.0.8-1+b2                   amd64  universal charset detection library - shared library
+ii   libuchardet0                 0.0.8-2                      amd64  universal charset detection library - shared library
 ii   libudev1                     258~rc3-1                    amd64  libudev shared library
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.1-2                     amd64  Universally Unique ID library
