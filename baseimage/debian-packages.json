@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "sudo",
-    "Version": "1.18.23-1",
+    "Version": "1.18.23-2",
     "binary:Package": "etckeeper",
     "binary:Summary": "store /etc in git, mercurial, brz or darcs",
     "db:Status-Abbrev": "ii ",
@@ -557,7 +557,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "etckeeper",
-    "source:Version": "1.18.23-1"
+    "source:Version": "1.18.23-2"
   },
   {
     "Architecture": "amd64",
@@ -605,7 +605,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-2",
+    "Version": "15.2.0-3",
     "binary:Package": "gcc-15-base:amd64",
     "binary:Summary": "GCC, the GNU Compiler Collection (base package)",
     "db:Status-Abbrev": "ii ",
@@ -613,7 +613,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-2"
+    "source:Version": "15.2.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1683,7 +1683,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "gcc-15-base (= 15.2.0-2), libc6 (>= 2.35)",
+    "Depends": "gcc-15-base (= 15.2.0-3), libc6 (>= 2.35)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "209",
@@ -1691,13 +1691,13 @@
     "Package": "libgcc-s1",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libgcc1 (= 1:15.2.0-2)",
+    "Provides": "libgcc1 (= 1:15.2.0-3)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-2",
+    "Version": "15.2.0-3",
     "binary:Package": "libgcc-s1:amd64",
     "binary:Summary": "GCC support library",
     "db:Status-Abbrev": "ii ",
@@ -1705,7 +1705,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-2"
+    "source:Version": "15.2.0-3"
   },
   {
     "Architecture": "amd64",
@@ -1770,7 +1770,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "882",
+    "Installed-Size": "922",
     "Origin": "",
     "Package": "libgmp10",
     "Pre-Depends": "",
@@ -1781,7 +1781,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2:6.3.0+dfsg-4",
+    "Version": "2:6.3.0+dfsg-5",
     "binary:Package": "libgmp10:amd64",
     "binary:Summary": "Multiprecision arithmetic library",
     "db:Status-Abbrev": "ii ",
@@ -1789,7 +1789,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gmp",
-    "source:Version": "2:6.3.0+dfsg-4"
+    "source:Version": "2:6.3.0+dfsg-5"
   },
   {
     "Architecture": "amd64",
@@ -2134,7 +2134,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "435",
+    "Installed-Size": "459",
     "Origin": "",
     "Package": "liblzma5",
     "Pre-Depends": "",
@@ -2145,7 +2145,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.8.1-1",
+    "Version": "5.8.1-1.1",
     "binary:Package": "liblzma5:amd64",
     "binary:Summary": "XZ-format compression library",
     "db:Status-Abbrev": "ii ",
@@ -2153,7 +2153,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "xz-utils",
-    "source:Version": "5.8.1-1"
+    "source:Version": "5.8.1-1.1"
   },
   {
     "Architecture": "amd64",
@@ -3083,7 +3083,7 @@
     "Architecture": "amd64",
     "Conflicts": "scim (<< 1.4.2-1)",
     "Breaks": "gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)",
-    "Depends": "gcc-15-base (= 15.2.0-2), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
+    "Depends": "gcc-15-base (= 15.2.0-3), libc6 (>= 2.38), libgcc-s1 (>= 4.3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "3079",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "15.2.0-2",
+    "Version": "15.2.0-3",
     "binary:Package": "libstdc++6:amd64",
     "binary:Summary": "GNU Standard C++ Library v3",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gcc-15",
-    "source:Version": "15.2.0-2"
+    "source:Version": "15.2.0-3"
   },
   {
     "Architecture": "amd64",
@@ -3450,7 +3450,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "847",
+    "Installed-Size": "904",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-1",
+    "Version": "1.5.7+dfsg-1.1",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-1"
+    "source:Version": "1.5.7+dfsg-1.1"
   },
   {
     "Architecture": "all",
@@ -4738,7 +4738,7 @@
     "Depends": "libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblz4-1 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2320",
+    "Installed-Size": "2480",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-1",
+    "Version": "1.5.7+dfsg-1.1",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4757,6 +4757,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-1"
+    "source:Version": "1.5.7+dfsg-1.1"
   }
 ]

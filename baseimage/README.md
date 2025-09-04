@@ -79,9 +79,9 @@ ii   debian-archive-keyring       2025.1                       all    OpenPGP ar
 ii   debianutils                  5.23.2                       amd64  Miscellaneous utilities specific to Debian
 ii   diffutils                    1:3.10-4                     amd64  File comparison utilities
 ii   dpkg                         1.22.21                      amd64  Debian package management system
-ii   etckeeper                    1.18.23-1                    all    store /etc in git, mercurial, brz or darcs
+ii   etckeeper                    1.18.23-2                    all    store /etc in git, mercurial, brz or darcs
 ii   findutils                    4.10.0-3                     amd64  utilities for finding files--find, xargs
-ii   gcc-15-base                  15.2.0-2                     amd64  GCC, the GNU Compiler Collection (base package)
+ii   gcc-15-base                  15.2.0-3                     amd64  GCC, the GNU Compiler Collection (base package)
 ii   git                          1:2.51.0-1                   amd64  fast, scalable, distributed revision control system
 ii   git-man                      1:2.51.0-1                   all    fast, scalable, distributed revision control system (manual pages)
 ii   grep                         3.11-4                       amd64  GNU grep, egrep and fgrep
@@ -120,10 +120,10 @@ ii   libexpat1                    2.7.1-2                      amd64  XML parsin
 ii   libfastjson4                 1.2304.0-2                   amd64  fast json library for C
 ii   libffi8                      3.4.8-2                      amd64  Foreign Function Interface library runtime
 ii   libfido2-1                   1.16.0-2                     amd64  library for generating and verifying FIDO 2.0 objects
-ii   libgcc-s1                    15.2.0-2                     amd64  GCC support library
+ii   libgcc-s1                    15.2.0-3                     amd64  GCC support library
 ii   libgdbm-compat4t64           1.26-1                       amd64  GNU dbm database routines (legacy support runtime version) 
 ii   libgdbm6t64                  1.26-1                       amd64  GNU dbm database routines (runtime version) 
-ii   libgmp10                     2:6.3.0+dfsg-4               amd64  Multiprecision arithmetic library
+ii   libgmp10                     2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.10-2                     amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii   libhogweed6t64               3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
@@ -136,7 +136,7 @@ ii   liblastlog2-2                2.41.1-2                     amd64  lastlog2 d
 ii   libldap2                     2.6.10+dfsg-1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                      amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.8.1-1                      amd64  XZ-format compression library
+ii   liblzma5                     5.8.1-1.1                    amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.1-2                     amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-2               amd64  shared libraries for terminal handling (wide character support)
@@ -170,7 +170,7 @@ ii   libsmartcols1                2.41.1-2                     amd64  smart colu
 ii   libsqlite3-0                 3.46.1-7                     amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                     amd64  SSH2 client-side library
 ii   libssl3t64                   3.5.2-1                      amd64  Secure Sockets Layer toolkit - shared libraries
-ii   libstdc++6                   15.2.0-2                     amd64  GNU Standard C++ Library v3
+ii   libstdc++6                   15.2.0-3                     amd64  GNU Standard C++ Library v3
 ii   libsystemd0                  258~rc3-1                    amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                   amd64  get display widths of characters on the terminal
@@ -183,7 +183,7 @@ ii   libuuid1                     2.41.1-2                     amd64  Universall
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.73.0-3                     amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                     1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-12                      all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.1-2    amd64  system login tools
@@ -229,5 +229,5 @@ ii   whiptail                     0.52.25-1                    amd64  Displays u
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ii   zsh                          5.9-8+b14                    amd64  shell with lots of features
 ii   zsh-common                   5.9-8                        all    architecture independent files for Zsh
-ii   zstd                         1.5.7+dfsg-1                 amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm -- CLI tool
 ```
