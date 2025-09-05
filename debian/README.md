@@ -52,11 +52,11 @@ ii   libcrypt1                1:4.4.38-1                   amd64  libcrypt share
 ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0        0.280                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                15.2.0-3                     amd64  GCC support library
-ii   libgmp10                 2:6.3.0+dfsg-4               amd64  Multiprecision arithmetic library
+ii   libgmp10                 2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
 ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblastlog2-2            2.41.1-2                     amd64  lastlog2 database shared library
 ii   liblz4-1                 1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                 5.8.1-1                      amd64  XZ-format compression library
+ii   liblzma5                 5.8.1-1.1                    amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.41.1-2                     amd64  device mounting library
 ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
@@ -74,12 +74,12 @@ ii   libsmartcols1            2.41.1-2                     amd64  smart column o
 ii   libsqlite3-0             3.46.1-7                     amd64  SQLite 3 shared library
 ii   libssl3t64               3.5.2-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6               15.2.0-3                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0              258~rc3-1                    amd64  systemd utility library
+ii   libsystemd0              258~rc4-1                    amd64  systemd utility library
 ii   libtinfo6                6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
-ii   libudev1                 258~rc3-1                    amd64  libudev shared library
+ii   libudev1                 258~rc4-1                    amd64  libudev shared library
 ii   libuuid1                 2.41.1-2                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                 1.5.7+dfsg-1                 amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.41.1-2    amd64  system login tools
 ii   login.defs               1:4.18.0-1                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
