@@ -73,7 +73,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "12.4+deb12u11",
+    "Version": "12.4+deb12u12",
     "binary:Package": "base-files",
     "binary:Summary": "Debian base system miscellaneous files",
     "db:Status-Abbrev": "ii ",
@@ -81,7 +81,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "base-files",
-    "source:Version": "12.4+deb12u11"
+    "source:Version": "12.4+deb12u12"
   },
   {
     "Architecture": "amd64",
@@ -129,7 +129,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "bash-doc",
-    "Version": "5.2.15-2+b8",
+    "Version": "5.2.15-2+b9",
     "binary:Package": "bash",
     "binary:Summary": "GNU Bourne Again SHell",
     "db:Status-Abbrev": "ii ",
@@ -230,7 +230,7 @@
     "Depends": "openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0",
     "Enhances": "openssl",
     "Essential": "no",
-    "Installed-Size": "384",
+    "Installed-Size": "387",
     "Origin": "",
     "Package": "ca-certificates",
     "Pre-Depends": "",
@@ -241,7 +241,7 @@
     "Section": "misc",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "20230311",
+    "Version": "20230311+deb12u1",
     "binary:Package": "ca-certificates",
     "binary:Summary": "Common CA certificates",
     "db:Status-Abbrev": "ii ",
@@ -249,7 +249,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ca-certificates",
-    "source:Version": "20230311"
+    "source:Version": "20230311+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u12), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl4 (= 7.88.1-10+deb12u14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "489",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u12",
+    "Version": "7.88.1-10+deb12u14",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u12"
+    "source:Version": "7.88.1-10+deb12u14"
   },
   {
     "Architecture": "amd64",
@@ -538,10 +538,10 @@
     "Depends": "logsave",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1496",
+    "Installed-Size": "1497",
     "Origin": "",
     "Package": "e2fsprogs",
-    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.47.0-2), libss2 (>= 1.38), libuuid1 (>= 2.16)",
+    "Pre-Depends": "libblkid1 (>= 2.36), libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.47.0-2+b2), libss2 (>= 1.38), libuuid1 (>= 2.16)",
     "Priority": "required",
     "Provides": "",
     "Recommends": "e2fsprogs-l10n",
@@ -549,7 +549,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "gpart, parted, fuse2fs, e2fsck-static",
-    "Version": "1.47.0-2",
+    "Version": "1.47.0-2+b2",
     "binary:Package": "e2fsprogs",
     "binary:Summary": "ext2/ext3/ext4 file system utilities",
     "db:Status-Abbrev": "ii ",
@@ -717,7 +717,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "gnupg",
-    "Version": "2.2.40-1.1",
+    "Version": "2.2.40-1.1+deb12u1",
     "binary:Package": "gpgv",
     "binary:Summary": "GNU privacy guard - signature verification tool",
     "db:Status-Abbrev": "ii ",
@@ -725,7 +725,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "gnupg2",
-    "source:Version": "2.2.40-1.1"
+    "source:Version": "2.2.40-1.1+deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -846,7 +846,7 @@
     "Depends": "usrmerge | usr-is-merged",
     "Enhances": "",
     "Essential": "yes",
-    "Installed-Size": "140",
+    "Installed-Size": "133",
     "Origin": "",
     "Package": "init-system-helpers",
     "Pre-Depends": "",
@@ -857,7 +857,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.65.2",
+    "Version": "1.65.2+deb12u1",
     "binary:Package": "init-system-helpers",
     "binary:Summary": "helper tools for all init systems",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "init-system-helpers",
-    "source:Version": "1.65.2"
+    "source:Version": "1.65.2+deb12u1"
   },
   {
     "Architecture": "all",
@@ -1193,7 +1193,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36-9+deb12u10",
+    "Version": "2.36-9+deb12u13",
     "binary:Package": "libc-bin",
     "binary:Summary": "GNU C Library: Binaries",
     "db:Status-Abbrev": "ii ",
@@ -1201,7 +1201,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u10"
+    "source:Version": "2.36-9+deb12u13"
   },
   {
     "Architecture": "all",
@@ -1221,7 +1221,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36-9+deb12u10",
+    "Version": "2.36-9+deb12u13",
     "binary:Package": "libc-l10n",
     "binary:Summary": "GNU C Library: localization files",
     "db:Status-Abbrev": "ii ",
@@ -1229,7 +1229,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u10"
+    "source:Version": "2.36-9+deb12u13"
   },
   {
     "Architecture": "amd64",
@@ -1238,7 +1238,7 @@
     "Depends": "libgcc-s1",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "12996",
+    "Installed-Size": "13000",
     "Origin": "",
     "Package": "libc6",
     "Pre-Depends": "",
@@ -1249,7 +1249,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "glibc-doc, debconf | debconf-2.0, libc-l10n, locales, libnss-nis, libnss-nisplus",
-    "Version": "2.36-9+deb12u10",
+    "Version": "2.36-9+deb12u13",
     "binary:Package": "libc6:amd64",
     "binary:Summary": "GNU C Library: Shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -1257,7 +1257,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u10"
+    "source:Version": "2.36-9+deb12u13"
   },
   {
     "Architecture": "amd64",
@@ -1305,7 +1305,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:2.66-4+deb12u1",
+    "Version": "1:2.66-4+deb12u2",
     "binary:Package": "libcap2:amd64",
     "binary:Summary": "POSIX 1003.1e capabilities (library)",
     "db:Status-Abbrev": "ii ",
@@ -1313,7 +1313,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libcap2",
-    "source:Version": "1:2.66-4+deb12u1"
+    "source:Version": "1:2.66-4+deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -1350,18 +1350,18 @@
     "Depends": "libc6 (>= 2.17)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "54",
+    "Installed-Size": "55",
     "Origin": "",
     "Package": "libcom-err2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcomerr2 (= 1.47.0-2)",
+    "Provides": "libcomerr2 (= 1.47.0-2+b2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.0-2",
+    "Version": "1.47.0-2+b2",
     "binary:Package": "libcom-err2:amd64",
     "binary:Summary": "common error description library",
     "db:Status-Abbrev": "ii ",
@@ -1417,7 +1417,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u12",
+    "Version": "7.88.1-10+deb12u14",
     "binary:Package": "libcurl3-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u12"
+    "source:Version": "7.88.1-10+deb12u14"
   },
   {
     "Architecture": "amd64",
@@ -1445,7 +1445,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "7.88.1-10+deb12u12",
+    "Version": "7.88.1-10+deb12u14",
     "binary:Package": "libcurl4:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1453,7 +1453,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "7.88.1-10+deb12u12"
+    "source:Version": "7.88.1-10+deb12u14"
   },
   {
     "Architecture": "amd64",
@@ -1602,7 +1602,7 @@
     "Depends": "libc6 (>= 2.36)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "387",
+    "Installed-Size": "388",
     "Origin": "",
     "Package": "libexpat1",
     "Pre-Depends": "",
@@ -1613,7 +1613,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.5.0-1+deb12u1",
+    "Version": "2.5.0-1+deb12u2",
     "binary:Package": "libexpat1:amd64",
     "binary:Summary": "XML parsing C library - runtime library",
     "db:Status-Abbrev": "ii ",
@@ -1621,7 +1621,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "expat",
-    "source:Version": "2.5.0-1+deb12u1"
+    "source:Version": "2.5.0-1+deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -1630,18 +1630,18 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "534",
+    "Installed-Size": "535",
     "Origin": "",
     "Package": "libext2fs2",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "e2fslibs (= 1.47.0-2)",
+    "Provides": "e2fslibs (= 1.47.0-2+b2)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.0-2",
+    "Version": "1.47.0-2+b2",
     "binary:Package": "libext2fs2:amd64",
     "binary:Summary": "ext2/ext3/ext4 file system libraries",
     "db:Status-Abbrev": "ii ",
@@ -1935,7 +1935,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "moonshot-gss-eap (<= 1.0)",
-    "Depends": "libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkrb5-3 (= 1.20.1-2+deb12u3), libkrb5support0 (>= 1.15~beta1)",
+    "Depends": "libc6 (>= 2.33), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkrb5-3 (= 1.20.1-2+deb12u4), libkrb5support0 (>= 1.15~beta1)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "425",
@@ -1949,7 +1949,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-2+deb12u3",
+    "Version": "1.20.1-2+deb12u4",
     "binary:Package": "libgssapi-krb5-2:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
     "db:Status-Abbrev": "ii ",
@@ -1957,7 +1957,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-2+deb12u3"
+    "source:Version": "1.20.1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
@@ -2033,7 +2033,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-2+deb12u3",
+    "Version": "1.20.1-2+deb12u4",
     "binary:Package": "libk5crypto3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Crypto Library",
     "db:Status-Abbrev": "ii ",
@@ -2041,7 +2041,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-2+deb12u3"
+    "source:Version": "1.20.1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
@@ -2075,7 +2075,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libapache2-mod-auth-kerb (<= 5.4-2.4), libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)",
-    "Depends": "libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.20.1-2+deb12u3), libssl3 (>= 3.0.0)",
+    "Depends": "libc6 (>= 2.34), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.20), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.20.1-2+deb12u4), libssl3 (>= 3.0.0)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1077",
@@ -2089,7 +2089,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "krb5-doc, krb5-user",
-    "Version": "1.20.1-2+deb12u3",
+    "Version": "1.20.1-2+deb12u4",
     "binary:Package": "libkrb5-3:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries",
     "db:Status-Abbrev": "ii ",
@@ -2097,7 +2097,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-2+deb12u3"
+    "source:Version": "1.20.1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
@@ -2117,7 +2117,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.20.1-2+deb12u3",
+    "Version": "1.20.1-2+deb12u4",
     "binary:Package": "libkrb5support0:amd64",
     "binary:Summary": "MIT Kerberos runtime libraries - Support library",
     "db:Status-Abbrev": "ii ",
@@ -2125,7 +2125,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "krb5",
-    "source:Version": "1.20.1-2+deb12u3"
+    "source:Version": "1.20.1-2+deb12u4"
   },
   {
     "Architecture": "amd64",
@@ -2607,10 +2607,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libfilter-perl (<< 1.60), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401)",
-    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-7+deb12u2)",
+    "Depends": "libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-7+deb12u3)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "28863",
+    "Installed-Size": "28864",
     "Origin": "",
     "Package": "libperl5.36",
     "Pre-Depends": "",
@@ -2621,7 +2621,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "sensible-utils",
-    "Version": "5.36.0-7+deb12u2",
+    "Version": "5.36.0-7+deb12u3",
     "binary:Package": "libperl5.36:amd64",
     "binary:Summary": "shared Perl library",
     "db:Status-Abbrev": "ii ",
@@ -2629,7 +2629,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7+deb12u2"
+    "source:Version": "5.36.0-7+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -3030,7 +3030,7 @@
     "Depends": "libcom-err2, libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "70",
+    "Installed-Size": "71",
     "Origin": "",
     "Package": "libss2",
     "Pre-Depends": "",
@@ -3041,7 +3041,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.0-2",
+    "Version": "1.47.0-2+b2",
     "binary:Package": "libss2:amd64",
     "binary:Summary": "command-line interface parsing library",
     "db:Status-Abbrev": "ii ",
@@ -3097,7 +3097,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0.16-1~deb12u1",
+    "Version": "3.0.17-1~deb12u2",
     "binary:Package": "libssl3:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3105,7 +3105,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.16-1~deb12u1"
+    "source:Version": "3.0.17-1~deb12u2"
   },
   {
     "Architecture": "amd64",
@@ -3153,7 +3153,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.38-1~deb12u1",
+    "Version": "252.39-1~deb12u1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3161,7 +3161,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.38-1~deb12u1"
+    "source:Version": "252.39-1~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -3321,7 +3321,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "252.38-1~deb12u1",
+    "Version": "252.39-1~deb12u1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3329,7 +3329,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "252.38-1~deb12u1"
+    "source:Version": "252.39-1~deb12u1"
   },
   {
     "Architecture": "amd64",
@@ -3517,7 +3517,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2.36-9+deb12u10",
+    "Version": "2.36-9+deb12u13",
     "binary:Package": "locales",
     "binary:Summary": "GNU C Library: National Language (locale) data [support]",
     "db:Status-Abbrev": "ii ",
@@ -3525,7 +3525,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "glibc",
-    "source:Version": "2.36-9+deb12u10"
+    "source:Version": "2.36-9+deb12u13"
   },
   {
     "Architecture": "amd64",
@@ -3562,7 +3562,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "49",
+    "Installed-Size": "50",
     "Origin": "",
     "Package": "logsave",
     "Pre-Depends": "",
@@ -3573,7 +3573,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.47.0-2",
+    "Version": "1.47.0-2+b2",
     "binary:Package": "logsave",
     "binary:Summary": "save the output of a command in a log file",
     "db:Status-Abbrev": "ii ",
@@ -3783,7 +3783,7 @@
     "Architecture": "amd64",
     "Conflicts": "sftp",
     "Breaks": "openssh-sk-helper",
-    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.16), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, passwd, libc6 (>= 2.36), libedit2 (>= 2.11-20080614-0), libfido2-1 (>= 1.8.0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 3.1~), libssl3 (>= 3.0.17), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "5792",
@@ -3797,7 +3797,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "keychain, libpam-ssh, monkeysphere, ssh-askpass",
-    "Version": "1:9.2p1-2+deb12u6",
+    "Version": "1:9.2p1-2+deb12u7",
     "binary:Package": "openssh-client",
     "binary:Summary": "secure shell (SSH) client, for secure access to remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3805,13 +3805,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u6"
+    "source:Version": "1:9.2p1-2+deb12u7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "sftp, ssh-socks, ssh2",
     "Breaks": "runit (<< 2.1.2-51~)",
-    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.2p1-2+deb12u6), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.16), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
+    "Depends": "adduser, libpam-modules, libpam-runtime, lsb-base, openssh-client (= 1:9.2p1-2+deb12u7), openssh-sftp-server, procps, ucf, debconf (>= 0.5) | debconf-2.0, runit-helper (>= 2.14.0~), libaudit1 (>= 1:2.2.1), libc6 (>= 2.36), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libssl3 (>= 3.0.17), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "1930",
@@ -3825,7 +3825,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "molly-guard, monkeysphere, ssh-askpass, ufw",
-    "Version": "1:9.2p1-2+deb12u6",
+    "Version": "1:9.2p1-2+deb12u7",
     "binary:Package": "openssh-server",
     "binary:Summary": "secure shell (SSH) server, for secure access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3833,13 +3833,13 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u6"
+    "source:Version": "1:9.2p1-2+deb12u7"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "openssh-server (<< 1:6.5p1-5)",
-    "Depends": "openssh-client (= 1:9.2p1-2+deb12u6), libc6 (>= 2.34)",
+    "Depends": "openssh-client (= 1:9.2p1-2+deb12u7), libc6 (>= 2.34)",
     "Enhances": "openssh-server, ssh-server",
     "Essential": "no",
     "Installed-Size": "217",
@@ -3853,7 +3853,7 @@
     "Section": "net",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1:9.2p1-2+deb12u6",
+    "Version": "1:9.2p1-2+deb12u7",
     "binary:Package": "openssh-sftp-server",
     "binary:Summary": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
     "db:Status-Abbrev": "ii ",
@@ -3861,7 +3861,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssh",
-    "source:Version": "1:9.2p1-2+deb12u6"
+    "source:Version": "1:9.2p1-2+deb12u7"
   },
   {
     "Architecture": "amd64",
@@ -3870,7 +3870,7 @@
     "Depends": "libc6 (>= 2.34), libssl3 (>= 3.0.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2297",
+    "Installed-Size": "2303",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.0.16-1~deb12u1",
+    "Version": "3.0.17-1~deb12u2",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.0.16-1~deb12u1"
+    "source:Version": "3.0.17-1~deb12u2"
   },
   {
     "Architecture": "all",
@@ -3951,7 +3951,7 @@
     "Architecture": "amd64",
     "Conflicts": "libjson-pp-perl (<< 2.27200-2)",
     "Breaks": "apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.36.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)",
-    "Depends": "perl-base (= 5.36.0-7+deb12u2), perl-modules-5.36 (>= 5.36.0-7+deb12u2), libperl5.36 (= 5.36.0-7+deb12u2)",
+    "Depends": "perl-base (= 5.36.0-7+deb12u3), perl-modules-5.36 (>= 5.36.0-7+deb12u3), libperl5.36 (= 5.36.0-7+deb12u3)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "670",
@@ -3965,7 +3965,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl",
-    "Version": "5.36.0-7+deb12u2",
+    "Version": "5.36.0-7+deb12u3",
     "binary:Package": "perl",
     "binary:Summary": "Larry Wall's Practical Extraction and Report Language",
     "db:Status-Abbrev": "ii ",
@@ -3973,7 +3973,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7+deb12u2"
+    "source:Version": "5.36.0-7+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -3993,7 +3993,7 @@
     "Section": "perl",
     "Status": "install ok installed",
     "Suggests": "perl, sensible-utils",
-    "Version": "5.36.0-7+deb12u2",
+    "Version": "5.36.0-7+deb12u3",
     "binary:Package": "perl-base",
     "binary:Summary": "minimal Perl system",
     "db:Status-Abbrev": "ii ",
@@ -4001,7 +4001,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7+deb12u2"
+    "source:Version": "5.36.0-7+deb12u3"
   },
   {
     "Architecture": "all",
@@ -4021,7 +4021,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "5.36.0-7+deb12u2",
+    "Version": "5.36.0-7+deb12u3",
     "binary:Package": "perl-modules-5.36",
     "binary:Summary": "Core Perl modules",
     "db:Status-Abbrev": "ii ",
@@ -4029,7 +4029,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "perl",
-    "source:Version": "5.36.0-7+deb12u2"
+    "source:Version": "5.36.0-7+deb12u3"
   },
   {
     "Architecture": "amd64",
@@ -4374,7 +4374,7 @@
     "Depends": "debconf (>= 0.5) | debconf-2.0",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2563",
+    "Installed-Size": "2565",
     "Origin": "",
     "Package": "tzdata",
     "Pre-Depends": "",
@@ -4385,7 +4385,7 @@
     "Section": "localization",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "2025b-0+deb12u1",
+    "Version": "2025b-0+deb12u2",
     "binary:Package": "tzdata",
     "binary:Summary": "time zone and daylight-saving time data",
     "db:Status-Abbrev": "ii ",
@@ -4393,7 +4393,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "tzdata",
-    "source:Version": "2025b-0+deb12u1"
+    "source:Version": "2025b-0+deb12u2"
   },
   {
     "Architecture": "all",
@@ -4665,7 +4665,7 @@
     "Section": "shells",
     "Status": "install ok installed",
     "Suggests": "zsh-doc",
-    "Version": "5.9-4+b6",
+    "Version": "5.9-4+b7",
     "binary:Package": "zsh",
     "binary:Summary": "shell with lots of features",
     "db:Status-Abbrev": "ii ",
