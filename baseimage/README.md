@@ -95,8 +95,8 @@ ii   libacl1                      2.3.2-2+b1                   amd64  access con
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.5                        amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
-ii   libaudit-common              1:4.0.5-1                    all    Dynamic library for security auditing - common files
-ii   libaudit1                    1:4.0.5-1                    amd64  Dynamic library for security auditing
+ii   libaudit-common              1:4.1.1-1                    all    Dynamic library for security auditing - common files
+ii   libaudit1                    1:4.1.1-1                    amd64  Dynamic library for security auditing
 ii   libblkid1                    2.41.1-2                     amd64  block device ID library
 ii   libbrotli1                   1.1.0-2+b7                   amd64  library implementing brotli encoder and decoder (shared libraries)
 ii   libbsd0                      0.12.2-2                     amd64  utility functions from BSD systems - shared library
