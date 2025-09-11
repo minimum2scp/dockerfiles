@@ -339,7 +339,7 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libcurl4t64 (= 8.16.0~rc3-1), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.34), libcurl4t64 (= 8.16.0-1), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "510",
@@ -353,7 +353,7 @@
     "Section": "web",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.16.0~rc3-1",
+    "Version": "8.16.0-1",
     "binary:Package": "curl",
     "binary:Summary": "command line tool for transferring data with URL syntax",
     "db:Status-Abbrev": "ii ",
@@ -361,7 +361,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.16.0~rc3-1"
+    "source:Version": "8.16.0-1"
   },
   {
     "Architecture": "amd64",
@@ -1374,7 +1374,7 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libcurl3-gnutls (<< 8.16.0~rc3-1)",
+    "Breaks": "libcurl3-gnutls (<< 8.16.0-1)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgnutls30t64 (>= 3.8.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnettle8t64, libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libngtcp2-16 (>= 1.1.0), libngtcp2-crypto-gnutls8 (>= 1.1.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1383,13 +1383,13 @@
     "Package": "libcurl3t64-gnutls",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl3-gnutls (= 8.16.0~rc3-1)",
+    "Provides": "libcurl3-gnutls (= 8.16.0-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.16.0~rc3-1",
+    "Version": "8.16.0-1",
     "binary:Package": "libcurl3t64-gnutls:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1397,12 +1397,12 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.16.0~rc3-1"
+    "source:Version": "8.16.0-1"
   },
   {
     "Architecture": "amd64",
     "Conflicts": "libcurl3",
-    "Breaks": "libcurl4 (<< 8.16.0~rc3-1)",
+    "Breaks": "libcurl4 (<< 8.16.0-1)",
     "Depends": "libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 2.0.0), libldap2 (>= 2.6.2), libnghttp2-14 (>= 1.50.0), libnghttp3-9 (>= 0.15.0), libpsl5t64 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1t64 (>= 1.11.1), libssl3t64 (>= 3.3.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.3.4)",
     "Enhances": "",
     "Essential": "no",
@@ -1411,13 +1411,13 @@
     "Package": "libcurl4t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libcurl4 (= 8.16.0~rc3-1)",
+    "Provides": "libcurl4 (= 8.16.0-1)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "8.16.0~rc3-1",
+    "Version": "8.16.0-1",
     "binary:Package": "libcurl4t64:amd64",
     "binary:Summary": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
     "db:Status-Abbrev": "ii ",
@@ -1425,7 +1425,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "curl",
-    "source:Version": "8.16.0~rc3-1"
+    "source:Version": "8.16.0-1"
   },
   {
     "Architecture": "amd64",
@@ -2358,7 +2358,7 @@
     "Depends": "libc6 (>= 2.25)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "327",
+    "Installed-Size": "381",
     "Origin": "",
     "Package": "libngtcp2-16",
     "Pre-Depends": "",
@@ -2369,7 +2369,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.11.0-1",
+    "Version": "1.15.1-1",
     "binary:Package": "libngtcp2-16:amd64",
     "binary:Summary": "implementation of QUIC protocol (library)",
     "db:Status-Abbrev": "ii ",
@@ -2377,7 +2377,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.11.0-1"
+    "source:Version": "1.15.1-1"
   },
   {
     "Architecture": "amd64",
@@ -2386,7 +2386,7 @@
     "Depends": "libc6 (>= 2.14), libgnutls30t64 (>= 3.8.2), libngtcp2-16 (>= 1.1.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "80",
+    "Installed-Size": "78",
     "Origin": "",
     "Package": "libngtcp2-crypto-gnutls8",
     "Pre-Depends": "",
@@ -2397,7 +2397,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.11.0-1",
+    "Version": "1.15.1-1",
     "binary:Package": "libngtcp2-crypto-gnutls8:amd64",
     "binary:Summary": "implementation of QUIC protocol (library)",
     "db:Status-Abbrev": "ii ",
@@ -2405,7 +2405,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "ngtcp2",
-    "source:Version": "1.11.0-1"
+    "source:Version": "1.15.1-1"
   },
   {
     "Architecture": "amd64",
