@@ -14,11 +14,17 @@ describe 'minimum2scp/systemd' do
     end
 
     %w[
-      systemd dbus less
+      systemd systemd-sysv dbus less
     ].each do |pkg|
       describe package(pkg) do
         it { should be_installed }
       end
+    end
+
+    describe command("systemctl status init.scope") do
+      its(:stdout){ should include "Active: active (running)" }
+      its(:stderr){ should eq "" }
+      its(:exit_status){ should eq 0 }
     end
   end
 end

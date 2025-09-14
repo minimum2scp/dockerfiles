@@ -4,7 +4,8 @@ set -e
 set -x
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get install --no-install-recommends -y systemd dbus less
+apt-get remove --purge -y --allow-remove-essential sysvinit-core
+apt-get install --no-install-recommends -y systemd systemd-sysv dbus less
 
 ## use less for systemctl, journalctl
 echo '#export SYSTEMD_EDITOR='     >  /etc/profile.d/systemd-vars.sh
