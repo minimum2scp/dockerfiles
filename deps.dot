@@ -24,12 +24,14 @@ digraph deps {
   norikra            [label = "minimum2scp/norikra"];
   rails7             [label = "minimum2scp/rails7"];
   ruby               [label = "minimum2scp/ruby"];
+  ruby_trixie        [label = "minimum2scp/ruby-trixie"];
   ruby_bookworm      [label = "minimum2scp/ruby-bookworm"];
   ruby_bullseye      [label = "minimum2scp/ruby-bullseye"];
   ruby_buster        [label = "minimum2scp/ruby-buster"];
   ruby_full          [label = "minimum2scp/ruby-full"];
   squid              [label = "minimum2scp/squid"];
   systemd            [label = "minimum2scp/systemd"];
+  systemd_trixie     [label = "minimum2scp/systemd-trixie"];
   systemd_bookworm   [label = "minimum2scp/systemd-bookworm"];
   systemd_bullseye   [label = "minimum2scp/systemd-bullseye"];
   systemd_buster     [label = "minimum2scp/systemd-buster"];
@@ -40,6 +42,7 @@ digraph deps {
   ruby      -> {norikra, rails7, ruby_full, tdiary};
 
   debian_trixie   -> baseimage_trixie;
+  baseimage_bookworm -> {ruby_trixie, systemd_trixie};
 
   debian_bookworm -> baseimage_bookworm;
   baseimage_bookworm -> {ruby_bookworm, systemd_bookworm};
