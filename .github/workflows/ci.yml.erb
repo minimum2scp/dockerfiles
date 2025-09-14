@@ -31,6 +31,7 @@ images = {
   'debian-trixie':       default_conf.merge(build_image: false, push_image: false),
   'baseimage-trixie':    default_conf.merge(save_artifact: true),
   'ruby-trixie':         default_conf.merge(parent: 'baseimage-trixie'),
+  'systemd-trixie':      default_conf.merge(parent: 'baseimage-trixie'),
 
   'debian-bookworm':     default_conf.merge(build_image: false, push_image: false),
   'baseimage-bookworm':  default_conf.merge(save_artifact: true),
