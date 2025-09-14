@@ -1,0 +1,100 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## packages
+##
+packages="sudo adduser curl ca-certificates openssl git lv vim-tiny man-db whiptail zsh net-tools unzip bzip2 zstd"
+packages="$packages etckeeper"
+packages="$packages locales tzdata"
+packages="$packages localepurge"
+packages="$packages sysvinit-core systemd-sysv- systemd-"
+packages="$packages openssh-server rsyslog cron orphan-sysvinit-scripts"
+packages="$packages tree"
+
+##
+## install packages
+##
+apt-get install -y --no-install-recommends --auto-remove --purge ${packages}
+
+##
+## configure etckeeper
+##
+git config --global user.email "root@`hostname`"
+git config --global user.name "root"
+sed -i -e 's@^GIT_COMMIT_OPTIONS=""$@GIT_COMMIT_OPTIONS="-v"@' /etc/etckeeper/etckeeper.conf
+etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
+
+##
+## configure locales
+##
+if [ -f /etc/default/locale ]; then
+  echo "LANG=C"              >> /etc/default/locale
+fi
+if [ -f /etc/locale.gen ]; then
+  sed -i -e 's@^# \(en_US.UTF-8 UTF-8\)@\1@' /etc/locale.gen
+  sed -i -e 's@^# \(ja_JP.UTF-8 UTF-8\)@\1@' /etc/locale.gen
+  locale-gen
+else
+  echo "en_US.UTF-8 UTF-8"    > /etc/locale.gen
+  echo "ja_JP.UTF-8 UTF-8"   >> /etc/locale.gen
+  locale-gen
+fi
+etckeeper commit "set locale"
+
+##
+## configure localepurge and remove locales
+##
+install -m 644 -o root -g root -p /tmp/build/baseimage-trixie/etc/locale.nopurge /etc/locale.nopurge
+sed -i -e 's/^USE_DPKG/# USE_DPKG/' /etc/locale.nopurge
+localepurge
+sed -i -e 's/^# USE_DPKG/USE_DPKG/' /etc/locale.nopurge
+etckeeper commit "localepurge: purge locales other than en and ja"
+
+##
+## configure timezone
+##
+echo "Asia/Tokyo" > /etc/timezone
+# workaround: see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=813226
+[ -L /etc/localtime ] && rm /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata
+etckeeper commit "set timezone"
+
+##
+## do not run rc.S
+##
+sed -i -e 's@^\(si::sysinit:/etc/init.d/rcS\)@#\1@' /etc/inittab
+etckeeper commit "inittab: disabled rcS"
+
+##
+## disable tty
+##
+sed -i -e 's@^\(1:2345:respawn:/sbin/getty --noclear 38400 tty1\)@#\1@' /etc/inittab
+sed -i -e 's@^\([2-6]:23:respawn:/sbin/getty 38400 tty[2-6]\)$@#\1@'    /etc/inittab
+etckeeper commit "inittab: disabled tty1-7"
+
+##
+## sudo configuration
+##
+sed -i -e 's/^%sudo/#%sudo/' /etc/sudoers
+cat <<EOS >>/etc/sudoers.d/local
+%sudo ALL=(ALL:ALL) NOPASSWD: ALL
+EOS
+chmod 440 /etc/sudoers.d/local
+etckeeper commit "sudo: allow sudo group without asking password"
+
+##
+## setup user (username: debian, password: debian)
+##
+addgroup --gid 2000 debian
+adduser --disabled-password --quiet --gecos 'default user' --shell /bin/bash --uid 2000 --ingroup debian debian
+adduser debian sudo
+adduser debian adm
+## NOTE: To encrypt password, use chpasswd -e option.
+##   openssl passwd command creates encpryted password: "echo 'plainpassword' | openssl passwd -1 -stdin
+echo 'debian:debian' | chpasswd
+etckeeper commit "adduser debian"
+

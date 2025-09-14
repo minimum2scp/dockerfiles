@@ -1,0 +1,96 @@
+#! /bin/sh
+
+## environment variables
+##
+##   - APT_LINE                : "keep", "jp", "http://foobar.example.org/debian/"
+##   - APT_UPDATE              : "yes", "true", "on", 1 -> run apt-get update after init
+##   - APT_INSTALL_PACKAGES    : "pkg1 pkg2=1.2-3 pkg3- ..."
+##   - APT_INSTALL_RECOMMENDS  : "yes", "true", "on", 1
+##   - APT_INSTALL_SUGGESTS    : "yes", "true", "on", 1
+##   - APT_HTTP_PROXY          : "http://x.x.x.x:3142/"
+##
+
+set -e
+post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
+
+if [ -z "${APT_LINE}" ]; then
+  APT_LINE=keep
+fi
+
+change_apt_line (){
+  uri=$1
+  sed -i -e "s@http://deb\.debian\.org/debian/@${uri}@" /etc/apt/sources.list
+  if etckeeper unclean; then
+    etckeeper commit "apt: use ${uri} (changed by $0)" 1>/dev/null 2>/dev/null
+  fi
+}
+
+clear_post_init (){
+  if [ -f ${post_init_script} ]; then
+    : > ${post_init_script}
+  fi
+}
+
+write_post_init (){
+  echo "#! /bin/sh"     >  ${post_init_script}
+
+  case "${APT_UPDATE}" in
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      echo "apt-get update";;
+    *)
+      echo "#apt-get update";;
+  esac \
+  >> ${post_init_script}
+
+  options=
+  case "${APT_INSTALL_RECOMMENDS}" in
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-recommends";;
+    *)
+      options="$options --no-install-recommends";;
+  esac
+  case "${APT_INSTALL_SUGGESTS}" in
+    1|[tT][rR][uU][eE]|[yY][eE][sS]|[oO][nN])
+      options="$options --install-suggests";;
+    *)
+      options="$options --no-install-suggests";;
+  esac
+  if [ -n "${APT_INSTALL_PACKAGES}" ]; then
+    echo "apt-get install -y ${options} ${APT_INSTALL_PACKAGES}"
+  else
+    echo "#apt-get install -y ${options} ${APT_INSTALL_PACKAGES}"
+  fi \
+  >> ${post_init_script}
+
+  echo "exit 0" \
+  >> ${post_init_script}
+
+  chmod +x ${post_init_script}
+}
+
+if [ -n "${APT_LINE}" ]; then
+  case "${APT_LINE}" in
+  keep)
+    # do nothing (use deb.debian.org)
+    :
+    ;;
+  jp)
+    change_apt_line http://ftp.jp.debian.org/debian/
+    ;;
+  *)
+    change_apt_line "${APT_LINE}"
+    ;;
+  esac
+fi
+
+if [ -n "${APT_HTTP_PROXY}" ]; then
+  echo "Acquire::http::proxy \"${APT_HTTP_PROXY}\";" >  /etc/apt/apt.conf.d/proxy.conf
+  echo "Acquire::https::proxy \"DIRECT\";"           >> /etc/apt/apt.conf.d/proxy.conf
+  if etckeeper unclean; then
+    etckeeper commit "apt: use ${APT_HTTP_PROXY} as http proxy (changed by $0)" 1>/dev/null 2>/dev/null
+  fi
+fi
+
+clear_post_init
+write_post_init
+
