@@ -28,6 +28,8 @@ images = {
   rails7:      default_conf.merge(parent: 'ruby'),
   tdiary:      default_conf.merge(parent: 'ruby'),
 
+  'debian-trixie':       default_conf.merge(build_image: false, push_image: false),
+
   'debian-bookworm':     default_conf.merge(build_image: false, push_image: false),
   'baseimage-bookworm':  default_conf.merge(save_artifact: true),
   'ruby-bookworm':       default_conf.merge(parent: 'baseimage-bookworm'),
