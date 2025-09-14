@@ -60,7 +60,7 @@ debian      89    83  0 01:52 pts/0    R+     0:00              \_ ps -ef fww
 installed packages:
 
 ```
-ii   adduser                      3.152                        all    add and remove users and groups
+ii   adduser                      3.153                        all    add and remove users and groups
 ii   apt                          3.1.5                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
