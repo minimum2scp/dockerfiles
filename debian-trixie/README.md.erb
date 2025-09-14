@@ -1,0 +1,26 @@
+# about minimum2scp/debian-trixie image
+
+ * Debian trixie (13.x) amd64
+ * Almost same as debian:trixie image ([semi official debian image](https://registry.hub.docker.com/_/debian/))
+
+## build minimum2scp/debian-trixie image
+
+Run following commands on your Debian (requires debootstrap)
+
+```
+$ git clone https://github.com/minimum2scp/dockerfiles.git
+$ cd dockerfiles/debian-trixie
+$ rake mkimage TAG=minimum2scp/debian-trixie:latest
+```
+
+## packages
+
+installed packages:
+
+```
+<% fields = %w[db:Status-Abbrev Package Version Architecture binary:Summary] -%>
+<% width = Hash[fields[0..-2].map{|k| [k, packages.map{|pkg| pkg[k].size}.max] }] -%>
+<% packages.each do |package| -%>
+<%= fields.map{|k| "%<#{k}>-#{width[k]}s" }.join(" " * 2) % Hash[fields.map{|k| [k.to_sym, package[k]] }] %>
+<% end -%>
+```
