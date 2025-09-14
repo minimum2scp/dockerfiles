@@ -87,7 +87,7 @@ describe 'minimum2scp/ruby-bookworm' do
     end
 
     describe package('bundler') do
-      it { should be_installed.with_version('2.3.15-2') }
+      it { should be_installed.with_version('2.3.15-2+deb12u1') }
     end
   end
 end
