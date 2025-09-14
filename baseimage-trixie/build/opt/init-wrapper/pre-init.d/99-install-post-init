@@ -1,0 +1,7 @@
+#! /bin/sh
+
+echo "run-parts --exit-on-error /opt/init-wrapper/post-init.d" >> /etc/rc.local
+if dpkg-query -s etckeeper 1>/dev/null 2>/dev/null; then
+  etckeeper commit "rc.local: run /opt/init-wrapper/post-init.d/*" 1>/dev/null 2>/dev/null
+fi
+

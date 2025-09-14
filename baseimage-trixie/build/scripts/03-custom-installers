@@ -1,0 +1,8 @@
+#! /bin/sh
+
+set -e
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+cp -a /tmp/build/baseimage-trixie/opt/custom-installers /opt/custom-installers
+

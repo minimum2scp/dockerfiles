@@ -1,0 +1,31 @@
+#! /bin/sh
+
+## environment variables
+##
+##   - INSTALL_NGINX   : "yes"
+##
+
+set -e
+post_init_script=/opt/init-wrapper/post-init.d/${0##*/}
+
+clear_post_init (){
+  if [ -f ${post_init_script} ]; then
+    : > ${post_init_script}
+  fi
+}
+
+write_post_init (){
+  cat <<EOS > ${post_init_script}
+#!/bin/sh
+set -e
+/opt/custom-installers/nginx/install.sh
+EOS
+
+  chmod +x ${post_init_script}
+}
+
+if [ "${INSTALL_NGINX}" = yes ]; then
+  clear_post_init
+  write_post_init
+fi
+

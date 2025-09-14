@@ -386,6 +386,37 @@ jobs:
 
       # no need to push image
 
+  baseimage-trixie:
+    name: baseimage-trixie
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y --no-install-recommends pigz
+
+      # build image
+      - uses: actions/checkout@v5
+      - run: docker build -t minimum2scp/baseimage-trixie:latest baseimage-trixie
+
+      # setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+
+      # run test
+      - run: bundle exec rspec spec/baseimage-trixie
+
+      # save image as artifact
+      - run: docker save minimum2scp/baseimage-trixie:latest | pigz -c - > /tmp/baseimage-trixie.tar.gz
+      - uses: actions/upload-artifact@v4
+        with: { name: baseimage-trixie, path: /tmp/baseimage-trixie.tar.gz }
+
+      # push image to docker hub
+      - run: docker login -u minimum2scp -p ${{ secrets.DOCKERHUB_TOKEN }}
+        if: github.ref == 'refs/heads/master'
+      - run: docker push minimum2scp/baseimage-trixie:latest
+        if: github.ref == 'refs/heads/master'
+
   debian-bookworm:
     name: debian-bookworm
     runs-on: ubuntu-latest
