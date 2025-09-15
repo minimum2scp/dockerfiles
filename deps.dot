@@ -12,11 +12,9 @@ digraph deps {
   baseimage          [label = "minimum2scp/baseimage"];
   baseimage_trixie   [label = "minimum2scp/baseimage-trixie"];
   baseimage_bookworm [label = "minimum2scp/baseimage-bookworm"];
-  baseimage_bullseye [label = "minimum2scp/baseimage-bullseye"];
   debian             [label = "minimum2scp/debian"];
   debian_trixie      [label = "minimum2scp/debian-trixie"];
   debian_bookworm    [label = "minimum2scp/debian-bookworm"];
-  debian_bullseye    [label = "minimum2scp/debian-bullseye"];
   es_kibana          [label = "minimum2scp/es-kibana"];
   nodejs             [label = "minimum2scp/nodejs"];
   norikra            [label = "minimum2scp/norikra"];
@@ -24,13 +22,11 @@ digraph deps {
   ruby               [label = "minimum2scp/ruby"];
   ruby_trixie        [label = "minimum2scp/ruby-trixie"];
   ruby_bookworm      [label = "minimum2scp/ruby-bookworm"];
-  ruby_bullseye      [label = "minimum2scp/ruby-bullseye"];
   ruby_full          [label = "minimum2scp/ruby-full"];
   squid              [label = "minimum2scp/squid"];
   systemd            [label = "minimum2scp/systemd"];
   systemd_trixie     [label = "minimum2scp/systemd-trixie"];
   systemd_bookworm   [label = "minimum2scp/systemd-bookworm"];
-  systemd_bullseye   [label = "minimum2scp/systemd-bullseye"];
   tdiary             [label = "minimum2scp/tdiary"];
 
   debian    -> baseimage;
@@ -42,8 +38,5 @@ digraph deps {
 
   debian_bookworm -> baseimage_bookworm;
   baseimage_bookworm -> {ruby_bookworm, systemd_bookworm};
-
-  debian_bullseye -> baseimage_bullseye;
-  baseimage_bullseye -> {ruby_bullseye, systemd_bullseye};
 
 }
