@@ -90,7 +90,7 @@ ii   gzip                         1.13-1                       amd64  GNU compre
 ii   hostname                     3.25                         amd64  utility to set/show the host name or domain name
 ii   init-system-helpers          1.69                         all    helper tools for all init systems
 ii   initscripts                  3.14-4                       all    scripts for initializing and shutting down the system
-ii   insserv                      1.26.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
+ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
 ii   libapt-pkg7.0                3.1.5                        amd64  package management runtime library
@@ -211,7 +211,7 @@ ii   runit-helper                 2.16.4                       all    dh-runit i
 ii   sed                          4.9-2                        amd64  GNU stream editor for filtering/transforming text
 ii   sensible-utils               0.0.26                       all    Utilities for sensible alternative selection
 ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
-ii   startpar                     0.66-1                       amd64  run processes in parallel and multiplex their output
+ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
 ii   systemd-standalone-sysusers  258~rc4-1                    amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                       all    System-V-like runlevel change mechanism

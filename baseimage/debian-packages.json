@@ -846,7 +846,7 @@
     "Depends": "libc6 (>= 2.38)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "136",
+    "Installed-Size": "132",
     "Origin": "",
     "Package": "insserv",
     "Pre-Depends": "",
@@ -856,8 +856,8 @@
     "Replace": "",
     "Section": "misc",
     "Status": "install ok installed",
-    "Suggests": "bootchart2",
-    "Version": "1.26.0-1",
+    "Suggests": "",
+    "Version": "1.27.0-1",
     "binary:Package": "insserv",
     "binary:Summary": "boot sequence organizer using LSB init.d script dependency information",
     "db:Status-Abbrev": "ii ",
@@ -865,7 +865,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "insserv",
-    "source:Version": "1.26.0-1"
+    "source:Version": "1.27.0-1"
   },
   {
     "Architecture": "amd64",
@@ -4245,7 +4245,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "insserv, sysv-rc",
-    "Version": "0.66-1",
+    "Version": "0.67-1",
     "binary:Package": "startpar",
     "binary:Summary": "run processes in parallel and multiplex their output",
     "db:Status-Abbrev": "ii ",
@@ -4253,7 +4253,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "startpar",
-    "source:Version": "0.66-1"
+    "source:Version": "0.67-1"
   },
   {
     "Architecture": "amd64",
