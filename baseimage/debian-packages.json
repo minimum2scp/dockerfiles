@@ -3054,22 +3054,22 @@
   {
     "Architecture": "amd64",
     "Conflicts": "",
-    "Breaks": "libssl3 (<< 3.5.2-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
+    "Breaks": "libssl3 (<< 3.5.3-1), openssh-client (<< 1:9.4p1), openssh-server (<< 1:9.4p1), python3-m2crypto (<< 0.38.0-4)",
     "Depends": "libc6 (>= 2.38), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4), openssl-provider-legacy",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "8082",
+    "Installed-Size": "7954",
     "Origin": "",
     "Package": "libssl3t64",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libssl3 (= 3.5.2-1)",
+    "Provides": "libssl3 (= 3.5.3-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.2-1",
+    "Version": "3.5.3-1",
     "binary:Package": "libssl3t64:amd64",
     "binary:Summary": "Secure Sockets Layer toolkit - shared libraries",
     "db:Status-Abbrev": "ii ",
@@ -3077,7 +3077,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.5.2-1"
+    "source:Version": "3.5.3-1"
   },
   {
     "Architecture": "amd64",
@@ -3114,7 +3114,7 @@
     "Depends": "libc6 (>= 2.39), libcap2 (>= 1:2.10)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "1240",
+    "Installed-Size": "1232",
     "Origin": "",
     "Package": "libsystemd0",
     "Pre-Depends": "",
@@ -3125,7 +3125,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libgcrypt20, liblz4-1, liblzma5",
-    "Version": "258~rc4-1",
+    "Version": "258-1",
     "binary:Package": "libsystemd0:amd64",
     "binary:Summary": "systemd utility library",
     "db:Status-Abbrev": "ii ",
@@ -3133,7 +3133,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258~rc4-1"
+    "source:Version": "258-1"
   },
   {
     "Architecture": "amd64",
@@ -3293,7 +3293,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "libidn2-0",
-    "Version": "258~rc4-1",
+    "Version": "258-1",
     "binary:Package": "libudev1:amd64",
     "binary:Summary": "libudev shared library",
     "db:Status-Abbrev": "ii ",
@@ -3301,7 +3301,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258~rc4-1"
+    "source:Version": "258-1"
   },
   {
     "Architecture": "amd64",
@@ -3867,10 +3867,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libssl3t64 (>= 3.5.0)",
+    "Depends": "libc6 (>= 2.38), libssl3t64 (>= 3.5.0)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2497",
+    "Installed-Size": "2493",
     "Origin": "",
     "Package": "openssl",
     "Pre-Depends": "",
@@ -3881,7 +3881,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "ca-certificates",
-    "Version": "3.5.2-1",
+    "Version": "3.5.3-1",
     "binary:Package": "openssl",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3889,7 +3889,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.5.2-1"
+    "source:Version": "3.5.3-1"
   },
   {
     "Architecture": "amd64",
@@ -3909,7 +3909,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.5.2-1",
+    "Version": "3.5.3-1",
     "binary:Package": "openssl-provider-legacy",
     "binary:Summary": "Secure Sockets Layer toolkit - cryptographic utility",
     "db:Status-Abbrev": "ii ",
@@ -3917,7 +3917,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "openssl",
-    "source:Version": "3.5.2-1"
+    "source:Version": "3.5.3-1"
   },
   {
     "Architecture": "all",
@@ -4295,13 +4295,13 @@
     "Package": "systemd-standalone-sysusers",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "systemd-sysusers (= 258~rc4-1)",
+    "Provides": "systemd-sysusers (= 258-1)",
     "Recommends": "",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "libcryptsetup12, libidn2-0, libtss2-rc0t64",
-    "Version": "258~rc4-1",
+    "Version": "258-1",
     "binary:Package": "systemd-standalone-sysusers",
     "binary:Summary": "standalone sysusers binary for use in non-systemd systems",
     "db:Status-Abbrev": "ii ",
@@ -4309,7 +4309,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "systemd",
-    "source:Version": "258~rc4-1"
+    "source:Version": "258-1"
   },
   {
     "Architecture": "all",

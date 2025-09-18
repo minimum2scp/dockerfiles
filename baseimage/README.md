@@ -169,15 +169,15 @@ ii   libslang2                    2.3.3-5+b2                   amd64  S-Lang pro
 ii   libsmartcols1                2.41.1-3                     amd64  smart column output alignment library
 ii   libsqlite3-0                 3.46.1-8                     amd64  SQLite 3 shared library
 ii   libssh2-1t64                 1.11.1-1                     amd64  SSH2 client-side library
-ii   libssl3t64                   3.5.2-1                      amd64  Secure Sockets Layer toolkit - shared libraries
+ii   libssl3t64                   3.5.3-1                      amd64  Secure Sockets Layer toolkit - shared libraries
 ii   libstdc++6                   15.2.0-4                     amd64  GNU Standard C++ Library v3
-ii   libsystemd0                  258~rc4-1                    amd64  systemd utility library
+ii   libsystemd0                  258-1                        amd64  systemd utility library
 ii   libtasn1-6                   4.20.0-2                     amd64  Manage ASN.1 structures (runtime)
 ii   libtext-charwidth-perl       0.04-11+b4                   amd64  get display widths of characters on the terminal
 ii   libtext-wrapi18n-perl        0.06-10                      all    internationalized substitute of Text::Wrap
 ii   libtinfo6                    6.5+20250216-2               amd64  shared low-level terminfo library for terminal handling
 ii   libuchardet0                 0.0.8-2                      amd64  universal charset detection library - shared library
-ii   libudev1                     258~rc4-1                    amd64  libudev shared library
+ii   libudev1                     258-1                        amd64  libudev shared library
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.1-3                     amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
@@ -198,8 +198,8 @@ ii   net-tools                    2.10-1.3                     amd64  NET-3 netw
 ii   openssh-client               1:10.0p1-8                   amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.0p1-8                   amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.0p1-8                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii   openssl                      3.5.2-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
-ii   openssl-provider-legacy      3.5.2-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl                      3.5.3-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
+ii   openssl-provider-legacy      3.5.3-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.22                         all    Orphaned System-V-like init scripts
 ii   passwd                       1:4.18.0-1                   amd64  change and administer password and group data
 ii   perl                         5.40.1-6                     amd64  Larry Wall's Practical Extraction and Report Language
@@ -213,7 +213,7 @@ ii   sensible-utils               0.0.26                       all    Utilities 
 ii   sqv                          1.3.0-3                      amd64  OpenPGP signature verification program from Sequoia
 ii   startpar                     0.67-1                       amd64  run processes in parallel and multiplex their output
 ii   sudo                         1.9.17p2-1                   amd64  Provide limited super user privileges to specific users
-ii   systemd-standalone-sysusers  258~rc4-1                    amd64  standalone sysusers binary for use in non-systemd systems
+ii   systemd-standalone-sysusers  258-1                        amd64  standalone sysusers binary for use in non-systemd systems
 ii   sysv-rc                      3.14-4                       all    System-V-like runlevel change mechanism
 ii   sysvinit-core                3.14-4                       amd64  System-V-like init
 ii   sysvinit-utils               3.14-4                       amd64  System-V-like utilities
