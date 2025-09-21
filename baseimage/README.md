@@ -126,7 +126,7 @@ ii   libgdbm6t64                  1.26-1                       amd64  GNU dbm da
 ii   libgmp10                     2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
 ii   libgnutls30t64               3.8.10-2                     amd64  GNU TLS library - main runtime library
 ii   libgssapi-krb5-2             1.21.3-5                     amd64  MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii   libhogweed6t64               3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64               3.10.2-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   libidn2-0                    2.3.8-4                      amd64  Internationalized domain names (IDNA2008/TR46) library
 ii   libk5crypto3                 1.21.3-5                     amd64  MIT Kerberos runtime libraries - Crypto Library
 ii   libkeyutils1                 1.6.3-6                      amd64  Linux Key Management Utilities (library)
@@ -140,7 +140,7 @@ ii   liblzma5                     5.8.1-1.1                    amd64  XZ-format 
 ii   libmd0                       1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.1-3                     amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-2               amd64  shared libraries for terminal handling (wide character support)
-ii   libnettle8t64                3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64                3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1.1+b1                amd64  library implementing HTTP/2 protocol (shared library)
 ii   libnghttp3-9                 1.11.0-1                     amd64  HTTP/3 library with QUIC and QPACK (library)
