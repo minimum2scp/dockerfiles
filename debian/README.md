@@ -53,13 +53,13 @@ ii   libdb5.3t64              5.3.28+dfsg2-9               amd64  Berkeley v5.3 
 ii   libdebconfclient0        0.280                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libgcc-s1                15.2.0-4                     amd64  GCC support library
 ii   libgmp10                 2:6.3.0+dfsg-5               amd64  Multiprecision arithmetic library
-ii   libhogweed6t64           3.10.1-1                     amd64  low level cryptographic library (public-key cryptos)
+ii   libhogweed6t64           3.10.2-1                     amd64  low level cryptographic library (public-key cryptos)
 ii   liblastlog2-2            2.41.1-3                     amd64  lastlog2 database shared library
 ii   liblz4-1                 1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
 ii   liblzma5                 5.8.1-1.1                    amd64  XZ-format compression library
 ii   libmd0                   1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                2.41.1-3                     amd64  device mounting library
-ii   libnettle8t64            3.10.1-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
+ii   libnettle8t64            3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libpam-modules           1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin       1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime           1.7.0-5                      all    Runtime support for the PAM library
