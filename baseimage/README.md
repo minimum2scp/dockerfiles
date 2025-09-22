@@ -146,7 +146,7 @@ ii   libnghttp2-14                1.64.0-1.1+b1                amd64  library im
 ii   libnghttp3-9                 1.11.0-1                     amd64  HTTP/3 library with QUIC and QPACK (library)
 ii   libngtcp2-16                 1.15.1-1                     amd64  implementation of QUIC protocol (library)
 ii   libngtcp2-crypto-gnutls8     1.15.1-1                     amd64  implementation of QUIC protocol (library)
-ii   libp11-kit0                  0.25.5-3                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
+ii   libp11-kit0                  0.25.9-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
 ii   libpam-runtime               1.7.0-5                      all    Runtime support for the PAM library
