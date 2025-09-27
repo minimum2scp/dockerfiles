@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.153                        all    add and remove users and groups
-ii   apt                          3.1.5                        amd64  commandline package manager
+ii   apt                          3.1.6                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.41.2-1                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-198                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-198                   all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-199                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-199                   all    process scheduling daemon's configuration files
 ii   curl                         8.16.0-1                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.5                        amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.6                        amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
@@ -194,7 +194,7 @@ ii   mawk                         1.3.4.20250131-1             amd64  Pattern sc
 ii   mount                        2.41.2-1                     amd64  tools for mounting and manipulating filesystems
 ii   ncurses-base                 6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2               amd64  terminal-related programs and man pages
-ii   net-tools                    2.10-1.3                     amd64  NET-3 networking toolkit
+ii   net-tools                    2.10-2                       amd64  NET-3 networking toolkit
 ii   openssh-client               1:10.0p1-8                   amd64  secure shell (SSH) client, for secure access to remote machines
 ii   openssh-server               1:10.0p1-8                   amd64  secure shell (SSH) server, for secure access from remote machines
 ii   openssh-sftp-server          1:10.0p1-8                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
