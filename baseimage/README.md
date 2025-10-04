@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.153                        all    add and remove users and groups
-ii   apt                          3.1.6                        amd64  commandline package manager
+ii   apt                          3.1.7                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -72,7 +72,7 @@ ii   ca-certificates              20250419                     all    Common CA 
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
 ii   cron                         3.0pl1-199                   amd64  process scheduling daemon
 ii   cron-daemon-common           3.0pl1-199                   all    process scheduling daemon's configuration files
-ii   curl                         8.16.0-1                     amd64  command line tool for transferring data with URL syntax
+ii   curl                         8.16.0-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
 ii   debian-archive-keyring       2025.1                       all    OpenPGP archive certificates of the Debian archive
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.6                        amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.7                        amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
@@ -109,8 +109,8 @@ ii   libcap2                      1:2.75-10+b1                 amd64  POSIX 1003
 ii   libcbor0.10                  0.10.2-2                     amd64  library for parsing and generating CBOR (RFC 7049)
 ii   libcom-err2                  1.47.2-3+b3                  amd64  common error description library
 ii   libcrypt1                    1:4.4.38-1                   amd64  libcrypt shared library
-ii   libcurl3t64-gnutls           8.16.0-1                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
-ii   libcurl4t64                  8.16.0-1                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii   libcurl3t64-gnutls           8.16.0-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii   libcurl4t64                  8.16.0-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii   libdb5.3t64                  5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.280                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1               amd64  BSD editline and history libraries
@@ -135,16 +135,17 @@ ii   libkrb5support0              1.21.3-5                     amd64  MIT Kerber
 ii   libldap2                     2.6.10+dfsg-1                amd64  OpenLDAP libraries
 ii   liblognorm5                  2.0.6-5                      amd64  log normalizing library
 ii   liblz4-1                     1.10.0-4                     amd64  Fast LZ compression algorithm library - runtime
-ii   liblzma5                     5.8.1-1.1                    amd64  XZ-format compression library
+ii   liblzma5                     5.8.1-2                      amd64  XZ-format compression library
 ii   libmd0                       1.1.0-2+b1                   amd64  message digest functions from BSD systems - shared library
 ii   libmount1                    2.41.2-3                     amd64  device mounting library
 ii   libncursesw6                 6.5+20250216-2               amd64  shared libraries for terminal handling (wide character support)
 ii   libnettle8t64                3.10.2-1                     amd64  low level cryptographic library (symmetric and one-way cryptos)
 ii   libnewt0.52                  0.52.25-1                    amd64  Not Erik's Windowing Toolkit - text mode windowing with slang
 ii   libnghttp2-14                1.64.0-1.1+b1                amd64  library implementing HTTP/2 protocol (shared library)
-ii   libnghttp3-9                 1.11.0-1                     amd64  HTTP/3 library with QUIC and QPACK (library)
-ii   libngtcp2-16                 1.15.1-1                     amd64  implementation of QUIC protocol (library)
-ii   libngtcp2-crypto-gnutls8     1.15.1-1                     amd64  implementation of QUIC protocol (library)
+ii   libnghttp3-9                 1.12.0-1                     amd64  HTTP/3 mapping over QUIC and QPACK (library)
+ii   libngtcp2-16                 1.16.0-1                     amd64  QUIC protocol library
+ii   libngtcp2-crypto-gnutls8     1.16.0-1                     amd64  crypto helper library for with GnuTLS backend
+ii   libngtcp2-crypto-ossl0       1.16.0-1                     amd64  crypto helper library for with OpenSSL backend
 ii   libp11-kit0                  0.25.9-2                     amd64  library for loading and coordinating access to PKCS#11 modules - runtime
 ii   libpam-modules               1.7.0-5                      amd64  Pluggable Authentication Modules for PAM
 ii   libpam-modules-bin           1.7.0-5                      amd64  Pluggable Authentication Modules for PAM - helper binaries
