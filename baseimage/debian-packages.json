@@ -31,7 +31,7 @@
     "Architecture": "amd64",
     "Conflicts": "apt-verify, libnettle8 (<< 3.9.1-2.2~)",
     "Breaks": "apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)",
-    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv (>= 1.3.0), libapt-pkg7.0 (>= 3.1.7), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
+    "Depends": "base-passwd (>= 3.6.1) | adduser, sqv (>= 1.3.0), libapt-pkg7.0 (>= 3.1.8), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0",
     "Enhances": "",
     "Essential": "no",
     "Installed-Size": "4544",
@@ -39,13 +39,13 @@
     "Package": "apt",
     "Pre-Depends": "",
     "Priority": "required",
-    "Provides": "apt-transport-https (= 3.1.7)",
+    "Provides": "apt-transport-https (= 3.1.8)",
     "Recommends": "ca-certificates",
     "Replace": "",
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base",
-    "Version": "3.1.7",
+    "Version": "3.1.8",
     "binary:Package": "apt",
     "binary:Summary": "commandline package manager",
     "db:Status-Abbrev": "ii ",
@@ -53,7 +53,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "3.1.7"
+    "source:Version": "3.1.8"
   },
   {
     "Architecture": "amd64",
@@ -935,13 +935,13 @@
     "Package": "libapt-pkg7.0",
     "Pre-Depends": "",
     "Priority": "optional",
-    "Provides": "libapt-pkg (= 3.1.7)",
-    "Recommends": "apt (>= 3.1.7)",
+    "Provides": "libapt-pkg (= 3.1.8)",
+    "Recommends": "apt (>= 3.1.8)",
     "Replace": "",
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.1.7",
+    "Version": "3.1.8",
     "binary:Package": "libapt-pkg7.0:amd64",
     "binary:Summary": "package management runtime library",
     "db:Status-Abbrev": "ii ",
@@ -949,7 +949,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "apt",
-    "source:Version": "3.1.7"
+    "source:Version": "3.1.8"
   },
   {
     "Architecture": "amd64",
@@ -3394,7 +3394,7 @@
     "Depends": "libc6 (>= 2.38), libsqlite3-0 (>= 3.5.9)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "44",
+    "Installed-Size": "49",
     "Origin": "",
     "Package": "libwtmpdb0",
     "Pre-Depends": "",
@@ -3405,7 +3405,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "0.73.0-3",
+    "Version": "0.74.0-2",
     "binary:Package": "libwtmpdb0:amd64",
     "binary:Summary": "wtmp database shared library",
     "db:Status-Abbrev": "ii ",
@@ -3413,7 +3413,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "wtmpdb",
-    "source:Version": "0.73.0-3"
+    "source:Version": "0.74.0-2"
   },
   {
     "Architecture": "amd64",

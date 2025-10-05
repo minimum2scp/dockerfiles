@@ -61,7 +61,7 @@ installed packages:
 
 ```
 ii   adduser                      3.153                        all    add and remove users and groups
-ii   apt                          3.1.7                        amd64  commandline package manager
+ii   apt                          3.1.8                        amd64  commandline package manager
 ii   base-files                   14                           amd64  Debian base system miscellaneous files
 ii   base-passwd                  3.6.7                        amd64  Debian base system master password and group files
 ii   bash                         5.3-1                        amd64  GNU Bourne Again SHell
@@ -93,7 +93,7 @@ ii   initscripts                  3.14-4                       all    scripts fo
 ii   insserv                      1.27.0-1                     amd64  boot sequence organizer using LSB init.d script dependency information
 ii   libacl1                      2.3.2-2+b1                   amd64  access control list - shared library
 ii   libapparmor1                 4.1.0-1                      amd64  changehat AppArmor library
-ii   libapt-pkg7.0                3.1.7                        amd64  package management runtime library
+ii   libapt-pkg7.0                3.1.8                        amd64  package management runtime library
 ii   libattr1                     1:2.5.2-3                    amd64  extended attribute handling - shared library
 ii   libaudit-common              1:4.1.2-1                    all    Dynamic library for security auditing - common files
 ii   libaudit1                    1:4.1.2-1                    amd64  Dynamic library for security auditing
@@ -181,7 +181,7 @@ ii   libudev1                     258-1                        amd64  libudev sh
 ii   libunistring5                1.3-2                        amd64  Unicode string library for C
 ii   libuuid1                     2.41.2-3                     amd64  Universally Unique ID library
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
-ii   libwtmpdb0                   0.73.0-3                     amd64  wtmp database shared library
+ii   libwtmpdb0                   0.74.0-2                     amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
 ii   libzstd1                     1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
