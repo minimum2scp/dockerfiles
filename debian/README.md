@@ -77,7 +77,7 @@ ii   libtinfo6                6.5+20250216-2               amd64  shared low-lev
 ii   libudev1                 258-1                        amd64  libudev shared library
 ii   libuuid1                 2.41.2-3                     amd64  Universally Unique ID library
 ii   libxxhash0               0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                 1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm
+ii   libzstd1                 1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   login                    1:4.16.0-2+really2.41.2-3    amd64  system login tools
 ii   login.defs               1:4.18.0-1                   all    system user management configuration
 ii   mawk                     1.3.4.20250131-1             amd64  Pattern scanning and text processing language
