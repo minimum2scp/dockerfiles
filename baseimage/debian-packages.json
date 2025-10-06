@@ -297,7 +297,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "anacron, logrotate, checksecurity, supercat, bat",
-    "Version": "3.0pl1-199",
+    "Version": "3.0pl1-200",
     "binary:Package": "cron",
     "binary:Summary": "process scheduling daemon",
     "db:Status-Abbrev": "ii ",
@@ -305,7 +305,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-199"
+    "source:Version": "3.0pl1-200"
   },
   {
     "Architecture": "all",
@@ -325,7 +325,7 @@
     "Section": "admin",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "3.0pl1-199",
+    "Version": "3.0pl1-200",
     "binary:Package": "cron-daemon-common",
     "binary:Summary": "process scheduling daemon's configuration files",
     "db:Status-Abbrev": "ii ",
@@ -333,7 +333,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "cron",
-    "source:Version": "3.0pl1-199"
+    "source:Version": "3.0pl1-200"
   },
   {
     "Architecture": "amd64",
@@ -3450,7 +3450,7 @@
     "Depends": "libc6 (>= 2.34)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "904",
+    "Installed-Size": "843",
     "Origin": "",
     "Package": "libzstd1",
     "Pre-Depends": "",
@@ -3461,7 +3461,7 @@
     "Section": "libs",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-1.1",
+    "Version": "1.5.7+dfsg-2",
     "binary:Package": "libzstd1:amd64",
     "binary:Summary": "fast lossless compression algorithm",
     "db:Status-Abbrev": "ii ",
@@ -3469,7 +3469,7 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-1.1"
+    "source:Version": "1.5.7+dfsg-2"
   },
   {
     "Architecture": "all",
@@ -4735,10 +4735,10 @@
     "Architecture": "amd64",
     "Conflicts": "",
     "Breaks": "",
-    "Depends": "libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblz4-1 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)",
+    "Depends": "libc6 (>= 2.38), libgcc-s1 (>= 3.0), liblz4-1 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 14), zlib1g (>= 1:1.1.4)",
     "Enhances": "",
     "Essential": "no",
-    "Installed-Size": "2480",
+    "Installed-Size": "2312",
     "Origin": "",
     "Package": "zstd",
     "Pre-Depends": "",
@@ -4749,7 +4749,7 @@
     "Section": "utils",
     "Status": "install ok installed",
     "Suggests": "",
-    "Version": "1.5.7+dfsg-1.1",
+    "Version": "1.5.7+dfsg-2",
     "binary:Package": "zstd",
     "binary:Summary": "fast lossless compression algorithm -- CLI tool",
     "db:Status-Abbrev": "ii ",
@@ -4757,6 +4757,6 @@
     "db:Status-Status": "installed",
     "db:Status-Eflag": "ok",
     "source:Package": "libzstd",
-    "source:Version": "1.5.7+dfsg-1.1"
+    "source:Version": "1.5.7+dfsg-2"
   }
 ]

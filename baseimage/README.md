@@ -70,8 +70,8 @@ ii   bsdutils                     1:2.41.2-3                   amd64  basic util
 ii   bzip2                        1.0.8-6                      amd64  high-quality block-sorting file compressor - utilities
 ii   ca-certificates              20250419                     all    Common CA certificates
 ii   coreutils                    9.7-3                        amd64  GNU core utilities
-ii   cron                         3.0pl1-199                   amd64  process scheduling daemon
-ii   cron-daemon-common           3.0pl1-199                   all    process scheduling daemon's configuration files
+ii   cron                         3.0pl1-200                   amd64  process scheduling daemon
+ii   cron-daemon-common           3.0pl1-200                   all    process scheduling daemon's configuration files
 ii   curl                         8.16.0-2                     amd64  command line tool for transferring data with URL syntax
 ii   dash                         0.5.12-12                    amd64  POSIX-compliant shell
 ii   debconf                      1.5.91                       all    Debian configuration management system
@@ -183,7 +183,7 @@ ii   libuuid1                     2.41.2-3                     amd64  Universall
 ii   libwrap0                     7.6.q-36                     amd64  Wietse Venema's TCP wrappers library
 ii   libwtmpdb0                   0.74.0-2                     amd64  wtmp database shared library
 ii   libxxhash0                   0.8.3-2                      amd64  shared library for xxhash
-ii   libzstd1                     1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm
+ii   libzstd1                     1.5.7+dfsg-2                 amd64  fast lossless compression algorithm
 ii   localepurge                  0.7.3.11                     all    reclaim disk space by removing unneeded localizations
 ii   locales                      2.41-12                      all    GNU C Library: National Language (locale) data [support]
 ii   login                        1:4.16.0-2+really2.41.2-3    amd64  system login tools
@@ -229,5 +229,5 @@ ii   whiptail                     0.52.25-1                    amd64  Displays u
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ii   zsh                          5.9-8+b14                    amd64  shell with lots of features
 ii   zsh-common                   5.9-8                        all    architecture independent files for Zsh
-ii   zstd                         1.5.7+dfsg-1.1               amd64  fast lossless compression algorithm -- CLI tool
+ii   zstd                         1.5.7+dfsg-2                 amd64  fast lossless compression algorithm -- CLI tool
 ```
