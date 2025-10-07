@@ -38,7 +38,8 @@ I: Validating libc6 2.41-12
 I: Validating libcap-ng0 0.8.5-4+b1
 I: Validating libcap2 1:2.75-10+b1
 I: Validating libcrypt1 1:4.4.38-1
-I: Validating libdb5.3t64 5.3.28+dfsg2-9
+I: Retrieving libdb5.3t64 5.3.28+dfsg2-10
+I: Validating libdb5.3t64 5.3.28+dfsg2-10
 I: Validating libdebconfclient0 0.280
 I: Validating libgcc-s1 15.2.0-4
 I: Validating libgmp10 2:6.3.0+dfsg-5
@@ -66,7 +67,6 @@ I: Validating libtinfo6 6.5+20250216-2
 I: Validating libudev1 258-1
 I: Validating libuuid1 2.41.2-3
 I: Validating libxxhash0 0.8.3-2
-I: Retrieving libzstd1 1.5.7+dfsg-2
 I: Validating libzstd1 1.5.7+dfsg-2
 I: Validating login 1:4.16.0-2+really2.41.2-3
 I: Validating login.defs 1:4.18.0-1
