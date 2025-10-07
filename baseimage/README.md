@@ -111,7 +111,7 @@ ii   libcom-err2                  1.47.2-3+b3                  amd64  common err
 ii   libcrypt1                    1:4.4.38-1                   amd64  libcrypt shared library
 ii   libcurl3t64-gnutls           8.16.0-2                     amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii   libcurl4t64                  8.16.0-2                     amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii   libdb5.3t64                  5.3.28+dfsg2-9               amd64  Berkeley v5.3 Database Libraries [runtime]
+ii   libdb5.3t64                  5.3.28+dfsg2-10              amd64  Berkeley v5.3 Database Libraries [runtime]
 ii   libdebconfclient0            0.280                        amd64  Debian Configuration Management System (C-implementation library)
 ii   libedit2                     3.1-20250104-1               amd64  BSD editline and history libraries
 ii   liberror-perl                0.17030-1                    all    Perl module for error/exception handling in an OO-ish way
@@ -158,8 +158,8 @@ ii   libpopt0                     1.19+dfsg-2                  amd64  lib for pa
 ii   libproc2-0                   2:4.0.4-9                    amd64  library for accessing process information from /proc
 ii   libpsl5t64                   0.21.2-1.1+b1                amd64  Library for Public Suffix List (shared libraries)
 ii   librtmp1                     2.4+20151223.gitfa8646d.1-3  amd64  toolkit for RTMP streams (shared library)
-ii   libsasl2-2                   2.1.28+dfsg1-9               amd64  Cyrus SASL - authentication abstraction library
-ii   libsasl2-modules-db          2.1.28+dfsg1-9               amd64  Cyrus SASL - pluggable authentication modules (DB)
+ii   libsasl2-2                   2.1.28+dfsg1-10              amd64  Cyrus SASL - authentication abstraction library
+ii   libsasl2-modules-db          2.1.28+dfsg1-10              amd64  Cyrus SASL - pluggable authentication modules (DB)
 ii   libseccomp2                  2.6.0-2                      amd64  high level interface to Linux seccomp filter
 ii   libselinux1                  3.8.1-1                      amd64  SELinux runtime shared libraries
 ii   libsemanage-common           3.8.1-1                      all    Common files for SELinux policy management libraries
@@ -223,8 +223,8 @@ ii   tzdata                       2025b-5                      all    time zone 
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
 ii   util-linux                   2.41.2-3                     amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.1230-2                 all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.1230-2                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.1829-1                 all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.1829-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ii   zsh                          5.9-8+b14                    amd64  shell with lots of features
