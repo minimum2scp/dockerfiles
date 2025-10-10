@@ -22,49 +22,31 @@ describe 'minimum2scp/ruby-full' do
 
     [
       {
-        ruby: '3.4.5',
-        desc: 'ruby 3.4.5 (2025-07-16 revision 20cda200d3) +PRISM [x86_64-linux]',
-        rubygems_version: '3.7.1',
+        ruby: '3.4.7',
+        desc: 'ruby 3.4.7 (2025-10-08 revision 7a5688e2a2) +PRISM [x86_64-linux]',
+        rubygems_version: '3.7.2',
         gems: [
-          {name: 'bundler', version: 'default: 2.7.1'},
+          {name: 'bundler', version: 'default: 2.7.2'},
         ],
-        openssl_version: '3.5.1'
+        openssl_version: '3.5.4'
       },
       {
         ruby: '3.3.9',
         desc: 'ruby 3.3.9 (2025-07-24 revision f5c772fc7c) [x86_64-linux]',
-        rubygems_version: '3.7.1',
+        rubygems_version: '3.7.2',
         gems: [
-          {name: 'bundler', version: 'default: 2.7.1'},
+          {name: 'bundler', version: 'default: 2.7.2'},
         ],
-        openssl_version: '3.5.1'
+        openssl_version: '3.5.4'
       },
       {
         ruby: '3.2.9',
         desc: 'ruby 3.2.9 (2025-07-24 revision 8f611e0c46) [x86_64-linux]',
-        rubygems_version: '3.7.1',
+        rubygems_version: '3.7.2',
         gems: [
-          {name: 'bundler', version: 'default: 2.7.1'},
+          {name: 'bundler', version: 'default: 2.7.2'},
         ],
-        openssl_version: '3.5.1'
-      },
-      {
-        ruby: '3.1.7',
-        desc: 'ruby 3.1.7p261 (2025-03-26 revision 0a3704f218) [x86_64-linux]',
-        rubygems_version: '3.6.9',
-        gems: [
-          {name: 'bundler', version: 'default: 2.6.9'},
-        ],
-        openssl_version: '3.5.1'
-      },
-      {
-        ruby: '3.0.7',
-        desc: 'ruby 3.0.7p220 (2024-04-23 revision 724a071175) [x86_64-linux]',
-        rubygems_version: '3.5.23',
-        gems: [
-          {name: 'bundler', version: 'default: 2.5.23'},
-        ],
-        openssl_version: '1.1.1'
+        openssl_version: '3.5.4'
       },
     ].each do |v|
       describe command("rbenv versions --bare --skip-aliases") do
