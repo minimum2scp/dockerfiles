@@ -195,9 +195,9 @@ ii   mount                        2.41.2-4                     amd64  tools for 
 ii   ncurses-base                 6.5+20250216-2               all    basic terminal type definitions
 ii   ncurses-bin                  6.5+20250216-2               amd64  terminal-related programs and man pages
 ii   net-tools                    2.10-2                       amd64  NET-3 networking toolkit
-ii   openssh-client               1:10.1p1-2                   amd64  secure shell (SSH) client, for secure access to remote machines
-ii   openssh-server               1:10.1p1-2                   amd64  secure shell (SSH) server, for secure access from remote machines
-ii   openssh-sftp-server          1:10.1p1-2                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii   openssh-client               1:10.2p1-1                   amd64  secure shell (SSH) client, for secure access to remote machines
+ii   openssh-server               1:10.2p1-1                   amd64  secure shell (SSH) server, for secure access from remote machines
+ii   openssh-sftp-server          1:10.2p1-1                   amd64  secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii   openssl                      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   openssl-provider-legacy      3.5.4-1                      amd64  Secure Sockets Layer toolkit - cryptographic utility
 ii   orphan-sysvinit-scripts      0.22                         all    Orphaned System-V-like init scripts
@@ -223,8 +223,8 @@ ii   tzdata                       2025b-5                      all    time zone 
 ii   ucf                          3.0052                       all    Update Configuration File(s): preserve user changes to config files
 ii   unzip                        6.0-29                       amd64  De-archiver for .zip files
 ii   util-linux                   2.41.2-4                     amd64  miscellaneous system utilities
-ii   vim-common                   2:9.1.1829-1                 all    Vi IMproved - Common files
-ii   vim-tiny                     2:9.1.1829-1                 amd64  Vi IMproved - enhanced vi editor - compact version
+ii   vim-common                   2:9.1.1846-1                 all    Vi IMproved - Common files
+ii   vim-tiny                     2:9.1.1846-1                 amd64  Vi IMproved - enhanced vi editor - compact version
 ii   whiptail                     0.52.25-1                    amd64  Displays user-friendly dialog boxes from shell scripts
 ii   zlib1g                       1:1.3.dfsg+really1.3.1-1+b1  amd64  compression library - runtime
 ii   zsh                          5.9-8+b14                    amd64  shell with lots of features
